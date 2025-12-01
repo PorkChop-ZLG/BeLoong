@@ -1,0 +1,20 @@
+{
+	"replace": true,
+	"values": [
+		"dragonsurvival:wind_breath",
+		"dragonsurvival:typhoon",
+		"dragonsurvival:levitation",
+		"dragonsurvival:behuman",
+		"dragonsurvival:fair_wind",
+		"dragonsurvival:weather_dance",
+		"dragonsurvival:aether_wings",
+		"dragonsurvival:air_magic",
+		"dragonsurvival:wide_lungs",
+		"dragonsurvival:qi_concentration",
+		"dragonsurvival:weathers_child",
+		"dragonsurvival:aether_spin",
+		"dragonsurvival:aether_immunity",
+		"dragonsurvival:aether_claws_and_teeth",
+		"dragonsurvival:feather_falling"
+	]
+}

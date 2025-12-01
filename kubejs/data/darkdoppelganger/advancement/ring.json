@@ -1,0 +1,36 @@
+{
+  "parent": "darkdoppelganger:kill",
+  "criteria": {
+    "ring": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkdoppelganger:doppelganger_ring"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.doppelganger_ring.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "darkdoppelganger:doppelganger_ring"
+    },
+    "title": {
+      "translate": "advancement.doppelganger_ring.title"
+    }
+  },
+  "requirements": [
+    [
+      "ring"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

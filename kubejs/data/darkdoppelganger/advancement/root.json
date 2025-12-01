@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "get_scroll": {
+      "conditions": {
+        "items": [
+          {
+            "items": "darkdoppelganger:summon_scroll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "description": {
+      "translate": "advancement.summon_scroll.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "darkdoppelganger:summon_scroll"
+    },
+    "title": {
+      "translate": "advancement.summon_scroll.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "undergarden:eater_of_worlds/east",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "undergarden:eater_of_worlds/eater_of_worlds_east",
+              "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BXB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:grass"
+    },    
+	"X": {
+      "item": "yuushya:plain_gift_box"
+    }
+  },
+  "result":{ "id": "yuushya:gardener_gift_box","count":1}
+}

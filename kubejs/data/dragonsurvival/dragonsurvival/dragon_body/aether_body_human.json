@@ -1,0 +1,101 @@
+{
+  "animation": "dragonsurvival:custom_qinglong_animation",
+   "model": "dragonsurvival:qinglong",
+  "backpack_offset": {
+    "position_offset": [
+      0.0,
+      0.0,
+      10.0
+    ],
+    "scale": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "bettercombat_weapon_offset": -3.0,
+  "can_hide_wings": false,
+  "crouch_height_ratio": 0.83333333,
+  "default_icon": "dragonsurvival:textures/gui/custom/body/center/aether_dragon.png",
+  "emotes": "dragonsurvival:qinglong_emotes",
+  "is_default": false,
+  "unlockable_behavior": {
+    "visibility": "always_hidden"
+  },
+  "modifiers": [
+    {
+      "amount": 0.15,
+      "attribute": "dragonsurvival:flight_speed",
+      "operation": "add_multiplied_total"
+    },
+	  {
+      "amount": 0.15,
+      "attribute": "neoforge:swim_speed",
+      "operation": "add_multiplied_total"
+    },
+    {
+      "amount": 2.0,
+      "attribute": "dragonsurvival:mana",
+      "operation": "add_value"
+    },
+	  {
+      "amount": 0.15,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_total"
+    },
+	  {
+      "amount": 0.15,
+      "attribute": "minecraft:generic.jump_strength",
+      "operation": "add_value"
+    },
+	  {
+      "amount": 0.1,
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_multiplied_total"
+    },
+    {
+      "amount": 1.0,
+      "attribute": "dragonsurvival:flight_stamina",
+      "operation": "add_multiplied_total"
+    },
+	  {
+      "amount": -0.1,
+      "attribute": "minecraft:generic.armor",
+      "operation": "add_multiplied_total"
+    },
+    {
+      "amount": -0.1,
+      "attribute": "minecraft:generic.scale",
+      "operation": "add_value"
+    }
+  ],
+  "texture_size":
+  {
+    "width": 512,
+	"height": 512
+  },
+  "mounting_offset": {
+    "dragon_offset": [
+      0.0,
+      0.05,
+      -1.2
+    ],
+    "human_offset": [
+      0.0,
+      -0.15,
+      -1.2
+    ],
+    "offset_per_scale_above_one": [
+      0.0,
+      -0.25,
+      -0.5
+    ]
+  },
+  "scaling_proportions": {
+    "eye_height": 1.80,
+    "height": 2.0,
+    "width": 0.66,
+    "scale_multiplier": 0,
+    "shadow_multiplier": 0
+  }
+}

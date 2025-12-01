@@ -1,0 +1,179 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:irons_magic",
+                    "is_hidden": true,
+                    "should_remove_automatically": true
+                  },
+                  "modifiers": [
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.05,
+                        "per_level_above_first": 0.05
+                      },
+                      "attribute": "iss_magicfromtheeast:symmetry_spell_power",
+                      "operation": "add_multiplied_base"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        },
+        "target_type": "dragonsurvival:self"
+      },
+      "trigger_rate": 1.0
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:air_magic",
+                    "is_hidden": true,
+                    "should_remove_automatically": true
+                  },
+                  "modifiers": [
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 1.0,
+                        "per_level_above_first": 1.0
+                      },
+                      "attribute": "dragonsurvival:mana",
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        },
+        "target_type": "dragonsurvival:self"
+      },
+      "trigger_rate": 1.0
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:good_mana_condition",
+                    "is_hidden": true,
+                    "should_remove_automatically": true
+                  },
+                  "modifiers": [
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.02,
+                        "per_level_above_first": 0.02
+                      },
+                      "attribute": "dragonsurvival:mana_regeneration",
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                  "condition": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+          },
+          "targeting_mode": "allies_and_self"
+        },
+        "target_type": "dragonsurvival:self"
+      },
+      "trigger_rate": 1.0
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_2"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_4"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_6"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_8"
+      },
+      {
+        "from_level": 5,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_10"
+      },
+      {
+        "from_level": 6,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_12"
+      },
+      {
+        "from_level": 7,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_14"
+      },
+      {
+        "from_level": 8,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_16"
+      },
+      {
+        "from_level": 9,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_18"
+      },
+      {
+        "from_level": 10,
+        "texture_resource": "dragonsurvival:abilities/aether/air_magic_20"
+      }
+    ]
+  },
+  "upgrade": {
+    "experience_cost": {
+      "type": "minecraft:linear",
+      "base": 36.0,
+      "per_level_above_first": 36.0
+    },
+    "maximum_level": 10,
+    "upgrade_type": "dragonsurvival:experience_points"
+  }
+}

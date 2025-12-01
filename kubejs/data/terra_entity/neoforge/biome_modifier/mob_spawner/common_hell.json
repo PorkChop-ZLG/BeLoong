@@ -1,0 +1,30 @@
+{
+    "type": "neoforge:add_spawns",
+    "biomes": "#c:is_nether",
+    "spawners": [
+        {
+            "type": "terra_entity:hell_bat",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "terra_entity:fire_imp",
+            "weight": 0,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "terra_entity:demon",
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "terra_entity:voodoo_demon",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+        }
+    ]
+}

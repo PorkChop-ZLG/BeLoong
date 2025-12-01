@@ -1,0 +1,14 @@
+{
+  "type": "terra_entity:extended_add_spawns",
+  "biomes": "#terra_entity:is_ever_where",
+  "excludedBiomes": [],
+  "spawners": {
+    "category": "creature",
+    "super": {
+      "type": "terra_entity:traveling_merchant",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 1
+    }
+  }
+}

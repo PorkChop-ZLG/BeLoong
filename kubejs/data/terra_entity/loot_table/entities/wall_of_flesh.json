@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terra_curio:demon_heart"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:density": 100
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 64.0,
+                "max": 128.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dragonsurvival:elder_dragon_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 32.0,
+                "max": 64.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "irons_spellbooks:arcane_essence"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ],
+  "random_sequence": "terra_entity:entities/wall_of_flesh"
+}

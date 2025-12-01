@@ -1,0 +1,285 @@
+{
+  "portrait": {
+    "loonger_happy": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_happy.png",
+      "z": 0
+    },
+    "loonger_angry": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_angry.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_ask": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_ask.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_confused": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_confused.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_helpless": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_helpless.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_sad": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_sad.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_silent": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_silent.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_smile": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_smile.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_surprised": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_surprised.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_unhappy": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_unhappy.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loonger_utter": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loonger_utter.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "head": {
+      "type": "player_head",
+      "x": 13,
+      "y": -18,
+      "alignX": "left",
+      "alignY": "bottom",
+      "width": 0.5,
+      "value": "@s"
+    },
+    "stone_dragon_altar": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:stone_dragon_altar"
+    },
+    "item": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "ftbquests:book"
+    },
+    "item2": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "beyonddimensions:unstable_space_time_fragment"
+    },
+    "item3": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "beyonddimensions:stable_space_time_fragment"
+    },
+    "item4": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "beyonddimensions:net_creater"
+    },
+    "food1": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:charged_coal"
+    },
+    "food2": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:sweet_sour_rabbit"
+    },
+    "food3": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:frozen_raw_fish"
+    },
+    "heart_element": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:heart_element"
+    },
+    "weak_dragon_heart": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:weak_dragon_heart"
+    },
+    "elder_dragon_heart": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:elder_dragon_heart"
+    },
+    "primordial_anchor": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:primordial_anchor"
+    },
+    "end_crystal": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "'minecraft:end_crystal'"
+    }
+  },
+  "option": {
+    "texture": "chatbox:textures/options/gal_no_checked_option.png",
+    "selectTexture": "chatbox:textures/options/gal_checked_option.png",
+    "lockTexture": "chatbox:textures/options/gal_no_checked_option.png",
+    "x": 0,
+    "y": 20,
+    "optionChatX": 0,
+    "optionChatY": -2,
+    "width": 50,
+    "height": 10,
+    "alignX": "center",
+    "alignY": "top",
+    "textAlign": "center"
+  },
+  "dialogBox": {
+    "texture": "beloong:textures/chatbox/lanmao_dialog_box.png",
+    "alignX": "center",
+    "alignY": "bottom",
+    "x": 0,
+    "y": 0,
+    "width": 80,
+    "height": 40,
+    "lineWidth": 60,
+    "nameX": 10,
+    "nameY": 10,
+    "textX": 10,
+    "textY": 15
+  },
+  "functionalButton": [
+    {
+      "type": "LOG"
+    },
+    {
+      "type": "FASTFORWARD"
+    },
+    {
+      "type": "AUTOPLAY"
+    }
+  ],
+  "keyPrompt": {}
+}

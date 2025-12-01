@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#alshanex_familiars:hunter_pet_spawns_in",
+  "spawners": {
+    "type": "alshanex_familiars:hunter_pet",
+    "maxCount": 3,
+    "minCount": 2,
+    "weight": 5
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "block_factorys_bosses:yeti_hideout",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 10,
+    "salt": 787478644
+  }
+}

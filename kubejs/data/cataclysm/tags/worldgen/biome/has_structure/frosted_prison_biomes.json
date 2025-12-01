@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_plains",
+    {
+      "id": "regions_unexplored:icy_heights",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:frozen_tundra",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:spires",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:eroded_borealis",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:howling_peaks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:shattered_glacier",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "growth_items": [
+    {
+      "growth_in_ticks": 72000,
+      "items": "dragonsurvival:elder_dragon_heart"
+    },
+    {
+      "growth_in_ticks": -72000,
+      "items": "dragonsurvival:star_bone"
+    }
+  ],
+  "growth_range": {
+    "max": 300.0,
+    "min": 60.0
+  },
+  "is_default": false,
+  "is_natural_growth_stopped": {},
+  "modifiers": [
+    {
+      "amount": 0.5,
+      "attribute": "minecraft:generic.step_height",
+      "operation": "add_value"
+    },
+    {
+      "amount": 0.1,
+      "attribute": "minecraft:generic.jump_strength",
+      "operation": "add_value"
+    },
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 20.5,
+        "per_level_above_first": 0.5
+      },
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value"
+    },
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 6.55,
+        "per_level_above_first": 0.05
+      },
+      "attribute": "dragonsurvival:dragon_breath_range",
+      "operation": "add_value"
+    },
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 3.05,
+        "per_level_above_first": 0.05
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value"
+    },
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 1.015,
+        "per_level_above_first": 0.015
+      },
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "operation": "add_value"
+    },
+	  {
+      "amount": 0.80,
+      "attribute": "iss_magicfromtheeast:symmetry_magic_resist",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "ticks_until_grown": 69120000
+}

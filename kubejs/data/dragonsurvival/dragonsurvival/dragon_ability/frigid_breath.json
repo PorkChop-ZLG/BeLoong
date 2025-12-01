@@ -1,0 +1,296 @@
+{
+  "actions": [
+  {
+      "target_selection": {
+        "applied_effects": {
+		    "target_conditions": {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:air"
+              }
+            }
+          },
+          "block_effect": [
+            {
+              "conversion_data": [
+                {
+                  "blocks_to": [
+                    {
+                      "state": {
+                        "Name": "minecraft:ice"
+                      },
+                      "weight": 25
+                    }
+                  ],
+                  "from_predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:water"
+                    ]
+                  }
+                }
+              ],
+              "effect_type": "dragonsurvival:conversion",
+              "probability": 0.4
+            },
+			            {
+              "conversion_data": [
+                {
+                  "blocks_to": [
+                    {
+                      "state": {
+                        "Name": "minecraft:packed_ice"
+                      },
+                      "weight": 25
+                    }
+                  ],
+                  "from_predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:ice"
+                    ]
+                  }
+                }
+              ],
+              "effect_type": "dragonsurvival:conversion",
+              "probability": 0.09
+            },
+			{
+              "conversion_data": [
+                {
+                  "blocks_to": [
+                    {
+                      "state": {
+                        "Name": "minecraft:blue_ice"
+                      },
+                      "weight": 25
+                    }
+                  ],
+                  "from_predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:packed_ice"
+                    ]
+                  }
+                }
+              ],
+              "effect_type": "dragonsurvival:conversion",
+              "probability": 0.03
+            }
+          ]
+        },
+        "range_multiplier": 1.5,
+        "target_type": "dragonsurvival:dragon_breath"
+      },
+      "trigger_rate": 3.0
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "amount": {
+                "type": "minecraft:linear",
+                "base": 1.5,
+                "per_level_above_first": 1.5
+              },
+              "damage_type": "dragonsurvival:frigid_breath",
+              "effect_type": "dragonsurvival:damage"
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:entity_check_predicate",
+                "check_for": "living_entity"
+              }
+            }
+          },
+          "targeting_mode": "non_allies"
+        },
+        "range_multiplier": 1.5,
+        "target_type": "dragonsurvival:dragon_breath"
+      },
+      "trigger_rate": 4.0
+    },
+	    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+			{
+            "effect_type": "dragonsurvival:modifier",
+            "modifiers": [{
+            "base": {
+              "id": "dragonsurvival:chilled",
+              "duration": {
+                "type": "minecraft:linear",
+                "base": 100.0,
+                "per_level_above_first": 60.0
+              },
+              "should_remove_automatically": false,
+              "is_hidden": true
+			},
+              "modifiers": [
+                {
+                "attribute": "minecraft:generic.movement_speed",
+                "amount": {
+                "type": "minecraft:linear",
+                "base": -0.12,
+                "per_level_above_first": -0.12
+              },
+                "operation": "add_multiplied_total"
+				},
+                {
+                "attribute": "minecraft:generic.jump_strength",
+                "amount": {
+                "type": "minecraft:linear",
+                "base": -0.10,
+                "per_level_above_first": -0.10
+              },
+                "operation": "add_multiplied_total"
+				}
+				]
+
+            }]
+          }
+		  ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:entity_check_predicate",
+                "check_for": "living_entity"
+              }
+            }
+          },
+          "targeting_mode": "non_allies"
+        },
+        "range_multiplier": 1.5,
+        "target_type": "dragonsurvival:dragon_breath"
+      },
+      "trigger_rate": 4.0
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:breath_particles",
+              "main_particle": {
+                "type": "minecraft:poof",
+                "duration": 37.0,
+                "swirls": true
+              },
+              "secondary_particle": {
+                "type": "minecraft:snowflake",
+                "duration": 37.0,
+                "swirls": true
+              },
+              "speed_per_growth": 0.02,
+              "spread": 0.025
+            }
+          ],
+          "targeting_mode": "all"
+        },
+        "target_type": "dragonsurvival:self"
+      },
+      "trigger_rate": 1.0
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:channeled",
+    "animations": {
+      "looping": {
+        "animation_key": "breath",
+        "layer": "BREATH",
+        "locks_neck": false,
+        "locks_tail": false,
+        "transition_length": 5
+      },
+      "start_and_charging": {
+        "animation_key": "spell_charge",
+        "layer": "BREATH",
+        "locks_neck": false,
+        "locks_tail": false,
+        "transition_length": 5
+      }
+    },
+    "cast_time": 0.0,
+    "continuous_mana_cost": {
+      "type": "ticking",
+      "amount": 0.025
+    },
+    "cooldown": 0.0,
+    "sound": {
+      "end": "minecraft:block.amethyst_block.resonate",
+      "looping": "dragonsurvival:forest_breath_loop",
+      "start": "minecraft:block.amethyst_block.step"
+    }
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/tundra/frigid_breath_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/tundra/frigid_breath_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "dragonsurvival:abilities/tundra/frigid_breath_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "dragonsurvival:abilities/tundra/frigid_breath_3"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "dragonsurvival:abilities/tundra/frigid_breath_4"
+      },
+      {
+        "from_level": 5,
+        "texture_resource": "dragonsurvival:abilities/tundra/frigid_breath_4"
+      },
+      {
+        "from_level": 6,
+        "texture_resource": "dragonsurvival:abilities/tundra/frigid_breath_4"
+      }
+    ]
+  },
+  "upgrade": {
+    "level_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 20.0,
+        "per_level_above_first": 20.0
+      },
+      "values": [
+        0.0,
+        20.0,
+        40.0,
+        60.0,
+        80.0,
+        100.0
+      ]
+    },
+    "maximum_level": 6,
+    "upgrade_type": "dragonsurvival:experience_levels"
+  },
+  "usage_blocked": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "dragonsurvival:stress": {}
+      }
+    }
+  }
+}

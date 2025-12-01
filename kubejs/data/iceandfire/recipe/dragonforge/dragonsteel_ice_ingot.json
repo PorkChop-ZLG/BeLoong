@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "ice",
+  "cookTime": 400,
+  "input": {
+    "item": "eternal_starlight:swamp_silver_ingot"
+  },
+  "blood": {
+    "item": "iceandfire:ice_dragon_blood"
+  },
+  "result": {
+    "id": "iceandfire:dragonsteel_ice_ingot"
+  }
+}

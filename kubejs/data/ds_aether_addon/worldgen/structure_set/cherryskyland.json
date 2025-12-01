@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ds_aether_addon:cherryskyland",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 12,
+    "salt": 341146921
+  }
+}

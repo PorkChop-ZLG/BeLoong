@@ -1,0 +1,123 @@
+{
+  "portrait": {
+    "authors": {
+      "type": "texture",
+      "x": 0,
+      "y": -5,
+      "width": 20,
+      "height": 40,
+      "alignX": "left",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png"
+    },
+    "head": {
+      "type": "player_head",
+      "x": 20,
+      "y": 30,
+      "width": 10,
+      "value": "@s"
+    },
+    "item": {
+      "type": "item",
+      "x": 40,
+      "y": 30,
+      "scale": 3,
+      "value": "diamond"
+    },
+    "authors_fade_in": {
+      "type": "texture",
+      "x": 20,
+      "y": -5,
+      "width": 20,
+      "height": 40,
+      "alignX": "left",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png",
+      "renderOrder": -10,
+      "animation": "FADE_IN"
+    },
+    "authors_slide_in_from_bottom": {
+      "type": "texture",
+      "x": 40,
+      "y": -5,
+      "width": 20,
+      "height": 40,
+      "alignX": "left",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png",
+      "renderOrder": -10,
+      "animation": "SLIDE_IN_FROM_BOTTOM"
+    },
+    "authors_bounce": {
+      "type": "texture",
+      "x": 60,
+      "y": -5,
+      "width": 20,
+      "height": 40,
+      "alignX": "left",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png",
+      "renderOrder": -10,
+      "animation": "BOUNCE"
+    },
+    "custom_animation": {
+      "type": "player_head",
+      "value": "@s",
+      "x": 0,
+      "y": 20,
+      "width": 10,
+      "customAnimation": [
+        {
+          "time": 50,
+          "x": 20,
+          "easing": "EASE_OUT_SINE"
+        },
+        {
+          "time": 50,
+          "scale": 1.2,
+          "opacity": 0,
+          "easing": "EASE_OUT_SINE"
+        }
+      ],
+      "loop": true
+    }
+  },
+  "option": {
+    "texture": "chatbox:textures/options/default_no_checked_option.png",
+    "selectTexture": "chatbox:textures/options/default_checked_option.png",
+    "lockTexture": "chatbox:textures/options/default_lock_checked_option.png",
+    "x": 0,
+    "y": 30,
+    "width": 35,
+    "height": 8,
+    "alignX": "right",
+    "alignY": "top",
+    "optionChatX": -12,
+    "optionChatY": -2,
+    "textAlign": "left"
+  },
+  "dialogBox": {
+    "texture": "chatbox:textures/chatbox/default_dialog_box.png",
+    "alignX": "left",
+    "alignY": "bottom",
+    "lineWidth": 70,
+    "width": 100,
+    "height": 40,
+    "nameX": 20,
+    "nameY": 10,
+    "textX": 20,
+    "textY": 15
+  },
+  "functionalButton": [
+    {
+      "type": "log"
+    },
+    {
+      "type": "fastForward"
+    },
+    {
+      "type": "autoPlay"
+    }
+  ],
+  "keyPrompt": {}
+}

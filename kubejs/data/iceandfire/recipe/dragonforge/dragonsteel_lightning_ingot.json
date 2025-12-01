@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "lightning",
+  "cookTime": 400,
+  "input": {
+    "item": "eternal_starlight:aethersent_ingot"
+  },
+  "blood": {
+    "item": "iceandfire:lightning_dragon_blood"
+  },
+  "result": {
+    "id": "iceandfire:dragonsteel_lightning_ingot"
+  }
+}

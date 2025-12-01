@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "iss_magicfromtheeast:taoist_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 54513584,
+    "spacing": 30,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

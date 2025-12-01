@@ -1,0 +1,71 @@
+{
+  "general_data": {
+    "block_hit_effects": [],
+    "common_hit_effects": [],
+    "entity_hit_condition": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "dragonsurvival:entity_check_predicate",
+          "check_for": "living_entity"
+        }
+      }
+    },
+    "entity_hit_effects": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 10.0,
+          "per_level_above_first": 10.0
+        },
+        "damage_type": "minecraft:wind_charge",
+        "entity_effect": "dragonsurvival:damage"
+      }
+    ],
+    "name": "dragonsurvival:wind_blow",
+    "ticking_effects": []
+  },
+  "type_data": {
+    "behaviour_data": {
+      "height": 1.0,
+      "max_lifespan": 100.0,
+      "max_movement_distance": 32.0,
+      "width": 1.0
+    },
+    "on_destroy_effects": [
+      {
+        "general_data": {
+          "effects": [
+            {
+              "effect": {
+                "break_blocks": false,
+                "can_damage_self": false,
+                "damage_type": "minecraft:wind_charge",
+                "explosion_power": {
+                  "type": "minecraft:linear",
+                  "base": 1.0,
+                  "per_level_above_first": 1.0
+                },
+				"fire": false,
+                "world_effect": "dragonsurvival:explosion"
+              }
+            }
+          ]
+        },
+        "target_type": "dragonsurvival:point"
+      }
+    ],
+    "resources": {
+      "texture_entries": [
+        {
+          "from_level": 1,
+          "texture_resource": "dragonsurvival:fireball_custom"
+        }
+      ]
+    },
+    "trail_particle": {
+      "type": "minecraft:small_gust"
+    }
+  }
+}

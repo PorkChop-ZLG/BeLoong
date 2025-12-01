@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#alshanex_familiars:frostling_pet_spawns_in",
+  "spawners": {
+    "type": "alshanex_familiars:frostling_pet",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 5
+  }
+}

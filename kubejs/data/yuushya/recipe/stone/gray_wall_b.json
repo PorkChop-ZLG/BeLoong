@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 120,
+  "experience": 0.1,
+  "group": "diamond",
+  "ingredient": [
+    {
+      "item": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "item": "minecraft:gray_concrete_powder"
+    }
+  ],
+  "result": {
+    "id": "yuushya:gray_wall"
+  }
+}

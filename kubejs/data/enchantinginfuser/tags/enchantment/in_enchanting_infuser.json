@@ -1,0 +1,15 @@
+{
+  "remove": [
+    "#minecraft:curse"
+  ],
+  "values": [
+    {
+      "id": "#minecraft:in_enchanting_table",
+      "required": false
+    },
+    {
+      "id": "#minecraft:treasure",
+      "required": false
+    }
+  ]
+}

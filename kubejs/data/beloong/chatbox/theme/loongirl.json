@@ -1,0 +1,239 @@
+{
+  "portrait": {
+    "loongirl": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl.png",
+      "z": 0
+    },
+    "loongirl_angry": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl_angry.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loongirl_confident": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl_confident.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loongirl_happy": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl_happy.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loongirl_insidious": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl_insidious.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loongirl_joyful": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl_joyful.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loongirl_sigh": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl_sigh.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "loongirl_surprised": {
+      "type": "texture",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 64,
+      "alignX": "right",
+      "alignY": "bottom",
+      "value": "beloong:textures/portrait/loongirl_surprised.png",
+      "animation": "BOUNCE",
+      "duration": 100,
+      "z": 0
+    },
+    "head": {
+      "type": "player_head",
+      "x": 13,
+      "y": -18,
+      "alignX": "left",
+      "alignY": "bottom",
+      "width": 0.5,
+      "value": "@s"
+    },
+    "item": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "ftbquests:book"
+    },
+    "item2": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "beyonddimensions:unstable_space_time_fragment"
+    },
+    "item3": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "beyonddimensions:stable_space_time_fragment"
+    },
+    "item4": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "beyonddimensions:net_creater"
+    },
+    "food1": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:charged_coal"
+    },
+    "food2": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:sweet_sour_rabbit"
+    },
+    "food3": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:frozen_raw_fish"
+    },
+    "heart_element": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:heart_element"
+    },
+    "weak_dragon_heart": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:weak_dragon_heart"
+    },
+    "elder_dragon_heart": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:elder_dragon_heart"
+    },
+    "primordial_anchor": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "dragonsurvival:primordial_anchor"
+    },
+    "end_crystal": {
+      "type": "item",
+      "x": 20,
+      "y": 50,
+      "scale": 3,
+      "value": "'minecraft:end_crystal'"
+    }
+  },
+  "option": {
+    "texture": "chatbox:textures/options/gal_no_checked_option.png",
+    "selectTexture": "chatbox:textures/options/gal_checked_option.png",
+    "lockTexture": "chatbox:textures/options/gal_no_checked_option.png",
+    "x": 0,
+    "y": 20,
+    "optionChatX": 0,
+    "optionChatY": -2,
+    "width": 50,
+    "height": 10,
+    "alignX": "center",
+    "alignY": "top",
+    "textAlign": "center"
+  },
+  "dialogBox": {
+    "texture": "beloong:textures/chatbox/lanmao_dialog_box.png",
+    "alignX": "center",
+    "alignY": "bottom",
+    "x": 0,
+    "y": 0,
+    "width": 80,
+    "height": 40,
+    "lineWidth": 60,
+    "nameX": 10,
+    "nameY": 10,
+    "textX": 10,
+    "textY": 15
+  },
+  "functionalButton": [
+    {
+      "type": "LOG"
+    },
+    {
+      "type": "FASTFORWARD"
+    },
+    {
+      "type": "AUTOPLAY"
+    }
+  ],
+  "keyPrompt": {}
+}

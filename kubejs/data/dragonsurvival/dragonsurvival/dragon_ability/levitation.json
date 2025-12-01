@@ -1,0 +1,107 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "initial_mana_cost": {
+      "type": "minecraft:linear",
+      "base": 2,
+      "per_level_above_first": 2
+    },
+    "cast_time": {
+      "type": "minecraft:linear",
+      "base": 20,
+      "per_level_above_first": 10
+    },
+    "cooldown": {
+      "type": "minecraft:linear",
+      "base": 1200,
+      "per_level_above_first": 600
+    },
+    "can_move_while_casting": true,
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "cast_mass_buff",
+        "layer": "BASE",
+        "locks_neck": false,
+        "locks_tail": false
+      }
+    }
+  },
+   "upgrade": {
+    "upgrade_type": "dragonsurvival:experience_levels",
+    "maximum_level": 6,
+    "growth_requirement": {
+      "type": "minecraft:lookup"
+    },
+    "level_requirement": {
+      "type": "minecraft:linear",
+      "base": 0,
+      "per_level_above_first": 20
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:area",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:potion",
+              "potion": {
+                "effects": "gametechbcs_spellbooks:aerial_collapse",
+                "amplifier": {
+                  "type": "minecraft:linear",
+                  "base": 9,
+                  "per_level_above_first": 10
+                },
+                "duration": 100,
+                "probability": 1,
+                "effect_particles": false,
+                "show_icon": false
+              }
+            }
+          ],
+          "targeting_mode": "non_allies"
+        },
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 20,
+          "per_level_above_first": 10
+        }
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "can_be_manually_disabled": false,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/upstream_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/upstream_1",
+        "from_level": 1
+      },
+	  {
+        "texture_resource": "dragonsurvival:abilities/aether/upstream_2",
+        "from_level": 2
+      },
+	  {
+        "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
+        "from_level": 3
+      },
+	  {
+        "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
+        "from_level": 4
+      },
+	  {
+        "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
+        "from_level": 5
+      },
+	  {
+        "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
+        "from_level": 6
+      }
+    ]
+  }
+}

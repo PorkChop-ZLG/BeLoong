@@ -1,0 +1,179 @@
+{
+  "general_data": {
+    "block_hit_effects": [],
+    "common_hit_effects": [],
+    "entity_hit_condition": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "dragonsurvival:entity_check_predicate",
+          "check_for": "living_entity"
+        }
+      }
+    },
+    "entity_hit_effects": [],
+    "name": "dragonsurvival:singularity",
+    "ticking_effects": [
+      {
+        "general_data": {
+          "effects": [
+            {
+              "condition": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+			    "predicate": {
+			  	  "type_specific": {
+				    "type": "dragonsurvival:entity_check_predicate",
+				    "check_for": "living_entity"
+			      }
+			    }
+              },
+              "effect": {
+				"push_force": 0.3,
+				"target_direction": {
+				  "direction": "towards_entity"
+				},
+                "entity_effect": "dragonsurvival:push"
+              }
+            }
+          ],
+          "tick_rate": 1
+        },
+        "radius": 10.0,
+        "target_type": "dragonsurvival:area"
+      },
+	  {
+        "general_data": {
+          "effects": [
+            {
+              "condition": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+			    "predicate": {
+			  	  "type_specific": {
+				    "type": "dragonsurvival:entity_check_predicate",
+				    "check_for": "living_entity"
+			      }
+			    }
+              },
+              "effect": {
+				"push_force": 0.3,
+				"target_direction": {
+				  "direction": "towards_entity"
+				},
+                "entity_effect": "dragonsurvival:push"
+              }
+            }
+          ],
+          "tick_rate": 1
+        },
+        "radius": 5.0,
+        "target_type": "dragonsurvival:area"
+      },
+	  {
+        "general_data": {
+          "effects": [
+            {
+              "condition": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+			    "predicate": {
+			  	  "type_specific": {
+				    "type": "dragonsurvival:entity_check_predicate",
+				    "check_for": "living_entity"
+			      }
+			    }
+              },
+              "effect": {
+				"push_force": 0.5,
+				"target_direction": {
+				  "direction": "towards_entity"
+				},
+                "entity_effect": "dragonsurvival:push"
+              }
+            }
+          ],
+          "tick_rate": 1
+        },
+        "radius": 1.0,
+        "target_type": "dragonsurvival:area"
+      },
+	  {
+        "general_data": {
+          "effects": [
+		    {
+			  "condition": {
+			    "condition": "minecraft:entity_properties",
+			    "entity": "this",
+			    "predicate": {
+			  	  "type_specific": {
+				    "type": "dragonsurvival:entity_check_predicate",
+				    "check_for": "living_entity"
+			      }
+			    }
+			  },
+			  "effect": {
+				"entity_effect": "dragonsurvival:damage",
+				"damage_type": "dragonsurvival:singularity",
+				"amount": {
+				  "type": "minecraft:linear",
+				  "base": 2.0,
+				  "per_level_above_first": 1.0
+				}
+			  }
+		    }
+          ],
+          "tick_rate": 5
+        },
+        "radius": 1.0,
+        "target_type": "dragonsurvival:area"
+      }
+    ]
+  },
+  "type_data": {
+    "behaviour_data": {
+      "height": 1.0,
+      "max_lifespan": 100.0,
+      "max_lingering_ticks": 100.0,
+      "max_movement_distance": 32.0,
+      "width": 1.0
+    },
+    "on_destroy_effects": [
+      {
+        "general_data": {
+          "effects": [
+            {
+              "effect": {
+                "break_blocks": false,
+                "can_damage_self": false,
+                "damage_type": "dragonsurvival:singularity",
+                "explosion_power": {
+                  "type": "minecraft:linear",
+                  "base": 2.0,
+                  "per_level_above_first": 1.0
+                },
+                "fire": false,
+                "world_effect": "dragonsurvival:explosion"
+              }
+            }
+          ]
+        },
+        "target_type": "dragonsurvival:point"
+      }
+    ],
+    "resources": {
+      "texture_entries": [
+        {
+          "from_level": 1,
+          "texture_resource": "dragonsurvival:ball_lightning"
+        }
+      ]
+    },
+    "trail_particle": {
+      "type": "dragonsurvival:sun",
+	  "swirls": false,
+	  "duration": 37
+    }
+  }
+}

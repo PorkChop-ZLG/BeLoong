@@ -1,0 +1,36 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_plain",
+  "spawners": [
+    {
+      "type": "terra_entity:goblin_warrior",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 10
+    },
+    {
+      "type": "terra_entity:goblin_archer",
+      "maxCount": 3,
+      "minCount": 2,
+      "weight": 10
+    },
+    {
+      "type": "terra_entity:goblin_peon",
+      "maxCount": 3,
+      "minCount": 2,
+      "weight": 10
+    },
+    {
+      "type": "terra_entity:goblin_thief",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 10
+    },
+    {
+      "type": "terra_entity:goblin_sorcerer",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 10
+    }
+  ]
+}

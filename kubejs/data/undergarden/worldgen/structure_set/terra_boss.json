@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "undergarden:king_slime",
+      "weight": 1
+    },
+    {
+      "structure": "undergarden:eye_of_cthulhu",
+      "weight": 1
+    },
+    {
+      "structure": "undergarden:brain_of_cthulhu",
+      "weight": 1
+    },
+    {
+      "structure": "undergarden:queen_bee",
+      "weight": 1
+    },
+    {
+      "structure": "undergarden:eater_of_worlds",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 202507011,
+    "spacing": 12,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

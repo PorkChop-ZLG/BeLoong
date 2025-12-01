@@ -1,0 +1,151 @@
+{
+  "$introduce": "第五幕：龙族",
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.1"
+        },
+        "portrait": [
+          "loonger_happy"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loonger.dragon.2"
+        },
+        "portrait": [
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loonger.dragon.2.1",
+            "next": 2,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loonger.dragon.2.2",
+            "next": 2,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.3"
+        },
+        "portrait": [
+          "loonger_happy"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.4"
+        },
+        "portrait": [
+          "head"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.5"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.6"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.7"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.8"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.9"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+       {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.10"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loonger.dragon.11"
+        },
+        "portrait": [
+          "loonger_surprised",
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loonger.dragon.11.1",
+            "next": 11,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loonger.dragon.11.2",
+            "next": 11,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.dragon.12"
+        },
+        "portrait": [
+          "loonger_silent"
+        ]
+      }
+    ]
+  },
+  "isTranslatable": true,
+  "isEsc": true,
+  "isPause": true,
+  "isHistoricalSkip": true,
+  "maxTriggerCount": -1,
+  "theme": "beloong:loonger",
+  "criteria": {}
+}

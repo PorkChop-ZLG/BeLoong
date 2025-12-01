@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "ds_aether_addon:jungleskyland",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 114
+    },
+    "max_inclusive": {
+      "absolute": 255
+    }
+  },
+  "biomes": "#ds_aether_addon:has_structure/jungleskyland",
+  "use_expansion_hack": false
+}

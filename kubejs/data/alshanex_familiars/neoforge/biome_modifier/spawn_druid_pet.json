@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#alshanex_familiars:druid_pet_spawns_in",
+  "spawners": {
+    "type": "alshanex_familiars:druid_pet",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

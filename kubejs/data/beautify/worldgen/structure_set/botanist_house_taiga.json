@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "beautify:botanist_house_taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1994267089,
+    "spacing": 50,
+    "separation": 30
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "block_factorys_bosses:sandworm_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 10,
+    "salt": 1779810129
+  }
+}

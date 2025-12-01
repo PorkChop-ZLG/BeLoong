@@ -1,0 +1,58 @@
+{
+  "values": {
+    "dragonsurvival:aether_dragon": {
+      "dragonsurvival:aether_ancient": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/aether/aether_adult_glow.png",
+          "skin": "dragonsurvival:textures/dragon/aether/aether_adult.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_main.png"
+        }
+      },
+      "dragonsurvival:aether_adult": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/aether/aether_adult_glow.png",
+          "skin": "dragonsurvival:textures/dragon/aether/aether_adult.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_main.png"
+        }
+      },
+      "dragonsurvival:aether_child": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/aether/aether_newborn_glow.png",
+          "skin": "dragonsurvival:textures/dragon/aether/aether_newborn.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/newborn_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/aether/newborn_stage_main.png"
+        }
+      },
+      "dragonsurvival:aether_young": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/aether/aether_young_glow.png",
+          "skin": "dragonsurvival:textures/dragon/aether/aether_young.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/young_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/aether/young_stage_main.png"
+        }
+      }
+    },
+    "dragonsurvival:aether_dragon_human": {
+      "dragonsurvival:aether_ancient_human": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/aether_human/qinglong_glow.png",
+          "skin": "dragonsurvival:textures/dragon/aether_human/qinglong.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_main.png"
+        }
+      }
+    }
+  }
+}

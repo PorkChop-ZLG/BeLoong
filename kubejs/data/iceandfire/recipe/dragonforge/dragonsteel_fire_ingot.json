@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "fire",
+  "cookTime": 400,
+  "input": {
+    "item": "eternal_starlight:thermal_springstone_ingot"
+  },
+  "blood": {
+    "item": "iceandfire:fire_dragon_blood"
+  },
+  "result": {
+    "id": "iceandfire:dragonsteel_fire_ingot"
+  }
+}

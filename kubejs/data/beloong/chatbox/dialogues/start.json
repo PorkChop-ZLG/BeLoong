@@ -1,0 +1,216 @@
+{
+  "$introduce": "这是一段介绍本模组的文本",
+  "theme": "test:gal",
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "测试视频1",
+          "text": "这是一个测试视频，如果没有安装WaterMedia模组，就看不到视频。\n它显示于聊天框下方。\n你可以按上下方向键调节音量，按M键静音。但是不能跳转进度和暂停。"
+        },
+        "video": {
+          "canControl": false,
+          "path": "/Users/xxx/Documents/test.mp4",
+          "renderOrder": -5
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "测试视频2",
+          "text": "这也是一个测试视频，不像上一个视频，这次你点鼠标左键不能跳到下一句对话。\n注意它显示于聊天框上方。\n现在你可以按左右方向键调节播放进度，按空格暂停。\n另外还有一个坏消息，我设置了循环播放，所以你永远也没法跳到下一句话了。"
+        },
+        "video": {
+          "loop": true,
+          "canControl": true,
+          "canSkip": false,
+          "path": "/Users/xxx/Documents/test.mp4",
+          "renderOrder": 30,
+          "width": 50,
+          "height": 50,
+          "alignX": "center",
+          "alignY": "center"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.1"
+        },
+        "portrait": [
+          "authors",
+          "head",
+          {
+            "id": "head",
+            "x": 53,
+            "value": "zhenshiz"
+          },
+          "item"
+        ],
+        "options": [
+          {
+            "text": "chatbox.test.option.1"
+          },
+          {
+            "text": "chatbox.test.option.2"
+          },
+          {
+            "text": "chatbox.test.option.3"
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.2"
+        },
+        "portrait": [
+          "authors"
+        ],
+        "options": [
+          {
+            "text": "chatbox.test.option.1",
+            "isHidden": true,
+            "hidden": {
+              "objective": "test",
+              "value": "test"
+            }
+          },
+          {
+            "text": "chatbox.test.option.4",
+            "isLock": true,
+            "lock": {
+              "objective": "test",
+              "value": "test"
+            },
+            "tooltip": "chatbox.test.tooltip.1"
+          },
+          {
+            "text": "chatbox.test.option.5"
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.3"
+        },
+        "portrait": [
+          "authors"
+        ],
+        "command": "weather clear",
+        "options": [
+          {
+            "text": "chatbox.test.option.6",
+            "click": {
+              "type": "command",
+              "value": "weather rain"
+            }
+          },
+          {
+            "text": "chatbox.test.option.7",
+            "click": {
+              "type": "command",
+              "value": "weather clear"
+            }
+          },
+          {
+            "text": "chatbox.test.option.8",
+            "click": {
+              "type": "command",
+              "value": "weather thunder"
+            }
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.4"
+        },
+        "portrait": [
+          "authors"
+        ],
+        "sound": "minecraft:ambient.cave"
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.5"
+        },
+        "portrait": [
+          "authors",
+          "authors_fade_in",
+          "authors_slide_in_from_bottom",
+          "authors_bounce"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.6"
+        },
+        "portrait": [
+          "authors",
+          "custom_animation"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.7"
+        },
+        "portrait": [
+          "authors"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.8"
+        },
+        "portrait": [
+          "authors"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.9"
+        },
+        "portrait": [
+          "authors"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.10"
+        },
+        "portrait": [
+          "authors"
+        ],
+        "backgroundImage": "chatbox:textures/chatbox/default_dialog_box.png"
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.11"
+        },
+        "portrait": [
+          "authors"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.test.name.1",
+          "text": "chatbox.test.text.12"
+        },
+        "portrait": [
+          "authors"
+        ]
+      }
+    ]
+  },
+  "isTranslatable": true,
+  "isPause": false
+}

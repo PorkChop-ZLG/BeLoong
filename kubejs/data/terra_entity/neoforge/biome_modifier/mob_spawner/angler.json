@@ -1,0 +1,14 @@
+{
+  "type": "terra_entity:extended_add_spawns",
+  "biomes": "#c:is_river",
+  "excludedBiomes": [],
+  "spawners": {
+    "category": "creature",
+    "super": {
+      "type": "terra_entity:angler",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 2
+    }
+  }
+}

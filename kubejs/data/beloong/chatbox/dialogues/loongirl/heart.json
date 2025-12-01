@@ -1,0 +1,135 @@
+{
+  "$introduce": "第四幕：龙心",
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loongirl.heart.1"
+        },
+        "portrait": [
+          "head",
+          "weak_dragon_heart"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.heart.2"
+        },
+        "portrait": [
+          "loongirl_angry"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.heart.3"
+        },
+        "portrait": [
+          "loongirl_sigh"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.heart.4"
+        },
+        "portrait": [
+          "loongirl_joyful"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loongirl.heart.5"
+        },
+        "portrait": [
+          "loongirl"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loongirl.heart.5.1",
+            "next": 5,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loongirl.heart.5.2",
+            "next": 5,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.heart.6"
+        },
+        "portrait": [
+          "loongirl_sigh"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.heart.7"
+        },
+        "portrait": [
+          "loongirl_sigh",
+          "elder_dragon_heart"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loongirl.heart.8"
+        },
+        "portrait": [
+          "loongirl",
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loongirl.heart.8.1",
+            "next": 8,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loongirl.heart.8.2",
+            "next": 8,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.heart.9"
+        },
+        "portrait": [
+          "loongirl_confident"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.heart.10"
+        },
+        "portrait": [
+          "loongirl_happy"
+        ]
+      }
+    ]
+  },
+  "isTranslatable": true,
+  "isEsc": true,
+  "isPause": true,
+  "isHistoricalSkip": true,
+  "maxTriggerCount": -1,
+  "theme": "beloong:loongirl",
+  "criteria": {}
+}

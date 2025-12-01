@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.kill_dark_doppelganger.title"
+    },
+    "description": {
+      "translate": "advancement.kill_dark_doppelganger.description"
+    },
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "darkdoppelganger:root",
+  "criteria": {
+    "theharbinger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "darkdoppelganger:dark_doppelganger",
+          "nbt": "{Tags:[\"dark_doppelganger_boss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+  "experience": 1000
+}
+}

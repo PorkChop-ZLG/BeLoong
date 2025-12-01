@@ -1,0 +1,241 @@
+{
+  "$introduce": "第一幕：苏醒",
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.unknown",
+          "text": "chatbox.beloong.loongirl.awake.1"
+        },
+        "portrait": [
+          "loongirl"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.unknown",
+          "text": "chatbox.beloong.loongirl.awake.2"
+        },
+        "portrait": [
+          "loongirl_confident"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.unknown",
+          "text": "chatbox.beloong.loongirl.awake.3"
+        },
+        "portrait": [
+          "loongirl_happy"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loongirl.awake.4"
+        },
+        "portrait": [
+          "loongirl",
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loongirl.awake.4.1",
+            "next": 4,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loongirl.awake.4.2",
+            "next": 5,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.unknown",
+          "text": "chatbox.beloong.loongirl.awake.5",
+          "next": 6
+        },
+        "portrait": [
+          "loongirl_angry"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.unknown",
+          "text": "chatbox.beloong.loongirl.awake.6",
+          "next": 6
+        },
+        "portrait": [
+          "loongirl_angry"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.unknown",
+          "text": "chatbox.beloong.loongirl.awake.7"
+        },
+        "portrait": [
+          "loongirl_sigh"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.8"
+        },
+        "portrait": [
+          "loongirl_confident"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loongirl.awake.9"
+        },
+        "portrait": [
+          "loongirl",
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loongirl.awake.9.1",
+            "next": 9,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loongirl.awake.9.2",
+            "next": 9,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.10"
+        },
+        "portrait": [
+          "loongirl_angry"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.11"
+        },
+        "portrait": [
+          "loongirl_angry"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.12"
+        },
+        "portrait": [
+          "loongirl_joyful"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.13"
+        },
+        "portrait": [
+          "loongirl_joyful"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.14"
+        },
+        "portrait": [
+          "loongirl"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.15"
+        },
+        "portrait": [
+          "loongirl",
+          "item"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.16"
+        },
+        "portrait": [
+          "loongirl",
+          "item"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.17"
+        },
+        "portrait": [
+          "loongirl",
+          "head"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.18"
+        },
+        "portrait": [
+          "loongirl_happy"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.19"
+        },
+        "portrait": [
+          "loongirl_happy",
+          "item"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.20"
+        },
+        "portrait": [
+          "loongirl",
+          "item"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.awake.21"
+        },
+        "portrait": [
+          "loongirl",
+          "item"
+        ]
+      }
+    ]
+  },
+  "isTranslatable": true,
+  "isEsc": true,
+  "isPause": true,
+  "isHistoricalSkip": true,
+  "maxTriggerCount": -1,
+  "theme": "beloong:loongirl",
+  "criteria": {}
+}

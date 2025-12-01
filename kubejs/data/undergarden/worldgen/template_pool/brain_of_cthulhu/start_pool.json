@@ -1,0 +1,15 @@
+{
+  "name": "undergarden:brain_of_cthulhu/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "undergarden:brain_of_cthulhu/brain_of_cthulhu",
+        "processors": "undergarden:brain_of_cthulhu_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

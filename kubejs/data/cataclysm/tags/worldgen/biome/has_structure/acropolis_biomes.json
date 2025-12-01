@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warm_ocean",
+    {
+      "id": "regions_unexplored:rocky_reef",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:dead_sea",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:lush_stacks",
+      "required": false
+    }
+  ]
+}

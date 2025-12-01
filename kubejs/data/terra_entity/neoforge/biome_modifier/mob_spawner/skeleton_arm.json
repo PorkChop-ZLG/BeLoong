@@ -1,0 +1,54 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": [
+    {
+      "type": "terra_entity:big_helmet_anger_bones",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 0
+    },
+    {
+      "type": "terra_entity:big_muscle_anger_bones",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 0
+    },
+    {
+      "type": "terra_entity:big_bones",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 0
+    },
+    {
+      "type": "terra_entity:short_bones",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 0
+    },
+    {
+      "type": "terra_entity:anger_bones",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 0
+    },
+    {
+      "type": "terra_entity:big_anger_bones",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 0
+    },
+    {
+      "type": "terra_entity:cursed_skull",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 0
+    },
+    {
+      "type": "terra_entity:dark_caster",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 0
+    }
+  ]
+}

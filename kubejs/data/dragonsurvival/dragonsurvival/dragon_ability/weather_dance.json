@@ -1,0 +1,63 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "initial_mana_cost": 5,
+    "cast_time": 100,
+    "cooldown": 6000,
+    "can_move_while_casting": false,
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "dance",
+        "layer": "BASE",
+        "locks_neck": false,
+        "locks_tail": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:run_function",
+              "function": "ds_aether_addon:summonrain"
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            }
+          },
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 1
+    }
+  ],
+  "can_be_manually_disabled": false,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/weather_dance_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/weather_dance_1",
+        "from_level": 1
+      }
+    ]
+  }
+}

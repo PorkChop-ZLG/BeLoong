@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:windswept_forest",
+    "minecraft:windswept_hills",
+    "#c:is_windswept"
+  ]
+}

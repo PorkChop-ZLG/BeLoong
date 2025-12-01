@@ -1,0 +1,52 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "initial_mana_cost": 1,
+    "cast_time": 100,
+    "cooldown": 1200,
+    "can_move_while_casting": true,
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "dance",
+        "layer": "BASE",
+        "locks_neck": false,
+        "locks_tail": false
+      }
+    }
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 1,
+    "growth_requirement": 60
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:run_function",
+              "function": "beloong:behuman"
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        }
+      },
+      "trigger_rate": 1.0
+    }
+  ],
+  "can_be_manually_disabled": false,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/behuman_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/behuman_1",
+        "from_level": 1
+      }
+    ]
+  }
+}

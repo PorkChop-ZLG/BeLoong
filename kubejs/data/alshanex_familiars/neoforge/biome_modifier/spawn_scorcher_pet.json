@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#alshanex_familiars:scorcher_pet_spawns_in",
+  "spawn_costs": {
+    "alshanex_familiars:scorcher_pet": {
+      "charge": 4.0,
+      "energy_budget": 0.12
+    }
+  },
+  "spawners": {
+    "type": "alshanex_familiars:scorcher_pet",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 20
+  }
+}

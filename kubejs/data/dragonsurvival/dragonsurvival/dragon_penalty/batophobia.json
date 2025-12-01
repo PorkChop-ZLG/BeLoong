@@ -1,0 +1,67 @@
+{
+  "icon": "dragonsurvival:penalties/aether/bathophobia",
+  "condition": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "position": {
+            "y": {
+              "min": -64,
+              "max": 0
+            }
+          },
+          "dimension": "minecraft:overworld",
+          "can_see_sky": false
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "smokey": true
+        }
+      }
+    ]
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:mob_effect",
+    "potion": {
+      "effects": "ds_aether_addon:asphyxia",
+      "amplifier": 0,
+      "duration": 200,
+      "effect_particles": false,
+      "show_icon": true
+    }
+  },
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:supply",
+    "supply_type": "dragonsurvival:asphyxia_supply",
+    "attribute": "dragonsurvival:penalty_resistance_time",
+    "trigger_rate": 80,
+    "reduction_rate": 1,
+    "regeneration_rate": 0.01,
+    "recovery_items": [
+      {
+        "item_predicates": [
+          {
+            "items": "minecraft:glow_berries",
+            "count": 1,
+            "predicates": {}
+          }
+        ],
+        "percent_restored": 0.35
+      },
+      {
+        "item_predicates": [
+          {
+            "items": "minecraft:sweet_berries",
+            "count": 1
+          }
+        ],
+        "percent_restored": 1
+      }
+    ],
+    "display_like_hunger_bar": false
+  }
+}

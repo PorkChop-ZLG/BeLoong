@@ -1,0 +1,14 @@
+{
+  "type": "terra_entity:extended_add_spawns",
+  "biomes": "#c:is_beach",
+  "excludedBiomes": [],
+  "spawners": {
+    "category": "creature",
+    "super": {
+      "type": "terra_entity:party_girl",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 1
+    }
+  }
+}

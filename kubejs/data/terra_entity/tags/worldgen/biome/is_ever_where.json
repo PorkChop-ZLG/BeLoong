@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#c:is_forest",
+    "#c:is_plains",
+    "#c:is_mushroom",
+    "#c:is_taiga",
+    "#c:is_savanna",
+    "#c:is_windswept",
+    "#c:is_old_growth",
+    "#c:is_swamp",
+    "#c:is_stony_shores",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark"
+  ]
+}

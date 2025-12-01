@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#alshanex_familiars:mage_pet_spawns_in",
+  "spawners": {
+    "type": "alshanex_familiars:mage_pet",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

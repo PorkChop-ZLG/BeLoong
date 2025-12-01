@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "#forge:is_cold/end",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "$introduce": "第三幕：赠礼",
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.1"
+        },
+        "portrait": [
+          "loonger_surprised",
+          "head"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.2"
+        },
+        "portrait": [
+          "loonger_happy",
+          "stone_dragon_altar"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.3"
+        },
+        "portrait": [
+          "loonger_happy",
+          "head"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loonger.transform.4"
+        },
+        "portrait": [
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loonger.transform.4.1",
+            "next": 4
+          },
+          {
+            "text": "chatbox.beloong.loonger.transform.4.2",
+            "next": 4
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.5"
+        },
+        "portrait": [
+          "loonger_angry"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.6"
+        },
+        "portrait": [
+          "loonger_surprised",
+          "head"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.7"
+        },
+        "portrait": [
+          "loonger_surprised"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.8"
+        },
+        "portrait": [
+          "loonger_smile",
+          "food1"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.9"
+        },
+        "portrait": [
+          "loonger_confused",
+          "food1"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.10"
+        },
+        "portrait": [
+          "head",
+          "loonger_angry",
+          "food1"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.11"
+        },
+        "portrait": [
+          "food2",
+          "loonger_surprised"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.12"
+        },
+        "portrait": [
+          "food3",
+          "loonger_surprised"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.transform.13"
+        },
+        "portrait": [
+          "food3",
+          "loonger_surprised"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loonger.transform.13.1",
+            "next": 13
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loonger.transform.14"
+        },
+        "portrait": ["head"
+        ]
+      }
+    ]
+  },
+  "isTranslatable": true,
+  "isEsc": true,
+  "isPause": true,
+  "isHistoricalSkip": true,
+  "maxTriggerCount": -1,
+  "theme": "beloong:loonger",
+  "criteria": {}
+}

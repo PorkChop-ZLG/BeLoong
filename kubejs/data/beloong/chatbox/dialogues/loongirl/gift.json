@@ -1,0 +1,182 @@
+{
+  "$introduce": "第二幕：赠礼",
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loongirl.gift.1"
+        },
+        "portrait": [
+          "loongirl",
+          "head"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.2"
+        },
+        "portrait": [
+          "loongirl_confident"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.3"
+        },
+        "portrait": [
+          "loongirl_confident",
+          "item4"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.4"
+        },
+        "portrait": [
+          "loongirl",
+          "head",
+          "item2"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loongirl.gift.4.1",
+            "next": 4
+          },
+          {
+            "text": "chatbox.beloong.loongirl.gift.4.2",
+            "next": 4
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.5"
+        },
+        "portrait": [
+          "loongirl_sigh",
+          "item2"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.6"
+        },
+        "portrait": [
+          "loongirl_joyful",
+          "item2"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.7"
+        },
+        "portrait": [
+          "loongirl_joyful",
+          "item3"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.8"
+        },
+        "portrait": [
+          "loongirl_confident",
+          "item3"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.9"
+        },
+        "portrait": [
+          "loongirl",
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loongirl.gift.9.1",
+            "next": 9
+          },
+          {
+            "text": "chatbox.beloong.loongirl.gift.9.2",
+            "next": 9
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.10"
+        },
+        "portrait": [
+          "loongirl_angry"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.11"
+        },
+        "portrait": [
+          "loongirl_confident"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.12"
+        },
+        "portrait": [
+          "loongirl_happy"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loongirl",
+          "text": "chatbox.beloong.loongirl.gift.13"
+        },
+        "portrait": [
+          "loongirl",
+          "head",
+          "item2"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loongirl.gift.13.1",
+            "next": 13
+          },
+          {
+            "text": "chatbox.beloong.loongirl.gift.13.2",
+            "next": 13
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loongirl.gift.14"
+        },
+        "portrait": [
+          "head",
+          "item2"
+        ]
+      }
+    ]
+  },
+  "isTranslatable": true,
+  "isEsc": true,
+  "isPause": true,
+  "isHistoricalSkip": true,
+  "maxTriggerCount": -1,
+  "theme": "beloong:loongirl",
+  "criteria": {}
+}

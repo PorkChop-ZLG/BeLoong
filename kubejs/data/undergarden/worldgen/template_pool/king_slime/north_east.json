@@ -1,0 +1,15 @@
+{
+  "name": "undergarden:king_slime/north_east",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "undergarden:king_slime/king_slime_north_east",
+        "processors": "undergarden:king_slime_processor",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

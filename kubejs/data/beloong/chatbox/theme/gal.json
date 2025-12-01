@@ -1,0 +1,101 @@
+{
+  "portrait": {
+    "authors": {
+      "type": "texture",
+      "x": -5,
+      "y": -5,
+      "width": 30,
+      "height": 60,
+      "alignX": "left",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png",
+      "z": -1
+    },
+    "authors_fade_in": {
+      "type": "texture",
+      "width": 40,
+      "height": 80,
+      "alignX": "center",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png",
+      "animation": "FADE_IN",
+      "z": 1
+    },
+    "authors_slide_in_from_bottom": {
+      "type": "texture",
+      "x": 0,
+      "y": 10,
+      "width": 40,
+      "height": 80,
+      "alignX": "center",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png",
+      "animation": "SLIDE_IN_FROM_BOTTOM",
+      "z": -1
+    },
+    "authors_bounce": {
+      "type": "texture",
+      "width": 40,
+      "height": 80,
+      "alignX": "center",
+      "alignY": "bottom",
+      "value": "chatbox:textures/portrait/authors.png",
+      "animation": "BOUNCE",
+      "z": -1
+    },
+    "head": {
+      "type": "player_head",
+      "x": 20,
+      "y": 30,
+      "width": 10,
+      "value": "@s"
+    },
+    "item": {
+      "type": "item",
+      "x": 40,
+      "y": 30,
+      "scale": 3,
+      "value": "diamond"
+    }
+  },
+  "option": {
+    "texture": "chatbox:textures/options/gal_no_checked_option.png",
+    "selectTexture": "chatbox:textures/options/gal_checked_option.png",
+    "lockTexture": "chatbox:textures/options/gal_no_checked_option.png",
+    "x": 0,
+    "y": 20,
+    "optionChatX": 0,
+    "optionChatY": -2,
+    "width": 50,
+    "height": 10,
+    "alignX": "center",
+    "alignY": "top",
+    "textAlign": "center"
+  },
+  "dialogBox": {
+    "texture": "chatbox:textures/chatbox/gal_dialog_box.png",
+    "alignX": "center",
+    "alignY": "bottom",
+    "x": 0,
+    "y": -5,
+    "width": 80,
+    "height": 40,
+    "lineWidth": 60,
+    "nameX": 10,
+    "nameY": 10,
+    "textX": 10,
+    "textY": 15
+  },
+  "functionalButton": [
+    {
+      "type": "LOG"
+    },
+    {
+      "type": "FASTFORWARD"
+    },
+    {
+      "type": "AUTOPLAY"
+    }
+  ],
+  "keyPrompt": {}
+}

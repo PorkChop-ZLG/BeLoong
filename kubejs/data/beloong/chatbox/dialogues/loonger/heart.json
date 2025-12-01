@@ -1,0 +1,135 @@
+{
+  "$introduce": "第四幕：龙心",
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loonger.heart.1"
+        },
+        "portrait": [
+          "head",
+          "weak_dragon_heart"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.heart.2"
+        },
+        "portrait": [
+          "loonger_utter"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.heart.3"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.heart.4"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loonger.heart.5"
+        },
+        "portrait": [
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loonger.heart.5.1",
+            "next": 5,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loonger.heart.5.2",
+            "next": 5,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.heart.6"
+        },
+        "portrait": [
+          "loonger_sad"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.heart.7"
+        },
+        "portrait": [
+          "loonger_surprised",
+          "elder_dragon_heart"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "@s",
+          "text": "chatbox.beloong.loonger.heart.8"
+        },
+        "portrait": [
+          "loonger_angry",
+          "head"
+        ],
+        "options": [
+          {
+            "text": "chatbox.beloong.loonger.heart.8.1",
+            "next": 8,
+            "isLock": false,
+            "isHidden": false
+          },
+          {
+            "text": "chatbox.beloong.loonger.heart.8.2",
+            "next": 8,
+            "isLock": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.heart.9"
+        },
+        "portrait": [
+          "loonger_ask"
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "chatbox.beloong.loonger",
+          "text": "chatbox.beloong.loonger.heart.10"
+        },
+        "portrait": [
+          "loonger_helpless"
+        ]
+      }
+    ]
+  },
+  "isTranslatable": true,
+  "isEsc": true,
+  "isPause": true,
+  "isHistoricalSkip": true,
+  "maxTriggerCount": -1,
+  "theme": "beloong:loonger",
+  "criteria": {}
+}

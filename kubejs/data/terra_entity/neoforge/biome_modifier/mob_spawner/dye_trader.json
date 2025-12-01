@@ -1,0 +1,14 @@
+{
+  "type": "terra_entity:extended_add_spawns",
+  "biomes": "#minecraft:has_structure/village_desert",
+  "excludedBiomes": [],
+  "spawners": {
+    "category": "creature",
+    "super": {
+      "type": "terra_entity:dye_trader",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 2
+    }
+  }
+}

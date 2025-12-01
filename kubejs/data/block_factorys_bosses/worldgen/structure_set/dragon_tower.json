@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "block_factorys_bosses:dragon_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 20,
+    "salt": 178711064
+  }
+}

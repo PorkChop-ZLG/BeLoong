@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "terra_curio:frozen_turtle_shell",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.05
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

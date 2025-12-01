@@ -1,0 +1,126 @@
+{
+    "type": "neoforge:add_spawns",
+    "biomes": "#terra_entity:is_ever_where",
+    "spawners": [
+        {
+            "type": "terra_entity:black_slime",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 3
+        },
+        {
+            "type": "terra_entity:blue_slime",
+            "weight": 30,
+            "minCount": 2,
+            "maxCount": 4
+        },
+        {
+            "type": "terra_entity:cave_bat",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:giant_shelly",
+            "weight": 30,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "terra_entity:giant_worm",
+            "weight": 5,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "terra_entity:green_dumpling_slime",
+            "weight": 0,
+            "minCount": 1,
+            "maxCount": 3
+        },
+        {
+            "type": "terra_entity:green_slime",
+            "weight": 30,
+            "minCount": 3,
+            "maxCount": 3
+        },
+        {
+            "type": "terra_entity:nymph",
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "terra_entity:pink_slime",
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1
+        },
+        {
+            "type": "terra_entity:purple_slime",
+            "weight": 30,
+            "minCount": 1,
+            "maxCount": 3
+        },
+        {
+            "type": "terra_entity:red_slime",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:yellow_slime",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:demon_eye",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:flying_fish",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:bunny",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:squirrel",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:duck",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:bird",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:blue_jay",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        },
+        {
+            "type": "terra_entity:cardinal",
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 2
+        }
+    ]
+}

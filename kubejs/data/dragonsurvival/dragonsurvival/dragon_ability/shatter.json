@@ -1,0 +1,324 @@
+{
+  "actions": [
+	{
+      "target_selection": {
+        "target_type": "dragonsurvival:area",
+        "applied_effects": {
+          "entity_effect": [{
+            "effect_type": "dragonsurvival:damage",
+            "damage_type": "dragonsurvival:shatter",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 10,
+              "per_level_above_first": 10
+            }
+          }],
+          "target_conditions": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
+              },
+			    {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                      "type": "dragonsurvival:custom_predicates",
+                      "has_duration_effect": "dragonsurvival:chilled"
+                    }
+                }
+              }
+            ]
+          },
+          "targeting_mode": "non_allies"
+        },
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 15,
+          "per_level_above_first": 5
+        }
+      },
+      "trigger_rate": 0
+    },
+	    {
+      "target_selection": {
+        "target_type": "dragonsurvival:area",
+        "applied_effects": {
+          "entity_effect": [
+		  {
+            "effect_type": "dragonsurvival:particle",
+            "particle_data": {
+              "particle": {
+                "type": "minecraft:snowflake"
+              },
+              "horizontal_position": {
+                "type": "entity_position"
+              },
+              "vertical_position": {
+                "type": "entity_position"
+              },
+              "horizontal_velocity": {"base": 0},
+              "vertical_velocity": {"base": 2.0},
+              "speed": 0.3
+            },
+            "particle_count": 20
+          },
+		  {
+            "effect_type": "dragonsurvival:particle",
+            "particle_data": {
+              "particle": {
+                "type": "minecraft:cloud"
+              },
+              "horizontal_position": {
+                "type": "entity_position"
+              },
+              "vertical_position": {
+                "type": "entity_position"
+              },
+              "horizontal_velocity": {"base": 1.0},
+              "vertical_velocity": {"base": 1.0},
+              "speed": 0.02
+            },
+            "particle_count": 16
+          },
+		  {
+            "effect_type": "dragonsurvival:particle",
+            "particle_data": {
+              "particle": {
+                "type": "minecraft:bubble_pop"
+              },
+              "horizontal_position": {
+                "type": "entity_position"
+              },
+              "vertical_position": {
+                "type": "entity_position"
+              },
+              "horizontal_velocity": {"base": 1.0},
+              "vertical_velocity": {"base": 2.0},
+              "speed": 0.05
+            },
+            "particle_count": 10
+          }
+		  ],
+          "target_conditions": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
+              },
+			    {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                      "type": "dragonsurvival:custom_predicates",
+                      "has_duration_effect": "dragonsurvival:chilled"
+                    }
+                }
+              }
+            ]
+          },
+          "targeting_mode": "non_allies"
+        },
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 12,
+          "per_level_above_first": 4
+        }
+      },
+      "trigger_rate": 0
+    },
+	{
+      "target_selection": {
+        "target_type": "dragonsurvival:area",
+        "applied_effects": {
+          "entity_effect": [
+			{
+            "effect_type": "dragonsurvival:modifier",
+            "modifiers": [{
+            "base": {
+              "id": "dragonsurvival:chilled",
+              "duration": {
+                "type": "minecraft:linear",
+                "base": 0.0,
+                "per_level_above_first": 0.0
+              },
+              "should_remove_automatically": true,
+              "is_hidden": true
+			},
+              "modifiers": [
+				]
+
+            }]
+          },
+			{
+            "effect_type": "dragonsurvival:run_function",
+            "potion": {
+              "effects": "",
+              "amplifier": 0,
+              "duration": 0,
+              "probability": 0,
+              "effect_particles": false,
+              "show_icon": false
+            },
+            "function": "icedragon:clearchilled"
+          }
+		  ],
+          "target_conditions": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
+              },
+			    {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                      "type": "dragonsurvival:custom_predicates",
+                      "has_duration_effect": "dragonsurvival:chilled"
+                    }
+                }
+              }
+            ]
+          },
+          "targeting_mode": "non_allies"
+        },
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 12,
+          "per_level_above_first": 4
+        }
+      },
+      "trigger_rate": 0
+    },
+	{
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+			{
+            "effect_type": "dragonsurvival:run_function",
+            "potion": {
+              "effects": "",
+              "amplifier": 0,
+              "duration": 0,
+              "probability": 0,
+              "effect_particles": false,
+              "show_icon": false
+            },
+            "function": "icedragon:shattericicles"
+          }
+		  ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{inGround: 1b}"
+            }
+          },
+          "targeting_mode": "non_allies"
+        },
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 12,
+          "per_level_above_first": 4
+        }
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "spell_charge",
+        "layer": "BREATH",
+        "locks_neck": false,
+        "locks_tail": false,
+        "transition_length": 5
+      }
+    },
+    "cast_time": 20.0,
+    "cooldown": 100.0,
+    "initial_mana_cost": 2.0,
+    "sound": {
+      "end": "minecraft:block.glass.break"
+    }
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/tundra/shatter_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/tundra/shatter_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "dragonsurvival:abilities/tundra/shatter_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "dragonsurvival:abilities/tundra/shatter_3"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "dragonsurvival:abilities/tundra/shatter_4"
+      },
+      {
+        "from_level": 5,
+        "texture_resource": "dragonsurvival:abilities/tundra/shatter_4"
+      },
+      {
+        "from_level": 6,
+        "texture_resource": "dragonsurvival:abilities/tundra/shatter_4"
+      }
+    ]
+  },
+  "upgrade": {
+    "level_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 20.0,
+        "per_level_above_first": 20.0
+      },
+      "values": [
+        0.0,
+        20.0,
+        30.0,
+        40.0,
+        60.0,
+        80.0,
+        100.0
+      ]
+    },
+    "maximum_level": 6,
+    "upgrade_type": "dragonsurvival:experience_levels"
+  }
+}

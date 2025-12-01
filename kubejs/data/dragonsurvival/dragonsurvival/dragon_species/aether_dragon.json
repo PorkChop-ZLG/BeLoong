@@ -1,0 +1,43 @@
+{
+  "abilities": "#dragonsurvival:aether_dragon",
+  "bodies": [
+    "dragonsurvival:aether_body"
+  ],
+  "custom_stage_progression": [
+    "dragonsurvival:aether_child",
+    "dragonsurvival:aether_young",
+    "dragonsurvival:aether_adult",
+    "dragonsurvival:aether_ancient"
+  ],
+  "misc_resources": {
+    "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/air/cast_bar.png",
+    "altar_banner": "dragonsurvival:textures/gui/custom/altar/air/altar_icon.png",
+    "claw_texture_slot": "axe",
+    "food_sprites": "dragonsurvival:textures/gui/custom/food_icons/forest_food_icons.png",
+    "food_tooltip": {
+      "nutrition_icon": "\\uEA01",
+      "saturation_icon": "\\uEA04"
+    },
+    "growth_crystal": {
+      "empty": "dragonsurvival:textures/gui/custom/stage/aether/point_main.png",
+      "full": "dragonsurvival:textures/gui/custom/stage/aether/point_hover.png"
+    },
+    "growth_left_arrow": {
+      "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/left_arrow_hover.png",
+      "icon": "dragonsurvival:textures/gui/custom/stage/aether/left_arrow_main.png"
+    },
+    "growth_right_arrow": {
+      "hover_icon": "dragonsurvival:textures/gui/custom/stage/forest/right_arrow_hover.png",
+      "icon": "dragonsurvival:textures/gui/custom/stage/forest/right_arrow_main.png"
+    },
+    "mana_sprites": {
+      "empty": "dragonsurvival:textures/gui/custom/mana_icons/aether/empty.png",
+      "full": "dragonsurvival:textures/gui/custom/mana_icons/aether/full.png",
+      "recovery": "dragonsurvival:textures/gui/custom/mana_icons/aether/recovery.png",
+      "reserved": "dragonsurvival:textures/gui/custom/mana_icons/aether/reserved.png"
+    },
+    "primary_color": "#7AC1EB",
+    "secondary_color": "#92BDD6"
+  },
+  "penalties": "#dragonsurvival:aether_dragon"
+}

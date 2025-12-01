@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 1,
+        "p": 0.01
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:abeemination"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 1,
+        "p": 0.1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 1,
+        "p": 0.1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb"
+        }
+      ]
+    }
+  ]
+}
