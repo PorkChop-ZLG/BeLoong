@@ -13,7 +13,7 @@
 以下是详细的贡献方式：
 
 - **反馈BUG、提出建议**
-  - 使用GitHub的Issue功能进行反馈。如果你是中国用户，建议使用[这个表格](https://docs.qq.com/sheet/DVXBVYnNDTnNWcGJF?tab=BB08J2)。
+  - 使用 GitHub 的 Issues 功能进行反馈。如果你是中国用户，建议使用[这个表格](https://docs.qq.com/sheet/DVXBVYnNDTnNWcGJF?tab=BB08J2)。
 
 - **撰写任务**
   - 我们会在整合包自带的测试服务器进行实时编写，你可以联系服务器的管理员。**请勿在GitHub上提交。**
