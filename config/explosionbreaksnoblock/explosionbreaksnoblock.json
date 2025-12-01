@@ -1,0 +1,50 @@
+{
+  "general": {
+    "ExplosionBreaksNoBlockWhiteList": {
+      "comment": [
+        "不阻止破坏方块的爆炸源列表，当EBNB_ALL为true时，这里的爆炸源的行为不受影响",
+        "Even when EBNB_ALL is true, the behavior of these explosion sources is not affected",
+        "若你在此处填写minecraft:white_bed，即使ExplosionBreaksNoBlockList中填写了#minecraft:beds，白色床爆炸也仍会正常破坏方块",
+        "If you fill in minecraft:white_bed here, even if #minecraft:beds is filled in ExplosionBreaksNoBlockList, white bed will still break blocks when explodes"
+      ],
+      "value": ""
+    },
+    "ENID_ALL": {
+      "comment": [
+        "阻止所有爆炸破坏掉落物",
+        "Prevent all explosions from destroying item entities"
+      ],
+      "value": true
+    },
+    "EBNB_ALL": {
+      "comment": [
+        "阻止所有爆炸破坏方块",
+        "Prevent all explosions from destroying blocks"
+      ],
+      "value": false
+    },
+    "ExplosionBreaksNoBlockList": {
+      "comment": [
+        "阻止破坏方块的爆炸源列表，可以填写方块ID或实体ID以及它们的标签（以#开头）",
+        "List of explosion sources that no block destruction, can be block id or entity id or tag (start with #)",
+        "e.g. #minecraft:beds; minecraft:respawn_anchor; minecraft:creeper"
+      ],
+      "value": ""
+    },
+    "ExplosionNoItemDamageWhiteList": {
+      "comment": [
+        "不阻止破坏掉落物的爆炸源列表，当ENID_ALL为true时，这里的爆炸源的行为不受影响",
+        "Even when ENID_ALL is true, the behavior of these explosion sources is not affected"
+      ],
+      "value": ""
+    },
+    "ExplosionNoItemDamageList": {
+      "comment": [
+        "阻止破坏掉落物的爆炸源列表，可以填写方块ID或实体ID以及它们的标签（以#开头）",
+        "List of explosion sources that no destroying item entities, can be block id or entity id or tag (start with #)",
+        "e.g. #minecraft:beds; minecraft:respawn_anchor; minecraft:creeper; tacz:bullet"
+      ],
+      "value": ""
+    }
+  }
+}
