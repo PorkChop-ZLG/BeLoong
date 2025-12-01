@@ -1,0 +1,69 @@
+#Atom Sweep Config
+[common]
+	#扫地周期（分钟）
+	#Range: 0 ~ 100000
+	sweepPeriod = 10
+	#提前通知时间（秒）
+	#Range: 0 ~ 100000
+	sweepNotify = 30
+	#a
+	#Range: 0 ~ 100000
+	sweepDiscount = 5
+	#通知提示
+	sweepNotice = "§d饕餮：§a还有 §e%d §a秒就要去你家吃饭了~"
+	#清扫完通知提示
+	sweepNoticeComplete = "§d饕餮：§a这次一共吃掉了 §e%d §a个掉落物， §e%d §a个生物 §e%d §a个经验球和 §e%d §a个其他实体~"
+
+[item]
+	#物品实体清理功能
+	isItemEntityCleanupEnable = true
+	#白名单模式
+	itemWhiteMode = true
+	#黑名单模式
+	itemBlackMode = true
+	#白名单(优先级高于黑名单),使用<modid:*>实现通配符功能
+	itemEntitiesWhitelist = ["minecraft:diamond", "minecraft:emerald", "minecraft:ancient_debris", "minecraft:netherite_scrap", "minecraft:netherite_ingot", "dragonsurvival:*", "irons_spellbooks:*", "fdbosses:*"]
+	#黑名单,使用<modid:*>实现通配符功能
+	itemEntitiesBlacklist = []
+
+[entity]
+	#生物实体清理功能(最高优先级)
+	isAnimalEntitiesCleanupEnable = true
+	#生物清理是否掉落经验
+	isExpOn = false
+	#动物实体清理功能(次级)
+	isMonsterEntitiesCleanupEnable = true
+	#怪物实体清理功能(次级)
+	isMobEntityCleanupEnable = true
+	#白名单模式
+	mobWhiteMode = false
+	#黑名单模式
+	mobBlackMode = true
+	#生物白名单(优先级高于黑名单),使用<modid:*>实现通配符功能
+	mobEntitiesWhitelist = ["minecraft:chicken", "minecraft:cat", "minecraft:mule", "minecraft:wolf", "minecraft:horse", "minecraft:donkey", "minecraft:wither", "minecraft:guardian", "minecraft:villager", "minecraft:iron_golem", "minecraft:snow_golem", "minecraft:vindicator", "minecraft:ender_dragon", "minecraft:elder_guardian", "terra_entity:king_slime", "terra_entity:eye_of_cthulhu", "terra_entity:brain_of_cthulhu", "terra_entity:eater_of_worlds", "terra_entity:eater_of_worlds_segment", "terra_entity:queen_bee", "iceandfire:*", "minecraft:sniffer", "cataclysm:*", "bosses_of_mass_destruction:*", "darkdoppelganger:*", "irons_spellbooks:*"]
+	#生物黑名单,使用<modid:*>实现通配符功能
+	mobEntitiesBlacklist = ["minecraft:zombie", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:wither_skeleton", "minecraft:guardian", "minecraft:enderman", "touhou_little_maid:fairy", "meowmere:cat_projectile", "xfws_someitems:mana_star"]
+
+[others]
+	#经验球实体清理功能
+	isExperienceOrbEntityCleanupEnable = true
+	#下落方块实体清理功能
+	isFallingBlocksEntityCleanupEnable = false
+	#箭头实体清理功能
+	isArrowEntityCleanupEnable = false
+	#三叉戟实体清理功能
+	isTridentEntityCleanupEnable = false
+	#投射物实体清理功能
+	isDamagingProjectileEntityCleanupEnable = false
+	#子弹实体清理功能
+	isShulkerBulletEntityCleanupEnable = false
+	#烟花火箭实体清理功能
+	isFireworkRocketEntityCleanupEnable = false
+	#物品框实体清理功能
+	isItemFrameEntityCleanupEnable = false
+	#画实体清理功能
+	isPaintingEntityCleanupEnable = false
+	#船实体清理功能
+	isBoatEntityCleanupEnable = false
+	#TNT实体清理功能
+	isTNTEntityCleanupEnable = false

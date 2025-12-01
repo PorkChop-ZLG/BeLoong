@@ -1,0 +1,3 @@
+# Default: 0.2
+# Range: 0.0 ~ 1.0
+spawn_chance = 1.0

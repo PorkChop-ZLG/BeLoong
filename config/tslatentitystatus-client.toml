@@ -1,0 +1,183 @@
+["General Settings"]
+	#How close (in blocks) entities should be before TES starts tracking them
+	# Default: 64.0
+	# Range: 8.0 ~ 512.0
+	entityTrackingDistance = 64.0
+	#How frequently TES should clear out its tracking cache. Generally this should stay at default, but if you are noticing issues you can try adjusting it
+	# Default: 400
+	# Range: > 20
+	cacheCleanFrequency = 400
+
+["HUD Settings"]
+	#Whether the TES HUD should be enabled or not
+	hudEnabled = true
+	#What position the TES HUD should render in
+	#Allowed Values: TOP_LEFT, CENTER_TOP, TOP_RIGHT, CENTER_RIGHT, BOTTOM_RIGHT, BOTTOM_LEFT, CENTER_LEFT
+	hudRenderPosition = "TOP_LEFT"
+	#Manually adjust the left-offset rendering position of the TES HUD
+	# Default: 0
+	# Range: -100000 ~ 100000
+	hudPositionLeftAdjust = 0
+	#Manually adjust the top-offset rendering position of the TES HUD
+	# Default: 0
+	# Range: -100000 ~ 100000
+	hudPositionTopAdjust = 10
+	#How close (in blocks) the player has to be to render a HUD for an entity under the crosshairs
+	#Larger values may cost more performance
+	# Default: 64.0
+	# Range: 4.0 ~ 256.0
+	hudTargetDistance = 64.0
+	#How long (in ticks) after looking away from an entity before its HUD should stop rendering
+	# Default: 10
+	# Range: > 0
+	hudTargetGracePeriod = 10
+	#Whether the TES HUD should render the entity's image
+	hudEntityRender = true
+	#Whether the TES HUD should cull any overflow for entities that don't scale properly to their rendering frame
+	hudPreventEntityIconOverflow = false
+	#Select the health render type for the TES HUD
+	#Options:
+	#NUMERIC - Use numeric values for health only
+	#BAR - Use a health-bar style render
+	#BAR_ICONS - Display in the BAR style, but with the health numerically displayed in the stats icons row
+	#COMBINED - Use a health-bar style render with numeric values overlaid
+	#Allowed Values: NUMERIC, BAR, BAR_ICONS, COMBINED
+	healthRenderType = "COMBINED"
+	#What style TES font should render in for entity health in the HUD (if applicable)
+	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
+	hudHealthFontStyle = "OUTLINED"
+	#Set whether the TES HUD health bar should render bar-segments
+	hudHealthBarSegments = true
+	#Set how long the TES HUD health bar should be
+	# Default: 100
+	# Range: > 10
+	hudHealthBarLength = 100
+	#Set whether the TES HUD's entity icon should keep the red 'tint' entities get when the real entity takes damage or not
+	hudEntityDamageTint = true
+	#Whether the TES HUD should render the entity's name
+	hudEntityName = true
+	#Whether the TES HUD should render the entity's mod ID under its name
+	hudEntityNamespace = false
+	#What style TES font should render in for entity names in the HUD
+	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
+	hudEntityNameFontStyle = "OUTLINED"
+	#Whether the TES HUD should render if the entity is a boss (they usually have their own boss bars)
+	hudBossesEnabled = true
+	#Whether the TES HUD should render the entity's armour and toughness
+	hudArmour = true
+	#What style TES font should render in for entity armour values in the HUD
+	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
+	hudArmourFontStyle = "OUTLINED"
+	#Whether the TES HUD should render the entity's alignment icons
+	hudEntityIcons = true
+	#Whether the TES HUD should render the entity's effect icons
+	hudPotionIcons = true
+	#Whether the TES HUD should render horses' stats
+	hudHorseStats = true
+	#Set how opaque the TES HUD should be, overall. The lower the value, the more transparent the HUD will be
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	hudOpacity = 1.0
+	#Set how opaque the background behind the text on TES bars, if a render type is set that renders text
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	hudBarFontBackingOpacity = 0.5
+
+["In-World Bars Settings"]
+	#Whether TES should do in-world entity status bars
+	inWorldBarsEnabled = true
+	#Whether the TES in-world HUD should be enabled for the player or not
+	inWorldHudForSelf = false
+	#When the TES in-world status bars should render
+	#Options:
+	#ALWAYS - Any entity currently visible
+	#NEARBY_ONLY - Only entities nearby
+	#DAMAGED_ONLY - Only entities that have less than full health
+	#DAMAGED_AND_NEARBY - Only entities that are nearby and have less than full health
+	#LOOKING_AT - Only the currently targeted entity
+	#LOOKING_AT_AND_DAMAGED - Only the currently targeted entity, if it has less than full health
+	#LOOKING_AT_NEARBY_AND_DAMAGED - Only the currently targeted entity if it is nearby and has less than full health
+	#NOT_LOOKING_AT - Only when the entity isn't the one being rendered for the on-screen HUD
+	#NOT_LOOKING_AT_AND_DAMAGED - Only if not the currently targeted entity, if it has less than full health
+	#NOT_LOOKING_AT_NEARBY_AND_DAMAGED - Only if not the currently targeted entity, it is nearby and has less than full health
+	#Allowed Values: ALWAYS, NEARBY_ONLY, DAMAGED_ONLY, DAMAGED_AND_NEARBY, LOOKING_AT, LOOKING_AT_AND_DAMAGED, LOOKING_AT_NEARBY_AND_DAMAGED, NOT_LOOKING_AT, NOT_LOOKING_AT_AND_DAMAGED, NOT_LOOKING_AT_NEARBY_AND_DAMAGED
+	inWorldHudActivation = "DAMAGED_AND_NEARBY"
+	#Select the bar render type for the in-game TES entity status HUD
+	#Options:
+	#NUMERIC - Use numeric values only
+	#BAR - Use a health-bar style render
+	#BAR_ICONS - Display in the BAR style, but with the health numerically displayed in the stats icons row
+	#COMBINED - Use a health-bar style render with numeric values overlaid
+	#Allowed Values: NUMERIC, BAR, BAR_ICONS, COMBINED
+	inWorldBarsRenderType = "BAR"
+	#What style TES font should render in for entity health in the in-world HUD (if applicable)
+	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
+	inWorldHudHealthFontStyle = "NORMAL"
+	#How opaque the TES in-world entity HUD should be.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	inWorldHudOpacity = 1.0
+	#Set how long the TES in-world entity status bars should be
+	# Default: 50
+	# Range: > 10
+	inWorldBarsLength = 50
+	#Whether the in-world entity status bars should be segmented
+	inWorldBarsSegments = true
+	#Whether the in-world entity status HUD should render the entity's name
+	inWorldHudEntityName = false
+	#Whether the in-world entity status HUD should render the entity's mod ID under its name
+	inWorldHudEntityNamespace = false
+	#Whether the in-world entity status HUD should render if the entity is a boss (they usually have their own boss bars)
+	inWorldHudBossesEnabled = true
+	#What style TES font should render in for entity names in the in-world HUD
+	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
+	inWorldHudEntityNameFontStyle = "DROP_SHADOW"
+	#Whether the in-world entity status HUD should render the entity's armour values
+	inWorldHudArmour = false
+	#What style TES font should render in for entity armour values in the in-world HUD
+	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
+	inWorldHudArmourFontStyle = "DROP_SHADOW"
+	#Whether the in-world entity status HUD should render the entity's alignment icons
+	inWorldHudEntityIcons = false
+	#Whether the in-world entity status HUD should render the entity's effects icons
+	inWorldHudPotionIcons = false
+	#Whether the in-world TES entity status HUD should include horse stats
+	inWorldHudHorseStats = false
+	#Whether the in-world TES entity status HUD should override vanilla name rendering
+	inWorldHudNameOverride = true
+	#Set a manual vertical offset for the TES in-world HUD (in blocks) in the event of other mods doing overhead rendering
+	# Default: 0.0
+	# Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	inWorldHudManualVerticalOffset = 1.401298464324817E-45
+
+["Particle Settings"]
+	#Whether TES should do particles for various status changes such as damage dealt or health healed
+	tesParticlesEnabled = true
+	#What style TES particles' font should render in
+	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
+	particleFontStyle = "GLOWING"
+	#How long (in ticks) TES particles should display for
+	# Default: 60
+	# Range: 5 ~ 200
+	defaultParticleLifespan = 60
+	#How many decimals the numeric TES Particles should round to
+	#Or set to 0 to only use whole-numbers
+	# Default: 1
+	# Range: 0 ~ 8
+	particleDecimalPoints = 1
+	#Scale modifier for TES-Particles. The higher the value, the larger the particles
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	particleScale = 1.5
+	#Whether TES should do verbal health-status particles (E.G. INSTAKILL) in certain situations
+	verbalHealthParticles = true
+	#What colour the damage-type particles should be. Value can be a packed int, byte, or hex value. Format is ARGB
+	# Default: -65536
+	# Range: > -2147483648
+	damageParticleColour = -65536
+	#What colour the healing-type particles should be. Value can be a packed int, byte, or hex value. Format is ARGB
+	# Default: -16711936
+	# Range: > -2147483648
+	healParticleColour = -16711936
+	#Whether TES should change the colour of damage particles to the colour of the team that dealt the damage (if applicable)
+	teamBasedDamageParticleColours = false

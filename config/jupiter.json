@@ -1,0 +1,28 @@
+{
+  "tab1": {
+    "this is boolean": false,
+    "this is int": 0,
+    "this is int with range": 0,
+    "this is string": "",
+    "this is string list": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "this is string map": {
+      "1": "1",
+      "2": "2"
+    },
+    "": {}
+  },
+  "tab2": {},
+  "tab3": {},
+  "tab4": {},
+  "tab5": {},
+  "tab6": {},
+  "tab7": {},
+  "tab8": {},
+  "tab9": {}
+}

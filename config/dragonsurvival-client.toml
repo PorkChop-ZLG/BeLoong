@@ -1,0 +1,178 @@
+	[ui.magic]
+		#Offset for the x position of the skill bar
+		# Default: 0
+		# Range: > -2147483648
+		skill_bar_x_offset = 0
+		#Offset for the x position of the skill bar
+		# Default: 0
+		# Range: > -2147483648
+		skill_bar_y_offset = 0
+		#How long until the red overlay activates if an ability is disabled.
+		# Default: 0.8
+		# Range: 0.0 ~ 1.7976931348623157E308
+		mark_disabled_abilities_red_delay = 0.8
+		#Offset for the y position of the cast bar
+		# Default: 0
+		# Range: > -2147483648
+		casterBarYPos = 0
+		#How fast the lerp speed is for marking disabled abilities red.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		mark_disabled_abilities_red_lerp_speed = 0.05
+		#Offset for the y position of the mana bar
+		# Default: 0
+		# Range: > -2147483648
+		mana_bar_y_offset = 0
+		#Offset for the x position of the mana bar
+		# Default: 0
+		# Range: > -2147483648
+		mana_bar_x_offset = 0
+		#Offset for the x position of the cast bar
+		# Default: 0
+		# Range: > -2147483648
+		cast_bar_x_offset = 0
+
+	[ui.hud]
+		#If enabled the vanilla food bar will be shown
+		show_vanilla_food_bar = true
+		#If enabled the vanilla experience bar will be shown
+		show_vanilla_experience_bar = true
+
+	[ui.growth]
+		#Offset for the x position of the item growth icon
+		# Default: 0
+		# Range: > -2147483648
+		growth_x_offset = 0
+		#Offset for the y position of the item growth icon
+		# Default: 0
+		# Range: > -2147483648
+		growth_y_offset = 0
+
+	[ui.spin]
+		#Offset to the y position of the spin cooldown indicator
+		# Default: 0
+		# Range: > -2147483648
+		spin_cooldown_y_offset = 0
+		#Offset to the x position of the spin cooldown indicator
+		# Default: 0
+		# Range: > -2147483648
+		spin_cooldown_x_offset = 0
+
+[tooltips]
+	#Determines how dragon food tooltip is handled
+	#none: no food tooltip / default: always show current and others when shift is pressed / only_current: never show others / all_shift: show current and others only when shift is pressed
+	#Allowed Values: NONE, DEFAULT, ONLY_CURRENT, ALL_SHIFT
+	food_tooltip_style = "DEFAULT"
+	#If enabled certain modifications to some tooltips will be made (e.g. dragon food items)
+	tooltip_changes = true
+	#Adds enchantment descriptions to enchanted books which contain 1 enchantment (and said enchantment is from this mod)
+	enchantment_descriptions = true
+
+[effects]
+	#Determines how (or whether) ability effects should be displayed
+	#Allowed Values: HIDDEN, INVENTORY, GAME, INVENTORY_AND_GAME
+	ability_effect_display_type = "INVENTORY_AND_GAME"
+	#Bypasses the set display type in case certain effects should be always visible (namespace:path)
+	#The id to be specified here can be seen when hovering the effect with advanced tooltips enabled
+	ability_effect_always_visible = ["dragonsurvival:dragon_wings", "dragonsurvival:ender_dragon_curse"]
+
+	[effects.hunter]
+		#If enabled items held in first person will also appear translucent
+		hunter_translucent_items_in_first_person = true
+		#This enables the shader features of fabulous mode which are needed for translucency to work correctly
+		hunter_fix_translucency = true
+
+[rendering]
+	#If enabled dragon claws and teeth will have an overlay depending on the items in the claw slots
+	render_dragon_claws = true
+	#If enabled the dragon body will be visible in first person while flying
+	render_first_person_flight = false
+	#Disable all size-based camera modifications from DS
+	disable_camera_modifications = false
+	#Flat offset for the dragon's third person camera (is added after all other factors are combined)
+	# Default: 2.0
+	# Range: 0.0 ~ 32.0
+	flat_dragon_camera_offset = 2.0
+	#If enabled name tags will be shown for dragons
+	dragon_name_tags = true
+	#Lower values prevent x-ray through blocks when using a small entity scale
+	#A value that is too low may cause issues when rendering chunks when certain (unknown) mods are present
+	# Default: 0.019999999552965164
+	# Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	min_near_plane = 0.019999999552965164
+	#The curios slot which may contain the backpack (if Curios is installed)
+	backpack_slot = "back"
+	#enable / disable backpack rendering
+	render_backpack = true
+	#If enabled held items will be rendered neat the mouth of the dragon
+	#If disabled held items will be displayed on the side of the dragon
+	render_items_in_mouth = false
+	#If enabled your custom dragon skin will be rendered
+	render_custom_skin = true
+	#Base offset for the dragon's third person camera (is multiplied and scaled by the other factors)
+	# Default: 16.0
+	# Range: 0.0 ~ 32.0
+	base_dragon_camera_offset = 16.0
+	#If enabled custom skins of other players will be rendered
+	render_other_players_custom_skins = true
+	#If enabled the dragon body will be visible in first person
+	render_dragon_in_first_person = true
+	#The scale at which the dragon's third person camera will stop zooming in
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	dragon_camera_minimum_scale = 0.5
+	#If enabled items will be rendered for dragons while in third person mode
+	render_held_item = true
+	#How much scale impacts the third person camera distance
+	# Default: 0.15000000596046448
+	# Range: 0.0 ~ 2.0
+	dragon_camera_scale_factor = 0.15000000596046448
+
+[animation]
+	#The amount by which the movement animation speed factor is multiplied. 1.0 represents the animation speed accurately reflecting the speed of your movement.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	movement_animation_speed_factor = 1.0
+	#The factor by which the reduced additional animation speed from being bigger is multiplied. 1.0 represents the speed accurately reflecting the size of the dragon.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	large_size_animation_speed_factor = 1.0
+	#The factor by which the additional animation speed from being smaller is multiplied. 1.0 represents the speed accurately reflecting the size of the dragon.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	small_size_animation_speed_factor = 0.3
+	#The minimum animation speed allowed for dragons.
+	# Default: 0.2
+	# Range: 0.05 ~ 1.0
+	min_animation_speed = 0.2
+	#The maximum value that the speed factor can add to the base animation speed.
+	# Default: 3.0
+	# Range: 0.0 ~ 10.0
+	max_animation_speed_factor = 3.0
+	#The maximum animation speed allowed for dragons.
+	# Default: 1.5
+	# Range: 1.0 ~ 5.0
+	max_animation_speed = 1.5
+
+[misc]
+	#If enabled night vision will no longer flicker when on a low duration
+	stable_night_vision = true
+	#If enabled abilities will be cast by pressing their respective keybinds
+	#If disabled the global casting keybind will be used
+	alternate_cast_mode = false
+
+[inventory]
+	#If enabled the default inventory is replaced with a custom inventory
+	dragon_inventory = true
+	#If enabled there will be a button that lets you switch between the custom and vanilla inventory
+	inventory_toggle = true
+
+[flight]
+	#Enable / Disable a zoom effect while gliding as a dragon
+	flight_zoom_effect = true
+	#If enabled flight will be activated when jumping in the air
+	jump_to_fly = false
+	#Enable / Disable camera movement while gliding as a dragon
+	flight_camera_movement = true
+	#If enabled together with [jump_to_fly] you will be required to look at the sky to start flying
+	lookAtSkyForFlight = false

@@ -1,0 +1,23 @@
+{
+  "special": {
+    "fsr1": {
+      "fp16": true
+    },
+    "fsr2": {},
+    "nis": {},
+    "sgsr2": {
+      "variant": "CS_2"
+    },
+    "sgsr1": {}
+  },
+  "enableUpscale": true,
+  "upscaleRatio": 1.7,
+  "upscaleAlgo": "fsr1",
+  "sharpness": 0.55,
+  "captureMode": "a",
+  "debugDumpShader": false,
+  "skipLoadNativeLib": false,
+  "skipInitVulkan": false,
+  "enableRenderDoc": true,
+  "enableImgui": true
+}

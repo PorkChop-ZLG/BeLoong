@@ -1,0 +1,8 @@
+{
+  "beaconRadius": {
+    "level_3": 40,
+    "level_4": 50,
+    "level_1": 20,
+    "level_2": 30
+  }
+}

@@ -1,0 +1,16 @@
+[Client]
+	#If true, a new Xaero's Map way point will be add when you have search successfully
+	newWayPoint = false
+	#Displays Explorer's Compass information on the HUD even while chat is open.
+	displayWithChatOpen = true
+	#Attempts to translate structure names before fixing the unlocalized names. Translations may not be available for all structures.
+	translateStructureNames = true
+	#The line offset for information rendered on the HUD.
+	# Default: 1
+	# Range: 0 ~ 50
+	overlayLineOffset = 1
+	#The side for information rendered on the HUD. Ex: LEFT, RIGHT
+	#Allowed Values: LEFT, RIGHT
+	overlaySide = "LEFT"
+	#If this option is enabled, then show the structures that have been searched in the past.
+	showHaveFound = true

@@ -1,0 +1,496 @@
+[magic]
+	#Max. duration (in ticks) (20 ticks = 1 second) the source of magic effect can stack up to
+	# Default: 36000
+	# Range: > 0
+	source_of_magic_max_duration = 36000
+
+	[magic.abilities]
+		#If enabled all abilities will remain when changing dragon species
+		#This does not mean that the other dragon species gains these abilities
+		#It means that when turning to the previous type the abilities will have the same levels
+		save_all_abilities = true
+
+[dragon_hunters]
+	#How many experience points are gained when stealing from villagers
+	# Default: 4
+	# Range: > 0
+	pillager_experience_gain = 4
+	#Determines how long (in seconds) the trapped effect lasts
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	trapped_effect_duration = 5.0
+	#Cooldown in ticks (20 ticks = 1 second) before the entity can be pillaged again
+	# Default: 6000
+	# Range: > -2147483648
+	pillage_cooldown = 6000
+	#Max. distance the pillage icon will be rendered at (0 means it will be disabled)
+	# Default: 32
+	# Range: > -2147483648
+	max_pillage_render_distance = 32
+
+	[dragon_hunters.leader]
+		#Base value for the movement speed attribute
+		# Default: 0.35
+		# Range: 0.0 ~ 1.7976931348623157E308
+		leader_movement_speed = 0.35
+		#Base value for the armor toughness attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		leader_armor_toughness = 0.0
+		#Base value for the armor attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		leader_armor = 10.0
+		#Base value for the max health attribute
+		# Default: 24.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		leader_health = 50.0
+		#Base value for the knockback resistance attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		leader_knockback_resistance = 0.0
+
+	[dragon_hunters.knight]
+		#Base value for the attack knockback attribute
+		# Default: 0
+		# Range: > 0
+		knight_attack_knockback = 0
+		#Base value for the movement speed attribute
+		# Default: 0.3
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knight_movement_speed = 0.3
+		#Base value for the knockback resistance attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knight_knockback_resistance = 0.0
+		#Determines the chance (in %) of knights having a shield
+		# Default: 0.1
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knight_shield_chance = 0.4
+		#Base value for the attack damage attribute
+		# Default: 12
+		# Range: > 0
+		knight_damage = 12
+		#Base value for the max health attribute
+		# Default: 40.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		knight_health = 100.0
+		#Base value for the armor toughness attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knight_armor_toughness = 0.0
+		#Base value for the armor attribute
+		# Default: 10.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knight_armor = 10.0
+
+	[dragon_hunters.griffin]
+		#Base value for the flying speed attribute
+		# Default: 0.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		griffin_flying_speed = 0.2
+		#Base value for the max health attribute
+		# Default: 10.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		griffin_health = 10.0
+		#Base value for the attack damage attribute
+		# Default: 2
+		# Range: > 0
+		griffin_damage = 2
+		#Base value for the knockback resistance attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		griffin_knockback_resistance = 0.0
+		#Base value for the attack knockback attribute
+		# Default: 0
+		# Range: > 0
+		griffin_attack_knockback = 0
+		#Determines the attack radius of the griffin
+		# Default: 0.9
+		# Range: 0.0 ~ 256.0
+		griffin_range = 0.9
+		#Base value for the armor attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		griffin_armor = 0.0
+		#Base value for the movement speed attribute
+		# Default: 0.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		griffin_movement_speed = 0.2
+		#Base value for the armor toughness attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		griffin_armor_toughness = 0.0
+
+	[dragon_hunters.spearman]
+		#Additional vertical reach for the spearman
+		# Default: 2.5
+		# Range: 0.0 ~ 256.0
+		spearman_bonus_vertical_reach = 2.5
+		#Base value for the armor attribute
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		spearman_armor = 2.0
+		#Base value for the armor toughness attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		spearman_armor_toughness = 0.0
+		#Base value for the knockback resistance attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		spearman_knockback_resistance = 0.0
+		#Base value for the attack knockback attribute
+		# Default: 0
+		# Range: > 0
+		spearman_attack_knockback = 0
+		#Additional horizontal reach for the spearman
+		# Default: 0.5
+		# Range: 0.0 ~ 256.0
+		spearman_bonus_horizontal_reach = 0.5
+		#Base value for the max health attribute
+		# Default: 24.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		spearman_health = 24.0
+		#Base value for the attack damage attribute
+		# Default: 6
+		# Range: > 0
+		spearman_damage = 6
+		#Base value for the movement speed attribute
+		# Default: 0.35
+		# Range: 0.0 ~ 1.7976931348623157E308
+		spearman_movement_speed = 0.35
+
+	[dragon_hunters.ambusher]
+		#Base value for the attack knockback attribute
+		# Default: 0
+		# Range: > 0
+		ambusher_attack_knockback = 0
+		#Determines the amount of time (in ticks) (20 ticks = 1 second) that needs to pass before another ambusher spawn attempt is made
+		# Default: 12000
+		# Range: > 1
+		ambusher_spawn_frequency = 12000
+		#Base value for the movement speed attribute
+		# Default: 0.3
+		# Range: 0.0 ~ 1.7976931348623157E308
+		ambusher_movement_speed = 0.3
+		#Determines how many spearman reinforce the ambusher when he is attacked
+		# Default: 4
+		# Range: 0 ~ 256
+		spearman_reinforcement_count = 4
+		#Base value for the armor attribute
+		# Default: 10.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		ambusher_armor = 10.0
+		#Base value for the armor toughness attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		ambusher_armor_toughness = 0.0
+		#Base value for the knockback resistance attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		ambusher_knockback_resistance = 0.0
+		#Determines the crossbow attack rate (in ticks) (20 ticks = 1 second) of the ambusher
+		# Default: 65
+		# Range: > 65
+		ambusher_attack_interval = 65
+		#Determines how many hounds reinforce the ambusher when he is attacked
+		# Default: 2
+		# Range: 0 ~ 256
+		hound_reinforcement_count = 2
+		#Determines the chance (in %) of an ambusher spawning
+		#The spawn frequency will reset even if no actual spawn occurs due to this chance not being met
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		amusher_spawn_chance = 0.2
+		#Base value for the attack damage attribute
+		# Default: 12
+		# Range: > 0
+		ambusher_damage = 12
+		#Base value for the max health attribute
+		# Default: 40.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		ambusher_health = 40.0
+
+	[dragon_hunters.hound]
+		#Base value for the armor toughness attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		hound_armor_toughness = 0.0
+		#Base value for the attack damage attribute
+		# Default: 2
+		# Range: > 0
+		hound_damage = 2
+		#Base value for the max health attribute
+		# Default: 10.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		hound_health = 10.0
+		#Base value for the armor attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		hound_armor = 0.0
+		#Base value for the attack knockback attribute
+		# Default: 0
+		# Range: > 0
+		hound_attack_knockback = 0
+		#Base value for the movement speed attribute
+		# Default: 0.45
+		# Range: 0.0 ~ 1.7976931348623157E308
+		hound_movement_speed = 0.45
+		#Determines the chance (in %) of the knight hound applying the slowness effect when they attack
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		hound_slowdown_chance = 0.5
+		#Base value for the knockback resistance attribute
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		hound_knockback_resistance = 0.0
+
+	[effects.charged]
+		#Determines the damage dealt by the charged effect
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		charged_effect_damage = 1.0
+		#Amount of entities the charged effect can chain to at once
+		# Default: 2
+		# Range: > 0
+		charged_effect_max_chain_targets = 2
+		#Determines the max. amount of times the charged effect can chain. Set to -1 for infinite chaining
+		# Default: 5
+		# Range: > -1
+		charged_effect_max_chain = 5
+		#Determines the radius of the charged effect spread
+		# Default: 3.0
+		# Range: 0.0 ~ 256.0
+		charged_effect_spread_radius = 3.0
+
+	[effects.stress]
+		#The amount of exhaustion applied every 20 ticks while stressed. Each amplifier level cuts the delay in half.
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		stress_exhaustion = 2.0
+
+	[effects.drain]
+		#Determines the damage dealt by the drain effect
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		drain_effect_damage = 1.0
+
+	[effects.blast_dust]
+		#A multiplier to the amplifier which determines the explosion radius of the blast dust effect
+		# Default: 0.6000000238418579
+		# Range: 0.0 ~ 256.0
+		blast_dust_explosion_multiplier = 0.8
+
+	[effects.hunter]
+		#If enabled other players will be fully invisible at maximum hunter stacks
+		hunter_full_invisibility = true
+		#Determines the damage bonus (0.5 -> 50%) per level of the effect
+		#The damage bonus scales with the current stacks, max. amount being reached at max. stacks
+		# Default: 0.75
+		# Range: 4.9E-324 ~ 1.7976931348623157E308
+		hunter_damage_per_level = 2.0
+		#The current level compared to the maximum level determines how quickly stacks are gained or lost
+		# Default: 4
+		# Range: > -2147483648
+		hunter_max_level = 7
+
+[drops]
+	#Determines the chance (in %) of weak dragon hearts dropping from entities with a maximum health between 20 and 50
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	weak_dragon_heart_chance = 0.02
+	#Determines the chance (in %) of dragon heart shards dropping from entities with a maximum health between 14 and 20
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	dragon_heart_shard_chance = 0.05
+	#Should the entity type tag 'drops_weak_dragon_heart' be treated as a whitelist instead of a blacklist?
+	weak_dragon_heart_white_list = false
+	#Should the entity type tag 'drops_dragon_heart_shard' be treated as a whitelist instead of a blacklist?
+	dragon_heart_white_list = false
+	#Should the entity type tag 'drops_elder_dragon_heart' be treated as a whitelist instead of a blacklist?
+	elder_dragon_heart_white_list = false
+	#Determines the chance (in %) of elder dragon hearts dropping from entities with a maximum health above 50
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	elder_dragon_heart_chance = 0.01
+
+	[drops.ore]
+		#Determines the chance (in %) of bones dropping when a dragon harvests an ore block
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		dragon_ore_bone_chance = 0.05
+		#Determines the chance (in %) of dust dropping when a dragon harvests an ore block
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		dragon_ore_dust_chance = 0.5
+		#Determines the chance (in %) of bones dropping when a human harvests an ore block
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		human_ore_bone_chance = 0.01
+		#Require the ore to drop experience for it to drop dragon ore items
+		require_experience_drop_for_dragon_ore = false
+		#Determines the chance (in %) of dust dropping when a human harvests an ore block
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		human_ore_dust_chance = 0.05
+
+[growth]
+	#If enabled the current growth will be saved for the current dragon species when changing types or reverting back to being a human
+	save_growth_stage = false
+
+	[growth.big_dragon]
+		#The amount of ticks (20 ticks = 1 second) before an entity can be crushed again
+		# Default: 20
+		# Range: 0 ~ 20
+		crushing_interval = 20
+		#Determines the percentage chance that a block is removed, bypassing sound or particle effects
+		#This is to avoid potential lag issues due to large amounts of sound effects or particles
+		# Default: 0.96
+		# Range: 0.0 ~ 1.0
+		block_destruction_removal = 0.8
+		#The size ratio between the entity and the crusher for crushing to occur
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		crushing_size_ratio = 0.25
+
+[penalties]
+	#If enabled dragons will be limited to riding the entities in the entity tag 'dragonsurvival:vehicle_whitelist'
+	limited_riding = false
+
+[general]
+	#If enabled the items in the claw inventory will not drop on death
+	retain_claw_items = true
+	#If enabled dragon claw and teeth (which indicate the currently equipped claw tools) will be synchronized to other players
+	#This may be relevant for any sort of PvP content
+	sync_claw_render = true
+	#If enabled players will be given a choice to select a dragon species when first joining the world
+	start_with_dragon_choice = false
+	#If enabled dragons will not take suffocation damage
+	disable_dragon_suffocation = true
+	#Cooldown (in seconds) after using an altar
+	# Default: 0
+	# Range: > 0
+	altar_cooldown = 0
+	#Enables the transformation of certain blocks into dragon altars when using an elder dragon bone item on them
+	transform_altar = true
+	#If enabled players that have not yet chosen a dragon species will be able to do so from the vanilla inventory
+	allow_dragon_choice_from_inventory = true
+	#If enabled, players will start as a dragon and will never be allowed to be a human.
+	no_humans_allowed = false
+
+[source_of_magic]
+	#Source of magic that does not match the dragon species will damage the player if enabled
+	damage_on_wrong_source_of_magic = true
+
+[wings]
+	#How much does the change in horizontal speed impact the damage taken from a collision whilst flying?
+	# Default: 10.0
+	# Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	collision_damage_speed_factor = 10.0
+	#The amount of damage subtracted from the base damage when a collision occurs whilst flying.
+	# Default: 3.0
+	# Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
+	collision_damage_threshold = 3.0
+	#If enabled dragons will automatically stop fold their wings (i.e. stop flying) when landing
+	fold_wings_on_land = false
+	#If enabled hovering will behave the same as creative flight (i.e. stable flight)
+	stable_hover = true
+	#Flight speed multiplier
+	# Default: 0.3
+	# Range: 0.1 ~ 1.0
+	flight_speed_multiplier = 0.3
+	#Cooldown (in seconds) of the spin attack during flight
+	# Default: 5
+	# Range: > 0
+	flight_spin_cooldown = 5
+	#Determines the food values at which the dragon will stop being able to fly mid-flight
+	# Default: 0
+	# Range: 0 ~ 20
+	fold_wings_threshold = 2
+	#Dragons will take fall damage from colliding whilst glide-flying (similar to elytra).
+	enable_flight_fall_damage = false
+	#Determines the amount of ticks (20 ticks = 1 second) it takes for one hunger point to be drained while flying
+	# Default: 50
+	# Range: > 1
+	flight_hunger_ticks = 100
+	#Dragons will take damage from colliding whilst glide-flying (similar to elytra).
+	enable_collision_damage = false
+	#Determines the required food values to be able to fly
+	# Default: 6
+	# Range: 0 ~ 20
+	flight_hunger_threshold = 4
+	#Dragons always accelerate vertically when flying, even when they aren't moving fast enough.
+	no_speed_requirement_for_vertical_acceleration = true
+
+[primordial_anchor]
+	#If enabled, the primordial anchor will give the flight grant state.
+	primordial_anchor_gives_flight_grant_state = true
+	#If enabled, the primordial anchor will give the spin grant state.
+	primordial_anchor_gives_spin_grant_state = true
+	#If enabled, the primordial anchor will become unusuable as long as the ender dragon is dead.
+	anchor_has_bloody_state = false
+
+[treasure]
+	#The maximum amount of additional treasure that can affect the health regeneration reduction
+	#Only treasures within a 16 x 9 x 16 radius are considered
+	# Default: 240
+	# Range: 1 ~ 2304
+	max_treasure_for_rate_reduction = 240
+	#Sleeping on treasure blocks will regenerate health if enabled
+	treasure_health_regeneration = true
+	#The time in ticks (20 ticks = 1 second) it takes to recover 1 health while sleeping on treasure
+	# Default: 280
+	# Range: > 0
+	treasure_health_regeneration_rate = 280
+	#The amount of ticks (20 ticks = 1 second) each nearby treasure reduces the health regeneration time by
+	#(i.e. it increases the rate of regeneration)
+	# Default: 1
+	# Range: > 0
+	nearby_treasure_rate_reduction = 1
+	#Effects that are granted when skipping a night when sleeping on treasures
+	#Format: resource/tag;duration;amplifier;duration_multiplier;amplifier_multiplier
+	#The resource can also be defined using regular expressions (for both namespace and path)
+	#the multipliers are applied per nearby treasure ('max_treasure_for_rate_reduction' is used as limit)
+	#(amplifier is calculated with +1, the +1 is subtracted for the final result)
+	effects_on_sleep = ["minecraft:regeneration;200;0;0.5;0.01"]
+
+[ender_dragon]
+	#If enabled, the ender dragon will curse you with an effect that prevents you from using some of your abilities when killed.
+	ender_dragon_curses_you = false
+
+[riding]
+	#Offset the riding position per entity type
+	#Format: resource/tag;x_offset;y_offset;z_offset
+	#The resource can also be defined using regular expressions (for both namespace and path)
+	riding_offsets = ["#c:boats;0.0;0.9;0.0"]
+
+[food]
+	#Dragons will need to adhere to their diets if enabled
+	dragon_food_is_required = false
+	#Chance of getting poisoned from eating non-dragon food
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	bad_food_poison_chance = 0.0
+	#Disable all modifications that dragon survival does to the food system. Some mods will have this setting automatically enabled (such as TFC).
+	disable_dragon_food_handling = false
+
+	[items.dragon_soul]
+		#Cooldown (in ticks) (20 ticks = 1 second) that occurs after using the dragon soul
+		# Default: 1200
+		# Range: > 0
+		dragon_soul_cooldown = 0
+
+[debug]
+	#If enabled vaults will immediately update their state
+	force_vault_state_updates = false
+
+[abilities]
+	#Determines how players are handled for the initial targeting of abilities
+	#The flags can be combined, e.g. '3' combines the flags '1' and '2'
+	#0: No special handling (players are allies on the same team, otherwise they count as 'neutral')
+	#1: They are always considered as 'ally'
+	#2: They are always considered as 'enemy' (unless they're on the same team without friendly fire enabled)
+	#4: Enabled Friendly fire on a team no longer flags players as 'enemy'
+	# Default: 0
+	# Range: > -2147483648
+	player_targeting_handling = 1

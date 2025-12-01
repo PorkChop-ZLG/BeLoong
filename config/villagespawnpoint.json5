@@ -1,0 +1,6 @@
+{
+	// The tag used to locate the village structure. Can be changed for improved modded village compatibility. It's the same tag used in the '/locate structure <tag>' command.
+	"locateVillageTag": "#minecraft:village",
+	// If a custom value was entered in 'locateVillageTag' and no spawn point can be found, use '#minecraft:village' as a fallback value.
+	"keepDefaultVillageTagBackup": true
+}

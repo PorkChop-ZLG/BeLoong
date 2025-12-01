@@ -1,0 +1,24 @@
+["Boss Health"]
+	"Knight Health" = 300.0
+	#Max Health : 1024
+	"Sandworm Health" = 500.0
+	"Yeti Health" = 600.0
+	"Dragon Health" = 700.0
+
+["Boss Armor"]
+	"Knight Armor" = 0.0
+	#Max Armor : 30
+	"Sandworm Armor" = 20.0
+	"Yeti Armor" = 10.0
+	"Dragon Armor" = 30.0
+
+["Base Boss Damages"]
+	"Yeti Damage" = 36.0
+	#Not all damages sources depends on this variable !
+	"Sandworm Damage" = 30.0
+	"Dragon Damage" = 40.0
+	"Knight Damage" = 20.0
+
+["Gameplay Changes"]
+	"Can players use the Roll ability" = false
+	"Will boss use the advanced Bossbar textures" = true

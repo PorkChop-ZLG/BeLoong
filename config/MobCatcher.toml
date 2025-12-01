@@ -1,0 +1,13 @@
+[Config]
+	#Living Entity Blacklist
+	#Entities that will not be captured, you can also use tag
+	"Entity Blacklist" = ["corpse:corpse", "minecraft:wither", "minecraft:ender_dragon", "fdbosses:chesed", "fdbosses:chesed_boss_spawner", "fdbosses:malkuth", "fdbosses:malkuth_boss_spawner", "fdbosses:chesed_crystal", "fdbosses:chesed_monolith", "fdbosses:chesed_ray_reflector", "fdbosses:malkuth_cannon", "fdbosses:malkuth_repair_crystal", "undergarden:forgotten_guardian", "#c:bosses", "#c:capturing_not_supported"]
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	"Velocity Multiplier of NetEntity shot by NetLauncher" = 1.5
+	# Default: 1.100000023841858
+	# Range: 0.0 ~ 255.0
+	"Velocity of NetEntity shot by Dispenser" = 1.100000023841858
+	# Default: 4.0
+	# Range: 0.0 ~ 10.0
+	"Inaccuracy of NetEntity shot by Dispenser" = 4.0

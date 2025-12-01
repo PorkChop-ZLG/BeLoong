@@ -1,0 +1,23 @@
+#Recipe book
+[recipe_book]
+	#Should the Oven have a Recipe Book available on its interface?
+	enableRecipeBookOven = false
+
+#Mint
+[mint_spread]
+	#Should mint spread?
+	shouldMintSpread = true
+	#How fast should mint spread? (Higher number = Slower)
+	# Default: 6
+	# Range: 1 ~ 100
+	mintSpreadRate = 6
+
+#Spooky Things
+[spooky]
+	#All Year Spooky
+	allYearSpooky = true
+
+#Debug Mode
+[debug]
+	#Enable Debug Mode for Developement
+	enableDebug = false

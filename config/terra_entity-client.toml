@@ -1,0 +1,21 @@
+#Boss Bar Style.
+#0: Default, 1: Still Style, 2: Dynamic Style
+# Default: 1
+# Range: 0 ~ 2
+boss_bar_style = 1
+#Boss Bar Number Offset X.
+# Default: 0
+# Range: -150 ~ 300
+boss_bar_number_offset_x = 0
+#Boss Bar Number Offset Y.
+# Default: 0
+# Range: -30 ~ 200
+boss_bar_number_offset_y = 0
+#Generate Projectile Particle.
+generate_projectile_particle = true
+enableNonSpiderModel = false
+#NPC Chat Bubble Style.
+#Allowed Values: CLOUD, RECT
+npc_chat_bubble_style = "RECT"
+#Enable Entity Motion Blur.
+enable_entity_motion_blur = true

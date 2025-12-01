@@ -1,0 +1,20 @@
+{
+  "basicSettings": {
+    "screenWhitelist": [
+      "net.mehvahdjukaar.supplementaries.client.screens.TextHolderEditScreen",
+      "net.minecraft.client.gui.screens.inventory.BookEditScreen",
+      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen"
+    ],
+    "enableScreenRecovering": false,
+    "recoveredScreens": [],
+    "commandInputMode": "IM_ENG_STATE"
+  },
+  "advanceSettings": {
+    "enableCharSimulation": false
+  },
+  "windowsCompatibilitySettings": {
+    "enableConversionStatusApi": true,
+    "enableCursorPositionTracking": true,
+    "enableCompositionFontTweaks": true
+  }
+}

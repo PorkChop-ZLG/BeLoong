@@ -1,0 +1,3 @@
+#List of materials that can be used to tame entities
+#Format: entity-ingredient,'minecraft:wolf-{"item":"minecraft:bone"}'
+tamingMaterials = []

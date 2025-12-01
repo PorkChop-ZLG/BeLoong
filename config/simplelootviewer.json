@@ -1,0 +1,179 @@
+{
+  "block_drops": {
+    "//": "Configures info about what blocks drop when broken.",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": []
+      }
+    }
+  },
+  "mob_drops": {
+    "//": "Configures info about what mobs drop when killed.",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": []
+      }
+    }
+  },
+  "loot_chests": {
+    "//": "Configures info about what loot can be found in chests.",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": [
+          "minecraft:spawners/trial_chamber/key",
+          "minecraft:spawners/ominous/trial_chamber/key",
+          "minecraft:spawners/trial_chamber/items_to_drop_when_ominous",
+          "minecraft:pots/trial_chambers/corridor",
+          "minecraft:spawners/trial_chamber/consumables",
+          "minecraft:equipment/trial_chamber_ranged",
+          "minecraft:spawners/ominous/trial_chamber/consumables",
+          "minecraft:equipment/trial_chamber_melee",
+          "minecraft:equipment/trial_chamber"
+        ]
+      }
+    }
+  },
+  "fishing": {
+    "//": "Configures info about what items can be fished up.",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": []
+      }
+    }
+  },
+  "village_hero": {
+    "//": "Configures info about what items villagers give to heroes of the village",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": []
+      }
+    }
+  },
+  "archaeology": {
+    "//": "Configures info about what can be found through archaeology",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": []
+      }
+    }
+  },
+  "dispensers": {
+    "//": "Configures info about what can be found in dispenser traps.",
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": ["minecraft:chests/jungle_temple_dispenser"]
+      }
+    }
+  },
+  "misc": {
+    "//": [
+      "Configures info about miscellaneous loot tables that are not otherwise          ",
+      "categorized.                                                                    "
+    ],
+    "value": {
+      "enabled": {
+        "//": [
+          "Determines if the category is enabled. Disabled categories are not loaded or    ",
+          "sent to players.                                                                "
+        ],
+        "//default": true,
+        "value": true
+      },
+      "overrides": {
+        "//": [
+          "Adding a loot table ID to the override list will forcefully move it to another  ",
+          "category.                                                                       "
+        ],
+        "value": []
+      }
+    }
+  },
+  "hidden_tables": {
+    "//": "All loot tables in this list will be hidden from players.",
+    "value": ["minecraft:empty"]
+  }
+}

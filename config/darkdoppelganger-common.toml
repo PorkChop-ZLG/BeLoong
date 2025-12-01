@@ -1,0 +1,43 @@
+#Dark Doppelganger Configuration
+[dark_doppelganger]
+	#Health of the Dark Doppelganger
+	# Default: 600.0
+	# Range: 1.0 ~ 100000.0
+	health = 1000.0
+	#Armor of the Dark Doppelganger
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	armor = 20.0
+	#Follow Range of the Dark Doppelganger
+	# Default: 64.0
+	# Range: 1.0 ~ 128.0
+	follow_range = 128.0
+	#Movement Speed of the Dark Doppelganger
+	# Default: 0.2
+	# Range: 0.1 ~ 1.0
+	movement_speed = 0.4
+	#Knockback Resistance of the Dark Doppelganger
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	knockback_resistance = 0.8
+	#Attack Damage of the Dark Doppelganger
+	# Default: 10.0
+	# Range: 1.0 ~ 100.0
+	attack_damage = 50.0
+	#Hard mode of the Dark Doppelganger
+	hard_mode = true
+
+#Minion Configuration
+[minion]
+	# Default: 40.0
+	# Range: 1.0 ~ 1000.0
+	health = 40.0
+	# Default: 6.0
+	# Range: 0.1 ~ 100.0
+	attack_damage = 6.0
+	# Default: 0.28
+	# Range: 0.01 ~ 1.0
+	movement_speed = 0.28
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	armor = 4.0

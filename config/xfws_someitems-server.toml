@@ -1,0 +1,2 @@
+#Offhand Weapon Not Trigger Mainhand Weapon. Do not trigger the off-hand weapon of this mod's main hand weapon., ex: "minecraft:iron_sword"
+offhand_weapon_not_trigger_mainhand_weapon = []

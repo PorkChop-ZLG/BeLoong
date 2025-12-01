@@ -1,0 +1,3 @@
+#Set to true to display balance in the hud
+#设置为true以在hud中显示余额
+show_balance = false

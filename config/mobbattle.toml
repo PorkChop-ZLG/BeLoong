@@ -1,0 +1,2 @@
+#Auto target mobs from other teams (if e.g. done per command)
+autoAddAI = true

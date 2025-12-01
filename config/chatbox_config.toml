@@ -1,0 +1,6 @@
+[config]
+	# Default: 10
+	# Range: > 1
+	historical_scroll_speed = 10
+	sound_interruption_enabled = true
+	is_screen = true

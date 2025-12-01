@@ -1,0 +1,6 @@
+#Set to true to enable debug info
+#设置为true以启用调试信息
+debug = false
+#Set to true to enable hot reload shader
+#设置为true以启用热重载着色器
+hot_reload_shader = false

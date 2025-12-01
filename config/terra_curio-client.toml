@@ -1,0 +1,19 @@
+["Speed Shoes"]
+	playSound = true
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	shoesSoundVolume = 1.0
+	showParticle = true
+	speedUp = true
+
+[Functional]
+	autoAttack = true
+	rightClickDelay = true
+
+["Information HUD"]
+	#finalTop = screenHeight * top
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	top = 0.5
+	#left or right
+	isLeft = false

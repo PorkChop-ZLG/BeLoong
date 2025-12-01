@@ -1,0 +1,23 @@
+#The default model ID when a player first enters the game
+DefaultModelId = "default"
+#The default model texture when a player first enters the game
+DefaultModelTexture = "default"
+#Whether or not players are allowed to switch models
+CanSwitchModel = true
+#Models that are not displayed on the client model selection screen
+#Example: ["default", "misc_3_default_boy", "misc_1_alex", "misc_2_steve", "wine_fox_1_taisho_maid", "wine_fox_7_jk"]
+ClientNotDisplayModels = []
+
+[server_scheduler]
+	#Concurrent level for processing models. Value 0 means AUTO.
+	# Default: 0
+	# Range: 0 ~ 11
+	ThreadCount = 0
+	#Bandwidth limitation during distributing models to players.(In Mbps)
+	# Default: 5
+	# Range: 1 ~ 999
+	BandwidthLimit = 5
+	#Timeout for players to respond to synchronization. Value not greater than 10 means AUTO.(In seconds)
+	# Default: 0
+	# Range: 0 ~ 120
+	PlayerSyncTimeout = 0
