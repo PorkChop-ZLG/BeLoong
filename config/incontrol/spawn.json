@@ -1,0 +1,17 @@
+[
+  {
+    "mob": "biomeswevegone:pumpkin_warden",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "terra_entity:lava_slime",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "alshanex_familiars:druid_pet",
+    "when": "position",
+    "result": "deny"
+  }
+]
