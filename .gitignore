@@ -26,7 +26,18 @@ servers.dat
 # ---- 仅追踪部分 config ----
 config/**
 
+!config/fancymenu/
 !config/ftbquests/
+!config/iceandfire/
+!config/incontrol/
+!config/paxi/
 
+!config/carryon-client.toml
+!config/carryon-common.toml
+!config/cataclysm.toml
+!config/DistantHorizons.toml
 !config/dragonsurvival-client.toml
 !config/dragonsurvival-server.toml
+!config/yes_steve_model-client.toml
+!config/yes_steve_model-common.toml
+!config/yes_steve_model-server.toml
