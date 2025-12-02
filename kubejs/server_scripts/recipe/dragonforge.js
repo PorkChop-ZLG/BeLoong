@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
             }
         }
     )
-    // 绯夜脂锭 + 冰龙血 = 龙霜煅炉 = 沼泽银锭
+    // 绯夜脂锭 + 冰龙血 = 龙霜煅炉 = 深银锭
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
                 "item": "iceandfire:ice_dragon_blood"
             },
             "result": {
-                "id": "eternal_starlight:swamp_silver_ingot"
+                "id": "eternal_starlight:deepsilver_ingot"
             }
         }
     )

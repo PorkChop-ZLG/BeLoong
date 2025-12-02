@@ -386,7 +386,7 @@
 		}
 		{
 			icon: {
-				id: "eternal_starlight:tangled_hatred_spawn_egg"
+				id: "eternal_starlight:tangled_spawn_egg"
 			}
 			id: "17A9978D7AFEA210"
 			rewards: [

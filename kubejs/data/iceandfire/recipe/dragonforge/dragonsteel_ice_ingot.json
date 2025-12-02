@@ -3,7 +3,7 @@
   "dragonType": "ice",
   "cookTime": 400,
   "input": {
-    "item": "eternal_starlight:swamp_silver_ingot"
+    "item": "eternal_starlight:deepsilver_ingot"
   },
   "blood": {
     "item": "iceandfire:ice_dragon_blood"

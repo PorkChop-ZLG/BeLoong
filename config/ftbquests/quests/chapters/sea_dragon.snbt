@@ -285,7 +285,7 @@
 				id: "4ABE56619E390E3A"
 				item: {
 					count: 1
-					id: "eternal_starlight:swamp_silver_ingot"
+					id: "eternal_starlight:deepsilver_ingot"
 				}
 				type: "item"
 			}]
@@ -305,7 +305,7 @@
 				id: "2602949CC707141D"
 				item: {
 					count: 1
-					id: "eternal_starlight:swamp_silver_ingot"
+					id: "eternal_starlight:deepsilver_ingot"
 				}
 				type: "item"
 			}]
@@ -331,7 +331,7 @@
 					id: "4F6AD4D180E066FD"
 					item: {
 						count: 1
-						id: "eternal_starlight:swamp_silver_ingot"
+						id: "eternal_starlight:deepsilver_ingot"
 					}
 					type: "item"
 				}
@@ -380,7 +380,7 @@
 					id: "639C7B25B4AD5282"
 					item: {
 						count: 1
-						id: "eternal_starlight:swamp_silver_ingot"
+						id: "eternal_starlight:deepsilver_ingot"
 					}
 					type: "item"
 				}
