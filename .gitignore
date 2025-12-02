@@ -22,3 +22,11 @@ BeLoong.jar
 BeLoong.json
 patchouli_data.json
 servers.dat
+
+# ---- 仅追踪部分 config ----
+config/**
+
+!config/ftbquests/
+
+!config/dragonsurvival-client.toml
+!config/dragonsurvival-server.toml
