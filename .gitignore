@@ -1,9 +1,11 @@
 # ---- GitHub 忽略文件夹 ----
 .mixin.out/
+BeLoong-natives/
 CustomSkinLoader/
 defaultconfigs/
 downloads/
 dynamic-resource-pack-cache/
+fancymenu_data/
 local/
 logs/
 mods/
