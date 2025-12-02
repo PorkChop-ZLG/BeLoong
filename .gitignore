@@ -1,4 +1,4 @@
-# Github忽略文件
+# ---- GitHub 忽略文件夹 ----
 .mixin.out/
 CustomSkinLoader/
 defaultconfigs/
@@ -14,3 +14,9 @@ saves/
 shaderpacks/
 tlm_custom_pack/
 xaero/
+
+# ---- GitHub 忽略文件 ----
+BeLoong.jar
+BeLoong.json
+patchouli_data.json
+servers.dat
