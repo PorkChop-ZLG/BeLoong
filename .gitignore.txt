@@ -1,0 +1,16 @@
+# Github忽略文件
+.mixin.out/
+CustomSkinLoader/
+defaultconfigs/
+downloads/
+dynamic-resource-pack-cache/
+local/
+logs/
+mods/
+patchouli_books/
+PCL/
+resourcepacks/
+saves/
+shaderpacks/
+tlm_custom_pack/
+xaero/
