@@ -20,8 +20,11 @@ xaero/
 # ---- GitHub 忽略文件 ----
 BeLoong.jar
 BeLoong.json
+emi.json
 patchouli_data.json
 servers.dat
+usercache.json
+usernamecache.json
 
 # ---- 仅追踪部分 config ----
 config/**

@@ -16,17 +16,6 @@ ServerEvents.recipes(event => {
             'ultramarine:jade'
         ]
     )
-    // 天工开物
-    event.shaped(Item.of('patchouli:guide_book[patchouli:book="ultramarine:tiangong_kaiwu"]', 1), [
-        'AAA',
-        'B  ',
-        '   '
-    ],
-        {
-            A: 'minecraft:lapis_lazuli',
-            B: 'minecraft:book'
-        }
-    )
     // 石英 + 白松石粉 = 砖窑 = 石英块
     event.custom(
         {
