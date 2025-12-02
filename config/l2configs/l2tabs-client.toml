@@ -1,0 +1,19 @@
+showTabs = true
+#Show inventory tabs only in curio page.
+#Only works when showTabs is true and curio is installed.
+#For users who have other tabs conflicting with this mod
+showTabsOnlyCurio = false
+redirectInventoryTabToCuriosInventory = true
+# Default: 15
+# Range: 1 ~ 100
+attributeLinePerPage = 15
+#COMMON: Show only common attributes and L2 attributes
+#ALL: Show all attributes in attribute type, similar to Apothic Attributes
+#ALL_EXCEPT_UNCHANGED: Show all, but hide attributes that are unchanged
+#Allowed Values: COMMON, ALL, ALL_EXCEPT_UNCHANGED
+attributeSettings = "ALL_EXCEPT_UNCHANGED"
+#List of tabs to hide
+#Example: "attribute" for attribute tab
+#Example: "curios" for curios tab
+#Example: "pandora" for pandora tab
+hiddenTabs = ["curios"]

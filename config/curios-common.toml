@@ -1,0 +1,29 @@
+#List of slots to create or modify.
+#See documentation for syntax: https://docs.illusivesoulworks.com/curios/configuration#slot-configuration
+#
+slots = [
+	#通用
+	"id=curio;size=0;add_cosmetic=true",
+	#首饰
+	"id=head;size=1;add_cosmetic=true",
+	#项链
+	"id=necklace;size=3;add_cosmetic=true",
+	#背饰
+	"id=back;size=1;add_cosmetic=true",
+	#手饰
+	"id=hands;size=3;add_cosmetic=true",
+	#戒指
+	"id=ring;size=8;add_cosmetic=true",
+	#腰带
+	"id=belt;size=4;add_cosmetic=true",
+	#脚饰
+	"id=feet;size=2;add_cosmetic=true",
+	#护符
+	"id=charm;size=2;add_cosmetic=true",
+	#魔法书
+	"id=spellbook;size=1;add_cosmetic=true",
+	#佩饰
+	"id=accessory;size=6;add_cosmetic=true",
+	#魔宠饰物
+	"id=familiar_trinket;size=1;add_cosmetic=true"
+]
