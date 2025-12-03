@@ -78,7 +78,6 @@ config/**
 !config/dragonsurvival-client.toml
 !config/dragonsurvival-server.toml
 !config/eternal_starlight.json
-!config/ftbchunks-client.snbt
 !config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
