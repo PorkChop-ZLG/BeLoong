@@ -625,5 +625,7 @@
 	"ftbquests.gui.use_default_lang": "[使用默认语言]",
 	"ftbquests.custom_icon.texture": "贴图: %s",
 	"ftbquests.custom_icon.entity": "实体: %s",
+	"ftbquests.gui.error.selection_multiple_lines": "选择范围跨越多行！",
+	"ftbquests.gui.error.already_component": "该行已是文本组件JSON！",
 	"config.jade.plugin_ftbquests.barrier": "屏障"
 }
