@@ -78,6 +78,14 @@ config/**
 !config/dragonsurvival-client.toml
 !config/dragonsurvival-server.toml
 !config/eternal_starlight.json
+!config/ftbchunks-client.snbt
+!config/ftbchunks-world.snbt
+!config/ftbessentials.snbt
+!config/ftblibrary-client.snbt
+!config/ftbquests-client.snbt
+!config/ftbultimine-client.snbt
+!config/ftbultimine-server.snbt
+!config/ftbxmodcompat.snbt
 !config/irons_spellbooks-client.toml
 !config/irons_spellbooks-server.toml
 !config/tslatentitystatus-client.toml

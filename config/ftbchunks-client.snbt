@@ -1,0 +1,806 @@
+# Client-specific configuration for FTB Chunks
+# Modpack defaults should be defined in <instance>/config/ftbchunks-client.snbt
+#   (may be overwritten on modpack update)
+# Players may locally override this by copying into <instance>/local/ftbchunks-client.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+	advanced: {
+		# Enables debug info
+		# Default: false
+		debug_info: false
+		
+		# Advanced option. Change how often the minimap will refresh icons
+		# Default: 500
+		# Range: 0 ~ 10000
+		minimap_icon_update_timer: 500
+		
+		# Advanced option. How often map render update will be queued
+		# Default: 60
+		# Range: 1 ~ 600
+		rerender_queue_ticks: 60
+		
+		# Advanced option. Max tasks that can queue up
+		# Default: 100
+		# Range: 1 ~ 10000
+		task_queue_max: 100
+		
+		# Advanced option. How often queued tasks will run
+		# Default: 4
+		# Range: 1 ~ 300
+		task_queue_ticks: 4
+		memory: {
+			# When the large map is closed, auto-release least recently accessed regions down to this number (0 disables releasing)
+			# Default: 32
+			# Range: 0 ~ 2147483647
+			autorelease_on_map_close: 32
+			
+			# Constrain maximum map zoom-out based on number of explored regions and available memory
+			# Default: true
+			max_zoom_constraint: true
+			
+			# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
+			# Default: 300
+			# Range: 0 ~ 2147483647
+			region_release_time: 300
+		}
+	}
+	appearance: {
+		# Biome blend
+		# Default: "blend_5x5"
+		# Valid values: "none", "blend_3x3", "blend_5x5", "blend_7x7", "blend_9x9", "blend_11x11", "blend_13x13", "blend_15x15"
+		biome_blend: "blend_5x5"
+		
+		# Chunk grid overlay in large map
+		# Default: false
+		chunk_grid: false
+		
+		# Show claimed chunks on the map
+		# Default: true
+		claimed_chunks_on_map: true
+		
+		# Advanced option. Foliage darkness
+		# Default: 50
+		# Range: 0 ~ 255
+		foliage_darkness: 50
+		
+		# Advanced option. Grass darkness
+		# Default: 50
+		# Range: 0 ~ 255
+		grass_darkness: 50
+		
+		# Different ways to render map
+		# Default: "none"
+		# Valid values: "none", "night", "topography", "blocks", "light_sources"
+		map_mode: "none"
+		
+		# Noise added to map to make it look less plastic
+		# Default: 0.05
+		# Range: 0.0 ~ 0.5
+		noise: 0.05d
+		
+		# Only show entities that are on the surface
+		# Default: true
+		only_surface_entities: true
+		
+		# Show your own claimed chunks on the map
+		# Default: true
+		own_claimed_chunks_on_map: true
+		
+		# Reduces color palette to 256 colors
+		# Default: false
+		reduced_color_palette: false
+		
+		# Color intensity
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		saturation: 1.0d
+		
+		# Shadow intensity
+		# Default: 0.1
+		# Range: 0.0 ~ 0.3
+		shadows: 0.1d
+		
+		# How many blocks should height checks skip in water. 0 means flat water, ignoring terrain
+		# Default: 8
+		# Range: 0 ~ 128
+		water_height_factor: 8
+		
+		# Advanced option. Water visibility
+		# Default: 220
+		# Range: 0 ~ 255
+		water_visibility: 220
+	}
+	minimap: {
+		# Blurs minimap
+		# Default: "auto"
+		# Valid values: "auto", "on", "off"
+		blur_mode: "auto"
+		
+		# Adds NWSE compass inside minimap
+		# Default: true
+		compass: true
+		
+		# Enable minimap
+		# Default: false
+		enabled: false
+		
+		# Show entities on minimap
+		# Default: true
+		entities: true
+		
+		# Show entity heads on minimap
+		# Default: true
+		entity_heads: true
+		entity_icon: {
+			"terra_entity:swamp_slime": true
+			"minecraft:cave_spider": true
+			"minecraft:wither_skeleton": true
+			"iceandfire:hippogryph": true
+			"terra_entity:demon": true
+			"aquaculture:tambaqui": false
+			"cataclysm:ignited_berserker": true
+			"terra_entity:short_bones": true
+			"bosses_of_mass_destruction:void_blossom": true
+			"terra_entity:anger_bones": true
+			"terra_entity:spore_bat": true
+			"eternal_starlight:ent": true
+			"terra_entity:bunny": true
+			"jitl:gunsmith": true
+			"block_factorys_bosses:flaming_skeleton_guard_fireball": true
+			"dragonsurvival:hunter_knight": true
+			"iceandfire:cockatrice": true
+			"aquaculture:box_turtle": false
+			"jitl:shimmerer": true
+			"jitl:euca_hopper": true
+			"jitl:caveling": true
+			"aquaculture:tuna": false
+			"minecraft:blaze": true
+			"minecraft:evoker": true
+			"minecraft:dolphin": true
+			"lushscentedparadise:glowpetal_pigfish": true
+			"jitl:tower_guardian": true
+			"cataclysm_spellbooks:summoned_royal_draugur": true
+			"terra_entity:skeletron_hand": true
+			"jitl:okoloo": true
+			"twilightforest:tiny_bird": true
+			"twilightforest:mosquito_swarm": true
+			"jitl:sky_eel": true
+			"twilightforest:upper_goblin_knight": true
+			"terra_entity:eater_of_souls": true
+			"jitl:illager_mech": true
+			"twilightforest:naga": true
+			"iceandfire:deathworm": true
+			"alshanex_familiars:soul_entity": true
+			"cataclysm_spellbooks:summoned_ignited_berserker": true
+			"cataclysm:deepling_warlock": true
+			"twilightforest:unstable_ice_core": true
+			"twilightforest:quest_ram": true
+			"terra_entity:dungeon_guardian": true
+			"twilightforest:yeti": true
+			"undergarden:gloomper": true
+			"iceandfire:lightning_dragon": true
+			"jitl:dark_sorcerer": true
+			"jitl:hellwing": true
+			"minecraft:piglin": true
+			"untitledduckmod:goose": true
+			"jitl:starlight_villager": true
+			"minecraft:zombie": true
+			"jitl:starlight_blacksmith": true
+			"terra_entity:snatcher": true
+			"jitl:shiverwolf": true
+			"terra_entity:duck": true
+			"netherdepthsupgrade:fortressgrouper": true
+			"aquaculture:red_grouper": false
+			"terra_entity:demolitionist": true
+			"iceandfire:dread_lich": true
+			"terra_entity:visual_neuron": true
+			"bosses_of_mass_destruction:lich": true
+			"cataclysm:ignited_revenant": true
+			"macabre:hollow": true
+			"terra_entity:big_bones": true
+			"aquaculture:synodontis": false
+			"minecraft:goat": true
+			"minecraft:ocelot": true
+			"twilightforest:carminite_ghastguard": true
+			"undergarden:gwib": true
+			"macabre:gargamaw": true
+			"alshanex_familiars:hunter_pet": true
+			"aquaculture:muskellunge": false
+			"iceandfire:dread_thrall": true
+			"terra_entity:blood_zombie": true
+			"macabre:smite": true
+			"minecraft:chicken": true
+			"jitl:big_hongo": true
+			"touhou_little_maid:fairy": true
+			"jitl:hell_serpent": true
+			"minecraft:cod": false
+			"twilightforest:blockchain_goblin": true
+			"minecraft:skeleton": true
+			"cataclysm:deepling": true
+			"iceandfire:hydra": true
+			"terra_entity:demon_eye": true
+			"eternal_starlight:astral_golem": true
+			"minecraft:enderman": true
+			"jitl:boss_crystal": true
+			"jitl:hell_cow": true
+			"dragonsurvival:hunter_hound": true
+			"minecraft:ghast": true
+			"jitl:hell_turtle": true
+			"jitl:permafraust": true
+			"twilightforest:redcap_sapper": true
+			"netherdepthsupgrade:bonefish": true
+			"terra_entity:jungle_slime": true
+			"jitl:medium_hongo": true
+			"minecraft:sheep": true
+			"aquaculture:pacific_halibut": false
+			"terra_entity:dungeon_slime": true
+			"netherdepthsupgrade:searing_cod": true
+			"macabre:gomoria_clone": true
+			"iceandfire:dread_knight": true
+			"jitl:aero_lotus": true
+			"cataclysm:aptrgangr": true
+			"jitl:small_hongo": true
+			"minecraft:pillager": true
+			"irons_spellbooks:apothecarist": true
+			"jitl:terranian_trader": true
+			"jitl:logger": true
+			"jitl:shivering_bushwalker": true
+			"irons_spellbooks:cursed_armor_stand": true
+			"jitl:mage": true
+			"minecraft:pig": true
+			"jitl:cloud_ghost": true
+			"minecraft:fox": true
+			"eternal_starlight:lonestar_skeleton": true
+			"undergarden:dweller": true
+			"minecraft:silverfish": true
+			"block_factorys_bosses:big_cage_skelly": true
+			"twilightforest:lich": true
+			"minecraft:guardian": true
+			"minecraft:mooshroom": true
+			"minecraft:drowned": true
+			"cataclysm:lionfish": true
+			"cataclysm:ender_golem": true
+			"terra_entity:skeletron": true
+			"jitl:sentry_king": true
+			"aquaculture:piranha": false
+			"netherdepthsupgrade:glowdine": true
+			"iceandfire:ghost": true
+			"aquaculture:atlantic_halibut": false
+			"jitl:screamer": true
+			"jitl:capybara": true
+			"jitl:blizzard": true
+			"eternal_starlight:lunar_monstrosity": true
+			"twilightforest:carminite_broodling": true
+			"undergarden:denizen": true
+			"minecraft:frog": true
+			"minecraft:axolotl": true
+			"terra_entity:eye_of_cthulhu": true
+			"jitl:mini_ghast": true
+			"block_factorys_bosses:big_cage": true
+			"jitl:crystal_cluster": true
+			"aquaculture:minnow": false
+			"iceandfire:myrmex_royal": true
+			"iceandfire:dread_horse": true
+			"eternal_starlight:boarwarf": true
+			"cataclysm_spellbooks:summoned_ignited_revenant": true
+			"minecraft:pufferfish": false
+			"eternal_starlight:rookfish": true
+			"irons_spellbooks:archevoker": true
+			"jitl:hellbot": true
+			"youkaishomecoming:lamprey": true
+			"jitl:arana_king": true
+			"jitl:blazier": true
+			"twilightforest:mist_wolf": true
+			"jitl:ferret": true
+			"twilightforest:redcap": true
+			"cataclysm_spellbooks:summoned_koboldiator": true
+			"minecraft:creeper": true
+			"dragonsurvival:hunter_ambusher": true
+			"eternal_starlight:freeze": true
+			"cataclysm:koboleton": true
+			"minecraft:vex": true
+			"terra_entity:cave_bat": true
+			"jitl:darkener": true
+			"iceandfire:dread_scuttler": true
+			"terra_entity:cursed_skull": true
+			"jitl:withering_beast": true
+			"jitl:sentry_walker": true
+			"terra_entity:hornet": true
+			"terra_entity:big_anger_bones": true
+			"terra_entity:eater_of_worlds_segment": true
+			"terra_entity:face_monster": true
+			"jitl:starlight_golem": true
+			"terra_entity:green_dumpling_slime": true
+			"eternal_starlight:tower_squid": true
+			"touhou_little_maid:maid": true
+			"irons_spellbooks:citadel_keeper": true
+			"terra_entity:guide": true
+			"minecraft:phantom": true
+			"iss_magicfromtheeast:onmyoji": true
+			"jitl:mini_sentry_lord": true
+			"iss_magicfromtheeast:jade_sentinel": true
+			"terra_entity:arms_dealer": true
+			"block_factorys_bosses:pile_of_bones": true
+			"minecraft:trader_llama": true
+			"jitl:escaped_convict": true
+			"iceandfire:stymphalian_bird": true
+			"biomeswevegone:oddion": true
+			"terra_entity:tropic_slime": true
+			"terra_entity:devourer": true
+			"terra_entity:wall_of_flesh_mouth": true
+			"jitl:stonewalker": true
+			"minecraft:strider": true
+			"alshanex_familiars:archmage_pet": true
+			"aquaculture:boulti": false
+			"jitl:shivering_shrieker": true
+			"minecraft:stray": true
+			"irons_spellbooks:summoned_zombie": true
+			"jitl:frightener": true
+			"block_factorys_bosses:soul_knight_wither_skeleton": true
+			"minecraft:slime": true
+			"aquaculture:perch": false
+			"jitl:spyclopse": true
+			"undergarden:mog": true
+			"eternal_starlight:shadow_snail": true
+			"macabre:gargamaw_minion": true
+			"twilightforest:swarm_spider": true
+			"iceandfire:hippocampus": true
+			"twilightforest:king_spider": true
+			"eternal_starlight:stranghoul": true
+			"undergarden:gwibling": true
+			"minecraft:cow": true
+			"aquaculture:jellyfish": false
+			"eternal_starlight:nightfall_spider": true
+			"terra_entity:ice_slime": true
+			"macabre:inv": true
+			"minecraft:bat": true
+			"artifacts:mimic": true
+			"eternal_starlight:tangled_skull": true
+			"cataclysm_spellbooks:summoned_aptrgangr": true
+			"jitl:corallator": true
+			"terra_entity:voodoo_demon": true
+			"minecraft:bogged": true
+			"eternal_starlight:crystallized_moth": true
+			"terra_entity:pink_slime": true
+			"terra_entity:eater_of_worlds": true
+			"twilightforest:slime_beetle": true
+			"iceandfire:myrmex_worker": true
+			"jitl:starlight_walker": true
+			"minecraft:villager": true
+			"minecraft:salmon": false
+			"twilightforest:winter_wolf": true
+			"terra_entity:merchant": true
+			"cataclysm:elite_draugr": true
+			"alshanex_familiars:illusionist_pet": true
+			"jitl:cavurn": true
+			"minecraft:wolf": true
+			"terra_entity:red_slime": true
+			"terra_entity:king_slime": true
+			"macabre:sickle_bone_spike": true
+			"minecraft:skeleton_horse": true
+			"alshanex_familiars:mage_pet": true
+			"jitl:sand_crawler": true
+			"twilightforest:ur_ghast": true
+			"jitl:goldbot": true
+			"twilightforest:carminite_ghastling": true
+			"terra_entity:big_helmet_anger_bones": true
+			"macabre:gomoria": true
+			"terra_entity:ice_bat": true
+			"terra_entity:old_man": true
+			"terra_entity:angler": true
+			"minecraft:magma_cube": true
+			"minecraft:zombie_villager": true
+			"minecraft:breeze": true
+			"block_factorys_bosses:soul_skeleton": true
+			"minecraft:zombified_piglin": true
+			"eternal_starlight:the_gatekeeper": true
+			"netherdepthsupgrade:obsidianfish": true
+			"aquaculture:catfish": false
+			"jitl:thunder_bird": true
+			"netherdepthsupgrade:lava_pufferfish": true
+			"minecraft:rabbit": true
+			"jitl:mini_sentry_walker": true
+			"biomeswevegone:man_o_war": true
+			"fdbosses:chesed": true
+			"irons_spellbooks:summoned_skeleton": true
+			"iceandfire:cyclops": true
+			"cataclysm:ancient_remnant": true
+			"jitl:eskimo": true
+			"terra_entity:fire_imp": true
+			"undergarden:scintling": true
+			"terra_entity:cardinal": true
+			"undergarden:brute": true
+			"cataclysm:ignis": true
+			"terra_entity:blue_slime": true
+			"twilightforest:snow_queen": true
+			"untitledduckmod:duck": true
+			"lushscentedparadise:phantom_lotus_koi": true
+			"iceandfire:ice_dragon": true
+			"eternal_starlight:ratlin": true
+			"terra_entity:jungle_bat": true
+			"alshanex_familiars:druid_pet": true
+			"twilightforest:stable_ice_core": true
+			"jitl:alloy_mender": true
+			"jitl:golder": true
+			"cataclysm:deepling_priest": true
+			"undergarden:forgotten": true
+			"eternal_starlight:tangled_hatred": true
+			"terra_entity:black_slime": true
+			"ghasts_update:happy_ghast": true
+			"terra_entity:big_muscle_anger_bones": true
+			"block_factorys_bosses:flaming_skeleton_guard_sword": true
+			"jitl:crypian": true
+			"minecraft:camel": true
+			"terra_entity:squirrel": true
+			"macabre:handbush": true
+			"minecraft:tadpole": true
+			"aquaculture:carp": false
+			"twilightforest:hydra": true
+			"block_factorys_bosses:cage": true
+			"iceandfire:gorgon": true
+			"irons_spellbooks:necromancer": true
+			"terra_entity:giant_shelly": true
+			"twilightforest:alpha_yeti": true
+			"minecraft:allay": true
+			"cataclysm_spellbooks:summoned_koboleton": true
+			"cataclysm:kobolediator": true
+			"happy_ghast_legacy:happy_ghast": true
+			"minecraft:tropical_fish": false
+			"twilightforest:death_tome": true
+			"twilightforest:minotaur": true
+			"aquaculture:arrau_turtle": false
+			"cataclysm:endermaptera": true
+			"macabre:baal_whirlpool": true
+			"jitl:royal_king": true
+			"minecraft:piglin_brute": true
+			"iceandfire:myrmex_sentinel": true
+			"eternal_starlight:zombified_ratlin": true
+			"aquaculture:pink_salmon": false
+			"terra_entity:blue_jay": true
+			"jitl:frozen_frostbiter": true
+			"twilightforest:minoshroom": true
+			"twilightforest:squirrel": true
+			"terra_entity:nymph": true
+			"terra_entity:harpy": true
+			"jitl:neutral_sentry_stalker": true
+			"block_factorys_bosses:cage_skelly": true
+			"minecraft:panda": true
+			"minecraft:glow_squid": true
+			"jitl:blacksmith": true
+			"terra_entity:bird": true
+			"block_factorys_bosses:infernal_dragon": true
+			"dragonsurvival:hunter_leader": true
+			"cataclysm:wadjet": true
+			"twilightforest:snow_guardian": true
+			"irons_spellbooks:cryomancer": true
+			"netherdepthsupgrade:eyeball_fish": true
+			"cataclysm_spellbooks:summoned_draugur": true
+			"jitl:shatterer": true
+			"twilightforest:hedge_spider": true
+			"cataclysm_spellbooks:summoned_elite_draugur": true
+			"terra_entity:flying_fish": true
+			"minecraft:horse": true
+			"minecraft:turtle": true
+			"twilightforest:carminite_golem": true
+			"iceandfire:sea_serpent": true
+			"undergarden:stoneborn": true
+			"minecraft:warden": true
+			"cataclysm:draugr": true
+			"aquaculture:capitaine": false
+			"aquaculture:atlantic_herring": false
+			"minecraft:bee": true
+			"twilightforest:skeleton_druid": true
+			"fdbosses:chesed_monolith": true
+			"alshanex_familiars:summoner_pet": true
+			"cataclysm_spellbooks:summoned_amethyst_crab": true
+			"jitl:boil_trader": true
+			"twilightforest:wraith": true
+			"jitl:terranian_protector": true
+			"terra_entity:purple_slime": true
+			"aquaculture:smallmouth_bass": false
+			"jitl:brown_hongo": true
+			"minecraft:endermite": true
+			"alshanex_familiars:scorcher_pet": true
+			"cataclysm:the_leviathan": true
+			"aquaculture:blackfish": false
+			"jitl:frost_golem": true
+			"minecraft:wandering_trader": true
+			"minecraft:cat": true
+			"undergarden:sploogie": true
+			"jitl:soul_watcher": true
+			"jitl:witherspine": true
+			"terra_entity:brain_of_cthulhu": true
+			"cataclysm:deepling_angler": true
+			"jitl:sentry_lord": true
+			"twilightforest:fire_beetle": true
+			"jitl:rockite_smasher": true
+			"jitl:euca_charger": true
+			"undergarden:rotling": true
+			"twilightforest:hostile_wolf": true
+			"cataclysm:modern_remnant": true
+			"irons_spellbooks:priest": true
+			"terra_entity:wall_of_flesh_eye": true
+			"terra_entity:giant_worm": true
+			"macabre:biter": true
+			"terra_entity:bloody_spore": true
+			"jitl:burning_light": true
+			"jitl:staring_guardian": true
+			"alshanex_familiars:necromancer_pet": true
+			"irons_spellbooks:pyromancer": true
+			"iceandfire:myrmex_soldier": true
+			"jitl:magma_blaze": true
+			"terra_entity:wandering_eye_fish": true
+			"jitl:boomboom": true
+			"minecraft:llama": true
+			"jitl:sky_stalker": true
+			"iceandfire:stone_statue": true
+			"eternal_starlight:tangled": true
+			"terra_entity:tomb_crawler": true
+			"aquaculture:rainbow_trout": false
+			"aquaculture:gar": false
+			"terra_entity:wall_of_flesh": true
+			"minecraft:ender_dragon": true
+			"jitl:observer": true
+			"cataclysm:amethyst_crab": true
+			"cataclysm:royal_draugr": true
+			"eternal_starlight:starlight_golem": true
+			"jitl:inferno_blaze": true
+			"terra_entity:drippler": true
+			"aquaculture:red_shrooma": false
+			"terra_entity:green_slime": true
+			"jitl:rockite_golem": true
+			"cataclysm:netherite_ministrosity": true
+			"twilightforest:dwarf_rabbit": true
+			"minecraft:elder_guardian": true
+			"twilightforest:troll": true
+			"aquaculture:bluegill": false
+			"minecraft:witch": true
+			"twilightforest:kobold": true
+			"minecraft:iron_golem": true
+			"minecraft:sniffer": true
+			"twilightforest:penguin": true
+			"jitl:robot": true
+			"dragonsurvival:hunter_griffin": true
+			"minecraft:illusioner": true
+			"bosses_of_mass_destruction:obsidilith": true
+			"jitl:ice_golem": true
+			"jitl:spiked_beast": true
+			"minecraft:squid": true
+			"terra_entity:goblin_tinkerer": true
+			"twilightforest:helmet_crab": true
+			"minopp:mino_auto_player": true
+			"macabre:valamon": true
+			"minecraft:hoglin": true
+			"twilightforest:boar": true
+			"jitl:reaper": true
+			"iceandfire:troll": true
+			"iceandfire:siren": true
+			"minecraft:vindicator": true
+			"macabre:spewer": true
+			"twilightforest:bighorn_sheep": true
+			"irons_spellbooks:fire_boss": true
+			"dragonsurvival:hunter_spearman": true
+			"terra_entity:decayeder": true
+			"aquaculture:bayad": false
+			"macabre:gomoriahand": true
+			"aquaculture:arapaima": true
+			"iceandfire:fire_dragon": true
+			"minecraft:donkey": true
+			"terra_entity:hell_bat": true
+			"jitl:jungle_turtle": true
+			"aquaculture:brown_shrooma": false
+			"minecraft:armadillo": true
+			"jitl:flame_lotus": true
+			"jitl:sentry_stalker": true
+			"jitl:mini_sentry_stalker": true
+			"minecraft:parrot": true
+			"terra_entity:blood_crawler": true
+			"terra_entity:yellow_slime": true
+			"jitl:depths_beast": true
+			"eternal_starlight:shimmer_lacewing": true
+			"jitl:frozen_troll": true
+			"terra_entity:man_eater": true
+			"aquaculture:atlantic_cod": false
+			"block_factorys_bosses:dragon_guard_sword": true
+			"minecraft:ravager": true
+			"terra_entity:nurse": true
+			"twilightforest:raven": true
+			"twilightforest:deer": true
+			"twilightforest:knight_phantom": true
+			"macabre:baal": true
+			"terra_entity:lava_slime": true
+			"aquaculture:pollock": false
+			"undergarden:rotwalker": true
+			"jitl:jungle_golem": true
+			"jitl:dynaster": true
+			"undergarden:rotbelcher": true
+			"minecraft:spider": true
+			"iceandfire:myrmex_queen": true
+			"terra_entity:desert_slime": true
+			"twilightforest:lower_goblin_knight": true
+			"eternal_starlight:aurora_deer": true
+			"cataclysm:netherite_monstrosity": true
+			"aquaculture:brown_trout": false
+			"cataclysm:deepling_brute": true
+			"terra_entity:dark_caster": true
+			"netherdepthsupgrade:soulsucker": true
+			"jitl:eudor": true
+			"twilightforest:pinch_beetle": true
+			"jitl:floro": true
+			"jitl:calcia": true
+			"cataclysm:the_harbinger": true
+			"iceandfire:amphithere": true
+			"bosses_of_mass_destruction:gauntlet": true
+			"eternal_starlight:gleech": true
+			"cataclysm:coral_golem": true
+			"minecraft:shulker": true
+			"jitl:darkness_crawler": true
+			"twilightforest:maze_slime": true
+			"iceandfire:pixie": true
+			"twilightforest:giant_miner": true
+			"minecraft:husk": true
+			"jitl:starlight_transporter": true
+			"cataclysm:the_watcher": true
+			"terra_entity:crimson_kemera": true
+			"iceandfire:dread_beast": true
+			"jitl:frozen_guardian": true
+			"twilightforest:armored_giant": true
+			"cataclysm:the_prowler": true
+			"netherdepthsupgrade:wither_bonefish": true
+			"iceandfire:dread_ghoul": true
+			"minecraft:polar_bear": true
+			"jitl:scale": true
+			"terra_entity:queen_bee": true
+			"netherdepthsupgrade:magmacubefish": true
+		}
+		
+		# Minimap font scaling (values not a multiple of 0.5 may look bad)
+		# Default: 0.5
+		# Range: 0.1 ~ 5.0
+		font_scale: 0.5d
+		
+		# Info hidden under minimap
+		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
+		info_hidden: [
+			"ftbchunks:fps"
+			"ftbchunks:game_time"
+			"ftbchunks:real_time"
+			"ftbchunks:debug"
+		]
+		
+		# Info displayed under minimap
+		# Default: ["ftbchunks:player_pos", "ftbchunks:biome", "ftbchunks:zone", "ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
+		info_order: [
+			"ftbchunks:player_pos"
+			"ftbchunks:biome"
+			"ftbchunks:zone"
+			"ftbchunks:fps"
+			"ftbchunks:game_time"
+			"ftbchunks:real_time"
+			"ftbchunks:debug"
+		]
+		info_settings: { }
+		
+		# Entities in minimap will be larger
+		# Default: false
+		large_entities: false
+		
+		# Minimap will not rotate
+		# Default: true
+		locked_north: true
+		
+		# Show player heads on minimap
+		# Default: true
+		player_heads: true
+		
+		# Mode for the pointer icon to render on full screen minimap
+		# Default: "both"
+		# Valid values: "face", "pointer", "both"
+		pointer_icon_mode: "both"
+		
+		# Mode for the pointer icon to render on minimap
+		# Default: "both"
+		# Valid values: "face", "pointer", "both"
+		pointer_icon_mode_minimap: "both"
+		
+		# Enables minimap to show up in corner
+		# Default: "top_right"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
+		position: "top_right"
+		
+		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
+		# When set to none and the maps offset is greater than 0, the offset will apply to all directions
+		# Default: "none"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right", "none"
+		position_offset_condition: "none"
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_x: 0
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_y: 20
+		
+		# Size minimap proportional to screen width (and scale)
+		# Default: true
+		proportional: true
+		
+		# Draw reticle lines on minimap
+		# Default: true
+		reticle: true
+		
+		# Scale of minimap
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		scale: 1.25d
+		
+		# Always show player on minimap, even when rotation not locked
+		# Default: true
+		show_player_when_unlocked: true
+		
+		# Draw a square minimap instead of a circular one
+		# Default: false
+		square: false
+		
+		# Show text above minimap
+		# Default: false
+		text_above_minimap: false
+		
+		# Minimap visibility
+		# Default: 255
+		# Range: 0 ~ 255
+		visibility: 255
+		
+		# Show waypoints on minimap
+		# Default: true
+		waypoints: true
+		
+		# Zoom distance of the minimap
+		# Default: 1.0
+		# Range: 1.0 ~ 4.0
+		zoom: 2.0d
+	}
+	waypoints: {
+		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
+		# Default: 0
+		# Range: 0 ~ 2147483647
+		death_waypoint_autoremove_distance: 0
+		
+		# Enables creation of death waypoints
+		# Default: true
+		death_waypoints: false
+		
+		# Show waypoints in world
+		# Default: true
+		in_world_waypoints: false
+		
+		# Minimum distance before waypoint dots start to fade
+		# Default: 1.0
+		# Range: 1.0 ~ 200.0
+		waypoint_dot_fade_distance: 1.0d
+		
+		# Minimum distance before waypoint beacons start to fade
+		# Default: 12.0
+		# Range: 1.0 ~ 200.0
+		waypoint_fade_distance: 12.0d
+		
+		# How close player crosshair needs to be to in-world waypoints to show waypoint labels
+		# Default: 1.0
+		# Range: 1.0 ~ 10.0
+		waypoint_focus_distance: 1.0d
+		
+		# How much do in-world waypoints enlarge when the player crosshair is close
+		# Default: 2.0
+		# Range: 1.0 ~ 10.0
+		waypoint_focus_scale: 2.0d
+		
+		# Maximum distance at which waypoints are drawn
+		# Default: 5000.0
+		# Range: 1.0 ~ 2.147483647E9
+		waypoint_max_distance: 5000.0d
+	}
+}
