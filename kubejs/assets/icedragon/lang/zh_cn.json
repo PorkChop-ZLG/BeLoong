@@ -10,6 +10,9 @@
 "dragon_ability.dragonsurvival.frigid_breath": "凛冬之息",
 "dragon_ability.dragonsurvival.frigid_breath.desc": "■ 喷吐大量寒霜与冷气，减速敌人并附上§c「冻结」§r效果。\n\n■ §f射程§r§7取决于龙的年龄。",
 
+"dragon_ability.dragonsurvival.blizzard": "暴风雪",
+"dragon_ability.dragonsurvival.blizzard.desc": "■ 喷吐一股极寒风暴，§2可凝固水流§7并§2熄灭§7岩浆与火焰。\n\n■ 对生肉使用可将其转化为更富营养的§2冰鲜版§7；持续作用则会使其§2冻伤§7。\n\n■ 此技能不造成直接伤害。\n\n■ §f射程§r§7取决于龙的成长阶段。",
+
 "dragon_ability.dragonsurvival.icicle": "冰晶之矛",
 "dragon_ability.dragonsurvival.icicle.desc": "■ 精准投掷高速的冰矛，§c「减速」§r目标并给周围实体附上§c「冻结」§r效果。\n\n■ 可将飞行中的龙族击落。",
 
@@ -52,6 +55,9 @@
 
 "dragon_penalty.dragonsurvival.melting_point": "融点",
 "dragon_penalty.dragonsurvival.melting_point.desc": "■ 长时间受到火焰灼烧会导致骨质疏松并陷入§c「虚弱」§r状态。\n\n■ §2「厚实冰甲」§7技能可增强火焰抗性。",
+
+"dragon_penalty.dragonsurvival.heat_weakness": "畏热",
+"dragon_penalty.dragonsurvival.heat_weakness.desc": "■ 在沙漠和下界这种炎热环境下，你会更容易受到伤害。\n\n■ §2「厚实冰甲」§7技能或者§2抗火§7效果会减低你的脆弱程度。",
 
 "dragon_species.dragonsurvival.tundra_dragon.altar.desc": "§7■ §6苔原龙§r§7是坚硬而又易碎的§f极地生物§r§7，凭借寒冰之力§f牵制§r§7与§f摧毁§r§7敌人。\n\n§2■ 特性:§r§7 锐利爪牙、冰系魔法、雪地移速增加。\n§4■ 弱点:§r§7 骨质疏松。\n§6■ 食谱:§r %s",
   

@@ -8,25 +8,28 @@
 "tag.damage_type.dragonsurvival.is_ice": "Freezing",
 
 "dragon_ability.dragonsurvival.frigid_breath": "Frigid Breath",
-"dragon_ability.dragonsurvival.frigid_breath.desc": "■ Breathe a deluge of snow and cold air that §c«Chills»§r enemies, slowing them.\n\n■ Its §fRange§r§7 depends on age of the dragon.",
+"dragon_ability.dragonsurvival.frigid_breath.desc": "■ Breathe a deluge of snow and fragments of ice that §c«Frostbite»§r enemies, damaging and slowing them.\n\n■ Its §fRange§r§7 depends on age of the dragon.",
+
+"dragon_ability.dragonsurvival.blizzard": "Blizzard",
+"dragon_ability.dragonsurvival.blizzard.desc": "■ Exhale a storm of freezing air, §2solidifying water§7 and §2quenching§7 lava and fire.\n\n■ Using Blizzard on meats will convert them to their more nutritious §2Chilled§7 variants, and will §2Freezerburn§7 them after additional exposure.\n\n■ This ability does not deal direct damage. \n\n■ Its §fRange§r§7 depends on age of the dragon.",
 
 "dragon_ability.dragonsurvival.icicle": "Icicle Spear",
-"dragon_ability.dragonsurvival.icicle.desc": "■ Launch an accurate, high velocity spear of ice which §c«Slows»§r the target and §c«Chills»§r nearby entities.\n\n■ It also knocks dragons out of the air.",
+"dragon_ability.dragonsurvival.icicle.desc": "■ Launch an accurate, high velocity spear of ice that inflicts §c«Frostbite»§r to the target and nearby entities.\n\n■ It also knocks dragons out of the air.",
 
 "dragon_ability.dragonsurvival.shatter": "Shatter",
-"dragon_ability.dragonsurvival.shatter.desc": "■ Shatter the ice coating nearby §c«Chilled»§r enemies, dealing high damage and removing the effect.",
+"dragon_ability.dragonsurvival.shatter.desc": "■ Shatter the ice coating nearby §c«Frostbitten»§r enemies, dealing high damage and removing the effect.\n\n■ Icicles embedded in the ground will shatter, spraying ice shards across the surrounding area.",
 
 "dragon_ability.dragonsurvival.precise_hearing": "Sharpened Senses",
-"dragon_ability.dragonsurvival.precise_hearing.desc": "■ Focus on your surroundings, allowing you to §c«Reveal»§r moving creatures through walls.",
+"dragon_ability.dragonsurvival.precise_hearing.desc": "■ Focus on your surroundings, causing nearby creatures to §c«Glow»§r through walls.",
 
 "dragon_ability.dragonsurvival.tundra_athletics": "Tundra Athletics",
 "dragon_ability.dragonsurvival.tundra_athletics.desc": "■ Standing on §ficy§7 surfaces will increase your §2movement speed§7.",
 
 "dragon_ability.dragonsurvival.snowdrift": "Snowdrift",
-"dragon_ability.dragonsurvival.snowdrift.desc": "■ Your attacks have a chance to §c«Chill»§r§7.",
+"dragon_ability.dragonsurvival.snowdrift.desc": "■ Your attacks inflict §c«Frostbite»§r§7.",
 
 "dragon_ability.dragonsurvival.thick_ice": "Thick Ice",
-"dragon_ability.dragonsurvival.thick_ice.desc": "■ Dampens your vulnerability to impacts and fire.",
+"dragon_ability.dragonsurvival.thick_ice.desc": "■ Dampens your vulnerability to impacts, fire, and hot environments.",
 
 "dragon_ability.dragonsurvival.tundra_magic": "Tundra Magic",
 "dragon_ability.dragonsurvival.tundra_magic.desc": "■ Upgrading this ability increases your §2maximum mana pool§r§7 and allows to restore mana by standing on §fice§r§7 or §fsnow§r§7.\n\n■ §8The more levels you have, the higher your passive mana regeneration.",
@@ -35,7 +38,7 @@
 "dragon_ability.dragonsurvival.tundra_claws_and_teeth.desc": "■ Tundra dragons deal more §2extra damage§r§7 with their melee attacks than other dragons. This ability gets stronger as you grow.",
  
 "dragon_ability.dragonsurvival.snow_sense": "Snow Sense",
-"dragon_ability.dragonsurvival.snow_sense.desc": "■ As hyperpredators of harsh polar environments, Tundra dragons have exceptional hearing and the ability to sense that a foe is taking poorly to the cold.",
+"dragon_ability.dragonsurvival.snow_sense.desc": "■ As hyperpredators of harsh polar environments, Tundra dragons' senses and physical strength are magically enhanced.",
 
 "dragon_ability.dragonsurvival.ice_immunity": "Ice Immunity",
 "dragon_ability.dragonsurvival.ice_immunity.desc": "■ Tundra dragons have an innate §2immunity to freezing damage and «Slowness» effects§r§7.",
@@ -51,7 +54,10 @@
 "dragon_penalty.dragonsurvival.impact_weakness.desc": "■ Your icy body is vulnerable to §dbreakage§r§7. You take increased damage from §cFalling, Explosions, Flying into walls, and being crushed by blocks.§r\n\n■ The §2«Thick Ice»§7 skill will help you mitigate this.",
 
 "dragon_penalty.dragonsurvival.melting_point": "Melting Point",
-"dragon_penalty.dragonsurvival.melting_point.desc": "■ Being on fire for too long will soften your skeleton and afflict you with §c«Weakness»§r.\n\n■ The §2«Thick Ice»§7 skill will increase your resistance to fire.",
+"dragon_penalty.dragonsurvival.melting_point.desc": "■ Being on fire for too long will soften your skeleton and afflict you with §c«Weakness»§r.\n\n■ The §2«Thick Ice»§7 skill or a §2«Fire Resistance»§7 effect will dampen this penalty.",
+
+"dragon_penalty.dragonsurvival.heat_weakness": "Heat Weakness",
+"dragon_penalty.dragonsurvival.heat_weakness.desc": "■ Being in a hot environment like a desert or the nether will reduce your resistance to §cdamage§r.\n\n■ The §2«Thick Ice»§7 skill or a §2«Fire Resistance»§7 effect will decrease the magnitude of the vulnerability.",
 
 "dragon_species.dragonsurvival.tundra_dragon.altar.desc": "§7■ §6Tundra Dragons§r§7 are a tough, yet brittle §fspecies§r§7. Their offensive capabilities are immense, and they wield the power of ice to §fimpede§r§7 and §fdestroy§r§7 their foes.\n\n§2■ Features:§f§r§7 sharper claws, ice magic, faster movement on ice and snowy blocks.\n§4■ Weakness:§r§7 brittle bones.\n§6■ Diet:§r %s",
   
