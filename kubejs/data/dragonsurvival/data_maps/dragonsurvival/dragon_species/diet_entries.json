@@ -2482,7 +2482,7 @@
         }
       ]
     },
-    "dragonsurvival:tundra_dragon": {
+"dragonsurvival:tundra_dragon": {
       "neoforge:conditions": [
         {
           "type": "dragonsurvival:registered",
@@ -2497,6 +2497,14 @@
             "eat_seconds": 1.2,
             "nutrition": 6,
             "saturation": 4.0
+          }
+        },
+        {
+          "items": "#tundradragon:chilledmeats",
+          "properties": {
+            "eat_seconds": 1.2,
+            "nutrition": 7,
+            "saturation": 7.0
           }
         },
         {
@@ -2599,6 +2607,139 @@
           "properties": {
             "nutrition": 7,
             "saturation": 8.0
+          }
+        },
+        {
+          "items": "dragonsurvival:frozen_raw_fish",
+          "properties": {
+            "can_always_eat": true,
+            "nutrition": 2,
+            "saturation": 1.0
+          }
+        },
+        {
+          "items": "tundradragon:freezerburned_steak",
+          "properties": {
+            "nutrition": 9,
+            "saturation": 9.0
+          }
+        },
+        {
+          "items": "tundradragon:freezerburned_rabbit",
+          "properties": {
+            "nutrition": 8,
+            "saturation": 10.0
+          }
+        },
+        {
+          "items": "tundradragon:freezerburned_chicken",
+          "properties": {
+            "nutrition": 8,
+            "saturation": 10.0
+          }
+        },
+        {
+          "items": "tundradragon:freezerburned_mutton",
+          "properties": {
+            "nutrition": 10,
+            "saturation": 8.0
+          }
+        },
+        {
+          "items": "tundradragon:freezerburned_porkchop",
+          "properties": {
+            "nutrition": 10,
+            "saturation": 8.0
+          }
+        },
+        {
+          "items": "tundradragon:tundra_dragon_treat",
+          "properties": {
+            "nutrition": 4,
+            "saturation": 8.0,
+          "can_always_eat": true,
+          "effects": [
+            {
+              "effect": {
+                "id": "dragonsurvival:source_of_magic",
+                "amplifier": 0,
+                "duration": 1200,
+                "ambient": true,
+                "show_particles": true,
+                "show_icon": true
+              }
+            }
+          ]
+          }
+        },
+        {
+          "items": "tundradragon:snowy_stew",
+          "properties": {
+            "nutrition": 10,
+            "saturation": 12.0,
+          "can_always_eat": true,
+          "effects": [
+            {
+              "effect": {
+                "id": "minecraft:regeneration",
+                "amplifier": 0,
+                "duration": 100,
+                "ambient": true,
+                "show_particles": true,
+                "show_icon": true
+              }
+            }
+          ]
+          }
+        },
+        {
+          "items": "tundradragon:popsicle",
+          "properties": {
+            "nutrition": 12,
+            "saturation": 12.0,
+          "can_always_eat": true,
+          "effects": [
+            {
+              "effect": {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 200,
+                "ambient": true,
+                "show_particles": true,
+                "show_icon": true
+              }
+            },
+            {
+              "effect": {
+                "id": "minecraft:absorption",
+                "amplifier": 0,
+                "duration": 6000,
+                "ambient": true,
+                "show_particles": true,
+                "show_icon": true
+              }
+            }
+          ]
+          }
+        },
+        {
+          "items": "tundradragon:infused_ice_crystal",
+          "properties": {
+            "nutrition": 4,
+            "saturation": 4.0,
+          "can_always_eat": true,
+          "effects": [
+            {
+              "effect": {
+                "id": "tundradragon:supercooling",
+                "amplifier": 0,
+                "duration": 1800,
+                "ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            }
+          ]
           }
         },
         {
