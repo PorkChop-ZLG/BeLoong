@@ -21,3 +21,6 @@ ClientNotDisplayModels = []
 	# Default: 0
 	# Range: 0 ~ 120
 	PlayerSyncTimeout = 0
+	#Suppress network synchronization of partial features to reduce bandwidth usage
+	#Only effective when there are tons of players
+	LowBandwidthUsage = false

@@ -103,6 +103,14 @@ _version = 3
 				# 1 = normal 
 				# 2 = very saturated
 				saturationMultiplier = "1.0"
+				#
+				# This is the same as vanilla Biome Blending settings for Lod area. 
+				#     Note that anything other than '0' will greatly effect Lod building time. 
+				# 
+				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
+				#     '1' equals to Vanilla Biome Blending of '3x3', 
+				#     '2' equals to Vanilla Biome Blending of '5x5'...
+				lodBiomeBlending = 3
 
 			[client.advanced.graphics.ssao]
 				#
@@ -486,7 +494,7 @@ _version = 3
 
 			[client.advanced.debugging.f3Screen]
 				#
-				# Shows info about each thread pool.
+				# Shows the player's LOD position.
 				showPlayerPos = true
 				#
 				# Defines what internal detail level the player position will be shown as. 
@@ -568,6 +576,11 @@ _version = 3
 		# For how many seconds should instructions for disabling the distant generator progress be displayed? 
 		# Setting this to 0 hides the instructional message so the world gen progress is shown immediately when it starts.
 		generationProgressDisableMessageDisplayTimeInSeconds = 20
+		#
+		# When logging generation progress also include the rate at which chunks 
+		# are being generated. 
+		# This can be useful for troubleshooting performance.
+		generationProgressIncludeChunksPerSecond = true
 
 	[common.lodBuilding]
 		#
@@ -590,14 +603,20 @@ _version = 3
 		# UNCOMPRESSED 
 		# Should only be used for testing, is worse in every way vs [LZ4].
 		# Expected Compression Ratio: 1.0
-		# Estimated average DTO read speed: 3.25 milliseconds
-		# Estimated average DTO write speed: 5.99 milliseconds
+		# Estimated average DTO read speed: 6.09 milliseconds
+		# Estimated average DTO write speed: 6.01 milliseconds
 		# 
 		# LZ4 
 		# A good option if you're CPU limited and have plenty of hard drive space.
-		# Expected Compression Ratio: 0.26
-		# Estimated average DTO read speed: 1.85 ms
-		# Estimated average DTO write speed: 9.46 ms
+		# Expected Compression Ratio: 0.4513
+		# Estimated average DTO read speed: 3.25 ms
+		# Estimated average DTO write speed: 5.99 ms
+		# 
+		# Z_STD 
+		# A good option if you're CPU limited and have plenty of hard drive space.
+		# Expected Compression Ratio: 0.2606
+		# Estimated average DTO read speed: 9.31 ms
+		# Estimated average DTO write speed: 15.13 ms
 		# 
 		# LZMA2 
 		# Slow but very good compression.
@@ -785,6 +804,14 @@ _version = 3
 	# If true, DH will automatically adjust transfer rate to minimize connection lag.
 	# If false, transfer speed will remain fixed.
 	enableAdaptiveTransferSpeed = false
+	#
+	# Maximum per-player speed for uploading LODs to the clients, in KB/s.
+	# Value of 0 disables the limit.
+	playerBandwidthLimit = 500
+	#
+	# Maximum global speed for uploading LODs to the clients, in KB/s.
+	# Value of 0 disables the limit.
+	globalBandwidthLimit = 0
 
 	[server.experimental]
 		#
