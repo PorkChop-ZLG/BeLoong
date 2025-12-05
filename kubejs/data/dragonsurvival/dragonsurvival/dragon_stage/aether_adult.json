@@ -1,6 +1,10 @@
 {
   "growth_items": [
     {
+      "growth_in_ticks": 36000,
+      "items": "dragonsurvival:weak_dragon_heart"
+    },
+    {
       "growth_in_ticks": 72000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
@@ -14,8 +18,8 @@
     }
   ],
   "growth_range": {
-    "max": 60.0,
-    "min": 40.0
+    "max": 150.0,
+    "min": 100.0
   },
   "is_default": false,
   "is_natural_growth_stopped": {
@@ -56,8 +60,8 @@
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 10.5,
-        "per_level_above_first": 0.5
+        "base": 82.0,
+        "per_level_above_first": 2.0
       },
       "attribute": "minecraft:generic.max_health",
       "operation": "add_value"

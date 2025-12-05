@@ -7,7 +7,9 @@
     "dragonsurvival:aether_child",
     "dragonsurvival:aether_young",
     "dragonsurvival:aether_adult",
-    "dragonsurvival:aether_ancient"
+    "dragonsurvival:aether_ancient",
+    "dragonsurvival:aether_archean",
+    "dragonsurvival:aether_progenitor"
   ],
   "misc_resources": {
     "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/air/cast_bar.png",

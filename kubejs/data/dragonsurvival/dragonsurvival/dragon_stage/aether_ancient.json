@@ -5,16 +5,29 @@
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
+      "growth_in_ticks": 1728000,
+      "items": "kubejs:aether_dragon_heart"
+    },
+    {
       "growth_in_ticks": -72000,
       "items": "dragonsurvival:star_bone"
+    },
+    {
+      "growth_in_ticks": 0,
+      "items": "dragonsurvival:star_heart"
     }
   ],
   "growth_range": {
-    "max": 300.0,
-    "min": 60.0
+    "max": 200.0,
+    "min": 150.0
   },
   "is_default": false,
-  "is_natural_growth_stopped": {},
+  "is_natural_growth_stopped": {
+    "type_specific": {
+      "type": "dragonsurvival:dragon_predicate",
+      "is_growth_stopped": true
+    }
+  },
   "modifiers": [
     {
       "amount": 0.04,
@@ -41,8 +54,8 @@
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 20.5,
-        "per_level_above_first": 0.5
+        "base": 186.0,
+        "per_level_above_first": 6.0
       },
       "attribute": "minecraft:generic.max_health",
       "operation": "add_value"
@@ -107,5 +120,5 @@
       "operation": "add_multiplied_base"
     }
   ],
-  "ticks_until_grown": 69120000
+  "ticks_until_grown": 12096000
 }

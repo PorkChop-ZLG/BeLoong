@@ -1,6 +1,26 @@
 {
   "values": {
     "dragonsurvival:aether_dragon": {
+      "dragonsurvival:aether_progenitor": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/aether/aether_adult_glow.png",
+          "skin": "dragonsurvival:textures/dragon/aether/aether_adult.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_main.png"
+        }
+      },
+      "dragonsurvival:aether_archean": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/aether/aether_adult_glow.png",
+          "skin": "dragonsurvival:textures/dragon/aether/aether_adult.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_main.png"
+        }
+      },
       "dragonsurvival:aether_ancient": {
         "default_skin": {
           "glow_skin": "dragonsurvival:textures/dragon/aether/aether_adult_glow.png",

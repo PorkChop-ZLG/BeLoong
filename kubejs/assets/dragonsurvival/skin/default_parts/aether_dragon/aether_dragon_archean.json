@@ -1,0 +1,16 @@
+{
+  "species": "dragonsurvival:aether_dragon",
+  "stage": "dragonsurvival:aether_archean",
+  "model": "dragonsurvival:test_model",
+  "parts": {
+    "base": "aether_base",
+    "bottom": "mustache_common",
+    "eyes": "common_eyes",
+    "horns": "common_horns",
+    "spikes": "cloud_spikes",
+    "claws": "common_claws",
+    "teeth": "common_teeth",
+    "extra": "rain_drop_extra",
+    "magic": "magic_aether"
+  }
+}
