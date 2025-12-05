@@ -37,7 +37,7 @@
   "dragon_ability.dragonsurvival.weathers_child": "天气之子",
   "dragon_ability.dragonsurvival.weathers_child.desc": "■ 天生与气象共鸣，§f降雨或雷暴§r§7时获得§2移动速度、飞行速度与攻速提升§r§7。\n\n■ §8等级越高，增益效果越强。§r",
   "dragon_ability.dragonsurvival.aether_spin": "以太旋冲",
-  "dragon_ability.dragonsurvival.aether_spin.desc": "■ 你可以在展翼时并且§f脱离地面时§r§7或§f熔岩§r§7中§2旋冲§r§7，提升速度，对撞到的所有单位造成伤害。前往§f末地，在传承之所里获得§r§7学习此技能的知识。",
+  "dragon_ability.dragonsurvival.aether_spin.desc": "■ 你可以在§f空中§r§7或§f水里§r§7进行§2旋冲§r§7，并加速飞行，对沿途撞到的所有单位造成伤害。§r§7要获得这个技能§r§7，可前往§f末地§r§7，在传承之所里习得。",
   "dragon_ability.dragonsurvival.aether_immunity": "轻于鸿毛",
   "dragon_ability.dragonsurvival.aether_immunity.desc": "■ 环绕周身的气流赋予§2免疫摔落伤害§r§7。",
   "dragon_ability.dragonsurvival.aether_claws_and_teeth.desc": "■ 以太龙的利爪无法替代工具，但可获得§f攻击与挖掘速度§r§7的§2增益§r§7。该能力随§f成长§r§7增强。",

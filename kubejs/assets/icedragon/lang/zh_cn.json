@@ -5,31 +5,31 @@
 "damage_type.dragonsurvival.frigid_breath": "凛冬之息",
 "damage_type.dragonsurvival.shatter": "冰爆术",
 "damage_type.dragonsurvival.icicle": "冰晶之矛",
-"tag.damage_type.dragonsurvival.is_ice": "冻结",
+"tag.damage_type.dragonsurvival.is_ice": "霜冻",
 
 "dragon_ability.dragonsurvival.frigid_breath": "凛冬之息",
-"dragon_ability.dragonsurvival.frigid_breath.desc": "■ 喷吐大量寒霜与冷气，减速敌人并附上§c「冻结」§r效果。\n\n■ §f射程§r§7取决于龙的年龄。",
+"dragon_ability.dragonsurvival.frigid_breath.desc": "■ 喷吐大量寒霜与碎冰，减速敌人并附上§c「霜冻」§r效果。\n\n■ §f范围§r§7取决于龙的成长阶段。",
 
 "dragon_ability.dragonsurvival.blizzard": "暴风雪",
 "dragon_ability.dragonsurvival.blizzard.desc": "■ 喷吐一股极寒风暴，§2可凝固水流§7并§2熄灭§7岩浆与火焰。\n\n■ 对生肉使用可将其转化为更富营养的§2冰鲜版§7；持续作用则会使其§2冻伤§7。\n\n■ 此技能不造成直接伤害。\n\n■ §f射程§r§7取决于龙的成长阶段。",
 
 "dragon_ability.dragonsurvival.icicle": "冰晶之矛",
-"dragon_ability.dragonsurvival.icicle.desc": "■ 精准投掷高速的冰矛，§c「减速」§r目标并给周围实体附上§c「冻结」§r效果。\n\n■ 可将飞行中的龙族击落。",
+"dragon_ability.dragonsurvival.icicle.desc": "■ 精准投掷高速的冰矛，§c「减速」§r目标并给周围实体附上§c「霜冻」§r效果。\n\n■ 可将飞行中的龙族击落。",
 
 "dragon_ability.dragonsurvival.shatter": "冰爆术",
-"dragon_ability.dragonsurvival.shatter.desc": "■ 粉碎拥有§c「冻结」§r效果的敌人身上的冰霜，造成高额伤害并清除效果。",
+"dragon_ability.dragonsurvival.shatter.desc": "■ 粉碎拥有§c「霜冻」§r效果的敌人身上的冰霜，造成高额伤害并清除效果。\n\n■ 埋在地下的冰晶之矛会爆裂, 向周围射出冰晶碎片。",
 
 "dragon_ability.dragonsurvival.precise_hearing": "敏锐感知",
-"dragon_ability.dragonsurvival.precise_hearing.desc": "■ 专注地感知环境，可以§c「透视」§r墙壁后面移动的生物。",
+"dragon_ability.dragonsurvival.precise_hearing.desc": "■ 专注地感知环境，可以给墙壁后面的生物附上§c「发光」§r效果。",
 
 "dragon_ability.dragonsurvival.tundra_athletics": "苔原体术",
 "dragon_ability.dragonsurvival.tundra_athletics.desc": "■ 站立于§f冰面§7时§2移动速度§7提升。",
 
 "dragon_ability.dragonsurvival.snowdrift": "飞雪",
-"dragon_ability.dragonsurvival.snowdrift.desc": "■ 攻击有概率给目标附上§c「冻结」§r§7效果。",
+"dragon_ability.dragonsurvival.snowdrift.desc": "■ 攻击会给目标附上§c「霜冻」§r§7效果。",
 
 "dragon_ability.dragonsurvival.thick_ice": "厚实冰甲",
-"dragon_ability.dragonsurvival.thick_ice.desc": "■ 降低冲击伤害和火焰伤害。",
+"dragon_ability.dragonsurvival.thick_ice.desc": "■ 降低你在冲击、火焰和炎热环境下受到的伤害。",
 
 "dragon_ability.dragonsurvival.tundra_magic": "苔原魔法",
 "dragon_ability.dragonsurvival.tundra_magic.desc": "■ 升级此能力可提高你的§2魔力上限§r§7，并让你站在§f冰§r§7或§f雪§r§7上时恢复魔力。\n\n■ §8等级越高，自动恢复的魔力越快。",
@@ -38,16 +38,16 @@
 "dragon_ability.dragonsurvival.tundra_claws_and_teeth.desc": "■ 苔原龙的近战攻击造成更高的§2额外伤害§r§7，该能力随成长增强。",
  
 "dragon_ability.dragonsurvival.snow_sense": "雪地感知",
-"dragon_ability.dragonsurvival.snow_sense.desc": "■ 作为极地的顶级掠食者，苔原龙拥有出色的听觉，可感知在寒风中瑟瑟发抖的猎物。",
+"dragon_ability.dragonsurvival.snow_sense.desc": "■ 作为极地的顶级掠食者，苔原龙拥有出色的听觉，可感知在寒风中瑟瑟发抖的猎物，同时增强自身力量。",
 
 "dragon_ability.dragonsurvival.ice_immunity": "寒冰庇护",
 "dragon_ability.dragonsurvival.ice_immunity.desc": "■ 苔原龙天生免疫§2冰冻伤害与「缓慢」效果§r§7。",
   
 "dragon_ability.dragonsurvival.tundra_spin": "苔原旋冲",
-"dragon_ability.dragonsurvival.tundra_spin.desc": "■ 你可以在展翼时并且§f脱离地面时§r§7或§f熔岩§r§7中§2旋冲§r§7，提升速度，对撞到的所有单位造成伤害。前往§f末地，在传承之所里获得§r§7学习此技能的知识。",
+"dragon_ability.dragonsurvival.tundra_spin.desc": "■ 你可以在§f空中§r§7或§f水里§r§7进行§2旋冲§r§7，并加速飞行，对沿途撞到的所有单位造成伤害。§r§7要获得这个技能§r§7，可前往§f末地§r§7，在传承之所里习得。",
  
 "dragon_ability.dragonsurvival.tundra_wings": "苔原之翼",
-"dragon_ability.dragonsurvival.tundra_wings.desc": "■ 龙使用§2悬浮术§r飞行，但很少天生具备这种能力。",
+"dragon_ability.dragonsurvival.tundra_wings.desc": "■ 龙依靠§f悬浮魔法§r来§2飞行§r，但很少有龙天生具备这项能力。",
 
 
 "dragon_penalty.dragonsurvival.impact_weakness": "易碎",
