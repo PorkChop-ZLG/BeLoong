@@ -1,6 +1,5 @@
 {
-	"replace": true,
-	"values": [
+  "values": [
 		"dragonsurvival:wind_breath",
 		"dragonsurvival:typhoon",
 		"dragonsurvival:levitation",
@@ -18,5 +17,5 @@
 		"dragonsurvival:feather_falling",
 		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"
-	]
+  ]
 }

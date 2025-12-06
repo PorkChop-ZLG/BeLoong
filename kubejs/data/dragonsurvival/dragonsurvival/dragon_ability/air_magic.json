@@ -22,6 +22,15 @@
                       },
                       "attribute": "iss_magicfromtheeast:symmetry_spell_power",
                       "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.05,
+                        "per_level_above_first": 0.05
+                      },
+                      "attribute": "iss_magicfromtheeast:symmetry_magic_resist",
+                      "operation": "add_multiplied_base"
                     }
                   ]
                 }
