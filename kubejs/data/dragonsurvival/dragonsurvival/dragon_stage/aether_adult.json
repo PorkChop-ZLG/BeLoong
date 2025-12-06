@@ -30,29 +30,9 @@
   },
   "modifiers": [
     {
-      "amount": 0.5,
-      "attribute": "minecraft:generic.step_height",
-      "operation": "add_value"
-    },
-    {
-      "amount": 3.0,
-      "attribute": "minecraft:generic.attack_damage",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.1,
-      "attribute": "minecraft:generic.jump_strength",
-      "operation": "add_value"
-    },
-    {
-      "amount": 1.0,
-      "attribute": "minecraft:generic.safe_fall_distance",
-      "operation": "add_value"
-    },
-    {
       "amount": {
-        "precise_amount": 0.01,
-        "precise_base": -0.5
+        "precise_amount": 0.009,
+        "precise_base": -0.1
       },
       "attribute": "minecraft:generic.scale",
       "operation": "add_value"
@@ -69,34 +49,50 @@
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 5.9,
-        "per_level_above_first": 0.4
+        "base": 7.16,
+        "per_level_above_first": 0.16
       },
-      "attribute": "dragonsurvival:dragon_breath_range",
+      "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value"
     },
     {
-      "amount": {
-        "type": "minecraft:linear",
-        "base": 0.05,
-        "per_level_above_first": 0.05
-      },
+      "amount": 0.03,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_value"
+    },
+    {
+      "amount": 0.3,
+      "attribute": "minecraft:generic.jump_strength",
+      "operation": "add_value"
+    },
+    {
+      "amount": 1.4,
+      "attribute": "minecraft:generic.step_height",
+      "operation": "add_value"
+    },
+    {
+      "amount": 27.0,
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "operation": "add_value"
+    },
+    {
+      "amount": 4.0,
+      "attribute": "minecraft:player.block_interaction_range",
+      "operation": "add_value"
+    },
+    {
+      "amount": 4.0,
       "attribute": "minecraft:player.entity_interaction_range",
       "operation": "add_value"
     },
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 0.05,
-        "per_level_above_first": 0.05
+        "base": 5.04,
+        "per_level_above_first": 0.04
       },
-      "attribute": "minecraft:player.block_interaction_range",
+      "attribute": "dragonsurvival:dragon_breath_range",
       "operation": "add_value"
-    },
-	  {
-      "amount": 0.70,
-      "attribute": "iss_magicfromtheeast:symmetry_magic_resist",
-      "operation": "add_multiplied_base"
     }
   ],
   "ticks_until_grown": 1728000
