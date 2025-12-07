@@ -104,4 +104,310 @@ ServerEvents.recipes(event => {
             }
         }
     )
+    // 远古龙心 + 烈焰之眼 = 龙炎煅炉 = 洞穴龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:blazing_eye"
+            },
+            "result": {
+                "id": "kubejs:cave_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 烈焰之眼 = 龙霜煅炉 = 洞穴龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:blazing_eye"
+            },
+            "result": {
+                "id": "kubejs:cave_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 烈焰之眼 = 龙霆煅炉 = 洞穴龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:blazing_eye"
+            },
+            "result": {
+                "id": "kubejs:cave_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 水晶果实 = 龙炎煅炉 = 森林龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:crystal_fruit"
+            },
+            "result": {
+                "id": "kubejs:forest_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 水晶果实 = 龙霜煅炉 = 森林龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:crystal_fruit"
+            },
+            "result": {
+                "id": "kubejs:forest_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 水晶果实 = 龙霆煅炉 = 森林龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:crystal_fruit"
+            },
+            "result": {
+                "id": "kubejs:forest_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 风暴精华 = 龙炎煅炉 = 海洋龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "cataclysm:essence_of_the_storm"
+            },
+            "result": {
+                "id": "kubejs:sea_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 风暴精华 = 龙霜煅炉 = 海洋龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "cataclysm:essence_of_the_storm"
+            },
+            "result": {
+                "id": "kubejs:sea_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 风暴精华 = 龙霆煅炉 = 海洋龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "cataclysm:essence_of_the_storm"
+            },
+            "result": {
+                "id": "kubejs:sea_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 古代灵魂 = 龙炎煅炉 = 苔原龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:ancient_anima"
+            },
+            "result": {
+                "id": "kubejs:tundra_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 古代灵魂 = 龙霜煅炉 = 苔原龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:ancient_anima"
+            },
+            "result": {
+                "id": "kubejs:tundra_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 古代灵魂 = 龙霆煅炉 = 苔原龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:ancient_anima"
+            },
+            "result": {
+                "id": "kubejs:tundra_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 瓶中沙暴 = 龙炎煅炉 = 以太龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "cataclysm:sandstorm_in_a_bottle"
+            },
+            "result": {
+                "id": "kubejs:aether_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 瓶中沙暴 = 龙霜煅炉 = 以太龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "cataclysm:sandstorm_in_a_bottle"
+            },
+            "result": {
+                "id": "kubejs:aether_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 瓶中沙暴 = 龙霆煅炉 = 以太龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "cataclysm:sandstorm_in_a_bottle"
+            },
+            "result": {
+                "id": "kubejs:aether_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 黑曜石之心 = 龙炎煅炉 = 星界龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:obsidian_heart"
+            },
+            "result": {
+                "id": "kubejs:astral_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 黑曜石之心 = 龙霜煅炉 = 星界龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:obsidian_heart"
+            },
+            "result": {
+                "id": "kubejs:astral_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 黑曜石之心 = 龙霆煅炉 = 星界龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 1200,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "bosses_of_mass_destruction:obsidian_heart"
+            },
+            "result": {
+                "id": "kubejs:astral_dragon_heart"
+            }
+        }
+    )
 })

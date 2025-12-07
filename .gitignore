@@ -69,6 +69,10 @@ config/**
 !config/asteorbar-client.toml
 !config/asyncparticles.properties
 !config/beyonddimensions-common.toml
+!config/biomemusic.json
+!config/bosses_of_mass_destruction.json5
+!config/bosses_rise_config.toml
+!config/butchercraft-common.toml
 !config/carryon-client.toml
 !config/carryon-common.toml
 !config/cataclysm.toml
