@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:aether/be_dragon",
+  "parent": "dragonsurvival:aether/be_adult_dragon",
   "criteria": {
     "be_fully_grown_adult": {
       "conditions": {
@@ -12,9 +12,9 @@
                 "type": "dragonsurvival:dragon_predicate",
                 "dragon_species": "dragonsurvival:aether_dragon",
                 "stage_specific": {
-                  "dragon_stage": "dragonsurvival:aether_adult",
+                  "dragon_stage": "dragonsurvival:aether_ancient",
                   "growth_percentage": {
-                    "min": 0.92
+                    "min": 0.01
                   }
                 }
               }
