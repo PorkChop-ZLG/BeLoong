@@ -16,6 +16,22 @@ ServerEvents.recipes(event => {
             'ultramarine:jade'
         ]
     )
+    // 粗赤铁 = 熔炉 = 铁锭
+    event.smelting('minecraft:iron_ingot', 'ultramarine:raw_hematite', 0.7, 200)
+    // 赤铁矿 = 熔炉 = 铁锭
+    event.smelting('minecraft:iron_ingot', 'ultramarine:hematite_ore', 0.7, 200)
+    // 深层赤铁矿 = 熔炉 = 铁锭
+    event.smelting('minecraft:iron_ingot', 'ultramarine:deepslate_hematite_ore', 0.7, 200)
+    // 赤铁粉 = 熔炉 = 远古铁锭
+    event.smelting('block_factorys_bosses:ancient_iron_ingot', 'ultramarine:hematite_dust', 0.7, 200)
+    // 粗赤铁 = 高炉 = 铁锭
+    event.blasting('minecraft:iron_ingot', 'ultramarine:raw_hematite', 0.7, 100)
+    // 赤铁矿 = 高炉 = 铁锭
+    event.blasting('minecraft:iron_ingot', 'ultramarine:hematite_ore', 0.7, 100)
+    // 深层赤铁矿 = 高炉 = 铁锭
+    event.blasting('minecraft:iron_ingot', 'ultramarine:deepslate_hematite_ore', 0.7, 100)
+    // 赤铁粉 = 高炉 = 远古铁锭
+    event.blasting('block_factorys_bosses:ancient_iron_ingot', 'ultramarine:hematite_dust', 0.7, 100)
     // 石英 + 白松石粉 = 砖窑 = 石英块
     event.custom(
         {
