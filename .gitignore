@@ -33,6 +33,11 @@ servers.dat
 usercache.json
 usernamecache.json
 
+# ---- 忽略部分 kubejs 文件 ----
+kubejs/mcdoc/
+kubejs/spyglass/
+kubejs/spyglass.json
+
 # ---- 仅追踪部分 config ----
 config/**
 
