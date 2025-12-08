@@ -1,5 +1,13 @@
 {
   "abilities": "#dragonsurvival:forest_dragon",
+  "custom_stage_progression": [
+    "dragonsurvival:newborn",
+    "dragonsurvival:young",
+    "dragonsurvival:adult",
+    "dragonsurvival:forest_ancient",
+    "dragonsurvival:forest_archean",
+    "dragonsurvival:forest_progenitor"
+  ],
   "misc_resources": {
     "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/forest/cast_bar.png",
     "altar_banner": "dragonsurvival:textures/gui/custom/altar/forest/altar_icon.png",

@@ -1,5 +1,13 @@
 {
   "abilities": "#dragonsurvival:sea_dragon",
+  "custom_stage_progression": [
+    "dragonsurvival:newborn",
+    "dragonsurvival:young",
+    "dragonsurvival:adult",
+    "dragonsurvival:sea_ancient",
+    "dragonsurvival:sea_archean",
+    "dragonsurvival:sea_progenitor"
+  ],
   "misc_resources": {
     "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/sea/cast_bar.png",
     "altar_banner": "dragonsurvival:textures/gui/custom/altar/sea/altar_icon.png",

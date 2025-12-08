@@ -3,32 +3,32 @@
     "dragonsurvival:cave_dragon": {
       "dragonsurvival:cave_progenitor": {
         "default_skin": {
-          "glow_skin": "dragonsurvival:textures/dragon/cave_dragon/adult_glow.png",
-          "skin": "dragonsurvival:textures/dragon/cave_dragon/adult.png"
+          "glow_skin": "dragonsurvival:textures/dragon/cave_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/cave_dragon/ancient.png"
         },
         "growth_icon": {
-          "hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png",
-          "icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_main.png"
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_main.png"
         }
       },
       "dragonsurvival:cave_archean": {
         "default_skin": {
-          "glow_skin": "dragonsurvival:textures/dragon/cave_dragon/adult_glow.png",
-          "skin": "dragonsurvival:textures/dragon/cave_dragon/adult.png"
+          "glow_skin": "dragonsurvival:textures/dragon/cave_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/cave_dragon/ancient.png"
         },
         "growth_icon": {
-          "hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png",
-          "icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_main.png"
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_main.png"
         }
       },
       "dragonsurvival:cave_ancient": {
         "default_skin": {
-          "glow_skin": "dragonsurvival:textures/dragon/cave_dragon/adult_glow.png",
-          "skin": "dragonsurvival:textures/dragon/cave_dragon/adult.png"
+          "glow_skin": "dragonsurvival:textures/dragon/cave_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/cave_dragon/ancient.png"
         },
         "growth_icon": {
-          "hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png",
-          "icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_main.png"
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_main.png"
         }
       },
       "dragonsurvival:adult": {
@@ -73,6 +73,36 @@
       }
     },
     "dragonsurvival:forest_dragon": {
+      "dragonsurvival:forest_progenitor": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/forest_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/forest_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/forest/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/forest/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:forest_archean": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/forest_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/forest_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/forest/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/forest/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:forest_ancient": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/forest_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/forest_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/forest/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/forest/ancient_stage_main.png"
+        }
+      },
       "dragonsurvival:adult": {
         "default_skin": {
           "glow_skin": "dragonsurvival:textures/dragon/forest_dragon/adult_glow.png",
@@ -115,6 +145,36 @@
       }
     },
     "dragonsurvival:sea_dragon": {
+      "dragonsurvival:sea_progenitor": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/sea_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/sea_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:sea_archean": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/sea_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/sea_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:sea_ancient": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/sea_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/sea_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_main.png"
+        }
+      },
       "dragonsurvival:adult": {
         "default_skin": {
           "glow_skin": "dragonsurvival:textures/dragon/sea_dragon/adult_glow.png",
@@ -153,6 +213,78 @@
         "growth_icon": {
           "hover_icon": "dragonsurvival:textures/gui/custom/stage/sea/young_stage_hover.png",
           "icon": "dragonsurvival:textures/gui/custom/stage/sea/young_stage_main.png"
+        }
+      }
+    },
+    "dragonsurvival:tundra_dragon": {
+      "dragonsurvival:tundra_progenitor": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:tundra_archean": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:tundra_ancient": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:adult": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_dragon/adult_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_dragon/adult.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/adult_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/adult_stage_main.png"
+        }
+      },
+      "dragonsurvival:ancient": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_dragon/ancient.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_main.png"
+        }
+      },
+      "dragonsurvival:newborn": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_dragon/newborn_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_dragon/newborn.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/newborn_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/newborn_stage_main.png"
+        }
+      },
+      "dragonsurvival:young": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_dragon/young_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_dragon/young.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/young_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/young_stage_main.png"
         }
       }
     },

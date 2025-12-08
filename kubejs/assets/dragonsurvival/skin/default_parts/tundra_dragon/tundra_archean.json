@@ -1,0 +1,16 @@
+{
+  "species": "dragonsurvival:tundra_dragon",
+  "stage": "dragonsurvival:tundra_archean",
+  "model": "dragonsurvival:dragon_model",
+  "parts": {
+    "base": "base_5",
+    "bottom": "bottom_7",
+    "eyes": "eyes_12",
+    "horns": "horns_4",
+    "spikes": "spikes_5",
+    "claws": "claw_2",
+    "teeth": "teeth_3",
+    "magic": "sea_magic_1",
+    "extra": "sea_extra_wings_7"
+  }
+}
