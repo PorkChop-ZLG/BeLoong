@@ -12,6 +12,10 @@
   "dragonsurvival.advancement.aether/be_progenitor_dragon": "Progenitor's Gale, Soaring Clouds",
   "dragonsurvival.advancement.aether/be_progenitor_dragon.desc": "Grow into the Progenitor Dragon stage as an Aether Dragon.",
 
+  "dragon_stage.dragonsurvival.cave_ancient": "Ancient",
+  "dragon_stage.dragonsurvival.cave_archean": "Archean",
+  "dragon_stage.dragonsurvival.cave_progenitor": "Progenitor",
+
 	"dragon_ability.dragonsurvival.behuman": "Human",
 	"dragon_ability.dragonsurvival.behuman.desc": "■ When the Aether Dragon reaches the Ancient stage, it can transform into a human form.\n\n■ Human form retains draconic abilities without any item restrictions.§r",
   "dragon_ability.dragonsurvival.become_bigger": "Become Bigger",

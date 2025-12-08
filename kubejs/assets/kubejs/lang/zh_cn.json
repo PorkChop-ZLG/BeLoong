@@ -12,6 +12,10 @@
   "dragonsurvival.advancement.aether/be_progenitor_dragon": "大风起兮云飞扬",
   "dragonsurvival.advancement.aether/be_progenitor_dragon.desc": "身为以太龙成长至始祖龙阶段。",
 
+  "dragon_stage.dragonsurvival.cave_ancient": "远古龙",
+  "dragon_stage.dragonsurvival.cave_archean": "太古龙",
+  "dragon_stage.dragonsurvival.cave_progenitor": "始祖龙",
+
   "dragon_ability.dragonsurvival.behuman": "化形",
   "dragon_ability.dragonsurvival.behuman.desc": "■ 以太龙修炼到远古阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但没有物品限制。§r",
   "dragon_ability.dragonsurvival.become_bigger": "变大",
