@@ -1,0 +1,49 @@
+{
+  "parent": "astral_dragon:astral/be_dragon",
+  "criteria": {
+    "main_sequence": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:astral_dragon",
+                "stage_specific": {
+                  "dragon_stage": "dragonsurvival:main_sequence",
+                  "growth_percentage": {
+                    "min": 0.01
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "astral_dragon.advancement.astral/reach_main_sequence.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "astral_dragon:astral_mid_icon"
+    },
+    "title": {
+      "translate": "astral_dragon.advancement.astral/reach_main_sequence"
+    }
+  },
+  "requirements": [
+    [
+      "main_sequence"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

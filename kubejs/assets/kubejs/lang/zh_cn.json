@@ -1,4 +1,10 @@
 {
+  "astral_dragon.advancement.astral/red_giant": "龙类群星闪耀时",
+  "astral_dragon.advancement.astral/red_giant.desc": "身为星界龙成长至红巨星阶段。",
+  "astral_dragon.advancement.astral/black_hole": "吞噬星空",
+  "astral_dragon.advancement.astral/black_hole.desc": "身为星界龙成长至黑洞阶段。",
+  "astral_dragon.advancement.astral/singularity": "创世纪",
+  "astral_dragon.advancement.astral/singularity.desc": "身为星界龙成长至奇点阶段。",
   "dragonsurvival.advancement.aether/be_dragon": "风起云涌",
   "dragonsurvival.advancement.aether/be_dragon.desc": "成为一条以太龙。",
   "dragonsurvival.advancement.aether/be_young_dragon": "腾云驾雾",

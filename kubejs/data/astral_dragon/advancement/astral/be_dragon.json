@@ -1,0 +1,43 @@
+{
+  "parent": "dragonsurvival:place_altar",
+  "criteria": {
+    "be_astral_dragon": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:astral_dragon"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "astral_dragon.advancement.astral/be_dragon.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "astral_dragon:astral_icon"
+    },
+    "title": {
+      "translate": "astral_dragon.advancement.astral/be_dragon"
+    }
+  },
+  "requirements": [
+    [
+      "be_astral_dragon"
+    ]
+  ],
+  "rewards": {
+    "experience": 12
+  },
+  "sends_telemetry_event": true
+}

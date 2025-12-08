@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "dragonsurvival:cave_dragon",
+    "dragonsurvival:forest_dragon",
+    "dragonsurvival:sea_dragon",
+    "dragonsurvival:crystcursed_dragon",
+    "dragonsurvival:tundra_dragon",
+    "dragonsurvival:aether_dragon",
+    "dragonsurvival:astral_dragon",
+    "dragonsurvival:wing_kirin"
+  ]
+}

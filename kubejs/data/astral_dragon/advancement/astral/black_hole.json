@@ -1,0 +1,49 @@
+{
+  "parent": "astral_dragon:astral/neutron_star_growth",
+  "criteria": {
+    "black_hole": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:astral_dragon",
+                "stage_specific": {
+                  "dragon_stage": "dragonsurvival:black_hole",
+                  "growth_percentage": {
+                    "min": 0.01
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "astral_dragon.advancement.astral/black_hole.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "astral_dragon:astral_full_icon"
+    },
+    "title": {
+      "translate": "astral_dragon.advancement.astral/black_hole"
+    }
+  },
+  "requirements": [
+    [
+      "black_hole"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}
