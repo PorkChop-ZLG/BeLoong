@@ -361,6 +361,68 @@
           "icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_main.png"
         }
       }
+    },
+    "dragonsurvival:astral_dragon": {
+      "dragonsurvival:singularity": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/astral_dragon/neutron_star_glow.png",
+          "skin": "dragonsurvival:textures/dragon/astral_dragon/neutron_star.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_main.png"
+        }
+      },
+      "dragonsurvival:black_hole": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/astral_dragon/neutron_star_glow.png",
+          "skin": "dragonsurvival:textures/dragon/astral_dragon/neutron_star.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_main.png"
+        }
+      },
+      "dragonsurvival:neutron_star": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/astral_dragon/neutron_star_glow.png",
+          "skin": "dragonsurvival:textures/dragon/astral_dragon/neutron_star.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_main.png"
+        }
+      },
+      "dragonsurvival:red_giant": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/astral_dragon/main_sequence_glow.png",
+          "skin": "dragonsurvival:textures/dragon/astral_dragon/main_sequence.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_main.png"
+        }
+      },
+      "dragonsurvival:main_sequence": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/astral_dragon/main_sequence_glow.png",
+          "skin": "dragonsurvival:textures/dragon/astral_dragon/main_sequence.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_main.png"
+        }
+      },
+      "dragonsurvival:protostar": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/astral_dragon/protostar_glow.png",
+          "skin": "dragonsurvival:textures/dragon/astral_dragon/protostar.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/astral/protostar_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/astral/protostar_stage_main.png"
+        }
+      }
     }
   }
 }

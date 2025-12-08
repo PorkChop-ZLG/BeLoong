@@ -28,6 +28,9 @@
   "dragon_stage.dragonsurvival.aether_ancient": "远古龙",
   "dragon_stage.dragonsurvival.aether_archean": "太古龙",
   "dragon_stage.dragonsurvival.aether_progenitor": "始祖龙",
+  "dragon_stage.dragonsurvival.red_giant": "§c红巨星§r",
+	"dragon_stage.dragonsurvival.black_hole": "§e黑洞§r",
+	"dragon_stage.dragonsurvival.singularity": "§f奇点§r",
 
   "dragon_ability.dragonsurvival.behuman": "化形",
   "dragon_ability.dragonsurvival.behuman.desc": "■ 以太龙修炼到远古阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但没有物品限制。§r",

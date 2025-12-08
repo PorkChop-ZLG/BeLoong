@@ -1,0 +1,21 @@
+{
+  "species": "dragonsurvival:astral_dragon",
+  "stage": "dragonsurvival:singularity",
+  "model": "dragonsurvival:dragon_model",
+  "parts": {
+    "base": "ender_base",
+    "bottom": "astral_bottom_1",
+    "eyes": "ender_eyes",
+    "horns": "nebula_horns",
+    "spikes": "gem_spikes",
+    "claws": "ender_claws",
+    "teeth": "teeth_7",
+    "magic": "ender_magic",
+    "extra": "ender_large_wings",
+    "extra1": "ender_eyebrows",
+    "extra2": "all_extra_4",
+    "extra3": "all_extra_5",
+    "extra4": "astral_wing_spots",
+    "extra5": "astral_wing_stars"
+  }
+}
