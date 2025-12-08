@@ -62,6 +62,11 @@
       "operation": "add_value"
     },
     {
+      "amount": 5.0,
+      "attribute": "minecraft:generic.armor",
+      "operation": "add_value"
+    },
+    {
       "amount": 0.05,
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_value"

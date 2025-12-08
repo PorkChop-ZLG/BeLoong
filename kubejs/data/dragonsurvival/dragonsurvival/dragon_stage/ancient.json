@@ -13,7 +13,7 @@
     "max": 300.0,
     "min": 60.0
   },
-  "is_default": true,
+  "is_default": false,
   "is_natural_growth_stopped": {},
   "modifiers": [
     {
