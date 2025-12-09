@@ -1,7 +1,7 @@
 {
-  "parent": "dragonsurvival:place_altar",
+  "parent": "dragonsurvival:cave/be_young",
   "criteria": {
-    "be_fully_grown_adult": {
+    "adult": {
       "conditions": {
         "player": [
           {
@@ -12,7 +12,7 @@
                 "type": "dragonsurvival:dragon_predicate",
                 "dragon_species": "dragonsurvival:cave_dragon",
                 "stage_specific": {
-                  "dragon_stage": "dragonsurvival:cave_ancient",
+                  "dragon_stage": "dragonsurvival:adult",
                   "growth_percentage": {
                     "min": 0.01
                   }
@@ -27,19 +27,19 @@
   },
   "display": {
     "description": {
-      "translate": "dragonsurvival.advancement.cave/be_old_dragon.desc"
+      "translate": "dragonsurvival.advancement.cave/be_adult_dragon.desc"
     },
     "icon": {
       "count": 1,
-      "id": "dragonsurvival:cave_full_icon"
+      "id": "dragonsurvival:cave_icon"
     },
     "title": {
-      "translate": "dragonsurvival.advancement.cave/be_old_dragon"
+      "translate": "dragonsurvival.advancement.cave/be_adult_dragon"
     }
   },
   "requirements": [
     [
-      "be_fully_grown_adult"
+      "adult"
     ]
   ],
   "rewards": {

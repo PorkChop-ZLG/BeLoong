@@ -1,7 +1,7 @@
 {
-  "parent": "dragonsurvival:place_altar",
+  "parent": "dragonsurvival:forest/be_old_dragon",
   "criteria": {
-    "be_fully_grown_adult": {
+    "archean": {
       "conditions": {
         "player": [
           {
@@ -10,9 +10,9 @@
             "predicate": {
               "type_specific": {
                 "type": "dragonsurvival:dragon_predicate",
-                "dragon_species": "dragonsurvival:cave_dragon",
+                "dragon_species": "dragonsurvival:forest_dragon",
                 "stage_specific": {
-                  "dragon_stage": "dragonsurvival:cave_ancient",
+                  "dragon_stage": "dragonsurvival:forest_archean",
                   "growth_percentage": {
                     "min": 0.01
                   }
@@ -27,19 +27,19 @@
   },
   "display": {
     "description": {
-      "translate": "dragonsurvival.advancement.cave/be_old_dragon.desc"
+      "translate": "dragonsurvival.advancement.forest/be_archean_dragon.desc"
     },
     "icon": {
       "count": 1,
-      "id": "dragonsurvival:cave_full_icon"
+      "id": "dragonsurvival:forest_full_icon"
     },
     "title": {
-      "translate": "dragonsurvival.advancement.cave/be_old_dragon"
+      "translate": "dragonsurvival.advancement.forest/be_archean_dragon"
     }
   },
   "requirements": [
     [
-      "be_fully_grown_adult"
+      "archean"
     ]
   ],
   "rewards": {
