@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:tundra/be_dragon",
+  "parent": "dragonsurvival:tundra/be_adult",
   "criteria": {
     "be_fully_grown_adult": {
       "conditions": {
@@ -12,9 +12,9 @@
                 "type": "dragonsurvival:dragon_predicate",
                 "dragon_species": "dragonsurvival:tundra_dragon",
                 "stage_specific": {
-                  "dragon_stage": "dragonsurvival:adult",
+                  "dragon_stage": "dragonsurvival:tundra_ancient",
                   "growth_percentage": {
-                    "min": 0.92
+                    "min": 0.01
                   }
                 }
               }

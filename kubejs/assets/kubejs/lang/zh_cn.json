@@ -17,6 +17,14 @@
   "dragonsurvival.advancement.aether/be_archean_dragon.desc": "身为以太龙成长至太古龙阶段。",
   "dragonsurvival.advancement.aether/be_progenitor_dragon": "大风起兮云飞扬",
   "dragonsurvival.advancement.aether/be_progenitor_dragon.desc": "身为以太龙成长至始祖龙阶段。",
+  "dragonsurvival.advancement.tundra/be_young_dragon": "混元寒冰",
+  "dragonsurvival.advancement.tundra/be_young_dragon.desc": "身为苔原龙成长至青年龙阶段。",
+  "dragonsurvival.advancement.tundra/be_adult_dragon": "朔风凛冽",
+  "dragonsurvival.advancement.tundra/be_adult_dragon.desc": "身为苔原龙成长至成年龙阶段。",
+  "dragonsurvival.advancement.tundra/be_archean_dragon": "霜之哀伤",
+  "dragonsurvival.advancement.tundra/be_archean_dragon.desc": "身为苔原龙成长至太古龙阶段。",
+  "dragonsurvival.advancement.tundra/be_progenitor_dragon": "波瑞阿斯",
+  "dragonsurvival.advancement.tundra/be_progenitor_dragon.desc": "身为苔原龙成长至始祖龙阶段。",
 
   "dragon_stage.dragonsurvival.cave_ancient": "远古龙",
   "dragon_stage.dragonsurvival.cave_archean": "太古龙",
@@ -35,7 +43,7 @@
   "dragon_stage.dragonsurvival.aether_archean": "太古龙",
   "dragon_stage.dragonsurvival.aether_progenitor": "始祖龙",
   "dragon_stage.dragonsurvival.red_giant": "§c红巨星§r",
-	"dragon_stage.dragonsurvival.black_hole": "§e黑洞§r",
+	"dragon_stage.dragonsurvival.black_hole": "§0黑洞§r",
 	"dragon_stage.dragonsurvival.singularity": "§f奇点§r",
 
   "dragon_ability.dragonsurvival.behuman": "化形",
