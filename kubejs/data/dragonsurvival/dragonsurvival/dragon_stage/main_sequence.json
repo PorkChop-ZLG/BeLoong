@@ -21,7 +21,7 @@
     "max": 100.0,
     "min": 50.0
   },
-  "is_default": true,
+  "is_default": false,
   "is_natural_growth_stopped": {
     "type_specific": {
       "type": "dragonsurvival:dragon_predicate",
