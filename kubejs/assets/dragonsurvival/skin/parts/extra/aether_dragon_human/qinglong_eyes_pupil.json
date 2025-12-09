@@ -1,7 +1,7 @@
 {
   "key": "qinglong_eyes_pupil",
   "texture": "dragonsurvival:textures/dragon/custom/qinglong_eyes_pupil.png",
-  "average_hue": 0.08668939393939393,
+  "average_hue": 0.0,
   "applicable_species": [
     "dragonsurvival:aether_dragon_human"
   ],

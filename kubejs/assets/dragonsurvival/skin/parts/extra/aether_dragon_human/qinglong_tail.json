@@ -1,7 +1,7 @@
 {
   "key": "qinglong_tail",
   "texture": "dragonsurvival:textures/dragon/custom/qinglong_tail.png",
-  "average_hue": 0.08768939393939393,
+  "average_hue": 0.5632348487840851,
   "applicable_species": [
     "dragonsurvival:aether_dragon_human"
   ],

@@ -1,7 +1,7 @@
 {
   "key": "qinglong_eyes_highlight",
   "texture": "dragonsurvival:textures/dragon/custom/qinglong_eyes_highlight.png",
-  "average_hue": 0.08168939393939393,
+  "average_hue": 0.5730240549828178,
   "applicable_species": [
     "dragonsurvival:aether_dragon_human"
   ],

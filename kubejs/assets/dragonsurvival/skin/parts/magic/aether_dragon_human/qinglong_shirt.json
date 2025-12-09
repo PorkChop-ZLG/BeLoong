@@ -1,7 +1,7 @@
 {
   "key": "qinglong_shirt",
   "texture": "dragonsurvival:textures/dragon/custom/qinglong_shirt.png",
-  "average_hue": 0.005043126684636099,
+  "average_hue": 0.4056366108594648,
   "applicable_species": [
     "dragonsurvival:aether_dragon_human"
   ],

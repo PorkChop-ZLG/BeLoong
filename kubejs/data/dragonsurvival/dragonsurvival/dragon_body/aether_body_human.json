@@ -49,7 +49,7 @@
       "operation": "add_value"
     },
 	  {
-      "amount": 0.1,
+      "amount": 0.2,
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_multiplied_total"
     },
