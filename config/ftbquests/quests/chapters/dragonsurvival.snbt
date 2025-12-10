@@ -575,6 +575,7 @@
 				"74D333ABF9D19A48"
 				"4461A4B09511AFD5"
 				"61DD6385C7F59703"
+				"5E4E661E1E3FE198"
 			]
 			dependency_requirement: "one_completed"
 			id: "56AEAD8720A0B3F9"
@@ -2064,6 +2065,7 @@
 			dependencies: ["2B5CAD5134FFA4AF"]
 			id: "61DD6385C7F59703"
 			rewards: [{
+				auto: "enabled"
 				count: 16
 				id: "69BF1B033B203544"
 				item: {
@@ -2097,6 +2099,28 @@
 			}]
 			x: 2.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["2B5CAD5134FFA4AF"]
+			id: "5E4E661E1E3FE198"
+			rewards: [{
+				auto: "enabled"
+				count: 16
+				id: "374E27CFA72094B8"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "crystcursed_dragon:crystcursed/be_old_dragon"
+				criterion: ""
+				id: "78392008CE128CB1"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.0d
 		}
 	]
 }

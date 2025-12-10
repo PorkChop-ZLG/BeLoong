@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "68BA145F90AA30CE"
+	id: "6FA20C34DF25A588"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "26AA6A352D1F0F78"
+		tasks: [{
+			dimension: "minecraft:the_end"
+			id: "51E1A1FA6A5717BA"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

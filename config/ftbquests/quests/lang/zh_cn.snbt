@@ -62,6 +62,7 @@
 	chapter.5659CE99755DE90F.title: "多人联机推荐喵"
 	chapter.5A87116CA9FE4E2F.chapter_subtitle: ["隐藏式任务"]
 	chapter.5A87116CA9FE4E2F.title: "〖苔原龙〗专属挑战"
+	chapter.6858E636938427ED.title: "the_end"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
 		"番外篇：铁魔法"
 		"Iron的法术与魔法书"
@@ -69,6 +70,7 @@
 	chapter.6C87160D1AC7FE19.title: "℗ 铁魔法"
 	chapter.6EC27D3BF2313600.chapter_subtitle: ["选择你的法术流派"]
 	chapter.6EC27D3BF2313600.title: "铁魔法学院"
+	chapter.6FA20C34DF25A588.title: "the_nether"
 	chapter.70F8D93CCB47276E.chapter_subtitle: [
 		"作者："
 		"Pork猪排"
@@ -2490,6 +2492,8 @@
 	quest.5E2F36A14E2F1879.title: "克苏鲁之眼"
 	quest.5E337D8193FB4FB1.quest_subtitle: "集齐霆钢龙铠套装"
 	quest.5E337D8193FB4FB1.title: "霆钢龙铠"
+	quest.5E4E661E1E3FE198.quest_subtitle: "你选择成为：晶咒龙"
+	quest.5E4E661E1E3FE198.title: "『化龍』晶咒龙！"
 	quest.5E900BCFB09D80BF.quest_desc: [
 		"&d末影龙&6，正是&5星界龙&6一脉的始祖，"
 		"&6昔日龙族的至高统治者。"
