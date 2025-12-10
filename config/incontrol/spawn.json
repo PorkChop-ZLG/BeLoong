@@ -20,5 +20,58 @@
     "result": "allow",
     "healthmultiply": 0.5,
     "damagemultiply": 0.5
+  },
+  {
+    "mob": "twilightforest:naga",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1000,
+    "damageset": 24
+  },
+  {
+    "mob": "twilightforest:lich",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1200,
+    "damageset": 24
+  },
+  {
+    "mob": "twilightforest:minoshroom",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1080,
+    "damageset": 40
+  },
+  {
+    "mob": "twilightforest:hydra",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1800
+  },
+  {
+    "mob": "twilightforest:knight_phantom",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 210
+  },
+  {
+    "mob": "twilightforest:ur_ghast",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1600
+  },
+  {
+    "mob": "twilightforest:alpha_yeti",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1300,
+    "damageset": 10
+  },
+  {
+    "mob": "twilightforest:snow_queen",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1500,
+    "damageset": 35
   }
 ]
