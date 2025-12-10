@@ -15,10 +15,10 @@
     "result": "deny"
   },
   {
-    "mob": ["bosses_of_mass_destruction:gauntlet","bosses_of_mass_destruction:lich","bosses_of_mass_destruction:obsidilith","bosses_of_mass_destruction:void_blossom"],
-    "when": "finalize",
+    "mob": "terra_entity:wandering_eye_fish",
+    "when": "onjoin",
     "result": "allow",
-    "healthmultiply": 4,
-    "damagemultiply": 4
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.5
   }
 ]

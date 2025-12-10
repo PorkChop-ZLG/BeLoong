@@ -4,7 +4,7 @@
 	filename: "bosses_flight"
 	group: "6B7CC0230CA6913F"
 	id: "29CB766687624EDA"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

@@ -54,7 +54,7 @@
 			y: 3.5d
 		}
 	]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -186,6 +186,9 @@
 				"1588CA412F4FAA24"
 			]
 			hide_dependency_lines: true
+			icon: {
+				id: "dragonsurvival:dragon_soul"
+			}
 			icon_scale: 2.0d
 			id: "5BB4A81605A76537"
 			rewards: [
@@ -216,20 +219,10 @@
 			]
 			shape: "none"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "fdbosses:qliphoth_awakening/chesed"
-					criterion: ""
-					id: "02DD1D30DC0FB423"
-					type: "advancement"
-				}
-				{
-					advancement: "fdbosses:qliphoth_awakening/malkuth"
-					criterion: ""
-					id: "5649AB488CB0FDF4"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				id: "5AC3C8A012576E52"
+				type: "checkmark"
+			}]
 			x: 5.0d
 			y: -2.0d
 		}
