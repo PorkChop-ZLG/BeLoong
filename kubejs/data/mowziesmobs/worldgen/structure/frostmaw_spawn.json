@@ -1,7 +1,0 @@
-{
-  "type": "mowziesmobs:frostmaw_spawn",
-  "biomes": "#mowziesmobs:has_structure/frostmaw_spawn",
-  "spawn_overrides": {},
-  "step": "surface_structures",
-  "terrain_adaptation": "beard_thin"
-}

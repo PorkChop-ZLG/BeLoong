@@ -1,6 +1,0 @@
-{
-  "type": "mowziesmobs:umvuthana_grove",
-  "biomes": "#mowziesmobs:has_structure/umvuthana_grove",
-  "spawn_overrides": {},
-  "step": "surface_structures"
-}
