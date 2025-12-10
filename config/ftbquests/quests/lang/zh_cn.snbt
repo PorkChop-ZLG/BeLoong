@@ -953,6 +953,7 @@
 	quest.225FF303E21AE00E.title: "拉回骷髅王"
 	quest.22616810BC8A22CA.quest_subtitle: "&5&l「末」&r&d一枚神奇的空间戒指"
 	quest.22616810BC8A22CA.title: "第三幕：赠礼"
+	quest.228A2960FA4D62F7.title: "Mowzie的生物：钢铁守护者"
 	quest.228FFCAF5D84CE5C.quest_desc: [
 		"&a目标：击败炼狱巨龙"
 		""
@@ -2705,6 +2706,7 @@
 	]
 	quest.6A03B959A1B214E6.quest_subtitle: "【精妙背包支线    完结】"
 	quest.6A03B959A1B214E6.title: "堆叠升级Ω"
+	quest.6A1268143ED70C45.title: "Mowzie的生物：霜冻巨兽"
 	quest.6AC7F72FF93C6500.quest_desc: [
 		"&6使用&e音符盒&6撰写&3律灵法术"
 		"&6手持&3竖琴&6才能释放&3律灵法术"
@@ -2807,6 +2809,7 @@
 	quest.6CC5B640AD43F55C.quest_subtitle: "信标会攻击幻翼"
 	quest.6D86EE35624F9507.quest_desc: ["  &6铁刀是获得雀夜食堂各种原料的重要工具，在开始前先拿到一把铁刀吧！"]
 	quest.6D86EE35624F9507.quest_subtitle: "神奇的工具"
+	quest.6D88CFA0D4618ECB.title: "Mowzie的生物：雕刻家-通臂大师"
 	quest.6DC97A09E372363A.quest_desc: [
 		"&a目标：合成并提交一把泰拉棱镜"
 		""
@@ -2999,6 +3002,7 @@
 	quest.747F45AAE1161962.quest_subtitle: "平价好味"
 	quest.74D333ABF9D19A48.quest_subtitle: "你选择成为：苔原龙"
 	quest.74D333ABF9D19A48.title: "『化龍』苔原龙！"
+	quest.7552748C8250227C.title: "Mowzie的生物：太阳鸟-乌姆武提"
 	quest.756F07EF29A13F30.title: "泰拉BOSS召唤物"
 	quest.757AA29BE231F9BC.title: "初入暮色森林"
 	quest.75A9F93FF44CB19E.quest_subtitle: "集齐所有冰龙蛋"

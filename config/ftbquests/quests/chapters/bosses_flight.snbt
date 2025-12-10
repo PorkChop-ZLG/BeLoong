@@ -16,7 +16,7 @@
 					xp_levels: 5
 				}
 				{
-					count: 5
+					count: 3
 					id: "6B4CD9355A62E583"
 					item: {
 						count: 1
@@ -52,7 +52,7 @@
 					xp_levels: 5
 				}
 				{
-					count: 5
+					count: 3
 					id: "3601667E0B33E9A6"
 					item: {
 						count: 1
@@ -61,7 +61,6 @@
 					type: "item"
 				}
 				{
-					count: 3
 					id: "4E41BDABB0684B54"
 					item: {
 						count: 1
@@ -88,7 +87,7 @@
 					xp_levels: 5
 				}
 				{
-					count: 5
+					count: 3
 					id: "1323D70CA75D3279"
 					item: {
 						count: 1
@@ -121,10 +120,10 @@
 				{
 					id: "112534004F85E731"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 5
 				}
 				{
-					count: 10
+					count: 5
 					id: "34D0A0E5F02681B8"
 					item: {
 						count: 1
@@ -141,7 +140,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "14ED830A8AC56A7A"
@@ -149,10 +148,10 @@
 				{
 					id: "1580A8A79D8A0F27"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 5
 				}
 				{
-					count: 10
+					count: 5
 					id: "1723BCE7432D265F"
 					item: {
 						count: 1
@@ -169,7 +168,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "73777155E02C7B4C"
@@ -177,10 +176,10 @@
 				{
 					id: "34B21822D26681DA"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 3
 				}
 				{
-					count: 10
+					count: 3
 					id: "10125A509CE4DD13"
 					item: {
 						count: 1
@@ -197,7 +196,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "48E18718D8715F1A"
@@ -205,10 +204,10 @@
 				{
 					id: "46600F703BA3FEAB"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 5
 				}
 				{
-					count: 10
+					count: 5
 					id: "176152BCDBFE9F0F"
 					item: {
 						count: 1
@@ -225,7 +224,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "4093B7F10DE1AE47"
@@ -233,10 +232,10 @@
 				{
 					id: "5E54D0527317546F"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 3
 				}
 				{
-					count: 10
+					count: 3
 					id: "3F69E28DA016717C"
 					item: {
 						count: 1
@@ -253,7 +252,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "68A904F25FFE8956"
@@ -261,10 +260,10 @@
 				{
 					id: "5A8EA5D16DC05BEE"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 5
 				}
 				{
-					count: 10
+					count: 5
 					id: "76919DB47979A543"
 					item: {
 						count: 1
@@ -281,7 +280,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "7E8A3F928299D963"
@@ -289,10 +288,10 @@
 				{
 					id: "0E5648B6989DC265"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 3
 				}
 				{
-					count: 10
+					count: 3
 					id: "6BD97378323C390F"
 					item: {
 						count: 1
@@ -309,7 +308,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "10F9BE8C1E4AE1FA"
@@ -317,10 +316,10 @@
 				{
 					id: "40F2ABEC20C05BFB"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 5
 				}
 				{
-					count: 10
+					count: 5
 					id: "6CD591B677C02C48"
 					item: {
 						count: 1
@@ -337,7 +336,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.0d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -382,7 +381,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -421,7 +420,7 @@
 				value: 3L
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -460,7 +459,7 @@
 				value: 3L
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			id: "5997BC4982540330"
@@ -487,7 +486,7 @@
 				value: 3L
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			id: "0088F3221CD99A3D"
@@ -514,7 +513,7 @@
 				value: 3L
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			id: "6583633BEC31ECDF"
@@ -541,7 +540,7 @@
 				value: 3L
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			id: "5C0284F1758BA896"
@@ -568,7 +567,7 @@
 				value: 3L
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			id: "073A531B004C31E3"
@@ -595,7 +594,7 @@
 				value: 3L
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			id: "300B6A5EADD11286"
@@ -622,7 +621,7 @@
 				value: 3L
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			id: "055D72E0BC34E041"
@@ -649,7 +648,7 @@
 				value: 3L
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -688,7 +687,7 @@
 				value: 3L
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -727,7 +726,7 @@
 				value: 3L
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -766,7 +765,7 @@
 				value: 3L
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -805,7 +804,7 @@
 				value: 3L
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			id: "03DA2F2992CDD7DA"
@@ -835,7 +834,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			id: "21D5091A376C0F26"
@@ -881,7 +880,7 @@
 				}
 			]
 			x: -1.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "6BA6E3779F1D4FC3"
@@ -933,7 +932,7 @@
 				}
 			]
 			x: -5.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "11FC2E4D6E6B0D93"
@@ -984,7 +983,7 @@
 				}
 			]
 			x: -3.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "15CE2F1DA319C4B4"
@@ -1011,7 +1010,7 @@
 				value: 3L
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1061,7 +1060,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			icon: {
@@ -1111,7 +1110,7 @@
 				}
 			]
 			x: 1.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			icon: {
@@ -1161,7 +1160,7 @@
 				}
 			]
 			x: 2.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			icon: {
@@ -1211,7 +1210,7 @@
 				}
 			]
 			x: 3.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			icon: {
@@ -1261,7 +1260,7 @@
 				}
 			]
 			x: 4.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -1284,7 +1283,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "45865A0F5D63488F"
@@ -1314,7 +1313,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -1520,7 +1519,7 @@
 				}
 			]
 			x: 5.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			icon: {
@@ -1534,8 +1533,8 @@
 				item: { count: 1, id: "terra_curio:demon_heart" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 7.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -1557,8 +1556,8 @@
 				id: "7B7BCE6D611F72EB"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -1580,8 +1579,131 @@
 				id: "78D0E5700397AEE8"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "228A2960FA4D62F7"
+			rewards: [
+				{
+					id: "2C064F8226AC926E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "729D8F3FED72F951"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "4226C26F54206A83"
+				type: "kill"
+				value: 3L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "6A1268143ED70C45"
+			rewards: [
+				{
+					id: "534EB4AE428AC94B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "784F09737A6ACEA7"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "74190067177C0076"
+				type: "kill"
+				value: 3L
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:damage": 0
+				}
+				id: "mowziesmobs:earthrend_gauntlet"
+			}
+			id: "6D88CFA0D4618ECB"
+			rewards: [
+				{
+					id: "4897836BD10EBDBC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "030CB30A816B1878"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "6AB287182DF96F2B"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "7552748C8250227C"
+			rewards: [
+				{
+					id: "7EA76B58D8E297B4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "7675E0AD7C404348"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "1879399A2819B0EE"
+				type: "kill"
+				value: 3L
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 }

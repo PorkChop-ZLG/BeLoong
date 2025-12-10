@@ -1,5 +1,6 @@
 {
   "enabled": true,
   "port": 61423,
-  "public_address": ""
+  "public_address": "",
+  "auth": "gJI-tYpox9P09dshwVchdTX-eyJVNJEOMZ9GO8_KhS94"
 }
