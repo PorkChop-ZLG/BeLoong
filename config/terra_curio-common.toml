@@ -1,0 +1,20 @@
+#In order for the block to be found by the Metal Detector
+#You need to fill the list with string like 'modid:block[state1=true]' or 'modid:block'
+#The higher the block in the list, the higher the value
+rareBlocks = ["minecraft:ancient_debris", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:chest", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
+#In order for the creature to be found by the Life Form Analyzer
+#You need to fill the list with string like 'modid:entity'
+#The higher the creature in the list, the higher the value
+rareCreatures = ["terra_entity:nymph", "terra_entity:wandering_eye_fish", "terra_entity:pink_slime", "minecraft:skeleton_horse", "minecraft:sniffer", "minecraft:allay", "minecraft:warden", "minecraft:mooshroom", "minecraft:panda"]
+# Default: 7
+# Range: 6 ~ 100
+"Max Accessory Amount" = 7
+
+["Random Attack Damage"]
+	enable = false
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	min = 0.8
+	# Default: 1.2
+	# Range: 1.0 ~ 2.0
+	max = 1.2

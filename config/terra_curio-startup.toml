@@ -1,0 +1,1 @@
+attributeReplacements = ["terra_curio:generic.crit_chance = terra_curio:generic.crit_chance", "terra_curio:generic.ranged_damage = terra_curio:generic.ranged_damage", "terra_curio:generic.dodge_chance = terra_curio:generic.dodge_chance", "terra_curio:generic.magic_damage = terra_curio:generic.magic_damage", "terra_curio:generic.armor_pass = terra_curio:generic.armor_pass"]
