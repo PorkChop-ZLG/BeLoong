@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 23317578,
+    "separation": 5,
+    "spacing": 10,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "mowziesmobs:frostmaw_spawn",
+      "weight": 1
+    }
+  ]
+}

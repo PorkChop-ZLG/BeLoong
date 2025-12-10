@@ -1,0 +1,6 @@
+{
+  "type": "mowziesmobs:wrought_chamber",
+  "biomes": "#mowziesmobs:has_structure/wrought_chamber",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

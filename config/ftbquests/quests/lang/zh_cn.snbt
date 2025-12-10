@@ -62,7 +62,6 @@
 	chapter.5659CE99755DE90F.title: "多人联机推荐喵"
 	chapter.5A87116CA9FE4E2F.chapter_subtitle: ["隐藏式任务"]
 	chapter.5A87116CA9FE4E2F.title: "〖苔原龙〗专属挑战"
-	chapter.6858E636938427ED.title: "the_end"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
 		"番外篇：铁魔法"
 		"Iron的法术与魔法书"
@@ -70,7 +69,6 @@
 	chapter.6C87160D1AC7FE19.title: "℗ 铁魔法"
 	chapter.6EC27D3BF2313600.chapter_subtitle: ["选择你的法术流派"]
 	chapter.6EC27D3BF2313600.title: "铁魔法学院"
-	chapter.6FA20C34DF25A588.title: "the_nether"
 	chapter.70F8D93CCB47276E.chapter_subtitle: [
 		"作者："
 		"Pork猪排"
@@ -1618,6 +1616,7 @@
 		"&l&d生成"
 		"&6深居于世界底部，&e虚空百合&6会指引玩家找到它的居所。"
 		"&6无需召唤，玩家靠近结构时就会生成，请做好准备。"
+		"&6可使用&e硫磺花蜜&6重置BOSS场地。"
 		""
 		"&9结构罗盘：&b【祸乱鬼魅】虚空之花洞穴&r"
 		"{@pagebreak}"

@@ -97,6 +97,8 @@ config/**
 !config/ftbxmodcompat.snbt
 !config/irons_spellbooks-client.toml
 !config/irons_spellbooks-server.toml
+!config/mowziesmobs-client.toml
+!config/mowziesmobs-common.toml
 !config/terra_curio-client.toml
 !config/terra_curio-common.toml
 !config/terra_curio-startup.toml
