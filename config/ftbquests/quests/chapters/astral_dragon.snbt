@@ -54,6 +54,7 @@
 		{
 			dependencies: ["6CC27511B19B214F"]
 			id: "7F5B29E3965962C2"
+			optional: true
 			rewards: [{
 				id: "7C6871F499773B73"
 				type: "xp_levels"
@@ -69,7 +70,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7F5B29E3965962C2"]
+			dependencies: ["6CC27511B19B214F"]
 			id: "2C88AD2F4A7795E2"
 			rewards: [{
 				id: "5D08C08AE5FB535A"

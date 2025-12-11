@@ -9,7 +9,7 @@ boss_attributes_multiplier_health = 1.0
 # Range: 0.0625 ~ 10.0
 boss_attributes_multiplier_damage = 1.0
 #Should the boss have no physics? Only for some bosses.
-boss_no_physics = true
+boss_no_physics = false
 #Should the boss leave on day? Only for some bosses.
 boss_leave_on_day = false
 #Should all monsters be enhanced?

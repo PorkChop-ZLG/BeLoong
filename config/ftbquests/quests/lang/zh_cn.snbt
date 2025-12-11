@@ -291,7 +291,15 @@
 	quest.0512242C244673AA.quest_desc: [""]
 	quest.0512242C244673AA.title: "击败：虚空之花"
 	quest.052F870EA4EFBE56.quest_subtitle: "感受到太空的感觉了吗"
-	quest.053172C0F13D3578.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74233FDAFCB21F8E\" } }"]
+	quest.053172C0F13D3578.quest_desc: [
+		"&l&d「克苏鲁之脑」"
+		"&6生命：&a8000"
+		"&6攻击：&c160"
+		"&6护甲：&74"
+		""
+		"&l&d生成"
+		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74233FDAFCB21F8E\" } }"
+	]
 	quest.053172C0F13D3578.title: "泰拉生物：克苏鲁之脑"
 	quest.054276060A380FAD.quest_desc: [
 		"&o&7芥子纳须弥，超空间存储。"
@@ -417,7 +425,15 @@
 	quest.0AB809C050322A14.quest_desc: ["&a目标：集齐银护甲"]
 	quest.0AB809C050322A14.quest_subtitle: "银制盔甲"
 	quest.0AB809C050322A14.title: "疑似银河落九天"
-	quest.0AC7BA9585F4271A.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"034ACABF80D25D29\" } }"]
+	quest.0AC7BA9585F4271A.quest_desc: [
+		"&l&d「蜂王」"
+		"&6生命：&a9000"
+		"&6攻击：&c180"
+		"&6护甲：&72"
+		""
+		"&l&d生成"
+		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"034ACABF80D25D29\" } }"
+	]
 	quest.0AC7BA9585F4271A.title: "泰拉生物：蜂王"
 	quest.0ADC425FA160CAD0.quest_desc: [
 		"&a目标：击败沙虫"
@@ -1059,7 +1075,15 @@
 	]
 	quest.24BCC3403F50D4C8.quest_subtitle: "每条龙保底一次"
 	quest.24BCC3403F50D4C8.title: "二重身之戒保底"
-	quest.24F3DC3742819BE4.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"146CDD92C8E0963C\" } }"]
+	quest.24F3DC3742819BE4.quest_desc: [
+		"&l&d「世界吞噬怪」"
+		"&6生命：&a8000"
+		"&6攻击：&c160"
+		"&6护甲：&72"
+		""
+		"&l&d生成"
+		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"146CDD92C8E0963C\" } }"
+	]
 	quest.24F3DC3742819BE4.title: "泰拉生物：世界吞噬怪"
 	quest.24FD6F11C82C2688.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
 	quest.24FD6F11C82C2688.title: "泰拉饰品T1"
@@ -1831,7 +1855,15 @@
 	]
 	quest.403F4499E19370C1.quest_subtitle: "一起玩UNO吧"
 	quest.4093B7F10DE1AE47.title: "暮色森林：幻影骑士"
-	quest.409DBA9330BA0269.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E2F36A14E2F1879\" } }"]
+	quest.409DBA9330BA0269.quest_desc: [
+		"&l&d「克苏鲁之眼」"
+		"&6生命：&a2000"
+		"&6攻击：&c1700"
+		"&6护甲：&72"
+		""
+		"&l&d生成"
+		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E2F36A14E2F1879\" } }"
+	]
 	quest.409DBA9330BA0269.title: "泰拉生物：克苏鲁之眼"
 	quest.410087ACF6234CC1.quest_subtitle: "天地莫施恩，璇题激流日"
 	quest.410087ACF6234CC1.title: "&5天璇"
@@ -3095,7 +3127,15 @@
 		"&o&7攻略来源：www.mcmod.cn"
 	]
 	quest.6E02B2425A8EAB67.title: "永恒星光：星光傀儡"
-	quest.6E27A53C36C34AB1.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17BEAE92E1A0B323\" } }"]
+	quest.6E27A53C36C34AB1.quest_desc: [
+		"&l&d「史莱姆王」"
+		"&6生命：&a6000"
+		"&6攻击：&c120"
+		"&6护甲：&72"
+		""
+		"&l&d生成"
+		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17BEAE92E1A0B323\" } }"
+	]
 	quest.6E27A53C36C34AB1.title: "泰拉生物：史莱姆王"
 	quest.6E5594142D1F7454.quest_subtitle: "苏打清酒"
 	quest.6EA867B07E184273.quest_desc: [
@@ -3126,7 +3166,15 @@
 		"&c（配方已修改，需要永恒星光的热泉石锭）"
 	]
 	quest.6EEBE4FBC79CD1C3.quest_subtitle: "需要：热泉石锭"
-	quest.6F7A124D6DAE13F1.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E299ACD32EA2CA2\" } }"]
+	quest.6F7A124D6DAE13F1.quest_desc: [
+		"&l&d「骷髅王」"
+		"&6生命：&a10000"
+		"&6攻击：&c200"
+		"&6护甲：&710"
+		""
+		"&l&d生成"
+		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E299ACD32EA2CA2\" } }"
+	]
 	quest.6F7A124D6DAE13F1.title: "泰拉生物：骷髅王"
 	quest.6FD356A298590C96.quest_subtitle: "冒着泡泡的夏天"
 	quest.7001BFE7FD4B7BB7.title: "九头蛇的血与高塔恶魂的泪似乎能和铁发生反应"

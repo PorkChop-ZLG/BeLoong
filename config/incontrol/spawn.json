@@ -68,10 +68,66 @@
     "damageset": 10
   },
   {
-    "mob": "twilightforest:snow_queen",
+    "mob": "terra_entity:king_slime",
     "when": "onjoin",
     "result": "allow",
-    "healthset": 1500,
-    "damageset": 35
+    "healthset": 6000,
+    "damageset": 120
+  },
+  {
+    "mob": "terra_entity:eye_of_cthulhu",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 7000,
+    "damageset": 140
+  },
+  {
+    "mob": "terra_entity:brain_of_cthulhu",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1600,
+    "damageset": 160
+  },
+  {
+    "mob": "terra_entity:visual_neuron",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 400,
+    "damageset": 160
+  },
+  {
+    "mob": "terra_entity:eater_of_worlds",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 200,
+    "damageset": 160
+  },
+  {
+    "mob": "terra_entity:eater_of_worlds_segment",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 130,
+    "damageset": 160
+  },
+  {
+    "mob": "terra_entity:queen_bee",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 9000,
+    "damageset": 180
+  },
+  {
+    "mob": "terra_entity:skeletron",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 6000,
+    "damageset": 200
+  },
+  {
+    "mob": "terra_entity:skeletron_hand",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 2000,
+    "damageset": 200
   }
 ]
