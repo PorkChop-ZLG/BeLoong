@@ -871,10 +871,11 @@
 					xp: 500
 				}
 				{
+					count: 5
 					id: "7CBFB3A5FA4BDC70"
 					item: {
 						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -897,10 +898,11 @@
 					xp: 500
 				}
 				{
+					count: 5
 					id: "1D34972BA95E33D6"
 					item: {
 						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -977,7 +979,6 @@
 					xp: 888
 				}
 				{
-					count: 3
 					id: "0257FEC8050D0ECA"
 					item: {
 						count: 1
@@ -1005,7 +1006,6 @@
 					xp: 888
 				}
 				{
-					count: 3
 					id: "37E91A18238A3101"
 					item: {
 						count: 1
@@ -1097,7 +1097,7 @@
 					xp_levels: 5
 				}
 				{
-					count: 5
+					count: 3
 					id: "06BC584B8E0FC57C"
 					item: {
 						count: 1
@@ -1157,7 +1157,6 @@
 					xp_levels: 10
 				}
 				{
-					count: 5
 					id: "6851C1824870F43B"
 					item: {
 						count: 1
@@ -1208,7 +1207,7 @@
 					xp_levels: 10
 				}
 				{
-					count: 10
+					count: 5
 					id: "34CAD4DA202BE6E1"
 					item: {
 						count: 1

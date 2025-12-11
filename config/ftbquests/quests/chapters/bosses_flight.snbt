@@ -370,14 +370,22 @@
 			]
 			tasks: [
 				{
+					consume_items: true
 					id: "07DDF0C1B4EDEED6"
 					item: { count: 1, id: "eternal_starlight:book" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "17461F2800731473"
 					item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
 					type: "item"
+				}
+				{
+					advancement: "eternal_starlight:challenge_gatekeeper"
+					criterion: ""
+					id: "475D1310EE117203"
+					type: "advancement"
 				}
 			]
 			x: 0.0d
