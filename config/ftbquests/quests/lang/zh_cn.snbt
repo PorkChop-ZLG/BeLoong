@@ -924,6 +924,12 @@
 	quest.20B8EE9922330B51.quest_subtitle: "圣域的结构诡章与深渊回响"
 	quest.20B8EE9922330B51.title: "恶魔的怜悯"
 	quest.20FA399F30BF33A4.quest_subtitle: "给我加一片柠檬"
+	quest.21609D985B493CCB.quest_desc: [
+		"&e月藤巨物&6死后无法重生，"
+		"&6可使用对应物品兑换&e一次性BOSS刷怪笼&6。"
+	]
+	quest.21609D985B493CCB.quest_subtitle: "只能在诅咒花园兑换"
+	quest.21609D985B493CCB.title: "兑换月藤巨物刷怪笼"
 	quest.217D19EC778156E9.title: "戒指T1"
 	quest.219244DF197D0C75.quest_desc: [
 		"&6泰拉BOSS死后&c无法生成&6BOSS重生笼，"
@@ -1408,12 +1414,12 @@
 		"&e守门人&6是&d永恒星光&6第一个BOSS生物，"
 		"&6也是暮色森林的最终BOSS。"
 		"&6盘坐时，&e守门人&6会处于免疫一切攻击的待命状态；"
+		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"28625E49F473135B\" } }"
 		""
 		"&6玩家成功击败&e守门人&6后，他会掉落&b战利品袋&6,，"
 		"&6同时会开启&e交易系统&6，货币是&e星光银币&6。"
 		"&d【右键】&6打开&b战利品袋&6，获得&b先知球体&6，"
-		"&b先知球体&6用于开启星光传送门，"
-		"{ \"text\": \"点击跳转到到先知球体的使用方法\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10001CCE328F12E9\" } }"
+		"&b先知球体&6用于开启星光传送门。"
 		""
 		"&7&o没有人知道最后星光人去了哪里，这个种族的各种细节也变得模糊不清。"
 		"&7&o随着主世界各地的混沌裂隙逐渐关闭，探险家们将裂隙中封存的力量封存在了一个个水晶球内，并严加看管，确保只有勇敢正义之人才能进入。"

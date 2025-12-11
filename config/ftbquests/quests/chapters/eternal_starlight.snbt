@@ -940,5 +940,45 @@
 			x: 33.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			icon: {
+				id: "eternal_starlight:tenacious_vine"
+			}
+			id: "21609D985B493CCB"
+			optional: true
+			rewards: [{
+				id: "48989D697009D300"
+				item: {
+					count: 1
+					id: "eternal_starlight:lunar_monstrosity_spawner"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "244A05F880D1D6EE"
+					item: { count: 1, id: "eternal_starlight:lunar_berries" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "616C4672B49C1373"
+					item: { count: 1, id: "eternal_starlight:tangled_skull" }
+					type: "item"
+				}
+				{
+					id: "29FC37740A64A434"
+					structure: "eternal_starlight:cursed_garden"
+					type: "structure"
+				}
+			]
+			x: 14.5d
+			y: 0.0d
+		}
 	]
 }
