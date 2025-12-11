@@ -236,6 +236,12 @@
 	quest.038BE99D4FE3442D.quest_subtitle: "必读"
 	quest.038BE99D4FE3442D.title: "&a&l游玩须知"
 	quest.03B1663E1AEFE3E8.quest_desc: [
+		"&l&d「炼狱巨龙」"
+		"&6生命：&a5000"
+		"&6攻击：&c100"
+		"&6护甲：&720"
+		""
+		"&l&d生成"
 		"&9结构罗盘：&b【领主的崛起】巨龙高塔&r"
 		"&2自然罗盘：&a黑暗沼泽&r"
 		""
@@ -456,7 +462,15 @@
 	quest.0BC716E3EFAB173E.quest_subtitle: "刻录网易云音乐"
 	quest.0BFBF916B58BF952.quest_subtitle: "集齐洞穴龙特殊食物"
 	quest.0BFBF916B58BF952.title: "洞穴龙：吃饱好上路"
-	quest.0C4859FFFC25935A.quest_desc: ["&9结构罗盘：&b【领主的崛起】冥界古堡&r"]
+	quest.0C4859FFFC25935A.quest_desc: [
+		"&l&d「冥界骑士」"
+		"&6生命：&a600"
+		"&6攻击：&c30"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【领主的崛起】冥界古堡&r"
+	]
 	quest.0C4859FFFC25935A.title: "领主的崛起：冥界骑士"
 	quest.0DD185730F003AC4.quest_desc: [
 		"&c进阶高级附魔台&6允许你自由打造你的装备，"
@@ -2183,6 +2197,12 @@
 	quest.4DB8F1F62D30A922.quest_subtitle: "囊中羞涩..."
 	quest.4DB8F1F62D30A922.title: "“穷鬼套餐”"
 	quest.4DBAD417CE6615B0.quest_desc: [
+		"&l&d「沙虫」"
+		"&6生命：&a3500"
+		"&6攻击：&c80"
+		"&6护甲：&715"
+		""
+		"&l&d生成"
 		"&9结构罗盘：&b【领主的崛起】沙虫巢穴&r"
 		"&2自然罗盘：&a晶化沙漠&r"
 		""
@@ -2620,6 +2640,12 @@
 	quest.5C0284F1758BA896.quest_desc: ["&9结构罗盘：&b【灾变】古代工厂&r"]
 	quest.5C0284F1758BA896.title: "灾变：先驱者"
 	quest.5C54D192CA150300.quest_desc: [
+		"&l&d「雪怪」"
+		"&6生命：&a4000"
+		"&6攻击：&c90"
+		"&6护甲：&75"
+		""
+		"&l&d生成"
 		"&9结构罗盘：&b【领主的崛起】雪怪巢穴&r"
 		"&2自然罗盘：&a星光永冻森林&r"
 		""
