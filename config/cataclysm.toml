@@ -200,15 +200,15 @@
 	#EnderGuardian's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 1.0
+	EnderGuardianHealthMultiplier = 10.0
 	#EnderGuardian's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 1.0
+	EnderGuardianDamageMultiplier = 5.0
 	#EnderGuardian's DamageCap
 	# Default: 22.0
 	# Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageCap = 22.0
+	EnderGuardianDamageCap = 300.0
 	#EnderGuardian's DamageTime
 	# Default: 30
 	# Range: 0 ~ 100
@@ -216,7 +216,7 @@
 	#EnderGuardian's Healing with out target
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	EnderGuardianNatureHealing = 10.0
+	EnderGuardianNatureHealing = 25.0
 	#Ender guardian's block breaking ignore the MobGriefing
 	EnderguardianBlockBreaking = true
 	#Guardian's Immune to Long distance attack range.
@@ -280,11 +280,11 @@
 	#Monstrosity's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.0
+	MonstrosityHealthMultiplier = 1.25
 	#Monstrosity's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 1.0
+	MonstrosityDamageMultiplier = 1.2
 	#Monstrosity's Healing Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -292,11 +292,11 @@
 	# Monstrosity's Healing with out target
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	MonstrosityNatureHealing = 10.0
+	MonstrosityNatureHealing = 25.0
 	#Monstrosity's DamageCap
 	# Default: 22.0
 	# Range: 0.0 ~ 1000000.0
-	MonstrosityDamageCap = 22.0
+	MonstrosityDamageCap = 30.0
 	#Monstrosity's DamageTime
 	# Default: 10
 	# Range: 0 ~ 100
@@ -334,15 +334,15 @@
 	#Ignis's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.0
+	IgnisHealthMultiplier = 8.0
 	#Ignis's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 1.0
+	IgnisDamageMultiplier = 5.0
 	#Ignis's Healing with out target
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	IgnisNatureHealing = 10.0
+	IgnisNatureHealing = 25.0
 	#Ignis's Healing Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -354,7 +354,7 @@
 	#Ignis's DamageCap
 	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	IgnisDamageCap = 20.0
+	IgnisDamageCap = 300.0
 	#Ignis's DamageTime
 	# Default: 15
 	# Range: 0 ~ 100
@@ -390,11 +390,11 @@
 	#Harbinger's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 1.0
+	HarbingerHealthMultiplier = 10.0
 	#Harbinger's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 1.0
+	HarbingerDamageMultiplier = 10.0
 	#Harbinger's Healing Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -414,7 +414,7 @@
 	#Harbinger's DamageCap
 	# Default: 22.0
 	# Range: 0.0 ~ 1000000.0
-	"The Harbinger DamageCap" = 22.0
+	"The Harbinger DamageCap" = 300.0
 	#Harbinger's DamageTime
 	# Default: 12
 	# Range: 0 ~ 100
@@ -430,15 +430,15 @@
 	#Leviathan's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 1.0
+	LeviathanHealthMultiplier = 10.0
 	#Leviathan's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 1.0
+	LeviathanDamageMultiplier = 4.0
 	#Leviathan's Healing with out target
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	LeviathanNatureHealing = 10.0
+	LeviathanNatureHealing = 25.0
 	#Leviathan's Immune to Long distance attack range.
 	# Default: 38.0
 	# Range: 1.0 ~ 1000000.0
@@ -462,7 +462,7 @@
 	#Leviathan's DamageCap
 	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	LeviathanDamageCap = 20.0
+	LeviathanDamageCap = 400.0
 	#Leviathan's DamageTime
 	# Default: 15
 	# Range: 0 ~ 100
@@ -516,15 +516,15 @@
 	#Ancient Remnant's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 1.0
+	AncientRemnantHealthMultiplier = 8.0
 	#Ancient Remnant's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 1.0
+	AncientRemnantDamageMultiplier = 4.0
 	#AncientRemnant's Healing with out target
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantNatureHealing = 10.0
+	AncientRemnantNatureHealing = 25.0
 	#Ancient Remnant's Immune to Long distance attack range.
 	# Default: 14.0
 	# Range: 1.0 ~ 1000000.0
@@ -532,7 +532,7 @@
 	#Ancient Remnant's DamageCap
 	# Default: 21.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantCap = 21.0
+	AncientRemnantCap = 400.0
 	#Ancient Remnant's DamageTime
 	# Default: 12
 	# Range: 0 ~ 100
@@ -602,11 +602,11 @@
 	#Maledictus's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 1.0
+	MaledictusHealthMultiplier = 10.0
 	#Maledictus's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 1.0
+	MaledictusDamageMultiplier = 5.0
 	#Maledictus's Immune to Long distance attack range.
 	# Default: 12.0
 	# Range: 1.0 ~ 1000000.0
@@ -614,7 +614,7 @@
 	#Maledictus's Healing with out target
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	MaledictusNatureHealing = 10.0
+	MaledictusNatureHealing = 25.0
 	#Maledictus's Phantom Halberd Damage
 	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
@@ -622,7 +622,7 @@
 	#Maledictus's DamageCap
 	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	MaledictusDamageCap = 20.0
+	MaledictusDamageCap = 400.0
 	#Maledictus's DamageTime
 	# Default: 30
 	# Range: 0 ~ 100
@@ -752,11 +752,11 @@
 	#Scylla's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 1.0
+	ScyllaHealthMultiplier = 3.0
 	#Scylla's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	ScyllaDamageMultiplier = 1.0
+	ScyllaDamageMultiplier = 3.0
 	#Scylla's Immune to Long distance attack range.
 	# Default: 10.0
 	# Range: 1.0 ~ 1000000.0
@@ -788,7 +788,7 @@
 	#Scylla's DamageCap
 	# Default: 22.0
 	# Range: 0.0 ~ 1000000.0
-	"Scylla DamageCap" = 22.0
+	"Scylla DamageCap" = 40.0
 	#Scylla's DamageTime
 	# Default: 25
 	# Range: 0 ~ 100

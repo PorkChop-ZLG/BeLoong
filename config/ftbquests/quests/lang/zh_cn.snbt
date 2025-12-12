@@ -2,7 +2,7 @@
 	chapter.025C2A1E99ADD3C3.chapter_subtitle: [
 		"第四章：深暗的国度"
 		"星光暗淡，万物归寂。"
-		"难度：噩梦"
+		"难度：★★★★★"
 	]
 	chapter.025C2A1E99ADD3C3.title: "④ 深暗之园"
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["隐藏式任务"]
@@ -12,7 +12,7 @@
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
 		"第一章：陨落的龙族"
 		"龙之力，三段！"
-		"难度：简单"
+		"难度：★"
 	]
 	chapter.1E4C1C94528F4F43.title: "① 龙之生存"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["隐藏式任务"]
@@ -20,13 +20,13 @@
 	chapter.27AE0B7401476AE5.chapter_subtitle: ["物美价廉，童叟无欺"]
 	chapter.27AE0B7401476AE5.title: "&2&l系统商店"
 	chapter.29CB766687624EDA.chapter_subtitle: ["持续更新中"]
-	chapter.29CB766687624EDA.title: "BOSS图鉴"
+	chapter.29CB766687624EDA.title: "怪物图鉴"
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
 		"第二章：童年的回忆"
 		"可曾记得，最初的感动？"
-		"难度：普通"
+		"难度：★★★"
 	]
 	chapter.2FCFFB6D530A343F.title: "② 暮色森林"
 	chapter.35EB6BC9CDF066E6.chapter_subtitle: ["暂不完善，持续更新"]
@@ -47,7 +47,7 @@
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
 		"第三章：永恒的星光"
 		"暮色已尽，星光乍现。"
-		"难度：困难"
+		"难度：★★★★"
 	]
 	chapter.4EDF13489B6BA152.title: "③ 永恒星光"
 	chapter.508CCA54F0BC90CA.chapter_subtitle: [
@@ -69,6 +69,7 @@
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
 		"番外篇：铁魔法"
 		"Iron的法术与魔法书"
+		"难度：★★"
 	]
 	chapter.6C87160D1AC7FE19.title: "℗ 铁魔法"
 	chapter.6EC27D3BF2313600.chapter_subtitle: ["选择你的法术流派"]
@@ -91,7 +92,17 @@
 	quest.0014213DE61FC595.title: "洞穴龙之家"
 	quest.00628C62EEB79A37.quest_subtitle: "口袋维度"
 	quest.00628C62EEB79A37.title: "口袋维度 法术卷轴"
-	quest.0088F3221CD99A3D.quest_desc: ["&9结构罗盘：&b【灾变】废弃堡垒&r"]
+	quest.0088F3221CD99A3D.quest_desc: [
+		"&l&d「末影守卫」"
+		"&6生命：&a3330"
+		"&6限伤：&e300"
+		"&6攻击：&c80"
+		"&6护甲：&715"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【灾变】废弃堡垒&r"
+	]
+	quest.0088F3221CD99A3D.quest_subtitle: "★★★★"
 	quest.0088F3221CD99A3D.title: "灾变：末影守卫"
 	quest.00EED446DF76F1B1.quest_desc: ["&9结构罗盘：&b【冰火传说】冰龙"]
 	quest.00EED446DF76F1B1.quest_subtitle: "谁才是海洋的主宰？"
@@ -247,6 +258,7 @@
 		""
 		"&7&o注：该BOSS迁移至永恒星光"
 	]
+	quest.03B1663E1AEFE3E8.quest_subtitle: "★★★★★"
 	quest.03B1663E1AEFE3E8.title: "领主的崛起：炼狱巨龙"
 	quest.03DA2F2992CDD7DA.quest_desc: [
 		"&l&d逆卡巴拉「慈悲」"
@@ -300,6 +312,7 @@
 		"&l&d生成"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74233FDAFCB21F8E\" } }"
 	]
+	quest.053172C0F13D3578.quest_subtitle: "★★★★★"
 	quest.053172C0F13D3578.title: "泰拉生物：克苏鲁之脑"
 	quest.054276060A380FAD.quest_desc: [
 		"&o&7芥子纳须弥，超空间存储。"
@@ -310,7 +323,17 @@
 	]
 	quest.054276060A380FAD.quest_subtitle: "【精妙存储支线    完结】"
 	quest.054276060A380FAD.title: "堆叠升级Ω"
-	quest.055D72E0BC34E041.quest_desc: ["&9结构罗盘：&b【灾变】苦寒监牢&r"]
+	quest.055D72E0BC34E041.quest_desc: [
+		"&l&d「咒翼灵骸」"
+		"&6生命：&a4200"
+		"&6限伤：&e500"
+		"&6攻击：&c65"
+		"&6护甲：&710"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【灾变】苦寒监牢&r"
+	]
+	quest.055D72E0BC34E041.quest_subtitle: "★★★★"
 	quest.055D72E0BC34E041.title: "灾变：咒翼灵骸"
 	quest.0567ED02F52DBD13.quest_subtitle: "凉风拂面"
 	quest.05B2708F599F0167.quest_desc: [
@@ -368,7 +391,17 @@
 		"废墟深处有个基座。看样子是骑士们用来放奖杯的基座——这是力量的象征。若能拿到某种强力法杖，我便可以削弱这保护森林的魔咒，而将某座奖杯放在这基座上便可打开通往要塞的门。"
 	]
 	quest.06BED8FFC050C39A.title: "强者的象征"
-	quest.073A531B004C31E3.quest_desc: ["&9结构罗盘：&b【灾变】沉沦之城&r"]
+	quest.073A531B004C31E3.quest_desc: [
+		"&l&d「利维坦」"
+		"&6生命：&a4000"
+		"&6限伤：&e400"
+		"&6攻击：&c60"
+		"&6护甲：&710"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【灾变】沉沦之城&r"
+	]
+	quest.073A531B004C31E3.quest_subtitle: "★★★★"
 	quest.073A531B004C31E3.title: "灾变：利维坦"
 	quest.075C03D1410623B3.quest_desc: [
 		"&6时间一晃，千年流逝，星光人的魔法实力已不容小觑，他们预言到自己的文明将会被巨物所灭，他们认为巨物应当是主世界文明所遣。"
@@ -434,6 +467,7 @@
 		"&l&d生成"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"034ACABF80D25D29\" } }"
 	]
+	quest.0AC7BA9585F4271A.quest_subtitle: "★★★★★"
 	quest.0AC7BA9585F4271A.title: "泰拉生物：蜂王"
 	quest.0ADC425FA160CAD0.quest_desc: [
 		"&a目标：击败沙虫"
@@ -445,7 +479,16 @@
 	quest.0ADC425FA160CAD0.quest_subtitle: "我要穿越这片沙漠，找寻真的自我"
 	quest.0ADC425FA160CAD0.title: "沙虫"
 	quest.0AE4AB2612E41CA0.quest_subtitle: "十六夜咲夜特调"
-	quest.0B1F2B46DAF0D8AC.quest_subtitle: "我不是BOSS啊？！"
+	quest.0B1F2B46DAF0D8AC.quest_desc: [
+		"&l&d「监守者」"
+		"&6生命：&a500"
+		"&6攻击：&c30"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b远古城市&r"
+	]
+	quest.0B1F2B46DAF0D8AC.quest_subtitle: "★★"
 	quest.0B1F2B46DAF0D8AC.title: "原版：监守者"
 	quest.0B21BEEF0BACA869.title: "首饰T1"
 	quest.0B2561B023A2B768.quest_desc: ["&c注意：是原地生成一只【紫水晶巨蟹】！"]
@@ -487,6 +530,7 @@
 		"&l&d生成"
 		"&9结构罗盘：&b【领主的崛起】冥界古堡&r"
 	]
+	quest.0C4859FFFC25935A.quest_subtitle: "★★"
 	quest.0C4859FFFC25935A.title: "领主的崛起：冥界骑士"
 	quest.0DD185730F003AC4.quest_desc: [
 		"&c进阶高级附魔台&6允许你自由打造你的装备，"
@@ -574,6 +618,16 @@
 	]
 	quest.10EEAA4808CEB43D.quest_subtitle: "踏火而来的古老骑士"
 	quest.10EEAA4808CEB43D.title: "远古骑士"
+	quest.10F9BE8C1E4AE1FA.quest_desc: [
+		"&l&d「冰雪女王」"
+		"&6生命：&a1700"
+		"&6攻击：&c60"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b极光宫殿&r"
+	]
+	quest.10F9BE8C1E4AE1FA.quest_subtitle: "★★★"
 	quest.10F9BE8C1E4AE1FA.title: "暮色森林：冰雪女王"
 	quest.113378DAACF3A395.quest_desc: [
 		"战斗：擅长召唤魔法，控制敌人迷惑他们。"
@@ -676,6 +730,16 @@
 	quest.146CDD92C8E0963C.title: "世界吞噬怪"
 	quest.14D31B8DCB673BE7.quest_desc: ["&6龙之生存中最基础的材料。"]
 	quest.14D31B8DCB673BE7.quest_subtitle: "基础材料"
+	quest.14ED830A8AC56A7A.quest_desc: [
+		"&l&d「娜迦」"
+		"&6生命：&a1200"
+		"&6攻击：&c24"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b巫妖怪塔&r"
+	]
+	quest.14ED830A8AC56A7A.quest_subtitle: "★★★"
 	quest.14ED830A8AC56A7A.title: "暮色森林：巫妖"
 	quest.15433E12926E99B9.quest_desc: [
 		" 喜热的巨兽没有找到任何食物，除了霉菌与无尽的蚊群。于是祂只好自食。直到有一天，永夜的诅咒带来了新变化——巨兽的身躯适应了自食的过程，祂将永远享用自身的盛宴。"
@@ -693,7 +757,17 @@
 	]
 	quest.159566AC6D6F2977.quest_subtitle: "狠狠地灌注"
 	quest.15C5C16F69808158.quest_subtitle: "这是史莱姆吗？"
-	quest.15CE2F1DA319C4B4.quest_desc: ["&9结构罗盘：&b【灾变】卫城&r"]
+	quest.15CE2F1DA319C4B4.quest_desc: [
+		"&l&d「斯库拉」"
+		"&6生命：&a1170"
+		"&6限伤：&e40"
+		"&6攻击：&c54"
+		"&6护甲：&712"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【灾变】卫城&r"
+	]
+	quest.15CE2F1DA319C4B4.quest_subtitle: "★★★"
 	quest.15CE2F1DA319C4B4.title: "灾变：斯库拉"
 	quest.15E9E6DAEC4C69CE.quest_desc: [
 		"&a目标：获得憎恶之蜂"
@@ -767,6 +841,7 @@
 		"命中后造成范围伤害，并施加 2 秒缓慢 I、虚弱 I、失明、黑暗效果；"
 		"此技能有极大概率混合“召唤月辉棘刺”或“毒雾喷射”使用，请小心应对。"
 	]
+	quest.17A9978D7AFEA210.quest_subtitle: "★★★★"
 	quest.17A9978D7AFEA210.title: "永恒星光：月藤巨物"
 	quest.17BEAE92E1A0B323.quest_desc: [
 		"&a目标：击败史莱姆王，获得皇家凝胶"
@@ -846,6 +921,7 @@
 		""
 		"&o&7攻略来源：www.mcmod.cn"
 	]
+	quest.196959C6E061913D.quest_subtitle: "★★★"
 	quest.196959C6E061913D.title: "祸乱鬼魅：黑耀巨石柱"
 	quest.19BFE7F4FD9FF5A4.quest_desc: [
 		"&eAlshanex's Familiars"
@@ -922,6 +998,15 @@
 	quest.1DFB8CC52BD51F13.title: "最后一步：驯服女仆"
 	quest.1E1063CB67754D04.quest_subtitle: "你选择成为：森林龙"
 	quest.1E1063CB67754D04.title: "『化龍』森林龙！"
+	quest.1E7A718688067EC6.quest_desc: [
+		"&l&d「凋灵」"
+		"&6生命：&a300"
+		"&6攻击：&c4"
+		"&6护甲：&72"
+		""
+		"&l&d生成"
+	]
+	quest.1E7A718688067EC6.quest_subtitle: "★"
 	quest.1E7A718688067EC6.title: "原版：凋灵"
 	quest.1ECC3AFD4ECADE42.title: "护符T3"
 	quest.1FBBB4F5A5AF64FD.quest_desc: [
@@ -1021,6 +1106,16 @@
 	quest.225FF303E21AE00E.title: "拉回骷髅王"
 	quest.22616810BC8A22CA.quest_subtitle: "&5&l「末」&r&d一枚神奇的空间戒指"
 	quest.22616810BC8A22CA.title: "第三幕：赠礼"
+	quest.228A2960FA4D62F7.quest_desc: [
+		"&l&d「钢铁守护者」"
+		"&6生命：&a40"
+		"&6攻击：&c30"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b锻造室&r"
+	]
+	quest.228A2960FA4D62F7.quest_subtitle: "★"
 	quest.228A2960FA4D62F7.title: "Mowzie的生物：钢铁守护者"
 	quest.228FFCAF5D84CE5C.quest_desc: [
 		"&a目标：击败炼狱巨龙"
@@ -1084,6 +1179,7 @@
 		"&l&d生成"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"146CDD92C8E0963C\" } }"
 	]
+	quest.24F3DC3742819BE4.quest_subtitle: "★★★★★"
 	quest.24F3DC3742819BE4.title: "泰拉生物：世界吞噬怪"
 	quest.24FD6F11C82C2688.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
 	quest.24FD6F11C82C2688.title: "泰拉饰品T1"
@@ -1100,6 +1196,16 @@
 	quest.254ACB3DBF934D44.quest_subtitle: "&6集齐所有蕴含自然能量之物，得见神剑"
 	quest.254ACB3DBF934D44.title: "&6收集癖"
 	quest.255264B786089E85.quest_subtitle: "黑手党特供"
+	quest.25871E50A41EC3EA.quest_desc: [
+		"&l&d「娜迦」"
+		"&6生命：&a1000"
+		"&6攻击：&c24"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b娜迦庭院&r"
+	]
+	quest.25871E50A41EC3EA.quest_subtitle: "★★★"
 	quest.25871E50A41EC3EA.title: "暮色森林：娜迦"
 	quest.25CB6218676EEC49.quest_desc: [
 		"右键进入一个&a雷霆术士魔宠&r绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6冰霜术士塔&r中找到"
@@ -1151,7 +1257,7 @@
 	quest.28625E49F473135B.quest_desc: [
 		"&l&d「守门人」"
 		"&6生命：&a2000"
-		"&6攻击：&c50"
+		"&6攻击：&c65"
 		"&6护甲：&715"
 		""
 		"&l&d生成"
@@ -1202,6 +1308,7 @@
 		""
 		"&o&7攻略来源：www.mcmod.cn"
 	]
+	quest.28625E49F473135B.quest_subtitle: "★★★★"
 	quest.28625E49F473135B.title: "永恒星光：守门人"
 	quest.2868198C85787E08.quest_desc: [
 		"&6当年那些被流放到末地的死刑犯，有一部分逃到末地外岛，繁衍生息，慢慢演变成末地村庄。"
@@ -1401,7 +1508,17 @@
 	]
 	quest.2FFA72EF12E63FC6.quest_subtitle: "魂兮归来"
 	quest.2FFA72EF12E63FC6.title: "&b魂灵学派"
-	quest.300B6A5EADD11286.quest_desc: ["&9结构罗盘：&b【灾变】被诅咒的金字塔&r"]
+	quest.300B6A5EADD11286.quest_desc: [
+		"&l&d「远古遗魂」"
+		"&6生命：&a3600"
+		"&6限伤：&e400"
+		"&6攻击：&c100"
+		"&6护甲：&712"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【灾变】被诅咒的金字塔&r"
+	]
+	quest.300B6A5EADD11286.quest_subtitle: "★★★★"
 	quest.300B6A5EADD11286.title: "灾变：远古遗魂"
 	quest.306FC4CE1DC812A8.quest_desc: [
 		"&6泰拉BOSS死后&c无法生成&6BOSS重生笼，"
@@ -1537,8 +1654,8 @@
 		"&eExpCreeper - 程序"
 		"&eIAFEnvoy - 模组"
 		"&eFrostbite - 模组"
-		"&eAmotassic - 模组"
-		"&exiaofanwei - 模组"
+		"&eLinFeng - 数据包"
+		"&e消失的雨 - 贴图"
 		""
 		"{@pagebreak}"
 		"&b=====赞助====="
@@ -1605,6 +1722,15 @@
 	quest.37B91353A61136FB.quest_subtitle: "桂花香"
 	quest.37BC039A5B650EF7.title: "暗影行者装备"
 	quest.37D854A4A8F97409.title: "阴阳师武器"
+	quest.37DD5B8A42ABC578.quest_desc: [
+		"&l&d「末影龙」"
+		"&6生命：&a???"
+		"&6攻击：&c???"
+		"&6护甲：&7???"
+		""
+		"&l&d生成"
+	]
+	quest.37DD5B8A42ABC578.quest_subtitle: "★"
 	quest.37DD5B8A42ABC578.title: "原版：末影龙"
 	quest.37E22E2A0F31B536.quest_desc: [
 		"&l&d「下界铁掌」"
@@ -1639,6 +1765,7 @@
 		""
 		"&o&7攻略来源：www.mcmod.cn"
 	]
+	quest.37E22E2A0F31B536.quest_subtitle: "★★★"
 	quest.37E22E2A0F31B536.title: "祸乱鬼魅：下界铁掌"
 	quest.3859C3FFB6F2C61B.quest_desc: [
 		"&6恭喜你完成了&e【第一章】&6或&e【番外篇】"
@@ -1728,6 +1855,7 @@
 		""
 		"&o&7攻略来源：www.mcmod.cn"
 	]
+	quest.3B02DF458924B95C.quest_subtitle: "★★★"
 	quest.3B02DF458924B95C.title: "祸乱鬼魅：虚空之花"
 	quest.3BCE1EDA71616276.quest_desc: [
 		"&6维度网络管理员潜行右键后可以将其绑定到当前网络。"
@@ -1854,6 +1982,16 @@
 		"&b&n/minopp set_table_award"
 	]
 	quest.403F4499E19370C1.quest_subtitle: "一起玩UNO吧"
+	quest.4093B7F10DE1AE47.quest_desc: [
+		"&l&d「幻影骑士」"
+		"&6生命：&a600 (100×6)"
+		"&6攻击：&c???"
+		"&6护甲：&755"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b黑松骑士要塞&r"
+	]
+	quest.4093B7F10DE1AE47.quest_subtitle: "★★"
 	quest.4093B7F10DE1AE47.title: "暮色森林：幻影骑士"
 	quest.409DBA9330BA0269.quest_desc: [
 		"&l&d「克苏鲁之眼」"
@@ -1864,6 +2002,7 @@
 		"&l&d生成"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E2F36A14E2F1879\" } }"
 	]
+	quest.409DBA9330BA0269.quest_subtitle: "★★★★★"
 	quest.409DBA9330BA0269.title: "泰拉生物：克苏鲁之眼"
 	quest.410087ACF6234CC1.quest_subtitle: "天地莫施恩，璇题激流日"
 	quest.410087ACF6234CC1.title: "&5天璇"
@@ -2094,7 +2233,18 @@
 		""
 		"&o&7攻略来源：www.mcmod.cn"
 	]
+	quest.48BAABC889E9DC5F.quest_subtitle: "★★★"
 	quest.48BAABC889E9DC5F.title: "祸乱鬼魅：暗夜巫妖"
+	quest.48E18718D8715F1A.quest_desc: [
+		"&l&d「九头蛇」"
+		"&6生命：&a1800"
+		"&6攻击：&c???"
+		"&6护甲：&7???"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b九头蛇巢穴&r"
+	]
+	quest.48E18718D8715F1A.quest_subtitle: "★★★"
 	quest.48E18718D8715F1A.title: "暮色森林：九头蛇"
 	quest.494B6EFDE9F2D605.quest_desc: [
 		"战斗：擅长圣魔法，他的主要作用是辅助，但他也可以施放强大的圣法术来净化敌人。"
@@ -2240,6 +2390,7 @@
 		""
 		"&7&o注：该BOSS迁移至永恒星光"
 	]
+	quest.4DBAD417CE6615B0.quest_subtitle: "★★★★"
 	quest.4DBAD417CE6615B0.title: "领主的崛起：沙虫"
 	quest.4DEF1998BE552CE0.quest_subtitle: "每条龙保底一次"
 	quest.4DEF1998BE552CE0.title: "二重身之戒保底"
@@ -2622,7 +2773,17 @@
 		""
 		"&6网络内所有成员都自动离开此网络。"
 	]
-	quest.5997BC4982540330.quest_desc: ["&9结构罗盘：&b【灾变】灵魂锻造厂&r"]
+	quest.5997BC4982540330.quest_desc: [
+		"&l&d「下界合金巨兽」"
+		"&6生命：&a750"
+		"&6限伤：&e30"
+		"&6攻击：&c30"
+		"&6护甲：&712"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【灾变】灵魂锻造厂&r"
+	]
+	quest.5997BC4982540330.quest_subtitle: "★★"
 	quest.5997BC4982540330.title: "灾变：下界合金巨兽"
 	quest.5A3133909B9A3A68.quest_desc: ["这个巨大的雪怪是它们的头领，是许多无意义的纷争中活下来的强者。不过，它并不比那些一般的雪怪更加聪明。"]
 	quest.5A3133909B9A3A68.quest_subtitle: "你的皮毛很适合做我的战利品"
@@ -2669,7 +2830,16 @@
 	quest.5BB4A81605A76537.title: "&e『&6化龍&e』&r&d彻底通关！"
 	quest.5BFAF12ACD430D8F.title: "炽焰导师装备"
 	quest.5BFBCEEC0E72D1B3.quest_subtitle: "秋天的馈赠"
-	quest.5C0284F1758BA896.quest_desc: ["&9结构罗盘：&b【灾变】古代工厂&r"]
+	quest.5C0284F1758BA896.quest_desc: [
+		"&l&d「先驱者」"
+		"&6生命：&a3900"
+		"&6限伤：&e300"
+		"&6攻击：&c90"
+		"&6护甲：&712"
+		""
+		"&9结构罗盘：&b【灾变】古代工厂&r"
+	]
+	quest.5C0284F1758BA896.quest_subtitle: "★★★★"
 	quest.5C0284F1758BA896.title: "灾变：先驱者"
 	quest.5C54D192CA150300.quest_desc: [
 		"&l&d「雪怪」"
@@ -2683,6 +2853,7 @@
 		""
 		"&7&o注：该BOSS迁移至永恒星光"
 	]
+	quest.5C54D192CA150300.quest_subtitle: "★★★★"
 	quest.5C54D192CA150300.title: "领主的崛起：雪怪"
 	quest.5C7DC397FD36FFDB.quest_desc: [
 		"&a目标：获得训练人偶"
@@ -2799,6 +2970,9 @@
 		"符号备用："
 		"① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩"
 		"⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳"
+		""
+		"难度分级："
+		"★★★☆☆☆"
 	]
 	quest.61841B2C10B08D91.quest_subtitle: "只有编写者能看到"
 	quest.61841B2C10B08D91.title: "任务编写规范"
@@ -2885,8 +3059,18 @@
 	quest.6551B8D4F580ACE3.quest_subtitle: "强大而又复杂的建筑工具"
 	quest.6551B8D4F580ACE3.title: "建筑之杖"
 	quest.657F19533CDF73AD.title: "初入星光维度"
-	quest.6583633BEC31ECDF.quest_desc: ["&9结构罗盘：&b【灾变】熔岩竞技场&r"]
-	quest.6583633BEC31ECDF.title: "灾变：炎魔"
+	quest.6583633BEC31ECDF.quest_desc: [
+		"&l&d「焰魔」"
+		"&6生命：&a3600"
+		"&6限伤：&e300"
+		"&6攻击：&c70"
+		"&6护甲：&710"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b【灾变】熔岩竞技场&r"
+	]
+	quest.6583633BEC31ECDF.quest_subtitle: "★★★★"
+	quest.6583633BEC31ECDF.title: "灾变：焰魔"
 	quest.65D18729B9A46063.title: "瘟疫医生装备"
 	quest.65DF9D6C0D5E7583.quest_desc: [
 		"&a目标：开启圣辉宝库，获得圣辉模版"
@@ -2930,6 +3114,16 @@
 		"&6然后你就可以用盔甲架摆出各种pose啦。"
 	]
 	quest.6796172A3CF129FB.quest_subtitle: "Shift+右键"
+	quest.68A904F25FFE8956.quest_desc: [
+		"&l&d「暮初恶魂」"
+		"&6生命：&a1600"
+		"&6攻击：&c???"
+		"&6护甲：&7???"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b黑暗高塔&r"
+	]
+	quest.68A904F25FFE8956.quest_subtitle: "★★★"
 	quest.68A904F25FFE8956.title: "暮色森林：暮初恶魂"
 	quest.68F38201DF496DA9.quest_subtitle: "无尽的法力"
 	quest.690F6FE8B1F4791E.title: "击败：斯库拉"
@@ -2950,6 +3144,16 @@
 	]
 	quest.6A03B959A1B214E6.quest_subtitle: "【精妙背包支线    完结】"
 	quest.6A03B959A1B214E6.title: "堆叠升级Ω"
+	quest.6A1268143ED70C45.quest_desc: [
+		"&l&d「霜冻巨兽」"
+		"&6生命：&a250"
+		"&6攻击：&c10"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b霜冻巨兽出生点&r"
+	]
+	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie的生物：霜冻巨兽"
 	quest.6AC7F72FF93C6500.quest_desc: [
 		"&6使用&e音符盒&6撰写&3律灵法术"
@@ -3053,6 +3257,16 @@
 	quest.6CC5B640AD43F55C.quest_subtitle: "信标会攻击幻翼"
 	quest.6D86EE35624F9507.quest_desc: ["  &6铁刀是获得雀夜食堂各种原料的重要工具，在开始前先拿到一把铁刀吧！"]
 	quest.6D86EE35624F9507.quest_subtitle: "神奇的工具"
+	quest.6D88CFA0D4618ECB.quest_desc: [
+		"&l&d「雕刻家-通臂大师」"
+		"&6生命：&a140"
+		"&6攻击：&c10"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b修道院&r"
+	]
+	quest.6D88CFA0D4618ECB.quest_subtitle: "★"
 	quest.6D88CFA0D4618ECB.title: "Mowzie的生物：雕刻家-通臂大师"
 	quest.6DC97A09E372363A.quest_desc: [
 		"&a目标：合成并提交一把泰拉棱镜"
@@ -3126,6 +3340,7 @@
 		""
 		"&o&7攻略来源：www.mcmod.cn"
 	]
+	quest.6E02B2425A8EAB67.quest_subtitle: "★★★★"
 	quest.6E02B2425A8EAB67.title: "永恒星光：星光傀儡"
 	quest.6E27A53C36C34AB1.quest_desc: [
 		"&l&d「史莱姆王」"
@@ -3136,6 +3351,7 @@
 		"&l&d生成"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17BEAE92E1A0B323\" } }"
 	]
+	quest.6E27A53C36C34AB1.quest_subtitle: "★★★★★"
 	quest.6E27A53C36C34AB1.title: "泰拉生物：史莱姆王"
 	quest.6E5594142D1F7454.quest_subtitle: "苏打清酒"
 	quest.6EA867B07E184273.quest_desc: [
@@ -3168,13 +3384,14 @@
 	quest.6EEBE4FBC79CD1C3.quest_subtitle: "需要：热泉石锭"
 	quest.6F7A124D6DAE13F1.quest_desc: [
 		"&l&d「骷髅王」"
-		"&6生命：&a10000"
+		"&6生命：&a10000 (6000+2000×2)"
 		"&6攻击：&c200"
 		"&6护甲：&710"
 		""
 		"&l&d生成"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E299ACD32EA2CA2\" } }"
 	]
+	quest.6F7A124D6DAE13F1.quest_subtitle: "★★★★★★"
 	quest.6F7A124D6DAE13F1.title: "泰拉生物：骷髅王"
 	quest.6FD356A298590C96.quest_subtitle: "冒着泡泡的夏天"
 	quest.7001BFE7FD4B7BB7.title: "九头蛇的血与高塔恶魂的泪似乎能和铁发生反应"
@@ -3280,6 +3497,16 @@
 	]
 	quest.7374FD45EAC02F8D.quest_subtitle: "居家必备幻翼杀手"
 	quest.7374FD45EAC02F8D.title: "防空炮"
+	quest.73777155E02C7B4C.quest_desc: [
+		"&l&d「米诺菇」"
+		"&6生命：&a800"
+		"&6攻击：&c40"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b牛头人迷宫&r"
+	]
+	quest.73777155E02C7B4C.quest_subtitle: "★★"
 	quest.73777155E02C7B4C.title: "暮色森林：米诺菇"
 	quest.74233FDAFCB21F8E.quest_desc: [
 		"&a目标：击败克苏鲁之脑，获得混乱之脑"
@@ -3298,6 +3525,16 @@
 	quest.747F45AAE1161962.quest_subtitle: "平价好味"
 	quest.74D333ABF9D19A48.quest_subtitle: "你选择成为：苔原龙"
 	quest.74D333ABF9D19A48.title: "『化龍』苔原龙！"
+	quest.7552748C8250227C.quest_desc: [
+		"&l&d「太阳鸟-乌姆武提」"
+		"&6生命：&a150"
+		"&6攻击：&c2"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b乌姆塔纳树林&r"
+	]
+	quest.7552748C8250227C.quest_subtitle: "★"
 	quest.7552748C8250227C.title: "Mowzie的生物：太阳鸟-乌姆武提"
 	quest.756F07EF29A13F30.title: "泰拉BOSS召唤物"
 	quest.757AA29BE231F9BC.title: "初入暮色森林"
@@ -3513,6 +3750,16 @@
 	]
 	quest.7E43C24DAFAF97FB.quest_subtitle: "在MC玩泰拉瑞亚"
 	quest.7E43C24DAFAF97FB.title: "汇流来世"
+	quest.7E8A3F928299D963.quest_desc: [
+		"&l&d「雪怪首领」"
+		"&6生命：&a1000"
+		"&6攻击：&c10"
+		"&6护甲：&70"
+		""
+		"&l&d生成"
+		"&9结构罗盘：&b雪怪洞窟&r"
+	]
+	quest.7E8A3F928299D963.quest_subtitle: "★★"
 	quest.7E8A3F928299D963.title: "暮色森林：雪怪首领"
 	quest.7EB346A1790BD94B.quest_desc: [
 		"&a目标：找到公会城堡"

@@ -139,6 +139,9 @@
 	dragon_camera_scale_factor = 0.15000000596046448
 	#Renders the soul block base if enabled, as a visual indicator for the actual block
 	enable_soul_block_indicator = true
+	#Disables rendering of dragon shadows if a shader from Iris is active
+	#Rendering shadows have a heavy performance impact due to the complexity of the dragon model
+	skip_shader_shadows = false
 
 [animation]
 	#The amount by which the movement animation speed factor is multiplied. 1.0 represents the animation speed accurately reflecting the speed of your movement.

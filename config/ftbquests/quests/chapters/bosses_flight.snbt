@@ -1541,7 +1541,7 @@
 				item: { count: 1, id: "terra_curio:demon_heart" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 7.0d
 		}
 		{
@@ -1564,8 +1564,8 @@
 				id: "7B7BCE6D611F72EB"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 7.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1587,8 +1587,8 @@
 				id: "78D0E5700397AEE8"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			icon: {

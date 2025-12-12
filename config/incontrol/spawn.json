@@ -39,8 +39,8 @@
     "mob": "twilightforest:minoshroom",
     "when": "onjoin",
     "result": "allow",
-    "healthset": 1080,
-    "damageset": 40
+    "healthset": 800,
+    "damageset": 31
   },
   {
     "mob": "twilightforest:hydra",
@@ -52,7 +52,7 @@
     "mob": "twilightforest:knight_phantom",
     "when": "onjoin",
     "result": "allow",
-    "healthset": 210
+    "healthset": 100
   },
   {
     "mob": "twilightforest:ur_ghast",
@@ -64,8 +64,15 @@
     "mob": "twilightforest:alpha_yeti",
     "when": "onjoin",
     "result": "allow",
-    "healthset": 1300,
+    "healthset": 1000,
     "damageset": 10
+  },
+  {
+    "mob": "twilightforest:snow_queen",
+    "when": "onjoin",
+    "result": "allow",
+    "healthset": 1700,
+    "damageset": 60
   },
   {
     "mob": "terra_entity:king_slime",
