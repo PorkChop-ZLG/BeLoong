@@ -576,6 +576,7 @@
 				"4461A4B09511AFD5"
 				"61DD6385C7F59703"
 				"5E4E661E1E3FE198"
+				"2B5CAD5134FFA4AF"
 			]
 			dependency_requirement: "one_completed"
 			id: "56AEAD8720A0B3F9"
@@ -2113,7 +2114,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "crystcursed_dragon:crystcursed/be_old_dragon"
+				advancement: "crystcursed_dragon:crystcursed/be_dragon"
 				criterion: ""
 				id: "78392008CE128CB1"
 				type: "advancement"
