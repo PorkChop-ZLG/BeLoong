@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "dread_key",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "iceandfire:dread_key",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
