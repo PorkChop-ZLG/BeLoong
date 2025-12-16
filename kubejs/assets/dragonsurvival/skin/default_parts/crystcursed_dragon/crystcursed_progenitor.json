@@ -1,0 +1,17 @@
+{
+    "species": "dragonsurvival:crystcursed_dragon",
+    "stage": "dragonsurvival:crystcursed_progenitor",
+    "model": "dragonsurvival:dragon_model",
+    "parts": {
+        "base": "base_1",
+        "bottom": "bottom_6",
+        "eyes": "eyes_17",
+        "horns": "horns_4",
+        "spikes": "spikes_6",
+        "claws": "claw_6",
+        "teeth": "teeth_2",
+        "magic": "sea_magic_2",
+        "extra": "sea_extra_tail_3",
+        "extra1": "extra_horns_15"
+    }
+}

@@ -69,6 +69,9 @@
   "dragon_stage.dragonsurvival.red_giant": "§cRed Giant§r",
 	"dragon_stage.dragonsurvival.black_hole": "§0Black Hole§r",
 	"dragon_stage.dragonsurvival.singularity": "§fSingularity§r",
+  "dragon_stage.dragonsurvival.crystcursed_ancient": "Ancient",
+  "dragon_stage.dragonsurvival.crystcursed_archean": "Archean",
+  "dragon_stage.dragonsurvival.crystcursed_progenitor": "Progenitor",
 
 	"dragon_ability.dragonsurvival.behuman": "Human",
 	"dragon_ability.dragonsurvival.behuman.desc": "■ When the Aether Dragon reaches the Ancient stage, it can transform into a human form.\n\n■ Human form retains draconic abilities without any item restrictions.§r",

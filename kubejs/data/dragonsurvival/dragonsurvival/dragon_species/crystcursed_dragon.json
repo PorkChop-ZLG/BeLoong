@@ -1,0 +1,48 @@
+{
+	"abilities": "#dragonsurvival:crystcursed_dragon",
+	"custom_stage_progression": [
+		"dragonsurvival:newborn",
+		"dragonsurvival:young",
+		"dragonsurvival:adult",
+		"dragonsurvival:crystcursed_ancient",
+		"dragonsurvival:crystcursed_archean",
+		"dragonsurvival:crystcursed_progenitor"
+	],
+	"bodies": [
+		"dragonsurvival:center",
+		"dragonsurvival:east",
+		"dragonsurvival:west"
+	],
+	"misc_resources": {
+		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/crystcursed/cast_bar.png",
+		"altar_banner": "dragonsurvival:textures/gui/custom/altar/crystcursed/altar_icon.png",
+		"food_sprites": "dragonsurvival:textures/gui/custom/food_icons/crystcursed_food_icons.png",
+		"food_tooltip": {
+			"font": "crystcursed_dragon:food_tooltip_icon_font",
+			"nutrition_icon": "\\uEA01",
+			"saturation_icon": "\\uEA02"
+		},
+		"growth_crystal": {
+			"empty": "dragonsurvival:textures/gui/custom/stage/crystcursed/point_main.png",
+			"full": "dragonsurvival:textures/gui/custom/stage/crystcursed/point_hover.png"
+		},
+		"growth_left_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/crystcursed/left_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/crystcursed/left_arrow_main.png"
+		},
+		"growth_right_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/crystcursed/right_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/crystcursed/right_arrow_main.png"
+		},
+		"mana_sprites": {
+			"empty": "dragonsurvival:textures/gui/custom/mana_icons/crystcursed/empty.png",
+			"full": "dragonsurvival:textures/gui/custom/mana_icons/crystcursed/full.png",
+			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/crystcursed/recovery.png",
+			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/crystcursed/reserved.png"
+		},
+		"primary_color": "#299e96",
+		"secondary_color": "#00fbff",
+		"claw_texture_slot": "sword"
+	},
+	"penalties": "#dragonsurvival:crystcursed_dragon"
+}

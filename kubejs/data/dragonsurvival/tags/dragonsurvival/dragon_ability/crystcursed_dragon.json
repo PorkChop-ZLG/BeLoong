@@ -1,0 +1,25 @@
+{
+    "values": [
+        "dragonsurvival:crystcursed_volley",
+        "dragonsurvival:crystcursed_path",
+        "dragonsurvival:crystcursed_missile",
+        "dragonsurvival:crystcursed_revenge",
+        "dragonsurvival:crystcursed_rain",
+        "dragonsurvival:crystal_budding",
+        "dragonsurvival:crystcursed_magic_setting",
+
+        "dragonsurvival:crystcursed_magic",
+        "dragonsurvival:source_preservation",
+        "dragonsurvival:crystcursed_armor",
+        "dragonsurvival:shattering_impact",
+        
+        "dragonsurvival:innate_resistance",
+        "dragonsurvival:crystcursed_claws_and_teeth",
+        "dragonsurvival:symbiotic_crystal_rest",
+        "dragonsurvival:crystcursed_wings",
+        "dragonsurvival:crystcursed_spin",
+        
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller"
+    ]
+}
