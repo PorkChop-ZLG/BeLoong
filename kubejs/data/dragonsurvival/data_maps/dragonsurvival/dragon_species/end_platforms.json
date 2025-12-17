@@ -2,17 +2,17 @@
   "values": {
     "dragonsurvival:cave_dragon": {
       "spawn_position": [
-        -200,
+        0,
         50,
-        0
+        200
       ],
       "structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
     },
     "dragonsurvival:forest_dragon": {
       "spawn_position": [
-        0,
+        200,
         50,
-        -200
+        0
       ],
       "structure": "dragonsurvival:end_spawn_platforms/forest_end_spawn_platform"
     },
@@ -20,13 +20,13 @@
       "spawn_position": [
         0,
         50,
-        200
+        -200
       ],
       "structure": "dragonsurvival:end_spawn_platforms/sea_end_spawn_platform"
     },
     "dragonsurvival:tundra_dragon": {
       "spawn_position": [
-        200,
+        -200,
         50,
         0
       ],
@@ -34,7 +34,7 @@
     },
     "dragonsurvival:tundra_dragon_human": {
       "spawn_position": [
-        200,
+        -200,
         50,
         0
       ],
@@ -42,27 +42,43 @@
     },
     "dragonsurvival:aether_dragon": {
       "spawn_position": [
-        100,
-        200,
-        0
+        150,
+        50,
+        150
       ],
       "structure": "dragonsurvival:end_spawn_platforms/aether_end_spawn_platform"
     },
     "dragonsurvival:aether_dragon_human": {
       "spawn_position": [
-        100,
-        200,
-        0
+        150,
+        50,
+        150
       ],
       "structure": "dragonsurvival:end_spawn_platforms/aether_end_spawn_platform"
     },
     "dragonsurvival:astral_dragon": {
       "spawn_position": [
-        150,
+        -150,
+        50,
+        -150
+      ],
+      "structure": "dragonsurvival:end_spawn_platforms/astral_end_spawn_platform"
+    },
+    "dragonsurvival:crystcursed_dragon": {
+      "spawn_position": [
+        -150,
         50,
         150
       ],
-      "structure": "dragonsurvival:end_spawn_platforms/astral_end_spawn_platform"
+      "structure": "dragonsurvival:end_spawn_platforms/crystcursed_end_spawn_platform"
+    },
+    "dragonsurvival:wing_kirin": {
+      "spawn_position": [
+        0,
+        200,
+        100
+      ],
+      "structure": "dragonsurvival:end_spawn_platforms/wing_kirin_end_spawn_platform"
     }
   }
 }
