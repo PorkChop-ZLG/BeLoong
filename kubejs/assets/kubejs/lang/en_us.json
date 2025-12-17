@@ -72,6 +72,9 @@
   "dragon_stage.dragonsurvival.crystcursed_ancient": "Ancient",
   "dragon_stage.dragonsurvival.crystcursed_archean": "Archean",
   "dragon_stage.dragonsurvival.crystcursed_progenitor": "Progenitor",
+  "dragon_stage.dragonsurvival.kirin_ancient": "Ancient Kirin",
+  "dragon_stage.dragonsurvival.kirin_archean": "Archean Kirin",
+  "dragon_stage.dragonsurvival.kirin_progenitor": "Progenitor Kirin",
 
 	"dragon_ability.dragonsurvival.behuman": "Human",
 	"dragon_ability.dragonsurvival.behuman.desc": "■ When the Aether Dragon reaches the Ancient stage, it can transform into a human form.\n\n■ Human form retains draconic abilities without any item restrictions.§r",

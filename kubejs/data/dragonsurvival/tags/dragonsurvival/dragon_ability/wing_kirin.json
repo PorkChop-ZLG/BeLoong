@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        "dragonsurvival:stasis_hex",
+        "dragonsurvival:uppersky_wind_breath",
+        "dragonsurvival:weather_clear",
+        "dragonsurvival:empyrean_wine",
+        "dragonsurvival:thunderous_shout",
+        "dragonsurvival:scale_down",
+        "dragonsurvival:fall_like_meteorite",
+        "dragonsurvival:empyrean_magic",
+        "dragonsurvival:good_overcome_evil",
+        "dragonsurvival:born_above_empyrean",
+        "dragonsurvival:fly_higher",
+        "dragonsurvival:kirin_wing",
+        "dragonsurvival:cloudy_spin",
+        "dragonsurvival:wing_kirin_claws_and_teeth",
+        "dragonsurvival:lighter_than_swallow",
+        "dragonsurvival:empyrean_favor",
+        "dragonsurvival:sonic_boom_immunity",
+        "dragonsurvival:sonic_boom_upgrade",
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller"
+    ]
+}

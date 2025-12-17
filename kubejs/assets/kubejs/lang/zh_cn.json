@@ -72,6 +72,9 @@
   "dragon_stage.dragonsurvival.crystcursed_ancient": "远古龙",
   "dragon_stage.dragonsurvival.crystcursed_archean": "太古龙",
   "dragon_stage.dragonsurvival.crystcursed_progenitor": "始祖龙",
+  "dragon_stage.dragonsurvival.kirin_ancient": "远古麒麟",
+  "dragon_stage.dragonsurvival.kirin_archean": "太古麒麟",
+  "dragon_stage.dragonsurvival.kirin_progenitor": "始祖麒麟",
 
   "dragon_ability.dragonsurvival.behuman": "化形",
   "dragon_ability.dragonsurvival.behuman.desc": "■ 以太龙修炼到远古阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但没有物品限制。§r",
