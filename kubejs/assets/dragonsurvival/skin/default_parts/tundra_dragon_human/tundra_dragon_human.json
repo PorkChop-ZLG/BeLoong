@@ -1,0 +1,8 @@
+{
+  "species": "dragonsurvival:tundra_dragon_human",
+  "stage": "dragonsurvival:tundra_human",
+  "model": "dragonsurvival:liebel",
+  "parts": {
+    "base": "tundra_skin"
+  }
+}

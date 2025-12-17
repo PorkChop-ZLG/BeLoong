@@ -1,0 +1,39 @@
+{
+  "unlockable_behavior": {
+    "visibility": "always_hidden"
+  },
+  "abilities": "#dragonsurvival:tundra_dragon",
+   "bodies": ["dragonsurvival:tundra_body_human"],
+  "custom_stage_progression": ["dragonsurvival:tundra_human"],
+  "misc_resources": {
+    "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/tundra/cast_bar.png",
+    "altar_banner": "dragonsurvival:textures/gui/custom/altar/tundra/altar_icon.png",
+    "claw_texture_slot": "shovel",
+    "food_sprites": "dragonsurvival:textures/gui/custom/food_icons/tundra_food_icons.png",
+    "food_tooltip": {
+      "nutrition_icon": "\\uEA03",
+      "saturation_icon": "\\uEA06"
+    },
+    "growth_crystal": {
+      "empty": "dragonsurvival:textures/gui/custom/stage/tundra/point_main.png",
+      "full": "dragonsurvival:textures/gui/custom/stage/tundra/point_hover.png"
+    },
+    "growth_left_arrow": {
+      "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/left_arrow_hover.png",
+      "icon": "dragonsurvival:textures/gui/custom/stage/tundra/left_arrow_main.png"
+    },
+    "growth_right_arrow": {
+      "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/right_arrow_hover.png",
+      "icon": "dragonsurvival:textures/gui/custom/stage/tundra/right_arrow_main.png"
+    },
+    "mana_sprites": {
+      "empty": "dragonsurvival:textures/gui/custom/mana_icons/tundra/empty.png",
+      "full": "dragonsurvival:textures/gui/custom/mana_icons/tundra/full.png",
+      "recovery": "dragonsurvival:textures/gui/custom/mana_icons/tundra/recovery.png",
+      "reserved": "dragonsurvival:textures/gui/custom/mana_icons/tundra/reserved.png"
+    },
+    "primary_color": "#AAE0E0",
+    "secondary_color": "#84A8A8"
+  },
+  "penalties": "#dragonsurvival:tundra_dragon_human"
+}

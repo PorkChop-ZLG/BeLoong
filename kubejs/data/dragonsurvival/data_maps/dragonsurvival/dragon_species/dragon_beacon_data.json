@@ -88,6 +88,22 @@
         "experience_cost": 60
       }
     },
+    "dragonsurvival:tundra_dragon_human": {
+      "effects": [
+        {
+          "duration": 400,
+          "effect": "tundradragon:supercooling"
+        },
+        {
+          "duration": 400,
+          "effect": "minecraft:strength"
+        }
+      ],
+      "payment_data": {
+        "duration_multiplier": 30,
+        "experience_cost": 60
+      }
+    },
     "dragonsurvival:aether_dragon": {
       "effects": [
         {

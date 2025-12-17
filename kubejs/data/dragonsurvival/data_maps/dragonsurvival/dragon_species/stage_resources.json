@@ -288,6 +288,18 @@
         }
       }
     },
+    "dragonsurvival:tundra_dragon_human": {
+      "dragonsurvival:tundra_human": {
+        "default_skin": {
+          "glow_skin": "dragonsurvival:textures/dragon/tundra_human/liebel_tundra_glow.png",
+          "skin": "dragonsurvival:textures/dragon/tundra_human/liebel_tundra.png"
+        },
+        "growth_icon": {
+          "hover_icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_hover.png",
+          "icon": "dragonsurvival:textures/gui/custom/stage/tundra/ancient_stage_main.png"
+        }
+      }
+    },
     "dragonsurvival:aether_dragon": {
       "dragonsurvival:aether_progenitor": {
         "default_skin": {
