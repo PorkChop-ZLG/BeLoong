@@ -45,6 +45,8 @@ config/**
 
 !config/artifacts/
 !config/artifacts/**
+!config/asyncparticles/
+!config/asyncparticles/**
 !config/fancymenu/
 !config/fancymenu/**
 !config/ftbquests/
@@ -88,6 +90,10 @@ config/**
 !config/DistantHorizons.toml
 !config/dragonsurvival-client.toml
 !config/dragonsurvival-server.toml
+!config/entity_model_features.json
+!config/entity_texture_features.json
+!config/entity_tracker-client.toml
+!config/entityculling.json
 !config/eternal_starlight.json
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
