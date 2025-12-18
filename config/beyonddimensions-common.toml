@@ -36,4 +36,4 @@ interface_can_pop_resource = true
 # Range: 1 ~ 27
 interface_usable_capacity = 27
 #是否与JEI或EMI同步搜索
-search_text_with_jei_emi = true
+search_text_with_jei_emi = false

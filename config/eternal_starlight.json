@@ -46,17 +46,17 @@
       "canSpawn": true
     },
     "creteor": {
-      "maxHealth": 15.0,
+      "maxHealth": 100.0,
       "armor": 0.0,
-      "attackDamage": 5.0,
+      "attackDamage": 40.0,
       "followRange": 64.0,
       "canSpawn": true,
-      "spawnChance": 1.0
+      "spawnChance": 0.5
     },
     "tinyCreteor": {
-      "maxHealth": 5.0,
+      "maxHealth": 50.0,
       "armor": 0.0,
-      "attackDamage": 2.0,
+      "attackDamage": 20.0,
       "followRange": 48.0,
       "canSpawn": true
     },
