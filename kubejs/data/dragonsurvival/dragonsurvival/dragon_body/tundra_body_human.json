@@ -27,11 +27,6 @@
       "amount": 2.0,
       "attribute": "dragonsurvival:mana",
       "operation": "add_value"
-    },
-    {
-      "amount": -0.1,
-      "attribute": "minecraft:generic.scale",
-      "operation": "add_value"
     }
   ],
   "texture_size":
@@ -57,8 +52,8 @@
     ]
   },
   "scaling_proportions": {
-    "eye_height": 1.80,
-    "height": 2.0,
+    "eye_height": 1.60,
+    "height": 1.8,
     "width": 0.6,
     "scale_multiplier": 0,
     "shadow_multiplier": 0
