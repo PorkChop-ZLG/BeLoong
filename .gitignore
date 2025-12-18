@@ -45,8 +45,6 @@ config/**
 
 !config/artifacts/
 !config/artifacts/**
-!config/asyncparticles/
-!config/asyncparticles/**
 !config/fancymenu/
 !config/fancymenu/**
 !config/ftbquests/
