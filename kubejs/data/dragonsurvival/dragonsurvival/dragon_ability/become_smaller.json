@@ -17,29 +17,29 @@
                     {
                       "amount": {
                         "type": "minecraft:linear",
-                        "base": -0.05,
-                        "per_level_above_first": -0.05
+                        "base": -0.0625,
+                        "per_level_above_first": -0.0625
                       },
                       "attribute": "minecraft:generic.scale",
-                      "operation": "add_multiplied_base"
+                      "operation": "add_multiplied_total"
                     },
                     {
                       "amount": {
                         "type": "minecraft:linear",
-                        "base": -0.05,
-                        "per_level_above_first": -0.05
+                        "base": -0.0625,
+                        "per_level_above_first": -0.0625
                       },
                       "attribute": "minecraft:player.block_interaction_range",
-                      "operation": "add_multiplied_base"
+                      "operation": "add_multiplied_total"
                     },
                     {
                       "amount": {
                         "type": "minecraft:linear",
-                        "base": -0.05,
-                        "per_level_above_first": -0.05
+                        "base": -0.0625,
+                        "per_level_above_first": -0.0625
                       },
                       "attribute": "minecraft:player.entity_interaction_range",
-                      "operation": "add_multiplied_base"
+                      "operation": "add_multiplied_total"
                     }
                   ]
                 }
@@ -101,6 +101,14 @@
       {
         "from_level": 10,
         "texture_resource": "dragonsurvival:abilities/unclaimed/become_smaller_1"
+      },
+      {
+        "from_level": 11,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/become_smaller_1"
+      },
+      {
+        "from_level": 12,
+        "texture_resource": "dragonsurvival:abilities/unclaimed/become_smaller_1"
       }
     ]
   },
@@ -110,7 +118,7 @@
       "base": 1.0,
       "per_level_above_first": 1.0
     },
-    "maximum_level": 10,
+    "maximum_level": 12,
     "upgrade_type": "dragonsurvival:experience_points"
   }
 }
