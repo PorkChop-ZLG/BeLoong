@@ -2217,6 +2217,7 @@
 			}
 		},
 		"sit": {
+			"loop": "hold_on_last_frame",
 			"animation_length": 20,
 			"bones": {
 				"wb9": {
@@ -9441,6 +9442,7 @@
 			}
 		},
 		"dig": {
+			"loop": true,
 			"animation_length": 0.375,
 			"bones": {
 				"RightArm": {
@@ -9468,6 +9470,7 @@
 			}
 		},
 		"bite": {
+			"loop": true,
 			"animation_length": 0.375,
 			"bones": {
 				"RightArm": {
@@ -11603,6 +11606,7 @@
 			}
 		},
 		"sleep_left": {
+			"loop": "hold_on_last_frame",
 			"animation_length": 0.375,
 			"bones": {
 				"Root": {
