@@ -1,19 +1,20 @@
 {
   "values": [
     "dragonsurvival:frigid_breath",
-    "dragonsurvival:ice_immunity",
-    "dragonsurvival:tundra_athletics",
-    "dragonsurvival:snow_sense",
     "dragonsurvival:shatter",
     "dragonsurvival:icicle",
-    "dragonsurvival:tundra_claws_and_teeth",
+    "dragonsurvival:be_tundra_human",
     "dragonsurvival:precise_hearing",
     "dragonsurvival:blizzard",
     "dragonsurvival:tundra_magic",
+    "dragonsurvival:tundra_athletics",
     "dragonsurvival:thick_ice",
-    "dragonsurvival:tundra_spin",
     "dragonsurvival:snowdrift",
+    "dragonsurvival:ice_immunity",
+    "dragonsurvival:snow_sense",
+    "dragonsurvival:tundra_claws_and_teeth",
     "dragonsurvival:tundra_wings",
+    "dragonsurvival:tundra_spin",
 		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"
   ]

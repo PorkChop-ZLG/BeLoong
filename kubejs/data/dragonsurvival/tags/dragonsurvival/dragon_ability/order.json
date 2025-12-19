@@ -1,5 +1,23 @@
 {
-  "values": [
+	"values": [
+		"dragonsurvival:frigid_breath",
+		"dragonsurvival:shatter",
+		"dragonsurvival:icicle",
+		"dragonsurvival:be_tundra_human",
+		"dragonsurvival:precise_hearing",
+		"dragonsurvival:blizzard",
+		"dragonsurvival:tundra_magic",
+		"dragonsurvival:tundra_athletics",
+		"dragonsurvival:thick_ice",
+		"dragonsurvival:snowdrift",
+		"dragonsurvival:ice_immunity",
+		"dragonsurvival:snow_sense",
+		"dragonsurvival:tundra_claws_and_teeth",
+		"dragonsurvival:tundra_wings",
+		"dragonsurvival:tundra_spin",
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller",
+
 		"dragonsurvival:wind_breath",
 		"dragonsurvival:typhoon",
 		"dragonsurvival:levitation",
@@ -15,6 +33,9 @@
 		"dragonsurvival:aether_immunity",
 		"dragonsurvival:aether_claws_and_teeth",
 		"dragonsurvival:feather_falling",
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller",
+
 		"dragonsurvival:passive_recharge",
 		"dragonsurvival:astral_wings",
 		"dragonsurvival:astral_spin",
@@ -27,8 +48,6 @@
 		"dragonsurvival:energy_siphon",
 		"dragonsurvival:wyrmhole",
 		"dragonsurvival:become_bigger",
-		"dragonsurvival:become_smaller",
-		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"
-  ]
+	]
 }

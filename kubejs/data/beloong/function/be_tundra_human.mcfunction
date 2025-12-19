@@ -1,0 +1,2 @@
+execute if data entity @s {"neoforge:attachments":{"dragonsurvival:dragon_handler":{dragon_species:"dragonsurvival:tundra_dragon"}}} run return run function beloong:be_tundra_human_behuman
+execute if data entity @s {"neoforge:attachments":{"dragonsurvival:dragon_handler":{dragon_species:"dragonsurvival:tundra_dragon_human"}}} run return run function beloong:be_tundra_human_beloong
