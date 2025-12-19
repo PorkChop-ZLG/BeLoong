@@ -1,7 +1,7 @@
 {
   "key": "aether_base_human",
   "texture": "dragonsurvival:textures/dragon/aether_human/qinglong.png",
-  "average_hue": 0.8920146636914249,
+  "average_hue": 0.5624048461720974,
   "applicable_species": [
     "dragonsurvival:aether_dragon_human"
   ],
