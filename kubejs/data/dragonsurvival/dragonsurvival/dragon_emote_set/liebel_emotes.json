@@ -1,42 +1,42 @@
 {
   "emotes": [
     {
-      "animation_key": "create_skyhook_riding",
+      "animation_key": "extra_0",
       "blend": true,
       "can_move": true
     },
     {
-      "animation_key": "sit",
+      "animation_key": "extra_1",
       "can_move": true,
       "loops": true
     },
-	 {
-      "animation_key": "vibing_standing",
+    {
+      "animation_key": "extra_2",
       "can_move": true,
       "loops": true
     },
-	 {
-      "animation_key": "idle_fly",
+    {
+      "animation_key": "extra_3",
       "can_move": true,
       "loops": true
     },
-	 {
-      "animation_key": "sleep",
+    {
+      "animation_key": "extra_4",
       "can_move": true,
       "loops": true
     },
-	 {
-      "animation_key": "sleep_left",
+    {
+      "animation_key": "extra_5",
       "can_move": true,
       "loops": true
     },
-	 {
-      "animation_key": "shy_sitting",
+    {
+      "animation_key": "extra_6",
       "can_move": true,
       "loops": true
     },
-	 {
-      "animation_key": "sit_dentist",
+    {
+      "animation_key": "extra_7",
       "can_move": true,
       "loops": true
     }
