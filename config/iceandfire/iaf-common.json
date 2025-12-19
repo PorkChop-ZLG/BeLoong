@@ -127,7 +127,8 @@
   "ghost": {
     "maxHealth": 40.0,
     "attackDamage": 2.0,
-    "fromPlayerDeaths": true
+    "fromPlayerDeaths": true,
+    "alwaysSpawnFromChest": false
   },
   "tools": {
     "dragonFireAbility": true,
