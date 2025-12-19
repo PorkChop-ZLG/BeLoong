@@ -18746,6 +18746,25 @@
 					]
 				},
 				{
+					"name": "BackpackBone",
+					"parent": "UpperBody",
+					"pivot": [0, 16, 12],
+					"cubes": [
+						{
+							"origin": [0.1, 16, 6],
+							"size": [0.9, 0.9, 0.9],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 0]},
+								"east": {"uv": [0, 0], "uv_size": [0, 0]},
+								"south": {"uv": [0, 0], "uv_size": [0, 0]},
+								"west": {"uv": [0, 0], "uv_size": [0, 0]},
+								"up": {"uv": [0, 0], "uv_size": [0, 0]},
+								"down": {"uv": [0, 0], "uv_size": [0, 0]}
+							}
+						}
+					]
+				},
+				{
 					"name": "commonsuit",
 					"parent": "UpperBody",
 					"pivot": [1.27279, 20.60566, 4.00165],
