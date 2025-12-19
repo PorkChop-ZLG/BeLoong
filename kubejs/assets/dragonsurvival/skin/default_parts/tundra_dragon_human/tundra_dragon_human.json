@@ -3,6 +3,12 @@
   "stage": "dragonsurvival:tundra_human",
   "model": "dragonsurvival:liebel",
   "parts": {
-    "base": "tundra_skin"
+    "base": "tundra_skin",
+    "horns": "liebel_horns",
+    "extra": "liebel_wings_tundra",
+    "extra1": "liebel_tail_tundra",
+    "extra2": "liebel_hat_tundra",
+    "extra3": "liebel_hairpin_tundra",
+    "extra4": "liebel_book_tundra"
   }
 }
