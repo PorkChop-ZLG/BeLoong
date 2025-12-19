@@ -119,7 +119,6 @@
   "skin_part.dragonsurvival.aether_dragon_human.qinglong_eyes_highlight": "眼部高光",
   "skin_part.dragonsurvival.aether_dragon_human.none": "",
   
-  
   "skin_part.dragonsurvival.tundra_dragon_human.tundra_skin": "苔原龙娘",
   "skin_part.dragonsurvival.tundra_dragon_human.librarian_skin": "图书管理员",
   "skin_part.dragonsurvival.tundra_dragon_human.jk_skin": "jk校服",
@@ -166,6 +165,7 @@
 
   "tag.item.c.jades": "玉",
 
+  "message.kubejs.banned_item": "该物品已被封禁: ",
   "message.kubejs.back": "输入 /back 返回上次死亡的地方",
   "message.kubejs.starter_hut": "新手小屋已生成，欢迎回家。",
   "message.kubejs.longyin_pavilion": "龙吟阁已生成，欢迎回家。",

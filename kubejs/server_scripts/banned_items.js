@@ -18,10 +18,9 @@ PlayerEvents.inventoryChanged(event => {
     const inventory = player.inventory.items;
     // 处理禁用物品
     if (bannedItems.includes(changedItem.id)) {
-        event.server.tell([
-            Text.darkRed("[警告] ").bold(),
-            Text.gold(changedItem.id).bold(),
-            Text.gray("这件物品已被禁用")
+        event.player.tell([
+            Text.translatable("message.kubejs.banned_item").darkRed().bold(),
+            Text.gold(changedItem.id)
         ]);
         // 移除物品
         for (let i = 0; i < inventory.length; i++) {
