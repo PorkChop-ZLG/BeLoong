@@ -101,8 +101,16 @@ config/**
 !config/ftbxmodcompat.snbt
 !config/irons_spellbooks-client.toml
 !config/irons_spellbooks-server.toml
+!config/MobCatcher.toml
 !config/mowziesmobs-client.toml
 !config/mowziesmobs-common.toml
+!config/mystias_izakaya-client.toml
+!config/mystias_izakaya-common.toml
+!config/nanny-server.toml
+!config/naturescompass-client.toml
+!config/naturescompass-common.toml
+!config/netherdepthsupgrade-common.toml
+!config/netmusic-common.toml
 !config/sweeper-common.toml
 !config/terra_curio-client.toml
 !config/terra_curio-common.toml

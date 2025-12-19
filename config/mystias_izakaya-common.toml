@@ -1,0 +1,35 @@
+#Set to true to enable debug info
+#设置为true以启用调试信息
+debug = true
+#The maximum number of turnovers to store
+#要存储的最大流水次数
+# Default: 10
+# Range: > 0
+max_overturn = 10
+#Set to true to enable put any ingredients in kitchenware
+#设置为true以允许厨具放入任何食材
+enable_all_ingredients = false
+#Set to true to enable put any cuisines in table
+#设置为true以允许餐桌放入任何料理
+enable_all_cuisines = false
+#Set to true to enable put any beverages in table
+#设置为true以允许餐桌放入任何饮品
+enable_all_beverages = false
+#The probability of refreshing the order
+#每次尝试刷新订单的概率
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+order_refresh_probability = 0.1
+#The interval of refreshing the order(tick)
+#尝试刷新订单的间隔(游戏刻)
+# Default: 100
+# Range: > 0
+order_refresh_interval = 100
+#The cooldown time for the telephone(tick)
+#电话的冷却时间(刻)
+# Default: 12000
+# Range: > 0
+tele_cooldown = 12000
+#Set to true to enable table menu
+#设置为true以启用餐桌菜单
+enable_table_menu = true
