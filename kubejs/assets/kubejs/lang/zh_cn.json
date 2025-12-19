@@ -59,6 +59,7 @@
   "dragon_stage.dragonsurvival.sea_ancient": "远古龙",
   "dragon_stage.dragonsurvival.sea_archean": "太古龙",
   "dragon_stage.dragonsurvival.sea_progenitor": "始祖龙",
+  "dragon_stage.dragonsurvival.tundra_human": "化形",
   "dragon_stage.dragonsurvival.tundra_ancient": "远古龙",
   "dragon_stage.dragonsurvival.tundra_archean": "太古龙",
   "dragon_stage.dragonsurvival.tundra_progenitor": "始祖龙",
@@ -76,6 +77,8 @@
   "dragon_stage.dragonsurvival.kirin_archean": "太古麒麟",
   "dragon_stage.dragonsurvival.kirin_progenitor": "始祖麒麟",
 
+  "dragon_ability.dragonsurvival.be_tundra_human": "化形",
+  "dragon_ability.dragonsurvival.be_tundra_human.desc": "■ 苔原龙修炼到远古阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但没有物品限制。§r",
   "dragon_ability.dragonsurvival.behuman": "化形",
   "dragon_ability.dragonsurvival.behuman.desc": "■ 以太龙修炼到远古阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但没有物品限制。§r",
   "dragon_ability.dragonsurvival.become_bigger": "变大",
@@ -84,9 +87,22 @@
   "dragon_ability.dragonsurvival.become_smaller.desc": "■ 升级此技能可§2缩小§r§7你的体型。\n\n■ 同时§2减少§r§7实体和方块交互距离。§r",
   "dragon_ability.dragonsurvival.wind_breath": "微风之息",
   "dragon_ability.dragonsurvival.wind_breath.desc": "■ 以太龙吞云吐雾，呼出轻柔的微风。\n\n■ 微风可§2清除杂草§7，亦可为友方§2加速§7。§r\n\n■ 吐息的§2伤害较低§7，但是§2不消耗魔力§7。§r",
+
   "dragon_species.dragonsurvival.aether_dragon.banner.desc": "§7■ §6以太龙§r§7是§f迅捷§r§7、§f灵巧§r§7而优雅的生物，身躯可划破§f云海与波涛§r§7。\n\n§2■ 特性：§f§r§7高机动性、气象与气流魔法、水下呼吸增益、坠落免疫。\n§4■ 弱点：§r§7地底深处。\n§6■ 食谱：§f§r§7动物制品。§r",
   "dragon_species.dragonsurvival.aether_dragon_human": "青龙",
-  "dragon_species.dragonsurvival.aether_dragon_human.banner.desc": "§7■ §6青龙§r§7是以太龙化形后的人身§r§7。\n\n§2■ 特性：§f§r§7高机动性、气象与气流魔法、水下呼吸增益、坠落免疫。\n§4■ 弱点：§r§7地底深处。\n§6■ 食谱：§f§r§7动物制品。§r",
+  "dragon_species.dragonsurvival.aether_dragon_human.alter.desc": "§7■ §6青龙§r§7是以太龙化形后的人身§r§7。\n\n§2■ 特性：§f§r§7高机动性、气象与气流魔法、水下呼吸增益、坠落免疫。\n§4■ 弱点：§r§7地底深处。\n§6■ 食谱：§f§r§7动物制品。§r",
+  "dragon_species.dragonsurvival.aether_dragon_human.banner.desc": "§7■ §6青龙§r§7是以太龙化形后的人身§r§7。\n\n§2■ 特性：§f§r§7高机动性、气象与气流魔法、水下呼吸增益、坠落免疫。\n§4■ 弱点：§r§7地底深处。§r",
+  "dragon_species.dragonsurvival.tundra_dragon_human": "莉贝尔",
+  "dragon_species.dragonsurvival.tundra_dragon_human.alter.desc": "§7■ §6莉贝尔§r§7是苔原龙化形后的人身§r§7，凭借寒冰之力§f牵制§r§7与§f摧毁§r§7敌人。\n\n§2■ 特性:§r§7 锐利爪牙、冰系魔法、雪地移速增加。\n§4■ 弱点:§r§7 骨质疏松。\n§6■ 食谱:§r %s",
+  "dragon_species.dragonsurvival.tundra_dragon_human.banner.desc": "§7■ §6莉贝尔§r§7是苔原龙化形后的人身§r§7，凭借寒冰之力§f牵制§r§7与§f摧毁§r§7敌人。\n\n§2■ 特性:§r§7 锐利爪牙、冰系魔法、雪地移速增加。\n§4■ 弱点:§r§7 骨质疏松。§r",
+
+  "dragon_body.dragonsurvival.aether_body_human": "青龙",
+  "dragon_body.dragonsurvival.aether_body_human.desc": "§6■ 青龙§r\n§7■ 以太龙化形为人的躯体，挣脱了诸多枷锁，又保留了龙族的法力。",
+  "dragon_body.dragonsurvival.tundra_body_human": "莉贝尔",
+  "dragon_body.dragonsurvival.tundra_body_human.desc": "§6■ 莉贝尔§r\n§7■ 苔原龙化形为人的躯体，挣脱了诸多枷锁，又保留了龙族的法力。",
+
+  "dragon_emote.dragonsurvival.create_skyhook_riding": "§6交流：§r打招呼",
+  
   "skin_part.dragonsurvival.aether_dragon_human.aether_base_human": "青龙皮肤",
   "skin_part.dragonsurvival.aether_dragon_human.qinglong_skirt": "青龙裙子",
   "skin_part.dragonsurvival.aether_dragon_human.qinglong_eyes": "青龙眼",
@@ -102,9 +118,10 @@
   "skin_part.dragonsurvival.aether_dragon_human.qinglong_eyes_pupil": "瞳孔",
   "skin_part.dragonsurvival.aether_dragon_human.qinglong_eyes_highlight": "眼部高光",
   "skin_part.dragonsurvival.aether_dragon_human.none": "",
-  "dragon_body.dragonsurvival.aether_body_human": "青龙人躯",
-  "dragon_body.dragonsurvival.aether_body_human.desc": "§6■ 青龙人躯§r\n§7■ 青龙是真正的御风者：幻化出的翅膀赋予陆地、水域与空中的超高机动性，§f飞行时消耗更少饥饿值§r§7、§f飞行更快§r§7且§f跳跃更高§r§7。代价是战斗时较为脆弱，物理攻击、生命值与防御力较低。",
-  "dragon_emote.dragonsurvival.create_skyhook_riding": "§6交流：§r打招呼",
+  
+  
+  "skin_part.dragonsurvival.tundra_dragon_human.tundra_skin": "苔原龙娘",
+  "skin_part.dragonsurvival.tundra_dragon_human.none": "",
 
   "item.kubejs.tundra_icon": "苔原龙图标",
   "item.kubejs.tundra_full_icon": "苔原龙完整图标",
