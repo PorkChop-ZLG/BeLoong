@@ -1,0 +1,11 @@
+{
+  "key": "liebel_tail_tundra",
+  "texture": "dragonsurvival:textures/dragon/custom/liebel_tail_tundra.png",
+  "average_hue": 0.1049432540847254,
+  "applicable_species": [
+    "dragonsurvival:tundra_dragon_human"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:tundra_body_human"
+  ]
+}
