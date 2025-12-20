@@ -1,0 +1,101 @@
+[advanced_infuser]
+	#Can the enchanting infuser repair items using levels in addition to enchanting.
+	#Default Value: TOOLS_AND_ARMOR
+	#Allowed Values: EVERYTHING, TOOLS_AND_ARMOR, NOTHING
+	allow_repairing = "EVERYTHING"
+	#Allow enchantments on an already enchanted item to be increased / removed.
+	#Default Value: ALL
+	#Allowed Values: UNENCHANTED, ALL, FULL_DURABILITY
+	allow_modifying_enchantments = "ALL"
+	#How many bookshelves you need around the infuser to be able to apply maximum level enchantments.
+	#Filling in corners is important to reach higher values.
+	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
+	#This value will be fixed at 50 when Apotheosis is installed.
+	#Default Value: 15
+	# Default: 15
+	# Range: > 0
+	maximum_bookshelves = 15
+	#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
+	#Default Value: true
+	allow_anvil_enchantments = true
+	#Working an item in an infuser increases the prior work penalty stat used by anvils for that item, meaning future anvil repairs will become more expensive, possibly even too expensive.
+	#Default Value: false
+	increase_anvil_repair_cost = false
+	#Allow books to be enchanted in an infuser.
+	#Default Value: true
+	allow_books = true
+
+	[advanced_infuser.repair]
+		#Cost multiplier in levels for each repair step, result will be rounded up.
+		#Default Value: 2.0
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		repair_step_multiplier = 2.0
+		#How many percentage points of an items total durability a single repair will restore.
+		#Default Value: 0.25
+		# Default: 0.25
+		# Range: 0.1 ~ 1.0
+		repair_percentage_step = 0.25
+
+	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
+	#Cost multipliers mainly control how this maximum cost will be spread out between enchantments of different rarities.
+	[advanced_infuser.costs]
+		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
+		#Default Value: true
+		scale_costs_by_vanilla_only = false
+		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
+		#Default Value: 30
+		# Default: 30
+		# Range: > 1
+		maximum_cost = 30
+
+[normal_infuser]
+	#Can the enchanting infuser repair items using levels in addition to enchanting.
+	#Default Value: NOTHING
+	#Allowed Values: EVERYTHING, TOOLS_AND_ARMOR, NOTHING
+	allow_repairing = "NOTHING"
+	#Allow enchantments on an already enchanted item to be increased / removed.
+	#Default Value: UNENCHANTED
+	#Allowed Values: UNENCHANTED, ALL, FULL_DURABILITY
+	allow_modifying_enchantments = "UNENCHANTED"
+	#How many bookshelves you need around the infuser to be able to apply maximum level enchantments.
+	#Filling in corners is important to reach higher values.
+	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
+	#This value will be fixed at 50 when Apotheosis is installed.
+	#Default Value: 15
+	# Default: 15
+	# Range: > 0
+	maximum_bookshelves = 15
+	#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
+	#Default Value: false
+	allow_anvil_enchantments = false
+	#Working an item in an infuser increases the prior work penalty stat used by anvils for that item, meaning future anvil repairs will become more expensive, possibly even too expensive.
+	#Default Value: false
+	increase_anvil_repair_cost = false
+	#Allow books to be enchanted in an infuser.
+	#Default Value: false
+	allow_books = false
+
+	[normal_infuser.repair]
+		#Cost multiplier in levels for each repair step, result will be rounded up.
+		#Default Value: 2.0
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		repair_step_multiplier = 2.0
+		#How many percentage points of an items total durability a single repair will restore.
+		#Default Value: 0.25
+		# Default: 0.25
+		# Range: 0.1 ~ 1.0
+		repair_percentage_step = 0.25
+
+	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
+	#Cost multipliers mainly control how this maximum cost will be spread out between enchantments of different rarities.
+	[normal_infuser.costs]
+		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
+		#Default Value: true
+		scale_costs_by_vanilla_only = true
+		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
+		#Default Value: 30
+		# Default: 30
+		# Range: > 1
+		maximum_cost = 30

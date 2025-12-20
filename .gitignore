@@ -88,6 +88,9 @@ config/**
 !config/DistantHorizons.toml
 !config/dragonsurvival-client.toml
 !config/dragonsurvival-server.toml
+!config/dummmmmmy-client.toml
+!config/dummmmmmy-common.toml
+!config/enchantinginfuser-server.toml
 !config/entity_model_features.json
 !config/entity_texture_features.json
 !config/entity_tracker-client.toml
@@ -108,6 +111,7 @@ config/**
 !config/jupiter.json
 !config/lootr-client.toml
 !config/lootr-common.toml
+!config/melodymagic-common.toml
 !config/MobCatcher.toml
 !config/mowziesmobs-client.toml
 !config/mowziesmobs-common.toml
