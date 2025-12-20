@@ -1,42 +1,47 @@
 {
   "emotes": [
     {
-      "animation_key": "extra_0",
+      "animation_key": "liebel_relax",
       "blend": true,
       "can_move": true
     },
     {
-      "animation_key": "extra_1",
+      "animation_key": "liebel_reading",
       "can_move": true,
       "loops": true
     },
     {
-      "animation_key": "extra_2",
+      "animation_key": "liebel_laugh",
       "can_move": true,
       "loops": true
     },
     {
-      "animation_key": "extra_3",
+      "animation_key": "liebel_hello",
       "can_move": true,
       "loops": true
     },
     {
-      "animation_key": "extra_4",
+      "animation_key": "liebel_clap",
       "can_move": true,
       "loops": true
     },
     {
-      "animation_key": "extra_5",
+      "animation_key": "liebel_yes",
       "can_move": true,
       "loops": true
     },
     {
-      "animation_key": "extra_6",
+      "animation_key": "liebel_no",
       "can_move": true,
       "loops": true
     },
     {
-      "animation_key": "extra_7",
+      "animation_key": "liebel_cheer",
+      "can_move": true,
+      "loops": true
+    },
+    {
+      "animation_key": "liebel_dance",
       "can_move": true,
       "loops": true
     }

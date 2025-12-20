@@ -101,6 +101,13 @@ config/**
 !config/ftbxmodcompat.snbt
 !config/irons_spellbooks-client.toml
 !config/irons_spellbooks-server.toml
+!config/jecharacters-client.toml
+!config/jecharacters-extra.json
+!config/jeed-client.toml
+!config/jei-server.toml
+!config/jupiter.json
+!config/lootr-client.toml
+!config/lootr-common.toml
 !config/MobCatcher.toml
 !config/mowziesmobs-client.toml
 !config/mowziesmobs-common.toml
