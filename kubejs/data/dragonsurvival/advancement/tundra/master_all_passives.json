@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:tundra/be_old_dragon",
+  "parent": "dragonsurvival:place_altar",
   "criteria": {
     "master_tundra_magic": {
       "conditions": {
@@ -36,7 +36,7 @@
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:powder_snow_bucket"
+      "id": "tundradragon:snowy_stew"
     },
     "title": {
       "translate": "dragonsurvival.advancement.tundra/master_all_passives"

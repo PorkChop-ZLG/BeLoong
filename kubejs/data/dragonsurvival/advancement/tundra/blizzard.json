@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:tundra/snow_sense",
+  "parent": "dragonsurvival:tundra/shatter",
   "criteria": {
     "porkchop": {
       "conditions": {

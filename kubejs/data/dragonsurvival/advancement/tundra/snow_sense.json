@@ -25,7 +25,7 @@
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:spyglass"
+      "id": "tundradragon:popsicle"
     },
     "title": {
       "translate": "dragonsurvival.advancement.tundra/snow_sense"

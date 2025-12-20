@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:place_altar",
+  "parent": "dragonsurvival:tundra/tundra_food",
   "criteria": {
     "be_tundra_dragon": {
       "conditions": {

@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:tundra/master_all_passives",
+  "parent": "dragonsurvival:tundra/snow_sense",
   "criteria": {
     "shatter": {
       "conditions": {
