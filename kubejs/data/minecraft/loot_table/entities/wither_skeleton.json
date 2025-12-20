@@ -106,7 +106,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "iceandfire:witherbone"
+          "name": "iceandfire:wither_shard"
         }
       ],
       "rolls": 1.0
