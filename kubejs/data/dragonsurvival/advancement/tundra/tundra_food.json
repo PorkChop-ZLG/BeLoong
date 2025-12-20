@@ -1,0 +1,177 @@
+{
+  "parent": "dragonsurvival:tundra/blizzard",
+  "criteria": {
+    "consume_snowy_stew": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:snowy_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_tundra_dragon_treat": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:tundra_dragon_treat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_popsicle": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:popsicle"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_infused_ice_crystal": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:infused_ice_crystal"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_chilled_steak": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:chilled_steak"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_chilled_mutton": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:chilled_mutton"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_chilled_chicken": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:chilled_chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_chilled_rabbit": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:chilled_rabbit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_chilled_porkchop": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:chilled_porkchop"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_freezerburned_steak": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:freezerburned_steak"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_freezerburned_mutton": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:freezerburned_mutton"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_freezerburned_chicken": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:freezerburned_chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_freezerburned_rabbit": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:freezerburned_rabbit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_freezerburned_porkchop": {
+      "conditions": {
+        "item": {
+          "items": "tundradragon:freezerburned_porkchop"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.tundra/tundra_food.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tundradragon:tundra_dragon_treat"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.tundra/tundra_food"
+    }
+  },
+  "requirements": [
+    [
+      "consume_snowy_stew"
+    ],
+    [
+      "consume_tundra_dragon_treat"
+    ],
+    [
+      "consume_popsicle"
+    ],
+    [
+      "consume_infused_ice_crystal"
+    ],
+    [
+      "consume_chilled_steak"
+    ],
+    [
+      "consume_chilled_mutton"
+    ],
+    [
+      "consume_chilled_chicken"
+    ],
+    [
+      "consume_chilled_rabbit"
+    ],
+    [
+      "consume_chilled_porkchop"
+    ],
+    [
+      "consume_freezerburned_steak"
+    ],
+    [
+      "consume_freezerburned_mutton"
+    ],
+    [
+      "consume_freezerburned_chicken"
+    ],
+    [
+      "consume_freezerburned_rabbit"
+    ],
+    [
+      "consume_freezerburned_porkchop"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

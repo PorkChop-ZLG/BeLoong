@@ -1,0 +1,63 @@
+{
+  "parent": "dragonsurvival:tundra/be_old_dragon",
+  "criteria": {
+    "master_tundra_magic": {
+      "conditions": {
+        "ability": "dragonsurvival:tundra_magic",
+        "level": 10
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_tundra_athletics": {
+      "conditions": {
+        "ability": "dragonsurvival:tundra_athletics",
+        "level": 5
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_thick_ice": {
+      "conditions": {
+        "ability": "dragonsurvival:thick_ice",
+        "level": 6
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_snowdrift": {
+      "conditions": {
+        "ability": "dragonsurvival:snowdrift",
+        "level": 4
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.tundra/master_all_passives.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.tundra/master_all_passives"
+    }
+  },
+  "requirements": [
+    [
+      "master_tundra_magic"
+    ],
+    [
+      "master_tundra_athletics"
+    ],
+    [
+      "master_thick_ice"
+    ],
+    [
+      "master_snowdrift"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  },
+  "sends_telemetry_event": true
+}

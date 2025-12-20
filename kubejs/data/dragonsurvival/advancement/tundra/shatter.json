@@ -1,0 +1,32 @@
+{
+  "parent": "dragonsurvival:tundra/master_all_passives",
+  "criteria": {
+    "shatter": {
+      "conditions": {
+        "killing_blow": "dragonsurvival:shatter"
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.tundra/shatter.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tundradragon:infused_ice_crystal"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.tundra/shatter"
+    }
+  },
+  "requirements": [
+    [
+      "shatter"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

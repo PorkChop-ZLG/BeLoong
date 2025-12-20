@@ -1,0 +1,41 @@
+{
+  "parent": "dragonsurvival:tundra/snow_sense",
+  "criteria": {
+    "porkchop": {
+      "conditions": {
+        "item_from": "minecraft:porkchop",
+        "item_to": "tundradragon:chilled_porkchop"
+      },
+      "trigger": "dragonsurvival:convert_item_from_ability"
+    },
+    "cooked_porkchop": {
+      "conditions": {
+        "item_from": "minecraft:cooked_porkchop",
+        "item_to": "tundradragon:chilled_porkchop"
+      },
+      "trigger": "dragonsurvival:convert_item_from_ability"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.tundra/blizzard.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tundradragon:chilled_porkchop"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.tundra/blizzard"
+    }
+  },
+  "requirements": [
+    [
+      "porkchop",
+      "cooked_porkchop"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}
