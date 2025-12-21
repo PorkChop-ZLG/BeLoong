@@ -29,6 +29,7 @@
     "description": {
       "translate": "dragonsurvival.advancement.aether/be_progenitor_dragon.desc"
     },
+    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "ds_aether_addon:aetherdragonicon"
@@ -43,7 +44,7 @@
     ]
   ],
   "rewards": {
-    "experience": 120
+    "experience": 1200
   },
   "sends_telemetry_event": true
 }

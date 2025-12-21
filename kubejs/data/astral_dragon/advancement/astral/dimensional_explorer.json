@@ -1,0 +1,107 @@
+{
+  "parent": "astral_dragon:astral/teleport_once",
+  "criteria": {
+    "visit_overworld": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:astral_dragon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visit_nether": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:astral_dragon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "visit_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:astral_dragon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "astral_dragon.advancement.astral/dimensional_explorer.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "astral_dragon.advancement.astral/dimensional_explorer"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "visit_overworld"
+    ],
+    [
+      "visit_nether"
+    ],
+    [
+      "visit_end"
+    ]
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "parent": "astral_dragon:astral/be_dragon",
+  "criteria": {
+    "teleport_many_times": {
+	  "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:astral_dragon"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "astral_dragon:same_dimension_teleports",
+                    "value": 20
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "astral_dragon.advancement.astral/teleport_many_times.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "astral_dragon.advancement.astral/teleport_many_times"
+    }
+  },
+  "requirements": [
+	["teleport_many_times"]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}
