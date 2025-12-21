@@ -1,7 +1,7 @@
 {
-  "parent": "dragonsurvival:sea/be_adult",
+  "parent": "dragonsurvival:tundra/tundra_food",
   "criteria": {
-    "be_fully_grown_adult": {
+    "be_human": {
       "conditions": {
         "player": [
           {
@@ -10,13 +10,7 @@
             "predicate": {
               "type_specific": {
                 "type": "dragonsurvival:dragon_predicate",
-                "dragon_species": "dragonsurvival:sea_dragon",
-                "stage_specific": {
-                  "dragon_stage": "dragonsurvival:sea_ancient",
-                  "growth_percentage": {
-                    "min": 0.01
-                  }
-                }
+                "dragon_species": "dragonsurvival:tundra_dragon_human"
               }
             }
           }
@@ -27,23 +21,23 @@
   },
   "display": {
     "description": {
-      "translate": "dragonsurvival.advancement.sea/be_old_dragon.desc"
+      "translate": "dragonsurvival.advancement.tundra/be_human.desc"
     },
     "icon": {
       "count": 1,
-      "id": "dragonsurvival:sea_full_icon"
+      "id": "dragonsurvival:ice_dragon_altar"
     },
     "title": {
-      "translate": "dragonsurvival.advancement.sea/be_old_dragon"
+      "translate": "dragonsurvival.advancement.tundra/be_human"
     }
   },
   "requirements": [
     [
-      "be_fully_grown_adult"
+      "be_human"
     ]
   ],
   "rewards": {
-    "experience": 120
+    "experience": 12
   },
   "sends_telemetry_event": true
 }

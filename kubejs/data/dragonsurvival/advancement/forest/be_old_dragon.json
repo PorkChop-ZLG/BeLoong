@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:place_altar",
+  "parent": "dragonsurvival:forest/be_adult",
   "criteria": {
     "be_fully_grown_adult": {
       "conditions": {

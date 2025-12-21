@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:tundra/tundra_food",
+  "parent": "dragonsurvival:tundra/be_human",
   "criteria": {
     "be_tundra_dragon": {
       "conditions": {
