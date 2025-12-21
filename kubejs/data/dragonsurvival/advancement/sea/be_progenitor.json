@@ -12,10 +12,7 @@
                 "type": "dragonsurvival:dragon_predicate",
                 "dragon_species": "dragonsurvival:sea_dragon",
                 "stage_specific": {
-                  "dragon_stage": "dragonsurvival:sea_progenitor",
-                  "growth_percentage": {
-                    "min": 0.01
-                  }
+                  "dragon_stage": "dragonsurvival:sea_progenitor"
                 }
               }
             }

@@ -12,10 +12,7 @@
                 "type": "dragonsurvival:dragon_predicate",
                 "dragon_species": "dragonsurvival:tundra_dragon",
                 "stage_specific": {
-                  "dragon_stage": "dragonsurvival:tundra_archean",
-                  "growth_percentage": {
-                    "min": 0.01
-                  }
+                  "dragon_stage": "dragonsurvival:tundra_archean"
                 }
               }
             }
