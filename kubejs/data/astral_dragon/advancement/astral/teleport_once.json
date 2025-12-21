@@ -1,5 +1,5 @@
 {
-  "parent": "astral_dragon:astral/be_dragon",
+  "parent": "astral_dragon:astral/master_all_passives",
   "criteria": {
     "teleport_once": {
       "trigger": "minecraft:tick",

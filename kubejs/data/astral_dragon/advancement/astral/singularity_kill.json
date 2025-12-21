@@ -1,13 +1,13 @@
 {
-  "parent": "dragonsurvival:tundra/snow_sense",
+  "parent": "astral_dragon:astral/dimensional_explorer",
   "criteria": {
-    "shatter": {
+    "singularity_kill": {
       "conditions": {
         "killing_blow": {
           "tags": [
             {
               "expected": true,
-              "id": "dragonsurvival:is_shatter"
+              "id": "dragonsurvival:is_singularity"
             }
           ]
         }
@@ -17,19 +17,19 @@
   },
   "display": {
     "description": {
-      "translate": "dragonsurvival.advancement.tundra/shatter.desc"
+      "translate": "astral_dragon.advancement.astral/singularity_kill.desc"
     },
     "icon": {
       "count": 1,
-      "id": "tundradragon:infused_ice_crystal"
+      "id": "minecraft:end_crystal"
     },
     "title": {
-      "translate": "dragonsurvival.advancement.tundra/shatter"
+      "translate": "astral_dragon.advancement.astral/singularity_kill"
     }
   },
   "requirements": [
     [
-      "shatter"
+      "singularity_kill"
     ]
   ],
   "rewards": {

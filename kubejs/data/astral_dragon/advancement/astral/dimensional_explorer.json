@@ -1,5 +1,5 @@
 {
-  "parent": "astral_dragon:astral/teleport_once",
+  "parent": "astral_dragon:astral/teleport_many_times",
   "criteria": {
     "visit_overworld": {
       "trigger": "minecraft:location",
@@ -90,8 +90,7 @@
     },
     "title": {
       "translate": "astral_dragon.advancement.astral/dimensional_explorer"
-    },
-    "frame": "goal"
+    }
   },
   "requirements": [
     [

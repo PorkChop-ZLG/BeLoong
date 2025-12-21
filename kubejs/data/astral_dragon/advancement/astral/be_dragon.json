@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:place_altar",
+  "parent": "astral_dragon:astral/singularity_kill",
   "criteria": {
     "be_astral_dragon": {
       "conditions": {

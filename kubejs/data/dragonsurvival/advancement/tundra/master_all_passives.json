@@ -36,7 +36,10 @@
     },
     "icon": {
       "count": 1,
-      "id": "tundradragon:snowy_stew"
+      "id": "dragonsurvival:dragon_soul",
+      "components": {
+        "enchantment_glint_override": true
+      }
     },
     "title": {
       "translate": "dragonsurvival.advancement.tundra/master_all_passives"

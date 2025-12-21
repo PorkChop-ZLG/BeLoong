@@ -1,7 +1,7 @@
 {
-  "parent": "astral_dragon:astral/be_dragon",
+  "parent": "astral_dragon:astral/teleport_once",
   "criteria": {
-    "teleport_many_times": {
+    "teleport_20_times": {
 	  "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -48,7 +48,7 @@
     }
   },
   "requirements": [
-	["teleport_many_times"]
+	["teleport_20_times"]
   ],
   "rewards": {
     "experience": 120
