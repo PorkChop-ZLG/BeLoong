@@ -1,0 +1,75 @@
+{
+  "parent": "dragonsurvival:aether/skyland",
+  "criteria": {
+    "fly_8848": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 8848
+                  }
+                }
+              },
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:aether_dragon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fly_8848_human": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 8848
+                  }
+                }
+              },
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:aether_dragon_human"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.aether/fly_8848.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.aether/fly_8848"
+    }
+  },
+  "requirements": [
+    [
+      "fly_8848",
+      "fly_8848_human"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

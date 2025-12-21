@@ -1,0 +1,78 @@
+{
+  "parent": "dragonsurvival:aether/fly_8848",
+  "criteria": {
+    "consume_stuffedegg": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:stuffedegg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_chopfordragon": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:chopfordragon"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_zephyr": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:zephyr"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_stroganina": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:stroganina"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_mistral": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:mistral"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.aether/aether_food.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ds_aether_addon:relaxanttea"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.aether/aether_food"
+    }
+  },
+  "requirements": [
+    [
+      "consume_stuffedegg"
+    ],
+    [
+      "consume_chopfordragon"
+    ],
+    [
+      "consume_zephyr"
+    ],
+    [
+      "consume_stroganina"
+    ],
+    [
+      "consume_mistral"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

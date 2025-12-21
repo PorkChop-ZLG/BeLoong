@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:place_altar",
+  "parent": "dragonsurvival:aether/be_human",
   "criteria": {
     "be_aether_dragon": {
       "conditions": {

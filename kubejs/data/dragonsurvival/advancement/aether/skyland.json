@@ -1,0 +1,80 @@
+{
+  "parent": "dragonsurvival:aether/typhoon",
+  "criteria": {
+    "visit_cherryskyland": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ds_aether_addon:cherryskyland"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "visit_jungleskyland": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ds_aether_addon:jungleskyland"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "visit_taigaskyland": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ds_aether_addon:taigaskyland"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.aether/skyland.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:azalea"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.aether/skyland"
+    }
+  },
+  "requirements": [
+    [
+      "visit_cherryskyland"
+    ],
+    [
+      "visit_jungleskyland"
+    ],
+    [
+      "visit_taigaskyland"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "dragonsurvival:tundra/tundra_food",
+  "parent": "dragonsurvival:aether/aether_food",
   "criteria": {
     "be_human": {
       "conditions": {
@@ -10,7 +10,7 @@
             "predicate": {
               "type_specific": {
                 "type": "dragonsurvival:dragon_predicate",
-                "dragon_species": "dragonsurvival:tundra_dragon_human"
+                "dragon_species": "dragonsurvival:aether_dragon_human"
               }
             }
           }
@@ -21,14 +21,14 @@
   },
   "display": {
     "description": {
-      "translate": "dragonsurvival.advancement.tundra/be_human.desc"
+      "translate": "dragonsurvival.advancement.aether/be_human.desc"
     },
     "icon": {
       "count": 1,
-      "id": "dragonsurvival:ice_dragon_altar"
+      "id": "dragonsurvival:cherry_dragon_altar"
     },
     "title": {
-      "translate": "dragonsurvival.advancement.tundra/be_human"
+      "translate": "dragonsurvival.advancement.aether/be_human"
     }
   },
   "requirements": [

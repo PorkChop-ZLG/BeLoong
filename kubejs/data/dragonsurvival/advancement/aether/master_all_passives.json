@@ -1,0 +1,66 @@
+{
+  "parent": "dragonsurvival:place_altar",
+  "criteria": {
+    "master_air_magic": {
+      "conditions": {
+        "ability": "dragonsurvival:air_magic",
+        "level": 10
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_wide_lungs": {
+      "conditions": {
+        "ability": "dragonsurvival:wide_lungs",
+        "level": 8
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_qi_concentration": {
+      "conditions": {
+        "ability": "dragonsurvival:qi_concentration",
+        "level": 8
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_weathers_child": {
+      "conditions": {
+        "ability": "dragonsurvival:weathers_child",
+        "level": 6
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.aether/master_all_passives.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:dragon_soul",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.aether/master_all_passives"
+    }
+  },
+  "requirements": [
+    [
+      "master_air_magic"
+    ],
+    [
+      "master_wide_lungs"
+    ],
+    [
+      "master_qi_concentration"
+    ],
+    [
+      "master_weathers_child"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  },
+  "sends_telemetry_event": true
+}

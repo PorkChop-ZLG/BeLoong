@@ -1,0 +1,39 @@
+{
+  "parent": "dragonsurvival:aether/master_all_passives",
+  "criteria": {
+    "typhoon": {
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_wind_charge"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "dragonsurvival.advancement.aether/typhoon.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "dragonsurvival.advancement.aether/typhoon"
+    }
+  },
+  "requirements": [
+    [
+      "typhoon"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}
