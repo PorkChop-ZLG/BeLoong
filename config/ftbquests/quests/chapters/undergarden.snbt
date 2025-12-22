@@ -261,9 +261,10 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				dimension: "undergarden:undergarden"
-				id: "21BB5321C0A61B61"
-				type: "dimension"
+				advancement: "undergarden:undergarden/enter_undergarden"
+				criterion: ""
+				id: "38F212B8D5C48B3A"
+				type: "advancement"
 			}]
 			x: 4.0d
 			y: 0.0d
@@ -1134,19 +1135,28 @@
 			size: 1.0d
 			tasks: [
 				{
+					entity: "minecraft:bee"
+					id: "0A83030E9CF227DE"
+					type: "kill"
+					value: 20L
+				}
+				{
 					entity: "terra_entity:hornet"
-					icon: {
-						id: "terra_entity:hornet_spawn_egg"
-					}
-					id: "29A129F982A51FA5"
+					id: "0ACAE807CC2D5BDB"
 					type: "kill"
 					value: 10L
 				}
 				{
 					entity: "terra_entity:snatcher"
-					id: "7015A5AA795340A3"
+					id: "0B53E0593244BAC9"
 					type: "kill"
 					value: 5L
+				}
+				{
+					entity: "terra_entity:man_eater"
+					id: "3AEF94F141F41744"
+					type: "kill"
+					value: 1L
 				}
 			]
 			x: 22.5d
