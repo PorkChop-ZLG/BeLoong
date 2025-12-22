@@ -315,9 +315,10 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "31C52CF060E6502D"
-				type: "dimension"
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "227C0210E1542AB0"
+				type: "advancement"
 			}]
 			x: -6.5d
 			y: -1.5d

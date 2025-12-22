@@ -256,9 +256,10 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				dimension: "eternal_starlight:starlight"
-				id: "3C11A69D5209A369"
-				type: "dimension"
+				advancement: "eternal_starlight:enter_starlight"
+				criterion: ""
+				id: "34856BCC4F92AD1A"
+				type: "advancement"
 			}]
 			x: 8.0d
 			y: 0.0d
@@ -966,7 +967,6 @@
 				}
 				{
 					consume_items: true
-					count: 3L
 					id: "616C4672B49C1373"
 					item: { count: 1, id: "eternal_starlight:tangled_skull" }
 					type: "item"

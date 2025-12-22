@@ -15,16 +15,16 @@
 			image: "kubejs:textures/task/cave_dragon.png"
 			rotation: 0.0d
 			width: 12.0d
-			x: 4.0d
-			y: -3.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			height: 9.0d
 			image: "kubejs:textures/task/cave_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 22.0d
-			y: 0.0d
+			x: 0.0d
+			y: -25.0d
 		}
 	]
 	order_index: 2
@@ -32,29 +32,33 @@
 	quests: [
 		{
 			dependencies: ["2EBCC86372D200F5"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/newborn_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "5AAE0970AABAF89B"
-			rewards: [
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EEC8AFBAD726169"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
 				{
-					count: 8
-					id: "1F76A06733EF0EDB"
-					item: {
-						count: 1
-						id: "minecraft:charcoal"
-					}
-					type: "item"
+					advancement: "dragonsurvival:cave/be_dragon"
+					criterion: ""
+					id: "6B9B423914EAD62E"
+					type: "advancement"
 				}
 				{
-					id: "237239BCB2B3DFAA"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "1DFE30E3CD481DB6"
+					type: "checkmark"
 				}
 			]
-			size: 1.5d
-			tasks: [{
-				id: "5D73CF27818D6A29"
-				item: { count: 1, id: "minecraft:coal" }
-				type: "item"
-			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -63,115 +67,82 @@
 			id: "0BFBF916B58BF952"
 			rewards: [
 				{
-					count: 8
-					id: "6950441BE443F0DA"
+					count: 4
+					id: "68F47BD4653CF790"
 					item: {
 						count: 1
-						id: "dragonsurvival:cave_dragon_treat"
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
 				{
-					id: "2050AEF3A47F37C9"
+					id: "5153CCF814727463"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 			tasks: [
 				{
-					id: "51BD9B6EA438F252"
-					item: { count: 1, id: "dragonsurvival:charged_soup" }
-					type: "item"
-				}
-				{
+					consume_items: true
 					id: "2B053708A783E6CE"
 					item: { count: 1, id: "dragonsurvival:charred_meat" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "135D37AFB41891DE"
 					item: { count: 1, id: "dragonsurvival:charred_vegetable" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "7C5A7E359A59896D"
 					item: { count: 1, id: "dragonsurvival:charred_mushroom" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "0038FDC02DD0FFD1"
 					item: { count: 1, id: "dragonsurvival:charred_seafood" }
 					type: "item"
 				}
-				{
-					id: "03E7B703BCF34274"
-					item: { count: 1, id: "dragonsurvival:hot_dragon_rod" }
-					type: "item"
-				}
-				{
-					id: "04EA272C6D86C189"
-					item: { count: 1, id: "dragonsurvival:explosive_copper" }
-					type: "item"
-				}
-				{
-					id: "739525C554FAFD66"
-					item: { count: 1, id: "dragonsurvival:double_quartz" }
-					type: "item"
-				}
-				{
-					id: "7699C264F95F4A1E"
-					item: { count: 1, id: "dragonsurvival:quartz_explosive_copper" }
-					type: "item"
-				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["5AAE0970AABAF89B"]
+			dependencies: ["24A1E8B804776D1F"]
 			id: "68F38201DF496DA9"
-			rewards: [
-				{
-					id: "5B56C6E64AE3B027"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
+			optional: true
+			rewards: [{
+				id: "5B56C6E64AE3B027"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_heart"
 				}
-				{
-					id: "44970A33E2E18701"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "50C0260506E2FDC6"
 				item: { count: 1, id: "dragonsurvival:cave_source_of_magic" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["0BFBF916B58BF952"]
+			dependencies: ["24A1E8B804776D1F"]
 			id: "0014213DE61FC595"
-			rewards: [
-				{
-					count: 8
-					id: "28867F55A655D16D"
-					item: {
-						count: 1
-						id: "dragonsurvival:cave_dragon_treat"
-					}
-					type: "item"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "28867F55A655D16D"
+				item: {
+					count: 1
+					id: "dragonsurvival:cave_dragon_treat"
 				}
-				{
-					id: "00978DB1F5666533"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "56F31CDBE24FFACC"
@@ -189,386 +160,21 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5AAE0970AABAF89B"]
-			icon: {
-				id: "iceandfire:spawn_egg_fire_dragon"
-			}
-			id: "798F1E9363DFE612"
-			rewards: [
-				{
-					count: 3
-					id: "5F2EA69090E8C1AA"
-					item: {
-						count: 1
-						id: "iceandfire:cooked_rice_with_fire_dragon_meat"
-					}
-					type: "item"
-				}
-				{
-					id: "43B3A86014C910FE"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				entity: "iceandfire:fire_dragon"
-				id: "382DCD062BD44F93"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C5D0AA1C1A8FBE1"]
-			icon: {
-				id: "twilightforest:hydra_spawn_egg"
-			}
-			id: "1D0081D64CC79335"
-			rewards: [{
-				id: "6F729C8366BCD175"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "twilightforest:hydra"
-				id: "62FA5C5346E2C6F9"
-				type: "kill"
-				value: 1L
-			}]
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["798F1E9363DFE612"]
-			icon: {
-				id: "cataclysm:netherite_monstrosity_spawn_egg"
-			}
-			id: "464C5EA5AB175449"
-			rewards: [{
-				id: "2607308D13D14AA2"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				id: "7DFBAA5372553B58"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["464C5EA5AB175449"]
-			icon: {
-				id: "cataclysm:ignis_spawn_egg"
-			}
-			id: "76F28B29E4E99FDF"
-			rewards: [{
-				id: "5900AA8E24F2FEE5"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:ignis"
-				id: "03FF0A6F8B641D76"
-				type: "kill"
-				value: 1L
-			}]
-			x: 15.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["798F1E9363DFE612"]
-			icon: {
-				id: "twilightforest:minoshroom_spawn_egg"
-			}
-			id: "6C5D0AA1C1A8FBE1"
-			rewards: [{
-				id: "5DC31BC7811266F3"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "twilightforest:minoshroom"
-				id: "6A859544BD95E317"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["15EDA428074EB595"]
-			id: "6EEBE4FBC79CD1C3"
-			rewards: [{
-				count: 3
-				id: "5D6E97A44FE174F5"
-				item: {
-					count: 1
-					id: "eternal_starlight:thermal_springstone_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "30949C89A24120C7"
-				item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["798F1E9363DFE612"]
-			id: "15EDA428074EB595"
-			rewards: [{
-				id: "7E1E6FD81BA34036"
-				item: {
-					count: 1
-					id: "eternal_starlight:thermal_springstone_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2EE33FBF1CCD8ED6"
-				item: { count: 1, id: "iceandfire:fire_dragon_blood" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6EEBE4FBC79CD1C3"]
-			id: "2C22C80A46B75A14"
-			rewards: [
-				{
-					id: "72BCBF057899B943"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					count: 5
-					id: "5A2676F2C39ADBA7"
-					item: {
-						count: 1
-						id: "eternal_starlight:thermal_springstone_ingot"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0A54ED9FCE77938D"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_sword" }
-					type: "item"
-				}
-				{
-					id: "7D01A2E067FE29B8"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_pickaxe" }
-					type: "item"
-				}
-				{
-					id: "13A7F64583F139BD"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_axe" }
-					type: "item"
-				}
-				{
-					id: "52B1172747A1D163"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_shovel" }
-					type: "item"
-				}
-				{
-					id: "00B9959A93936F1B"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_hoe" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6EEBE4FBC79CD1C3"]
-			id: "52992AED4B9D32CE"
-			rewards: [
-				{
-					id: "54CC22736C8D8B76"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					count: 10
-					id: "3FDE8A970F27EA96"
-					item: {
-						count: 1
-						id: "eternal_starlight:thermal_springstone_ingot"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0DBBF96719271055"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_helmet" }
-					type: "item"
-				}
-				{
-					id: "7ED60952D24AA19D"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
-					type: "item"
-				}
-				{
-					id: "0234687293F9AD80"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_leggings" }
-					type: "item"
-				}
-				{
-					id: "6DFCB4938B3261CB"
-					item: { count: 1, id: "iceandfire:dragonsteel_fire_boots" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6EEBE4FBC79CD1C3"]
-			id: "5B60ED73D1238ADB"
-			rewards: [
-				{
-					id: "1FD5D2D549752559"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 10
-					id: "7AD69B6CF1D99E29"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_fire_block"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "618E743534A97E4C"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_head" }
-					type: "item"
-				}
-				{
-					id: "624561F6FEF4D534"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_neck" }
-					type: "item"
-				}
-				{
-					id: "6DE603AF4DCD324C"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_body" }
-					type: "item"
-				}
-				{
-					id: "0A885AC5E1E05ED3"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_fire_tail" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["798F1E9363DFE612"]
-			id: "1763F94C6795007C"
-			rewards: [
-				{
-					id: "194FEB1AA2384451"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "7F3AABB24C19A80F"
-					item: {
-						count: 1
-						id: "iceandfire:summoning_crystal_fire"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "666771672F3E168E"
-					item: { count: 1, id: "iceandfire:dragonegg_red" }
-					type: "item"
-				}
-				{
-					id: "5EB28138B0A2C31E"
-					item: { count: 1, id: "iceandfire:dragonegg_green" }
-					type: "item"
-				}
-				{
-					id: "1864E5496E4F19F8"
-					item: { count: 1, id: "iceandfire:dragonegg_bronze" }
-					type: "item"
-				}
-				{
-					id: "0732C45E7EDC90AD"
-					item: { count: 1, id: "iceandfire:dragonegg_gray" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["798F1E9363DFE612"]
-			icon: {
-				id: "bosses_of_mass_destruction:blazing_eye"
-			}
-			id: "7A25AF774AAFC3C8"
-			rewards: [
-				{
-					id: "5B90B7D007C73C70"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "62B8180379B9D53F"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:blazing_eye"
-					}
-					type: "item"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: {
-					id: "bosses_of_mass_destruction:blazing_eye"
-				}
-				id: "0D1E9687CF5A0441"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.0d
-			y: 3.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
-				"1763F94C6795007C"
-				"76F28B29E4E99FDF"
-				"1D0081D64CC79335"
+				"46A3CDDB1A15D9FE"
+				"78411669AF1FD737"
+				"5DB104CFE665CC09"
+				"37794577F6B10689"
 			]
 			icon: {
-				id: "dragonsurvival:cave_full_icon"
+				components: {
+					"ftbquests:icon": "dragonsurvival:item/cave_full_icon"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "508986FA5D56C11E"
 			rewards: [
@@ -590,12 +196,18 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "267910F1F16C26CD"
+					table_id: 3727137034912313201L
+					type: "choice"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [
 				{
-					advancement: "dragonsurvival:cave/be_old_dragon"
+					advancement: "dragonsurvival:cave/be_progenitor"
 					criterion: ""
 					id: "086D0C3FD730E160"
 					type: "advancement"
@@ -606,9 +218,13 @@
 					id: "481F6781CA8C9E22"
 					type: "advancement"
 				}
+				{
+					id: "2A3C44736A852054"
+					type: "checkmark"
+				}
 			]
-			x: 19.0d
-			y: 0.0d
+			x: 0.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["508986FA5D56C11E"]
@@ -650,8 +266,1023 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: -2.0d
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"5AAE0970AABAF89B"
+				"0BFBF916B58BF952"
+				"4E5621A393AE202A"
+				"309615294A70B9E9"
+				"74B48A026628E827"
+				"067D32B1531E153F"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/young_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "24A1E8B804776D1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "478B77CE38921FA9"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:cave/be_young"
+					criterion: ""
+					id: "24BDDD191342AB6D"
+					type: "advancement"
+				}
+				{
+					id: "157D3B0713B5E420"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"24A1E8B804776D1F"
+				"072FD241CD272F4C"
+				"3753EB478219DC26"
+				"75439ACB199C6BBA"
+				"170C5452183F9D7E"
+				"12F9EDC857BB2555"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "620D2C27E39DACD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79041BB200CD6462"
+				table_id: 3727137034912313201L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:cave/be_adult"
+					criterion: ""
+					id: "4D19E4253764729D"
+					type: "advancement"
+				}
+				{
+					id: "5B6D482CB9AB15D4"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"620D2C27E39DACD0"
+				"67DC6EC2B82FCFB1"
+				"25492A56F5CD9CC3"
+				"788F9A70AD8AE1C7"
+				"5290F30C84D09FDE"
+				"2FEE9B22743CCCBC"
+			]
+			hide_lock_icon: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "22DFEA6E1E1AE527"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E488B6534F4992A"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:cave/be_old_dragon"
+					criterion: ""
+					id: "5E83751040A7E7D6"
+					type: "advancement"
+				}
+				{
+					id: "4D2496241405E513"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"22DFEA6E1E1AE527"
+				"4A99ADF6D98D8013"
+				"053BA563D0DBF380"
+				"680E37E83464BEE6"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:item/cave_icon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "46A3CDDB1A15D9FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F17EB923D036566"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:cave/be_archean"
+					criterion: ""
+					id: "36DA2386C01615F1"
+					type: "advancement"
+				}
+				{
+					id: "13DD4C3975B94C70"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5AAE0970AABAF89B"]
+			id: "309615294A70B9E9"
+			rewards: [
+				{
+					count: 4
+					id: "3F0D52A900071B12"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "4934D1134BDF7EF1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:sandstone_stairs"
+				}
+				id: "631B845F56B19CFA"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AAE0970AABAF89B"]
+			id: "067D32B1531E153F"
+			rewards: [
+				{
+					count: 4
+					id: "098BA0C60C43B0DD"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "66AC96A4F69179E6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: {
+					id: "minecraft:husk_spawn_egg"
+				}
+				id: "5A005776CEB1DDDE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AAE0970AABAF89B"]
+			id: "4E5621A393AE202A"
+			rewards: [
+				{
+					count: 4
+					id: "2C3CEE318542F7B0"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "7ED4AF8676701A14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: {
+					id: "minecraft:sand"
+				}
+				id: "3696CD7CE8CF19E7"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AAE0970AABAF89B"]
+			id: "74B48A026628E827"
+			rewards: [
+				{
+					count: 4
+					id: "33F2567B57D984B6"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "4DCFD1D4CAD09D22"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:cactus"
+				}
+				id: "184DE056A62DEC82"
+				observe_type: 0
+				timer: 100L
+				to_observe: "minecraft:cactus"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24A1E8B804776D1F"]
+			id: "12F9EDC857BB2555"
+			rewards: [
+				{
+					count: 3
+					id: "13F0CA86C90A263B"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "230BD9E02B4659D9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "2F61D0E80067A7DF"
+					item: { count: 1, id: "dragonsurvival:charged_coal" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7FE46DFD4C0248C7"
+					item: { count: 1, id: "dragonsurvival:charged_soup" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "127B0931E058ADF0"
+					item: { count: 1, id: "dragonsurvival:hot_dragon_rod" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7F9B6AE0122E423D"
+					item: { count: 1, id: "dragonsurvival:explosive_copper" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "491C07FD5E57A1EA"
+					item: { count: 1, id: "dragonsurvival:quartz_explosive_copper" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "789687F88AC421C3"
+					item: { count: 1, id: "dragonsurvival:double_quartz" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "314990CF677EBBC0"
+					item: { count: 1, id: "dragonsurvival:cave_dragon_treat" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24A1E8B804776D1F"]
+			icon: {
+				id: "regions_unexplored:brimwood_log_magma"
+			}
+			id: "072FD241CD272F4C"
+			rewards: [
+				{
+					count: 3
+					id: "2550D77646F0E33C"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "4B0C4BCC85A36A30"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				biome: "regions_unexplored:infernal_holt"
+				icon: {
+					id: "regions_unexplored:brimwood_log_magma"
+				}
+				id: "4BFCA5A9732A056A"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24A1E8B804776D1F"]
+			icon: {
+				id: "regions_unexplored:brimwood_shrub"
+			}
+			id: "170C5452183F9D7E"
+			rewards: [
+				{
+					count: 3
+					id: "785D2F72D5DE6F98"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "6323758B8042C2DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "regions_unexplored:brimwood_shrub"
+				}
+				id: "1D999AE40313D0FD"
+				observe_type: 0
+				timer: 100L
+				to_observe: "regions_unexplored:brimwood_shrub"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["24A1E8B804776D1F"]
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "3753EB478219DC26"
+			rewards: [
+				{
+					count: 3
+					id: "63B7825C8C755827"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "187785962665A306"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:crying_obsidian"
+				}
+				id: "151BE4C7F079FC69"
+				structure: "irons_spellbooks:ancient_battleground"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24A1E8B804776D1F"]
+			icon: {
+				id: "irons_spellbooks:keeper_spawn_egg"
+			}
+			id: "75439ACB199C6BBA"
+			rewards: [
+				{
+					count: 3
+					id: "139EDE82C905AC82"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "64B7F20C814C9008"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				id: "74493384C03DBC5D"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["620D2C27E39DACD0"]
+			icon: {
+				id: "twilightforest:mangrove_sapling"
+			}
+			id: "67DC6EC2B82FCFB1"
+			rewards: [
+				{
+					count: 3
+					id: "51C24E11FA68B91C"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "5EEB2DE18A98DB63"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				biome: "twilightforest:swamp"
+				icon: {
+					id: "twilightforest:mangrove_sapling"
+				}
+				id: "07359EEE40593E3E"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["620D2C27E39DACD0"]
+			icon: {
+				id: "twilightforest:huge_water_lily"
+			}
+			id: "788F9A70AD8AE1C7"
+			rewards: [
+				{
+					count: 3
+					id: "640FCB3752CBE753"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "6FEEC9AF240BC972"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "twilightforest:huge_water_lily"
+				}
+				id: "11640C3CFC9F4855"
+				observe_type: 0
+				timer: 100L
+				to_observe: "twilightforest:huge_water_lily"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["620D2C27E39DACD0"]
+			icon: {
+				id: "twilightforest:maze_map"
+			}
+			id: "2FEE9B22743CCCBC"
+			rewards: [
+				{
+					count: 3
+					id: "2C18271232724079"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "56F4DD7340588A68"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "twilightforest:maze_map"
+				}
+				id: "796ABC997DB4DD90"
+				structure: "twilightforest:labyrinth"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["620D2C27E39DACD0"]
+			icon: {
+				id: "twilightforest:fire_beetle_spawn_egg"
+			}
+			id: "25492A56F5CD9CC3"
+			rewards: [
+				{
+					count: 3
+					id: "3759E994CFE2B460"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "5C52B93AE5093B55"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "13913D790DA35645"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["620D2C27E39DACD0"]
+			id: "5290F30C84D09FDE"
+			rewards: [
+				{
+					count: 3
+					id: "375B3F35873C2376"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "2CD9C93F200F9455"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "dragonsurvival:cave/master_all_passives"
+				criterion: ""
+				id: "48412C04CAC0C2CF"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["22DFEA6E1E1AE527"]
+			icon: {
+				id: "bosses_of_mass_destruction:blazing_eye"
+			}
+			id: "053BA563D0DBF380"
+			rewards: [
+				{
+					id: "5C249201FFDE7D93"
+					item: {
+						count: 1
+						id: "kubejs:cave_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "237913FBE7948951"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					criterion: ""
+					id: "12CCE7951779BAA6"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "70A06272DBA340C5"
+					item: { count: 1, id: "bosses_of_mass_destruction:blazing_eye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2C50BAF29A1CAD15"
+					item: { count: 1, id: "minecraft:ancient_debris" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["46A3CDDB1A15D9FE"]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "37794577F6B10689"
+			rewards: [
+				{
+					count: 5
+					id: "19B82F6498A77D75"
+					item: {
+						count: 1
+						id: "kubejs:cave_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "5153A76D39B8D0A4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "51782CE696F58814"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "3832B0C71B150138"
+					item: { count: 1, id: "cataclysm:ignitium_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7B7F481169D70984"
+					item: { count: 1, id: "cataclysm:music_disc_ignis" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["22DFEA6E1E1AE527"]
+			id: "4A99ADF6D98D8013"
+			rewards: [
+				{
+					id: "16BA0BA762784A7E"
+					item: {
+						count: 1
+						id: "kubejs:cave_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "47AD3D8243CBB20F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					advancement: "dragonsurvival:cave/swim_in_lava"
+					criterion: ""
+					id: "0B4D67879B4DAD48"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:cave/diamonds_in_lava"
+					criterion: ""
+					id: "02A675E666555F53"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:cave/go_home"
+					criterion: ""
+					id: "4EB777AAFC620067"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:cave/rock_eater"
+					criterion: ""
+					id: "48804603EA4D4D28"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:cave/water_safety"
+					criterion: ""
+					id: "5C2546EBA7D75635"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["22DFEA6E1E1AE527"]
+			id: "680E37E83464BEE6"
+			rewards: [
+				{
+					id: "56C1A39B3206F663"
+					item: {
+						count: 1
+						id: "kubejs:cave_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "1A718C2367EC8D7F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					advancement: "netherdepthsupgrade:main/craft_lava_fishing_rod"
+					criterion: ""
+					id: "6415CAA44C984721"
+					type: "advancement"
+				}
+				{
+					advancement: "netherdepthsupgrade:main/lava_fishing_master"
+					criterion: ""
+					id: "6B966DA7EBA9D7C6"
+					type: "advancement"
+				}
+				{
+					advancement: "netherdepthsupgrade:main/place_lava_glass"
+					criterion: ""
+					id: "7B53A1B7F48AFB79"
+					type: "advancement"
+				}
+				{
+					advancement: "netherdepthsupgrade:main/filled_soulsucker_bucket"
+					criterion: ""
+					id: "1A67ED90E2FCE369"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["46A3CDDB1A15D9FE"]
+			id: "78411669AF1FD737"
+			rewards: [
+				{
+					count: 5
+					id: "2CCBC5454C3ED25C"
+					item: {
+						count: 1
+						id: "kubejs:cave_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "5A4233977BB3A32D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "0ABB7125DE31A488"
+					item: { count: 1, id: "netherdepthsupgrade:lava_pufferfish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4EE191B448DD0172"
+					item: { count: 1, id: "netherdepthsupgrade:obsidianfish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2F5C47E91B501721"
+					item: { count: 1, id: "netherdepthsupgrade:searing_cod_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29CF9D82638D1D4A"
+					item: { count: 1, id: "netherdepthsupgrade:bonefish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36FADE3C5DA13945"
+					item: { count: 1, id: "netherdepthsupgrade:wither_bonefish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "02A8F50211A8DB60"
+					item: { count: 1, id: "netherdepthsupgrade:blazefish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2D361BC3EF0FEAF4"
+					item: { count: 1, id: "netherdepthsupgrade:magmacubefish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2C179BBBEF3365A5"
+					item: { count: 1, id: "netherdepthsupgrade:glowdine_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7C7728D13C6FE948"
+					item: { count: 1, id: "netherdepthsupgrade:soulsucker_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4FF679B1BFD97A43"
+					item: { count: 1, id: "netherdepthsupgrade:fortress_grouper_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "52793738C3B3BB6B"
+					item: { count: 1, id: "netherdepthsupgrade:eyeball_fish_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["46A3CDDB1A15D9FE"]
+			id: "5DB104CFE665CC09"
+			rewards: [
+				{
+					count: 5
+					id: "19CD3B996C23CA73"
+					item: {
+						count: 1
+						id: "kubejs:cave_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "3DAAAE42EAE41F25"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					biome: "regions_unexplored:outback"
+					icon: {
+						id: "minecraft:red_sand"
+					}
+					id: "6E4F74EE5E476035"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:saguaro_desert"
+					icon: {
+						id: "regions_unexplored:saguaro_cactus"
+					}
+					id: "38008EA49E208457"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:joshua_desert"
+					icon: {
+						id: "regions_unexplored:joshua_shrub"
+					}
+					id: "135AC0DF7E7ECC3D"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:mojave_desert"
+					icon: {
+						id: "biomeswevegone:cracked_sand"
+					}
+					id: "577F39D0DA88C851"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:windswept_desert"
+					icon: {
+						id: "biomeswevegone:windswept_sand"
+					}
+					id: "57E06E32058D56B2"
+					type: "biome"
+				}
+				{
+					biome: "eternal_starlight:crystallized_desert"
+					icon: {
+						id: "eternal_starlight:twilight_sand"
+					}
+					id: "3B9C60F2900428D3"
+					type: "biome"
+				}
+				{
+					icon: {
+						id: "minecraft:chest_minecart"
+					}
+					id: "12817406A3D592BC"
+					structure: "dungeons_arise:mining_complex"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:copper_grate"
+					}
+					id: "27AC32F0D7060904"
+					structure: "dungeons_arise:mechanical_nest"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:bone_block"
+					}
+					id: "010CF990F7531827"
+					structure: "dungeons_arise:ceryneian_hind"
+					type: "structure"
+				}
+			]
+			x: -1.5d
+			y: 22.5d
 		}
 	]
 }

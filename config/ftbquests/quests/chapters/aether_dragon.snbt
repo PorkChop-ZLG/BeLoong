@@ -26,6 +26,14 @@
 			x: 17.0d
 			y: 0.0d
 		}
+		{
+			height: 9.6d
+			image: "kubejs:textures/task/qinglong_drawing.png"
+			rotation: 0.0d
+			width: 4.32d
+			x: -4.0d
+			y: 0.0d
+		}
 	]
 	order_index: 6
 	quest_links: [ ]

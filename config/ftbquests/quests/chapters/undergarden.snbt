@@ -1143,18 +1143,6 @@
 					value: 10L
 				}
 				{
-					entity: "terra_entity:antlion_swarmer"
-					id: "5092DC6A27DB6F51"
-					type: "kill"
-					value: 10L
-				}
-				{
-					entity: "terra_entity:giant_antlion_swarmer"
-					id: "2DCA794D05CE42FE"
-					type: "kill"
-					value: 5L
-				}
-				{
 					entity: "terra_entity:snatcher"
 					id: "7015A5AA795340A3"
 					type: "kill"

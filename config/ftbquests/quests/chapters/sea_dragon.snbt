@@ -15,16 +15,16 @@
 			image: "kubejs:textures/task/sea_dragon.png"
 			rotation: 0.0d
 			width: 12.0d
-			x: 4.0d
-			y: -3.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			height: 9.0d
 			image: "kubejs:textures/task/sea_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 22.0d
-			y: 0.0d
+			x: 0.0d
+			y: -25.0d
 		}
 	]
 	order_index: 4
@@ -32,116 +32,129 @@
 	quests: [
 		{
 			dependencies: ["34D732864BAC0E8E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/newborn_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "7C024F9AAFDA7F51"
-			rewards: [
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69C6A26F0AA1AF4F"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
 				{
-					count: 2
-					id: "069C1EE70DA3C91E"
-					item: {
-						count: 1
-						id: "minecraft:pufferfish"
-					}
-					type: "item"
+					advancement: "dragonsurvival:sea/be_dragon"
+					criterion: ""
+					id: "1ADE1D10C5B8BF48"
+					type: "advancement"
 				}
 				{
-					id: "7313DF61492737CA"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "4079A5DB08443353"
+					type: "checkmark"
 				}
 			]
-			size: 1.5d
-			tasks: [{
-				id: "091ACD0BEDA94CFC"
-				item: { count: 1, id: "minecraft:kelp" }
-				type: "item"
-			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7C024F9AAFDA7F51"]
+			dependencies: ["75F377E217613AEF"]
 			id: "634C5657E921C26C"
 			rewards: [
 				{
-					count: 8
-					id: "059AB6F58A5E7D34"
+					count: 3
+					id: "28B50080EF1E9264"
 					item: {
 						count: 1
-						id: "dragonsurvival:sea_dragon_treat"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
 				{
-					id: "5DB2360BCA21DE53"
+					id: "41500E696C61B87F"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 			]
 			tasks: [
 				{
+					consume_items: true
 					id: "274CAA6964290EB4"
 					item: { count: 1, id: "dragonsurvival:seasoned_fish" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "4819198D48CFA699"
 					item: { count: 1, id: "dragonsurvival:golden_coral_pufferfish" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "01E052F3F20F5741"
 					item: { count: 1, id: "dragonsurvival:golden_turtle_egg" }
 					type: "item"
 				}
-			]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7C024F9AAFDA7F51"]
-			id: "5096264BBB1C9577"
-			rewards: [
 				{
-					id: "73CFC41A89FEFA0C"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
+					consume_items: true
+					id: "408B47A1648790D7"
+					item: { count: 1, id: "dragonsurvival:frozen_raw_fish" }
 					type: "item"
 				}
 				{
-					id: "740B15F97C075B84"
-					type: "xp_levels"
-					xp_levels: 5
+					consume_items: true
+					id: "7F484231640BC983"
+					item: { count: 1, id: "dragonsurvival:sea_dragon_treat" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "04322758E38A68A5"
+					item: { count: 1, id: "minecraft:kelp" }
+					type: "item"
 				}
 			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["75F377E217613AEF"]
+			id: "5096264BBB1C9577"
+			optional: true
+			rewards: [{
+				id: "73CFC41A89FEFA0C"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_heart"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CD1CED8A1F25392"
 				item: { count: 1, id: "dragonsurvival:sea_source_of_magic" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["634C5657E921C26C"]
+			dependencies: ["75F377E217613AEF"]
 			id: "293A4F21A1CA4A9F"
-			rewards: [
-				{
-					count: 8
-					id: "445EC2D41AF7E7C5"
-					item: {
-						count: 1
-						id: "dragonsurvival:sea_dragon_treat"
-					}
-					type: "item"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "445EC2D41AF7E7C5"
+				item: {
+					count: 1
+					id: "dragonsurvival:sea_dragon_treat"
 				}
-				{
-					id: "395A70E231F2ACCC"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2CFF811AACE90D1C"
@@ -159,386 +172,68 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["7C024F9AAFDA7F51"]
+			dependencies: ["087A166AA7484802"]
 			icon: {
-				id: "iceandfire:spawn_egg_ice_dragon"
-			}
-			id: "00EED446DF76F1B1"
-			rewards: [
-				{
-					count: 3
-					id: "3B35CCC94D31BD16"
-					item: {
-						count: 1
-						id: "iceandfire:cooked_rice_with_ice_dragon_meat"
-					}
-					type: "item"
-				}
-				{
-					id: "3514A2608DD25B0D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				entity: "iceandfire:ice_dragon"
-				id: "5FCF1F87E66DA6DC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["00EED446DF76F1B1"]
-			icon: {
-				id: "twilightforest:alpha_yeti_spawn_egg"
-			}
-			id: "4E7A2F0EC914F641"
-			rewards: [{
-				id: "56693D9F902A01D6"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "twilightforest:alpha_yeti"
-				id: "3F174A881D7A9367"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["690F6FE8B1F4791E"]
-			icon: {
-				id: "cataclysm:the_leviathan_spawn_egg"
+				id: "cataclysm:tidal_claws"
 			}
 			id: "71BFA3CE3156E064"
-			rewards: [{
-				id: "7EBEBD49551ED4CE"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				id: "22F08425E4BC293F"
-				type: "kill"
-				value: 1L
-			}]
-			x: 15.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4E7A2F0EC914F641"]
-			icon: {
-				id: "twilightforest:snow_queen_spawn_egg"
-			}
-			id: "362EC528DB932AB2"
-			rewards: [{
-				id: "09B8C439F69151A8"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "twilightforest:snow_queen"
-				id: "70C5698D2625CE66"
-				type: "kill"
-				value: 1L
-			}]
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["00EED446DF76F1B1"]
-			icon: {
-				id: "cataclysm:scylla_spawn_egg"
-			}
-			id: "690F6FE8B1F4791E"
-			rewards: [{
-				id: "7EFD8FA972847032"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:scylla"
-				id: "0E3ECD220C260966"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["00EED446DF76F1B1"]
-			id: "01DDB402863E9417"
-			rewards: [{
-				id: "4ABE56619E390E3A"
-				item: {
-					count: 1
-					id: "eternal_starlight:deepsilver_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3C3E4472F826008C"
-				item: { count: 1, id: "iceandfire:ice_dragon_blood" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["01DDB402863E9417"]
-			id: "0F5B55722015AC72"
-			rewards: [{
-				count: 3
-				id: "2602949CC707141D"
-				item: {
-					count: 1
-					id: "eternal_starlight:deepsilver_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E24ABD42D2A8185"
-				item: { count: 1, id: "iceandfire:dragonsteel_ice_ingot" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0F5B55722015AC72"]
-			id: "712F4257853741B2"
 			rewards: [
-				{
-					id: "4C6FE249C7FCD641"
-					type: "xp_levels"
-					xp_levels: 20
-				}
 				{
 					count: 5
-					id: "4F6AD4D180E066FD"
+					id: "7B434B0E11E9A4FB"
 					item: {
 						count: 1
-						id: "eternal_starlight:deepsilver_ingot"
+						id: "kubejs:sea_dragon_heart"
 					}
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "57A79075720BB575"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_sword" }
-					type: "item"
-				}
-				{
-					id: "1805B1DE2A029A93"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_pickaxe" }
-					type: "item"
-				}
-				{
-					id: "3900A4D1E23E2A68"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_axe" }
-					type: "item"
-				}
-				{
-					id: "02FD571B0CA5660A"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_shovel" }
-					type: "item"
-				}
-				{
-					id: "46E2F05939065D40"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_hoe" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0F5B55722015AC72"]
-			id: "5965C07E170893BD"
-			rewards: [
-				{
-					id: "2AC28E5AFFDF2E8F"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					count: 10
-					id: "639C7B25B4AD5282"
-					item: {
-						count: 1
-						id: "eternal_starlight:deepsilver_ingot"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2EA428318E6EE285"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_helmet" }
-					type: "item"
-				}
-				{
-					id: "4DD314A674896B8E"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_chestplate" }
-					type: "item"
-				}
-				{
-					id: "69108895705F9CE9"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_leggings" }
-					type: "item"
-				}
-				{
-					id: "77F29261B25CE672"
-					item: { count: 1, id: "iceandfire:dragonsteel_ice_boots" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0F5B55722015AC72"]
-			id: "48712D4FF467ACC0"
-			rewards: [
-				{
-					id: "4819A0C05BBA7A23"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 10
-					id: "5308B5BC53195F54"
-					item: {
-						count: 1
-						id: "iceandfire:dragonsteel_ice_block"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "155AAC421977DCE1"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_ice_head" }
-					type: "item"
-				}
-				{
-					id: "5FF341BD820A1822"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_ice_neck" }
-					type: "item"
-				}
-				{
-					id: "29C306073C61823A"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_ice_body" }
-					type: "item"
-				}
-				{
-					id: "5AC1DEE885CC5DD8"
-					item: { count: 1, id: "iceandfire:dragonarmor_dragon_steel_ice_tail" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["00EED446DF76F1B1"]
-			id: "75A9F93FF44CB19E"
-			rewards: [
-				{
-					id: "24C28041C1655A77"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "77344F8327A04B72"
-					item: {
-						count: 1
-						id: "iceandfire:summoning_crystal_ice"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3E7471160B6BC08E"
-					item: { count: 1, id: "iceandfire:dragonegg_blue" }
-					type: "item"
-				}
-				{
-					id: "6FA6BC3A338DE63C"
-					item: { count: 1, id: "iceandfire:dragonegg_white" }
-					type: "item"
-				}
-				{
-					id: "65223B775A2C1195"
-					item: { count: 1, id: "iceandfire:dragonegg_sapphire" }
-					type: "item"
-				}
-				{
-					id: "2F2452B170517F30"
-					item: { count: 1, id: "iceandfire:dragonegg_silver" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["00EED446DF76F1B1"]
-			icon: {
-				id: "bosses_of_mass_destruction:ancient_anima"
-			}
-			id: "613DC6E8C659D68A"
-			rewards: [
-				{
-					id: "478F33D41CE02806"
+					id: "3BE4671E31B85B9D"
 					type: "xp_levels"
 					xp_levels: 5
 				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
 				{
-					id: "67F6961A022A4567"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:ancient_anima"
-					}
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "036A667935E637E9"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "15F53C15AC17D2AB"
+					item: { count: 1, id: "cataclysm:abyssal_egg" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "68637FF500C6391B"
+					item: { count: 1, id: "cataclysm:music_disc_the_leviathan" }
 					type: "item"
 				}
 			]
-			size: 2.0d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				icon: {
-					id: "bosses_of_mass_destruction:ancient_anima"
-				}
-				id: "2688D900A1E33492"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.0d
-			y: 3.0d
+			x: 0.0d
+			y: 22.5d
 		}
 		{
 			dependencies: [
-				"75A9F93FF44CB19E"
-				"362EC528DB932AB2"
+				"087A166AA7484802"
+				"78154BF5E76EB76C"
 				"71BFA3CE3156E064"
+				"07FF8B926B1BA0A3"
 			]
 			icon: {
-				id: "dragonsurvival:sea_full_icon"
+				components: {
+					"ftbquests:icon": "dragonsurvival:item/sea_full_icon"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "05B2708F599F0167"
 			rewards: [
@@ -560,12 +255,18 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "07BC26EC0ED23F2D"
+					table_id: 3727137034912313201L
+					type: "loot"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [
 				{
-					advancement: "dragonsurvival:sea/be_old_dragon"
+					advancement: "dragonsurvival:sea/be_progenitor"
 					criterion: ""
 					id: "5DD82396FDC0F65E"
 					type: "advancement"
@@ -576,9 +277,13 @@
 					id: "5649EC835096CD90"
 					type: "advancement"
 				}
+				{
+					id: "3740B4A3C1272157"
+					type: "checkmark"
+				}
 			]
-			x: 19.0d
-			y: 0.0d
+			x: 0.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["05B2708F599F0167"]
@@ -620,8 +325,999 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: -2.0d
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"34D732864BAC0E8E"
+				"7C024F9AAFDA7F51"
+				"7E7C768023F22D2E"
+				"09AD9A5F6A9D97B8"
+				"3B93840E4935B0B0"
+				"5BAF5C77F3373696"
+				"18BC27F09DE456D2"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/young_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "75F377E217613AEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E7F74680C99C5FA"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:sea/be_young"
+					criterion: ""
+					id: "4ADFF7EDAD20797A"
+					type: "advancement"
+				}
+				{
+					id: "24D5FE550A0BB22A"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"34D732864BAC0E8E"
+				"330CE4B915D1BB41"
+				"4ED0A659EAD11758"
+				"7CCA24AC1BDC6433"
+				"33C7AE423913A469"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:item/sea_icon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "087A166AA7484802"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D7DE3A3C363C451"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:sea/be_archean"
+					criterion: ""
+					id: "0B357924C09D3D89"
+					type: "advancement"
+				}
+				{
+					id: "564A8F2331460634"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"34D732864BAC0E8E"
+				"49E035E1CB353C48"
+				"068FAE02D6CD3A80"
+				"31A9F50E9E58685D"
+				"6A0A7CA003C79A28"
+				"13F417E2FB58EB86"
+				"59524F0DEF703874"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "330CE4B915D1BB41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A5533D0D1B2CEA9"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:sea/be_old_dragon"
+					criterion: ""
+					id: "6827B1242862E50D"
+					type: "advancement"
+				}
+				{
+					id: "354A0B5FF482B05B"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"34D732864BAC0E8E"
+				"75F377E217613AEF"
+				"634C5657E921C26C"
+				"0C6C9EF6B3BA9388"
+				"5EFF5C22E67BCE5D"
+				"014D856119B0F3F7"
+				"7BBFEA3573C09A67"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "49E035E1CB353C48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "208614133892982F"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "dragonsurvival:sea/be_adult"
+					criterion: ""
+					id: "63AE2BC6C7304810"
+					type: "advancement"
+				}
+				{
+					id: "30EA44ED52C1C969"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C024F9AAFDA7F51"]
+			id: "7E7C768023F22D2E"
+			rewards: [
+				{
+					count: 4
+					id: "514EC407A090D589"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "28D2463FF37DB71A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "60AF0EBEB7A72C8F"
+					item: { count: 1, id: "minecraft:cod" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "57E1F0B35728E952"
+					item: { count: 1, id: "minecraft:salmon" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6147247F1E133D3A"
+					item: { count: 1, id: "minecraft:tropical_fish" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3BB2EB8F87879D9C"
+					item: { count: 1, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0A5C343F89D326BD"
+					item: { count: 1, id: "minecraft:ink_sac" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "46D47701FBCCD43F"
+					item: { count: 1, id: "minecraft:glow_ink_sac" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C024F9AAFDA7F51"]
+			id: "09AD9A5F6A9D97B8"
+			rewards: [
+				{
+					count: 4
+					id: "26F76B3F6804D31D"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "658182FC9A903700"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:prismarine_stairs"
+				}
+				id: "748A50100B3A9A4A"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C024F9AAFDA7F51"]
+			id: "18BC27F09DE456D2"
+			rewards: [
+				{
+					count: 4
+					id: "2E10410805411AA8"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "43D1E6FEAD80F2BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "3A162BB2AB963F6D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C024F9AAFDA7F51"]
+			id: "3B93840E4935B0B0"
+			rewards: [
+				{
+					count: 5
+					id: "53BE1522F2CBD246"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "06D8DA425794297F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				biome: "minecraft:ocean"
+				icon: {
+					id: "minecraft:water_bucket"
+				}
+				id: "759989ACB2F3C59A"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C024F9AAFDA7F51"]
+			id: "5BAF5C77F3373696"
+			rewards: [
+				{
+					count: 5
+					id: "524E443D951D0D73"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "56A27F265940E4BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:sea_pickle"
+				}
+				id: "2F5923966E6BACCC"
+				observe_type: 0
+				timer: 100L
+				to_observe: "minecraft:sea_pickle"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75F377E217613AEF"]
+			id: "5EFF5C22E67BCE5D"
+			rewards: [
+				{
+					count: 3
+					id: "4A1127E2EC5DEAA9"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "2BA3A18672F2969F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				biome: "stellarity:prismarine_forest"
+				icon: {
+					id: "minecraft:sea_lantern"
+				}
+				id: "62B72896E57C4220"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75F377E217613AEF"]
+			id: "0C6C9EF6B3BA9388"
+			rewards: [
+				{
+					count: 3
+					id: "3A1969139F6B9EC2"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "791307220849F736"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:conduit"
+				}
+				id: "5DFB83608828A8A2"
+				observe_type: 0
+				timer: 100L
+				to_observe: "minecraft:conduit"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["75F377E217613AEF"]
+			id: "7BBFEA3573C09A67"
+			rewards: [
+				{
+					count: 3
+					id: "4F564885DC64D075"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "761EAB9FEF2277F7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "iceandfire:cyclops_eye"
+				}
+				id: "55DB34D848F91F49"
+				structure: "iceandfire:cyclops_cave"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75F377E217613AEF"]
+			id: "014D856119B0F3F7"
+			rewards: [
+				{
+					count: 3
+					id: "0953DBB07A351031"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "06C8DD7BC0B1B951"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "1434BF6A07C5991E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49E035E1CB353C48"]
+			id: "31A9F50E9E58685D"
+			rewards: [
+				{
+					count: 3
+					id: "20D3605A5459C2AC"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "35AA992420F41CC5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "dragonsurvival:sea/master_all_passives"
+				criterion: ""
+				id: "27A32894ED02B3BD"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["49E035E1CB353C48"]
+			id: "6A0A7CA003C79A28"
+			rewards: [
+				{
+					count: 3
+					id: "2A107EF5F4B8D755"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "476F04D52F3109A4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				biome: "regions_unexplored:hyacinth_deeps"
+				icon: {
+					id: "regions_unexplored:tall_hyacinth_stock"
+				}
+				id: "63349E7B7FEA59C9"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["49E035E1CB353C48"]
+			id: "13F417E2FB58EB86"
+			rewards: [
+				{
+					count: 3
+					id: "492791FADCB69472"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "37E7E82AF4C7CD14"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "regions_unexplored:hyacinth_flowers"
+				}
+				id: "13358AC504137756"
+				observe_type: 0
+				timer: 100L
+				to_observe: "regions_unexplored:hyacinth_flowers"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["49E035E1CB353C48"]
+			id: "59524F0DEF703874"
+			rewards: [
+				{
+					count: 3
+					id: "3E2F4CE616870624"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "4E2B025F63CA193E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "cataclysm:goddess_statue"
+				}
+				id: "281EB9147C56D421"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["49E035E1CB353C48"]
+			id: "068FAE02D6CD3A80"
+			rewards: [
+				{
+					count: 3
+					id: "3CF8619B58A0FF03"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "4D50DB81FFB23808"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:cindaria"
+				id: "0E18790F5FA1CE56"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["330CE4B915D1BB41"]
+			icon: {
+				id: "cataclysm:ceraunus"
+			}
+			id: "33C7AE423913A469"
+			rewards: [
+				{
+					id: "5ABADB87573DDDFB"
+					item: {
+						count: 1
+						id: "kubejs:sea_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "36FABBC212114815"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "78E121DC56B5DEA7"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "4E75E6F7286CAA95"
+					item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5E64953B03BCB575"
+					item: { count: 1, id: "cataclysm:lacrima" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["330CE4B915D1BB41"]
+			id: "4ED0A659EAD11758"
+			rewards: [
+				{
+					id: "0E49FC87BC85ADEA"
+					item: {
+						count: 1
+						id: "kubejs:sea_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "7304705CF3BB031F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					advancement: "dragonsurvival:sea/rain_dancing"
+					criterion: ""
+					id: "375CBE458C75EA1A"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:sea/place_snow_in_nether"
+					criterion: ""
+					id: "6BDDE037F72BFFA7"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:sea/peace_in_nether"
+					criterion: ""
+					id: "08692B3D6F3A32EA"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:sea/loot_shipwreck"
+					criterion: ""
+					id: "59C55397B2656019"
+					type: "advancement"
+				}
+				{
+					advancement: "dragonsurvival:sea/fish_eater"
+					criterion: ""
+					id: "470BB098E494F159"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["330CE4B915D1BB41"]
+			id: "7CCA24AC1BDC6433"
+			rewards: [
+				{
+					id: "72F89387D91ABDAF"
+					item: {
+						count: 1
+						id: "kubejs:sea_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "2E81522E849CC840"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "4C2AF7C8739637CA"
+					item: { count: 1, id: "minecraft:cod_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "438B2EFB1B55C393"
+					item: { count: 1, id: "minecraft:salmon_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "727BF37FE2F2CDFF"
+					item: { count: 1, id: "minecraft:tropical_fish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "28C491FDB8E4BF5C"
+					item: { count: 1, id: "minecraft:pufferfish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2CBB4E8A1DE5FAE9"
+					item: { count: 1, id: "minecraft:axolotl_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5F1E71E7C731187C"
+					item: { count: 1, id: "minecraft:tadpole_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1EE45C58ECC23812"
+					item: { count: 1, id: "eternal_starlight:rookfish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5529F585F9C0829B"
+					item: { count: 1, id: "eternal_starlight:luminofish_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "09DAA43881D38F4C"
+					item: { count: 1, id: "eternal_starlight:luminaris_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["087A166AA7484802"]
+			id: "78154BF5E76EB76C"
+			rewards: [
+				{
+					count: 5
+					id: "7D2FB3B1F417E607"
+					item: {
+						count: 1
+						id: "kubejs:sea_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "39992F9DEB3C8BC2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "terra_curio:water_walking_boots"
+					}
+					id: "3D0BB05E9E048920"
+					stat: "minecraft:swim_one_cm"
+					type: "stat"
+					value: 2000000
+				}
+				{
+					icon: {
+						id: "terra_curio:obsidian_water_walking_boots"
+					}
+					id: "52C0BD10B82EA13D"
+					stat: "minecraft:walk_under_water_one_cm"
+					type: "stat"
+					value: 2000000
+				}
+				{
+					icon: {
+						id: "artifacts:aqua_dashers"
+					}
+					id: "5E7FD6932E1287FC"
+					stat: "minecraft:walk_on_water_one_cm"
+					type: "stat"
+					value: 200000
+				}
+			]
+			x: 1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["087A166AA7484802"]
+			id: "07FF8B926B1BA0A3"
+			rewards: [
+				{
+					count: 5
+					id: "120AD738C39E4BE1"
+					item: {
+						count: 1
+						id: "kubejs:sea_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "2733F7B8FD399CE8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:bone_block"
+					}
+					id: "407B9ACEB7ECAF33"
+					structure: "dungeons_arise:typhon"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:skeleton_skull"
+					}
+					id: "478BCA18076DD7E5"
+					structure: "dungeons_arise:undead_pirate_ship"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:crossbow"
+					}
+					id: "01EFEA16DE2888CE"
+					structure: "dungeons_arise:illager_corsair"
+					type: "structure"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:banner_patterns": [
+								{
+									color: "cyan"
+									pattern: {
+										asset_id: "minecraft:rhombus"
+										translation_key: "block.minecraft.banner.rhombus"
+									}
+								}
+								{
+									color: "light_gray"
+									pattern: {
+										asset_id: "minecraft:stripe_bottom"
+										translation_key: "block.minecraft.banner.stripe_bottom"
+									}
+								}
+								{
+									color: "gray"
+									pattern: {
+										asset_id: "minecraft:stripe_center"
+										translation_key: "block.minecraft.banner.stripe_center"
+									}
+								}
+								{
+									color: "light_gray"
+									pattern: {
+										asset_id: "minecraft:border"
+										translation_key: "block.minecraft.banner.border"
+									}
+								}
+								{
+									color: "black"
+									pattern: {
+										asset_id: "minecraft:stripe_middle"
+										translation_key: "block.minecraft.banner.stripe_middle"
+									}
+								}
+								{
+									color: "light_gray"
+									pattern: {
+										asset_id: "minecraft:half_horizontal"
+										translation_key: "block.minecraft.banner.half_horizontal"
+									}
+								}
+								{
+									color: "light_gray"
+									pattern: {
+										asset_id: "minecraft:circle"
+										translation_key: "block.minecraft.banner.circle"
+									}
+								}
+								{
+									color: "black"
+									pattern: {
+										asset_id: "minecraft:border"
+										translation_key: "block.minecraft.banner.border"
+									}
+								}
+							]
+							"minecraft:hide_additional_tooltip": { }
+							"minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+						}
+						id: "minecraft:white_banner"
+					}
+					id: "4BD82DD079B18833"
+					structure: "dungeons_arise:illager_galley"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:spruce_chest_boat"
+					}
+					id: "1F32A1901BACF454"
+					structure: "dungeons_arise_seven_seas:corsair_corvette"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:mangrove_chest_boat"
+					}
+					id: "2EBD773ABB523E26"
+					structure: "dungeons_arise_seven_seas:pirate_junk"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:oak_chest_boat"
+					}
+					id: "5415A7AE1E54CCB4"
+					structure: "dungeons_arise_seven_seas:small_yacht"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:dark_oak_chest_boat"
+					}
+					id: "6F9560BD4381CA96"
+					structure: "dungeons_arise_seven_seas:unicorn_galleon"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:acacia_chest_boat"
+					}
+					id: "4B982AA06B9165DD"
+					structure: "dungeons_arise_seven_seas:victory_frigate"
+					type: "structure"
+				}
+			]
+			x: -1.5d
+			y: 22.5d
 		}
 	]
 }

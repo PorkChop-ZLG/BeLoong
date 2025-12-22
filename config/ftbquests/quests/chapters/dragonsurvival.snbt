@@ -85,249 +85,6 @@
 			y: 5.5d
 		}
 		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -13.5d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -12.5d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -12.5d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -13.5d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -11.5d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -12.5d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -11.5d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -13.5d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -11.5d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -10.0d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -9.0d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -8.0d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_core"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -9.0d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -10.0d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -8.0d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -10.0d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_input_active"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -9.0d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -8.0d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -5.5d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -5.5d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -6.5d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -5.5d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragonforge_ice_brick"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -4.5d
-			y: 16.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -6.5d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -6.5d
-			y: 17.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -4.5d
-			y: 15.0d
-		}
-		{
-			height: 1.2d
-			image: "iceandfire:block/dragon_bone_block"
-			order: 100
-			rotation: 0.0d
-			width: 1.2d
-			x: -4.5d
-			y: 17.0d
-		}
-		{
 			height: 32.0d
 			image: "kubejs:textures/task/scroll_background_04.png"
 			rotation: 0.0d
@@ -408,11 +165,11 @@
 			id: "2EBCC86372D200F5"
 			rewards: [{
 				auto: "enabled"
-				count: 16
+				count: 64
 				id: "02FE78917DE21E9F"
 				item: {
 					count: 1
-					id: "dragonsurvival:charged_coal"
+					id: "minecraft:charcoal"
 				}
 				type: "item"
 			}]
@@ -433,11 +190,11 @@
 			id: "1E1063CB67754D04"
 			rewards: [{
 				auto: "no_toast"
-				count: 16
+				count: 32
 				id: "3CFFDA0A9B05BA7A"
 				item: {
 					count: 1
-					id: "dragonsurvival:sweet_sour_rabbit"
+					id: "minecraft:poisonous_potato"
 				}
 				type: "item"
 			}]
@@ -458,11 +215,11 @@
 			id: "34D732864BAC0E8E"
 			rewards: [{
 				auto: "enabled"
-				count: 16
+				count: 8
 				id: "0FD85F1A0ADF7508"
 				item: {
 					count: 1
-					id: "dragonsurvival:frozen_raw_fish"
+					id: "minecraft:pufferfish"
 				}
 				type: "item"
 			}]
@@ -1366,11 +1123,11 @@
 			id: "74D333ABF9D19A48"
 			rewards: [{
 				auto: "enabled"
-				count: 16
+				count: 64
 				id: "19570F1AB061905E"
 				item: {
 					count: 1
-					id: "minecraft:cooked_cod"
+					id: "minecraft:ice"
 				}
 				type: "item"
 			}]
@@ -1388,11 +1145,11 @@
 			id: "4461A4B09511AFD5"
 			rewards: [{
 				auto: "enabled"
-				count: 16
+				count: 4
 				id: "29D007DF96C0CF07"
 				item: {
 					count: 1
-					id: "ds_aether_addon:stuffedegg"
+					id: "minecraft:breeze_rod"
 				}
 				type: "item"
 			}]
@@ -1721,296 +1478,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["7BEEE28B8865648E"]
-			id: "0148D8DF96431BD6"
-			rewards: [{
-				id: "5F89263AF106D409"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0F3D3BE13D2F9F5A"
-				item: { count: 1, id: "minecraft:brush" }
-				type: "item"
-			}]
-			x: -10.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["14D31B8DCB673BE7"]
-			id: "7BEEE28B8865648E"
-			rewards: [
-				{
-					id: "517FB281C36791FA"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "35933056AE05CD89"
-					item: {
-						count: 1
-						id: "iceandfire:manuscript"
-					}
-					type: "item"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				id: "02E1FA451B929614"
-				item: { count: 1, id: "iceandfire:bestiary" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7BEEE28B8865648E"]
-			id: "7BA915DE214AD00A"
-			rewards: [{
-				id: "5E69B661168410E5"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7D04F1DBD2D2EB96"
-				item: { count: 1, id: "iceandfire:manuscript" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7BEEE28B8865648E"]
-			id: "32499F89EEAA2C31"
-			rewards: [{
-				id: "2509C7ED023759EF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "45130DB1FC6A8EE5"
-				item: { count: 1, id: "iceandfire:lectern" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["7BEEE28B8865648E"]
-			id: "41B4C614DAE4F8C6"
-			rewards: [
-				{
-					id: "3AEE31B5C853B58B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "400FC95B6D2F9A68"
-					item: {
-						count: 1
-						id: "iceandfire:raw_silver"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "014AB23D58C3B065"
-				item: { count: 1, id: "iceandfire:silver_ingot" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["41B4C614DAE4F8C6"]
-			id: "4D45756FE0991E0E"
-			rewards: [
-				{
-					id: "581223BD440CAC71"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 8
-					id: "55224F297362401E"
-					item: {
-						count: 1
-						id: "iceandfire:silver_ingot"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "70D418918F2FCD0D"
-					item: { count: 1, id: "iceandfire:silver_sword" }
-					type: "item"
-				}
-				{
-					id: "62442FAEAB3813E7"
-					item: { count: 1, id: "iceandfire:silver_shovel" }
-					type: "item"
-				}
-				{
-					id: "2CBE3B14CE92C4BD"
-					item: { count: 1, id: "iceandfire:silver_pickaxe" }
-					type: "item"
-				}
-				{
-					id: "72DC4F5C98B676D6"
-					item: { count: 1, id: "iceandfire:silver_axe" }
-					type: "item"
-				}
-				{
-					id: "2E176C04E0C14C45"
-					item: { count: 1, id: "iceandfire:silver_hoe" }
-					type: "item"
-				}
-			]
-			x: -11.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["41B4C614DAE4F8C6"]
-			id: "0AB809C050322A14"
-			rewards: [
-				{
-					id: "3EF45FB40E6D878F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 8
-					id: "51A77939A8977C3D"
-					item: {
-						count: 1
-						id: "iceandfire:silver_ingot"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5B1589790532B277"
-					item: { count: 1, id: "iceandfire:armor_silver_metal_helmet" }
-					type: "item"
-				}
-				{
-					id: "1BD0BB3378EAF891"
-					item: { count: 1, id: "iceandfire:armor_silver_metal_chestplate" }
-					type: "item"
-				}
-				{
-					id: "7305C14E6962B0D2"
-					item: { count: 1, id: "iceandfire:armor_silver_metal_leggings" }
-					type: "item"
-				}
-				{
-					id: "5A2471B1301A24C4"
-					item: { count: 1, id: "iceandfire:armor_silver_metal_boots" }
-					type: "item"
-				}
-			]
-			x: -7.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["41B4C614DAE4F8C6"]
-			id: "4E6A2FC933BF6095"
-			rewards: [
-				{
-					id: "68184B09F30713D4"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					count: 16
-					id: "0D2AA0B03C0359BD"
-					item: {
-						count: 1
-						id: "irons_spellbooks:raw_mithril"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "12E358B3CE6D4BB2"
-					item: { count: 1, id: "iceandfire:dragonarmor_silver_head" }
-					type: "item"
-				}
-				{
-					id: "393854B830DE0514"
-					item: { count: 1, id: "iceandfire:dragonarmor_silver_neck" }
-					type: "item"
-				}
-				{
-					id: "689FA6DD653A46DC"
-					item: { count: 1, id: "iceandfire:dragonarmor_silver_body" }
-					type: "item"
-				}
-				{
-					id: "25EB19B8B8F9ACD6"
-					item: { count: 1, id: "iceandfire:dragonarmor_silver_tail" }
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["7BEEE28B8865648E"]
-			id: "4B2A79FC0C011CB2"
-			rewards: [
-				{
-					id: "210FC39CD78A7EFF"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					count: 16
-					id: "0D0789B05A7770A1"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "4CB18DC001CB1662"
-					item: {
-						count: 1
-						id: "iceandfire:dragon_bone_block"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 2.0d
-			tasks: [
-				{
-					id: "4F3A091323521953"
-					item: { count: 1, id: "iceandfire:dragonforge_fire_core_disabled" }
-					type: "item"
-				}
-				{
-					id: "6DD66B760B910A96"
-					item: { count: 1, id: "iceandfire:dragonforge_ice_core_disabled" }
-					type: "item"
-				}
-				{
-					id: "3E19DC9FC81B442E"
-					item: { count: 1, id: "iceandfire:dragonforge_lightning_core_disabled" }
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: 13.0d
-		}
-		{
 			dependencies: ["2B5CAD5134FFA4AF"]
 			id: "6CC5B640AD43F55C"
 			rewards: [
@@ -2066,7 +1533,7 @@
 			id: "61DD6385C7F59703"
 			rewards: [{
 				auto: "enabled"
-				count: 16
+				count: 8
 				id: "69BF1B033B203544"
 				item: {
 					count: 1

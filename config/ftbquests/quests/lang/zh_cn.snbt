@@ -16,7 +16,7 @@
 	]
 	chapter.1E4C1C94528F4F43.title: "① 龙之生存"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["隐藏式任务"]
-	chapter.22143E6BF4F1DBAD.title: "〖洞穴龙〗专属挑战"
+	chapter.22143E6BF4F1DBAD.title: "〖洞穴龙〗成长之路"
 	chapter.27AE0B7401476AE5.chapter_subtitle: ["物美价廉，童叟无欺"]
 	chapter.27AE0B7401476AE5.title: "&2&l系统商店"
 	chapter.29CB766687624EDA.chapter_subtitle: ["持续更新中"]
@@ -32,7 +32,7 @@
 	chapter.35EB6BC9CDF066E6.chapter_subtitle: ["暂不完善，持续更新"]
 	chapter.35EB6BC9CDF066E6.title: "&e对话指引"
 	chapter.3DA5315F4969F944.chapter_subtitle: ["隐藏式任务"]
-	chapter.3DA5315F4969F944.title: "〖森林龙〗专属挑战"
+	chapter.3DA5315F4969F944.title: "〖森林龙〗成长之路"
 	chapter.435F0743867522FA.chapter_subtitle: ["最好的伙伴"]
 	chapter.435F0743867522FA.title: "车万女仆"
 	chapter.43E849014FFC7520.chapter_subtitle: ["持续更新中"]
@@ -43,7 +43,7 @@
 	]
 	chapter.4C5C324ECE492CD6.title: "赞助作者谢谢喵"
 	chapter.4E2D44FFE575436A.chapter_subtitle: ["隐藏式任务"]
-	chapter.4E2D44FFE575436A.title: "〖海洋龙〗专属挑战"
+	chapter.4E2D44FFE575436A.title: "〖海洋龙〗成长之路"
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
 		"第三章：永恒的星光"
 		"暮色已尽，星光乍现。"
@@ -81,6 +81,12 @@
 	chapter.70F8D93CCB47276E.title: "&d关于&e『&6化龍&e』&d整合包"
 	chapter.7B67918088B05AB6.chapter_subtitle: ["隐藏式任务"]
 	chapter.7B67918088B05AB6.title: "〖星界龙〗专属挑战"
+	chapter.7E93FF98428B8B46.chapter_subtitle: [
+		"番外篇：冰火传说"
+		"冰火传说社区版"
+		"难度：★★"
+	]
+	chapter.7E93FF98428B8B46.title: "℗ 冰火传说"
 	chapter_group.0476E1FA2E206D30.title: "支线任务"
 	chapter_group.1EFE04C2BB6E0380.title: "前言(必读)"
 	chapter_group.489BCE33471451DE.title: "其他"
@@ -92,6 +98,8 @@
 	quest.0014213DE61FC595.title: "洞穴龙之家"
 	quest.00628C62EEB79A37.quest_subtitle: "口袋维度"
 	quest.00628C62EEB79A37.title: "口袋维度 法术卷轴"
+	quest.0068C01865EF22C7.quest_subtitle: "成长到成年龙阶段"
+	quest.0068C01865EF22C7.title: "成年森林龙"
 	quest.0088F3221CD99A3D.quest_desc: [
 		"&l&d「末影守卫」"
 		"&6生命：&a3330"
@@ -104,9 +112,6 @@
 	]
 	quest.0088F3221CD99A3D.quest_subtitle: "★★★★"
 	quest.0088F3221CD99A3D.title: "灾变：末影守卫"
-	quest.00EED446DF76F1B1.quest_desc: ["&9结构罗盘：&b【冰火传说】冰龙"]
-	quest.00EED446DF76F1B1.quest_subtitle: "谁才是海洋的主宰？"
-	quest.00EED446DF76F1B1.title: "首战：冰龙"
 	quest.0105D9B7766A1BA4.quest_desc: [
 		"&a目标：开启黯影宝库，获得黯影模版"
 		""
@@ -117,6 +122,8 @@
 	quest.0105D9B7766A1BA4.quest_subtitle: "Deep♂Dark"
 	quest.0117683476F067D1.quest_subtitle: "五脏调和~"
 	quest.0148D8DF96431BD6.quest_desc: [
+		"&a目标：获得刷子，刷取龙鳞"
+		""
 		"&e刷子&6可以给&b冰&c火&7传说&6的龙清理鳞片，获得&e龙鳞&6。"
 		"&6首先你要用冰火传说的&e龙蛋&6孵化出一条属于你的龙，"
 		"&6然后等它成长到&23级&6以上，就可以用刷子刷取龙鳞。"
@@ -126,6 +133,7 @@
 		"&6每次刷取掉落&a1-2个"
 	]
 	quest.0148D8DF96431BD6.quest_subtitle: "全新获取龙鳞机制"
+	quest.014D856119B0F3F7.title: "击杀：海蟒"
 	quest.01595FC4029CAD14.title: "炽焰导师套装"
 	quest.017D9183AC0DA243.quest_desc: [
 		"&6当带有内容物的网络接口被破坏后会生成一个记录了其内容物的压缩物质球。"
@@ -163,9 +171,6 @@
 		"&o&7随时随地，风雨无阻！&r&r"
 	]
 	quest.0290886F399EB569.quest_subtitle: "快速出货工具"
-	quest.02B8B128DEF9F607.quest_desc: ["&9结构罗盘：&b【冰火传说】电龙"]
-	quest.02B8B128DEF9F607.quest_subtitle: "谁才是森林的主宰？"
-	quest.02B8B128DEF9F607.title: "首战：电龙"
 	quest.02EE21851AD77A5F.quest_desc: [
 		"&6在神秘的星光维度，古老法师为抵御黑暗侵袭，以蕴含强大能量的星核为核心、坚硬无比的星铁为身躯，创造出星光傀儡。它能操控星光之力，射出的星光刃可造成巨额伤害，还拥有防 TP、锁血等强大防御能力 。但黑暗力量扭曲了它，如今它失控暴走，成为维度中恐怖的霸主 。"
 		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6E02B2425A8EAB67\" } }"
@@ -292,6 +297,17 @@
 	quest.03DA2F2992CDD7DA.title: "逆卡巴拉：慈悲"
 	quest.03DE363DD22866FB.quest_subtitle: "飞往天堂，挑战天堂，征服天堂"
 	quest.03DE363DD22866FB.title: "古老年代的天空霸主"
+	quest.0498FCED96BB59A4.quest_desc: [
+		"&a目标：观察战利品箱子"
+		""
+		"&6本整合包修改了龙巢的战利品，更加丰富。"
+		"&6在地上的龙巢，可以摸到&e少量的龙鳞&6。"
+		"&6在地下的龙洞，可以摸到&e大量龙鳞。"
+		"&6公龙的洞穴小概率摸出&e龙血&6，"
+		"&6母龙的洞穴小概率摸出&e龙蛋&6。"
+	]
+	quest.0498FCED96BB59A4.quest_subtitle: "可摸出龙鳞龙血龙蛋"
+	quest.0498FCED96BB59A4.title: "巨龙的宝藏"
 	quest.04B8B892879F71C5.quest_desc: [
 		"&e永冻石&6是只能在&b星光永冻森林&r&6地下生成的资源"
 		"&6永冻石自然生成权重较低，但通常会连成一排生成"
@@ -300,8 +316,18 @@
 	]
 	quest.04B8B892879F71C5.title: "西伯利亚大草原"
 	quest.04BF97C7D233F5F2.quest_subtitle: "如火般热烈"
-	quest.0512242C244673AA.quest_desc: [""]
-	quest.0512242C244673AA.title: "击败：虚空之花"
+	quest.04D4B91E4E431187.quest_desc: [
+		"&a目标：集齐所有龙钢龙铠"
+		""
+		"&b冰&c火&7传说&6的&e龙铠&6原本只能给玩家&a驯服的龙&6穿戴，"
+		"&6本整合包中，&a玩家变成的龙&6也可以穿戴龙铠。"
+		"&6并且，龙铠能提供对应材质护甲的&21.5倍护甲值&6。"
+	]
+	quest.04D4B91E4E431187.quest_subtitle: "【番外篇    完结】"
+	quest.04D4B91E4E431187.title: "&e&l最强龙铠"
+	quest.0512242C244673AA.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B02DF458924B95C\" } }"]
+	quest.0512242C244673AA.quest_subtitle: "击杀虚空之花，提交其掉落物"
+	quest.0512242C244673AA.title: "铸就木之龙躯"
 	quest.052F870EA4EFBE56.quest_subtitle: "感受到太空的感觉了吗"
 	quest.053172C0F13D3578.quest_desc: [
 		"&l&d「克苏鲁之脑」"
@@ -314,6 +340,9 @@
 	]
 	quest.053172C0F13D3578.quest_subtitle: "★★★★★"
 	quest.053172C0F13D3578.title: "泰拉生物：克苏鲁之脑"
+	quest.053BA563D0DBF380.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E22E2A0F31B536\" } }"]
+	quest.053BA563D0DBF380.quest_subtitle: "击杀下界铁掌，提交其掉落物"
+	quest.053BA563D0DBF380.title: "铸就火之龙躯"
 	quest.054276060A380FAD.quest_desc: [
 		"&o&7芥子纳须弥，超空间存储。"
 		""
@@ -336,15 +365,20 @@
 	quest.055D72E0BC34E041.quest_subtitle: "★★★★"
 	quest.055D72E0BC34E041.title: "灾变：咒翼灵骸"
 	quest.0567ED02F52DBD13.quest_subtitle: "凉风拂面"
+	quest.056D95FDEB92D03D.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17A9978D7AFEA210\" } }"]
+	quest.056D95FDEB92D03D.quest_subtitle: "击杀月藤巨物，提交其掉落物"
+	quest.056D95FDEB92D03D.title: "加冕木之王座"
 	quest.05B2708F599F0167.quest_desc: [
-		"&a目标：成长到成年阶段，击败黑暗二重身"
+		"&a目标：成长到始祖龙阶段，击败黑暗二重身"
 		""
 		"&6最终的试炼，是直面你内心的&5黑暗&6，从而超越自我！"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11FC2E4D6E6B0D93\" } }"
 	]
-	quest.05B2708F599F0167.quest_subtitle: "【海洋龙支线    完结】"
+	quest.05B2708F599F0167.quest_subtitle: "【海洋龙成长之路    完结】"
 	quest.05B2708F599F0167.title: "&9海洋龙毕业"
 	quest.05D249E2313F8266.quest_subtitle: "起锅烧油~"
+	quest.05DDE53B6ECC9F16.quest_subtitle: "成长到远古龙阶段"
+	quest.05DDE53B6ECC9F16.title: "远古森林龙"
 	quest.05ED8DD7872103B7.quest_desc: [
 		"&a目标：击败 原初受火者"
 		""
@@ -360,6 +394,7 @@
 	quest.061A480DD84F0AF9.title: "前往：樱花空岛"
 	quest.066358117A2EDCD6.quest_subtitle: "归时雪满天山路"
 	quest.066358117A2EDCD6.title: "&b冰霜学派"
+	quest.067D32B1531E153F.title: "击杀：尸壳"
 	quest.067FBF1E5A9167E0.quest_desc: [
 		"&d[Essentials命令]"
 		"&6/spawn &r- &a传送回出生点"
@@ -386,11 +421,13 @@
 	]
 	quest.067FBF1E5A9167E0.quest_subtitle: "必读"
 	quest.067FBF1E5A9167E0.title: "&e常用命令"
+	quest.068FAE02D6CD3A80.title: "击杀：水母莉亚"
 	quest.06BED8FFC050C39A.quest_desc: [
 		"我在黑暗森林中发现了废墟。这是一种要塞的废墟，而这种要塞的主人通常来说是骑士。然而，这个要塞废墟是个例外：迎接我的是成群的哥布林。它们身着骑士盔甲，但是它们的行为暗示了它们并非骑士。"
 		"废墟深处有个基座。看样子是骑士们用来放奖杯的基座——这是力量的象征。若能拿到某种强力法杖，我便可以削弱这保护森林的魔咒，而将某座奖杯放在这基座上便可打开通往要塞的门。"
 	]
 	quest.06BED8FFC050C39A.title: "强者的象征"
+	quest.072FD241CD272F4C.title: "打卡：炼狱之地"
 	quest.073A531B004C31E3.quest_desc: [
 		"&l&d「利维坦」"
 		"&6生命：&a4000"
@@ -433,7 +470,22 @@
 	quest.07EE0098FA069F4B.quest_subtitle: "城春草木深"
 	quest.07EE0098FA069F4B.title: "&a自然学派"
 	quest.07F2436CA8680AAE.quest_subtitle: "仙品啤酒"
+	quest.07FF8B926B1BA0A3.quest_desc: [
+		"&9结构罗盘：&b【地牢浮现之时】提丰遗骸&r"
+		"&9结构罗盘：&b【地牢浮现之时】幽灵海盗船&r"
+		"&9结构罗盘：&b【地牢浮现之时】灾厄海盗船&r"
+		"&9结构罗盘：&b【地牢浮现之时】灾厄浆帆船&r"
+		"&9结构罗盘：&b【地牢浮现之时 - 海洋扩展】海盗护卫舰&r"
+		"&9结构罗盘：&b【地牢浮现之时 - 海洋扩展】中国海盗船&r"
+		"&9结构罗盘：&b【地牢浮现之时 - 海洋扩展】小型游艇&r"
+		"&9结构罗盘：&b【地牢浮现之时 - 海洋扩展】独角兽大帆船&r"
+		"&9结构罗盘：&b【地牢浮现之时 - 海洋扩展】胜利号护卫舰&r"
+	]
+	quest.07FF8B926B1BA0A3.quest_subtitle: "打卡地牢浮现之时的9种海上结构"
+	quest.07FF8B926B1BA0A3.title: "郑和下西洋"
 	quest.082B65CF6587C3A6.title: "雷电法王装备"
+	quest.087A166AA7484802.quest_subtitle: "成长到太古龙阶段"
+	quest.087A166AA7484802.title: "太古海洋龙"
 	quest.08A211F39D111276.quest_desc: [
 		"&a目标：获得魔宠灵魂"
 		""
@@ -453,11 +505,12 @@
 		"&9结构罗盘：&b【魔宠】末地实验室"
 	]
 	quest.0981AABC1E98CC30.title: "大法师魔宠"
+	quest.09AD9A5F6A9D97B8.quest_desc: ["&9结构罗盘：&b【YUNG】海底神殿&r"]
+	quest.09AD9A5F6A9D97B8.title: "挑战：海底神殿"
+	quest.0A6E69E220DAFB6F.quest_subtitle: "成长到青年龙阶段"
+	quest.0A6E69E220DAFB6F.title: "青年森林龙"
 	quest.0A9D7FCC65BE863F.quest_subtitle: "集齐森林龙的家具"
 	quest.0A9D7FCC65BE863F.title: "森林龙之家"
-	quest.0AB809C050322A14.quest_desc: ["&a目标：集齐银护甲"]
-	quest.0AB809C050322A14.quest_subtitle: "银制盔甲"
-	quest.0AB809C050322A14.title: "疑似银河落九天"
 	quest.0AC7BA9585F4271A.quest_desc: [
 		"&l&d「蜂王」"
 		"&6生命：&a9000"
@@ -519,8 +572,50 @@
 		"step5：点击制作唱片，刻录成功后放入&6唱片机&r播放"
 	]
 	quest.0BC716E3EFAB173E.quest_subtitle: "刻录网易云音乐"
-	quest.0BFBF916B58BF952.quest_subtitle: "集齐洞穴龙特殊食物"
-	quest.0BFBF916B58BF952.title: "洞穴龙：吃饱好上路"
+	quest.0BCEE748756B8A82.quest_desc: [
+		"《黑暗森林》 - 歌手：雲翼星辰"
+		"不留游走痕迹"
+		"如同一簇幽灵 呼吸 躲避 却观察着"
+		"猎人 猎物 同体"
+		"异类即是仇敌"
+		"毁灭作为赞礼 无上肯定"
+		"啊，看那"
+		"傻孩子燃起了火堆"
+		"啊，看那"
+		"傻孩子笑着挥手说"
+		"我在这里"
+		"我真诚地呼喊"
+		"我在这里"
+		"这空荡的宇宙"
+		"谁睁开眼看见我"
+		"我在这里"
+		"我在这里"
+		"所谓 道德加上伦理"
+		"抱歉只能律己"
+		"究竟何为文明 举枪 攻击 替代爱意"
+		"倒地 是我 是你"
+		"无人能够看清"
+		"时光安静相陪 冷酷无情"
+		"啊 看那"
+		"无尽循环的猜疑链"
+		"啊 看那"
+		"毫不犹豫开启杀戮"
+		"黑暗森林"
+		"这永恒的真理"
+		"黑暗森林"
+		"没有光能降临"
+		"拥抱所有的生命"
+		"黑暗森林"
+		"黑暗森林"
+		"这永恒的真理"
+		"黑暗森林"
+		"没有光能降临"
+		"拥抱所有的生命"
+	]
+	quest.0BCEE748756B8A82.quest_subtitle: "黑暗森林~呜~呼~这永恒的真理~"
+	quest.0BCEE748756B8A82.title: "打卡：黑暗森林"
+	quest.0BFBF916B58BF952.quest_subtitle: "提交4种焦炭食物"
+	quest.0BFBF916B58BF952.title: "烧焦了也能吃"
 	quest.0C4859FFFC25935A.quest_desc: [
 		"&l&d「冥界骑士」"
 		"&6生命：&a600"
@@ -532,19 +627,19 @@
 	]
 	quest.0C4859FFFC25935A.quest_subtitle: "★★"
 	quest.0C4859FFFC25935A.title: "领主的崛起：冥界骑士"
+	quest.0C6C9EF6B3BA9388.title: "观察：潮涌核心"
+	quest.0C7E174EA1711BFA.title: "观察：竹子"
+	quest.0D59D12207F20A4C.title: "观察：闪熠绣球花"
 	quest.0DD185730F003AC4.quest_desc: [
 		"&c进阶高级附魔台&6允许你自由打造你的装备，"
 		"&6提供 &n附魔自选、附魔移除、经验维修&r &6等功能。"
 	]
 	quest.0DD185730F003AC4.quest_subtitle: "随心所欲"
 	quest.0DD185730F003AC4.title: "进阶高级附魔台"
+	quest.0F00F91A36533F86.quest_desc: ["&a目标：观察一只电龙"]
+	quest.0F00F91A36533F86.quest_subtitle: "了解电龙习性"
+	quest.0F00F91A36533F86.title: "观察电龙"
 	quest.0F4C981910BE7936.quest_subtitle: "“三杯不过乡”"
-	quest.0F5B55722015AC72.quest_desc: [
-		"&b冰龙血&r与&b沼泽银锭&r在&b龙霜锻炉&r中熔炼而成，"
-		"可用于打造强力的龙霜装备。"
-		""
-		"&c（配方已修改，需要永恒星光的深银锭）"
-	]
 	quest.0F8D2B34E704C083.quest_subtitle: "抽取泰拉饰品"
 	quest.0F8D2B34E704C083.title: "泰拉饰品盲盒"
 	quest.0FB3F40215AD09FA.quest_desc: [
@@ -592,7 +687,6 @@
 	]
 	quest.101EAA70BF95EBE6.quest_subtitle: "挖掘尘封的秘密"
 	quest.1029B426047952E5.quest_subtitle: "果味米酒"
-	quest.1059575F262AC4A7.title: "击败：咒翼灵骸"
 	quest.10B31CDCE12AD99C.quest_desc: [
 		"战斗：专攻火魔法，将敌人烧死。"
 		"能力："
@@ -641,6 +735,7 @@
 	quest.113378DAACF3A395.title: "幻术师魔宠"
 	quest.11394C5FEF7DB9AA.quest_subtitle: "水光潋滟晴方好"
 	quest.11394C5FEF7DB9AA.title: "&f神圣学派"
+	quest.115598900952BB0D.title: "打卡：蕈毒灌丛带"
 	quest.1164ECE00370CB7B.title: "腰带T3"
 	quest.117731AAE830A4E2.quest_subtitle: "专为非酋准备"
 	quest.117731AAE830A4E2.title: "破败战镰保底"
@@ -687,6 +782,8 @@
 		"&a引力拉扯： &6将玩家强行拖向黑暗二重身并造成巨量伤害"
 	]
 	quest.11FC2E4D6E6B0D93.title: "铁魔法：黑暗二重身"
+	quest.129D51D8293CDE87.quest_desc: ["&9结构罗盘：&b【YUNG】丛林神庙&r"]
+	quest.129D51D8293CDE87.title: "挑战：丛林神庙"
 	quest.12A10457CBA9AF23.quest_desc: [
 		"&6铁箍卷册&r由&e初学者日志&r升级获得，没有特殊能力。"
 		""
@@ -695,6 +792,12 @@
 		"&c（配方已修改，需要初学者日志）"
 	]
 	quest.12A10457CBA9AF23.quest_subtitle: "破旧，但极具性价比"
+	quest.12E2CD43AD01F522.title: "击杀：沼骸"
+	quest.12EB86E73FDAF20F.quest_desc: ["&a目标：观察一只火龙"]
+	quest.12EB86E73FDAF20F.quest_subtitle: "了解火龙习性"
+	quest.12EB86E73FDAF20F.title: "观察火龙"
+	quest.12F9EDC857BB2555.quest_subtitle: "提交所有洞穴龙专属食物"
+	quest.12F9EDC857BB2555.title: "洞穴龙的美食"
 	quest.132B8803AE174E78.quest_desc: [
 		"右键单击一个&a幻术师魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6林地府邸&r 中找到"
 		""
@@ -708,6 +811,7 @@
 	quest.138CBAC873742985.quest_subtitle: "玉衡固已骖，羲和若飞凌"
 	quest.138CBAC873742985.title: "&a玉衡"
 	quest.1399E2FD5FF13DE5.quest_subtitle: "冰冰凉凉的"
+	quest.13F417E2FB58EB86.title: "观察：锆蓝花簇"
 	quest.1420594CE21D4239.quest_desc: [
 		"&6每个菜品都有其对应的属性，如果加入禁止出现的属性相关的原料，会发生什么？&r"
 		""
@@ -769,6 +873,12 @@
 	]
 	quest.15CE2F1DA319C4B4.quest_subtitle: "★★★"
 	quest.15CE2F1DA319C4B4.title: "灾变：斯库拉"
+	quest.15D4B079675BDA00.quest_desc: [
+		"&a目标：获得龙霜钢锭"
+		""
+		"&b冰龙鳞+玻璃瓶=冰龙血（龙霜锻炉）"
+	]
+	quest.15D4B079675BDA00.quest_subtitle: "配方已修改，需要深银锭"
 	quest.15E9E6DAEC4C69CE.quest_desc: [
 		"&a目标：获得憎恶之蜂"
 		""
@@ -787,12 +897,11 @@
 	quest.16B32CB0D55A9718.title: "项链T0"
 	quest.16DAA386E0B19BB2.quest_subtitle: "保底：憎恶之蜂"
 	quest.16DAA386E0B19BB2.title: "养蜂人"
+	quest.170C5452183F9D7E.title: "观察：硫凝灌木"
 	quest.1744C1A7A7BFF4D7.quest_desc: ["&6赛钱箱似乎无法取出5円的钱币，可以在这里兑换&r"]
 	quest.1744C1A7A7BFF4D7.quest_subtitle: "不过没人会这么干吧。。。"
 	quest.1744C1A7A7BFF4D7.title: "钱币兑换"
 	quest.17515F5286481727.quest_subtitle: "果汁味酒？"
-	quest.1763F94C6795007C.quest_subtitle: "集齐所有火龙蛋"
-	quest.1763F94C6795007C.title: "火龙之母"
 	quest.17657D2F96109698.quest_desc: ["&7&o暂未完成，仅能创造模式召唤，等待后续版本"]
 	quest.17657D2F96109698.title: "泰拉生物：血肉墙"
 	quest.179D57F81FF5C594.quest_subtitle: "苦味橙汁饮"
@@ -885,6 +994,8 @@
 	]
 	quest.186EDCECB309BC44.quest_desc: ["&6龙之生存常用的合成材料。"]
 	quest.186EDCECB309BC44.quest_subtitle: "大龙残躯"
+	quest.18BC27F09DE456D2.title: "击杀：溺尸"
+	quest.19632689D6646EBD.quest_desc: ["&a目标：获得龙霜钢剑"]
 	quest.196959C6E061913D.quest_desc: [
 		"&l&d「黑耀巨石柱」"
 		"&6生命：&a1200"
@@ -923,6 +1034,7 @@
 	]
 	quest.196959C6E061913D.quest_subtitle: "★★★"
 	quest.196959C6E061913D.title: "祸乱鬼魅：黑耀巨石柱"
+	quest.19878C818E548C2D.title: "观察：根须"
 	quest.19BFE7F4FD9FF5A4.quest_desc: [
 		"&eAlshanex's Familiars"
 		"&e铁魔法&6的附属，添加了&212种&6名为&a魔宠&6的生物。"
@@ -935,12 +1047,12 @@
 	quest.19BFE7F4FD9FF5A4.quest_subtitle: "旅途中的伙伴"
 	quest.19BFE7F4FD9FF5A4.title: "Alshanex的魔宠"
 	quest.19DA784FDC312506.quest_desc: [
-		"&a目标：成长到成年阶段，击败黑暗二重身"
+		"&a目标：成长到始祖龙阶段，击败黑暗二重身"
 		""
 		"&6最终的试炼，是直面你内心的&5黑暗&6，从而超越自我！"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11FC2E4D6E6B0D93\" } }"
 	]
-	quest.19DA784FDC312506.quest_subtitle: "【森林龙支线    完结】"
+	quest.19DA784FDC312506.quest_subtitle: "【森林龙成长之路    完结】"
 	quest.19DA784FDC312506.title: "&2森林龙毕业"
 	quest.19EC475553EC785D.quest_subtitle: "呐，要开始放晴了哟~"
 	quest.19EC475553EC785D.title: "切换天气"
@@ -953,7 +1065,27 @@
 		""
 		"&9结构罗盘：&b【魔宠】下界墓园"
 	]
+	quest.1AF16021BB5DD12E.quest_subtitle: "完成森林龙的部分成就"
+	quest.1AF16021BB5DD12E.title: "森林龙趣味挑战"
 	quest.1B1B8104DED5F4AE.title: "下界合金锭"
+	quest.1B240FEAC3D29C3B.quest_desc: [
+		"&a目标：获得任意飞龙的龙蛋"
+		""
+		"&e龙蛋&6是生存模式中驯服飞龙的唯一途径，"
+		"&6孵化龙蛋可以得到一只驯服的飞龙幼崽。"
+		""
+		"&6龙蛋可在&e母龙洞穴&6的箱子中找到，"
+		"&6龙蛋也可由&e4级及以上的雌性飞龙&6掉落0~3枚。"
+		"&6任意飞龙都具有繁殖能力，喂食对应的繁殖食物，"
+		"&6可以使两只异性且同属性的飞龙其开始繁殖，"
+		"&6繁殖完成后进入300秒冷却，龙蛋孵化要6分钟。"
+		""
+		"&c火龙蛋：火焰中孵化"
+		"&b冰龙蛋：水中孵化"
+		"&d电龙蛋：暴露在主世界降雨/雷暴中孵化"
+	]
+	quest.1B240FEAC3D29C3B.quest_subtitle: "孵蛋教程"
+	quest.1B240FEAC3D29C3B.title: "龙蛋"
 	quest.1B336B03AEFB2C85.title: "初入下界"
 	quest.1B49BF139BC95806.title: "首饰T3"
 	quest.1B5966A6D00F42D9.title: "腰带T0"
@@ -987,8 +1119,15 @@
 	]
 	quest.1CECEAD9D6372EF2.quest_subtitle: "太极生两仪"
 	quest.1CECEAD9D6372EF2.title: "&3两仪学派"
-	quest.1D0081D64CC79335.quest_desc: ["火焰沼泽的主宰？该易主了！"]
-	quest.1D0081D64CC79335.title: "击败：九头蛇"
+	quest.1D9504E868F7E724.quest_desc: ["&o&7不想写了，自己看书"]
+	quest.1D9504E868F7E724.quest_subtitle: "篇章：异兽挑战"
+	quest.1DF1EB641301D0B7.quest_desc: [
+		"&a目标：集齐4种火龙龙鳞"
+		""
+		"&c火龙鳞+玻璃瓶=火龙血（龙炎锻炉）"
+	]
+	quest.1DF1EB641301D0B7.quest_subtitle: "可炼制龙血"
+	quest.1DF1EB641301D0B7.title: "火龙龙鳞"
 	quest.1DF883931DC04F9D.quest_desc: ["&6不稳定时空碎片 在背包中放置一个小时后转化为此物品。用于合成维度网络发生器。"]
 	quest.1DFB8CC52BD51F13.quest_desc: [
 		"女仆最喜欢蛋糕了！"
@@ -1026,8 +1165,6 @@
 	quest.203D481DA0DFD214.title: "一把...艺术品？"
 	quest.20418663EEBB6E73.quest_subtitle: "天权非远近，不可向人宣"
 	quest.20418663EEBB6E73.title: "&2天权"
-	quest.205622939C4498B4.quest_subtitle: "集齐龙霆钢护甲套装"
-	quest.205622939C4498B4.title: "龙霆钢护甲"
 	quest.207E629A52675614.quest_subtitle: "保底：遗忆块"
 	quest.207E629A52675614.title: "深园之主"
 	quest.208CA6AD540C7968.quest_desc: [
@@ -1038,6 +1175,7 @@
 	quest.20B8EE9922330B51.quest_desc: ["                                &o&8祸水澡堂Pro Max试炼版"]
 	quest.20B8EE9922330B51.quest_subtitle: "圣域的结构诡章与深渊回响"
 	quest.20B8EE9922330B51.title: "恶魔的怜悯"
+	quest.20D561FC8502C837.title: "击杀：抓人草"
 	quest.20FA399F30BF33A4.quest_subtitle: "给我加一片柠檬"
 	quest.21609D985B493CCB.quest_desc: [
 		"&e月藤巨物&6死后无法重生，"
@@ -1106,6 +1244,12 @@
 	quest.225FF303E21AE00E.title: "拉回骷髅王"
 	quest.22616810BC8A22CA.quest_subtitle: "&5&l「末」&r&d一枚神奇的空间戒指"
 	quest.22616810BC8A22CA.title: "第三幕：赠礼"
+	quest.2280D541B1EF061F.quest_desc: [
+		"&a目标：获得龙炎钢锭"
+		""
+		"&c火龙鳞+玻璃瓶=火龙血（龙炎锻炉）"
+	]
+	quest.2280D541B1EF061F.quest_subtitle: "配方已修改，需要热泉石锭"
 	quest.228A2960FA4D62F7.quest_desc: [
 		"&l&d「钢铁守护者」"
 		"&6生命：&a40"
@@ -1145,6 +1289,9 @@
 	]
 	quest.2294D847D63E0ADE.quest_subtitle: "学习横滚技能"
 	quest.2294D847D63E0ADE.title: "原初锚点"
+	quest.22CDEC8A0577E317.quest_desc: ["&a目标：获得龙炎钢剑"]
+	quest.22DFEA6E1E1AE527.quest_subtitle: "成长到远古龙阶段"
+	quest.22DFEA6E1E1AE527.title: "远古洞穴龙"
 	quest.2382792253556556.quest_desc: [""]
 	quest.2382792253556556.quest_subtitle: "&5&l「末」&r&d龙族的长公主?"
 	quest.2382792253556556.title: "第一幕：苏醒"
@@ -1168,6 +1315,8 @@
 		""
 		"&6此方块可以暴露整个维度网络的存储空间。使用其他模组的存储总线连接，即可管理维度网络中所有物品。同时也支持各种管道和漏斗直接交互。"
 	]
+	quest.24A1E8B804776D1F.quest_subtitle: "成长到青年龙阶段"
+	quest.24A1E8B804776D1F.title: "青年洞穴龙"
 	quest.24BCC3403F50D4C8.quest_subtitle: "每条龙保底一次"
 	quest.24BCC3403F50D4C8.title: "二重身之戒保底"
 	quest.24F3DC3742819BE4.quest_desc: [
@@ -1187,6 +1336,7 @@
 	quest.251F47EF8754FE5B.quest_desc: ["&c完成章节【车万女仆】后解锁！"]
 	quest.251F47EF8754FE5B.quest_subtitle: "让你的女仆无敌"
 	quest.251F47EF8754FE5B.title: "&d替身地藏"
+	quest.25492A56F5CD9CC3.title: "击杀：喷火甲虫"
 	quest.254ACB3DBF934D44.quest_desc: [
 		"&6集齐&3暮色森林&6的所有&2树木、树苗、树叶&6以及&2木制品&6。"
 		"&6按&d【L】&6查看&a疯狂树木学家&6进度，"
@@ -1217,8 +1367,6 @@
 		""
 		"&9结构罗盘：&b【铁魔法】召唤师塔"
 	]
-	quest.25FEF0F43BEB4D48.quest_subtitle: "集齐所有电龙蛋"
-	quest.25FEF0F43BEB4D48.title: "电龙之母"
 	quest.266DB339AFE5B9FE.quest_subtitle: "保底：血腥脊椎"
 	quest.266DB339AFE5B9FE.title: "猩红主宰"
 	quest.267503A8DD306195.quest_subtitle: "咖啡冰淇淋~"
@@ -1262,12 +1410,10 @@
 		""
 		"&l&d生成"
 		"&6本整合包中，作为暮色森林&b终焉城堡&6的最终BOSS。"
-		"&6也能在主世界的&b传送门遗迹&6中发现。"
 		"&6右键守门人与之进行对话，选择挑战后开启战斗。"
 		"&6当然，还有其它的一些选项为玩家提供相应功能。"
 		""
 		"&9结构罗盘：&b终焉高原城堡&r"
-		"&9结构罗盘：&b【永恒星光】传送门遗迹&r"
 		"{@pagebreak}"
 		"&l&d攻略"
 		"同一名守门人可以重复挑战，每挑战成功一次，"
@@ -1322,7 +1468,6 @@
 		""
 		"&6未加入任何维度网络的玩家使用绑定过的连接器可以加入此网络。"
 	]
-	quest.293035C1DD54C4F1.title: "击败：幻影骑士"
 	quest.293872FA6D26833A.quest_desc: [
 		"召唤女仆需要先准备好以下矿物："
 		"&6&l青金石、钻石、金锭、红石、铁锭、煤炭。"
@@ -1353,8 +1498,15 @@
 		"&c灾变&6联动的法术书，&bGTBC&6的法术书。"
 		"&6以及来自你内心的阴暗面：&5黑暗二重身"
 	]
-	quest.2A5E822D66F0BEA1.quest_subtitle: "魔法师的封王之路"
+	quest.2A5E822D66F0BEA1.quest_subtitle: "魔法师的成长之途"
 	quest.2A5E822D66F0BEA1.title: "&e&l番外：铁魔法"
+	quest.2A767F024C8A36EC.quest_desc: [
+		"&a目标：获得火龙血"
+		""
+		"&c绯夜脂锭+火龙血=热泉石锭（龙炎锻炉）"
+		"&c热泉石锭+火龙血=龙炎钢锭（龙炎锻炉）"
+	]
+	quest.2A767F024C8A36EC.quest_subtitle: "可炼制龙钢"
 	quest.2A8CFDF67C993880.quest_subtitle: "宛如一颗璀璨的明珠，以其独树一帜的结构与迷人风貌，吸引着无数人前去探索"
 	quest.2A8CFDF67C993880.title: "绽亡回廊与血纹穹顶"
 	quest.2A93227E5737BF76.quest_subtitle: "集齐所有魔法书"
@@ -1400,9 +1552,8 @@
 		"&c注：德鲁伊魔宠禁止自然生成，请在系统商店购买"
 	]
 	quest.2B8490063511F9F1.title: "德鲁伊魔宠"
-	quest.2C055589A88C2771.title: "最易得的食物"
-	quest.2C22C80A46B75A14.quest_subtitle: "集齐龙炎钢武器套装"
-	quest.2C22C80A46B75A14.title: "龙炎钢武器"
+	quest.2C055589A88C2771.quest_subtitle: "开启森林龙的成长之路"
+	quest.2C055589A88C2771.title: "幼年森林龙"
 	quest.2C76712CBF85E716.quest_desc: [
 		"&a目标：找到下僻巢穴"
 		""
@@ -1439,6 +1590,8 @@
 	quest.2CDF187F53C29F22.quest_subtitle: "没有龙知道光之女皇去了哪里"
 	quest.2CDF187F53C29F22.title: "光明教堂"
 	quest.2CEFD2DF7A413288.title: "灾变BOSS召唤物"
+	quest.2CFCFA632C2D16F5.quest_desc: ["&9结构罗盘：&b黑松骑士要塞&r"]
+	quest.2CFCFA632C2D16F5.title: "挑战：黑松骑士要塞"
 	quest.2D088213B9CC2A49.quest_subtitle: "醉梦遇桃仙"
 	quest.2D1E2EFF45970530.quest_desc: [
 		"&a目标：获得史莱姆皇冠"
@@ -1453,8 +1606,6 @@
 		""
 		"&9结构罗盘：&b【铁魔法】冰霜术士塔"
 	]
-	quest.2DA301EFC51D515A.quest_subtitle: "集齐龙霆钢武器套装"
-	quest.2DA301EFC51D515A.title: "龙霆钢武器"
 	quest.2E299ACD32EA2CA2.quest_desc: [
 		"&a目标：击败骷髅王，获得骨头手套"
 		""
@@ -1472,6 +1623,7 @@
 	quest.2EB0BF01344C3DD7.title: "钻心紫颂果"
 	quest.2EBCC86372D200F5.quest_subtitle: "你选择成为：洞穴龙"
 	quest.2EBCC86372D200F5.title: "『化龍』洞穴龙！"
+	quest.2ECA4D4990D20697.quest_desc: ["&a目标：获得龙霆钢剑"]
 	quest.2ECA678E765E94F4.quest_desc: [
 		"战斗：擅长可怕的魔法和未知的艺术，能够召唤在阴影中诞生的生物。"
 		"能力："
@@ -1483,10 +1635,20 @@
 		"&9结构罗盘：&b远古城市"
 	]
 	quest.2ECA678E765E94F4.title: "唤魔师魔宠"
+	quest.2ECFB391DB73DDF9.quest_subtitle: "升级森林龙4个被动技能到满级"
+	quest.2ECFB391DB73DDF9.title: "掌握木之奥义"
 	quest.2F2C234A12BA69AD.title: "金海龟蛋"
 	quest.2F3416393FD59904.title: "首饰T2"
 	quest.2F7FBB0379616F31.quest_subtitle: "每条龙保底一次"
 	quest.2F7FBB0379616F31.title: "二重身之戒保底"
+	quest.2F9F01BE658EB7F7.quest_desc: [
+		"&a目标：获得三种飞龙颅骨"
+		""
+		"&6如果你是龙，那么冰火传说的飞龙会保持&e中立&6。"
+		"&6除非你主动攻击龙，或者开龙巢里的宝箱。"
+		"&6龙的强度很高，非必要不要去屠龙。"
+	]
+	quest.2F9F01BE658EB7F7.quest_subtitle: "中立的龙"
 	quest.2FB59F656446274D.quest_desc: [
 		"&6空手Shift右键绑定到当前玩家所在的维度网络。维度网络管理员空手Shift右键可取消绑定。"
 		""
@@ -1502,6 +1664,8 @@
 		""
 		"&6如果打开了弹出模式，将标记的物品弹出到周围的有效方块中"
 	]
+	quest.2FEE9B22743CCCBC.quest_desc: ["&9结构罗盘：&b牛头人迷宫&r"]
+	quest.2FEE9B22743CCCBC.title: "挑战：牛头人迷宫"
 	quest.2FFA72EF12E63FC6.quest_desc: [
 		"&6使用&b灵魂之瓶&6撰写&b魂灵法术"
 		"{image:iss_magicfromtheeast:item/bottle_of_souls width:100 height:100 align:center}"
@@ -1534,7 +1698,10 @@
 		"&e晶化浆果&6是魔宠最喜欢的食物，可以唤醒记忆。"
 	]
 	quest.309081C2591414CB.quest_subtitle: "培育一只嗅探兽"
+	quest.309615294A70B9E9.quest_desc: ["&9结构罗盘：&b【YUNG】沙漠神殿&r"]
+	quest.309615294A70B9E9.title: "挑战：沙漠神殿"
 	quest.30A3124E55AA6C4F.title: "高阶唤魔师装备"
+	quest.312B58307C35BF7B.title: "打卡：丛林"
 	quest.313AE70B278B465E.title: "羊毛自选"
 	quest.314CC9DE3650F016.quest_subtitle: "你想知道的都在这里"
 	quest.314CC9DE3650F016.title: "记忆中的幻想乡"
@@ -1561,6 +1728,8 @@
 		""
 		"&6用于合成模组的其他物品。"
 	]
+	quest.31A9F50E9E58685D.quest_subtitle: "升级海洋龙4个被动技能到满级"
+	quest.31A9F50E9E58685D.title: "掌握水之奥义"
 	quest.31D2F941929D88CD.title: "护符T1"
 	quest.31E0FB1E1052AF73.quest_subtitle: "集齐以太龙特殊食物"
 	quest.31E0FB1E1052AF73.title: "以太龙：吃饱好上路"
@@ -1586,17 +1755,16 @@
 		""
 		"&e卷轴誊写桌&6用于解锁&e异兽手记&6的章节。"
 	]
-	quest.32499F89EEAA2C31.quest_subtitle: "誊写时间到"
-	quest.330A0420C0913252.quest_desc: [
-		"&d电龙血&r与&d天赐锭&r在&d龙霆锻炉&r中熔炼而成，"
-		"可用于打造强力的龙霆装备。"
-		""
-		"&c（配方已修改，需要永恒星光的天赐锭）"
-	]
-	quest.330A0420C0913252.quest_subtitle: "需要：天赐锭"
+	quest.32499F89EEAA2C31.quest_subtitle: "揭开尘封的秘密"
+	quest.32499F89EEAA2C31.title: "卷轴誊写桌"
+	quest.32F93BDD9F3692F9.title: "击杀：塔木蛀虫"
+	quest.330CE4B915D1BB41.quest_subtitle: "成长到远古龙阶段"
+	quest.330CE4B915D1BB41.title: "远古海洋龙"
 	quest.33959EE68C579CD0.title: "吟游诗人装备"
-	quest.341092EC0D9FF3B8.quest_subtitle: "集齐森林龙特殊食物"
-	quest.341092EC0D9FF3B8.title: "森林龙：吃饱好上路"
+	quest.33C7AE423913A469.quest_subtitle: "击杀斯库拉，提交其掉落物"
+	quest.33C7AE423913A469.title: "铸就水之龙躯"
+	quest.341092EC0D9FF3B8.quest_subtitle: "提交所有森林龙的专属食物"
+	quest.341092EC0D9FF3B8.title: "森林龙的美食"
 	quest.34155DB28754AEA6.quest_subtitle: "集齐所有脚饰"
 	quest.34155DB28754AEA6.title: "&a脚饰毕业"
 	quest.34157C6ADA0E26B8.quest_desc: [
@@ -1640,7 +1808,13 @@
 	quest.34F81E5815B0AB4B.title: "远古战场"
 	quest.3510A0C79536CCF4.quest_desc: ["&6空白升级&r用于合成各种背包升级。"]
 	quest.3510A0C79536CCF4.title: "空白升级"
-	quest.3572B144AAD56CB8.title: "击败：远古遗魂"
+	quest.354B2616B210E3AB.quest_desc: [
+		"&a目标：获得冰龙血"
+		""
+		"&b绯夜脂锭+冰龙血=天赐锭（龙霆锻炉）"
+		"&b深银锭+冰龙血=龙霜钢锭（龙霜锻炉）"
+	]
+	quest.354B2616B210E3AB.quest_subtitle: "可炼制龙钢"
 	quest.359B897165997027.quest_desc: [
 		"&6=====作者====="
 		"&ePork猪排"
@@ -1679,7 +1853,6 @@
 	]
 	quest.359B897165997027.quest_subtitle: "截至发布日期，排名不分先后"
 	quest.359B897165997027.title: "鸣谢名单"
-	quest.362EC528DB932AB2.title: "击败：冰雪女王"
 	quest.3643966DD5B81882.quest_desc: [
 		"&a目标：获得生物球和生物捕捉发射器"
 		""
@@ -1705,7 +1878,12 @@
 		"&6击杀它们有极小概率掉落&e可疑眼球&6。"
 	]
 	quest.36DC294FB4535945.quest_subtitle: "召唤克苏鲁之眼"
+	quest.3753EB478219DC26.quest_desc: ["&9结构罗盘：&b【铁魔法】远古战场&r"]
+	quest.3753EB478219DC26.title: "挑战：远古战场"
 	quest.377699546ACFFF81.title: "我看到了，他在动"
+	quest.37794577F6B10689.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6583633BEC31ECDF\" } }"]
+	quest.37794577F6B10689.quest_subtitle: "击杀焰魔，提交其掉落物"
+	quest.37794577F6B10689.title: "加冕火之王座"
 	quest.3788A310F9FCF833.quest_desc: [
 		"&6维度网络管理员潜行右键后可以将其绑定到当前网络。"
 		""
@@ -1857,6 +2035,14 @@
 	]
 	quest.3B02DF458924B95C.quest_subtitle: "★★★"
 	quest.3B02DF458924B95C.title: "祸乱鬼魅：虚空之花"
+	quest.3B43D96753BD0EB7.quest_desc: [
+		"&a目标：集齐4种电龙龙鳞"
+		""
+		"&d电龙鳞+玻璃瓶=电龙血（龙霆锻炉）"
+	]
+	quest.3B43D96753BD0EB7.quest_subtitle: "可炼制龙血"
+	quest.3B43D96753BD0EB7.title: "电龙龙鳞"
+	quest.3B93840E4935B0B0.title: "打卡：海洋"
 	quest.3BCE1EDA71616276.quest_desc: [
 		"&6维度网络管理员潜行右键后可以将其绑定到当前网络。"
 		""
@@ -2010,12 +2196,6 @@
 	quest.415DFAC173D75395.quest_subtitle: "集齐圣辉龙铠套装"
 	quest.415DFAC173D75395.title: "重塑金身"
 	quest.41A3F26879712764.title: "控上加控！小子"
-	quest.41B4C614DAE4F8C6.quest_desc: [
-		"&a目标：获得银锭"
-		""
-		"&e银锭&6是冰火传说的基础材料，"
-		"&6用于合成各种武器和装备。"
-	]
 	quest.41C8EFCFDDD74B24.quest_desc: [
 		"&e幻梦塔楼&6是一座位于末地外岛的巨型塔楼，"
 		"&6里面封印着数不清的&e幻翼&6，十分可怕。"
@@ -2026,6 +2206,13 @@
 	quest.41C8EFCFDDD74B24.title: "幻梦塔楼"
 	quest.41DB497093B18B47.title: "手饰T1"
 	quest.4218F6E0430B190C.title: "脚饰T3"
+	quest.422368D6F94C0ABD.quest_desc: [
+		"&a目标：集齐4种冰龙龙鳞"
+		""
+		"&b冰龙鳞+玻璃瓶=冰龙血（龙霜锻炉）"
+	]
+	quest.422368D6F94C0ABD.quest_subtitle: "可炼制龙血"
+	quest.422368D6F94C0ABD.title: "冰龙龙鳞"
 	quest.4279F24877D6BBD8.quest_subtitle: "生鲜刺身~"
 	quest.42921D7314712236.quest_desc: ["&a目标：集齐饰品图鉴中的所有饰品"]
 	quest.42921D7314712236.quest_subtitle: "集齐饰品图鉴"
@@ -2144,7 +2331,6 @@
 	]
 	quest.4633599C0B5F87C4.quest_subtitle: "【以太龙支线    完结】"
 	quest.4633599C0B5F87C4.title: "&3以太龙毕业"
-	quest.464C5EA5AB175449.title: "击败：下界合金巨兽"
 	quest.465680AFE754AEAD.quest_desc: [
 		"&a目标：观察BOSS重生笼5秒"
 		""
@@ -2176,6 +2362,8 @@
 	quest.466B0E05A6EA4EF9.quest_subtitle: "你想知道的都在这里"
 	quest.466B0E05A6EA4EF9.title: "旋律魔法"
 	quest.469F6CC93F386C31.title: "脚饰T1"
+	quest.46A3CDDB1A15D9FE.quest_subtitle: "成长到太古龙阶段"
+	quest.46A3CDDB1A15D9FE.title: "太古洞穴龙"
 	quest.46B59FCB1F923106.quest_subtitle: "魔女研制...靠谱吗？"
 	quest.47197E018F97C457.quest_subtitle: "起舞弄清影"
 	quest.47197E018F97C457.title: "&5末影学派"
@@ -2189,8 +2377,6 @@
 	quest.474EB22EE7989B00.quest_subtitle: "地灵殿限定！"
 	quest.47A5ABEFE4273BB2.quest_desc: ["&6可用于合成以及激活龙之信标。"]
 	quest.47A5ABEFE4273BB2.quest_subtitle: "激活龙之信标"
-	quest.48712D4FF467ACC0.quest_subtitle: "集齐霜钢龙铠套装"
-	quest.48712D4FF467ACC0.title: "霜钢龙铠"
 	quest.48BAABC889E9DC5F.quest_desc: [
 		"&l&d「暗夜巫妖」"
 		"&6生命：&a1600"
@@ -2254,6 +2440,8 @@
 		"食物：可以用神圣珍珠来治疗。"
 	]
 	quest.494B6EFDE9F2D605.title: "牧师魔宠"
+	quest.49E035E1CB353C48.quest_subtitle: "成长到成年龙阶段"
+	quest.49E035E1CB353C48.title: "成年海洋龙"
 	quest.49E7BEC398FC9C2D.quest_desc: [
 		"&a目标：获得竖琴"
 		""
@@ -2270,6 +2458,8 @@
 	quest.4A5D5042C28278A2.quest_subtitle: "&8如有不懂对着物品按b可跳转至百科页面"
 	quest.4A7563FCA42C104D.quest_subtitle: "重置祸乱鬼魅的BOSS结构"
 	quest.4A7563FCA42C104D.title: "硫磺花蜜"
+	quest.4A99ADF6D98D8013.quest_subtitle: "完成洞穴龙的部分成就"
+	quest.4A99ADF6D98D8013.title: "洞穴龙趣味挑战"
 	quest.4A99D680EDD3652F.quest_subtitle: "星河倒映天枢碧，人间岁月任风吹"
 	quest.4A99D680EDD3652F.title: "&4天枢"
 	quest.4AC69031BAEF29B0.quest_desc: [
@@ -2307,10 +2497,10 @@
 	quest.4B0B81F46A5AA9B1.title: "&5里面的魔法火焰有着我设想中清除高地荆棘的力量"
 	quest.4B2A79FC0C011CB2.quest_desc: [
 		"&a目标：集齐龙钢锻炉核心，成功搭建龙钢锻炉"
+		"{ \"text\": \"完成主线第三章，赠送龙钢煅炉材料，点我跳转\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6344D6B5AEC69478\" } }"
 		""
 		"&e龙钢锻炉&6是一种&a多方块结构&6，用于锻造龙钢。"
 		"&6搭建方法请查阅&e异兽笔记&6的龙钢锻炉章节。"
-		"{ \"text\": \"完成主线第三章，赠送龙钢煅炉材料，点我跳转\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6344D6B5AEC69478\" } }"
 		"&6本整合包的龙钢配方和远古龙心配方经过修改："
 		""
 		"&c热泉石锭+火龙血=龙炎钢锭（龙炎锻炉）"
@@ -2369,11 +2559,10 @@
 		"&6在此使用对应BOSS召唤物兑换。"
 	]
 	quest.4CDDA5881AD6B269.title: "克苏鲁之眼重生笼"
+	quest.4D01D14ECFF753E3.quest_desc: ["&a目标：获得龙食和萎靡龙食"]
+	quest.4D01D14ECFF753E3.quest_subtitle: "养龙教程"
 	quest.4D0EC1E180924188.quest_subtitle: "每条龙保底一次"
 	quest.4D0EC1E180924188.title: "二重身之戒保底"
-	quest.4D45756FE0991E0E.quest_desc: ["&a目标：集齐银武器和工具"]
-	quest.4D45756FE0991E0E.quest_subtitle: "亡灵克星"
-	quest.4D45756FE0991E0E.title: "银制武器"
 	quest.4D951950709A61AE.quest_subtitle: "夜幕低垂掩玉盘,璇玑运转探天关"
 	quest.4D951950709A61AE.title: "&b天玑"
 	quest.4DB8F1F62D30A922.quest_subtitle: "囊中羞涩..."
@@ -2402,16 +2591,7 @@
 	quest.4E01D9B83B3691D9.quest_subtitle: "“试炼”吗？有趣"
 	quest.4E01D9B83B3691D9.title: "试炼之地"
 	quest.4E1F113694EB8B3E.title: "猩红教徒装备"
-	quest.4E6A2FC933BF6095.quest_desc: [
-		"&a目标：集齐白银龙铠"
-		""
-		"&b冰&c火&7传说&6的&e龙铠&6原本只能给玩家&a驯服的龙&6穿戴，"
-		"&6本整合包中，&a玩家变成的龙&6也可以穿戴龙铠。"
-		"&6并且，龙铠能提供对应材质护甲的&21.5倍护甲值&6。"
-	]
-	quest.4E6A2FC933BF6095.quest_subtitle: "龙铠穿戴机制"
-	quest.4E6A2FC933BF6095.title: "白银龙铠"
-	quest.4E7A2F0EC914F641.title: "击败：雪怪首领"
+	quest.4E5621A393AE202A.title: "打卡：沙漠"
 	quest.4EA1E667EEB78818.quest_desc: [
 		"&a目标：找到巨龙高塔"
 		""
@@ -2422,6 +2602,10 @@
 	quest.4EA1E667EEB78818.quest_subtitle: "欲与天公试比高"
 	quest.4EA1E667EEB78818.title: "巨龙高塔"
 	quest.4EABE5099C2968E9.title: "蛇鳞编织成的战甲，具有优良的导魔功能"
+	quest.4ED0A659EAD11758.quest_subtitle: "完成海洋龙的部分成就"
+	quest.4ED0A659EAD11758.title: "海洋龙趣味挑战"
+	quest.4EF97EAAF38EFE5D.quest_subtitle: "提交5种生肉"
+	quest.4EF97EAAF38EFE5D.title: "开始狩猎"
 	quest.4F22E8922ED55EE2.quest_desc: [
 		"&6右键打开当前玩家的维度网络控制界面。"
 		""
@@ -2447,6 +2631,13 @@
 	]
 	quest.4F977202E988A26C.quest_subtitle: "【魔宠支线    完结】"
 	quest.4F977202E988A26C.title: "&3&l吟游诗人魔宠"
+	quest.4F9B70EE7BB0E995.quest_desc: [
+		"&a目标：获得电龙血"
+		""
+		"&d绯夜脂锭+电龙血=天赐锭（龙霆锻炉）"
+		"&d天赐锭+电龙血=龙霆钢锭（龙霆锻炉）"
+	]
+	quest.4F9B70EE7BB0E995.quest_subtitle: "可炼制龙钢"
 	quest.4FC2986473F06494.quest_desc: [
 		"&a目标：击败遗忆守卫，合成遗忆锭"
 		""
@@ -2496,12 +2687,12 @@
 	]
 	quest.5083AFBE18C36085.title: "纹章施法的用法"
 	quest.508986FA5D56C11E.quest_desc: [
-		"&a目标：成长到成年阶段，击败黑暗二重身"
+		"&a目标：成长到始祖龙阶段，击败黑暗二重身"
 		""
 		"&6最终的试炼，是直面你内心的&5黑暗&6，从而超越自我！"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11FC2E4D6E6B0D93\" } }"
 	]
-	quest.508986FA5D56C11E.quest_subtitle: "【洞穴龙支线    完结】"
+	quest.508986FA5D56C11E.quest_subtitle: "【洞穴龙成长之路    完结】"
 	quest.508986FA5D56C11E.title: "&c洞穴龙毕业"
 	quest.5096264BBB1C9577.quest_subtitle: "无尽的法力"
 	quest.50A3AE4D35FD1CB3.quest_desc: [
@@ -2570,6 +2761,8 @@
 	]
 	quest.52095C31FABA1ED2.quest_subtitle: "必读"
 	quest.52095C31FABA1ED2.title: "&c注意事项"
+	quest.520B151B10A3DBB0.quest_subtitle: "提交15种种子"
+	quest.520B151B10A3DBB0.title: "种子库管理员"
 	quest.526BA251E243D7B6.title: "这些小玩具是他的武器吗？"
 	quest.52760593973916B2.quest_desc: [
 		"&a目标：合成巨型火把"
@@ -2581,8 +2774,8 @@
 		"&6它的进阶版为&c镇压之杖&6。"
 	]
 	quest.52760593973916B2.quest_subtitle: "禁止怪物生成"
-	quest.52992AED4B9D32CE.quest_subtitle: "集齐龙炎钢护甲套装"
-	quest.52992AED4B9D32CE.title: "龙炎钢护甲"
+	quest.5290F30C84D09FDE.quest_subtitle: "升级洞穴龙4个被动技能到满级"
+	quest.5290F30C84D09FDE.title: "掌握火之奥义"
 	quest.52E270E37E59D418.quest_subtitle: "抽取暮色森林的树苗"
 	quest.52E270E37E59D418.title: "暮色树苗盲盒"
 	quest.53401F206F58F9C4.quest_desc: [
@@ -2670,6 +2863,12 @@
 	quest.54D89A06AB657651.quest_subtitle: "称霸天空，大地将匍匐在我的脚下"
 	quest.54D89A06AB657651.title: "击败：月藤巨物"
 	quest.55C69AD6F42A1ADA.quest_subtitle: "奶油薄荷"
+	quest.561497395CA5BFAC.quest_desc: [
+		"&a目标：获得龙霆钢锭"
+		""
+		"&d电龙鳞+玻璃瓶=电龙血（龙霆锻炉）"
+	]
+	quest.561497395CA5BFAC.quest_subtitle: "配方已修改，需要天赐锭"
 	quest.563FC8788BBCE015.quest_desc: [
 		"&l&2【背景故事】&l&6序章&r"
 		"&d&l第一章 龙族"
@@ -2711,6 +2910,9 @@
 	]
 	quest.56AEAD8720A0B3F9.quest_subtitle: "学会龙族的飞行"
 	quest.56AEAD8720A0B3F9.title: "蹒跚学“飞”"
+	quest.56B33061AF98D6B8.quest_desc: ["&a目标：观察一只冰龙"]
+	quest.56B33061AF98D6B8.quest_subtitle: "了解冰龙习性"
+	quest.56B33061AF98D6B8.title: "观察冰龙"
 	quest.56B73043CC964E09.quest_desc: [
 		"&a目标：掠夺一只村民"
 		""
@@ -2755,13 +2957,12 @@
 	quest.59340FB7B273A35A.title: "&d神话级寻龙杖"
 	quest.593BB9B492CFB1D9.quest_subtitle: "野火烧不尽"
 	quest.593BB9B492CFB1D9.title: "&6炽焰学派"
+	quest.59524F0DEF703874.title: "挑战：卫城"
 	quest.59590736E74E343F.quest_subtitle: "保底：可疑眼球"
 	quest.59590736E74E343F.title: "猎魔人"
 	quest.59638405BD4083B3.quest_desc: ["被关押在牛头人迷宫深处的、半哞菇半米诺陶的野兽，它的肉据说可以驱散火焰。"]
 	quest.59638405BD4083B3.quest_subtitle: "只有傻子才会被这种贫弱的生物击败"
 	quest.59638405BD4083B3.title: "&2一只不同寻常的特殊品种吗"
-	quest.5965C07E170893BD.quest_subtitle: "集齐龙霜钢护甲套装"
-	quest.5965C07E170893BD.title: "龙霜钢护甲"
 	quest.5966396EB517125D.quest_desc: [
 		"&6维度网络所有者潜行右键后可以将其绑定到当前网络。"
 		""
@@ -2789,7 +2990,8 @@
 	quest.5A3133909B9A3A68.quest_subtitle: "你的皮毛很适合做我的战利品"
 	quest.5A3133909B9A3A68.title: "&f白白胖胖"
 	quest.5A78C2A5AB660898.title: "瘟疫医生装备"
-	quest.5AAE0970AABAF89B.title: "最廉价的食物"
+	quest.5AAE0970AABAF89B.quest_subtitle: "开启洞穴龙的成长之路"
+	quest.5AAE0970AABAF89B.title: "幼年洞穴龙"
 	quest.5AEA0A59F42E7C52.quest_desc: [
 		"&a目标：学会使用随机传送"
 		""
@@ -2799,11 +3001,10 @@
 	]
 	quest.5AEA0A59F42E7C52.quest_subtitle: "/rtp"
 	quest.5AEA0A59F42E7C52.title: "随机传送"
-	quest.5B60ED73D1238ADB.quest_subtitle: "集齐炎钢龙铠套装"
-	quest.5B60ED73D1238ADB.title: "炎钢龙铠"
 	quest.5B754E8171325667.quest_subtitle: "&5&l「末」&r&d这就是飞行的感觉吗？"
 	quest.5B754E8171325667.title: "第二幕：化龙"
 	quest.5B9E398C385E0CA1.quest_subtitle: "平原上的白色小花"
+	quest.5BAF5C77F3373696.title: "观察：海泡菜"
 	quest.5BB4A81605A76537.quest_desc: [
 		"&a目标：集齐所有龙的毕业证"
 		"&a目标：通关所有主线任务（番外不算）"
@@ -2892,6 +3093,19 @@
 	quest.5D05EE02D584AF2F.title: "闪闪发光"
 	quest.5D56B0917C5223A6.quest_desc: ["&6亲和之戒加上法术卷轴可以在奥术铁砧上敲成对应法术等级加一的戒指"]
 	quest.5D56B0917C5223A6.title: "戒指T0"
+	quest.5DB104CFE665CC09.quest_desc: [
+		"&2自然罗盘：&a内陆沙漠&r"
+		"&2自然罗盘：&a巨人柱沙漠&r"
+		"&2自然罗盘：&a短叶丝兰沙漠&r"
+		"&2自然罗盘：&a莫哈韦沙漠&r"
+		"&2自然罗盘：&a风袭沙漠&r"
+		"&2自然罗盘：&a晶化沙漠&r"
+		"&9结构罗盘：&b【地牢浮现之时】矿业综合体&r"
+		"&9结构罗盘：&b【地牢浮现之时】机械巢穴&r"
+		"&9结构罗盘：&b【地牢浮现之时】刻律涅牝鹿的尸骨&r"
+	]
+	quest.5DB104CFE665CC09.quest_subtitle: "打卡6种沙漠生物群系和部分结构"
+	quest.5DB104CFE665CC09.title: "我要穿越这片沙漠"
 	quest.5DD97094AAD4DDA2.quest_subtitle: "“性价比之王”"
 	quest.5E2F36A14E2F1879.quest_desc: [
 		"&a目标：击败克苏鲁之眼，获得克苏鲁护盾"
@@ -2906,8 +3120,6 @@
 	]
 	quest.5E2F36A14E2F1879.quest_subtitle: "击败克苏鲁之眼"
 	quest.5E2F36A14E2F1879.title: "克苏鲁之眼"
-	quest.5E337D8193FB4FB1.quest_subtitle: "集齐霆钢龙铠套装"
-	quest.5E337D8193FB4FB1.title: "霆钢龙铠"
 	quest.5E4E661E1E3FE198.quest_subtitle: "你选择成为：晶咒龙"
 	quest.5E4E661E1E3FE198.title: "『化龍』晶咒龙！"
 	quest.5E900BCFB09D80BF.quest_desc: [
@@ -2917,6 +3129,8 @@
 	quest.5E900BCFB09D80BF.quest_subtitle: "小龙子，你真令我欢喜"
 	quest.5E900BCFB09D80BF.title: "首战：末影龙"
 	quest.5EE6DC4771476CC8.quest_subtitle: "“异格威士忌”"
+	quest.5EFF5C22E67BCE5D.quest_subtitle: "位于末地"
+	quest.5EFF5C22E67BCE5D.title: "打卡：海晶森林"
 	quest.5F710FD97963CF8F.title: "牧师装备"
 	quest.5FCFEA69626A53AE.quest_desc: [
 		"&d&l【中式庭院】"
@@ -2933,7 +3147,6 @@
 	quest.5FCFEA69626A53AE.title: "预制建筑：中式庭院"
 	quest.6039C867A958BDB9.quest_subtitle: "幽匿之力吗？不过我不会在害怕了"
 	quest.6039C867A958BDB9.title: "击败：慈悲"
-	quest.6091A3E4C32BB6E3.title: "击败：暮初恶魂"
 	quest.6096A24B9426FCFC.quest_desc: [
 		"&a目标：合成猎人碎片"
 		""
@@ -2943,8 +3156,6 @@
 	]
 	quest.60B7FFFA63E2B4B2.title: "冰霜执法者装备"
 	quest.60E6ED7ED056ABDD.title: "护符T2"
-	quest.613DC6E8C659D68A.quest_desc: [""]
-	quest.613DC6E8C659D68A.title: "击败：暗夜巫妖"
 	quest.61841B2C10B08D91.quest_desc: [
 		"&a目标：第一行用绿色简述任务的完成目标"
 		""
@@ -3003,8 +3214,12 @@
 		"&6击杀&a克苏鲁之眼&6有一半的概率掉落&e蠕虫诱饵&7。"
 	]
 	quest.61FC9B0F0771F14C.quest_subtitle: "召唤世界吞噬怪"
+	quest.620D2C27E39DACD0.quest_subtitle: "成长到成年龙阶段"
+	quest.620D2C27E39DACD0.title: "成年洞穴龙"
 	quest.62129DE5962CF7BE.quest_subtitle: "woc,bin!"
 	quest.62129DE5962CF7BE.title: "苔原龙：吃饱好上路"
+	quest.631EAD310B77371D.quest_desc: ["&9结构罗盘：&b【地牢浮现之时】荆棘城堡&r"]
+	quest.631EAD310B77371D.title: "挑战：荆棘城堡"
 	quest.63279D96E6BC9CC7.quest_desc: ["&6附魔法术书&r是选择流派前的毕业魔法书。"]
 	quest.63279D96E6BC9CC7.quest_subtitle: "通用魔法书的顶点"
 	quest.6344D6B5AEC69478.quest_desc: [
@@ -3020,8 +3235,8 @@
 	]
 	quest.6344D6B5AEC69478.quest_subtitle: "【第三章    完结】"
 	quest.6344D6B5AEC69478.title: "&d&l终末星光"
-	quest.634C5657E921C26C.quest_subtitle: "集齐海洋龙特殊食物"
-	quest.634C5657E921C26C.title: "海洋龙：吃饱好上路"
+	quest.634C5657E921C26C.quest_subtitle: "提交所有海洋龙的专属食物"
+	quest.634C5657E921C26C.title: "海洋龙的美食"
 	quest.63DB1E9C5C2FDC80.quest_desc: [
 		"&6允许你像&e创世神&6一样修改地形和建筑，拥有无限耐久。"
 		""
@@ -3114,6 +3329,9 @@
 		"&6然后你就可以用盔甲架摆出各种pose啦。"
 	]
 	quest.6796172A3CF129FB.quest_subtitle: "Shift+右键"
+	quest.67DC6EC2B82FCFB1.title: "打卡：暮光沼泽"
+	quest.680E37E83464BEE6.quest_subtitle: "完成炽海生机的部分成就"
+	quest.680E37E83464BEE6.title: "岩浆里也有鱼？"
 	quest.68A904F25FFE8956.quest_desc: [
 		"&l&d「暮初恶魂」"
 		"&6生命：&a1600"
@@ -3126,7 +3344,6 @@
 	quest.68A904F25FFE8956.quest_subtitle: "★★★"
 	quest.68A904F25FFE8956.title: "暮色森林：暮初恶魂"
 	quest.68F38201DF496DA9.quest_subtitle: "无尽的法力"
-	quest.690F6FE8B1F4791E.title: "击败：斯库拉"
 	quest.6913F9E2EE2202C3.title: "非酋看过来"
 	quest.69BE2E1BCBE71766.title: "魔法书T0"
 	quest.69C53D16FB6FCEF5.quest_desc: [
@@ -3144,6 +3361,7 @@
 	]
 	quest.6A03B959A1B214E6.quest_subtitle: "【精妙背包支线    完结】"
 	quest.6A03B959A1B214E6.title: "堆叠升级Ω"
+	quest.6A0A7CA003C79A28.title: "打卡：锆蓝深海"
 	quest.6A1268143ED70C45.quest_desc: [
 		"&l&d「霜冻巨兽」"
 		"&6生命：&a250"
@@ -3209,7 +3427,6 @@
 	]
 	quest.6BD730F6532DEC81.quest_subtitle: "简易的建筑工具"
 	quest.6BD730F6532DEC81.title: "建筑棒"
-	quest.6C5D0AA1C1A8FBE1.title: "击败：米诺菇"
 	quest.6C7973AE332F1467.quest_desc: ["&2恭喜你完成了森林龙的专属挑战！"]
 	quest.6C896BDFB4BBB4E4.quest_desc: [
 		"&a目标：学会使用FTB区块"
@@ -3375,13 +3592,6 @@
 	]
 	quest.6EB8860F9973F098.quest_subtitle: "破碎虚空"
 	quest.6EB8860F9973F098.title: "虚空碎片"
-	quest.6EEBE4FBC79CD1C3.quest_desc: [
-		"&c火龙血&r与&c热泉石锭&r在&c龙炎锻炉&r中熔炼而成，"
-		"可用于打造强力的龙炎装备。"
-		""
-		"&c（配方已修改，需要永恒星光的热泉石锭）"
-	]
-	quest.6EEBE4FBC79CD1C3.quest_subtitle: "需要：热泉石锭"
 	quest.6F7A124D6DAE13F1.quest_desc: [
 		"&l&d「骷髅王」"
 		"&6生命：&a10000 (6000+2000×2)"
@@ -3391,7 +3601,7 @@
 		"&l&d生成"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E299ACD32EA2CA2\" } }"
 	]
-	quest.6F7A124D6DAE13F1.quest_subtitle: "★★★★★★"
+	quest.6F7A124D6DAE13F1.quest_subtitle: "★★★★★"
 	quest.6F7A124D6DAE13F1.title: "泰拉生物：骷髅王"
 	quest.6FD356A298590C96.quest_subtitle: "冒着泡泡的夏天"
 	quest.7001BFE7FD4B7BB7.title: "九头蛇的血与高塔恶魂的泪似乎能和铁发生反应"
@@ -3424,8 +3634,6 @@
 	quest.70B3BDBB273CB305.quest_desc: ["&b结构罗盘：&9&n【以太龙】云杉空岛 &r"]
 	quest.70B3BDBB273CB305.title: "前往：云杉空岛"
 	quest.70F041A9AA323CCD.quest_desc: ["&c恭喜你完成了洞穴龙的专属挑战！"]
-	quest.712F4257853741B2.quest_subtitle: "集齐龙霜钢武器"
-	quest.712F4257853741B2.title: "龙霜钢武器"
 	quest.71356A8881052F9A.quest_desc: [
 		"&e幻化台&6可以改变物品的外观。"
 		"&6如把钻石剑的外观替换为木剑，打一个出其不意。"
@@ -3441,7 +3649,8 @@
 	quest.714690F37BAB4187.quest_subtitle: "上古文明遗留的战争机器"
 	quest.714690F37BAB4187.title: "击败：先驱者"
 	quest.717F72FCA6275810.quest_subtitle: "经济实惠~"
-	quest.71BFA3CE3156E064.title: "击败：利维坦"
+	quest.71BFA3CE3156E064.quest_subtitle: "击杀利维坦，提交其掉落物"
+	quest.71BFA3CE3156E064.title: "加冕水之王座"
 	quest.7233CCCC69215923.quest_subtitle: "赤犬醉"
 	quest.72CDF89F0B188D26.quest_desc: [
 		"&6使用后能缩小体型，但是会扣除成长值。"
@@ -3523,8 +3732,12 @@
 	quest.74233FDAFCB21F8E.title: "克苏鲁之脑"
 	quest.745D36D1D182C0CD.title: "牧师装备"
 	quest.747F45AAE1161962.quest_subtitle: "平价好味"
+	quest.74AD0E230F7A62A1.quest_subtitle: "提交原版的7种树苗和暮色森林的10种树苗"
+	quest.74AD0E230F7A62A1.title: "理智的树木学家"
+	quest.74B48A026628E827.title: "观察：仙人掌"
 	quest.74D333ABF9D19A48.quest_subtitle: "你选择成为：苔原龙"
 	quest.74D333ABF9D19A48.title: "『化龍』苔原龙！"
+	quest.75439ACB199C6BBA.title: "击杀：远古骑士"
 	quest.7552748C8250227C.quest_desc: [
 		"&l&d「太阳鸟-乌姆武提」"
 		"&6生命：&a150"
@@ -3538,8 +3751,6 @@
 	quest.7552748C8250227C.title: "Mowzie的生物：太阳鸟-乌姆武提"
 	quest.756F07EF29A13F30.title: "泰拉BOSS召唤物"
 	quest.757AA29BE231F9BC.title: "初入暮色森林"
-	quest.75A9F93FF44CB19E.quest_subtitle: "集齐所有冰龙蛋"
-	quest.75A9F93FF44CB19E.title: "冰龙之母"
 	quest.75BFB4E20D3E76DC.quest_desc: [
 		"&a目标：集齐所有尖刺"
 		""
@@ -3560,6 +3771,8 @@
 		"食物：可以用毒蜘蛛牙治愈。"
 	]
 	quest.75DAC7E968F5A64D.title: "瘟疫医生魔宠"
+	quest.75F377E217613AEF.quest_subtitle: "成长到青年龙阶段"
+	quest.75F377E217613AEF.title: "青年海洋龙"
 	quest.762DDE9C0729E876.quest_subtitle: "集齐所有戒指"
 	quest.762DDE9C0729E876.title: "&a戒指毕业"
 	quest.7660B5738B22D1C0.quest_desc: [
@@ -3576,6 +3789,19 @@
 	]
 	quest.7669BD22EB40BE98.quest_subtitle: "与公会首领交易"
 	quest.766B3F52833465AC.title: "击败：末影守卫"
+	quest.7683B63A191EC24D.quest_desc: [
+		"&2自然罗盘：&a猩红森林&r"
+		"&2自然罗盘：&a螺旋藻森林&r"
+		"&2自然罗盘：&a星光森林&r"
+		"&2自然罗盘：&a星光密林&r"
+		"&2自然罗盘：&a星光永冻森林&r"
+		"&2自然罗盘：&a榧木森林&r"
+		"&9结构罗盘：&b【地牢浮现之时】蘑菇小屋&r"
+		"&9结构罗盘：&b【地牢浮现之时】蘑菇矿山&r"
+		"&9结构罗盘：&b【地牢浮现之时】蘑菇村落&r"
+	]
+	quest.7683B63A191EC24D.quest_subtitle: "打卡永恒星光的6种森林和部分结构"
+	quest.7683B63A191EC24D.title: "我看到了，生生不息的激荡！"
 	quest.76DA5D673D138D6D.quest_desc: [
 		"右键单击一个&a炽热魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6炽焰术士塔&r 中找到"
 		""
@@ -3583,7 +3809,6 @@
 		""
 		"&o&7注：也能在下界发现魔宠的结构中找到哦"
 	]
-	quest.76F28B29E4E99FDF.title: "击败：炎魔"
 	quest.77457906D3353B69.quest_desc: [
 		"&7【&d&lV&r&7】&5&l铁魔法：点按使用魔法"
 		"&7【&d&lT&r&7】&5&l铁魔法：打开法术轮盘"
@@ -3635,11 +3860,17 @@
 	]
 	quest.77B34238D24BB235.quest_subtitle: "雷惊天地龙蛇蛰"
 	quest.77B34238D24BB235.title: "&3雷霆学派"
+	quest.78154BF5E76EB76C.quest_desc: ["&7&o注：统计的单位是厘米(cm)"]
+	quest.78154BF5E76EB76C.quest_subtitle: "游泳2万米，水下行走2万米，水面行走2千米"
+	quest.78154BF5E76EB76C.title: "海底两万里"
+	quest.78411669AF1FD737.quest_subtitle: "提交11种桶装鱼"
+	quest.78411669AF1FD737.title: "熔岩捕鱼达人"
 	quest.788C34888B5F1C0E.quest_desc: [
 		"右键单击&a德鲁伊魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤带有其键绑定的绑定魔宠，可在&2丛林神庙&r中找到"
 		""
 		"&9结构罗盘：&b丛林神庙"
 	]
+	quest.788F9A70AD8AE1C7.title: "观察：巨型荷花"
 	quest.78C4C223493F39D2.quest_subtitle: "&5&l「末」&r&d龙族先辈的遗留"
 	quest.78C4C223493F39D2.title: "第四幕：龙心"
 	quest.78D2FCC2F0B6177B.quest_desc: [""]
@@ -3659,13 +3890,8 @@
 	]
 	quest.794A761F064E6FD9.quest_subtitle: "里面有什么在吸引我"
 	quest.794A761F064E6FD9.title: "克服恐惧"
-	quest.798F1E9363DFE612.quest_desc: ["&9结构罗盘：&b【冰火传说】火龙"]
-	quest.798F1E9363DFE612.quest_subtitle: "谁才是火焰的主宰？"
-	quest.798F1E9363DFE612.title: "首战：火龙"
 	quest.79DBDE661A38E757.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
 	quest.79DBDE661A38E757.title: "泰拉饰品T3"
-	quest.7A25AF774AAFC3C8.quest_desc: [""]
-	quest.7A25AF774AAFC3C8.title: "击败：下界铁掌"
 	quest.7A9D8CB5ED4A6B1C.title: "脚饰T2"
 	quest.7AB503D1D36B29D9.quest_subtitle: "酒味果汁？"
 	quest.7ABE973DDBE56179.quest_subtitle: "幻梦筑构的双生悖论"
@@ -3691,6 +3917,7 @@
 		"&6野火灯笼会检测周围半径为 16 格的球中各个方块的亮度，若某方块的亮度小于 7，野火灯笼会尝试在其周围放置亮度为 11 的隐形光源。这可能会使其它模组的功能性方块、多方块结构等失效。"
 	]
 	quest.7BB8A9EB27C99160.quest_subtitle: "放置隐形光影"
+	quest.7BBFEA3573C09A67.title: "挑战：独眼巨人海湾"
 	quest.7BEEE28B8865648E.quest_desc: [
 		"&a目标：获得异兽手记"
 		""
@@ -3704,8 +3931,10 @@
 		"&7&o“用手稿编写出来的书籍，相当于一种指导书，指导着任何来到这个次元的冒险者的方向。”"
 		"&7&o“虽然不知道手稿的编写者是谁，但他为这个次元的探索做出了极大贡献。”——探险家笔记•异兽之旅"
 	]
-	quest.7BEEE28B8865648E.quest_subtitle: "你想知道的都在这里"
-	quest.7C024F9AAFDA7F51.title: "最常见的食物"
+	quest.7BEEE28B8865648E.quest_subtitle: "龙族的复兴之路"
+	quest.7BEEE28B8865648E.title: "&e&l番外：冰火传说"
+	quest.7C024F9AAFDA7F51.quest_subtitle: "开启海洋龙的成长之路"
+	quest.7C024F9AAFDA7F51.title: "幼年海洋龙"
 	quest.7C16FACA6A4DF20D.quest_desc: [
 		"&d&l【龙吟阁】"
 		""
@@ -3722,6 +3951,8 @@
 	quest.7C41D5EB11A83677.title: "项链T2"
 	quest.7C95E70F3183D31E.quest_subtitle: "蕾咪利亚·斯卡蕾特"
 	quest.7C9E4FA0FDC61357.title: "最爱吃的食物"
+	quest.7CCA24AC1BDC6433.quest_subtitle: "提交原版6种鱼桶和永恒星光3种鱼桶"
+	quest.7CCA24AC1BDC6433.title: "捕鱼达人"
 	quest.7D269A93BF875853.title: "兄弟你好香"
 	quest.7D308C430870C16F.quest_subtitle: "千古风流人物故垒西边"
 	quest.7D308C430870C16F.title: "&8邪术学派"
@@ -3732,6 +3963,13 @@
 		"&9结构罗盘：&b远古城市"
 	]
 	quest.7D81132CD0C6EF1C.quest_desc: ["&f恭喜你完成了苔原龙的专属挑战！"]
+	quest.7DA6938BDD9417AE.quest_desc: [
+		"&a目标：获得龙之骨"
+		""
+		"&6在世界各地，都能找到巨大的&e飞龙骨架&6。"
+		"&6右键拆解&e飞龙骨架&6，获得&e龙之骨&6等战利品。"
+	]
+	quest.7DA6938BDD9417AE.quest_subtitle: "篇章：龙族往事"
 	quest.7DB7B55E956A4A94.quest_desc: [
 		"&a目标：合成恐惧之灯"
 		""
@@ -3750,6 +3988,8 @@
 	]
 	quest.7E43C24DAFAF97FB.quest_subtitle: "在MC玩泰拉瑞亚"
 	quest.7E43C24DAFAF97FB.title: "汇流来世"
+	quest.7E7C768023F22D2E.quest_subtitle: "提交4种鱼和2种墨囊"
+	quest.7E7C768023F22D2E.title: "生鱼馄饨"
 	quest.7E8A3F928299D963.quest_desc: [
 		"&l&d「雪怪首领」"
 		"&6生命：&a1000"
@@ -3786,14 +4026,18 @@
 	]
 	quest.7F7757E6C4E4B498.quest_subtitle: "猎杀疣猪兽"
 	quest.7F7757E6C4E4B498.title: "疣猪兽皮"
+	quest.7F9E7B3E2BADCD5F.quest_subtitle: "成长到太古龙阶段"
+	quest.7F9E7B3E2BADCD5F.title: "太古森林龙"
 	quest.7FC498B5DDFD8500.title: "戒指T2"
 	reward.0A0F3DE349F4B9F1.title: "雷暴"
 	reward.273C176B55FD48D2.title: "切换天气"
+	reward.3476152E96B2633F.title: "随机龙蛋"
 	reward.454B2D28BF497396.title: "生成【珊瑚傀儡】"
 	reward.4605D18D17F1BB92.title: "化凡为人"
 	reward.4BCB923F946FBCF3.title: "生成【紫水晶巨蟹】"
 	reward.4FA5DE6B8C446E46.title: "雨雪"
 	reward.5A9476EF337264A3.title: "生成【珊瑚傀儡】"
+	reward.5DA01E41DB6D6A01.title: "自选龙蛋"
 	reward.67FF5A1ED814EF16.title: "生成【德鲁伊魔宠】"
 	reward.75A5CB8F03F3BFD2.title: "生成【宝箱怪】"
 	reward.7D4E423C2BEB7F9C.title: "晴天"
@@ -3824,11 +4068,11 @@
 	task.235B2B99657FD3F3.title: "抵达古城"
 	task.254EEE1BB90441AC.title: "抵达天际挑战者战舰"
 	task.2795504CF21E0901.title: "已读点我"
-	task.31C52CF060E6502D.title: "访问维度：暮色森林"
 	task.34D536E9CDE42AF8.title: "击杀星光傀儡"
 	task.36C84C69D5858996.title: "制作迷宫地图"
 	task.3F9D5A0ED02C341F.title: "观察[原初锚点]"
 	task.47EF0A9E75AD7C31.title: "抵达繁花之宫"
+	task.48D06F60D6501811.title: "小精灵村"
 	task.4DD3DC302875CF23.title: "已读点我"
 	task.51B6B7C3EE7C972C.title: "观察[仪式核心]"
 	task.53A89357B6E4BB6A.title: "抵达试炼密室"
