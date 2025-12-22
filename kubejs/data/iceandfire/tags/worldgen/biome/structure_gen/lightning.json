@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "#minecraft:is_jungle",
+    "#minecraft:is_badlands",
+    "#minecraft:is_savanna",
+    {
+      "required": false,
+      "id": "#twilightforest:in_twilight_forest"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    {
+      "required": false,
+      "id": "#c:is_swamp"
+    }
+  ]
+}

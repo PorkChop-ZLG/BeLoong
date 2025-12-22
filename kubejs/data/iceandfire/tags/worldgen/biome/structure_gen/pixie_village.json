@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mushroom_fields",
+    "minecraft:sparse_jungle",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:flower_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle",
+    "minecraft:forest",
+    "minecraft:dark_forest",
+    "#minecraft:is_forest",
+    "#minecraft:is_jungle",
+    {
+      "required": false,
+      "id": "#c:is_forest"
+    },
+    {
+      "required": false,
+      "id": "#c:is_jungle"
+    }
+  ]
+}

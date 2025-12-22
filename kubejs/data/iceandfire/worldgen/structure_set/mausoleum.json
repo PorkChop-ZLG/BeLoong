@@ -1,13 +1,13 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 7407930,
-    "separation": 20,
-    "spacing": 30
+    "salt": 14200531,
+    "separation": 32,
+    "spacing": 48
   },
   "structures": [
     {
-      "structure": "iceandfire:pixie_village",
+      "structure": "iceandfire:mausoleum",
       "weight": 1
     }
   ]
