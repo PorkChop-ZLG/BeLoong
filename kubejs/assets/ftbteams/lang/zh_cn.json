@@ -90,6 +90,13 @@
   "ftbteams.message.team_disbanded": "强制解散了队伍「%s」（%s）！",
 	"ftbteams.message.chat_redirected.on": "聊天消息已发送至队伍聊天",
 	"ftbteams.message.chat_redirected.off": "聊天消息已发送至原版聊天",
+  "ftbteams.message.added_stage": "已添加团队阶段：%s",
+  "ftbteams.message.no_team_stages": "该团队没有团队阶段",
+  "ftbteams.message.removed_stage": "已移除团队阶段：%s",
+  "ftbteams.message.team_stages_header": "该团队有 %s 个团队阶段：",
+  "ftbteams.message.set_property": "已将属性 %s 设置为 %s",
+  "ftbteams.message.parse_failed": "解析值失败：%s",
+  "ftbteams.message.property_not_editable": "属性 %s 不可编辑！",
   "ftbteams.accept": "接受 ✔",
   "ftbteams.decline": "拒绝 ✘",
   "ftbteams.click_show_info": "点击显示队伍信息"
