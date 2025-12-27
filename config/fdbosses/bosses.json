@@ -4,17 +4,17 @@
     "_comment_electrifiedAirCurrentHealthDamagePercent": "Defence from flight",
     "electrifiedAirCurrentHealthDamagePercent": 33.0,
     "_comment_electrifiedAirInstadeathHP": "Immediately kills the player if HP is lower than value",
-    "electrifiedAirInstadeathHP": 4.0,
-    "electricSphereDamage": 10.0,
-    "rockfallRayDamage": 10.0,
-    "kineticFieldRayDamage": 10.0,
-    "rockfallRockDamage": 5.0,
-    "earthquakeRayDamage": 5.0,
-    "eartquakeDamage": 5.0,
-    "rollAttackDamage": 8.0,
-    "blockAttackDamage": 10.0,
-    "rayDamage": 10.0,
-    "fireTrailDamage": 2.0,
+    "electrifiedAirInstadeathHP": 8.0,
+    "electricSphereDamage": 20.0,
+    "rockfallRayDamage": 20.0,
+    "kineticFieldRayDamage": 20.0,
+    "rockfallRockDamage": 10.0,
+    "earthquakeRayDamage": 10.0,
+    "eartquakeDamage": 10.0,
+    "rollAttackDamage": 16.0,
+    "blockAttackDamage": 20.0,
+    "rayDamage": 20.0,
+    "fireTrailDamage": 4.0,
     "finalAttackDamagePercentPerMonolith": 33.0,
     "_comment_healthAfterSecondPhaseTransition": "If health is greater than value, sets the health equal to the value",
     "healthAfterSecondPhaseTransition": 10.0,
@@ -25,26 +25,26 @@
     "shockDamageReductionPercent": 25.0
   },
   "itemConfig": {
-    "flyingSwordDamagePercent": 50.0,
+    "flyingSwordDamagePercent": 100.0,
     "chanceToSummonFlyingSword": 33.0,
     "_comment_flyingSwordShockDuration": "Time in ticks",
     "flyingSwordShockDuration": 100,
-    "lightningStrikeDamagePercent": 100.0,
+    "lightningStrikeDamagePercent": 200.0,
     "chanceToSummonLightningStrike": 33.0,
     "_comment_lightningStrikeShockDuration": "Time in ticks",
     "lightningStrikeShockDuration": 200,
-    "playerMalkuthFireballToolDamagePercent": 200.0,
-    "playerMalkuthFireballAbilityCooldown": 200
+    "playerMalkuthFireballToolDamagePercent": 500.0,
+    "playerMalkuthFireballAbilityCooldown": 100
   },
   "_comment_blocksAllowedToBreakInArena": "Block id regex. If you wish to add a single block id, do it like that: ^modid:block_id$",
   "blocksAllowedToBreakInArena": [
     "(grave)|(tomb)",
     "^tombstone:grave_simple$"
   ],
-  "peacefulDifficultyBossDamageMuliplier": 0.25,
-  "easyDifficultyBossDamageMultiplier": 0.5,
-  "normalDifficultyBossDamageMultiplier": 0.75,
-  "hardDifficultyBossDamageMultiplier": 1.0,
+  "peacefulDifficultyBossDamageMuliplier": 1.25,
+  "easyDifficultyBossDamageMultiplier": 1.5,
+  "normalDifficultyBossDamageMultiplier": 1.75,
+  "hardDifficultyBossDamageMultiplier": 2.0,
   "malkuthConfig": {
     "slashAttackDamage": 20.0,
     "sideRocksDamage": 40.0,
@@ -63,5 +63,5 @@
     "chainpunchCooldown": 150
   },
   "_comment_bossesDespawn": "Should bosses despawn if no target is found",
-  "bossesDespawn": false
+  "bossesDespawn": true
 }

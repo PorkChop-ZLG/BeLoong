@@ -1,16 +1,23 @@
 {
   "values": [
     "fdbosses:chesed_attack",
-    "fdbosses:chesed_lor_attack",
     "fdbosses:chesed_ba_attack",
-    "fdbosses:electric_sphere",
-    "fdbosses:chesed_falling_block",
-    "fdbosses:chesed_vertical_ray",
     "fdbosses:chesed_earthquake",
-    "fdbosses:chesed_roll_attack",
+    "fdbosses:chesed_falling_block",
+    "fdbosses:chesed_lor_attack",
     "fdbosses:chesed_rock_attack",
-    "fdbosses:malkuth_tsars_wrath",
-    "fdbosses:malkuth_cowardice"
+    "fdbosses:chesed_roll_attack",
+    "fdbosses:chesed_vertical_ray",
+    "fdbosses:electric_sphere",
+    "fdbosses:malkuth_cannons",
+    "fdbosses:malkuth_chainpunch",
+    "fdbosses:malkuth_cowardice",
+    "fdbosses:malkuth_earthshatter",
+    "fdbosses:malkuth_hellshaper",
+    "fdbosses:malkuth_impaling_doom",
+    "fdbosses:malkuth_side_rocks",
+    "fdbosses:malkuth_slashes",
+    "fdbosses:malkuth_tsars_wrath"
 
   ],
   "replace": false
