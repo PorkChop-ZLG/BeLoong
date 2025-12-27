@@ -188,6 +188,27 @@
           }
         },
         {
+          "items": "iceandfire:dragon_meal",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 2,
+            "saturation": 2.0,
+            "can_always_eat": true,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:saturation",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "ambient": true,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
+          }
+        },
+        {
           "items": "iceandfire:pixie_dust",
           "properties": {
             "nutrition": 1,
@@ -737,6 +758,27 @@
           "properties": {
             "nutrition": 8,
             "saturation": 13.0
+          }
+        },
+        {
+          "items": "iceandfire:dragon_meal",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 2,
+            "saturation": 2.0,
+            "can_always_eat": true,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:saturation",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "ambient": true,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
           }
         },
         {
@@ -1509,6 +1551,27 @@
           "properties": {
             "nutrition": 8,
             "saturation": 13.0
+          }
+        },
+        {
+          "items": "iceandfire:dragon_meal",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 2,
+            "saturation": 2.0,
+            "can_always_eat": true,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:saturation",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "ambient": true,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
           }
         },
         {
@@ -2610,6 +2673,27 @@
           }
         },
         {
+          "items": "iceandfire:dragon_meal",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 2,
+            "saturation": 2.0,
+            "can_always_eat": true,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:saturation",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "ambient": true,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
+          }
+        },
+        {
           "items": "dragonsurvival:frozen_raw_fish",
           "properties": {
             "can_always_eat": true,
@@ -3368,6 +3452,27 @@
           "properties": {
             "nutrition": 7,
             "saturation": 8.0
+          }
+        },
+        {
+          "items": "iceandfire:dragon_meal",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 2,
+            "saturation": 2.0,
+            "can_always_eat": true,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:saturation",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "ambient": true,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
           }
         },
         {
@@ -4136,6 +4241,27 @@
             "eat_seconds": 1.2,
             "nutrition": 2,
             "saturation": 4.0
+          }
+        },
+        {
+          "items": "iceandfire:dragon_meal",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 2,
+            "saturation": 2.0,
+            "can_always_eat": true,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:saturation",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "ambient": true,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
           }
         },
         {
@@ -4919,6 +5045,27 @@
             "eat_seconds": 1.2,
             "nutrition": 2,
             "saturation": 4.0
+          }
+        },
+        {
+          "items": "iceandfire:dragon_meal",
+          "properties": {
+            "eat_seconds": 2.0,
+            "nutrition": 2,
+            "saturation": 2.0,
+            "can_always_eat": true,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:saturation",
+                  "amplifier": 0,
+                  "duration": 100,
+                  "ambient": true,
+                  "show_particles": false,
+                  "show_icon": true
+                }
+              }
+            ]
           }
         },
         {
