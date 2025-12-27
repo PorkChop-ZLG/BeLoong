@@ -1,0 +1,11 @@
+{
+  "key": "liebel_eyebrow",
+  "texture": "dragonsurvival:textures/dragon/custom/liebel_eyebrow.png",
+  "average_hue": 0.4056366108594648,
+  "applicable_species": [
+    "dragonsurvival:tundra_dragon_human"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:tundra_body_human"
+  ]
+}
