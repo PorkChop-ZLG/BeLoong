@@ -1,7 +1,8 @@
 // 禁用物品列表
 let bannedItems = [
     'touhou_little_maid_spell:chaos_book',
-    'touhou_little_maid_spell:soul_book'
+    'touhou_little_maid_spell:soul_book',
+    'touhou_little_maid_spell:sliver_cercis'
 ];
 
 // 移除禁用物品的所有合成配方
