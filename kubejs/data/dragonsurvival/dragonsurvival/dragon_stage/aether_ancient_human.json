@@ -14,7 +14,7 @@
     }
   ],
   "growth_range": {
-    "max": 251.0,
+    "max": 250.0,
     "min": 150.0
   },
   "is_default": false,
@@ -23,8 +23,8 @@
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 186.0,
-        "per_level_above_first": 6.0
+        "base": 188,
+        "per_level_above_first": 8.0
       },
       "attribute": "minecraft:generic.max_health",
       "operation": "add_value"
@@ -32,8 +32,8 @@
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 15.32,
-        "per_level_above_first": 0.32
+        "base": 15.48,
+        "per_level_above_first": 0.48
       },
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value"
@@ -41,26 +41,6 @@
     {
       "amount": 4.0,
       "attribute": "minecraft:generic.armor",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.04,
-      "attribute": "minecraft:generic.movement_speed",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.4,
-      "attribute": "minecraft:generic.jump_strength",
-      "operation": "add_value"
-    },
-    {
-      "amount": 2.4,
-      "attribute": "minecraft:generic.step_height",
-      "operation": "add_value"
-    },
-    {
-      "amount": 37.0,
-      "attribute": "minecraft:generic.safe_fall_distance",
       "operation": "add_value"
     },
     {
