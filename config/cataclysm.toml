@@ -516,11 +516,11 @@
 	#Ancient Remnant's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 8.0
+	AncientRemnantHealthMultiplier = 4.0
 	#Ancient Remnant's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 4.0
+	AncientRemnantDamageMultiplier = 2.0
 	#AncientRemnant's Healing with out target
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
@@ -532,7 +532,7 @@
 	#Ancient Remnant's DamageCap
 	# Default: 21.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantCap = 400.0
+	AncientRemnantCap = 100.0
 	#Ancient Remnant's DamageTime
 	# Default: 12
 	# Range: 0 ~ 100
@@ -752,7 +752,7 @@
 	#Scylla's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 3.0
+	ScyllaHealthMultiplier = 4.0
 	#Scylla's Damage Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -788,7 +788,7 @@
 	#Scylla's DamageCap
 	# Default: 22.0
 	# Range: 0.0 ~ 1000000.0
-	"Scylla DamageCap" = 40.0
+	"Scylla DamageCap" = 100.0
 	#Scylla's DamageTime
 	# Default: 25
 	# Range: 0 ~ 100
