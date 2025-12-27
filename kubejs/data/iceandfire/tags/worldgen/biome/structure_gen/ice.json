@@ -16,6 +16,14 @@
     {
       "required": false,
       "id": "#c:is_cold"
+    },
+    {
+      "required": false,
+      "id": "twilightforest:snowy_forest"
+    },
+    {
+      "required": false,
+      "id": "twilightforest:glacier"
     }
   ]
 }

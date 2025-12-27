@@ -15,6 +15,14 @@
     {
       "required": false,
       "id": "#c:is_hot"
+    },
+    {
+      "required": false,
+      "id": "twilightforest:swamp"
+    },
+    {
+      "required": false,
+      "id": "twilightforest:fire_swamp"
     }
   ]
 }

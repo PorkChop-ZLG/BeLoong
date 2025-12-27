@@ -8,7 +8,11 @@
     "#minecraft:is_savanna",
     {
       "required": false,
-      "id": "#twilightforest:in_twilight_forest"
+      "id": "twilightforest:dark_forest"
+    },
+    {
+      "required": false,
+      "id": "twilightforest:thornlands"
     }
   ]
 }
