@@ -31,7 +31,7 @@
 				"minecraft:wither",
 				"minecraft:zombie_villager"
 			],
-			"numEntitiesKilledToDropSoulStar": 50
+			"numEntitiesKilledToDropSoulStar": 20
 		}
 	},
 	"obsidilithConfig": {
