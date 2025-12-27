@@ -1,0 +1,80 @@
+player2:
+  type: chat
+  api_type: openai
+  url: http://127.0.0.1:4315/v1
+  api_key: empty
+  models:
+  - default
+openai:
+  type: chat
+  url: https://api.openai.com/v1
+  api_key: null
+  models:
+  - gpt-4o
+  - chatgpt-4o-latest
+  - gpt-4o-mini
+  - o1
+  - o1-mini
+  - o3-mini
+  - o1-preview
+  api_type: openai
+aliyun:
+  type: chat
+  url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  api_key: null
+  models:
+  - qwen-plus
+  - qwen-max
+  - qwen-turbo
+  - qwen-long
+  api_type: openai
+deepseek:
+  type: chat
+  url: https://api.deepseek.com
+  api_key: null
+  models:
+  - deepseek-chat
+  - deepseek-reasoner
+  api_type: openai
+system:
+  type: tts
+  api_type: system
+  url: no_url
+  api_key: empty_key
+  models:
+  - default
+gpt-sovits:
+  type: tts
+  api_type: gpt-sovits
+  url: http://127.0.0.1:9880/tts
+  api_key: empty_key
+  models:
+  - default
+  extra_args:
+    ref_audio_path: null
+    prompt_text: null
+    prompt_lang: zh
+    text_split_method: cut1
+    aux_ref_audio_paths: []
+fish-audio:
+  type: tts
+  url: https://api.fish-audio.cn/v1
+  api_key: null
+  models:
+  - b2b2d0fa88ee44d789da28ebbd97421e
+  - 4858e0be678c4449bf3a7646186edd42
+  - 1aacaeb1b840436391b835fd5513f4c4
+  - ec4875ed4e154ed09d1b501a2214579a
+  - bcbb6d60721c44a489bc33dd59ce7cfc
+  - bca87f0aa93f4e85aee1e132ca6bd254
+  - b85f3ec7e48b4abfaa723d95c1cdaff5
+  - ac7df666cedb48fda3820bf404691c88
+  - 0b808d6e6c4a47999e50ffbbc47172c3
+  api_type: fish-audio
+fish-audio-cn:
+  type: tts
+  url: https://api.fish.audio/v1
+  api_key: null
+  models:
+  - 4858e0be678c4449bf3a7646186edd42
+  api_type: fish-audio

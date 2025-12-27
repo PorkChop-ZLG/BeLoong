@@ -45,8 +45,14 @@ config/**
 
 !config/artifacts/
 !config/artifacts/**
+!config/explorerscompass/
+!config/explorerscompass/**
 !config/fancymenu/
 !config/fancymenu/**
+!config/fdbosses/
+!config/fdbosses/**
+!config/fdlib/
+!config/fdlib/**
 !config/ftbquests/
 !config/ftbquests/**
 !config/iceandfire/
@@ -59,10 +65,14 @@ config/**
 !config/l2configs/**
 !config/ModernUI/
 !config/ModernUI/**
+!config/mystiasizakaya/
+!config/mystiasizakaya/**
 !config/paxi/
 !config/paxi/**
 !config/regions_unexplored/
 !config/regions_unexplored/**
+!config/touhou_little_maid/
+!config/touhou_little_maid/**
 !config/voicechat/
 !config/voicechat/**
 
