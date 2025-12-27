@@ -96,6 +96,7 @@ config/**
 !config/entity_tracker-client.toml
 !config/entityculling.json
 !config/eternal_starlight.json
+!config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
 !config/ftbquests-client.snbt
