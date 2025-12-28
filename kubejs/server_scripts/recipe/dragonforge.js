@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "fire",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "ice",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -143,7 +143,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "lightning",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -160,7 +160,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "fire",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "ice",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -194,7 +194,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "lightning",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -211,7 +211,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "fire",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -228,7 +228,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "ice",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "lightning",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -262,7 +262,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "fire",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -279,7 +279,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "ice",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -296,7 +296,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "lightning",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -313,7 +313,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "fire",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -330,7 +330,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "ice",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -347,7 +347,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "lightning",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -364,7 +364,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "fire",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -381,7 +381,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "ice",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
@@ -398,7 +398,7 @@ ServerEvents.recipes(event => {
         {
             "type": "iceandfire:dragonforge",
             "dragonType": "lightning",
-            "cookTime": 1200,
+            "cookTime": 2400,
             "input": {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
