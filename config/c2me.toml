@@ -80,7 +80,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Set to false for the following reasons: 
 	# Incompatible with twilightforest@4.7.3196 (*) (defined in c2me) 
-	optimizeStructureWeightSampler = "default"
+	optimizeStructureWeightSampler = "false"
 
 [chunkSystem]
 	# (Default: true) Whether to enable async serialization
