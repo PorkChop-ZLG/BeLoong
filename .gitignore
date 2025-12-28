@@ -106,6 +106,14 @@ config/**
 !config/entity_tracker-client.toml
 !config/entityculling.json
 !config/eternal_starlight.json
+!config/explorerscompass-client.toml
+!config/explorerscompass-common.toml
+!config/exposure_polaroid-client.toml
+!config/exposure_polaroid-server.toml
+!config/exposure-client.toml
+!config/exposure-common.toml
+!config/exposure-server.toml
+!config/extradelight-common.toml
 !config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
