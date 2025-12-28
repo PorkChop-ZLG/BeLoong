@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:birch_river",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "moogs_structures:advanced_random_spread",
+
+    "salt": 33165454,
+
+    "spacing": 96,
+
+    "separation": 34
+  }
+}

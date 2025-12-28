@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:tree_8",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "moogs_structures:advanced_random_spread",
+
+    "salt": 858574474,
+
+    "spacing": 156,
+
+    "separation": 64
+  }
+}
