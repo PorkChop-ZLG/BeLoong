@@ -85,6 +85,7 @@ config/**
 !config/bosses_of_mass_destruction.json5
 !config/bosses_rise_config.toml
 !config/butchercraft-common.toml
+!config/c2me.toml
 !config/carryon-client.toml
 !config/carryon-common.toml
 !config/cataclysm.toml
