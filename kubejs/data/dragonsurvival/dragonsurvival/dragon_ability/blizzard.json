@@ -1,0 +1,500 @@
+{
+	"actions": [
+		{
+			"target_selection": {
+				"applied_effects": {
+					"target_conditions": {
+						"condition": "minecraft:location_check",
+						"offsetY": 1,
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:air"
+							}
+						}
+					},
+					"block_effect": [
+						{
+							"conversion_data": [
+								{
+									"blocks_to": [
+										{
+											"state": {
+												"Name": "minecraft:ice"
+											},
+											"weight": 9
+										},
+										{
+											"state": {
+												"Name": "minecraft:packed_ice"
+											},
+											"weight": 1
+										}
+									],
+									"from_predicate": {
+										"type": "minecraft:matching_blocks",
+										"blocks": [
+											"minecraft:water"
+										]
+									}
+								}
+							],
+							"effect_type": "dragonsurvival:conversion",
+							"probability": 0.4
+						}
+					]
+				},
+				"range_multiplier": 1.5,
+				"target_type": "dragonsurvival:dragon_breath"
+			},
+			"trigger_rate": 3.0
+		},
+		{
+			"target_selection": {
+				"target_type": "dragonsurvival:dragon_breath",
+				"applied_effects": {
+					"block_effect": [
+						{
+							"effect_type": "dragonsurvival:conversion",
+							"conversion_data": [
+								{
+									"from_predicate": {
+										"type": "minecraft:matching_blocks",
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									"blocks_to": [
+										{
+											"state": {
+												"Name": "minecraft:snow",
+												"Properties": {
+													"layers": "1"
+												}
+											},
+											"weight": 1
+										}
+									]
+								}
+							],
+							"probability": {
+								"type": "minecraft:linear",
+								"base": 0.2,
+								"per_level_above_first": 0.2
+							}
+						},
+						{
+							"effect_type": "dragonsurvival:conversion",
+							"conversion_data": [
+								{
+									"from_predicate": {
+										"type": "minecraft:matching_blocks",
+										"blocks": [
+											"minecraft:short_grass",
+											"minecraft:tall_grass",
+											"minecraft:fern",
+											"minecraft:large_fern"
+										]
+									},
+									"blocks_to": [
+										{
+											"state": {
+												"Name": "minecraft:snow",
+												"Properties": {
+													"layers": "1"
+												}
+											},
+											"weight": 1
+										}
+									]
+								}
+							],
+							"probability": {
+								"type": "minecraft:linear",
+								"base": 0.1,
+								"per_level_above_first": 0.1
+							}
+						}
+					],
+					"target_conditions": {
+						"condition": "minecraft:location_check",
+						"offsetY": -1,
+						"predicate": {
+							"block": {
+								"blocks": "#icedragon:blizzard_snowable"
+							}
+						}
+					}
+				},
+				"range_multiplier": 1.5
+			},
+			"trigger_rate": 2
+		},
+		{
+			"target_selection": {
+				"target_type": "dragonsurvival:dragon_breath",
+				"applied_effects": {
+					"block_effect": [
+						{
+							"effect_type": "dragonsurvival:conversion",
+							"conversion_data": [
+								{
+									"from_predicate": {
+										"type": "minecraft:matching_blocks",
+										"blocks": "minecraft:snow",
+										"state": {
+											"layers": "1"
+										}
+									},
+									"blocks_to": [
+										{
+											"state": {
+												"Name": "minecraft:snow",
+												"Properties": {
+													"layers": "2"
+												}
+											},
+											"weight": 1
+										}
+									]
+								}
+							],
+							"probability": {
+								"type": "minecraft:linear",
+								"base": 0.04,
+								"per_level_above_first": 0.04
+							}
+						},
+						{
+							"effect_type": "dragonsurvival:conversion",
+							"conversion_data": [
+								{
+									"from_predicate": {
+										"type": "minecraft:matching_blocks",
+										"blocks": "minecraft:snow",
+										"state": {
+											"layers": "2"
+										}
+									},
+									"blocks_to": [
+										{
+											"state": {
+												"Name": "minecraft:snow",
+												"Properties": {
+													"layers": "3"
+												}
+											},
+											"weight": 1
+										}
+									]
+								}
+							],
+							"probability": {
+								"type": "minecraft:linear",
+								"base": 0.02,
+								"per_level_above_first": 0.02
+							}
+						}
+					]
+				},
+				"range_multiplier": 1.5
+			},
+			"trigger_rate": 2
+		},
+		{
+			"target_selection": {
+				"applied_effects": {
+					"block_effect": [
+						{
+							"conversion_data": [
+								{
+									"blocks_to": [
+										{
+											"state": {
+												"Name": "minecraft:cobblestone"
+											},
+											"weight": 25
+										}
+									],
+									"from_predicate": {
+										"type": "minecraft:matching_blocks",
+										"blocks": [
+											"minecraft:lava"
+										]
+									}
+								}
+							],
+							"effect_type": "dragonsurvival:conversion",
+							"probability": 0.25
+						}
+					],
+					"target_conditions": {
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"fluid": {
+								"fluids": "minecraft:lava",
+								"state": {
+									"falling": "false"
+								}
+							}
+						}
+					}
+				},
+				"range_multiplier": 1.5,
+				"target_type": "dragonsurvival:dragon_breath"
+			},
+			"trigger_rate": 4.0
+		},
+		{
+			"target_selection": {
+				"applied_effects": {
+					"block_effect": [
+						{
+							"conversion_data": [
+								{
+									"blocks_to": [
+										{
+											"state": {
+												"Name": "minecraft:air"
+											},
+											"weight": 25
+										}
+									],
+									"from_predicate": {
+										"type": "minecraft:matching_blocks",
+										"blocks": [
+											"minecraft:fire"
+										]
+									}
+								}
+							],
+							"effect_type": "dragonsurvival:conversion",
+							"probability": 0.5
+						}
+					]
+				},
+				"range_multiplier": 1.5,
+				"target_type": "dragonsurvival:dragon_breath"
+			},
+			"trigger_rate": 5.0
+		},
+		{
+			"target_selection": {
+				"target_type": "dragonsurvival:dragon_breath",
+				"applied_effects": {
+					"entity_effect": [
+						{
+							"effect_type": "dragonsurvival:smelting",
+							"item_predicate": {
+								"items": "#tundradragon:chilledmeats",
+								"count": {
+									"min": 1,
+									"max": 64
+								}
+							},
+							"progress": {
+								"type": "minecraft:linear",
+								"base": 2000,
+								"per_level_above_first": 250
+							}
+						},
+						{
+							"effect_type": "dragonsurvival:glow",
+							"glows": [
+								{
+									"base": {
+										"id": "dragonsurvival:tundra_item_glow",
+										"duration": 2,
+										"should_remove_automatically": true,
+										"is_hidden": true
+									},
+									"color": "#025777"
+								}
+							]
+						},
+						{
+							"effect_type": "dragonsurvival:item_conversion",
+							"item_conversions": [
+								{
+									"item_predicate": {
+										"items": "#tundradragon:beef",
+										"count": {
+											"min": 1,
+											"max": 100
+										}
+									},
+									"items_to": [
+										{
+											"item": "tundradragon:chilled_steak",
+											"weight": 10
+										}
+									]
+								},
+								{
+									"item_predicate": {
+										"items": "#tundradragon:rabbit",
+										"count": {
+											"min": 1,
+											"max": 100
+										}
+									},
+									"items_to": [
+										{
+											"item": "tundradragon:chilled_rabbit",
+											"weight": 10
+										}
+									]
+								},
+								{
+									"item_predicate": {
+										"items": "#tundradragon:mutton",
+										"count": {
+											"min": 1,
+											"max": 100
+										}
+									},
+									"items_to": [
+										{
+											"item": "tundradragon:chilled_mutton",
+											"weight": 10
+										}
+									]
+								},
+								{
+									"item_predicate": {
+										"items": "#tundradragon:porkchop",
+										"count": {
+											"min": 1,
+											"max": 100
+										}
+									},
+									"items_to": [
+										{
+											"item": "tundradragon:chilled_porkchop",
+											"weight": 10
+										}
+									]
+								},
+								{
+									"item_predicate": {
+										"items": "#tundradragon:chicken",
+										"count": {
+											"min": 1,
+											"max": 100
+										}
+									},
+									"items_to": [
+										{
+											"item": "tundradragon:chilled_chicken",
+											"weight": 10
+										}
+									]
+								}
+							],
+							"probability": 1
+						}
+					],
+					"targeting_mode": "items"
+				},
+				"range_multiplier": 1.5
+			},
+			"trigger_rate": 1
+		},
+		{
+			"target_selection": {
+				"applied_effects": {
+					"entity_effect": [
+						{
+							"effect_type": "dragonsurvival:breath_particles",
+							"main_particle": {
+								"type": "minecraft:poof",
+								"duration": 37.0,
+								"swirls": true
+							},
+							"secondary_particle": {
+								"type": "minecraft:snowflake",
+								"duration": 37.0,
+								"swirls": true
+							},
+							"speed_per_growth": 0.03,
+							"spread": 0.025
+						}
+					],
+					"targeting_mode": "all"
+				},
+				"target_type": "dragonsurvival:self"
+			},
+			"trigger_rate": 1.0
+		}
+	],
+	"activation": {
+		"activation_type": "dragonsurvival:channeled",
+		"animations": {
+			"looping": {
+				"animation_key": "breath",
+				"layer": "BREATH",
+				"locks_neck": false,
+				"locks_tail": false,
+				"transition_length": 5
+			},
+			"start_and_charging": {
+				"animation_key": "spell_charge",
+				"layer": "BREATH",
+				"locks_neck": false,
+				"locks_tail": false,
+				"transition_length": 5
+			}
+		},
+		"cast_time": 10.0,
+		"continuous_mana_cost": {
+			"type": "ticking",
+			"amount": 0.025
+		},
+		"cooldown": 20.0,
+		"sound": {
+			"end": "minecraft:block.amethyst_block.resonate",
+			"looping": "dragonsurvival:forest_breath_loop",
+			"start": "minecraft:block.amethyst_block.step"
+		}
+	},
+	"icon": {
+		"texture_entries": [
+			{
+				"from_level": 0,
+				"texture_resource": "dragonsurvival:abilities/tundra/blizzard_0"
+			},
+			{
+				"from_level": 1,
+				"texture_resource": "dragonsurvival:abilities/tundra/blizzard_1"
+			},
+			{
+				"from_level": 2,
+				"texture_resource": "dragonsurvival:abilities/tundra/blizzard_2"
+			}
+		]
+	},
+	"upgrade": {
+		"level_requirement": {
+			"type": "minecraft:lookup",
+			"fallback": {
+				"type": "minecraft:linear",
+				"base": 10.0,
+				"per_level_above_first": 10.0
+			},
+			"values": [
+				0.0,
+				25.0
+			]
+		},
+		"maximum_level": 2,
+		"upgrade_type": "dragonsurvival:experience_levels"
+	},
+	"usage_blocked": {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"flags": {
+				"is_on_fire": true
+			}
+		}
+	}
+}

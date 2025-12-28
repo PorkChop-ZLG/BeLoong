@@ -83,26 +83,38 @@
               }
             },
             {
-              "effect_type": "dragonsurvival:block_break",
+              "effect_type": "dragonsurvival:conversion",
               "probability": {
                 "type": "minecraft:linear",
-                "base": 0.01,
-                "per_level_above_first": 0.01
+                "base": 0.05,
+                "per_level_above_first": 0.05
               },
-              "valid_blocks": {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:ice",
-                  "minecraft:packed_ice",
-                  "minecraft:blue_ice",
-                  "biomeswevegone:black_ice",
-                  "biomeswevegone:packed_black_ice",
-                  "biomeswevegone:borealis_ice",
-                  "biomeswevegone:packed_borealis_ice",
-                  "biomeswevegone:borealis_ice",
-                  "biomeswevegone:packed_borealis_ice"
-                ]
-              }
+              "conversion_data": [
+                {
+                  "blocks_to": [
+                    {
+                      "state": {
+                        "Name": "minecraft:water"
+                      },
+                      "weight": 1
+                    }
+                  ],
+                  "from_predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:ice",
+                      "minecraft:packed_ice",
+                      "minecraft:blue_ice",
+                      "biomeswevegone:black_ice",
+                      "biomeswevegone:packed_black_ice",
+                      "biomeswevegone:borealis_ice",
+                      "biomeswevegone:packed_borealis_ice",
+                      "biomeswevegone:borealis_ice",
+                      "biomeswevegone:packed_borealis_ice"
+                    ]
+                  }
+                }
+              ]
             }
           ]
         },
