@@ -212,6 +212,10 @@
 
   "message.kubejs.banned_item": "该物品已被封禁: ",
   "message.kubejs.back": "输入 /back 返回上次死亡的地方",
+  "message.stellarity.kill_dragon": "末影龙已被击败！",
+  "message.stellarity.open_door": "末地主岛的中央，浮现一口神秘的水池",
+  "message.stellarity.respawn_dragon": "末影龙已重生！",
+  "message.stellarity.close_door": "神秘的水池消失了......",
   "message.kubejs.starter_hut": "新手小屋已生成，欢迎回家。",
   "message.kubejs.longyin_pavilion": "龙吟阁已生成，欢迎回家。",
   "message.kubejs.chinese_courtyard": "中式庭院已生成，欢迎回家。",

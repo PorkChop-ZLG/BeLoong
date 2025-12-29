@@ -212,6 +212,10 @@
 
   "message.kubejs.banned_item": "Banned item: ",
   "message.kubejs.back": "Type /back to return to your death point",
+  "message.stellarity.kill_dragon": "The Ender Dragon has been defeated!",
+  "message.stellarity.open_door": "A mysterious pool has appeared at the center of the End island.",
+  "message.stellarity.respawn_dragon": "The Ender Dragon has respawned!",
+  "message.stellarity.close_door": "The mysterious pool has vanished...",
   "message.kubejs.starter_hut": "The starter hut has been generated. Welcome home.",
   "message.kubejs.longyin_pavilion": "The Longyin Pavilion has been generated. Welcome home.",
   "message.kubejs.chinese_courtyard": "The Chinese Courtyard has been generated. Welcome home.",
