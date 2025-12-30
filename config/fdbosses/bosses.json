@@ -64,7 +64,7 @@
     "chainpunchCooldown": 150
   },
   "_comment_bossesDespawn": "Should bosses despawn if no target is found",
-  "bossesDespawn": true,
+  "bossesDespawn": false,
   "geburahConfig": {
     "coreRayStrikeDamage": 40.0,
     "rotatingLaserAttackDamage": 25.0,
