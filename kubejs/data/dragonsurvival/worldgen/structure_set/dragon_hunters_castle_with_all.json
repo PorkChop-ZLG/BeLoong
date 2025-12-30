@@ -2,7 +2,7 @@
   "structures": [
     {
       "structure": "dragonsurvival:dragon_hunters_castle",
-      "weight": 1
+      "weight": 3
     },
     {
       "structure": "dragonsurvival:netherlands",
@@ -12,7 +12,11 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 1579761354,
-    "spacing": 36,
-    "separation": 30
+    "spacing": 45,
+    "separation": 30,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
   }
 }
