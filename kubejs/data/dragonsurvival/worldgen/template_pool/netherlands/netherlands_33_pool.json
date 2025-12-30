@@ -1,0 +1,15 @@
+{
+  "name": "dragonsurvival:netherlands_33_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "dragonsurvival:netherlands/netherlands_33",
+        "processors": "dragonsurvival:mossy_age",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
