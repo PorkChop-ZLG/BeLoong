@@ -127,7 +127,7 @@
     "mob": "terra_entity:skeletron",
     "when": "onjoin",
     "result": "allow",
-    "healthset": 6000,
+    "healthset": 10000,
     "damageset": 200
   },
   {
