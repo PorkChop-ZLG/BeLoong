@@ -34,7 +34,8 @@
     "_comment_lightningStrikeShockDuration": "Time in ticks",
     "lightningStrikeShockDuration": 200,
     "playerMalkuthFireballToolDamagePercent": 500.0,
-    "playerMalkuthFireballAbilityCooldown": 100
+    "playerMalkuthFireballAbilityCooldown": 100,
+    "justiceCoreDamageReduction": 15
   },
   "_comment_blocksAllowedToBreakInArena": "Block id regex. If you wish to add a single block id, do it like that: ^modid:block_id$",
   "blocksAllowedToBreakInArena": [
@@ -63,5 +64,16 @@
     "chainpunchCooldown": 150
   },
   "_comment_bossesDespawn": "Should bosses despawn if no target is found",
-  "bossesDespawn": true
+  "bossesDespawn": true,
+  "geburahConfig": {
+    "coreRayStrikeDamage": 40.0,
+    "rotatingLaserAttackDamage": 25.0,
+    "predictiveLaserAttackDamage": 40.0,
+    "justiceHammerDamage": 40.0,
+    "judgementBirdDamage": 15.0,
+    "earthquakeDamage": 40.0,
+    "cannonProjectileDamage": 30.0,
+    "ultimateMoveHealthPercentage": 50.0,
+    "maxPlayerSins": 5
+  }
 }
