@@ -648,9 +648,6 @@
 		}
 		{
 			dependencies: ["24A1E8B804776D1F"]
-			icon: {
-				id: "regions_unexplored:brimwood_shrub"
-			}
 			id: "170C5452183F9D7E"
 			rewards: [
 				{
@@ -670,12 +667,12 @@
 			]
 			tasks: [{
 				icon: {
-					id: "regions_unexplored:brimwood_shrub"
+					id: "iceandfire:fire_lily"
 				}
 				id: "1D999AE40313D0FD"
 				observe_type: 0
 				timer: 100L
-				to_observe: "regions_unexplored:brimwood_shrub"
+				to_observe: "iceandfire:fire_lily"
 				type: "observation"
 			}]
 			x: -1.0d

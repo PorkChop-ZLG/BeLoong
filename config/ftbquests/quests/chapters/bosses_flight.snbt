@@ -1652,10 +1652,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"minecraft:damage": 0
-				}
-				id: "mowziesmobs:earthrend_gauntlet"
+				id: "mowziesmobs:geomancer_beads"
 			}
 			id: "6D88CFA0D4618ECB"
 			rewards: [

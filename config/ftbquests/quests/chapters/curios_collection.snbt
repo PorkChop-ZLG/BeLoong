@@ -414,6 +414,11 @@
 					item: { count: 1, id: "irons_spellbooks:fireward_ring" }
 					type: "item"
 				}
+				{
+					id: "1BB9D04FA19A3FC4"
+					item: { count: 1, id: "iss_magicfromtheeast:soulward_ring" }
+					type: "item"
+				}
 			]
 			x: 9.0d
 			y: 2.5d
@@ -542,6 +547,16 @@
 				{
 					id: "629A63487164007B"
 					item: { count: 1, id: "iss_magicfromtheeast:coins_sword" }
+					type: "item"
+				}
+				{
+					id: "07E9C5C7FD95D008"
+					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "iss_magicfromtheeast:jiangshi_invoke": 2 } } }, count: 1, id: "iss_magicfromtheeast:rusted_coins_sword" }
+					type: "item"
+				}
+				{
+					id: "569E91890E51792E"
+					item: { count: 1, id: "iss_magicfromtheeast:jade_pendant" }
 					type: "item"
 				}
 			]
@@ -853,6 +868,11 @@
 				{
 					id: "2161E22ABA966C8E"
 					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
+					type: "item"
+				}
+				{
+					id: "76CFCD82CF4520A4"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "iss_magicfromtheeast:ritual_orihon" }
 					type: "item"
 				}
 			]

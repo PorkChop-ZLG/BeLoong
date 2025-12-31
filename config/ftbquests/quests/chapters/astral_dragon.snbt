@@ -23,51 +23,34 @@
 		{
 			dependencies: ["61DD6385C7F59703"]
 			icon: {
-				id: "minecraft:barrier"
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/protostar_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			icon_scale: 1.5d
 			id: "6CC27511B19B214F"
-			rewards: [
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A993602DDAA5D14"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
 				{
-					count: 4
-					id: "7CF335C50BFE664A"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
-					type: "item"
+					advancement: "astral_dragon:astral/be_dragon"
+					criterion: ""
+					id: "726805938BE5F4BB"
+					type: "advancement"
 				}
 				{
-					id: "64F8324D2B3B7339"
-					type: "xp_levels"
-					xp_levels: 0
+					id: "755B61A9BDD39E8F"
+					type: "checkmark"
 				}
 			]
-			size: 1.5d
-			tasks: [{
-				id: "0353B063F3BE6A62"
-				type: "checkmark"
-			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["6CC27511B19B214F"]
-			id: "7F5B29E3965962C2"
-			optional: true
-			rewards: [{
-				id: "7C6871F499773B73"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				advancement: "astral_dragon:astral/teleport_once"
-				criterion: ""
-				id: "3409ECFA9DF9D38B"
-				type: "advancement"
-			}]
-			x: 0.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["6CC27511B19B214F"]
@@ -157,46 +140,95 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["41C8EFCFDDD74B24"]
 			icon: {
 				id: "bosses_of_mass_destruction:obsidian_heart"
 			}
 			id: "095F26381CC3BDF9"
-			rewards: [{
-				id: "715A7BFF9D41C11F"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				id: "3B7E7D44D37D2CF7"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.0d
-			y: -2.0d
+			rewards: [
+				{
+					id: "3217F16AB80C70CE"
+					item: {
+						count: 1
+						id: "kubejs:astral_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "77B6FB2563C7EEBF"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+					criterion: ""
+					id: "6F2AFBDDB65A67F1"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "658A011C0E0385B9"
+					item: { count: 1, id: "bosses_of_mass_destruction:obsidian_heart" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1000E8674AA814AE"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 17.25d
 		}
 		{
-			dependencies: ["41C8EFCFDDD74B24"]
 			icon: {
-				id: "cataclysm:ender_guardian_spawn_egg"
+				id: "cataclysm:gauntlet_of_guard"
 			}
 			id: "766B3F52833465AC"
-			rewards: [{
-				id: "13514F19075024DE"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				id: "4BB08C79F032FEB1"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.0d
-			y: 2.0d
+			rewards: [
+				{
+					count: 5
+					id: "0AF8A6F76A6DF372"
+					item: {
+						count: 1
+						id: "kubejs:astral_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "6D812801D5DEDADA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "339AE014B6BB4249"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "2D3BCEBF94FB0298"
+					item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C73DA4BDBAE24BC"
+					item: { count: 1, id: "cataclysm:music_disc_ender_guardian" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["41C8EFCFDDD74B24"]
@@ -289,11 +321,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"095F26381CC3BDF9"
-				"2CDF187F53C29F22"
-				"766B3F52833465AC"
-			]
+			dependencies: ["26053B577195305A"]
 			icon: {
 				id: "astral_dragon:astral_full_icon"
 			}
@@ -317,12 +345,18 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "15F8753E2E3D4138"
+					table_id: 3727137034912313201L
+					type: "loot"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [
 				{
-					advancement: "astral_dragon:astral/neutron_star_condense"
+					advancement: "astral_dragon:astral/singularity"
 					criterion: ""
 					id: "7C60953E77B4A0C0"
 					type: "advancement"
@@ -334,8 +368,8 @@
 					type: "advancement"
 				}
 			]
-			x: 18.0d
-			y: 0.0d
+			x: 0.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["1FBBB4F5A5AF64FD"]
@@ -377,8 +411,359 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -2.0d
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["6CC27511B19B214F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2599EC1F2F19464A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23D5D3295B40FED0"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "astral_dragon:astral/reach_main_sequence"
+					criterion: ""
+					id: "66B11E384539D6D7"
+					type: "advancement"
+				}
+				{
+					id: "401C1123709AA0F6"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2599EC1F2F19464A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "16AC902A8860C5D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AC40FDACE4E113A"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "astral_dragon:astral/neutron_star_condense"
+					criterion: ""
+					id: "74599EF06FD2BBF9"
+					type: "advancement"
+				}
+				{
+					id: "23BCD1F4108D96DB"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["16AC902A8860C5D5"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "49FC89FFF13329BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "791E116D3394CB4A"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "astral_dragon:astral/neutron_star_growth"
+					criterion: ""
+					id: "0335EB6EB7B383C5"
+					type: "advancement"
+				}
+				{
+					id: "27DAFF78F18CEF76"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["49FC89FFF13329BF"]
+			icon: {
+				components: {
+					"ftbquests:icon": "astral_dragon:item/astral_icon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "26053B577195305A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28C9565F37C8B914"
+				table_id: 3727137034912313201L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [
+				{
+					advancement: "astral_dragon:astral/black_hole"
+					criterion: ""
+					id: "2918F485D8052828"
+					type: "advancement"
+				}
+				{
+					id: "4EEC2A322B479661"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			id: "4535A656F620B8B9"
+			rewards: [
+				{
+					count: 4
+					id: "4465AACE9F11AAE6"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "0C059DD45C7E6FE5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "44D80862772938C8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "6B26A9D9D92F69DA"
+			rewards: [
+				{
+					count: 4
+					id: "6C69D8D661375E4B"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "4C4327D45934A120"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				biome: "minecraft:end_midlands"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "0781FA799AE25682"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "2E92127811717292"
+			rewards: [
+				{
+					count: 4
+					id: "7932A9D847A8DAB2"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "2F95E7AE1E889C0D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "70281E4A86DECA65"
+				observe_type: 0
+				timer: 100L
+				to_observe: "minecraft:end_portal"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "74D8E9EC39D5A9D2"
+			rewards: [
+				{
+					count: 4
+					id: "37CD1A7ACE647195"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "19E7D51E95CBD566"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "7114DC297EDF4314"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "74CCA3A95866E0CE"
+			rewards: [
+				{
+					count: 4
+					id: "7495848276CC4C17"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+				{
+					id: "6B2974693ECA6762"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "6A9CAE7EEFA49988"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "17ECFF157B63592F"
+			rewards: [
+				{
+					count: 3
+					id: "6359A1D1296322BD"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "6A637F991A4F8F4D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "7E890953F6540977"
+					item: { count: 1, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36935290A193E0CC"
+					item: { count: 1, id: "minecraft:popped_chorus_fruit" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7068C1982BF031F5"
+					item: { count: 1, id: "minecraft:chorus_flower" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "502DCBE48F24C8AD"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "12456F653A62AB34"
+					item: { count: 1, id: "minecraft:dragon_head" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "18F13EBEEF1C6F6E"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "791A8A8FF53041A6"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "776FFE5A0708B251"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "61EDC8950AFC21E6"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 }

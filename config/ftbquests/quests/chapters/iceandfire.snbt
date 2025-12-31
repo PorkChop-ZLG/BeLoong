@@ -676,8 +676,17 @@
 					xp_levels: 3
 				}
 				{
+					count: 3
+					id: "109CB727BC27BC4C"
+					item: {
+						count: 1
+						id: "eternal_starlight:amaramber_ingot"
+					}
+					type: "item"
+				}
+				{
 					count: 64
-					id: "47A39BB33F3EEDE3"
+					id: "74098D61EBA672E8"
 					item: {
 						count: 1
 						id: "iceandfire:dragon_meal"
@@ -1273,11 +1282,11 @@
 			id: "22CDEC8A0577E317"
 			rewards: [
 				{
-					count: 16
+					count: 3
 					id: "440B0AD11C2B8A58"
 					item: {
 						count: 1
-						id: "eternal_starlight:amaramber_ingot"
+						id: "iceandfire:dragonsteel_fire_block"
 					}
 					type: "item"
 				}
@@ -1287,11 +1296,38 @@
 					xp_levels: 10
 				}
 			]
-			tasks: [{
-				id: "74AB3FCABEE98C1A"
-				item: { count: 1, id: "iceandfire:dragonsteel_fire_sword" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "74AB3FCABEE98C1A"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_sword" }
+					type: "item"
+				}
+				{
+					id: "7C472D711CB52E82"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "11211D57CDBE32A5"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_axe" }
+					type: "item"
+				}
+				{
+					id: "15B1AFE483314530"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_shovel" }
+					type: "item"
+				}
+				{
+					id: "5037502E97F64F05"
+					item: { count: 1, id: "iceandfire:dragonsteel_fire_hoe" }
+					type: "item"
+				}
+				{
+					id: "1F0DFE7CD3A01EB8"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_fire" }
+					type: "item"
+				}
+			]
 			x: 29.0d
 			y: -2.0d
 		}
@@ -1302,11 +1338,11 @@
 			id: "2ECA4D4990D20697"
 			rewards: [
 				{
-					count: 16
+					count: 3
 					id: "170534B819983A1E"
 					item: {
 						count: 1
-						id: "eternal_starlight:amaramber_ingot"
+						id: "iceandfire:dragonsteel_lightning_block"
 					}
 					type: "item"
 				}
@@ -1317,11 +1353,38 @@
 				}
 			]
 			size: 1.0d
-			tasks: [{
-				id: "22F7E13E3C2ED579"
-				item: { count: 1, id: "iceandfire:dragonsteel_lightning_sword" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "22F7E13E3C2ED579"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_sword" }
+					type: "item"
+				}
+				{
+					id: "6002E759898B952F"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "5E8229779B89A443"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_axe" }
+					type: "item"
+				}
+				{
+					id: "48639A1A1AD31831"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_shovel" }
+					type: "item"
+				}
+				{
+					id: "277531D7974C4AD9"
+					item: { count: 1, id: "iceandfire:dragonsteel_lightning_hoe" }
+					type: "item"
+				}
+				{
+					id: "693A1D124BCDB236"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_lightning" }
+					type: "item"
+				}
+			]
 			x: 29.0d
 			y: 0.0d
 		}
@@ -1331,11 +1394,11 @@
 			id: "19632689D6646EBD"
 			rewards: [
 				{
-					count: 16
+					count: 3
 					id: "6B18186CCFC81479"
 					item: {
 						count: 1
-						id: "eternal_starlight:amaramber_ingot"
+						id: "iceandfire:dragonsteel_ice_block"
 					}
 					type: "item"
 				}
@@ -1345,11 +1408,38 @@
 					xp_levels: 10
 				}
 			]
-			tasks: [{
-				id: "0F1CA4C832235AF7"
-				item: { count: 1, id: "iceandfire:dragonsteel_ice_sword" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F1CA4C832235AF7"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_sword" }
+					type: "item"
+				}
+				{
+					id: "682DC98E7520EB28"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "57DD32AA02AF09A2"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_axe" }
+					type: "item"
+				}
+				{
+					id: "1CF403E93E7E4D59"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_shovel" }
+					type: "item"
+				}
+				{
+					id: "64EED8832840A4B9"
+					item: { count: 1, id: "iceandfire:dragonsteel_ice_hoe" }
+					type: "item"
+				}
+				{
+					id: "5D40004DDCD87C5D"
+					item: { count: 1, id: "iceandfire:dragonbone_sword_ice" }
+					type: "item"
+				}
+			]
 			x: 29.0d
 			y: 2.0d
 		}
@@ -1404,6 +1494,18 @@
 				{
 					exclude_from_claim_all: true
 					id: "5DA01E41DB6D6A01"
+					table_id: 2300046943524296590L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42185325659582C7"
+					table_id: 2300046943524296590L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "193897C982B0E5CF"
 					table_id: 2300046943524296590L
 					type: "choice"
 				}
