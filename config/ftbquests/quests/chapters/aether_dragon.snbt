@@ -121,6 +121,8 @@
 			dependencies: [
 				"387B82087B06B184"
 				"45FBCC91C2442B02"
+				"1036A454EE8AB619"
+				"12A467A5BE97AA0E"
 			]
 			icon: {
 				components: {
@@ -1049,6 +1051,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["387B82087B06B184"]
 			id: "1036A454EE8AB619"
 			rewards: [
 				{
@@ -1081,6 +1084,126 @@
 				}
 			]
 			x: 1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["387B82087B06B184"]
+			id: "12A467A5BE97AA0E"
+			rewards: [
+				{
+					count: 5
+					id: "7B89A4BDD1A1E721"
+					item: {
+						count: 1
+						id: "kubejs:aether_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "4AB468433630B302"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					biome: "biomeswevegone:skyris_vale"
+					icon: {
+						id: "biomeswevegone:foxglove"
+					}
+					id: "44984E2EFC3D8018"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:enchanted_tangle"
+					icon: {
+						id: "biomeswevegone:fairy_slipper"
+					}
+					id: "44700986F74122BB"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:crag_gardens"
+					icon: {
+						id: "biomeswevegone:delphinium"
+					}
+					id: "4FEF081970B79E66"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:sakura_grove"
+					icon: {
+						id: "biomeswevegone:japanese_orchid"
+					}
+					id: "76BEF2CDF58924B6"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:rose_fields"
+					icon: {
+						id: "biomeswevegone:osiria_rose"
+					}
+					id: "79B800DC6D51AE9C"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:allium_shrubland"
+					icon: {
+						id: "biomeswevegone:tall_pink_allium"
+					}
+					id: "75BABDCBEA6EC406"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:amaranth_grassland"
+					icon: {
+						id: "biomeswevegone:amaranth"
+					}
+					id: "68B982DE629DEBEB"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:jacaranda_jungle"
+					icon: {
+						id: "biomeswevegone:jacaranda_sapling"
+					}
+					id: "5CE843C22A5B49D4"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:firecracker_chaparral"
+					icon: {
+						id: "biomeswevegone:firecracker_flower_bush"
+					}
+					id: "3717C80371720B3F"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:flower_fields"
+					icon: {
+						id: "regions_unexplored:waratah"
+					}
+					id: "03FBE520E94DF072"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:poppy_fields"
+					icon: {
+						id: "regions_unexplored:poppy_bush"
+					}
+					id: "2B44125E41766CE0"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:magnolia_woodland"
+					icon: {
+						id: "regions_unexplored:pink_magnolia_shrub"
+					}
+					id: "24C9A14A7F3F4F8E"
+					type: "biome"
+				}
+			]
+			x: -1.5d
 			y: 22.5d
 		}
 	]
