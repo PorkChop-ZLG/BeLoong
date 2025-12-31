@@ -6,7 +6,7 @@
 	]
 	chapter.025C2A1E99ADD3C3.title: "④ 深暗之园"
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["隐藏式任务"]
-	chapter.0ACA55AC777A92A0.title: "〖以太龙〗专属挑战"
+	chapter.0ACA55AC777A92A0.title: "〖以太龙〗成长之路"
 	chapter.0BD7DFF2E322BDA5.chapter_subtitle: ["模拟经营"]
 	chapter.0BD7DFF2E322BDA5.title: "夜雀食堂"
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
@@ -65,7 +65,7 @@
 	]
 	chapter.5659CE99755DE90F.title: "多人联机推荐喵"
 	chapter.5A87116CA9FE4E2F.chapter_subtitle: ["隐藏式任务"]
-	chapter.5A87116CA9FE4E2F.title: "〖苔原龙〗专属挑战"
+	chapter.5A87116CA9FE4E2F.title: "〖苔原龙〗成长之路"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
 		"番外篇：铁魔法"
 		"Iron的法术与魔法书"
@@ -428,6 +428,12 @@
 	]
 	quest.06BED8FFC050C39A.title: "强者的象征"
 	quest.072FD241CD272F4C.title: "打卡：炼狱之地"
+	quest.07328C6505484271.quest_desc: [
+		"&d末影龙&6，正是&5星界龙&6一脉的始祖，"
+		"&6昔日龙族的至高统治者。"
+	]
+	quest.07328C6505484271.quest_subtitle: "复活吧，我的爱龙！"
+	quest.07328C6505484271.title: "复活：末影龙"
 	quest.073A531B004C31E3.quest_desc: [
 		"&l&d「利维坦」"
 		"&6生命：&a4000"
@@ -537,6 +543,13 @@
 	quest.0ADC425FA160CAD0.quest_subtitle: "我要穿越这片沙漠，找寻真的自我"
 	quest.0ADC425FA160CAD0.title: "沙虫"
 	quest.0AE4AB2612E41CA0.quest_subtitle: "十六夜咲夜特调"
+	quest.0B0D756819D16F7D.quest_desc: [
+		"&6人类在末地石中注入魔力，建造了这种傀儡。"
+		"&6在那场战争中，这玩意曾是杀伤力无比的绞肉机。"
+		"&6战争过后，它们随着堡垒一起被遗忘在末地，"
+		"&6却仍不忘自己的职责，默默坚守无人的堡垒。"
+	]
+	quest.0B0D756819D16F7D.title: "击杀：末影傀儡"
 	quest.0B1F2B46DAF0D8AC.quest_desc: [
 		"&l&d「监守者」"
 		"&6生命：&a500"
@@ -929,7 +942,7 @@
 	quest.15433E12926E99B9.quest_subtitle: "没进化出翅膀的低等生物罢了"
 	quest.15433E12926E99B9.title: "&d这隆起的土邱是龙巢吗？"
 	quest.155114DC02DEBDDE.quest_subtitle: "奶油，咖啡与酒"
-	quest.1588CA412F4FAA24.quest_desc: ["&3恭喜你完成了星界龙的专属挑战！"]
+	quest.1588CA412F4FAA24.quest_desc: ["&5恭喜你完成了星界龙的成长之路！"]
 	quest.159566AC6D6F2977.quest_desc: [
 		"&a目标：合成凝注台，学会使用凝注"
 		""
@@ -1247,6 +1260,11 @@
 	quest.1EA1A1A70323BE0C.quest_subtitle: "位于末地"
 	quest.1EA1A1A70323BE0C.title: "打卡：血肉冻原"
 	quest.1ECC3AFD4ECADE42.title: "护符T3"
+	quest.1EE624BDBB0F7301.quest_desc: [
+		"&6一座废弃的堡垒，里面爬满了恶心的甲虫。"
+		"&6那曾是人类抵御龙族的坚固堡垒，在战争中被摧毁。"
+	]
+	quest.1EE624BDBB0F7301.title: "击杀：末影甲虫"
 	quest.1FBBB4F5A5AF64FD.quest_desc: [
 		"&a目标：成长到中子星阶段，击败黑暗二重身"
 		""
@@ -1465,6 +1483,13 @@
 	]
 	quest.25871E50A41EC3EA.quest_subtitle: "★★★"
 	quest.25871E50A41EC3EA.title: "暮色森林：娜迦"
+	quest.258CFD18EE567A75.quest_desc: [
+		"&6当年一战，末影龙陨落，星界龙一脉几乎灭族。"
+		"&6在其他龙族的救济下，星界龙勉强在末地苟活，"
+		"&6但是因为断绝了传承，只剩下寥寥几个小技能。"
+	]
+	quest.258CFD18EE567A75.quest_subtitle: "升级星界龙1个被动技能到满级"
+	quest.258CFD18EE567A75.title: "掌握星之奥义"
 	quest.2599EC1F2F19464A.quest_subtitle: "成长到主序星阶段"
 	quest.2599EC1F2F19464A.title: "主序星"
 	quest.25CB6218676EEC49.quest_desc: [
@@ -1571,7 +1596,7 @@
 		"&9结构罗盘：&b末地村庄&r"
 	]
 	quest.2868198C85787E08.quest_subtitle: "流放之所"
-	quest.2868198C85787E08.title: "末地村庄"
+	quest.2868198C85787E08.title: "打卡：末地村庄"
 	quest.28E29AA14A69F617.quest_desc: [
 		"&6维度网络管理员潜行右键可以将其绑定到当前网络。"
 		""
@@ -1688,19 +1713,15 @@
 	]
 	quest.2C81337448F9655F.quest_subtitle: "只是雪，飘进双眼"
 	quest.2C81337448F9655F.title: "雪怪"
-	quest.2C88AD2F4A7795E2.quest_desc: [
-		"&5星界龙&6是维度的旅行者，"
-		"&6你需要拜访&e主世界、下界、末地&6。"
-	]
-	quest.2C88AD2F4A7795E2.quest_subtitle: "可别迷失在虚空中"
-	quest.2C88AD2F4A7795E2.title: "“超越维度”"
+	quest.2CABA649B11966EB.quest_subtitle: "这，难道是虫洞？"
+	quest.2CABA649B11966EB.title: "观察：末地折跃门"
 	quest.2CDF187F53C29F22.quest_desc: [
 		"&6一座隐藏在末地深处的教堂，供奉着光之女皇。末影龙殒命之前，曾拜托光之女皇照顾剩下的龙族。如今，龙族的传承绵延不绝，但是光之女皇却不见了踪影。"
 		""
 		"&9结构罗盘：&b光明教堂&r"
 	]
 	quest.2CDF187F53C29F22.quest_subtitle: "没有龙知道光之女皇去了哪里"
-	quest.2CDF187F53C29F22.title: "光明教堂"
+	quest.2CDF187F53C29F22.title: "挑战：光明教堂"
 	quest.2CEFD2DF7A413288.title: "灾变BOSS召唤物"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9结构罗盘：&b黑松骑士要塞&r"]
 	quest.2CFCFA632C2D16F5.title: "挑战：黑松骑士要塞"
@@ -1977,6 +1998,19 @@
 		"&aLengendWiggler"
 		"&azzgtff"
 		""
+		"{@pagebreak}"
+		"&a小烦维"
+		"&a洛久悠"
+		"&a神子的小維維"
+		"&achengnm"
+		"&aCcypress"
+		"&akosparasite"
+		"&aHFcHaR"
+		"&aYinmian"
+		"&aCCX87"
+		"&agezyth"
+		"&aalefsautumn"
+		""
 		"&d详细列表：https://afdian.com/a/beloong"
 	]
 	quest.359B897165997027.quest_subtitle: "截至发布日期，排名不分先后"
@@ -2187,7 +2221,7 @@
 		""
 		"&c(本整合包无用，除非你自己加AE)"
 	]
-	quest.3BF1FD634ECFCB4E.quest_desc: ["&3恭喜你完成了以太龙的专属挑战！"]
+	quest.3BF1FD634ECFCB4E.quest_desc: ["&3恭喜你完成了以太龙的成长之路！"]
 	quest.3C6B0A594CE6F7E7.quest_desc: [
 		"&6泰拉BOSS死后&c无法生成&6BOSS重生笼，"
 		"&6在此使用对应BOSS召唤物兑换。"
@@ -2339,7 +2373,7 @@
 		"&9结构罗盘：&b【地牢浮现之时】幻梦塔楼&r"
 	]
 	quest.41C8EFCFDDD74B24.quest_subtitle: "超大号幻翼"
-	quest.41C8EFCFDDD74B24.title: "幻梦塔楼"
+	quest.41C8EFCFDDD74B24.title: "挑战：幻梦塔楼"
 	quest.41DB497093B18B47.title: "手饰T1"
 	quest.4218F6E0430B190C.title: "脚饰T3"
 	quest.422368D6F94C0ABD.quest_desc: [
@@ -2353,7 +2387,7 @@
 	quest.42921D7314712236.quest_desc: ["&a目标：集齐饰品图鉴中的所有饰品"]
 	quest.42921D7314712236.quest_subtitle: "集齐饰品图鉴"
 	quest.42921D7314712236.title: "&e&l【饰品全收集】"
-	quest.431A9BCA53DB263B.quest_desc: ["&9恭喜你完成了海洋龙的专属挑战！"]
+	quest.431A9BCA53DB263B.quest_desc: ["&9恭喜你完成了海洋龙的成长之路！"]
 	quest.434D3A47067493D8.quest_desc: [
 		"曾经最为辉煌的骑士，如今已经衰败。他们与包围森林中心的砷铅铁紧密相连。他们的灵魂无法安息，日日夜夜地守护这个墓室防止入侵者到来。"
 		""
@@ -2738,6 +2772,19 @@
 	]
 	quest.4DBAD417CE6615B0.quest_subtitle: "★★★★"
 	quest.4DBAD417CE6615B0.title: "领主的崛起：沙虫"
+	quest.4DE67F32DA93384F.quest_desc: [
+		"&6巨大的阴影从天际略过，数不清的敌人从天而降。"
+		"&6这就是当年人类战胜龙族的强大武器——天际战舰。"
+		"&7&o人类帝国吹响战歌，天际挑战者从天划过；"
+		"&7&o亡灵法师挥动法杖，天际征服者统治战场；"
+		"&7&o女之武神御驾亲临，天际骑士团所向披靡。"
+		""
+		"&9结构罗盘：&b【地牢浮现之时】天际挑战者&r"
+		"&9结构罗盘：&b【地牢浮现之时】天际征服者&r"
+		"&9结构罗盘：&b【地牢浮现之时】天际骑士团&r"
+	]
+	quest.4DE67F32DA93384F.quest_subtitle: "挑战3艘地牢浮现之时的战舰"
+	quest.4DE67F32DA93384F.title: "是时候报仇雪恨了"
 	quest.4DEF1998BE552CE0.quest_subtitle: "每条龙保底一次"
 	quest.4DEF1998BE552CE0.title: "二重身之戒保底"
 	quest.4E1F113694EB8B3E.title: "猩红教徒装备"
@@ -3256,6 +3303,33 @@
 	quest.5DB104CFE665CC09.quest_subtitle: "打卡6种沙漠生物群系和部分结构"
 	quest.5DB104CFE665CC09.title: "我要穿越这片沙漠"
 	quest.5DD97094AAD4DDA2.quest_subtitle: "“性价比之王”"
+	quest.5E2651DABF146E68.quest_desc: [
+		"&2自然罗盘：&a紫晶森林&r"
+		"&2自然罗盘：&a灰烬三角洲&r"
+		"&2自然罗盘：&a水晶峰峦&r"
+		"&2自然罗盘：&a龙巢地&r"
+		"&2自然罗盘：&a末地灌木带&r"
+		"&2自然罗盘：&a末地荒原&r"
+		"&2自然罗盘：&a末影废土&r"
+		"&2自然罗盘：&a无尽沙丘&r"
+		"&2自然罗盘：&a炽热丘陵&r"
+		"&2自然罗盘：&a血肉冻原&r"
+		""
+		"&c&l【下一页还有】"
+		"{@pagebreak}"
+		"&2自然罗盘：&a雾凇山谷&r"
+		"&2自然罗盘：&a冰封沼泽&r"
+		"&2自然罗盘：&a霜灌木林&r"
+		"&2自然罗盘：&a寒霜尖蜂&r"
+		"&2自然罗盘：&a圣洁冻原&r"
+		"&2自然罗盘：&a海晶森林&r"
+		"&2自然罗盘：&a棱彩沙丘&r"
+		"&2自然罗盘：&a圣域&r"
+		"&2自然罗盘：&a龙巢地&r"
+		"&2自然罗盘：&a扭曲沼泽&r"
+	]
+	quest.5E2651DABF146E68.quest_subtitle: "打卡stellarity的20种末地生物群系"
+	quest.5E2651DABF146E68.title: "群星末地"
 	quest.5E2F36A14E2F1879.quest_desc: [
 		"&a目标：击败克苏鲁之眼，获得克苏鲁护盾"
 		""
@@ -3276,12 +3350,6 @@
 	]
 	quest.5E4E661E1E3FE198.quest_subtitle: "你选择成为：晶咒龙"
 	quest.5E4E661E1E3FE198.title: "『化龍』晶咒龙！"
-	quest.5E900BCFB09D80BF.quest_desc: [
-		"&d末影龙&6，正是&5星界龙&6一脉的始祖，"
-		"&6昔日龙族的至高统治者。"
-	]
-	quest.5E900BCFB09D80BF.quest_subtitle: "小龙子，你真令我欢喜"
-	quest.5E900BCFB09D80BF.title: "首战：末影龙"
 	quest.5EE6DC4771476CC8.quest_subtitle: "“异格威士忌”"
 	quest.5EFF5C22E67BCE5D.quest_subtitle: "位于末地"
 	quest.5EFF5C22E67BCE5D.title: "打卡：海晶森林"
@@ -3397,6 +3465,12 @@
 	quest.6344D6B5AEC69478.title: "&d&l终末星光"
 	quest.634C5657E921C26C.quest_subtitle: "提交海洋龙的所有专属食物"
 	quest.634C5657E921C26C.title: "海洋龙的美食"
+	quest.638EEC92478431C8.quest_desc: [
+		"&6星界龙一脉，因为需要不断躲避追杀，"
+		"&6因此练就了在维度之间穿梭的本领。"
+	]
+	quest.638EEC92478431C8.quest_subtitle: "完成以太龙的部分成就"
+	quest.638EEC92478431C8.title: "星界龙趣味挑战"
 	quest.63DB1E9C5C2FDC80.quest_desc: [
 		"&6允许你像&e创世神&6一样修改地形和建筑，拥有无限耐久。"
 		""
@@ -3610,7 +3684,7 @@
 	]
 	quest.6BD730F6532DEC81.quest_subtitle: "简易的建筑工具"
 	quest.6BD730F6532DEC81.title: "建筑棒"
-	quest.6C7973AE332F1467.quest_desc: ["&2恭喜你完成了森林龙的专属挑战！"]
+	quest.6C7973AE332F1467.quest_desc: ["&2恭喜你完成了森林龙的成长之路！"]
 	quest.6C896BDFB4BBB4E4.quest_desc: [
 		"&a目标：学会使用FTB区块"
 		""
@@ -3817,7 +3891,7 @@
 	quest.7082701EBE593912.quest_subtitle: "神秘莫测的星光主题维度"
 	quest.7082701EBE593912.title: "&d&l主线：永恒星光"
 	quest.7094F53A33655DF3.quest_subtitle: "全年龄饮品"
-	quest.70F041A9AA323CCD.quest_desc: ["&c恭喜你完成了洞穴龙的专属挑战！"]
+	quest.70F041A9AA323CCD.quest_desc: ["&c恭喜你完成了洞穴龙的成长之路！"]
 	quest.71356A8881052F9A.quest_desc: [
 		"&e幻化台&6可以改变物品的外观。"
 		"&6如把钻石剑的外观替换为木剑，打一个出其不意。"
@@ -4149,7 +4223,7 @@
 		""
 		"&9结构罗盘：&b远古城市"
 	]
-	quest.7D81132CD0C6EF1C.quest_desc: ["&f恭喜你完成了苔原龙的专属挑战！"]
+	quest.7D81132CD0C6EF1C.quest_desc: ["&f恭喜你完成了苔原龙的成长之路！"]
 	quest.7DA6938BDD9417AE.quest_desc: [
 		"&a目标：获得龙之骨"
 		""
@@ -4200,6 +4274,18 @@
 	]
 	quest.7EB346A1790BD94B.quest_subtitle: "找到公会城堡"
 	quest.7EB346A1790BD94B.title: "公会城堡"
+	quest.7F3860516EB20F18.quest_desc: [
+		"&d&l「严厉」"
+		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FC068CD405DBBD4\" } }"
+		""
+		"&6为了消灭末地的龙族，人类铸造了威力恐怖的天平："
+		"&6它的本体坚不可摧，它的火力无与伦比；"
+		"&6它痛恨飞行的龙族，它抹杀空中的敌人；"
+		"&6它会认为万物有罪，它用激光主持公道；"
+		"&6它是永恒的审判官，它是龙族的刽子手。"
+	]
+	quest.7F3860516EB20F18.quest_subtitle: "击败「严厉」"
+	quest.7F3860516EB20F18.title: "谁能主持公道？"
 	quest.7F59185C7CD743A1.quest_subtitle: "风从何处来"
 	quest.7F59185C7CD743A1.title: "获得：孔雀羽扇"
 	quest.7F7757E6C4E4B498.quest_desc: [

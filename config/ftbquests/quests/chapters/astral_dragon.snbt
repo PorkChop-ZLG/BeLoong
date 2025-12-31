@@ -9,14 +9,24 @@
 		id: "astral_dragon:astral_full_icon"
 	}
 	id: "7B67918088B05AB6"
-	images: [{
-		height: 9.0d
-		image: "kubejs:textures/task/astral_banner_02.png"
-		rotation: 0.0d
-		width: 3.0d
-		x: 21.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 9.0d
+			image: "kubejs:textures/task/astral_banner_02.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -25.0d
+		}
+		{
+			height: 5.0d
+			image: "ftblibrary:textures/faces/minecraft/ender_dragon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -3.0d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -53,62 +63,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6CC27511B19B214F"]
-			id: "2C88AD2F4A7795E2"
-			rewards: [{
-				id: "5D08C08AE5FB535A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				advancement: "astral_dragon:astral/dimensional_explorer"
-				criterion: ""
-				id: "08BC1F0B68C649DE"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2C88AD2F4A7795E2"]
-			icon_scale: 2.0d
-			id: "5E900BCFB09D80BF"
-			rewards: [
-				{
-					id: "065A701C5528C6DB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "6A642DC7B76303F6"
-					item: {
-						count: 1
-						id: "minecraft:dragon_egg"
-					}
-					type: "item"
-				}
-				{
-					id: "7DE61DA0BD2AB99C"
-					item: {
-						count: 1
-						id: "minecraft:dragon_head"
-					}
-					type: "item"
-				}
-			]
-			shape: "none"
-			size: 2.0d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "6E5563D6CA2E7E23"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5E900BCFB09D80BF"]
+			dependencies: ["2599EC1F2F19464A"]
 			icon: {
 				id: "minecraft:phantom_spawn_egg"
 			}
@@ -116,18 +71,18 @@
 			id: "41C8EFCFDDD74B24"
 			rewards: [
 				{
-					id: "23930A39B46EA305"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					count: 16
-					id: "0D32187E5ECE5536"
+					count: 3
+					id: "4917A8B2F6530F7F"
 					item: {
 						count: 1
-						id: "minecraft:phantom_membrane"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
+				}
+				{
+					id: "6AF1D90CA6356B93"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			size: 1.0d
@@ -136,10 +91,11 @@
 				structure: "dungeons_arise:aviary"
 				type: "structure"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["49FC89FFF13329BF"]
 			icon: {
 				id: "bosses_of_mass_destruction:obsidian_heart"
 			}
@@ -182,9 +138,10 @@
 				}
 			]
 			x: 0.0d
-			y: 17.25d
+			y: 17.5d
 		}
 		{
+			dependencies: ["26053B577195305A"]
 			icon: {
 				id: "cataclysm:gauntlet_of_guard"
 			}
@@ -231,24 +188,25 @@
 			y: 22.5d
 		}
 		{
-			dependencies: ["41C8EFCFDDD74B24"]
+			dependencies: ["2599EC1F2F19464A"]
 			icon: {
 				id: "minecraft:phantom_membrane"
 			}
 			id: "026EE10B22870C6B"
 			rewards: [
 				{
-					id: "45C78DACD12CD287"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "2F93FD7A3F2C2E64"
+					count: 3
+					id: "20CA22ACE3CEF9A6"
 					item: {
 						count: 1
-						id: "minecraft:elytra"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
+				}
+				{
+					id: "2F2034E6938E4173"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			tasks: [{
@@ -257,71 +215,79 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 11.0d
-			y: 0.0d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["41C8EFCFDDD74B24"]
-			icon: {
-				id: "minecraft:purpur_pillar"
-			}
+			dependencies: ["16AC902A8860C5D5"]
 			id: "2868198C85787E08"
 			rewards: [
 				{
-					id: "2050B20BFF1B6CCD"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					count: 8
-					id: "5ABA1AEC17610846"
+					count: 3
+					id: "5B7D0180565C6B7A"
 					item: {
 						count: 1
-						id: "minecraft:pitcher_plant"
+						id: "dragonsurvival:elder_dragon_heart"
 					}
 					type: "item"
 				}
+				{
+					id: "3479C652A61FAA5D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 			tasks: [{
+				icon: {
+					id: "minecraft:purpur_pillar"
+				}
 				id: "085F0CB72DCC4C98"
 				structure: "stellarity:village"
 				type: "structure"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: -1.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["41C8EFCFDDD74B24"]
+			dependencies: ["16AC902A8860C5D5"]
 			icon: {
 				id: "minecraft:torchflower"
 			}
 			id: "2CDF187F53C29F22"
 			rewards: [
 				{
-					id: "0CEA64CD7B6D0C40"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					count: 8
+					count: 3
 					id: "6433338670F59576"
 					item: {
 						count: 1
-						id: "minecraft:torchflower_seeds"
+						id: "dragonsurvival:elder_dragon_heart"
 					}
 					type: "item"
 				}
+				{
+					id: "244D5C43B998F980"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 			tasks: [{
+				icon: {
+					id: "minecraft:torchflower"
+				}
 				id: "33F75C88A2E53CC3"
 				structure: "stellarity:chapel_of_light"
 				type: "structure"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 1.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["26053B577195305A"]
+			dependencies: [
+				"26053B577195305A"
+				"5E2651DABF146E68"
+				"766B3F52833465AC"
+				"7F3860516EB20F18"
+			]
 			icon: {
 				id: "astral_dragon:astral_full_icon"
 			}
@@ -415,7 +381,14 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["6CC27511B19B214F"]
+			dependencies: [
+				"6CC27511B19B214F"
+				"74D8E9EC39D5A9D2"
+				"2E92127811717292"
+				"6B26A9D9D92F69DA"
+				"4535A656F620B8B9"
+				"74CCA3A95866E0CE"
+			]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
@@ -447,7 +420,14 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2599EC1F2F19464A"]
+			dependencies: [
+				"2599EC1F2F19464A"
+				"2CABA649B11966EB"
+				"41C8EFCFDDD74B24"
+				"17ECFF157B63592F"
+				"026EE10B22870C6B"
+				"07328C6505484271"
+			]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
@@ -479,7 +459,14 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["16AC902A8860C5D5"]
+			dependencies: [
+				"16AC902A8860C5D5"
+				"2CDF187F53C29F22"
+				"2868198C85787E08"
+				"1EE624BDBB0F7301"
+				"258CFD18EE567A75"
+				"0B0D756819D16F7D"
+			]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_hover.png"
@@ -511,7 +498,12 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["49FC89FFF13329BF"]
+			dependencies: [
+				"49FC89FFF13329BF"
+				"638EEC92478431C8"
+				"4DE67F32DA93384F"
+				"095F26381CC3BDF9"
+			]
 			icon: {
 				components: {
 					"ftbquests:icon": "astral_dragon:item/astral_icon"
@@ -543,6 +535,7 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["6CC27511B19B214F"]
 			id: "4535A656F620B8B9"
 			rewards: [
 				{
@@ -570,6 +563,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["6CC27511B19B214F"]
 			id: "6B26A9D9D92F69DA"
 			rewards: [
 				{
@@ -599,6 +593,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["6CC27511B19B214F"]
 			id: "2E92127811717292"
 			rewards: [
 				{
@@ -633,6 +628,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6CC27511B19B214F"]
 			id: "74D8E9EC39D5A9D2"
 			rewards: [
 				{
@@ -662,6 +658,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["6CC27511B19B214F"]
 			id: "74CCA3A95866E0CE"
 			rewards: [
 				{
@@ -689,6 +686,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2599EC1F2F19464A"]
 			id: "17ECFF157B63592F"
 			rewards: [
 				{
@@ -764,6 +762,463 @@
 			]
 			x: 0.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["2599EC1F2F19464A"]
+			id: "2CABA649B11966EB"
+			rewards: [
+				{
+					count: 3
+					id: "7F8FE9A2B7C725AC"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "2DE4C943368ED618"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity/end_gateway_beam.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "60A93AE1544A0A2D"
+				observe_type: 0
+				timer: 100L
+				to_observe: "minecraft:end_gateway"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2599EC1F2F19464A"]
+			id: "07328C6505484271"
+			rewards: [
+				{
+					count: 3
+					id: "6F4DEE0C7F66C661"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "7F2C1515F4BA000E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "476223F9E6110938"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["16AC902A8860C5D5"]
+			id: "258CFD18EE567A75"
+			rewards: [
+				{
+					count: 3
+					id: "4F1A0472431A1C87"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "390540E089538A2E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "astral_dragon:astral/master_all_passives"
+				criterion: ""
+				id: "4C9F4037B8C1F4DF"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["49FC89FFF13329BF"]
+			id: "638EEC92478431C8"
+			rewards: [
+				{
+					id: "7331C65A86EB0969"
+					item: {
+						count: 1
+						id: "kubejs:astral_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "1341A1D854B90843"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					advancement: "astral_dragon:astral/dimensional_explorer"
+					criterion: ""
+					id: "5EEE407364825757"
+					type: "advancement"
+				}
+				{
+					advancement: "astral_dragon:astral/singularity_kill"
+					criterion: ""
+					id: "6AC924FA946ADBFB"
+					type: "advancement"
+				}
+				{
+					advancement: "astral_dragon:astral/teleport_once"
+					criterion: ""
+					id: "7C53353AA400D31C"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "astral_dragon:astral/teleport_many_times"
+					criterion: ""
+					id: "1154B1902D8D355E"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/trade_at_world_height"
+					criterion: ""
+					id: "57F4EBA2C859CCA2"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["16AC902A8860C5D5"]
+			id: "1EE624BDBB0F7301"
+			rewards: [
+				{
+					count: 3
+					id: "53A36ED7ED3651CF"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "31456F95C93CB3C7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:endermaptera"
+				id: "5B25EC7A899C40DB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["16AC902A8860C5D5"]
+			id: "0B0D756819D16F7D"
+			rewards: [
+				{
+					count: 3
+					id: "3E2BC450D0323DAF"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "460FD3568437530F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "40FA1B868235FA6B"
+				type: "kill"
+				value: 2L
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["49FC89FFF13329BF"]
+			id: "4DE67F32DA93384F"
+			rewards: [
+				{
+					id: "1896CE009C9612BB"
+					item: {
+						count: 1
+						id: "kubejs:astral_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "4EA782EF99FA3BB0"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_heavenly_challenger"
+					criterion: ""
+					id: "34BC9E4F8F4EA689"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_heavenly_conqueror"
+					criterion: ""
+					id: "1B575F5842E83E9F"
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_heavenly_rider"
+					criterion: ""
+					id: "5DC9BA2644D5FE9B"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["26053B577195305A"]
+			id: "7F3860516EB20F18"
+			rewards: [
+				{
+					count: 5
+					id: "6DD3CD6772C2A08D"
+					item: {
+						count: 1
+						id: "kubejs:astral_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "228F973A39218B84"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/geburah"
+				criterion: ""
+				id: "7034300ACBCA37BE"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["26053B577195305A"]
+			id: "5E2651DABF146E68"
+			rewards: [
+				{
+					count: 5
+					id: "5C318E62912292F6"
+					item: {
+						count: 1
+						id: "kubejs:astral_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "25C44FBEA95B451A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					biome: "stellarity:amethyst_forest"
+					icon: {
+						id: "minecraft:budding_amethyst"
+					}
+					id: "2E6990DF78692CB7"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:ashfall_deltas"
+					icon: {
+						id: "minecraft:blackstone"
+					}
+					id: "43FBB934DC110BF7"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:crystal_crags"
+					icon: {
+						id: "minecraft:amethyst_cluster"
+					}
+					id: "34E2DBBBF8D80463"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:dragons_den"
+					icon: {
+						id: "minecraft:deepslate"
+					}
+					id: "79996BDDD23CEABA"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "stellarity:end_shrubland"
+					icon: {
+						id: "minecraft:tall_grass"
+					}
+					id: "517D0D7AA5874976"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:end_wilds"
+					icon: {
+						id: "minecraft:end_stone"
+					}
+					id: "6D2550CE5214E5E6"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:ender_wastes"
+					icon: {
+						id: "minecraft:chorus_plant"
+					}
+					id: "2A9E92EB21669009"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:endless_dunes"
+					icon: {
+						id: "minecraft:sand"
+					}
+					id: "4D652A9E0B8D41EE"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:fiery_hills"
+					icon: {
+						id: "minecraft:magma_block"
+					}
+					id: "68A181A3B06555B7"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:flesh_tundra"
+					icon: {
+						id: "minecraft:crimson_nylium"
+					}
+					id: "622FDC6D2201A97C"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:frosted_valley"
+					icon: {
+						id: "minecraft:snow_block"
+					}
+					id: "60DB204D070DC5C8"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:frozen_marsh"
+					icon: {
+						id: "minecraft:warped_wart_block"
+					}
+					id: "437BCC96B2A21D4C"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:frozen_shrubland"
+					icon: {
+						id: "minecraft:white_concrete_powder"
+					}
+					id: "6515386EA073B93B"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:frozen_peaks"
+					icon: {
+						id: "minecraft:snow"
+					}
+					id: "4445F77EEB8D5F31"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					biome: "stellarity:hallowed_tundra"
+					icon: {
+						id: "minecraft:light_blue_wool"
+					}
+					id: "6FD7A24BAF783D4F"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:prismarine_forest"
+					icon: {
+						id: "minecraft:sea_lantern"
+					}
+					id: "4D06E05A3DA4D4DE"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:prismatic_dunes"
+					icon: {
+						id: "minecraft:yellow_stained_glass"
+					}
+					id: "487913DBE39F5035"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:the_hallow"
+					icon: {
+						id: "minecraft:cherry_leaves"
+					}
+					id: "4E1B7EBEBC0BF9F1"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:the_nest"
+					icon: {
+						id: "minecraft:dead_horn_coral_block"
+					}
+					id: "6A40A3EE18C7CAFA"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:warped_marsh"
+					icon: {
+						id: "minecraft:twisting_vines"
+					}
+					id: "124E01A200ACCA61"
+					type: "biome"
+				}
+			]
+			x: -1.5d
+			y: 22.5d
 		}
 	]
 }
