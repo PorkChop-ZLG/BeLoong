@@ -166,9 +166,9 @@
 		{
 			dependencies: [
 				"46A3CDDB1A15D9FE"
-				"78411669AF1FD737"
 				"5DB104CFE665CC09"
 				"37794577F6B10689"
+				"680E37E83464BEE6"
 			]
 			icon: {
 				components: {
@@ -392,7 +392,7 @@
 				"22DFEA6E1E1AE527"
 				"4A99ADF6D98D8013"
 				"053BA563D0DBF380"
-				"680E37E83464BEE6"
+				"78411669AF1FD737"
 			]
 			icon: {
 				components: {
@@ -1049,10 +1049,11 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["22DFEA6E1E1AE527"]
+			dependencies: ["46A3CDDB1A15D9FE"]
 			id: "680E37E83464BEE6"
 			rewards: [
 				{
+					count: 5
 					id: "56C1A39B3206F663"
 					item: {
 						count: 1
@@ -1063,7 +1064,7 @@
 				{
 					id: "1A718C2367EC8D7F"
 					type: "xp_levels"
-					xp_levels: 4
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -1093,14 +1094,13 @@
 				}
 			]
 			x: 1.5d
-			y: 17.5d
+			y: 22.5d
 		}
 		{
-			dependencies: ["46A3CDDB1A15D9FE"]
+			dependencies: ["22DFEA6E1E1AE527"]
 			id: "78411669AF1FD737"
 			rewards: [
 				{
-					count: 5
 					id: "2CCBC5454C3ED25C"
 					item: {
 						count: 1
@@ -1111,7 +1111,7 @@
 				{
 					id: "5A4233977BB3A32D"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 4
 				}
 			]
 			tasks: [
@@ -1183,7 +1183,7 @@
 				}
 			]
 			x: 1.5d
-			y: 22.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["46A3CDDB1A15D9FE"]

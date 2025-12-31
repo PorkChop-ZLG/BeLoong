@@ -3,6 +3,8 @@
 	default_quest_shape: "square"
 	filename: "aether_dragon"
 	group: "0476E1FA2E206D30"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "ds_aether_addon:aetherdragonicon"
 	}
@@ -116,7 +118,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["387B82087B06B184"]
+			dependencies: [
+				"387B82087B06B184"
+				"45FBCC91C2442B02"
+			]
 			icon: {
 				components: {
 					"ftbquests:icon": "ds_aether_addon:item/adult_stage_hover"
@@ -843,6 +848,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["387B82087B06B184"]
 			icon: {
 				id: "eternal_starlight:aethersent_golem_spawn_egg"
 			}
@@ -1041,6 +1047,41 @@
 			]
 			x: 1.5d
 			y: 17.5d
+		}
+		{
+			id: "1036A454EE8AB619"
+			rewards: [
+				{
+					count: 5
+					id: "5C4CA51416D53618"
+					item: {
+						count: 1
+						id: "kubejs:aether_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "0206D19EC1AAC0C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "fdbosses:qliphoth_awakening/chesed"
+					criterion: ""
+					id: "7F15C4D7ACD779ED"
+					type: "advancement"
+				}
+				{
+					advancement: "fdbosses:qliphoth_awakening/malkuth"
+					criterion: ""
+					id: "178634BEAD69DACB"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 22.5d
 		}
 	]
 }

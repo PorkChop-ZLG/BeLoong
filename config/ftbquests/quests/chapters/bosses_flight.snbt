@@ -842,7 +842,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			id: "21D5091A376C0F26"
@@ -888,7 +888,7 @@
 				}
 			]
 			x: -1.5d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			id: "6BA6E3779F1D4FC3"
@@ -940,7 +940,7 @@
 				}
 			]
 			x: -5.5d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			id: "11FC2E4D6E6B0D93"
@@ -991,7 +991,7 @@
 				}
 			]
 			x: -3.5d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			id: "15CE2F1DA319C4B4"
@@ -1291,7 +1291,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			id: "45865A0F5D63488F"
@@ -1321,7 +1321,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -1709,6 +1709,36 @@
 			}]
 			x: 3.0d
 			y: 2.0d
+		}
+		{
+			id: "0FC068CD405DBBD4"
+			rewards: [
+				{
+					id: "2566FD9EEEDE4172"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 20
+					id: "59A2765E28CA9C4B"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "574121925C807AA7"
+				item: { count: 1, id: "fdbosses:geburah_trophy" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
 		}
 	]
 }

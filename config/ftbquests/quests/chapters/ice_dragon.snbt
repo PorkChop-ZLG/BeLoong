@@ -3,6 +3,8 @@
 	default_quest_shape: "square"
 	filename: "ice_dragon"
 	group: "0476E1FA2E206D30"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "kubejs:tundra_full_icon"
 	}
