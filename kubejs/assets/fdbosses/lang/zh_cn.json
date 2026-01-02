@@ -243,7 +243,7 @@
   "fdbosses.skills.geburah.sin_move_clockwise_sin_description": "当此罪处于激活状态时，逆着箭头方向移动会被视为犯罪。\n\n§o哦，我们兜兜转转——",
   "fdbosses.skills.geburah.sin_pressed_too_many_buttons": "操作之罪",
   "fdbosses.skills.geburah.sin_pressed_too_many_buttons_description": "当此罪处于激活状态时，进行超过5次操作会被视为罪。\n\n§o“操作”指任何按键按下。",
-  "fdbosses.bosses.description.geburah": "{{(fdlib:item)item=minecraft:bow}} §c推荐使用远程武器！§r\n\n每个人生来就带着罪，因此需要审判者。成为审判者，就是秉承坚定不移的正义，而我们的英雄正拥有这种正义。但就像人们的罪一样，英雄的生命也在消逝。人们需要他，所以英雄把自己奉献给永恒的正义，于是「严厉」诞生了。就这样，人们在没有罪的世界中幸福地生活了许多年许多年。\n随着纪元流逝、时代更迭，越来越多的人开始抱怨：“把一个有罪的存在变成永恒的审判者，真的好吗？”\n随着岁月继续流逝，抱怨的人越来越少，直到再也没有人留下来抱怨。",
+  "fdbosses.bosses.description.geburah": "{{(fdlib:item)item=minecraft:bow}} §c推荐使用远程武器！§r\n\n世人皆生而有罪，因此需要审判者。成为审判者，意味着背负坚定不移的正义感——这正是我们的英雄所具备的。然而，英雄的生命日渐衰退，人们的罪孽日益增长。人们需要他，英雄遂献身于永恒的正义，「严厉」自此诞生。就这样，人们在没有罪的世界中幸福地生活了许多许多年。\n随着纪元流逝、时代更迭，越来越多的人开始抱怨：“让一个有罪的存在成为永恒的审判者，真的好吗？”\n又过了许多年，抱怨的人越来越少，直到再无问津者。",
   "fdbosses.tldr.geburah": "竞技场上的每个战斗者都会成为{{(fdbosses:effect)id=fdbosses:sinner}}。当攻击模式改变时，「严厉」会将某些行为标记为罪；犯下过多的罪会立即死亡。\n\n当前的罪会显示在「严厉」的屏幕上。\n\n§l「严厉」也会犯罪。§r\n\n",
   "entity.fdbosses.geburah": "严厉",
   "effect.fdbosses.sinner": "罪人",
