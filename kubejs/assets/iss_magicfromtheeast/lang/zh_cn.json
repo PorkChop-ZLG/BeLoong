@@ -180,7 +180,7 @@
   "block.iss_magicfromtheeast.jade_stair": "磨制玉石楼梯",
   "block.iss_magicfromtheeast.jade_wall": "磨制玉石墙",
   "block.iss_magicfromtheeast.chiseled_jade": "雕纹玉石",
-  "block.iss_magicfromtheeast.jade_lion_head_block": "玉石狮子头方块",
+  "block.iss_magicfromtheeast.jade_lion_head_block": "玉狮首",
 
   "block.iss_magicfromtheeast.jadestone_bricks": "玉石砖",
   "block.iss_magicfromtheeast.jadestone_bricks_slab": "玉石砖台阶",
@@ -219,12 +219,12 @@
 
   "effect.iss_magicfromtheeast.soulburn": "魂焰灼烧",
   "effect.iss_magicfromtheeast.soulburn.description": "灼烧受害者的魂魄",
-  "effect.iss_magicfromtheeast.cloud_bless": "筋斗云",
-  "effect.iss_magicfromtheeast.cloud_bless.description": "防止摔死",
+  "effect.iss_magicfromtheeast.cloud_bless": "云佑",
+  "effect.iss_magicfromtheeast.cloud_bless.description": "防止因摔落而死",
   "effect.iss_magicfromtheeast.reversal_healing": "逆转治疗",
   "effect.iss_magicfromtheeast.reversal_healing.description": "将所受伤害转化为治疗效果，同时每级效果提供 5% 击退抗性",
   "effect.iss_magicfromtheeast.mist_step": "迷踪",
-  "effect.iss_magicfromtheeast.mist_step.description": "提高移速与安全摔落高度",
+  "effect.iss_magicfromtheeast.mist_step.description": "提高移动速度与安全摔落高度",
   "effect.iss_magicfromtheeast.anchored_soul": "缚魂",
   "effect.iss_magicfromtheeast.anchored_soul.guide": "拥有此效果的实体进行传送时，会将其一部分灵魂留在传送起始点，持续10秒。之后该效果将被移除",
 
@@ -249,7 +249,7 @@
   "ui.iss_magicfromtheeast.row_length": "%d 名幽灵骑兵",
   "ui.iss_magicfromtheeast.undead_damaging": "%d 点亡灵生物伤害",
   "ui.iss_magicfromtheeast.reverse_healing": "%d%% 伤害转化为血量",
-  "ui.iss_magicfromtheeast.split_projectile_count": "%d 影分身手里剑",
+  "ui.iss_magicfromtheeast.split_projectile_count": "%d 枚影分身手里剑",
 
   "advancements.iss_magicfromtheeast.spell_book_spirit.title": "无脊之书！",
   "advancements.iss_magicfromtheeast.spell_book_spirit.description": "向阴阳师交易得到祭祀折本",
