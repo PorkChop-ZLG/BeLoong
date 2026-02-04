@@ -22,8 +22,6 @@ ui_craft_return_button = "DISABLED"
 #存储UI搜索按钮值 (除非你知道你在做什么，否则不要手动修改)
 #Allowed Values: ENABLED, DISABLED, SORT_DEFAULT, SORT_QUANTITY, SORT_NAME, SORT_MODID, SORT_INSERTED_TIME, SORT_MODIFIED_TIME
 ui_second_sort_button = "SORT_INSERTED_TIME"
-#是否自动生成破碎的时空结晶？
-generate_time_crystallization = true
 #是否允许网络接口将资源送入网络
 interface_can_receive_resource = true
 #是否允许网络接口从网络提取标记的资源
