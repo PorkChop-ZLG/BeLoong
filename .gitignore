@@ -123,6 +123,7 @@ config/**
 !config/ftbultimine-client.snbt
 !config/ftbultimine-server.snbt
 !config/ftbxmodcompat.snbt
+!config/immersive_optimization.json
 !config/irons_spellbooks-client.toml
 !config/irons_spellbooks-server.toml
 !config/jecharacters-client.toml
