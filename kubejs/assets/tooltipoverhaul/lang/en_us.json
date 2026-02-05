@@ -1,0 +1,15 @@
+{
+  "tooltipoverhaul.common_rarity": "Common",
+  "tooltipoverhaul.uncommon_rarity": "Uncommon",
+  "tooltipoverhaul.rare_rarity": "Rare",
+  "tooltipoverhaul.epic_rarity": "Epic",
+
+  "tooltipoverhaul.binds.category": "Tooltip Overhaul",
+  "tooltipoverhaul.binds.compare_bind": "Toggle equipment comparison",
+
+  "tooltipoverhaul.equipped_badge_text": "Equipped",
+
+  "tooltipoverhaul.reload_resources.success": "§a[TooltipOverhaul] Successfully reloaded custom_frames.json files!",
+  "tooltipoverhaul.reload_resources.fail": "§c[TooltipOverhaul] Failed to reload resources!"
+
+}

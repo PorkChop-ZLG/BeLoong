@@ -1,0 +1,15 @@
+{
+  "tooltipoverhaul.common_rarity": "常见",
+  "tooltipoverhaul.uncommon_rarity": "少见",
+  "tooltipoverhaul.rare_rarity": "稀有",
+  "tooltipoverhaul.epic_rarity": "史诗",
+
+  "tooltipoverhaul.binds.category": "提示框革新",
+  "tooltipoverhaul.binds.compare_bind": "开关装备比较",
+
+  "tooltipoverhaul.equipped_badge_text": "已装备",
+
+  "tooltipoverhaul.reload_resources.success": "§a[提示框革新] 成功重载 custom_frames.json 文件！",
+  "tooltipoverhaul.reload_resources.fail": "§c[提示框革新] 重载资源失败！"
+
+}
