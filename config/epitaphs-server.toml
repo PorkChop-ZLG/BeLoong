@@ -1,0 +1,9 @@
+#Time in minutes between a backup of all currently online players
+# Default: 5
+# Range: > 1
+backupInterval = 60
+#Maximum number of old saves to keep.
+#Old saves are grave save states which are no longer associated with a grave
+# Default: 10
+# Range: > 1
+maxBackups = 10

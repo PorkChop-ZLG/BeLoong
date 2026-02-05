@@ -106,6 +106,7 @@ config/**
 !config/entity_texture_features.json
 !config/entity_tracker-client.toml
 !config/entityculling.json
+!config/epitaphs-server.toml
 !config/eternal_starlight.json
 !config/explorerscompass-client.toml
 !config/explorerscompass-common.toml
