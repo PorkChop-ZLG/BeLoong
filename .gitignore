@@ -131,6 +131,7 @@ config/**
 !config/jeed-client.toml
 !config/jei-server.toml
 !config/jupiter.json
+!config/leawind_third_person.json
 !config/lootr-client.toml
 !config/lootr-common.toml
 !config/melodymagic-common.toml
