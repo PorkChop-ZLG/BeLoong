@@ -59,6 +59,8 @@ config/**
 !config/iceandfire/**
 !config/incontrol/
 !config/incontrol/**
+!config/jade
+!config/jade/**
 !config/l2_configs/
 !config/l2_configs/**
 !config/l2configs/
