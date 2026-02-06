@@ -40,17 +40,35 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "eternal_starlight:energy_sword"
+          "name": "eternal_starlight:oxidized_alloy_furnace"
         }
       ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 1.0,
-        "min": 0.0
-      }
+      "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.75,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eternal_starlight:energy_sword"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -61,15 +79,15 @@
     },
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "chance": 0.2,
-              "condition": "minecraft:random_chance"
-            }
-          ],
           "functions": [
             {
               "components": {

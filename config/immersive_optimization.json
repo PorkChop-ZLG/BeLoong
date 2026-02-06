@@ -40,6 +40,7 @@
     "iceandfire:lightning_dragon": false,
     "iceandfire:lightning_dragon_charge": false
   },
+  "cullProjectiles": false,
   "version": 2,
   "name": "immersive_optimization"
 }
