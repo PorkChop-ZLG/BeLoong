@@ -14,4 +14,5 @@ StartupEvents.registry("item", (event) => {
   event.create("kubejs:tundra_dragon_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.tundra_dragon_heart.tooltip')])
   event.create("kubejs:aether_dragon_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.aether_dragon_heart.tooltip')])
   event.create("kubejs:astral_dragon_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.astral_dragon_heart.tooltip')])
+  event.create("eternal_starlight:glacite_ingot").tooltip([Text.translatable('item.eternal_starlight.glacite_ingot.tooltip')])
 })

@@ -184,6 +184,9 @@
   "item.kubejs.tundra_icon": "苔原龙图标",
   "item.kubejs.tundra_full_icon": "苔原龙完整图标",
 
+  "item.eternal_starlight.glacite_ingot": "永冻石锭",
+  "item.eternal_starlight.glacite_ingot.tooltip": "§e『§6化龍§e』§d定制物品，由永冻石块冶炼而来",
+
   "item.kubejs.cave_dragon_heart": "洞穴龙心",
   "item.kubejs.cave_dragon_heart.tooltip": "§6■ 洞穴龙始祖的残存，蕴含着火之本源。",
   "item.kubejs.forest_dragon_heart": "森林龙心",

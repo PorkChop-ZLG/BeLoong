@@ -184,6 +184,9 @@
   "item.kubejs.tundra_icon": "Tundra Icon",
   "item.kubejs.tundra_full_icon": "Tundra Full Icon",
 
+  "item.eternal_starlight.glacite_ingot": "Glacite Ingot",
+  "item.eternal_starlight.glacite_ingot.tooltip": "§e『§6BeLoong§e』§dcustomized items, smelted from Glacite Block",
+
   "item.kubejs.cave_dragon_heart": "Cave Dragon Heart",
   "item.kubejs.cave_dragon_heart.tooltip": "§6■ Remnant of the Cave Dragon Progenitor, containing the essence of fire.",
   "item.kubejs.forest_dragon_heart": "Forest Dragon Heart",
