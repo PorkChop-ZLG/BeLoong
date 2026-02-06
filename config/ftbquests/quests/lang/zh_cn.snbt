@@ -855,7 +855,7 @@
 		"&2自然罗盘：&a绒球葱灌丛&r"
 		"&2自然罗盘：&a苋菜花原野&r"
 		"&2自然罗盘：&a蓝花楹丛林&r"
-		"&2自然罗盘：&a乌尾花常绿灌木群落&r"
+		"&2自然罗盘：&a鸟尾花常绿灌木群落&r"
 		""
 		"未至之地："
 		"&2自然罗盘：&a繁花原野&r"
@@ -863,7 +863,7 @@
 		"&2自然罗盘：&a木兰林地&r"
 	]
 	quest.12A467A5BE97AA0E.quest_subtitle: "打卡12种繁花生物群系"
-	quest.12A467A5BE97AA0E.title: "若盛开，蝴蝶自来"
+	quest.12A467A5BE97AA0E.title: "你若盛开，蝴蝶自来"
 	quest.12E2CD43AD01F522.title: "击杀：沼骸"
 	quest.12EB86E73FDAF20F.quest_desc: ["&a目标：观察一只火龙"]
 	quest.12EB86E73FDAF20F.quest_subtitle: "了解火龙习性"
