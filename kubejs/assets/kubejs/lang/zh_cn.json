@@ -212,6 +212,9 @@
   "item.kubejs.abeemination.tooltip": "只能在深暗之园的特定结构处召唤蜂王",
 
   "tag.item.c.jades": "玉",
+  
+  "enchantment.epitaphs.experience_soulbound.desc": "功能同灵魂绑定，同时每件装备保留1/4的总经验值。仅适用于护甲。",
+  "enchantment.epitaphs.soulbound.desc": "携带此附魔的物品死亡时保留在背包中，而不是在墓碑里。适用于所有可附魔工具及饰品。",
 
   "message.kubejs.banned_item": "该物品已被封禁: ",
   "message.kubejs.back": "输入 /back 返回上次死亡的地方",

@@ -212,6 +212,9 @@
   "item.kubejs.abeemination.tooltip": "Can only be used in the Undergarden",
 
   "tag.item.c.jades": "Jade",
+  
+  "enchantment.epitaphs.experience_soulbound.desc": "Acts the same way as normal soulbound, but will also retain 1/4th of your total xp per armor piece with this enchant. By default this enchantment can be applied to all armors.",
+  "enchantment.epitaphs.soulbound.desc": " An item with this enchantment will stay in your inventory when you die. By default this enchantment can be applied to everything that is enchantable by default, all tools and all default curios. ",
 
   "message.kubejs.banned_item": "Banned item: ",
   "message.kubejs.back": "Type /back to return to your death point",
