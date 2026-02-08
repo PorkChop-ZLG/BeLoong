@@ -224,11 +224,11 @@
 		}
 		{
 			dependencies: [
-				"087A166AA7484802"
 				"78154BF5E76EB76C"
 				"71BFA3CE3156E064"
 				"07FF8B926B1BA0A3"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:item/sea_full_icon"
@@ -257,9 +257,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "07BC26EC0ED23F2D"
+					id: "15586AF6D7DFDB48"
 					table_id: 3727137034912313201L
-					type: "loot"
+					type: "choice"
 				}
 			]
 			shape: "octagon"
@@ -330,13 +330,13 @@
 		}
 		{
 			dependencies: [
-				"7C024F9AAFDA7F51"
 				"7E7C768023F22D2E"
 				"09AD9A5F6A9D97B8"
 				"3B93840E4935B0B0"
 				"5BAF5C77F3373696"
 				"18BC27F09DE456D2"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/young_stage_hover.png"
@@ -369,11 +369,11 @@
 		}
 		{
 			dependencies: [
-				"330CE4B915D1BB41"
 				"4ED0A659EAD11758"
 				"7CCA24AC1BDC6433"
 				"33C7AE423913A469"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:item/sea_icon"
@@ -406,13 +406,13 @@
 		}
 		{
 			dependencies: [
-				"49E035E1CB353C48"
 				"068FAE02D6CD3A80"
 				"31A9F50E9E58685D"
 				"6A0A7CA003C79A28"
 				"13F417E2FB58EB86"
 				"59524F0DEF703874"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/ancient_stage_hover.png"
@@ -445,13 +445,14 @@
 		}
 		{
 			dependencies: [
-				"75F377E217613AEF"
 				"634C5657E921C26C"
 				"0C6C9EF6B3BA9388"
 				"5EFF5C22E67BCE5D"
 				"014D856119B0F3F7"
 				"7BBFEA3573C09A67"
 			]
+			dependency_requirement: "one_completed"
+			disable_recipe_mod: false
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/adult_stage_hover.png"
@@ -545,6 +546,7 @@
 		{
 			dependencies: ["7C024F9AAFDA7F51"]
 			id: "09AD9A5F6A9D97B8"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -575,6 +577,7 @@
 		{
 			dependencies: ["7C024F9AAFDA7F51"]
 			id: "18BC27F09DE456D2"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -603,6 +606,7 @@
 		{
 			dependencies: ["7C024F9AAFDA7F51"]
 			id: "3B93840E4935B0B0"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -633,6 +637,7 @@
 		{
 			dependencies: ["7C024F9AAFDA7F51"]
 			id: "5BAF5C77F3373696"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -665,6 +670,7 @@
 		{
 			dependencies: ["75F377E217613AEF"]
 			id: "5EFF5C22E67BCE5D"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -695,6 +701,7 @@
 		{
 			dependencies: ["75F377E217613AEF"]
 			id: "0C6C9EF6B3BA9388"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -727,6 +734,7 @@
 		{
 			dependencies: ["75F377E217613AEF"]
 			id: "7BBFEA3573C09A67"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -757,6 +765,7 @@
 		{
 			dependencies: ["75F377E217613AEF"]
 			id: "014D856119B0F3F7"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -813,6 +822,7 @@
 		{
 			dependencies: ["49E035E1CB353C48"]
 			id: "6A0A7CA003C79A28"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -843,6 +853,7 @@
 		{
 			dependencies: ["49E035E1CB353C48"]
 			id: "13F417E2FB58EB86"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -875,6 +886,7 @@
 		{
 			dependencies: ["49E035E1CB353C48"]
 			id: "59524F0DEF703874"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -905,6 +917,7 @@
 		{
 			dependencies: ["49E035E1CB353C48"]
 			id: "068FAE02D6CD3A80"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -979,6 +992,7 @@
 		{
 			dependencies: ["330CE4B915D1BB41"]
 			id: "4ED0A659EAD11758"
+			optional: true
 			rewards: [
 				{
 					id: "0E49FC87BC85ADEA"
@@ -1032,6 +1046,7 @@
 		{
 			dependencies: ["330CE4B915D1BB41"]
 			id: "7CCA24AC1BDC6433"
+			optional: true
 			rewards: [
 				{
 					id: "72F89387D91ABDAF"
@@ -1109,6 +1124,7 @@
 		{
 			dependencies: ["087A166AA7484802"]
 			id: "78154BF5E76EB76C"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1160,6 +1176,7 @@
 		{
 			dependencies: ["087A166AA7484802"]
 			id: "07FF8B926B1BA0A3"
+			optional: true
 			rewards: [
 				{
 					count: 5

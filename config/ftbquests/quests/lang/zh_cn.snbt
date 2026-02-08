@@ -80,7 +80,7 @@
 	]
 	chapter.70F8D93CCB47276E.title: "&d关于&e『&6化龍&e』&d整合包"
 	chapter.7B67918088B05AB6.chapter_subtitle: ["隐藏式任务"]
-	chapter.7B67918088B05AB6.title: "〖星界龙〗专属挑战"
+	chapter.7B67918088B05AB6.title: "〖星界龙〗成长之路"
 	chapter.7E93FF98428B8B46.chapter_subtitle: [
 		"番外篇：冰火传说"
 		"冰火传说社区版"
@@ -1743,6 +1743,7 @@
 	quest.2E299ACD32EA2CA2.title: "骷髅王"
 	quest.2E6A1BFF333127EA.quest_subtitle: "死者之王小概率掉落"
 	quest.2E6A1BFF333127EA.title: "熄法结节 法术卷轴"
+	quest.2E92127811717292.quest_subtitle: "重兵把守的传送门"
 	quest.2E92127811717292.title: "观察：末地传送门"
 	quest.2EB0BF01344C3DD7.title: "钻心紫颂果"
 	quest.2EBCC86372D200F5.quest_desc: [
@@ -2439,7 +2440,8 @@
 	quest.44CF273ECA38F841.title: "战斗法师装备"
 	quest.44DBC43AEBA8B676.quest_subtitle: "集齐所有手饰"
 	quest.44DBC43AEBA8B676.title: "&a手饰毕业"
-	quest.4535A656F620B8B9.quest_subtitle: "你不需要食用任何东西"
+	quest.4535A656F620B8B9.quest_desc: ["&a目标：获得龙蛋"]
+	quest.4535A656F620B8B9.quest_subtitle: "那段尘封的往事"
 	quest.4535A656F620B8B9.title: "末影龙的后代"
 	quest.45865A0F5D63488F.quest_desc: [
 		"&l&d逆卡巴拉「王国」"
@@ -3297,7 +3299,6 @@
 		"&2自然罗盘：&a紫晶森林&r"
 		"&2自然罗盘：&a灰烬三角洲&r"
 		"&2自然罗盘：&a水晶峰峦&r"
-		"&2自然罗盘：&a龙巢地&r"
 		"&2自然罗盘：&a末地灌木带&r"
 		"&2自然罗盘：&a末地荒原&r"
 		"&2自然罗盘：&a末影废土&r"
@@ -3313,12 +3314,11 @@
 		"&2自然罗盘：&a寒霜尖蜂&r"
 		"&2自然罗盘：&a圣洁冻原&r"
 		"&2自然罗盘：&a海晶森林&r"
-		"&2自然罗盘：&a棱彩沙丘&r"
 		"&2自然罗盘：&a圣域&r"
 		"&2自然罗盘：&a龙巢地&r"
 		"&2自然罗盘：&a扭曲沼泽&r"
 	]
-	quest.5E2651DABF146E68.quest_subtitle: "打卡stellarity的20种末地生物群系"
+	quest.5E2651DABF146E68.quest_subtitle: "打卡stellarity的末地生物群系"
 	quest.5E2651DABF146E68.title: "群星末地"
 	quest.5E2F36A14E2F1879.quest_desc: [
 		"&a目标：击败克苏鲁之眼，获得克苏鲁护盾"
@@ -3623,6 +3623,7 @@
 	]
 	quest.6B23ED6B44E5FDFF.quest_subtitle: "打卡9种苔原生物群系"
 	quest.6B23ED6B44E5FDFF.title: "真的冰霜行者"
+	quest.6B26A9D9D92F69DA.quest_subtitle: "龙族流放之地"
 	quest.6B26A9D9D92F69DA.title: "打卡：末地内陆"
 	quest.6B3CAAA337596F88.quest_desc: [
 		"&c注意：是原地生成一只【宝箱怪】！"

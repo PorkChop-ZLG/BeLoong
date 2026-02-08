@@ -69,6 +69,7 @@
 			}
 			icon_scale: 2.0d
 			id: "41C8EFCFDDD74B24"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -193,6 +194,7 @@
 				id: "minecraft:phantom_membrane"
 			}
 			id: "026EE10B22870C6B"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -221,6 +223,7 @@
 		{
 			dependencies: ["16AC902A8860C5D5"]
 			id: "2868198C85787E08"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -254,6 +257,7 @@
 				id: "minecraft:torchflower"
 			}
 			id: "2CDF187F53C29F22"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -283,11 +287,11 @@
 		}
 		{
 			dependencies: [
-				"26053B577195305A"
 				"5E2651DABF146E68"
 				"766B3F52833465AC"
 				"7F3860516EB20F18"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "astral_dragon:astral_full_icon"
 			}
@@ -382,13 +386,13 @@
 		}
 		{
 			dependencies: [
-				"6CC27511B19B214F"
 				"74D8E9EC39D5A9D2"
 				"2E92127811717292"
 				"6B26A9D9D92F69DA"
 				"4535A656F620B8B9"
 				"74CCA3A95866E0CE"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
@@ -421,13 +425,13 @@
 		}
 		{
 			dependencies: [
-				"2599EC1F2F19464A"
 				"2CABA649B11966EB"
 				"41C8EFCFDDD74B24"
 				"17ECFF157B63592F"
 				"026EE10B22870C6B"
 				"07328C6505484271"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
@@ -460,13 +464,13 @@
 		}
 		{
 			dependencies: [
-				"16AC902A8860C5D5"
 				"2CDF187F53C29F22"
 				"2868198C85787E08"
 				"1EE624BDBB0F7301"
 				"258CFD18EE567A75"
 				"0B0D756819D16F7D"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/neutron_star_stage_hover.png"
@@ -499,11 +503,11 @@
 		}
 		{
 			dependencies: [
-				"49FC89FFF13329BF"
 				"638EEC92478431C8"
 				"4DE67F32DA93384F"
 				"095F26381CC3BDF9"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "astral_dragon:item/astral_icon"
@@ -565,6 +569,7 @@
 		{
 			dependencies: ["6CC27511B19B214F"]
 			id: "6B26A9D9D92F69DA"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -595,6 +600,7 @@
 		{
 			dependencies: ["6CC27511B19B214F"]
 			id: "2E92127811717292"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -630,6 +636,7 @@
 		{
 			dependencies: ["6CC27511B19B214F"]
 			id: "74D8E9EC39D5A9D2"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -660,6 +667,7 @@
 		{
 			dependencies: ["6CC27511B19B214F"]
 			id: "74CCA3A95866E0CE"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -766,6 +774,7 @@
 		{
 			dependencies: ["2599EC1F2F19464A"]
 			id: "2CABA649B11966EB"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -801,6 +810,7 @@
 		{
 			dependencies: ["2599EC1F2F19464A"]
 			id: "07328C6505484271"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -857,6 +867,7 @@
 		{
 			dependencies: ["49FC89FFF13329BF"]
 			id: "638EEC92478431C8"
+			optional: true
 			rewards: [
 				{
 					id: "7331C65A86EB0969"
@@ -912,6 +923,7 @@
 		{
 			dependencies: ["16AC902A8860C5D5"]
 			id: "1EE624BDBB0F7301"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -940,6 +952,7 @@
 		{
 			dependencies: ["16AC902A8860C5D5"]
 			id: "0B0D756819D16F7D"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -968,6 +981,7 @@
 		{
 			dependencies: ["49FC89FFF13329BF"]
 			id: "4DE67F32DA93384F"
+			optional: true
 			rewards: [
 				{
 					id: "1896CE009C9612BB"
@@ -1009,6 +1023,7 @@
 		{
 			dependencies: ["26053B577195305A"]
 			id: "7F3860516EB20F18"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1037,6 +1052,7 @@
 		{
 			dependencies: ["26053B577195305A"]
 			id: "5E2651DABF146E68"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1076,15 +1092,6 @@
 						id: "minecraft:amethyst_cluster"
 					}
 					id: "34E2DBBBF8D80463"
-					type: "biome"
-				}
-				{
-					biome: "stellarity:dragons_den"
-					icon: {
-						id: "minecraft:deepslate"
-					}
-					id: "79996BDDD23CEABA"
-					optional_task: true
 					type: "biome"
 				}
 				{
@@ -1160,15 +1167,6 @@
 					type: "biome"
 				}
 				{
-					biome: "minecraft:frozen_peaks"
-					icon: {
-						id: "minecraft:snow"
-					}
-					id: "4445F77EEB8D5F31"
-					optional_task: true
-					type: "biome"
-				}
-				{
 					biome: "stellarity:hallowed_tundra"
 					icon: {
 						id: "minecraft:light_blue_wool"
@@ -1182,14 +1180,6 @@
 						id: "minecraft:sea_lantern"
 					}
 					id: "4D06E05A3DA4D4DE"
-					type: "biome"
-				}
-				{
-					biome: "stellarity:prismatic_dunes"
-					icon: {
-						id: "minecraft:yellow_stained_glass"
-					}
-					id: "487913DBE39F5035"
 					type: "biome"
 				}
 				{

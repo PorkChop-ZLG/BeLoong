@@ -119,11 +119,11 @@
 		}
 		{
 			dependencies: [
-				"387B82087B06B184"
 				"45FBCC91C2442B02"
 				"1036A454EE8AB619"
 				"12A467A5BE97AA0E"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "ds_aether_addon:item/adult_stage_hover"
@@ -221,13 +221,13 @@
 		}
 		{
 			dependencies: [
-				"39AF32032B46C495"
 				"17451AAB675DC141"
 				"25304587B8DDF559"
 				"24AF8C0A4EC3CE90"
 				"632E9020CA85A8A3"
 				"50BB90328AFA019B"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/newborn_stage_hover.png"
@@ -260,13 +260,13 @@
 		}
 		{
 			dependencies: [
-				"3B512F52E529954C"
 				"02B96CE03E4B8FF7"
 				"51238BE8AF0EA852"
 				"37F1B7C8FF396C68"
 				"459C37FAE369EFF4"
 				"31E0FB1E1052AF73"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png"
@@ -299,13 +299,13 @@
 		}
 		{
 			dependencies: [
-				"6E3E82FB2A6E1D40"
 				"32180BF9665E316D"
 				"7F59185C7CD743A1"
 				"08CE97F6C822784E"
 				"040C5733423CA409"
 				"3559B497DB99808C"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png"
@@ -338,11 +338,11 @@
 		}
 		{
 			dependencies: [
-				"4BE1FAC8EB16D548"
 				"1D4B9072EAB12A10"
 				"675B09EF31EDCEA1"
 				"47B35B8ACB0DEA79"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "ds_aether_addon:item/adult_stage_hover"
@@ -376,6 +376,7 @@
 		{
 			dependencies: ["39AF32032B46C495"]
 			id: "25304587B8DDF559"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -406,6 +407,7 @@
 		{
 			dependencies: ["39AF32032B46C495"]
 			id: "632E9020CA85A8A3"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -486,6 +488,7 @@
 		{
 			dependencies: ["39AF32032B46C495"]
 			id: "17451AAB675DC141"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -514,6 +517,7 @@
 		{
 			dependencies: ["39AF32032B46C495"]
 			id: "50BB90328AFA019B"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -542,6 +546,7 @@
 		{
 			dependencies: ["3B512F52E529954C"]
 			id: "37F1B7C8FF396C68"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -573,6 +578,7 @@
 		{
 			dependencies: ["3B512F52E529954C"]
 			id: "51238BE8AF0EA852"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -603,6 +609,7 @@
 		{
 			dependencies: ["3B512F52E529954C"]
 			id: "459C37FAE369EFF4"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -631,6 +638,7 @@
 		{
 			dependencies: ["3B512F52E529954C"]
 			id: "02B96CE03E4B8FF7"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -691,6 +699,7 @@
 		{
 			dependencies: ["6E3E82FB2A6E1D40"]
 			id: "040C5733423CA409"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -721,6 +730,7 @@
 		{
 			dependencies: ["6E3E82FB2A6E1D40"]
 			id: "7F59185C7CD743A1"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -748,6 +758,7 @@
 		{
 			dependencies: ["6E3E82FB2A6E1D40"]
 			id: "08CE97F6C822784E"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -778,6 +789,7 @@
 		{
 			dependencies: ["6E3E82FB2A6E1D40"]
 			id: "32180BF9665E316D"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -899,6 +911,7 @@
 		{
 			dependencies: ["4BE1FAC8EB16D548"]
 			id: "1D4B9072EAB12A10"
+			optional: true
 			rewards: [
 				{
 					id: "2EF8627E43F6B9A1"
@@ -946,6 +959,7 @@
 		{
 			dependencies: ["4BE1FAC8EB16D548"]
 			id: "47B35B8ACB0DEA79"
+			optional: true
 			rewards: [
 				{
 					id: "444617402342F469"
@@ -1054,6 +1068,7 @@
 		{
 			dependencies: ["387B82087B06B184"]
 			id: "1036A454EE8AB619"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1090,6 +1105,7 @@
 		{
 			dependencies: ["387B82087B06B184"]
 			id: "12A467A5BE97AA0E"
+			optional: true
 			rewards: [
 				{
 					count: 5
