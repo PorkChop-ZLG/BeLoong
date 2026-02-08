@@ -815,6 +815,9 @@
 			y: 3.0d
 		}
 		{
+			icon: {
+				id: "fdbosses:chesed_trophy"
+			}
 			id: "03DA2F2992CDD7DA"
 			rewards: [
 				{
@@ -834,17 +837,33 @@
 			]
 			shape: "octagon"
 			size: 3.0d
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "45D2B9C9CF423E27"
-				item: { count: 1, id: "fdbosses:chesed_trophy" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "45D2B9C9CF423E27"
+					item: { count: 1, id: "fdbosses:chesed_trophy" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "38C9C74ADE3B66A8"
+					item: { count: 1, id: "fdbosses:lightning_core" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "25BDB871491B0D30"
+					item: { count: 1, id: "fdbosses:phase_sphere" }
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 4.0d
 		}
 		{
+			icon: {
+				id: "irons_spellbooks:blood_staff"
+			}
 			id: "21D5091A376C0F26"
 			rewards: [
 				{
@@ -891,6 +910,9 @@
 			y: 6.5d
 		}
 		{
+			icon: {
+				id: "irons_spellbooks:decrepit_scythe"
+			}
 			id: "6BA6E3779F1D4FC3"
 			rewards: [
 				{
@@ -943,6 +965,9 @@
 			y: 6.5d
 		}
 		{
+			icon: {
+				id: "darkdoppelganger:summon_scroll"
+			}
 			id: "11FC2E4D6E6B0D93"
 			rewards: [
 				{
@@ -1294,6 +1319,9 @@
 			y: 5.0d
 		}
 		{
+			icon: {
+				id: "fdbosses:malkuth_trophy"
+			}
 			id: "45865A0F5D63488F"
 			rewards: [
 				{
@@ -1313,13 +1341,26 @@
 			]
 			shape: "octagon"
 			size: 3.0d
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "477F6FA66312424A"
-				item: { count: 1, id: "fdbosses:malkuth_trophy" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "477F6FA66312424A"
+					item: { count: 1, id: "fdbosses:malkuth_trophy" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6A4E4B6821EA5A5F"
+					item: { count: 1, id: "fdbosses:fire_and_ice_core" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6232DF62A30DF789"
+					item: { components: { "fdbosses:malkuth_fist": { canSkipCooldown: 0b, entityHookCooldown: 0 } }, count: 1, id: "fdbosses:malkuth_fist" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
 		}
@@ -1711,6 +1752,9 @@
 			y: 2.0d
 		}
 		{
+			icon: {
+				id: "fdbosses:geburah_trophy"
+			}
 			id: "0FC068CD405DBBD4"
 			rewards: [
 				{
@@ -1730,13 +1774,26 @@
 			]
 			shape: "octagon"
 			size: 3.0d
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "574121925C807AA7"
-				item: { count: 1, id: "fdbosses:geburah_trophy" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "574121925C807AA7"
+					item: { count: 1, id: "fdbosses:geburah_trophy" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78273499477C386C"
+					item: { count: 1, id: "fdbosses:justice_core" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "58A4DBB94974B28B"
+					item: { count: 1, id: "fdbosses:divine_gear" }
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 1.0d
 		}
