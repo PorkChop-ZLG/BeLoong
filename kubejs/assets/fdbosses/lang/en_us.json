@@ -23,6 +23,9 @@
   "item.fdbosses.eye_of_geburah": "Eye Of Geburah",
   "item.fdbosses.malkuth_fire_warrior_spawn_egg": "Malkuth Warrior Spawn Egg (Fire)",
   "item.fdbosses.malkuth_ice_warrior_spawn_egg": "Malkuth Warrior Spawn Egg (Ice)",
+  "item.fdbosses.phase_sphere": "Phase Sphere",
+  "item.fdbosses.malkuth_fist": "Emberfrost Gauntlet",
+  "item.fdbosses.divine_gear": "Divine Gear",
 
   "death.attack.geburah_judgement_ball": "%s caught a stray sin in his face",
   "death.attack.geburah_ray_strike": "%s sins were obliterated",
@@ -124,6 +127,8 @@
   "fdbosses.boss_drop.fdbosses.chesed.fdbosses.lightning_core.info": "A core that Chesed draws its power from. \n\nCan be applied to any weapon in crafting table. \n\nWhen attacking entities with a weapon that is enhanced with Lightning Core there is a chance to struck the target with Chesed lightning that will do a percentage of weapons damage while inflicting {{(fdbosses:effect)id=fdbosses:shocked}}.",
   "fdbosses.boss_drop.fdbosses.chesed.fdbosses.lightning_core.stats": "Shock:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=effectConfig, value=shockDamageReductionPercent}}% outgoing damage reduction.\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=lightningStrikeShockDuration}} ticks.\n\nLightning: \n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=lightningStrikeDamagePercent}}% of weapon damage.\n\nSummon chance:  {{(fdbosses:config_float) config=itemConfig, value=chanceToSummonLightningStrike}}%",
   "fdbosses.boss_drop.fdbosses.chesed.fdbosses.chesed_trophy.info": "A trophy of Chesed to showcase your heroic deeds",
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.info": "Can be used to phase through the blocks at high speed.\n\n§cWarning!§r\n\nMobs will still be able to damage you, you are immune only to suffocating in blocks.",
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.stats": "Phasing duration:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=phaseSphereUseDuration}} ticks.\n\nCooldown:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=phaseSphereCooldown}} ticks.",
 
   "fdbosses.skills.chesed.electrified_air": "Electrified Air",
   "fdbosses.skills.chesed.electrified_air_description": "Air above Chesed crackles with power. Entities that interact with it are damaged.",
@@ -197,6 +202,9 @@
   "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.fire_and_ice_core.stats": "Damage:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=playerMalkuthFireballToolDamagePercent}}% of tool damage.\n\nItem ability cooldown:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=playerMalkuthFireballAbilityCooldown}} ticks",
   "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.fire_and_ice_core.info": "The core of Malkuth.\n\nCan be attached to any item that has damage to be able to summon Malkuth fireballs.\n\nUse an item to release a fireball that will deal a percentage of item damage and ignite the targets.\n\nCrouch while using an item to release an iceball that will slow the targets instead.",
   "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_trophy.info": "A trophy of Malkuth to showcase your heroic deeds",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.stats": "Crush Damage:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCrushDamage}}.\n\nCooldown:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCooldown}} ticks",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.info": "§6In right hand:§r\n\nActs as grappling hook for blocks. Casts Malkuths crush attack at grapple position.\nIf used on ground while facing downwards propels the user up into the air.\n\n§6In left hand:§r\n\nActs as a grappling hook for entities. Makes user automatically attack the target, then knocks user back from the target.\n\n§6Combo:§r\n\nUsing an item in the left hand and then moving it back to the right hand resets its cooldown.",
+
 
   "fdbosses.tldr.malkuth": "Cannot be attacked directly.\n\nWhen player is weak to §cFire§r it receives decreased §bIce§r damage, and other way around if player is weak to §bIce§r, it receives decreased §cFire§r damage.\n\nCurrent weakness can be seen on the crosshair.\n\nUse cannons on the arena to attack Malkuth, you can only use the cannon of type you are currently weak to.",
   "fdbosses.word.patrons": "Patrons",
@@ -226,7 +234,7 @@
   "fdbosses.skills.geburah.round_and_round_laser_description": "Emits constantly active lasers from its cannons, rotating them around with slow speed.",
   "fdbosses.skills.geburah.birds_of_justice": "Judgement Birds",
   "fdbosses.skills.geburah.birds_of_justice_stats": "Judgement Bird laser: \n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=geburahConfig, value=judgementBirdDamage}}",
-  "fdbosses.skills.geburah.birds_of_justice_description": "Summons 4 Judgement Birds on the battlefield. When a bird is killed, Geburah will respawn it after a certain time.\n\nJudgement birds have an ability to cast laser beams to attack combatants.",
+  "fdbosses.skills.geburah.birds_of_justice_description": "Summons 4 Judgement Birds on the battlefield. When a bird is killed, Geburah will respawn it after a certain time.\n\nJudgement birds have an ability to cast laser beams to attack combatants.\n\nEach bird has an area where it detects its targets, if no targets are found within the area, the bird flies back to its home point.",
   "fdbosses.skills.geburah.traps": "Immobilizing Traps",
   "fdbosses.skills.geburah.traps_description": "Geburah randomly throws around immobilizing traps. When an entity steps on or flies above it - the trap §ccatches the entity§r and disallows it to move for certain time.",
   "fdbosses.skills.geburah.sin_crystal_of_sin": "Crystals Of Sin",
@@ -236,9 +244,9 @@
   "fdbosses.skills.geburah.sin_kill_entity_sin": "Sin of Killing",
   "fdbosses.skills.geburah.sin_kill_entity_sin_description": "When this sin is active killing any entity is considered a sin. Since Geburah is not-so-fair judge, killing combatants doesn't count.",
   "fdbosses.skills.geburah.sin_move_clockwise_sin": "Sin of Movement",
-  "fdbosses.skills.geburah.sin_move_clockwise_sin_description": "When this sin is active moving in the opposite direction of arrows is considered a sin.\n\n§oOh, round and round we go-",
+  "fdbosses.skills.geburah.sin_move_clockwise_sin_description": "When this sin is active, moving §earound§r §eGeburah§r in the §copposite§r direction of arrows is considered a sin.\n\n§oOh, round and round we go-",
   "fdbosses.skills.geburah.sin_pressed_too_many_buttons": "Sin of Actions",
-  "fdbosses.skills.geburah.sin_pressed_too_many_buttons_description": "When this sin is active performing more than 5 actions is considered a sin.\n\n§oActions are any button press.",
+  "fdbosses.skills.geburah.sin_pressed_too_many_buttons_description": "When this sin is active performing more than 5 actions is considered a sin.\n\n§oActions are any button press. Pressing and holding the buttons is allowed.",
   "fdbosses.bosses.description.geburah": "{{(fdlib:item)item=minecraft:bow}} §cRanged weapon is recommended!§r\n\nEvery human is born in sin, hence, the judges are needed. To be a judge is to bear an unwavering sense of justice, the one that our hero had. But, like sins of people, hero's life was also fading away. The people needed him, so the hero devoted himself to eternal justice and thus Geburah was born. And so the people lived happily in the world without sin for many many years.\nAs centuries passed and generations changed, more and more people started complaining: “Was it really a good idea to make sinful being – an eternal judge?”\nAs years passed less and less people were complaining, until no one was left to complain.",
   "fdbosses.tldr.geburah": "Each combatant on the arena becomes a {{(fdbosses:effect)id=fdbosses:sinner}}. When attack pattern changes Geburah marks certain actions as sinful, committing too many sins causes immediate death.\n\nCurrent sins are displayed at Geburah's screens.\n\n§lGeburah is capable of commiting sins too.§r\n\n",
   "entity.fdbosses.geburah": "Geburah",
@@ -249,13 +257,23 @@
   "fdbosses.skills.geburah.justice_hammer_description": "Summons a magic justice hammer that strikes the ground after a small delay.",
   "fdbosses.skills.geburah.divine_judgement": "Divine Judgement",
   "fdbosses.skills.geburah.divine_judgement_stats": "Current HP damage percent: \n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=geburahConfig, value=ultimateMoveHealthPercentage}}%",
-  "fdbosses.skills.geburah.divine_judgement_description": "Ignites two flames on the scales and starts charging a powerful move.\n\nSummons bells around the arena, each bell, when hit, displaces the corresponding scale plate and disappears.\n\nIf the scales are balanced attack is §acanceled.§r If the scales are not balanced, Geburah §claunches the attack.§r\n\nEach combatant on the arena is damaged for the percentage of their current hp, accumulate 1 sin and have all their positive effects removed.",
+  "fdbosses.skills.geburah.divine_judgement_description": "Ignites two flames on the scales and starts charging a powerful move.\n\nSummons bells around the arena, each bell, when hit, displaces the corresponding scale plate and disappears. §aBells can be hit with ranged weapons.§r\n\nIf the scales are balanced attack is §acanceled.§r If the scales are not balanced, Geburah §claunches the attack.§r\n\nEach combatant on the arena is damaged for the percentage of their current hp, accumulate 3 sins and have all their positive effects removed.",
 
   "fdbosses.boss_drop.fdbosses.geburah.fdbosses.justice_core.info": "Geburah's Core.\n\nCan be applied to any armor in crafting table.\n\nGives players a buff: Incoming damage is reduced and is capped at the amount of the last damage taken (after all resistances).\n\nNot stackable.",
   "fdbosses.boss_drop.fdbosses.geburah.fdbosses.justice_core.stats": "Damage reduction:\n{{(fdlib:image)path=fdbosses:boss_protection}}: {{(fdbosses:config_float) config=itemConfig, value=justiceCoreDamageReduction}}% incoming damage reduction.",
   "fdbosses.boss_drop.fdbosses.geburah.fdbosses.polished_justicestone.info": "A whole lot of Justicestone.",
   "fdbosses.boss_drop.fdbosses.geburah.fdbosses.geburah_trophy.info": "A trophy of Geburah to showcase your heroic deeds",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.stats": "Damage:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearDamage}}.\n\nStrike interval:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearAttackCooldown}} ticks.\n\nLifetime:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearLifetime}} ticks.\n\nCharge replenish time:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearChargeReplenishTime}} ticks.\n\nAttack radius:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearAttackRadius}} blocks.",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.info": "Allows to place down a turret that will attack §cANY§r mob around it.\n\nPrioritizes attacking the last entity you have attacked.\n\nHolds up to  {{(fdbosses:config_float) config=itemConfig, value=divineGearCharges}} charges.",
+
+
+
   "fdbosses.word.cant_find_arena": "Cannot find the structure in this dimension",
   "fdbosses.skills.geburah.sin_stay_still_sin": "Sin of Stillness",
-  "fdbosses.skills.geburah.sin_stay_still_sin_description": "When this sin is active, standing still is forbidden for humans."
+  "fdbosses.skills.geburah.sin_stay_still_sin_description": "When this sin is active, standing still is forbidden for humans.",
+  "fdbosses.word.set_special_respawn_point": "Special respawn position set",
+  "fdbosses.word.item_is_not_released_yet": "This item is not released yet!",
+  "fdbosses.word.malkuth_fist_description": "Acts as grappling hook for blocks in right hand, for entities in left hand. Using item in left hand, then moving it to the right hand resets its cooldown.",
+  "fdbosses.word.phase_sphere_description": "When used allows to phase through blocks for a limited time.",
+  "fdbosses.word.divine_gear_description": "Right click on the block to place down a turret that will attack any mob around it."
 }

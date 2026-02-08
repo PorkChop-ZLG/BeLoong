@@ -35,7 +35,17 @@
     "lightningStrikeShockDuration": 200,
     "playerMalkuthFireballToolDamagePercent": 500.0,
     "playerMalkuthFireballAbilityCooldown": 100,
-    "justiceCoreDamageReduction": 15
+    "justiceCoreDamageReduction": 15,
+    "phaseSphereUseDuration": 200,
+    "phaseSphereCooldown": 60,
+    "iceFireGauntletCooldown": 60,
+    "iceFireGauntletCrushDamage": 50,
+    "divineGearAttackCooldown": 20,
+    "divineGearDamage": 20,
+    "divineGearLifetime": 600,
+    "divineGearCharges": 3,
+    "divineGearChargeReplenishTime": 1000,
+    "divineGearAttackRadius": 32.0
   },
   "_comment_blocksAllowedToBreakInArena": "Block id regex. If you wish to add a single block id, do it like that: ^modid:block_id$",
   "blocksAllowedToBreakInArena": [
