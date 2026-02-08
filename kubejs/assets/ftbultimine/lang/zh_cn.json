@@ -50,6 +50,8 @@
 	"ftbultimine.client_settings.overlay.overlay_inset_x.tooltip": "内边距朝向屏幕中心。\n若X轴位置居中则忽略此设置。",
 	"ftbultimine.client_settings.overlay.overlay_inset_y": "叠加面板Y轴内边距",
 	"ftbultimine.client_settings.overlay.overlay_inset_y.tooltip": "内边距朝向屏幕中心。\n若Y轴位置居中则忽略此设置。",
+	"ftbultimine.client_settings.overlay.overlay_scale": "叠加面板缩放比例",
+	"ftbultimine.client_settings.overlay.overlay_scale.tooltip": "建议使用0.25的倍数以获得最佳的字体显示效果",
 	"ftbultimine.server_settings": "服务端设置",
 	"ftbultimine.server_settings.features": "功能",
 	"ftbultimine.server_settings.features.right_click_axe": "斧：右键点击多个方块",
@@ -81,5 +83,9 @@
 	"ftbultimine.server_settings.misc.prevent_tool_break": "工具损耗限制",
 	"ftbultimine.server_settings.misc.prevent_tool_break.tooltip": "如果装备的工具剩余耐久度等于或低于此值，连锁破坏将停止。设置为0时允许工具损坏。",
 	"ftbultimine.server_settings.misc.cancel_on_block_break_fail": "方块破坏失败时取消",
-	"ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip": "高级设置：遇到无法破坏的方块时停止挖掘，而不是跳过这些方块"
+	"ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip": "高级设置：遇到无法破坏的方块时停止挖掘，而不是跳过这些方块",
+	"ftbultimine.modifier.max_blocks": "连锁破坏最大方块数",
+	"ftbultimine.modifier.cooldown": "连锁破坏冷却时间(刻)",
+	"ftbultimine.modifier.exhaustion": "连锁破坏饥饿值消耗",
+	"ftbultimine.modifier.experience": "连锁破坏经验值消耗"
 }
