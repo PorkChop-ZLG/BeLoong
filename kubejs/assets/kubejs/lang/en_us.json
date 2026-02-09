@@ -199,6 +199,8 @@
   "item.kubejs.aether_dragon_heart.tooltip": "§6■ Remnant of the Aether Dragon Progenitor, containing the essence of wind.",
   "item.kubejs.astral_dragon_heart": "Astral Dragon Heart",
   "item.kubejs.astral_dragon_heart.tooltip": "§6■ Remnant of the Astral Dragon Progenitor, containing the essence of stars.",
+  "item.kubejs.progenitor_dragon_heart": "Progenitor Dragon Heart",
+  "item.kubejs.progenitor_dragon_heart.tooltip": "§6■ Remnant of the Progenitor Dragon, containing boundless power.\n§7■ Legend says the Progenitor Dragon had nine offspring, giving rise to all dragon lineages.\n§7■ The Progenitor Dragon vanished long ago. Only by uniting the power of all dragon lineages can its past glory be restored.",
 
   "item.kubejs.slime_crown": "Slime Crown",
   "item.kubejs.slime_crown.tooltip": "Can only be used in the Undergarden",
