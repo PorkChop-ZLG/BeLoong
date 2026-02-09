@@ -17,7 +17,7 @@
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
     "maximum_level": 1,
-    "growth_requirement": 150
+    "growth_requirement": 100
   },
   "actions": [
     {

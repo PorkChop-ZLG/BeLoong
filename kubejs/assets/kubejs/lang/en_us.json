@@ -106,9 +106,9 @@
   "dragon_stage.dragonsurvival.kirin_progenitor": "Progenitor Kirin",
 
   "dragon_ability.dragonsurvival.be_tundra_human": "Be Human",
-  "dragon_ability.dragonsurvival.be_tundra_human.desc": "■ When a Tundra Dragon reaches the Ancient stage, it can transform into human form.\n\n■ The human form still retains the dragon's abilities, but has no item restrictions.§r",
+  "dragon_ability.dragonsurvival.be_tundra_human.desc": "■ When a Tundra Dragon reaches the Adult stage, it can transform into human form.\n\n■ The human form still retains the dragon's abilities, but has no item restrictions.§r",
   "dragon_ability.dragonsurvival.behuman": "Be Human",
-  "dragon_ability.dragonsurvival.behuman.desc": "■ When an Aether Dragon reaches the Ancient stage, it can transform into human form.\n\n■ The human form still retains the dragon's abilities, but has no item restrictions.§r",
+  "dragon_ability.dragonsurvival.behuman.desc": "■ When an Aether Dragon reaches the Adult stage, it can transform into human form.\n\n■ The human form still retains the dragon's abilities, but has no item restrictions.§r",
   "dragon_ability.dragonsurvival.become_bigger": "Become Bigger",
   "dragon_ability.dragonsurvival.become_bigger.desc": "■ Upgrading this ability §2enlarges§r§7 your size.\n\n■ Also §2increases§r§7 entity and block interaction range.§r",
   "dragon_ability.dragonsurvival.become_smaller": "Become Smaller",

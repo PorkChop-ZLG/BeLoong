@@ -106,9 +106,9 @@
   "dragon_stage.dragonsurvival.kirin_progenitor": "始祖麒麟",
 
   "dragon_ability.dragonsurvival.be_tundra_human": "化形",
-  "dragon_ability.dragonsurvival.be_tundra_human.desc": "■ 苔原龙修炼到远古阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但没有物品限制。§r",
+  "dragon_ability.dragonsurvival.be_tundra_human.desc": "■ 苔原龙修炼到成年阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但是需要重新修炼。§r",
   "dragon_ability.dragonsurvival.behuman": "化形",
-  "dragon_ability.dragonsurvival.behuman.desc": "■ 以太龙修炼到远古阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但没有物品限制。§r",
+  "dragon_ability.dragonsurvival.behuman.desc": "■ 以太龙修炼到成年阶段，可以化作人形。\n\n■ 人形态仍然保留龙族的能力，但是需要重新修炼。§r",
   "dragon_ability.dragonsurvival.become_bigger": "变大",
   "dragon_ability.dragonsurvival.become_bigger.desc": "■ 升级此技能可§2放大§r§7你的体型。\n\n■ 同时§2增加§r§7实体和方块交互距离。§r",
   "dragon_ability.dragonsurvival.become_smaller": "变小",
