@@ -15,7 +15,7 @@
       "items": "kubejs:aether_dragon_heart"
     },
     {
-      "growth_in_ticks": -72000,
+      "growth_in_ticks": -1728000,
       "items": "dragonsurvival:star_bone"
     },
     {
@@ -55,15 +55,15 @@
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 31.64,
-        "per_level_above_first": 0.64
+        "base": 50.0,
+        "per_level_above_first": 1.0
       },
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value"
     },
     {
       "amount": 5.0,
-      "attribute": "minecraft:generic.armor",
+      "attribute": "minecraft:generic.armor_toughness",
       "operation": "add_value"
     },
     {
