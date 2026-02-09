@@ -15,12 +15,16 @@
       "items": "dragonsurvival:star_bone"
     },
     {
+      "growth_in_ticks": 51840000,
+      "items": "kubejs:progenitor_dragon_heart"
+    },
+    {
       "growth_in_ticks": 0,
       "items": "dragonsurvival:star_heart"
     }
   ],
   "growth_range": {
-    "max": 251.0,
+    "max": 300.0,
     "min": 250.0
   },
   "is_default": false,
@@ -42,13 +46,13 @@
       "operation": "add_value"
     },
     {
-      "amount": 64.0,
+      "amount": 100.0,
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value"
     },
     {
       "amount": 6.0,
-      "attribute": "minecraft:generic.armor",
+      "attribute": "minecraft:generic.armor_toughness",
       "operation": "add_value"
     },
     {
@@ -87,5 +91,5 @@
       "operation": "add_value"
     }
   ],
-  "ticks_until_grown": 20
+  "ticks_until_grown": 630720000
 }
