@@ -11,12 +11,12 @@
   },
   "growth_items": [
     {
-      "growth_in_ticks": -72000,
-      "items": "dragonsurvival:star_bone"
-    },
-    {
       "growth_in_ticks": 51840000,
       "items": "kubejs:progenitor_dragon_heart"
+    },
+    {
+      "growth_in_ticks": -51840000,
+      "items": "dragonsurvival:star_bone"
     },
     {
       "growth_in_ticks": 0,
