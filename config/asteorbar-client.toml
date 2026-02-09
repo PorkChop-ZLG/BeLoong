@@ -186,9 +186,9 @@
 	#The maximum distance to display mob health bar.
 	# Default: 32.0
 	# Range: 0.0 ~ 100.0
-	maxDistance = 32.0
+	maxDistance = 16.0
 	#Whether to display health bar on self.
-	showOnSelf = true
+	showOnSelf = false
 	#Whether to display health bar on players.
 	showOnPlayers = true
 	#Whether to display health bar on bosses.
