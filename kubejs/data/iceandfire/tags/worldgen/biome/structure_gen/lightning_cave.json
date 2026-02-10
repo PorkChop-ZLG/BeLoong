@@ -8,11 +8,15 @@
     "#minecraft:is_savanna",
     {
       "required": false,
-      "id": "twilightforest:dark_forest"
+      "id": "eternal_starlight:dark_swamp"
     },
     {
       "required": false,
-      "id": "twilightforest:thornlands"
+      "id": "eternal_starlight:torreya_forest"
+    },
+    {
+      "required": false,
+      "id": "eternal_starlight:starlight_forest"
     }
   ]
 }

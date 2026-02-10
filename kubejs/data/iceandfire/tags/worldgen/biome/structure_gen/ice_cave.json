@@ -19,11 +19,15 @@
     },
     {
       "required": false,
-      "id": "twilightforest:snowy_forest"
+      "id": "eternal_starlight:starlight_permafrost_forest"
     },
     {
       "required": false,
-      "id": "twilightforest:glacier"
+      "id": "eternal_starlight:starlight_dense_forest"
+    },
+    {
+      "required": false,
+      "id": "eternal_starlight:starlight_forest"
     }
   ]
 }

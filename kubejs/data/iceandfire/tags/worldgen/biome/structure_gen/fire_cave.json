@@ -18,11 +18,15 @@
     },
     {
       "required": false,
-      "id": "twilightforest:swamp"
+      "id": "eternal_starlight:crystallized_desert"
     },
     {
       "required": false,
-      "id": "twilightforest:fire_swamp"
+      "id": "eternal_starlight:scarlet_forest"
+    },
+    {
+      "required": false,
+      "id": "eternal_starlight:starlight_forest"
     }
   ]
 }
