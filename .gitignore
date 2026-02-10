@@ -90,6 +90,8 @@ config/**
 !config/carryon-client.toml
 !config/carryon-common.toml
 !config/cataclysm.toml
+!config/cataclysm-client.toml
+!config/cataclysm-common.toml
 !config/clientsort.json
 !config/clientsort-server.json
 !config/curios-client.toml
