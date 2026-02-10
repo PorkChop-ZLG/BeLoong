@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "biomeswevegone:pale_pumpkin"
+          },
+          "weight": 19
+        },
+        {
+          "data": {
+            "Name": "biomeswevegone:carved_pale_pumpkin",
+            "Properties": {
+              "facing": "north"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}
