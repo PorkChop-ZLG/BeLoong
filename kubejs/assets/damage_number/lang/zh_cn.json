@@ -1,0 +1,15 @@
+{
+  "damage_number:title.content": "伤害",
+  "damage_number:combo.content": "%sX 连击",
+  "damage_number:damage_list.content": " +%s",
+  "damage_number:number.content": "%s",
+  "damage_number:config.title": "配置界面",
+  "key.damage_number.show_config": "显示伤害数字配置",
+  "damage_number:config.setting": "配置",
+  "damage_number:config.x": "X",
+  "damage_number:config.y": "Y",
+  "damage_number:config.scale": "缩放",
+  "damage_number:config.opacity": "透明度",
+  "damage_number:config.select_key": "要修改的部分",
+  "damage_number:config.max_size": "最大数量"
+}

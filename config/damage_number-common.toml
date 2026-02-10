@@ -1,0 +1,86 @@
+show = true
+use_mixin_damage_getter = false
+no_shake = false
+#How long will the damage accumulation being cleared. This option is decided by server.
+# Default: 3000
+# Range: > 0
+clear_time = 3000
+
+[number]
+	x = -200
+	y = 100
+	# Default: 2.5
+	# Range: 0.0 ~ 10.0
+	scale = 2.5
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	opacity = 1.0
+	show = true
+
+[title]
+	x = -200
+	y = 80
+	# Default: 1.8
+	# Range: 0.0 ~ 10.0
+	scale = 1.7999999523162842
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	opacity = 1.0
+	show = true
+
+[combo]
+	x = -210
+	y = 125
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	opacity = 1.0
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	scale = 1.2000000476837158
+	show = true
+
+[damage_list]
+	x = -180
+	y = 140
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	opacity = 1.0
+	# Default: 0.8
+	# Range: 0.0 ~ 10.0
+	scale = 0.800000011920929
+	max_size = 50
+	show = true
+	#Color the damage number by damage type. Configure in damage_number_type.toml
+	color_type = true
+	#How long will number in list disappears
+	# Default: 2000
+	# Range: > 0
+	clear_time = 2000
+
+[damage_rank]
+	#Use damage ranked color
+	enable = false
+	#Use format like "<damage amount>|<rank name>|<render color>"
+	option = ["0|D|16777215", "20|C|15138811", "50|B|12249087", "100|A|12248631", "200|S|16774502", "400|SS|16759702", "800|SSS|16753566"]
+
+	[damage_rank.color]
+		#Color the damage number
+		number = true
+		#Color the title
+		title = true
+		#Color the title
+		combo = true
+
+[combo_rank]
+	#Use combo ranked color
+	enable = false
+	#Use format like "<combo>|<rank name>|<render color>"
+	option = ["0|D|16777215", "5|C|15138811", "10|B|12249087", "20|A|12248631", "40|S|16774502", "80|SS|16759702", "160|SSS|16753566"]
+
+	[combo_rank.color]
+		#Color the damage number
+		number = true
+		#Color the title
+		title = true
+		#Color the combo
+		combo = true

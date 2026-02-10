@@ -95,6 +95,8 @@ config/**
 !config/curios-client.toml
 !config/curios-common.toml
 !config/curios-server.toml
+!config/damage_number_type.toml
+!config/damage_number-common.toml
 !config/darkdoppelganger-common.toml
 !config/defaultoptions-common.toml
 !config/DistantHorizons.toml

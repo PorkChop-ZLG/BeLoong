@@ -1,0 +1,202 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:progenitor_power",
+                    "is_hidden": true,
+                    "should_remove_automatically": true
+                  },
+                  "modifiers": [
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "minecraft:generic.max_health",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "minecraft:generic.attack_damage",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "minecraft:generic.armor",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "dragonsurvival:mana",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "dragonsurvival:mana_regeneration",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "dragonsurvival:dragon_ability_damage",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "dragonsurvival:dragon_breath_range",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "irons_spellbooks:max_mana",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "irons_spellbooks:mana_regen",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "irons_spellbooks:spell_power",
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "attribute": "irons_spellbooks:spell_resist",
+                      "operation": "add_multiplied_base"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        },
+        "target_type": "dragonsurvival:self"
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_3"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_4"
+      },
+      {
+        "from_level": 5,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_4"
+      },
+      {
+        "from_level": 6,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_4"
+      },
+      {
+        "from_level": 7,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_4"
+      },
+      {
+        "from_level": 8,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_4"
+      },
+      {
+        "from_level": 9,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_4"
+      },
+      {
+        "from_level": 10,
+        "texture_resource": "dragonsurvival:abilities/cave/cave_claws_and_teeth_4"
+      }
+    ]
+  },
+  "upgrade": {
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 255.0,
+        "per_level_above_first": 5.0
+      },
+      "values": [
+        255.0,
+        260.0,
+        265.0,
+        270.0,
+        275.0,
+        280.0,
+        285.0,
+        290.0,
+        295.0,
+        300.0
+      ]
+    },
+    "maximum_level": 10,
+    "upgrade_type": "dragonsurvival:dragon_growth"
+  }
+}
