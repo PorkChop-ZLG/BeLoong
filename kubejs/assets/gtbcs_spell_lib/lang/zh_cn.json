@@ -1,4 +1,29 @@
 {
+  "key.categories.gtbcs_spell_lib": "GTBC的法术",
+  "key.gtbcs_spell_lib.lore_item_previous": "故事卷轴上一页",
+  "key.gtbcs_spell_lib.lore_item_next": "故事卷轴下一页",
+
+  "attribute.gtbcs_spell_lib.spell_damage": "法术伤害",
+  "attribute.gtbcs_spell_lib.magic_projectile_damage": "魔法弹射物伤害",
+  "attribute.gtbcs_spell_lib.spell_crit_chance": "法术暴击率",
+  "attribute.gtbcs_spell_lib.spell_crit_damage": "法术暴击伤害",
+
+  "lore_item.gtbcs_spell_lib.preview.author": "作者",
+  "lore_item.gtbcs_spell_lib.preview.continue.start": "按[",
+  "lore_item.gtbcs_spell_lib.preview.continue.end": "]或[点击]继续",
+  "lore_item.gtbcs_spell_lib.credits.title": "制作人员",
+  "lore_item.gtbcs_spell_lib.credits.document": "名字：",
+  "lore_item.gtbcs_spell_lib.credits.lore_author": "故事作者：",
+  "lore_item.gtbcs_spell_lib.credits.original_author": "原作者：",
+  "lore_item.gtbcs_spell_lib.credits.credits": "制作组：",
+  "lore_item.gtbcs_spell_lib.credits.volume": "卷册：",
+  "lore_item.gtbcs_spell_lib.credits.written_date": "撰写年份：",
+  "lore_item.gtbcs_spell_lib.credits.last_updated": "最后更新年份：",
+  "lore_item.gtbcs_spell_lib.tooltip.open_prompt": "手持时右击打开",
+
+  "item.gtbcs_spell_lib.gsl_example_lore_item": "示例故事卷轴",
+  "item.gtbcs_spell_lib.gsl_example_crit_staff": "示例暴击法杖",
+
   "item.gtbcs_spell_lib.spell_imbuing_curio.already_assigned.message": "无法为同一回响注入其他法术！",
   "item.gtbcs_spell_lib.spell_imbuing_curio.not_enough_xp.message": "经验值不足！",
   "item.gtbcs_spell_lib.spell_imbuing_curio.success": "法术注入成功！",

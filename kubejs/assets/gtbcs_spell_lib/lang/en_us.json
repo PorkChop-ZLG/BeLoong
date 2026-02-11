@@ -1,0 +1,31 @@
+{
+  "key.categories.gtbcs_spell_lib": "GTBC's SpellLib/API",
+  "key.gtbcs_spell_lib.lore_item_previous": "Lore Item Previous Page",
+  "key.gtbcs_spell_lib.lore_item_next": "Lore Item Next Page",
+
+  "attribute.gtbcs_spell_lib.spell_damage": "Spell Damage",
+  "attribute.gtbcs_spell_lib.magic_projectile_damage": "Magic Projectile Damage",
+  "attribute.gtbcs_spell_lib.spell_crit_chance": "Spell Critical Chance",
+  "attribute.gtbcs_spell_lib.spell_crit_damage": "Spell Critical Damage",
+
+  "lore_item.gtbcs_spell_lib.preview.author": "Author",
+  "lore_item.gtbcs_spell_lib.preview.continue.start": "Press [",
+  "lore_item.gtbcs_spell_lib.preview.continue.end": "] or [Click] to continue",
+  "lore_item.gtbcs_spell_lib.credits.title": "Credits",
+  "lore_item.gtbcs_spell_lib.credits.document": "Name:",
+  "lore_item.gtbcs_spell_lib.credits.lore_author": "Lore Author:",
+  "lore_item.gtbcs_spell_lib.credits.original_author": "Original Author:",
+  "lore_item.gtbcs_spell_lib.credits.credits": "Credits:",
+  "lore_item.gtbcs_spell_lib.credits.volume": "Volume:",
+  "lore_item.gtbcs_spell_lib.credits.written_date": "Written Year:",
+  "lore_item.gtbcs_spell_lib.credits.last_updated": "Last Updated Year:",
+  "lore_item.gtbcs_spell_lib.tooltip.open_prompt": "Right-click while holding in hand to open",
+
+  "item.gtbcs_spell_lib.gsl_example_lore_item": "Example Lore Item",
+  "item.gtbcs_spell_lib.gsl_example_crit_staff": "Example Crit Staff Item",
+
+  "item.gtbcs_spell_lib.spell_imbuing_curio.already_assigned.message": "Cannot imbue the same echo with another spell!",
+  "item.gtbcs_spell_lib.spell_imbuing_curio.not_enough_xp.message": "Not enough experience points!",
+  "item.gtbcs_spell_lib.spell_imbuing_curio.success": "Spell Imbued!",
+  "item.gtbcs_spell_lib.random_imbue_curio.ex_required.tooltip": "Requires Experience Points!"
+}
