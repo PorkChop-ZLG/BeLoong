@@ -11,6 +11,7 @@
     "#minecraft:fence_gates",
     "#minecraft:wooden_doors",
     "#minecraft:wooden_trapdoors",
+    "#minecraft:wool",
     "minecraft:cobweb",
     {
       "id": "#c:glass_blocks",
