@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "xfws_someitems:sculk_katana"
+    },
+    {
+      "item": "xfws_someitems:ark_of_the_cosmos"
+    },
+    {
+      "item": "xfws_someitems:star_wrath"
+    },
+    {
+      "item": "iceandfire:dragonsteel_fire_sword"
+    },
+    {
+      "item": "iceandfire:dragonsteel_ice_sword"
+    },
+    {
+      "item": "iceandfire:dragonsteel_lightning_sword"
+    },
+    {
+      "item": "meowmere:meowmere"
+    },
+    {
+      "item": "cataclysm:the_incinerator"
+    },
+    {
+      "item": "irons_spellbooks:hellrazor"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "zenith:zenith"
+  }
+}

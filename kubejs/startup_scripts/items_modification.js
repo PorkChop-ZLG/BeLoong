@@ -1,4 +1,14 @@
-// 该脚本用于 修改物品的最大堆叠数量
+// 该脚本用于魔改 物品的各项属性
+
+// 攻击伤害
+ItemEvents.modification(event => {
+  // 天顶剑伤害 99(1+98)
+  event.modify('zenith:zenith', item => {
+    item.attackDamage = 98.0
+  })
+})
+
+// 最大堆叠数量
 ItemEvents.modification(event => {
   // 瓶中沙暴可堆叠到 64
   event.modify('cataclysm:sandstorm_in_a_bottle', item => {
