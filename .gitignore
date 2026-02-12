@@ -154,6 +154,15 @@ config/**
 !config/naturescompass-common.toml
 !config/netherdepthsupgrade-common.toml
 !config/netmusic-common.toml
+!config/sophisticatedbackpacks-common.toml
+!config/sophisticatedbackpacks-server.toml
+!config/sophisticatedcore-client.toml
+!config/sophisticatedcore-common.toml
+!config/sophisticatedstorage-client.toml
+!config/sophisticatedstorage-common.toml
+!config/sophisticatedstorage-server.toml
+!config/spikyspikes-server.toml
+!config/structurecredits-config.json
 !config/sweeper-common.toml
 !config/terra_curio-client.toml
 !config/terra_curio-common.toml
