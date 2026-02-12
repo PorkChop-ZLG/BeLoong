@@ -26,13 +26,13 @@
                   }
                 }
               },
-			    {
+              {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "effects": {
                     "tundradragon:frostbite": {}
-                    }
+                  }
                 }
               }
             ]
@@ -47,7 +47,65 @@
       },
       "trigger_rate": 0
     },
-	    {
+	{
+      "target_selection": {
+        "target_type": "dragonsurvival:area",
+        "applied_effects": {
+          "entity_effect": [            
+			{
+              "effect_type": "dragonsurvival:run_function",
+              "function": "icedragon:shattercharge"
+            }
+			],
+			
+          "target_conditions": {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:marker"
+                }
+              },
+              {
+                "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "tundradragon:frostbite": {}
+                  }
+                }
+              }
+            ]
+              }
+            ]
+          },
+			"targeting_mode": "non_allies"
+        },
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 12,
+          "per_level_above_first": 4
+        }
+      },
+		"trigger_point": "charging",
+		"trigger_rate": 2
+    },
+	{
       "target_selection": {
         "target_type": "dragonsurvival:area",
         "applied_effects": {
@@ -120,13 +178,13 @@
                   }
                 }
               },
-			    {
+              {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "effects": {
                     "tundradragon:frostbite": {}
-                    }
+                  }
                 }
               }
             ]
@@ -141,16 +199,16 @@
       },
       "trigger_rate": 0
     },
-	{
+    {
       "target_selection": {
-        "target_type": "dragonsurvival:self",
+        "target_type": "dragonsurvival:area",
         "applied_effects": {
           "entity_effect": [
-			{
-            "effect_type": "dragonsurvival:run_function",
-            "function": "icedragon:clearchilled"
-          }
-		  ],
+            {
+              "effect_type": "dragonsurvival:run_function",
+              "function": "icedragon:clearchilled"
+            }
+          ],
           "target_conditions": {
             "condition": "minecraft:all_of",
             "terms": [
@@ -164,13 +222,13 @@
                   }
                 }
               },
-			    {
+              {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "effects": {
                     "tundradragon:frostbite": {}
-                    }
+                  }
                 }
               }
             ]
@@ -187,7 +245,7 @@
     },
 	{
       "target_selection": {
-        "target_type": "dragonsurvival:self",
+        "target_type": "dragonsurvival:area",
         "applied_effects": {
           "entity_effect": [
 			{
@@ -202,14 +260,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "nbt": "{general_data:{name:\"dragonsurvival:icicle\"}}"
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "nbt": "{inGround: 1b}"
+                  "type": "dragonsurvival:generic_arrow_entity"
                 }
               }
             ]
@@ -226,7 +277,7 @@
     },
 	{
       "target_selection": {
-        "target_type": "dragonsurvival:self",
+        "target_type": "dragonsurvival:area",
         "applied_effects": {
           "entity_effect": [
 			{
@@ -258,21 +309,6 @@
           "type": "minecraft:linear",
           "base": 12,
           "per_level_above_first": 4
-        }
-      },
-      "trigger_rate": 0
-    },
-    {
-      "target_selection": {
-        "target_type": "dragonsurvival:self",
-        "applied_effects": {
-          "entity_effect": [
-            {
-              "effect_type": "dragonsurvival:run_function",
-              "function": "icedragon:cleanupmarkers"
-            }
-          ],
-          "targeting_mode": "all"
         }
       },
       "trigger_rate": 0

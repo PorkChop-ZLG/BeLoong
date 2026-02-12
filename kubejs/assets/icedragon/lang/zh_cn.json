@@ -6,6 +6,8 @@
 "damage_type.dragonsurvival.shatter": "冰爆术",
 "damage_type.dragonsurvival.icicle": "冰晶之矛",
 "tag.damage_type.dragonsurvival.is_ice": "霜冻",
+"projectile.dragonsurvival.icicle": "冰晶之矛",
+"projectile.dragonsurvival.iceshard": "冰晶碎片",
 
 "dragon_ability.dragonsurvival.frigid_breath": "凛冬之息",
 "dragon_ability.dragonsurvival.frigid_breath.desc": "■ 喷吐大量寒霜与碎冰，减速敌人并附上§c「霜冻」§r效果。\n\n■ §f范围§r§7取决于龙的成长阶段。",

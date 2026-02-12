@@ -32,15 +32,15 @@
         "potion": {
              "amplifier": {
           "type": "minecraft:linear",
-          "base": 3.0,
-          "per_level_above_first": 1.0
+          "base": 5.0,
+          "per_level_above_first": 1.25
         },
              "duration": {
           "type": "minecraft:linear",
-          "base": 100.0,
-          "per_level_above_first": 60.0
+          "base": 60.0,
+          "per_level_above_first": 20.0
         },
-             "effects": ["minecraft:slowness", "dragonsurvival:broken_wings"],
+             "effects": ["tundradragon:frostbite", "dragonsurvival:broken_wings"],
              "probability": 1.0
                 }
        },
