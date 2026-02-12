@@ -802,8 +802,8 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -1068,8 +1068,195 @@
 				item: { count: 1, id: "dragonsurvival:heart_element" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -0.2d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3859C3FFB6F2C61B"
+				"2FCFFB6D530A343F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "xfws_someitems:sculk_katana"
+			}
+			id: "13427D639FF8D906"
+			rewards: [{
+				id: "53F43ABD963D793A"
+				item: {
+					count: 1
+					id: "xfws_someitems:sculk_katana"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DAECFA9FD7125B5"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3859C3FFB6F2C61B"
+				"025C2A1E99ADD3C3"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "xfws_someitems:ark_of_the_cosmos"
+			}
+			id: "1AA55A95262C406C"
+			rewards: [{
+				id: "0E4CF6DF22829576"
+				item: {
+					count: 1
+					id: "xfws_someitems:ark_of_the_cosmos"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5A1C21F980D00B8E"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3859C3FFB6F2C61B"
+				"508CCA54F0BC90CA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "xfws_someitems:star_wrath"
+			}
+			id: "130DF0F4E2C8FCD1"
+			rewards: [{
+				id: "37C335D7AA8EAC73"
+				item: {
+					count: 1
+					id: "xfws_someitems:star_wrath"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "338A391F75DADA17"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3859C3FFB6F2C61B"
+				"6C87160D1AC7FE19"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "meowmere:meowmere"
+			}
+			id: "0850E956F0AFB4DF"
+			rewards: [{
+				id: "2740647DAED9432E"
+				item: {
+					count: 1
+					id: "meowmere:meowmere"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4C5552B98FE6E180"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3859C3FFB6F2C61B"
+				"4EDF13489B6BA152"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "terra_entity:bei_dou_boomerang"
+			}
+			id: "2B87E4C3672E1D90"
+			rewards: [{
+				id: "6927CD9407D7C0D1"
+				item: {
+					count: 1
+					id: "terra_entity:bei_dou_boomerang"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1AAD299AF57958D9"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3859C3FFB6F2C61B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "biomeswevegone:witch_hazel_log"
+			}
+			id: "40D693D34C2593C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "568EB6DF489B1F5B"
+				table_id: 8303432059971322352L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4AB17905205CAC17"
+				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3859C3FFB6F2C61B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "regions_unexplored:small_oak_log"
+			}
+			id: "4D0E47207CE1A169"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E4B672B1087BA21"
+				table_id: 8737518386312666207L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4E274756E92A765E"
+				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
 		}
 	]
 }

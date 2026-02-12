@@ -480,6 +480,8 @@
 	quest.07FF8B926B1BA0A3.quest_subtitle: "打卡地牢浮现之时的9种海上结构"
 	quest.07FF8B926B1BA0A3.title: "郑和下西洋"
 	quest.082B65CF6587C3A6.title: "雷电法王装备"
+	quest.0850E956F0AFB4DF.quest_desc: ["&c完成章节【铁魔法】后解锁！"]
+	quest.0850E956F0AFB4DF.title: "彩虹猫之刃"
 	quest.087A166AA7484802.quest_subtitle: "成长到太古龙阶段"
 	quest.087A166AA7484802.title: "太古海洋龙"
 	quest.08A211F39D111276.quest_desc: [
@@ -870,6 +872,8 @@
 	quest.12EB86E73FDAF20F.title: "观察火龙"
 	quest.12F9EDC857BB2555.quest_subtitle: "提交洞穴龙的所有专属食物"
 	quest.12F9EDC857BB2555.title: "洞穴龙的美食"
+	quest.130DF0F4E2C8FCD1.quest_desc: ["&c完成章节【龙族图鉴】后解锁！"]
+	quest.130DF0F4E2C8FCD1.title: "狂星之怒"
 	quest.132B8803AE174E78.quest_desc: [
 		"右键单击一个&a幻术师魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6林地府邸&r 中找到"
 		""
@@ -877,6 +881,8 @@
 	]
 	quest.132EA960D6542BEB.quest_subtitle: "想成为魔法少女吗"
 	quest.132EA960D6542BEB.title: "第一步：获得御币"
+	quest.13427D639FF8D906.quest_desc: ["&c完成章节【暮色森林】后解锁！"]
+	quest.13427D639FF8D906.title: "幽匿太刀"
 	quest.136C026EB4306742.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
 	quest.136C026EB4306742.title: "泰拉饰品T2"
 	quest.136ED357B1C436B8.quest_subtitle: "烟熏火烤~"
@@ -1154,6 +1160,8 @@
 	]
 	quest.1AA4E0CE318BA06A.quest_subtitle: "成长到远古龙阶段"
 	quest.1AA4E0CE318BA06A.title: "远古苔原龙"
+	quest.1AA55A95262C406C.quest_desc: ["&c完成章节【深暗之园】后解锁！"]
+	quest.1AA55A95262C406C.title: "鸿蒙方舟"
 	quest.1AF16021BB5DD12E.quest_subtitle: "完成森林龙的部分成就"
 	quest.1AF16021BB5DD12E.title: "森林龙趣味挑战"
 	quest.1B1B8104DED5F4AE.title: "下界合金锭"
@@ -1227,6 +1235,8 @@
 	quest.1DFB8CC52BD51F13.quest_desc: [
 		"女仆最喜欢蛋糕了！"
 		"对着召唤出来的女仆使用蛋糕，她就是你的啦。"
+		""
+		"&a完成此章节后，可在系统商店购买&d【替身地藏】"
 	]
 	quest.1DFB8CC52BD51F13.quest_subtitle: "最喜欢主人惹~"
 	quest.1DFB8CC52BD51F13.title: "最后一步：驯服女仆"
@@ -1675,6 +1685,8 @@
 		"&c注：德鲁伊魔宠禁止自然生成，请在系统商店购买"
 	]
 	quest.2B8490063511F9F1.title: "德鲁伊魔宠"
+	quest.2B87E4C3672E1D90.quest_desc: ["&c完成章节【永恒星光】后解锁！"]
+	quest.2B87E4C3672E1D90.title: "北斗飞镖"
 	quest.2B9D5B62DD244102.quest_subtitle: "升级苔原龙4个被动技能到满级"
 	quest.2B9D5B62DD244102.title: "掌握冰之奥义"
 	quest.2C055589A88C2771.quest_subtitle: "开启森林龙的成长之路"
@@ -2352,6 +2364,7 @@
 	]
 	quest.409DBA9330BA0269.quest_subtitle: "★★★★★"
 	quest.409DBA9330BA0269.title: "泰拉生物：克苏鲁之眼"
+	quest.40D693D34C2593C4.title: "BWG原木自选"
 	quest.410087ACF6234CC1.quest_subtitle: "天地莫施恩，璇题激流日"
 	quest.410087ACF6234CC1.title: "&5天璇"
 	quest.415DFAC173D75395.quest_desc: ["&a目标：集齐全套圣辉龙铠"]
@@ -2744,6 +2757,7 @@
 		"&e龙食&6也可以玩家龙自己食用，获得&e饱和&6效果。"
 	]
 	quest.4D01D14ECFF753E3.quest_subtitle: "养龙教程"
+	quest.4D0E47207CE1A169.title: "未至之地原木自选"
 	quest.4D0EC1E180924188.quest_subtitle: "每条龙保底一次"
 	quest.4D0EC1E180924188.title: "二重身之戒保底"
 	quest.4D951950709A61AE.quest_subtitle: "夜幕低垂掩玉盘,璇玑运转探天关"
@@ -4312,8 +4326,10 @@
 	reward_table.470A343B90F6B99A.title: "暮色树苗盲盒"
 	reward_table.49C6A2B8867D43FC.title: "切换天气"
 	reward_table.71DE6340A041212B.title: "羊毛"
+	reward_table.733BB7770F2E41F0.title: "BWG原木"
 	reward_table.745BF7D3B0F66888.title: "陶瓦"
 	reward_table.75074E564922BA19.title: "建筑材料"
+	reward_table.7941E6ADD29C5C5F.title: "未至之地原木"
 	task.033069BC0E4FF639.title: "已读点我"
 	task.0414DE1F40AD9B98.title: "&e&l变成一条龙吧！"
 	task.059941E75EB6F378.title: "抵达傀儡锻造厂"

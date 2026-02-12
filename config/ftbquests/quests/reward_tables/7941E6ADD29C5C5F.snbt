@@ -1,0 +1,191 @@
+{
+	id: "7941E6ADD29C5C5F"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 64
+			id: "6B272FE777D479DA"
+			item: {
+				count: 1
+				id: "regions_unexplored:alpha_log"
+			}
+		}
+		{
+			count: 64
+			id: "6A62AB4646FFA828"
+			item: {
+				count: 1
+				id: "regions_unexplored:ashen_log"
+			}
+		}
+		{
+			count: 64
+			id: "1C6F176F7322AB7B"
+			item: {
+				count: 1
+				id: "regions_unexplored:baobab_log"
+			}
+		}
+		{
+			count: 64
+			id: "4D40BBB1D7A2873A"
+			item: {
+				count: 1
+				id: "regions_unexplored:blackwood_log"
+			}
+		}
+		{
+			count: 64
+			id: "725722376B8ECD92"
+			item: {
+				count: 1
+				id: "regions_unexplored:brimwood_log"
+			}
+		}
+		{
+			count: 64
+			id: "30876AA42D2A6DAA"
+			item: {
+				count: 1
+				id: "regions_unexplored:brimwood_log_magma"
+			}
+		}
+		{
+			count: 64
+			id: "1B4F8710019BC0BA"
+			item: {
+				count: 1
+				id: "regions_unexplored:cobalt_log"
+			}
+		}
+		{
+			count: 64
+			id: "5C76720CBCD44910"
+			item: {
+				count: 1
+				id: "regions_unexplored:cypress_log"
+			}
+		}
+		{
+			count: 64
+			id: "43981A3E6183AC19"
+			item: {
+				count: 1
+				id: "regions_unexplored:dead_log"
+			}
+		}
+		{
+			count: 64
+			id: "12CD027B0AD5B210"
+			item: {
+				count: 1
+				id: "regions_unexplored:eucalyptus_log"
+			}
+		}
+		{
+			count: 64
+			id: "3AB3C7D08363B746"
+			item: {
+				count: 1
+				id: "regions_unexplored:joshua_log"
+			}
+		}
+		{
+			count: 64
+			id: "3712737F058794E2"
+			item: {
+				count: 1
+				id: "regions_unexplored:kapok_log"
+			}
+		}
+		{
+			count: 64
+			id: "7042CE49243B36E9"
+			item: {
+				count: 1
+				id: "regions_unexplored:larch_log"
+			}
+		}
+		{
+			count: 64
+			id: "183A1158DD429631"
+			item: {
+				count: 1
+				id: "regions_unexplored:magnolia_log"
+			}
+		}
+		{
+			count: 64
+			id: "0324B0DE009A21F4"
+			item: {
+				count: 1
+				id: "regions_unexplored:maple_log"
+			}
+		}
+		{
+			count: 64
+			id: "4B7C95F6321270EA"
+			item: {
+				count: 1
+				id: "regions_unexplored:mauve_log"
+			}
+		}
+		{
+			count: 64
+			id: "4BCD272C7CB9D773"
+			item: {
+				count: 1
+				id: "regions_unexplored:palm_log"
+			}
+		}
+		{
+			count: 64
+			id: "046700A1FBB55227"
+			item: {
+				count: 1
+				id: "regions_unexplored:pine_log"
+			}
+		}
+		{
+			count: 64
+			id: "6C4D1B53E19D6633"
+			item: {
+				count: 1
+				id: "regions_unexplored:redwood_log"
+			}
+		}
+		{
+			count: 64
+			id: "0E9D6BFDA1445464"
+			item: {
+				count: 1
+				id: "regions_unexplored:silver_birch_log"
+			}
+		}
+		{
+			count: 64
+			id: "1AD9D667F228BA1D"
+			item: {
+				count: 1
+				id: "regions_unexplored:socotra_log"
+			}
+		}
+		{
+			count: 64
+			id: "538F48E4CFA80E41"
+			item: {
+				count: 1
+				id: "regions_unexplored:willow_log"
+			}
+		}
+		{
+			count: 64
+			id: "64A9266B2F850117"
+			item: {
+				count: 1
+				id: "regions_unexplored:small_oak_log"
+			}
+		}
+	]
+}

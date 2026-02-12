@@ -1,0 +1,223 @@
+{
+	id: "733BB7770F2E41F0"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 64
+			id: "6EF4E0FBF039F8D2"
+			item: {
+				count: 1
+				id: "biomeswevegone:aspen_log"
+			}
+		}
+		{
+			count: 64
+			id: "6FF67390439F5D8A"
+			item: {
+				count: 1
+				id: "biomeswevegone:baobab_log"
+			}
+		}
+		{
+			count: 64
+			id: "35C442173C2CFAFF"
+			item: {
+				count: 1
+				id: "biomeswevegone:blue_enchanted_log"
+			}
+		}
+		{
+			count: 64
+			id: "27C536FBF1A3984D"
+			item: {
+				count: 1
+				id: "biomeswevegone:imbued_blue_enchanted_wood"
+			}
+		}
+		{
+			count: 64
+			id: "3BE3C39DE345E9BD"
+			item: {
+				count: 1
+				id: "biomeswevegone:cika_log"
+			}
+		}
+		{
+			count: 64
+			id: "05613F816F2608B7"
+			item: {
+				count: 1
+				id: "biomeswevegone:cypress_log"
+			}
+		}
+		{
+			count: 64
+			id: "180C7471FF8C74A1"
+			item: {
+				count: 1
+				id: "biomeswevegone:ebony_log"
+			}
+		}
+		{
+			count: 64
+			id: "6C3D28988EB8D632"
+			item: {
+				count: 1
+				id: "biomeswevegone:fir_log"
+			}
+		}
+		{
+			count: 64
+			id: "5DC77989893044D9"
+			item: {
+				count: 1
+				id: "biomeswevegone:green_enchanted_log"
+			}
+		}
+		{
+			count: 64
+			id: "7344A6F407559D68"
+			item: {
+				count: 1
+				id: "biomeswevegone:imbued_green_enchanted_wood"
+			}
+		}
+		{
+			count: 64
+			id: "3D85CF36A562A6E8"
+			item: {
+				count: 1
+				id: "biomeswevegone:holly_log"
+			}
+		}
+		{
+			count: 64
+			id: "4113F89AB299165A"
+			item: {
+				count: 1
+				id: "biomeswevegone:ironwood_log"
+			}
+		}
+		{
+			count: 64
+			id: "5F10308C691DE88D"
+			item: {
+				count: 1
+				id: "biomeswevegone:jacaranda_log"
+			}
+		}
+		{
+			count: 64
+			id: "314330ECD05B1AA4"
+			item: {
+				count: 1
+				id: "biomeswevegone:mahogany_log"
+			}
+		}
+		{
+			count: 64
+			id: "21A811EF7818A9C5"
+			item: {
+				count: 1
+				id: "biomeswevegone:maple_log"
+			}
+		}
+		{
+			count: 64
+			id: "283A1A7186EEED89"
+			item: {
+				count: 1
+				id: "biomeswevegone:palm_log"
+			}
+		}
+		{
+			count: 64
+			id: "0689A15BF5781111"
+			item: {
+				count: 1
+				id: "biomeswevegone:pine_log"
+			}
+		}
+		{
+			count: 64
+			id: "326C190A13FA204F"
+			item: {
+				count: 1
+				id: "biomeswevegone:rainbow_eucalyptus_log"
+			}
+		}
+		{
+			count: 64
+			id: "10FE035D646AE137"
+			item: {
+				count: 1
+				id: "biomeswevegone:redwood_log"
+			}
+		}
+		{
+			count: 64
+			id: "543E7B37D73F7253"
+			item: {
+				count: 1
+				id: "biomeswevegone:sakura_log"
+			}
+		}
+		{
+			count: 64
+			id: "47EFB5ADAE5EC956"
+			item: {
+				count: 1
+				id: "biomeswevegone:skyris_log"
+			}
+		}
+		{
+			count: 64
+			id: "732BE419987F5E64"
+			item: {
+				count: 1
+				id: "biomeswevegone:spirit_log"
+			}
+		}
+		{
+			count: 64
+			id: "2306F7964254B2F6"
+			item: {
+				count: 1
+				id: "biomeswevegone:white_mangrove_log"
+			}
+		}
+		{
+			count: 64
+			id: "7515A921F5E170EB"
+			item: {
+				count: 1
+				id: "biomeswevegone:willow_log"
+			}
+		}
+		{
+			count: 64
+			id: "4425D0AAD66E38B2"
+			item: {
+				count: 1
+				id: "biomeswevegone:witch_hazel_log"
+			}
+		}
+		{
+			count: 64
+			id: "6DCE1A9844C98286"
+			item: {
+				count: 1
+				id: "biomeswevegone:zelkova_log"
+			}
+		}
+		{
+			count: 64
+			id: "0F9439EB9A8ACEF7"
+			item: {
+				count: 1
+				id: "biomeswevegone:palo_verde_log"
+			}
+		}
+	]
+}
