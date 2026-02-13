@@ -1,6 +1,8 @@
 # ---- GitHub 忽略文件夹 ----
 .git/
 .mixin.out/
+.probe/
+.vscode/
 BeLoong-natives/
 crash-reports/
 CustomSkinLoader/
