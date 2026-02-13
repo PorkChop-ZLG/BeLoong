@@ -586,6 +586,11 @@
 					item: { count: 1, id: "irons_spellbooks:speed_boots" }
 					type: "item"
 				}
+				{
+					id: "628F9EB6DB1DDD4A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:hellrazor" }
+					type: "item"
+				}
 			]
 			x: 24.0d
 			y: 0.0d

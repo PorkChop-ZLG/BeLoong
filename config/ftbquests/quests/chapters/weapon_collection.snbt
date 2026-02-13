@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapon_collection"
+	group: "6B7CC0230CA6913F"
+	id: "0F599041F0C4C0AF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"308ACBC769E52128"
+				"3ECBA6DB5DDE8A7C"
+				"5443C9546910E4B4"
+				"13E374F05CB19377"
+				"00D084781CAAF9C4"
+				"00F9DB2E98984479"
+				"0413301F45252E5F"
+				"0BEABCA7656A4180"
+				"1622BD52272D5656"
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "7140F79C02D9A138"
+			rewards: [{
+				count: 12
+				id: "65D3C34DEC56EBC7"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "49A48A0205438D6F"
+				item: { count: 1, id: "zenith:zenith" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "3ECBA6DB5DDE8A7C"
+			rewards: [{
+				id: "7D700980CD40881D"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "643D730CCF1FD858"
+				item: { count: 1, id: "xfws_someitems:sculk_katana" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "2212CFA0F99595C7"
+			rewards: [{
+				id: "50026C6F748EA95C"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0482A5118E6EB49A"
+				item: { count: 1, id: "terra_entity:bei_dou_boomerang" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5443C9546910E4B4"
+			rewards: [{
+				id: "39391EF4419B81A4"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7176C6CF8E00AACC"
+				item: { count: 1, id: "xfws_someitems:ark_of_the_cosmos" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "13E374F05CB19377"
+			rewards: [{
+				id: "2E39A3D7159CBABD"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "678BD30B32EF755D"
+				item: { count: 1, id: "xfws_someitems:star_wrath" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "00D084781CAAF9C4"
+			rewards: [{
+				id: "5934A59AC85A36A2"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "626D5C2B733E42A9"
+				item: { count: 1, id: "iceandfire:dragonsteel_fire_sword" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "1622BD52272D5656"
+			rewards: [{
+				id: "312C4996F925CEAB"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "108985548F0B796D"
+				item: { count: 1, id: "iceandfire:dragonsteel_ice_sword" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "00F9DB2E98984479"
+			rewards: [{
+				id: "334D815EBBEFDB82"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EDC74D78E97B9B4"
+				item: { count: 1, id: "iceandfire:dragonsteel_lightning_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "308ACBC769E52128"
+			rewards: [{
+				id: "2DA68E9A13AFE43E"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C626FEC847BC7E0"
+				item: { count: 1, id: "meowmere:meowmere" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "0BEABCA7656A4180"
+			rewards: [{
+				id: "38FE5C0E6FDCD72A"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "675AA951D3775D57"
+				item: { count: 1, id: "cataclysm:the_incinerator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "0413301F45252E5F"
+			rewards: [{
+				id: "6BA35C4FB25E820C"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "290B09C3F0410BA2"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:hellrazor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "732B904AB3D5BD73"
+			rewards: [{
+				id: "1BCD40C0BE201989"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C668FF3A08C2FE2"
+				item: { count: 1, id: "terra_entity:terraprisma" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+	]
+}

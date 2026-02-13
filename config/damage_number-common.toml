@@ -48,7 +48,7 @@ clear_time = 3000
 	# Default: 0.8
 	# Range: 0.0 ~ 10.0
 	scale = 0.800000011920929
-	max_size = 50
+	max_size = 20
 	show = true
 	#Color the damage number by damage type. Configure in damage_number_type.toml
 	color_type = true

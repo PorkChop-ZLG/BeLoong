@@ -1014,13 +1014,6 @@
 				}
 				{
 					consume_items: true
-					id: "09E52670245869A6"
-					item: { count: 1, id: "eternal_starlight:nightfan_bush" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "51023CFBBBD7596C"
 					item: { count: 1, id: "eternal_starlight:pink_rose_bush" }
 					type: "item"

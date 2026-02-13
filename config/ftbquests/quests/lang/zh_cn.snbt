@@ -9,6 +9,11 @@
 	chapter.0ACA55AC777A92A0.title: "〖以太龙〗成长之路"
 	chapter.0BD7DFF2E322BDA5.chapter_subtitle: ["模拟经营"]
 	chapter.0BD7DFF2E322BDA5.title: "夜雀食堂"
+	chapter.0F599041F0C4C0AF.chapter_subtitle: [
+		"集齐所有神器；"
+		"视为通关『化龍』"
+	]
+	chapter.0F599041F0C4C0AF.title: "神器图鉴"
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
 		"第一章：陨落的龙族"
 		"龙之力，三段！"
@@ -19,7 +24,10 @@
 	chapter.22143E6BF4F1DBAD.title: "〖洞穴龙〗成长之路"
 	chapter.27AE0B7401476AE5.chapter_subtitle: ["物美价廉，童叟无欺"]
 	chapter.27AE0B7401476AE5.title: "&2&l系统商店"
-	chapter.29CB766687624EDA.chapter_subtitle: ["持续更新中"]
+	chapter.29CB766687624EDA.chapter_subtitle: [
+		"彻底击败所有BOSS；"
+		"视为通关『化龍』"
+	]
 	chapter.29CB766687624EDA.title: "怪物图鉴"
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
@@ -35,7 +43,10 @@
 	chapter.3DA5315F4969F944.title: "〖森林龙〗成长之路"
 	chapter.435F0743867522FA.chapter_subtitle: ["最好的伙伴"]
 	chapter.435F0743867522FA.title: "车万女仆"
-	chapter.43E849014FFC7520.chapter_subtitle: ["持续更新中"]
+	chapter.43E849014FFC7520.chapter_subtitle: [
+		"集齐所有强力饰品；"
+		"视为通关『化龍』"
+	]
 	chapter.43E849014FFC7520.title: "饰品图鉴"
 	chapter.4C5C324ECE492CD6.chapter_subtitle: [
 		"您的赞助是我前进的动力"
@@ -51,9 +62,9 @@
 	]
 	chapter.4EDF13489B6BA152.title: "③ 永恒星光"
 	chapter.508CCA54F0BC90CA.chapter_subtitle: [
-		"完成龙族的所有专属挑战，视为毕业。"
-		"完成所有的主线任务"
-		"视为彻底通关『化龍』"
+		"完成所有龙的成长之路；"
+		"完成所有的主线任务；"
+		"视为正式通关『化龍』"
 	]
 	chapter.508CCA54F0BC90CA.title: "龙族图鉴"
 	chapter.55C8A3D60EBA8E20.chapter_subtitle: ["须弥藏芥子，芥子纳须弥"]
@@ -112,6 +123,14 @@
 	]
 	quest.0088F3221CD99A3D.quest_subtitle: "★★★★"
 	quest.0088F3221CD99A3D.title: "灾变：末影守卫"
+	quest.00D084781CAAF9C4.quest_desc: [
+		"&6番外&3【冰火传说】&6的任务道具。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22CDEC8A0577E317\" } }"
+	]
+	quest.00F9DB2E98984479.quest_desc: [
+		"&6番外&3【冰火传说】&6的任务道具。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ECA4D4990D20697\" } }"
+	]
 	quest.0105D9B7766A1BA4.quest_desc: [
 		"&a目标：开启黯影宝库，获得黯影模版"
 		""
@@ -289,6 +308,10 @@
 	quest.03EB435BA284D2D0.title: "观察：寒冰百合"
 	quest.040C5733423CA409.quest_subtitle: "云上的小屋"
 	quest.040C5733423CA409.title: "打卡：巨人小屋"
+	quest.0413301F45252E5F.quest_desc: [
+		"&6番外&3【铁魔法】&6的任务道具。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
+	]
 	quest.0498FCED96BB59A4.quest_desc: [
 		"&a目标：观察战利品箱子"
 		""
@@ -625,6 +648,10 @@
 	]
 	quest.0BCEE748756B8A82.quest_subtitle: "黑暗森林~呜~呼~这永恒的真理~"
 	quest.0BCEE748756B8A82.title: "打卡：黑暗森林"
+	quest.0BEABCA7656A4180.quest_desc: [
+		"&6灾变&3【炎魔】&6的武器。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6583633BEC31ECDF\" } }"
+	]
 	quest.0BFBF916B58BF952.quest_subtitle: "提交4种焦炭食物"
 	quest.0BFBF916B58BF952.title: "烧焦了也能吃"
 	quest.0C4859FFFC25935A.quest_desc: [
@@ -897,6 +924,10 @@
 	quest.138CBAC873742985.quest_subtitle: "玉衡固已骖，羲和若飞凌"
 	quest.138CBAC873742985.title: "&a玉衡"
 	quest.1399E2FD5FF13DE5.quest_subtitle: "冰冰凉凉的"
+	quest.13E374F05CB19377.quest_desc: [
+		"&6图鉴&3【龙族图鉴】&6的通关奖励。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5BB4A81605A76537\" } }"
+	]
 	quest.13F417E2FB58EB86.title: "观察：锆蓝花簇"
 	quest.1420594CE21D4239.quest_desc: [
 		"&6每个菜品都有其对应的属性，如果加入禁止出现的属性相关的原料，会发生什么？&r"
@@ -976,6 +1007,10 @@
 	quest.15E9E6DAEC4C69CE.quest_subtitle: "召唤蜂王"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "击杀3种雪怪BOSS"
 	quest.1611AF1CA2E30FEE.title: "哪个是真的雪怪？"
+	quest.1622BD52272D5656.quest_desc: [
+		"&6番外&3【冰火传说】&6的任务道具。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19632689D6646EBD\" } }"
+	]
 	quest.1647C075AFC0FC73.quest_desc: [
 		"&6通过开启&e神秘宝珠&6获得，用于解锁&3律灵&6法术。"
 		"{ \"text\": \"点击跳转到获取方式\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53F62FC8058F6AE7\" } }"
@@ -1063,7 +1098,7 @@
 	quest.1818669657F8A0B2.quest_subtitle: "星光维度召唤流星雨"
 	quest.1818669657F8A0B2.title: "星引火箭"
 	quest.18189EEE0D9A4F88.quest_desc: [
-		"&a目标：锻造出光明使者胸甲和迅捷之靴"
+		"&a目标：锻造出光明使者胸甲、迅捷之靴、地狱战镰"
 		""
 		"恭喜你，魔法师之旅已经接近尾声。"
 		""
@@ -1350,6 +1385,12 @@
 	quest.21F9F82D260D81BD.quest_subtitle: "&5我可是真龙"
 	quest.21F9F82D260D81BD.title: "&6嗯...稀薄的龙族血脉吗？"
 	quest.21FA8360A0A9725F.title: "冰霜执法者装备"
+	quest.2212CFA0F99595C7.quest_desc: [
+		"&6主线&3【永恒星光】&6的通关奖励。"
+		"&6这是一种特殊的武器，不算在&e天顶剑&6的合成之内。"
+		"&6运气好的时候，可以直接&c秒杀&6生物。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6344D6B5AEC69478\" } }"
+	]
 	quest.225FF303E21AE00E.quest_desc: [
 		"&e骷髅王&6可以穿墙，很容易脱战。"
 		"&6如果你找不到召唤出的&e骷髅王&6，"
@@ -1831,6 +1872,10 @@
 		"&6在此使用对应BOSS召唤物兑换。"
 	]
 	quest.306FC4CE1DC812A8.title: "史莱姆王重生笼"
+	quest.308ACBC769E52128.quest_desc: [
+		"&6番外&3【铁魔法】&6的通关奖励。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
+	]
 	quest.309081C2591414CB.quest_desc: [
 		"&a目标：获得嗅探兽蛋，孵化一只嗅探兽"
 		""
@@ -2287,6 +2332,10 @@
 	quest.3E5F53B92682C2E2.quest_subtitle: "准备并穿戴至少一件热泉石套装，只有烈火才能摧毁盘踞于此的巨型植物"
 	quest.3E5F53B92682C2E2.title: "关押迷失灵魂的迷宫"
 	quest.3E9235C058186DC1.title: "手饰T0"
+	quest.3ECBA6DB5DDE8A7C.quest_desc: [
+		"&6主线&3【暮色森林】&6的通关奖励。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"316AFA91B0365E94\" } }"
+	]
 	quest.3EE35D1C668B344B.quest_desc: [
 		"召唤：合成&b冰霜术士碎片&f进行召唤"
 		""
@@ -2562,7 +2611,7 @@
 	quest.474EB22EE7989B00.quest_subtitle: "地灵殿限定！"
 	quest.47A5ABEFE4273BB2.quest_desc: ["&6可用于合成以及激活龙之信标。"]
 	quest.47A5ABEFE4273BB2.quest_subtitle: "激活龙之信标"
-	quest.47B35B8ACB0DEA79.quest_subtitle: "提交永恒星光的14种花"
+	quest.47B35B8ACB0DEA79.quest_subtitle: "提交永恒星光的所有花"
 	quest.47B35B8ACB0DEA79.title: "花精灵"
 	quest.48BAABC889E9DC5F.quest_desc: [
 		"&l&d「暗夜巫妖」"
@@ -3058,6 +3107,10 @@
 	]
 	quest.5409A055F5C34999.quest_subtitle: "星遥游戏 | 星叶云联"
 	quest.5409A055F5C34999.title: "多人联机推荐"
+	quest.5443C9546910E4B4.quest_desc: [
+		"&6主线&3【深暗之园】&6的通关奖励。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
+	]
 	quest.548BF20DEC6FAA3B.quest_desc: ["&6升级基板&r用于合成各种存储升级。"]
 	quest.548BF20DEC6FAA3B.title: "升级基板"
 	quest.549E269DFE9CCCBA.title: "空龙魂"
@@ -3908,6 +3961,12 @@
 	]
 	quest.71356A8881052F9A.quest_subtitle: "物品易容"
 	quest.71356A8881052F9A.title: "幻化台"
+	quest.7140F79C02D9A138.quest_desc: [
+		"&6当前版本 &e&l最强武器"
+		"&6由&29把&6来自不同模组的终极武器合成，"
+		"&6拥有着足以&c抹杀一切&6的力量！&7&o（部分机制怪除外）"
+		"&6神兵在手，象征着&d你已通关&6本整合包。"
+	]
 	quest.717F72FCA6275810.quest_subtitle: "经济实惠~"
 	quest.71BFA3CE3156E064.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"]
 	quest.71BFA3CE3156E064.quest_subtitle: "击杀利维坦，提交其掉落物"
@@ -3922,6 +3981,12 @@
 	quest.72D2474557AFE788.quest_subtitle: "集齐所有腰带"
 	quest.72D2474557AFE788.title: "&a腰带毕业"
 	quest.731F9BC680E3927E.quest_subtitle: "无尽的法力"
+	quest.732B904AB3D5BD73.quest_desc: [
+		"&6主线&3【深暗之园】&6的任务道具。"
+		"&6这是一种特殊的武器，不算在&e天顶剑&6的合成之内。"
+		"&6可以召唤强力的&e泰拉棱镜&6攻击敌人。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
+	]
 	quest.735C8B5A219C57AE.quest_desc: [
 		"&a目标：学会使用技能，击杀1只铁傀儡"
 		""
