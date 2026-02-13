@@ -87,6 +87,11 @@ checkmark_task_inactive: ftblibrary:icons/accept_gray
 [70F8D93CCB47276E]
 background:                         ftbquests:textures/gui/bg_shanshui.png
 
+# [Beyond Dimension] Background
+[55C8A3D60EBA8E20]
+background:                         ftbquests:textures/gui/bg_galaxy.png
+
 # [Irons School] Background
 [6EC27D3BF2313600]
 background:                         ftbquests:textures/gui/bg_galaxy.png
+

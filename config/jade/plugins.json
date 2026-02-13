@@ -52,10 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -65,6 +61,33 @@
   },
   "ftbquests": {
     "barrier": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "iceandfire": {
+    "dragon_egg_entity": true,
+    "multipart": true,
+    "dragon_egg_block": true,
+    "dragon": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "yes_steve_model": {
+    "model_info": true
   },
   "touhou_little_maid": {
     "maid": true,
@@ -78,17 +101,6 @@
     "lay_egg": true,
     "next_eat": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "registry_name.special": false,
-    "block_states": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "block_properties": false,
-    "mod_name": true
-  },
   "waystones": {
     "waystone": true
   },
@@ -97,14 +109,5 @@
     "bottle_gourd": true,
     "mallet_toggleable": true,
     "censer_burn_time": true
-  },
-  "iceandfire": {
-    "dragon_egg_entity": true,
-    "multipart": true,
-    "dragon_egg_block": true,
-    "dragon": true
-  },
-  "balm": {
-    "jade": true
   }
 }

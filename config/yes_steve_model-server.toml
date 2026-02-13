@@ -24,3 +24,11 @@ ClientNotDisplayModels = []
 	#Suppress network synchronization of partial features to reduce bandwidth usage
 	#Only effective when there are tons of players
 	LowBandwidthUsage = false
+	#Skip sound effect processing to reduce server bandwidth and client memory usage
+	#0: Accept all sounds (Default)
+	#1: Accept short sounds only (Shorter than 4s and smaller than 40KB)
+	#2: Reject all sounds (Not recommended)
+	#Note: Takes effect after model reloading. Increasing this option does not cause model resynchronization, whereas decreasing it does.
+	# Default: 0
+	# Range: 0 ~ 2
+	AcceptSoundFX = 0

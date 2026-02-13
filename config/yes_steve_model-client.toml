@@ -21,6 +21,8 @@
 	SoundVolume = 100.0
 	#Whether to display model ID first in the model selection screen, instead of the model name filled in by the model author.
 	ShowModelIdFirst = false
+	#Disable first person animation from other mods.
+	DisableExternalFirstPersonAnim = false
 
 [extra_player_render]
 	#Whether to display player
