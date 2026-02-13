@@ -184,3 +184,5 @@ config/**
 !config/undergarden-common.toml
 !config/yes_steve_model-client.toml
 !config/yes_steve_model-server.toml
+
+.probe

@@ -492,6 +492,20 @@
 				append = ""
 				format = ""
 
+		[type.dragonsurvival.crystcursed_volley_sweep]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.dragonsurvival.crystcursed_volley_sweep.icon]
+				tex = ""
+				item = ""
+
+			[type.dragonsurvival.crystcursed_volley_sweep.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[type.blood_cauldron]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
