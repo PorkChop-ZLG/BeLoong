@@ -7,53 +7,15 @@
 		id: "ftbquests:book"
 	}
 	id: "70F8D93CCB47276E"
-	images: [
-		{
-			height: 8.0d
-			image: "kubejs:textures/task/shanshui_01.png"
-			order: 1
-			rotation: 0.0d
-			width: 16.0d
-			x: -6.5d
-			y: -3.5d
-		}
-		{
-			height: 8.0d
-			image: "kubejs:textures/task/shanshui_02.png"
-			order: 2
-			rotation: 0.0d
-			width: 16.0d
-			x: 7.199999999999999d
-			y: -3.5d
-		}
-		{
-			height: 8.0d
-			image: "kubejs:textures/task/shanshui_03.png"
-			order: 3
-			rotation: 0.0d
-			width: 16.0d
-			x: -6.5d
-			y: 3.3d
-		}
-		{
-			height: 8.0d
-			image: "kubejs:textures/task/shanshui_04.png"
-			order: 4
-			rotation: 0.0d
-			width: 16.0d
-			x: 7.199999999999999d
-			y: 3.3d
-		}
-		{
-			height: 5.0d
-			image: "kubejs:textures/task/beloong_logo.png"
-			order: 1000
-			rotation: 0.0d
-			width: 5.0d
-			x: 0.0d
-			y: -4.5d
-		}
-	]
+	images: [{
+		height: 5.0d
+		image: "kubejs:textures/task/beloong_logo.png"
+		order: 1000
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: -4.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -1,5 +1,5 @@
 [*]
-background:          ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
+background:          ftbquests:textures/gui/bg_black.png; color=#AA000000; tile_size=128
 chapter_panel_background:          hollow_rectangle:{{widget_border}}; round_edges + {{background}}; color=#B4B4B4; padding=1
 key_reference_background:          ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
 extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
@@ -82,3 +82,11 @@ pinned_quest_size:                  0.75
 
 checkmark_task_active:   ftblibrary:icons/accept
 checkmark_task_inactive: ftblibrary:icons/accept_gray
+
+# [About BeLoong Modpack] Background
+[70F8D93CCB47276E]
+background:                         ftbquests:textures/gui/bg_shanshui.png
+
+# [Irons School] Background
+[6EC27D3BF2313600]
+background:                         ftbquests:textures/gui/bg_galaxy.png

@@ -20,40 +20,6 @@
 		id: "irons_spellbooks:hither_thither_wand"
 	}
 	id: "6EC27D3BF2313600"
-	images: [
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/space_background_01.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: -27.0d
-			y: -13.0d
-		}
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/space_background_02.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: 27.5d
-			y: -13.0d
-		}
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/space_background_03.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: -27.0d
-			y: 14.0d
-		}
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/space_background_04.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: 27.5d
-			y: 14.0d
-		}
-	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
