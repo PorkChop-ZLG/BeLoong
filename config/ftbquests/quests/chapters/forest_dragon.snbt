@@ -265,6 +265,14 @@
 					table_id: 3727137034912313201L
 					type: "choice"
 				}
+				{
+					id: "32F7AC24BD6BA83A"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_power"
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d
@@ -282,7 +290,12 @@
 					type: "advancement"
 				}
 				{
-					id: "5C93E0EE7060AA6A"
+					id: "50F52B20B48119B2"
+					item: { count: 1, id: "kubejs:progenitor_dragon_scale" }
+					type: "item"
+				}
+				{
+					id: "5D9B7F95FFC07482"
 					type: "checkmark"
 				}
 			]

@@ -321,6 +321,14 @@
 					table_id: 3727137034912313201L
 					type: "loot"
 				}
+				{
+					id: "564880A12B8F7080"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_power"
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d
@@ -336,6 +344,15 @@
 					criterion: ""
 					id: "12C3DF62912D559B"
 					type: "advancement"
+				}
+				{
+					id: "594EC98DF30A6086"
+					item: { count: 1, id: "kubejs:progenitor_dragon_scale" }
+					type: "item"
+				}
+				{
+					id: "0E0567961E3526F9"
+					type: "checkmark"
 				}
 			]
 			x: 0.0d

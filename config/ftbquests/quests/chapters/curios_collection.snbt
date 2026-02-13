@@ -2219,15 +2219,15 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
-				id: "terra_entity:developer_boomerang"
+				id: "kubejs:progenitor_dragon_ball"
 			}
 			icon_scale: 2.0d
 			id: "42921D7314712236"
 			rewards: [{
-				id: "500C9859CF44124E"
+				id: "0A6A0F02815BD904"
 				item: {
 					count: 1
-					id: "terra_entity:developer_boomerang"
+					id: "kubejs:progenitor_dragon_ball"
 				}
 				type: "item"
 			}]
