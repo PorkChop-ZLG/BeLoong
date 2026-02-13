@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.custom(
         {
             "type": "eternal_starlight:alloy",
-            "burn_time": 12000,
+            "burn_time": 6000,
             "ingredients": [
                 {
                     "item": "kubejs:cave_dragon_heart"
@@ -31,6 +31,51 @@ ServerEvents.recipes(event => {
                     "item": {
                         "count": 1,
                         "id": "kubejs:progenitor_dragon_heart"
+                    }
+                }
+            ]
+        }
+    )
+    // 3种龙鳞块 = 合金炉 = 始祖龙鳞
+    event.custom(
+        {
+            "type": "eternal_starlight:alloy",
+            "burn_time": 6000,
+            "ingredients": [
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/fire"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/fire"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/fire"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/ice"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/ice"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/ice"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/lightning"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/lightning"
+                },
+                {
+                    "tag": "iceandfire:storage_blocks/scales/dragon/lightning"
+                }
+            ],
+            "results": [
+                {
+                    "amount": 1,
+                    "item": {
+                        "count": 1,
+                        "id": "kubejs:progenitor_dragon_scale"
                     }
                 }
             ]

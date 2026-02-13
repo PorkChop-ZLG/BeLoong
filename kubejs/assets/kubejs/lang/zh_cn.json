@@ -115,6 +115,8 @@
   "dragon_ability.dragonsurvival.become_smaller.desc": "■ 升级此技能可§2缩小§r§7你的体型。\n\n■ 同时§2减少§r§7实体和方块交互距离。§r",
   "dragon_ability.dragonsurvival.wind_breath": "微风之息",
   "dragon_ability.dragonsurvival.wind_breath.desc": "■ 以太龙吞云吐雾，呼出轻柔的微风。\n\n■ 微风可§2清除杂草§7，亦可为友方§2加速§7。§r\n\n■ 吐息的§2伤害较低§7，但是§2不消耗魔力§7。§r",
+  "dragon_ability.dragonsurvival.progenitor_power": "始祖之力",
+  "dragon_ability.dragonsurvival.progenitor_power.desc": "■ 只能通过道具§d“始祖之力”§r获得，始祖龙阶段才能解锁。\n\n■ 提供大量属性提升，每§25点成长值§r提升§210%的属性§r，成长到满级§2属性翻倍§r！§r",
 
   "dragon_species.dragonsurvival.aether_dragon.banner.desc": "§7■ §6以太龙§r§7是§f迅捷§r§7、§f灵巧§r§7而优雅的生物，身躯可划破§f云海与波涛§r§7。\n\n§2■ 特性：§f§r§7高机动性、气象与气流魔法、水下呼吸增益、坠落免疫。\n§4■ 弱点：§r§7地底深处。\n§6■ 食谱：§f§r§7动物制品。§r",
   "dragon_species.dragonsurvival.aether_dragon_human": "青龙",

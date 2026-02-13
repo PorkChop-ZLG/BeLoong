@@ -410,4 +410,55 @@ ServerEvents.recipes(event => {
             }
         }
     )
+    // 始祖龙心 + 始祖龙鳞 = 龙炎煅炉 = 始祖之力
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 6000,
+            "input": {
+                "item": "kubejs:progenitor_dragon_heart"
+            },
+            "blood": {
+                "item": "kubejs:progenitor_dragon_scale"
+            },
+            "result": {
+                "id": "kubejs:progenitor_dragon_power"
+            }
+        }
+    )
+    // 始祖龙心 + 始祖龙鳞 = 龙霜煅炉 = 始祖之力
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 6000,
+            "input": {
+                "item": "kubejs:progenitor_dragon_heart"
+            },
+            "blood": {
+                "item": "kubejs:progenitor_dragon_scale"
+            },
+            "result": {
+                "id": "kubejs:progenitor_dragon_power"
+            }
+        }
+    )
+    // 始祖龙心 + 始祖龙鳞 = 龙霆煅炉 = 始祖之力
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 6000,
+            "input": {
+                "item": "kubejs:progenitor_dragon_heart"
+            },
+            "blood": {
+                "item": "kubejs:progenitor_dragon_scale"
+            },
+            "result": {
+                "id": "kubejs:progenitor_dragon_power"
+            }
+        }
+    )
 })
