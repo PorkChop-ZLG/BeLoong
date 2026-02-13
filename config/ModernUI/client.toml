@@ -48,7 +48,7 @@
 #Tooltip Config
 [tooltip]
 	#Whether to enable Modern UI enhanced tooltip, or back to vanilla default.
-	enable = true
+	enable = false
 	#Whether to use rounded tooltip shapes, or to use vanilla style.
 	roundedShape = true
 	#True to center the tooltip title if rendering an item's tooltip.
