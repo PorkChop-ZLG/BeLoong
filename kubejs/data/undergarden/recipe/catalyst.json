@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "C": {
+            "item": "eternal_starlight:starfire"
+        },
+        "E": {
+            "item": "eternal_starlight:starlit_diamond"
+        },
+        "S": {
+            "item": "eternal_starlight:deepsilver_block"
+        }
+    },
+    "pattern": [
+        "CSC",
+        "SES",
+        "CSC"
+    ],
+    "result": {
+        "count": 1,
+        "id": "undergarden:catalyst"
+    }
+}
