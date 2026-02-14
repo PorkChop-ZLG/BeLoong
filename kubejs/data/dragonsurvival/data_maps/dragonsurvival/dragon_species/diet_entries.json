@@ -5716,6 +5716,639 @@
           }
         }
       ]
-    }
+    },
+    "dragonsurvival:crystcursed_dragon": [
+      {
+        "items": "crystcursed_dragon:crystcursed_dragon_treat",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 4,
+          "saturation": 8.0,
+          "can_always_eat": true,
+          "effects": [
+            {
+              "effect": {
+                "id": "dragonsurvival:source_of_magic",
+                "duration": 1200
+              }
+            }
+          ]
+        }
+      },
+      {
+        "items": "crystcursed_dragon:golden_amethyst_shard",
+        "properties": {
+          "eat_seconds": 1.2,
+          "nutrition": 4,
+          "saturation": 8.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "#c:gems",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 6,
+          "saturation": 6.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "minecraft:amethyst_shard",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 8,
+          "saturation": 6.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "dragonsurvival:double_quartz",
+        "properties": {
+          "eat_seconds": 1.2,
+          "nutrition": 8,
+          "saturation": 6.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "#c:foods/raw_meat",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "#c:foods/cooked_meat"
+      },
+      {
+        "items": "#c:foods/raw_fish",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "#c:foods/cooked_fish"
+      },
+      {
+        "items": "aquaculture:fish_fillet_raw",
+        "properties": {
+          "nutrition": 3,
+          "saturation": 3
+        }
+      },
+      {
+        "items": "aquaculture:sushi",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 5
+        }
+      },
+      {
+        "items": "aquaculture:goldfish",
+        "properties": {
+          "nutrition": 8,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "minecraft:rabbit",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "aquaculture:turtle_soup",
+        "properties": {
+          "nutrition": 8,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:wither_bonefish",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:bonefish",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:eyeball_fish",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:lava_pufferfish",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:glowdine",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:obsidianfish",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:soulsucker",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "netherdepthsupgrade:searing_cod",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "aoa3:fiery_chops",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "aoa3:raw_chimera_chop",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "aoa3:raw_furlion_chop",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "aoa3:raw_halycon_beef",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "aoa3:raw_charger_shank",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "quark:golden_frog_leg",
+        "properties": {
+          "nutrition": 12,
+          "saturation": 14.0
+        }
+      },
+      {
+        "items": "alexsmobs:kangaroo_meat",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "alexsmobs:moose_ribs",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "simplefarming:raw_horse_meat",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "simplefarming:raw_bacon",
+        "properties": {
+          "nutrition": 3,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "simplefarming:raw_chicken_wings",
+        "properties": {
+          "nutrition": 2,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "simplefarming:raw_sausage",
+        "properties": {
+          "nutrition": 3,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "xenoclustwo:raw_tortice",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "unnamedanimalmod:musk_ox_shank",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "unnamedanimalmod:frog_legs",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "unnamedanimalmod:mangrove_fruit",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "betteranimalsplus:venisonraw",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "born_in_chaos_v1:corpse_maggot",
+        "properties": {
+          "nutrition": 1,
+          "saturation": 1.0
+        }
+      },
+      {
+        "items": "born_in_chaos_v1:monster_flesh",
+        "properties": {
+          "nutrition": 1,
+          "saturation": 1.0
+        }
+      },
+      {
+        "items": "betteranimalsplus:pheasantraw",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "betteranimalsplus:turkey_leg_raw",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "infernalexp:raw_hogchop",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "infernalexp:cured_jerky",
+        "properties": {
+          "nutrition": 10,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "rats:raw_rat",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "aquaculture:frog",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "aquaculture:frog_legs_raw",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "aquaculture:box_turtle",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "aquaculture:arrau_turtle",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "aquaculture:starshell_turtle",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "undergarden:raw_gloomper_leg",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "undergarden:raw_dweller_meat",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "farmersdelight:cod_roll"
+      },
+      {
+        "items": "farmersdelight:salmon_roll"
+      },
+      {
+        "items": "farmersdelight:kelp_roll_slice"
+      },
+      {
+        "items": "farmersdelight:kelp_roll"
+      },
+      {
+        "items": "farmersdelight:chicken_cuts",
+        "properties": {
+          "nutrition": 3,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "farmersdelight:bacon",
+        "properties": {
+          "nutrition": 3,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "farmersdelight:ham",
+        "properties": {
+          "nutrition": 9,
+          "saturation": 10.0
+        }
+      },
+      {
+        "items": "farmersdelight:minced_beef",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "farmersdelight:mutton_chops",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "abnormals_delight:duck_fillet",
+        "properties": {
+          "nutrition": 2,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "abnormals_delight:venison_shanks",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "autumnity:turkey",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "autumnity:turkey_piece",
+        "properties": {
+          "nutrition": 2,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "autumnity:foul_soup",
+        "properties": {
+          "nutrition": 12,
+          "saturation": 8.0
+        }
+      },
+      {
+        "items": "quark:frog_leg",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "nethers_delight:hoglin_loin",
+        "properties": {
+          "nutrition": 8,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "nethers_delight:raw_stuffed_hoglin",
+        "properties": {
+          "nutrition": 18,
+          "saturation": 10.0
+        }
+      },
+      {
+        "items": "xreliquary:bat_wing",
+        "properties": {
+          "nutrition": 2,
+          "saturation": 2.0
+        }
+      },
+      {
+        "items": "forbidden_arcanus:bat_wing",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 2.0
+        }
+      },
+      {
+        "items": "twilightforest:raw_venison",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "twilightforest:raw_meef",
+        "properties": {
+          "nutrition": 9,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "twilightforest:hydra_chop",
+        "properties": {
+          "nutrition": 0,
+          "saturation": 0.0
+        }
+      },
+      {
+        "items": "artifacts:everlasting_beef",
+        "properties": {
+          "nutrition": 0,
+          "saturation": 0.0
+        }
+      },
+      {
+        "items": "wyrmroost:raw_lowtier_meat",
+        "properties": {
+          "nutrition": 3,
+          "saturation": 2.0
+        }
+      },
+      {
+        "items": "wyrmroost:raw_common_meat",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "wyrmroost:raw_apex_meat",
+        "properties": {
+          "nutrition": 8,
+          "saturation": 6.0
+        }
+      },
+      {
+        "items": "wyrmroost:raw_behemoth_meat",
+        "properties": {
+          "nutrition": 11,
+          "saturation": 12.0
+        }
+      },
+      {
+        "items": "wyrmroost:desert_wyrm",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "eanimod:rawchicken_darkbig",
+        "properties": {
+          "nutrition": 9,
+          "saturation": 5.0
+        }
+      },
+      {
+        "items": "eanimod:rawchicken_dark",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "eanimod:rawchicken_darksmall",
+        "properties": {
+          "nutrition": 3,
+          "saturation": 2.0
+        }
+      },
+      {
+        "items": "eanimod:rawchicken_pale",
+        "properties": {
+          "nutrition": 5,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "eanimod:rawchicken_palesmall",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "eanimod:rawrabbit_small",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "environmental:duck",
+        "properties": {
+          "nutrition": 4,
+          "saturation": 3.0
+        }
+      },
+      {
+        "items": "environmental:venison",
+        "properties": {
+          "nutrition": 7,
+          "saturation": 7.0
+        }
+      },
+      {
+        "items": "crittersandcompanions:koi_fish",
+        "properties": {
+          "nutrition": 6,
+          "saturation": 4.0
+        }
+      },
+      {
+        "items": "crittersandcompanions:clam",
+        "properties": {
+          "nutrition": 10,
+          "saturation": 3.0
+        }
+      }
+    ]
   }
 }
