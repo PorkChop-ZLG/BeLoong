@@ -1,0 +1,13 @@
+{
+	"akashictome.sudo_name": "永乐大典 (%s)",
+	"akashictome.click_morph": "Shift+右键点击以更改",
+	"item.akashictome.tome": "永乐大典",
+	"akashictome.misc.shift_for_info": "§7按住 §bSHIFT§7 以查看更多信息",
+	"akashictome.configuration.Allow all items to be added": "允许添加所有物品",
+	"akashictome.configuration.Whitelisted Items": "白名单物品",
+	"akashictome.configuration.Blacklisted Mods": "黑名单模组",
+	"akashictome.configuration.Mod Aliases": "模组别名",
+	"akashictome.configuration.Hide Book Render": "隐藏书本渲染",
+	"akashictome.configuration.Whitelisted Names": "白名单名称",
+	"akashictome.configuration.Blacklisted Items": "黑名单物品"
+}

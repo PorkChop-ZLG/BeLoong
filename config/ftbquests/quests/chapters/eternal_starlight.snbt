@@ -191,6 +191,9 @@
 		}
 		{
 			dependencies: ["7082701EBE593912"]
+			icon: {
+				id: "eternal_starlight:the_gatekeeper_spawn_egg"
+			}
 			id: "32252DED7BE99D29"
 			rewards: [
 				{
@@ -328,6 +331,9 @@
 		}
 		{
 			dependencies: ["075C03D1410623B3"]
+			icon: {
+				id: "eternal_starlight:starlight_golem_spawn_egg"
+			}
 			id: "02EE21851AD77A5F"
 			rewards: [
 				{
@@ -419,6 +425,9 @@
 		}
 		{
 			dependencies: ["3E5F53B92682C2E2"]
+			icon: {
+				id: "eternal_starlight:lunar_monstrosity_spawn_egg"
+			}
 			id: "6EA867B07E184273"
 			rewards: [
 				{
@@ -490,24 +499,21 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"6EA867B07E184273"
-				"02EE21851AD77A5F"
-			]
+			dependencies: ["1A60448B701DF708"]
 			id: "1011C97DAE40FD1B"
 			rewards: [{
 				id: "6BB3A52A1D287EA4"
 				type: "xp"
 				xp: 100
 			}]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				advancement: "eternal_starlight:witness_meteor_shower"
 				criterion: ""
 				id: "7B72722ECA137F18"
 				type: "advancement"
 			}]
-			x: 19.5d
+			x: 24.0d
 			y: 0.0d
 		}
 		{
@@ -524,7 +530,7 @@
 				id: "368D4D82971AB0C7"
 				type: "advancement"
 			}]
-			x: 22.0d
+			x: 26.0d
 			y: 0.0d
 		}
 		{
@@ -544,7 +550,7 @@
 				id: "323321E9CF946602"
 				type: "advancement"
 			}]
-			x: 26.0d
+			x: 29.0d
 			y: 0.0d
 		}
 		{
@@ -638,7 +644,7 @@
 					type: "item"
 				}
 			]
-			x: 38.0d
+			x: 40.0d
 			y: 0.0d
 		}
 		{
@@ -803,7 +809,7 @@
 				structure: "block_factorys_bosses:yeti_hideout"
 				type: "structure"
 			}]
-			x: 22.0d
+			x: 26.0d
 			y: -2.0d
 		}
 		{
@@ -822,7 +828,7 @@
 				structure: "block_factorys_bosses:sandworm_nest"
 				type: "structure"
 			}]
-			x: 22.0d
+			x: 26.0d
 			y: 2.0d
 		}
 		{
@@ -852,7 +858,7 @@
 				id: "0D7D8789E1D591B5"
 				type: "advancement"
 			}]
-			x: 26.0d
+			x: 29.0d
 			y: -2.0d
 		}
 		{
@@ -882,7 +888,7 @@
 				id: "13B3C30D245CE579"
 				type: "advancement"
 			}]
-			x: 26.0d
+			x: 29.0d
 			y: 2.0d
 		}
 		{
@@ -908,7 +914,7 @@
 				structure: "block_factorys_bosses:dragon_tower"
 				type: "structure"
 			}]
-			x: 29.5d
+			x: 32.0d
 			y: 0.0d
 		}
 		{
@@ -938,7 +944,7 @@
 				id: "24096AB00E8A7C65"
 				type: "advancement"
 			}]
-			x: 33.0d
+			x: 35.0d
 			y: 0.0d
 		}
 		{
@@ -978,6 +984,37 @@
 				}
 			]
 			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EA867B07E184273"
+				"02EE21851AD77A5F"
+			]
+			dependency_requirement: "one_completed"
+			id: "1A60448B701DF708"
+			rewards: [
+				{
+					id: "493E3115E64826EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3926C790148E513E"
+					item: {
+						count: 1
+						id: "eternal_starlight:alloy_furnace"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6F25EC860E6A8218"
+				item: { count: 1, id: "eternal_starlight:oxidized_alloy_furnace" }
+				type: "item"
+			}]
+			x: 21.0d
 			y: 0.0d
 		}
 	]

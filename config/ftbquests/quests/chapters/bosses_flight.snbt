@@ -340,7 +340,7 @@
 		}
 		{
 			icon: {
-				id: "eternal_starlight:orb_of_prophecy"
+				id: "eternal_starlight:the_gatekeeper_spawn_egg"
 			}
 			id: "28625E49F473135B"
 			rewards: [
@@ -393,7 +393,7 @@
 		}
 		{
 			icon: {
-				id: "eternal_starlight:tangled_spawn_egg"
+				id: "eternal_starlight:lunar_monstrosity_spawn_egg"
 			}
 			id: "17A9978D7AFEA210"
 			rewards: [
@@ -432,7 +432,7 @@
 		}
 		{
 			icon: {
-				id: "eternal_starlight:aethersent_golem_spawn_egg"
+				id: "eternal_starlight:starlight_golem_spawn_egg"
 			}
 			id: "6E02B2425A8EAB67"
 			rewards: [

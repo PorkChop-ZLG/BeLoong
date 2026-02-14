@@ -37,7 +37,7 @@
 		"难度：★★★"
 	]
 	chapter.2FCFFB6D530A343F.title: "② 暮色森林"
-	chapter.35EB6BC9CDF066E6.chapter_subtitle: ["暂不完善，持续更新"]
+	chapter.35EB6BC9CDF066E6.chapter_subtitle: ["暂不完善，即将重做"]
 	chapter.35EB6BC9CDF066E6.title: "&e对话指引"
 	chapter.3DA5315F4969F944.chapter_subtitle: ["隐藏式任务"]
 	chapter.3DA5315F4969F944.title: "〖森林龙〗成长之路"
@@ -1192,6 +1192,15 @@
 		"右键单击&a死灵法师魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤绑定魔宠，可在&6 下界墓园&r 中找到"
 		""
 		"&9结构罗盘：&b【魔宠】下界墓园"
+	]
+	quest.1A60448B701DF708.quest_desc: [
+		"&a目标：击败星光傀儡，获得氧化的合金炉"
+		""
+		"&e合金炉&6是一种全新的炉子，可炼制一些稀有道具。"
+		"&6对&e合金炉&6按&d【U】&6查询相关配方。"
+		"&6中间3X3的地方放入原料；"
+		"&6左下角放入&8煤炭&6等燃料；"
+		"&6右下角放入&b永冻石&6等冷却剂。"
 	]
 	quest.1AA4E0CE318BA06A.quest_subtitle: "成长到远古龙阶段"
 	quest.1AA4E0CE318BA06A.title: "远古苔原龙"
@@ -2557,6 +2566,7 @@
 		""
 		"&6自爆可破坏地形和物品，可被盾牌格挡。"
 	]
+	quest.4631FD4DF4CFBC9F.title: "天慧苦力怕"
 	quest.4633599C0B5F87C4.quest_desc: [
 		"&a目标：成长到始祖龙阶段，击败黑暗二重身"
 		""

@@ -4,6 +4,83 @@
 	filename: "curios_collection"
 	group: "6B7CC0230CA6913F"
 	id: "43E849014FFC7520"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			order: 10
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			order: 11
+			rotation: 0.0d
+			width: 3.0d
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:textures/gui/sprites/container/slot.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 19.5d
+			y: -6.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -96,6 +173,21 @@
 					item: { count: 1, id: "artifacts:anglers_hat" }
 					type: "item"
 				}
+				{
+					id: "616F1CAFBCAAA9EA"
+					item: { count: 1, id: "cataclysm:aptrgangr_head" }
+					type: "item"
+				}
+				{
+					id: "4C8F19DCC3A72C43"
+					item: { count: 1, id: "cataclysm:draugr_head" }
+					type: "item"
+				}
+				{
+					id: "6082D7D12AF49B9B"
+					item: { count: 1, id: "cataclysm:kobolediator_skull" }
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: 6.5d
@@ -123,6 +215,11 @@
 				{
 					id: "3579C49C7ABEC4D3"
 					item: { count: 1, id: "darkdoppelganger:elder_necklace" }
+					type: "item"
+				}
+				{
+					id: "4B01420ED3F8A478"
+					item: { count: 1, id: "cataclysm:vitality_ankh" }
 					type: "item"
 				}
 			]
@@ -162,6 +259,11 @@
 				{
 					id: "67ADF31D56E0B1CB"
 					item: { count: 1, id: "irons_spellbooks:amethyst_resonance_charm" }
+					type: "item"
+				}
+				{
+					id: "73271C0E414C70C4"
+					item: { count: 1, id: "cataclysm:berserker_soul_amulet" }
 					type: "item"
 				}
 			]
@@ -328,6 +430,11 @@
 					item: { count: 1, id: "artifacts:pickaxe_heater" }
 					type: "item"
 				}
+				{
+					id: "6E7787845204FC57"
+					item: { count: 1, id: "cataclysm:chitin_claw" }
+					type: "item"
+				}
 			]
 			x: 6.0d
 			y: 4.5d
@@ -417,6 +524,11 @@
 				{
 					id: "1BB9D04FA19A3FC4"
 					item: { count: 1, id: "iss_magicfromtheeast:soulward_ring" }
+					type: "item"
+				}
+				{
+					id: "303526341CEF0EEA"
+					item: { count: 1, id: "cataclysm:ring_of_grudged" }
 					type: "item"
 				}
 			]
@@ -606,6 +718,11 @@
 					item: { count: 1, id: "artifacts:helium_flamingo" }
 					type: "item"
 				}
+				{
+					id: "7E32FC8F7816931A"
+					item: { count: 1, id: "cataclysm:belt_of_beginner" }
+					type: "item"
+				}
 			]
 			x: 12.0d
 			y: 6.5d
@@ -695,11 +812,18 @@
 				xp: 100
 			}]
 			shape: "gear"
-			tasks: [{
-				id: "31738B998C54D518"
-				item: { count: 1, id: "artifacts:rooted_boots" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "31738B998C54D518"
+					item: { count: 1, id: "artifacts:rooted_boots" }
+					type: "item"
+				}
+				{
+					id: "2BC3EC921B0D089F"
+					item: { count: 1, id: "cataclysm:sturdy_boots" }
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: 6.5d
 		}
@@ -721,6 +845,11 @@
 				{
 					id: "229A7525C9A3060B"
 					item: { count: 1, id: "beyonddimensions:net_terminal_item" }
+					type: "item"
+				}
+				{
+					id: "4BB5E0EACDD399C4"
+					item: { count: 1, id: "cataclysm:unbreakable_skull" }
 					type: "item"
 				}
 			]
@@ -1887,7 +2016,10 @@
 				"79DBDE661A38E757"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "terra_curio:slot/accessory"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "1CA4502D0B69550A"
 			rewards: [
@@ -1906,7 +2038,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 4.0d
 			tasks: [{
 				id: "1B2D262908C7FA95"
@@ -1923,7 +2055,10 @@
 				"54A9EA09DB80D187"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "curios:slot/empty_head_slot"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "517B7C0FB7C6E380"
 			rewards: [
@@ -1942,7 +2077,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "1DCCE0E79FC6320E"
@@ -1959,7 +2094,10 @@
 				"386CC89DE12CDBE2"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "curios:slot/empty_necklace_slot"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "6CB7E3C2DE9FA1DC"
 			rewards: [
@@ -1978,7 +2116,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "43EAFCF2426B45B8"
@@ -1995,7 +2133,10 @@
 				"61DA1759088CDA4D"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "curios:slot/empty_hands_slot"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "44DBC43AEBA8B676"
 			rewards: [
@@ -2014,7 +2155,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "4F968516AFE8BA13"
@@ -2031,7 +2172,10 @@
 				"61ACAF91D4015A4E"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "curios:slot/empty_ring_slot"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "762DDE9C0729E876"
 			rewards: [
@@ -2050,7 +2194,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "6856CF375A9A856A"
@@ -2067,7 +2211,10 @@
 				"4218F6E0430B190C"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "minecraft:item/empty_armor_slot_boots"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "34155DB28754AEA6"
 			rewards: [
@@ -2086,7 +2233,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "3BACEB9E174299AD"
@@ -2103,7 +2250,10 @@
 				"1ECC3AFD4ECADE42"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "curios:slot/empty_charm_slot"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "17F6BAB9A64544C9"
 			rewards: [
@@ -2122,7 +2272,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "7341C165355B3812"
@@ -2139,7 +2289,10 @@
 				"11C9E6E6BAB0A735"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "curios:slot/spellbook_slot"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "2A93227E5737BF76"
 			rewards: [
@@ -2158,7 +2311,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "2499DC9A73A990AE"
@@ -2175,7 +2328,10 @@
 				"1164ECE00370CB7B"
 			]
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				components: {
+					"ftbquests:icon": "curios:slot/empty_belt_slot"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "72D2474557AFE788"
 			rewards: [
@@ -2194,7 +2350,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "none"
 			size: 3.0d
 			tasks: [{
 				id: "11DAD53F00568CF2"
