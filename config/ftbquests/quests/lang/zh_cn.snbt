@@ -3188,6 +3188,12 @@
 	]
 	quest.56B73043CC964E09.quest_subtitle: "掠夺一只村民"
 	quest.56B73043CC964E09.title: "——劫掠——"
+	quest.57129F2800906CC9.quest_desc: [
+		"&6主线&3【暮色森林】&6的彩蛋奖励。"
+		"&6这是一种特殊的武器，不算在&e天顶剑&6的合成之内。"
+		"&6拥有最高的面板伤害和巨龙技能伤害加成。"
+		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"254ACB3DBF934D44\" } }"
+	]
 	quest.573DE89DDB233083.title: "混凝土自选"
 	quest.574D327123271BA3.title: "初入末地"
 	quest.577508CE564D487C.quest_subtitle: "你想知道的都在这里"
