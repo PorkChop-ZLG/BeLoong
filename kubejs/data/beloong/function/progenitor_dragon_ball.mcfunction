@@ -1,4 +1,4 @@
-# 该方程用于道具 始祖之力 给予 始祖之力技能
+# 该方程用于道具 始祖龙珠 额外添加饰品栏
 
 # 给予始祖之力
 dragon-ability add @s dragonsurvival:progenitor_power
