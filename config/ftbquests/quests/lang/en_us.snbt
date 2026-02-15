@@ -3437,8 +3437,8 @@
         "&4Weakness: &6Without prolonged crystal energy replenishment, suffers weakness and hunger"
     ]
     quest.5E4E661E1E3FE198.quest_subtitle: "You choose to become: Crystcursed Dragon"
-    quest.5E4E661E1E3FE198.title: "『BeLoong』Crystcursed Dragon!"[citation:2][citation:4]
-    quest.5EE6DC4771476CC8.quest_subtitle: "\"Alternate Whiskey\""
+    quest.5E4E661E1E3FE198.title: "『BeLoong』Crystcursed Dragon!"
+    quest.5EE6DC4771476CC8.quest_subtitle: "Alternate Whiskey"
     quest.5EFF5C22E67BCE5D.quest_subtitle: "Located in The End"
     quest.5EFF5C22E67BCE5D.title: "Check-in: Prismarine Forest"
     quest.5F710FD97963CF8F.title: "Cleric Armor"
@@ -4265,7 +4265,7 @@
         "&aObjective: Obtain Manuscripts"
         ""
         "&eManuscripts &6are used on a &eManuscript Scribing Table &6to unlock chapters in the Bestiary."
-        "&6Manuscripts can be found in chests within Ice and Fire structures and cannot be crafted. [citation:3]"
+        "&6Manuscripts can be found in chests within Ice and Fire structures and cannot be crafted. "
         ""
         "&7&o\"Materials that are relatively easy to find in this dimension, inscribed with some ancient knowledge.\" — Explorer's Notes: Journey of Beasts"
     ]
@@ -4282,10 +4282,10 @@
     quest.7BEEE28B8865648E.quest_desc: [
         "&aObjective: Obtain the Bestiary"
         ""
-        "&eThe Bestiary &6is the beginner's guide for &bIce &c& Fire. [citation:2]"
-        "&6Collect &eManuscripts &6and use a &eManuscript Scribing Table &6to unlock chapters, [citation:3]"
+        "&eThe Bestiary &6is the beginner's guide for &bIce &c& Fire. "
+        "&6Collect &eManuscripts &6and use a &eManuscript Scribing Table &6to unlock chapters,"
         "&6learning about the various creatures and lore of the Ice and Fire mod."
-        "&6This modpack uses &bIce &c& Fire &aCommunity Edition&6, maintained by &dIAFEnvoy&6. [citation:1][citation:5]"
+        "&6This modpack uses &bIce &c& Fire &aCommunity Edition&6, maintained by &dIAFEnvoy&6."
         ""
         "&c(Recipe modified, requires Ancient Dragon Dust)"
         ""
