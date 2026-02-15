@@ -1,4 +1,5 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "system_store"
@@ -1091,6 +1092,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "5DAECFA9FD7125B5"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
@@ -1118,6 +1120,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "5A1C21F980D00B8E"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
@@ -1146,6 +1149,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "338A391F75DADA17"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
@@ -1158,7 +1162,7 @@
 			can_repeat: true
 			dependencies: [
 				"3859C3FFB6F2C61B"
-				"6C87160D1AC7FE19"
+				"18189EEE0D9A4F88"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1174,6 +1178,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "4C5552B98FE6E180"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
@@ -1202,6 +1207,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "1AAD299AF57958D9"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
