@@ -71,6 +71,8 @@ config/**
 !config/l2_configs/**
 !config/l2configs/
 !config/l2configs/**
+!config/MiniMOTD/
+!config/MiniMOTD/**
 !config/ModernUI/
 !config/ModernUI/**
 !config/mystiasizakaya/
@@ -79,6 +81,10 @@ config/**
 !config/paxi/**
 !config/regions_unexplored/
 !config/regions_unexplored/**
+!config/tab/
+!config/tab/**
+!config/tooltipoverhaul/
+!config/tooltipoverhaul/**
 !config/touhou_little_maid/
 !config/touhou_little_maid/**
 !config/voicechat/
@@ -186,3 +192,4 @@ config/**
 !config/yes_steve_model-server.toml
 
 .probe
+.log
