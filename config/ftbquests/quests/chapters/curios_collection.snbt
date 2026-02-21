@@ -627,6 +627,11 @@
 					item: { count: 1, id: "artifacts:crystal_heart" }
 					type: "item"
 				}
+				{
+					id: "6F581AB6D8CDFA12"
+					item: { count: 1, id: "iss_magicfromtheeast:jade_pendant" }
+					type: "item"
+				}
 			]
 			x: 12.0d
 			y: 0.0d
@@ -664,11 +669,6 @@
 				{
 					id: "07E9C5C7FD95D008"
 					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "iss_magicfromtheeast:jiangshi_invoke": 2 } } }, count: 1, id: "iss_magicfromtheeast:rusted_coins_sword" }
-					type: "item"
-				}
-				{
-					id: "569E91890E51792E"
-					item: { count: 1, id: "iss_magicfromtheeast:jade_pendant" }
 					type: "item"
 				}
 			]
@@ -1051,7 +1051,7 @@
 			rewards: [{
 				id: "0139A9AFE2ED4701"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			shape: "hexagon"
 			size: 3.0d
@@ -1180,7 +1180,7 @@
 			rewards: [{
 				id: "52A7DEB75B0D6DC9"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			shape: "hexagon"
 			size: 3.0d
@@ -1324,7 +1324,7 @@
 			rewards: [{
 				id: "2DB41F90A0696DC3"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			shape: "hexagon"
 			size: 3.0d
@@ -1614,7 +1614,7 @@
 			rewards: [{
 				id: "3187CFCAFC4C3E5A"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			shape: "hexagon"
 			size: 3.0d

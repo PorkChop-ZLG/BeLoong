@@ -273,6 +273,7 @@
 			tasks: [{
 				id: "7506CF836145F04F"
 				item: { components: { "minecraft:lore": ["{\"color\":\"gray\",\"translate\":\"item.twilightforest.glass_sword.desc\"}"], "minecraft:unbreakable": { }, "twilightforest:infinite_glass_sword": { } }, count: 1, id: "twilightforest:glass_sword" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -9.0d
