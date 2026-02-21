@@ -42,7 +42,7 @@
 	#生物白名单(优先级高于黑名单),使用<modid:*>实现通配符功能
 	mobEntitiesWhitelist = ["minecraft:chicken", "minecraft:cat", "minecraft:mule", "minecraft:wolf", "minecraft:horse", "minecraft:donkey", "minecraft:wither", "minecraft:guardian", "minecraft:villager", "minecraft:iron_golem", "minecraft:snow_golem", "minecraft:vindicator", "minecraft:ender_dragon", "minecraft:elder_guardian", "terra_entity:king_slime", "terra_entity:eye_of_cthulhu", "terra_entity:brain_of_cthulhu", "terra_entity:eater_of_worlds", "terra_entity:eater_of_worlds_segment", "terra_entity:queen_bee", "iceandfire:*", "minecraft:sniffer", "cataclysm:*", "bosses_of_mass_destruction:*", "darkdoppelganger:*", "irons_spellbooks:*"]
 	#生物黑名单,使用<modid:*>实现通配符功能
-	mobEntitiesBlacklist = ["minecraft:zombie", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:wither_skeleton", "minecraft:guardian", "minecraft:enderman", "touhou_little_maid:fairy", "meowmere:cat_projectile", "xfws_someitems:mana_star"]
+	mobEntitiesBlacklist = ["minecraft:zombie", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:wither_skeleton", "minecraft:guardian", "minecraft:enderman", "touhou_little_maid:fairy", "meowmere:cat_projectile", "xfws_someitems:mana_star", "cataclysm:poison_dart"]
 
 [others]
 	#经验球实体清理功能
