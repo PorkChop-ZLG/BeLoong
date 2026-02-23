@@ -344,6 +344,7 @@
 					xp: 100
 				}
 				{
+					count: 3
 					id: "3B143BE3C811658E"
 					item: {
 						count: 1
@@ -401,11 +402,22 @@
 				id: "minecraft:villager_spawn_egg"
 			}
 			id: "56B73043CC964E09"
-			rewards: [{
-				id: "33173A002288F155"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "33173A002288F155"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "174E4F17C8E8764A"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "dragonsurvival:dark/steal_from_villager"
 				criterion: ""
@@ -429,10 +441,11 @@
 					xp: 200
 				}
 				{
-					id: "754B19520B763562"
+					count: 6
+					id: "4C1545F33AA2AD31"
 					item: {
 						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -483,11 +496,11 @@
 					xp: 300
 				}
 				{
-					count: 3
+					count: 8
 					id: "7AF8626B563CB260"
 					item: {
 						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -587,11 +600,11 @@
 					xp: 500
 				}
 				{
-					count: 5
+					count: 8
 					id: "761AE23188A1BF08"
 					item: {
 						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -683,11 +696,11 @@
 					xp: 1000
 				}
 				{
-					count: 64
-					id: "5062474CC92C81FA"
+					count: 3
+					id: "66902D7F921E85C0"
 					item: {
 						count: 1
-						id: "dragonsurvival:elder_dragon_dust"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -785,11 +798,22 @@
 			dependencies: ["2B5CAD5134FFA4AF"]
 			dependency_requirement: "one_completed"
 			id: "032FB020CD21A6EB"
-			rewards: [{
-				id: "328403E61FA63651"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5AFA12C02570071F"
+					type: "xp"
+					xp: 800
+				}
+				{
+					count: 10
+					id: "22DB422401C5D990"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -808,23 +832,17 @@
 			id: "2294D847D63E0ADE"
 			rewards: [
 				{
-					auto: "enabled"
-					id: "5E6385167080EDA0"
-					item: {
-						count: 1
-						id: "waystones:waystone"
-					}
-					team_reward: true
-					type: "item"
+					id: "2BEA03C37777F13B"
+					type: "xp"
+					xp: 500
 				}
 				{
-					auto: "enabled"
-					id: "65037BF71BA0AA58"
+					count: 3
+					id: "0FFF4867358CFDDA"
 					item: {
 						count: 1
-						id: "minecraft:ender_pearl"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
-					team_reward: true
 					type: "item"
 				}
 			]
@@ -855,11 +873,11 @@
 					xp_levels: 5
 				}
 				{
-					count: 3
-					id: "06BC584B8E0FC57C"
+					count: 5
+					id: "5D332E61700EE797"
 					item: {
 						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -915,14 +933,6 @@
 					xp_levels: 10
 				}
 				{
-					id: "6851C1824870F43B"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-				{
 					count: 8
 					id: "7E7CEB881A57E92C"
 					item: {
@@ -937,6 +947,15 @@
 					item: {
 						count: 1
 						id: "minecraft:dragon_breath"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "34AB4F870764D13F"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -965,19 +984,19 @@
 					xp_levels: 10
 				}
 				{
-					count: 5
-					id: "34CAD4DA202BE6E1"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-				{
 					id: "3E95CB4DCF944D27"
 					item: {
 						count: 1
 						id: "artifacts:charm_of_shrinking"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "56C7B55434CB6EA5"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
