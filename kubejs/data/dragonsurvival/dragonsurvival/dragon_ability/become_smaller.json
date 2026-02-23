@@ -26,8 +26,8 @@
                     {
                       "amount": {
                         "type": "minecraft:linear",
-                        "base": -0.0625,
-                        "per_level_above_first": -0.0625
+                        "base": -0.03,
+                        "per_level_above_first": -0.03
                       },
                       "attribute": "minecraft:player.block_interaction_range",
                       "operation": "add_multiplied_total"
@@ -35,8 +35,8 @@
                     {
                       "amount": {
                         "type": "minecraft:linear",
-                        "base": -0.0625,
-                        "per_level_above_first": -0.0625
+                        "base": -0.03,
+                        "per_level_above_first": -0.03
                       },
                       "attribute": "minecraft:player.entity_interaction_range",
                       "operation": "add_multiplied_total"
