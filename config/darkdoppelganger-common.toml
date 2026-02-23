@@ -15,7 +15,7 @@
 	#Movement Speed of the Dark Doppelganger
 	# Default: 0.2
 	# Range: 0.01 ~ 2.0
-	movement_speed = 0.3
+	movement_speed = 0.25
 	#Knockback Resistance of the Dark Doppelganger
 	# Default: 0.6
 	# Range: 0.0 ~ 1.0
@@ -23,7 +23,7 @@
 	#Attack Damage of the Dark Doppelganger
 	# Default: 10.0
 	# Range: 0.1 ~ 1000.0
-	attack_damage = 200.0
+	attack_damage = 150.0
 	#Hard mode of the Dark Doppelganger
 	hard_mode = true
 	#Armor item IDs the boss is NOT allowed to copy from the player. Supports wildcard with * suffix.
@@ -34,7 +34,7 @@
 	#Scales all Iron's Spellbooks spell power attributes copied from the summoner. 1.0 = no change.
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
-	doppelgangerSpellPowerMultiplier = 3.0
+	doppelgangerSpellPowerMultiplier = 1.5
 
 	[dark_doppelganger.phase1]
 		spells_a = ["irons_spellbooks:guiding_bolt", "irons_spellbooks:blood_needles", "irons_spellbooks:blood_slash"]
@@ -55,10 +55,10 @@
 		spells_d = ["irons_spellbooks:evasion", "irons_spellbooks:echoing_strikes"]
 
 	[dark_doppelganger.final]
-		spells_a = ["irons_spellbooks:eldritch_blast", "irons_spellbooks:sonic_boom", "irons_spellbooks:abyssal_shroud", "irons_spellbooks:ray_of_frost", "irons_spellbooks:sculk_tentacles"]
-		spells_b = ["irons_spellbooks:ascension", "irons_spellbooks:abyssal_shroud"]
-		spells_c = ["irons_spellbooks:blood_step"]
-		spells_d = ["irons_spellbooks:abyssal_shroud", "irons_spellbooks:echoing_strikes", "irons_spellbooks:root", "irons_spellbooks:blight"]
+		spells_a = ["irons_spellbooks:eldritch_blast", "irons_spellbooks:sonic_boom", "irons_spellbooks:ray_of_frost", "irons_spellbooks:sculk_tentacles"]
+		spells_b = ["irons_spellbooks:ascension", "irons_spellbooks:ray_of_siphoning"]
+		spells_c = ["irons_spellbooks:blood_step", "irons_spellbooks:heartstop"]
+		spells_d = ["irons_spellbooks:echoing_strikes", "irons_spellbooks:root", "irons_spellbooks:blight", "irons_spellbooks:counterspell"]
 
 #Minion Configuration
 [minion]
