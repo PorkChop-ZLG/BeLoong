@@ -1093,11 +1093,12 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 2L
 				id: "5DAECFA9FD7125B5"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -1121,7 +1122,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 4L
 				id: "5A1C21F980D00B8E"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
@@ -1150,7 +1151,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 3L
+				count: 6L
 				id: "338A391F75DADA17"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
@@ -1208,12 +1209,12 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 3L
 				id: "1AAD299AF57958D9"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{

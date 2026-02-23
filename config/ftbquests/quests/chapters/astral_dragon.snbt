@@ -72,7 +72,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "4917A8B2F6530F7F"
 					item: {
 						count: 1
@@ -115,6 +115,15 @@
 					type: "xp_levels"
 					xp_levels: 4
 				}
+				{
+					count: 48
+					id: "5461D23B287094AD"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -149,7 +158,7 @@
 			id: "766B3F52833465AC"
 			rewards: [
 				{
-					count: 5
+					count: 12
 					id: "0AF8A6F76A6DF372"
 					item: {
 						count: 1
@@ -197,7 +206,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "20CA22ACE3CEF9A6"
 					item: {
 						count: 1
@@ -226,7 +235,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "5B7D0180565C6B7A"
 					item: {
 						count: 1
@@ -260,7 +269,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "6433338670F59576"
 					item: {
 						count: 1
@@ -560,7 +569,7 @@
 			id: "4535A656F620B8B9"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "4465AACE9F11AAE6"
 					item: {
 						count: 1
@@ -589,7 +598,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 7
 					id: "6C69D8D661375E4B"
 					item: {
 						count: 1
@@ -620,7 +629,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 7
 					id: "7932A9D847A8DAB2"
 					item: {
 						count: 1
@@ -656,7 +665,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 7
 					id: "37CD1A7ACE647195"
 					item: {
 						count: 1
@@ -687,7 +696,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 7
 					id: "7495848276CC4C17"
 					item: {
 						count: 1
@@ -715,7 +724,7 @@
 			id: "17ECFF157B63592F"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "6359A1D1296322BD"
 					item: {
 						count: 1
@@ -794,7 +803,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "7F8FE9A2B7C725AC"
 					item: {
 						count: 1
@@ -830,7 +839,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "6F4DEE0C7F66C661"
 					item: {
 						count: 1
@@ -858,7 +867,7 @@
 			id: "258CFD18EE567A75"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "4F1A0472431A1C87"
 					item: {
 						count: 1
@@ -898,6 +907,15 @@
 					id: "1341A1D854B90843"
 					type: "xp_levels"
 					xp_levels: 4
+				}
+				{
+					count: 24
+					id: "24126374B9C78FDF"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -943,7 +961,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "53A36ED7ED3651CF"
 					item: {
 						count: 1
@@ -972,7 +990,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "3E2BC450D0323DAF"
 					item: {
 						count: 1
@@ -1013,6 +1031,15 @@
 					type: "xp_levels"
 					xp_levels: 4
 				}
+				{
+					count: 24
+					id: "69A6E4BEF678BE1E"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1043,7 +1070,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 9
 					id: "6DD3CD6772C2A08D"
 					item: {
 						count: 1
@@ -1072,7 +1099,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 9
 					id: "5C318E62912292F6"
 					item: {
 						count: 1

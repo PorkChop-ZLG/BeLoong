@@ -63,8 +63,7 @@
 	chapter.4EDF13489B6BA152.title: "③ 永恒星光"
 	chapter.508CCA54F0BC90CA.chapter_subtitle: [
 		"完成所有龙的成长之路；"
-		"完成所有的主线任务；"
-		"视为正式通关『化龍』"
+		"视为通关『化龍』"
 	]
 	chapter.508CCA54F0BC90CA.title: "龙族图鉴"
 	chapter.55C8A3D60EBA8E20.chapter_subtitle: ["须弥藏芥子，芥子纳须弥"]
@@ -159,6 +158,7 @@
 		""
 		"&6压缩物质球以任何方式进入维度网络后就会自动解压为其记录的内容物。"
 	]
+	quest.01FF89454D454C6A.title: "Mowzie的BOSS毕业"
 	quest.0256EDAC77E359BD.title: "战斗法师装备"
 	quest.02660EF9A8CDA757.quest_desc: [
 		"&a目标：击败末影龙"
@@ -187,14 +187,6 @@
 	]
 	quest.02EE21851AD77A5F.quest_subtitle: "古文明的造物"
 	quest.02EE21851AD77A5F.title: "星光傀儡"
-	quest.02F618FC3A30AB1E.quest_desc: [
-		"&e血肉墙&6在召唤出来后不会自然消失，"
-		"&6如果你无法将其击败，又觉得碍事，或是造成卡顿，"
-		"&6可以使用该指令将其直接抹杀。"
-		"&c注意：清除血肉墙后，不算做击杀，也没有掉落物！"
-	]
-	quest.02F618FC3A30AB1E.quest_subtitle: "抹杀所有召唤出的血肉墙"
-	quest.02F618FC3A30AB1E.title: "清除血肉墙"
 	quest.03090E47EC9BB762.quest_desc: [
 		"&6炼金锅&r用于提升墨水的品质、炼制药剂等。"
 		""
@@ -381,6 +373,7 @@
 	quest.056D95FDEB92D03D.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17A9978D7AFEA210\" } }"]
 	quest.056D95FDEB92D03D.quest_subtitle: "击杀月藤巨物，提交其掉落物"
 	quest.056D95FDEB92D03D.title: "加冕木之王座"
+	quest.057B105B4C554670.title: "原版BOSS毕业"
 	quest.05B2708F599F0167.quest_desc: [
 		"&a目标：成长到始祖龙阶段，击败黑暗二重身"
 		""
@@ -604,46 +597,7 @@
 		"step5：点击制作唱片，刻录成功后放入&6唱片机&r播放"
 	]
 	quest.0BC716E3EFAB173E.quest_subtitle: "刻录网易云音乐"
-	quest.0BCEE748756B8A82.quest_desc: [
-		"《黑暗森林》 - 歌手：雲翼星辰"
-		"不留游走痕迹"
-		"如同一簇幽灵 呼吸 躲避 却观察着"
-		"猎人 猎物 同体"
-		"异类即是仇敌"
-		"毁灭作为赞礼 无上肯定"
-		"啊，看那"
-		"傻孩子燃起了火堆"
-		"啊，看那"
-		"傻孩子笑着挥手说"
-		"我在这里"
-		"我真诚地呼喊"
-		"我在这里"
-		"这空荡的宇宙"
-		"谁睁开眼看见我"
-		"我在这里"
-		"我在这里"
-		"所谓 道德加上伦理"
-		"抱歉只能律己"
-		"究竟何为文明 举枪 攻击 替代爱意"
-		"倒地 是我 是你"
-		"无人能够看清"
-		"时光安静相陪 冷酷无情"
-		"啊 看那"
-		"无尽循环的猜疑链"
-		"啊 看那"
-		"毫不犹豫开启杀戮"
-		"黑暗森林"
-		"这永恒的真理"
-		"黑暗森林"
-		"没有光能降临"
-		"拥抱所有的生命"
-		"黑暗森林"
-		"黑暗森林"
-		"这永恒的真理"
-		"黑暗森林"
-		"没有光能降临"
-		"拥抱所有的生命"
-	]
+	quest.0BCEE748756B8A82.quest_desc: [""]
 	quest.0BCEE748756B8A82.quest_subtitle: "黑暗森林~呜~呼~这永恒的真理~"
 	quest.0BCEE748756B8A82.title: "打卡：黑暗森林"
 	quest.0BEABCA7656A4180.quest_desc: [
@@ -1012,8 +966,6 @@
 	quest.1744C1A7A7BFF4D7.title: "钱币兑换"
 	quest.17451AAB675DC141.title: "挑战：试炼密室"
 	quest.17515F5286481727.quest_subtitle: "果汁味酒？"
-	quest.17657D2F96109698.quest_desc: ["&7&o暂未完成，仅能创造模式召唤，等待后续版本"]
-	quest.17657D2F96109698.title: "泰拉生物：血肉墙"
 	quest.179D57F81FF5C594.quest_subtitle: "苦味橙汁饮"
 	quest.17A9978D7AFEA210.quest_desc: [
 		"&l&d「月藤巨物」"
@@ -1384,15 +1336,6 @@
 		"&6运气好的时候，可以直接&c秒杀&6生物。"
 		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6344D6B5AEC69478\" } }"
 	]
-	quest.225FF303E21AE00E.quest_desc: [
-		"&e骷髅王&6可以穿墙，很容易脱战。"
-		"&6如果你找不到召唤出的&e骷髅王&6，"
-		"&6但是BOSS血条依然存在，"
-		"&6可以使用该指令将其传送回你身边。"
-		"&c注意：拉回骷髅王后，它会立即攻击你！"
-	]
-	quest.225FF303E21AE00E.quest_subtitle: "将骷髅王传送回你身边"
-	quest.225FF303E21AE00E.title: "拉回骷髅王"
 	quest.22616810BC8A22CA.quest_subtitle: "&5&l「末」&r&d一枚神奇的空间戒指"
 	quest.22616810BC8A22CA.title: "第三幕：赠礼"
 	quest.226EC0050127B453.quest_desc: [
@@ -1559,6 +1502,20 @@
 		"&9结构罗盘：&b【魔宠】下界墓园"
 	]
 	quest.26D99EE35B3F2868.title: "死灵法师魔宠"
+	quest.26F59CBF01B32CE6.quest_desc: [
+		"&a目标：集齐怪物图鉴中的所有BOSS"
+		""
+		"&6幼龙之时，惨遭人族追杀中；"
+		"&6青春之时，踏上征途觅敌踪；"
+		"&6成年以后，不惧强敌展雄风；"
+		"&6既成远古，又遇新敌来势重；"
+		"&6突破太古，掌握本源万法通；"
+		"&6终成始祖，无敌天下傲苍穹。"
+		""
+		"{ \"text\": \"点击查看鸣谢名单\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"359B897165997027\" } }"
+	]
+	quest.26F59CBF01B32CE6.quest_subtitle: "集齐怪物图鉴，即可通关"
+	quest.26F59CBF01B32CE6.title: "&e【BOSS全收集】"
 	quest.27C667BFA15E8E67.quest_desc: [
 		"战斗：专攻闪电魔法，施放同时击中多个目标的法术。"
 		"能力："
@@ -1848,6 +1805,7 @@
 	]
 	quest.2FFA72EF12E63FC6.quest_subtitle: "魂兮归来"
 	quest.2FFA72EF12E63FC6.title: "&b魂灵学派"
+	quest.30071E3FF4CC9D23.title: "永恒星光BOSS毕业"
 	quest.300B6A5EADD11286.quest_desc: [
 		"&l&d「远古遗魂」"
 		"&6生命：&a1800"
@@ -2079,6 +2037,7 @@
 		"&6击杀它们有极小概率掉落&e可疑眼球&6。"
 	]
 	quest.36DC294FB4535945.quest_subtitle: "召唤克苏鲁之眼"
+	quest.36F664568D6F7A92.title: "灾变BOSS毕业"
 	quest.3753EB478219DC26.quest_desc: ["&9结构罗盘：&b【铁魔法】远古战场&r"]
 	quest.3753EB478219DC26.title: "挑战：远古战场"
 	quest.377699546ACFFF81.title: "我看到了，他在动"
@@ -2430,8 +2389,19 @@
 	quest.422368D6F94C0ABD.quest_subtitle: "可炼制龙血"
 	quest.422368D6F94C0ABD.title: "冰龙龙鳞"
 	quest.4279F24877D6BBD8.quest_subtitle: "生鲜刺身~"
-	quest.42921D7314712236.quest_desc: ["&a目标：集齐饰品图鉴中的所有饰品"]
-	quest.42921D7314712236.quest_subtitle: "集齐饰品图鉴"
+	quest.42921D7314712236.quest_desc: [
+		"&a目标：集齐饰品图鉴中的所有饰品"
+		""
+		"&6琳琅满目的饰品，承载着你旅途中的记忆。"
+		"&6虽然收集的过程充满曲折，"
+		"&6但是为了那颗闪闪发光的龙珠——这一切都值得！"
+		"&e始祖龙珠&6是龙族的至宝，如今终于寻得。"
+		"&6将其含入口中，磅礴的力量冲刷着你的四肢百骸。"
+		"&6在这一刻，你已进化为完全之龙，不惧任何挑战！"
+		""
+		"{ \"text\": \"点击查看鸣谢名单\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"359B897165997027\" } }"
+	]
+	quest.42921D7314712236.quest_subtitle: "集齐饰品图鉴，即可通关"
 	quest.42921D7314712236.title: "&e&l【饰品全收集】"
 	quest.431A9BCA53DB263B.quest_desc: ["&9恭喜你完成了海洋龙的成长之路！"]
 	quest.434D3A47067493D8.quest_desc: [
@@ -2974,6 +2944,7 @@
 	]
 	quest.513C98D0E44293EA.quest_subtitle: "【苔原龙成长之路    完结】"
 	quest.513C98D0E44293EA.title: "&f苔原龙毕业"
+	quest.514EEE78CDEF8BC2.title: "泰拉BOSS毕业"
 	quest.51683C60A0CE8843.title: "茅山道士装备"
 	quest.517B7C0FB7C6E380.quest_subtitle: "集齐所有首饰"
 	quest.517B7C0FB7C6E380.title: "&a首饰毕业"
@@ -3264,7 +3235,6 @@
 	quest.5BAF5C77F3373696.title: "观察：海泡菜"
 	quest.5BB4A81605A76537.quest_desc: [
 		"&a目标：集齐所有龙的毕业证"
-		"&a目标：通关所有主线任务（番外不算）"
 		""
 		"&6再长的路，也有终点；化龍之旅，到此完结。"
 		"&6这一路上，经历的风风雨雨，凝结成珍贵的回忆。"
@@ -3503,6 +3473,7 @@
 	quest.62129DE5962CF7BE.quest_desc: ["&e黑冰&6位于&b破碎的冰川&6。"]
 	quest.62129DE5962CF7BE.quest_subtitle: "提交5种冰"
 	quest.62129DE5962CF7BE.title: "我吃，冰！"
+	quest.626520C2BF68EC5F.title: "祸乱鬼魅BOSS毕业"
 	quest.631EAD310B77371D.quest_desc: ["&9结构罗盘：&b【地牢浮现之时】荆棘城堡&r"]
 	quest.631EAD310B77371D.title: "挑战：荆棘城堡"
 	quest.63279D96E6BC9CC7.quest_desc: ["&6附魔法术书&r是选择流派前的毕业魔法书。"]
@@ -3538,6 +3509,7 @@
 	quest.63DB1E9C5C2FDC80.quest_subtitle: "移山填海，一念之间"
 	quest.63DB1E9C5C2FDC80.title: "&d创造模式建筑之杖"
 	quest.641714B711DFD326.quest_subtitle: "千金换美酒"
+	quest.643A2342CCAA0252.title: "暮色森林BOSS毕业"
 	quest.6501A79D7C2DC803.quest_desc: [
 		"&6维度网络所有者潜行右键后可以将其绑定到当前网络。"
 		""
@@ -3955,11 +3927,16 @@
 	quest.71356A8881052F9A.quest_subtitle: "物品易容"
 	quest.71356A8881052F9A.title: "幻化台"
 	quest.7140F79C02D9A138.quest_desc: [
+		"&a目标：合成天顶剑"
+		""
 		"&6当前版本 &e&l最强武器"
 		"&6由&29把&6来自不同模组的终极武器合成，"
 		"&6拥有着足以&c抹杀一切&6的力量！&7&o（部分机制怪除外）"
 		"&6神兵在手，象征着&d你已通关&6本整合包。"
+		""
+		"{ \"text\": \"点击查看鸣谢名单\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"359B897165997027\" } }"
 	]
+	quest.7140F79C02D9A138.quest_subtitle: "合成天顶剑，即可通关"
 	quest.717F72FCA6275810.quest_subtitle: "经济实惠~"
 	quest.71BFA3CE3156E064.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"]
 	quest.71BFA3CE3156E064.quest_subtitle: "击杀利维坦，提交其掉落物"

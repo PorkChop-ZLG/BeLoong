@@ -67,7 +67,7 @@
 			id: "634C5657E921C26C"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "28B50080EF1E9264"
 					item: {
 						count: 1
@@ -183,7 +183,7 @@
 			id: "71BFA3CE3156E064"
 			rewards: [
 				{
-					count: 5
+					count: 12
 					id: "7B434B0E11E9A4FB"
 					item: {
 						count: 1
@@ -501,7 +501,7 @@
 			id: "7E7C768023F22D2E"
 			rewards: [
 				{
-					count: 4
+					count: 8
 					id: "514EC407A090D589"
 					item: {
 						count: 1
@@ -562,7 +562,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 7
 					id: "26F76B3F6804D31D"
 					item: {
 						count: 1
@@ -593,7 +593,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
+					count: 7
 					id: "2E10410805411AA8"
 					item: {
 						count: 1
@@ -622,7 +622,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 7
 					id: "53BE1522F2CBD246"
 					item: {
 						count: 1
@@ -653,7 +653,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 7
 					id: "524E443D951D0D73"
 					item: {
 						count: 1
@@ -686,7 +686,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "4A1127E2EC5DEAA9"
 					item: {
 						count: 1
@@ -717,7 +717,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "3A1969139F6B9EC2"
 					item: {
 						count: 1
@@ -750,7 +750,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "4F564885DC64D075"
 					item: {
 						count: 1
@@ -781,7 +781,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "0953DBB07A351031"
 					item: {
 						count: 1
@@ -809,7 +809,7 @@
 			id: "31A9F50E9E58685D"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "20D3605A5459C2AC"
 					item: {
 						count: 1
@@ -838,7 +838,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "2A107EF5F4B8D755"
 					item: {
 						count: 1
@@ -869,7 +869,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "492791FADCB69472"
 					item: {
 						count: 1
@@ -902,7 +902,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "3E2F4CE616870624"
 					item: {
 						count: 1
@@ -933,7 +933,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "3CF8619B58A0FF03"
 					item: {
 						count: 1
@@ -975,6 +975,15 @@
 					id: "36FABBC212114815"
 					type: "xp_levels"
 					xp_levels: 4
+				}
+				{
+					count: 48
+					id: "7BC533B7A4494913"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -1019,6 +1028,15 @@
 					id: "7304705CF3BB031F"
 					type: "xp_levels"
 					xp_levels: 4
+				}
+				{
+					count: 24
+					id: "1BDDD329B03B00CB"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -1073,6 +1091,15 @@
 					id: "2E81522E849CC840"
 					type: "xp_levels"
 					xp_levels: 4
+				}
+				{
+					count: 24
+					id: "46FE558C869E46BF"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -1140,7 +1167,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 9
 					id: "7D2FB3B1F417E607"
 					item: {
 						count: 1
@@ -1192,7 +1219,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 9
 					id: "120AD738C39E4BE1"
 					item: {
 						count: 1

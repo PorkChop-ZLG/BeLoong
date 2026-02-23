@@ -187,14 +187,6 @@
 	]
 	quest.02EE21851AD77A5F.quest_subtitle: "Creation of an Ancient Civilization"
 	quest.02EE21851AD77A5F.title: "Starlight Golem"
-	quest.02F618FC3A30AB1E.quest_desc: [
-		"&eWall of Flesh&6 will not despawn naturally after being summoned,"
-		"&6If you cannot defeat it and it causes trouble or lag,"
-		"&6you can use this command to remove it directly."
-		"&cNote: Removing it does not count as a kill and drops no loot!"
-	]
-	quest.02F618FC3A30AB1E.quest_subtitle: "Eliminate All Summoned Walls of Flesh"
-	quest.02F618FC3A30AB1E.title: "Clear the Wall of Flesh"
 	quest.03090E47EC9BB762.quest_desc: [
 		"&6Alchemy Cauldron&r is used to improve ink quality and brew potions."
 		""
@@ -1028,8 +1020,6 @@
 	quest.1744C1A7A7BFF4D7.title: "Coin Exchange"
 	quest.17451AAB675DC141.title: "Challenge: Trial Chambers"
 	quest.17515F5286481727.quest_subtitle: "Juice-Flavored Liquor?"
-	quest.17657D2F96109698.quest_desc: ["&7&oNot finished yet. Can only be summoned in Creative Mode. Await future updates."]
-	quest.17657D2F96109698.title: "Terraria Creature: Wall of Flesh"
 	quest.179D57F81FF5C594.quest_subtitle: "Bitter Orange Juice Drink"
 	quest.17A9978D7AFEA210.quest_desc: [
 		"&l&d\"Moonvine Colossus\""
@@ -1409,15 +1399,6 @@
 		"&6If luck favors, it can &cone-shot&6 mobs."
 		"{ \"text\": \"Click to view acquisition methods\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6344D6B5AEC69478\" } }"
 	]
-	quest.225FF303E21AE00E.quest_desc: [
-		"&eSkeleton King&6 can phase through walls and easily leave combat."
-		"&6If you cannot find the summoned &eSkeleton King&6,"
-		"&6but the boss health bar persists,"
-		"&6you can use this command to teleport it back to you."
-		"&cWarning: The Skeleton King will attack immediately when pulled back!"
-	]
-	quest.225FF303E21AE00E.quest_subtitle: "Teleport the Skeleton King Back"
-	quest.225FF303E21AE00E.title: "Pull Back Skeleton King"
 	quest.22616810BC8A22CA.quest_subtitle: "&5&l『End』&r&dA Magical Space Ring"
 	quest.22616810BC8A22CA.title: "Act III: Gift"
 	quest.226EC0050127B453.quest_desc: [

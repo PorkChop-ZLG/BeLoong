@@ -179,10 +179,6 @@
 				"431A9BCA53DB263B"
 				"7D81132CD0C6EF1C"
 				"3BF1FD634ECFCB4E"
-				"1E4C1C94528F4F43"
-				"2FCFFB6D530A343F"
-				"4EDF13489B6BA152"
-				"025C2A1E99ADD3C3"
 				"1588CA412F4FAA24"
 			]
 			hide_dependency_lines: true
@@ -191,32 +187,14 @@
 			}
 			icon_scale: 2.0d
 			id: "5BB4A81605A76537"
-			rewards: [
-				{
-					id: "371E2324E22E127F"
-					item: {
-						count: 1
-						id: "xfws_someitems:star_wrath"
-					}
-					type: "item"
+			rewards: [{
+				id: "371E2324E22E127F"
+				item: {
+					count: 1
+					id: "xfws_someitems:star_wrath"
 				}
-				{
-					id: "72EBF29C748A25E5"
-					item: {
-						count: 1
-						id: "irons_spellbooks:staff_of_the_nines"
-					}
-					type: "item"
-				}
-				{
-					id: "3460DDB7B0C32B3E"
-					item: {
-						count: 1
-						id: "irons_spellbooks:gold_crown"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "none"
 			size: 2.0d
 			tasks: [{

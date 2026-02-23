@@ -140,7 +140,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "14ED830A8AC56A7A"
@@ -168,7 +168,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "73777155E02C7B4C"
@@ -196,7 +196,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "48E18718D8715F1A"
@@ -224,7 +224,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "4093B7F10DE1AE47"
@@ -252,7 +252,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "68A904F25FFE8956"
@@ -280,7 +280,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "7E8A3F928299D963"
@@ -308,7 +308,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "10F9BE8C1E4AE1FA"
@@ -336,7 +336,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -389,7 +389,7 @@
 				}
 			]
 			x: 0.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -428,7 +428,7 @@
 				value: 3L
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -467,7 +467,7 @@
 				value: 3L
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			id: "5997BC4982540330"
@@ -494,7 +494,7 @@
 				value: 3L
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "0088F3221CD99A3D"
@@ -521,7 +521,7 @@
 				value: 3L
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "6583633BEC31ECDF"
@@ -548,7 +548,7 @@
 				value: 3L
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "5C0284F1758BA896"
@@ -575,7 +575,7 @@
 				value: 3L
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "073A531B004C31E3"
@@ -602,7 +602,7 @@
 				value: 3L
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "300B6A5EADD11286"
@@ -629,7 +629,7 @@
 				value: 3L
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "055D72E0BC34E041"
@@ -656,7 +656,7 @@
 				value: 3L
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -695,7 +695,7 @@
 				value: 3L
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -734,7 +734,7 @@
 				value: 3L
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -773,7 +773,7 @@
 				value: 3L
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -812,7 +812,7 @@
 				value: 3L
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -1043,7 +1043,7 @@
 				value: 3L
 			}]
 			x: 7.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -1093,7 +1093,7 @@
 				}
 			]
 			x: 0.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1143,7 +1143,7 @@
 				}
 			]
 			x: 1.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1193,7 +1193,7 @@
 				}
 			]
 			x: 2.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1243,7 +1243,7 @@
 				}
 			]
 			x: 3.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1293,7 +1293,7 @@
 				}
 			]
 			x: 4.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1400,8 +1400,8 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -1439,8 +1439,8 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -1478,8 +1478,8 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -1517,8 +1517,8 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -1568,68 +1568,7 @@
 				}
 			]
 			x: 5.0d
-			y: 7.0d
-		}
-		{
-			icon: {
-				id: "terra_entity:wall_of_flesh_spawn_egg"
-			}
-			id: "17657D2F96109698"
-			optional: true
-			tasks: [{
-				consume_items: true
-				id: "0111072217054A1C"
-				item: { count: 1, id: "terra_curio:demon_heart" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				id: "terra_curio:flesh_knuckles"
-			}
-			id: "02F618FC3A30AB1E"
-			optional: true
-			rewards: [{
-				command: "/kill @e[type=terra_entity:wall_of_flesh]"
-				id: "3C20D737B9822EC1"
-				permission_level: 2
-				silent: true
-				team_reward: true
-				type: "command"
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "7B7BCE6D611F72EB"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 8.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				id: "terra_entity:cursed_skull_spawn_egg"
-			}
-			id: "225FF303E21AE00E"
-			optional: true
-			rewards: [{
-				command: "/tp @e[type=terra_entity:skeletron] @s"
-				id: "02DFB2690756FC73"
-				permission_level: 2
-				silent: true
-				team_reward: true
-				type: "command"
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "78D0E5700397AEE8"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1659,7 +1598,7 @@
 				value: 3L
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -1689,7 +1628,7 @@
 				value: 3L
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -1719,7 +1658,7 @@
 				value: 3L
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -1749,7 +1688,7 @@
 				value: 3L
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -1796,6 +1735,311 @@
 			]
 			x: -3.5d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"643A2342CCAA0252"
+				"0FC068CD405DBBD4"
+				"03DA2F2992CDD7DA"
+				"057B105B4C554670"
+				"45865A0F5D63488F"
+				"21D5091A376C0F26"
+				"11FC2E4D6E6B0D93"
+				"6BA6E3779F1D4FC3"
+				"626520C2BF68EC5F"
+				"01FF89454D454C6A"
+				"30071E3FF4CC9D23"
+				"514EEE78CDEF8BC2"
+				"36F664568D6F7A92"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "irons_spellbooks:gold_crown"
+			}
+			icon_scale: 2.0d
+			id: "26F59CBF01B32CE6"
+			rewards: [
+				{
+					id: "60399479BA4C131A"
+					item: {
+						count: 1
+						id: "irons_spellbooks:gold_crown"
+					}
+					type: "item"
+				}
+				{
+					id: "44D4A8B5205F7F4C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:staff_of_the_nines"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "5EE5931BE18212DD"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37DD5B8A42ABC578"
+				"0B1F2B46DAF0D8AC"
+				"1E7A718688067EC6"
+			]
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "057B105B4C554670"
+			rewards: [
+				{
+					id: "4CD02117BF36E518"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "6D81665DC2D2EE85"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "50AA82BB31BA3A10"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"28625E49F473135B"
+				"5C54D192CA150300"
+				"0C4859FFFC25935A"
+				"03B1663E1AEFE3E8"
+				"6E02B2425A8EAB67"
+				"17A9978D7AFEA210"
+				"4DBAD417CE6615B0"
+			]
+			icon: {
+				id: "eternal_starlight:starlight_flower"
+			}
+			id: "30071E3FF4CC9D23"
+			rewards: [
+				{
+					count: 5
+					id: "65524916FF563C19"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "1A1052C7F7A71D18"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "02BF7413A3124BC8"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"228A2960FA4D62F7"
+				"6D88CFA0D4618ECB"
+				"7552748C8250227C"
+				"6A1268143ED70C45"
+			]
+			icon: {
+				id: "mowziesmobs:logo"
+			}
+			id: "01FF89454D454C6A"
+			rewards: [
+				{
+					count: 2
+					id: "387C64F8DE09052E"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "49C3B5292D2F2BC2"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FE548D97024B486"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"196959C6E061913D"
+				"48BAABC889E9DC5F"
+				"37E22E2A0F31B536"
+				"3B02DF458924B95C"
+			]
+			icon: {
+				id: "bosses_of_mass_destruction:levitation_block"
+			}
+			id: "626520C2BF68EC5F"
+			rewards: [
+				{
+					count: 3
+					id: "091CD12D390E09E6"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "5200E63DE6BD2DBE"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "65844FC06E049EEC"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"73777155E02C7B4C"
+				"48E18718D8715F1A"
+				"7E8A3F928299D963"
+				"25871E50A41EC3EA"
+				"68A904F25FFE8956"
+				"4093B7F10DE1AE47"
+				"10F9BE8C1E4AE1FA"
+				"14ED830A8AC56A7A"
+			]
+			icon: {
+				id: "twilightforest:hollow_oak_sapling"
+			}
+			id: "643A2342CCAA0252"
+			rewards: [
+				{
+					count: 5
+					id: "5273DCBDF5A2A179"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "3504B4FE05B03548"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "414E763EFF54E229"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"300B6A5EADD11286"
+				"6583633BEC31ECDF"
+				"055D72E0BC34E041"
+				"5997BC4982540330"
+				"0088F3221CD99A3D"
+				"5C0284F1758BA896"
+				"073A531B004C31E3"
+				"15CE2F1DA319C4B4"
+			]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "36F664568D6F7A92"
+			rewards: [
+				{
+					count: 6
+					id: "444CF387E7D8A88E"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "0BC0982C24ED326E"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E10925FA46AC5C2"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"24F3DC3742819BE4"
+				"053172C0F13D3578"
+				"6F7A124D6DAE13F1"
+				"6E27A53C36C34AB1"
+				"0AC7BA9585F4271A"
+				"409DBA9330BA0269"
+			]
+			icon: {
+				id: "terra_entity:terraprisma"
+			}
+			id: "514EEE78CDEF8BC2"
+			rewards: [
+				{
+					count: 8
+					id: "67B9707FA7C06EBC"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "39E12BEA32705AE6"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B275009DA1CA8AB"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
 		}
 	]
 }
