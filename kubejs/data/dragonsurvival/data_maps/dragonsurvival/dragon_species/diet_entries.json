@@ -5738,6 +5738,24 @@
         }
       },
       {
+        "items": "eternal_starlight:red_starlight_crystal_shard",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 8,
+          "saturation": 6.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "eternal_starlight:blue_starlight_crystal_shard",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 8,
+          "saturation": 6.0,
+          "can_always_eat": true
+        }
+      },
+      {
         "items": "eternal_starlight:mana_crystal",
         "properties": {
           "eat_seconds": 1.5,

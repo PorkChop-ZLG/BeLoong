@@ -1,0 +1,69 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:amethyst_block",
+        "dragonsurvival:amethyst_dragon_altar",
+        "minecraft:budding_amethyst",
+        "minecraft:lapis_block",
+        "minecraft:small_amethyst_bud",
+        "minecraft:medium_amethyst_bud",
+        "minecraft:large_amethyst_bud",
+        "minecraft:amethyst_cluster",
+        {
+            "id": "eternal_starlight:red_starlight_crystal_block",
+            "required": false   
+        },
+        {
+            "id": "eternal_starlight:blue_starlight_crystal_block",
+            "required": false   
+        },
+        {
+            "id": "eternal_starlight:red_starlight_crystal_cluster",
+            "required": false   
+        },
+        {
+            "id": "eternal_starlight:blue_starlight_crystal_cluster",
+            "required": false   
+        },
+        {
+            "id": "eternal_starlight:red_starlight_crystal_lantern",
+            "required": false   
+        },
+        {
+            "id": "eternal_starlight:blue_starlight_crystal_lantern",
+            "required": false   
+        },
+        {
+            "id": "eternal_starlight:blooming_red_starlight_crystal_cluster",
+            "required": false   
+        },
+        {
+            "id": "eternal_starlight:blooming_blue_starlight_crystal_cluster",
+            "required": false   
+        },
+        {
+            "id": "regions_unexplored:prismarite_cluster",
+            "required": false   
+        },
+        {
+            "id": "regions_unexplored:large_prismarite_cluster",
+            "required": false   
+        },
+        {
+            "id": "regions_unexplored:hanging_prismarite",
+            "required": false   
+        },
+        {
+            "id": "regions_unexplored:redstone_bud",
+            "required": false   
+        },
+        {
+            "id": "regions_unexplored:redstone_bulb",
+            "required": false   
+        },
+        {
+            "id": "regions_unexplored:pointed_redstone",
+            "required": false   
+        }
+    ]
+}

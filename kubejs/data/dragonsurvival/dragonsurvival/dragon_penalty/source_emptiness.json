@@ -1,0 +1,143 @@
+{
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "#crystcursed_dragon:magic_blocks"
+              }
+            }
+          }
+        },
+        {
+          "condition": "location_check",
+          "offsetY": -1,
+          "predicate": {
+            "block": {
+              "blocks": "#crystcursed_dragon:magic_blocks"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "dragonsurvival:source_of_magic": {}
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "crystcursed_dragon:replenish_the_source": {}
+            }
+          }
+        }
+      ]
+    }
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:mob_effect",
+    "potion": {
+      "amplifier": 0,
+      "duration": 300,
+      "effect_particles": true,
+      "effects": [
+        "crystcursed_dragon:source_emptiness"
+      ],
+      "probability": 1,
+      "show_icon": true
+    }
+  },
+  "icon": "dragonsurvival:penalties/crystcursed/source_emptiness",
+  "trigger": {
+    "display_like_hunger_bar": true,
+    "penalty_trigger": "dragonsurvival:supply",
+    "recovery_items": [
+      {
+        "item_predicates": [
+          {
+            "items": "crystcursed_dragon:crystcursed_dragon_treat"
+          },
+          {
+            "items": "eternal_starlight:mana_crystal"
+          }
+        ],
+        "percent_restored": 1
+      },
+      {
+        "item_predicates": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          },
+          {
+            "items": "minecraft:quartz"
+          },
+          {
+            "items": "minecraft:emerald"
+          },
+          {
+            "items": "minecraft:end_crystal"
+          }
+        ],
+        "percent_restored": 0.3
+      },
+      {
+        "item_predicates": [
+          {
+            "items": "minecraft:amethyst_shard"
+          },
+          {
+            "items": "eternal_starlight:red_starlight_crystal_shard"
+          },
+          {
+            "items": "eternal_starlight:blue_starlight_crystal_shard"
+          },
+          {
+            "items": "crystcursed_dragon:golden_amethyst_shard"
+          }
+        ],
+        "percent_restored": 0.5
+      },
+      {
+        "item_predicates": [
+          {
+            "items": "dragonsurvival:double_quartz"
+          },
+          {
+            "items": "eternal_starlight:terra_crystal"
+          },
+          {
+            "items": "eternal_starlight:wind_crystal"
+          },
+          {
+            "items": "eternal_starlight:water_crystal"
+          },
+          {
+            "items": "eternal_starlight:lunar_crystal"
+          },
+          {
+            "items": "eternal_starlight:blaze_crystal"
+          },
+          {
+            "items": "eternal_starlight:light_crystal"
+          }
+        ],
+        "percent_restored": 0.8
+      }
+    ],
+    "reduction_rate": 1,
+    "regeneration_rate": 0.013,
+    "supply_type": "dragonsurvival:mana_supply",
+    "trigger_rate": 40
+  }
+}
