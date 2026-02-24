@@ -65,6 +65,8 @@ config/**
 !config/iceandfire/**
 !config/incontrol/
 !config/incontrol/**
+!config/irons_spellbooks_spell_config/
+!config/irons_spellbooks_spell_config/**
 !config/jade
 !config/jade/**
 !config/l2_configs/
@@ -83,6 +85,8 @@ config/**
 !config/regions_unexplored/**
 !config/tab/
 !config/tab/**
+!config/terra_entity/
+!config/terra_entity/**
 !config/tooltipoverhaul/
 !config/tooltipoverhaul/**
 !config/touhou_little_maid/
@@ -90,6 +94,7 @@ config/**
 !config/voicechat/
 !config/voicechat/**
 
+!config/akashictome-common.toml
 !config/alshanex_familiars-common.toml
 !config/appleskin-client.toml
 !config/asteorbar-client.toml

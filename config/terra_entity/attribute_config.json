@@ -1,0 +1,19 @@
+{
+  "comment": "This is extension attribute modifier config file to modify monsters\u0027 attribute easily due to kjs may not work on some monsters. This file only works on Server side when server starts and this has maximum priority over kjs and builtin attribute. Default file will be created if this file is not exist. To disable, just delete all content in \u0027settings\u0027",
+  "settings": {
+    "terra_entity:base_bones": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 1.0
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 1.0
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "amount": 1.0
+      }
+    ]
+  }
+}
