@@ -1,0 +1,211 @@
+#战斗系统相关配置
+#Combat system configurations
+[combat]
+	#最大法术攻击范围 (默认: 24.0)
+	#Maximum spell attack range
+	# Default: 24.0
+	# Range: 8.0 ~ 64.0
+	maxSpellRange = 24.0
+	#
+	#近战攻击范围 (默认: 2.5)
+	#Melee attack range
+	# Default: 2.5
+	# Range: 1.0 ~ 5.0
+	meleeRange = 2.5
+	#
+	#远程攻击范围 (默认: 8.5)
+	#Far attack range
+	# Default: 8.5
+	# Range: 1.0 ~ 20.0
+	farRange = 8.5
+	#
+	#女仆伤害倍率 (默认: 1.0，仅在法术战斗任务下生效)
+	#Maid damage multiplier(default:1.0,only effective on spellCombatTask)
+	# Default: 1.0
+	# Range: 0.0 ~ 50.0
+	maidDamageMultiplier = 1.0
+	#
+	#女仆法术冷却倍率 (默认: 1.0，仅在法术战斗任务下生效)
+	#Maid cooldown multiplier(default:1.0,only effective on spellCombatTask)
+	# Default: 1.0
+	# Range: 0.0 ~ 50.0
+	maidCooldownMultiplier = 1.0
+	#
+	#近战法术任务攻击间隔（单位：tick，默认: 8）
+	#Melee spell task attack interval (in ticks, default: 8)
+	# Default: 8
+	# Range: 1 ~ 100
+	meleeAttackInterval = 8
+	#
+	#远程法术任务攻击间隔（单位：tick，默认: 5）
+	#Far spell task attack interval (in ticks, default: 5)
+	# Default: 5
+	# Range: 1 ~ 100
+	farAttackInterval = 5
+	#
+	#法术黑名单，女仆不会施放这些法术
+	#Spell blacklist, maids will not cast these spells
+	#示例: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
+	#Example: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
+	spellBlacklist = ["irons_spellbooks:spectral_hammer"]
+	#
+	#是否自动设置女仆与玩家结盟 (默认: true)
+	#Whether to automatically set alliance between maids and players
+	#结盟后，女仆与玩家将被加入同一队伍，禁止友军伤害
+	#When allied, maids and players will be in the same team with friendly fire disabled
+	autoAllianceEnabled = true
+
+#饰品系统相关配置
+#Bauble system configurations
+[baubles]
+
+	#伤害相关饰品配置
+	#Damage-related bauble configurations
+	[baubles.damage]
+		#紫荆银冠反伤倍率 (默认: 0.8)
+		#Silver Cercis true damage multiplier
+		# Default: 0.8
+		# Range: 0.1 ~ 2.0
+		silverCercisTrueDamageMultiplier = 0.8
+		#
+		#烬血之戒最大伤害加成比例 (默认: 0.5)
+		#Spring Ring maximum damage bonus ratio
+		# Default: 0.5
+		# Range: 0.1 ~ 1.0
+		springRingMaxDamageBonus = 0.5
+
+	#治疗相关饰品配置
+	#Healing-related bauble configurations
+	[baubles.healing]
+		#流转核心每级好感生命恢复百分比 (默认: 0.025)
+		#Flow Core health regeneration rate
+		# Default: 0.025
+		# Range: 0.001 ~ 0.3
+		flowCoreHealthRegenRate = 0.025
+		#
+		#喋血之心治疗比例 (默认: 0.1)
+		#Bleeding Heart heal ratio
+		# Default: 0.1
+		# Range: 0.01 ~ 1.0
+		bleedingHeartHealRatio = 0.1
+
+	#防御相关饰品配置
+	#Defense-related bauble configurations
+	[baubles.defense]
+		#流转核心每级好感伤害减免比例 (默认: 0.15)
+		#Flow Core damage reduction ratio
+		# Default: 0.15
+		# Range: 0.05 ~ 0.5
+		flowCoreDamageReduction = 0.15
+		#
+		#双心链伤害分摊比例 (默认: 0.5)
+		#主人和女仆各受到原伤害*比例的伤害
+		#Double Heart Chain damage share ratio
+		# Default: 0.5
+		# Range: 0.1 ~ 0.9
+		doubleHeartChainShareRatio = 0.5
+
+	#功能相关饰品配置
+	#Utility-related bauble configurations
+	[baubles.utility]
+		#时痕之戒每级好感冷却减少比例 (默认: 0.25)
+		#Quick Chant Ring cooldown reduction ratio
+		# Default: 0.25
+		# Range: 0.1 ~ 0.8
+		quickChantRingCooldownReduction = 0.25
+		#
+		#磐石魔晶击退抗性加成 (默认: 8)
+		#Rock Crystal knockback resistance bonus
+		# Default: 8
+		# Range: 1 ~ 20
+		rockCrystalKnockbackResistance = 8
+		#
+		#流转核心效果触发间隔 (tick) (默认: 10)
+		#Flow Core effect trigger interval in ticks
+		# Default: 10
+		# Range: 1 ~ 100
+		flowCoreTickInterval = 10
+		#
+		#发簪有益效果延长倍率 (默认: 1.15)
+		#Hairpin beneficial effect extension multiplier
+		# Default: 1.15
+		# Range: 1.0 ~ 10.0
+		hairpinBeneficialEffectExtension = 1.15
+		#
+		#发簪有益效果最小延长时间 (tick) (默认: 300)
+		#Hairpin minimum extension ticks for beneficial effects
+		# Default: 300
+		# Range: 0 ~ 10000
+		hairpinMinExtensionTicks = 300
+		#
+		#馥郁巧思进食好感度增长 (默认: 2)
+		#Fragrant Ingenuity favorability gain when eating
+		# Default: 2
+		# Range: 1 ~ 10
+		fragrantIngenuityFavorabilityGain = 2
+		#
+		#馥郁巧思喂食buff持续时间 (tick)
+		#Fragrant Ingenuity buff duration when maid feeds owner
+		# Default: 2400
+		# Range: 200 ~ 120000
+		fragrantIngenuityBuffDuration = 2400
+
+	#触发机制相关饰品配置
+	#Trigger mechanism bauble configurations
+	[baubles.triggers]
+		#紫荆银冠触发所需攻击次数 (默认: 3)
+		#Silver Cercis required attack count to trigger
+		# Default: 3
+		# Range: 1 ~ 10
+		silverCercisTriggerCount = 3
+		#
+		#紫荆银冠触发后冷却时间 (tick) (默认: 5)
+		#Silver Cercis cooldown ticks after trigger
+		# Default: 5
+		# Range: 1 ~ 100
+		silverCercisCooldownTicks = 5
+		#
+		#破愈咒锋每次攻击增加禁疗次数 (默认: 15)
+		#Wound Rime Blade record duration
+		# Default: 15
+		# Range: 5 ~ 100
+		woundRimeBladeRecordDuration = 15
+
+	#特殊饰品配置
+	#Special bauble configurations
+	[baubles.special]
+		#混沌之书真实伤害最小值 (默认: 5.0)
+		#Chaos Book minimum true damage
+		# Default: 5.0
+		# Range: 1.0 ~ 50.0
+		chaosBookTrueDamageMin = 5.0
+		#
+		#混沌之书真实伤害百分比 (默认: 0.01)
+		#Chaos Book true damage percentage of max health
+		# Default: 0.01
+		# Range: 0.001 ~ 0.1
+		chaosBookTrueDamagePercent = 0.01
+		#
+		#混沌之书伤害分割次数 (默认: 5)
+		#Chaos Book damage split count
+		# Default: 5
+		# Range: 1 ~ 20
+		chaosBookDamageSplitCount = 5
+		#
+		#混沌之书每次分割伤害最小值 (默认: 3.0)
+		#Chaos Book minimum damage per split
+		# Default: 3.0
+		# Range: 0.1 ~ 100.0
+		chaosBookMinSplitDamage = 3.0
+		#
+		#魂之书伤害阈值百分比 (默认: 0.2)
+		#Soul Book damage threshold percentage of max health
+		# Default: 0.2
+		# Range: 0.05 ~ 1.0
+		soulBookDamageThresholdPercent = 0.2
+		#
+		#魂之书伤害间隔阈值 (tick) (默认: 10)
+		#Soul Book damage interval threshold in ticks
+		# Default: 10
+		# Range: 1 ~ 100
+		soulBookDamageIntervalThreshold = 10

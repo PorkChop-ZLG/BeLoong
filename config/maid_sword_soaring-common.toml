@@ -1,0 +1,6 @@
+#A list of items considered as sword.
+items_sword = ["minecraft:trident"]
+#A list of items NOT considered as sword.
+items_not_sword = ["minecraft:iron_ingot"]
+#Should sword glowing
+sword_glowing = true

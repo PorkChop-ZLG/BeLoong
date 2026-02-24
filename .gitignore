@@ -157,6 +157,7 @@ config/**
 !config/leawind_third_person.json
 !config/lootr-client.toml
 !config/lootr-common.toml
+!config/maid_sword_soaring-common.toml
 !config/melodymagic-common.toml
 !config/MobCatcher.toml
 !config/mowziesmobs-client.toml
@@ -185,6 +186,7 @@ config/**
 !config/terra_entity-server.toml
 !config/terrablender.toml
 !config/torchmaster.toml
+!config/touhou_little_maid_spell-common.toml
 !config/touhou_little_maid-common.toml
 !config/touhou_little_maid-server.toml
 !config/transmog.json
