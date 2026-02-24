@@ -950,14 +950,14 @@
 			}
 			id: "00628C62EEB79A37"
 			rewards: [{
-				id: "220B26F139037B7E"
+				id: "0D7BD4E486D9F78B"
 				item: {
 					components: {
 						"irons_spellbooks:spell_container": {
 							data: [{
-								id: "irons_spellbooks:pocket_dimension"
+								id: "irons_spellbooks:abyssal_shroud"
 								index: 0
-								level: 1
+								level: 3
 								locked: 1b
 							}]
 							maxSpells: 1
@@ -973,13 +973,6 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 32L
-					id: "14E56F3C9464FC11"
-					item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "3FAED3F2D26CDDC8"
 					item: { count: 1, id: "irons_spellbooks:ancient_knowledge_fragment" }
 					type: "item"
@@ -988,6 +981,11 @@
 					consume_items: true
 					id: "752AE8DB2381847C"
 					item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+					type: "item"
+				}
+				{
+					id: "5E1A3268576F34FC"
+					item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 					type: "item"
 				}
 			]

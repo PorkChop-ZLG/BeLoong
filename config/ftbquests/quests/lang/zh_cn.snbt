@@ -106,8 +106,8 @@
 	file.0000000000000001.title: "&e『&6化龍&e』"
 	quest.0014213DE61FC595.quest_subtitle: "集齐洞穴龙的家具"
 	quest.0014213DE61FC595.title: "洞穴龙之家"
-	quest.00628C62EEB79A37.quest_subtitle: "口袋维度"
-	quest.00628C62EEB79A37.title: "口袋维度 法术卷轴"
+	quest.00628C62EEB79A37.quest_subtitle: "过于强力，禁止合成"
+	quest.00628C62EEB79A37.title: "深渊庇护 法术卷轴"
 	quest.0068C01865EF22C7.quest_subtitle: "成长到成年龙阶段"
 	quest.0068C01865EF22C7.title: "成年森林龙"
 	quest.0088F3221CD99A3D.quest_desc: [
@@ -4043,6 +4043,15 @@
 	quest.74D333ABF9D19A48.title: "『化龍』苔原龙！"
 	quest.74D8E9EC39D5A9D2.quest_subtitle: "末地要塞经过重做，危机重重"
 	quest.74D8E9EC39D5A9D2.title: "挑战：要塞"
+	quest.752424B438B87389.quest_desc: [
+		"&6部分法术因为&c存在BUG&6或&e过于强力&6，已被禁用！"
+		"&6以下是禁术目录："
+		""
+		"&3逆转(reversal) : 存在BUG，禁止合成与使用！"
+		"&3深渊庇护(abyssal_shroud) : 过于强力，禁止合成！"
+	]
+	quest.752424B438B87389.quest_subtitle: "魔法禁书目录"
+	quest.752424B438B87389.title: "禁用的法术"
 	quest.75439ACB199C6BBA.title: "击杀：远古骑士"
 	quest.7552748C8250227C.quest_desc: [
 		"&l&d「太阳鸟-乌姆武提」"

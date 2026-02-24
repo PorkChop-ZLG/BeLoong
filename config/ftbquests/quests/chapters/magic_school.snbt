@@ -3474,35 +3474,6 @@
 		}
 		{
 			dependencies: ["7D308C430870C16F"]
-			id: "7AA93C5C5D5FD457"
-			rewards: [
-				{
-					id: "2B57C025647C4C7F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 64
-					id: "3A2C8C6A68FAF3DF"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_essence"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				consume_items: true
-				id: "792EDB5D205CAB3D"
-				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:abyssal_shroud", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7D308C430870C16F"]
 			id: "509EEB5510B8006A"
 			rewards: [
 				{
@@ -3527,7 +3498,7 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -14.0d
 			y: 4.0d
 		}
 		{
@@ -3556,8 +3527,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 3.5d
+			x: -15.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7D308C430870C16F"]
@@ -3585,8 +3556,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 1.5d
+			x: -16.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7D308C430870C16F"]
@@ -3614,8 +3585,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 2.5d
+			x: -16.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7D308C430870C16F"]
@@ -3644,7 +3615,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D308C430870C16F"]
@@ -3672,8 +3643,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 4.0d
+			x: -13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7D308C430870C16F"]
@@ -3701,8 +3672,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 2.0d
+			x: -13.0d
+			y: 1.0d
 		}
 		{
 			id: "1CECEAD9D6372EF2"

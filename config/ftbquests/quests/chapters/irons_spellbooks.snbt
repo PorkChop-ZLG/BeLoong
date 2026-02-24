@@ -1406,5 +1406,39 @@
 			x: 21.0d
 			y: 2.0d
 		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/barrier"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "752424B438B87389"
+			optional: true
+			rewards: [
+				{
+					id: "0895B961D3EFCA49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "4EFEEF71202DEAD9"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4923FC8AE55B4A09"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
 	]
 }
