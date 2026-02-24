@@ -26,8 +26,8 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "unenchanted_chance": 0.1,
-          "enchanted_chance": 0.1,
+          "unenchanted_chance": 0.2,
+          "enchanted_chance": 0.2,
           "enchantment": "minecraft:looting"
         }
       ],
@@ -46,7 +46,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.5
+          "chance": 0.25
         }
       ],
       "entries": [

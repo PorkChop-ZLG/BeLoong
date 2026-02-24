@@ -367,6 +367,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "56AB46E254E88475"
+					item: {
+						count: 1
+						id: "eternal_starlight:music_disc_optimized_option"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -420,6 +428,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2DCEE2A51944A006"
+					item: {
+						count: 1
+						id: "eternal_starlight:music_disc_fake_light"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				entity: "eternal_starlight:lunar_monstrosity"
@@ -459,6 +475,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2010A1F0DCE52E26"
+					item: {
+						count: 1
+						id: "eternal_starlight:music_disc_mechanical_fossil"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				entity: "eternal_starlight:starlight_golem"
@@ -483,6 +507,14 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "6CDAFE20FBBC0BA4"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_netherite_monstrosity"
 					}
 					type: "item"
 				}
@@ -513,6 +545,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "57F24341ABA88F5D"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ender_guardian"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
@@ -537,6 +577,14 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "0A3AD45C5BFBBA0F"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ignis"
 					}
 					type: "item"
 				}
@@ -567,6 +615,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7AA052131FC0F6DD"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_harbinger"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
@@ -591,6 +647,14 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "482AF4783CF032F9"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_leviathan"
 					}
 					type: "item"
 				}
@@ -621,6 +685,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "45BE9BD9FDF5738C"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ancient_remnant"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
@@ -645,6 +717,14 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "18AEA33078F138E4"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_maledictus"
 					}
 					type: "item"
 				}
@@ -1032,6 +1112,14 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "4B1E4DF48CB6AAFB"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_scylla"
 					}
 					type: "item"
 				}
@@ -1994,6 +2082,14 @@
 					id: "0BC0982C24ED326E"
 					type: "xp"
 					xp: 1000
+				}
+				{
+					id: "1EECF3361F58136E"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_cataclysmfarer"
+					}
+					type: "item"
 				}
 			]
 			shape: "hexagon"
