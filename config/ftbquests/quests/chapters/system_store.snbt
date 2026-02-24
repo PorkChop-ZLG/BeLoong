@@ -413,13 +413,27 @@
 				type: "item"
 			}]
 			size: 1.5d
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "47B0E8136D98CC3A"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "47B0E8136D98CC3A"
+					item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "429F4BA8CD391AE4"
+					item: { count: 1, id: "twilightforest:charm_of_life_2" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "58994E61CAB24E4A"
+					item: { count: 1, id: "kubejs:progenitor_dragon_scale" }
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 3.0d
 		}
@@ -486,6 +500,12 @@
 					consume_items: true
 					id: "66E9D11508255EF6"
 					item: { count: 1, id: "wands:netherite_wand" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "07FA5D02B7E94420"
+					item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 					type: "item"
 				}
 			]
@@ -900,10 +920,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"4EDF13489B6BA152"
-			]
+			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "iceandfire:godly_dragon_seeker"
@@ -920,7 +937,7 @@
 			size: 1.5d
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 3L
 				id: "23F9D8C4F5F5B5E1"
 				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
 				type: "item"
@@ -973,17 +990,20 @@
 			tasks: [
 				{
 					consume_items: true
+					count: 32L
 					id: "3FAED3F2D26CDDC8"
 					item: { count: 1, id: "irons_spellbooks:ancient_knowledge_fragment" }
 					type: "item"
 				}
 				{
 					consume_items: true
+					count: 16L
 					id: "752AE8DB2381847C"
 					item: { count: 1, id: "irons_spellbooks:legendary_ink" }
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "5E1A3268576F34FC"
 					item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 					type: "item"
@@ -1262,6 +1282,39 @@
 			}]
 			x: -8.5d
 			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3859C3FFB6F2C61B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:ominous_bottle"
+			}
+			id: "6E1F78E1B1284026"
+			rewards: [{
+				id: "1DA6C360D0AB7B2F"
+				item: {
+					count: 1
+					id: "minecraft:ominous_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "30C1200F2ECED0EF"
+					item: { components: { "minecraft:banner_patterns": [ { color: "cyan", pattern: "minecraft:rhombus" }, { color: "light_gray", pattern: "minecraft:stripe_bottom" }, { color: "gray", pattern: "minecraft:stripe_center" }, { color: "light_gray", pattern: "minecraft:border" }, { color: "black", pattern: "minecraft:stripe_middle" }, { color: "light_gray", pattern: "minecraft:half_horizontal" }, { color: "light_gray", pattern: "minecraft:circle" }, { color: "black", pattern: "minecraft:border" } ], "minecraft:hide_additional_tooltip": { }, "minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}" }, count: 1, id: "minecraft:white_banner" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "34497FF568A165EA"
+					item: { count: 1, id: "dragonsurvival:heart_element" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 }

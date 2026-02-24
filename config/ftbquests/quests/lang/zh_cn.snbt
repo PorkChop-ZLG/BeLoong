@@ -3180,7 +3180,7 @@
 	quest.58076DE30F3777F1.quest_subtitle: "打造你的魔法武器"
 	quest.58340821BF7679E4.quest_subtitle: "成长到青年龙阶段"
 	quest.58340821BF7679E4.title: "青年苔原龙"
-	quest.59340FB7B273A35A.quest_desc: ["&c完成章节【永恒星光】后解锁！"]
+	quest.59340FB7B273A35A.quest_desc: [""]
 	quest.59340FB7B273A35A.quest_subtitle: "所有龙都将无所遁形"
 	quest.59340FB7B273A35A.title: "&d神话级寻龙杖"
 	quest.593BB9B492CFB1D9.quest_subtitle: "野火烧不尽"
@@ -3839,6 +3839,7 @@
 	]
 	quest.6E02B2425A8EAB67.quest_subtitle: "★★★★"
 	quest.6E02B2425A8EAB67.title: "永恒星光：星光傀儡"
+	quest.6E1F78E1B1284026.title: "不祥之瓶"
 	quest.6E27A53C36C34AB1.quest_desc: [
 		"&l&d「史莱姆王」"
 		"&6生命：&a6000"
