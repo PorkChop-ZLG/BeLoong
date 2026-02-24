@@ -95,6 +95,7 @@ config/**
 !config/voicechat/**
 
 !config/akashictome-common.toml
+!config/alltheleaks.json
 !config/alshanex_familiars-common.toml
 !config/appleskin-client.toml
 !config/asteorbar-client.toml
