@@ -8,6 +8,28 @@ ServerEvents.recipes(event => {
             'minecraft:white_dye'
         ]
     )
+    // 火把花种子
+    event.shaped(Item.of('minecraft:torchflower_seeds', 8), [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+        {
+            A: 'minecraft:torchflower',
+            B: 'minecraft:torch'
+        }
+    )
+    // 瓶子草荚果
+    event.shaped(Item.of('minecraft:pitcher_pod', 8), [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+        {
+            A: 'minecraft:pitcher_plant',
+            B: 'minecraft:glass_bottle'
+        }
+    )
     // 珠光蛙明灯
     event.shaped(Item.of('minecraft:pearlescent_froglight', 8), [
         'AAA',
