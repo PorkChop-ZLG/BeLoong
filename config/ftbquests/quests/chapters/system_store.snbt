@@ -453,7 +453,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 3L
+				count: 8L
 				id: "4BE00949637E3927"
 				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
 				type: "item"
@@ -545,34 +545,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "cataclysm:amethyst_crab_spawn_egg"
-			}
-			id: "0B2561B023A2B768"
-			rewards: [{
-				command: "/summon cataclysm:amethyst_crab ~ ~ ~"
-				icon: {
-					id: "cataclysm:amethyst_crab_spawn_egg"
-				}
-				id: "4BCB923F946FBCF3"
-				permission_level: 2
-				silent: true
-				type: "command"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "05073BE8EEFDC172"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				components: {
 					"irons_spellbooks:spell_container": {
 						data: [{
@@ -643,22 +615,27 @@
 			}
 			id: "6511938692C22F27"
 			rewards: [{
-				command: "/summon alshanex_familiars:druid_pet ~ ~ ~"
-				icon: {
+				id: "443F50A399561B06"
+				item: {
+					count: 1
 					id: "alshanex_familiars:druid_shard"
 				}
-				id: "67FF5A1ED814EF16"
-				permission_level: 2
-				silent: true
-				type: "command"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "0A8EB90E8FD381BB"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "0A8EB90E8FD381BB"
+					item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "2D16FE2783F65D0E"
+					item: { count: 1, id: "alshanex_familiars:life_fruit_tier_2" }
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 0.0d
 		}
@@ -1314,6 +1291,44 @@
 				}
 			]
 			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3859C3FFB6F2C61B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "alshanex_familiars:illusionist_shard"
+			}
+			id: "695C60D2B6D3E646"
+			rewards: [{
+				id: "4CC9F8450F80F88E"
+				item: {
+					count: 1
+					id: "alshanex_familiars:illusionist_shard"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "6203CD7235D2682B"
+					item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2E7AC9CAF8B09F06"
+					item: { count: 1, id: "alshanex_familiars:truth_mirror" }
+					type: "item"
+				}
+				{
+					id: "7298DF942763C922"
+					item: { count: 1, id: "alshanex_familiars:life_fruit_tier_3" }
+					type: "item"
+				}
+			]
+			x: 0.0d
 			y: 0.0d
 		}
 	]

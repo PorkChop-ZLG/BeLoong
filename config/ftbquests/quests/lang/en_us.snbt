@@ -569,9 +569,6 @@
 	quest.0B1F2B46DAF0D8AC.quest_subtitle: "★★"
 	quest.0B1F2B46DAF0D8AC.title: "Vanilla: Warden"
 	quest.0B21BEEF0BACA869.title: "Accessories T1"
-	quest.0B2561B023A2B768.quest_desc: ["&cWarning: Spawns an Amethyst Crab on the spot!"]
-	quest.0B2561B023A2B768.quest_subtitle: "Drops Amethyst Crab Shell"
-	quest.0B2561B023A2B768.title: "Amethyst Crab"
 	quest.0B7325524A346099.quest_desc: [
 		"&6Click left to submit a &fMilk Bucket&6,"
 		"&6then click right to remove &dBounty Hunter&6 effect."
@@ -4389,7 +4386,6 @@
 	reward.4FA5DE6B8C446E46.title: "Rain/Snow"
 	reward.5A9476EF337264A3.title: "Spawn 【Coral Golem】"
 	reward.5DA01E41DB6D6A01.title: "Choose Your Dragon Egg"
-	reward.67FF5A1ED814EF16.title: "Spawn 【Druid Familiar】"
 	reward.75A5CB8F03F3BFD2.title: "Spawn 【Mimic】"
 	reward.7D4E423C2BEB7F9C.title: "Clear Sky"
 	reward_table.0A72BDBE9FA6207D.title: "Xiao Fan Wei Blind Box"

@@ -568,9 +568,6 @@
 	quest.0B1F2B46DAF0D8AC.quest_subtitle: "★★"
 	quest.0B1F2B46DAF0D8AC.title: "原版：监守者"
 	quest.0B21BEEF0BACA869.title: "首饰T1"
-	quest.0B2561B023A2B768.quest_desc: ["&c注意：是原地生成一只【紫水晶巨蟹】！"]
-	quest.0B2561B023A2B768.quest_subtitle: "掉落紫水晶蟹壳"
-	quest.0B2561B023A2B768.title: "紫水晶巨蟹"
 	quest.0B7325524A346099.quest_desc: [
 		"&6点击左侧，提交一个&f奶桶&6，"
 		"&6然后点击右侧，即可清除&d悬赏追猎&6效果。"
@@ -3526,8 +3523,6 @@
 	quest.6511938692C22F27.quest_desc: [
 		"&a德鲁伊魔宠&6被禁止自然生成，"
 		"&6因为它会无限制繁殖动物，造成极大卡顿。"
-		""
-		"&7&o如果生成后看不见，请退出游戏重进"
 	]
 	quest.6511938692C22F27.quest_subtitle: "无法自然生成"
 	quest.6511938692C22F27.title: "德鲁伊魔宠"
@@ -3615,6 +3610,12 @@
 	quest.68A904F25FFE8956.quest_subtitle: "★★★"
 	quest.68A904F25FFE8956.title: "暮色森林：暮初恶魂"
 	quest.68F38201DF496DA9.quest_subtitle: "无尽的法力"
+	quest.695C60D2B6D3E646.quest_desc: [
+		"&a德鲁伊魔宠&6会伪装成其他魔宠，"
+		"&6生成概率极低，而且很难找。"
+	]
+	quest.695C60D2B6D3E646.quest_subtitle: "非常难找"
+	quest.695C60D2B6D3E646.title: "幻术师魔宠"
 	quest.69BE2E1BCBE71766.title: "魔法书T0"
 	quest.69C53D16FB6FCEF5.quest_desc: [
 		"&a目标：击败公会骑士，获得黯影之钥。"
@@ -4357,7 +4358,6 @@
 	reward.4FA5DE6B8C446E46.title: "雨雪"
 	reward.5A9476EF337264A3.title: "生成【珊瑚傀儡】"
 	reward.5DA01E41DB6D6A01.title: "自选龙蛋"
-	reward.67FF5A1ED814EF16.title: "生成【德鲁伊魔宠】"
 	reward.75A5CB8F03F3BFD2.title: "生成【宝箱怪】"
 	reward.7D4E423C2BEB7F9C.title: "晴天"
 	reward_table.0A72BDBE9FA6207D.title: "小烦维盲盒"
