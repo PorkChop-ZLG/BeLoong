@@ -1117,7 +1117,11 @@
 	quest.19DA784FDC312506.title: "&2森林龙毕业"
 	quest.19EC475553EC785D.quest_subtitle: "呐，要开始放晴了哟~"
 	quest.19EC475553EC785D.title: "切换天气"
-	quest.19F5D45CF7D9CAF5.quest_desc: ["&a目标：集齐全套黯影龙铠"]
+	quest.19F5D45CF7D9CAF5.quest_desc: [
+		"&a目标：集齐全套黯影龙铠"
+		""
+		"&6注意：穿戴黯影龙铠后，会始终拥有【悬赏追猎】的效果，无法与村民交易！"
+	]
 	quest.19F5D45CF7D9CAF5.quest_subtitle: "集齐黯影龙铠套装"
 	quest.19F5D45CF7D9CAF5.title: "最光明，最黑暗"
 	quest.1A1F4138D32ADC70.title: "护符T0"
@@ -3339,7 +3343,7 @@
 		"&2自然罗盘：&a末地荒原&r"
 		"&2自然罗盘：&a末影废土&r"
 		"&2自然罗盘：&a无尽沙丘&r"
-		"&2自然罗盘：&a炽热丘陵&r"
+		"&2自然罗盘：&a炽焰丘陵&r"
 		"&2自然罗盘：&a血肉冻原&r"
 		""
 		"&c&l【下一页还有】"
