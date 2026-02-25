@@ -932,20 +932,6 @@
 					type: "advancement"
 				}
 				{
-					advancement: "astral_dragon:astral/teleport_once"
-					criterion: ""
-					id: "7C53353AA400D31C"
-					optional_task: true
-					type: "advancement"
-				}
-				{
-					advancement: "astral_dragon:astral/teleport_many_times"
-					criterion: ""
-					id: "1154B1902D8D355E"
-					optional_task: true
-					type: "advancement"
-				}
-				{
 					advancement: "minecraft:adventure/trade_at_world_height"
 					criterion: ""
 					id: "57F4EBA2C859CCA2"
