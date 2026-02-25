@@ -410,6 +410,108 @@ ServerEvents.recipes(event => {
             }
         }
     )
+    // 远古龙心 + 魔法水晶 = 龙炎煅炉 = 晶咒龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "eternal_starlight:mana_crystal"
+            },
+            "result": {
+                "id": "kubejs:crystcursed_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 魔法水晶 = 龙霜煅炉 = 晶咒龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "eternal_starlight:mana_crystal"
+            },
+            "result": {
+                "id": "kubejs:crystcursed_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 魔法水晶 = 龙霆煅炉 = 晶咒龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "eternal_starlight:mana_crystal"
+            },
+            "result": {
+                "id": "kubejs:crystcursed_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 通仙心 = 龙炎煅炉 = 麒麟之心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "wing_kirin:wing_kirin_upgrade"
+            },
+            "result": {
+                "id": "kubejs:wing_kirin_heart"
+            }
+        }
+    )
+    // 远古龙心 + 通仙心 = 龙霜煅炉 = 麒麟之心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "wing_kirin:wing_kirin_upgrade"
+            },
+            "result": {
+                "id": "kubejs:wing_kirin_heart"
+            }
+        }
+    )
+    // 远古龙心 + 通仙心 = 龙霆煅炉 = 麒麟之心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "wing_kirin:wing_kirin_upgrade"
+            },
+            "result": {
+                "id": "kubejs:wing_kirin_heart"
+            }
+        }
+    )
     // 始祖龙心 + 始祖龙鳞 = 龙炎煅炉 = 始祖之力
     event.custom(
         {
