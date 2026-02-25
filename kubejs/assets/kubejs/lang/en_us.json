@@ -117,7 +117,9 @@
 	"dragon_ability.dragonsurvival.wind_breath.desc": "■ The Aether Dragon exhales a gentle breeze, as if breathing clouds and mist.\n\n■ The wind can §2clear weeds§7 and also §2grant speed§7 to allies.§r\n\n■ Its §2damage is low§7, but it §2does not consume mana§7.§r",
   "dragon_ability.dragonsurvival.progenitor_power": "Progenitor Power",
   "dragon_ability.dragonsurvival.progenitor_power.desc": "■ Can only be obtained through the item §dProgenitor Dragon Power§r, and can only be unlocked at the Progenitor Dragon stage.\n\n■ Provides a massive attribute boost. For every §25 growth points§r, §210% attributes§r are increased. Upon reaching maximum growth, §2attributes are doubled§r!§r",
-
+  "dragon_ability.dragonsurvival.progenitor_shroud": "Progenitor Shroud",
+  "dragon_ability.dragonsurvival.progenitor_shroud.desc": "■ Can only be obtained through the item §dProgenitor Dragon Power§r, and can only be unlocked at the Progenitor Dragon stage.\n\n■ When your health drops below §250% §r, you will be protected by the Progenitor Dragon, §cbecoming immune to all damage!§r\n\n■ For every §25 growth points§r, the duration is increased by §25 seconds§r.",
+  
   "dragon_species.dragonsurvival.aether_dragon.banner.desc": "§7■ The §6Aether Dragon§r§7 is a §fswift§r§7, §fagile§r§7, and graceful creature, its body cutting through §fseas of clouds and waves§r§7.\n\n§2■ Traits:§f§r§7 High mobility, weather and airflow magic, underwater breathing boost, fall immunity.\n§4■ Weakness:§r§7 Deep underground.\n§6■ Diet:§f§r§7 Animal products.§r",
   "dragon_species.dragonsurvival.aether_dragon_human": "Qinglong",
   "dragon_species.dragonsurvival.aether_dragon_human.alter.desc": "§7■ §6Qinglong§r§7 is the human form of the Aether Dragon.§r§7\n\n§2■ Traits:§f§r§7 High mobility, weather and airflow magic, underwater breathing boost, fall immunity.\n§4■ Weakness:§r§7 Deep underground.\n§6■ Diet:§f§r§7 Animal products.§r",

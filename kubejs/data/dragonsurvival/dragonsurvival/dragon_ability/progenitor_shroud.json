@@ -1,0 +1,119 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
+                                "effects": "irons_spellbooks:abyssal_shroud",
+                                "duration": {
+                                    "type": "minecraft:linear",
+                                    "base": 300,
+                                    "per_level_above_first": 100
+                                },
+                                "amplifier": 0,
+                                "effect_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            }
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:passive",
+        "cooldown": 6000,
+        "trigger": {
+            "trigger_type": "dragonsurvival:on_self_hit",
+            "condition": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "dragonsurvival:custom_predicates",
+                        "health_percentage": {
+                            "max": 0.5
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 7,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 8,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 9,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            },
+            {
+                "from_level": 10,
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+            }
+        ]
+    },
+    "upgrade": {
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 255.0,
+                "per_level_above_first": 5.0
+            },
+            "values": [
+                255.0,
+                260.0,
+                265.0,
+                270.0,
+                275.0,
+                280.0,
+                285.0,
+                290.0,
+                295.0,
+                300.0
+            ]
+        },
+        "maximum_level": 10,
+        "upgrade_type": "dragonsurvival:dragon_growth"
+    }
+}

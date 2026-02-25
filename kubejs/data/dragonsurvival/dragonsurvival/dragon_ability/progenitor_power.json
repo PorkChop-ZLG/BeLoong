@@ -20,7 +20,7 @@
                         "base": 0.1,
                         "per_level_above_first": 0.1
                       },
-                      "attribute": "minecraft:generic.max_health",
+                      "attribute": "dragonsurvival:penalty_resistance_time",
                       "operation": "add_multiplied_base"
                     },
                     {
