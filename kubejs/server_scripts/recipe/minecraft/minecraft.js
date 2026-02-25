@@ -1,4 +1,5 @@
 // 该脚本用于魔改 我的世界原版 的配方
+
 ServerEvents.recipes(event => {
     // 黄绿色染料
     event.shapeless(
@@ -50,6 +51,26 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:ochre_froglight',
             B: 'minecraft:green_dye'
+        }
+    )
+    // 鞍
+    event.shaped(Item.of('minecraft:saddle', 1), [
+        ' B ',
+        'BAB'
+    ],
+        {
+            A: '#c:ingots/iron',
+            B: '#c:leathers'
+        }
+    )
+    // 命名牌
+    event.shaped(Item.of('minecraft:name_tag', 1), [
+        ' A ',
+        'B  '
+    ],
+        {
+            A: '#c:paper',
+            B: '#c:nuggets'
         }
     )
 })
