@@ -603,7 +603,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -750,7 +750,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -981,7 +981,13 @@
 				}
 				{
 					count: 8L
-					id: "5E1A3268576F34FC"
+					id: "700133BF4BACDD3A"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "63E6B58514251585"
 					item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 					type: "item"
 				}
@@ -1329,6 +1335,72 @@
 				}
 			]
 			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3859C3FFB6F2C61B"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:heartstop"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+				id: "irons_spellbooks:scroll"
+			}
+			id: "385C34B9D7641E76"
+			rewards: [{
+				id: "75C5D6977D1D4F6C"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:heartstop"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:scroll"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "6C421E5DA19CEAE8"
+					item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "48D95615FAF87832"
+					item: { count: 1, id: "irons_spellbooks:blood_vial" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "54F2FFB4AB9E2295"
+					item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+					type: "item"
+				}
+			]
+			x: 9.0d
 			y: 0.0d
 		}
 	]

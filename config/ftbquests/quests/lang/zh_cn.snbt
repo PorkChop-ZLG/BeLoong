@@ -2118,6 +2118,8 @@
 	]
 	quest.3859C3FFB6F2C61B.quest_subtitle: "叮！恭喜您解锁【系统商店】"
 	quest.3859C3FFB6F2C61B.title: "&e『&6化龍&e』&a系统商店"
+	quest.385C34B9D7641E76.quest_subtitle: "过于强力，禁止合成"
+	quest.385C34B9D7641E76.title: "止心术 法术卷轴"
 	quest.386CC89DE12CDBE2.title: "项链T3"
 	quest.3870D9E7C938B489.quest_desc: [
 		"&6空手Shift右键绑定到当前玩家所在的维度网络。维度网络的管理员空手Shift右键可取消绑定。"
@@ -4050,11 +4052,16 @@
 	quest.74D8E9EC39D5A9D2.quest_subtitle: "末地要塞经过重做，危机重重"
 	quest.74D8E9EC39D5A9D2.title: "挑战：要塞"
 	quest.752424B438B87389.quest_desc: [
-		"&6部分法术因为&c存在BUG&6或&e过于强力&6，已被禁用！"
+		"&6部分法术因为&c存在BUG&6或&4过于强力&6，已被禁用！"
 		"&6以下是禁术目录："
 		""
-		"&3逆转(reversal) : 存在BUG，禁止合成与使用！"
-		"&3深渊庇护(abyssal_shroud) : 过于强力，禁止合成！"
+		"&d&l禁止合成："
+		"&c深渊庇护(abyssal_shroud) : 过于强力，可商店购买！"
+		"&c止心术(heartstop) : 过于强力，可在商店购买！"
+		""
+		"&d&l禁止合成与使用："
+		"&4幽冥锤(spectral_hammer) : 存在BUG！"
+		"&4逆转(reversal) : 存在BUG！"
 	]
 	quest.752424B438B87389.quest_subtitle: "魔法禁书目录"
 	quest.752424B438B87389.title: "禁用的法术"
