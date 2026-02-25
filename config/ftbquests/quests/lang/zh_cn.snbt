@@ -946,6 +946,12 @@
 		"&6番外&3【冰火传说】&6的任务道具。"
 		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19632689D6646EBD\" } }"
 	]
+	quest.163153BE5D349228.quest_desc: [
+		"&6一键清理所有掉落物。"
+		""
+		"&c注：为了防止滥用，需要开启作弊权限！"
+	]
+	quest.163153BE5D349228.title: "清理掉落物"
 	quest.1647C075AFC0FC73.quest_desc: [
 		"&6通过开启&e神秘宝珠&6获得，用于解锁&3律灵&6法术。"
 		"{ \"text\": \"点击跳转到获取方式\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53F62FC8058F6AE7\" } }"
@@ -4367,6 +4373,7 @@
 	reward.0A0F3DE349F4B9F1.title: "雷暴"
 	reward.273C176B55FD48D2.title: "切换天气"
 	reward.3476152E96B2633F.title: "随机龙蛋"
+	reward.394C0D6BBDDCE9EE.title: "清理掉落物(需要权限)"
 	reward.454B2D28BF497396.title: "生成【珊瑚傀儡】"
 	reward.4605D18D17F1BB92.title: "化凡为人"
 	reward.4BCB923F946FBCF3.title: "生成【紫水晶巨蟹】"

@@ -1403,5 +1403,30 @@
 			x: 9.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["3859C3FFB6F2C61B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "touhou_little_maid:broom"
+			}
+			id: "163153BE5D349228"
+			rewards: [{
+				command: "/kill @e[type=minecraft:item]"
+				icon: {
+					id: "touhou_little_maid:broom"
+				}
+				id: "394C0D6BBDDCE9EE"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "47FA0E969FB1C13C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
 	]
 }
