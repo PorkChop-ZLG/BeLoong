@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ancient_debris",
+    "eternal_starlight:thermal_springstone",
+    "#c:raw_materials/deepsilver",
+    "#c:raw_materials/silver"
+  ]
+}
