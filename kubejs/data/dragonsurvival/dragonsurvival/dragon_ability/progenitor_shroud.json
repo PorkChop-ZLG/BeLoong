@@ -37,7 +37,7 @@
                     "type_specific": {
                         "type": "dragonsurvival:custom_predicates",
                         "health_percentage": {
-                            "max": 0.5
+                            "max": 0.3
                         }
                     }
                 }

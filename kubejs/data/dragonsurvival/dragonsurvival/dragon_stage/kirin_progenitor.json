@@ -11,6 +11,10 @@
   },
   "growth_items": [
     {
+      "growth_in_ticks": 1728000,
+      "items": "kubejs:wing_kirin_heart"
+    },
+    {
       "growth_in_ticks": 51840000,
       "items": "kubejs:progenitor_dragon_heart"
     },

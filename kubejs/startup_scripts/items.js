@@ -15,6 +15,8 @@ StartupEvents.registry("item", (event) => {
   event.create("kubejs:tundra_dragon_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.tundra_dragon_heart.tooltip')])
   event.create("kubejs:aether_dragon_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.aether_dragon_heart.tooltip')])
   event.create("kubejs:astral_dragon_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.astral_dragon_heart.tooltip')])
+  event.create("kubejs:crystcursed_dragon_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.crystcursed_dragon_heart.tooltip')])
+  event.create("kubejs:wing_kirin_heart").rarity("uncommon").tooltip([Text.translatable('item.kubejs.wing_kirin_heart.tooltip')])
   event.create("kubejs:progenitor_dragon_heart").rarity("epic").tooltip([Text.translatable('item.kubejs.progenitor_dragon_heart.tooltip.1')]).tooltip([Text.translatable('item.kubejs.progenitor_dragon_heart.tooltip.2')])
   event.create("kubejs:progenitor_dragon_power").rarity("epic").tooltip([Text.translatable('item.kubejs.progenitor_dragon_power.tooltip.1')]).tooltip([Text.translatable('item.kubejs.progenitor_dragon_power.tooltip.2')])
   event.create("kubejs:progenitor_dragon_scale").rarity("epic").tooltip([Text.translatable('item.kubejs.progenitor_dragon_scale.tooltip.1')]).tooltip([Text.translatable('item.kubejs.progenitor_dragon_scale.tooltip.2')])

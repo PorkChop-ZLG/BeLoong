@@ -11,8 +11,8 @@
   },
   "growth_items": [
     {
-      "growth_in_ticks": 72000,
-      "items": "dragonsurvival:elder_dragon_heart"
+      "growth_in_ticks": 1728000,
+      "items": "kubejs:crystcursed_dragon_heart"
     },
     {
       "growth_in_ticks": -1728000,

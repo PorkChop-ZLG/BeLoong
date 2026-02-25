@@ -2,6 +2,8 @@
 
 # 给予始祖之力
 dragon-ability add @s dragonsurvival:progenitor_power
+# 给予始祖庇护
+dragon-ability add @s dragonsurvival:progenitor_shroud
 # 龙息粒子效果
 particle minecraft:dragon_breath ~ ~1 ~ 0.6 0.6 0.6 0.05 80 force @s
 # 末影龙音效

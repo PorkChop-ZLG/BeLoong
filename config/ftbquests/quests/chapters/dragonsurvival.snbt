@@ -135,10 +135,10 @@
 					type: "command"
 				}
 				{
-					id: "7ACC23ABB70E7210"
+					id: "6C4980664D2B4662"
 					item: {
 						count: 1
-						id: "beyonddimensions:unstable_space_time_fragment"
+						id: "beyonddimensions:net_creater"
 					}
 					type: "item"
 				}
