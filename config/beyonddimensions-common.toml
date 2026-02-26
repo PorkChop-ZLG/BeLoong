@@ -35,3 +35,5 @@ interface_can_pop_resource = true
 interface_usable_capacity = 27
 #是否与JEI或EMI同步搜索
 search_text_with_jei_emi = false
+#是否允许EMI获取维度网络内全部物品信息
+emi_allow_network_storage_info = false
