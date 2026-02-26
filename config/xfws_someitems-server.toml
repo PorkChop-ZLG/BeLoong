@@ -1,0 +1,11 @@
+["飘渺游灯Ethereal Lantern"]
+	#飘渺游灯的最大放置距离(整数):默认:8, 最小:1, 最大: 50
+	#Maximum placement distance of Ethereal Lantern(integer):Default:8, Minimum: 1, Maximum: 50
+	# Default: 8
+	# Range: 1 ~ 50
+	"Maximum Distance" = 8
+	#飘渺游灯放置火把所需的光照强度(整数):默认:4, 最小:0, 最大:15
+	#The light intensity required for placing a torch in Ethereal Lantern(integer):Default: 4, Minimum: 0, Maximum: 15
+	# Default: 4
+	# Range: 0 ~ 15
+	Brightness = 4
