@@ -73,7 +73,15 @@
 	journeyMap = true
 	#If enabled, JourneyMap waypoints will only be created if the mod 'JourneyMap Integration' is not installed
 	preferJourneyMapIntegrationMod = true
-	#If enabled, Waystones will add markers for waystones and sharestones to BlueMap.
-	blueMap = true
 	#If enabled, Waystones will add markers for waystones and sharestones to Dynmap.
 	dynmap = true
+
+[blueMap]
+	#Controls whether Waystones' BlueMap integration should be loaded
+	enabled = true
+	#If enabled, waystones will be tracked as markers on BlueMap
+	includeWaystones = true
+	#If enabled, sharestones will be tracked as markers on BlueMap.
+	includeSharestones = true
+	#If enabled, undiscovered waystones will be tracked as markers on BlueMap.
+	includeUndiscoveredWaystones = false
