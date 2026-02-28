@@ -4,9 +4,6 @@
 	default_quest_shape: "rsquare"
 	filename: "system_store"
 	group: "1EFE04C2BB6E0380"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: {
 		id: "minecraft:emerald"
 	}

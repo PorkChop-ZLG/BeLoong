@@ -1,0 +1,144 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:modifier",
+                            "modifiers": [
+                                {
+                                    "base": {
+                                        "id": "iss_fire4_",
+                                        "duration": 60,
+                                        "should_remove_automatically": true
+                                    },
+                                    "modifiers": [
+                                        {
+                                            "attribute": "irons_spellbooks:cast_time_reduction",
+                                            "amount": 1.0,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "effect_type": "dragonsurvival:modifier",
+                            "modifiers": [
+                                {
+                                    "base": {
+                                        "id": "iss_fire4",
+                                        "duration": 60,
+                                        "should_remove_automatically": true
+                                    },
+                                    "modifiers": [
+                                        {
+                                            "attribute": "irons_spellbooks:fire_spell_power",
+                                            "amount": {
+                                                "type": "minecraft:linear",
+                                                "base": 0.5,
+                                                "per_level_above_first": 2.5
+                                            },
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "iss_ds_integration:iss_fire4/iss_fire4_main"
+                        }
+                    ],
+                    "targeting_mode": "allies_and_self"
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_rate": 1
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:simple",
+        "animations": {
+            "start_and_charging": {
+                "animation_key": "cast_self_buff",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": true,
+                "transition_length": 5
+            },
+            "end": {
+                "animation_key": "self_buff",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": true,
+                "transition_length": 5
+            }
+        },
+        "can_move_while_casting": false,
+        "cast_time": {
+            "type": "minecraft:linear",
+            "base": 60,
+            "per_level_above_first": -10
+        },
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 140,
+            "per_level_above_first": -20
+        },
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 2
+        }
+    },
+    "can_be_manually_disabled": true,
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+            }
+        ]
+    },
+    "upgrade": {
+        "upgrade_type": "dragonsurvival:dragon_growth",
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 50.0,
+                "per_level_above_first": 50.0
+            },
+            "values": [
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 5
+    }
+}
