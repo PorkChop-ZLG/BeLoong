@@ -98,27 +98,27 @@
         "texture_entries": [
             {
                 "from_level": 0,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_0"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_0"
             },
             {
                 "from_level": 1,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
             },
             {
                 "from_level": 2,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
             },
             {
                 "from_level": 3,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
             },
             {
                 "from_level": 4,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
             },
             {
                 "from_level": 5,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
             }
         ]
     },

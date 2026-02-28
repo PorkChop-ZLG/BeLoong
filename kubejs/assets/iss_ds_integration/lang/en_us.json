@@ -1,4 +1,6 @@
 {
   "dragon_ability.dragonsurvival.iss_fire3": "Earthfire Slash",
-  "dragon_ability.dragonsurvival.iss_fire3.desc": "■ The Cave Dragon §cdashes forward§r, unleashing a §cflaming strike§r. Then slams the ground, releasing §cearthfire§r.\n\n■ This ability can be performed §6instantly, and the combo completes automatically§r.\n\n§d§oIrons Spells integrated ability§r"
+  "dragon_ability.dragonsurvival.iss_fire3.desc": "■ The Cave Dragon §cdashes forward§r, unleashing a §cflaming strike§r. Then slams the ground, releasing §cearthfire§r.\n\n■ This ability can be performed §6instantly, and the combo completes automatically§r.\n\n§d§oIron Spell integrated ability§r",
+  "dragon_ability.dragonsurvival.iss_fire4": "Burn Out Everything",
+  "dragon_ability.dragonsurvival.iss_fire4.desc": "■ The Cave Dragon chants a spell§r, reducing the armor of surrounding enemies. Then it continuously fires §cthree types of fireballs§r.\n\n■ Unlocked at the Young Dragon stage, §6requires casting on the spot, and the combo completes automatically§r.\n\n§d§oIron Spell integrated ability§r"
 }

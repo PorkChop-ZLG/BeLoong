@@ -1,4 +1,6 @@
 {
   "dragon_ability.dragonsurvival.iss_fire3": "地火斩",
-  "dragon_ability.dragonsurvival.iss_fire3.desc": "■洞穴龙§c向前突进§r，挥出§c炽焰斩击§r。随后拍击地板，释放§c地火§r。\n\n■该技能可§6瞬间施展，连招自动完成§r。\n\n§d§o铁魔法联动技能§r"
+  "dragon_ability.dragonsurvival.iss_fire3.desc": "■洞穴龙§c向前突进§r，挥出§c炽焰斩击§r。随后拍击地板，释放§c地火§r。\n\n■该技能可§6瞬间施展，连招自动完成§r。\n\n§d§o铁魔法联动技能§r",
+  "dragon_ability.dragonsurvival.iss_fire4": "烧尽一切",
+  "dragon_ability.dragonsurvival.iss_fire4.desc": "■洞穴龙吟唱咒语§r，削减周围敌人的盔甲值。随后连续发射§c三种火焰弹§r。\n\n■青年龙阶段解锁，§6需要原地施法，连招自动完成§r。\n\n§d§o铁魔法联动技能§r"
 }
