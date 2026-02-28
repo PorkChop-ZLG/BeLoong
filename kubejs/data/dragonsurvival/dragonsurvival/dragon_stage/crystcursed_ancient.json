@@ -59,8 +59,8 @@
     {
       "amount": {
         "type": "minecraft:linear",
-        "base": 19.6,
-        "per_level_above_first": 0.6
+        "base": 9.3,
+        "per_level_above_first": 0.3
       },
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value"
