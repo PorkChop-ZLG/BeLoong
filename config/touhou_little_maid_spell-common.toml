@@ -47,7 +47,7 @@
 	#Spell blacklist, maids will not cast these spells
 	#示例: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
 	#Example: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
-	spellBlacklist = ["irons_spellbooks:spectral_hammer"]
+	spellBlacklist = ["irons_spellbooks:spectral_hammer", "gametechbcs_spellbooks:call_forth_the_dead_king"]
 	#
 	#是否自动设置女仆与玩家结盟 (默认: true)
 	#Whether to automatically set alliance between maids and players
