@@ -461,6 +461,9 @@
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
 			dependency_requirement: "one_started"
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
 			id: "24473ACF6BA65B65"
 			rewards: [
 				{
@@ -478,13 +481,20 @@
 				}
 			]
 			size: 2.0d
-			tasks: [{
-				id: "3A8A86E87BBFA2EC"
-				item: { count: 1, id: "explorerscompass:explorerscompass" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3A8A86E87BBFA2EC"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+				{
+					id: "04731266F9836A49"
+					item: { count: 1, id: "minecraft:crying_obsidian" }
+					type: "item"
+				}
+			]
 			x: 0.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7EB346A1790BD94B"]
@@ -1233,7 +1243,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["52760593973916B2"]
@@ -1250,7 +1260,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["52760593973916B2"]
@@ -1267,7 +1277,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
@@ -1342,7 +1352,7 @@
 				}
 			]
 			x: 0.0d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["75BFB4E20D3E76DC"]
@@ -1391,7 +1401,7 @@
 				}
 			]
 			x: -1.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["75BFB4E20D3E76DC"]
@@ -1425,7 +1435,7 @@
 				}
 			]
 			x: 1.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
@@ -1473,6 +1483,8 @@
 				team_reward: true
 				type: "command"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "1E39433E0D79D35D"
 				type: "checkmark"
@@ -1494,34 +1506,30 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
 			id: "6CC5B640AD43F55C"
-			rewards: [
+			rewards: [{
+				id: "583602D831772F1F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
 				{
-					id: "583602D831772F1F"
-					type: "xp"
-					xp: 100
+					id: "44FF848CE9F28C58"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
 				}
 				{
-					count: 3
-					id: "0469BF33C323F901"
-					item: {
-						count: 1
-						id: "minecraft:phantom_membrane"
-					}
+					id: "6A6568BA2C7CC814"
+					item: { count: 1, id: "minecraft:anvil" }
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0C24E18829CAB0FB"
-				item: { count: 1, id: "minecraft:beacon" }
-				type: "item"
-			}]
 			x: 0.0d
-			y: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["75BFB4E20D3E76DC"]
@@ -1545,7 +1553,7 @@
 				}
 			]
 			x: -2.0d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
@@ -1584,7 +1592,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]

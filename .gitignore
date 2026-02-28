@@ -124,6 +124,9 @@ config/**
 !config/dragonsurvival-server.toml
 !config/dummmmmmy-client.toml
 !config/dummmmmmy-common.toml
+!config/easyanvils-client.toml
+!config/easyanvils-common.toml
+!config/easyanvils-server.toml
 !config/enchantinginfuser-server.toml
 !config/entity_model_features.json
 !config/entity_texture_features.json
@@ -196,6 +199,9 @@ config/**
 !config/twilightforest-common.toml
 !config/undergarden-client.toml
 !config/undergarden-common.toml
+!config/untitledduckmod-server.toml
+!config/visualworkbench-client.toml
+!config/visualworkbench-common.toml
 !config/wands.json
 !config/waystones-common.toml
 !config/xfws_someitems-server.toml
