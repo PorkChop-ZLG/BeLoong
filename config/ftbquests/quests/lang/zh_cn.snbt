@@ -4073,6 +4073,7 @@
 		"&d&l禁止合成与使用："
 		"&4幽冥锤(spectral_hammer) : 存在BUG！"
 		"&4逆转(reversal) : 存在BUG！"
+		"&4觐见死王(call_forth_the_dead_king) : 存在BUG！"
 	]
 	quest.752424B438B87389.quest_subtitle: "查询禁用的铁魔法法术"
 	quest.752424B438B87389.title: "&c魔法禁书目录"
