@@ -71,6 +71,14 @@
 		#Additional Spell Power (additive percent)
 		additionalSpellPower = 0.0
 
+	["Boss Config"."Dead King"]
+		#Additional Health
+		additionalHealth = 0.0
+		#Additional Melee Attack Damage
+		additionalAttackDamage = 0.0
+		#Additional Spell Power (additive percent)
+		additionalSpellPower = 0.0
+
 #Other Configuration
 [Blocks]
 	#Whether Portal Frames can only be dyed by the block's owner. Default: true
