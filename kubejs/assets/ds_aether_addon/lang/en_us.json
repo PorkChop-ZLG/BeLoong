@@ -43,7 +43,7 @@
 	"dragon_ability.dragonsurvival.aether_claws_and_teeth.desc": "■ Aether dragons can not use claws to replace any tools or weapons. Instead, they receive a §2bonus§7 to §fattack and block breaking speed§r§7. This ability gets stronger §fas you grow§r§7.",
 	"dragon_ability.dragonsurvival.aether_claws_and_teeth": "Claws and Teeth",
 	"dragon_ability.dragonsurvival.levitation": "Thermals",
-	"dragon_ability.dragonsurvival.levitation.desc": "■ Create an updraft beneath the enemy’s feet, §cknocking the target into the air§r§7. When the airflow dissipates, the §fvictim§r§7 falls and suffers §7§fpercentage true damage§r§7 based on their §cmaximum health§r§7.\n\n■ The effect level of §aSkyfall Impact§r§7 represents how much percentage damage is dealt. \n\n■ §cRange§r§7 and §cpercentage damage§r§7 increase with the §fexperience level§r§7.",
+	"dragon_ability.dragonsurvival.levitation.desc": "■ Create an updraft beneath the enemy’s feet, §cknocking the target into the air§r§7. When the airflow dissipates, the §fvictim§r§7 falls and suffers §7§fpercentage true damage§r§7 based on their §cmaximum health§r§7.\n\n■ The effect level of §aSkyfall Impact§r§7 represents how much percentage damage is dealt. \n\n■ §cRange§r§7 and §cpercentage damage§r§7 increase §fas you grow§r§7.",
 	"dragon_stage.dragonsurvival.aether_adult": "Adult",
 	"dragon_stage.dragonsurvival.aether_young": "Young",
 	"dragon_stage.dragonsurvival.aether_child": "Newborn",
