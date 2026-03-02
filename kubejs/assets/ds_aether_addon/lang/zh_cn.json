@@ -43,7 +43,7 @@
   "dragon_ability.dragonsurvival.aether_claws_and_teeth.desc": "■ 以太龙的利爪无法替代工具，但可获得§f攻击与挖掘速度§r§7的§2增益§r§7。该能力随§f成长§r§7增强。",
   "dragon_ability.dragonsurvival.aether_claws_and_teeth": "利爪与獠牙（以太龙）",
   "dragon_ability.dragonsurvival.levitation": "上升气流",
-  "dragon_ability.dragonsurvival.levitation.desc": "■ 在敌人脚下§r§7掀起上升气流，§c击飞目标§r§7。气流消散后§f受击者§r§7坠落并受到基于§c最大生命值§r§7的§7§f百分比真实伤害§r§7。\n\n■ §a天坠冲击§r§7的效果等级代表造成多少百分比的伤害。 \n\n■ §c作用范围§r§7与§c百分比伤害§r§7随§f经验等级§r§7而增加。",
+  "dragon_ability.dragonsurvival.levitation.desc": "■ 在敌人脚下§r§7掀起上升气流，§c击飞目标§r§7。气流消散后§f受击者§r§7坠落并受到基于§c最大生命值§r§7的§7§f百分比真实伤害§r§7。\n\n■ §a天坠冲击§r§7的效果等级代表造成多少百分比的伤害。 \n\n■ §c作用范围§r§7与§c百分比伤害§r§7随§f成长阶段§r§7而增加。",
   "dragon_stage.dragonsurvival.aether_adult": "成年龙",
   "dragon_stage.dragonsurvival.aether_young": "青年龙",
   "dragon_stage.dragonsurvival.aether_child": "幼年龙",
