@@ -4,5 +4,7 @@
   "dragon_ability.dragonsurvival.iss_fire4": "Burn Out Everything",
   "dragon_ability.dragonsurvival.iss_fire4.desc": "■ The Cave Dragon chants a spell§r, reducing the armor of surrounding enemies. Then it continuously fires §cthree types of fireballs§r.\n\n■ Unlocked at the Young Dragon stage, §6requires casting on the spot, and the combo completes automatically§r.\n\n§d§oIron Spell integrated ability§r",
   "dragon_ability.dragonsurvival.iss_jade3": "Cloud Dragon Sword",
-  "dragon_ability.dragonsurvival.iss_jade3.desc": "■ The Aether Dragon summons §2seven swords§r to orbit around it, shooting at targets hit by §2jade bullet§r. Then it spits out §2dragon-shaped energy§r, piercing through enemies along the way.\n\n■ This ability can be performed §6instantly, and the combo completes automatically§r.\n\n§d§oIron Spell integrated ability§r"
+  "dragon_ability.dragonsurvival.iss_jade3.desc": "■ The Aether Dragon summons §2seven swords§r to orbit around it, shooting at targets hit by §2jade bullet§r. Then it spits out §2dragon-shaped energy§r, piercing through enemies along the way.\n\n■ This ability can be performed §6instantly, and the combo completes automatically§r.\n\n§d§oIron Spell integrated ability§r",
+  "dragon_ability.dragonsurvival.iss_jade4": "Be quick to obey my command",
+  "dragon_ability.dragonsurvival.iss_jade4.desc": "■ The Aether Dragon casts §2Bagua Circle§r, immobilizing enemies and summoning a §2giant sword§r to strike. Then it summons §2Black and White Impermanents§r, dealing §2percentage damage§r based on the target's missing health.\n\n■ Unlocked at the Young Dragon stage, §6requires casting on the spot with the crosshair aimed at the target, and the combo completes automatically§r.\n\n§d§oIron Spell integrated ability§r"
 }
