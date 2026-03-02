@@ -9,8 +9,8 @@
                             "modifiers": [
                                 {
                                     "base": {
-                                        "id": "iss_fire4_speed",
-                                        "duration": 60,
+                                        "id": "iss_jade4_speed",
+                                        "duration": 100,
                                         "should_remove_automatically": true
                                     },
                                     "modifiers": [
@@ -28,13 +28,13 @@
                             "modifiers": [
                                 {
                                     "base": {
-                                        "id": "iss_fire4",
-                                        "duration": 60,
+                                        "id": "iss_jade4",
+                                        "duration": 100,
                                         "should_remove_automatically": true
                                     },
                                     "modifiers": [
                                         {
-                                            "attribute": "irons_spellbooks:fire_spell_power",
+                                            "attribute": "iss_magicfromtheeast:symmetry_spell_power",
                                             "amount": {
                                                 "type": "minecraft:linear",
                                                 "base": 1.0,
@@ -48,7 +48,7 @@
                         },
                         {
                             "effect_type": "dragonsurvival:run_function",
-                            "function": "iss_ds_integration:iss_fire4/iss_fire4_main"
+                            "function": "iss_ds_integration:iss_jade4/iss_jade4_main"
                         }
                     ],
                     "targeting_mode": "allies_and_self"
@@ -61,22 +61,15 @@
     "activation": {
         "activation_type": "dragonsurvival:simple",
         "animations": {
-            "start_and_charging": {
-                "animation_key": "cast_self_buff",
-                "layer": "BASE",
-                "locks_neck": false,
-                "locks_tail": true,
-                "transition_length": 5
-            },
             "end": {
-                "animation_key": "self_buff",
+                "animation_key": "magic_alt",
                 "layer": "BASE",
                 "locks_neck": false,
                 "locks_tail": true,
                 "transition_length": 5
             }
         },
-        "can_move_while_casting": false,
+        "can_move_while_casting": true,
         "cast_time": {
             "type": "minecraft:linear",
             "base": 60,
@@ -84,8 +77,8 @@
         },
         "cooldown": {
             "type": "minecraft:linear",
-            "base": 80,
-            "per_level_above_first": 80
+            "base": 200,
+            "per_level_above_first": 100
         },
         "initial_mana_cost": {
             "type": "minecraft:linear",
@@ -98,27 +91,27 @@
         "texture_entries": [
             {
                 "from_level": 0,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_0"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_jade3_0"
             },
             {
                 "from_level": 1,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_jade3_1"
             },
             {
                 "from_level": 2,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_jade3_1"
             },
             {
                 "from_level": 3,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_jade3_1"
             },
             {
                 "from_level": 4,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_jade3_1"
             },
             {
                 "from_level": 5,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_fire4_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_jade3_1"
             }
         ]
     },
