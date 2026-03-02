@@ -504,7 +504,7 @@
 			rewards: [{
 				id: "6BB3A52A1D287EA4"
 				type: "xp"
-				xp: 100
+				xp: 300
 			}]
 			size: 1.0d
 			tasks: [{
@@ -522,7 +522,7 @@
 			rewards: [{
 				id: "01547567F09874D1"
 				type: "xp"
-				xp: 100
+				xp: 500
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:kill_creteor"
@@ -539,7 +539,7 @@
 			rewards: [{
 				id: "4BF13EEEF2F4D5A4"
 				type: "xp"
-				xp: 100
+				xp: 800
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:summon_aethersent_golem"
@@ -550,7 +550,7 @@
 				id: "323321E9CF946602"
 				type: "advancement"
 			}]
-			x: 29.0d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
@@ -802,7 +802,7 @@
 			rewards: [{
 				id: "4EAF6ACD4C3ECB38"
 				type: "xp"
-				xp: 100
+				xp: 500
 			}]
 			tasks: [{
 				id: "44B4C17C07DE6D47"
@@ -821,7 +821,7 @@
 			rewards: [{
 				id: "689DDE8DB4404A9B"
 				type: "xp"
-				xp: 100
+				xp: 500
 			}]
 			tasks: [{
 				id: "4811438DBDF8D44D"
@@ -906,7 +906,7 @@
 			rewards: [{
 				id: "6A3D685A0B3FF60F"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			shape: "none"
 			tasks: [{
@@ -997,7 +997,7 @@
 				{
 					id: "493E3115E64826EE"
 					type: "xp"
-					xp: 100
+					xp: 500
 				}
 				{
 					id: "3926C790148E513E"
@@ -1015,6 +1015,27 @@
 				type: "item"
 			}]
 			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1011C97DAE40FD1B"]
+			id: "7A29CD2932DB3DC7"
+			rewards: [{
+				id: "2E837EE9D7623A9A"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				icon: {
+					id: "eternal_starlight:lunaris_cactus"
+				}
+				id: "4B1FD1984042D850"
+				observe_type: 0
+				timer: 100L
+				to_observe: "eternal_starlight:lunaris_cactus"
+				type: "observation"
+			}]
+			x: 28.0d
 			y: 0.0d
 		}
 	]
