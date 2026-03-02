@@ -8,13 +8,13 @@
     },
     "cast_time": {
       "type": "minecraft:linear",
-      "base": 20,
+      "base": 10,
       "per_level_above_first": 10
     },
     "cooldown": {
       "type": "minecraft:linear",
-      "base": 1200,
-      "per_level_above_first": 600
+      "base": 200,
+      "per_level_above_first": 200
     },
     "can_move_while_casting": true,
     "animations": {
@@ -26,16 +26,24 @@
       }
     }
   },
-   "upgrade": {
-    "upgrade_type": "dragonsurvival:experience_levels",
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
     "maximum_level": 6,
     "growth_requirement": {
-      "type": "minecraft:lookup"
-    },
-    "level_requirement": {
-      "type": "minecraft:linear",
-      "base": 0,
-      "per_level_above_first": 20
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 50.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        20.0,
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
+      ]
     }
   },
   "actions": [
@@ -82,23 +90,23 @@
         "texture_resource": "dragonsurvival:abilities/aether/upstream_1",
         "from_level": 1
       },
-	  {
+      {
         "texture_resource": "dragonsurvival:abilities/aether/upstream_2",
         "from_level": 2
       },
-	  {
+      {
         "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
         "from_level": 3
       },
-	  {
+      {
         "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
         "from_level": 4
       },
-	  {
+      {
         "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
         "from_level": 5
       },
-	  {
+      {
         "texture_resource": "dragonsurvival:abilities/aether/upstream_3",
         "from_level": 6
       }
