@@ -3891,7 +3891,8 @@
 	quest.6EAEEAE8C52FF9D4.quest_subtitle: "附魔自助餐"
 	quest.6EAEEAE8C52FF9D4.title: "高级附魔台"
 	quest.6EB8860F9973F098.quest_desc: [
-		"&6用于合成&5幻化台"
+		"&e虚空碎片&6可用于合成&5幻化台&6。"
+		"&6如果将盔甲幻化为&e虚空碎片&6，则盔甲将被隐藏。"
 		""
 		"&c（配方已被修改，需要远古龙尘）"
 	]
