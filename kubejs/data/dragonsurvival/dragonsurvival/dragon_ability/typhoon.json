@@ -6,8 +6,9 @@
           "entity_effect": [
             {
               "effect_type": "dragonsurvival:projectile",
-              "number_of_projectiles": 1.0,
+              "number_of_projectiles": 1,
               "projectile_data": "dragonsurvival:wind_blow",
+              "projectile_spread": 1,
               "speed": 4.0,
               "target_direction": {
                 "direction": "looking_at"
@@ -34,16 +35,20 @@
   "activation": {
     "activation_type": "dragonsurvival:simple",
     "animations": {
-      "start_and_charging": {
-        "animation_key": "spell_charge",
+      "end": {
+        "animation_key": "bite",
         "layer": "BREATH",
         "locks_neck": false,
         "locks_tail": false,
         "transition_length": 5
       }
     },
-    "cast_time": 0.0,
-    "cooldown": 60.0,
+    "cast_time": 1.0,
+    "cooldown": {
+      "type": "minecraft:linear",
+      "base": 60.0,
+      "per_level_above_first": -10.0
+    },
     "initial_mana_cost": 1.0,
     "sound": {
       "end": "minecraft:entity.wind_charge.wind_burst"
@@ -51,7 +56,7 @@
   },
   "icon": {
     "texture_entries": [
-	 {
+      {
         "from_level": 0,
         "texture_resource": "dragonsurvival:abilities/aether/typhoon_0"
       },
@@ -82,23 +87,23 @@
     ]
   },
   "upgrade": {
-    "level_requirement": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
         "type": "minecraft:linear",
-        "base": 20.0,
-        "per_level_above_first": 20.0
+        "base": 50.0,
+        "per_level_above_first": 50.0
       },
       "values": [
-        0.0,
         20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
       ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
+    }
   }
 }

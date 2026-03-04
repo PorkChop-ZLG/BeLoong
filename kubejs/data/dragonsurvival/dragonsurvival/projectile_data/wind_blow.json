@@ -15,9 +15,20 @@
     "entity_hit_effects": [
       {
         "amount": {
-          "type": "minecraft:linear",
-          "base": 10.0,
-          "per_level_above_first": 10.0
+          "type": "minecraft:lookup",
+          "fallback": {
+            "type": "minecraft:linear",
+            "base": 10.0,
+            "per_level_above_first": 10.0
+          },
+          "values": [
+            10.0,
+            20.0,
+            40.0,
+            80.0,
+            160.0,
+            320.0
+          ]
         },
         "damage_type": "minecraft:wind_charge",
         "entity_effect": "dragonsurvival:damage"
@@ -28,10 +39,10 @@
   },
   "type_data": {
     "behaviour_data": {
-      "height": 1.0,
+      "height": 1.5,
       "max_lifespan": 100.0,
       "max_movement_distance": 32.0,
-      "width": 1.0
+      "width": 1.5
     },
     "on_destroy_effects": [
       {
@@ -44,10 +55,10 @@
                 "damage_type": "minecraft:wind_charge",
                 "explosion_power": {
                   "type": "minecraft:linear",
-                  "base": 1.0,
-                  "per_level_above_first": 1.0
+                  "base": 2.0,
+                  "per_level_above_first": 0.5
                 },
-				"fire": false,
+                "fire": false,
                 "world_effect": "dragonsurvival:explosion"
               }
             }

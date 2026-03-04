@@ -59,5 +59,10 @@
         "from_level": 1
       }
     ]
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 1,
+    "growth_requirement": 50
   }
 }

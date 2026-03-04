@@ -7,7 +7,22 @@
             {
               "effect_type": "dragonsurvival:potion",
               "potion": {
-                "amplifier": 0.0,
+                "amplifier": {
+                  "type": "minecraft:lookup",
+                  "fallback": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                  },
+                  "values": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                },
                 "duration": 200.0,
                 "effects": "minecraft:speed",
                 "probability": 1.0
@@ -24,7 +39,7 @@
               }
             }
           },
-          "targeting_mode": "allies"
+          "targeting_mode": "allies_and_self"
         },
         "range_multiplier": 1.0,
         "target_type": "dragonsurvival:dragon_breath"
@@ -37,9 +52,20 @@
           "entity_effect": [
             {
               "amount": {
-                "type": "minecraft:linear",
-                "base": 0.0,
-                "per_level_above_first": 1.0
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 1.0,
+                  "per_level_above_first": 1.0
+                },
+                "values": [
+                  1.0,
+                  2.0,
+                  4.0,
+                  8.0,
+                  16.0,
+                  32.0
+                ]
               },
               "damage_type": "minecraft:wind_charge",
               "effect_type": "dragonsurvival:damage"
@@ -135,7 +161,7 @@
         "transition_length": 5
       }
     },
-    "cast_time": 0.0,
+    "cast_time": 1.0,
     "continuous_mana_cost": {
       "type": "ticking",
       "amount": 0.0
@@ -180,23 +206,23 @@
     ]
   },
   "upgrade": {
-    "level_requirement": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
         "type": "minecraft:linear",
-        "base": 20.0,
-        "per_level_above_first": 20.0
+        "base": 50.0,
+        "per_level_above_first": 50.0
       },
       "values": [
-        0.0,
         20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
       ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
+    }
   }
 }

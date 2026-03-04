@@ -1,0 +1,55 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "initial_mana_cost": 6,
+    "cast_time": 20,
+    "cooldown": 6000,
+    "can_move_while_casting": false,
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "cast_mass_buff",
+        "layer": "BASE",
+        "locks_neck": false,
+        "locks_tail": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:area",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:potion",
+              "potion": {
+                "effects": "minecraft:slow_falling",
+                "amplifier": 0,
+                "duration": 6000,
+                "probability": 1,
+                "effect_particles": false,
+                "show_icon": false
+              }
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        },
+        "radius": 10
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "can_be_manually_disabled": false,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/fall_of_feather_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/aether/fall_of_feather_1",
+        "from_level": 1
+      }
+    ]
+  }
+}
