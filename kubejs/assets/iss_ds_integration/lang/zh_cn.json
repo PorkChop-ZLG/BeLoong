@@ -3,8 +3,12 @@
   "dragon_ability.dragonsurvival.iss_fire3.desc": "■ 洞穴龙§c向前突进§r，挥出§c炽焰斩击§r。随后拍击地板，释放§c地火§r。\n\n■ 该技能可§6瞬间施展，连招自动完成§r。\n\n§d§o铁魔法联动技能§r",
   "dragon_ability.dragonsurvival.iss_fire4": "烧尽一切",
   "dragon_ability.dragonsurvival.iss_fire4.desc": "■ 洞穴龙吟唱咒语§r，削减周围敌人的盔甲值。随后连续发射§c三种火焰弹§r。\n\n■ 青年龙阶段解锁，§6需要原地施法，连招自动完成§r。\n\n§d§o铁魔法联动技能§r",
+  "dragon_ability.dragonsurvival.iss_nature3": "鸡尾酒",
+  "dragon_ability.dragonsurvival.iss_nature3.desc": "■ 森林龙§2喷吐毒球§r，削弱敌人盔甲值。随后射出§2毒箭§r，在目标区域释放§2毒云§r。\n\n■ 该技能可§6瞬间施展，连招自动完成§r。\n\n§d§o铁魔法联动技能§r",
+  "dragon_ability.dragonsurvival.iss_nature4": "森林之怒",
+  "dragon_ability.dragonsurvival.iss_nature4.desc": "■ 森林龙将皮肤变成§2树皮§r，用§2树根§r束缚敌人使其§2枯萎§r。从天而降使§2大地震颤§r，随后吐出§2剧毒龙息§r。\n\n■ 青年龙阶段解锁，§6需要原地施法，准星对准目标，连招自动完成§r。\n\n§d§o铁魔法联动技能§r",
   "dragon_ability.dragonsurvival.iss_jade3": "云龙剑",
-  "dragon_ability.dragonsurvival.iss_jade3.desc": "■ 以太龙召唤§2七把飞剑§r环绕身侧，射向§2飞弹§r命中的目标。随后吐出§2龙形真气§r，贯穿沿途的敌人。\n\n■ 该技能可§6瞬间施展，连招自动完成§r。\n\n§d§o铁魔法联动技能§r",
+  "dragon_ability.dragonsurvival.iss_jade3.desc": "■ 以太龙召唤§a飞剑§r环绕身侧，射向§a飞弹§r命中的目标。随后吐出§a龙形真气§r，贯穿沿途的敌人。\n\n■ 该技能可§6瞬间施展，连招自动完成§r。\n\n§d§o铁魔法联动技能§r",
   "dragon_ability.dragonsurvival.iss_jade4": "急急如律令",
-  "dragon_ability.dragonsurvival.iss_jade4.desc": "■ 以太龙布下§2八卦阵§r，束缚住敌人并召唤§2巨剑§r轰击。随后召唤§2黑白无常§r，造成§2基于目标已损失生命值§r的§2百分比伤害§r。\n\n■ 青年龙阶段解锁，§6需要原地施法，准星对准目标，连招自动完成§r。\n\n§d§o铁魔法联动技能§r"
+  "dragon_ability.dragonsurvival.iss_jade4.desc": "■ 以太龙布下§a八卦阵§r，束缚住敌人并召唤§a巨剑§r轰击。随后召唤§a黑白无常§r，造成§a基于目标已损失生命值§r的§a百分比伤害§r。\n\n■ 青年龙阶段解锁，§6需要原地施法，准星对准目标，连招自动完成§r。\n\n§d§o铁魔法联动技能§r"
 }

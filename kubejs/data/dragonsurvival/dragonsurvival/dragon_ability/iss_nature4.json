@@ -7,11 +7,30 @@
                         {
                             "effect_type": "dragonsurvival:potion",
                             "potion": {
+                                "effects": "irons_spellbooks:oakskin",
+                                "amplifier": {
+                                    "type": "minecraft:linear",
+                                    "base": 1,
+                                    "per_level_above_first": 2
+                                },
+                                "duration": {
+                                    "type": "minecraft:linear",
+                                    "base": 200,
+                                    "per_level_above_first": 200
+                                },
+                                "probability": 1,
+                                "effect_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
                                 "effects": "irons_spellbooks:spider_aspect",
                                 "amplifier": {
                                     "type": "minecraft:linear",
-                                    "base": 0,
-                                    "per_level_above_first": 1
+                                    "base": 1,
+                                    "per_level_above_first": 2
                                 },
                                 "duration": {
                                     "type": "minecraft:linear",
@@ -28,8 +47,8 @@
                             "modifiers": [
                                 {
                                     "base": {
-                                        "id": "iss_nature3_speed",
-                                        "duration": 20,
+                                        "id": "iss_nature4_speed",
+                                        "duration": 50,
                                         "should_remove_automatically": true,
                                         "is_hidden": true
                                     },
@@ -48,8 +67,8 @@
                             "modifiers": [
                                 {
                                     "base": {
-                                        "id": "iss_nature3",
-                                        "duration": 20,
+                                        "id": "iss_nature4",
+                                        "duration": 50,
                                         "should_remove_automatically": true,
                                         "is_hidden": true
                                     },
@@ -59,7 +78,7 @@
                                             "amount": {
                                                 "type": "minecraft:linear",
                                                 "base": 1.0,
-                                                "per_level_above_first": 1.0
+                                                "per_level_above_first": 2.0
                                             },
                                             "operation": "add_value"
                                         }
@@ -69,7 +88,7 @@
                         },
                         {
                             "effect_type": "dragonsurvival:run_function",
-                            "function": "iss_ds_integration:iss_nature3/iss_nature3_main"
+                            "function": "iss_ds_integration:iss_nature4/iss_nature4_main"
                         }
                     ],
                     "targeting_mode": "allies_and_self"
@@ -82,25 +101,36 @@
     "activation": {
         "activation_type": "dragonsurvival:simple",
         "animations": {
+            "start_and_charging": {
+                "animation_key": "cast_mass_buff",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": true,
+                "transition_length": 5
+            },
             "end": {
-                "animation_key": "magic_alt",
+                "animation_key": "self_buff",
                 "layer": "BASE",
                 "locks_neck": false,
                 "locks_tail": true,
                 "transition_length": 5
             }
         },
-        "can_move_while_casting": true,
-        "cast_time": 1.0,
+        "can_move_while_casting": false,
+        "cast_time": {
+            "type": "minecraft:linear",
+            "base": 100,
+            "per_level_above_first": -10
+        },
         "cooldown": {
             "type": "minecraft:linear",
-            "base": 180,
-            "per_level_above_first": -30
+            "base": 200,
+            "per_level_above_first": 200
         },
         "initial_mana_cost": {
             "type": "minecraft:linear",
-            "base": 3,
-            "per_level_above_first": 1
+            "base": 4,
+            "per_level_above_first": 2
         }
     },
     "can_be_manually_disabled": true,
@@ -108,31 +138,27 @@
         "texture_entries": [
             {
                 "from_level": 0,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature3_0"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature4_0"
             },
             {
                 "from_level": 1,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature4_1"
             },
             {
                 "from_level": 2,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature4_1"
             },
             {
                 "from_level": 3,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature4_1"
             },
             {
                 "from_level": 4,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature4_1"
             },
             {
                 "from_level": 5,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature3_1"
-            },
-            {
-                "from_level": 6,
-                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature3_1"
+                "texture_resource": "dragonsurvival:abilities/iss_ds_integration/iss_nature4_1"
             }
         ]
     },
@@ -146,7 +172,6 @@
                 "per_level_above_first": 50.0
             },
             "values": [
-                20.0,
                 50.0,
                 100.0,
                 150.0,
@@ -154,6 +179,6 @@
                 250.0
             ]
         },
-        "maximum_level": 6
+        "maximum_level": 5
     }
 }
