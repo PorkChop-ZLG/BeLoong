@@ -11,7 +11,8 @@
                                     "base": {
                                         "id": "iss_jade3_speed",
                                         "duration": 40,
-                                        "should_remove_automatically": true
+                                        "should_remove_automatically": true,
+                                        "is_hidden": true
                                     },
                                     "modifiers": [
                                         {
@@ -30,7 +31,8 @@
                                     "base": {
                                         "id": "iss_jade3",
                                         "duration": 40,
-                                        "should_remove_automatically": true
+                                        "should_remove_automatically": true,
+                                        "is_hidden": true
                                     },
                                     "modifiers": [
                                         {

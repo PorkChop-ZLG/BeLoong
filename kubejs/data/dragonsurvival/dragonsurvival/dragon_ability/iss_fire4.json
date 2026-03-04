@@ -11,7 +11,8 @@
                                     "base": {
                                         "id": "iss_fire4_speed",
                                         "duration": 60,
-                                        "should_remove_automatically": true
+                                        "should_remove_automatically": true,
+                                        "is_hidden": true
                                     },
                                     "modifiers": [
                                         {
@@ -30,7 +31,8 @@
                                     "base": {
                                         "id": "iss_fire4",
                                         "duration": 60,
-                                        "should_remove_automatically": true
+                                        "should_remove_automatically": true,
+                                        "is_hidden": true
                                     },
                                     "modifiers": [
                                         {

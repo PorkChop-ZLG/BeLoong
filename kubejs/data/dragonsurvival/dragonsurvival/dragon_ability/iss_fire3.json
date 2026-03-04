@@ -11,7 +11,8 @@
                                     "base": {
                                         "id": "iss_fire3",
                                         "duration": 40,
-                                        "should_remove_automatically": true
+                                        "should_remove_automatically": true,
+                                        "is_hidden": true
                                     },
                                     "modifiers": [
                                         {
