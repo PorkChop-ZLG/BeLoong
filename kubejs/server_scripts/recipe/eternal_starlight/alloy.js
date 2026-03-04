@@ -39,38 +39,128 @@ ServerEvents.recipes(event => {
             ]
         }
     )
-    // 3种龙鳞块 = 合金炉 = 始祖龙鳞
+    // 火龙鳞块 + 龙鳞 = 合金炉 = 始祖龙鳞
     event.custom(
         {
             "type": "eternal_starlight:alloy",
             "burn_time": 6000,
             "ingredients": [
                 {
-                    "tag": "iceandfire:storage_blocks/scales/dragon/fire"
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
                 },
                 {
                     "tag": "iceandfire:storage_blocks/scales/dragon/fire"
                 },
                 {
-                    "tag": "iceandfire:storage_blocks/scales/dragon/fire"
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                }
+            ],
+            "results": [
+                {
+                    "amount": 1,
+                    "item": {
+                        "count": 1,
+                        "id": "kubejs:progenitor_dragon_scale"
+                    }
+                }
+            ]
+        }
+    )
+    // 冰龙鳞块 + 龙鳞  = 合金炉 = 始祖龙鳞
+    event.custom(
+        {
+            "type": "eternal_starlight:alloy",
+            "burn_time": 6000,
+            "ingredients": [
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
                 },
                 {
                     "tag": "iceandfire:storage_blocks/scales/dragon/ice"
                 },
                 {
-                    "tag": "iceandfire:storage_blocks/scales/dragon/ice"
+                    "item": "irons_spellbooks:dragonskin"
                 },
                 {
-                    "tag": "iceandfire:storage_blocks/scales/dragon/ice"
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                }
+            ],
+            "results": [
+                {
+                    "amount": 1,
+                    "item": {
+                        "count": 1,
+                        "id": "kubejs:progenitor_dragon_scale"
+                    }
+                }
+            ]
+        }
+    )
+    // 电龙鳞块 + 龙鳞  = 合金炉 = 始祖龙鳞
+    event.custom(
+        {
+            "type": "eternal_starlight:alloy",
+            "burn_time": 6000,
+            "ingredients": [
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
                 },
                 {
                     "tag": "iceandfire:storage_blocks/scales/dragon/lightning"
                 },
                 {
-                    "tag": "iceandfire:storage_blocks/scales/dragon/lightning"
+                    "item": "irons_spellbooks:dragonskin"
                 },
                 {
-                    "tag": "iceandfire:storage_blocks/scales/dragon/lightning"
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
+                },
+                {
+                    "item": "irons_spellbooks:dragonskin"
                 }
             ],
             "results": [

@@ -9,6 +9,8 @@ item modify entity @s armor.chest {function:"set_components",components:{unbreak
 item modify entity @s armor.legs {function:"set_components",components:{unbreakable:{}}}
 # 靴子
 item modify entity @s armor.feet {function:"set_components",components:{unbreakable:{}}}
+# 副手
+item modify entity @s weapon.offhand {function:"set_components",components:{unbreakable:{}}}
 # 村民绿色粒子效果
 particle minecraft:happy_villager ~ ~1 ~ 0.6 0.6 0.6 0.1 40 force @s
 # 铁砧修复装备音效
