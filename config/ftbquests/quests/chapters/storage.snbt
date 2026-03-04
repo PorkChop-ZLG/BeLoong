@@ -338,22 +338,6 @@
 		}
 		{
 			dependencies: ["21E6DAFDF89BABEF"]
-			id: "1DF883931DC04F9D"
-			rewards: [{
-				id: "3D2686FF7EB0FC07"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "1FFFE6E24628B334"
-				item: { count: 1, id: "beyonddimensions:stable_space_time_fragment" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["21E6DAFDF89BABEF"]
 			id: "4A5D5042C28278A2"
 			rewards: [{
 				id: "4270525316638F80"

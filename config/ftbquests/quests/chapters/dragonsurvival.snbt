@@ -134,14 +134,6 @@
 					silent: true
 					type: "command"
 				}
-				{
-					id: "6C4980664D2B4662"
-					item: {
-						count: 1
-						id: "beyonddimensions:net_creater"
-					}
-					type: "item"
-				}
 			]
 			shape: "hexagon"
 			size: 3.0d

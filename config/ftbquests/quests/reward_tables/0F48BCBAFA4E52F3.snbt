@@ -19,7 +19,7 @@
 			}
 		}
 		{ id: "7B4B0529DF34DB4D", item: { count: 1, id: "yuushya:octagon_pavilion" } }
-		{ id: "598C4C098CE95979", item: { count: 1, id: "sophisticatedbackpacks:backpack" } }
 		{ id: "4C0CA9DF13E7E966", item: { count: 1, id: "waystones:warp_stone" } }
+		{ id: "693C910955966994", item: { count: 1, id: "beyonddimensions:net_creater" } }
 	]
 }
