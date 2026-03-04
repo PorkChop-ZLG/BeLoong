@@ -3096,6 +3096,76 @@
 			append = ""
 			format = ""
 
+		[type.wing_kirin.rainstorm_arrow]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.wing_kirin.rainstorm_arrow.icon]
+				tex = ""
+				item = ""
+
+			[type.wing_kirin.rainstorm_arrow.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.wing_kirin.wind_devastate]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.wing_kirin.wind_devastate.icon]
+				tex = ""
+				item = ""
+
+			[type.wing_kirin.wind_devastate.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.wing_kirin.breath_disappear]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.wing_kirin.breath_disappear.icon]
+				tex = ""
+				item = ""
+
+			[type.wing_kirin.breath_disappear.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.wing_kirin.trace_ding]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.wing_kirin.trace_ding.icon]
+				tex = ""
+				item = ""
+
+			[type.wing_kirin.trace_ding.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.wing_kirin.counter_shock]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.wing_kirin.counter_shock.icon]
+				tex = ""
+				item = ""
+
+			[type.wing_kirin.counter_shock.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
