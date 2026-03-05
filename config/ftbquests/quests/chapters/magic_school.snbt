@@ -5634,5 +5634,34 @@
 			x: 16.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["77B34238D24BB235"]
+			id: "1E250D53F3F4377E"
+			rewards: [
+				{
+					id: "79714BB6F0D3EA88"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "568072FB998A1595"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "33B343DA4D5DBFD4"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:volt_strike", index: 0, level: 10, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.5d
+		}
 	]
 }
