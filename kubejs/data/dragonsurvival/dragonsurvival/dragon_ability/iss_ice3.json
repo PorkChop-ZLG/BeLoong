@@ -10,7 +10,7 @@
                                 {
                                     "base": {
                                         "id": "iss_ice3_speed",
-                                        "duration": 40,
+                                        "duration": 20,
                                         "should_remove_automatically": true,
                                         "is_hidden": true
                                     },
@@ -30,13 +30,13 @@
                                 {
                                     "base": {
                                         "id": "iss_ice3",
-                                        "duration": 40,
+                                        "duration": 20,
                                         "should_remove_automatically": true,
                                         "is_hidden": true
                                     },
                                     "modifiers": [
                                         {
-                                            "attribute": "irons_spellbooks:fire_spell_power",
+                                            "attribute": "irons_spellbooks:ice_spell_power",
                                             "amount": {
                                                 "type": "minecraft:linear",
                                                 "base": 1.0,
