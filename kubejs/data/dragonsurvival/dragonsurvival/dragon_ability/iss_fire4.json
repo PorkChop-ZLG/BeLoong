@@ -64,7 +64,7 @@
         "activation_type": "dragonsurvival:simple",
         "animations": {
             "start_and_charging": {
-                "animation_key": "cast_self_buff",
+                "animation_key": "cast_mass_buff",
                 "layer": "BASE",
                 "locks_neck": false,
                 "locks_tail": true,

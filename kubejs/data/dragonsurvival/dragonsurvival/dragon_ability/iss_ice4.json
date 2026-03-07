@@ -5,6 +5,25 @@
                 "applied_effects": {
                     "entity_effect": [
                         {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
+                                "effects": "irons_spellbooks:frostbite",
+                                "amplifier": {
+                                    "type": "minecraft:linear",
+                                    "base": 1,
+                                    "per_level_above_first": 2
+                                },
+                                "duration": {
+                                    "type": "minecraft:linear",
+                                    "base": 200,
+                                    "per_level_above_first": 200
+                                },
+                                "probability": 1,
+                                "effect_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        {
                             "effect_type": "dragonsurvival:modifier",
                             "modifiers": [
                                 {
@@ -50,7 +69,7 @@
                         },
                         {
                             "effect_type": "dragonsurvival:run_function",
-                            "function": "iss_ds_integration:iss_fire4/iss_fire4_main"
+                            "function": "iss_ds_integration:iss_ice4/iss_ice4_main"
                         }
                     ],
                     "targeting_mode": "allies_and_self"
@@ -64,7 +83,7 @@
         "activation_type": "dragonsurvival:simple",
         "animations": {
             "start_and_charging": {
-                "animation_key": "cast_self_buff",
+                "animation_key": "cast_mass_buff",
                 "layer": "BASE",
                 "locks_neck": false,
                 "locks_tail": true,

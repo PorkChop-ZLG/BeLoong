@@ -5,6 +5,25 @@
                 "applied_effects": {
                     "entity_effect": [
                         {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
+                                "effects": "irons_spellbooks:frostbite",
+                                "amplifier": {
+                                    "type": "minecraft:linear",
+                                    "base": 0,
+                                    "per_level_above_first": 1
+                                },
+                                "duration": {
+                                    "type": "minecraft:linear",
+                                    "base": 200,
+                                    "per_level_above_first": 200
+                                },
+                                "probability": 1,
+                                "effect_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        {
                             "effect_type": "dragonsurvival:modifier",
                             "modifiers": [
                                 {
