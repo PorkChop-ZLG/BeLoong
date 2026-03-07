@@ -2226,13 +2226,6 @@
 	quest.3B512F52E529954C.quest_subtitle: "成长到青年龙阶段"
 	quest.3B512F52E529954C.title: "青年以太龙"
 	quest.3B93840E4935B0B0.title: "打卡：海洋"
-	quest.3BCE1EDA71616276.quest_desc: [
-		"&6维度网络管理员潜行右键后可以将其绑定到当前网络。"
-		""
-		"&6用于AE2的存储元件，放入ME驱动器后即可让ME网络读取其所绑定的维度网络内容。在1000种不同物品的测试中，性能消耗比起使用存储总线要好10倍以上。"
-		""
-		"&c(本整合包无用，除非你自己加AE)"
-	]
 	quest.3BF1FD634ECFCB4E.quest_desc: ["&3恭喜你完成了以太龙的成长之路！"]
 	quest.3C6B0A594CE6F7E7.quest_desc: [
 		"&6泰拉BOSS死后&c无法生成&6BOSS重生笼，"

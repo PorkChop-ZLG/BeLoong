@@ -578,22 +578,5 @@
 			x: 12.0d
 			y: 1.5d
 		}
-		{
-			dependencies: ["790877257A40CEF8"]
-			id: "3BCE1EDA71616276"
-			optional: true
-			rewards: [{
-				id: "7BAF5155697894B7"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6A82728F7343360A"
-				item: { count: 1, id: "beyonddimensions:net_ae_storage_cell" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 2.5d
-		}
 	]
 }

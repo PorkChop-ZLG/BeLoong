@@ -655,8 +655,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -12.0d
+			x: 5.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["066358117A2EDCD6"]
@@ -684,8 +684,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -11.5d
+			x: 6.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["066358117A2EDCD6"]
@@ -4997,8 +4997,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -12.0d
+			x: 4.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["066358117A2EDCD6"]
@@ -5026,8 +5026,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -11.5d
+			x: 3.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["066358117A2EDCD6"]
@@ -5055,8 +5055,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -10.5d
+			x: 3.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1CECEAD9D6372EF2"]

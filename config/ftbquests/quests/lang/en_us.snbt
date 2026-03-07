@@ -2257,13 +2257,6 @@
 	quest.3B512F52E529954C.quest_subtitle: "Grow to the Young Dragon stage"
 	quest.3B512F52E529954C.title: "Young Aether Dragon"
 	quest.3B93840E4935B0B0.title: "Check-in: Ocean"
-	quest.3BCE1EDA71616276.quest_desc: [
-		"&6Dimension network admins can bind it to the current network by sneaking and right-clicking."
-		""
-		"&6Used for AE2 storage cells. Placing it in an ME Drive allows the ME network to read the contents of the dimension network it is bound to. In tests with 1000 different items, the performance cost is over 10 times better than using a Storage Bus."
-		""
-		"&c(Not useful in this modpack unless you add AE yourself)"
-	]
 	quest.3BF1FD634ECFCB4E.quest_desc: ["&3Congratulations on completing the Aether Dragon's path of growth!"]
 	quest.3C6B0A594CE6F7E7.quest_desc: [
 		"&6Terra Bosses &ccannot generate &6Boss Respawn Cages after death."
