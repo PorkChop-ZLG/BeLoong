@@ -78,11 +78,7 @@
             "base": 100,
             "per_level_above_first": -20
         },
-        "initial_mana_cost": {
-            "type": "minecraft:linear",
-            "base": 3,
-            "per_level_above_first": 1
-        }
+        "initial_mana_cost": 3
     },
     "can_be_manually_disabled": true,
     "icon": {
