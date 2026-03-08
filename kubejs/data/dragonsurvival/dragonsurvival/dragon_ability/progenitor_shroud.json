@@ -8,11 +8,25 @@
                         {
                             "effect_type": "dragonsurvival:potion",
                             "potion": {
+                                "effects": "irons_spellbooks:heartstop",
+                                "duration": {
+                                    "type": "minecraft:linear",
+                                    "base": 140,
+                                    "per_level_above_first": 40
+                                },
+                                "amplifier": 0,
+                                "effect_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
                                 "effects": "irons_spellbooks:abyssal_shroud",
                                 "duration": {
                                     "type": "minecraft:linear",
-                                    "base": 300,
-                                    "per_level_above_first": 100
+                                    "base": 150,
+                                    "per_level_above_first": 50
                                 },
                                 "amplifier": 0,
                                 "effect_particles": true,
@@ -48,47 +62,47 @@
         "texture_entries": [
             {
                 "from_level": 0,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_0"
             },
             {
                 "from_level": 1,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 2,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 3,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 4,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 5,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 6,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 7,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 8,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 9,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             },
             {
                 "from_level": 10,
-                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud"
+                "texture_resource": "dragonsurvival:abilities/beloong/progenitor_shroud_1"
             }
         ]
     },
