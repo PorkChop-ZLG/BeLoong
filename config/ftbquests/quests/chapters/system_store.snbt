@@ -1425,5 +1425,47 @@
 			x: 0.0d
 			y: 5.0d
 		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3859C3FFB6F2C61B"
+				"508CCA54F0BC90CA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "kubejs:progenitor_dragon_breath"
+			}
+			id: "2F6413E87AEFEA8C"
+			rewards: [{
+				id: "7F7586D67E89A991"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_breath"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					count: 7L
+					id: "7D381EFC071C4302"
+					item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "01A9B0D3AFD4C3B6"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					id: "7FE1FF9F2DFE92CC"
+					item: { count: 1, id: "touhou_little_maid_spell:spell_enhancement_core" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
 	]
 }

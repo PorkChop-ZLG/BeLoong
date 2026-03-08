@@ -219,6 +219,9 @@
   "item.kubejs.progenitor_dragon_ball": "始祖龙珠",
   "item.kubejs.progenitor_dragon_ball.tooltip.1": "§6■ 右键使用，添加第二页饰品栏。",
   "item.kubejs.progenitor_dragon_ball.tooltip.2": "§7■ 始祖巨龙口含的宝珠，又称夜明珠。虽然经过无尽岁月，仍然熠熠生辉。",
+  "item.kubejs.progenitor_dragon_breath": "始祖龙息",
+  "item.kubejs.progenitor_dragon_breath.tooltip.1": "§6■ 右键使用，习得所有龙的铁魔法联动技能。",
+  "item.kubejs.progenitor_dragon_breath.tooltip.2": "§7■ 据说，所有龙的魔法都来源于始祖巨龙，其吐出的龙息，可演化为各种魔法。",
 
   "item.kubejs.slime_crown": "史莱姆皇冠",
   "item.kubejs.slime_crown.tooltip": "只能在深暗之园的特定结构处召唤史莱姆王",
@@ -244,6 +247,7 @@
   "message.kubejs.progenitor_power": "§e你已觉醒§7【§d始祖之力§7】！",
   "message.kubejs.progenitor_scale": "§e你的装备已§7无法破坏！",
   "message.kubejs.progenitor_ball": "§e你的§7饰品栏§e已扩容！",
+  "message.kubejs.progenitor_breath": "§e你已习得§7所有龙的§d铁魔法联动技能！",
   "message.stellarity.kill_dragon": "末影龙已被击败！",
   "message.stellarity.open_door": "末地主岛的中央，浮现一口神秘的水池",
   "message.stellarity.respawn_dragon": "末影龙已重生！",

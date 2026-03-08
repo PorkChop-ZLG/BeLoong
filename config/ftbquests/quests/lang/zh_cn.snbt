@@ -1776,6 +1776,13 @@
 	quest.2ECFB391DB73DDF9.title: "掌握木之奥义"
 	quest.2F2C234A12BA69AD.title: "金海龟蛋"
 	quest.2F3416393FD59904.title: "首饰T2"
+	quest.2F6413E87AEFEA8C.quest_desc: [
+		"&6使用后，习得所有龙的铁魔法联动技能。"
+		""
+		"&c完成章节【龙族图鉴】后解锁！"
+	]
+	quest.2F6413E87AEFEA8C.quest_subtitle: "万法皆通"
+	quest.2F6413E87AEFEA8C.title: "&d始祖龙息"
 	quest.2F7FBB0379616F31.quest_subtitle: "每条龙保底一次"
 	quest.2F7FBB0379616F31.title: "二重身之戒保底"
 	quest.2F9F01BE658EB7F7.quest_desc: [
@@ -3507,7 +3514,7 @@
 	quest.63DB1E9C5C2FDC80.quest_desc: [
 		"&6允许你像&e创世神&6一样修改地形和建筑，拥有无限耐久。"
 		""
-		"&c完成章节【目标三：龙族全收集】后解锁！"
+		"&c完成章节【龙族图鉴】后解锁！"
 	]
 	quest.63DB1E9C5C2FDC80.quest_subtitle: "移山填海，一念之间"
 	quest.63DB1E9C5C2FDC80.title: "&d创造模式建筑之杖"

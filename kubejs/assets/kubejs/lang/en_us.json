@@ -219,6 +219,9 @@
   "item.kubejs.progenitor_dragon_ball": "Progenitor Dragon Ball",
   "item.kubejs.progenitor_dragon_ball.tooltip.1": "§6■ Right-click to use, add a second curios page.",
   "item.kubejs.progenitor_dragon_ball.tooltip.2": "§7■ A precious orb held in the mouth of the Progenitor Dragon, also known as a night-shining pearl. After countless ages, it still shines brightly.",
+  "item.kubejs.progenitor_dragon_breath": "Progenitor Dragon Breath",
+  "item.kubejs.progenitor_dragon_breath.tooltip.1": "§6■ Right-click to use, learn all Iron Spell integrated abilities.",
+  "item.kubejs.progenitor_dragon_breath.tooltip.2": "§7■ It is said that all dragon magic originates from the Progenitor Dragon, whose breath can evolve into various magics.",
 
   "item.kubejs.slime_crown": "Slime Crown",
   "item.kubejs.slime_crown.tooltip": "Can only be used in the Undergarden",
@@ -244,6 +247,7 @@
   "message.kubejs.progenitor_power": "§eYou have awakened §7[§dProgenitor Power§7] !",
   "message.kubejs.progenitor_scale": "§eYour equipment is now §7Indestructible!",
   "message.kubejs.progenitor_ball": "§eYour §7Curios Slot §ehas been expanded!",
+  "message.kubejs.progenitor_breath": "§eYou have learned §7all the §dIron Spell integrated abilities!",
   "message.stellarity.kill_dragon": "The Ender Dragon has been defeated!",
   "message.stellarity.open_door": "A mysterious pool has appeared at the center of the End island.",
   "message.stellarity.respawn_dragon": "The Ender Dragon has respawned!",

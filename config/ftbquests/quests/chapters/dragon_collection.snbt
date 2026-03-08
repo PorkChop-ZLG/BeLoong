@@ -187,14 +187,24 @@
 			}
 			icon_scale: 2.0d
 			id: "5BB4A81605A76537"
-			rewards: [{
-				id: "371E2324E22E127F"
-				item: {
-					count: 1
-					id: "xfws_someitems:star_wrath"
+			rewards: [
+				{
+					id: "371E2324E22E127F"
+					item: {
+						count: 1
+						id: "xfws_someitems:star_wrath"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4B60DFDCD633AE52"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_breath"
+					}
+					type: "item"
+				}
+			]
 			shape: "none"
 			size: 2.0d
 			tasks: [{
