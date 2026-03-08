@@ -1053,12 +1053,6 @@
 	]
 	quest.18189EEE0D9A4F88.quest_subtitle: "【番外篇    完结】"
 	quest.18189EEE0D9A4F88.title: "&e&l光明使者"
-	quest.184B7A529D89B87A.quest_desc: [
-		"&a目标：获得晶化浆果"
-		""
-		"&e晶化浆果&6由&a嗅探兽&6挖掘获得。"
-		"&6对&a已驯服的魔宠&6使用晶化浆果，获得&e记忆碎片&6。"
-	]
 	quest.186EDCECB309BC44.quest_desc: ["&6龙之生存常用的合成材料。"]
 	quest.186EDCECB309BC44.quest_subtitle: "大龙残躯"
 	quest.18BC27F09DE456D2.title: "击杀：溺尸"

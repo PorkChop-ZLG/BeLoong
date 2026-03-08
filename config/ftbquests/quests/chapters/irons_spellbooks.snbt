@@ -1128,22 +1128,6 @@
 		}
 		{
 			dependencies: ["19BFE7F4FD9FF5A4"]
-			id: "184B7A529D89B87A"
-			rewards: [{
-				id: "67E7929FC470EAB1"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5C8C63A9AE39B0C4"
-				item: { count: 1, id: "alshanex_familiars:crystal_berry" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["19BFE7F4FD9FF5A4"]
 			id: "67473775B305582F"
 			rewards: [{
 				id: "5B6F953651E0BF5D"
@@ -1155,7 +1139,7 @@
 				item: { count: 1, id: "alshanex_familiars:memory_fragment" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 5.0d
 		}
 		{

@@ -1,5 +1,32 @@
 // 该脚本用于魔改 东方秘术 的配方
 ServerEvents.recipes(event => {
+    // 阴阳核心
+    event.remove({ id: 'iss_magicfromtheeast:yin_yang_core' })
+    event.shaped(Item.of('iss_magicfromtheeast:copper_coins', 1), [
+        'AAB',
+        'ACB',
+        'ABB'
+    ],
+        {
+            A: 'minecraft:flint',
+            B: 'minecraft:quartz',
+            C: '#c:raw_materials/jade'
+        }
+    )
+    // 精炼玉锭
+    event.remove({ id: 'iss_magicfromtheeast:refined_jade_ingot' })
+    event.remove({ id: 'iss_magicfromtheeast:refined_jade_ingot_alternative' })
+    event.shaped(Item.of('iss_magicfromtheeast:refined_jade_ingot', 1), [
+        'AAA',
+        'ABB',
+        'BBC'
+    ],
+        {
+            A: 'minecraft:emerald',
+            B: '#c:raw_materials/jade',
+            C: 'irons_spellbooks:cinder_essence'
+        }
+    )
     // 群青的铜钱 合成 东方秘术的铜钱
     event.remove({ id: 'iss_magicfromtheeast:copper_coins' })
     event.shaped(Item.of('iss_magicfromtheeast:copper_coins', 1), [
@@ -34,7 +61,7 @@ ServerEvents.recipes(event => {
         Item.of('iss_magicfromtheeast:arcane_relics', 3),
         [
             'irons_spellbooks:arcane_essence',
-            '#c:jades',
+            '#c:raw_materials/jade',
             'iss_magicfromtheeast:bottle_of_souls'
         ]
     )
@@ -119,4 +146,3 @@ ServerEvents.recipes(event => {
             B: 'iss_magicfromtheeast:crystallized_soul'
         })
 })
-    

@@ -1108,12 +1108,6 @@
 	]
 	quest.18189EEE0D9A4F88.quest_subtitle: "【Side Story Finale】"
 	quest.18189EEE0D9A4F88.title: "&e&lLightbringer"
-	quest.184B7A529D89B87A.quest_desc: [
-		"&aGoal: Obtain Crystallized Berries"
-		""
-		"&eCrystallized Berries&6 are dug up by &aSniffers&6."
-		"&6Use them on &aTamed Familiars&6 to obtain &eMemory Fragments&6."
-	]
 	quest.186EDCECB309BC44.quest_desc: ["&6Common crafting material in Dragon Survival."]
 	quest.186EDCECB309BC44.quest_subtitle: "Greater Dragon Remains"
 	quest.18BC27F09DE456D2.title: "Kill: Drowned"
