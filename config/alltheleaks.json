@@ -5,7 +5,7 @@
   "debugNativeImage": false,
   "disableSearchTree": false,
   "logIntervalInMinutes": 10,
-  "showSummaryOnDebugScreen": true,
+  "showSummaryOnDebugScreen": false,
   "memoryUsageWarningPercentage": 90,
   "debugChunkLoading": false,
   "debugThreadsStuck": false,
