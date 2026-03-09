@@ -1,0 +1,74 @@
+#Maximum spell attack search range
+# Default: 64
+# Range: 8 ~ 192
+maxSpellRange = 64
+#Start spell casting range
+# Default: 15
+# Range: 2 ~ 64
+startSpellRange = 15
+#Maximum mana multiplier
+# Default: 1.0
+# Range: 0.01 ~ 100.0
+maxManaMultiplier = 1.0
+#Walk speed in battle
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+spellBattleWalkSpeed = 1.0
+#Max combo delay tick
+# Default: 10
+# Range: 1 ~ 600
+maxComboDelayTick = 10
+#Drink potion in battle (Default: true)
+drinkPotionInSpellBattle = true
+#Show chat bubbles in battle (Default: true)
+showChatBubblesInSpellBattle = true
+#Allow maid use melee attack in magic attack task (Default: true)
+meleeAttackInMagicTask = true
+#Base chance for air force maid (Default: 0.1)
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+airForceBaseChance = 0.1
+#Air force chance per level (Default: 0.1)
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+airForceChancePerLevel = 0.1
+#Air force follow height (Default: 4.0)
+# Default: 4.0
+# Range: 0.0 ~ 64.0
+airForceFollowHeight = 4.0
+#Air force follow radius (Default: 6.0)
+# Default: 6.0
+# Range: 0.0 ~ 32.0
+airForceFollowRadius = 6.0
+#Air force fly speed (Default: 0.4)
+# Default: 0.4
+# Range: 0.0 ~ 3.0
+airForceFlySpeed = 0.4
+#Min air attack spell range (Default: 5.0)
+# Default: 5.0
+# Range: 0.0 ~ 64.0
+airForceMinAttackRange = 5.0
+
+[spell_compat]
+	#Extra attack spell ids
+	extraAttackSpells = []
+	#Extra defense spell ids
+	extraDefenseSpells = []
+	#Extra movement spell ids
+	extraMovementSpells = []
+	#Extra support spell ids
+	extraSupportSpells = []
+	#Extra positive effect spell ids
+	extraPositiveEffectSpells = []
+	#Extra negative effect spell ids
+	extraNegativeEffectSpells = []
+	#Extra support other spell ids
+	extraSupportEffectSpells = []
+	#Extra summon spell ids
+	extraSummonSpells = []
+	#Maid should recast spell ids
+	maidShouldRecastSpells = []
+	#Extra spell casting range (spell id => range). Default values are loaded from datapack.
+	extra_spell_casting_range = {}
+	#Extra spell caused effects (spell id => effect id). Default values are loaded from datapack.
+	extra_spell_caused_effects = {}

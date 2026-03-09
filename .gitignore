@@ -204,6 +204,7 @@ config/**
 !config/visualworkbench-common.toml
 !config/wands.json
 !config/waystones-common.toml
+!config/winefoxs_spellbooks-common.toml
 !config/xfws_someitems-server.toml
 !config/yes_steve_model-client.toml
 !config/yes_steve_model-server.toml

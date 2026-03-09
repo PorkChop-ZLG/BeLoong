@@ -1458,11 +1458,6 @@
 					item: { count: 1, id: "minecraft:dragon_breath" }
 					type: "item"
 				}
-				{
-					id: "7FE1FF9F2DFE92CC"
-					item: { count: 1, id: "touhou_little_maid_spell:spell_enhancement_core" }
-					type: "item"
-				}
 			]
 			x: 1.5d
 			y: 3.0d

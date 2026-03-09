@@ -86,9 +86,6 @@
     "lightroom": true,
     "photograph_frame": true
   },
-  "yes_steve_model": {
-    "model_info": true
-  },
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
@@ -109,5 +106,8 @@
     "bottle_gourd": true,
     "mallet_toggleable": true,
     "censer_burn_time": true
+  },
+  "winefoxs_spellbooks": {
+    "summoned_maid": true
   }
 }
