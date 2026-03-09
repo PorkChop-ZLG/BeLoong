@@ -1,5 +1,4 @@
 version:3955
-toggleCrawl:false
 ao:true
 biomeBlendRadius:2
 enableVsync:false
@@ -49,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","mod/continuity:resourcepacks/default","mod/continuity:resourcepacks/glass_pane_culling_fix","mod/yuushya:resourcepacks/mcpatcher_feature","file/NewGlowingOres-§6[Border]§r.zip","file/Icon Xaero\u0027s 1.21.zip","file/SpawnEgg3D-1.21.zip","file/BeLoong Music V3.zip","file/BeLoong Gui V3.zip","file/Better-Leaves-9.4.zip","file/Assorted Allays x FA - V.10.1.zip","[无缝玻璃] Clear Glass Pack 1.21.zip","[骗子酒馆] Liar\u0027s_Bar_for_Kyou_Resource_Pack_1.0_for_1.21.zip","[更好的草和蕨] Os\u0027 Colorful Grasses (Mix).zip","[更好的草方块] Fast Better Grass.zip"]
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","mod/continuity:resourcepacks/default","mod/continuity:resourcepacks/glass_pane_culling_fix","mod/yuushya:resourcepacks/mcpatcher_feature","file/NewGlowingOres-§6[Border]§r.zip","file/Icon Xaero\u0027s 1.21.zip","file/SpawnEgg3D-1.21.zip","file/Assorted Allays x FA - V.10.2.zip","file/Better-Leaves-9.5.zip","file/BeLoong Music V3.zip","file/BeLoong Gui V3.zip","[无缝玻璃] Clear Glass Pack 1.21.zip","[更好的草和蕨] Os\u0027 Colorful Grasses (Mix).zip","[更好的草方块] Fast Better Grass.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -89,8 +88,8 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
 soundCategory_master:1.0
-soundCategory_music:0.20892018779342716
-soundCategory_record:1.0
+soundCategory_music:0.2007042253521127
+soundCategory_record:0.20422535211267606
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
