@@ -482,7 +482,7 @@
 		# Range: > 0
 		dragon_soul_cooldown = 0
 		#Default animation for the soul block
-		soul_block_default_animation = "sit"
+		soul_block_default_animation = "idle"
 		#Enables the placement of dragon souls
 		enable_dragon_soul_placement = true
 
