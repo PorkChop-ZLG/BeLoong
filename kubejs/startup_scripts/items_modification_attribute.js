@@ -33,6 +33,143 @@ ItemEvents.modification(event => {
 
 // 正式修改
 ItemEvents.modification(event => {
+  // 龙之生存
+  event.modify("dragonsurvival:light_dragon_helmet", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana",
+        {
+          "operation": 0,
+          "amount": 1,
+          "id": "kubejs:light_dragon_helmet_mana"
+        },
+        "head"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
+  event.modify("dragonsurvival:light_dragon_chestplate", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana",
+        {
+          "operation": 0,
+          "amount": 3,
+          "id": "kubejs:light_dragon_chestplate_mana"
+        },
+        "chest"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
+  event.modify("dragonsurvival:light_dragon_leggings", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana",
+        {
+          "operation": 0,
+          "amount": 2,
+          "id": "kubejs:light_dragon_leggings_mana"
+        },
+        "legs"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
+  event.modify("dragonsurvival:light_dragon_boots", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana",
+        {
+          "operation": 0,
+          "amount": 1,
+          "id": "kubejs:light_dragon_boots_mana"
+        },
+        "feet"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
+  event.modify("dragonsurvival:dark_dragon_helmet", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana_regeneration",
+        {
+          "operation": 0,
+          "amount": 0.01,
+          "id": "kubejs:dark_dragon_helmet_mana_regeneration"
+        },
+        "head"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
+  event.modify("dragonsurvival:dark_dragon_chestplate", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana_regeneration",
+        {
+          "operation": 0,
+          "amount": 0.03,
+          "id": "kubejs:dark_dragon_chestplate_mana_regeneration"
+        },
+        "chest"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
+  event.modify("dragonsurvival:dark_dragon_leggings", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana_regeneration",
+        {
+          "operation": 0,
+          "amount": 0.02,
+          "id": "kubejs:dark_dragon_leggings_mana_regeneration"
+        },
+        "legs"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
+  event.modify("dragonsurvival:dark_dragon_boots", item => {
+    let modifiers = item
+      .item()
+      .getDefaultInstance()
+      .getAttributeModifiers()
+      .withModifierAdded(
+        "dragonsurvival:mana_regeneration",
+        {
+          "operation": 0,
+          "amount": 0.01,
+          "id": "kubejs:light_dragon_boots_mana_regeneration"
+        },
+        "feet"
+      )
+      .modifiers();
+    item.setAttributeModifiersWithTooltip(modifiers);
+  })
   // 暮色森林
   event.modify("twilightforest:ironwood_sword", item => {
     let modifiers = item
