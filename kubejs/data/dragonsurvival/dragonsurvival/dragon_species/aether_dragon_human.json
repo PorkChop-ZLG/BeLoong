@@ -3,8 +3,13 @@
     "visibility": "always_hidden"
   },
   "abilities": "#dragonsurvival:aether_dragon",
-   "bodies": ["dragonsurvival:aether_body_human"],
-    "custom_stage_progression": ["dragonsurvival:aether_ancient_human"],
+  "mana_handling": {
+    "mana_per_level": 0.2,
+    "mana_xp_conversion": 0,
+    "max_mana_from_levels": 20
+  },
+  "bodies": ["dragonsurvival:aether_body_human"],
+  "custom_stage_progression": ["dragonsurvival:aether_ancient_human"],
   "misc_resources": {
     "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/air/cast_bar.png",
     "altar_banner": "dragonsurvival:textures/gui/custom/altar/air/altar_icon.png",

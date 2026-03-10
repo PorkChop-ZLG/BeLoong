@@ -3,7 +3,12 @@
     "visibility": "always_hidden"
   },
   "abilities": "#dragonsurvival:tundra_dragon",
-   "bodies": ["dragonsurvival:tundra_body_human"],
+  "mana_handling": {
+    "mana_per_level": 0.2,
+    "mana_xp_conversion": 0,
+    "max_mana_from_levels": 20
+  },
+  "bodies": ["dragonsurvival:tundra_body_human"],
   "custom_stage_progression": ["dragonsurvival:tundra_human"],
   "misc_resources": {
     "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/tundra/cast_bar.png",

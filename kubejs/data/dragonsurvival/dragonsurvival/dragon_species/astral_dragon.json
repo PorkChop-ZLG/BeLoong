@@ -22,6 +22,11 @@
     "dragonsurvival:west"
   ],
   "abilities": "#dragonsurvival:astral_dragon",
+  "mana_handling": {
+    "mana_per_level": 0.2,
+    "mana_xp_conversion": 0,
+    "max_mana_from_levels": 20
+  },
   "custom_stage_progression": [
     "dragonsurvival:protostar",
     "dragonsurvival:main_sequence",
