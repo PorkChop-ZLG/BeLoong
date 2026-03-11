@@ -6,9 +6,20 @@
           "entity_effect": [
             {
               "amount": {
-                "type": "minecraft:linear",
-                "base": 1.0,
-                "per_level_above_first": 1.0
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 3.0,
+                  "per_level_above_first": 3.0
+                },
+                "values": [
+                  3.0,
+                  6.0,
+                  12.0,
+                  30.0,
+                  60.0,
+                  120.0
+                ]
               },
               "damage_type": "dragonsurvival:lightning_breath",
               "effect_type": "dragonsurvival:damage"
@@ -17,9 +28,17 @@
               "effect_type": "dragonsurvival:potion",
               "potion": {
                 "amplifier": 0.0,
-                "duration": 600.0,
+                "duration": {
+                  "type": "minecraft:linear",
+                  "base": 300,
+                  "per_level_above_first": 100
+                },
                 "effects": "dragonsurvival:charged",
-                "probability": 0.5
+                "probability": {
+                  "type": "minecraft:linear",
+                  "base": 0.5,
+                  "per_level_above_first": 0.1
+                }
               }
             }
           ],
@@ -111,10 +130,14 @@
         "transition_length": 5
       }
     },
-    "cast_time": 0.0,
+    "cast_time": 1.0,
     "continuous_mana_cost": {
       "type": "ticking",
-      "amount": 0.025
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.025,
+        "per_level_above_first": 0.025
+      }
     },
     "cooldown": 0.0,
     "sound": {
@@ -156,23 +179,23 @@
     ]
   },
   "upgrade": {
-    "level_requirement": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
         "type": "minecraft:linear",
-        "base": 20.0,
-        "per_level_above_first": 20.0
+        "base": 50.0,
+        "per_level_above_first": 50.0
       },
       "values": [
-        0.0,
         20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
       ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
+    }
   }
 }
