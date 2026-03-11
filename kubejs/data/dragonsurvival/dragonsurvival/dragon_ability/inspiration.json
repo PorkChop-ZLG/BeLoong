@@ -9,15 +9,15 @@
               "potion": {
                 "amplifier": {
                   "type": "minecraft:linear",
-                  "base": 0,
-                  "per_level_above_first": 1
+                  "base": 1.0,
+                  "per_level_above_first": 1.0
                 },
                 "duration": {
                   "type": "minecraft:linear",
-                  "base": 100.0,
-                  "per_level_above_first": 100.0
+                  "base": 4000.0,
+                  "per_level_above_first": 4000.0
                 },
-                "effects": "dragonsurvival:hunter"
+                "effects": "minecraft:haste"
               }
             },
             {
@@ -28,31 +28,26 @@
                   "type": "in_bounding_box"
                 },
                 "horizontal_velocity": {
-                  "base": 0.1
+                  "base": 0.05
                 },
                 "particle": {
-                  "type": "minecraft:dragon_breath"
+                  "type": "minecraft:end_rod"
                 },
-                "speed": 0.1,
+                "speed": 0.05,
                 "vertical_position": {
                   "type": "in_bounding_box"
                 },
                 "vertical_velocity": {
-                  "base": 0.1
+                  "base": 0.05
                 }
               }
             }
           ],
           "targeting_mode": "non_enemies"
         },
-        "radius": {
-          "type": "linear",
-          "base": 3,
-          "per_level_above_first": 1
-        },
+        "radius": 5.0,
         "target_type": "dragonsurvival:area"
-      },
-      "trigger_rate": 1.0
+      }
     }
   ],
   "activation": {
@@ -72,21 +67,13 @@
         "transition_length": 2
       }
     },
-    "can_move_while_casting": true,
-    "cast_time": {
-      "type": "linear",
-      "base": 20,
-      "per_level_above_first": 20
-    },
-    "cooldown": {
-      "type": "linear",
-      "base": 60,
-      "per_level_above_first": 60
-    },
+    "can_move_while_casting": false,
+    "cast_time": 60.0,
+    "cooldown": 600.0,
     "initial_mana_cost": {
-      "type": "linear",
-      "base": 2,
-      "per_level_above_first": 2
+      "type": "minecraft:linear",
+      "base": 1,
+      "per_level_above_first": 1
     },
     "sound": {
       "end": "minecraft:ui.toast.in"
@@ -96,37 +83,34 @@
     "texture_entries": [
       {
         "from_level": 0,
-        "texture_resource": "dragonsurvival:abilities/forest/hunter_0"
+        "texture_resource": "dragonsurvival:abilities/forest/inspiration_0"
       },
       {
         "from_level": 1,
-        "texture_resource": "dragonsurvival:abilities/forest/hunter_1"
+        "texture_resource": "dragonsurvival:abilities/forest/inspiration_1"
       },
       {
         "from_level": 2,
-        "texture_resource": "dragonsurvival:abilities/forest/hunter_2"
+        "texture_resource": "dragonsurvival:abilities/forest/inspiration_2"
       },
       {
         "from_level": 3,
-        "texture_resource": "dragonsurvival:abilities/forest/hunter_3"
-      },
-      {
-        "from_level": 4,
-        "texture_resource": "dragonsurvival:abilities/forest/hunter_4"
-      },
-      {
-        "from_level": 5,
-        "texture_resource": "dragonsurvival:abilities/forest/hunter_4"
-      },
-      {
-        "from_level": 6,
-        "texture_resource": "dragonsurvival:abilities/forest/hunter_4"
+        "texture_resource": "dragonsurvival:abilities/forest/inspiration_3"
       }
     ]
   },
+  "usage_blocked": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "flags": {
+        "is_on_ground": false
+      }
+    }
+  },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 6,
+    "maximum_level": 3,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -137,10 +121,7 @@
       "values": [
         20.0,
         50.0,
-        100.0,
-        150.0,
-        200.0,
-        250.0
+        100.0
       ]
     }
   }

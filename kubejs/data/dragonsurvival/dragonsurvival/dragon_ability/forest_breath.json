@@ -6,9 +6,20 @@
           "entity_effect": [
             {
               "amount": {
-                "type": "minecraft:linear",
-                "base": 2.0,
-                "per_level_above_first": 2.0
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 4,
+                  "per_level_above_first": 4
+                },
+                "values": [
+                  4.0,
+                  8.0,
+                  16.0,
+                  40.0,
+                  80.0,
+                  160.0
+                ]
               },
               "damage_type": "dragonsurvival:forest_breath",
               "effect_type": "dragonsurvival:damage"
@@ -19,7 +30,11 @@
                 "amplifier": 0.0,
                 "duration": 200.0,
                 "effects": "dragonsurvival:drain",
-                "probability": 0.3
+                "probability": {
+                  "type": "minecraft:linear",
+                  "base": 0.5,
+                  "per_level_above_first": 0.1
+                }
               }
             }
           ],
@@ -85,10 +100,14 @@
         "transition_length": 5
       }
     },
-    "cast_time": 0.0,
+    "cast_time": 1.0,
     "continuous_mana_cost": {
       "type": "ticking",
-      "amount": 0.025
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.025,
+        "per_level_above_first": 0.025
+      }
     },
     "cooldown": 0.0,
     "sound": {
@@ -129,26 +148,6 @@
       }
     ]
   },
-  "upgrade": {
-    "level_requirement": {
-      "type": "minecraft:lookup",
-      "fallback": {
-        "type": "minecraft:linear",
-        "base": 20.0,
-        "per_level_above_first": 20.0
-      },
-      "values": [
-        0.0,
-        20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
-      ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
-  },
   "usage_blocked": {
     "condition": "minecraft:entity_properties",
     "entity": "this",
@@ -156,6 +155,26 @@
       "effects": {
         "dragonsurvival:stress": {}
       }
+    }
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 50.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        20.0,
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
+      ]
     }
   }
 }

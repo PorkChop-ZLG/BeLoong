@@ -15,9 +15,20 @@
     "entity_hit_effects": [
       {
         "amount": {
-          "type": "minecraft:linear",
-          "base": 5.0,
-          "per_level_above_first": 5.0
+          "type": "minecraft:lookup",
+          "fallback": {
+            "type": "minecraft:linear",
+            "base": 5,
+            "per_level_above_first": 5
+          },
+          "values": [
+            15,
+            30,
+            60,
+            100,
+            150,
+            200
+          ]
         },
         "damage_type": "dragonsurvival:spike",
         "entity_effect": "dragonsurvival:damage"
@@ -27,7 +38,11 @@
     "ticking_effects": []
   },
   "type_data": {
-    "piercing_level": 3.0,
+    "piercing_level": {
+      "type": "minecraft:linear",
+      "base": 3,
+      "per_level_above_first": 1
+    },
     "texture": {
       "texture_entries": [
         {

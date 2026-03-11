@@ -7,9 +7,20 @@
             {
               "effect_type": "dragonsurvival:projectile",
               "number_of_projectiles": {
-                "type": "minecraft:linear",
-                "base": 1.0,
-                "per_level_above_first": 1.0
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 1,
+                  "per_level_above_first": 1
+                },
+                "values": [
+                  1,
+                  2,
+                  4,
+                  6,
+                  8,
+                  10
+                ]
               },
               "projectile_data": "dragonsurvival:spike",
               "projectile_spread": 5,
@@ -47,9 +58,17 @@
         "transition_length": 5
       }
     },
-    "cast_time": 0.0,
-    "cooldown": 80.0,
-    "initial_mana_cost": 1.0,
+    "cast_time": 1,
+    "cooldown": {
+      "type": "minecraft:linear",
+      "base": 30,
+      "per_level_above_first": 10
+    },
+    "initial_mana_cost": {
+      "type": "minecraft:linear",
+      "base": 1.0,
+      "per_level_above_first": 1.0
+    },
     "sound": {
       "end": "minecraft:entity.arrow.shoot"
     }
@@ -87,23 +106,23 @@
     ]
   },
   "upgrade": {
-    "level_requirement": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
         "type": "minecraft:linear",
-        "base": 29.0,
-        "per_level_above_first": 20.0
+        "base": 50.0,
+        "per_level_above_first": 50.0
       },
       "values": [
-        0.0,
         20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
       ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
+    }
   }
 }

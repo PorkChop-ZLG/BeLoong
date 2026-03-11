@@ -12,9 +12,13 @@
                   "base": 0,
                   "per_level_above_first": 1
                 },
-                "duration": 100,
+                "duration": 600,
                 "effects": "minecraft:regeneration",
-                "probability": 1
+                "probability": {
+                  "type": "linear",
+                  "base": 0.7,
+                  "per_level_above_first": 0.3
+                }
               }
             }
           ],
@@ -28,7 +32,7 @@
               }
             }
           },
-          "targeting_mode": "all"
+          "targeting_mode": "allies_and_self"
         },
         "range_multiplier": 1.0,
         "target_type": "dragonsurvival:dragon_breath"
@@ -207,22 +211,6 @@
       }
     ]
   },
-  "upgrade": {
-    "level_requirement": {
-      "type": "minecraft:lookup",
-      "fallback": {
-        "type": "minecraft:linear",
-        "base": 15.0,
-        "per_level_above_first": 15.0
-      },
-      "values": [
-        0.0,
-        24.0
-      ]
-    },
-    "maximum_level": 2,
-    "upgrade_type": "dragonsurvival:experience_levels"
-  },
   "usage_blocked": {
     "condition": "minecraft:entity_properties",
     "entity": "this",
@@ -230,6 +218,22 @@
       "effects": {
         "dragonsurvival:stress": {}
       }
+    }
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 2,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 50.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        20.0,
+        50.0
+      ]
     }
   }
 }
