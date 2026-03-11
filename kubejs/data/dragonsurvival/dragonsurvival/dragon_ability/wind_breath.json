@@ -125,12 +125,10 @@
               "main_particle": {
                 "type": "dragonsurvival:large_lightning",
                 "duration": 37.0,
-                "swirls": false
+                "swirls": true
               },
               "secondary_particle": {
-                "type": "minecraft:cloud",
-                "duration": 37.0,
-                "swirls": true
+                "type": "minecraft:cloud"
               },
               "speed_per_growth": 0.02,
               "spread": 0.06

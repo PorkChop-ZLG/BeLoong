@@ -15,9 +15,20 @@
     "entity_hit_effects": [
       {
         "amount": {
-          "type": "minecraft:linear",
-          "base": 20.0,
-          "per_level_above_first": 16.0
+          "type": "minecraft:lookup",
+          "fallback": {
+            "type": "minecraft:linear",
+            "base": 20,
+            "per_level_above_first": 20
+          },
+          "values": [
+            20,
+            50,
+            100,
+            200,
+            500,
+            1000
+          ]
         },
         "damage_type": "minecraft:explosion",
         "entity_effect": "dragonsurvival:damage"
@@ -28,10 +39,10 @@
   },
   "type_data": {
     "behaviour_data": {
-      "height": 1.0,
+      "height": 2.0,
       "max_lifespan": 100.0,
       "max_movement_distance": 32.0,
-      "width": 1.0
+      "width": 2.0
     },
     "on_destroy_effects": [
       {
@@ -45,7 +56,7 @@
                 "explosion_power": {
                   "type": "minecraft:linear",
                   "base": 1.0,
-                  "per_level_above_first": 0.5
+                  "per_level_above_first": 1.0
                 },
                 "fire": true,
                 "world_effect": "dragonsurvival:explosion"

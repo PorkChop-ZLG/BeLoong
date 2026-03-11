@@ -1,5 +1,6 @@
 {
-  "dragon_penalty.dragonsurvival.item_blacklist.desc": "■龙§d无法使用§r§7鞘翅和三叉戟，因为龙本身的能力与之冲突。这些物品不会被装备上，强行装备会从快捷栏中§c掉落§r§7，但你仍可以用它们进行合成。",
+	"dragon_ability.dragonsurvival.furnace_heat.desc": "■§c熔炼§r地上的物品，无法造成伤害。\n\n■堆叠数越少的物品熔炼速度§f越快§r。拾起物品会§f重置熔炼进度§r。\n\n■§8无法在水下或雨间使用。§r",
+  	"dragon_penalty.dragonsurvival.item_blacklist.desc": "■龙§d无法使用§r§7鞘翅和三叉戟，因为龙本身的能力与之冲突。这些物品不会被装备上，强行装备会从快捷栏中§c掉落§r§7，但你仍可以用它们进行合成。",
 
 	"skin_part.dragonsurvival.astral_dragon.all_extra_1": "冠冕",
 	"skin_part.dragonsurvival.astral_dragon.all_extra_10": "监守者爪",

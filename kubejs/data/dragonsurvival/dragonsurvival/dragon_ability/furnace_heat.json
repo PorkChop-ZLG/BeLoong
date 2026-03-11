@@ -7,9 +7,20 @@
             {
               "effect_type": "dragonsurvival:smelting",
               "progress": {
-                "type": "minecraft:linear",
-                "base": 40.0,
-                "per_level_above_first": 40.0
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 40.0,
+                  "per_level_above_first": 40.0
+                },
+                "values": [
+                  16,
+                  32,
+                  64,
+                  128,
+                  256,
+                  512
+                ]
               }
             }
           ],
@@ -88,45 +99,6 @@
         "applied_effects": {
           "entity_effect": [
             {
-              "amount": {
-                "type": "minecraft:linear",
-                "base": 1.0,
-                "per_level_above_first": 1.0
-              },
-              "damage_type": "dragonsurvival:fire_breath",
-              "effect_type": "dragonsurvival:damage"
-            },
-            {
-              "effect_type": "dragonsurvival:ignite",
-              "ignite_ticks": {
-                "type": "minecraft:linear",
-                "base": 20.0,
-                "per_level_above_first": 20.0
-              }
-            }
-          ],
-          "target_conditions": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "dragonsurvival:entity_check_predicate",
-                "check_for": "living_entity"
-              }
-            }
-          },
-          "targeting_mode": "non_allies"
-        },
-        "range_multiplier": 1.0,
-        "target_type": "dragonsurvival:dragon_breath"
-      },
-      "trigger_rate": 10.0
-    },
-    {
-      "target_selection": {
-        "applied_effects": {
-          "entity_effect": [
-            {
               "effect_type": "dragonsurvival:breath_particles",
               "main_particle": {
                 "type": "dragonsurvival:fire",
@@ -170,9 +142,13 @@
     "cast_time": 20.0,
     "continuous_mana_cost": {
       "type": "ticking",
-      "amount": 0.05
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.05,
+        "per_level_above_first": 0.05
+      }
     },
-    "cooldown": 40.0,
+    "cooldown": 20.0,
     "sound": {
       "end": "dragonsurvival:fire_breath_end",
       "looping": "dragonsurvival:fire_breath_loop",
@@ -211,26 +187,6 @@
       }
     ]
   },
-  "upgrade": {
-    "level_requirement": {
-      "type": "minecraft:lookup",
-      "fallback": {
-        "type": "minecraft:linear",
-        "base": 20.0,
-        "per_level_above_first": 20.0
-      },
-      "values": [
-        0.0,
-        20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
-      ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
-  },
   "usage_blocked": {
     "condition": "minecraft:any_of",
     "terms": [
@@ -258,5 +214,25 @@
         }
       }
     ]
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 50.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        20.0,
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
+      ]
+    }
   }
 }
