@@ -1,60 +1,75 @@
 {
   "actions": [
-		{
-			"target_selection": {
-				"applied_effects": {
-					"entity_effect": [
-						{
-							"amount": {
-								"type": "minecraft:linear",
-								"base": 1.5,
-								"per_level_above_first": 1.5
-							},
-							"damage_type": "dragonsurvival:frigid_breath",
-							"effect_type": "dragonsurvival:damage"
-						}
-					],
-					"target_conditions": {
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type_specific": {
-								"type": "dragonsurvival:entity_check_predicate",
-								"check_for": "living_entity"
-							}
-						}
-					},
-					"targeting_mode": "non_allies"
-				},
-				"range_multiplier": 1.5,
-				"target_type": "dragonsurvival:dragon_breath"
-			},
-			"trigger_rate": 4.0
-		},
-		{
-			"target_selection": {
-				"applied_effects": {
-					"entity_effect": [
-						{
-							"effect_type": "dragonsurvival:potion",
-							"potion": {
-								"effects": "tundradragon:frostbite",
-								"amplifier": {
-									"type": "minecraft:linear",
-									"base": 0,
-									"per_level_above_first": 0.5
-								},
-								"duration": {
-									"type": "minecraft:linear",
-									"base": 80,
-									"per_level_above_first": 40
-								},
-								"probability": 1,
-								"effect_particles": false,
-								"show_icon": true
-							}
-						}
-					],
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "amount": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 5,
+                  "per_level_above_first": 5
+                },
+                "values": [
+                  4.0,
+                  8.0,
+                  16.0,
+                  32.0,
+                  64.0,
+                  128.0
+                ]
+              },
+              "damage_type": "dragonsurvival:frigid_breath",
+              "effect_type": "dragonsurvival:damage"
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:entity_check_predicate",
+                "check_for": "living_entity"
+              }
+            }
+          },
+          "targeting_mode": "non_allies"
+        },
+        "range_multiplier": 1.5,
+        "target_type": "dragonsurvival:dragon_breath"
+      },
+      "trigger_rate": 4.0
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:potion",
+              "potion": {
+                "effects": "tundradragon:frostbite",
+                "amplifier": {
+                  "type": "minecraft:linear",
+                  "base": 0,
+                  "per_level_above_first": 1
+                },
+                "duration": {
+                  "type": "minecraft:linear",
+                  "base": 60,
+                  "per_level_above_first": 60
+                },
+                "probability": {
+                  "type": "minecraft:linear",
+                  "base": 0.5,
+                  "per_level_above_first": 0.1
+                },
+                "effect_particles": false,
+                "show_icon": true
+              }
+            }
+          ],
           "target_conditions": {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -76,57 +91,57 @@
       "target_selection": {
         "applied_effects": {
           "block_effect": [
-						{
-							"conversion_data": [
-								{
-									"blocks_to": [
-										{
-											"state": {
-												"Name": "biomeswevegone:black_ice"
-											},
-											"weight": 1
-										}
-									],
-									"from_predicate": {
-										"type": "minecraft:matching_blocks",
-										"blocks": [
-											"minecraft:ice"
-										]
-									}
-								}
-							],
-							"effect_type": "dragonsurvival:conversion",
-							"probability": 0.2
-						},
-						{
-							"conversion_data": [
-								{
-									"blocks_to": [
-										{
-											"state": {
-												"Name": "biomeswevegone:packed_black_ice"
-											},
-											"weight": 1
-										}
-									],
-									"from_predicate": {
-										"type": "minecraft:matching_blocks",
-										"blocks": [
-											"minecraft:packed_ice"
-										]
-									}
-								}
-							],
-							"effect_type": "dragonsurvival:conversion",
-							"probability": 0.1
-						}
-					]
-				},
-				"range_multiplier": 1.5,
-				"target_type": "dragonsurvival:dragon_breath"
-			},
-			"trigger_rate": 3.0
-		},
+            {
+              "conversion_data": [
+                {
+                  "blocks_to": [
+                    {
+                      "state": {
+                        "Name": "biomeswevegone:black_ice"
+                      },
+                      "weight": 1
+                    }
+                  ],
+                  "from_predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:ice"
+                    ]
+                  }
+                }
+              ],
+              "effect_type": "dragonsurvival:conversion",
+              "probability": 0.2
+            },
+            {
+              "conversion_data": [
+                {
+                  "blocks_to": [
+                    {
+                      "state": {
+                        "Name": "biomeswevegone:packed_black_ice"
+                      },
+                      "weight": 1
+                    }
+                  ],
+                  "from_predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:packed_ice"
+                    ]
+                  }
+                }
+              ],
+              "effect_type": "dragonsurvival:conversion",
+              "probability": 0.1
+            }
+          ]
+        },
+        "range_multiplier": 1.5,
+        "target_type": "dragonsurvival:dragon_breath"
+      },
+      "trigger_rate": 3.0
+    },
     {
       "target_selection": {
         "applied_effects": {
@@ -172,10 +187,14 @@
         "transition_length": 5
       }
     },
-    "cast_time": 0.0,
+    "cast_time": 1.0,
     "continuous_mana_cost": {
       "type": "ticking",
-      "amount": 0.025
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.025,
+        "per_level_above_first": 0.025
+      }
     },
     "cooldown": 0.0,
     "sound": {
@@ -216,33 +235,33 @@
       }
     ]
   },
-  "upgrade": {
-    "level_requirement": {
-      "type": "minecraft:lookup",
-      "fallback": {
-        "type": "minecraft:linear",
-        "base": 20.0,
-        "per_level_above_first": 20.0
-      },
-      "values": [
-        0.0,
-        20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
-      ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
-  },
   "usage_blocked": {
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-			"flags": {
-				"is_on_fire": true
+      "flags": {
+        "is_on_fire": true
       }
+    }
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 50.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        20.0,
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
+      ]
     }
   }
 }

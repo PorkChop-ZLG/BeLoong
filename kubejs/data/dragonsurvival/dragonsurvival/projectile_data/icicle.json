@@ -5,7 +5,7 @@
         "function": "icedragon:icicleparticles",
         "block_effect": "dragonsurvival:run_function"
       }
-	],
+    ],
     "common_hit_effects": [],
     "entity_hit_condition": {
       "condition": "minecraft:entity_properties",
@@ -20,9 +20,20 @@
     "entity_hit_effects": [
       {
         "amount": {
-          "type": "minecraft:linear",
-          "base": 8.0,
-          "per_level_above_first": 8.0
+          "type": "minecraft:lookup",
+          "fallback": {
+            "type": "minecraft:linear",
+            "base": 10.0,
+            "per_level_above_first": 10.0
+          },
+          "values": [
+            10.0,
+            20.0,
+            50.0,
+            100.0,
+            200.0,
+            500.0
+          ]
         },
         "damage_type": "dragonsurvival:icicle",
         "entity_effect": "dragonsurvival:damage"
@@ -30,27 +41,30 @@
       {
         "entity_effect": "dragonsurvival:potion",
         "potion": {
-             "amplifier": {
-          "type": "minecraft:linear",
-          "base": 5.0,
-          "per_level_above_first": 1.25
-        },
-             "duration": {
-          "type": "minecraft:linear",
-          "base": 60.0,
-          "per_level_above_first": 20.0
-        },
-             "effects": ["tundradragon:frostbite", "dragonsurvival:broken_wings"],
-             "probability": 1.0
-                }
-       },
+          "amplifier": {
+            "type": "minecraft:linear",
+            "base": 5.0,
+            "per_level_above_first": 1.25
+          },
+          "duration": {
+            "type": "minecraft:linear",
+            "base": 60.0,
+            "per_level_above_first": 20.0
+          },
+          "effects": [
+            "tundradragon:frostbite",
+            "dragonsurvival:broken_wings"
+          ],
+          "probability": 1.0
+        }
+      },
       {
         "function": "icedragon:icicleparticles",
         "entity_effect": "dragonsurvival:run_function"
       }
     ],
-   "name": "dragonsurvival:icicle",
-   "ticking_effects": []
+    "name": "dragonsurvival:icicle",
+    "ticking_effects": []
   },
   "type_data": {
     "texture": {

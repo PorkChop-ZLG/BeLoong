@@ -42,9 +42,21 @@
         "transition_length": 5
       }
     },
-    "cast_time": 10.0,
-    "cooldown": 40.0,
-    "initial_mana_cost": 1.0,
+    "cast_time": {
+      "type": "minecraft:linear",
+      "base": 5,
+      "per_level_above_first": 5
+    },
+    "cooldown": {
+      "type": "minecraft:linear",
+      "base": 100,
+      "per_level_above_first": -20
+    },
+    "initial_mana_cost": {
+      "type": "minecraft:linear",
+      "base": 1,
+      "per_level_above_first": 1
+    },
     "sound": {
       "end": "minecraft:entity.arrow.shoot"
     }
@@ -82,23 +94,23 @@
     ]
   },
   "upgrade": {
-    "level_requirement": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
         "type": "minecraft:linear",
-        "base": 20.0,
-        "per_level_above_first": 20.0
+        "base": 50.0,
+        "per_level_above_first": 50.0
       },
       "values": [
-        0.0,
         20.0,
-        40.0,
-        60.0,
-        80.0,
-        100.0
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
       ]
-    },
-    "maximum_level": 6,
-    "upgrade_type": "dragonsurvival:experience_levels"
+    }
   }
 }

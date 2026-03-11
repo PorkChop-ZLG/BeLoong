@@ -128,7 +128,9 @@
                 "swirls": true
               },
               "secondary_particle": {
-                "type": "minecraft:cloud"
+                "type": "minecraft:cloud",
+                "duration": 37.0,
+                "swirls": true
               },
               "speed_per_growth": 0.02,
               "spread": 0.06

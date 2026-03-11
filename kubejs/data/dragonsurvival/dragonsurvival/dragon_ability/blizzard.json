@@ -294,7 +294,7 @@
 							"progress": {
 								"type": "minecraft:linear",
 								"base": 2000,
-								"per_level_above_first": 250
+								"per_level_above_first": 2000
 							}
 						},
 						{
@@ -472,22 +472,6 @@
 			}
 		]
 	},
-	"upgrade": {
-		"level_requirement": {
-			"type": "minecraft:lookup",
-			"fallback": {
-				"type": "minecraft:linear",
-				"base": 10.0,
-				"per_level_above_first": 10.0
-			},
-			"values": [
-				0.0,
-				25.0
-			]
-		},
-		"maximum_level": 2,
-		"upgrade_type": "dragonsurvival:experience_levels"
-	},
 	"usage_blocked": {
 		"condition": "minecraft:entity_properties",
 		"entity": "this",
@@ -495,6 +479,22 @@
 			"flags": {
 				"is_on_fire": true
 			}
+		}
+	},
+	"upgrade": {
+		"upgrade_type": "dragonsurvival:dragon_growth",
+		"maximum_level": 2,
+		"growth_requirement": {
+			"type": "minecraft:lookup",
+			"fallback": {
+				"type": "minecraft:linear",
+				"base": 50.0,
+				"per_level_above_first": 50.0
+			},
+			"values": [
+				20.0,
+				50.0
+			]
 		}
 	}
 }
