@@ -47,6 +47,8 @@ config/**
 
 !config/artifacts/
 !config/artifacts/**
+!config/asyncparticles/
+!config/asyncparticles/**
 !config/defaultoptions/
 !config/defaultoptions/**
 !config/drippyloadingscreen/
