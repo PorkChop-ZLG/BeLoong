@@ -22,74 +22,82 @@
               "condition": {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
-			    "predicate": {
-			  	  "type_specific": {
-				    "type": "dragonsurvival:entity_check_predicate",
-				    "check_for": "living_entity"
-			      }
-			    }
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
               },
               "effect": {
-				"push_force": 0.3,
-				"target_direction": {
-				  "direction": "towards_entity"
-				},
+                "push_force": 0.2,
+                "target_direction": {
+                  "direction": "towards_entity"
+                },
                 "entity_effect": "dragonsurvival:push"
               }
             }
           ],
           "tick_rate": 1
         },
-        "radius": 10.0,
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 5,
+          "per_level_above_first": 1
+        },
         "target_type": "dragonsurvival:area"
       },
-	  {
+      {
         "general_data": {
           "effects": [
             {
               "condition": {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
-			    "predicate": {
-			  	  "type_specific": {
-				    "type": "dragonsurvival:entity_check_predicate",
-				    "check_for": "living_entity"
-			      }
-			    }
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
               },
               "effect": {
-				"push_force": 0.3,
-				"target_direction": {
-				  "direction": "towards_entity"
-				},
+                "push_force": 0.2,
+                "target_direction": {
+                  "direction": "towards_entity"
+                },
                 "entity_effect": "dragonsurvival:push"
               }
             }
           ],
           "tick_rate": 1
         },
-        "radius": 5.0,
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 5,
+          "per_level_above_first": 1
+        },
         "target_type": "dragonsurvival:area"
       },
-	  {
+      {
         "general_data": {
           "effects": [
             {
               "condition": {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
-			    "predicate": {
-			  	  "type_specific": {
-				    "type": "dragonsurvival:entity_check_predicate",
-				    "check_for": "living_entity"
-			      }
-			    }
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
               },
               "effect": {
-				"push_force": 0.5,
-				"target_direction": {
-				  "direction": "towards_entity"
-				},
+                "push_force": 0.4,
+                "target_direction": {
+                  "direction": "towards_entity"
+                },
                 "entity_effect": "dragonsurvival:push"
               }
             }
@@ -99,30 +107,41 @@
         "radius": 1.0,
         "target_type": "dragonsurvival:area"
       },
-	  {
+      {
         "general_data": {
           "effects": [
-		    {
-			  "condition": {
-			    "condition": "minecraft:entity_properties",
-			    "entity": "this",
-			    "predicate": {
-			  	  "type_specific": {
-				    "type": "dragonsurvival:entity_check_predicate",
-				    "check_for": "living_entity"
-			      }
-			    }
-			  },
-			  "effect": {
-				"entity_effect": "dragonsurvival:damage",
-				"damage_type": "dragonsurvival:singularity",
-				"amount": {
-				  "type": "minecraft:linear",
-				  "base": 2.0,
-				  "per_level_above_first": 1.0
-				}
-			  }
-		    }
+            {
+              "condition": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "dragonsurvival:entity_check_predicate",
+                    "check_for": "living_entity"
+                  }
+                }
+              },
+              "effect": {
+                "entity_effect": "dragonsurvival:damage",
+                "damage_type": "dragonsurvival:singularity",
+                "amount": {
+                  "type": "minecraft:lookup",
+                  "fallback": {
+                    "type": "minecraft:linear",
+                    "base": 5,
+                    "per_level_above_first": 5
+                  },
+                  "values": [
+                    5.0,
+                    10.0,
+                    20.0,
+                    50.0,
+                    100.0,
+                    200.0
+                  ]
+                }
+              }
+            }
           ],
           "tick_rate": 5
         },
@@ -151,7 +170,7 @@
                 "explosion_power": {
                   "type": "minecraft:linear",
                   "base": 2.0,
-                  "per_level_above_first": 1.0
+                  "per_level_above_first": 2.0
                 },
                 "fire": false,
                 "world_effect": "dragonsurvival:explosion"
@@ -172,8 +191,8 @@
     },
     "trail_particle": {
       "type": "dragonsurvival:sun",
-	  "swirls": false,
-	  "duration": 37
+      "swirls": false,
+      "duration": 37
     }
   }
 }

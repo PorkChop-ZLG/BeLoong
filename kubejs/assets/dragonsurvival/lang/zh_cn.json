@@ -202,5 +202,6 @@
 	"astral_dragon.advancement.astral/teleport_many_times.desc": "瞬间传送，对你来说比走路还容易。",
 	"astral_dragon.advancement.astral/dimensional_explorer": "星际迷航",
 	"astral_dragon.advancement.astral/dimensional_explorer.desc": "以星界龙的身份造访主世界、下界和末地。",
+	"projectile.dragonsurvival.singularity": "奇点",
 	"stat.astral_dragon.same_dimension_teleports": "同一维度传送次数"
 }

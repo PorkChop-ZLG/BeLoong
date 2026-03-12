@@ -201,5 +201,6 @@
 	"astral_dragon.advancement.astral/teleport_many_times.desc": "Instantaneous teleportation; it's easier than walking to you.",
 	"astral_dragon.advancement.astral/dimensional_explorer": "Dimensional Explorer",
 	"astral_dragon.advancement.astral/dimensional_explorer.desc": "Visit the Overworld, The Nether, and The End as an Astral Dragon.",
+	"projectile.dragonsurvival.singularity": "Singularity",
 	"stat.astral_dragon.same_dimension_teleports": "Times Teleported (Same Dimension)"
 }
