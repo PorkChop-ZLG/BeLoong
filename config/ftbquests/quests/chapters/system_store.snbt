@@ -1402,7 +1402,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "touhou_little_maid:broom"
