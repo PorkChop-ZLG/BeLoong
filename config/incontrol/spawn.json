@@ -92,7 +92,7 @@
     "mob": "terra_entity:brain_of_cthulhu",
     "when": "onjoin",
     "result": "allow",
-    "healthset": 1600,
+    "healthset": 8000,
     "damageset": 160
   },
   {
@@ -106,7 +106,7 @@
     "mob": "terra_entity:eater_of_worlds",
     "when": "onjoin",
     "result": "allow",
-    "healthset": 200,
+    "healthset": 8000,
     "damageset": 160
   },
   {

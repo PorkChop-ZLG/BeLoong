@@ -1,0 +1,28 @@
+#Stronger Fire Boss Config
+["About Damage Cap"]
+	#Is Damage Cap Enabled
+	#if false, damage cap will not be applied. 
+	#Default: true
+	is_damage_cap_enabled = true
+	#Normal Mode Damage Cap
+	#Default: 25.00
+	normal_mode_damage_cap = 25.0
+	#Soul Mode Damage Cap
+	#Default: 10.00
+	soul_mode_damage_cap = 10.0
+
+["About Attributes"]
+	#Default: 1000.00
+	max_health = 1000.0
+	#Default: 10.00
+	base_attack = 10.0
+	#Default: 15.00
+	armor = 15.0
+	#Default: 0.00
+	armor_toughness = 0.0
+	#Default: 1.25
+	spell_power = 1.25
+	#Default: 1.25
+	spell_resist = 1.25
+	#Default: 1.50
+	fire_magic_resist = 1.5

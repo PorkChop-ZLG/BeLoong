@@ -3166,6 +3166,104 @@
 				append = ""
 				format = ""
 
+	[type.twinned_crystal]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.twinned_crystal.icon]
+			tex = ""
+			item = ""
+
+		[type.twinned_crystal.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.frostfire_aegis]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.frostfire_aegis.icon]
+			tex = ""
+			item = ""
+
+		[type.frostfire_aegis.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.frostfire_breath]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.frostfire_breath.icon]
+			tex = ""
+			item = ""
+
+		[type.frostfire_breath.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.frostfire_reprisal]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.frostfire_reprisal.icon]
+			tex = ""
+			item = ""
+
+		[type.frostfire_reprisal.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.pulse_of_frostfire]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.pulse_of_frostfire.icon]
+			tex = ""
+			item = ""
+
+		[type.pulse_of_frostfire.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.crystalline_sanctuary]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.crystalline_sanctuary.icon]
+			tex = ""
+			item = ""
+
+		[type.crystalline_sanctuary.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.frostfire_damage]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.frostfire_damage.icon]
+			tex = ""
+			item = ""
+
+		[type.frostfire_damage.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -4282,6 +4380,48 @@
 			item = ""
 
 		[tag."minecraft:is_wind_charge".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."frostfire_dragon:is_fire_or_freezing"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."frostfire_dragon:is_fire_or_freezing".icon]
+			tex = ""
+			item = ""
+
+		[tag."frostfire_dragon:is_fire_or_freezing".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."frostfire_dragon:is_frostfire_aegis"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."frostfire_dragon:is_frostfire_aegis".icon]
+			tex = ""
+			item = ""
+
+		[tag."frostfire_dragon:is_frostfire_aegis".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."frostfire_dragon:is_frostfire"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."frostfire_dragon:is_frostfire".icon]
+			tex = ""
+			item = ""
+
+		[tag."frostfire_dragon:is_frostfire".format]
 			prepend = ""
 			append = ""
 			format = ""
