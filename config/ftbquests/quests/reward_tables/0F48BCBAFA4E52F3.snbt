@@ -7,19 +7,17 @@
 	order_index: 5
 	rewards: [
 		{ id: "236F42153D452734", item: { components: { "minecraft:custom_name": "\"§e『§6化龍§e』§d祭坛\"" }, count: 1, id: "dragonsurvival:cherry_dragon_altar" } }
-		{ id: "093242F9A02F315D", item: { count: 1, id: "ftbquests:book" } }
-		{ id: "6E2A4FFCA3CA799D", item: { components: { "patchouli:book": "touhou_little_maid:memorizable_gensokyo" }, count: 1, id: "patchouli:guide_book" } }
-		{ id: "3505F10CDEAB7798", item: { count: 1, id: "touhou_little_maid:smart_slab_init" } }
+		{ id: "1F7F0F07D36E6D77", item: { components: { "akashictome:defined_mod": "ftbquests", "akashictome:is_morphed": 1b, "akashictome:og_display_name": "{\"translate\":\"item.ftbquests.book\"}", "akashictome:tool_content": [ { components: { "akashictome:defined_mod": "touhou_little_maid", "patchouli:book": "touhou_little_maid:memorizable_gensokyo" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "irons_spellbooks", "patchouli:book": "irons_spellbooks:iss_guide_book" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "melodymagic", "patchouli:book": "melodymagic:melodymagic_book" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "twilightdelight", "patchouli:book": "twilightdelight:twilight_guide" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "ultramarine", "patchouli:book": "ultramarine:tiangong_kaiwu" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "yuushya", "patchouli:book": "yuushya:yuushya_guidebook" }, count: 1, id: "patchouli:guide_book" } ], "minecraft:custom_name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"任务书\"}]}" }, count: 1, id: "ftbquests:book" } }
+		{ id: "471703D931A90420", item: { count: 1, id: "beyonddimensions:net_creater" } }
+		{ id: "464BA3AE2BC5CA0B", item: { count: 1, id: "yuushya:octagon_pavilion" } }
 		{
 			count: 16
-			id: "72041BCC146DB629"
+			id: "1BD7820799460991"
 			item: {
 				count: 1
 				id: "minecraft:cooked_porkchop"
 			}
 		}
-		{ id: "7B4B0529DF34DB4D", item: { count: 1, id: "yuushya:octagon_pavilion" } }
-		{ id: "4C0CA9DF13E7E966", item: { count: 1, id: "waystones:warp_stone" } }
-		{ id: "693C910955966994", item: { count: 1, id: "beyonddimensions:net_creater" } }
+		{ id: "19C9D4AE9EEE4D95", item: { count: 1, id: "waystones:warp_stone" } }
 	]
 }
