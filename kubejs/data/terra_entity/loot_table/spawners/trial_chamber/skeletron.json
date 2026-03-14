@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terra_curio:bone_glove"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terra_entity:valor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "terra_entity:sculk_wisp_staff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xfws_someitems:mana_flower"
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonsurvival:elder_dragon_heart"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "terra_entity:spawners/trial_chamber/skeletron"
+}

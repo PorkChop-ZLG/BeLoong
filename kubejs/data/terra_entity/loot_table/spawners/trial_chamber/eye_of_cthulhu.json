@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terra_curio:shield_of_cthulhu"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xfws_someitems:sculk_megaphone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xfws_someitems:celestial_magnet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xfws_someitems:band_of_starpower"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonsurvival:elder_dragon_heart"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "terra_entity:spawners/trial_chamber/eye_of_cthulhu"
+}

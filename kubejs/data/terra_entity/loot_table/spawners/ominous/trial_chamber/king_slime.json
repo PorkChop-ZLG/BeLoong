@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "terra_curio:shield_of_cthulhu"
+          "name": "terra_curio:royal_gel"
         }
       ]
     },
@@ -15,15 +15,24 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "xfws_someitems:sculk_megaphone"
+          "name": "terra_entity:summon_wooden_sword_staff"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terra_entity:slime_staff"
         },
         {
           "type": "minecraft:item",
-          "name": "xfws_someitems:celestial_magnet"
+          "name": "terra_entity:swamp_whip"
         },
         {
           "type": "minecraft:item",
-          "name": "xfws_someitems:band_of_starpower"
+          "name": "terra_entity:slimy_saddle"
         }
       ]
     },
@@ -34,33 +43,37 @@
           "type": "minecraft:item",
           "functions": [
             {
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 64.0,
-                "max": 128.0
+                "max": 6.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "dragonsurvival:elder_dragon_dust"
+          "name": "dragonsurvival:elder_dragon_heart",
+          "weight": 90
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 32.0,
-                "max": 64.0
+                "max": 1.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "irons_spellbooks:arcane_essence"
+          "name": "kubejs:progenitor_dragon_heart",
+          "weight": 10
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "terra_entity:entities/eye_of_cthulhu"
+  "random_sequence": "terra_entity:spawners/ominous/trial_chamber/king_slime"
 }

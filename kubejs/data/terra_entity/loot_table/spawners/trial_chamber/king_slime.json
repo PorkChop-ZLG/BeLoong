@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terra_curio:royal_gel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terra_entity:slime_staff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "terra_entity:swamp_whip"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "terra_entity:slimy_saddle"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonsurvival:elder_dragon_heart"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "terra_entity:spawners/trial_chamber/king_slime"
+}
