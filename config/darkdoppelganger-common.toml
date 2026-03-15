@@ -35,6 +35,20 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
 	doppelgangerSpellPowerMultiplier = 1.5
+	#If true, the boss will copy the player's armor unless the armor is banned or missing. If false, the boss will always use the configured default armor set.
+	copy_player_armor = true
+	#If true, the boss will copy the player's main hand item. If false, it will always use the configured default main hand item.
+	copy_player_mainhand = true
+	#Default weapon item ID used when the boss should not copy the player's main hand item.
+	default_mainhand = "minecraft:netherite_sword"
+	#Default helmet item ID used when the boss should not copy the player's helmet.
+	default_helmet = "irons_spellbooks:netherite_mage_helmet"
+	#Default chestplate item ID used when the boss should not copy the player's chestplate.
+	default_chestplate = "irons_spellbooks:netherite_mage_chestplate"
+	#Default leggings item ID used when the boss should not copy the player's leggings.
+	default_leggings = "irons_spellbooks:netherite_mage_leggings"
+	#Default boots item ID used when the boss should not copy the player's boots.
+	default_boots = "irons_spellbooks:netherite_mage_boots"
 
 	[dark_doppelganger.phase1]
 		spells_a = ["irons_spellbooks:guiding_bolt", "irons_spellbooks:blood_needles", "irons_spellbooks:blood_slash"]
