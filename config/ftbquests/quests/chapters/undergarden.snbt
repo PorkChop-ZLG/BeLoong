@@ -358,6 +358,7 @@
 			]
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				id: "4FB0F260EEF57CBC"
 				item: { count: 1, id: "terra_curio:royal_gel" }
 				type: "item"
@@ -465,6 +466,7 @@
 			]
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				id: "4714C65B7A5CDCF4"
 				item: { count: 1, id: "terra_curio:shield_of_cthulhu" }
 				type: "item"
@@ -556,6 +558,7 @@
 			]
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				id: "6A7819B441FEE267"
 				item: { count: 1, id: "terra_curio:brain_of_confusion" }
 				type: "item"
@@ -593,6 +596,7 @@
 			]
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				id: "3B6957BF557716EF"
 				item: { count: 1, id: "terra_curio:worm_scarf" }
 				type: "item"
@@ -661,6 +665,7 @@
 			]
 			size: 2.0d
 			tasks: [{
+				consume_items: true
 				id: "71AE60724757B755"
 				item: { count: 1, id: "terra_curio:hive_pack" }
 				type: "item"
@@ -1334,6 +1339,7 @@
 			]
 			size: 2.0d
 			tasks: [{
+				consume_items: true
 				id: "0E049EC081AB7DF3"
 				item: { count: 1, id: "terra_curio:bone_glove" }
 				type: "item"
