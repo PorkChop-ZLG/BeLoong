@@ -514,13 +514,13 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "cataclysm:coral_golem_spawn_egg"
+				id: "minecraft:wandering_trader_spawn_egg"
 			}
 			id: "5CFF88C245EF7BE5"
 			rewards: [{
-				command: "/summon cataclysm:coral_golem ~ ~ ~"
+				command: "/summon minecraft:wandering_trader ~ ~ ~"
 				icon: {
-					id: "cataclysm:coral_golem_spawn_egg"
+					id: "minecraft:wandering_trader_spawn_egg"
 				}
 				id: "5A9476EF337264A3"
 				permission_level: 2

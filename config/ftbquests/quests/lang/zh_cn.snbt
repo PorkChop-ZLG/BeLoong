@@ -2135,8 +2135,9 @@
 	]
 	quest.37F1B7C8FF396C68.title: "击杀：飞鱼"
 	quest.3859C3FFB6F2C61B.quest_desc: [
-		"&6恭喜你完成了&e【第一章】&6或&e【番外篇】"
-		"&6现在&b系统商店&6已经开放，你可以兑换各种奇珍异宝！"
+		"&a目标：完成主线【龙之生存】或番外篇【铁魔法】"
+		""
+		"&6在&b系统商店&6，你可以兑换各种奇珍异宝！"
 		"&6通用货币是&d龙心&6，部分宝贝还有别的要求。"
 	]
 	quest.3859C3FFB6F2C61B.quest_subtitle: "叮！恭喜您解锁【系统商店】"
@@ -3347,8 +3348,8 @@
 	]
 	quest.5CE2B692394FA5A2.quest_subtitle: "聆听，原初的回响"
 	quest.5CFF88C245EF7BE5.quest_desc: ["&c注意：是原地生成一只【珊瑚傀儡】！"]
-	quest.5CFF88C245EF7BE5.quest_subtitle: "掉落晶化珊瑚"
-	quest.5CFF88C245EF7BE5.title: "珊瑚傀儡"
+	quest.5CFF88C245EF7BE5.quest_subtitle: "交换群青物品"
+	quest.5CFF88C245EF7BE5.title: "流浪商人"
 	quest.5D05EE02D584AF2F.quest_desc: [
 		"&a目标：集齐所有财宝堆"
 		""
@@ -4456,7 +4457,7 @@
 	reward.4605D18D17F1BB92.title: "化凡为人"
 	reward.4BCB923F946FBCF3.title: "生成【紫水晶巨蟹】"
 	reward.4FA5DE6B8C446E46.title: "雨雪"
-	reward.5A9476EF337264A3.title: "生成【珊瑚傀儡】"
+	reward.5A9476EF337264A3.title: "生成【流浪商人】"
 	reward.5DA01E41DB6D6A01.title: "自选龙蛋"
 	reward.75A5CB8F03F3BFD2.title: "生成【宝箱怪】"
 	reward.7D4E423C2BEB7F9C.title: "晴天"

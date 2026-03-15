@@ -59,6 +59,19 @@ ServerEvents.recipes(event => {
             B: 'iss_magicfromtheeast:coins_sword'
         }
     )
+    // 诸葛连弩
+    event.shaped(Item.of('iss_magicfromtheeast:repeating_crossbow', 1), [
+        'ABA',
+        'CDC',
+        ' A '
+    ],
+        {
+            A: 'iss_magicfromtheeast:red_shaft',
+            B: 'iss_magicfromtheeast:refined_jade_ingot',
+            C: '#c:strings',
+            D: 'minecraft:tripwire_hook',
+        }
+    )
     // 村正 
     event.shaped(Item.of('iss_magicfromtheeast:muramasa', 1), [
         '  A',
