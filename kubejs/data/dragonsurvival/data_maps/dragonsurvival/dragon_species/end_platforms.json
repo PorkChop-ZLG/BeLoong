@@ -79,6 +79,22 @@
         100
       ],
       "structure": "dragonsurvival:end_spawn_platforms/wing_kirin_end_spawn_platform"
+    },
+    "dragonsurvival:frostfire_dragon": {
+      "spawn_position": [
+        0,
+        50,
+        200
+      ],
+      "structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
+    },
+    "dragonsurvival:star_dragon": {
+      "spawn_position": [
+        -200,
+        50,
+        200
+      ],
+      "structure": "dragonsurvival:end_spawn_platforms/star_end_spawn_platform"
     }
   }
 }

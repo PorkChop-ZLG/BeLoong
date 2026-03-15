@@ -3264,6 +3264,34 @@
 			append = ""
 			format = ""
 
+	[type.sunlight_burn]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.sunlight_burn.icon]
+			tex = ""
+			item = ""
+
+		[type.sunlight_burn.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type."black hole"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type."black hole".icon]
+			tex = ""
+			item = ""
+
+		[type."black hole".format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
