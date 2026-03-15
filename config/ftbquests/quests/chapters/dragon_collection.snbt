@@ -385,6 +385,7 @@
 		{
 			icon_scale: 1.5d
 			id: "12D51CB6B22EB6E9"
+			optional: true
 			rewards: [{
 				count: 64
 				id: "1AF968705074793B"
@@ -408,6 +409,7 @@
 		{
 			icon_scale: 1.5d
 			id: "6BF3A8995ACD12E2"
+			optional: true
 			rewards: [{
 				count: 64
 				id: "076F3855A61AC176"
@@ -437,6 +439,7 @@
 			}
 			icon_scale: 1.5d
 			id: "6B6C646887FE40EF"
+			optional: true
 			rewards: [{
 				count: 64
 				id: "6EBF9ECF97CF0201"

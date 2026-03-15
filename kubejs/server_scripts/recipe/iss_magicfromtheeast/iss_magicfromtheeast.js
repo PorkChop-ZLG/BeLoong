@@ -1,8 +1,10 @@
 // 该脚本用于魔改 东方秘术 的配方
 ServerEvents.recipes(event => {
+    // 玉佩
+    event.remove({ id: 'iss_magicfromtheeast:jade_pendant' })
     // 阴阳核心
     event.remove({ id: 'iss_magicfromtheeast:yin_yang_core' })
-    event.shaped(Item.of('iss_magicfromtheeast:copper_coins', 1), [
+    event.shaped(Item.of('iss_magicfromtheeast:yin_yang_core', 1), [
         'AAB',
         'ACB',
         'ABB'
@@ -27,7 +29,7 @@ ServerEvents.recipes(event => {
             C: 'irons_spellbooks:cinder_essence'
         }
     )
-    // 群青的铜钱 合成 东方秘术的铜钱
+    // 群青的铜钱 合成 东方秘术的一串铜钱
     event.remove({ id: 'iss_magicfromtheeast:copper_coins' })
     event.shaped(Item.of('iss_magicfromtheeast:copper_coins', 1), [
         ' AB',
@@ -37,13 +39,25 @@ ServerEvents.recipes(event => {
         {
             A: 'ultramarine:copper_cash_coin',
             B: 'iss_magicfromtheeast:red_string'
-        })
-    // 东方秘术的铜钱 合成 群青的铜钱
+        }
+    )
+    // 东方秘术的一串铜钱 合成 群青的铜钱
     event.shapeless(
         Item.of('ultramarine:copper_cash_coin', 3),
         [
             'iss_magicfromtheeast:copper_coins'
         ]
+    )
+    // 锈蚀的铜钱剑
+    event.shaped(Item.of('iss_magicfromtheeast:rusted_coins_sword', 1), [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+        {
+            A: 'minecraft:oxidized_copper',
+            B: 'iss_magicfromtheeast:coins_sword'
+        }
     )
     // 村正 
     event.shaped(Item.of('iss_magicfromtheeast:muramasa', 1), [
@@ -55,7 +69,8 @@ ServerEvents.recipes(event => {
             A: 'irons_spellbooks:blood_vial',
             B: 'iss_magicfromtheeast:red_shaft',
             C: 'minecraft:iron_ingot'
-        })
+        }
+    )
     // 奥术遗物
     event.shapeless(
         Item.of('iss_magicfromtheeast:arcane_relics', 3),
@@ -74,7 +89,8 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:yin_yang_core'
-        })
+        }
+    )
     // 道袍
     event.shaped(Item.of('iss_magicfromtheeast:taoist_chestplate', 1), [
         'A A',
@@ -84,7 +100,8 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:yin_yang_core'
-        })
+        }
+    )
     //  云袜
     event.shaped(Item.of('iss_magicfromtheeast:taoist_leggings', 1), [
         'ABA',
@@ -94,7 +111,8 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:yin_yang_core'
-        })
+        }
+    )
     // 云履
     event.shaped(Item.of('iss_magicfromtheeast:taoist_boots', 1), [
         '   ',
@@ -104,7 +122,8 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:yin_yang_core'
-        })
+        }
+    )
     // 乌帽
     event.shaped(Item.of('iss_magicfromtheeast:onmyoji_helmet', 1), [
         'ABA',
@@ -114,7 +133,8 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:crystallized_soul'
-        })
+        }
+    )
     // 狩衣
     event.shaped(Item.of('iss_magicfromtheeast:onmyoji_chestplate', 1), [
         'A A',
@@ -124,7 +144,8 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:crystallized_soul'
-        })
+        }
+    )
     //  指贯
     event.shaped(Item.of('iss_magicfromtheeast:onmyoji_leggings', 1), [
         'ABA',
@@ -134,7 +155,8 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:crystallized_soul'
-        })
+        }
+    )
     // 木屐
     event.shaped(Item.of('iss_magicfromtheeast:onmyoji_boots', 1), [
         '   ',
@@ -144,5 +166,6 @@ ServerEvents.recipes(event => {
         {
             A: 'iss_magicfromtheeast:arcane_relics',
             B: 'iss_magicfromtheeast:crystallized_soul'
-        })
+        }
+    )
 })
