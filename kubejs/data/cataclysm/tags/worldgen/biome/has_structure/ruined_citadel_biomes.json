@@ -4,7 +4,7 @@
     "minecraft:end_highlands",
     "minecraft:end_midlands",
     {
-      "id": "#c:is_end",
+      "id": "#minecraft:has_structure/end_city",
       "required": false
     }
   ]

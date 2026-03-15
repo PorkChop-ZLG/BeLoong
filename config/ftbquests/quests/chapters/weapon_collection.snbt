@@ -31,7 +31,7 @@
 			icon_scale: 2.0d
 			id: "7140F79C02D9A138"
 			rewards: [{
-				count: 12
+				count: 6
 				id: "65D3C34DEC56EBC7"
 				item: {
 					count: 1
@@ -262,7 +262,7 @@
 			icon_scale: 2.0d
 			id: "57129F2800906CC9"
 			rewards: [{
-				count: 6
+				count: 3
 				id: "25BBF5CE6ECAB20E"
 				item: {
 					count: 1

@@ -15,6 +15,20 @@
     "result": "deny"
   },
   {
+    "mob": "minecraft:ender_dragon",
+    "when": "onjoin",
+    "result": "allow",
+    "healthadd": 800,
+    "damageadd": 40
+  },
+  {
+    "mob": "minecraft:wither",
+    "when": "onjoin",
+    "result": "allow",
+    "healthadd": 500,
+    "damageadd": 60
+  },
+  {
     "mob": "terra_entity:wandering_eye_fish",
     "when": "onjoin",
     "result": "allow",
