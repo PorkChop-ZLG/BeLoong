@@ -1,4 +1,5 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "dragon_collection"
@@ -10,167 +11,269 @@
 			image: "kubejs:textures/task/cave_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: 3.5d
+			x: -5.0d
+			y: 6.5d
 		}
 		{
 			height: 6.0d
 			image: "kubejs:textures/task/forest_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.0d
-			y: 3.5d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			height: 6.0d
 			image: "kubejs:textures/task/sea_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.0d
-			y: 3.5d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			height: 6.0d
 			image: "kubejs:textures/task/tundra_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 6.0d
-			y: 3.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			height: 6.0d
 			image: "kubejs:textures/task/aether_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 8.0d
-			y: 3.5d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			height: 6.0d
 			image: "kubejs:textures/task/astral_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.0d
-			y: 3.5d
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			height: 6.0d
+			image: "kubejs:textures/task/kirin_banner_01.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			height: 6.0d
+			image: "kubejs:textures/task/frostfire_banner_01.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			height: 6.0d
+			image: "kubejs:textures/task/crystcursed_banner_01.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			height: 6.0d
+			image: "kubejs:textures/task/star_banner_01.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -6.5d
 		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["508986FA5D56C11E"]
 			icon_scale: 1.5d
 			id: "70F041A9AA323CCD"
-			rewards: [{
-				count: 64
-				id: "26A5693D3FE132C1"
-				item: {
-					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+			rewards: [
+				{
+					count: 3
+					id: "75ADE13E0DA5C394"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4DE9F8C1D916E092"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				id: "4286A3E156CEA729"
-				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"red\",\"italic\":false,\"text\":\"洞穴龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了洞穴龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "dragonsurvival:cave_full_icon" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "4286A3E156CEA729"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"red\",\"italic\":false,\"text\":\"洞穴龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了洞穴龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "dragonsurvival:cave_full_icon" }
+					type: "item"
+				}
+				{
+					advancement: "dragonsurvival:cave/be_progenitor"
+					criterion: ""
+					id: "1CC3896558349548"
+					type: "advancement"
+				}
+			]
+			x: -5.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["19DA784FDC312506"]
 			icon_scale: 1.5d
 			id: "6C7973AE332F1467"
-			rewards: [{
-				count: 64
-				id: "49FCC381752C14E0"
-				item: {
-					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+			rewards: [
+				{
+					count: 3
+					id: "34CAA2159B633997"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1E4E2AA34273FABB"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				id: "73A34A38385A2ABD"
-				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\"森林龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了森林龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "dragonsurvival:forest_full_icon" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "73A34A38385A2ABD"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\"森林龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了森林龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "dragonsurvival:forest_full_icon" }
+					type: "item"
+				}
+				{
+					advancement: "dragonsurvival:forest/be_progenitor"
+					criterion: ""
+					id: "2DA62ED490D4CE1F"
+					type: "advancement"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["05B2708F599F0167"]
 			icon_scale: 1.5d
 			id: "431A9BCA53DB263B"
-			rewards: [{
-				count: 64
-				id: "5E8F330813549705"
-				item: {
-					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+			rewards: [
+				{
+					count: 3
+					id: "3E54FD46CA3C72AC"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5927BEE211E7017B"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				id: "2C6EEB16F8FB942D"
-				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"海洋龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了海洋龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "dragonsurvival:sea_full_icon" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "2C6EEB16F8FB942D"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"海洋龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了海洋龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "dragonsurvival:sea_full_icon" }
+					type: "item"
+				}
+				{
+					advancement: "dragonsurvival:sea/be_progenitor"
+					criterion: ""
+					id: "3572977B90CB1891"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["513C98D0E44293EA"]
 			icon_scale: 1.5d
 			id: "7D81132CD0C6EF1C"
-			rewards: [{
-				count: 64
-				id: "466CF3A19A2B6F12"
-				item: {
-					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+			rewards: [
+				{
+					count: 3
+					id: "1B9447A612BC6B31"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "615DE7CBA88E1F71"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				id: "5898627758ED23D5"
-				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"white\",\"italic\":false,\"text\":\"苔原龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了苔原龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "kubejs:tundra_full_icon" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "5898627758ED23D5"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"white\",\"italic\":false,\"text\":\"苔原龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了苔原龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "kubejs:tundra_full_icon" }
+					type: "item"
+				}
+				{
+					advancement: "dragonsurvival:tundra/be_progenitor"
+					criterion: ""
+					id: "2D60B66CBBC7186C"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4633599C0B5F87C4"]
 			icon_scale: 1.5d
 			id: "3BF1FD634ECFCB4E"
-			rewards: [{
-				count: 64
-				id: "6CA199ED12A155EC"
-				item: {
-					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+			rewards: [
+				{
+					count: 3
+					id: "2A202962240E412B"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0890FAF5FEDB486B"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				id: "449362EE2BE96F97"
-				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"dark_aqua\",\"italic\":false,\"text\":\"以太龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了以太龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "ds_aether_addon:aetherdragonicon" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "449362EE2BE96F97"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"dark_aqua\",\"italic\":false,\"text\":\"以太龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了以太龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "ds_aether_addon:aetherdragonicon" }
+					type: "item"
+				}
+				{
+					advancement: "dragonsurvival:aether/be_progenitor_dragon"
+					criterion: ""
+					id: "40C841FCC82C1A28"
+					type: "advancement"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -180,6 +283,10 @@
 				"7D81132CD0C6EF1C"
 				"3BF1FD634ECFCB4E"
 				"1588CA412F4FAA24"
+				"12D51CB6B22EB6E9"
+				"6BF3A8995ACD12E2"
+				"6B6C646887FE40EF"
+				"4B723B7F2ACB3FB8"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -211,16 +318,53 @@
 				id: "5AC3C8A012576E52"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1FBBB4F5A5AF64FD"]
 			icon_scale: 1.5d
 			id: "1588CA412F4FAA24"
+			rewards: [
+				{
+					count: 3
+					id: "6A0DEB5ADE722247"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "4CBC8F1A7F7903C5"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2A782EDBD46C65FB"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"星界龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了星界龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "astral_dragon:astral_full_icon" }
+					type: "item"
+				}
+				{
+					advancement: "astral_dragon:astral/singularity"
+					criterion: ""
+					id: "0D3918B42039D3AC"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "4B723B7F2ACB3FB8"
+			optional: true
 			rewards: [{
 				count: 64
-				id: "523BCE643C32BDB1"
+				id: "1DE55C58224F83CC"
 				item: {
 					count: 1
 					id: "dragonsurvival:elder_dragon_heart"
@@ -230,12 +374,88 @@
 			shape: "none"
 			size: 2.0d
 			tasks: [{
-				id: "2A782EDBD46C65FB"
-				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"星界龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了星界龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "astral_dragon:astral_full_icon" }
+				advancement: "wing_kirin:wing_kirin/be_old"
+				criterion: ""
+				id: "0C5D60221E6E6E63"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "12D51CB6B22EB6E9"
+			rewards: [{
+				count: 64
+				id: "1AF968705074793B"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_heart"
+				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				advancement: "crystcursed_dragon:crystcursed/be_old_dragon"
+				criterion: ""
+				id: "387497DD55F27B89"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6BF3A8995ACD12E2"
+			rewards: [{
+				count: 64
+				id: "076F3855A61AC176"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_heart"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				advancement: "frostfire_dragon:be_old_dragon"
+				criterion: ""
+				id: "47AA59199DF0958A"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/star/ancient_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "6B6C646887FE40EF"
+			rewards: [{
+				count: 64
+				id: "6EBF9ECF97CF0201"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_heart"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				count: 64L
+				id: "183665DE3866C839"
+				item: { count: 1, id: "star_dragon:starcubess" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 }

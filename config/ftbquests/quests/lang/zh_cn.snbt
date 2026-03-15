@@ -828,6 +828,13 @@
 	]
 	quest.12A467A5BE97AA0E.quest_subtitle: "打卡12种繁花生物群系"
 	quest.12A467A5BE97AA0E.title: "你若盛开，蝴蝶自来"
+	quest.12D51CB6B22EB6E9.quest_desc: [
+		"&a目标：身为晶咒龙成长到成年阶段"
+		""
+		"&#299e96「晶咒龙」"
+		"从龙之一，受到诅咒，只能与水晶为伴，掌握变异的“晶咒”魔法。"
+	]
+	quest.12D51CB6B22EB6E9.title: "&#299e96从龙：晶咒龙"
 	quest.12E2CD43AD01F522.title: "击杀：沼骸"
 	quest.12EB86E73FDAF20F.quest_desc: ["&a目标：观察一只火龙"]
 	quest.12EB86E73FDAF20F.quest_subtitle: "了解火龙习性"
@@ -904,7 +911,13 @@
 	quest.15433E12926E99B9.quest_subtitle: "没进化出翅膀的低等生物罢了"
 	quest.15433E12926E99B9.title: "&d这隆起的土邱是龙巢吗？"
 	quest.155114DC02DEBDDE.quest_subtitle: "奶油，咖啡与酒"
-	quest.1588CA412F4FAA24.quest_desc: ["&5恭喜你完成了星界龙的成长之路！"]
+	quest.1588CA412F4FAA24.quest_desc: [
+		"&a目标：提交星界龙的毕业证"
+		""
+		"&5&l「星界龙」"
+		"六大主龙之一，掌握末影的力量。"
+	]
+	quest.1588CA412F4FAA24.title: "&5主龙：星界龙"
 	quest.159566AC6D6F2977.quest_desc: [
 		"&a目标：合成凝注台，学会使用凝注"
 		""
@@ -2227,7 +2240,13 @@
 	quest.3B512F52E529954C.quest_subtitle: "成长到青年龙阶段"
 	quest.3B512F52E529954C.title: "青年以太龙"
 	quest.3B93840E4935B0B0.title: "打卡：海洋"
-	quest.3BF1FD634ECFCB4E.quest_desc: ["&3恭喜你完成了以太龙的成长之路！"]
+	quest.3BF1FD634ECFCB4E.quest_desc: [
+		"&a目标：提交以太龙的毕业证"
+		""
+		"&3&l「以太龙」"
+		"六大主龙之一，掌握风和两仪的力量。"
+	]
+	quest.3BF1FD634ECFCB4E.title: "&3主龙：以太龙"
 	quest.3C6B0A594CE6F7E7.quest_desc: [
 		"&6泰拉BOSS死后&c无法生成&6BOSS重生笼，"
 		"&6在此使用对应BOSS召唤物兑换。"
@@ -2409,7 +2428,13 @@
 	]
 	quest.42921D7314712236.quest_subtitle: "集齐饰品图鉴，即可通关"
 	quest.42921D7314712236.title: "&e&l【饰品全收集】"
-	quest.431A9BCA53DB263B.quest_desc: ["&9恭喜你完成了海洋龙的成长之路！"]
+	quest.431A9BCA53DB263B.quest_desc: [
+		"&a目标：提交海洋龙的毕业证"
+		""
+		"&9&l「洞穴龙」"
+		"六大主龙之一，三大原始龙族之一，掌握雷霆的力量。"
+	]
+	quest.431A9BCA53DB263B.title: "&9主龙：海洋龙"
 	quest.434D3A47067493D8.quest_desc: [
 		"曾经最为辉煌的骑士，如今已经衰败。他们与包围森林中心的砷铅铁紧密相连。他们的灵魂无法安息，日日夜夜地守护这个墓室防止入侵者到来。"
 		""
@@ -2723,6 +2748,13 @@
 	]
 	quest.4B2A79FC0C011CB2.quest_subtitle: "特殊龙钢配方"
 	quest.4B2A79FC0C011CB2.title: "龙钢锻炉"
+	quest.4B723B7F2ACB3FB8.quest_desc: [
+		"&a目标：身为翼麒麟成长到成年阶段"
+		""
+		"&#fbdc92「翼麒麟」"
+		"翼麒麟并不是龙，而且瑞兽麒麟。受此方世界影响，暂时使用龙的身躯。"
+	]
+	quest.4B723B7F2ACB3FB8.title: "&#fbdc92特殊：翼麒麟"
 	quest.4BCF83DBB5612B54.quest_subtitle: "每条龙保底一次"
 	quest.4BCF83DBB5612B54.title: "二重身之戒保底"
 	quest.4BD6C7A2A6DC392B.quest_desc: [
@@ -3240,7 +3272,7 @@
 	quest.5B9E398C385E0CA1.quest_subtitle: "平原上的白色小花"
 	quest.5BAF5C77F3373696.title: "观察：海泡菜"
 	quest.5BB4A81605A76537.quest_desc: [
-		"&a目标：集齐所有龙的毕业证"
+		"&a目标：游玩整合包里的所有龙，并且点亮龙族图鉴。"
 		""
 		"&6再长的路，也有终点；化龍之旅，到此完结。"
 		"&6这一路上，经历的风风雨雨，凝结成珍贵的回忆。"
@@ -3704,6 +3736,13 @@
 	quest.6B64D3D885D9E1A9.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
 	quest.6B64D3D885D9E1A9.quest_subtitle: "击杀咒翼灵骸，提交其掉落物"
 	quest.6B64D3D885D9E1A9.title: "加冕冰之王座"
+	quest.6B6C646887FE40EF.quest_desc: [
+		"&a目标：提交64个星辰立方"
+		""
+		"&#2E2888「星辰龙」"
+		"从龙之一，星界龙的变种，掌握变异的“星辰”魔法。"
+	]
+	quest.6B6C646887FE40EF.title: "&#2E2888从龙：星辰龙"
 	quest.6B6CE283EC1FD731.quest_desc: ["火焰沼泽周围是若干湿地，这些湿地则掩埋了一个充斥着牛头人的迷宫。从他们的身上取得&a迷宫核心"]
 	quest.6B6CE283EC1FD731.title: "&c一群画地为牢的家伙"
 	quest.6BA6E3779F1D4FC3.quest_desc: [
@@ -3730,7 +3769,20 @@
 	]
 	quest.6BD730F6532DEC81.quest_subtitle: "简易的建筑工具"
 	quest.6BD730F6532DEC81.title: "建筑棒"
-	quest.6C7973AE332F1467.quest_desc: ["&2恭喜你完成了森林龙的成长之路！"]
+	quest.6BF3A8995ACD12E2.quest_desc: [
+		"&a目标：身为冰焰龙成长到成年阶段"
+		""
+		"&#7FC6E8「冰焰龙」"
+		"从龙之一，洞穴龙和苔原龙的后代，掌握变异的“冰焰”魔法。"
+	]
+	quest.6BF3A8995ACD12E2.title: "&#7FC6E8从龙：冰焰龙"
+	quest.6C7973AE332F1467.quest_desc: [
+		"&a目标：提交森林龙的毕业证"
+		""
+		"&2&l「洞穴龙」"
+		"六大主龙之一，三大原始龙族之一，掌握自然的力量。"
+	]
+	quest.6C7973AE332F1467.title: "&2主龙：森林龙"
 	quest.6C896BDFB4BBB4E4.quest_desc: [
 		"&a目标：学会使用FTB区块"
 		""
@@ -3931,7 +3983,13 @@
 	quest.7082701EBE593912.quest_subtitle: "神秘莫测的星光主题维度"
 	quest.7082701EBE593912.title: "&d&l主线：永恒星光"
 	quest.7094F53A33655DF3.quest_subtitle: "全年龄饮品"
-	quest.70F041A9AA323CCD.quest_desc: ["&c恭喜你完成了洞穴龙的成长之路！"]
+	quest.70F041A9AA323CCD.quest_desc: [
+		"&a目标：提交洞穴龙的毕业证"
+		""
+		"&c&l「洞穴龙」"
+		"六大主龙之一，三大原始龙族之一，掌握火焰的力量。"
+	]
+	quest.70F041A9AA323CCD.title: "&c主龙：洞穴龙"
 	quest.71356A8881052F9A.quest_desc: [
 		"&e幻化台&6可以改变物品的外观。"
 		"&6如把钻石剑的外观替换为木剑，打一个出其不意。"
@@ -4309,7 +4367,13 @@
 		""
 		"&9结构罗盘：&b远古城市"
 	]
-	quest.7D81132CD0C6EF1C.quest_desc: ["&f恭喜你完成了苔原龙的成长之路！"]
+	quest.7D81132CD0C6EF1C.quest_desc: [
+		"&a目标：提交苔原龙的毕业证"
+		""
+		"&f&l「苔原龙」"
+		"六大主龙之一，掌握冰霜的力量。"
+	]
+	quest.7D81132CD0C6EF1C.title: "&f主龙：苔原龙"
 	quest.7DA6938BDD9417AE.quest_desc: [
 		"&a目标：获得龙之骨"
 		""
