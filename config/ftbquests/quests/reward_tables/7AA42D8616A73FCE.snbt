@@ -1,0 +1,29 @@
+{
+	id: "7AA42D8616A73FCE"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			command: "/gamerule keepInventory true"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/pending_invite/accept.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6CFE2CB668667884"
+			type: "command"
+		}
+		{
+			command: "/gamerule keepInventory false"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/pending_invite/reject.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1EB7C8ED22A19F53"
+			type: "command"
+		}
+	]
+}

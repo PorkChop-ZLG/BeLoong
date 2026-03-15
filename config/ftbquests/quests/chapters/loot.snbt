@@ -89,7 +89,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["038BE99D4FE3442D"]
@@ -166,7 +166,30 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["067FBF1E5A9167E0"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "0C7F298F1FA0C8D4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AA90E11E751BB43"
+				table_id: 8837238422736682958L
+				type: "choice"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1773EF3ECE95F4EF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.25d
 		}
 	]
 }

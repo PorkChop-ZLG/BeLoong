@@ -181,6 +181,7 @@ config/asyncparticles/asyncparticles-mixin.properties
 !config/sophisticatedstorage-client.toml
 !config/sophisticatedstorage-common.toml
 !config/sophisticatedstorage-server.toml
+!config/soulbound-common.toml
 !config/spikyspikes-server.toml
 !config/stronger_fire_boss.toml
 !config/structurecredits-config.json
