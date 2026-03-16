@@ -1,6 +1,6 @@
 {
   "_comment": "Server-side settings for VoiceCastAddon. These settings affect game balance and should be configured by server administrators.",
-  "skipCastTime": true,
+  "skipCastTime": false,
   "ignoreCooldown": false,
   "ignoreManaRequirement": false
 }
