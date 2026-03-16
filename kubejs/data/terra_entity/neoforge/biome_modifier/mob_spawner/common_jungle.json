@@ -1,12 +1,6 @@
 {
     "type": "neoforge:add_spawns",
-    "biomes": {
-        "type": "neoforge:or",
-        "values": [
-            "#c:is_jungle",
-            "#c:is_lush"
-        ]
-    },
+    "biomes": "#terra_entity:is_jungle",
     "spawners": [
         {
             "type": "terra_entity:hornet",
@@ -28,7 +22,7 @@
         },
         {
             "type": "terra_entity:man_eater",
-            "weight": 80,
+            "weight": 20,
             "minCount": 1,
             "maxCount": 1
         },

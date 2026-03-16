@@ -1,6 +1,6 @@
 {
     "type": "neoforge:add_spawns",
-    "biomes": "#c:is_end",
+    "biomes": "#terra_entity:is_ever_where",
     "spawners": [
         {
             "type": "terra_entity:harpy",

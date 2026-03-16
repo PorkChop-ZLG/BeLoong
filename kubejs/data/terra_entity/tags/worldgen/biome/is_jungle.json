@@ -1,0 +1,22 @@
+{
+  "values": [
+    "#c:is_jungle",
+    "#c:is_lush",
+    {
+      "id": "undergarden:frosty_smogstem_forest",
+      "required": false
+    },
+    {
+      "id": "undergarden:dense_forest",
+      "required": false
+    },
+    {
+      "id": "undergarden:smogstem_forest",
+      "required": false
+    },
+    {
+      "id": "undergarden:wigglewood_forest",
+      "required": false
+    }
+  ]
+}

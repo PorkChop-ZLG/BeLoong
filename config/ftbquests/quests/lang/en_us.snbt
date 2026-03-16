@@ -985,15 +985,6 @@
 		"&bPermafrost Ingot + Ice Dragon Blood = Dragonsteel Frost (Dragonforge)"
 	]
 	quest.15D4B079675BDA00.quest_subtitle: "Recipe Modified, Requires Permafrost Ingot"
-	quest.15E9E6DAEC4C69CE.quest_desc: [
-		"&aObjective: Obtain Abhorrent Bee"
-		""
-		"&aDeep in Overworld jungles&6 lurk &aSnatcher Plants&6 and &aMan-Eating Flowers&6,"
-		"&6and underground, large numbers of &aWasps&6 nest."
-		"&6They have a very small chance to drop &eAbhorrent Bee&6."
-		"&6Vanilla &aBees&6 also have an extremely tiny chance to drop &eAbhorrent Bee&6."
-	]
-	quest.15E9E6DAEC4C69CE.quest_subtitle: "Summon the Bee Queen"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "Defeat Three Yeti Bosses"
 	quest.1611AF1CA2E30FEE.title: "Which One Is the Real Yeti?"
 	quest.1622BD52272D5656.quest_desc: [
@@ -1315,8 +1306,6 @@
 	quest.203D481DA0DFD214.title: "A Piece of... Art?"
 	quest.20418663EEBB6E73.quest_subtitle: "Tianquan is neither near nor far, cannot be disclosed"
 	quest.20418663EEBB6E73.title: "&2Tianquan"
-	quest.207E629A52675614.quest_subtitle: "Guaranteed: Remembrance Block"
-	quest.207E629A52675614.title: "Master of Deep Garden"
 	quest.208CA6AD540C7968.quest_desc: [
 		"Right-click &aPlague Doctor Magic Pet&r to bind it, equip in necklace slot to summon/un-summon key-bound Magic Pet. Found in &6Pierced Icebreaker&r."
 		""
@@ -1333,11 +1322,6 @@
 	quest.217A025EF85E999C.quest_subtitle: "Kill 7 Horror Creatures"
 	quest.217A025EF85E999C.title: "Final Battle at Horrible Tomb"
 	quest.217D19EC778156E9.title: "Ring T1"
-	quest.219244DF197D0C75.quest_desc: [
-		"&6After Terra BOSS death, &cBOSS respawn cage cannot be generated&6,"
-		"&6Use corresponding BOSS summon item to exchange here."
-	]
-	quest.219244DF197D0C75.title: "Queen Bee Respawn Cage"
 	quest.21A1EB507EB2B88B.quest_subtitle: "&5&l『Shadow』&r&eIs this what flying feels like?"
 	quest.21A1EB507EB2B88B.title: "Act 2: Dragon Transformation"
 	quest.21D5091A376C0F26.quest_subtitle: "★"
@@ -1758,13 +1742,6 @@
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9Structure Compass: &bBlack Pine Knight Fortress&r"]
 	quest.2CFCFA632C2D16F5.title: "Challenge: Black Pine Knight Fortress"
 	quest.2D088213B9CC2A49.quest_subtitle: "Drunken Dream Meets Peach Immortal"
-	quest.2D1E2EFF45970530.quest_desc: [
-		"&aObjective: Obtain Slime Crown"
-		""
-		"&6You can find various &aSlimes&6 in the &aOverworld&6 &aPlains&6,"
-		"&6killing them has a very small chance to drop the &eSlime Crown&6."
-	]
-	quest.2D1E2EFF45970530.quest_subtitle: "Summon the Slime King"
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "Dreamlike as Bubbles"
 	quest.2D718FB73B8AF552.quest_desc: [
 		"Right-click an &aFrost Mage Familiar&r to bind it, equip in the Necklace slot to summon/desummon the bound familiar, can be found in &6Frost Mage Tower&r"
@@ -1856,11 +1833,6 @@
 	]
 	quest.300B6A5EADD11286.quest_subtitle: "★★★"
 	quest.300B6A5EADD11286.title: "Cataclysm: Ancient Remnant"
-	quest.306FC4CE1DC812A8.quest_desc: [
-		"&6Terra Bosses &ccannot generate &6Boss Respawn Cages after death."
-		"&6Exchange here using the corresponding boss summoning items."
-	]
-	quest.306FC4CE1DC812A8.title: "King Slime Respawn Cage"
 	quest.308ACBC769E52128.quest_desc: [
 		"&6Side Story &3【Iron's Spells 'n Spellbooks】 &6completion reward."
 		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
@@ -2066,15 +2038,6 @@
 	quest.366B99B5082468A6.title: "Act 4: Dragon Heart"
 	quest.36C95FFAF0BAB532.title: "Spin to Win Empowerment"
 	quest.36D18D859382FB7D.quest_subtitle: "Delicious and Sweet"
-	quest.36DC294FB4535945.quest_desc: [
-		"&aObjective: Obtain Suspicious Eyes"
-		""
-		"&aDemon Eyes &6and &aFloating Eyeball Fish &6appear in the &aOverworld &bat night&6."
-		"&aVarious kinds of &aBats &6appear &bunderground&6."
-		"&aFlying Fish &6appear in large numbers during &brainy weather&6."
-		"&6Killing them has a very small chance to drop &eSuspicious Eyes&6."
-	]
-	quest.36DC294FB4535945.quest_subtitle: "Summon the Eye of Cthulhu"
 	quest.3753EB478219DC26.quest_desc: ["&9Structure Compass: &b【Iron's Spells 'n Spellbooks】Ancient Battlefield&r"]
 	quest.3753EB478219DC26.title: "Challenge: Ancient Battlefield"
 	quest.377699546ACFFF81.title: "I see it, it's moving"
@@ -2089,11 +2052,6 @@
 		"&6When Curios is installed, it can be placed in the charm slot."
 	]
 	quest.37A6F13A2D3EF905.quest_subtitle: "Joyful and Intoxicated"
-	quest.37B783A0BCF27F47.quest_desc: [
-		"&6Terra Bosses &ccannot generate &6Boss Respawn Cages after death."
-		"&6Exchange here using the corresponding boss summoning items."
-	]
-	quest.37B783A0BCF27F47.title: "Skeleton King Respawn Cage"
 	quest.37B91353A61136FB.quest_subtitle: "Fragrance of Osmanthus"
 	quest.37BC039A5B650EF7.title: "Shadowstrider Armor"
 	quest.37D854A4A8F97409.title: "Onmyoji Weapons"
@@ -2252,11 +2210,6 @@
 	quest.3B512F52E529954C.title: "Young Aether Dragon"
 	quest.3B93840E4935B0B0.title: "Check-in: Ocean"
 	quest.3BF1FD634ECFCB4E.quest_desc: ["&3Congratulations on completing the Aether Dragon's path of growth!"]
-	quest.3C6B0A594CE6F7E7.quest_desc: [
-		"&6Terra Bosses &ccannot generate &6Boss Respawn Cages after death."
-		"&6Exchange here using the corresponding boss summoning items."
-	]
-	quest.3C6B0A594CE6F7E7.title: "Eater of Worlds Respawn Cage"
 	quest.3C70592EFB49B53A.quest_desc: [
 		"Hold the &6Sound Backpack &rand &dRight-click &ron the &eMaid &rto put it on her back."
 		""
@@ -2267,14 +2220,6 @@
 	quest.3C70592EFB49B53A.quest_subtitle: "Maid's Walkman"
 	quest.3C725E33FECDE01D.quest_subtitle: "Space Specialty"
 	quest.3C8B6F5362402CA0.quest_subtitle: "Best-selling Drink"
-	quest.3C9CB5D57BD5FDF1.quest_desc: [
-		"&aObjective: Obtain Bloody Spine"
-		""
-		"&6The &cCrimson &6from Terraria has spread to the &cNether&6."
-		"&6Killing &aTerra mobs in the Nether &6has a very small chance to drop &eBloody Spine&6."
-		"&6Killing &aEye of Cthulhu &6has a 50% chance to drop &eBloody Spine&7."
-	]
-	quest.3C9CB5D57BD5FDF1.quest_subtitle: "Summon the Brain of Cthulhu"
 	quest.3CF49F49FFB8A864.quest_subtitle: "Guaranteed: Worm Food"
 	quest.3CF49F49FFB8A864.title: "Corruption Dominator"
 	quest.3D0F6DE15AB80E2E.quest_desc: [
@@ -2703,11 +2648,6 @@
 		"&6Only then will the villager sell the &eKey of Radiance&6."
 	]
 	quest.4AE7B82C02B26C16.quest_subtitle: "Train a Dragon Artisan"
-	quest.4B0A3CBC172501F6.quest_desc: [
-		"&6Terra Bosses &ccannot generate &6Boss Respawn Cages after death."
-		"&6Exchange here using the corresponding boss summoning items."
-	]
-	quest.4B0A3CBC172501F6.title: "Brain of Cthulhu Respawn Cage"
 	quest.4B0B81F46A5AA9B1.quest_desc: [
 		" An exquisitely crafted lamp. Its color suggests it might be cast from bronze, yet it bears no trace of verdigris; I suspect its material is some kind of magic-infused metal."
 		" The ancient lamp may have lain dormant underground for centuries. As I picked it up, I felt a lingering warmth in my palm, as if its flame had been extinguished not long ago."
@@ -2778,11 +2718,6 @@
 	quest.4CA71EFB328936E4.quest_subtitle: "Teleport the Dark Doppelganger back to you"
 	quest.4CA71EFB328936E4.title: "Recall Doppelganger"
 	quest.4CCF2D595F763B55.quest_subtitle: "Premium Tea~"
-	quest.4CDDA5881AD6B269.quest_desc: [
-		"&6Terra Bosses &ccannot generate &6Boss Respawn Cages after death."
-		"&6Exchange here using the corresponding boss summoning items."
-	]
-	quest.4CDDA5881AD6B269.title: "Eye of Cthulhu Respawn Cage"
 	quest.4D01D14ECFF753E3.quest_desc: [
 		"&aObjective: Obtain Dragon Meal and Dismal Dragon Meal"
 		""
@@ -3482,15 +3417,6 @@
 	]
 	quest.61DD6385C7F59703.quest_subtitle: "You choose to become: Astral Dragon"
 	quest.61DD6385C7F59703.title: "『BeLoong』Astral Dragon!"
-	quest.61FC9B0F0771F14C.quest_desc: [
-		"&aObjective: Obtain Worm Food"
-		""
-		"&6The &2Corruption &6from Terraria has spread to &2The Undergarden&6,"
-		"&6causing various bugs to mutate as well."
-		"&6Killing &aTerra mobs in the Deep Dark &6has a very small chance to drop &eWorm Food&6."
-		"&6Killing the &aEye of Cthulhu &6has a 50% chance to drop &eWorm Food&7."
-	]
-	quest.61FC9B0F0771F14C.quest_subtitle: "Summon the Eater of Worlds"
 	quest.620D2C27E39DACD0.quest_subtitle: "Grow to the Adult Dragon stage"
 	quest.620D2C27E39DACD0.title: "Adult Cave Dragon"
 	quest.62129DE5962CF7BE.quest_desc: ["&eBlack Ice &6is located in &bSplintered Glaciers&6."]

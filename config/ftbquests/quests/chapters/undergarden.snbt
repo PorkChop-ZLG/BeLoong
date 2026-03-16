@@ -271,33 +271,6 @@
 		}
 		{
 			dependencies: ["34157C6ADA0E26B8"]
-			id: "2D1E2EFF45970530"
-			rewards: [
-				{
-					id: "388C118A85787D82"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "45A3A0A401F4A37D"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "569F9B9262F62204"
-				item: { count: 1, id: "kubejs:slime_crown" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["34157C6ADA0E26B8"]
 			id: "465680AFE754AEAD"
 			rewards: [{
 				id: "68440DEB7D1625C5"
@@ -306,23 +279,12 @@
 			}]
 			tasks: [{
 				icon: {
-					components: {
-						"minecraft:block_entity_data": {
-							EntityType: "terra_entity:eater_of_worlds"
-							Item: {
-								count: 1
-								id: "kubejs:worm_food"
-							}
-							animationTicks: 20
-							id: "cataclysm:boss_respawner"
-						}
-					}
-					id: "cataclysm:boss_respawner"
+					id: "minecraft:trial_spawner"
 				}
 				id: "7A1E94E375EA2B3F"
 				observe_type: 0
-				timer: 100L
-				to_observe: "cataclysm:boss_respawner"
+				timer: 20L
+				to_observe: "minecraft:trial_spawner"
 				type: "observation"
 			}]
 			x: 7.0d
@@ -331,6 +293,9 @@
 		{
 			dependencies: ["34157C6ADA0E26B8"]
 			hide_lock_icon: true
+			icon: {
+				id: "kubejs:slime_crown"
+			}
 			id: "17BEAE92E1A0B323"
 			rewards: [
 				{
@@ -367,78 +332,11 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["2D1E2EFF45970530"]
-			icon: {
-				id: "terra_entity:king_slime_spawn_egg"
-			}
-			id: "306FC4CE1DC812A8"
-			optional: true
-			rewards: [{
-				id: "77707A57BBB20E4C"
-				item: {
-					components: {
-						"minecraft:block_entity_data": {
-							EntityType: "terra_entity:king_slime"
-							Item: {
-								count: 1
-								id: "kubejs:slime_crown"
-							}
-							animationTicks: 0
-							id: "cataclysm:boss_respawner"
-						}
-					}
-					count: 1
-					id: "cataclysm:boss_respawner"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "12819886F2D042EA"
-					item: { count: 1, id: "kubejs:slime_crown" }
-					type: "item"
-				}
-				{
-					id: "1156A3572B54D3D6"
-					structure: "undergarden:king_slime"
-					type: "structure"
-				}
-			]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["34157C6ADA0E26B8"]
-			id: "36DC294FB4535945"
-			rewards: [
-				{
-					id: "6FEF37D9EB7BF6C4"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "38F065EF3E538885"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "468B65030C8A2B88"
-				item: { count: 1, id: "kubejs:suspicious_looking_eye" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["34157C6ADA0E26B8"]
 			hide_lock_icon: true
+			icon: {
+				id: "kubejs:suspicious_looking_eye"
+			}
 			id: "5E2F36A14E2F1879"
 			rewards: [
 				{
@@ -475,62 +373,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5E2F36A14E2F1879"]
-			id: "3C9CB5D57BD5FDF1"
-			rewards: [
-				{
-					id: "7391E22F55D575B3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "00E952E7B07FA385"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2B48229AE88F0BD6"
-				item: { count: 1, id: "kubejs:bloody_spine" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5E2F36A14E2F1879"]
-			id: "61FC9B0F0771F14C"
-			rewards: [
-				{
-					id: "0473FE04EAD6B371"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "165B306A0C4E8EEA"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7997CC9A3F7E715B"
-				item: { count: 1, id: "kubejs:worm_food" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3C9CB5D57BD5FDF1"]
+			dependencies: ["0CBB05169A5210EB"]
 			hide_lock_icon: true
+			icon: {
+				id: "kubejs:bloody_spine"
+			}
 			id: "74233FDAFCB21F8E"
 			rewards: [
 				{
@@ -567,8 +414,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["61FC9B0F0771F14C"]
+			dependencies: ["1D5517D47880238A"]
 			hide_lock_icon: true
+			icon: {
+				id: "kubejs:worm_food"
+			}
 			id: "146CDD92C8E0963C"
 			rewards: [
 				{
@@ -605,39 +455,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"74233FDAFCB21F8E"
-				"146CDD92C8E0963C"
-			]
-			dependency_requirement: "one_completed"
-			id: "15E9E6DAEC4C69CE"
-			rewards: [
-				{
-					id: "010CCDF0FCEDDCB2"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "283D580FAA56D339"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3386DDFC3D082E47"
-				item: { count: 1, id: "kubejs:abeemination" }
-				type: "item"
-			}]
-			x: 22.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["15E9E6DAEC4C69CE"]
+			dependencies: ["644B0B549EA0753D"]
 			hide_lock_icon: true
+			icon: {
+				id: "kubejs:abeemination"
+			}
 			id: "034ACABF80D25D29"
 			rewards: [
 				{
@@ -725,178 +547,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["36DC294FB4535945"]
-			icon: {
-				id: "terra_entity:cthulhu_eye_spawn_egg"
-			}
-			id: "4CDDA5881AD6B269"
-			optional: true
-			rewards: [{
-				id: "4E116EC5994C9E66"
-				item: {
-					components: {
-						"minecraft:block_entity_data": {
-							EntityType: "terra_entity:eye_of_cthulhu"
-							Item: {
-								count: 1
-								id: "kubejs:suspicious_looking_eye"
-							}
-							animationTicks: 0
-							id: "cataclysm:boss_respawner"
-						}
-					}
-					count: 1
-					id: "cataclysm:boss_respawner"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "05997C437886A21E"
-					item: { count: 1, id: "kubejs:suspicious_looking_eye" }
-					type: "item"
-				}
-				{
-					id: "5581494CD3D05B36"
-					structure: "undergarden:eye_of_cthulhu"
-					type: "structure"
-				}
-			]
-			x: 13.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3C9CB5D57BD5FDF1"]
-			icon: {
-				id: "terra_entity:brain_of_cthulhu_spawn_egg"
-			}
-			id: "4B0A3CBC172501F6"
-			optional: true
-			rewards: [{
-				id: "45CBDCEEFD7924C1"
-				item: {
-					components: {
-						"minecraft:block_entity_data": {
-							EntityType: "terra_entity:brain_of_cthulhu"
-							Item: {
-								count: 1
-								id: "kubejs:bloody_spine"
-							}
-							animationTicks: 0
-							id: "cataclysm:boss_respawner"
-						}
-					}
-					count: 1
-					id: "cataclysm:boss_respawner"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "6DC101DEB5EC6E66"
-					item: { count: 1, id: "kubejs:bloody_spine" }
-					type: "item"
-				}
-				{
-					id: "5D653E858AF993D9"
-					structure: "undergarden:brain_of_cthulhu"
-					type: "structure"
-				}
-			]
-			x: 17.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["61FC9B0F0771F14C"]
-			icon: {
-				id: "terra_entity:eater_of_world_spawn_egg"
-			}
-			id: "3C6B0A594CE6F7E7"
-			optional: true
-			rewards: [{
-				id: "15177B61F26EDA02"
-				item: {
-					components: {
-						"minecraft:block_entity_data": {
-							EntityType: "terra_entity:eater_of_worlds"
-							Item: {
-								count: 1
-								id: "kubejs:worm_food"
-							}
-							animationTicks: 0
-							id: "cataclysm:boss_respawner"
-						}
-					}
-					count: 1
-					id: "cataclysm:boss_respawner"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "0AB3B33E3E3CB045"
-					item: { count: 1, id: "kubejs:worm_food" }
-					type: "item"
-				}
-				{
-					id: "16CBF39F1D77ECEB"
-					structure: "undergarden:eater_of_worlds"
-					type: "structure"
-				}
-			]
-			x: 17.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["15E9E6DAEC4C69CE"]
-			icon: {
-				id: "terra_entity:queen_bee_spawn_egg"
-			}
-			id: "219244DF197D0C75"
-			optional: true
-			rewards: [{
-				id: "1E18AC2DE69727FC"
-				item: {
-					components: {
-						"minecraft:block_entity_data": {
-							EntityType: "terra_entity:queen_bee"
-							Item: {
-								count: 1
-								id: "kubejs:abeemination"
-							}
-							animationTicks: 0
-							id: "cataclysm:boss_respawner"
-						}
-					}
-					count: 1
-					id: "cataclysm:boss_respawner"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "51460567F0540DEE"
-					item: { count: 1, id: "kubejs:abeemination" }
-					type: "item"
-				}
-				{
-					id: "699EA4A5BA724FA7"
-					structure: "undergarden:queen_bee"
-					type: "structure"
-				}
-			]
-			x: 22.5d
-			y: -2.0d
-		}
-		{
-			can_repeat: true
 			id: "7B0685078C312577"
 			optional: true
 			rewards: [
@@ -914,10 +564,21 @@
 					xp: 1000
 				}
 				{
-					id: "3C2614B5156E2076"
+					id: "2FD27C2705C338F8"
 					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								EntityType: "terra_entity:king_slime"
+								Item: {
+									count: 1
+									id: "kubejs:slime_crown"
+								}
+								animationTicks: 0
+								id: "cataclysm:boss_respawner"
+							}
+						}
 						count: 1
-						id: "terra_entity:summon_wooden_sword_staff"
+						id: "cataclysm:boss_respawner"
 					}
 					type: "item"
 				}
@@ -945,7 +606,7 @@
 				}
 			]
 			x: 9.0d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -966,10 +627,21 @@
 					xp: 1000
 				}
 				{
-					id: "2A346395807AFFFF"
+					id: "6F9CFA3FFDB5CFEC"
 					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								EntityType: "terra_entity:eye_of_cthulhu"
+								Item: {
+									count: 1
+									id: "kubejs:suspicious_looking_eye"
+								}
+								animationTicks: 0
+								id: "cataclysm:boss_respawner"
+							}
+						}
 						count: 1
-						id: "terra_entity:summon_stone_sword_staff"
+						id: "cataclysm:boss_respawner"
 					}
 					type: "item"
 				}
@@ -997,7 +669,7 @@
 				}
 			]
 			x: 13.0d
-			y: -2.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -1018,10 +690,21 @@
 					xp: 1000
 				}
 				{
-					id: "014E9B44AAC73267"
+					id: "7AABE49FC5F503C9"
 					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								EntityType: "terra_entity:brain_of_cthulhu"
+								Item: {
+									count: 1
+									id: "kubejs:bloody_spine"
+								}
+								animationTicks: 0
+								id: "cataclysm:boss_respawner"
+							}
+						}
 						count: 1
-						id: "terra_entity:summon_iron_sword_staff"
+						id: "cataclysm:boss_respawner"
 					}
 					type: "item"
 				}
@@ -1054,7 +737,7 @@
 					value: 10L
 				}
 			]
-			x: 20.0d
+			x: 17.0d
 			y: -4.0d
 		}
 		{
@@ -1076,10 +759,21 @@
 					xp: 1000
 				}
 				{
-					id: "6BB36B81BB9BA892"
+					id: "24F58DF3E09E443F"
 					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								EntityType: "terra_entity:eater_of_worlds"
+								Item: {
+									count: 1
+									id: "kubejs:worm_food"
+								}
+								animationTicks: 0
+								id: "cataclysm:boss_respawner"
+							}
+						}
 						count: 1
-						id: "terra_entity:summon_golden_sword_staff"
+						id: "cataclysm:boss_respawner"
 					}
 					type: "item"
 				}
@@ -1106,7 +800,7 @@
 					value: 5L
 				}
 			]
-			x: 20.0d
+			x: 17.0d
 			y: 4.0d
 		}
 		{
@@ -1128,10 +822,21 @@
 					xp: 1000
 				}
 				{
-					id: "65FF199467F3779C"
+					id: "02E1D1CAE07DFDBD"
 					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								EntityType: "terra_entity:queen_bee"
+								Item: {
+									count: 1
+									id: "kubejs:abeemination"
+								}
+								animationTicks: 0
+								id: "cataclysm:boss_respawner"
+							}
+						}
 						count: 1
-						id: "terra_entity:summon_diamond_sword_staff"
+						id: "cataclysm:boss_respawner"
 					}
 					type: "item"
 				}
@@ -1164,8 +869,8 @@
 					value: 1L
 				}
 			]
-			x: 22.5d
-			y: 2.0d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34157C6ADA0E26B8"]
@@ -1193,7 +898,7 @@
 				type: "advancement"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["34157C6ADA0E26B8"]
@@ -1223,7 +928,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["034ACABF80D25D29"]
@@ -1348,104 +1053,6 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["4FC2986473F06494"]
-			icon: {
-				id: "terra_entity:skeletron_spawn_egg"
-			}
-			id: "37B783A0BCF27F47"
-			optional: true
-			rewards: [{
-				id: "77C22BDBD45CFC4F"
-				item: {
-					components: {
-						"minecraft:block_entity_data": {
-							EntityType: "terra_entity:skeletron"
-							Item: {
-								count: 1
-								id: "undergarden:forgotten_ingot"
-							}
-							animationTicks: 0
-							id: "cataclysm:boss_respawner"
-						}
-					}
-					count: 1
-					id: "cataclysm:boss_respawner"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "4DD9DD1DC893FE29"
-					item: { count: 1, id: "undergarden:forgotten_ingot" }
-					type: "item"
-				}
-				{
-					id: "696784E58657EA06"
-					structure: "undergarden:catacombs"
-					type: "structure"
-				}
-			]
-			x: 29.5d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				id: "undergarden:forgotten_block"
-			}
-			id: "207E629A52675614"
-			optional: true
-			rewards: [
-				{
-					id: "2793F9D47D04897B"
-					item: {
-						count: 1
-						id: "undergarden:forgotten_block"
-					}
-					type: "item"
-				}
-				{
-					id: "4009335BECA47249"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "301DF2D38946B0E4"
-					item: {
-						count: 1
-						id: "terra_entity:summon_netherite_sword_staff"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 1.0d
-			tasks: [
-				{
-					entity: "undergarden:forgotten_guardian"
-					id: "37D17CFFCD84A001"
-					type: "kill"
-					value: 4L
-				}
-				{
-					entity: "undergarden:forgotten_guardian"
-					id: "684EB3C15DD75FE2"
-					type: "kill"
-					value: 10L
-				}
-				{
-					entity: "undergarden:forgotten"
-					id: "5C0BBD959FB42DF3"
-					type: "kill"
-					value: 20L
-				}
-			]
-			x: 29.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["34157C6ADA0E26B8"]
 			id: "101EAA70BF95EBE6"
 			rewards: [
@@ -1474,11 +1081,11 @@
 			]
 			tasks: [{
 				id: "2F4AD9301359C888"
-				item: { count: 1, id: "undergarden:forgotten_pickaxe" }
+				item: { count: 1, id: "undergarden:cloggrum_pickaxe" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34157C6ADA0E26B8"]
@@ -1505,7 +1112,121 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "2F41A23967B32470"
+			rewards: [
+				{
+					count: 64
+					id: "0B650D1EEA99D0DB"
+					item: {
+						count: 1
+						id: "undergarden:goo_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "0971A980BE08444A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "undergarden:undergarden/kill_scintling"
+				criterion: ""
+				id: "6E9C1DF55A8FE056"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E2F36A14E2F1879"]
+			id: "0CBB05169A5210EB"
+			rewards: [
+				{
+					count: 64
+					id: "5EE7EB38E3D309B2"
+					item: {
+						count: 1
+						id: "undergarden:utherium_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "26D6775B864E136D"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				advancement: "undergarden:undergarden/kill_rotling"
+				criterion: ""
+				id: "78A1BEA03BB3A39C"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E2F36A14E2F1879"]
+			id: "1D5517D47880238A"
+			rewards: [
+				{
+					count: 64
+					id: "4BC05B99C116851B"
+					item: {
+						count: 1
+						id: "undergarden:regalium_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "53236C10E2F44F4F"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "622AA2F3A6F19A98"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"74233FDAFCB21F8E"
+				"146CDD92C8E0963C"
+			]
+			id: "644B0B549EA0753D"
+			rewards: [
+				{
+					count: 64
+					id: "011789E941ED1CBF"
+					item: {
+						count: 1
+						id: "undergarden:boomgourd"
+					}
+					type: "item"
+				}
+				{
+					id: "5830379FF32077E4"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				advancement: "undergarden:undergarden/stack_of_gloomgourds"
+				criterion: ""
+				id: "2F62ACEE8C228E84"
+				type: "advancement"
+			}]
+			x: 22.5d
+			y: 0.0d
 		}
 	]
 }
