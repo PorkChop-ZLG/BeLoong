@@ -5,6 +5,7 @@
         "dragonsurvival:crystcursed_missile",
         "dragonsurvival:crystcursed_revenge",
         "dragonsurvival:crystcursed_rain",
+        "dragonsurvival:crystcursed_laser",
         "dragonsurvival:crystal_budding",
         "dragonsurvival:crystcursed_magic_setting",
 
@@ -18,6 +19,10 @@
         "dragonsurvival:symbiotic_crystal_rest",
         "dragonsurvival:crystcursed_wings",
         "dragonsurvival:crystcursed_spin",
+
+        "crystcursed_dragon:key_trigger/on_key_pressed/key-mouse-right",
+        "crystcursed_dragon:key_trigger/on_key_released/key-mouse-right",
+        "crystcursed_dragon:key_trigger/on_key_pressed/key-mouse-left",
         
 		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"

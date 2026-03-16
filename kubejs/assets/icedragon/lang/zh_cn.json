@@ -13,7 +13,7 @@
 "dragon_ability.dragonsurvival.frigid_breath.desc": "■ 喷吐大量寒霜与碎冰，减速敌人并附上§c「霜冻」§r效果。\n\n■ §f范围§r§7取决于龙的成长阶段。",
 
 "dragon_ability.dragonsurvival.blizzard": "暴风雪",
-"dragon_ability.dragonsurvival.blizzard.desc": "■ 喷吐一股极寒风暴，§2可凝固水流§7并§2熄灭§7岩浆与火焰。\n\n■ 对生肉使用可将其转化为更富营养的§2冰鲜版§7；持续作用则会使其§2冻伤§7。\n\n■ 此技能不造成直接伤害。\n\n■ §f射程§r§7取决于龙的成长阶段。",
+"dragon_ability.dragonsurvival.blizzard.desc": "■ 喷吐一股极寒风暴，§2可凝固水流§7并§2熄灭§7岩浆与火焰。\n\n■ 对生肉使用可将其转化为更富营养的§2冰鲜版§7；持续作用则会使其变成§2冰焦§7版本。\n\n■ 此技能不造成直接伤害。\n\n■ §f射程§r§7取决于龙的成长阶段。",
 
 "dragon_ability.dragonsurvival.icicle": "冰晶之矛",
 "dragon_ability.dragonsurvival.icicle.desc": "■ 精准投掷高速的冰矛，§c「减速」§r目标并给周围实体附上§c「霜冻」§r效果。\n\n■ 可将飞行中的龙族击落。",
