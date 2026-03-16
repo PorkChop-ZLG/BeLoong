@@ -1,0 +1,29 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:logs",
+    "#minecraft:planks",
+    "#minecraft:wool",
+    "#minecraft:terracotta",
+    "#minecraft:sand",
+    "#minecraft:stone_bricks",
+    "#minecraft:base_stone_overworld",
+    "#minecraft:base_stone_nether",
+    "#minecraft:beacon_base_blocks",
+    "#minecraft:iron_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:coal_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:nylium",
+    "#minecraft:wart_blocks",
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:cobblestone",
+    "minecraft:oak_planks"
+  ]
+}
