@@ -95,8 +95,8 @@ config/asyncparticles/asyncparticles-mixin.properties
 !config/touhou_little_maid/**
 !config/voicechat/
 !config/voicechat/**
-!config/voicecastaddon/
-!config/voicecastaddon/**
+!config/voicecastaddon/client_settings.json
+!config/voicecastaddon/server_settings.json
 
 !config/akashictome-common.toml
 !config/alltheleaks.json
