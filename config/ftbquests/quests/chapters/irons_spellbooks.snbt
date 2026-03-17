@@ -1048,7 +1048,7 @@
 			shape: "octagon"
 			size: 3.0d
 			tasks: [{
-				advancement: "alshanex_familiars:tame_bard"
+				advancement: "alshanex_familiars:alshanex_familiars/tame/bard"
 				criterion: ""
 				id: "65546240D6A7D3F1"
 				type: "advancement"
@@ -1062,7 +1062,7 @@
 			rewards: [{
 				id: "14931AAFA1248A91"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			size: 1.5d
 			tasks: [{
@@ -1080,7 +1080,7 @@
 			rewards: [{
 				id: "36787AA8FB0E51C5"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			shape: "diamond"
 			size: 2.0d
@@ -1101,7 +1101,7 @@
 			rewards: [{
 				id: "485066A72D903866"
 				type: "xp"
-				xp: 100
+				xp: 800
 			}]
 			size: 2.0d
 			tasks: [{
@@ -1129,11 +1129,22 @@
 		{
 			dependencies: ["19BFE7F4FD9FF5A4"]
 			id: "67473775B305582F"
-			rewards: [{
-				id: "5B6F953651E0BF5D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5B6F953651E0BF5D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "35AEE3878A67EA09"
+					item: {
+						count: 1
+						id: "alshanex_familiars:crystal_berry"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "15AD60F24D38E1F0"
 				item: { count: 1, id: "alshanex_familiars:memory_fragment" }
@@ -1283,11 +1294,22 @@
 		{
 			dependencies: ["19BFE7F4FD9FF5A4"]
 			id: "1BC6ADF60CE0E739"
-			rewards: [{
-				id: "488424F3E7E7D4DB"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "488424F3E7E7D4DB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 32
+					id: "23FC64911029B1CB"
+					item: {
+						count: 1
+						id: "alshanex_familiars:crystal_berry"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "alshanex_familiars:ritual_core"
@@ -1302,11 +1324,22 @@
 		{
 			dependencies: ["19BFE7F4FD9FF5A4"]
 			id: "309081C2591414CB"
-			rewards: [{
-				id: "65ACA852D62F7C29"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "65ACA852D62F7C29"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "26FE4043304797CE"
+					item: {
+						count: 1
+						id: "alshanex_familiars:crystal_berry"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "490CE2B43F16A7EE"
 				item: { count: 1, id: "minecraft:sniffer_egg" }
