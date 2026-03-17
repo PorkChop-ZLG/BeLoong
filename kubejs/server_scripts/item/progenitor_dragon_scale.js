@@ -6,13 +6,13 @@ ItemEvents.rightClicked(event => {
   const item = event.item
   const player = event.player
   const server = event.server
+  // 如果不是目标物品，忽略
+  if (item.id !== "kubejs:progenitor_dragon_scale") return
   // 判断是否为创造模式
   if (!player.isCreative()) {
     // 不是创造模式，消耗物品
     item.count--
+    // 执行函数，位置 kubejs\data\beloong\function\progenitor_dragon_power.mcfunction
+    server.runCommandSilent(`execute as ${player.getName().getString()} at @s run function beloong:progenitor_dragon_scale`)
   }
-  // 如果不是目标物品，忽略
-  if (item.id !== "kubejs:progenitor_dragon_scale") return
-  // 执行函数，位置 kubejs\data\beloong\function\progenitor_dragon_power.mcfunction
-  server.runCommandSilent(`execute as ${player.getName().getString()} at @s run function beloong:progenitor_dragon_scale`)
 })
