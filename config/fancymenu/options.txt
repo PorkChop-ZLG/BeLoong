@@ -27,7 +27,7 @@ S:custom_window_icon_16 = '';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
-S:custom_window_title = 'BeLoong  Beta 1.3.1';
+S:custom_window_title = 'BeLoong 1.3.1';
 
 
 ##[multiplayer_screen]
