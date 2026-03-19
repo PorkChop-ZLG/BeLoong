@@ -1457,5 +1457,39 @@
 			x: -2.25d
 			y: 0.0d
 		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "voicechat:icons/speaker"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "50845BE41812C191"
+			optional: true
+			rewards: [
+				{
+					id: "2282478AFD0D589D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "0BF06219EE1EAA48"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "66CDF69C21C3FCFA"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 5.25d
+		}
 	]
 }
