@@ -1,0 +1,90 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "targeting_mode": "all",
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:entity_check_predicate",
+                "check_for": "living_entity"
+              }
+            }
+          },
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:projectile",
+              "number_of_projectiles": 1,
+              "projectile_data": "dragonsurvival:black_hole",
+              "speed": 0.8,
+              "target_direction": {
+                "direction": "looking_at"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "cast_time": 30,
+    "cooldown": 200,
+    "initial_mana_cost": 10,
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "black_hole",
+        "layer": "BREATH",
+        "transition_length": 5,
+        "locks_neck": false,
+        "locks_tail": false
+      }
+    }
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/star/black_hole_0"
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/star/black_hole_1",
+        "from_level": 1
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/star/black_hole_2",
+        "from_level": 2
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/star/black_hole_3",
+        "from_level": 3
+      },
+      {
+        "texture_resource": "dragonsurvival:abilities/star/black_hole_4",
+        "from_level": 4
+      }
+    ]
+  },
+  "upgrade": {
+    "level_requirement": {
+      "type": "minecraft:lookup",
+      "values": [
+        0,
+        20,
+        45,
+        50
+      ],
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 15,
+        "per_level_above_first": 15
+      }
+    },
+    "maximum_level": 4,
+    "upgrade_type": "dragonsurvival:experience_levels"
+  }
+}
