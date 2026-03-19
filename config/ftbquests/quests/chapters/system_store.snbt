@@ -450,7 +450,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 16L
 				id: "4BE00949637E3927"
 				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
 				type: "item"
@@ -635,30 +635,6 @@
 			]
 			x: -1.5d
 			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "terra_curio:demon_heart"
-			}
-			id: "756F07EF29A13F30"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "75EEB86F6F298574"
-				table_id: 3951538631222875773L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 24L
-				id: "4B46027688E86834"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.5d
 		}
 		{
 			can_repeat: true

@@ -3331,7 +3331,7 @@
 		"&7【 &l&6提洛斯回响&e·&4原初受火者 &7】"
 	]
 	quest.5CE2B692394FA5A2.quest_subtitle: "聆听，原初的回响"
-	quest.5CFF88C245EF7BE5.quest_desc: ["&c注意：是原地生成一只【珊瑚傀儡】！"]
+	quest.5CFF88C245EF7BE5.quest_desc: ["&c注意：是原地生成一只【流浪商人】！"]
 	quest.5CFF88C245EF7BE5.quest_subtitle: "交换群青物品"
 	quest.5CFF88C245EF7BE5.title: "流浪商人"
 	quest.5D05EE02D584AF2F.quest_desc: [
@@ -4129,7 +4129,6 @@
 	]
 	quest.7552748C8250227C.quest_subtitle: "★"
 	quest.7552748C8250227C.title: "Mowzie的生物：太阳鸟-乌姆武提"
-	quest.756F07EF29A13F30.title: "泰拉BOSS召唤物"
 	quest.757AA29BE231F9BC.title: "初入暮色森林"
 	quest.75BFB4E20D3E76DC.quest_desc: [
 		"&a目标：集齐所有尖刺"
