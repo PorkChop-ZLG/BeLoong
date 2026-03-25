@@ -1431,7 +1431,6 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "752424B438B87389"
-			optional: true
 			rewards: [
 				{
 					id: "0895B961D3EFCA49"
@@ -1465,7 +1464,6 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "50845BE41812C191"
-			optional: true
 			rewards: [
 				{
 					id: "2282478AFD0D589D"
