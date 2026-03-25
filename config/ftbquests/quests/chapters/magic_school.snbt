@@ -399,7 +399,7 @@
 			tasks: [{
 				consume_items: true
 				id: "2D9313EDED4FC6AB"
-				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heat_surge", index: 0, level: 8, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heat_surge", index: 0, level: 6, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
@@ -4572,37 +4572,6 @@
 			dependencies: ["4A99D680EDD3652F"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			id: "37BF04CFBEA5F598"
-			rewards: [
-				{
-					id: "416ADCBEA366636F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 64
-					id: "191AB4ABA531F4CF"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_essence"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				consume_items: true
-				id: "639446AB8EB24BDB"
-				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "gametechbcs_spellbooks:call_forth_the_dead_king", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["4A99D680EDD3652F"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "69DD63619F01EB1A"
 			rewards: [
 				{
@@ -4627,8 +4596,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 14.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["410087ACF6234CC1"]

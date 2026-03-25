@@ -286,7 +286,6 @@
 				"12D51CB6B22EB6E9"
 				"6BF3A8995ACD12E2"
 				"6B6C646887FE40EF"
-				"4B723B7F2ACB3FB8"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -363,18 +362,17 @@
 			id: "4B723B7F2ACB3FB8"
 			optional: true
 			rewards: [{
-				count: 64
 				id: "1DE55C58224F83CC"
 				item: {
 					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+					id: "kubejs:wing_kirin_heart"
 				}
 				type: "item"
 			}]
 			shape: "none"
 			size: 2.0d
 			tasks: [{
-				advancement: "wing_kirin:wing_kirin/be_old"
+				advancement: "wing_kirin:wing_kirin/be_wing_kirin"
 				criterion: ""
 				id: "0C5D60221E6E6E63"
 				type: "advancement"
@@ -387,20 +385,19 @@
 			id: "12D51CB6B22EB6E9"
 			optional: true
 			rewards: [{
-				count: 64
-				id: "1AF968705074793B"
+				id: "105BAF7093763F95"
 				item: {
 					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+					id: "kubejs:crystcursed_dragon_heart"
 				}
 				type: "item"
 			}]
 			shape: "none"
 			size: 2.0d
 			tasks: [{
-				advancement: "crystcursed_dragon:crystcursed/be_old_dragon"
+				advancement: "crystcursed_dragon:crystcursed/be_dragon"
 				criterion: ""
-				id: "387497DD55F27B89"
+				id: "0C233B853A97A80E"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -411,7 +408,6 @@
 			id: "6BF3A8995ACD12E2"
 			optional: true
 			rewards: [{
-				count: 64
 				id: "076F3855A61AC176"
 				item: {
 					count: 1
@@ -422,7 +418,7 @@
 			shape: "none"
 			size: 2.0d
 			tasks: [{
-				advancement: "frostfire_dragon:be_old_dragon"
+				advancement: "frostfire_dragon:be_dragon"
 				criterion: ""
 				id: "47AA59199DF0958A"
 				type: "advancement"
@@ -441,7 +437,6 @@
 			id: "6B6C646887FE40EF"
 			optional: true
 			rewards: [{
-				count: 64
 				id: "6EBF9ECF97CF0201"
 				item: {
 					count: 1
@@ -452,7 +447,6 @@
 			shape: "none"
 			size: 2.0d
 			tasks: [{
-				count: 64L
 				id: "183665DE3866C839"
 				item: { count: 1, id: "star_dragon:starcubess" }
 				type: "item"

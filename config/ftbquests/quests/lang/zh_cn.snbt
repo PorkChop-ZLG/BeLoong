@@ -840,10 +840,11 @@
 	quest.12A467A5BE97AA0E.quest_subtitle: "打卡12种繁花生物群系"
 	quest.12A467A5BE97AA0E.title: "你若盛开，蝴蝶自来"
 	quest.12D51CB6B22EB6E9.quest_desc: [
-		"&a目标：身为晶咒龙成长到成年阶段"
+		"&a目标：化为晶咒龙"
 		""
 		"&#299e96「晶咒龙」"
 		"从龙之一，受到诅咒，只能与水晶为伴，掌握变异的“晶咒”魔法。"
+		"在未来的版本，晶咒龙有机会成为新的主龙！"
 	]
 	quest.12D51CB6B22EB6E9.title: "&#299e96从龙：晶咒龙"
 	quest.12E2CD43AD01F522.title: "击杀：沼骸"
@@ -975,6 +976,7 @@
 	quest.16AC902A8860C5D5.title: "红巨星"
 	quest.16AD045AE7B461C7.quest_subtitle: "纯米大吟酿"
 	quest.16B32CB0D55A9718.title: "项链T0"
+	quest.16DAA386E0B19BB2.quest_subtitle: "保底：憎恶之蜂"
 	quest.16DAA386E0B19BB2.title: "养蜂人"
 	quest.170C5452183F9D7E.title: "观察：烈焰百合"
 	quest.1744C1A7A7BFF4D7.quest_desc: ["&6赛钱箱似乎无法取出5円的钱币，可以在这里兑换&r"]
@@ -1520,6 +1522,7 @@
 	]
 	quest.26053B577195305A.quest_subtitle: "成长到黑洞阶段"
 	quest.26053B577195305A.title: "黑洞"
+	quest.266DB339AFE5B9FE.quest_subtitle: "保底：血腥脊椎"
 	quest.266DB339AFE5B9FE.title: "猩红主宰"
 	quest.267503A8DD306195.quest_subtitle: "咖啡冰淇淋~"
 	quest.26B50865936A316F.quest_desc: [
@@ -2432,7 +2435,7 @@
 	quest.431A9BCA53DB263B.quest_desc: [
 		"&a目标：提交海洋龙的毕业证"
 		""
-		"&9&l「洞穴龙」"
+		"&9&l「海洋龙」"
 		"六大主龙之一，三大原始龙族之一，掌握雷霆的力量。"
 	]
 	quest.431A9BCA53DB263B.title: "&9主龙：海洋龙"
@@ -2738,10 +2741,11 @@
 	quest.4B2A79FC0C011CB2.quest_subtitle: "特殊龙钢配方"
 	quest.4B2A79FC0C011CB2.title: "龙钢锻炉"
 	quest.4B723B7F2ACB3FB8.quest_desc: [
-		"&a目标：身为翼麒麟成长到成年阶段"
+		"&a目标：化为翼麒麟"
 		""
 		"&#fbdc92「翼麒麟」"
-		"翼麒麟并不是龙，而且瑞兽麒麟。受此方世界影响，暂时使用龙的身躯。"
+		"翼麒麟并不是龙，而是瑞兽麒麟。"
+		"受此方世界影响，暂时使用龙的身躯。"
 	]
 	quest.4B723B7F2ACB3FB8.title: "&#fbdc92特殊：翼麒麟"
 	quest.4BCF83DBB5612B54.quest_subtitle: "每条龙保底一次"
@@ -3226,6 +3230,7 @@
 		"&6在过去的版本，需要使用泰拉BOSS召唤物，在BOSS重生笼召唤泰拉BOSS。"
 		"&6现版本已更换为试炼刷怪笼，但是你依旧可以在此兑换BOSS召唤物和BOSS重生笼。"
 	]
+	quest.59590736E74E343F.quest_subtitle: "保底：可疑眼球"
 	quest.59590736E74E343F.title: "猎魔人"
 	quest.59638405BD4083B3.quest_desc: ["被关押在牛头人迷宫深处的、半哞菇半米诺陶的野兽，它的肉据说可以驱散火焰。"]
 	quest.59638405BD4083B3.quest_subtitle: "只有傻子才会被这种贫弱的生物击败"
@@ -3273,7 +3278,8 @@
 	quest.5B9E398C385E0CA1.quest_subtitle: "平原上的白色小花"
 	quest.5BAF5C77F3373696.title: "观察：海泡菜"
 	quest.5BB4A81605A76537.quest_desc: [
-		"&a目标：游玩整合包里的所有龙，并且点亮龙族图鉴。"
+		"&a目标：完成所有主龙的成长之路。"
+		"&a目标：体验所有从龙。"
 		""
 		"&6再长的路，也有终点；化龍之旅，到此完结。"
 		"&6这一路上，经历的风风雨雨，凝结成珍贵的回忆。"
@@ -3735,7 +3741,7 @@
 	quest.6B64D3D885D9E1A9.quest_subtitle: "击杀咒翼灵骸，提交其掉落物"
 	quest.6B64D3D885D9E1A9.title: "加冕冰之王座"
 	quest.6B6C646887FE40EF.quest_desc: [
-		"&a目标：提交64个星辰立方"
+		"&a目标：化为星辰龙并提交1个星辰立方"
 		""
 		"&#2E2888「星辰龙」"
 		"从龙之一，星界龙的变种，掌握变异的“星辰”魔法。"
@@ -3772,7 +3778,7 @@
 	quest.6BD730F6532DEC81.quest_subtitle: "简易的建筑工具"
 	quest.6BD730F6532DEC81.title: "建筑棒"
 	quest.6BF3A8995ACD12E2.quest_desc: [
-		"&a目标：身为冰焰龙成长到成年阶段"
+		"&a目标：化为冰焰龙"
 		""
 		"&#7FC6E8「冰焰龙」"
 		"从龙之一，洞穴龙和苔原龙的后代，掌握变异的“冰焰”魔法。"
@@ -4306,6 +4312,7 @@
 		"&6在过去的版本，需要使用泰拉BOSS召唤物，在BOSS重生笼召唤泰拉BOSS。"
 		"&6现版本已更换为试炼刷怪笼，但是你依旧可以在此兑换BOSS召唤物和BOSS重生笼。"
 	]
+	quest.7B0685078C312577.quest_subtitle: "保底：史莱姆皇冠"
 	quest.7B0685078C312577.title: "史莱姆杀手"
 	quest.7B8C08F5F32626E1.title: "魔法书T2"
 	quest.7BA915DE214AD00A.quest_desc: [
