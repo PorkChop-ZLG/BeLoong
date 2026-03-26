@@ -652,6 +652,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "258D5022D0AFA375"
+					table_id: 1399308584277313590L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "7F954B6BA129C0BA"
@@ -678,6 +684,12 @@
 						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F6E82C7A5E41E4F"
+					table_id: 1399308584277313590L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -759,6 +771,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7A181239A77D5686"
+					table_id: 1399308584277313590L
+					type: "choice"
+				}
 			]
 			tasks: [{
 				advancement: "dragonsurvival:light/get_armor_set"
@@ -785,6 +803,12 @@
 						id: "dragonsurvival:elder_dragon_heart"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "113ED929991668C4"
+					table_id: 1399308584277313590L
+					type: "choice"
 				}
 			]
 			tasks: [{

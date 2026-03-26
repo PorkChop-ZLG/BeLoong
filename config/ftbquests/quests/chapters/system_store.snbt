@@ -1437,5 +1437,41 @@
 			x: 1.5d
 			y: 3.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["3859C3FFB6F2C61B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "dragonsurvival:light_upgrade"
+			}
+			id: "0A359F255D5E3C1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "506D4302551D8AF1"
+				table_id: 1399308584277313590L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5948B3820892332A"
+					item: { count: 1, id: "dragonsurvival:light_upgrade" }
+					type: "item"
+				}
+				{
+					id: "062249475B6C46AB"
+					item: { count: 1, id: "dragonsurvival:dark_upgrade" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "18D367F9D78B0E99"
+					item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
 	]
 }

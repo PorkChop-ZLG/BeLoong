@@ -1,0 +1,17 @@
+{
+	id: "136B57BE59010836"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ id: "0063ACDBFD9EF275", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:aerodynamic_mastery": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "6B1DE3C71CC72400", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:combat_recovery": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "70DF28F993259115", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:curse_of_kindness": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "6F1D6D4E8BFC60D7", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:sacred_scales": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "615281F2EE1416FE", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:unbreakable_spirit": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "05315AE97430A082", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:blood_siphon": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "61DB822EE5166EAB", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:curse_of_outlaw": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "2C535B2FAAC6B904", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:draconic_superiority": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "1A637C1E53731C27", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:murderers_cunning": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "4611741776C9A599", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:overwhelming_might": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+	]
+}
