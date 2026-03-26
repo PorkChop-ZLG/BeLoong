@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "#c:is_plain",
+  "biomes": "#terra_entity:is_stellarity",
   "spawners": [
     {
       "type": "terra_entity:goblin_archer",

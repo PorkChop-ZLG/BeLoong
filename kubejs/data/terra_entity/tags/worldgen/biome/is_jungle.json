@@ -17,6 +17,14 @@
     {
       "id": "undergarden:wigglewood_forest",
       "required": false
+    },
+    {
+      "id": "stellarity:amethyst_forest",
+      "required": false
+    },
+    {
+      "id": "stellarity:prismarine_forest",
+      "required": false
     }
   ]
 }

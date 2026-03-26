@@ -1,9 +1,9 @@
 {
     "type": "neoforge:add_spawns",
-    "biomes": "#c:is_swamp",
+    "biomes": "#terra_entity:is_swamp",
     "spawners": {
         "type": "terra_entity:swamp_slime",
-        "weight": 60,
+        "weight": 100,
         "minCount": 1,
         "maxCount": 3
     }

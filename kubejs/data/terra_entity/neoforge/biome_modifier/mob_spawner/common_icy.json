@@ -1,6 +1,6 @@
 {
     "type": "neoforge:add_spawns",
-    "biomes": "#c:is_cold",
+    "biomes": "#terra_entity:is_icy",
     "spawners": [
         {
             "type": "terra_entity:ice_bat",
@@ -10,19 +10,19 @@
         },
         {
             "type": "terra_entity:undead_viking",
-            "weight": 30,
+            "weight": 60,
             "minCount": 1,
             "maxCount": 2
         },
         {
             "type": "terra_entity:snow_flinx",
-            "weight": 40,
+            "weight": 80,
             "minCount": 1,
             "maxCount": 2
         },
         {
             "type": "terra_entity:ice_slime",
-            "weight": 30,
+            "weight": 60,
             "minCount": 1,
             "maxCount": 2
         }

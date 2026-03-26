@@ -1,34 +1,28 @@
 {
     "type": "neoforge:add_spawns",
-    "biomes": {
-        "type": "neoforge:or",
-        "values": [
-            "#c:is_desert",
-            "#c:is_badlands"
-        ]
-    },
+    "biomes": "#terra_entity:is_desert",
     "spawners": [
         {
             "type": "terra_entity:desert_slime",
-            "weight": 30,
+            "weight": 60,
             "minCount": 1,
             "maxCount": 2
         },
         {
             "type": "terra_entity:tomb_crawler",
-            "weight": 10,
+            "weight": 30,
             "minCount": 1,
             "maxCount": 1
         },
         {
             "type": "terra_entity:antlion_swarmer",
-            "weight": 0,
+            "weight": 20,
             "minCount": 1,
             "maxCount": 1
         },
         {
             "type": "terra_entity:giant_antlion_swarmer",
-            "weight": 0,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 1
         }
