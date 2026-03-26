@@ -49,7 +49,11 @@
       "base": 60.0,
       "per_level_above_first": -10.0
     },
-    "initial_mana_cost": 1.0,
+    "initial_mana_cost": {
+      "type": "minecraft:linear",
+      "base": 1.0,
+      "per_level_above_first": 1.0
+    },
     "sound": {
       "end": "minecraft:entity.wind_charge.wind_burst"
     }
