@@ -158,23 +158,23 @@
     "texture_entries": [
       {
         "from_level": 0,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout_0"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout/thunderous_shout_0"
       },
       {
         "from_level": 1,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout_1"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout/thunderous_shout_1"
       },
       {
         "from_level": 2,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout_2"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout/thunderous_shout_2"
       },
       {
         "from_level": 3,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout_3"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout/thunderous_shout_3"
       },
       {
         "from_level": 4,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout_4"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/thunderous_shout/thunderous_shout_4"
       }
     ]
   },

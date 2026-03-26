@@ -177,47 +177,47 @@
     "texture_entries": [
       {
         "from_level": 0,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_0"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_0"
       },
       {
         "from_level": 1,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_1"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_1"
       },
       {
         "from_level": 2,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_2"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_2"
       },
       {
         "from_level": 3,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_3"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_3"
       },
       {
         "from_level": 4,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_4"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_4"
       },
       {
         "from_level": 5,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_5"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_5"
       },
       {
         "from_level": 6,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_6"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_6"
       },
       {
         "from_level": 7,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_7"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_7"
       },
       {
         "from_level": 8,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_8"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_8"
       },
       {
         "from_level": 9,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_9"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_9"
       },
       {
         "from_level": 10,
-        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic_10"
+        "texture_resource": "dragonsurvival:abilities/wing_kirin/empyrean_magic/empyrean_magic_10"
       }
     ]
   },

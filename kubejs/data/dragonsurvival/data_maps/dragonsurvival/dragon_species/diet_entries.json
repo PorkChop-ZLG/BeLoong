@@ -770,6 +770,7 @@
       {
         "items": "dragonsurvival:forest_dragon_treat",
         "properties": {
+          "can_always_eat": true,
           "nutrition": 4,
           "saturation": 8.0
         }
@@ -1153,6 +1154,7 @@
       {
         "items": "dragonsurvival:sea_dragon_treat",
         "properties": {
+          "can_always_eat": true,
           "nutrition": 4,
           "saturation": 8.0
         }
@@ -3104,7 +3106,7 @@
           "nutrition": 8,
           "saturation": 16,
           "eat_seconds": 1.5,
-          "can_always_eat": false,
+          "can_always_eat": true,
           "using_converts_to": {
             "id": "minecraft:glass_bottle"
           },
@@ -4006,6 +4008,7 @@
       {
         "items": "star_dragon:star_dragon_treat",
         "properties": {
+          "can_always_eat": true,
           "nutrition": 4,
           "saturation": 8.0,
           "effects": [

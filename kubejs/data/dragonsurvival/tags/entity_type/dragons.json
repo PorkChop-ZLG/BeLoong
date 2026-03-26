@@ -3,6 +3,8 @@
     "minecraft:ender_dragon",
     "iceandfire:fire_dragon",
     "iceandfire:ice_dragon",
-    "iceandfire:lightning_dragon"
+    "iceandfire:lightning_dragon",
+    "terra_entity:wyvern",
+    "block_factorys_bosses:infernal_dragon"
   ]
 }
