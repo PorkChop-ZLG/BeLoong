@@ -1,0 +1,24 @@
+{
+  "values": [
+    "dragonsurvival:frostfire_breath",
+    "dragonsurvival:frostfire_aegis",
+    "dragonsurvival:twinned_crystal",
+    "dragonsurvival:elemental_shaping",
+    "dragonsurvival:crystalline_sanctuary",
+    "dragonsurvival:frostfire_forging",
+
+    "dragonsurvival:frostfire_magic",
+    "dragonsurvival:scorch_of_frostfire",
+    "dragonsurvival:pulse_of_frostfire",
+    "dragonsurvival:frostfire_reprisal",
+
+    "dragonsurvival:born_of_frost_and_flame",
+    "dragonsurvival:frostfire_claws_and_teeth",
+    "dragonsurvival:world_wanderer",
+    "dragonsurvival:frostfire_wings",
+    "dragonsurvival:frostfire_spin",
+        
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller"
+  ]
+}
