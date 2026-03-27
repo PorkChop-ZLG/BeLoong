@@ -732,25 +732,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7BA915DE214AD00A"]
-			id: "1D9504E868F7E724"
-			rewards: [{
-				id: "6A3B9E889F7AF7C7"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				icon: {
-					id: "iceandfire:pixie_house_oak"
-				}
-				id: "48D06F60D6501811"
-				structure: "iceandfire:pixie_village"
-				type: "structure"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["7DA6938BDD9417AE"]
 			id: "2F9F01BE658EB7F7"
 			rewards: [{
