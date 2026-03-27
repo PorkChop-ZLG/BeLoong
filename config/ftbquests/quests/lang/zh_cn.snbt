@@ -1079,6 +1079,7 @@
 	quest.186EDCECB309BC44.quest_subtitle: "大龙残躯"
 	quest.18BC27F09DE456D2.title: "击杀：溺尸"
 	quest.19632689D6646EBD.quest_desc: ["&a目标：集齐龙霜钢武器和工具"]
+	quest.19632689D6646EBD.title: "龙霜钢装备"
 	quest.196959C6E061913D.quest_desc: [
 		"&l&d「黑耀巨石柱」"
 		"&6生命：&a1200"
@@ -1797,6 +1798,7 @@
 	quest.2EBCC86372D200F5.quest_subtitle: "你选择成为：洞穴龙"
 	quest.2EBCC86372D200F5.title: "『化龍』洞穴龙！"
 	quest.2ECA4D4990D20697.quest_desc: ["&a目标：集齐龙霆钢武器和工具"]
+	quest.2ECA4D4990D20697.title: "龙霆钢装备"
 	quest.2ECA678E765E94F4.quest_desc: [
 		"战斗：擅长可怕的魔法和未知的艺术，能够召唤在阴影中诞生的生物。"
 		"能力："
