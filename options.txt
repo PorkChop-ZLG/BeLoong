@@ -194,7 +194,7 @@ key_key.shouldersurfing.adjust_camera_down:key.keyboard.page.down
 key_key.shouldersurfing.swap_shoulder:key.keyboard.unknown
 key_key.shouldersurfing.toggle_first_person:key.keyboard.unknown
 key_key.shouldersurfing.toggle_third_person_front:key.keyboard.unknown
-key_key.shouldersurfing.toggle_third_person_back:key.keyboard.f6
+key_key.shouldersurfing.toggle_third_person_back:key.keyboard.unknown
 key_key.shouldersurfing.free_look:key.keyboard.unknown
 key_key.shouldersurfing.toggle_camera_coupling:key.keyboard.unknown
 key_key.shouldersurfing.toggle_x_offset_presets:key.keyboard.unknown

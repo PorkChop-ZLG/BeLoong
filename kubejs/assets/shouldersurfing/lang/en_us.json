@@ -360,8 +360,7 @@
   "shouldersurfing.configuration.integrations.epicfight.decoupled_camera_lock_on": "Decoupled camera lock-on",
   "shouldersurfing.configuration.integrations.epicfight.decoupled_camera_lock_on.tooltip": "Whether to allow target lock-on when camera is decoupled.",
 
-  "shouldersurfing.modloadingissue.incompatiblemod": "Mod §e{2}§r is §cincompatible§r with §3{3}§r.
-§7Currently, §3{3}§r§7 is §o{4}§r",
+  "shouldersurfing.modloadingissue.incompatiblemod": "Mod §e{2}§r is §cincompatible§r with §3{3}§r.\n§7Currently, §3{3}§r§7 is §o{4}§r",
 
   "key.shouldersurfing.adjust_camera_left": "Adjust Camera Left",
   "key.shouldersurfing.adjust_camera_right": "Adjust Camera Right",

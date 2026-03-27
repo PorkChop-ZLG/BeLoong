@@ -31,7 +31,7 @@
 	#Allowed Values: INHERIT, ON, OFF
 	view_bobbing_mode = "INHERIT"
 	#Whether or not to follow the rotations of the player when camera is decoupled.
-	follow_player_rotations = true
+	follow_player_rotations = false
 	#The delay in ticks after which the camera rotations will follow rotations of the player.
 	# Default: 40
 	# Range: > 1
