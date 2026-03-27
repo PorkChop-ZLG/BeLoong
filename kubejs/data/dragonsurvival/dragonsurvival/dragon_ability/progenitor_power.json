@@ -139,39 +139,39 @@
       },
       {
         "from_level": 2,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_2"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 3,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_3"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 4,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_4"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 5,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_5"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 6,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_6"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 7,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_7"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 8,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_8"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 9,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_9"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       },
       {
         "from_level": 10,
-        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_10"
+        "texture_resource": "dragonsurvival:abilities/beloong/progenitor_power_1"
       }
     ]
   },
