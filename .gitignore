@@ -176,6 +176,8 @@ config/asyncparticles/asyncparticles-mixin.properties
 !config/naturescompass-common.toml
 !config/netherdepthsupgrade-common.toml
 !config/netmusic-common.toml
+!config/searchonmcmod-client.toml
+!config/shouldersurfing-client.toml
 !config/sophisticatedbackpacks-common.toml
 !config/sophisticatedbackpacks-server.toml
 !config/sophisticatedcore-client.toml
