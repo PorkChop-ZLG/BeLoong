@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "range": 2.0,
+      "spell": "irons_spellbooks:divine_smite"
+    },
+    {
+      "range": 2.0,
+      "spell": "irons_spellbooks:flaming_strike"
+    },
+    {
+      "range": 3.0,
+      "spell": "irons_spellbooks:cleanse"
+    },
+    {
+      "range": 5.0,
+      "spell": "irons_spellbooks:healing_circle"
+    },
+    {
+      "range": 15.0,
+      "spell": "irons_spellbooks:none"
+    }
+  ]
+}

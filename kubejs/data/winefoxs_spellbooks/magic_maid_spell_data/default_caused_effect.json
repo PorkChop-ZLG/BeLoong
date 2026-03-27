@@ -1,0 +1,73 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "effect": "irons_spellbooks:heartstop",
+      "spell": "irons_spellbooks:heartstop"
+    },
+    {
+      "effect": "irons_spellbooks:echoing_strikes",
+      "spell": "irons_spellbooks:echoing_strikes"
+    },
+    {
+      "effect": "irons_spellbooks:evasion",
+      "spell": "irons_spellbooks:evasion"
+    },
+    {
+      "effect": "irons_spellbooks:true_invisibility",
+      "spell": "irons_spellbooks:invisibility"
+    },
+    {
+      "effect": "irons_spellbooks:charged",
+      "spell": "irons_spellbooks:charge"
+    },
+    {
+      "effect": "irons_spellbooks:spider_aspect",
+      "spell": "irons_spellbooks:spider_aspect"
+    },
+    {
+      "effect": "irons_spellbooks:oakskin",
+      "spell": "irons_spellbooks:oakskin"
+    },
+    {
+      "effect": "irons_spellbooks:abyssal_shroud",
+      "spell": "irons_spellbooks:abyssal_shroud"
+    },
+    {
+      "effect": "irons_spellbooks:gluttony",
+      "spell": "irons_spellbooks:gluttony"
+    },
+    {
+      "effect": "irons_spellbooks:fortify",
+      "spell": "irons_spellbooks:fortify"
+    },
+    {
+      "effect": "irons_spellbooks:hastened",
+      "spell": "irons_spellbooks:haste"
+    },
+    {
+      "effect": "irons_spellbooks:slowed",
+      "spell": "irons_spellbooks:slow"
+    },
+    {
+      "effect": "irons_spellbooks:rend",
+      "spell": "irons_spellbooks:heat_surge"
+    },
+    {
+      "effect": "irons_spellbooks:chilled",
+      "spell": "irons_spellbooks:frostwave"
+    },
+    {
+      "effect": "irons_spellbooks:blight",
+      "spell": "irons_spellbooks:blight"
+    },
+    {
+      "effect": "irons_spellbooks:frostbite",
+      "spell": "irons_spellbooks:frostbite"
+    },
+    {
+      "effect": "iss_magicfromtheeast:reversal_healing",
+      "spell": "iss_magicfromtheeast:bagua_array_circle"
+    }
+  ]
+}
