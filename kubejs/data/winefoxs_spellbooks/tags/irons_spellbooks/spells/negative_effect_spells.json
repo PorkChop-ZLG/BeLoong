@@ -1,0 +1,29 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_spellbooks:slow",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:heat_surge",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:frostwave",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:acid_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blight",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:root",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_spellbooks:acupuncture",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blood_needles",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blood_slash",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:devour",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ray_of_siphoning",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wither_skull",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:sacrifice",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:raise_dead",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:eldritch_blast",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:sculk_tentacles",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:sonic_boom",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:black_hole",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dragon_breath",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:magic_arrow",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:magic_missile",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadow_slash",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:starfall",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_swords",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:arrow_volley",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:chain_creeper",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fang_strike",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fang_ward",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:firecracker",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:gust",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lob_creeper",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:throw",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wololo",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_vex",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blaze_storm",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:burning_dash",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_arrow",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_breath",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fireball",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:firebolt",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:flaming_barrage",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:flaming_strike",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:magma_bomb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:raise_hell",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:scorch",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wall_of_fire",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:divine_smite",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:guiding_bolt",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:sunbeam",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wisp",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cone_of_cold",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_block",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_spikes",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:icicle",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ray_of_frost",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:snowball",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_polar_bear",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ball_lightning",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:chain_lightning",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electrocute",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lightning_bolt",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lightning_lance",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shockwave",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:thunderstorm",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:volt_strike",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:earthquake",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:firefly_swarm",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:poison_arrow",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:poison_breath",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:poison_splash",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:stomp",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:sword_dance",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:dragon_glide",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:jade_judgement",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:nephrite_slash",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:jade_bullet",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:soul_burst",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:spirit_challenging",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:bone_hands",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:calamity_cut",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:phantom_charge",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:anchoring_kunai",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:splitting_shuriken",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:soul_catalyst",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:underworld_aid",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:soul_catalyst",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:soul_burst",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:calamity_cut",
+      "required": false
+    }
+  ]
+}

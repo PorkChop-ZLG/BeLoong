@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_spellbooks:greater_heal",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:heal",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_tomb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:gluttony",
+      "required": false
+    }
+  ]
+}

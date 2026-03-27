@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_spellbooks:heal",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blessing_of_life",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cloud_of_regeneration",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:healing_circle",
+      "required": false
+    }
+  ]
+}

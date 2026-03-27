@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_spellbooks:eldritch_blast",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:flaming_barrage",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wall_of_fire",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:raise_hell",
+      "required": false
+    },
+    {
+      "id": "iss_magicfromtheeast:anchoring_kunai",
+      "required": false
+    }
+  ]
+}

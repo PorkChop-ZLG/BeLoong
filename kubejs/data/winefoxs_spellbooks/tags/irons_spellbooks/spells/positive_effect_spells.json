@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_spellbooks:fortify",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:haste",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cleanse",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:frostbite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_spellbooks:raise_dead",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_swords",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_vex",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_polar_bear",
+      "required": false
+    },
+    {
+      "id": "winefoxs_spellbooks:summon_maid",
+      "required": false
+    }
+  ]
+}
