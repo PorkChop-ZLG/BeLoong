@@ -1126,7 +1126,7 @@
 		"&a魔宠&6会使用强大的魔法与玩家并肩作战。"
 		"&6同时增加了一种新的法术流派：&3律灵"
 		""
-		"&7&o注：部分内容可能有误"
+		"&7&o注：部分内容可能有误，将在未来的版本重写。"
 	]
 	quest.19BFE7F4FD9FF5A4.quest_subtitle: "旅途中的伙伴"
 	quest.19BFE7F4FD9FF5A4.title: "Alshanex的魔宠"
@@ -3471,6 +3471,12 @@
 	]
 	quest.60B7FFFA63E2B4B2.title: "冰霜执法者装备"
 	quest.60E6ED7ED056ABDD.title: "护符T2"
+	quest.6172FD3F22459CA3.quest_desc: [
+		"在&5末地&r随处可见"
+		""
+		"&7&o暂无详细资料，请自行摸索"
+	]
+	quest.6172FD3F22459CA3.title: "龙骑士魔宠"
 	quest.61841B2C10B08D91.quest_desc: [
 		"&a目标：第一行用绿色简述任务的完成目标"
 		""
@@ -3724,6 +3730,10 @@
 	]
 	quest.6AC7F72FF93C6500.quest_subtitle: "如听仙乐耳暂明"
 	quest.6AC7F72FF93C6500.title: "&e律灵学派"
+	quest.6AF7686A53867768.quest_desc: [
+		"右键点击一个&a龙骑士师魔宠&r来绑定他，"
+		"击杀&5末影龙&r掉落。"
+	]
 	quest.6B23ED6B44E5FDFF.quest_desc: [
 		"&2自然罗盘：&a尖冰之地&r"
 		"&2自然罗盘：&a寒冷落叶林&r"

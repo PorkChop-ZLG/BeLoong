@@ -664,7 +664,7 @@
 				item: { count: 1, id: "alshanex_familiars:forest_trinket" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 11.5d
 		}
 		{
@@ -680,7 +680,7 @@
 				item: { count: 1, id: "alshanex_familiars:hunter_trinket" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 11.5d
 		}
 		{
@@ -696,7 +696,7 @@
 				item: { count: 1, id: "alshanex_familiars:necromancer_trinket" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 11.5d
 		}
 		{
@@ -712,7 +712,7 @@
 				item: { count: 1, id: "alshanex_familiars:summoner_trinket" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 11.5d
 		}
 		{
@@ -728,7 +728,7 @@
 				item: { count: 1, id: "alshanex_familiars:mage_trinket" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 11.5d
 		}
 		{
@@ -744,7 +744,7 @@
 				item: { count: 1, id: "alshanex_familiars:archmage_trinket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 11.5d
 		}
 		{
@@ -760,7 +760,7 @@
 				item: { count: 1, id: "alshanex_familiars:illusionist_trinket" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 11.5d
 		}
 		{
@@ -776,7 +776,7 @@
 				item: { count: 1, id: "alshanex_familiars:scorcher_trinket" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 11.5d
 		}
 		{
@@ -792,7 +792,7 @@
 				item: { count: 1, id: "alshanex_familiars:cleric_trinket" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 11.5d
 		}
 		{
@@ -808,7 +808,7 @@
 				item: { count: 1, id: "alshanex_familiars:plague_trinket" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 11.5d
 		}
 		{
@@ -821,7 +821,7 @@
 			rewards: [{
 				id: "2803B8B2E4069703"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
 			shape: "diamond"
 			size: 2.0d
@@ -871,7 +871,7 @@
 				id: "3D187BE52E19B9B9"
 				type: "advancement"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 10.0d
 		}
 		{
@@ -890,7 +890,7 @@
 				id: "54CFC4F37DF0A51D"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 10.0d
 		}
 		{
@@ -908,7 +908,7 @@
 				id: "5EA947B2EA37A0B2"
 				type: "advancement"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 10.0d
 		}
 		{
@@ -926,7 +926,7 @@
 				id: "3C86D16490B33D2D"
 				type: "advancement"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 10.0d
 		}
 		{
@@ -944,7 +944,7 @@
 				id: "20E4236991F60F1B"
 				type: "advancement"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 10.0d
 		}
 		{
@@ -962,7 +962,7 @@
 				id: "49160CF230810835"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 10.0d
 		}
 		{
@@ -980,7 +980,7 @@
 				id: "085BCD6A5F3DF0CA"
 				type: "advancement"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 10.0d
 		}
 		{
@@ -998,7 +998,7 @@
 				id: "69A623AEA4B7BEE2"
 				type: "advancement"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 10.0d
 		}
 		{
@@ -1016,7 +1016,7 @@
 				id: "6E334079E41BF264"
 				type: "advancement"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 10.0d
 		}
 		{
@@ -1034,7 +1034,7 @@
 				id: "04E18D120DC8A156"
 				type: "advancement"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 10.0d
 		}
 		{
@@ -1043,7 +1043,7 @@
 			rewards: [{
 				id: "7627C30945244D23"
 				type: "xp"
-				xp: 100
+				xp: 10000
 			}]
 			shape: "octagon"
 			size: 3.0d
@@ -1363,7 +1363,7 @@
 				id: "1679FEA1BD8180CB"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 10.0d
 		}
 		{
@@ -1379,7 +1379,7 @@
 				item: { count: 1, id: "alshanex_familiars:frostling_trinket" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 11.5d
 		}
 		{
@@ -1488,6 +1488,40 @@
 			}]
 			x: 2.25d
 			y: 5.25d
+		}
+		{
+			dependencies: ["6B5D3B7AD863862F"]
+			id: "6172FD3F22459CA3"
+			rewards: [{
+				id: "5FF9EF0B020A2731"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "alshanex_familiars:alshanex_familiars/tame/dragoon"
+				criterion: ""
+				id: "5EE7E9C85CDEB738"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6172FD3F22459CA3"]
+			id: "6AF7686A53867768"
+			rewards: [{
+				id: "796B1910639A7C6E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "211F5403F2C49920"
+				item: { count: 1, id: "alshanex_familiars:dragon_warrior_trinket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
 		}
 	]
 }
