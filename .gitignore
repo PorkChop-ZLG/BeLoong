@@ -146,6 +146,13 @@ config/asyncparticles/asyncparticles-mixin.properties
 !config/exposure-common.toml
 !config/exposure-server.toml
 !config/extradelight-common.toml
+!config/fallingleaves-client.toml
+!config/farmersdelight-client.toml
+!config/farmersdelight-common.toml
+!config/fastleafdecay-server.toml
+!config/fastpaintings-common.toml
+!config/fsweep.properties
+!config/fsweep-server.properties
 !config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
