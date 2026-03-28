@@ -43,9 +43,12 @@ kubejs/spyglass/
 kubejs/spyglass.json
 
 # ---- 仅追踪部分 config ----
+# 先忽略整个 config 文件夹
 config/**
+# 以下配置文件会实时更新，所以忽略
 config/asyncparticles/asyncparticles-mixin.properties
-
+config/fsweep.properties
+# 取消忽略的文件夹
 !config/artifacts/
 !config/artifacts/**
 !config/asyncparticles/asyncparticles.json
@@ -97,7 +100,7 @@ config/asyncparticles/asyncparticles-mixin.properties
 !config/voicechat/**
 !config/voicecastaddon/client_settings.json
 !config/voicecastaddon/server_settings.json
-
+# 取消忽略的文件
 !config/akashictome-common.toml
 !config/alltheleaks.json
 !config/alshanex_familiars-common.toml
@@ -151,7 +154,6 @@ config/asyncparticles/asyncparticles-mixin.properties
 !config/farmersdelight-common.toml
 !config/fastleafdecay-server.toml
 !config/fastpaintings-common.toml
-config/fsweep.properties
 !config/fsweep-server.properties
 !config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
