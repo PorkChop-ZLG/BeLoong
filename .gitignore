@@ -151,7 +151,7 @@ config/asyncparticles/asyncparticles-mixin.properties
 !config/farmersdelight-common.toml
 !config/fastleafdecay-server.toml
 !config/fastpaintings-common.toml
-!config/fsweep.properties
+config/fsweep.properties
 !config/fsweep-server.properties
 !config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
