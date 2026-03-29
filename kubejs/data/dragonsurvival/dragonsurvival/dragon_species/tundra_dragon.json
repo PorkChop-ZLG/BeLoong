@@ -2,7 +2,7 @@
   "abilities": "#dragonsurvival:tundra_dragon",
   "mana_handling": {
     "mana_per_level": 0.2,
-    "mana_xp_conversion": 0,
+    "mana_xp_conversion": 0.01,
     "max_mana_from_levels": 20
   },
   "custom_stage_progression": [
