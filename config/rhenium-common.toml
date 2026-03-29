@@ -1,0 +1,6 @@
+#Evict cached StructureTemplates after the total cache grows beyond the configured limit.
+limitTemplateCache = true
+#Maximum number of StructureTemplates kept in StructureTemplateManager across all namespaces.
+# Default: 128
+# Range: 16 ~ 1024
+templateCacheSize = 128

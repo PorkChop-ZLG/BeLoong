@@ -183,8 +183,14 @@ config/fsweep-server.properties
 !config/nanny-server.toml
 !config/naturescompass-client.toml
 !config/naturescompass-common.toml
+!config/neoforge-client.toml
+!config/neoforge-common.toml
+!config/neoforge-server.toml
 !config/netherdepthsupgrade-common.toml
 !config/netmusic-common.toml
+!config/patchouli-client.toml
+!config/paxi-neoforge-1_21.toml
+!config/rhenium-common.toml
 !config/searchonmcmod-client.toml
 !config/shouldersurfing-client.toml
 !config/sophisticatedbackpacks-common.toml
