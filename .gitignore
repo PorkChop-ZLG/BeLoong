@@ -48,6 +48,7 @@ config/**
 # 以下配置文件会实时更新，所以忽略
 config/asyncparticles/asyncparticles-mixin.properties
 config/fsweep.properties
+config/fsweep-server.properties
 # 取消忽略的文件夹
 !config/artifacts/
 !config/artifacts/**
@@ -154,7 +155,6 @@ config/fsweep.properties
 !config/farmersdelight-common.toml
 !config/fastleafdecay-server.toml
 !config/fastpaintings-common.toml
-!config/fsweep-server.properties
 !config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
