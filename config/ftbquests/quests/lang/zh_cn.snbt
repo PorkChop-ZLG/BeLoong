@@ -838,7 +838,7 @@
 	quest.12A467A5BE97AA0E.quest_desc: [
 		"我们走过的生物群系："
 		"&2自然罗盘：&a天际山谷&r"
-		"&2自然罗盘：&a封魔缠怨之境&r"
+		"&2自然罗盘：&a魔法蔓林&r"
 		"&2自然罗盘：&a峭壁花园&r"
 		"&2自然罗盘：&a樱花树林&r"
 		"&2自然罗盘：&a玫瑰原野&r"
@@ -3440,7 +3440,7 @@
 	quest.61DD6385C7F59703.title: "『化龍』星界龙！"
 	quest.620D2C27E39DACD0.quest_subtitle: "成长到成年龙阶段"
 	quest.620D2C27E39DACD0.title: "成年洞穴龙"
-	quest.62129DE5962CF7BE.quest_desc: ["&e黑冰&6位于&b破碎的冰川&6。"]
+	quest.62129DE5962CF7BE.quest_desc: ["&e黑冰&6位于&b破碎冰川&6。"]
 	quest.62129DE5962CF7BE.quest_subtitle: "提交5种冰"
 	quest.62129DE5962CF7BE.title: "我吃，冰！"
 	quest.626520C2BF68EC5F.title: "祸乱鬼魅BOSS毕业"
