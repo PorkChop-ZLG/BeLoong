@@ -3,22 +3,24 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1752257285130
+  last_edited_time = 1774801942812
   is_enabled = true
   randommode = true
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4c15183d-a3d5-484f-8558-93e5132982f5-1752257237774] = [groups:][instances:]
+  [loading_requirement_container_meta:737d4404-6605-4f04-ad3e-39b61e0ec370-1774801847534] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/jinxi_3.png
+  image_path = [source:local]/config/fancymenu/assets/loading_3.png
   slide = false
   repeat_texture = false
+  fallback_path = [source:local]/config/fancymenu/assets/bg1.png
   parallax = false
   parallax_intensity = 0.02
   invert_parallax = false
+  restart_animated_on_menu_load = false
   instance_identifier = 12b84605-b58e-4b12-87d8-390cbb9a00a1-1752252245752
   background_type = image
 }
@@ -49,6 +51,7 @@ element {
   nine_slice_texture_border_x = 5
   nine_slice_texture_border_y = 5
   image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = 211e41ca-7111-49c8-a06c-42e2b33034b3-1752252269784
   appearance_delay = no_delay
@@ -80,6 +83,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 vanilla_button {
@@ -117,10 +126,10 @@ vanilla_button {
   auto_sizing_base_screen_width = 0
   auto_sizing_base_screen_height = 0
   sticky_anchor = false
-  anchor_point = vanilla
-  x = 152
-  y = 275
-  width = 336
+  anchor_point = mid-centered
+  x = -120
+  y = 74
+  width = 240
   height = 10
   stretch_x = false
   stretch_y = false
@@ -135,6 +144,12 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
 }
@@ -192,6 +207,12 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
   is_hidden = true
   automated_button_clicks = 0
 }

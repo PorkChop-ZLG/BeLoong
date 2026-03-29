@@ -3,9 +3,6 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
@@ -64,5 +61,8 @@ net.minecraft.client.gui.screens.worldselection.ExperimentsScreen {
 }
 
 net.minecraft.client.gui.screens.DirectJoinServerScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
