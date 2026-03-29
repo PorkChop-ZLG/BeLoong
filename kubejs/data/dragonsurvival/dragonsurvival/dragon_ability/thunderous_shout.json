@@ -128,7 +128,7 @@
         "transition_length": 5
       }
     },
-    "cast_time": 40.0,
+    "cast_time": 30.0,
     "max_duration":{
       "type": "minecraft:linear",
       "base": 120.0,
@@ -145,7 +145,8 @@
     },
     "sound": {
       "end": "dragonsurvival:storm_breath_end",
-      "looping": "minecraft:entity.ender_dragon.ambient",
+      "charging": "entity.warden.sonic_charge",
+      "looping": "wing_kirin:thunderous_shout",
       "start": "dragonsurvival:storm_breath_start"
     },
     "notification": {
