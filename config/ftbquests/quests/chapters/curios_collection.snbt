@@ -698,11 +698,6 @@
 					item: { count: 1, id: "artifacts:helium_flamingo" }
 					type: "item"
 				}
-				{
-					id: "7E32FC8F7816931A"
-					item: { count: 1, id: "cataclysm:belt_of_beginner" }
-					type: "item"
-				}
 			]
 			x: 12.0d
 			y: 6.5d
