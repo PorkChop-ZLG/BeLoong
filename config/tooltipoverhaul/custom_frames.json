@@ -130,6 +130,68 @@
       "borderType": "static",
       "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
       "specialEffect": "metal_shining"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/draconic_fire_frame.png",
+      "namespace": "dragonsurvival",
+      "iconAppearAnimation": "pendulum",
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"],
+      "specialEffect": "nebula"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/demonic_frame.png",
+      "namespace": "xfws_someitems",
+      "iconAppearAnimation": "pendulum",
+      "specialEffect": "white_dust"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/demonic_frame.png",
+      "namespace": "'meowmere",
+      "iconAppearAnimation": "pendulum",
+      "specialEffect": "white_dust"
+    },
+    {
+      "items": [
+        "zenith:zenith"
+      ],
+      "iconAppearAnimation": "vibration",
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "galaxy, spiral"
+    },
+    {
+      "items": [
+        "kubejs:cave_dragon_heart",
+        "kubejs:forest_dragon_heart",
+        "kubejs:sea_dragon_heart",
+        "kubejs:aether_dragon_heart",
+        "kubejs:tundra_dragon_heart",
+        "kubejs:astral_dragon_heart",
+        "kubejs:crystcursed_dragon_heart",
+        "kubejs:wing_kirin_heart"
+      ],
+      "iconAppearAnimation": "bounce",
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"],
+      "specialEffect": "echo, speed_lines"
+    },
+    {
+      "items": [
+        "kubejs:progenitor_dragon_heart",
+        "kubejs:progenitor_dragon_power",
+        "kubejs:progenitor_dragon_scale",
+        "kubejs:progenitor_dragon_ball",
+        "kubejs:progenitor_dragon_breath"
+      ],
+      "iconAppearAnimation": "barrel_roll",
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#A9A9A9", "#999999", "#8F8F8F"],
+      "specialEffect": "ripples, magic_orbs, stars"
     }
   ]
 }
