@@ -141,14 +141,14 @@
       "specialEffect": "nebula"
     },
     {
-      "texture": "tooltipoverhaul:textures/overlay/demonic_frame.png",
+      "texture": "tooltipoverhaul:textures/overlay/garden_frame.png",
       "namespace": "xfws_someitems",
       "iconAppearAnimation": "pendulum",
       "specialEffect": "white_dust"
     },
     {
-      "texture": "tooltipoverhaul:textures/overlay/demonic_frame.png",
-      "namespace": "'meowmere",
+      "texture": "tooltipoverhaul:textures/overlay/garden_frame.png",
+      "namespace": "meowmere",
       "iconAppearAnimation": "pendulum",
       "specialEffect": "white_dust"
     },
