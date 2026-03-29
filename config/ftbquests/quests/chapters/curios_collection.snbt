@@ -173,21 +173,6 @@
 					item: { count: 1, id: "artifacts:anglers_hat" }
 					type: "item"
 				}
-				{
-					id: "616F1CAFBCAAA9EA"
-					item: { count: 1, id: "cataclysm:aptrgangr_head" }
-					type: "item"
-				}
-				{
-					id: "4C8F19DCC3A72C43"
-					item: { count: 1, id: "cataclysm:draugr_head" }
-					type: "item"
-				}
-				{
-					id: "6082D7D12AF49B9B"
-					item: { count: 1, id: "cataclysm:kobolediator_skull" }
-					type: "item"
-				}
 			]
 			x: 0.0d
 			y: 6.5d
@@ -526,11 +511,6 @@
 					item: { count: 1, id: "iss_magicfromtheeast:soulward_ring" }
 					type: "item"
 				}
-				{
-					id: "303526341CEF0EEA"
-					item: { count: 1, id: "cataclysm:ring_of_grudged" }
-					type: "item"
-				}
 			]
 			x: 9.0d
 			y: 2.5d
@@ -848,8 +828,8 @@
 					type: "item"
 				}
 				{
-					id: "4BB5E0EACDD399C4"
-					item: { count: 1, id: "cataclysm:unbreakable_skull" }
+					id: "643E3BA4D753606C"
+					item: { count: 1, id: "iceandfire:hydra_heart" }
 					type: "item"
 				}
 			]
