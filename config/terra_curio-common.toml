@@ -8,7 +8,7 @@ rareBlocks = ["minecraft:ancient_debris", "minecraft:diamond_ore", "minecraft:de
 rareCreatures = ["terra_entity:nymph", "terra_entity:wandering_eye_fish", "terra_entity:pink_slime", "minecraft:skeleton_horse", "minecraft:sniffer", "minecraft:allay", "minecraft:warden", "minecraft:mooshroom", "minecraft:panda"]
 # Default: 7
 # Range: 6 ~ 100
-"Max Accessory Amount" = 7
+"Max Accessory Amount" = 12
 
 ["Random Attack Damage"]
 	enable = false
