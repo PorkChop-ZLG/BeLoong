@@ -85,6 +85,8 @@ config/fsweep-server.properties
 !config/ModernUI/**
 !config/mystiasizakaya/
 !config/mystiasizakaya/**
+!config/nerb/
+!config/nerb/**
 !config/paxi/
 !config/paxi/**
 !config/regions_unexplored/
