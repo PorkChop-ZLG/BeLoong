@@ -16,12 +16,12 @@ curios set belt @s 5
 curios set feet @s 5
 # 护符 5
 curios set charm @s 5
-# 配饰(泰拉饰品) 5
+# 配饰(泰拉饰品) 11
 curios set accessory @s 11
 # 魔宠饰品(魔宠) 12
 curios set familiar_trinket @s 12
-# 魔法书(铁魔法) 1
-curios set spellbook @s 1
+# 魔法书(铁魔法) 4
+curios set spellbook @s 4
 
 # 不死图腾粒子
 particle minecraft:totem_of_undying ~ ~1 ~ 0.4 0.6 0.4 0.1 80 force @s
