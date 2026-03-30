@@ -191,6 +191,9 @@
   "item.eternal_starlight.glacite_ingot": "Glacite Ingot",
   "item.eternal_starlight.glacite_ingot.tooltip": "§e『§6BeLoong§e』§dcustomized items, smelted from Glacite Block",
 
+  "item.ds_aether_addon.aether_dragon_treat": "Aether Dragon Treat",
+  "item.ds_aether_addon.aether_dragon_treat.tooltip": "■§7 Grants infinite mana temporarily.",
+
   "item.kubejs.cave_dragon_heart": "Cave Dragon Heart",
   "item.kubejs.cave_dragon_heart.tooltip": "§6■ Remnant of the Cave Dragon Progenitor, containing the essence of fire.",
   "item.kubejs.forest_dragon_heart": "Forest Dragon Heart",

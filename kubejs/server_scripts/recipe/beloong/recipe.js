@@ -75,4 +75,15 @@ ServerEvents.recipes(event => {
             'kubejs:abeemination'
         ]
     )
+    // 以太龙的佳肴
+    event.shaped(Item.of('ds_aether_addon:aether_dragon_treat', 1), [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+        {
+            A: 'dragonsurvival:elder_dragon_dust',
+            B: 'ds_aether_addon:mistral'
+        }
+    )
 })

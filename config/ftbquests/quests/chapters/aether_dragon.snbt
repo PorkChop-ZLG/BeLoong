@@ -113,6 +113,12 @@
 					item: { count: 1, id: "ds_aether_addon:stuffedegg" }
 					type: "item"
 				}
+				{
+					consume_items: true
+					id: "65D9FDEF1B08BD49"
+					item: { count: 1, id: "ds_aether_addon:aether_dragon_treat" }
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: 7.5d

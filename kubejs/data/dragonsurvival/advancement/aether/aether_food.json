@@ -40,6 +40,14 @@
         }
       },
       "trigger": "minecraft:consume_item"
+    },
+    "consume_aether_dragon_treat": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:aether_dragon_treat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
     }
   },
   "display": {
@@ -69,6 +77,9 @@
     ],
     [
       "consume_mistral"
+    ],
+    [
+      "consume_aether_dragon_treat"
     ]
   ],
   "rewards": {

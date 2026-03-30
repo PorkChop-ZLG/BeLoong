@@ -24,4 +24,6 @@ StartupEvents.registry("item", (event) => {
   event.create("kubejs:progenitor_dragon_breath").rarity("epic").maxStackSize(1).tooltip([Text.translatable('item.kubejs.progenitor_dragon_breath.tooltip.1')]).tooltip([Text.translatable('item.kubejs.progenitor_dragon_breath.tooltip.2')])
   // 永恒星光命名空间
   event.create("eternal_starlight:glacite_ingot").tooltip([Text.translatable('item.eternal_starlight.glacite_ingot.tooltip')])
+  // 以太龙命名空间
+  event.create("ds_aether_addon:aether_dragon_treat").tooltip([Text.translatable('item.ds_aether_addon.aether_dragon_treat.tooltip')])
 })
