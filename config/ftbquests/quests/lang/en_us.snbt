@@ -7,7 +7,7 @@
 	chapter.025C2A1E99ADD3C3.title: "④ The Undergarden"
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["Hidden Quests"]
 	chapter.0ACA55AC777A92A0.title: "〖Aether Dragon〗Path of Growth"
-	chapter.0BD7DFF2E322BDA5.chapter_subtitle: ["Simulation & Management"]
+	chapter.0BD7DFF2E322BDA5.chapter_subtitle: ["Simulation and Management"]
 	chapter.0BD7DFF2E322BDA5.title: "Night Sparrow Diner"
 	chapter.0F599041F0C4C0AF.chapter_subtitle: [
 		"Collect all legendary artifacts;"
@@ -52,7 +52,7 @@
 		"Your support drives me forward"
 		"Includes the credits list"
 	]
-	chapter.4C5C324ECE492CD6.title: "Sponsor Thanks Meow"
+	chapter.4C5C324ECE492CD6.title: "Sponsor Thanks"
 	chapter.4E2D44FFE575436A.chapter_subtitle: ["Hidden Quests"]
 	chapter.4E2D44FFE575436A.title: "〖Sea Dragon〗Path of Growth"
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
@@ -68,13 +68,13 @@
 	]
 	chapter.508CCA54F0BC90CA.title: "Dragon Compendium"
 	chapter.55C8A3D60EBA8E20.chapter_subtitle: ["A Mustard Seed Holds the Universe"]
-	chapter.55C8A3D60EBA8E20.title: "Backpacks & Storage"
+	chapter.55C8A3D60EBA8E20.title: "Backpacks and Storage"
 	chapter.5659CE99755DE90F.chapter_subtitle: [
 		"Multiplayer Recommended - Star Carefree"
 		"Multiplayer Recommended - XyeBBS"
 		"Supports 『BeLoong』 One-Click Server Setup"
 	]
-	chapter.5659CE99755DE90F.title: "Multiplayer Recommendations Meow"
+	chapter.5659CE99755DE90F.title: "Multiplayer Recommendations"
 	chapter.5A87116CA9FE4E2F.chapter_subtitle: ["Hidden Quests"]
 	chapter.5A87116CA9FE4E2F.title: "〖Tundra Dragon〗Path of Growth"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
@@ -207,7 +207,7 @@
 	quest.03300B3D470F9B73.quest_desc: [
 		"&6Jukebox&r is used to play NetEase Cloud Music records."
 		""
-		"Volume: &n&aOptions - Music & Sounds - Jukebox"
+		"Volume: &n&aOptions - Music and Sounds - Jukebox"
 		""
 		"Redstone input can stop playback. Other functions:"
 		""
@@ -229,7 +229,7 @@
 	quest.034ACABF80D25D29.quest_subtitle: "Defeat the Bee Queen"
 	quest.034ACABF80D25D29.title: "Bee Queen"
 	quest.038BE99D4FE3442D.quest_desc: [
-		"&e『&6BeLoong&e』&6 is an &aadventure & casual modpack&6 centered on &dDragon Survival&6."
+		"&e『&6BeLoong&e』&6 is an &aadventure and casual modpack&6 centered on &dDragon Survival&6."
 		"&6Here, you can become various &ddragons&6 and survive,"
 		"&6or choose to be human and learn &5Iron Magic&6."
 		"&6Explore beautiful &abiomes&6 and countless &cdungeons&6;"
@@ -651,6 +651,7 @@
 	quest.0C4859FFFC25935A.title: "Rise of the Lords: Nether Knight"
 	quest.0C6C9EF6B3BA9388.title: "Observe: Heart of the Sea"
 	quest.0C7E174EA1711BFA.title: "Observe: Bamboo"
+	quest.0C7F298F1FA0C8D4.title: "KeepInventory"
 	quest.0D59D12207F20A4C.title: "Observe: Shimmering Hydrangea"
 	quest.0DD185730F003AC4.quest_desc: [
 		"&cAdvanced Enchanting Table&6 allows you to freely customize your equipment,"
@@ -986,6 +987,7 @@
 		"&6Side Story &3【Ice and Fire】&6 quest item."
 		"{ \"text\": \"Click to view how to obtain\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19632689D6646EBD\" } }"
 	]
+	quest.163153BE5D349228.title: "Sweep Items"
 	quest.1647C075AFC0FC73.quest_desc: [
 		"&6Obtained by opening &eMysterious Orbs&6, used to unlock &3Spirit Law&6 spells."
 		"{ \"text\": \"Click to view how to obtain\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53F62FC8058F6AE7\" } }"
@@ -1352,7 +1354,7 @@
 		"At max upgrade, a single barrel can solve everything."
 	]
 	quest.21E6DAFDF89BABEF.quest_subtitle: "Too much stuff? This chapter solves your problem!"
-	quest.21E6DAFDF89BABEF.title: "Side Quest: Backpack & Storage"
+	quest.21E6DAFDF89BABEF.title: "Side Quest: Backpack and Storage"
 	quest.21F9F82D260D81BD.quest_desc: [
 		"On my journey, I saw a serpentine giant trapped in a decorated 'courtyard.' I picked up a worn feather, ignoring the green scales."
 		"These green scales contained the magic property I needed to break curses, but too weak. I needed to kill the serpentine giant directly to obtain fresher samples."

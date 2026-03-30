@@ -47,10 +47,10 @@
 	}
 	xlate: {
 		# Default: ""
-		editing_locale: "zh_cn"
+		editing_locale: ""
 		
 		# Default: ""
-		fallback_locale: "en_us"
+		fallback_locale: ""
 		
 		# Default: true
 		hilite_missing: true
