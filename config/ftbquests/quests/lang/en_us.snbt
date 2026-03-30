@@ -154,11 +154,6 @@
 	quest.0148D8DF96431BD6.quest_subtitle: "New Dragon Scale Acquisition System"
 	quest.014D856119B0F3F7.title: "Kill: Sea Serpent"
 	quest.01595FC4029CAD14.title: "Blazing Tutor Set"
-	quest.017D9183AC0DA243.quest_desc: [
-		"&6When a Network Interface containing items is destroyed, a Matter Storage Crystal recording its contents will be generated."
-		""
-		"&6Once the crystal enters the Dimensional Network by any means, it will automatically decompress into its recorded contents."
-	]
 	quest.0256EDAC77E359BD.title: "Battlemage Equipment"
 	quest.02660EF9A8CDA757.quest_desc: [
 		"&aObjective: Defeat the Ender Dragon"

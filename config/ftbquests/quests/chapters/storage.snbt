@@ -86,9 +86,8 @@
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
-				id: "6E0E7FB9BFCA9EA3"
-				item: { count: 1, id: "beyonddimensions:unstable_space_time_fragment" }
-				type: "item"
+				id: "17608A9129140FCF"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -338,6 +337,9 @@
 		}
 		{
 			dependencies: ["21E6DAFDF89BABEF"]
+			icon: {
+				id: "beyonddimensions:net_creater"
+			}
 			id: "4A5D5042C28278A2"
 			rewards: [{
 				id: "4270525316638F80"
@@ -346,11 +348,10 @@
 			}]
 			size: 1.5d
 			tasks: [{
-				id: "09B1E0EDACD6A7D2"
-				item: { count: 1, id: "beyonddimensions:net_creater" }
-				type: "item"
+				id: "5CA025019B1AFD38"
+				type: "checkmark"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -362,27 +363,16 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "788FC1BD1BC64944"
-				item: { count: 1, id: "beyonddimensions:shattered_space_time_crystallization" }
-				type: "item"
+				icon: {
+					id: "beyonddimensions:net_furnace_block"
+				}
+				id: "31D7C8713F316B15"
+				observe_type: 0
+				timer: 60L
+				to_observe: "beyonddimensions:net_furnace_block"
+				type: "observation"
 			}]
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["21E6DAFDF89BABEF"]
-			id: "006F28C625012180"
-			rewards: [{
-				id: "64B71188DDAB25C2"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "069F0D5A4415B856"
-				item: { count: 1, id: "beyonddimensions:space_time_bar" }
-				type: "item"
-			}]
-			x: 8.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -499,22 +489,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2FB59F656446274D"]
-			id: "017D9183AC0DA243"
-			rewards: [{
-				id: "4D804CE33D230C1D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "2B4AD29C39B653EE"
-				item: { count: 1, id: "beyonddimensions:matter_compress_ball" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 2.5d
-		}
-		{
 			dependencies: ["223C6A086E3917D0"]
 			id: "4F22E8922ED55EE2"
 			rewards: [{
@@ -577,6 +551,54 @@
 			}]
 			x: 12.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["223C6A086E3917D0"]
+			id: "20A6123E18C27B8B"
+			rewards: [{
+				id: "4745576F9A6C4C49"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2098A51A858F0F63"
+				item: { count: 1, id: "beyonddimensions:xp_exchange_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21E6DAFDF89BABEF"]
+			id: "5C18A4A80ABB1440"
+			rewards: [{
+				id: "31B92BE564893E25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "102641340C34FAAA"
+				item: { count: 1, id: "beyonddimensions:shattered_space_time_crystallization" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["223C6A086E3917D0"]
+			id: "1C3B08B3C64F2810"
+			rewards: [{
+				id: "54059899CF321649"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F5D4368AE809138"
+				item: { count: 1, id: "beyonddimensions:net_hopper_block" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
 		}
 	]
 }
