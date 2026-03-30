@@ -518,7 +518,7 @@
 			}
 			id: "5CFF88C245EF7BE5"
 			rewards: [{
-				command: "/summon minecraft:wandering_trader ~ ~ ~"
+				command: "/summon ultramarine:travelling_merchant ~ ~ ~"
 				icon: {
 					id: "minecraft:wandering_trader_spawn_egg"
 				}
@@ -527,13 +527,20 @@
 				silent: true
 				type: "command"
 			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "7999854850282460"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "7999854850282460"
+					item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "4BB56E068B08FE35"
+					item: { count: 1, id: "ultramarine:teahouse_flag" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
