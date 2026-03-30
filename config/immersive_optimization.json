@@ -38,6 +38,8 @@
     "dragonsurvival": false,
     "darkdoppelganger": false,
     "minecraft:ender_dragon": false,
+    "minecraft:shulker": false,
+    "minecraft:shulker_bullet": false,
     "iceandfire:dragon_egg": false,
     "iceandfire:fire_dragon": false,
     "iceandfire:fire_dragon_charge": false,
