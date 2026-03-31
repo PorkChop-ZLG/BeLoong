@@ -4,6 +4,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'wands:copper_wand' })
     event.remove({ id: 'wands:iron_wand' })
     event.remove({ id: 'wands:diamond_wand' })
+    event.remove({ id: 'wands:magic_bag_1' })
+    event.remove({ id: 'wands:magic_bag_2' })
+    event.remove({ id: 'wands:magic_bag_3' })
     event.shaped(Item.of('wands:stone_wand', 1), [
         ' AB',
         ' CA',
