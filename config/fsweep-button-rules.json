@@ -112,6 +112,17 @@
       "note": "Hide Waystones screens by default"
     },
     {
+      "id": "irons_spellbooks",
+      "type": "screen_rule",
+      "matchType": "screen_class",
+      "matchValue": "io.redspace.ironsspellbooks.gui.*",
+      "button": "hide",
+      "hotkey": "hide",
+      "priority": 300,
+      "enabled": true,
+      "note": "Hide Irons Spellbooks screens by default"
+    },
+    {
       "id": "dragonsurvival",
       "type": "screen_rule",
       "matchType": "screen_class",

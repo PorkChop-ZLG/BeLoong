@@ -40,7 +40,11 @@
           ],
           "tick_rate": 1
         },
-        "radius": 5.0,
+        "radius": {
+          "type": "minecraft:linear",
+          "base": 2.0,
+          "per_level_above_first": 2.0
+        },
         "target_type": "dragonsurvival:area"
       },
       {
@@ -58,7 +62,7 @@
                 }
               },
               "effect": {
-                "push_force": 0.3,
+                "push_force": 0.2,
                 "target_direction": {
                   "direction": "towards_entity"
                 },
@@ -68,35 +72,11 @@
           ],
           "tick_rate": 1
         },
-        "radius": 2.5,
-        "target_type": "dragonsurvival:area"
-      },
-      {
-        "general_data": {
-          "effects": [
-            {
-              "condition": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "type_specific": {
-                    "type": "dragonsurvival:entity_check_predicate",
-                    "check_for": "living_entity"
-                  }
-                }
-              },
-              "effect": {
-                "push_force": 0.5,
-                "target_direction": {
-                  "direction": "towards_entity"
-                },
-                "entity_effect": "dragonsurvival:push"
-              }
-            }
-          ],
-          "tick_rate": 1
+        "radius": {     
+          "type": "minecraft:linear",    
+          "base": 3.0,
+          "per_level_above_first": 3.0
         },
-        "radius": 1.0,
         "target_type": "dragonsurvival:area"
       },
       {
@@ -118,8 +98,8 @@
                 "damage_type": "dragonsurvival:black_hole",
                 "amount": {
                   "type": "minecraft:linear",
-                  "base": 2.0,
-                  "per_level_above_first": 1.0
+                  "base": 5.0,
+                  "per_level_above_first": 5.0
                 }
               }
             }
@@ -133,11 +113,19 @@
   },
   "type_data": {
     "behaviour_data": {
-      "height": 1.0,
+      "height":{     
+          "type": "minecraft:linear",    
+          "base": 1.0,
+          "per_level_above_first": 1.0
+        },
       "max_lifespan": 100.0,
       "max_lingering_ticks": 100.0,
       "max_movement_distance": 32.0,
-      "width": 1.0
+      "width":{     
+          "type": "minecraft:linear",    
+          "base": 1.0,
+          "per_level_above_first": 1.0
+        }
     },
     "on_destroy_effects": [
       {
@@ -150,8 +138,8 @@
                 "damage_type": "dragonsurvival:black_hole",
                 "explosion_power": {
                   "type": "minecraft:linear",
-                  "base": 2.0,
-                  "per_level_above_first": 1.0
+                  "base": 6.0,
+                  "per_level_above_first": 2.0
                 },
                 "fire": false,
                 "world_effect": "dragonsurvival:explosion"
@@ -171,9 +159,7 @@
       ]
     },
     "trail_particle": {
-      "type": "minecraft:ash",
-      "swirls": true,
-      "duration": 37
+      "type": "minecraft:ash"
     }
   }
 }

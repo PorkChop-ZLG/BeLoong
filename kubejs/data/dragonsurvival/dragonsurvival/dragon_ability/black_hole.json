@@ -34,7 +34,7 @@
     "activation_type": "dragonsurvival:simple",
     "cast_time": 30,
     "cooldown": 200,
-    "initial_mana_cost": 10,
+    "initial_mana_cost": 5,
     "animations": {
       "start_and_charging": {
         "animation_key": "black_hole",
