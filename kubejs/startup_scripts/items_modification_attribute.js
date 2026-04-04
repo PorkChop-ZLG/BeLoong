@@ -351,7 +351,7 @@ ItemEvents.modification(event => {
         "dragonsurvival:dragon_ability_damage",
         {
           "operation": 0,
-          "amount": 0.5,
+          "amount": 0.4,
           "id": "kubejs:dragon_ability_damage"
         },
         "offhand"
@@ -368,7 +368,7 @@ ItemEvents.modification(event => {
         "dragonsurvival:dragon_ability_damage",
         {
           "operation": 0,
-          "amount": 0.5,
+          "amount": 0.4,
           "id": "kubejs:dragon_ability_damage"
         },
         "offhand"

@@ -1480,5 +1480,47 @@
 			x: 3.0d
 			y: 1.5d
 		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3859C3FFB6F2C61B"
+				"43E849014FFC7520"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "kubejs:progenitor_dragon_ball"
+			}
+			id: "37EBD56D6A20D8F6"
+			rewards: [{
+				id: "7FC93FB81E7F1F32"
+				item: {
+					count: 1
+					id: "kubejs:progenitor_dragon_ball"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					count: 7L
+					id: "2F114F536A89FFA5"
+					item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "78AB5964D910533E"
+					item: { count: 1, id: "eternal_starlight:soul_dew" }
+					type: "item"
+				}
+				{
+					id: "147C479AFFEC8E70"
+					item: { count: 1, id: "alshanex_familiars:mysterious_orb" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
 	]
 }

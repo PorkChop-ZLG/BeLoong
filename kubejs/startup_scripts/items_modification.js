@@ -39,10 +39,10 @@ ItemEvents.modification(event => {
     item.attackDamage = 19.0
   })
   event.modify('eternal_starlight:thermal_springstone_sword', item => {
-    item.attackDamage = 17.0
+    item.attackDamage = 13.0
   })
   event.modify('eternal_starlight:glacite_sword', item => {
-    item.attackDamage = 17.0
+    item.attackDamage = 13.0
   })
   event.modify('eternal_starlight:starlit_diamond_sword', item => {
     item.attackDamage = 17.0
@@ -54,16 +54,16 @@ ItemEvents.modification(event => {
     item.attackDamage = 11.0
   })
   event.modify('eternal_starlight:starfire_sword', item => {
-    item.attackDamage = 12.0
+    item.attackDamage = 17.0
   })
   event.modify('eternal_starlight:flowglaze_sword', item => {
-    item.attackDamage = 12.0
+    item.attackDamage = 17.0
   })
   event.modify('eternal_starlight:amaramber_sword', item => {
-    item.attackDamage = 11.0
+    item.attackDamage = 14.0
   })
   event.modify('eternal_starlight:shattered_sword', item => {
-    item.attackDamage = 11.0
+    item.attackDamage = 12.0
   })
   event.modify('eternal_starlight:energy_sword', item => {
     item.attackDamage = 13.0

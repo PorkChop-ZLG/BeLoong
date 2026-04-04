@@ -2116,6 +2116,14 @@
 	]
 	quest.37E22E2A0F31B536.quest_subtitle: "★★★"
 	quest.37E22E2A0F31B536.title: "祸乱鬼魅：下界铁掌"
+	quest.37EBD56D6A20D8F6.quest_desc: [
+		"&6使用后，添加第二页饰品栏。"
+		"&6原理是设置饰品栏而非添加，因此使用一次即可。"
+		""
+		"&c完成章节【饰品图鉴】后解锁！"
+	]
+	quest.37EBD56D6A20D8F6.quest_subtitle: "真正的力量"
+	quest.37EBD56D6A20D8F6.title: "始祖龙珠"
 	quest.37F1B7C8FF396C68.quest_desc: [
 		"&e飞鱼&6是一种飞行生物，只在&b雨天或雷雨&6出没。"
 		"&6使用技能&d「祈雨之舞」&6可以唤来&b雷雨&6。"
