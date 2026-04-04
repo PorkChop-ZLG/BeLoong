@@ -86,4 +86,40 @@ ServerEvents.recipes(event => {
             B: 'ds_aether_addon:mistral'
         }
     )
+    // 远古龙尘 换 奥术源质
+    event.shaped(Item.of('irons_spellbooks:arcane_essence', 1), [
+        'AA ',
+        'AA ',
+        '   '
+    ],
+        {
+            A: 'dragonsurvival:elder_dragon_dust'
+        }
+    )
+    // 奥术源质 换 远古龙尘
+    event.shaped(Item.of('dragonsurvival:elder_dragon_dust', 1), [
+        'AA ',
+        'AA ',
+        '   '
+    ],
+        {
+            A: 'irons_spellbooks:arcane_essence'
+        }
+    )
+    // 星尘 换成 奥术源质
+    event.shapeless(
+        Item.of('irons_spellbooks:arcane_essence', 2),
+        [
+            'star_dragon:stardust',
+            'dragonsurvival:elder_dragon_dust'
+        ]
+    )
+    // 星尘 换成 远古龙尘
+    event.shapeless(
+        Item.of('dragonsurvival:elder_dragon_dust', 2),
+        [
+            'star_dragon:stardust',
+            'irons_spellbooks:arcane_essence'
+        ]
+    )
 })
