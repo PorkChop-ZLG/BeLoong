@@ -37,13 +37,12 @@
 		# Range: 0.1 ~ 1.0
 		repair_percentage_step = 0.25
 
-	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
-	#Cost multipliers mainly control how this maximum cost will be spread out between enchantments of different rarities.
 	[advanced_infuser.costs]
 		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
 		#Default Value: true
 		scale_costs_by_vanilla_only = false
-		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
+		#Global scale for all enchantment prices. Represents the maximum total cost when the most expensive combination of enchantments for a given item is applied at once.
+		#This is not a strict value and may be exceeded, since each applied enchantment level always costs at least one.
 		#Default Value: 30
 		# Default: 30
 		# Range: > 1
@@ -88,13 +87,12 @@
 		# Range: 0.1 ~ 1.0
 		repair_percentage_step = 0.25
 
-	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
-	#Cost multipliers mainly control how this maximum cost will be spread out between enchantments of different rarities.
 	[normal_infuser.costs]
 		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
 		#Default Value: true
 		scale_costs_by_vanilla_only = true
-		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
+		#Global scale for all enchantment prices. Represents the maximum total cost when the most expensive combination of enchantments for a given item is applied at once.
+		#This is not a strict value and may be exceeded, since each applied enchantment level always costs at least one.
 		#Default Value: 30
 		# Default: 30
 		# Range: > 1
