@@ -157,6 +157,7 @@ config/fsweep-server.properties
 !config/farmersdelight-common.toml
 !config/fastleafdecay-server.toml
 !config/fastpaintings-common.toml
+!config/fsweep-button-rules.json
 !config/ftbchunks-world.snbt
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
