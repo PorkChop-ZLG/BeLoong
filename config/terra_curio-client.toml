@@ -8,7 +8,7 @@
 
 [Functional]
 	autoAttack = false
-	rightClickDelay = false
+	rightClickDelay = true
 
 ["Information HUD"]
 	#finalTop = screenHeight * top
