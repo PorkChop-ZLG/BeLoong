@@ -2,81 +2,15 @@
   "version": 1,
   "rules": [
     {
-      "id": "legacy_backpack",
-      "type": "screen_rule",
-      "matchType": "screen_class",
-      "matchValue": "*Backpack*",
-      "button": "hide",
-      "hotkey": "hide",
-      "priority": 300,
+      "id": "only_chest",
+      "type": "menu_rule",
+      "matchType": "menu_id",
+      "matchValue": "minecraft:generic_9x3",
+      "button": "show",
+      "hotkey": "show",
+      "priority": 100,
       "enabled": true,
-      "note": "Preserve legacy backpack UI exclusion"
-    },
-    {
-      "id": "legacy_settings",
-      "type": "screen_rule",
-      "matchType": "screen_class",
-      "matchValue": "*Settings*",
-      "button": "hide",
-      "hotkey": "hide",
-      "priority": 300,
-      "enabled": true,
-      "note": "Preserve legacy settings UI exclusion"
-    },
-    {
-      "id": "legacy_dimensions_net",
-      "type": "screen_rule",
-      "matchType": "screen_class",
-      "matchValue": "*DimensionsNet*",
-      "button": "hide",
-      "hotkey": "hide",
-      "priority": 300,
-      "enabled": true,
-      "note": "Preserve Beyond network UI exclusion"
-    },
-    {
-      "id": "legacy_dimensions_craft",
-      "type": "screen_rule",
-      "matchType": "screen_class",
-      "matchValue": "*DimensionsCraft*",
-      "button": "hide",
-      "hotkey": "hide",
-      "priority": 300,
-      "enabled": true,
-      "note": "Preserve Beyond craft UI exclusion"
-    },
-    {
-      "id": "ae2_terminals",
-      "type": "screen_rule",
-      "matchType": "screen_class",
-      "matchValue": "appeng.client.gui.implementations.*",
-      "button": "hide",
-      "hotkey": "hide",
-      "priority": 300,
-      "enabled": true,
-      "note": "Hide AE2 terminal screens by default"
-    },
-    {
-      "id": "rs2_terminals",
-      "type": "screen_rule",
-      "matchType": "screen_class",
-      "matchValue": "com.refinedmods.refinedstorage.*",
-      "button": "hide",
-      "hotkey": "hide",
-      "priority": 300,
-      "enabled": true,
-      "note": "Hide RS2 terminal screens by default"
-    },
-    {
-      "id": "toms_terminals",
-      "type": "screen_rule",
-      "matchType": "screen_class",
-      "matchValue": "com.tom.storagemod.screen.*Terminal*",
-      "button": "hide",
-      "hotkey": "hide",
-      "priority": 300,
-      "enabled": true,
-      "note": "Hide Tom's terminal screens by default"
+      "note": "Only used in Chest Menu"
     },
     {
       "id": "sophisticatedstorage",
