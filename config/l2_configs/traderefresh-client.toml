@@ -1,3 +1,6 @@
 #Show enchantment properties like tradeable and enchantable
 #Will not work when Apotheosis is installed
 showEnchProperties = false
+#Which side of the screen to place the refresh button
+#Allowed Values: LEFT, RIGHT
+buttonSide = "LEFT"
