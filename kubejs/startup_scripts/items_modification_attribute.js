@@ -12,7 +12,7 @@ ItemEvents.modification(event => {
         "dragonsurvival:dragon_ability_damage", // 例如"minecraft:generic.attack_damage"，具体查看wiki
         {
           "operation": 0, // 0 = add, 1 = add-multiply, 2 = multiply
-          "amount": 1.0, // 数值
+          "amount": 0.5, // 数值
           "id": "kubejs:dragon_ability_damage" // 自定义字符串，例如""kubejs:attack_damage"
         },
         "mainhand" // 槽位ID，类似的有"any","mainhand","offhand","head".
