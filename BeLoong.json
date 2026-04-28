@@ -107,7 +107,7 @@
         ]
       },
       "--fml.neoForgeVersion",
-      "21.1.219",
+      "21.1.228",
       "--fml.fmlVersion",
       "4.0.42",
       "--fml.mcVersion",
@@ -180,10 +180,10 @@
   },
   "assetIndex": {
     "id": "17",
-    "sha1": "50752437fc06162c9a4688a42a88313f3578c23b",
-    "size": 448963,
-    "totalSize": 812876562,
-    "url": "https://piston-meta.mojang.com/v1/packages/50752437fc06162c9a4688a42a88313f3578c23b/17.json"
+    "sha1": "06cb00c89ab0e9ba207f74cc6f77c0ff7060c4f3",
+    "size": 449161,
+    "totalSize": 815605278,
+    "url": "https://piston-meta.mojang.com/v1/packages/06cb00c89ab0e9ba207f74cc6f77c0ff7060c4f3/17.json"
   },
   "assets": "17",
   "complianceLevel": 1,
