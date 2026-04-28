@@ -27,8 +27,6 @@ xaero/
 XaeroWaypoints_BACKUP240807/
 
 # ---- GitHub 忽略文件 ----
-BeLoong.jar
-BeLoong.json
 command_history.txt
 emi.json
 ops.json
