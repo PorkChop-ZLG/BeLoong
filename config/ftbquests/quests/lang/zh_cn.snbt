@@ -65,7 +65,7 @@
 	]
 	chapter.508CCA54F0BC90CA.title: "龙族图鉴"
 	chapter.55C8A3D60EBA8E20.chapter_subtitle: ["须弥藏芥子，芥子纳须弥"]
-	chapter.55C8A3D60EBA8E20.title: "背包与存储"
+	chapter.55C8A3D60EBA8E20.title: "超越维度"
 	chapter.5659CE99755DE90F.chapter_subtitle: [
 		"联机推荐 - 星遥游戏"
 		"联机推荐 - 星叶云联"
@@ -346,15 +346,6 @@
 	quest.053BA563D0DBF380.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E22E2A0F31B536\" } }"]
 	quest.053BA563D0DBF380.quest_subtitle: "击杀下界铁掌，提交其掉落物"
 	quest.053BA563D0DBF380.title: "铸就火之龙躯"
-	quest.054276060A380FAD.quest_desc: [
-		"&o&7芥子纳须弥，超空间存储。"
-		""
-		"至此，你已将&9精妙存储&r升级到最高层次。"
-		""
-		"其他功能需要你自己摸索。"
-	]
-	quest.054276060A380FAD.quest_subtitle: "【精妙存储支线    完结】"
-	quest.054276060A380FAD.title: "堆叠升级Ω"
 	quest.055D72E0BC34E041.quest_desc: [
 		"&l&d「咒翼灵骸」"
 		"&6生命：&a4200"
@@ -372,6 +363,13 @@
 	quest.056D95FDEB92D03D.quest_subtitle: "击杀月藤巨物，提交其掉落物"
 	quest.056D95FDEB92D03D.title: "加冕木之王座"
 	quest.057B105B4C554670.title: "原版BOSS毕业"
+	quest.0589086E35F81C3A.quest_desc: [
+		"&a目标：合成不稳定的时空碎片（可选）"
+		""
+		"&6在背包放置一个小时后转化为 &e稳态时空碎片&6。"
+		"&6用于合成维度网络发生器。"
+		"&6可通过本任务直接兑换，省去等待过程。"
+	]
 	quest.05B2708F599F0167.quest_desc: [
 		"&a目标：成长到始祖龙阶段，击败黑暗二重身"
 		""
@@ -1324,40 +1322,6 @@
 	]
 	quest.21D5091A376C0F26.quest_subtitle: "★★★"
 	quest.21D5091A376C0F26.title: "铁魔法：死者之王"
-	quest.21E6DAFDF89BABEF.quest_desc: [
-		"&b&l超越维度：&r"
-		""
-		"&b超越维度&r是一个提供存储空间的模组。"
-		""
-		"它引入了一个虚拟存储系统——&b维度网络&r。"
-		""
-		"这个网络不依赖于任何方块或物品，"
-		""
-		"你可以按&d【O】&r键随时随地访问它。"
-		"{@pagebreak}"
-		"&2&l精妙背包：&r"
-		""
-		"&2精妙背包&r是一种能不断升级的背包。"
-		""
-		"背包可以放在&b胸甲栏&r，或是&b饰品栏的背饰槽位&r。"
-		""
-		"戴上背包后，默认按&d【B】&r键打开，&d【鼠标中键】&r整理。"
-		""
-		"左侧为&6升级标签页&r，安装各种&6背包升级&r获得特殊功能。"
-		""
-		"右侧为&6背包设置&r，在这里编辑特殊功能。"
-		""
-		"{@pagebreak}"
-		"&9&l精妙存储：&r"
-		""
-		"木桶拥有了更大的存储空间和更多功能。"
-		""
-		"可以大大节省存储网络的占地面积，"
-		""
-		"升级到最高处，甚至一个木桶就能解决一切问题。"
-	]
-	quest.21E6DAFDF89BABEF.quest_subtitle: "东西太多无处放？本章解决你烦恼！"
-	quest.21E6DAFDF89BABEF.title: "支线：背包与存储"
 	quest.21F9F82D260D81BD.quest_desc: [
 		" 我在旅途中看见了一种蛇形的巨兽，它被困在了装饰考究的“庭院”里。当时我捡起了一根破旧的羽毛，忽略了那些绿色的鳞片。"
 		" 事实证明，这些绿色的鳞片有我需要的破除魔咒的魔力属性，但是这魔力太过于微弱，我需要直接干掉那个蛇形巨兽，以此拿到更新鲜的样品。"
@@ -1883,7 +1847,7 @@
 	quest.316AFA91B0365E94.title: "&3&l暮色已尽，星光乍现"
 	quest.317B23426E06295F.title: "茅山道士武器"
 	quest.317F86F342B23460.quest_desc: [
-		"&a观察：新手小屋里的网络熔炉"
+		"&a目标：观察新手小屋里的网络熔炉"
 		""
 		"&6维度网络管理员空手Shift右键可以将其绑定到当前网络。"
 		""
@@ -1976,8 +1940,6 @@
 	]
 	quest.34F81E5815B0AB4B.quest_subtitle: "魔法师的试炼之地"
 	quest.34F81E5815B0AB4B.title: "远古战场"
-	quest.3510A0C79536CCF4.quest_desc: ["&6空白升级&r用于合成各种背包升级。"]
-	quest.3510A0C79536CCF4.title: "空白升级"
 	quest.354B2616B210E3AB.quest_desc: [
 		"&a目标：获得冰龙血"
 		""
@@ -3089,8 +3051,6 @@
 		"&6主线&3【深暗之园】&6的通关奖励。"
 		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
 	]
-	quest.548BF20DEC6FAA3B.quest_desc: ["&6升级基板&r用于合成各种存储升级。"]
-	quest.548BF20DEC6FAA3B.title: "升级基板"
 	quest.549E269DFE9CCCBA.title: "空龙魂"
 	quest.54A9EA09DB80D187.title: "首饰T0"
 	quest.55C69AD6F42A1ADA.quest_subtitle: "奶油薄荷"
@@ -3653,15 +3613,6 @@
 		"&e公会骑士&6能禁止龙魔法，务必当心。"
 	]
 	quest.69C53D16FB6FCEF5.quest_subtitle: "击败公会骑士"
-	quest.6A03B959A1B214E6.quest_desc: [
-		"&o&7一“包”在手，天下我有。"
-		""
-		"至此，你已将&2精妙背包&r升级到最高层次。"
-		""
-		"其他功能需要你自己摸索。"
-	]
-	quest.6A03B959A1B214E6.quest_subtitle: "【精妙背包支线    完结】"
-	quest.6A03B959A1B214E6.title: "堆叠升级Ω"
 	quest.6A0A7CA003C79A28.title: "打卡：锆蓝深海"
 	quest.6A1268143ED70C45.quest_desc: [
 		"&l&d「霜冻巨兽」"

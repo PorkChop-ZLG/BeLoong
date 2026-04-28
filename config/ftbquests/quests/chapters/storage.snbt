@@ -4,358 +4,35 @@
 	filename: "storage"
 	group: "0476E1FA2E206D30"
 	icon: {
-		components: {
-			"sophisticatedcore:accent_color": -816214
-			"sophisticatedcore:main_color": -816214
-		}
-		id: "sophisticatedbackpacks:backpack"
+		id: "beyonddimensions:net_creater"
 	}
 	id: "55C8A3D60EBA8E20"
-	images: [
-		{
-			height: 16.0d
-			image: "beyonddimensions:item/net_creater"
-			order: 100
-			rotation: 0.0d
-			width: 16.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			height: 8.0d
-			image: "beyonddimensions:block/net_energy_pathway"
-			order: 10
-			rotation: 0.0d
-			width: 8.0d
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			height: 5.0d
-			image: "sophisticatedstorage:block/acacia_barrel_bottom"
-			rotation: 0.0d
-			width: 5.0d
-			x: -12.5d
-			y: 0.0d
-		}
-		{
-			height: 5.0d
-			image: "sophisticatedstorage:block/bamboo_barrel_bottom"
-			rotation: 0.0d
-			width: 5.0d
-			x: -8.5d
-			y: 0.0d
-		}
-	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["21E6DAFDF89BABEF"]
-			icon: {
-				id: "sophisticatedbackpacks:upgrade_base"
-			}
-			id: "3510A0C79536CCF4"
-			rewards: [{
-				id: "022AD4845B5EEEF2"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "40277BEF8E3636EF"
-				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			icon: {
-				components: {
-					"sophisticatedcore:accent_color": -816214
-					"sophisticatedcore:main_color": -816214
-				}
-				id: "sophisticatedbackpacks:backpack"
-			}
-			id: "21E6DAFDF89BABEF"
-			rewards: [{
-				id: "392610B1443E5DB7"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "17608A9129140FCF"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["21E6DAFDF89BABEF"]
-			icon: {
-				id: "sophisticatedstorage:upgrade_base"
-			}
-			id: "548BF20DEC6FAA3B"
-			rewards: [{
-				id: "5B91065674F9834E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3294A6DADF8C5951"
-				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["548BF20DEC6FAA3B"]
-			id: "17A392EBD4291272"
-			rewards: [{
-				id: "5B7D8E07149D3BE1"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "675A0289AD8047EC"
-				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["17A392EBD4291272"]
-			id: "7A468A1D9A64BDD8"
-			rewards: [{
-				id: "5530AEBFCB74475A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "68B1F4434C98A10C"
-				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_2" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7A468A1D9A64BDD8"]
-			id: "46B47E9F28945694"
-			rewards: [{
-				id: "1967A3B8B1125614"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5F5A8AD6DC045CC6"
-				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_3" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["46B47E9F28945694"]
-			id: "6A778575A1ABCCB0"
-			rewards: [{
-				id: "4EA4A6AC7D40B5D1"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "286946172D13C05E"
-				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_4" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6A778575A1ABCCB0"]
-			id: "554BC97544944191"
-			rewards: [{
-				id: "356B7BAD2E794904"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "42E4B926EF2DB399"
-				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_5" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["554BC97544944191"]
-			icon: {
-				id: "sophisticatedstorage:stack_upgrade_omega_tier"
-			}
-			id: "054276060A380FAD"
-			rewards: [
-				{
-					id: "6C2D9A271F7DE1C6"
-					type: "xp_levels"
-					xp_levels: 99
-				}
-				{
-					count: 99
-					id: "52D3D779D2A3B7CD"
-					item: {
-						count: 1
-						id: "minecraft:netherite_block"
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				id: "618201DCA0B3666B"
-				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_omega_tier" }
-				type: "item"
-			}]
-			x: -12.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3510A0C79536CCF4"]
-			id: "01DDCADD9201C97E"
-			rewards: [{
-				id: "503E68CC6611F174"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "27026977FEB92F34"
-				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_starter_tier" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["01DDCADD9201C97E"]
-			id: "3427A3C664759748"
-			rewards: [{
-				id: "61B9CF8F4C8610E4"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3E23D33AAD145786"
-				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3427A3C664759748"]
-			id: "3AD9EA4AEE0ADBB5"
-			rewards: [{
-				id: "0AB521BF209D1A0E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "58E4C1A0A7A92D50"
-				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3AD9EA4AEE0ADBB5"]
-			id: "4A7818F291B6E377"
-			rewards: [{
-				id: "6E419C4C63669FEC"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "40CCD69ED0B4B3C0"
-				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4A7818F291B6E377"]
-			id: "09260D7F9672C6A3"
-			rewards: [{
-				id: "74775237308DBCCB"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0A93910FFA9B831D"
-				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["09260D7F9672C6A3"]
-			icon: {
-				id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
-			}
-			id: "6A03B959A1B214E6"
-			rewards: [
-				{
-					id: "039024F9AC1D9BC0"
-					type: "xp_levels"
-					xp_levels: 99
-				}
-				{
-					count: 99
-					id: "3678D2FCE692249B"
-					item: {
-						count: 1
-						id: "minecraft:netherite_block"
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				id: "5B80BCCAEE2D4993"
-				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_omega_tier" }
-				type: "item"
-			}]
-			x: -12.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["21E6DAFDF89BABEF"]
 			icon: {
 				id: "beyonddimensions:net_creater"
 			}
+			icon_scale: 1.5d
 			id: "4A5D5042C28278A2"
 			rewards: [{
 				id: "4270525316638F80"
 				type: "xp"
-				xp: 500
+				xp: 100
 			}]
-			size: 1.5d
+			shape: "none"
+			size: 3.0d
 			tasks: [{
-				id: "5CA025019B1AFD38"
-				type: "checkmark"
+				id: "731BFF3C8BBBF857"
+				item: { count: 1, id: "beyonddimensions:net_creater" }
+				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["21E6DAFDF89BABEF"]
+			dependencies: ["4A5D5042C28278A2"]
 			id: "317F86F342B23460"
 			rewards: [{
 				id: "127D2BB467084B94"
@@ -372,11 +49,11 @@
 				to_observe: "beyonddimensions:net_furnace_block"
 				type: "observation"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["21E6DAFDF89BABEF"]
+			dependencies: ["4A5D5042C28278A2"]
 			id: "223C6A086E3917D0"
 			rewards: [{
 				id: "0559C143188911AE"
@@ -389,7 +66,7 @@
 				item: { count: 1, id: "beyonddimensions:space_time_stable_frame" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -405,7 +82,7 @@
 				item: { count: 1, id: "beyonddimensions:net_member_inviter" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -421,7 +98,7 @@
 				item: { count: 1, id: "beyonddimensions:net_terminal_block" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 6.0d
 			y: 3.5d
 		}
 		{
@@ -437,7 +114,7 @@
 				item: { count: 1, id: "beyonddimensions:net_terminal_item" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 8.0d
 			y: 3.5d
 		}
 		{
@@ -453,7 +130,7 @@
 				item: { count: 1, id: "beyonddimensions:net_manager_inviter" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 5.5d
 			y: 1.5d
 		}
 		{
@@ -469,7 +146,7 @@
 				item: { count: 1, id: "beyonddimensions:net_gifter" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -485,7 +162,7 @@
 				item: { count: 1, id: "beyonddimensions:net_destroyer" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -501,7 +178,7 @@
 				item: { count: 1, id: "beyonddimensions:net_control" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -517,7 +194,7 @@
 				item: { count: 1, id: "beyonddimensions:net_energy_pathway" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
@@ -533,7 +210,7 @@
 				item: { count: 1, id: "beyonddimensions:net_pathway" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -549,7 +226,7 @@
 				item: { count: 1, id: "beyonddimensions:net_interface" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
@@ -565,11 +242,11 @@
 				item: { count: 1, id: "beyonddimensions:xp_exchange_item" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["21E6DAFDF89BABEF"]
+			dependencies: ["4A5D5042C28278A2"]
 			id: "5C18A4A80ABB1440"
 			rewards: [{
 				id: "31B92BE564893E25"
@@ -581,7 +258,7 @@
 				item: { count: 1, id: "beyonddimensions:shattered_space_time_crystallization" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -597,8 +274,29 @@
 				item: { count: 1, id: "beyonddimensions:net_hopper_block" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 9.5d
 			y: 2.5d
+		}
+		{
+			can_repeat: true
+			id: "0589086E35F81C3A"
+			optional: true
+			rewards: [{
+				id: "6A55BBBE184CA35F"
+				item: {
+					count: 1
+					id: "beyonddimensions:stable_space_time_fragment"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7D325B94F35992D8"
+				item: { count: 1, id: "beyonddimensions:unstable_space_time_fragment" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 	]
 }

@@ -343,15 +343,6 @@
 	quest.053BA563D0DBF380.quest_desc: ["{ \"text\": \"Click to view Boss Info\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E22E2A0F31B536\" } }"]
 	quest.053BA563D0DBF380.quest_subtitle: "Kill Nether Ironclad and Submit Drops"
 	quest.053BA563D0DBF380.title: "Forge the Fire Dragon Body"
-	quest.054276060A380FAD.quest_desc: [
-		"&o&7A mustard seed holds the universe, hyperspace storage."
-		""
-		"You have fully upgraded &9Sophisticated Storage&r."
-		""
-		"Explore other functions yourself."
-	]
-	quest.054276060A380FAD.quest_subtitle: "【Sophisticated Storage Complete】"
-	quest.054276060A380FAD.title: "Stack Upgrade Ω"
 	quest.055D72E0BC34E041.quest_desc: [
 		"&l&d「Cursed Wing Remains」"
 		"&6Health: &a4200"
@@ -1319,40 +1310,6 @@
 	quest.21A1EB507EB2B88B.title: "Act 2: Dragon Transformation"
 	quest.21D5091A376C0F26.quest_subtitle: "★"
 	quest.21D5091A376C0F26.title: "Iron Magic: King of the Dead"
-	quest.21E6DAFDF89BABEF.quest_desc: [
-		"&b&lBeyond Dimension:&r"
-		""
-		"&bBeyond Dimension&r is a mod providing storage space."
-		""
-		"It introduces a virtual storage system — &bDimension Network&r."
-		""
-		"This network does not rely on any blocks or items,"
-		""
-		"You can access it anytime using &d【O】&r."
-		"{@pagebreak}"
-		"&2&lIngenious Backpack:&r"
-		""
-		"&2Ingenious Backpack&r is an upgradable backpack."
-		""
-		"Can be worn in &bChest Slot&r or &bBack Slot in Accessory Inventory&r."
-		""
-		"Default open with &d【B】&r, sort with &d【Middle Mouse】&r."
-		""
-		"Left: &6Upgrade Tab&r to install &6Backpack Upgrades&r for special functions."
-		""
-		"Right: &6Backpack Settings&r to configure special functions."
-		""
-		"{@pagebreak}"
-		"&9&lIngenious Storage:&r"
-		""
-		"Barrels have larger storage and more functions."
-		""
-		"Greatly reduces storage network footprint,"
-		""
-		"At max upgrade, a single barrel can solve everything."
-	]
-	quest.21E6DAFDF89BABEF.quest_subtitle: "Too much stuff? This chapter solves your problem!"
-	quest.21E6DAFDF89BABEF.title: "Side Quest: Backpack and Storage"
 	quest.21F9F82D260D81BD.quest_desc: [
 		"On my journey, I saw a serpentine giant trapped in a decorated 'courtyard.' I picked up a worn feather, ignoring the green scales."
 		"These green scales contained the magic property I needed to break curses, but too weak. I needed to kill the serpentine giant directly to obtain fresher samples."
@@ -1955,8 +1912,6 @@
 	]
 	quest.34F81E5815B0AB4B.quest_subtitle: "Magician's Proving Grounds"
 	quest.34F81E5815B0AB4B.title: "Ancient Battlefield"
-	quest.3510A0C79536CCF4.quest_desc: ["&6Blank Upgrade &ris used to craft various backpack upgrades."]
-	quest.3510A0C79536CCF4.title: "Blank Upgrade"
 	quest.354B2616B210E3AB.quest_desc: [
 		"&aObjective: Obtain Ice Dragon Blood"
 		""
@@ -3028,8 +2983,6 @@
 		"&6Main Quest &3【The Undergarden】 &6completion reward."
 		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
 	]
-	quest.548BF20DEC6FAA3B.quest_desc: ["&6Upgrade Base &ris used to craft various storage upgrades."]
-	quest.548BF20DEC6FAA3B.title: "Upgrade Base"
 	quest.549E269DFE9CCCBA.title: "Aether Dragon Soul"
 	quest.54A9EA09DB80D187.title: "Trinkets T0"
 	quest.55C69AD6F42A1ADA.quest_subtitle: "Cream Mint"
@@ -3562,15 +3515,6 @@
 		"&eGuild Knights &6can disable dragon magic, so be cautious."
 	]
 	quest.69C53D16FB6FCEF5.quest_subtitle: "Defeat the Guild Knight"
-	quest.6A03B959A1B214E6.quest_desc: [
-		"&o&7One \"pack\" in hand, command the land."
-		""
-		"With this, you have upgraded your &2Sophisticated Backpacks &rto the highest level."
-		""
-		"Other features you will need to discover for yourself."
-	]
-	quest.6A03B959A1B214E6.quest_subtitle: "【Sophisticated Backpacks Side Quest Concluded】"
-	quest.6A03B959A1B214E6.title: "Stack Upgrade Ω"
 	quest.6A0A7CA003C79A28.title: "Check-in: Azure Depth"
 	quest.6A1268143ED70C45.quest_desc: [
 		"&l&d「Frostbitten Giant」"
