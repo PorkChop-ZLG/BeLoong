@@ -5,7 +5,7 @@
 	filename: "chatbox"
 	group: "1EFE04C2BB6E0380"
 	icon: {
-		id: "mystias_izakaya:reisen"
+		id: "minecraft:writable_book"
 	}
 	id: "35EB6BC9CDF066E6"
 	images: [
