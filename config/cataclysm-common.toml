@@ -496,9 +496,9 @@
 
 	[mobs.netherite_monstrosity]
 		#Lava bomb Magazine
-		# Default: 15
+		# Default: 3
 		# Range: 0 ~ 20
-		lava_bomb_magazine = 15
+		lava_bomb_magazine = 3
 		#Lava bomb Amount
 		# Default: 3
 		# Range: 1 ~ 1000
