@@ -98,9 +98,9 @@
 			}
 			id: "77457906D3353B69"
 			rewards: [{
-				id: "48A58622D020BB1D"
+				id: "62646F46E68C3A5C"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}]
 			size: 2.0d
 			tasks: [{
@@ -118,9 +118,9 @@
 			}
 			id: "52095C31FABA1ED2"
 			rewards: [{
-				id: "00EFACAE40BF63F7"
+				id: "4B8C50EC99ED558B"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}]
 			size: 2.0d
 			tasks: [{
@@ -156,9 +156,9 @@
 			}
 			id: "067FBF1E5A9167E0"
 			rewards: [{
-				id: "508B46600220EF15"
+				id: "4B27A997C7500529"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}]
 			size: 2.0d
 			tasks: [{
