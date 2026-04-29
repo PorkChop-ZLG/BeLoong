@@ -160,6 +160,7 @@ config/fsweep-server.properties
 !config/ftbessentials.snbt
 !config/ftblibrary-client.snbt
 !config/ftbquests-client.snbt
+!config/ftbteams-server.snbt
 !config/ftbultimine-client.snbt
 !config/ftbultimine-server.snbt
 !config/ftbxmodcompat.snbt

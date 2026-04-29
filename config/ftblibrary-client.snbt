@@ -15,7 +15,7 @@
 			}
 			"ftbquests:quests": {
 				enabled: true
-				x: 2
+				x: 3
 				y: 1
 			}
 			"ftbchunks:chunks": {
@@ -37,6 +37,11 @@
 				enabled: false
 				x: -1
 				y: -1
+			}
+			"ftbteams:team_lives": {
+				enabled: true
+				x: 2
+				y: 1
 			}
 			"ftblibrary:toggle/gamemode": {
 				enabled: true
