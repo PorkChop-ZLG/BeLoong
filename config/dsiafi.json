@@ -1,0 +1,46 @@
+{
+  "iceandfire:dragonarmor_iron_head": 3,
+  "iceandfire:dragonarmor_iron_neck": 7,
+  "iceandfire:dragonarmor_iron_body": 9,
+  "iceandfire:dragonarmor_iron_tail": 3,
+
+  "iceandfire:dragonarmor_copper_head": 3,
+  "iceandfire:dragonarmor_copper_neck": 4,
+  "iceandfire:dragonarmor_copper_body": 6,
+  "iceandfire:dragonarmor_copper_tail": 1,
+
+  "iceandfire:dragonarmor_silver_head": 3,
+  "iceandfire:dragonarmor_silver_neck": 6,
+  "iceandfire:dragonarmor_silver_body": 7,
+  "iceandfire:dragonarmor_silver_tail": 1,
+
+  "iceandfire:dragonarmor_gold_head": 3,
+  "iceandfire:dragonarmor_gold_neck": 4,
+  "iceandfire:dragonarmor_gold_body": 7,
+  "iceandfire:dragonarmor_gold_tail": 1,
+
+  "iceandfire:dragonarmor_diamond_head": 4,
+  "iceandfire:dragonarmor_diamond_neck": 9,
+  "iceandfire:dragonarmor_diamond_body": 12,
+  "iceandfire:dragonarmor_diamond_tail": 4,
+
+  "iceandfire:dragonarmor_netherite_head": 4,
+  "iceandfire:dragonarmor_netherite_neck": 9,
+  "iceandfire:dragonarmor_netherite_body": 12,
+  "iceandfire:dragonarmor_netherite_tail": 4,
+
+  "iceandfire:dragonarmor_dragon_steel_fire_head": 10,
+  "iceandfire:dragonarmor_dragon_steel_fire_neck": 13,
+  "iceandfire:dragonarmor_dragon_steel_fire_body": 18,
+  "iceandfire:dragonarmor_dragon_steel_fire_tail": 9,
+
+  "iceandfire:dragonarmor_dragon_steel_ice_head": 10,
+  "iceandfire:dragonarmor_dragon_steel_ice_neck": 13,
+  "iceandfire:dragonarmor_dragon_steel_ice_body": 18,
+  "iceandfire:dragonarmor_dragon_steel_ice_tail": 9,
+
+  "iceandfire:dragonarmor_dragon_steel_lightning_head": 10,
+  "iceandfire:dragonarmor_dragon_steel_lightning_neck": 13,
+  "iceandfire:dragonarmor_dragon_steel_lightning_body": 18,
+  "iceandfire:dragonarmor_dragon_steel_lightning_tail": 9
+}

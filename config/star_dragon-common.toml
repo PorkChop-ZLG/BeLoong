@@ -1,0 +1,5 @@
+[skills]
+	#Base damage for Black Hole skill
+	# Default: 6.0
+	# Range: 1.0 ~ 20.0
+	blackHoleBaseDamage = 6.0

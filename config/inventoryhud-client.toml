@@ -1,0 +1,249 @@
+#Settings for Inventory HUD
+[inventoryhud]
+	#Inventory HUD mini mode
+	invMini = false
+	#Inventory HUD vertical mode
+	invVert = false
+	#Inventory HUD alpha
+	# Default: 0
+	# Range: 0 ~ 100
+	invAlpha = 0
+	#Toggle on by default
+	byDefault = false
+	#Animate recently picked up items
+	animatedInv = false
+	#Hide background if inventory is empty
+	hideBackground = false
+	#Show Inventory HUD when debug menu is open
+	invWithDebug = true
+
+#Settings for ArmorStatus HUD
+[armorhud]
+	#Is Armor Damage HUD enabled
+	ArmorDamage = true
+	#Hide if durability is above this (in percentage):
+	# Default: 100
+	# Range: 0 ~ 100
+	armAbove = 100
+	#Show/Hide armor
+	showArmor = true
+	#Show/Hide armor
+	showMain = true
+	#Show/Hide armor
+	showOff = true
+	#Show/Hide armor
+	showArrows = false
+	#Show/Hide armor
+	showInv = true
+	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
+	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
+	armView = "DAMAGE_LEFT"
+	#Show item durability bar
+	armBars = false
+	#Move all items at once or each one
+	moveAll = false
+	#Show/Hide empty slot icon
+	showEmpty = false
+	#Show overall count of items in main/off hand
+	showCount = true
+	#ArmorHUD scale in persentage from 50 to 150
+	# Default: 100
+	# Range: 50 ~ 150
+	armScale = 75
+	#Show Armor HUD when debug menu is open
+	armWithDebug = true
+	#Show arrows count when no weapon in your hands
+	showArrowsWithoutWeapon = true
+
+#Settings for Potions HUD
+[potionshud]
+	#Is Potions HUD enabled
+	Potions = true
+	#Potion HUD alpha
+	# Default: 100
+	# Range: 0 ~ 100
+	potAlpha = 100
+	#Potion HUD gap
+	# Default: 0
+	# Range: -5 ~ 5
+	potGap = 0
+	#Potion HUD mini mode
+	potMini = false
+	#Potion HUD horizontal mode
+	potHor = false
+	#Full bar duration
+	# Default: 300
+	# Range: > 1
+	barDuration = 300
+	#Show hidden effects
+	showHiddenEffects = true
+	#Disable icons for effects in this list
+	effectsBlackList = []
+	#Show Potion HUD when debug menu is open
+	potWithDebug = true
+	#Show all levels of effects
+	potionLevels = true
+
+#DONT TOUCH THESE FIELDS!
+[positions]
+	#Inventory HUD vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	invValign = "BOTTOM"
+	#Inventory HUD horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	invHalign = "MIDDLE"
+	#Inventory HUD position (X)
+	# Default: 0
+	# Range: -9999 ~ 9999
+	xPos = 0
+	#Inventory HUD position (Y)
+	# Default: 150
+	# Range: -9999 ~ 9999
+	yPos = 112
+	#Armor HUD vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	armValign = "BOTTOM"
+	#Armor HUD horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	armHalign = "MIDDLE"
+	#Armor HUD position (X)
+	# Default: 0
+	# Range: -9999 ~ 9999
+	xArmPos = 0
+	#Armor HUD position (Y)
+	# Default: 70
+	# Range: -9999 ~ 9999
+	yArmPos = 94
+	#Potion HUD vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	potValign = "CENTER"
+	#Potion HUD horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	potHalign = "RIGHT"
+	#Potion HUD position (X)
+	# Default: 20
+	# Range: -9999 ~ 9999
+	xPotionPos = 60
+	#Potion HUD position (Y)
+	# Default: 20
+	# Range: -9999 ~ 9999
+	yPotionPos = 38
+	#Helmet position (X)
+	# Default: 103
+	# Range: -9999 ~ 9999
+	helmPosX = 187
+	#Helmet position (Y)
+	# Default: 54
+	# Range: -9999 ~ 9999
+	helmPosY = 26
+	#Chestplate position (X)
+	# Default: 103
+	# Range: -9999 ~ 9999
+	chestPosX = 187
+	#Chestplate position (Y)
+	# Default: 37
+	# Range: -9999 ~ 9999
+	chestPosY = 13
+	#Leggings position (X)
+	# Default: -103
+	# Range: -9999 ~ 9999
+	legPosX = 202
+	#Leggings position (Y)
+	# Default: 54
+	# Range: -9999 ~ 9999
+	legPosY = 26
+	#Boots position (X)
+	# Default: -103
+	# Range: -9999 ~ 9999
+	bootPosX = 202
+	#Boots position (Y)
+	# Default: 37
+	# Range: -9999 ~ 9999
+	bootPosY = 14
+	#MainHand position (X)
+	# Default: 103
+	# Range: -9999 ~ 9999
+	mainPosX = 202
+	#MainHand position (Y)
+	# Default: 71
+	# Range: -9999 ~ 9999
+	mainPosY = 39
+	#OffHand position (X)
+	# Default: -103
+	# Range: -9999 ~ 9999
+	offPosX = 187
+	#OffHand position (Y)
+	# Default: 71
+	# Range: -9999 ~ 9999
+	offPosY = 39
+	#Arrows position (X)
+	# Default: 103
+	# Range: -9999 ~ 9999
+	arrPosX = 13
+	#Arrows position (Y)
+	# Default: 20
+	# Range: -9999 ~ 9999
+	arrPosY = 27
+	#InvIcon position (X)
+	# Default: -103
+	# Range: -9999 ~ 9999
+	invPosX = 0
+	#InvIcon position (Y)
+	# Default: 20
+	# Range: -9999 ~ 9999
+	invPosY = 27
+	#Helmet horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	helmHal = "LEFT"
+	#Helmet vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	helmVal = "BOTTOM"
+	#Chestplate horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	chestHal = "LEFT"
+	#Chestplate vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	chestVal = "BOTTOM"
+	#Leggings horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	legHal = "RIGHT"
+	#Leggings vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	legVal = "BOTTOM"
+	#Boots horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	bootHal = "RIGHT"
+	#Boots vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	bootVal = "BOTTOM"
+	#MainHand horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	mainHal = "RIGHT"
+	#MainHand vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	mainVal = "BOTTOM"
+	#OffHand horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	offHal = "LEFT"
+	#OffHand vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	offVal = "BOTTOM"
+	#Arrows horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	arrHal = "LEFT"
+	#Arrows vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	arrVal = "BOTTOM"
+	#InvIcon horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	invHal = "LEFT"
+	#InvIcon vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	invVal = "BOTTOM"
+
+#Notification settings
+[notification]
+	#Last notified mod version
+	lastNotifiedVersion = "3.4.28"
+	#Notify more than once
+	keepNotifying = false

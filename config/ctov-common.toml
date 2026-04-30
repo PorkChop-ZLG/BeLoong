@@ -1,0 +1,33 @@
+#Structure spawning
+[structures]
+	#Should CTOV small village generates?
+	generatesmallVillage = true
+	#Should CTOV medium village generates?
+	generatemediumVillage = true
+	#Should CTOV large village generates?
+	generatelargeVillage = true
+	#Should CTOV Pillager Outpost generates?
+	generatePillagerOutpost = true
+	#Which villages should generate
+	enabledVillages = ["beach", "christmas", "desert", "desert_oasis", "dark_forest", "jungle", "jungle_tree", "mesa", "mesa_fortified", "mountain", "mountain_alpine", "mushroom", "plains", "plains_fortified", "savanna", "savanna_na", "snowy_igloo", "swamp", "swamp_fortified", "taiga", "taiga_fortified"]
+	#Which pillager outpost should generates
+	enabledpillageroutpost = ["beach", "dark_forest", "desert", "jungle", "badlands", "mountain", "plains", "savanna", "snowy", "swamp", "taiga"]
+
+#Structure spawning frequency
+[weights]
+	#CTOV small village spawn chances
+	# Default: 10
+	# Range: > 0
+	smallVillageWeight = 10
+	#CTOV medium village spawn chance
+	# Default: 4
+	# Range: > 0
+	mediumVillageWeight = 4
+	#CTOV large village spawn chance
+	# Default: 1
+	# Range: > 0
+	largeVillageWeight = 1
+	#CTOV Pillager Outpost spawn chance
+	# Default: 1
+	# Range: > 0
+	PillagerOutpostWeight = 1

@@ -1,0 +1,18 @@
+#Serverside Configurations
+[Spells]
+	#The limit of damage Impermanence's Verdict spell can reach based on target's max health. Default: 0.2 (20% target's max health)
+	impermanencePercentLimit = 0.2
+	#Allow player to use counterspell on extracted soul to skip the challenging. Default: false
+	passChallenging = false
+
+[Effects]
+	#The maximum amount of damage soulburn effect can reach to. Default: 10.0
+	maxSoulburnDamage = 10.0
+	#The percent amount of damage soulburn effect dealt based on target's max health. Default: 5 (5% of target's max health)
+	soulburnDamageScaling = 5
+
+[Weapons]
+	#Allow damage cap working on Spirit Crusher. Default: false
+	allowSpiritCrusherDamageCap = false
+	#The amount of the damage cap. Default: 30.0
+	spiritCrusherDamageCapAmount = 30.0

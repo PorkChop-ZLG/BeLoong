@@ -1,0 +1,89 @@
+MaxEntityEntities = 128
+qualityModes = "NORMAL"
+RenderWeather = "NORMAL"
+FastItemRender = true
+RenderDisplayItem = false
+blackListedEntities = []
+whiteListedEntities = ["fdbosses:block_projectile", "fdbosses:chesed", "fdbosses:chesed_boss_spawner", "fdbosses:geburah", "fdbosses:geburah_boss_spawner", "fdbosses:malkuth", "fdbosses:malkuth_boss_spawner", "fdbosses:chesed_crystal", "fdbosses:chesed_monolith", "fdbosses:chesed_ray_reflector", "fdbosses:malkuth_cannon", "fdbosses:malkuth_repair_crystal", "terra_entity:hornet", "terra_entity:man_eater", "terra_entity:snatcher", "iceandfire:lightning_dragon", "iceandfire:hydra", "iceandfire:fire_dragon", "iceandfire:ice_dragon", "minecraft:allay", "eternal_starlight:tiny_creteor", "terra_entity:brain_of_cthulhu", "terra_entity:eater_of_world", "terra_entity:cthulhu_eye", "terra_entity:king_slime", "terra_entity:antlion_swarmer", "terra_entity:harpy", "terra_entity:devourer", "terra_entity:decayeder", "terra_entity:tomb_crawler", "terra_entity:undead_viking", "terra_entity:anger_bones", "terra_entity:wall_of_flesh", "terra_entity:dungeon_guardian", "eternal_starlight:creteor", "terra_entity:blood_crawler", "eternal_starlight:crystallized_moth", "terra_entity:flying_fish", "iceandfire:amphithere", "terra_entity:giant_antlion", "terra_entity:giant_worm", "terra_entity:bloody_spore", "terra_entity:hell_bat", "terra_entity:queen_bee", "terra_entity:skeletron", "iceandfire:dragon_multipart", "iceandfire:multipart", "iceandfire:hydra_multipart", "iceandfire:cylcops_multipart", "iceandfire:dragon_egg", "iceandfire:dragon_skull", "iceandfire:fire_dragon_charge", "iceandfire:ice_dragon_charge", "iceandfire:lightning_dragon_charge", "iceandfire:hippogryph_egg", "iceandfire:hippogryph", "iceandfire:stone_statue", "iceandfire:pixie", "iceandfire:cyclops", "iceandfire:deathworm", "iceandfire:deathworm_egg", "iceandfire:hippocampus", "iceandfire:siren", "iceandfire:gorgon", "iceandfire:cockatrice_egg", "iceandfire:cockatrice", "iceandfire:stymphalian_arrow", "iceandfire:stymphalian_feather", "iceandfire:stymphalian_bird", "iceandfire:troll", "iceandfire:amphithere_arrow", "iceandfire:sea_serpent", "iceandfire:sea_serpent_bubbles", "iceandfire:sea_serpent_arrow", "iceandfire:chain_tie", "iceandfire:pixie_charge", "iceandfire:tide_trident", "iceandfire:ghost_sword", "iceandfire:ghost", "iceandfire:hydra_arrow", "iceandfire:hydra_breath", "iceandfire:dread_horse", "iceandfire:dread_knight", "iceandfire:dread_lich_skull", "iceandfire:dread_lich", "iceandfire:dread_scuttler", "iceandfire:dread_beast", "iceandfire:dread_ghoul", "iceandfire:dread_thrall", "iceandfire:mob_skull", "terra_entity:eater_of_worlds", "terra_entity:eater_of_worlds_segment", "terra_entity:eye_of_cthulhu", "terra_entity:crown_of_king_slime_model", "terra_entity:wall_of_flesh_eye", "terra_entity:wall_of_flesh_mouth", "terra_entity:skeletron_hand", "terra_entity:finch_baby", "terra_entity:i_32_iron_golem", "terra_entity:slime_baby"]
+BlackTagListEntity = []
+WhiteTagListEntity = []
+isAlwaysShowItemCount = false
+startTime = 81.045
+Hud = false
+HudRXTX = false
+HudFPS = false
+HudCPU = false
+HudGPU = false
+HudRAM = false
+HudPlayerPos = false
+HudServer = false
+HudCameraTarget = false
+Mood = true
+MaxParticleDistance = 96
+WhiteListedParticle = []
+BlackListedParticle = []
+GuiEasyRamMode = false
+GuiDisplayRamUsage = false
+UseAui = false
+TextBackground = false
+TextureAnimatedSprites = true
+SoundDevicesMonitor = false
+SetParticleMaxAge = true
+ParticleMaxAge = 2
+MinDistance = 5
+EntityDistance = 64
+ParticlePerformance = true
+ParticleCountLimit = 16384
+BlockBreakParticle = true
+AsyncCompute = true
+SoftCull = true
+DynamicEntityBudget = true
+BlackBlockEntities = []
+WhiteBlockEntities = []
+MaxBlockEntityCount = 128
+BlockEntityDistance = 256
+onCull = true
+VisibleCulling = true
+EntityRenderPerformance = false
+CullMode = "COMPATIBILITY"
+ParticleFastCollision = true
+ParticleLazyBrightness = false
+CullBlockEntity = true
+CullEntity = true
+CullParticle = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.fps.info"
+x = 4
+y = 4
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.system.info"
+x = 4
+y = 17
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.playerpos.info"
+x = 4
+y = 30
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.server.info"
+x = 4
+y = 43
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.cameratarget.info"
+x = 4
+y = 56
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.rtxt.info"
+x = 4
+y = 69
+enabled = false

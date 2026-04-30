@@ -1,0 +1,9 @@
+[config]
+	# Default: 10
+	# Range: > 1
+	historical_scroll_speed = 10
+	sound_interruption_enabled = true
+	# Default: 20
+	# Range: > 1
+	char_per_second = 20
+	is_stop_terra_dialog = false
