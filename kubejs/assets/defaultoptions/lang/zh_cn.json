@@ -1,0 +1,6 @@
+{
+  "defaultoptions.configuration.defaultDifficulty": "默认难度",
+  "defaultoptions.configuration.defaultDifficulty.tooltip": "为新创建的世界选择的默认难度。",
+  "defaultoptions.configuration.lockDifficulty": "锁定难度",
+  "defaultoptions.configuration.lockDifficulty.tooltip": "若设为 true，新世界的难度将被锁定为指定的默认值。玩家不使用外部工具将无法解锁！这可能是个坏主意。我不推荐。我为什么要加这个选项？"
+}
