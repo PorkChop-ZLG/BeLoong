@@ -43,8 +43,14 @@ kubejs/spyglass.json
 # ---- 仅追踪部分 config ----
 # 以下配置文件会实时更新，所以忽略
 config/asyncparticles/asyncparticles-mixin.properties
+config/fabric/indigo-renderer.properties
+config/worldedit/worldedit.properties
+
 config/fsweep.properties
 config/fsweep-server.properties
+config/ftbchunks-client.snbt
+config/iris.properties
+config/packetfixer.properties
 
 # ---- 忽略的文件扩展名 ----
 .probe
