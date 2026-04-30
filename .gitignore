@@ -81,8 +81,6 @@ config/fsweep-server.properties
 !config/MiniMOTD/**
 !config/ModernUI/
 !config/ModernUI/**
-!config/mystiasizakaya/
-!config/mystiasizakaya/**
 !config/nerb/
 !config/nerb/**
 !config/paxi/
@@ -99,6 +97,8 @@ config/fsweep-server.properties
 !config/touhou_little_maid/**
 !config/voicechat/
 !config/voicechat/**
+!config/xaero/
+!config/xaero/**
 !config/voicecastaddon/client_settings.json
 !config/voicecastaddon/server_settings.json
 # 取消忽略的文件
@@ -230,6 +230,8 @@ config/fsweep-server.properties
 !config/wands.json
 !config/waystones-common.toml
 !config/winefoxs_spellbooks-common.toml
+!config/xaerohud.txt
+!config/xaeropatreon.txt
 !config/xfws_someitems-server.toml
 !config/yes_steve_model-client.toml
 !config/yes_steve_model-server.toml
