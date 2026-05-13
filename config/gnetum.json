@@ -1,0 +1,458 @@
+{
+  "enabled": {
+    "value": "ON"
+  },
+  "showHudFps": {
+    "value": "ON"
+  },
+  "downscale": {
+    "value": "OFF"
+  },
+  "numberOfPasses": 3,
+  "maxFps": 60,
+  "screenMaxFps": 20,
+  "mapVanillaElements": {
+    "minecraft:spectator_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "l2itemselector:tool_select": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:offhand_attack_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "twilightforest:portal_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "patchouli:multiblock_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eternal_starlight:portal": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:subtitle_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eternal_starlight:orb_of_prophecy_use": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:jump_meter": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "fdbosses:electrified": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "naturescompass:natures_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:scoreboard_sidebar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "melodymagic:record_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:ether_erosion": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "artifacts:artifact_cooldowns": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "terra_curio:diving_helmet": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "undergarden:utheric_infection_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum:minecraft_hand": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:screen_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "travelerstitles:overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "xaerohud:hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:experience_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:saving_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "fdlib:shattered_screen": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:title": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "touhou_little_maid:tlm_broom_tips": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdbosses:geburah_sin_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdbosses:malkuth_weakness": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "melodymagic:dance_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "touhou_little_maid:tlm_show_power": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdlib:screen_effect": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:selected_item_name": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "alshanex_familiars:monocle_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "xaeroworldmap:crosshair_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:carved_lunaris_cactus_fruit_blur": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:overlay_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:screen_effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "touhou_little_maid:tlm_maid_tips": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:current_crest": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "melodymagic:select_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eternal_starlight:dream_catcher": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "shouldersurfing:pre_crosshair": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdlib:boss_bars": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "pick_color:yuushya_modelling": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:sleep_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "biomeswevegone:textures/misc/palepumpkinblur.png": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:experience_level": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "irons_spellbooks:cast_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "undergarden:utheric_infection_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:spell_wheel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:boss_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "twilightforest:quest_ram_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "shouldersurfing:post_crosshair": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdbosses:chesed_item_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "terra_curio:info_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum:status_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "twilightforest:ore_meter_stats": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "explorerscompass:explorers_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eternal_starlight:spell_crosshair": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "undergarden:undergarden_portal_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "damage_number:damage_number": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "patchouli:book_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:tab_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minopp:game_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:chat": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  },
+  "mapModdedElementsPre": {
+    "block_factorys_bosses": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sodiumextras": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "chatbox": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    }
+  },
+  "mapModdedElementsPost": {
+    "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "jade": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  }
+}
