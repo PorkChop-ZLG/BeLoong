@@ -33,6 +33,26 @@
     "ref_audio_path": "",
     "text_split_method": "cut1"
   },
+  "minimax": {
+    "id": "minimax",
+    "api_type": "minimax",
+    "enabled": false,
+    "icon": "touhou_little_maid:textures/gui/ai_chat/minimax.png",
+    "url": "https://api.minimaxi.com/v1/t2a_v2",
+    "secret_key": "",
+    "headers": {},
+    "site_model": "speech-2.8-turbo",
+    "models": {
+      "Chinese (Mandarin)_BashfulGirl": "Bashful (CN)",
+      "Chinese (Mandarin)_Mature_Woman": "Mature (CN)",
+      "Chinese (Mandarin)_Warm_Girl": "Warm (CN)",
+      "English_PlayfulGirl": "Playful (EN)",
+      "English_Soft-spokenGirl": "Soft (EN)",
+      "Japanese_DecisivePrincess": "Decisive (JP)",
+      "Japanese_DependableWoman": "Dependable (JP)",
+      "Japanese_obedient_girl_vv1": "Obedient (JP)"
+    }
+  },
   "player2": {
     "id": "player2",
     "api_type": "player2",

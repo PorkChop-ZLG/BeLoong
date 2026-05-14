@@ -18,6 +18,18 @@
 	OriginalMaidLyricsColor = "#FFAAAAAA"
 	#The color of the translated lyrics for the maid, in #ARGB format
 	TranslatedMaidLyricsColor = "#FF000000"
+	#Maximum configurable broadcast range for the big megaphone
+	# Default: 96
+	# Range: 1 ~ 256
+	BigMegaphoneMaxRange = 96
+	#Server scan interval for big megaphone audience refresh in ticks
+	# Default: 200
+	# Range: 1 ~ 1200
+	BigMegaphoneScanInterval = 200
+	#Maximum number of simultaneous big megaphone broadcasts a client will actively play
+	# Default: 3
+	# Range: 1 ~ 16
+	BigMegaphoneClientActiveLimit = 3
 
 [sophisticated_backpacks]
 	#Whether NetMusic CDs can generate inside mob backpacks

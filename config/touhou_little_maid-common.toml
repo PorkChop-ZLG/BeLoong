@@ -181,25 +181,10 @@
 	STTProxyAddress = ""
 	#Whether or not to enable the AI LLM feature
 	LLMEnabled = true
-	#LLM temperature, the higher this value, the more random the output will be
-	# Default: 0.7
-	# Range: 0.0 ~ 2.0
-	LLMTemperature = 0.7
-	#Whether to enable the function call function?
-	#The maid will be able to interact with the game after it is enabled, but it will increase the amount of token used
-	FunctionCallEnable = false
 	#Whether to automatically generate the maid's settings
 	AutoGenSettingEnabled = true
 	#LLM AI Proxy Address, such as 127.0.0.1:1080, empty is no proxy, SOCKS proxies are not supported
 	LLMProxyAddress = ""
-	#The maximum token supported by the LLM AI
-	# Default: 4096
-	# Range: > 1
-	LLMMaxToken = 4096
-	#The maximum historical conversation length cached by the maid
-	# Default: 16
-	# Range: 1 ~ 128
-	MaidMaxHistoryLLMSize = 16
 	#The maximum tokens that a player can use
 	# Default: 2147483647
 	# Range: > 1
@@ -207,7 +192,7 @@
 	#Whether or not to enable the STT feature
 	STTEnabled = true
 	#STT Type, currently support player2 app or aliyun
-	#Allowed Values: PLAYER2, ALIYUN, SILICONFLOW
+	#Allowed Values: PLAYER2, ALIYUN, SILICONFLOW, TENCENT
 	STTType = "PLAYER2"
 	#The name of the microphone device, empty is default
 	STTMicrophone = "主声音捕获驱动程序"
@@ -215,6 +200,10 @@
 	# Default: 12
 	# Range: 1 ~ 256
 	MaidCanChatDistance = 12
+	#Compress the maid's LLM chat history before the next player message when the previous chat request reaches this token count, in K tokens (1K = 1024 tokens)
+	# Default: 48
+	# Range: 8 ~ 1024
+	MaidHistoryCompressTokenLimit = 48
 
 [render]
 	EnableCompassTip = true
