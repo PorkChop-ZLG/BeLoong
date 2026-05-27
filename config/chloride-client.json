@@ -35,7 +35,7 @@
   "darknessAffectedByMoonPhase": true,
   "darknessNewMoonBright": 0.0,
   "darknessFullMoonBright": 0.25,
-  "hideJREMI": true,
+  "hideJREMI": false,
   "hideJREMIHint": false,
   "fontShadows": true,
   "leavesCulling": "OFF",
