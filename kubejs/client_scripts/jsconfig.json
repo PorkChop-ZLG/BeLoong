@@ -1,32 +1,44 @@
 {
     "compilerOptions": {
-        "module": "none",
-        "target": "ES2015",
-        "lib": [
-            "ES5",
-            "ES2015",
-            "ES2016.Array.Include",
-            "ES2017.Object"
-        ],
-        "rootDir": ".",
-        "typeRoots": [
-            "../../.probe/client/probe-types",
-            "../../.probe/packages",
-            "../../.probe/client"
-        ],
-        "baseUrl": "../../.probe/packages",
-        "skipLibCheck": true,
-        "moduleResolution": "node",
-        "allowJs": true,
+        "plugins": [],
         "checkJs": false,
-        "disableSizeLimit": true,
-        "noEmit": true,
-        "assumeChangesOnlyAffectDirectDependencies": true,
-        "skipDefaultLibCheck": true
+        // Fully TS-compatible typing generation is not possible,
+        // but turning off skipLibCheck can help debugging
+        "skipLibCheck": true,
+        "target": "ES2022",
+        "lib": [
+            "ES2022"
+        ],
+        "module": "commonjs",
+        "paths": {
+            "@package": [
+                "../../.probe/@package"
+            ],
+            "@package/*": [
+                "../../.probe/@package/*"
+            ],
+            "@side-only/client": [
+                "../../.probe/@side-only/client"
+            ],
+            "@side-only/client/*": [
+                "../../.probe/@side-only/client/*"
+            ],
+            "@special": [
+                "../../.probe/@special"
+            ],
+            "@special/*": [
+                "../../.probe/@special/*"
+            ]
+        },
+    },
+    "typeAcquisition": {
+        "enable": false
     },
     "include": [
         "./**/*.js",
-        "./**/*.ts",
-        null
+        "./**/*.d.ts",
+        "../../.probe/@package/**/*.d.ts",
+        "../../.probe/@side-only/client/**/*.d.ts",
+        "../../.probe/@special/**/*.d.ts"
     ]
 }

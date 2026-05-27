@@ -1,5 +1,6 @@
 # ---- GitHub 忽略文件夹 ----
 .git/
+.github/
 .mixin.out/
 .probe/
 .vscode/
