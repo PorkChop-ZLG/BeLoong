@@ -7,3 +7,6 @@
 	# Range: > 1
 	char_per_second = 20
 	is_stop_terra_dialog = false
+	# Default: 100
+	# Range: 1 ~ 200
+	portrait_width_percent = 100
