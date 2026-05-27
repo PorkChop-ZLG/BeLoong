@@ -86,6 +86,9 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "beyonddimensions": {
+    "net_info": true
+  },
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
