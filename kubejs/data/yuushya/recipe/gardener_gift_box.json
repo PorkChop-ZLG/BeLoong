@@ -7,11 +7,11 @@
   ],
   "key": {
     "B": {
-      "tag": "c:grass"
-    },    
-	"X": {
+      "item": "minecraft:short_grass"
+    },
+    "X": {
       "item": "yuushya:plain_gift_box"
     }
   },
-  "result":{ "id": "yuushya:gardener_gift_box","count":1}
+  "result": { "id": "yuushya:gardener_gift_box", "count": 1 }
 }
