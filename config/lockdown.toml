@@ -24,7 +24,7 @@
 	login_spawn_teleport_enabled = true
 	#Configured spawn target in the format dimension_id;x;y;z;yaw;pitch, for example minecraft:overworld;0.5;64.0;0.5;0.0;0.0.
 	#配置出生点的格式为 dimension_id;x;y;z;yaw;pitch,例如 minecraft:overworld;0.5;64.0;0.5;0.0;0.0.
-	login_spawn_target = "beloong:loong_palace;0.5;64.0;0.5;0.0;0.0"
+	login_spawn_target = "beloong:loong_palace;0.5;64.0;0.5;180.0;0.0"
 
 [world_creation_menu_settings]
 	#Whether to display world settings
