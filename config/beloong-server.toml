@@ -1,0 +1,53 @@
+[dimension_transport]
+	#玩家 Y 坐标检查间隔（ticks），默认 20 = 每秒一次
+	# Default: 20
+	# Range: 1 ~ 1200
+	checkIntervalTicks = 20
+	#传送后冷却时间（ticks），防止循环传送
+	# Default: 100
+	# Range: 0 ~ 72000
+	cooldownTicks = 100
+
+	[dimension_transport.overworldToLoongPalace]
+		#是否启用 主世界 → 龙宫 的传送
+		enabled = true
+		#触发传送的 Y 轴高度（玩家 Y > 此值时传送）
+		# Default: 8848
+		# Range: -4064 ~ 100000
+		triggerY = 8848
+		#目标维度 ID
+		targetDimension = "beloong:loong_palace"
+		#目标固定 X 坐标
+		# Default: 0.0
+		# Range: -3.0E7 ~ 3.0E7
+		targetX = 0.5
+		#目标固定 Z 坐标
+		# Default: 0.0
+		# Range: -3.0E7 ~ 3.0E7
+		targetZ = 0.5
+		#高度图查找失败时的回退 Y 坐标
+		# Default: 64.0
+		# Range: -2032.0 ~ 2032.0
+		fallbackY = 64.5
+
+	[dimension_transport.loongPalaceToOverworld]
+		#是否启用 龙宫 → 主世界 的传送
+		enabled = true
+		#触发传送的 Y 轴高度（玩家 Y < 此值时传送）
+		# Default: 0
+		# Range: -2032 ~ 2032
+		triggerY = 0
+		#目标维度 ID
+		targetDimension = "minecraft:overworld"
+		#目标固定 X 坐标
+		# Default: 0.0
+		# Range: -3.0E7 ~ 3.0E7
+		targetX = 0.5
+		#目标固定 Z 坐标
+		# Default: 0.0
+		# Range: -3.0E7 ~ 3.0E7
+		targetZ = 0.5
+		#高度图查找失败时的回退 Y 坐标
+		# Default: 64.0
+		# Range: -2032.0 ~ 2032.0
+		fallbackY = 64.5
