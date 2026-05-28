@@ -18,15 +18,15 @@
 		#目标维度 ID
 		targetDimension = "beloong:loong_palace"
 		#目标固定 X 坐标
-		# Default: 0.0
+		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetX = 0.5
 		#目标固定 Z 坐标
-		# Default: 0.0
+		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetZ = 0.5
 		#高度图查找失败时的回退 Y 坐标
-		# Default: 64.0
+		# Default: 64.5
 		# Range: -2032.0 ~ 2032.0
 		fallbackY = 64.5
 
@@ -40,14 +40,14 @@
 		#目标维度 ID
 		targetDimension = "minecraft:overworld"
 		#目标固定 X 坐标
-		# Default: 0.0
+		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetX = 0.5
 		#目标固定 Z 坐标
-		# Default: 0.0
+		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetZ = 0.5
 		#高度图查找失败时的回退 Y 坐标
-		# Default: 64.0
+		# Default: 64.5
 		# Range: -2032.0 ~ 2032.0
 		fallbackY = 64.5
