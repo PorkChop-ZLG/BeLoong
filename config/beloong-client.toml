@@ -1,0 +1,4 @@
+#修复发光效果导致身体透明
+fixGlowingItemInvisibility = true
+#修复稳定悬浮漂移
+fixStableHoverDrift = true
