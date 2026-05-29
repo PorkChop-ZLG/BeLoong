@@ -1,3 +1,31 @@
+[treasure_growth]
+	#是否启用财宝堆成长加速
+	enabled = true
+	#财宝方块权重，格式: modid:block_id=weight
+	#未列出的方块默认权重 1.0
+	#内置默认: debris=5, diamond=4, emerald=3, gold=2, iron=1, copper=0.5
+	treasureWeights = ["dragonsurvival:copper_dragon_treasure=0.5", "dragonsurvival:iron_dragon_treasure=1.0", "dragonsurvival:gold_dragon_treasure=2.0", "dragonsurvival:emerald_dragon_treasure=3.0", "dragonsurvival:diamond_dragon_treasure=4.0", "dragonsurvival:debris_dragon_treasure=5.0"]
+	#最大财宝价值上限，超出部分不再计入
+	# Default: 9800
+	# Range: > 1
+	maxTreasureValue = 9800
+	#每多少财宝价值提升 1 级效果等级
+	# Default: 100
+	# Range: 1 ~ 10000
+	amplifierStep = 100
+	#最大效果等级（0-255）
+	# Default: 255
+	# Range: 0 ~ 255
+	maxAmplifier = 255
+	#效果持续时间（ticks），需大于检查间隔确保不闪烁
+	# Default: 40
+	# Range: 20 ~ 6000
+	effectDurationTicks = 40
+	#财宝价值检查间隔（ticks），默认 20 = 每秒一次
+	# Default: 20
+	# Range: 1 ~ 1200
+	checkIntervalTicks = 20
+
 [dimension_transport]
 	#玩家 Y 坐标检查间隔（ticks），默认 20 = 每秒一次
 	# Default: 20

@@ -1,2 +1,4 @@
 #龙之生存FTB区块兼容
 ds_ftbchunks_compat = true
+#移除财宝堆重力下落行为，从根源杜绝刷沙机复制财宝堆
+fixTreasureDuplication = true
