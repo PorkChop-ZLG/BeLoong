@@ -1,0 +1,27 @@
+#Stasis Hex (Ding Shen) Effect Settings
+["Stasis Hex"]
+	#Whether the Ding Shen effect disables dragon active abilities.
+	disableAbilities = true
+	#Whether the Ding Shen effect disables player interaction.
+	disableInteraction = true
+	#The chance per tick to randomly close the player's container GUI when affected by Ding Shen. 0 = never, 100 = always. Does not close the game menu (pause screen).
+	# Default: 1
+	# Range: 0 ~ 100
+	closeGuiChance = 1
+
+#Great Zhengqi Effect Settings
+[great_zhengqi]
+	#Whether Wing Kirin can ignore mana cost under the Great Zhengqi effect.
+	ignoreManaCost = true
+
+#Unstoppable Speed Effect Settings
+[unstoppable_speed]
+	#Whether the Unstoppable Speed effect allows ALL damage types to bypass invulnerability cooldown. If false, only player attack (melee) damage bypasses cooldown.
+	allDamageTypes = false
+	#Whether the Unstoppable Speed effect allows attacks to bypass armor entirely.
+	bypassArmor = false
+
+#Thunderous Shout Settings
+[thunderous_shout]
+	#Whether the Golden Bell will fast hurt durability with every entity hurt.
+	fastDurabilityHurt = false
