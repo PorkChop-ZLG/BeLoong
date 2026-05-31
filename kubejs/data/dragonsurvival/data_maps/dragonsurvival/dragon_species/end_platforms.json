@@ -87,6 +87,15 @@
         200
       ],
       "structure": "dragonsurvival:end_spawn_platforms/star_end_spawn_platform"
+    },
+    "dragonsurvival:wing_kirin": {
+      "spawn_position": [
+        0,
+        200,
+        200
+      ],
+      "structure": "wing_kirin:end_spawn_platforms/end_spawn_platform"
     }
+  }
   }
 }

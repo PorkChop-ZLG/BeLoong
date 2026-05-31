@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "values": [
+        "wing_kirin:stasis_hex",
+        "wing_kirin:uppersky_wind_breath",
+        "wing_kirin:weather_clear",
+        "wing_kirin:empyrean_wine",
+        "wing_kirin:thunderous_shout",
+        "wing_kirin:fall_like_meteorite",
+        "wing_kirin:indestructible_body",
+        "wing_kirin:scale_down",
+        "wing_kirin:reverse_aging",
+        "wing_kirin:empyrean_magic",
+        "wing_kirin:good_overcome_evil",
+        "wing_kirin:born_above_empyrean",
+        "wing_kirin:fly_higher",
+        "wing_kirin:transposition",
+        "wing_kirin:kirin_wing",
+        "wing_kirin:cloudy_spin",
+        "wing_kirin:claws_and_teeth",
+        "wing_kirin:lighter_than_swallow",
+        "wing_kirin:empyrean_favor",
+        "wing_kirin:sonic_boom_immunity",
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller"
+    ]
+}

@@ -231,6 +231,26 @@
         "duration_multiplier": 30,
         "experience_cost": 60
       }
+    },
+    "dragonsurvival:wing_kirin": {
+      "effects": [
+        {
+          "effect": "minecraft:conduit_power",
+          "duration": 400
+        },
+        {
+          "effect": "wing_kirin:great_zhengqi",
+          "duration": 400
+        },
+        {
+          "effect": "dragonsurvival:empowered_soul",
+          "duration": 400
+        }
+      ],
+      "payment_data": {
+        "duration_multiplier": 30,
+        "experience_cost": 60
+      }
     }
   }
 }

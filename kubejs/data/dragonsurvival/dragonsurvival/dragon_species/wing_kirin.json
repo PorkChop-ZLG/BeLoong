@@ -42,157 +42,16 @@
 	],
 	"unlockable_behavior": {
 		"unlock_condition": {
-			"condition": "minecraft:all_of",
-			"terms": [
-				{
-					"condition": "minecraft:weather_check",
-					"thundering": false
-				},
-				{
-					"condition": "minecraft:weather_check",
-					"raining": false
-				},
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"level": {
-								"min": 68
-							},
-							"stats": []
-						},
-						"location": {
-							"position": {
-								"y": {
-									"min": 310
-								}
-							},
-							"dimension": "minecraft:overworld",
-							"can_see_sky": true
-						},
-						"slots": {
-							"weapon.mainhand": {
-								"items": [
-									"minecraft:netherite_block"
-								],
-								"count": {
-									"min": 2
-								}
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:cave/be_old_dragon": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:cave/master_all_passives": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:cave/rock_eater": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:forest/be_old_dragon": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:forest/master_all_passives": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:forest/meat_eater": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:sea/be_old_dragon": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:sea/master_all_passives": true
-							}
-						}
-					}
-				},
-				{
-					"condition": "entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"advancements": {
-								"dragonsurvival:sea/fish_eater": true
-							}
-						}
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type_specific": {
+					"type": "minecraft:player",
+					"advancements": {
+						"minecraft:end/elytra": true
 					}
 				}
-			]
+			}
 		},
 		"visibility": "visible_if_locked"
 	},
