@@ -31,7 +31,7 @@
 "dragon_ability.dragonsurvival.snowdrift.desc": "■ Your attacks inflict §c«Frostbite»§r§7.",
 
 "dragon_ability.dragonsurvival.thick_ice": "Thick Ice",
-"dragon_ability.dragonsurvival.thick_ice.desc": "■ Dampens your vulnerability to impacts, fire, and hot environments.",
+"dragon_ability.dragonsurvival.thick_ice.desc": "■ Dampens your vulnerability to heat and reduces your armor penalty.",
 
 "dragon_ability.dragonsurvival.tundra_magic": "Tundra Magic",
 "dragon_ability.dragonsurvival.tundra_magic.desc": "■ Upgrading this ability increases your §2maximum mana pool§r§7 and allows to restore mana by standing on §fice§r§7 or §fsnow§r§7.\n\n■ §8The more levels you have, the higher your passive mana regeneration.",
@@ -52,18 +52,18 @@
 "dragon_ability.dragonsurvival.tundra_wings.desc": "■ Dragons use §flevitation§r§7 to §2fly§r§7, but are rarely born with that ability.",
 
 
-"dragon_penalty.dragonsurvival.impact_weakness": "Impact Weakness",
-"dragon_penalty.dragonsurvival.impact_weakness.desc": "■ Your icy body is vulnerable to §dbreakage§r§7. You take increased damage from §cFalling, Explosions, Flying into walls, and being crushed by blocks.§r\n\n■ The §2«Thick Ice»§7 skill will help you mitigate this.",
+"dragon_penalty.dragonsurvival.impact_weakness": "Fragile Body",
+"dragon_penalty.dragonsurvival.impact_weakness.desc": "■ Your icy body is §dfragile§r§7. You receive §creduced protection from armor.§r\n\n■ The §2«Thick Ice»§7 skill will help you mitigate this.",
 
-"dragon_penalty.dragonsurvival.melting_point": "Melting Point",
-"dragon_penalty.dragonsurvival.melting_point.desc": "■ Being on fire for too long will soften your skeleton and afflict you with §c«Weakness»§r.\n\n■ The §2«Thick Ice»§7 skill or a §2«Fire Resistance»§7 effect will dampen this penalty.",
+"dragon_penalty.dragonsurvival.melting_point": "Fire Weakness",
+"dragon_penalty.dragonsurvival.melting_point.desc": "■ You take significantly increased damage from §cfire and lava.§r\n\n■ The §2«Thick Ice»§7 skill will reduce this penalty and an §2Infused Ice Crystal§7 or a §2«Fire Resistance»§7 effect will negate it entirely.",
 
-"dragon_penalty.dragonsurvival.heat_weakness": "Heat Weakness",
-"dragon_penalty.dragonsurvival.heat_weakness.desc": "■ Being in a hot environment like a desert or the nether will reduce your resistance to §cdamage§r.\n\n■ The §2«Thick Ice»§7 skill or a §2«Fire Resistance»§7 effect will decrease the magnitude of the vulnerability.",
+"dragon_penalty.dragonsurvival.heat_weakness": "Melting Point",
+"dragon_penalty.dragonsurvival.heat_weakness.desc": "■ Being §cignited§r for too long melts your internal ice crystal network and weakens your magic for 10 seconds.\n\n■ The §2«Thick Ice»§7 skill will increase the time burning before the penalty activates, and an §2Infused Ice Crystal§7 or a §2«Fire Resistance»§7 effect will negate the penalty entirely.",
 
-"dragon_species.dragonsurvival.tundra_dragon.altar.desc": "§7■ §6Tundra Dragons§r§7 are a tough, yet brittle §fspecies§r§7. Their offensive capabilities are immense, and they wield the power of ice to §fimpede§r§7 and §fdestroy§r§7 their foes.\n\n§2■ Features:§f§r§7 sharper claws, ice magic, faster movement on ice and snowy blocks.\n§4■ Weakness:§r§7 brittle bones.\n§6■ Diet:§r %s",
+"dragon_species.dragonsurvival.tundra_dragon.altar.desc": "§7■ §6Tundra Dragons§r§7 are a tough, yet brittle §fspecies§r§7. Their offensive capabilities are immense, and they wield the power of ice to §fimpede§r§7 and §fdestroy§r§7 their foes.\n\n§2■ Features:§f§r§7 sharper claws, ice magic, faster movement on ice and snowy blocks.\n§4■ Weakness:§r§7 fragility, fire.\n§6■ Diet:§r %s",
   
-"dragon_species.dragonsurvival.tundra_dragon.banner.desc": "§7■ §6Tundra Dragons§r§7 are a tough, yet brittle §fspecies§r§7. Their offensive capabilities are immense, and they wield the power of ice to §fimpede§r§7 and §fdestroy§r§7 their foes.\n\n§7■ They can only eat snow and meat, but they can consume it §fraw§r§7 or §fcooked§r§7. Your §ficy skeleton§r§7 is vulnerable to being §cmelted or shattered§r§7.",
+"dragon_species.dragonsurvival.tundra_dragon.banner.desc": "§7■ §6Tundra Dragons§r§7 are a tough, yet brittle §fspecies§r§7. Their offensive capabilities are immense, and they wield the power of ice to §fimpede§r§7 and §fdestroy§r§7 their foes.\n\n§7■ They can only eat snow and meat, but they can consume it §fraw§r§7 or §fcooked§r§7. Your §ficy skeleton§r§7 is §cfragile§r and vulnerable to §cheat§r§7.",
 
   "dragonsurvival.advancement.tundra/be_dragon": "Frigus lacerta",
   "dragonsurvival.advancement.tundra/be_dragon.desc": "Turn into a tundra dragon.",

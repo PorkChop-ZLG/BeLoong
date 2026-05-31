@@ -10,60 +10,60 @@
 "projectile.dragonsurvival.iceshard": "冰晶碎片",
 
 "dragon_ability.dragonsurvival.frigid_breath": "凛冬之息",
-"dragon_ability.dragonsurvival.frigid_breath.desc": "■ 喷吐大量寒霜与碎冰，减速敌人并附上§c「霜冻」§r效果。\n\n■ §f范围§r§7取决于龙的成长阶段。",
+"dragon_ability.dragonsurvival.frigid_breath.desc": "■喷吐大量寒霜与碎冰，减速敌人并附上§c「霜冻」§r效果。\n\n■§f范围§r§7取决于龙的成长阶段。",
 
 "dragon_ability.dragonsurvival.blizzard": "暴风雪",
-"dragon_ability.dragonsurvival.blizzard.desc": "■ 喷吐一股极寒风暴，§2可凝固水流§7并§2熄灭§7岩浆与火焰。\n\n■ 对生肉使用可将其转化为更富营养的§2冰鲜版§7；持续作用则会使其变成§2冰焦§7版本。\n\n■ 此技能不造成直接伤害。\n\n■ §f射程§r§7取决于龙的成长阶段。",
+"dragon_ability.dragonsurvival.blizzard.desc": "■喷吐一股极寒风暴，§2可凝固水流§7并§2熄灭§7岩浆与火焰。\n\n■对生肉使用可将其转化为更富营养的§2冰鲜版§7；持续作用则会使其变成§2冰焦§7版本。\n\n■此技能不造成直接伤害。\n\n■§f射程§r§7取决于龙的成长阶段。",
 
 "dragon_ability.dragonsurvival.icicle": "冰晶之矛",
-"dragon_ability.dragonsurvival.icicle.desc": "■ 精准投掷高速的冰矛，§c「减速」§r目标并给周围实体附上§c「霜冻」§r效果。\n\n■ 可将飞行中的龙族击落。",
+"dragon_ability.dragonsurvival.icicle.desc": "■精准投掷高速的冰矛，§c「减速」§r目标并给周围实体附上§c「霜冻」§r效果。\n\n■可将飞行中的龙族击落。",
 
 "dragon_ability.dragonsurvival.shatter": "冰爆术",
-"dragon_ability.dragonsurvival.shatter.desc": "■ 粉碎拥有§c「霜冻」§r效果的敌人身上的冰霜，造成高额伤害并清除效果。\n\n■ 埋在地下的冰晶之矛会爆裂, 向周围射出冰晶碎片。",
+"dragon_ability.dragonsurvival.shatter.desc": "■粉碎拥有§c「霜冻」§r效果的敌人身上的冰霜，造成高额伤害并清除效果。\n\n■埋在地下的冰晶之矛会爆裂, 向周围射出冰晶碎片。",
 
 "dragon_ability.dragonsurvival.precise_hearing": "敏锐感知",
-"dragon_ability.dragonsurvival.precise_hearing.desc": "■ 专注地感知环境，可以给墙壁后面的生物附上§c「发光」§r效果。",
+"dragon_ability.dragonsurvival.precise_hearing.desc": "■专注地感知环境，可以给墙壁后面的生物附上§c「发光」§r效果。",
 
 "dragon_ability.dragonsurvival.tundra_athletics": "苔原体术",
-"dragon_ability.dragonsurvival.tundra_athletics.desc": "■ 站立于§f冰面§7时§2移动速度§7提升。",
+"dragon_ability.dragonsurvival.tundra_athletics.desc": "■站立于§f冰面§7时§2移动速度§7提升。",
 
 "dragon_ability.dragonsurvival.snowdrift": "飞雪",
-"dragon_ability.dragonsurvival.snowdrift.desc": "■ 攻击会给目标附上§c「霜冻」§r§7效果。",
+"dragon_ability.dragonsurvival.snowdrift.desc": "■攻击会给目标附上§c「霜冻」§r§7效果。",
 
 "dragon_ability.dragonsurvival.thick_ice": "厚实冰甲",
-"dragon_ability.dragonsurvival.thick_ice.desc": "■ 降低你在冲击、火焰和炎热环境下受到的伤害。",
+"dragon_ability.dragonsurvival.thick_ice.desc": "■降低你在冲击、火焰和炎热环境下受到的伤害。",
 
 "dragon_ability.dragonsurvival.tundra_magic": "苔原魔法",
-"dragon_ability.dragonsurvival.tundra_magic.desc": "■ 升级此能力可提高你的§2魔力上限§r§7，并让你站在§f冰§r§7或§f雪§r§7上时恢复魔力。\n\n■ §8等级越高，自动恢复的魔力越快。",
+"dragon_ability.dragonsurvival.tundra_magic.desc": "■升级此能力可提高你的§2魔力上限§r§7，并让你站在§f冰§r§7或§f雪§r§7上时恢复魔力。\n\n■§8等级越高，自动恢复的魔力越快。",
  
 "dragon_ability.dragonsurvival.tundra_claws_and_teeth": "利爪与獠牙（苔原龙）",
-"dragon_ability.dragonsurvival.tundra_claws_and_teeth.desc": "■ 苔原龙的近战攻击造成更高的§2额外伤害§r§7，该能力随成长增强。",
+"dragon_ability.dragonsurvival.tundra_claws_and_teeth.desc": "■苔原龙的近战攻击造成更高的§2额外伤害§r§7，该能力随成长增强。",
  
 "dragon_ability.dragonsurvival.snow_sense": "雪地感知",
-"dragon_ability.dragonsurvival.snow_sense.desc": "■ 作为极地的顶级掠食者，苔原龙拥有出色的听觉，可感知在寒风中瑟瑟发抖的猎物，同时增强自身力量。",
+"dragon_ability.dragonsurvival.snow_sense.desc": "■作为极地的顶级掠食者，苔原龙拥有出色的听觉，可感知在寒风中瑟瑟发抖的猎物，同时增强自身力量。",
 
 "dragon_ability.dragonsurvival.ice_immunity": "寒冰庇护",
-"dragon_ability.dragonsurvival.ice_immunity.desc": "■ 苔原龙天生免疫§2冰冻伤害与「缓慢」效果§r§7。",
+"dragon_ability.dragonsurvival.ice_immunity.desc": "■苔原龙天生免疫§2冰冻伤害与「缓慢」效果§r§7。",
   
 "dragon_ability.dragonsurvival.tundra_spin": "苔原旋冲",
-"dragon_ability.dragonsurvival.tundra_spin.desc": "■ 你可以在§f空中§r§7或§f水里§r§7进行§2旋冲§r§7，并加速飞行，对沿途撞到的所有单位造成伤害。§r§7要获得这个技能§r§7，可前往§f末地§r§7，在传承之所里习得。",
+"dragon_ability.dragonsurvival.tundra_spin.desc": "■你可以在§f空中§r§7或§f水里§r§7进行§2旋冲§r§7，并加速飞行，对沿途撞到的所有单位造成伤害。§r§7要获得这个技能§r§7，可前往§f末地§r§7，在传承之所里习得。",
  
 "dragon_ability.dragonsurvival.tundra_wings": "苔原之翼",
-"dragon_ability.dragonsurvival.tundra_wings.desc": "■ 龙依靠§f悬浮魔法§r来§2飞行§r，但很少有龙天生具备这项能力。",
+"dragon_ability.dragonsurvival.tundra_wings.desc": "■龙依靠§f悬浮魔法§r来§2飞行§r，但很少有龙天生具备这项能力。",
 
 
 "dragon_penalty.dragonsurvival.impact_weakness": "易碎",
-"dragon_penalty.dragonsurvival.impact_weakness.desc": "■ 冰晶雕琢的身躯易受§d碎裂§r§7伤害，你将受到来自§c跌落、爆炸、撞击方块或被方块挤压§r的额外伤害。§r\n\n■ §2「厚实冰甲」§7技能可缓解此症状。",
+"dragon_penalty.dragonsurvival.impact_weakness.desc": "■冰晶雕琢的身躯易受§d碎裂§r§7伤害，你将受到来自§c跌落、爆炸、撞击方块或被方块挤压§r的额外伤害。§r\n\n■§2「厚实冰甲」§7技能可缓解此症状。",
 
 "dragon_penalty.dragonsurvival.melting_point": "融点",
-"dragon_penalty.dragonsurvival.melting_point.desc": "■ 长时间受到火焰灼烧会导致骨质疏松并陷入§c「虚弱」§r状态。\n\n■ §2「厚实冰甲」§7技能可增强火焰抗性。",
+"dragon_penalty.dragonsurvival.melting_point.desc": "■长时间受到火焰灼烧会导致骨质疏松并陷入§c「虚弱」§r状态。\n\n■§2「厚实冰甲」§7技能可增强火焰抗性。",
 
 "dragon_penalty.dragonsurvival.heat_weakness": "畏热",
-"dragon_penalty.dragonsurvival.heat_weakness.desc": "■ 在沙漠和下界这种炎热环境下，你会更容易受到伤害。\n\n■ §2「厚实冰甲」§7技能或者§2抗火§7效果会减低你的脆弱程度。",
+"dragon_penalty.dragonsurvival.heat_weakness.desc": "■在沙漠和下界这种炎热环境下，你会更容易受到伤害。\n\n■§2「厚实冰甲」§7技能或者§2抗火§7效果会减低你的脆弱程度。",
 
-"dragon_species.dragonsurvival.tundra_dragon.altar.desc": "§7■ §6苔原龙§r§7是坚硬而又易碎的§f极地生物§r§7，凭借寒冰之力§f牵制§r§7与§f摧毁§r§7敌人。\n\n§2■ 特性:§r§7 锐利爪牙、冰系魔法、雪地移速增加。\n§4■ 弱点:§r§7 骨质疏松。\n§6■ 食谱:§r %s",
+"dragon_species.dragonsurvival.tundra_dragon.altar.desc": "§7■§6苔原龙§r§7是坚硬而又易碎的§f极地生物§r§7，凭借寒冰之力§f牵制§r§7与§f摧毁§r§7敌人。\n\n§2■特性:§r§7 锐利爪牙、冰系魔法、雪地移速增加。\n§4■弱点:§r§7 骨质疏松。\n§6■食谱:§r %s",
   
-"dragon_species.dragonsurvival.tundra_dragon.banner.desc": "§7■ §6苔原龙§r§7是坚硬而又易碎的§f极地生物§r§7。它们仅能食用§f生熟肉类与雪块§r§7，其§f冰晶骨骼§r§7易受§c高温或碎裂§r§7的威胁。",
+"dragon_species.dragonsurvival.tundra_dragon.banner.desc": "§7■§6苔原龙§r§7是坚硬而又易碎的§f极地生物§r§7。它们仅能食用§f生熟肉类与雪块§r§7，其§f冰晶骨骼§r§7易受§c高温或碎裂§r§7的威胁。",
 
   "dragonsurvival.advancement.tundra/be_dragon": "凛冬龙裔",
   "dragonsurvival.advancement.tundra/be_dragon.desc": "成为一条苔原龙。",
