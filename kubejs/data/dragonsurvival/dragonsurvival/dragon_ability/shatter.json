@@ -297,10 +297,10 @@
 			},
             {
               "effect_type": "dragonsurvival:projectile",
-              "number_of_projectiles": 10.0,
+              "number_of_projectiles": 25.0,
               "projectile_data": "dragonsurvival:ice_shard",
-              "speed": 0.6,
-              "projectile_spread": 12.0,
+              "speed": 0.8,
+              "projectile_spread": 8.0,
               "target_direction": {
                 "direction": "looking_at"
               }
