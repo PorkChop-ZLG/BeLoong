@@ -1,0 +1,200 @@
+{
+	"abilities": "#dragonsurvival:wing_kirin",
+	"misc_resources": {
+		"ability_bar": "wing_kirin:textures/gui/custom/casting_bars/cast_bar.png",
+		"altar_banner": "wing_kirin:textures/gui/custom/altar/altar_icon.png",
+		"food_tooltip": {
+			"font": "wing_kirin:food_tooltip_icon_font",
+			"nutrition_icon": "\\uEA01",
+			"saturation_icon": "\\uEA02"
+		},
+		"growth_crystal": {
+			"empty": "wing_kirin:textures/gui/custom/growth_crystal/point_main.png",
+			"full": "wing_kirin:textures/gui/custom/growth_crystal/point_hover.png"
+		},
+		"growth_left_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/sea/left_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/sea/left_arrow_main.png"
+		},
+		"growth_right_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/sea/right_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/sea/right_arrow_main.png"
+		},
+		"mana_sprites": {
+			"empty": "wing_kirin:textures/gui/custom/mana_icons/empty.png",
+			"full": "wing_kirin:textures/gui/custom/mana_icons/full.png",
+			"recovery": "wing_kirin:textures/gui/custom/mana_icons/recovery.png",
+			"reserved": "wing_kirin:textures/gui/custom/mana_icons/reserved.png"
+		},
+		"primary_color": "#fbdc92",
+		"secondary_color": "#30aecf",
+		"claw_texture_slot": "sword"
+	},
+	"bodies":[
+		"dragonsurvival:center",
+		"dragonsurvival:east"
+	],
+	"custom_stage_progression": [
+		"wing_kirin:newborn",
+		"wing_kirin:young",
+		"wing_kirin:adult",
+		"wing_kirin:ancient"
+	],
+	"unlockable_behavior": {
+		"unlock_condition": {
+			"condition": "minecraft:all_of",
+			"terms": [
+				{
+					"condition": "minecraft:weather_check",
+					"thundering": false
+				},
+				{
+					"condition": "minecraft:weather_check",
+					"raining": false
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"level": {
+								"min": 68
+							},
+							"stats": []
+						},
+						"location": {
+							"position": {
+								"y": {
+									"min": 310
+								}
+							},
+							"dimension": "minecraft:overworld",
+							"can_see_sky": true
+						},
+						"slots": {
+							"weapon.mainhand": {
+								"items": [
+									"minecraft:netherite_block"
+								],
+								"count": {
+									"min": 2
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:cave/be_old_dragon": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:cave/master_all_passives": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:cave/rock_eater": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:forest/be_old_dragon": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:forest/master_all_passives": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:forest/meat_eater": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:sea/be_old_dragon": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:sea/master_all_passives": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"dragonsurvival:sea/fish_eater": true
+							}
+						}
+					}
+				}
+			]
+		},
+		"visibility": "visible_if_locked"
+	},
+	"penalties": "#dragonsurvival:wing_kirin"
+}
