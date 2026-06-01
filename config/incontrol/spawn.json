@@ -1,10 +1,5 @@
 [
   {
-    "mob": "biomeswevegone:pumpkin_warden",
-    "when": "onjoin",
-    "result": "deny"
-  },
-  {
     "mob": "terra_entity:lava_slime",
     "when": "onjoin",
     "result": "deny"
