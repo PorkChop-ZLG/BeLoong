@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#beloong:is_disaster",
+  "liquid_settings": "ignore_waterlogging",
+  "size": 10,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": -30
+    },
+    "min_inclusive": {
+      "absolute": -50
+    }
+  },
+  "start_pool": "fdbosses:chesed_arena",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "encapsulate",
+  "max_distance_from_center": 115,
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "ambient": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "axolotls": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "misc": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "underground_water_creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "water_ambient": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "water_creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  }
+}

@@ -79,3 +79,22 @@
 		# Default: 64.5
 		# Range: -2032.0 ~ 2032.0
 		fallbackY = 64.5
+
+[disaster_portal]
+	#激活传送门所需的 12 种眼球物品 ID（顺序可任意）
+	eyeItems = ["minecraft:ender_eye", "cataclysm:mech_eye", "cataclysm:flame_eye", "cataclysm:void_eye", "cataclysm:monstrous_eye", "cataclysm:abyss_eye", "cataclysm:desert_eye", "cataclysm:cursed_eye", "cataclysm:storm_eye", "fdbosses:eye_of_chesed", "fdbosses:eye_of_malkuth", "fdbosses:eye_of_geburah"]
+	#返回传送门结构模板 ID
+	returnStructureTemplate = "beloong:disaster/return_portal"
+	#传送冷却时间（ticks），防止循环传送
+	# Default: 100
+	# Range: 0 ~ 72000
+	teleportCooldownTicks = 100
+	#返回结构相对于玩家传送坐标的 X 偏移
+	#结构默认为 5×5 底部平台，-2 = 玩家位于平台中央
+	structureOffsetX = -2
+	#返回结构相对于地表高度的 Y 偏移
+	#默认 0 使平台底部贴着地面，玩家站在平台上
+	structureOffsetY = 0
+	#返回结构相对于玩家传送坐标的 Z 偏移
+	#结构默认为 5×5 底部平台，-2 = 玩家位于平台中央
+	structureOffsetZ = -2
