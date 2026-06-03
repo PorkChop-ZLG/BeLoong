@@ -1,0 +1,21 @@
+{
+  "item.raidsenhanced.player_blimp": "飞艇",
+  "item.raidsenhanced.zapper_staff": "电击法杖",
+  "item.raidsenhanced.blimp_parts": "飞艇零件",
+  "item.raidsenhanced.handcannon": "手炮",
+  "itemGroup.raidsenhanced": "袭击增强",
+  "raidsenhanced.mount": "再次与飞艇互动以下艇。",
+  "entity.raidsenhanced.zapper": "电击者",
+  "entity.raidsenhanced.golem_of_last_resort": "终极傀儡",
+  "entity.raidsenhanced.raid_blimp": "袭击者飞艇",
+  "entity.raidsenhanced.player_blimp": "飞艇",
+  "entity.raidsenhanced.raid_drill": "袭击者钻探机",
+  "item.raidsenhanced.zapper_spawn_egg": "电击者刷怪蛋",
+  "item.raidsenhanced.golem_of_last_resort_spawn_egg": "终极傀儡刷怪蛋",
+  "item.raidsenhanced.raid_blimp_spawn_egg": "袭击者飞艇刷怪蛋",
+  "item.raidsenhanced.raid_drill_spawn_egg": "袭击者钻探机刷怪蛋",
+  "raidsenhanced.item_description.player_blimp": "放置在地面以召唤你自己的飞艇",
+  "raidsenhanced.item_description.handcannon": "使用以发射强力炸弹",
+  "raidsenhanced.item_description.zapper_staff": "使用以释放球状闪电。若看向地面时使用，则在使用者周围召唤闪电。",
+  "raidsenhanced.item_description.blimp_parts": "与任意船合成以将其改装为飞艇"
+}
