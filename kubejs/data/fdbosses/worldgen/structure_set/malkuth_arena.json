@@ -5,10 +5,5 @@
     "separation": 80,
     "spacing": 100
   },
-  "structures": [
-    {
-      "structure": "fdbosses:malkuth_arena",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

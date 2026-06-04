@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20260604,
+    "separation": 30,
+    "spacing": 60
+  },
+  "structures": [
+    {
+      "structure": "fdbosses:chesed_arena",
+      "weight": 1
+    },
+    {
+      "structure": "fdbosses:malkuth_arena",
+      "weight": 1
+    },
+    {
+      "structure": "fdbosses:geburah_arena",
+      "weight": 1
+    }
+  ]
+}

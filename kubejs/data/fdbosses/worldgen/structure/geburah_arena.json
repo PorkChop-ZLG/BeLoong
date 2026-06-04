@@ -1,6 +1,16 @@
 {
   "type": "fdbosses:geburah_arena",
   "biomes": "#beloong:is_disaster",
+  "liquid_settings": "ignore_waterlogging",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": 300
+    },
+    "min_inclusive": {
+      "absolute": 200
+    }
+  },
   "start_pool": "fdbosses:geburah_arena",
   "step": "top_layer_modification",
   "terrain_adaptation": "none",
