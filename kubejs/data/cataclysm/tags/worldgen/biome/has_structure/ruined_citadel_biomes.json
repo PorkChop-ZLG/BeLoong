@@ -1,15 +1,9 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "minecraft:end_highlands",
-    "minecraft:end_midlands",
-		"stellarity:ashfall_deltas",
-		"stellarity:end_wilds",
-		"stellarity:ender_wastes",
-		"stellarity:the_nest",
-		"stellarity:the_hallow",
-		"stellarity:crystal_crags",
-		"stellarity:hallowed_tundra",
-		"stellarity:end_shrubland"
+    {
+      "id": "#beloong:is_end",
+      "required": false
+    }
   ]
 }

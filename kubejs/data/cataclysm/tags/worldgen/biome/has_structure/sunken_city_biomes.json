@@ -1,12 +1,8 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "minecraft:deep_ocean",
-    "minecraft:deep_lukewarm_ocean",
-    "minecraft:deep_cold_ocean",
-    "minecraft:deep_frozen_ocean",
     {
-      "id": "regions_unexplored:hyacinth_deeps",
+      "id": "#beloong:is_sea",
       "required": false
     }
   ]
