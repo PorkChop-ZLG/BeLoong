@@ -1,0 +1,4 @@
+#Value of the Zenith's attack damage attribute modifier
+# Default: 7.0
+# Range: 0.0 ~ 1024.0
+zenithAttackDamageAddition = 98.0

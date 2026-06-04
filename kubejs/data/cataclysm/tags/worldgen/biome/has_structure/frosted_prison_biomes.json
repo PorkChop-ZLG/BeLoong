@@ -2,7 +2,7 @@
   "replace": true,
   "values": [
     {
-      "id": "#beloong:is_cold",
+      "id": "#beloong:is_disaster",
       "required": false
     }
   ]

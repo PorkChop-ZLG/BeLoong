@@ -2,10 +2,6 @@
 
 // 攻击伤害
 ItemEvents.modification(event => {
-  // 天顶剑
-  event.modify('zenith:zenith', item => {
-    item.attackDamage = 98.0
-  })
   // 暮色森林
   event.modify('twilightforest:ironwood_sword', item => {
     item.attackDamage = 8.0

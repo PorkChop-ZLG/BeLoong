@@ -2,9 +2,17 @@
   "type": "cataclysm:ruined_citadel",
   "biomes": "#cataclysm:has_structure/ruined_citadel_biomes",
   "step": "surface_structures",
-
+  "terrain_adaptation": "none",
+  "liquid_settings": "ignore_waterlogging",
+  "cannot_spawn_in_liquid": false,
   "start_height": {
-    "absolute": 0
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": 200
+    },
+    "min_inclusive": {
+      "absolute": 100
+    }
   },
   "use_expansion_hack": false,
   "spawn_overrides": {
