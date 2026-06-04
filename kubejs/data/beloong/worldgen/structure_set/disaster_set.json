@@ -2,8 +2,8 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 20260604,
-    "separation": 30,
-    "spacing": 60
+    "separation": 15,
+    "spacing": 30
   },
   "structures": [
     {
@@ -17,6 +17,38 @@
     {
       "structure": "fdbosses:geburah_arena",
       "weight": 1
+    },
+    {
+      "structure": "cataclysm:ancient_factory",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:burning_arena",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:ruined_citadel",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:soul_black_smith",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:sunken_city",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:cursed_pyramid",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:frosted_prison",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:acropolis",
+      "weight": 2
     }
   ]
 }

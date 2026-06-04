@@ -1,10 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "cataclysm:ruined_citadel",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "salt": 367895146,
     "spacing": 50,

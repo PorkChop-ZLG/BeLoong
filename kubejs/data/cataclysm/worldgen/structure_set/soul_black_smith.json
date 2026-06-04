@@ -1,10 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "cataclysm:soul_black_smith",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "cataclysm:cataclysm_random_spread",
     "salt": 1984567320,
