@@ -3,18 +3,10 @@
   "biomes": "#cataclysm:has_structure/acropolis_biomes",
   "step": "surface_structures",
   "start_pool": "cataclysm:acropolis/start_pool",
-  "size": 33,
-  "terrain_adaptation": "none",
   "liquid_settings": "ignore_waterlogging",
-  "cannot_spawn_in_liquid": false,
+  "size": 33,
   "start_height": {
-    "type": "minecraft:uniform",
-    "max_inclusive": {
-      "absolute": 300
-    },
-    "min_inclusive": {
-      "absolute": 150
-    }
+    "absolute": 200
   },
   "max_distance_from_center": 187,
   "spawn_overrides": {

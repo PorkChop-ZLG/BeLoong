@@ -2,17 +2,8 @@
   "type": "cataclysm:sunken_city",
   "biomes": "#cataclysm:has_structure/sunken_city_biomes",
   "step": "surface_structures",
-  "terrain_adaptation": "none",
-  "liquid_settings": "ignore_waterlogging",
-  "cannot_spawn_in_liquid": false,
   "start_height": {
-    "type": "minecraft:uniform",
-    "max_inclusive": {
-      "absolute": 300
-    },
-    "min_inclusive": {
-      "absolute": 150
-    }
+    "absolute": 0
   },
   "use_expansion_hack": false,
   "spawn_overrides": {
