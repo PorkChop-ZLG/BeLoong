@@ -2,3 +2,5 @@
 fixGlowingItemInvisibility = true
 #修复稳定悬浮漂移
 fixStableHoverDrift = true
+#禁用王国场地的冰火天空盒渲染，解决渲染异常的问题
+disableMalkuthHellscapeSkybox = false

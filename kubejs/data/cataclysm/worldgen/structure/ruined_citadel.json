@@ -1,10 +1,16 @@
 {
   "type": "cataclysm:ruined_citadel",
   "biomes": "#cataclysm:has_structure/ruined_citadel_biomes",
-  "step": "surface_structures",
-
+  "step": "top_layer_modification",
+  "terrain_adaptation": "none",
   "start_height": {
-    "absolute": 0
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": 250
+    },
+    "min_inclusive": {
+      "absolute": 150
+    }
   },
   "use_expansion_hack": false,
   "spawn_overrides": {

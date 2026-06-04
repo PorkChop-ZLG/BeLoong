@@ -1,10 +1,17 @@
 {
   "type": "cataclysm:burning_arena",
   "biomes": "#cataclysm:has_structure/burning_arena_biomes",
-  "step": "surface_structures",
-
+  "step": "top_layer_modification",
+  "liquid_settings": "ignore_waterlogging",
+  "terrain_adaptation": "none",
   "start_height": {
-    "absolute": 0
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": 250
+    },
+    "min_inclusive": {
+      "absolute": 150
+    }
   },
   "use_expansion_hack": false,
   "spawn_overrides": {
