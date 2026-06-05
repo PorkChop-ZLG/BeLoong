@@ -1,5 +1,7 @@
 #龙之生存FTB区块兼容
 ds_ftbchunks_compat = true
+#超越维度FTB区块兼容
+bd_ftbchunks_compat = true
 #移除财宝堆重力下落行为，从根源杜绝刷沙机复制财宝堆
 fixTreasureDuplication = true
 #修复灾变结构无视数据包start_height配置，在固定Y轴生成的问题

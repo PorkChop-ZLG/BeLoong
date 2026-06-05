@@ -4,7 +4,7 @@
 	#财宝方块权重，格式: modid:block_id=weight
 	#未列出的方块默认权重 1.0
 	#内置默认: debris=5, diamond=4, emerald=3, gold=2, iron=1, copper=0.5
-	treasureWeights = ["dragonsurvival:copper_dragon_treasure=0.5", "dragonsurvival:iron_dragon_treasure=1.0", "dragonsurvival:gold_dragon_treasure=2.0", "dragonsurvival:emerald_dragon_treasure=3.0", "dragonsurvival:diamond_dragon_treasure=4.0", "dragonsurvival:debris_dragon_treasure=5.0"]
+	treasureWeights = ["dragonsurvival:copper_dragon_treasure=0.5", "dragonsurvival:iron_dragon_treasure=1.0", "dragonsurvival:gold_dragon_treasure=2.0", "dragonsurvival:emerald_dragon_treasure=3.0", "dragonsurvival:diamond_dragon_treasure=4.0", "dragonsurvival:debris_dragon_treasure=5.0", "iceandfire:gold_pile=0.4", "iceandfire:silver_pile=0.3", "iceandfire:copper_pile=0.1"]
 	#最大财宝价值上限，超出部分不再计入
 	# Default: 9800
 	# Range: > 1
