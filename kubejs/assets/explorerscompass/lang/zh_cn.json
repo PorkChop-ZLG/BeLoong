@@ -404,10 +404,11 @@
 	"structure.betterwitchhuts.witch_circle": "【YUNG】女巫祭坛",
 	"structure.betterwitchhuts.witch_hut": "【YUNG】女巫小屋",
 
-	"structure.block_factorys_bosses.dragon_tower": "【领主的崛起】巨龙高塔",
-	"structure.block_factorys_bosses.sandworm_nest": "【领主的崛起】沙虫巢穴",
-	"structure.block_factorys_bosses.underworld_arena": "【领主的崛起】冥界古堡",
-	"structure.block_factorys_bosses.yeti_hideout": "【领主的崛起】雪怪巢穴",
+	"structure.block_factorys_bosses.dragon_tower": "【首领崛起】飞龙高塔",
+	"structure.block_factorys_bosses.kraken_ship": "【首领崛起】克拉肯船",
+	"structure.block_factorys_bosses.sandworm_nest": "【首领崛起】沙虫巢穴",
+	"structure.block_factorys_bosses.underworld_arena": "【首领崛起】冥界古堡",
+	"structure.block_factorys_bosses.yeti_hideout": "【首领崛起】雪怪藏身处",
 
 	"structure.bosses_of_mass_destruction.gauntlet_arena": "【祸乱鬼魅】铁掌竞技场",
 	"structure.bosses_of_mass_destruction.lich_tower": "【祸乱鬼魅】巫妖高塔",
