@@ -11,12 +11,16 @@
   },
   "growth_items": [
     {
-      "growth_in_ticks": 72000,
+      "growth_in_ticks": 144000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
-      "growth_in_ticks": -72000,
+      "growth_in_ticks": -144000,
       "items": "dragonsurvival:star_bone"
+    },
+    {
+      "growth_in_ticks": 0,
+      "items": "dragonsurvival:star_heart"
     }
   ],
   "growth_range": {
@@ -102,5 +106,5 @@
       "operation": "add_value"
     }
   ],
-  "ticks_until_grown": 69120000
+  "ticks_until_grown": 51840000
 }
