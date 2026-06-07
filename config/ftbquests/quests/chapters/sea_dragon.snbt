@@ -31,7 +31,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["34D732864BAC0E8E"]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/newborn_stage_hover.png"
@@ -47,18 +46,12 @@
 			}]
 			shape: "none"
 			size: 3.0d
-			tasks: [
-				{
-					advancement: "dragonsurvival:sea/be_dragon"
-					criterion: ""
-					id: "1ADE1D10C5B8BF48"
-					type: "advancement"
-				}
-				{
-					id: "4079A5DB08443353"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				advancement: "dragonsurvival:sea/be_dragon"
+				criterion: ""
+				id: "1ADE1D10C5B8BF48"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}

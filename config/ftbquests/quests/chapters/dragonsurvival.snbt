@@ -151,81 +151,6 @@
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
-			icon: {
-				id: "dragonsurvival:cave_full_icon"
-			}
-			id: "2EBCC86372D200F5"
-			rewards: [{
-				auto: "enabled"
-				count: 64
-				id: "02FE78917DE21E9F"
-				item: {
-					count: 1
-					id: "minecraft:charcoal"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "dragonsurvival:cave/be_dragon"
-				criterion: ""
-				id: "3252CDD1CEF9640D"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2B5CAD5134FFA4AF"]
-			icon: {
-				id: "dragonsurvival:forest_full_icon"
-			}
-			id: "1E1063CB67754D04"
-			rewards: [{
-				auto: "no_toast"
-				count: 32
-				id: "3CFFDA0A9B05BA7A"
-				item: {
-					count: 1
-					id: "minecraft:poisonous_potato"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "dragonsurvival:forest/be_dragon"
-				criterion: ""
-				id: "77B4CC9ACD63EC91"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2B5CAD5134FFA4AF"]
-			icon: {
-				id: "dragonsurvival:sea_full_icon"
-			}
-			id: "34D732864BAC0E8E"
-			rewards: [{
-				auto: "enabled"
-				count: 8
-				id: "0FD85F1A0ADF7508"
-				item: {
-					count: 1
-					id: "minecraft:pufferfish"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "dragonsurvival:sea/be_dragon"
-				criterion: ""
-				id: "448F5AEFA90F0624"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			hide_dependency_lines: true
 			icon: {
 				id: "dragonsurvival:elder_dragon_dust"
@@ -317,16 +242,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1E1063CB67754D04"
-				"2EBCC86372D200F5"
-				"34D732864BAC0E8E"
-				"74D333ABF9D19A48"
-				"4461A4B09511AFD5"
-				"61DD6385C7F59703"
-				"5E4E661E1E3FE198"
-				"2B5CAD5134FFA4AF"
-			]
+			dependencies: ["6AB162630EE26FE3"]
 			dependency_requirement: "one_completed"
 			id: "56AEAD8720A0B3F9"
 			rewards: [
@@ -1164,50 +1080,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
-			id: "74D333ABF9D19A48"
-			rewards: [{
-				auto: "enabled"
-				count: 64
-				id: "19570F1AB061905E"
-				item: {
-					count: 1
-					id: "minecraft:ice"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "dragonsurvival:tundra/be_dragon"
-				criterion: ""
-				id: "36EC7C59BB4E8AE5"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2B5CAD5134FFA4AF"]
-			id: "4461A4B09511AFD5"
-			rewards: [{
-				auto: "enabled"
-				count: 4
-				id: "29D007DF96C0CF07"
-				item: {
-					count: 1
-					id: "minecraft:breeze_rod"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "dragonsurvival:aether/be_dragon"
-				criterion: ""
-				id: "1A42C498D7338ECD"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: 2.0d
-		}
-		{
 			can_repeat: true
 			dependency_requirement: "one_started"
 			icon: {
@@ -1572,28 +1444,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
-			id: "61DD6385C7F59703"
-			rewards: [{
-				auto: "enabled"
-				count: 8
-				id: "69BF1B033B203544"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "astral_dragon:astral/be_dragon"
-				criterion: ""
-				id: "37DB3177029F7C7A"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: -3.0d
-		}
-		{
 			dependencies: ["75BFB4E20D3E76DC"]
 			dependency_requirement: "one_started"
 			id: "5C7DC397FD36FFDB"
@@ -1612,25 +1462,21 @@
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
-			id: "5E4E661E1E3FE198"
+			id: "6AB162630EE26FE3"
 			rewards: [{
-				auto: "enabled"
-				count: 16
-				id: "374E27CFA72094B8"
-				item: {
-					count: 1
-					id: "minecraft:amethyst_shard"
-				}
-				type: "item"
+				id: "35F9883C02816602"
+				type: "xp"
+				xp: 20
 			}]
+			size: 2.0d
 			tasks: [{
-				advancement: "crystcursed_dragon:crystcursed/be_dragon"
+				advancement: "beloong:beloong/root"
 				criterion: ""
-				id: "78392008CE128CB1"
+				id: "24723B158A248898"
 				type: "advancement"
 			}]
 			x: 3.5d
-			y: 3.0d
+			y: 0.0d
 		}
 	]
 }

@@ -31,7 +31,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["61DD6385C7F59703"]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/protostar_stage_hover.png"
@@ -47,18 +46,12 @@
 			}]
 			shape: "none"
 			size: 3.0d
-			tasks: [
-				{
-					advancement: "astral_dragon:astral/be_dragon"
-					criterion: ""
-					id: "726805938BE5F4BB"
-					type: "advancement"
-				}
-				{
-					id: "755B61A9BDD39E8F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				advancement: "astral_dragon:astral/be_dragon"
+				criterion: ""
+				id: "726805938BE5F4BB"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}

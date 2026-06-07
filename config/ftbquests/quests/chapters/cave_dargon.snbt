@@ -31,7 +31,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2EBCC86372D200F5"]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/newborn_stage_hover.png"
@@ -47,18 +46,12 @@
 			}]
 			shape: "none"
 			size: 3.0d
-			tasks: [
-				{
-					advancement: "dragonsurvival:cave/be_dragon"
-					criterion: ""
-					id: "6B9B423914EAD62E"
-					type: "advancement"
-				}
-				{
-					id: "1DFE30E3CD481DB6"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				advancement: "dragonsurvival:cave/be_dragon"
+				criterion: ""
+				id: "6B9B423914EAD62E"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}

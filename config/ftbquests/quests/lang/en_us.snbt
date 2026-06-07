@@ -1246,13 +1246,6 @@
 	]
 	quest.1DFB8CC52BD51F13.quest_subtitle: "Loves her master the most~"
 	quest.1DFB8CC52BD51F13.title: "Final Step: Tame the Maid"
-	quest.1E1063CB67754D04.quest_desc: [
-		"&9Attributes: &6Wood, Nature"
-		"&2Trait: &6Immune to Cactus and Berry Bushes"
-		"&4Weakness: &6Fears darkness, loses health without sunlight"
-	]
-	quest.1E1063CB67754D04.quest_subtitle: "You choose to become: Forest Dragon"
-	quest.1E1063CB67754D04.title: "『BeLoong』Forest Dragon!"
 	quest.1E7A718688067EC6.quest_desc: [
 		"&l&d「Wither」"
 		"&6Health: &a300"
@@ -1713,13 +1706,6 @@
 	quest.2E92127811717292.quest_subtitle: "Heavily Guarded Portal"
 	quest.2E92127811717292.title: "Observation: End Portal"
 	quest.2EB0BF01344C3DD7.title: "Heart-stopping Chorus Fruit"
-	quest.2EBCC86372D200F5.quest_desc: [
-		"&9Attribute: &6Fire, Blazing"
-		"&2Traits: &6Immune to lava and fire"
-		"&4Weakness: &6Afraid of water, loses health in water and rain"
-	]
-	quest.2EBCC86372D200F5.quest_subtitle: "You choose to become: Cave Dragon"
-	quest.2EBCC86372D200F5.title: "『BeLoong』Cave Dragon!"
 	quest.2ECA4D4990D20697.quest_desc: ["&aObjective: Collect all Dragonsteel weapons and tools"]
 	quest.2ECA678E765E94F4.quest_desc: [
 		"Combat: Excels in fearsome magic and unknown arts, capable of summoning beings born from the shadows."
@@ -1892,13 +1878,6 @@
 	quest.346F1B08A0E6345D.title: "Apprentice Mage"
 	quest.34CBA8F45D46E480.quest_subtitle: "Author: YeueingE"
 	quest.34CBA8F45D46E480.title: "Prefab Building: Novice Cottage"
-	quest.34D732864BAC0E8E.quest_desc: [
-		"&9Attribute: &6Water, Lightning"
-		"&2Traits: &6Water Breathing"
-		"&4Weakness: &6Loses health from dehydration for too long"
-	]
-	quest.34D732864BAC0E8E.quest_subtitle: "You choose to become: Sea Dragon"
-	quest.34D732864BAC0E8E.title: "『BeLoong』Sea Dragon!"
 	quest.34F81E5815B0AB4B.quest_desc: [
 		"An &6Ancient Battlefield &rwhose name has long been forgotten."
 		""
@@ -2349,13 +2328,6 @@
 	]
 	quest.439CE3D219AEA946.quest_subtitle: "The Arbiter of the Decay Domain"
 	quest.439CE3D219AEA946.title: "Rot Value"
-	quest.4461A4B09511AFD5.quest_desc: [
-		"&9Attribute: &6Wind, Yin-Yang"
-		"&2Traits: &6Fast flight speed, immune to fall damage"
-		"&4Weakness: &6Prone to suffocation, suffers Blindness and Wither below Y=0"
-	]
-	quest.4461A4B09511AFD5.quest_subtitle: "You choose to become: Aether Dragon"
-	quest.4461A4B09511AFD5.title: "『BeLoong』Aether Dragon!"
 	quest.44B5EE463B467926.title: "Foot Ornament T0"
 	quest.44B85B8C33C3E538.quest_desc: [
 		"&aObjective: Find the Yeti Lair"
@@ -3274,13 +3246,6 @@
 	]
 	quest.5E2F36A14E2F1879.quest_subtitle: "Defeat the Eye of Cthulhu"
 	quest.5E2F36A14E2F1879.title: "Eye of Cthulhu"
-	quest.5E4E661E1E3FE198.quest_desc: [
-		"&9Attribute: &6Crystal, Soulbound"
-		"&2Traits: &6Possesses numerous offensive skills, high combat prowess"
-		"&4Weakness: &6Without prolonged crystal energy replenishment, suffers weakness and hunger"
-	]
-	quest.5E4E661E1E3FE198.quest_subtitle: "You choose to become: Crystcursed Dragon"
-	quest.5E4E661E1E3FE198.title: "『BeLoong』Crystcursed Dragon!"
 	quest.5EE6DC4771476CC8.quest_subtitle: "Alternate Whiskey"
 	quest.5EFF5C22E67BCE5D.quest_subtitle: "Located in The End"
 	quest.5EFF5C22E67BCE5D.title: "Check-in: Prismarine Forest"
@@ -3354,13 +3319,6 @@
 		"&6Eject mode will not output energy directly to other dimension network blocks. An energy channel block with eject mode enabled will also not receive FE energy from external sources."
 	]
 	quest.61DA1759088CDA4D.title: "Hand Ornament T3"
-	quest.61DD6385C7F59703.quest_desc: [
-		"&9Attribute: &6Starlight, Ender"
-		"&2Traits: &6No need to eat, can absorb energy from the air"
-		"&4Weakness: &6Cannot cast spells in water or underground below Y=0"
-	]
-	quest.61DD6385C7F59703.quest_subtitle: "You choose to become: Astral Dragon"
-	quest.61DD6385C7F59703.title: "『BeLoong』Astral Dragon!"
 	quest.620D2C27E39DACD0.quest_subtitle: "Grow to the Adult Dragon stage"
 	quest.620D2C27E39DACD0.title: "Adult Cave Dragon"
 	quest.62129DE5962CF7BE.quest_desc: ["&eBlack Ice &6is located in &bSplintered Glaciers&6."]
@@ -3920,13 +3878,6 @@
 	quest.74B48A026628E827.title: "Observation: Cactus"
 	quest.74CCA3A95866E0CE.quest_subtitle: "They guard the End Portal in the Stronghold"
 	quest.74CCA3A95866E0CE.title: "Kill: Vindicator"
-	quest.74D333ABF9D19A48.quest_desc: [
-		"&9Attribute: &6Ice, Frost"
-		"&2Traits: &6Immune to freezing and slowness"
-		"&4Weakness: &6Fragile, takes more damage from fire, explosions, fall damage, etc."
-	]
-	quest.74D333ABF9D19A48.quest_subtitle: "You choose to become: Tundra Dragon"
-	quest.74D333ABF9D19A48.title: "『BeLoong』Tundra Dragon!"
 	quest.74D8E9EC39D5A9D2.quest_subtitle: "The End Stronghold has been revamped, full of dangers"
 	quest.74D8E9EC39D5A9D2.title: "Challenge: Stronghold"
 	quest.75439ACB199C6BBA.title: "Kill: Ancient Knight"

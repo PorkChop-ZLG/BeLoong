@@ -31,7 +31,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1E1063CB67754D04"]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/forest/newborn_stage_hover.png"
@@ -47,18 +46,12 @@
 			}]
 			shape: "none"
 			size: 3.0d
-			tasks: [
-				{
-					advancement: "dragonsurvival:forest/be_dragon"
-					criterion: ""
-					id: "0B779D68EF22D1F5"
-					type: "advancement"
-				}
-				{
-					id: "3ACD488382ACDD5C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				advancement: "dragonsurvival:forest/be_dragon"
+				criterion: ""
+				id: "0B779D68EF22D1F5"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}

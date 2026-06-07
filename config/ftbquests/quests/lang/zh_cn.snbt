@@ -1233,14 +1233,6 @@
 	]
 	quest.1DFB8CC52BD51F13.quest_subtitle: "最喜欢主人惹~"
 	quest.1DFB8CC52BD51F13.title: "最后一步：驯服女仆"
-	quest.1E1063CB67754D04.quest_desc: [
-		"&b阶级：&6主龙"
-		"&9属性：&6木，自然"
-		"&2特性：&6免疫仙人掌和浆果丛"
-		"&4弱点：&6怕黑，长时间照不到阳光会扣血"
-	]
-	quest.1E1063CB67754D04.quest_subtitle: "你选择成为：森林龙"
-	quest.1E1063CB67754D04.title: "『化龍』森林龙！"
 	quest.1E7A718688067EC6.quest_desc: [
 		"&l&d「凋灵」"
 		"&6生命：&a800"
@@ -1721,14 +1713,6 @@
 	quest.2E92127811717292.quest_subtitle: "重兵把守的传送门"
 	quest.2E92127811717292.title: "观察：末地传送门"
 	quest.2EB0BF01344C3DD7.title: "钻心紫颂果"
-	quest.2EBCC86372D200F5.quest_desc: [
-		"&b阶级：&6主龙"
-		"&9属性：&6火，炽焰"
-		"&2特性：&6免疫熔岩和火焰"
-		"&4弱点：&6怕水，在水中和雨中会扣血"
-	]
-	quest.2EBCC86372D200F5.quest_subtitle: "你选择成为：洞穴龙"
-	quest.2EBCC86372D200F5.title: "『化龍』洞穴龙！"
 	quest.2ECA4D4990D20697.quest_desc: ["&a目标：集齐龙霆钢武器和工具"]
 	quest.2ECA4D4990D20697.title: "龙霆钢装备"
 	quest.2ECA678E765E94F4.quest_desc: [
@@ -1919,14 +1903,6 @@
 	quest.346F1B08A0E6345D.title: "见习法师"
 	quest.34CBA8F45D46E480.quest_subtitle: "作者：YeueingE"
 	quest.34CBA8F45D46E480.title: "预制建筑：新手小屋"
-	quest.34D732864BAC0E8E.quest_desc: [
-		"&b阶级：&6主龙"
-		"&9属性：&6水，雷霆"
-		"&2特性：&6水下呼吸"
-		"&4弱点：&6脱水太久会扣血"
-	]
-	quest.34D732864BAC0E8E.quest_subtitle: "你选择成为：海洋龙"
-	quest.34D732864BAC0E8E.title: "『化龍』海洋龙！"
 	quest.34F81E5815B0AB4B.quest_desc: [
 		"名字很久以前就被遗忘了的&6远古战场&r。"
 		""
@@ -2401,13 +2377,6 @@
 	]
 	quest.439CE3D219AEA946.quest_subtitle: "掌管腐烂天道的司命"
 	quest.439CE3D219AEA946.title: "腐烂值"
-	quest.4461A4B09511AFD5.quest_desc: [
-		"&9属性：&6风，两仪"
-		"&2特性：&6飞行速度快，免疫摔落伤害"
-		"&4弱点：&6容易窒息，在Y轴低于0的地底会失明和凋零"
-	]
-	quest.4461A4B09511AFD5.quest_subtitle: "你选择成为：以太龙"
-	quest.4461A4B09511AFD5.title: "『化龍』以太龙！"
 	quest.44B5EE463B467926.title: "脚饰T0"
 	quest.44B85B8C33C3E538.quest_desc: [
 		"&a目标：找到雪怪巢穴"
@@ -3290,6 +3259,13 @@
 		"&a目标：集齐所有财宝堆"
 		""
 		"&e财宝堆&6是龙族休息的地方，可以恢复生命值。"
+		""
+		"&d全新机制：成长加速！"
+		"&6在&e财宝堆&6上睡觉，可以加快你的&e成长速度&6。"
+		"&6默认情况下，提供&22倍&6成长速度。"
+		"&6增加财宝堆数量，提高品质，可以增加&e财宝价值&6；"
+		"&6每&2100点&6财宝价值，可以增加&2100%&6的成长速度；"
+		"&6最大可提供&2100倍&6的成长加速！"
 	]
 	quest.5D05EE02D584AF2F.quest_subtitle: "集齐所有财宝堆"
 	quest.5D05EE02D584AF2F.title: "闪闪发光"
@@ -3347,14 +3323,6 @@
 	]
 	quest.5E2F36A14E2F1879.quest_subtitle: "击败克苏鲁之眼"
 	quest.5E2F36A14E2F1879.title: "克苏鲁之眼"
-	quest.5E4E661E1E3FE198.quest_desc: [
-		"&b阶级：&6从龙（半步主龙）"
-		"&9属性：&6水晶，魂灵"
-		"&2特性：&6拥有大量进攻性技能，战斗力强"
-		"&4弱点：&6长时间得不到水晶能量的补充，会虚弱和饥饿"
-	]
-	quest.5E4E661E1E3FE198.quest_subtitle: "你选择成为：晶咒龙"
-	quest.5E4E661E1E3FE198.title: "『化龍』晶咒龙！"
 	quest.5EE6DC4771476CC8.quest_subtitle: "“异格威士忌”"
 	quest.5EFF5C22E67BCE5D.quest_subtitle: "位于末地"
 	quest.5EFF5C22E67BCE5D.title: "打卡：海晶森林"
@@ -3434,14 +3402,6 @@
 		"&6弹出模式不会直接将能量输出至其他的维度网络方块。打开弹出模式的能量通道方块也不会接收外界输入的FE能量。"
 	]
 	quest.61DA1759088CDA4D.title: "手饰T3"
-	quest.61DD6385C7F59703.quest_desc: [
-		"&b阶级：&6主龙"
-		"&9属性：&6星空，末影"
-		"&2特性：&6无需进食，可从空气中摄入能量"
-		"&4弱点：&6在水中和Y轴低于0的地底无法施法"
-	]
-	quest.61DD6385C7F59703.quest_subtitle: "你选择成为：星界龙"
-	quest.61DD6385C7F59703.title: "『化龍』星界龙！"
 	quest.620D2C27E39DACD0.quest_subtitle: "成长到成年龙阶段"
 	quest.620D2C27E39DACD0.title: "成年洞穴龙"
 	quest.62129DE5962CF7BE.quest_desc: ["&e黑冰&6位于&b破碎冰川&6。"]
@@ -3623,6 +3583,9 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie的生物：霜冻巨兽"
+	quest.6AB162630EE26FE3.quest_desc: ["&a目标：通过龙之祭坛，化为一条龙"]
+	quest.6AB162630EE26FE3.quest_subtitle: "化为一条你喜欢的龙"
+	quest.6AB162630EE26FE3.title: "化龙"
 	quest.6AC7F72FF93C6500.quest_desc: [
 		"&6使用&e音符盒&6撰写&3律灵法术"
 		"&6手持&3竖琴&6才能释放&3律灵法术"
@@ -4035,14 +3998,6 @@
 	quest.74B48A026628E827.title: "观察：仙人掌"
 	quest.74CCA3A95866E0CE.quest_subtitle: "他们是末地要塞的守卫，镇守着末地传送门"
 	quest.74CCA3A95866E0CE.title: "击杀：卫道士"
-	quest.74D333ABF9D19A48.quest_desc: [
-		"&b阶级：&6主龙"
-		"&9属性：&6冰，冰霜"
-		"&2特性：&6免疫冰冻和缓慢效果"
-		"&4弱点：&6易碎，更容易受到火焰、爆炸、摔落等伤害"
-	]
-	quest.74D333ABF9D19A48.quest_subtitle: "你选择成为：苔原龙"
-	quest.74D333ABF9D19A48.title: "『化龍』苔原龙！"
 	quest.74D8E9EC39D5A9D2.quest_subtitle: "末地要塞经过重做，危机重重"
 	quest.74D8E9EC39D5A9D2.title: "挑战：要塞"
 	quest.752424B438B87389.quest_desc: [

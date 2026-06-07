@@ -31,7 +31,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["74D333ABF9D19A48"]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/tundra/newborn_stage_hover.png"
@@ -47,18 +46,12 @@
 			}]
 			shape: "none"
 			size: 3.0d
-			tasks: [
-				{
-					advancement: "dragonsurvival:tundra/be_dragon"
-					criterion: ""
-					id: "59A0C62787CF58A8"
-					type: "advancement"
-				}
-				{
-					id: "49F93EA4AFEAF6B7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				advancement: "dragonsurvival:tundra/be_dragon"
+				criterion: ""
+				id: "59A0C62787CF58A8"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1251,7 +1244,7 @@
 				{
 					biome: "biomeswevegone:shattered_glacier"
 					icon: {
-						id: "regions_unexplored:enchanted_birch_leaf_pile"
+						id: "regions_unexplored:enchanted_birch_leaf_litter"
 					}
 					id: "43602953353C7640"
 					type: "biome"
@@ -1259,7 +1252,7 @@
 				{
 					biome: "biomeswevegone:frosted_taiga"
 					icon: {
-						id: "regions_unexplored:enchanted_birch_sapling"
+						id: "regions_unexplored:sky_wisteria_sapling"
 					}
 					id: "347220985A0D789B"
 					type: "biome"

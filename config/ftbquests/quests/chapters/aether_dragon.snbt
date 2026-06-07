@@ -32,7 +32,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4461A4B09511AFD5"]
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/newborn_stage_hover.png"
@@ -48,18 +47,12 @@
 			}]
 			shape: "none"
 			size: 3.0d
-			tasks: [
-				{
-					advancement: "dragonsurvival:aether/be_dragon"
-					criterion: ""
-					id: "0FC2E8A2E28E71C2"
-					type: "advancement"
-				}
-				{
-					id: "03CC47BB59E1BF3B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				advancement: "dragonsurvival:aether/be_dragon"
+				criterion: ""
+				id: "0FC2E8A2E28E71C2"
+				type: "advancement"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}

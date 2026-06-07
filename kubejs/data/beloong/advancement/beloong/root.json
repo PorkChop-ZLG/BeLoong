@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "be_loong": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "dragonsurvival:textures/block/stone_dragon_door_top.png",
+    "description": {
+      "translate": "beloong.advancement.beloong/root.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "beloong:beloong_logo"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "beloong.advancement.beloong/root"
+    }
+  },
+  "requirements": [
+    [
+      "be_loong"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": false
+}
