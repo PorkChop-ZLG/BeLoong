@@ -1248,6 +1248,34 @@
 				append = ""
 				format = ""
 
+		[type.twilightforest.oreberry]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.oreberry.icon]
+				tex = ""
+				item = ""
+
+			[type.twilightforest.oreberry.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.twilightforest.stale_sandwich]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.stale_sandwich.icon]
+				tex = ""
+				item = ""
+
+			[type.twilightforest.stale_sandwich.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[type.witherSkull]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"

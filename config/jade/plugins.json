@@ -94,6 +94,7 @@
     "shrine_lamp": true
   },
   "twilightforest": {
+    "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },
