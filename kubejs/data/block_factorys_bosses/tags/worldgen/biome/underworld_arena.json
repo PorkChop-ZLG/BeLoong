@@ -1,6 +1,26 @@
 {
   "values": [
     "minecraft:nether_wastes",
-    "minecraft:soul_sand_valley"
+    "minecraft:soul_sand_valley",
+    {
+      "id": "regions_unexplored:blackstone_basin",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:glistering_meadow",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:infernal_holt",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:mycotoxic_undergrowth",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redstone_abyss",
+      "required": false
+    }
   ]
 }

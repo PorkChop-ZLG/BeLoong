@@ -1,7 +1,12 @@
 {
   "values": [
-    "minecraft:deep_cold_ocean",
-    "minecraft:deep_ocean",
-    "minecraft:deep_lukewarm_ocean"
+    {
+      "id": "eternal_starlight:starlit_sea",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:the_abyss",
+      "required": false
+    }
   ]
 }
