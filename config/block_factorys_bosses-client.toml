@@ -26,7 +26,7 @@
 
 [Rolling]
 	"Will the camera rotate when rolling while in first-person view" = false
-	"Will there be a GUI element displaying current roll count" = true
+	"Will there be a GUI element displaying current roll count" = false
 	#GUI anchors are preset locations for the rolling GUI visual to appear. Pick the one that suits you most.
 	#"HOTBAR_RIGHT" : At the immediate right of your hotbar.
 	#"HOTBAR_LEFT" : At the immediate left of your hotbar.

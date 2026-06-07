@@ -176,7 +176,7 @@
     "starlightGolem": {
       "maxHealth": 2500.0,
       "armor": 0.0,
-      "attackDamageScale": 5.0,
+      "attackDamageScale": 10.0,
       "followRange": 200.0,
       "canSpawn": true
     },
@@ -197,7 +197,7 @@
     "lunarMonstrosity": {
       "maxHealth": 3000.0,
       "armor": 12.0,
-      "attackDamageScale": 5.0,
+      "attackDamageScale": 10.0,
       "followRange": 200.0,
       "canSpawn": true
     },

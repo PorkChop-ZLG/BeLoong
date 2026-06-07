@@ -1458,10 +1458,10 @@
 				{
 					id: "5AFDB80E7C1FC397"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 5
 				}
 				{
-					count: 10
+					count: 5
 					id: "5C368B67BC0F63DF"
 					item: {
 						count: 1
@@ -1470,7 +1470,7 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 5
 					id: "774EEB985F396A66"
 					item: {
 						count: 1
@@ -1485,7 +1485,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -1524,7 +1524,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -1563,7 +1563,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -1602,7 +1602,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -1912,6 +1912,7 @@
 				"6E02B2425A8EAB67"
 				"17A9978D7AFEA210"
 				"4DBAD417CE6615B0"
+				"5E95712B13C6FEFC"
 			]
 			icon: {
 				id: "eternal_starlight:starlight_flower"
@@ -1938,7 +1939,7 @@
 				id: "02BF7413A3124BC8"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -2133,6 +2134,45 @@
 			}]
 			x: 6.0d
 			y: 6.0d
+		}
+		{
+			icon: {
+				id: "block_factorys_bosses:kraken_spawn_egg"
+			}
+			id: "5E95712B13C6FEFC"
+			rewards: [
+				{
+					id: "30C632FB6CB5138D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "59B81A2ADC0F5745"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "77A0137531F0EE96"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:kraken"
+				id: "3F4AC3564661ED21"
+				type: "kill"
+				value: 3L
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 }

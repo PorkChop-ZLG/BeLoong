@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:nether_wastes",
     "minecraft:soul_sand_valley",
