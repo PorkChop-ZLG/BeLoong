@@ -10,6 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
-  "biomes": "eternal_starlight:crystallized_desert",
+  "biomes": "#block_factorys_bosses:sandworm_nest",
   "use_expansion_hack": false
 }

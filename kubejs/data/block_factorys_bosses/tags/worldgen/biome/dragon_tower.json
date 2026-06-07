@@ -1,6 +1,14 @@
 {
-  "replace": true,
   "values": [
-    "eternal_starlight:dark_swamp"
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:savanna",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_forest"
   ]
 }

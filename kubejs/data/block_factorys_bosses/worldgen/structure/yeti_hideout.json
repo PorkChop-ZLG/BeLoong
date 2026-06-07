@@ -10,6 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "eternal_starlight:starlight_permafrost_forest",
+  "biomes": "#block_factorys_bosses:yeti_hideout",
   "use_expansion_hack": false
 }
