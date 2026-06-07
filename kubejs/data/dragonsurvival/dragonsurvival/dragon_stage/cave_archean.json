@@ -15,7 +15,11 @@
       "items": "kubejs:cave_dragon_heart"
     },
     {
-      "growth_in_ticks": -1728000,
+      "growth_in_ticks": 10368000,
+      "items": "kubejs:progenitor_dragon_heart"
+    },
+    {
+      "growth_in_ticks": -10368000,
       "items": "dragonsurvival:star_bone"
     },
     {
@@ -106,5 +110,5 @@
       "operation": "add_value"
     }
   ],
-  "ticks_until_grown": 51840000
+  "ticks_until_grown": 155520000
 }

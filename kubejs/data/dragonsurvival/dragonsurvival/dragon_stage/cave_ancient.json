@@ -11,15 +11,15 @@
   },
   "growth_items": [
     {
-      "growth_in_ticks": 72000,
+      "growth_in_ticks": 144000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
-      "growth_in_ticks": 1728000,
+      "growth_in_ticks": 864000,
       "items": "kubejs:cave_dragon_heart"
     },
     {
-      "growth_in_ticks": -72000,
+      "growth_in_ticks": -864000,
       "items": "dragonsurvival:star_bone"
     },
     {
@@ -110,5 +110,5 @@
       "operation": "add_value"
     }
   ],
-  "ticks_until_grown": 12096000
+  "ticks_until_grown": 51840000
 }
