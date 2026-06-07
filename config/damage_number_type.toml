@@ -3292,6 +3292,34 @@
 			append = ""
 			format = ""
 
+		[type.block_factorys_bosses.kraken_tentacle_smash]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.block_factorys_bosses.kraken_tentacle_smash.icon]
+				tex = ""
+				item = ""
+
+			[type.block_factorys_bosses.kraken_tentacle_smash.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.block_factorys_bosses.cannonball_hit]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.block_factorys_bosses.cannonball_hit.icon]
+				tex = ""
+				item = ""
+
+			[type.block_factorys_bosses.cannonball_hit.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"

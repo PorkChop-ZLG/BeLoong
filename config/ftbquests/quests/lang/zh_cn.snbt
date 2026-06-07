@@ -256,7 +256,7 @@
 		"&7&o注：该BOSS迁移至永恒星光"
 	]
 	quest.03B1663E1AEFE3E8.quest_subtitle: "★★★★★"
-	quest.03B1663E1AEFE3E8.title: "领主的崛起：炼狱巨龙"
+	quest.03B1663E1AEFE3E8.title: "首领崛起：炼狱飞龙"
 	quest.03DA2F2992CDD7DA.quest_desc: [
 		"&l&d逆卡巴拉「慈悲」"
 		""
@@ -614,7 +614,7 @@
 		"&9结构罗盘：&b【领主的崛起】冥界古堡&r"
 	]
 	quest.0C4859FFFC25935A.quest_subtitle: "★★"
-	quest.0C4859FFFC25935A.title: "领主的崛起：冥界骑士"
+	quest.0C4859FFFC25935A.title: "首领崛起：冥界骑士"
 	quest.0C6C9EF6B3BA9388.title: "观察：潮涌核心"
 	quest.0C7E174EA1711BFA.title: "观察：竹子"
 	quest.0C7F298F1FA0C8D4.quest_desc: [
@@ -2704,7 +2704,7 @@
 		"&7&o注：该BOSS迁移至永恒星光"
 	]
 	quest.4DBAD417CE6615B0.quest_subtitle: "★★★★"
-	quest.4DBAD417CE6615B0.title: "领主的崛起：沙虫"
+	quest.4DBAD417CE6615B0.title: "首领崛起：巨型沙虫"
 	quest.4DE67F32DA93384F.quest_desc: [
 		"&6巨大的阴影从天际略过，数不清的敌人从天而降。"
 		"&6这就是当年人类战胜龙族的强大武器——天际战舰。"
@@ -3226,7 +3226,7 @@
 		"&7&o注：该BOSS迁移至永恒星光"
 	]
 	quest.5C54D192CA150300.quest_subtitle: "★★★★"
-	quest.5C54D192CA150300.title: "领主的崛起：雪怪"
+	quest.5C54D192CA150300.title: "首领崛起：霜冻雪怪"
 	quest.5C7DC397FD36FFDB.quest_desc: [
 		"&a目标：获得训练人偶"
 		""
