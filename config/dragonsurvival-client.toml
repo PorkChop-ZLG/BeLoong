@@ -89,8 +89,8 @@
 	[effects.hunter]
 		#If enabled items held in first person will also appear translucent
 		hunter_translucent_items_in_first_person = true
-		#This enables the shader features of fabulous mode which are needed for translucency to work correctly
-		hunter_fix_translucency = true
+		#Whether to inform the user about potential transparency issue (once per world)
+		hunter_send_info_message = true
 
 [rendering]
 	#If enabled dragon claws and teeth will have an overlay depending on the items in the claw slots
@@ -191,3 +191,17 @@
 	flight_camera_movement = true
 	#If enabled together with [jump_to_fly] you will be required to look at the sky to start flying
 	lookAtSkyForFlight = false
+	#How much the FOV expands during a spin
+	# Default: 0.07999999821186066
+	# Range: 0.0 ~ 0.5
+	spin_camera_fov_strength = 0.07999999821186066
+	#How much the camera widens during the main travel phase of a spin
+	# Default: 0.1599999964237213
+	# Range: 0.0 ~ 0.5
+	spin_camera_travel_zoom_strength = 0.1599999964237213
+	#Enable / Disable camera punch and FOV changes while using spin as a dragon
+	spin_camera_effect = true
+	#How much the camera briefly tightens at the start of a spin
+	# Default: 0.07999999821186066
+	# Range: 0.0 ~ 0.5
+	spin_camera_entry_zoom_strength = 0.07999999821186066
