@@ -1949,16 +1949,6 @@
 	]
 	quest.359B897165997027.quest_subtitle: "As of release date, in no particular order"
 	quest.359B897165997027.title: "Acknowledgements List"
-	quest.3643966DD5B81882.quest_desc: [
-		"&aObjective: Obtain the Mob Ball and Mob Capturing Launcher"
-		""
-		"&eMob Balls &6can capture &cany &6living entity."
-		"&6You can view the captured mob in your inventory."
-		"&eThe Mob Capturing Launcher &6can fire Mob Balls remotely,"
-		"&6suitable for releasing more dangerous mobs."
-	]
-	quest.3643966DD5B81882.quest_subtitle: "Mob Capturing Tools"
-	quest.3643966DD5B81882.title: "Mob Ball"
 	quest.366B99B5082468A6.quest_subtitle: "&5&l「Shadow」&r&eLegacy of the Draconic Ancestors"
 	quest.366B99B5082468A6.title: "Act 4: Dragon Heart"
 	quest.36C95FFAF0BAB532.title: "Spin to Win Empowerment"

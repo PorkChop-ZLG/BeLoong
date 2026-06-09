@@ -1422,30 +1422,6 @@
 		{
 			dependencies: ["75BFB4E20D3E76DC"]
 			dependency_requirement: "one_started"
-			id: "3643966DD5B81882"
-			rewards: [{
-				id: "6F2F835453320DDE"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "69CBBB4B32E5B254"
-					item: { count: 1, id: "mobcatcher:net" }
-					type: "item"
-				}
-				{
-					id: "319E397DDECDF2F8"
-					item: { count: 1, id: "mobcatcher:net_launcher" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["75BFB4E20D3E76DC"]
-			dependency_requirement: "one_started"
 			id: "5C7DC397FD36FFDB"
 			rewards: [{
 				id: "43855E9FBD4560C5"

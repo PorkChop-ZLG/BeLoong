@@ -594,23 +594,23 @@
 		#Maximum slot cost a mob may have to be captured by the basic mob catcher. This is a hard limit, not a clamp.
 		# Default: 18
 		# Range: 1 ~ 120
-		basicMaxSlotCost = 18
+		basicMaxSlotCost = 30
 		#Maximum slot cost a mob may have to be captured by the advanced mob catcher. This is a hard limit, not a clamp.
 		# Default: 72
 		# Range: 1 ~ 120
-		advancedMaxSlotCost = 72
+		advancedMaxSlotCost = 100
 		#Multiplier applied to animal mob slot cost.
 		# Default: 1.0
 		# Range: 0.1 ~ 10.0
-		animalMultiplier = 1.0
+		animalMultiplier = 0.5
 		#Multiplier applied to hostile mob slot cost.
 		# Default: 2.0
 		# Range: 0.1 ~ 10.0
-		hostileMultiplier = 2.0
+		hostileMultiplier = 1.0
 		#When true, mobs that expose inventories or container menus are not capturable.
 		disallowInventoryEntities = false
 		#Entity types that cannot be captured.
-		entityBlockList = []
+		entityBlockList = ["minecraft:wither", "minecraft:ender_dragon", "fdbosses:block_projectile", "fdbosses:chesed", "fdbosses:chesed_boss_spawner", "fdbosses:geburah", "fdbosses:geburah_boss_spawner", "fdbosses:malkuth", "fdbosses:malkuth_boss_spawner", "fdbosses:chesed_crystal", "fdbosses:chesed_monolith", "fdbosses:chesed_ray_reflector", "fdbosses:malkuth_cannon", "fdbosses:malkuth_repair_crystal", "undergarden:forgotten_guardian", "touhou_little_maid:maid", "darkdoppelganger:dark_doppelganger", "darkdoppelganger:dark_doppelganger_minion", "darkdoppelganger:ender_dagger", "darkdoppelganger:ender_field", "darkdoppelganger:portal_join_entity", "darkdoppelganger:portal_leave_entity", "terra_entity:king_slime", "terra_entity:eye_of_cthulhu", "terra_entity:brain_of_cthulhu", "terra_entity:visual_neuron", "terra_entity:eater_of_worlds", "terra_entity:eater_of_worlds_segment", "terra_entity:queen_bee", "terra_entity:skeletron", "terra_entity:skeletron_hand", "terra_entity:wall_of_flesh", "terra_entity:wall_of_flesh_eye", "terra_entity:wall_of_flesh_mouth", "iceandfire:amphithere", "iceandfire:fire_dragon", "iceandfire:fire_dragon_charge", "iceandfire:ice_dragon", "iceandfire:ice_dragon_charge", "iceandfire:lightning_dragon", "iceandfire:lightning_dragon_charge", "eternal_starlight:the_gatekeeper", "eternal_starlight:starlight_golem", "eternal_starlight:lunar_monstrosity"]
 		#Entity types treated as hostile by mob catcher slot cost and tier rules.
 		hostileOverrides = []
 		#Entity types treated as passive by mob catcher slot cost and tier rules.
