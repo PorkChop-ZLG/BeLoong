@@ -6,7 +6,7 @@
           "entity_effect": [
             {
               "effect_type": "dragonsurvival:flight",
-              "icon": "dragonsurvival:textures/gui/custom/mana_icons/aether/empty.png",
+              "icon": "dragonsurvival:textures/ability_effect/sea_dragon_wings.png",
               "level_requirement": 1
             },
             {
@@ -14,7 +14,7 @@
               "modifiers": [
                 {
                   "base": {
-                    "id": "dragonsurvival:aether_wings_flight_level",
+                    "id": "dragonsurvival:sea_wings_flight_level",
                     "is_hidden": true
                   },
                   "modifiers": [
@@ -47,7 +47,7 @@
               "modifiers": [
                 {
                   "base": {
-                    "id": "dragonsurvival:aether_wings_flight_speed",
+                    "id": "dragonsurvival:sea_wings_flight_speed",
                     "is_hidden": true
                   },
                   "modifiers": [
@@ -69,7 +69,7 @@
               "modifiers": [
                 {
                   "base": {
-                    "id": "dragonsurvival:aether_wings_flight_stamina",
+                    "id": "dragonsurvival:sea_wings_flight_stamina",
                     "is_hidden": true
                   },
                   "modifiers": [
@@ -100,31 +100,31 @@
     "texture_entries": [
       {
         "from_level": 0,
-        "texture_resource": "dragonsurvival:abilities/aether/levitation_0"
+        "texture_resource": "dragonsurvival:abilities/sea/sea_wings_0"
       },
       {
         "from_level": 1,
-        "texture_resource": "dragonsurvival:abilities/aether/levitation_1"
+        "texture_resource": "dragonsurvival:abilities/sea/sea_wings_1"
       },
       {
         "from_level": 2,
-        "texture_resource": "dragonsurvival:abilities/aether/levitation_1"
+        "texture_resource": "dragonsurvival:abilities/sea/sea_wings_1"
       },
       {
         "from_level": 3,
-        "texture_resource": "dragonsurvival:abilities/aether/levitation_1"
+        "texture_resource": "dragonsurvival:abilities/sea/sea_wings_1"
       },
       {
         "from_level": 4,
-        "texture_resource": "dragonsurvival:abilities/aether/levitation_1"
+        "texture_resource": "dragonsurvival:abilities/sea/sea_wings_1"
       },
       {
         "from_level": 5,
-        "texture_resource": "dragonsurvival:abilities/aether/levitation_1"
+        "texture_resource": "dragonsurvival:abilities/sea/sea_wings_1"
       },
       {
         "from_level": 6,
-        "texture_resource": "dragonsurvival:abilities/aether/levitation_1"
+        "texture_resource": "dragonsurvival:abilities/sea/sea_wings_1"
       }
     ]
   },

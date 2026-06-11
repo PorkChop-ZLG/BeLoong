@@ -41,6 +41,8 @@ usernamecache.json
 kubejs/mcdoc/
 kubejs/spyglass/
 kubejs/spyglass.json
+# ---- 反向追踪 kubejs/data 文件夹 ----
+!kubejs/data/
 
 # ---- 仅追踪部分 config ----
 # 以下配置文件会实时更新，所以忽略
