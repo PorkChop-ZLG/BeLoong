@@ -216,15 +216,15 @@
       "effects": [
         {
           "duration": 400,
-          "effect": "minecraft:night_vision"
-        },
-        {
-          "duration": 400,
           "effect": "dragonsurvival:source_of_magic"
         },
         {
           "duration": 400,
           "effect": "dragonsurvival:empowered_soul"
+        },
+        {
+          "duration": 400,
+          "effect": "star_dragon:immune_to_sunlight"
         }
       ],
       "payment_data": {

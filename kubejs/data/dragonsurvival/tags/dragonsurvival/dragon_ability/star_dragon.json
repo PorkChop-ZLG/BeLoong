@@ -1,19 +1,27 @@
 {
   "values": [
+    "dragonsurvival:star_transformation",
     "dragonsurvival:stardust_armor",
+    "dragonsurvival:true_gravity_field",
     "dragonsurvival:sun_protection",
     "dragonsurvival:star_athletics",
+    "dragonsurvival:star_laser",
     "dragonsurvival:star_wings",
     "dragonsurvival:night_sky_flying",
     "dragonsurvival:glowing",
     "dragonsurvival:star_magic",
     "dragonsurvival:stellar_breath",
+    "dragonsurvival:stellar_cells",
     "dragonsurvival:black_hole",
     "dragonsurvival:gravitational_field",
     "dragonsurvival:star_spin",
     "dragonsurvival:starbound_projection",
+    "dragonsurvival:constellation_wheel",
     "dragonsurvival:supernova_explosion",
     "dragonsurvival:star_dragon",
+    "dragonsurvival:control_time",
+    "dragonsurvival:constellation_passive",
+    
 		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"
   ]

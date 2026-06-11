@@ -3348,6 +3348,20 @@
 				append = ""
 				format = ""
 
+	[type."Time backfires"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type."Time backfires".icon]
+			tex = ""
+			item = ""
+
+		[type."Time backfires".format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"

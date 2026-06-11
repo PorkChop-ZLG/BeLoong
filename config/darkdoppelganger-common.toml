@@ -71,7 +71,7 @@
 	[dark_doppelganger.final]
 		spells_a = ["irons_spellbooks:eldritch_blast", "irons_spellbooks:sonic_boom", "irons_spellbooks:ray_of_frost", "irons_spellbooks:sculk_tentacles"]
 		spells_b = ["irons_spellbooks:ascension", "irons_spellbooks:ray_of_siphoning"]
-		spells_c = ["irons_spellbooks:blood_step", "irons_spellbooks:greater_heal"]
+		spells_c = ["irons_spellbooks:blood_step"]
 		spells_d = ["irons_spellbooks:echoing_strikes", "irons_spellbooks:root", "irons_spellbooks:blight", "irons_spellbooks:counterspell"]
 
 #Minion Configuration
