@@ -98,3 +98,12 @@
 	#返回结构相对于玩家传送坐标的 Z 偏移
 	#结构默认为 5×5 底部平台，-2 = 玩家位于平台中央
 	structureOffsetZ = -2
+
+[structure_effects]
+	#需要监听过期/移除事件的药水效果ID列表
+	#当这些效果过期、被牛奶清除或被指令移除时，触发结构重检
+	watchedEffects = ["beloong:flight_ban"]
+	#结构效果配置，格式: "结构ID|效果ID|等级|持续时间(tick)"
+	#等级: 0 = I级, 1 = II级, 以此类推
+	#示例: "cataclysm:burning_arena|beloong:flight_ban|5|100"
+	entries = ["cataclysm:burning_arena|beloong:flight_ban|5|100"]
