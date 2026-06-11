@@ -395,7 +395,7 @@ key_key.l2mods.alt:key.keyboard.unknown
 key_key.unlockIME:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.2018779342723004
 soundCategory_record:0.20422535211267606
 soundCategory_weather:1.0
 soundCategory_block:1.0

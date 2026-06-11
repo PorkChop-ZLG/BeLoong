@@ -106,4 +106,4 @@
 	#结构效果配置，格式: "结构ID|效果ID|等级|持续时间(tick)"
 	#等级: 0 = I级, 1 = II级, 以此类推
 	#示例: "cataclysm:burning_arena|beloong:flight_ban|5|100"
-	entries = ["cataclysm:burning_arena|beloong:flight_ban|5|100"]
+	entries = ["cataclysm:acropolis|beloong:flight_ban|5|100", "cataclysm:ancient_factory|beloong:flight_ban|5|100", "cataclysm:burning_arena|beloong:flight_ban|5|100", "cataclysm:cursed_pyramid|beloong:flight_ban|5|100", "cataclysm:frosted_prison|beloong:flight_ban|5|100", "cataclysm:ruined_citadel|beloong:flight_ban|5|100", "cataclysm:soul_black_smith|beloong:flight_ban|5|100", "cataclysm:sunken_city|beloong:flight_ban|5|100", "fdbosses:chesed_arena|beloong:flight_ban|6|100", "fdbosses:geburah_arena|beloong:flight_ban|6|100", "fdbosses:malkuth_arena|beloong:flight_ban|6|100"]
