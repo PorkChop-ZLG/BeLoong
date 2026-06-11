@@ -3362,6 +3362,20 @@
 			append = ""
 			format = ""
 
+	[type.starlight_exhaustion]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.starlight_exhaustion.icon]
+			tex = ""
+			item = ""
+
+		[type.starlight_exhaustion.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"

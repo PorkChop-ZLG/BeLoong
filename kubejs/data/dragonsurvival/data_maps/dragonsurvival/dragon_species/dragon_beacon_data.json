@@ -216,15 +216,11 @@
       "effects": [
         {
           "duration": 400,
-          "effect": "dragonsurvival:source_of_magic"
-        },
-        {
-          "duration": 400,
           "effect": "dragonsurvival:empowered_soul"
         },
         {
           "duration": 400,
-          "effect": "star_dragon:immune_to_sunlight"
+          "effect": "star_dragon:starlight_replenish"
         }
       ],
       "payment_data": {

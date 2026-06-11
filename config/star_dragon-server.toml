@@ -1,0 +1,59 @@
+[general]
+	#Enable block destruction from skills (laser, supernova, black hole)
+	blockDestruction = true
+	#Enable time manipulation ability (only one player per world can use)
+	timeAbility = true
+
+[skills]
+	#Base damage for Black Hole skill
+	# Default: 6.0
+	# Range: 1.0 ~ 20.0
+	blackHoleBaseDamage = 6.0
+
+[starlight]
+	#Minimum day-night factor at noon (0.0 ~ 1.0)
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	dayNightMin = 0.3
+	#Weather factor when raining
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	weatherRainFactor = 0.7
+	#Weather factor when thundering
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	weatherThunderFactor = 0.5
+	#Sky-open factor when sky is blocked (underground)
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	skyBlockedFactor = 0.6
+	#Base increase rate per tick when starPower > 0.5
+	# Default: 0.005
+	# Range: 0.0 ~ 1.0
+	baseIncreaseRate = 0.005
+	#Base decrease rate per tick when starPower < 0.5
+	# Default: 0.005
+	# Range: 0.0 ~ 1.0
+	baseDecreaseRate = 0.005
+	#Acceleration strength: how much faster the bar moves away from 50%
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	accelerationStrength = 1.0
+	#Minimum damage modifier when bar is at 0%
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	minDamageModifier = 0.1
+	#Dimension override: dimId:strategy (strategies: overworld_logic, end_logic, nether_logic)
+	dimensionOverrides = []
+	#Star cubes scan radius (blocks)
+	# Default: 6
+	# Range: 1 ~ 32
+	cubesRange = 6
+	#Star power bonus per nearby star cube block
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	cubesBonusPer = 0.05
+	#Maximum star power bonus from cubes
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	cubesBonusMax = 0.5

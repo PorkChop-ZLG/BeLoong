@@ -1,0 +1,3 @@
+[performance]
+	#Reduce laser visual effects (spirals, pulse rings, shockwaves). Enable on low-end PCs.
+	laserReduced = false
