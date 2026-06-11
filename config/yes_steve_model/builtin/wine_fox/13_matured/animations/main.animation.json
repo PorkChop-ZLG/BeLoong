@@ -1005,38 +1005,38 @@
 				"LeftArm": {
 					"rotation": {
 						"0.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-11.8591802165:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-8.6083164641:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-11.8591802165:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-8.6083164641:0"
 						],
 						"0.25": [0, 0, "(!ysm.has_offhand && v.roaming.umbrella)?0:-math.sin(60+q.anim_time*240)*0.5"],
 						"13.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-11.8591802165:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-8.6083164641:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-11.8591802165:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-8.6083164641:0"
 						],
 						"13.2917": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-11.8591802165:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-8.6083164641:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-11.8591802165:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-8.6083164641:0"
 						],
 						"13.4583": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-11.8591802165:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-11.8591802165:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0",
 							5
 						],
 						"13.5": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-11.8591802165:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-11.8591802165:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0",
 							5
 						],
 						"13.7083": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-11.8591802165:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-11.8591802165:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0",
 							-15
 						],
-						"14.5": [4.94526, "(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0", -15],
-						"14.6667": [4.95, "(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-7.9084408044:0", -15],
+						"14.5": [4.94526, "(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0", -15],
+						"14.6667": [4.95, "(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-7.9084408044:0", -15],
 						"15.4167": [0, 0, 0],
 						"20.9583": [0, 0, 0],
 						"21.4583": {
@@ -1368,9 +1368,9 @@
 				"LeftForeArm": {
 					"rotation": {
 						"0.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-73.8784626549:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-0.9361602243:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?23.9096228878:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-73.8784626549:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-0.9361602243:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?23.9096228878:0"
 						],
 						"8.25": {
 							"pre": [
@@ -1386,9 +1386,9 @@
 							"lerp_mode": "catmullrom"
 						},
 						"13.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-73.8784626549:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-0.9361602243:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?23.9096228878:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-73.8784626549:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-0.9361602243:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?23.9096228878:0"
 						],
 						"14.5": [4.97111, 0, -9.49122],
 						"14.6667": [4.97, 0, -9.49],
@@ -1589,14 +1589,14 @@
 				"LeftHand": {
 					"rotation": {
 						"0.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-39.8727581274:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?14.5883354009:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?10.2907230904:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-39.8727581274:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?14.5883354009:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?10.2907230904:0"
 						],
 						"13.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-39.8727581274:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?14.5883354009:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?10.2907230904:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-39.8727581274:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?14.5883354009:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?10.2907230904:0"
 						]
 					},
 					"position": {
@@ -1613,40 +1613,40 @@
 				"UMBRELLA": {
 					"position": {
 						"0.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0.5:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-0.2:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-1:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0.5:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-0.2:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-1:0"
 						],
 						"13.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0.5:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-0.2:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-1:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0.5:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-0.2:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-1:0"
 						]
 					}
 				},
 				"leftfist": {
 					"rotation": {
 						"0.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-30:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-30:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0:0"
 						],
 						"13.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-30:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-30:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0:0"
 						]
 					},
 					"position": {
 						"0.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0.5:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-0.7:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0.5:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-0.7:0"
 						],
 						"13.0": [
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?0.5:0",
-							"(!ysm.has_offhand && v.roaming.umbrella && !query.is_sitting)?-0.7:0"
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?0.5:0",
+							"(!ysm.has_offhand && v.roaming.umbrella && !tlm.is_sitting)?-0.7:0"
 						]
 					}
 				},
@@ -14416,7 +14416,7 @@
 					"rotation": [-97.5, 0, 0]
 				},
 				"LeftHand": {
-					"rotation": ["query.is_sitting", 0, 0]
+					"rotation": ["tlm.is_sitting", 0, 0]
 				},
 				"RightArm": {
 					"rotation": [-16.36648, -42.10287, -4.20805]

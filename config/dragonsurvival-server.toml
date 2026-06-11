@@ -465,6 +465,14 @@
 	#Format: resource/tag;x_offset;y_offset;z_offset
 	#The resource can also be defined using regular expressions (for both namespace and path)
 	riding_offsets = ["#c:boats;0.0;0.9;0.0"]
+	#Maximum dragon-rider size compared to mount dragon. Default: 0.8 (80%).
+	# Default: 0.800000011920929
+	# Range: -1000.0 ~ 1000.0
+	dragon_riding_scale = 0.800000011920929
+	#Maximum human-rider size compared to mount dragon. Default: 0.7 (70%).
+	# Default: 0.699999988079071
+	# Range: -1000.0 ~ 1000.0
+	player_riding_scale = 0.699999988079071
 
 [food]
 	#Dragons will need to adhere to their diets if enabled

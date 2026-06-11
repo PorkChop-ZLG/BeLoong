@@ -11752,20 +11752,6 @@
 						}
 					}
 				},
-				"Root": {
-					"position": {
-						"0.0": {
-							"post": [0, "v.in_land??0", 0],
-							"lerp_mode": "catmullrom"
-						}
-					},
-					"scale": {
-						"0.0": {
-							"post": ["v.player_size??1", "v.player_size??1", "v.player_size??1"],
-							"lerp_mode": "catmullrom"
-						}
-					}
-				},
 				"RightHandLocator": {
 					"scale": {
 						"0.0": {
@@ -11944,6 +11930,20 @@
 				},
 				"weixiao": {
 					"position": [0, 0, -1]
+				},
+				"MRoot": {
+					"position": {
+						"0.0": {
+							"post": [0, "v.in_land??0", 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"post": ["v.player_size??1", "v.player_size??1", "v.player_size??1"],
+							"lerp_mode": "catmullrom"
+						}
+					}
 				}
 			}
 		},

@@ -79,7 +79,7 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	# Set to false for the following reasons: 
-	# Incompatible with twilightforest@4.7.3196 (*) (defined in c2me) 
+	# Incompatible with twilightforest@4.8.3345 (*) (defined in c2me) 
 	optimizeStructureWeightSampler = false
 
 [chunkSystem]
@@ -189,11 +189,17 @@ globalExecutorParallelism = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
+	# (Default: 200) Applies a multiplier *in percentage* to the target chunk sending rate from vanilla
+	# Setting this to 0 disables rate limiting
+	# 
+	# Defaults to 200, which is 200%
+	# 
+	chunkSendingSpeedMultiplierPercentage = "default"
 
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 81) Max render distance allowed in game options
+		# (Default: 77) Max render distance allowed in game options
 		maxViewDistance = "default"
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server

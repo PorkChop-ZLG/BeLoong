@@ -156,9 +156,20 @@
     },
     "vehicles": {
       "minecraft:horse": {
-        "model": "models/horse.json",
-        "texture": "textures/horse.png",
+        "model": "models/foxcar.json",
+        "texture": {
+          "uv": "textures/foxcar.png",
+          "specular": "textures/foxcar_s.png"
+        },
         "animation": "animations/vehicle/horse.animation.json"
+      },
+      "minecraft:mule": {
+        "model": "models/foxcar.json",
+        "texture": {
+          "uv": "textures/foxcar.png",
+          "specular": "textures/foxcar_s.png"
+        },
+        "animation": "animations/vehicle/mule.animation.json"
       },
       "minecraft:minecart": {
         "model": "models/minecart.json",

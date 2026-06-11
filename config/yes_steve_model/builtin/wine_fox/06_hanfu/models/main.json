@@ -12,12 +12,8 @@
 			},
 			"bones": [
 				{
-					"name": "bb_main",
-					"pivot": [0, 0, 0]
-				},
-				{
 					"name": "Root",
-					"pivot": [0, -0.35, 0]
+					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "MAllBody",
@@ -1104,6 +1100,23 @@
 							}
 						}
 					]
+				},
+				{
+					"name": "RightWaistLocator",
+					"parent": "UpperBody",
+					"pivot": [-7, 34.65, 7],
+					"rotation": [0, 90, 45]
+				},
+				{
+					"name": "BackpackLocator",
+					"parent": "UpperBody",
+					"pivot": [0, 31.15, 0.5]
+				},
+				{
+					"name": "RifleLocator",
+					"parent": "UpperBody",
+					"pivot": [0, 28.65, 9],
+					"rotation": [0, 0, 30]
 				},
 				{
 					"name": "AllHead",
@@ -3875,9 +3888,9 @@
 					"pivot": [3.33357, 22.73601, 0.00067]
 				},
 				{
-					"name": "shou2",
+					"name": "LeftHand",
 					"parent": "LeftForeArm",
-					"pivot": [3.2669, 21.70267, 0],
+					"pivot": [3.2669, 21.45267, 0],
 					"cubes": [
 						{
 							"origin": [1.92881, 18.92772, -1.3],
@@ -3895,8 +3908,18 @@
 				},
 				{
 					"name": "LeftHandLocator",
-					"parent": "LeftForeArm",
-					"pivot": [3.2669, 20.40267, 0]
+					"parent": "LeftHand",
+					"pivot": [3.2669, 19.90267, 0]
+				},
+				{
+					"name": "SheathLocator",
+					"parent": "LeftHand",
+					"pivot": [3.2669, 19.90267, 0]
+				},
+				{
+					"name": "LeftWaistLocator",
+					"parent": "LeftHand",
+					"pivot": [3.2669, 19.90267, 0]
 				},
 				{
 					"name": "bone38",
@@ -4098,9 +4121,9 @@
 					]
 				},
 				{
-					"name": "shou3",
+					"name": "RightHand",
 					"parent": "RightForeArm",
-					"pivot": [-3.2669, 21.70267, 0],
+					"pivot": [-3.2669, 21.20267, 0],
 					"cubes": [
 						{
 							"origin": [-4.42881, 18.92772, -1.3],
@@ -4118,8 +4141,13 @@
 				},
 				{
 					"name": "RightHandLocator",
-					"parent": "RightForeArm",
-					"pivot": [-3.2669, 20.40267, 0]
+					"parent": "RightHand",
+					"pivot": [-3.2669, 19.90267, 0]
+				},
+				{
+					"name": "BladeLocator",
+					"parent": "RightHand",
+					"pivot": [-3.2669, 19.90267, 0]
 				},
 				{
 					"name": "YIFUSHANG6",
@@ -6068,33 +6096,10 @@
 					]
 				},
 				{
-					"name": "LeftWaistLocator",
-					"parent": "UpBody",
-					"pivot": [4, 25.65, 0],
-					"rotation": [-10, 0, 0]
-				},
-				{
-					"name": "RightWaistLocator",
-					"parent": "UpBody",
-					"pivot": [-4, 25.65, 0],
-					"rotation": [-25, 0, 0]
-				},
-				{
 					"name": "PistolLocator",
 					"parent": "UpBody",
 					"pivot": [-3.5, 24.9, -1.25],
 					"rotation": [-29.14314, 5.90316, 16.50371]
-				},
-				{
-					"name": "RifleLocator",
-					"parent": "UpBody",
-					"pivot": [0, 28.65, 2],
-					"rotation": [0, 0, 30]
-				},
-				{
-					"name": "BackpackLocator",
-					"parent": "UpBody",
-					"pivot": [0, 31.15, 0]
 				},
 				{
 					"name": "DownBody",

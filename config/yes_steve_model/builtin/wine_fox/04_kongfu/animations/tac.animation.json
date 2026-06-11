@@ -2001,7 +2001,7 @@
 						"1.5833": {
 							"post": [
 								"(ctrl.elytra_fly==true?-10:0)+(11.2282-0.2*ysm.head_pitch)",
-								"((ysm.head_yaw>0)?(-0.9*sm.head_yaw):(0))+(ctrl.elytra_fly==true?0:35.1606)",
+								"((ysm.head_yaw>0)?(-0.9*ysm.head_yaw):(0))+(ctrl.elytra_fly==true?0:35.1606)",
 								0.49284
 							],
 							"lerp_mode": "catmullrom"
@@ -3492,7 +3492,7 @@
 						"0.0": {
 							"post": [
 								"(ctrl.elytra_fly==true?-10:0)+(8.6439-0.25*ysm.head_pitch)",
-								"(ctrl.elytra_fly==true?0:29.7174)+(ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw)",
+								"(ctrl.elytra_fly==true?0:29.7174)+((ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw))",
 								4.30963
 							],
 							"lerp_mode": "catmullrom"
@@ -3602,7 +3602,7 @@
 						"0.0": {
 							"post": [
 								"(ctrl.elytra_fly==true?-10:0)+(8.6439-0.25*ysm.head_pitch)",
-								"(ctrl.elytra_fly==true?0:29.7174)+(ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw)",
+								"(ctrl.elytra_fly==true?0:29.7174)+((ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw))",
 								4.30963
 							],
 							"lerp_mode": "catmullrom"
@@ -3716,7 +3716,7 @@
 						"0.0": {
 							"post": [
 								"(ctrl.elytra_fly==true?-10:0)+(8.6439-0.25*ysm.head_pitch)",
-								"(ctrl.elytra_fly==true?0:29.7174)+(ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw)",
+								"(ctrl.elytra_fly==true?0:29.7174)+((ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw))",
 								4.30963
 							],
 							"lerp_mode": "catmullrom"
@@ -4955,7 +4955,7 @@
 						"0.0": {
 							"post": [
 								"(ctrl.elytra_fly==true?-10:0)+(8.6439-0.25*ysm.head_pitch)",
-								"(ctrl.elytra_fly==true?0:29.7174)+(ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw)",
+								"(ctrl.elytra_fly==true?0:29.7174)+((ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw))",
 								4.30963
 							],
 							"lerp_mode": "catmullrom"
@@ -5110,7 +5110,7 @@
 						"0.0": {
 							"post": [
 								"(ctrl.elytra_fly==true?-10:0)+(8.6439-0.25*ysm.head_pitch)",
-								"(ctrl.elytra_fly==true?0:29.7174)+(ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw)",
+								"(ctrl.elytra_fly==true?0:29.7174)+((ysm.head_yaw<0)?(-0.3*ysm.head_yaw):(-0.8*ysm.head_yaw))",
 								4.30963
 							],
 							"lerp_mode": "catmullrom"

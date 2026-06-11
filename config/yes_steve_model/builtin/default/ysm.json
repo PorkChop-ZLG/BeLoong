@@ -98,6 +98,7 @@
     "gui_background": "textures/gui/background.png",
     "default_texture": "default",
     "render_layers_first": false,
+    "merge_multiline_expr": true,
     "free": true
   },
   "files": {

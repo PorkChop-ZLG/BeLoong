@@ -125,7 +125,7 @@
 				"parcool": "animations/跑酷动画.json",
 				"tlm": "animations/女仆动画.json"
 			},
-			"animation_controllers": ["controller/主动画修改.json", "controller/并行动画修改.json"]
+			"animation_controllers": ["controller/主动画修改.json", "controller/并行动画修改.json", "controller/车辆动画相关.json"]
 		}
 	},
 	"properties": {
@@ -190,7 +190,7 @@
 					},
 					{
 						"type": "checkbox",
-						"title": "前备箱",
+						"title": "引擎盖",
 						"description": "",
 						"value": "v.roaming.car_hood"
 					},
@@ -223,6 +223,12 @@
 						"title": "关闭按键鸣笛",
 						"description": "按Tab键鸣笛",
 						"value": "v.roaming.car_can_horn1"
+					},
+					{
+						"type": "checkbox",
+						"title": "赛车套件",
+						"description": "",
+						"value": "v.roaming.car_gt_suit"
 					}
 				]
 			}
@@ -232,6 +238,7 @@
 		"free": true,
 		"render_layers_first": false,
 		"disable_preview_rotation": true,
-		"all_cutout": false
+		"all_cutout": false,
+		"gui_no_lighting": false
 	}
 }
