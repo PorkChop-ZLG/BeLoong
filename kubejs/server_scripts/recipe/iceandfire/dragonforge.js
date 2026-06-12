@@ -513,6 +513,57 @@ ServerEvents.recipes(event => {
             }
         }
     )
+    // 远古龙心 + 大地水晶 = 龙炎煅炉 = 地黄龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "eternal_starlight:terra_crystal"
+            },
+            "result": {
+                "id": "kubejs:dihuang_loong_heart"
+            }
+        }
+    )
+    // 远古龙心 + 大地水晶 = 龙霜煅炉 = 地黄龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "eternal_starlight:terra_crystal"
+            },
+            "result": {
+                "id": "kubejs:dihuang_loong_heart"
+            }
+        }
+    )
+    // 远古龙心 + 大地水晶 = 龙霆煅炉 = 地黄龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "eternal_starlight:terra_crystal"
+            },
+            "result": {
+                "id": "kubejs:dihuang_loong_heart"
+            }
+        }
+    )
     // 始祖龙心 + 始祖龙鳞 = 龙炎煅炉 = 始祖之力
     event.custom(
         {

@@ -1906,6 +1906,10 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "学会使用魔法书"
 	quest.346F1B08A0E6345D.title: "见习法师"
+	quest.348D233B6FFB81BA.quest_desc: [
+		"像末地传送门那样摆放，然后放入12中不同的眼球，方可打开传送门"
+		"任务为临时任务，下版本会修改"
+	]
 	quest.34CBA8F45D46E480.quest_subtitle: "作者：YeueingE"
 	quest.34CBA8F45D46E480.title: "预制建筑：新手小屋"
 	quest.34F81E5815B0AB4B.quest_desc: [
@@ -3931,7 +3935,7 @@
 		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
 	]
 	quest.735C8B5A219C57AE.quest_desc: [
-		"&a目标：学会使用技能，击杀1只铁傀儡"
+		"&a目标：学会使用技能，击杀任意一只怪物"
 		""
 		"&6每种龙都有其专属技能，点击物品栏上方的&6技能信息&f。"
 		"&6龙能携带4个&e主动技能&6，位于屏幕&e右下角&6。"

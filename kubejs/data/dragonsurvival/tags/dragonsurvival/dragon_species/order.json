@@ -1,13 +1,14 @@
 {
   "replace": true,
   "values": [
+    "dragonsurvival:dihuang_loong",
+    "dragonsurvival:aether_dragon",
+    "dragonsurvival:tundra_dragon",
+    "dragonsurvival:star_dragon",
     "dragonsurvival:cave_dragon",
     "dragonsurvival:forest_dragon",
     "dragonsurvival:sea_dragon",
-    "dragonsurvival:aether_dragon",
-    "dragonsurvival:tundra_dragon",
     "dragonsurvival:crystcursed_dragon",
-    "dragonsurvival:star_dragon",
     "dragonsurvival:astral_dragon",
     "dragonsurvival:frostfire_dragon",
     "dragonsurvival:wing_kirin"

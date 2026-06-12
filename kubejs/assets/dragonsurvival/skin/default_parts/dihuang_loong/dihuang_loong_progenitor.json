@@ -1,0 +1,16 @@
+{
+  "species": "dragonsurvival:dihuang_loong",
+  "stage": "dragonsurvival:dihuang_progenitor",
+  "model": "dragonsurvival:dihuang_loong",
+  "parts": {
+    "base": "dihuang_base",
+    "bottom": "dihuang_bottom",
+    "eyes": "dihuang_eyes",
+    "horns": "dihuang_horns",
+    "spikes": "dihuang_spikes",
+    "claws": "dihuang_claws",
+    "teeth": "dihuang_teeth",
+    "magic": "dihuang_magic",
+    "extra": "dihuang_tail"
+  }
+}

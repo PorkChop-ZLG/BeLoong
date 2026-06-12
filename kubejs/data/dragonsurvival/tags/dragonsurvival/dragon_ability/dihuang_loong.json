@@ -1,0 +1,21 @@
+{
+    "values": [
+        "dragonsurvival:ore_sense",
+        "dragonsurvival:stoneplate_armor",
+        "dragonsurvival:ground_stomp",
+        "dragonsurvival:orbiting_shards",
+        "dragonsurvival:lithic_shelter",
+
+        "dragonsurvival:earth_magic",
+        "dragonsurvival:sunlight_strain",
+        "dragonsurvival:earth_athletics",
+        "dragonsurvival:seismic_charge",
+        
+        "dragonsurvival:tectonic_dash",
+        "dragonsurvival:mineral_carapace",
+        "dragonsurvival:associated_rock_armor",
+        
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller"
+    ]
+}

@@ -296,10 +296,10 @@
 				}
 			]
 			tasks: [{
-				entity: "minecraft:iron_golem"
-				id: "778C036934E764A3"
-				type: "kill"
-				value: 1L
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "16A4F864C4C3A7F5"
+				type: "advancement"
 			}]
 			x: 8.5d
 			y: 0.0d
