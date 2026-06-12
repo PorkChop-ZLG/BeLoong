@@ -29,6 +29,7 @@
 	chapter.29CB766687624EDA.title: "怪物图鉴"
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
+	chapter.2E3FB1BAF707F532.title: "⑥ 天灾"
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
 		"第二章：童年的回忆"
 		"可曾记得，最初的感动？"
@@ -2192,6 +2193,8 @@
 	quest.3DB21E73BA8C8682.quest_subtitle: "投影任何图片"
 	quest.3DF3F67A1FEA8AFE.quest_subtitle: "这是否有点残忍"
 	quest.3DF3F67A1FEA8AFE.title: "获取P点"
+	quest.3E19144D5EB7AD14.quest_desc: ["这是天灾传送门框架的临时获取方式，仅1.3.3可用，后续会修改"]
+	quest.3E19144D5EB7AD14.title: "兑换天灾传送门"
 	quest.3E52E801E902AB50.quest_desc: [
 		"&6更新版本时，旧存档的龙族技能不会更新。"
 		"&6使用该指令可以重置龙族的技能。"
@@ -4101,7 +4104,8 @@
 		"&7【&d&lR&r&7】&6&l龙族：切换下个技能"
 		"&7【&d&lG&r&7】&6&l龙族：开关飞行能力"
 		"&7【&d&lV&r&7】&6&l龙族：使用旋冲技能"
-		"&7【&d&lAlt+N&r&7】&6&l龙族：开关碾压能力"
+		"&7【&d&lN&r&7】&6&l龙族：开关碾压能力"
+		"&7【&d&lF9&7】&6&l龙族：开关滚筒飞行"
 		"&7【&d&lK&r&7】&a查看任务"
 		"&7【&d&lX&r&7】&a空手X+右键搬运生物"
 		"&7【&d&lM&r&7】&a打开地图"

@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "2E3FB1BAF707F532"
+	group: "68BA145F90AA30CE"
+	icon: {
+		components: {
+			"ftbquests:icon": "beloong:block/disaster_portal_frame_top"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "2E3FB1BAF707F532"
+	images: [
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 180.0d
+			width: 1.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 180.0d
+			width: 1.2d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 180.0d
+			width: 1.2d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "348D233B6FFB81BA"
+			tasks: [{
+				id: "30F0A082686899E5"
+				item: { count: 1, id: "beloong:disaster_portal_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "07B6867A808FFAC7"
+			shape: "none"
+			tasks: [{
+				id: "38828CF88F5B0255"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3D97123D1901A1C8"
+			shape: "none"
+			tasks: [{
+				id: "3C64E202BA73834A"
+				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7F9E6D10F321927F"
+			shape: "none"
+			tasks: [{
+				id: "77583F0713CC77E7"
+				item: { count: 1, id: "fdbosses:eye_of_geburah" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "3E19144D5EB7AD14"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "0FB9384795C3D6D9"
+				item: {
+					count: 1
+					id: "beloong:disaster_portal_frame"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4050A83512229E84"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "76BDFD3D489242DC"
+			shape: "none"
+			tasks: [{
+				id: "0D1D993FB95A41B8"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "2BA5B4E1E4B65148"
+			shape: "none"
+			tasks: [{
+				id: "2E6821A1DB32EEB4"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6AE0A2C8D7978FC2"
+			shape: "none"
+			tasks: [{
+				id: "59EFCE0DEE2F3C1E"
+				item: { count: 1, id: "cataclysm:void_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3699E72666A2DBF6"
+			shape: "none"
+			tasks: [{
+				id: "57FCC9B9789B6AFC"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6285E3FE40B50A5D"
+			shape: "none"
+			tasks: [{
+				id: "2370FA9BD0909650"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3EC4B6AD875A25D5"
+			shape: "none"
+			tasks: [{
+				id: "4F81A6F7BA43C163"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "15AFDC56C1DDD186"
+			shape: "none"
+			tasks: [{
+				id: "5FD34999934450B0"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "29D055DC49B2AA7D"
+			shape: "none"
+			tasks: [{
+				id: "0DC7E65F96749E23"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "10F79CEDC9B4CAE1"
+			shape: "none"
+			tasks: [{
+				id: "29405D04BC84E37D"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+}
