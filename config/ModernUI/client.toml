@@ -181,6 +181,8 @@
 	# Default: 30000
 	# Range: 3000 ~ 120000
 	hoverTooltipHideTimeout = 30000
+	#Global theme and overlay.
+	theme = ["modernui:style/Theme.Material3.Dark", "modernui:style/ThemeOverlay.Material3.Dark.Rust"]
 
 #Font Config
 [font]
