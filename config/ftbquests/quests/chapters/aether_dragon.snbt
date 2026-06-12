@@ -445,6 +445,7 @@
 					id: "minecraft:bat_spawn_egg"
 				}
 				id: "2E09438801F1F328"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:bat"
@@ -676,6 +677,7 @@
 					id: "minecraft:sculk_shrieker"
 				}
 				id: "6C856CFB35DB6540"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "minecraft:sculk_shrieker"

@@ -794,6 +794,7 @@
 					id: "dragonsurvival:primordial_anchor"
 				}
 				id: "3F9D5A0ED02C341F"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "dragonsurvival:primordial_anchor"
@@ -1453,6 +1454,48 @@
 			}]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_4.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "16DF8F0EA133B69A"
+			rewards: [{
+				command: "/dragon-ability add @s dragonsurvival:air_strike"
+				id: "4B9637D64D06DF32"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				id: "07C610D03044B4C0"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "19E36A004B2CACC1"
+			rewards: [{
+				command: "/dragon-ability add @s dragonsurvival:tp_loong_palace"
+				id: "6BF153A621FBE02F"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				id: "2681E99F42E8BE25"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
 		}
 	]
 }

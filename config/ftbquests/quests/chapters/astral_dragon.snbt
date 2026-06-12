@@ -644,6 +644,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "70281E4A86DECA65"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "minecraft:end_portal"
@@ -818,6 +819,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "60A93AE1544A0A2D"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "minecraft:end_gateway"

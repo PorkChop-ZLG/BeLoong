@@ -986,6 +986,8 @@
 	quest.16B32CB0D55A9718.title: "项链T0"
 	quest.16DAA386E0B19BB2.quest_subtitle: "保底：憎恶之蜂"
 	quest.16DAA386E0B19BB2.title: "养蜂人"
+	quest.16DF8F0EA133B69A.quest_desc: ["这是一个临时任务，用于暂时解锁该技能，未来版本会改用其他方式获得！"]
+	quest.16DF8F0EA133B69A.title: "技能：龙击长空"
 	quest.170C5452183F9D7E.title: "观察：烈焰百合"
 	quest.1744C1A7A7BFF4D7.quest_desc: ["&6赛钱箱似乎无法取出5円的钱币，可以在这里兑换&r"]
 	quest.1744C1A7A7BFF4D7.quest_subtitle: "不过没人会这么干吧。。。"
@@ -1099,6 +1101,8 @@
 	]
 	quest.19DA784FDC312506.quest_subtitle: "【森林龙成长之路    完结】"
 	quest.19DA784FDC312506.title: "&2森林龙毕业"
+	quest.19E36A004B2CACC1.quest_desc: ["这是一个临时任务，用于暂时解锁该技能，未来版本会改用其他方式获得！"]
+	quest.19E36A004B2CACC1.title: "技能：龙宫传送"
 	quest.19EC475553EC785D.quest_subtitle: "呐，要开始放晴了哟~"
 	quest.19EC475553EC785D.title: "切换天气"
 	quest.19F5D45CF7D9CAF5.quest_desc: [

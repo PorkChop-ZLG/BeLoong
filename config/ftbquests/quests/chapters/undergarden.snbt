@@ -282,6 +282,7 @@
 					id: "minecraft:trial_spawner"
 				}
 				id: "7A1E94E375EA2B3F"
+				observation_type: "block"
 				observe_type: 0
 				timer: 20L
 				to_observe: "minecraft:trial_spawner"

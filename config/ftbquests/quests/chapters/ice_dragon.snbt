@@ -441,6 +441,7 @@
 					id: "minecraft:polar_bear_spawn_egg"
 				}
 				id: "78EF9DB8E97C1E11"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:polar_bear"
@@ -565,6 +566,7 @@
 					id: "iceandfire:frost_lily"
 				}
 				id: "179DAB6946B912A4"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "iceandfire:frost_lily"
@@ -797,6 +799,7 @@
 					id: "twilightforest:snow_queen_trophy"
 				}
 				id: "04B770E1360D373D"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "twilightforest:snow_queen_trophy"

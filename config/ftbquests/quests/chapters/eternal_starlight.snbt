@@ -1030,6 +1030,7 @@
 					id: "eternal_starlight:lunaris_cactus"
 				}
 				id: "4B1FD1984042D850"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "eternal_starlight:lunaris_cactus"

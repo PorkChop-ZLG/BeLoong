@@ -782,6 +782,7 @@
 					id: "lootr:lootr_chest"
 				}
 				id: "3A1ED648F842A732"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "lootr:lootr_chest"
@@ -943,6 +944,7 @@
 					id: "iceandfire:spawn_egg_fire_dragon"
 				}
 				id: "092CC7EB949EE6C9"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 60L
 				to_observe: "iceandfire:fire_dragon"
@@ -975,6 +977,7 @@
 					id: "iceandfire:spawn_egg_lightning_dragon"
 				}
 				id: "0144CA2E695874BB"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 60L
 				to_observe: "iceandfire:lightning_dragon"
@@ -1007,6 +1010,7 @@
 					id: "iceandfire:spawn_egg_ice_dragon"
 				}
 				id: "7C52DA188DB73F1D"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 60L
 				to_observe: "iceandfire:ice_dragon"

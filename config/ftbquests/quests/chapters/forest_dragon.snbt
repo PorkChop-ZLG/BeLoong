@@ -611,6 +611,7 @@
 					id: "minecraft:bamboo"
 				}
 				id: "41A1C12EE805E01B"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "minecraft:bamboo"
@@ -735,6 +736,7 @@
 					id: "regions_unexplored:glister_bulb"
 				}
 				id: "55DBCC2FBF451F22"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "regions_unexplored:glister_bulb"
@@ -904,6 +906,7 @@
 					id: "twilightforest:root_strand"
 				}
 				id: "03BDC4DCDD6DAB36"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "twilightforest:root_strand"

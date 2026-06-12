@@ -549,6 +549,7 @@
 					id: "minecraft:cactus"
 				}
 				id: "184DE056A62DEC82"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "minecraft:cactus"
@@ -682,6 +683,7 @@
 					id: "iceandfire:fire_lily"
 				}
 				id: "1D999AE40313D0FD"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "iceandfire:fire_lily"
@@ -818,6 +820,7 @@
 					id: "twilightforest:huge_water_lily"
 				}
 				id: "11640C3CFC9F4855"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "twilightforest:huge_water_lily"

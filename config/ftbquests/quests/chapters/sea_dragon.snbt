@@ -665,6 +665,7 @@
 					id: "minecraft:sea_pickle"
 				}
 				id: "2F5923966E6BACCC"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "minecraft:sea_pickle"
@@ -729,6 +730,7 @@
 					id: "minecraft:conduit"
 				}
 				id: "5DFB83608828A8A2"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "minecraft:conduit"
@@ -881,6 +883,7 @@
 					id: "regions_unexplored:hyacinth_flowers"
 				}
 				id: "13358AC504137756"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "regions_unexplored:hyacinth_flowers"

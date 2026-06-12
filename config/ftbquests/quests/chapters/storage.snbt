@@ -44,6 +44,7 @@
 					id: "beyonddimensions:net_furnace_block"
 				}
 				id: "31D7C8713F316B15"
+				observation_type: "block"
 				observe_type: 0
 				timer: 60L
 				to_observe: "beyonddimensions:net_furnace_block"

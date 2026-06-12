@@ -1118,6 +1118,7 @@
 					id: "alshanex_familiars:ritual_core"
 				}
 				id: "51B6B7C3EE7C972C"
+				observation_type: "block"
 				observe_type: 0
 				timer: 100L
 				to_observe: "alshanex_familiars:ritual_core"
