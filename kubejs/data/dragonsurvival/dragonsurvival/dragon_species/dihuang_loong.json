@@ -1,0 +1,47 @@
+{
+	"abilities": "#dragonsurvival:dihuang_loong",
+	"mana_handling": {
+		"mana_per_level": 0.2,
+		"mana_xp_conversion": 0.01,
+		"max_mana_from_levels": 20
+	},
+	"bodies": "dragonsurvival:dihuang_body",
+	"custom_stage_progression": [
+		"dragonsurvival:dihuang_newborn",
+		"dragonsurvival:dihuang_young",
+		"dragonsurvival:dihuang_adult",
+		"dragonsurvival:dihuang_ancient",
+		"dragonsurvival:dihuang_archean",
+		"dragonsurvival:dihuang_progenitor"
+	],
+	"misc_resources": {
+		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/dihuang/cast_bar.png",
+		"altar_banner": "dragonsurvival:textures/gui/custom/altar/dihuang/altar_icon.png",
+		"food_sprites": "dragonsurvival:textures/gui/custom/food_icons/dihuang_food_icons.png",
+		"food_tooltip": {
+			"nutrition_icon": "\\uEA02",
+			"saturation_icon": "\\uEA05"
+		},
+		"growth_crystal": {
+			"empty": "dragonsurvival:textures/gui/custom/stage/dihuang/point_main.png",
+			"full": "dragonsurvival:textures/gui/custom/stage/dihuang/point_hover.png"
+		},
+		"growth_left_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/left_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/left_arrow_main.png"
+		},
+		"growth_right_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/right_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/right_arrow_main.png"
+		},
+		"mana_sprites": {
+			"empty": "dragonsurvival:textures/gui/custom/mana_icons/dihuang/empty.png",
+			"full": "dragonsurvival:textures/gui/custom/mana_icons/dihuang/full.png",
+			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/dihuang/recovery.png",
+			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/dihuang/reserved.png"
+		},
+		"primary_color": "#E84141",
+		"secondary_color": "#730B0B"
+	},
+	"penalties": "#dragonsurvival:dihuang_loong"
+}
