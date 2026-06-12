@@ -507,6 +507,68 @@
 					"icon": "dragonsurvival:textures/gui/custom/stage/crystcursed/young_stage_main.png"
 				}
 			}
+		},
+		"dragonsurvival:dihuang_loong": {
+      "dragonsurvival:dihuang_progenitor": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/adult_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/adult_stage_main.png"
+				}
+			},
+      "dragonsurvival:dihuang_archean": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/adult_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/adult_stage_main.png"
+				}
+			},
+			"dragonsurvival:dihuang_adult": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/adult_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/adult_stage_main.png"
+				}
+			},
+			"dragonsurvival:dihuang_ancient": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/ancient_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/ancient_stage_main.png"
+				}
+			},
+			"dragonsurvival:dihuang_newborn": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/newborn_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/newborn_stage_main.png"
+				}
+			},
+			"dragonsurvival:dihuang_young": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dihuang_loong/dihuang_loong.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dihuang/young_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/dihuang/young_stage_main.png"
+				}
+			}
 		}
   }
 }

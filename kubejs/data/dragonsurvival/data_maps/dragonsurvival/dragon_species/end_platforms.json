@@ -95,6 +95,14 @@
         200
       ],
       "structure": "wing_kirin:end_spawn_platforms/end_spawn_platform"
-    }
+    },
+		"dragonsurvival:dihuang_loong": {
+			"spawn_position": [
+				0,
+				9,
+				0
+			],
+			"structure": "dragonsurvival:end_spawn_platforms/dihuang_end_spawn_platform"
+		}
   }
 }
