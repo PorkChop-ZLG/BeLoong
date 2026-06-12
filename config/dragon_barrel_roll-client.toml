@@ -1,0 +1,110 @@
+#Dragon Barrel Roll Configuration
+[dragon]
+	#Enable/Disable the entire mod.
+	enableMod = false
+	#Allow barrel roll while hovering (not sprint-flying).
+	enableHoverRoll = false
+	#Allow barrel roll while gliding (sprint-flying).
+	enableGlideRoll = true
+
+#Sync settings - synchronize DaBR rotation to dragon model
+[sync]
+	#Sync barrel roll rotation to dragon model.
+	syncRoll = true
+	#Sync pitch to dragon model.
+	syncPitch = true
+	#Sync yaw to dragon model.
+	syncYaw = true
+	#Disable barrel roll visual effects on dragon model, rider model, and mounting point. Only first-person camera roll is preserved.
+	useVanillaVisuals = true
+
+#Control settings
+[controls]
+	#Switch roll and yaw axes.
+	switchRollAndYaw = false
+	#Invert pitch axis.
+	invertPitch = false
+	#Use momentum-based mouse input.
+	momentumBasedMouse = false
+	#Deadzone for momentum mouse input.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	momentumMouseDeadzone = 0.2
+	#Show momentum crosshair widget.
+	showMomentumWidget = true
+	#Disable mod effects when submerged in water.
+	disableWhenSubmerged = true
+
+#HUD settings
+[hud]
+	#Show horizon line indicator.
+	showHorizon = false
+
+#Banking settings
+[banking]
+	#Enable banking effect.
+	enableBanking = true
+	#Banking strength multiplier.
+	# Default: 20.0
+	# Range: 0.0 ~ 100.0
+	bankingStrength = 20.0
+	#Simulate control surface efficacy based on velocity.
+	simulateControlSurfaceEfficacy = false
+	#Automatically right the roll when not actively rolling.
+	automaticRighting = false
+	#Strength of automatic righting.
+	# Default: 50.0
+	# Range: 0.0 ~ 200.0
+	rightingStrength = 50.0
+
+#Sensitivity settings
+[sensitivity]
+	#Pitch smoothing factor (0 = no smoothing).
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	smoothingPitch = 1.0
+	#Yaw smoothing factor (0 = no smoothing).
+	# Default: 2.5
+	# Range: 0.0 ~ 100.0
+	smoothingYaw = 2.5
+	#Roll smoothing factor (0 = no smoothing).
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	smoothingRoll = 1.0
+	#Desktop keyboard pitch sensitivity (degrees/sec).
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	desktopPitch = 1.0
+	#Desktop keyboard yaw sensitivity (degrees/sec).
+	# Default: 0.4
+	# Range: 0.0 ~ 10.0
+	desktopYaw = 0.4
+	#Desktop keyboard roll sensitivity (degrees/sec).
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	desktopRoll = 1.0
+	#Controller pitch sensitivity (degrees/sec).
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	controllerPitch = 1.0
+	#Controller yaw sensitivity (degrees/sec).
+	# Default: 0.4
+	# Range: 0.0 ~ 10.0
+	controllerYaw = 0.4
+	#Controller roll sensitivity (degrees/sec).
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	controllerRoll = 1.0
+
+#Advanced formula settings (expert only)
+[advanced]
+	#Formula for banking X component.
+	bankingXFormula = "sin($roll * TO_RAD) * cos($pitch * TO_RAD) * 10 * $banking_strength"
+	#Formula for banking Y component.
+	bankingYFormula = "(-1 + cos($roll * TO_RAD)) * cos($pitch * TO_RAD) * 10 * $banking_strength"
+	#Formula for elevator control surface efficacy.
+	elevatorEfficacyFormula = "$velocity_x * $look_x + $velocity_y * $look_y + $velocity_z * $look_z"
+	#Formula for aileron control surface efficacy.
+	aileronEfficacyFormula = "$velocity_x * $look_x + $velocity_y * $look_y + $velocity_z * $look_z"
+	#Formula for rudder control surface efficacy.
+	rudderEfficacyFormula = "$velocity_x * $look_x + $velocity_y * $look_y + $velocity_z * $look_z"

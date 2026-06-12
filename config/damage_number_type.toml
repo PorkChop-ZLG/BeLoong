@@ -4537,3 +4537,17 @@
 			prepend = ""
 			append = ""
 			format = ""
+
+	[tag."oreback_dragon:projectile_and_melee_damage"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."oreback_dragon:projectile_and_melee_damage".icon]
+			tex = ""
+			item = ""
+
+		[tag."oreback_dragon:projectile_and_melee_damage".format]
+			prepend = ""
+			append = ""
+			format = ""
