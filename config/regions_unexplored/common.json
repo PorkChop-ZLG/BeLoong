@@ -66,644 +66,648 @@
     }
   },
   "biome_placements": {
-    "regions_unexplored:alpha_grove": {
-      "can_replace": [
-        "minecraft:mushroom_fields"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 20
-    },
-    "regions_unexplored:ancient_delta": {
-      "can_replace": [
-        "minecraft:dripstone_caves"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "humidity": {
-          "max": -0.4
-        }
-      }
-    },
-    "regions_unexplored:ashen_woodland": {
-      "can_replace": [
-        "minecraft:mushroom_fields"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 20
-    },
-    "regions_unexplored:autumnal_maple_forest": {
-      "can_replace": [
-        "minecraft:birch_forest"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:bamboo_forest": {
-      "can_replace": [
-        "minecraft:bamboo_jungle"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 100
-    },
-    "regions_unexplored:baobab_savanna": {
-      "can_replace": [
-        "minecraft:savanna",
-        "minecraft:savanna_plateau"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "humidity": {
-          "max": -0.35
-        }
-      }
-    },
-    "regions_unexplored:bayou": {
-      "can_replace": [
-        "minecraft:swamp"
-      ],
-      "enabled": true,
-      "group": "swamps",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "humidity": {
-          "max": 3.0
-        },
-        "temperature": {
-          "max": 0.2,
-          "min": -0.1
-        }
-      }
-    },
-    "regions_unexplored:bioshroom_caves": {
-      "can_replace": [
-        "minecraft:lush_caves"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "erosion": {
-          "min": 0.3
-        }
-      }
-    },
-    "regions_unexplored:blackstone_basin": {
-      "can_replace": [
-        "minecraft:crimson_forest"
-      ],
-      "dimension": "minecraft:the_nether",
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 60
-    },
-    "regions_unexplored:blackwood_taiga": {
-      "can_replace": [
-        "minecraft:dark_forest"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:boreal_taiga": {
-      "can_replace": [
-        "minecraft:taiga"
-      ],
-      "enabled": true,
-      "group": "boreal_taigas"
-    },
-    "regions_unexplored:chalk_cliffs": {
-      // This biome has special placement rules. It can only be enabled or disabled.
-      "special_enabled": true
-    },
-    "regions_unexplored:clover_plains": {
-      "can_replace": [
-        "minecraft:plains"
-      ],
-      "enabled": true,
-      "group": "plains",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "max": 0.2,
-          "min": -0.1
-        }
-      }
-    },
-    "regions_unexplored:cold_boreal_taiga": {
-      "can_replace": [
-        "minecraft:snowy_taiga"
-      ],
-      "enabled": true,
-      "group": "boreal_taigas"
-    },
-    "regions_unexplored:cold_river": {
-      "can_replace": [
-        "minecraft:river"
-      ],
-      "enabled": true,
-      "group": "rivers",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "max": -0.1
-        }
-      }
-    },
-    "regions_unexplored:dry_bushland": {
-      "can_replace": [
-        "minecraft:savanna",
-        "minecraft:savanna_plateau"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 100
-    },
-    "regions_unexplored:eucalyptus_forest": {
-      "can_replace": [
-        "minecraft:wooded_badlands"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:fen": {
-      "can_replace": [
-        "minecraft:swamp"
-      ],
-      "enabled": true,
-      "group": "swamps",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "humidity": {
-          "min": -0.35
-        },
-        "temperature": {
-          "max": -0.1,
-          "min": -0.45
-        }
-      }
-    },
-    "regions_unexplored:flower_fields": {
-      "can_replace": [
-        "minecraft:sunflower_plains",
-        "minecraft:flower_forest"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 30
-    },
-    "regions_unexplored:frozen_pine_taiga": {
-      "can_replace": [
-        "minecraft:snowy_taiga"
-      ],
-      "enabled": true,
-      "group": "pine_and_redwood_taigas"
-    },
-    "regions_unexplored:fungal_fen": {
-      "can_replace": [
-        "minecraft:swamp"
-      ],
-      "enabled": true,
-      "group": "swamps",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "humidity": {
-          "max": -0.35
-        },
-        "temperature": {
-          "max": -0.1,
-          "min": -0.45
-        }
-      }
-    },
-    "regions_unexplored:glistering_meadow": {
-      "can_replace": [
-        "minecraft:soul_sand_valley"
-      ],
-      "dimension": "minecraft:the_nether",
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 60
-    },
-    "regions_unexplored:grassland": {
-      "can_replace": [
-        "minecraft:plains"
-      ],
-      "enabled": true,
-      "group": "plains",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "min": 0.2
-        }
-      }
-    },
-    "regions_unexplored:grassy_beach": {
-      "can_replace": [
-        "minecraft:beach"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:gravel_beach": {
-      "can_replace": [
-        "minecraft:beach"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:highland_fields": {
-      "can_replace": [
-        "minecraft:meadow"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 70
-    },
-    "regions_unexplored:hyacinth_deeps": {
-      "can_replace": [
-        "minecraft:deep_frozen_ocean"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:icy_heights": {
-      "can_replace": [
-        "minecraft:ice_spikes",
-        "minecraft:snowy_plains",
-        "minecraft:snowy_taiga"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "continentalness": {
-          "max": 0.03
-        },
-        "erosion": {
-          "max": 0.55,
-          "min": 0.45
-        },
-        "weirdness": {
-          "min": 0.0
-        }
-      }
-    },
-    "regions_unexplored:infernal_holt": {
-      "can_replace": [
-        "minecraft:basalt_deltas"
-      ],
-      "dimension": "minecraft:the_nether",
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 60
-    },
-    "regions_unexplored:inferno": {
-      // This biome has special placement rules. It can only be enabled or disabled.
-      "special_enabled": true
-    },
-    "regions_unexplored:joshua_desert": {
-      "can_replace": [
-        "minecraft:desert"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:magnolia_woodland": {
-      "can_replace": [
-        "minecraft:cherry_grove"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:maple_forest": {
-      "can_replace": [
-        "minecraft:forest"
-      ],
-      "enabled": true,
-      "group": "forests",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "max": 0.2,
-          "min": -0.1
-        }
-      }
-    },
-    "regions_unexplored:marsh": {
-      "can_replace": [
-        "minecraft:swamp"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:muddy_river": {
-      "can_replace": [
-        "minecraft:river"
-      ],
-      "enabled": true,
-      "group": "rivers",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "max": 0.55,
-          "min": -0.1
-        }
-      }
-    },
-    "regions_unexplored:mycotoxic_undergrowth": {
-      "can_replace": [
-        "minecraft:nether_wastes"
-      ],
-      "dimension": "minecraft:the_nether",
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 60
-    },
-    "regions_unexplored:old_growth_bayou": {
-      "can_replace": [
-        "minecraft:swamp"
-      ],
-      "enabled": true,
-      "group": "swamps",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "humidity": {
-          "min": 3.0
-        },
-        "temperature": {
-          "max": 0.2,
-          "min": -0.1
-        }
-      }
-    },
-    "regions_unexplored:old_growth_boreal_taiga": {
-      "can_replace": [
-        "minecraft:old_growth_spruce_taiga"
-      ],
-      "enabled": true,
-      "group": "boreal_taigas"
-    },
-    "regions_unexplored:old_growth_forest": {
-      "can_replace": [
-        "minecraft:forest"
-      ],
-      "enabled": true,
-      "group": "forests",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "min": 0.2
-        }
-      }
-    },
-    "regions_unexplored:old_growth_golden_boreal_taiga": {
-      "can_replace": [
-        "minecraft:old_growth_pine_taiga"
-      ],
-      "enabled": true,
-      "group": "boreal_taigas"
-    },
-    "regions_unexplored:orchard": {
-      "can_replace": [
-        "minecraft:sunflower_plains",
-        "minecraft:flower_forest"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:outback": {
-      "can_replace": [
-        "minecraft:desert"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "erosion": {
-          "max": 0.15
-        }
-      }
-    },
-    "regions_unexplored:pine_slopes": {
-      "can_replace": [
-        "minecraft:grove"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "min": -0.45
+    "placements": {
+      "regions_unexplored:alpha_grove": {
+        "can_replace": [
+          "minecraft:mushroom_fields"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 20
+      },
+      "regions_unexplored:ancient_delta": {
+        "can_replace": [
+          "minecraft:dripstone_caves"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "humidity": {
+            "max": -0.4
+          }
         }
       },
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:pine_taiga": {
-      "can_replace": [
-        "minecraft:taiga"
-      ],
-      "enabled": true,
-      "group": "pine_and_redwood_taigas"
-    },
-    "regions_unexplored:poppy_fields": {
-      "can_replace": [
-        "minecraft:sunflower_plains",
-        "minecraft:flower_forest"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 70
-    },
-    "regions_unexplored:prairie": {
-      "can_replace": [
-        "minecraft:savanna",
-        "minecraft:savanna_plateau"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 100
-    },
-    "regions_unexplored:prismachasm": {
-      // This biome has special placement rules. It can only be enabled or disabled.
-      "special_enabled": true
-    },
-    "regions_unexplored:rainforest": {
-      "can_replace": [
-        "minecraft:jungle"
-      ],
-      "enabled": true,
-      "group": "jungles"
-    },
-    "regions_unexplored:redstone_caves": {
-      // This biome has special placement rules. It can only be enabled or disabled.
-      "special_enabled": true
-    },
-    "regions_unexplored:redwoods": {
-      "can_replace": [
-        "minecraft:old_growth_spruce_taiga"
-      ],
-      "enabled": true,
-      "group": "pine_and_redwood_taigas"
-    },
-    "regions_unexplored:rocky_reef": {
-      "can_replace": [
-        "minecraft:warm_ocean"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:saguaro_desert": {
-      "can_replace": [
-        "minecraft:desert"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:shrubland": {
-      "can_replace": [
-        "minecraft:plains"
-      ],
-      "enabled": true,
-      "group": "plains",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "max": -0.1
-        }
-      }
-    },
-    "regions_unexplored:silver_birch_forest": {
-      "can_replace": [
-        "minecraft:old_growth_birch_forest"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 50
-    },
-    "regions_unexplored:sparse_rainforest": {
-      "can_replace": [
-        "minecraft:sparse_jungle"
-      ],
-      "enabled": true,
-      "group": "jungles"
-    },
-    "regions_unexplored:sparse_redwoods": {
-      "can_replace": [
-        "minecraft:old_growth_pine_taiga"
-      ],
-      "enabled": true,
-      "group": "pine_and_redwood_taigas"
-    },
-    "regions_unexplored:spires": {
-      "can_replace": [
-        "minecraft:frozen_river",
-        "minecraft:ice_spikes",
-        "minecraft:snowy_plains",
-        "minecraft:snowy_taiga",
-        "minecraft:taiga"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "erosion": {
-          "min": 0.6
-        },
-        "temperature": {
-          "max": -0.45
-        }
-      }
-    },
-    "regions_unexplored:towering_cliffs": {
-      "can_replace": [
-        "minecraft:windswept_savanna"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 100
-    },
-    "regions_unexplored:tropical_river": {
-      "can_replace": [
-        "minecraft:river"
-      ],
-      "enabled": true,
-      "group": "rivers",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "erosion": {
-          "min": 0.15
-        },
-        "humidity": {
-          "min": 0.3
-        },
-        "temperature": {
-          "min": 0.55
-        }
-      }
-    },
-    "regions_unexplored:tropics": {
-      "can_replace": [
-        "minecraft:mushroom_fields"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 20
-    },
-    "regions_unexplored:tundra": {
-      "can_replace": [
-        "minecraft:snowy_plains"
-      ],
-      "enabled": true,
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "humidity": {
-          "max": -0.1
+      "regions_unexplored:ashen_woodland": {
+        "can_replace": [
+          "minecraft:mushroom_fields"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 20
+      },
+      "regions_unexplored:autumnal_maple_forest": {
+        "can_replace": [
+          "minecraft:birch_forest"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:bamboo_forest": {
+        "can_replace": [
+          "minecraft:bamboo_jungle"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 100
+      },
+      "regions_unexplored:baobab_savanna": {
+        "can_replace": [
+          "minecraft:savanna",
+          "minecraft:savanna_plateau"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "humidity": {
+            "max": -0.35
+          }
         }
       },
-      // By default, all other biomes have a weight of 100.
-      "weight": 100
-    },
-    "regions_unexplored:willow_forest": {
-      "can_replace": [
-        "minecraft:forest"
-      ],
-      "enabled": true,
-      "group": "forests",
-      // Advanced feature! Edit this with caution.
-      "parameters": {
-        "temperature": {
-          "max": -0.1
+      "regions_unexplored:bayou": {
+        "can_replace": [
+          "minecraft:swamp"
+        ],
+        "enabled": true,
+        "group": "swamps",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "humidity": {
+            "max": 3.0
+          },
+          "temperature": {
+            "max": 0.2,
+            "min": -0.1
+          }
         }
+      },
+      "regions_unexplored:bioshroom_caves": {
+        "can_replace": [
+          "minecraft:lush_caves"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "erosion": {
+            "min": 0.3
+          }
+        }
+      },
+      "regions_unexplored:blackstone_basin": {
+        "can_replace": [
+          "minecraft:crimson_forest"
+        ],
+        "dimension": "minecraft:the_nether",
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 60
+      },
+      "regions_unexplored:blackwood_taiga": {
+        "can_replace": [
+          "minecraft:dark_forest"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:boreal_taiga": {
+        "can_replace": [
+          "minecraft:taiga"
+        ],
+        "enabled": true,
+        "group": "boreal_taigas"
+      },
+      "regions_unexplored:chalk_cliffs": {
+        // This biome has special placement rules. It can only be enabled or disabled.
+        "special_enabled": true
+      },
+      "regions_unexplored:clover_plains": {
+        "can_replace": [
+          "minecraft:plains"
+        ],
+        "enabled": true,
+        "group": "plains",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "max": 0.2,
+            "min": -0.1
+          }
+        }
+      },
+      "regions_unexplored:cold_boreal_taiga": {
+        "can_replace": [
+          "minecraft:snowy_taiga"
+        ],
+        "enabled": true,
+        "group": "boreal_taigas"
+      },
+      "regions_unexplored:cold_river": {
+        "can_replace": [
+          "minecraft:river"
+        ],
+        "enabled": true,
+        "group": "rivers",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "max": -0.1
+          }
+        }
+      },
+      "regions_unexplored:dry_bushland": {
+        "can_replace": [
+          "minecraft:savanna",
+          "minecraft:savanna_plateau"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 100
+      },
+      "regions_unexplored:eucalyptus_forest": {
+        "can_replace": [
+          "minecraft:wooded_badlands"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:fen": {
+        "can_replace": [
+          "minecraft:swamp"
+        ],
+        "enabled": true,
+        "group": "swamps",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "humidity": {
+            "min": -0.35
+          },
+          "temperature": {
+            "max": -0.1,
+            "min": -0.45
+          }
+        }
+      },
+      "regions_unexplored:flower_fields": {
+        "can_replace": [
+          "minecraft:sunflower_plains",
+          "minecraft:flower_forest"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 30
+      },
+      "regions_unexplored:frozen_pine_taiga": {
+        "can_replace": [
+          "minecraft:snowy_taiga"
+        ],
+        "enabled": true,
+        "group": "pine_and_redwood_taigas"
+      },
+      "regions_unexplored:fungal_fen": {
+        "can_replace": [
+          "minecraft:swamp"
+        ],
+        "enabled": true,
+        "group": "swamps",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "humidity": {
+            "max": -0.35
+          },
+          "temperature": {
+            "max": -0.1,
+            "min": -0.45
+          }
+        }
+      },
+      "regions_unexplored:glistering_meadow": {
+        "can_replace": [
+          "minecraft:soul_sand_valley"
+        ],
+        "dimension": "minecraft:the_nether",
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 60
+      },
+      "regions_unexplored:grassland": {
+        "can_replace": [
+          "minecraft:plains"
+        ],
+        "enabled": true,
+        "group": "plains",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "min": 0.2
+          }
+        }
+      },
+      "regions_unexplored:grassy_beach": {
+        "can_replace": [
+          "minecraft:beach"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:gravel_beach": {
+        "can_replace": [
+          "minecraft:beach"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:highland_fields": {
+        "can_replace": [
+          "minecraft:meadow"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 70
+      },
+      "regions_unexplored:hyacinth_deeps": {
+        "can_replace": [
+          "minecraft:deep_frozen_ocean"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:icy_heights": {
+        "can_replace": [
+          "minecraft:ice_spikes",
+          "minecraft:snowy_plains",
+          "minecraft:snowy_taiga"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "continentalness": {
+            "max": 0.03
+          },
+          "erosion": {
+            "max": 0.55,
+            "min": 0.45
+          },
+          "weirdness": {
+            "min": 0.0
+          }
+        }
+      },
+      "regions_unexplored:infernal_holt": {
+        "can_replace": [
+          "minecraft:basalt_deltas"
+        ],
+        "dimension": "minecraft:the_nether",
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 60
+      },
+      "regions_unexplored:inferno": {
+        // This biome has special placement rules. It can only be enabled or disabled.
+        "special_enabled": true
+      },
+      "regions_unexplored:joshua_desert": {
+        "can_replace": [
+          "minecraft:desert"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:magnolia_woodland": {
+        "can_replace": [
+          "minecraft:cherry_grove"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:maple_forest": {
+        "can_replace": [
+          "minecraft:forest"
+        ],
+        "enabled": true,
+        "group": "forests",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "max": 0.2,
+            "min": -0.1
+          }
+        }
+      },
+      "regions_unexplored:marsh": {
+        "can_replace": [
+          "minecraft:swamp"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:muddy_river": {
+        "can_replace": [
+          "minecraft:river"
+        ],
+        "enabled": true,
+        "group": "rivers",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "max": 0.55,
+            "min": -0.1
+          }
+        }
+      },
+      "regions_unexplored:mycotoxic_undergrowth": {
+        "can_replace": [
+          "minecraft:nether_wastes"
+        ],
+        "dimension": "minecraft:the_nether",
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 60
+      },
+      "regions_unexplored:old_growth_bayou": {
+        "can_replace": [
+          "minecraft:swamp"
+        ],
+        "enabled": true,
+        "group": "swamps",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "humidity": {
+            "min": 3.0
+          },
+          "temperature": {
+            "max": 0.2,
+            "min": -0.1
+          }
+        }
+      },
+      "regions_unexplored:old_growth_boreal_taiga": {
+        "can_replace": [
+          "minecraft:old_growth_spruce_taiga"
+        ],
+        "enabled": true,
+        "group": "boreal_taigas"
+      },
+      "regions_unexplored:old_growth_forest": {
+        "can_replace": [
+          "minecraft:forest"
+        ],
+        "enabled": true,
+        "group": "forests",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "min": 0.2
+          }
+        }
+      },
+      "regions_unexplored:old_growth_golden_boreal_taiga": {
+        "can_replace": [
+          "minecraft:old_growth_pine_taiga"
+        ],
+        "enabled": true,
+        "group": "boreal_taigas"
+      },
+      "regions_unexplored:orchard": {
+        "can_replace": [
+          "minecraft:sunflower_plains",
+          "minecraft:flower_forest"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:outback": {
+        "can_replace": [
+          "minecraft:desert"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "erosion": {
+            "max": 0.15
+          }
+        }
+      },
+      "regions_unexplored:pine_slopes": {
+        "can_replace": [
+          "minecraft:grove"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "min": -0.45
+          }
+        },
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:pine_taiga": {
+        "can_replace": [
+          "minecraft:taiga"
+        ],
+        "enabled": true,
+        "group": "pine_and_redwood_taigas"
+      },
+      "regions_unexplored:poppy_fields": {
+        "can_replace": [
+          "minecraft:sunflower_plains",
+          "minecraft:flower_forest"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 70
+      },
+      "regions_unexplored:prairie": {
+        "can_replace": [
+          "minecraft:savanna",
+          "minecraft:savanna_plateau"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 100
+      },
+      "regions_unexplored:prismachasm": {
+        // This biome has special placement rules. It can only be enabled or disabled.
+        "special_enabled": true
+      },
+      "regions_unexplored:rainforest": {
+        "can_replace": [
+          "minecraft:jungle"
+        ],
+        "enabled": true,
+        "group": "jungles"
+      },
+      "regions_unexplored:redstone_caves": {
+        // This biome has special placement rules. It can only be enabled or disabled.
+        "special_enabled": true
+      },
+      "regions_unexplored:redwoods": {
+        "can_replace": [
+          "minecraft:old_growth_spruce_taiga"
+        ],
+        "enabled": true,
+        "group": "pine_and_redwood_taigas"
+      },
+      "regions_unexplored:rocky_reef": {
+        "can_replace": [
+          "minecraft:warm_ocean"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:saguaro_desert": {
+        "can_replace": [
+          "minecraft:desert"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:shrubland": {
+        "can_replace": [
+          "minecraft:plains"
+        ],
+        "enabled": true,
+        "group": "plains",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "max": -0.1
+          }
+        }
+      },
+      "regions_unexplored:silver_birch_forest": {
+        "can_replace": [
+          "minecraft:old_growth_birch_forest"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 50
+      },
+      "regions_unexplored:sparse_rainforest": {
+        "can_replace": [
+          "minecraft:sparse_jungle"
+        ],
+        "enabled": true,
+        "group": "jungles"
+      },
+      "regions_unexplored:sparse_redwoods": {
+        "can_replace": [
+          "minecraft:old_growth_pine_taiga"
+        ],
+        "enabled": true,
+        "group": "pine_and_redwood_taigas"
+      },
+      "regions_unexplored:spires": {
+        "can_replace": [
+          "minecraft:frozen_river",
+          "minecraft:ice_spikes",
+          "minecraft:snowy_plains",
+          "minecraft:snowy_taiga",
+          "minecraft:taiga"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "erosion": {
+            "min": 0.6
+          },
+          "temperature": {
+            "max": -0.45
+          }
+        }
+      },
+      "regions_unexplored:towering_cliffs": {
+        "can_replace": [
+          "minecraft:windswept_savanna"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 100
+      },
+      "regions_unexplored:tropical_river": {
+        "can_replace": [
+          "minecraft:river"
+        ],
+        "enabled": true,
+        "group": "rivers",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "erosion": {
+            "min": 0.15
+          },
+          "humidity": {
+            "min": 0.3
+          },
+          "temperature": {
+            "min": 0.55
+          }
+        }
+      },
+      "regions_unexplored:tropics": {
+        "can_replace": [
+          "minecraft:mushroom_fields"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 20
+      },
+      "regions_unexplored:tundra": {
+        "can_replace": [
+          "minecraft:snowy_plains"
+        ],
+        "enabled": true,
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "humidity": {
+            "max": -0.1
+          }
+        },
+        // By default, all other biomes have a weight of 100.
+        "weight": 100
+      },
+      "regions_unexplored:willow_forest": {
+        "can_replace": [
+          "minecraft:forest"
+        ],
+        "enabled": true,
+        "group": "forests",
+        // Advanced feature! Edit this with caution.
+        "parameters": {
+          "temperature": {
+            "max": -0.1
+          }
+        }
+      },
+      "regions_unexplored:windswept_maple_forest": {
+        "can_replace": [
+          "minecraft:windswept_forest"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 100
+      },
+      "regions_unexplored:wisteria_grove": {
+        "can_replace": [
+          "minecraft:meadow"
+        ],
+        "enabled": true,
+        // By default, all other biomes have a weight of 100.
+        "weight": 30
       }
     },
-    "regions_unexplored:windswept_maple_forest": {
-      "can_replace": [
-        "minecraft:windswept_forest"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 100
-    },
-    "regions_unexplored:wisteria_grove": {
-      "can_replace": [
-        "minecraft:meadow"
-      ],
-      "enabled": true,
-      // By default, all other biomes have a weight of 100.
-      "weight": 30
-    }
+    // Multiplies the weighting of most biomes in the layout. Higher value = more RU biomes.
+    "weight_multiplier": 1.0
   },
   // Don't touch this!
   "config_version": 1,
