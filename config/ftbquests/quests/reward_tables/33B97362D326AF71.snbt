@@ -1,7 +1,7 @@
 {
 	id: "33B97362D326AF71"
 	loot_size: 1
-	order_index: 1
+	order_index: 0
 	rewards: [
 		{ id: "4BDA224A0A686822", item: { count: 1, id: "terra_curio:demon_heart" } }
 		{ id: "404446A4CCC5D5C6", item: { count: 1, id: "terra_curio:diving_helmet" } }

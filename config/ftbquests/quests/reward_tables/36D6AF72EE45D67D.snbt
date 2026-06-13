@@ -1,7 +1,7 @@
 {
 	id: "36D6AF72EE45D67D"
 	loot_size: 1
-	order_index: 6
+	order_index: 5
 	rewards: [
 		{ id: "210B1142D612D340", item: { count: 1, id: "kubejs:slime_crown" } }
 		{ id: "084B326571AF43AA", item: { count: 1, id: "kubejs:suspicious_looking_eye" } }

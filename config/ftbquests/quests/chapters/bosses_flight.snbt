@@ -1204,29 +1204,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					consume_items: true
-					id: "3F5EA7FF5A38C02A"
-					item: { count: 1, id: "terra_curio:shield_of_cthulhu" }
-					type: "item"
-				}
-				{
-					id: "3E86079502867047"
-					item: { count: 1, id: "xfws_someitems:sculk_megaphone" }
-					type: "item"
-				}
-				{
-					id: "070E2EB98BF30BAB"
-					item: { count: 1, id: "xfws_someitems:celestial_magnet" }
-					type: "item"
-				}
-				{
-					id: "479AD50C9673E94B"
-					item: { count: 1, id: "xfws_someitems:band_of_starpower" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "3F5EA7FF5A38C02A"
+				item: { count: 1, id: "terra_curio:shield_of_cthulhu" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 6.0d
 		}
@@ -1643,12 +1626,6 @@
 					consume_items: true
 					id: "6E545ED04AE0C88B"
 					item: { count: 1, id: "terra_entity:sculk_wisp_staff" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7980C1174E0287F3"
-					item: { count: 1, id: "xfws_someitems:mana_flower" }
 					type: "item"
 				}
 			]

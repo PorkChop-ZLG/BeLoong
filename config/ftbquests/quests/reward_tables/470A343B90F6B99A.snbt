@@ -1,7 +1,7 @@
 {
 	id: "470A343B90F6B99A"
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{ id: "7770435F158EE24D", item: { count: 1, id: "twilightforest:twilight_oak_sapling" } }
 		{ id: "68503F0B842D50CD", item: { count: 1, id: "twilightforest:canopy_sapling" } }

@@ -499,7 +499,7 @@
 		{
 			dependencies: ["034ACABF80D25D29"]
 			icon: {
-				id: "xfws_someitems:ark_of_the_cosmos"
+				id: "xfws_swords:ark_of_the_cosmos"
 			}
 			id: "6DC97A09E372363A"
 			rewards: [
@@ -530,7 +530,7 @@
 					id: "770B921F1931F6A8"
 					item: {
 						count: 1
-						id: "xfws_someitems:ark_of_the_cosmos"
+						id: "xfws_swords:ark_of_the_cosmos"
 					}
 					type: "item"
 				}

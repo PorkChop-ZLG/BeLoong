@@ -789,8 +789,6 @@
 	quest.1164ECE00370CB7B.title: "腰带T3"
 	quest.117731AAE830A4E2.quest_subtitle: "专为非酋准备"
 	quest.117731AAE830A4E2.title: "破败战镰保底"
-	quest.117EFC004D3867C0.quest_subtitle: "抽取小烦维的物品"
-	quest.117EFC004D3867C0.title: "小烦维的盲盒"
 	quest.11C9E6E6BAB0A735.title: "魔法书T3"
 	quest.11FC2E4D6E6B0D93.quest_desc: [
 		"&d&l黑暗二重身"
@@ -862,7 +860,7 @@
 	quest.12F9EDC857BB2555.quest_subtitle: "提交洞穴龙的所有专属食物"
 	quest.12F9EDC857BB2555.title: "洞穴龙的美食"
 	quest.130DF0F4E2C8FCD1.quest_desc: ["&c完成章节【龙族图鉴】后解锁！"]
-	quest.130DF0F4E2C8FCD1.title: "狂星之怒"
+	quest.130DF0F4E2C8FCD1.title: "群星之怒"
 	quest.132B8803AE174E78.quest_desc: [
 		"右键单击一个&a幻术师魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6林地府邸&r 中找到"
 		""
@@ -872,8 +870,6 @@
 	quest.132EA960D6542BEB.title: "第一步：获得御币"
 	quest.13427D639FF8D906.quest_desc: ["&c完成章节【暮色森林】后解锁！"]
 	quest.13427D639FF8D906.title: "幽匿太刀"
-	quest.136C026EB4306742.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
-	quest.136C026EB4306742.title: "泰拉饰品T2"
 	quest.136ED357B1C436B8.quest_subtitle: "烟熏火烤~"
 	quest.13756DEBEDF71236.quest_desc: [
 		"&6要想获得&e冰鲜食物和冰焦食物&6，"
@@ -1203,8 +1199,6 @@
 		""
 		"范围设置：调整收集范围，范围越大，单次收集耗时越久，最大范围为当前整个区块，耗时1200tick。"
 	]
-	quest.1CA4502D0B69550A.quest_subtitle: "集齐所有泰拉饰品"
-	quest.1CA4502D0B69550A.title: "&c&l泰拉饰品毕业"
 	quest.1CECEAD9D6372EF2.quest_desc: [
 		"&6使用&2阴阳核心&6撰写&2两仪法术"
 		"{image:iss_magicfromtheeast:item/yin_yang_core width:100 height:100 align:center}"
@@ -1438,8 +1432,6 @@
 	]
 	quest.24F3DC3742819BE4.quest_subtitle: "★★★★★"
 	quest.24F3DC3742819BE4.title: "泰拉生物：世界吞噬怪"
-	quest.24FD6F11C82C2688.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
-	quest.24FD6F11C82C2688.title: "泰拉饰品T1"
 	quest.24FE16788AAD170E.title: "腰带T1"
 	quest.251F47EF8754FE5B.quest_desc: ["&c完成章节【车万女仆】后解锁！"]
 	quest.251F47EF8754FE5B.quest_subtitle: "让你的女仆无敌"
@@ -2086,9 +2078,6 @@
 	quest.39A482BF78452D09.title: "充能汤"
 	quest.39AF32032B46C495.quest_subtitle: "开启以太龙的成长之路"
 	quest.39AF32032B46C495.title: "幼年以太龙"
-	quest.39B6FDA08FEAC979.quest_desc: [""]
-	quest.39B6FDA08FEAC979.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
-	quest.39B6FDA08FEAC979.title: " 泰拉饰品T0"
 	quest.3A606C2453D06AFF.quest_desc: [
 		"&a目标：观察仪式核心5秒"
 		""
@@ -4178,8 +4167,6 @@
 		""
 		"&6未加入任何维度网络的玩家使用绑定过的连接器可以加入此网络。"
 	]
-	quest.79DBDE661A38E757.quest_subtitle: "&o&7泰拉饰品梯度仅代表获取难度强度方面需要玩家合理搭配"
-	quest.79DBDE661A38E757.title: "泰拉饰品T3"
 	quest.7A29CD2932DB3DC7.quest_desc: [
 		"&a目标：观察月螟仙人掌"
 		""
@@ -4373,7 +4360,6 @@
 	reward.70DF28F993259115.title: "和平誓约"
 	reward.75A5CB8F03F3BFD2.title: "生成【宝箱怪】"
 	reward.7D4E423C2BEB7F9C.title: "晴天"
-	reward_table.0A72BDBE9FA6207D.title: "小烦维盲盒"
 	reward_table.0F48BCBAFA4E52F3.title: "新手礼包"
 	reward_table.136B57BE59010836.title: "龙之生存附魔书"
 	reward_table.149FBD4E03B83B80.title: "混凝土"

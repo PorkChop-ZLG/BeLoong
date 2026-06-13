@@ -62,7 +62,7 @@
 			}]
 			tasks: [{
 				id: "643D730CCF1FD858"
-				item: { count: 1, id: "xfws_someitems:sculk_katana" }
+				item: { count: 1, id: "xfws_swords:sculk_katana" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -100,7 +100,7 @@
 			}]
 			tasks: [{
 				id: "7176C6CF8E00AACC"
-				item: { count: 1, id: "xfws_someitems:ark_of_the_cosmos" }
+				item: { count: 1, id: "xfws_swords:ark_of_the_cosmos" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -119,7 +119,7 @@
 			}]
 			tasks: [{
 				id: "678BD30B32EF755D"
-				item: { count: 1, id: "xfws_someitems:star_wrath" }
+				item: { count: 1, id: "xfws_swords:star_wrath" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -195,7 +195,7 @@
 			}]
 			tasks: [{
 				id: "1C626FEC847BC7E0"
-				item: { count: 1, id: "meowmere:meowmere" }
+				item: { count: 1, id: "xfws_swords:meowmere" }
 				type: "item"
 			}]
 			x: -7.0d

@@ -246,30 +246,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "eternal_starlight:loot_bag"
-			}
-			id: "117EFC004D3867C0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57816BA906EFDF16"
-				table_id: 752872714144194685L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "230DDE3E2CE18FCF"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "dragonsurvival:dragon_soul"
 			}
 			id: "549E269DFE9CCCBA"
@@ -1061,14 +1037,14 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				id: "xfws_someitems:sculk_katana"
+				id: "xfws_swords:sculk_katana"
 			}
 			id: "13427D639FF8D906"
 			rewards: [{
 				id: "53F43ABD963D793A"
 				item: {
 					count: 1
-					id: "xfws_someitems:sculk_katana"
+					id: "xfws_swords:sculk_katana"
 				}
 				type: "item"
 			}]
@@ -1090,14 +1066,14 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				id: "xfws_someitems:ark_of_the_cosmos"
+				id: "xfws_swords:ark_of_the_cosmos"
 			}
 			id: "1AA55A95262C406C"
 			rewards: [{
 				id: "0E4CF6DF22829576"
 				item: {
 					count: 1
-					id: "xfws_someitems:ark_of_the_cosmos"
+					id: "xfws_swords:ark_of_the_cosmos"
 				}
 				type: "item"
 			}]
@@ -1119,14 +1095,14 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				id: "xfws_someitems:star_wrath"
+				id: "xfws_swords:star_wrath"
 			}
 			id: "130DF0F4E2C8FCD1"
 			rewards: [{
 				id: "37C335D7AA8EAC73"
 				item: {
 					count: 1
-					id: "xfws_someitems:star_wrath"
+					id: "xfws_swords:star_wrath"
 				}
 				type: "item"
 			}]
@@ -1148,14 +1124,14 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				id: "meowmere:meowmere"
+				id: "xfws_swords:meowmere"
 			}
 			id: "0850E956F0AFB4DF"
 			rewards: [{
 				id: "2740647DAED9432E"
 				item: {
 					count: 1
-					id: "meowmere:meowmere"
+					id: "xfws_swords:meowmere"
 				}
 				type: "item"
 			}]
