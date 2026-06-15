@@ -899,7 +899,7 @@
 	"death.attack.dorcel.player": "%s被绝望草拖到了地下",
 	"death.attack.dusk_trap": "%s被暮光陷阱草吃掉了",
 	"death.attack.dusk_trap.player": "%s被暮光陷阱草吃掉了",
-	"entity.regions_unexplored.ashen": "苍灰船",
+	"entity.regions_unexplored.ashen": "苍灰",
 	"entity.regions_unexplored.boat": "船",
 	"entity.regions_unexplored.chest_boat": "运输船",
 	"item.regions_unexplored.baobab_boat": "猴面包木船",

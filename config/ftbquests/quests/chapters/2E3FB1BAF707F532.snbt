@@ -131,7 +131,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -143,7 +143,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -155,7 +155,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -188,7 +188,7 @@
 				item: { count: 1, id: "cataclysm:mech_eye" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -200,7 +200,7 @@
 				item: { count: 1, id: "cataclysm:flame_eye" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -213,7 +213,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -224,7 +224,7 @@
 				item: { count: 1, id: "cataclysm:monstrous_eye" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -236,7 +236,7 @@
 				item: { count: 1, id: "cataclysm:abyss_eye" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -249,7 +249,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -260,7 +260,7 @@
 				item: { count: 1, id: "cataclysm:storm_eye" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -273,7 +273,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -284,7 +284,7 @@
 				item: { count: 1, id: "cataclysm:cursed_eye" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 1.0d
 		}
 	]
