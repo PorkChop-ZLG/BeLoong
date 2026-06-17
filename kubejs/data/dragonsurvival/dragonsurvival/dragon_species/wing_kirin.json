@@ -41,7 +41,6 @@
 		"wing_kirin:kirin_ancient",
 		"wing_kirin:kirin_archean",
 		"wing_kirin:kirin_progenitor"
-
 	],
 	"unlockable_behavior": {
 		"unlock_condition": {
