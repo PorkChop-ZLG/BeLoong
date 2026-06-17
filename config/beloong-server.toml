@@ -38,7 +38,7 @@
 		#触发传送的 Y 轴高度（玩家 Y > 此值时传送）
 		# Default: 8848
 		# Range: -4064 ~ 100000
-		triggerY = 8848
+		triggerY = 10000
 		#目标维度 ID
 		targetDimension = "beloong:loong_palace"
 		#目标固定 X 坐标

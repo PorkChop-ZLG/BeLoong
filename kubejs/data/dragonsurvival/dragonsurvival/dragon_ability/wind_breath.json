@@ -123,17 +123,16 @@
             {
               "effect_type": "dragonsurvival:breath_particles",
               "main_particle": {
-                "type": "dragonsurvival:large_lightning",
-                "duration": 37.0,
+                "type": "dragonsurvival:lightning",
+                "duration": 20.0,
                 "swirls": true
               },
               "secondary_particle": {
-                "type": "minecraft:cloud",
-                "duration": 37.0,
-                "swirls": true
+                "type": "minecraft:white_smoke",
+                "duration": 20.0
               },
-              "speed_per_growth": 0.02,
-              "spread": 0.06
+              "speed_per_growth": 0.01,
+              "spread": 0.03
             }
           ],
           "targeting_mode": "all"
