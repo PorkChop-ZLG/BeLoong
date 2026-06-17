@@ -1,0 +1,58 @@
+{
+  "dragonsurvival:dragon_hunters_castle": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 0,
+      "duration": 100
+    }
+  ],
+  "dragonsurvival:netherlands": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 1,
+      "duration": 100
+    }
+  ],
+  "mowziesmobs:frostmaw_spawn": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 0,
+      "duration": 100
+    }
+  ],
+  "mowziesmobs:monastery": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 0,
+      "duration": 100
+    }
+  ],
+  "mowziesmobs:umvuthana_grove": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 0,
+      "duration": 100
+    }
+  ],
+  "mowziesmobs:wrought_chamber": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 0,
+      "duration": 100
+    }
+  ],
+  "block_factorys_bosses:kraken_ship": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 1,
+      "duration": 100
+    }
+  ],
+  "irons_spellbooks:catacombs": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 1,
+      "duration": 100
+    }
+  ]
+}
