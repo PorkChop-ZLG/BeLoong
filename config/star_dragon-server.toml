@@ -1,8 +1,8 @@
 [general]
 	#Enable block destruction from skills (laser, supernova, black hole)
-	blockDestruction = true
+	blockDestruction = false
 	#Enable time manipulation ability (only one player per world can use)
-	timeAbility = true
+	timeAbility = false
 
 [skills]
 	#Base damage for Black Hole skill

@@ -1,6 +1,6 @@
 {
   "species": "dragonsurvival:wing_kirin",
-  "stage": "wing_kirin:kirin_archean",
+  "stage": "wing_kirin:kirin_adult",
   "model": "dragonsurvival:dragon_model",
   "parts": {
     "base": "wing_kirin_base",
