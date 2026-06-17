@@ -2447,7 +2447,7 @@
 		"&6若是挑战&4不祥试炼&6，奖励会更加丰厚！"
 	]
 	quest.465680AFE754AEAD.quest_subtitle: "泰拉BOSS的召唤方式"
-	quest.465680AFE754AEAD.title: "BOSS重生笼"
+	quest.465680AFE754AEAD.title: "试炼刷怪笼"
 	quest.466B0E05A6EA4EF9.quest_desc: [
 		"自然中的一切旋律都可以给予你灵感，"
 		"你认为你可以用它们做些什么…"
@@ -3427,12 +3427,7 @@
 	quest.63DB1E9C5C2FDC80.title: "&d创造模式建筑之杖"
 	quest.641714B711DFD326.quest_subtitle: "千金换美酒"
 	quest.643A2342CCAA0252.title: "暮色森林BOSS毕业"
-	quest.644B0B549EA0753D.quest_desc: [
-		"&a目标：获得一组黯瓜"
-		""
-		"&6腐化入侵后，深暗之园的水果也发生了变异。"
-		"&6不过，对于渊居民来说，这些水果也就是美味的佳肴。"
-	]
+	quest.644B0B549EA0753D.quest_desc: ["&a目标：提交一个黯瓜炸弹"]
 	quest.644B0B549EA0753D.title: "黯瓜"
 	quest.6501A79D7C2DC803.quest_desc: [
 		"&6维度网络所有者潜行右键后可以将其绑定到当前网络。"

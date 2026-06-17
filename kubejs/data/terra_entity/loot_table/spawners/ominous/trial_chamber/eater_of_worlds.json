@@ -24,10 +24,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "terra_curio:putrid_scent"
-        },
-        {
-          "type": "minecraft:item",
           "name": "terra_entity:iron_golem_staff"
         },
         {

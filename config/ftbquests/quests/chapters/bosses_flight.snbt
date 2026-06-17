@@ -1154,32 +1154,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					consume_items: true
-					id: "44DB1549D1D4D57A"
-					item: { count: 1, id: "terra_curio:royal_gel" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "1E3452D920059898"
-					item: { count: 1, id: "terra_entity:slime_staff" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "6F42D97DB325473A"
-					item: { count: 1, id: "terra_entity:swamp_whip" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "4D88B76FB58BEDEB"
-					item: { count: 1, id: "terra_entity:slimy_saddle" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				entity: "terra_entity:king_slime"
+				id: "4832B400AE7778B6"
+				type: "kill"
+				value: 3L
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
@@ -1205,10 +1185,10 @@
 				}
 			]
 			tasks: [{
-				consume_items: true
-				id: "3F5EA7FF5A38C02A"
-				item: { count: 1, id: "terra_curio:shield_of_cthulhu" }
-				type: "item"
+				entity: "terra_entity:eye_of_cthulhu"
+				id: "76D589078A9CAE2F"
+				type: "kill"
+				value: 3L
 			}]
 			x: 1.0d
 			y: 6.0d
@@ -1235,18 +1215,6 @@
 				}
 			]
 			tasks: [
-				{
-					consume_items: true
-					id: "41A8B4FD24BEDD66"
-					item: { count: 1, id: "terra_curio:brain_of_confusion" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "1FBB14B32E01E800"
-					item: { count: 1, id: "terra_curio:flesh_knuckles" }
-					type: "item"
-				}
 				{
 					consume_items: true
 					id: "599232A700A96588"
@@ -1287,18 +1255,6 @@
 			tasks: [
 				{
 					consume_items: true
-					id: "6201A1DA0483EEEE"
-					item: { count: 1, id: "terra_curio:worm_scarf" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "609A525AA56F92AC"
-					item: { count: 1, id: "terra_curio:putrid_scent" }
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "55AE59DC532F0C2E"
 					item: { count: 1, id: "terra_entity:iron_golem_staff" }
 					type: "item"
@@ -1334,32 +1290,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					consume_items: true
-					id: "22897F43891CCB42"
-					item: { count: 1, id: "terra_curio:hive_pack" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "14ADC45B9577D9CA"
-					item: { count: 1, id: "terra_curio:honey_comb" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "0B876131A6D25D5D"
-					item: { count: 1, id: "terra_entity:hornet_staff" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "3220EFF5AF5A09C6"
-					item: { count: 1, id: "terra_entity:honeyed_goggles" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				entity: "terra_entity:queen_bee"
+				id: "0D5BB4CAC11140D8"
+				type: "kill"
+				value: 3L
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
@@ -1610,12 +1546,6 @@
 				}
 			]
 			tasks: [
-				{
-					consume_items: true
-					id: "433E2F1CB8199CAE"
-					item: { count: 1, id: "terra_curio:bone_glove" }
-					type: "item"
-				}
 				{
 					consume_items: true
 					id: "1D6A8D825D77C39F"

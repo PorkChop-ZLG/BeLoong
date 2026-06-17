@@ -1204,27 +1204,16 @@
 				"146CDD92C8E0963C"
 			]
 			id: "644B0B549EA0753D"
-			rewards: [
-				{
-					count: 64
-					id: "011789E941ED1CBF"
-					item: {
-						count: 1
-						id: "undergarden:boomgourd"
-					}
-					type: "item"
-				}
-				{
-					id: "5830379FF32077E4"
-					type: "xp"
-					xp: 800
-				}
-			]
+			rewards: [{
+				id: "5830379FF32077E4"
+				type: "xp"
+				xp: 800
+			}]
 			tasks: [{
-				advancement: "undergarden:undergarden/stack_of_gloomgourds"
-				criterion: ""
-				id: "2F62ACEE8C228E84"
-				type: "advancement"
+				consume_items: true
+				id: "7066568B56B55326"
+				item: { count: 1, id: "undergarden:boomgourd" }
+				type: "item"
 			}]
 			x: 22.5d
 			y: 0.0d

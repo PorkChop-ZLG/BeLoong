@@ -24,15 +24,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "xfws_someitems:sculk_megaphone"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "xfws_someitems:celestial_magnet"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "xfws_someitems:band_of_starpower"
+          "name": "artifacts:night_vision_goggles"
         }
       ]
     },
