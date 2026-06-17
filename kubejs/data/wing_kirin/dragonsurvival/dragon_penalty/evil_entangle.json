@@ -1,0 +1,75 @@
+{
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition":  "location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        {
+          "condition":  "location_check",
+          "predicate": {
+            "dimension": "beloong:loong_palace"
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "wing_kirin:great_zhengqi": {}
+            }
+          }
+        }
+      ]
+    }
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:modifier",
+    "modifiers": [
+      {
+        "base": {
+          "id": "wing_kirin:penalty",
+          "should_remove_automatically": true,
+          "custom_icon": "wing_kirin:textures/ability_effect/health_decline.png",
+          "duration": 100
+        },
+        "modifiers": [
+          {
+            "attribute": "generic.max_health",
+            "amount": -0.8,
+            "operation": "add_multiplied_total"
+          },
+          {
+            "attribute": "dragonsurvival:mana",
+            "amount": -0.5,
+            "operation": "add_multiplied_total"
+          }
+        ]
+      }
+    ]
+  },
+  "icon": "wing_kirin:penalities/evil_entangle",
+  "trigger": {
+    "display_like_hunger_bar": true,
+    "penalty_trigger": "dragonsurvival:supply",
+    "recovery_items": [
+      {
+        "item_predicates": [
+          {
+            "items": "#wing_kirin:recovery_items"
+          }
+        ],
+        "percent_restored": 0.5
+      }
+    ],
+    "reduction_rate": 0.1,
+    "regeneration_rate": 0.05,
+    "supply_type": "wing_kirin:healthy_atmosphere",
+    "trigger_rate": 80
+  }
+}
