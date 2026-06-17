@@ -1,7 +1,7 @@
 {
 	id: "136B57BE59010836"
 	loot_size: 1
-	order_index: 15
+	order_index: 13
 	rewards: [
 		{ id: "0063ACDBFD9EF275", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:aerodynamic_mastery": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
 		{ id: "6B1DE3C71CC72400", item: { components: { "minecraft:stored_enchantments": { levels: { "dragonsurvival:combat_recovery": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }

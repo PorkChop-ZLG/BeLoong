@@ -1,7 +1,7 @@
 {
 	id: "1FEB68824B7D178E"
 	loot_size: 1
-	order_index: 1
+	order_index: 0
 	rewards: [
 		{ id: "65CAA1797D37DDDD", item: { count: 1, id: "iceandfire:dragonegg_red" } }
 		{ id: "183CBE2D76BB3909", item: { count: 1, id: "iceandfire:dragonegg_green" } }

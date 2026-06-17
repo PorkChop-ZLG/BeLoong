@@ -169,14 +169,10 @@
 			}
 			id: "6B3CAAA337596F88"
 			rewards: [{
-				command: "/summon artifacts:mimic ~ ~ ~"
-				icon: {
-					id: "artifacts:mimic_spawn_egg"
-				}
-				id: "75A5CB8F03F3BFD2"
-				permission_level: 2
-				silent: true
-				type: "command"
+				exclude_from_claim_all: true
+				id: "2F46C0DF35A5A07F"
+				table_id: 1222056859089637561L
+				type: "random"
 			}]
 			tasks: [{
 				consume_items: true
@@ -185,8 +181,8 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -318,30 +314,6 @@
 			}]
 			x: 0.0d
 			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "minecraft:bundle"
-			}
-			id: "0F8D2B34E704C083"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4275134978404B6D"
-				table_id: 3727137034912313201L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "541AEEE0E8FE3A7B"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -616,7 +588,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -1290,7 +1262,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{

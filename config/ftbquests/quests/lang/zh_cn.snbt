@@ -646,8 +646,6 @@
 	quest.0F00F91A36533F86.quest_subtitle: "了解电龙习性"
 	quest.0F00F91A36533F86.title: "观察电龙"
 	quest.0F4C981910BE7936.quest_subtitle: "“三杯不过乡”"
-	quest.0F8D2B34E704C083.quest_subtitle: "抽取泰拉饰品"
-	quest.0F8D2B34E704C083.title: "泰拉饰品盲盒"
 	quest.0FB3F40215AD09FA.quest_desc: [
 		"&a目标：找到沙虫巢穴"
 		""
@@ -826,25 +824,6 @@
 		"&c（配方已修改，需要初学者日志）"
 	]
 	quest.12A10457CBA9AF23.quest_subtitle: "破旧，但极具性价比"
-	quest.12A467A5BE97AA0E.quest_desc: [
-		"我们走过的生物群系："
-		"&2自然罗盘：&a天际山谷&r"
-		"&2自然罗盘：&a魔法蔓林&r"
-		"&2自然罗盘：&a峭壁花园&r"
-		"&2自然罗盘：&a樱花树林&r"
-		"&2自然罗盘：&a玫瑰原野&r"
-		"&2自然罗盘：&a绒球葱灌丛&r"
-		"&2自然罗盘：&a苋菜花原野&r"
-		"&2自然罗盘：&a蓝花楹丛林&r"
-		"&2自然罗盘：&a鸟尾花常绿灌木群落&r"
-		""
-		"未至之地："
-		"&2自然罗盘：&a繁花原野&r"
-		"&2自然罗盘：&a虞美人原野&r"
-		"&2自然罗盘：&a木兰林地&r"
-	]
-	quest.12A467A5BE97AA0E.quest_subtitle: "打卡12种繁花生物群系"
-	quest.12A467A5BE97AA0E.title: "你若盛开，蝴蝶自来"
 	quest.12D51CB6B22EB6E9.quest_desc: [
 		"&a目标：化为晶咒龙"
 		""
@@ -3264,8 +3243,6 @@
 	quest.5DB104CFE665CC09.quest_desc: [
 		"&2自然罗盘：&a内陆沙漠&r"
 		"&2自然罗盘：&a巨人柱沙漠&r"
-		"&2自然罗盘：&a短叶丝兰沙漠&r"
-		"&2自然罗盘：&a莫哈韦沙漠&r"
 		"&2自然罗盘：&a风袭沙漠&r"
 		"&2自然罗盘：&a晶化沙漠&r"
 		"&9结构罗盘：&b【地牢浮现之时】矿业综合体&r"
@@ -3600,28 +3577,11 @@
 		"右键点击一个&a龙骑士师魔宠&r来绑定他，"
 		"击杀&5末影龙&r掉落。"
 	]
-	quest.6B23ED6B44E5FDFF.quest_desc: [
-		"&2自然罗盘：&a尖冰之地&r"
-		"&2自然罗盘：&a寒冷落叶林&r"
-		"&2自然罗盘：&a冰封苔原&r"
-		"&2自然罗盘：&a寒冰高地&r"
-		"&2自然罗盘：&a冰封松树针叶林&r"
-		"&2自然罗盘：&a呼啸山巅&r"
-		"&2自然罗盘：&a寒霜针叶林&r"
-		"&2自然罗盘：&a破碎的冰川&r"
-		"&2自然罗盘：&a覆雪的针叶林&r"
-	]
-	quest.6B23ED6B44E5FDFF.quest_subtitle: "打卡9种苔原生物群系"
-	quest.6B23ED6B44E5FDFF.title: "真的冰霜行者"
 	quest.6B26A9D9D92F69DA.quest_subtitle: "龙族流放之地"
 	quest.6B26A9D9D92F69DA.title: "打卡：末地内陆"
-	quest.6B3CAAA337596F88.quest_desc: [
-		"&c注意：是原地生成一只【宝箱怪】！"
-		""
-		"&7&o相同饰品只生效一个！如：生命水晶无法叠加血量。"
-	]
+	quest.6B3CAAA337596F88.quest_desc: [""]
 	quest.6B3CAAA337596F88.quest_subtitle: "饰品抽奖"
-	quest.6B3CAAA337596F88.title: "宝箱怪"
+	quest.6B3CAAA337596F88.title: "奇异饰品盲盒"
 	quest.6B5D3B7AD863862F.quest_desc: [
 		"&a目标：获得魔宠的床和奥术源质"
 		""
@@ -4358,15 +4318,13 @@
 	reward.6CFE2CB668667884.title: "开启死亡不掉落"
 	reward.6F1D6D4E8BFC60D7.title: "圣耀龙鳞"
 	reward.70DF28F993259115.title: "和平誓约"
-	reward.75A5CB8F03F3BFD2.title: "生成【宝箱怪】"
 	reward.7D4E423C2BEB7F9C.title: "晴天"
 	reward_table.0F48BCBAFA4E52F3.title: "新手礼包"
+	reward_table.10F59E3D155E10B9.title: "奇异饰品盲盒"
 	reward_table.136B57BE59010836.title: "龙之生存附魔书"
 	reward_table.149FBD4E03B83B80.title: "混凝土"
 	reward_table.1FEB68824B7D178E.title: "龙蛋"
 	reward_table.2DCB6EECCE37DE3C.title: "方块小镇蓝图"
-	reward_table.33B97362D326AF71.title: "泰拉饰品盲盒"
-	reward_table.36D6AF72EE45D67D.title: "泰拉BOSS召唤物"
 	reward_table.3E928BE988507C6D.title: "灾变BOSS召唤物"
 	reward_table.470A343B90F6B99A.title: "暮色树苗盲盒"
 	reward_table.49C6A2B8867D43FC.title: "切换天气"

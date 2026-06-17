@@ -1,7 +1,7 @@
 {
 	id: "3E928BE988507C6D"
 	loot_size: 1
-	order_index: 3
+	order_index: 2
 	rewards: [
 		{ id: "14FFB3257C13AAEB", item: { count: 1, id: "cataclysm:abyssal_sacrifice" } }
 		{ id: "5B9E8038E8760E3E", item: { count: 1, id: "cataclysm:burning_ashes" } }

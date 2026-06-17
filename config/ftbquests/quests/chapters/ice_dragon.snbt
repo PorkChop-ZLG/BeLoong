@@ -40,8 +40,8 @@
 			id: "7C9E4FA0FDC61357"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "563656DEA03026A3"
-				table_id: 3727137034912313201L
+				id: "584BB9439B3735FA"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -113,7 +113,6 @@
 			dependencies: [
 				"1611AF1CA2E30FEE"
 				"6B64D3D885D9E1A9"
-				"6B23ED6B44E5FDFF"
 			]
 			dependency_requirement: "one_completed"
 			icon: {
@@ -143,18 +142,18 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "440708989B5820C3"
-					table_id: 3727137034912313201L
-					type: "choice"
-				}
-				{
 					id: "19669C22AD5194A9"
 					item: {
 						count: 1
 						id: "kubejs:progenitor_dragon_power"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F01437B484E71FE"
+					table_id: 1222056859089637561L
+					type: "choice"
 				}
 			]
 			shape: "octagon"
@@ -246,8 +245,8 @@
 			id: "58340821BF7679E4"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1192AD14E119F53F"
-				table_id: 3727137034912313201L
+				id: "559E9E11ECA8D59C"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -285,8 +284,8 @@
 			id: "10E3B21E1DACD87E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1938ADCA73B3576D"
-				table_id: 3727137034912313201L
+				id: "2AB56C807DAD7408"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -324,8 +323,8 @@
 			id: "1AA4E0CE318BA06A"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7DF0BE3151619919"
-				table_id: 3727137034912313201L
+				id: "4B521E31E6A6E38F"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -361,8 +360,8 @@
 			id: "1BCEED323665EDE1"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "19E4E2F875B455F6"
-				table_id: 3727137034912313201L
+				id: "7859773F86F494AC"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "pentagon"
@@ -1166,103 +1165,6 @@
 			]
 			x: 1.5d
 			y: 17.5d
-		}
-		{
-			dependencies: ["1BCEED323665EDE1"]
-			id: "6B23ED6B44E5FDFF"
-			optional: true
-			rewards: [
-				{
-					count: 9
-					id: "1C1E08B48824E60C"
-					item: {
-						count: 1
-						id: "kubejs:tundra_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "10FAD6895C2F9D56"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					biome: "regions_unexplored:spires"
-					icon: {
-						id: "cataclysm:pointed_icicle"
-					}
-					id: "4292154DF8A2D433"
-					type: "biome"
-				}
-				{
-					biome: "regions_unexplored:cold_deciduous_forest"
-					icon: {
-						id: "regions_unexplored:white_snowbelle"
-					}
-					id: "5B20D793863BE446"
-					type: "biome"
-				}
-				{
-					biome: "regions_unexplored:frozen_tundra"
-					icon: {
-						id: "regions_unexplored:frozen_grass"
-					}
-					id: "6B3E69C8EF51915F"
-					type: "biome"
-				}
-				{
-					biome: "regions_unexplored:icy_heights"
-					icon: {
-						id: "regions_unexplored:light_gray_snowbelle"
-					}
-					id: "7CB5B28888ECAE6F"
-					type: "biome"
-				}
-				{
-					biome: "regions_unexplored:frozen_pine_taiga"
-					icon: {
-						id: "regions_unexplored:gray_snowbelle"
-					}
-					id: "1E76EC634E1B7A5D"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:howling_peaks"
-					icon: {
-						id: "regions_unexplored:light_blue_snowbelle"
-					}
-					id: "6BA615D9A3AD2C9B"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:frosted_coniferous_forest"
-					icon: {
-						id: "regions_unexplored:blue_snowbelle"
-					}
-					id: "2B09B8633A61AF9A"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:shattered_glacier"
-					icon: {
-						id: "regions_unexplored:enchanted_birch_leaf_litter"
-					}
-					id: "43602953353C7640"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:frosted_taiga"
-					icon: {
-						id: "regions_unexplored:sky_wisteria_sapling"
-					}
-					id: "347220985A0D789B"
-					type: "biome"
-				}
-			]
-			x: -1.5d
-			y: 22.5d
 		}
 	]
 }
