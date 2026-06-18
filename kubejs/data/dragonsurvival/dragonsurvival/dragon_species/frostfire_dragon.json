@@ -1,0 +1,49 @@
+{
+	"abilities": "#dragonsurvival:frostfire_dragon",
+	"misc_resources": {
+		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/cave/cast_bar.png",
+		"altar_banner": "dragonsurvival:textures/gui/custom/altar/frostfire/altar_icon.png",
+		"food_sprites": "dragonsurvival:textures/gui/custom/food_icons/frostfire_food_icons.png",
+		"food_tooltip": {
+			"nutrition_icon": "\\uEA01",
+			"saturation_icon": "\\uEA02",
+			"font": "frostfire_dragon:food_tooltip_icon_font"
+		},
+		"growth_crystal": {
+			"empty": "dragonsurvival:textures/gui/custom/stage/frostfire/point_main.png",
+			"full": "dragonsurvival:textures/gui/custom/stage/frostfire/point_hover.png"
+		},
+		"growth_left_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/frostfire/left_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/frostfire/left_arrow_main.png"
+		},
+		"growth_right_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/frostfire/right_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/frostfire/right_arrow_main.png"
+		},
+		"mana_sprites": {
+			"empty": "dragonsurvival:textures/gui/custom/mana_icons/frostfire/empty.png",
+			"full": "dragonsurvival:textures/gui/custom/mana_icons/frostfire/full.png",
+			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/frostfire/recovery.png",
+			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/frostfire/reserved.png"
+		},
+		"primary_color": "#7FC6E8",
+		"secondary_color": "#2F5F73"
+	},
+	"penalties": "#dragonsurvival:frostfire_dragon",
+	"unlockable_behavior": {
+		"visibility": "visible_if_locked",
+		"unlock_condition": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type_specific": {
+					"type": "minecraft:player",
+					"advancements": {
+						"frostfire_dragon:unlock_frostfire_dragon": true
+					}
+				}
+			}
+		}
+	}
+}

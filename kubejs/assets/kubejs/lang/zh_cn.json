@@ -77,6 +77,8 @@
   "dragonsurvival.advancement.aether/aether_food.desc": "吃过所有独特的以太龙食物。可在龙之祭坛查看食物列表。",
   "dragonsurvival.advancement.aether/be_human": "以太龙化形",
   "dragonsurvival.advancement.aether/be_human.desc": "使用「化形」技能变成人类。",
+  "frostfire_dragon.advancement.unlock_frostfire_dragon": "生于冰火",
+  "frostfire_dragon.advancement.unlock_frostfire_dragon.desc": "被冰龙和火龙的吐息命中后，即可解锁冰焰龙。",
 
   "dragon_stage.dragonsurvival.cave_ancient": "远古龙",
   "dragon_stage.dragonsurvival.cave_archean": "太古龙",

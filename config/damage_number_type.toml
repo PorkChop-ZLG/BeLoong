@@ -4551,3 +4551,31 @@
 			prepend = ""
 			append = ""
 			format = ""
+
+	[tag."iceandfire:dragon_ice"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."iceandfire:dragon_ice".icon]
+			tex = ""
+			item = ""
+
+		[tag."iceandfire:dragon_ice".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."iceandfire:dragon_fire"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."iceandfire:dragon_fire".icon]
+			tex = ""
+			item = ""
+
+		[tag."iceandfire:dragon_fire".format]
+			prepend = ""
+			append = ""
+			format = ""
