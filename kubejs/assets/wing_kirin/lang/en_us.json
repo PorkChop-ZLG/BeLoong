@@ -1,6 +1,5 @@
 {
-  "dragon_ability.dragonsurvival.thunderous_shout.desc": "§7■ Take a deep breath, then fully mobilize the energy from your dantian, releasing it all in an instant in the form of§6 Sonic Boom§r§7, like a sudden thunderclap heard for miles, causing enemies to be§e terrified, their courage shattered§r§7.§r§7\n\n■ If you have the§6「Golden Bell」§r§7 artifact, you can concentrate the sound energy,§a greatly increasing the power§r§7, creating a§e crushing force§r§7.\n\n§e■ Due to the immense internal energy required, it has a§n duration limit§r§e, which increases with§a ability level(growth level)§r§e.§7\n\n§4■ Has extremely high exhaustion; cannot be performed when severely injured; when continuous casting reaches the maximum duration limit, it will exhaust you, significantly reducing damage.§r\n\n§6§o\"*Struggling* Is this the Thunderous Shout?§r\"",
-  "dragon_species.dragonsurvival.wing_kirin.locked": "After you obtain the §5Elytra§r, you can transform into the Auspicious Beast — the§6 Wing Kirin.§r",
+  "dragon_species.dragonsurvival.wing_kirin.locked": "■ After you obtain the §5Elytra§r, you can transform into the Auspicious Beast — the§6 Wing Kirin§r",
   "dragon_stage.wing_kirin.kirin_adult": "Adult Kirin",
   "dragon_stage.wing_kirin.kirin_ancient": "Ancient Kirin",
   "dragon_stage.wing_kirin.kirin_archean": "Archean Kirin",

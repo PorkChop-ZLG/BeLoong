@@ -2457,7 +2457,7 @@
 	"dragon_penalty.dragonsurvival.gravity_well": "Gravity Well",
 	"dragon_penalty.dragonsurvival.gravity_well.desc": "§bAstral dragons§r do poorly when trapped deep in a dimension's gravity well, suffering from occasional §cslowdown§r effects and an inability to §6recover energy§r.",
 	"dragon_species.dragonsurvival.astral_dragon": "Astral Dragon",
-	"dragon_species.dragonsurvival.astral_dragon.locked": "You must have traversed a portal to reach The End in order to become this species.",
+	"dragon_species.dragonsurvival.astral_dragon.locked": "■ You must have traversed a portal to reach The End in order to become this species.",
 	"dragon_species.dragonsurvival.astral_dragon.altar.desc": "§7■ §bAstral Dragons§r§7 are a unique species that §r§ado not eat§r§7, instead gaining their energy by draining excess from the air around them.\n\n§2■ Features:§r§7 Energy regeneration, purifying magic.\n§4■ Curse:§r Fear Deep gravity wells, liquids\n§6■ Diet: §r %s",
 	"dragon_species.dragonsurvival.astral_dragon.banner.desc": "§7■ You are an §bAstral Dragon§r§7, making you §r§3inediate§r§7.  You grow §r§1more slowly§r§7 than other dragons.  You will eventually condense into a smaller form after you reach your maximum size.  You §r§4cannot§r§7 regain energy within liquids or while deep underground.",
 	"astral_dragon.advancement.astral/be_dragon": "Astral Ascension",
