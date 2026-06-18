@@ -3376,6 +3376,20 @@
 			append = ""
 			format = ""
 
+		[type.dihuang_loong.tectonic_dash]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.dihuang_loong.tectonic_dash.icon]
+				tex = ""
+				item = ""
+
+			[type.dihuang_loong.tectonic_dash.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
