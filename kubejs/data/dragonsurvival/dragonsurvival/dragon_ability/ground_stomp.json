@@ -1,0 +1,231 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dihuang_loong:ground_stomp_charge",
+                            "charge_scaling": {
+                                "min_ratio": 0.0,
+                                "max_ratio": 1.0,
+                                "curve": "linear"
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            },
+            "trigger_point": "default",
+            "trigger_rate": 0
+        },
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dihuang_loong:ground_stomp",
+                            "max_charge_ticks": {
+                                "type": "minecraft:lookup",
+                                "fallback": {
+                                    "type": "minecraft:linear",
+                                    "base": 60,
+                                    "per_level_above_first": 20
+                                },
+                                "values": [
+                                    20,
+                                    40,
+                                    60,
+                                    80,
+                                    100,
+                                    120
+                                ]
+                            },
+                            "damage": {
+                                "type": "minecraft:lookup",
+                                "fallback": {
+                                    "type": "minecraft:linear",
+                                    "base": 60,
+                                    "per_level_above_first": 20
+                                },
+                                "values": [
+                                    100,
+                                    200,
+                                    500,
+                                    1000,
+                                    1500,
+                                    2000
+                                ]
+                            },
+                            "radius": {
+                                "type": "minecraft:lookup",
+                                "fallback": {
+                                    "type": "minecraft:linear",
+                                    "base": 6,
+                                    "per_level_above_first": 3
+                                },
+                                "values": [
+                                    6,
+                                    9,
+                                    12,
+                                    13,
+                                    14,
+                                    15
+                                ]
+                            },
+                            "immobilize_duration": 100,
+                            "armor_per_target": {
+                                "type": "minecraft:linear",
+                                "base": 2.0,
+                                "per_level_above_first": 3.0
+                            },
+                            "armor_duration": 200,
+                            "min_jump_velocity": {
+                                "type": "minecraft:linear",
+                                "base": 0.3,
+                                "per_level_above_first": 0.2
+                            },
+                            "max_jump_velocity": {
+                                "type": "minecraft:linear",
+                                "base": 1.0,
+                                "per_level_above_first": 0.5
+                            },
+                            "jump_timeout": {
+                                "type": "minecraft:linear",
+                                "base": 100,
+                                "per_level_above_first": 50
+                            },
+                            "block_effect": {
+                                "min_velocity": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.28,
+                                    "per_level_above_first": 0.0
+                                },
+                                "max_velocity": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.43,
+                                    "per_level_above_first": 0.0
+                                },
+                                "max_delay": 10,
+                                "vertical_offset": 1
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            },
+            "trigger_point": "channel_completion",
+            "trigger_rate": 0
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:channeled",
+        "animations": {
+            "looping": {
+                "animation_key": "vibing_sitting",
+                "layer": "BASE",
+                "locks_neck": true,
+                "locks_tail": true,
+                "transition_length": 2
+            },
+            "end": {
+                "animation_key": "ground_stomp2",
+                "layer": "BASE",
+                "locks_neck": true,
+                "locks_tail": true,
+                "transition_length": 2
+            }
+        },
+        "cast_time": 10,
+        "max_duration": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 60,
+                "per_level_above_first": 20
+            },
+            "values": [
+                20,
+                40,
+                60,
+                80,
+                100,
+                120
+            ]
+        },
+        "cooldown": 300,
+        "can_move_while_casting": false,
+        "initial_mana_cost": 0,
+        "continuous_mana_cost": {
+            "type": "ticking",
+            "amount": {
+                "type": "minecraft:linear",
+                "base": 0.05,
+                "per_level_above_first": 0.05
+            }
+        }
+    },
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ground_stomp_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ground_stomp_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ground_stomp_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ground_stomp_3"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ground_stomp_3"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ground_stomp_3"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ground_stomp_3"
+            }
+        ]
+    },
+    "upgrade": {
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 20.0,
+                "per_level_above_first": 20.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 6,
+        "upgrade_type": "dragonsurvival:dragon_growth"
+    },
+    "usage_blocked": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "flags": {
+                "is_on_ground": false
+            }
+        }
+    }
+}
