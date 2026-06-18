@@ -443,22 +443,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["10EEAA4808CEB43D"]
-			id: "2B6E8F9EF14EC294"
-			rewards: [{
-				id: "38121DEDC4494DD8"
-				type: "xp"
-				xp: 300
-			}]
-			tasks: [{
-				id: "0AC18B425EE5B29F"
-				item: { components: { "irons_spellbooks:furled_map_data": { descriptionOverride: { translate: "item.irons_spellbooks.citadel_map" }, destination: "irons_spellbooks:citadel", dimension: "minecraft:the_nether" }, "minecraft:lore": ["{\"color\":\"gray\",\"translate\":\"item.irons_spellbooks.furled_map_descriptor_framing\",\"with\":[{\"translate\":\"item.irons_spellbooks.citadel_map\"}]}"] }, count: 1, id: "irons_spellbooks:furled_map_ancient" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["3FB2C999F046AAE3"]
 			icon: {
 				id: "irons_spellbooks:wisewood_bookshelf"

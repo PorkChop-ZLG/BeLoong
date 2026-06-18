@@ -357,6 +357,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 64
+					id: "46125BAB1A6273CB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "78E9F295038C2F8B"

@@ -55,11 +55,18 @@
 				xp: 100
 			}
 			{
-				count: 20
-				id: "47F09446543B39FA"
+				id: "23CA0172505FF22C"
 				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"soulbound:soulbound": 1
+							}
+						}
+						"minecraft:repair_cost": 1
+					}
 					count: 1
-					id: "minecraft:cooked_porkchop"
+					id: "beloong:eternal_porkchop"
 				}
 				type: "item"
 			}

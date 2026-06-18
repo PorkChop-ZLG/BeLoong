@@ -1594,12 +1594,6 @@
 	]
 	quest.2B5CAD5134FFA4AF.quest_subtitle: "Start Your『BeLoong』 Journey!"
 	quest.2B5CAD5134FFA4AF.title: "&6&lMain Quest: Dragon Survival"
-	quest.2B6E8F9EF14EC294.quest_desc: [
-		"Right-click the &6Rolled Ancient Map&r to unfold it into a map."
-		""
-		"The red X on the map marks an ancient leftover fortress."
-	]
-	quest.2B6E8F9EF14EC294.quest_subtitle: "Marks a Forgotten Fortress"
 	quest.2B8490063511F9F1.quest_desc: [
 		"Combat: Uses nature magic to control enemies."
 		"Abilities:"

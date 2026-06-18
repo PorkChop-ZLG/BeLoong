@@ -1,0 +1,65 @@
+{
+  "twilightforest:naga_courtyard": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:lich_tower": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:labyrinth": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:hydra_lair": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:knight_stronghold": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:dark_tower": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:yeti_cave": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:aurora_palace": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 2,
+      "duration": 100
+    }
+  ],
+  "twilightforest:final_castle": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 3,
+      "duration": 100
+    }
+  ]
+}
