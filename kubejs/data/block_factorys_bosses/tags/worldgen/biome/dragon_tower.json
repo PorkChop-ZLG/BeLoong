@@ -4,10 +4,6 @@
     {
       "id": "eternal_starlight:dark_swamp",
       "required": false
-    },
-    {
-      "id": "eternal_starlight:umbral_plains",
-      "required": false
     }
   ]
 }
