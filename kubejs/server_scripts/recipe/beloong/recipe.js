@@ -44,6 +44,12 @@ ServerEvents.recipes(event => {
             'kubejs:crystcursed_dragon_heart'
         ]
     )
+    event.shapeless(
+        Item.of('dragonsurvival:elder_dragon_heart', 1),
+        [
+            'kubejs:dihuang_loong_heart'
+        ]
+    )
     // 泰拉BOSS召唤物 换成 远古龙心
     event.shapeless(
         Item.of('dragonsurvival:elder_dragon_heart', 1),

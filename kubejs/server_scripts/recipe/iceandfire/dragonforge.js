@@ -1,8 +1,6 @@
 // 该脚本用于魔改合成类型 龙钢锻炉
 
 ServerEvents.recipes(event => {
-    // 移除原版 远古龙心 配方
-    event.remove({ id: 'dragonsurvival:elder_dragon_heart' })
     // 下界合金锭 + 脆弱龙心 = 龙炎煅炉 = 远古龙心
     event.custom(
         {

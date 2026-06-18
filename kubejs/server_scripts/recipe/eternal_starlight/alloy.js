@@ -25,6 +25,9 @@ ServerEvents.recipes(event => {
                     "item": "kubejs:astral_dragon_heart"
                 },
                 {
+                    "item": "kubejs:dihuang_loong_heart"
+                },
+                {
                     "item": "kubejs:crystcursed_dragon_heart"
                 }
             ],
