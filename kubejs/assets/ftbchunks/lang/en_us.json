@@ -231,7 +231,7 @@
   "ftbchunks.claim_result.not_claimed": "Chunk not claimed",
   "ftbchunks.claim_result.already_loaded": "Chunk already loaded",
   "ftbchunks.claim_result.not_loaded": "Chunk not loaded",
-  "ftbchunks.need_to_claim_chunk": "You need to claim this chunk to interact with blocks here!",
+  "ftbchunks.need_to_claim_chunk": "This place is protected!",
   "ftbchunks.action_prevented": "Interaction prevented here by claim protection!",
   "ftbchunks.label.show": "Show",
   "ftbchunks.label.hide": "Hide",
