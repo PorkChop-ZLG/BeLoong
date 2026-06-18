@@ -3,6 +3,7 @@
         "dragonsurvival:ore_sense",
         "dragonsurvival:stoneplate_armor",
         "dragonsurvival:ground_stomp",
+        "dragonsurvival:tectonic_dash",
         "dragonsurvival:orbiting_shards",
         "dragonsurvival:lithic_shelter",
 
@@ -11,9 +12,10 @@
         "dragonsurvival:earth_athletics",
         "dragonsurvival:seismic_charge",
         
-        "dragonsurvival:tectonic_dash",
         "dragonsurvival:mineral_carapace",
         "dragonsurvival:associated_rock_armor",
+        "dragonsurvival:rock_riding",
+        "dragonsurvival:rock_spin",
         
 		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"

@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "dragonsurvival:item_blacklist",
+        "dragonsurvival:fear",
+        "dragonsurvival:flight_limit"
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:damage_modification",
+                            "modifications": [
+                                {
+                                    "base": {
+                                        "id": "dragonsurvival:stoneplate_armor-projectile_and_melee",
+                                        "duration": {
+                                            "type": "linear",
+                                            "base": 1200,
+                                            "per_level_above_first": 800
+                                        }
+                                    },
+                                    "damage_types": "#oreback_dragon:projectile_and_melee_damage",
+                                    "multiplier": {
+                                        "type": "linear",
+                                        "base": 0.75,
+                                        "per_level_above_first": -0.1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "effect_type": "dragonsurvival:damage_modification",
+                            "modifications": [
+                                {
+                                    "base": {
+                                        "id": "dragonsurvival:stoneplate_armor-fire",
+                                        "duration": {
+                                            "type": "linear",
+                                            "base": 1200,
+                                            "per_level_above_first": 800
+                                        },
+                                        "is_hidden": true
+                                    },
+                                    "damage_types": "#minecraft:is_fire",
+                                    "multiplier": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "effect_type": "dragonsurvival:modifier",
+                            "modifiers": [
+                                {
+                                    "base": {
+                                        "id": "dihuang_loong:knockback_resistance",
+                                        "duration": {
+                                            "type": "minecraft:linear",
+                                            "base": 1200,
+                                            "per_level_above_first": 800
+                                        }
+                                    },
+                                    "modifiers": [
+                                        {
+                                            "attribute": "minecraft:generic.knockback_resistance",
+                                            "operation": "add_value",
+                                            "amount": {
+                                                "type": "minecraft:linear",
+                                                "base": 0.0,
+                                                "per_level_above_first": 0.2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            }
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:simple",
+        "animations": {
+            "start_and_charging": {
+                "animation_key": "cast_self_buff",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": false,
+                "transition_length": 5
+            },
+            "end": {
+                "animation_key": "self_buff",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": false,
+                "transition_length": 5
+            }
+        },
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 1200,
+            "per_level_above_first": 400
+        },
+        "cast_time": 10,
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 2
+        }
+    },
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/dihuang/stoneplate_armor_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/dihuang/stoneplate_armor_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/dihuang/stoneplate_armor_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/dihuang/stoneplate_armor_3"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/dihuang/stoneplate_armor_3"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/dihuang/stoneplate_armor_3"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/dihuang/stoneplate_armor_3"
+            }
+        ]
+    },
+    "upgrade": {
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 20.0,
+                "per_level_above_first": 20.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 6,
+        "upgrade_type": "dragonsurvival:dragon_growth"
+    }
+}
