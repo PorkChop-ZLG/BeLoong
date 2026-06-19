@@ -6,43 +6,7 @@
                 "applied_effects": {
                     "entity_effect": [
                         {
-                            "effect_type": "dihuang_loong:ground_stomp_charge",
-                            "charge_scaling": {
-                                "min_ratio": 0.0,
-                                "max_ratio": 1.0,
-                                "curve": "linear"
-                            }
-                        }
-                    ],
-                    "targeting_mode": "all"
-                }
-            },
-            "trigger_point": "default",
-            "trigger_rate": 0
-        },
-        {
-            "target_selection": {
-                "target_type": "dragonsurvival:self",
-                "applied_effects": {
-                    "entity_effect": [
-                        {
                             "effect_type": "dihuang_loong:ground_stomp",
-                            "max_charge_ticks": {
-                                "type": "minecraft:lookup",
-                                "fallback": {
-                                    "type": "minecraft:linear",
-                                    "base": 60,
-                                    "per_level_above_first": 20
-                                },
-                                "values": [
-                                    20,
-                                    40,
-                                    60,
-                                    80,
-                                    100,
-                                    120
-                                ]
-                            },
                             "damage": {
                                 "type": "minecraft:lookup",
                                 "fallback": {
@@ -63,16 +27,16 @@
                                 "type": "minecraft:lookup",
                                 "fallback": {
                                     "type": "minecraft:linear",
-                                    "base": 6,
-                                    "per_level_above_first": 3
+                                    "base": 6.0,
+                                    "per_level_above_first": 3.0
                                 },
                                 "values": [
-                                    6,
-                                    9,
-                                    12,
-                                    13,
-                                    14,
-                                    15
+                                    6.0,
+                                    9.0,
+                                    12.0,
+                                    13.0,
+                                    14.0,
+                                    15.0
                                 ]
                             },
                             "immobilize_duration": 100,
@@ -97,6 +61,11 @@
                                 "base": 100,
                                 "per_level_above_first": 50
                             },
+                            "charge_scaling": {
+                                "min_ratio": 0.0,
+                                "max_ratio": 1.0,
+                                "curve": "linear"
+                            },
                             "block_effect": {
                                 "min_velocity": {
                                     "type": "minecraft:linear",
@@ -116,7 +85,7 @@
                     "targeting_mode": "all"
                 }
             },
-            "trigger_point": "channel_completion",
+            "trigger_point": "default",
             "trigger_rate": 0
         }
     ],
@@ -138,7 +107,7 @@
                 "transition_length": 2
             }
         },
-        "cast_time": 10,
+        "cast_time": 1,
         "max_duration": {
             "type": "minecraft:lookup",
             "fallback": {
