@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","mod/continuity:resourcepacks/default","mod/continuity:resourcepacks/glass_pane_culling_fix","mod/yuushya:resourcepacks/mcpatcher_feature","file/NewGlowingOres-§6[Border]§r.zip","file/Icon Xaero\u0027s 1.21.zip","file/SpawnEgg3D-1.21.zip","file/Assorted Allays x FA - V.10.2.zip","file/Better-Leaves-9.5.zip","file/BeLoong Music V3.zip","file/BeLoong Gui V3.zip","[无缝玻璃] Clear Glass Pack 1.21.zip","[更好的末影龙重制版] BetterDragonRemastered[18].zip","[更好的草和蕨] Os\u0027 Colorful Grasses (Mix).zip","[更好的草方块] Fast Better Grass.zip"]
+resourcePacks:["serilum_mod_translations","vanilla","mod_resources","moonlight:merged_pack","mod/continuity:resourcepacks/default","mod/continuity:resourcepacks/glass_pane_culling_fix","mod/yuushya:resourcepacks/mcpatcher_feature","file/Icon Xaero\u0027s 1.21.zip","file/SpawnEgg3D-1.21.zip","file/Assorted Allays x FA - V.10.2.zip","file/Better-Leaves-9.5.zip","file/BeLoong Music V3.zip","file/BeLoong Gui V3.zip","[无缝玻璃] Clear Glass Pack 1.21.zip","[更好的草和蕨] Os\u0027 Colorful Grasses (Mix).zip","[更好的草方块] Fast Better Grass.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
