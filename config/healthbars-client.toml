@@ -183,7 +183,7 @@ any_rendering = true
 	#Entities that may never show a health bar.
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	#Default Value: [minecraft:armor_stand]
-	no_health_bar_mobs = ["minecraft:armor_stand", "dummmmmmy:target_dummy"]
+	no_health_bar_mobs = ["minecraft:armor_stand"]
 	#The raytrace range for finding a picked entity.
 	#Setting this to -1 will make it use the player entity interaction range, which is 3 in survival.
 	#Default Value: 16
