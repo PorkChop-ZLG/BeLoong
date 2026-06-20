@@ -3,7 +3,7 @@
 gui_rendering = true
 #Allow rendering health bars above entities in the level.
 #Default Value: true
-level_rendering = true
+level_rendering = false
 #Are health bars enabled, toggleable in-game via the dedicated keybinding.
 any_rendering = true
 
@@ -21,12 +21,12 @@ any_rendering = true
 	#Default Value: 9
 	# Default: 9
 	# Range: > 0
-	offset_width = 9
+	offset_width = 5
 	#Offset in pixels on the vertical axis from the screen border.
 	#Default Value: 9
 	# Default: 9
 	# Range: > 0
-	offset_height = 9
+	offset_height = 15
 	#Allow rendering the visual mob display as part of the health bar overlay.
 	#Default Value: true
 	render_entity_display = true
@@ -89,7 +89,7 @@ any_rendering = true
 [level]
 	#Increase the health bar width for mobs with a lot of health, like bosses.
 	#Default Value: true
-	scale_bar_width_by_health = true
+	scale_bar_width_by_health = false
 	#Allow rendering the health text.
 	#Default Value: true
 	render_health_component = true
@@ -183,7 +183,7 @@ any_rendering = true
 	#Entities that may never show a health bar.
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
 	#Default Value: [minecraft:armor_stand]
-	no_health_bar_mobs = ["minecraft:armor_stand"]
+	no_health_bar_mobs = ["minecraft:armor_stand", "dummmmmmy:target_dummy"]
 	#The raytrace range for finding a picked entity.
 	#Setting this to -1 will make it use the player entity interaction range, which is 3 in survival.
 	#Default Value: 16
