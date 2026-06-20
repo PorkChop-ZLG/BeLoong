@@ -2,7 +2,7 @@
 	#Whether to display experience level on the experience bar.
 	displayExperienceLevel = true
 	#Whether to enable the overlay. If disabled, all other overlay options will be ignored.
-	enableOverlay = false
+	enableOverlay = true
 	#The layout style of the overlay. 0: none, 1: above hot bar long, 2: above hot bar short, 3: top left, 4: top right, 5: bottom left, 6: bottom right
 	# Default: 2
 	# Range: 0 ~ 8
