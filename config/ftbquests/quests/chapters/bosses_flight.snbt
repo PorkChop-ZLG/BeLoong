@@ -1369,9 +1369,6 @@
 			y: 4.0d
 		}
 		{
-			icon: {
-				id: "block_factorys_bosses:underworld_knight_spawn_egg"
-			}
 			id: "0C4859FFFC25935A"
 			rewards: [
 				{
@@ -1399,18 +1396,15 @@
 				}
 			]
 			tasks: [{
-				entity: "block_factorys_bosses:underworld_knight"
-				id: "0B8D1C21B7DC3A42"
-				type: "kill"
-				value: 3L
+				advancement: "block_factorys_bosses:no_hit_underworld_knight"
+				criterion: ""
+				id: "2384979D9742ABA8"
+				type: "advancement"
 			}]
 			x: 4.0d
 			y: 3.0d
 		}
 		{
-			icon: {
-				id: "block_factorys_bosses:sandworm_spawn_egg"
-			}
 			id: "4DBAD417CE6615B0"
 			rewards: [
 				{
@@ -1438,18 +1432,15 @@
 				}
 			]
 			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
-				id: "44ADC795560C6131"
-				type: "kill"
-				value: 3L
+				advancement: "block_factorys_bosses:no_hit_sandworm"
+				criterion: ""
+				id: "0AF20C353B51A486"
+				type: "advancement"
 			}]
 			x: 5.0d
 			y: 3.0d
 		}
 		{
-			icon: {
-				id: "block_factorys_bosses:yeti_spawn_egg"
-			}
 			id: "5C54D192CA150300"
 			rewards: [
 				{
@@ -1477,18 +1468,15 @@
 				}
 			]
 			tasks: [{
-				entity: "block_factorys_bosses:yeti"
-				id: "11E94B4B89BF1785"
-				type: "kill"
-				value: 3L
+				advancement: "block_factorys_bosses:no_hit_yeti"
+				criterion: ""
+				id: "3F7A933AC07B89AA"
+				type: "advancement"
 			}]
 			x: 6.0d
 			y: 3.0d
 		}
 		{
-			icon: {
-				id: "block_factorys_bosses:infernal_dragon_spawn_egg"
-			}
 			id: "03B1663E1AEFE3E8"
 			rewards: [
 				{
@@ -1516,10 +1504,10 @@
 				}
 			]
 			tasks: [{
-				entity: "block_factorys_bosses:infernal_dragon"
-				id: "765D29BCC2B787F2"
-				type: "kill"
-				value: 3L
+				advancement: "block_factorys_bosses:no_hit_dragon"
+				criterion: ""
+				id: "7390FDBD4E7600E9"
+				type: "advancement"
 			}]
 			x: 7.0d
 			y: 3.0d
@@ -2043,9 +2031,6 @@
 			y: 6.0d
 		}
 		{
-			icon: {
-				id: "block_factorys_bosses:kraken_spawn_egg"
-			}
 			id: "5E95712B13C6FEFC"
 			rewards: [
 				{
@@ -2073,10 +2058,10 @@
 				}
 			]
 			tasks: [{
-				entity: "block_factorys_bosses:kraken"
-				id: "3F4AC3564661ED21"
-				type: "kill"
-				value: 3L
+				advancement: "block_factorys_bosses:no_hit_kraken"
+				criterion: ""
+				id: "5968213186B1CC3F"
+				type: "advancement"
 			}]
 			x: 3.0d
 			y: 3.0d
