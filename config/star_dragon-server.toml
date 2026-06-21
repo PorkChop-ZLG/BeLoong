@@ -1,8 +1,9 @@
 [general]
-	#Enable block destruction from skills (laser, supernova, black hole)
-	blockDestruction = false
 	#Enable time manipulation ability (only one player per world can use)
 	timeAbility = false
+	#Block destruction mode for skills (ON, FTB_PROTECTION, FTB_STRICT, OFF). FTB_PROTECTION checks per-block permission; FTB_STRICT forbids destruction in any claimed chunk.
+	#Allowed Values: ON, FTB_PROTECTION, FTB_STRICT, OFF
+	blockDestructionMode = "FTB_STRICT"
 
 [skills]
 	#Base damage for Black Hole skill

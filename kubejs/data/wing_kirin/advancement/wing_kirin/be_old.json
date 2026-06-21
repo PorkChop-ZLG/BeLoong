@@ -12,7 +12,7 @@
 								"type": "dragonsurvival:dragon_predicate",
 								"dragon_species": "dragonsurvival:wing_kirin",
 								"stage_specific": {
-									"dragon_stage": "wing_kirin:kirin_ancient"
+									"dragon_stage": "wing_kirin:kirin_progenitor"
 								}
 							}
 						}
