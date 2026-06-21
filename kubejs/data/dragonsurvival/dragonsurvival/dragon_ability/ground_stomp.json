@@ -11,16 +11,16 @@
                                 "type": "minecraft:lookup",
                                 "fallback": {
                                     "type": "minecraft:linear",
-                                    "base": 60,
-                                    "per_level_above_first": 20
+                                    "base": 60.0,
+                                    "per_level_above_first": 20.0
                                 },
                                 "values": [
-                                    100,
-                                    200,
-                                    500,
-                                    1000,
-                                    1500,
-                                    2000
+                                    100.0,
+                                    200.0,
+                                    500.0,
+                                    1000.0,
+                                    1500.0,
+                                    2000.0
                                 ]
                             },
                             "radius": {
@@ -34,9 +34,9 @@
                                     6.0,
                                     9.0,
                                     12.0,
-                                    13.0,
-                                    14.0,
-                                    15.0
+                                    15.0,
+                                    20.0,
+                                    25.0
                                 ]
                             },
                             "immobilize_duration": 100,
@@ -109,30 +109,23 @@
         },
         "cast_time": 1,
         "max_duration": {
-            "type": "minecraft:lookup",
-            "fallback": {
-                "type": "minecraft:linear",
-                "base": 60,
-                "per_level_above_first": 20
-            },
-            "values": [
-                20,
-                40,
-                60,
-                80,
-                100,
-                120
-            ]
+            "type": "minecraft:linear",
+            "base": 20,
+            "per_level_above_first": 20
         },
-        "cooldown": 300,
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 200,
+            "per_level_above_first": -30
+        },
         "can_move_while_casting": false,
         "initial_mana_cost": 0,
         "continuous_mana_cost": {
             "type": "ticking",
             "amount": {
                 "type": "minecraft:linear",
-                "base": 0.05,
-                "per_level_above_first": 0.05
+                "base": 0.02,
+                "per_level_above_first": 0.02
             }
         }
     },
@@ -192,8 +185,9 @@
         "condition": "entity_properties",
         "entity": "this",
         "predicate": {
-            "flags": {
-                "is_on_ground": false
+            "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "is_flying": true
             }
         }
     }
