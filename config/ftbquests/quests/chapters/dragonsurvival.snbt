@@ -952,6 +952,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "687EE5CE1568822E"
+					item: {
+						count: 1
+						id: "beloong:amplification_charm"
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d

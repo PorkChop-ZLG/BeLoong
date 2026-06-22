@@ -1,5 +1,58 @@
 {
+  "replace": true,
   "values": [
-    "#c:ores"
+    "#c:ores/coal",
+    "#c:ores/iron",
+    "#c:ores/copper",
+    "#c:ores/gold",
+    "#c:ores/redstone",
+    "#c:ores/emerald",
+    "#c:ores/lapis",
+    "#c:ores/diamond",
+    "#c:ores/quartz",
+    {
+      "id": "#c:ores/jade",
+      "required": false
+    },
+    {
+      "id": "#c:ores/mithril",
+      "required": false
+    },
+    {
+      "id": "#c:ores/starcore",
+      "required": false
+    },
+    {
+      "id": "#c:ores/starlit_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:ores/deepsilver",
+      "required": false
+    },
+    {
+      "id": "#c:ores/malarite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/saltpeter",
+      "required": false
+    },
+    {
+      "id": "#c:ores/silver",
+      "required": false
+    },
+    {
+      "id": "#c:ores/sapphire",
+      "required": false
+    },
+    {
+      "id": "star_dragon:star_ore",
+      "required": false
+    },
+    {
+      "id": "star_dragon:end_star_ore",
+      "required": false
+    }
   ]
 }

@@ -52,7 +52,7 @@
 	#Values between -1 and 0 reduce the player's scale
 	#Values above 0 increase the player's scale
 	#Range: -Infinity ~ Infinity
-	scaleModifier = -0.75
+	scaleModifier = -0.5
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true

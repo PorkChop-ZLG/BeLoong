@@ -1,6 +1,6 @@
 #The chance that an artifact generates in suspicious sand or gravel
 #Range: 0.0 ~ 1.0
-archaeologyChance = 0.05
+archaeologyChance = 0.02
 #Affects how common artifacts are in chests
 #Values above 1 will make artifacts rarer, values between 0 and 1 will make artifacts more common
 #Doubling this value will make artifacts approximately twice as hard to find, and vice versa
