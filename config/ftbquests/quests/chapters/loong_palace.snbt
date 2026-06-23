@@ -1,0 +1,26 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "loong_palace"
+	group: "68BA145F90AA30CE"
+	icon: {
+		components: {
+			"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7C914FF1A42F8A5B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6C793599D6EB7D88"
+		tasks: [{
+			dimension: "beloong:loong_palace"
+			id: "044DBFBFD6683D20"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

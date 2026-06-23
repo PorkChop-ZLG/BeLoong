@@ -1,10 +1,10 @@
 {
 	chapter.025C2A1E99ADD3C3.chapter_subtitle: [
-		"第四章：深暗的国度"
 		"将在1.3.4版本替换为新的维度！"
 		"难度：★★★★★"
+		"星光暗淡，长夜漫漫"
 	]
-	chapter.025C2A1E99ADD3C3.title: "④ 深暗之园（即将删除）"
+	chapter.025C2A1E99ADD3C3.title: "&m⑤ 深暗之园&r（即将删除）"
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["隐藏式任务"]
 	chapter.0ACA55AC777A92A0.title: "〖以太龙〗成长之路"
 	chapter.0F599041F0C4C0AF.chapter_subtitle: [
@@ -13,11 +13,17 @@
 	]
 	chapter.0F599041F0C4C0AF.title: "神器图鉴"
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
-		"第一章：陨落的龙族"
-		"龙之力，三段！"
+		"清晨：龙星"
+		"日上三竿，晨光熹微"
 		"难度：★"
 	]
 	chapter.1E4C1C94528F4F43.title: "① 龙之生存"
+	chapter.1FF49F51664E5364.chapter_subtitle: [
+		"正午：下界"
+		"烈日当空，午时已到"
+		"难度：★★"
+	]
+	chapter.1FF49F51664E5364.title: "② 下界末地（未完成）"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["隐藏式任务"]
 	chapter.22143E6BF4F1DBAD.title: "〖洞穴龙〗成长之路"
 	chapter.27AE0B7401476AE5.chapter_subtitle: ["物美价廉，童叟无欺"]
@@ -29,13 +35,18 @@
 	chapter.29CB766687624EDA.title: "怪物图鉴"
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
-	chapter.2E3FB1BAF707F532.title: "⑥ 天灾"
+	chapter.2E3FB1BAF707F532.chapter_subtitle: [
+		"黎明：天灾"
+		"黎明曙光，划破黑暗"
+		"难度：★★★★★★"
+	]
+	chapter.2E3FB1BAF707F532.title: "⑥ 天灾灭世"
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
-		"第二章：童年的回忆"
-		"可曾记得，最初的感动？"
+		"日落：暮色"
+		"日薄西山，暮色暗淡"
 		"难度：★★★"
 	]
-	chapter.2FCFFB6D530A343F.title: "② 暮色森林"
+	chapter.2FCFFB6D530A343F.title: "③ 暮色森林"
 	chapter.3DA5315F4969F944.chapter_subtitle: ["隐藏式任务"]
 	chapter.3DA5315F4969F944.title: "〖森林龙〗成长之路"
 	chapter.435F0743867522FA.chapter_subtitle: ["最好的伙伴"]
@@ -53,11 +64,11 @@
 	chapter.4E2D44FFE575436A.chapter_subtitle: ["隐藏式任务"]
 	chapter.4E2D44FFE575436A.title: "〖海洋龙〗成长之路"
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
-		"第三章：永恒的星光"
-		"暮色已尽，星光乍现。"
+		"半夜：星光"
+		"暮色已尽，星光乍现"
 		"难度：★★★★"
 	]
-	chapter.4EDF13489B6BA152.title: "③ 永恒星光"
+	chapter.4EDF13489B6BA152.title: "④ 永恒星光"
 	chapter.508CCA54F0BC90CA.chapter_subtitle: [
 		"完成所有龙的成长之路；"
 		"视为通关『化龍』"
@@ -88,6 +99,12 @@
 	chapter.70F8D93CCB47276E.title: "&d关于&e『&6化龍&e』&d整合包"
 	chapter.7B67918088B05AB6.chapter_subtitle: ["隐藏式任务"]
 	chapter.7B67918088B05AB6.title: "〖星界龙〗成长之路"
+	chapter.7C914FF1A42F8A5B.chapter_subtitle: [
+		"日出：龙宫"
+		"旭日东升，普照龙宫"
+		"难度：新手教程"
+	]
+	chapter.7C914FF1A42F8A5B.title: "序 龙宫化龙（未完成）"
 	chapter.7E93FF98428B8B46.chapter_subtitle: [
 		"番外篇：冰火传说"
 		"冰火传说社区版"
@@ -235,6 +252,8 @@
 		"&7&o奏响冰火的凯歌，聆听忘却的旋律，钻研钢铁的魔法；"
 		"&7&o深入灾变的下界，探索暮色的森林，领略永恒的星光；"
 		"&7&o当行至旅途终点，与女仆回归园田，化人身再续前缘。"
+		""
+		"&cFTB任务即将在1.3.4版本完全重写！"
 		""
 		"{@pagebreak}"
 		"&6在游玩之前，请学会使用&e[任务书]。"
@@ -1874,6 +1893,8 @@
 	quest.348D233B6FFB81BA.quest_desc: [
 		"像末地传送门那样摆放，然后放入12中不同的眼球，方可打开传送门"
 		"任务为临时任务，下版本会修改"
+		""
+		"&c本章节暂未完成！！！"
 	]
 	quest.34CBA8F45D46E480.quest_subtitle: "作者：YeueingE"
 	quest.34CBA8F45D46E480.title: "预制建筑：新手小屋"

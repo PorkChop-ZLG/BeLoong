@@ -1,0 +1,23 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "68BA145F90AA30CE"
+	icon: {
+		id: "minecraft:weeping_vines"
+	}
+	id: "1FF49F51664E5364"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "76A7A167E97880D8"
+		tasks: [{
+			dimension: "minecraft:the_nether"
+			id: "31A8B2FD0F3394BF"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

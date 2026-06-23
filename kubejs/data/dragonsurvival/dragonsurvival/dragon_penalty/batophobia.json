@@ -1,33 +1,39 @@
 {
   "icon": "dragonsurvival:penalties/aether/bathophobia",
   "condition": {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "position": {
-            "y": {
-              "min": -64,
-              "max": 0
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_on_ground": false
             }
-          },
-          "dimension": "minecraft:overworld",
-          "can_see_sky": false
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "ds_aether_addon:zen": {}
+            }
+          }
+        },
+        {
+          "condition": "minecraft:weather_check",
+          "raining": true
         }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "smokey": true
-        }
-      }
-    ]
+      ]
+    }
   },
   "effect": {
     "penalty_type": "dragonsurvival:mob_effect",
     "potion": {
-      "effects": "ds_aether_addon:asphyxia",
+      "effects": "dragonsurvival:magic_disabled",
       "amplifier": 0,
       "duration": 200,
       "effect_particles": false,
@@ -36,12 +42,21 @@
   },
   "trigger": {
     "penalty_trigger": "dragonsurvival:supply",
+    "display_like_hunger_bar": false,
     "supply_type": "dragonsurvival:asphyxia_supply",
     "attribute": "dragonsurvival:penalty_resistance_time",
-    "trigger_rate": 80,
-    "reduction_rate": 1,
+    "trigger_rate": 40,
+    "reduction_rate": 0.01,
     "regeneration_rate": 0.01,
     "recovery_items": [
+      {
+        "item_predicates": [
+          {
+            "items": "ds_aether_addon:aether_dragon_treat"
+          }
+        ],
+        "percent_restored": 1
+      },
       {
         "item_predicates": [
           {
@@ -61,7 +76,6 @@
         ],
         "percent_restored": 1
       }
-    ],
-    "display_like_hunger_bar": false
+    ]
   }
 }
