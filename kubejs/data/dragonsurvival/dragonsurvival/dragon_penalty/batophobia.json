@@ -19,7 +19,7 @@
           "entity": "this",
           "predicate": {
             "effects": {
-              "ds_aether_addon:zen": {}
+              "beloong:serene": {}
             }
           }
         }
@@ -29,7 +29,7 @@
   "effect": {
     "penalty_type": "dragonsurvival:mob_effect",
     "potion": {
-      "effects": "dragonsurvival:stress",
+      "effects": "beloong:mana_loss",
       "amplifier": 0,
       "duration": 200,
       "effect_particles": false,
@@ -43,7 +43,7 @@
     "attribute": "dragonsurvival:penalty_resistance_time",
     "trigger_rate": 40,
     "reduction_rate": 1.0,
-    "regeneration_rate": 0.02,
+    "regeneration_rate": 0.01,
     "recovery_items": [
       {
         "item_predicates": [

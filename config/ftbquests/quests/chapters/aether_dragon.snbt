@@ -90,12 +90,6 @@
 				}
 				{
 					consume_items: true
-					id: "698B92A30B635AC0"
-					item: { count: 1, id: "ds_aether_addon:zephyr" }
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "580E19B4ECA14E4B"
 					item: { count: 1, id: "ds_aether_addon:chopfordragon" }
 					type: "item"
@@ -110,6 +104,18 @@
 					consume_items: true
 					id: "65D9FDEF1B08BD49"
 					item: { count: 1, id: "ds_aether_addon:aether_dragon_treat" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6A2517C4350771A4"
+					item: { count: 1, id: "ds_aether_addon:dim_sum" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "68AA5B12F63569F3"
+					item: { count: 1, id: "ds_aether_addon:morning_tea" }
 					type: "item"
 				}
 			]
