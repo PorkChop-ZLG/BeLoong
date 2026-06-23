@@ -27,4 +27,6 @@ StartupEvents.registry("item", (event) => {
   event.create("eternal_starlight:glacite_ingot").tooltip([Text.translatable('item.eternal_starlight.glacite_ingot.tooltip')])
   // 以太龙命名空间
   event.create("ds_aether_addon:aether_dragon_treat").tooltip([Text.translatable('item.ds_aether_addon.aether_dragon_treat.tooltip')])
+  event.create("ds_aether_addon:morning_tea").tooltip([Text.translatable('item.ds_aether_addon.morning_tea.tooltip')])
+  event.create("ds_aether_addon:dim_sum").tooltip([Text.translatable('item.ds_aether_addon.dim_sum.tooltip')])
 })

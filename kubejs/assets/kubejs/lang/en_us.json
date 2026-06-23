@@ -106,6 +106,9 @@
   "dragon_stage.dragonsurvival.kirin_ancient": "Ancient Kirin",
   "dragon_stage.dragonsurvival.kirin_archean": "Archean Kirin",
   "dragon_stage.dragonsurvival.kirin_progenitor": "Progenitor Kirin",
+  "dragon_stage.dragonsurvival.dihuang_ancient": "Ancient",
+  "dragon_stage.dragonsurvival.dihuang_archean": "Archean",
+  "dragon_stage.dragonsurvival.dihuang_progenitor": "Progenitor",
 
   "dragon_ability.dragonsurvival.be_tundra_human": "Be Human",
   "dragon_ability.dragonsurvival.be_tundra_human.desc": "■ When a Tundra Dragon reaches the Adult stage, it can transform into human form.\n\n■ The human form still retains the dragon's abilities, but has no item restrictions.§r",
@@ -122,7 +125,6 @@
   "dragon_ability.dragonsurvival.progenitor_shroud": "Progenitor Shroud",
   "dragon_ability.dragonsurvival.progenitor_shroud.desc": "■ Can only be obtained through the item §dProgenitor Dragon Power§r, and can only be unlocked at the Progenitor Dragon stage.\n\n■ When your health drops below §230% §r, you will be protected by the Progenitor Dragon, §cbecoming immune to all damage!",
   
-  "dragon_species.dragonsurvival.aether_dragon.banner.desc": "§7■ The §6Aether Dragon§r§7 is a §fswift§r§7, §fagile§r§7, and graceful creature, its body cutting through §fseas of clouds and waves§r§7.\n\n§2■ Traits:§f§r§7 High mobility, weather and airflow magic, underwater breathing boost, fall immunity.\n§4■ Curse:§r§7 Deep underground.\n§6■ Diet:§f§r§7 Animal products.§r",
   "dragon_species.dragonsurvival.aether_dragon_human": "Qinglong",
   "dragon_species.dragonsurvival.aether_dragon_human.alter.desc": "§7■ §6Qinglong§r§7 is the human form of the Aether Dragon.§r§7\n\n§2■ Traits:§f§r§7 High mobility, weather and airflow magic, underwater breathing boost, fall immunity.\n§4■ Curse:§r§7 Deep underground.\n§6■ Diet:§f§r§7 Animal products.§r",
   "dragon_species.dragonsurvival.aether_dragon_human.banner.desc": "§7■ §6Qinglong§r§7 is the human form of the Aether Dragon.§r§7\n\n§2■ Traits:§f§r§7 High mobility, weather and airflow magic, underwater breathing boost, fall immunity.\n§4■ Curse:§r§7 Deep underground.§r",
@@ -195,6 +197,10 @@
 
   "item.ds_aether_addon.aether_dragon_treat": "Aether Dragon Treat",
   "item.ds_aether_addon.aether_dragon_treat.tooltip": "■§7 Grants infinite mana temporarily.",
+  "item.ds_aether_addon.dim_sum": "Dim Sum",
+  "item.ds_aether_addon.dim_sum.tooltip": "■§7Cantonese dim sum is a representative of Guangdong traditional culinary culture, featuring the Four Heavenly Kings - Char Siu Bao, har gow, egg tarts, and siu mai.",
+  "item.ds_aether_addon.morning_tea": "Morning Tea",
+  "item.ds_aether_addon.morning_tea.tooltip": "■§7Guangdong morning tea is a popular folk dining custom in Guangdong Province, centered around the combination of tea and Cantonese dim sum. Having it leaves you feeling refreshed and invigorated.",
 
   "item.kubejs.cave_dragon_heart": "Cave Dragon Heart",
   "item.kubejs.cave_dragon_heart.tooltip": "§6■ Remnant of the Cave Dragon Progenitor, containing the essence of fire.",

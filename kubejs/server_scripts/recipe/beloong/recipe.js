@@ -92,6 +92,26 @@ ServerEvents.recipes(event => {
             B: 'ds_aether_addon:mistral'
         }
     )
+    // 早茶
+    event.remove({ id: 'ds_aether_addon:relaxanttearecipe' })
+    event.shapeless(
+        Item.of('ds_aether_addon:morning_tea', 1),
+        [
+            '#minecraft:flowers',
+            'minecraft:potion',
+            'twilightforest:steeleaf_ingot'
+        ]
+    )
+    // 点心
+    event.remove({ id: 'ds_aether_addon:zephyrrecipe' })
+    event.shapeless(
+        Item.of('ds_aether_addon:dim_sum', 1),
+        [
+            '#c:eggs',
+            'minecraft:honeycomb',
+            'ultramarine:baozi'
+        ]
+    )
     // 远古龙尘 换 奥术源质
     event.shaped(Item.of('irons_spellbooks:arcane_essence', 1), [
         'AA ',

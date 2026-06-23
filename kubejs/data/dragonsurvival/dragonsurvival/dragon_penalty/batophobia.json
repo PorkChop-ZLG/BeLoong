@@ -22,10 +22,6 @@
               "ds_aether_addon:zen": {}
             }
           }
-        },
-        {
-          "condition": "minecraft:weather_check",
-          "raining": true
         }
       ]
     }
@@ -33,7 +29,7 @@
   "effect": {
     "penalty_type": "dragonsurvival:mob_effect",
     "potion": {
-      "effects": "dragonsurvival:magic_disabled",
+      "effects": "dragonsurvival:stress",
       "amplifier": 0,
       "duration": 200,
       "effect_particles": false,
@@ -46,8 +42,8 @@
     "supply_type": "dragonsurvival:asphyxia_supply",
     "attribute": "dragonsurvival:penalty_resistance_time",
     "trigger_rate": 40,
-    "reduction_rate": 0.01,
-    "regeneration_rate": 0.01,
+    "reduction_rate": 1.0,
+    "regeneration_rate": 0.02,
     "recovery_items": [
       {
         "item_predicates": [
@@ -60,21 +56,20 @@
       {
         "item_predicates": [
           {
-            "items": "minecraft:glow_berries",
-            "count": 1,
-            "predicates": {}
+            "items": "ds_aether_addon:morning_tea",
+            "count": 1
           }
         ],
-        "percent_restored": 0.35
+        "percent_restored": 0.5
       },
       {
         "item_predicates": [
           {
-            "items": "minecraft:sweet_berries",
+            "items": "ds_aether_addon:dim_sum",
             "count": 1
           }
         ],
-        "percent_restored": 1
+        "percent_restored": 0.5
       }
     ]
   }

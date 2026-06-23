@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ds_aether_addon:item/aether_dragon_treat"
+  }
+}
