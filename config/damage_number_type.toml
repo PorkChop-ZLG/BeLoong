@@ -3404,6 +3404,20 @@
 				append = ""
 				format = ""
 
+		[type.beloong.air_strike]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.beloong.air_strike.icon]
+				tex = ""
+				item = ""
+
+			[type.beloong.air_strike.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -4646,6 +4660,20 @@
 			item = ""
 
 		[tag."dihuang_loong:seismic_charge".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."beloong:air_strike"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."beloong:air_strike".icon]
+			tex = ""
+			item = ""
+
+		[tag."beloong:air_strike".format]
 			prepend = ""
 			append = ""
 			format = ""

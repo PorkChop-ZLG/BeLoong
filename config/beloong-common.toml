@@ -6,8 +6,6 @@ bd_ftbchunks_compat = true
 fixTreasureDuplication = true
 #修复灾变结构无视数据包start_height配置，在固定Y轴生成的问题
 fixCataclysmStructureHeight = true
-#修复逆卡巴拉结构无视数据包start_height配置，在固定Y轴生成的问题
-fixFDBossesStructureHeight = true
 #修复龙之生存弹射物崩溃
 fixDragonsurvivalProjectileCrash = true
 #修复Fsweep打开部分容器崩溃
