@@ -35,12 +35,6 @@
 	chapter.29CB766687624EDA.title: "怪物图鉴"
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
-	chapter.2E3FB1BAF707F532.chapter_subtitle: [
-		"黎明：天灾"
-		"黎明曙光，划破黑暗"
-		"难度：★★★★★★"
-	]
-	chapter.2E3FB1BAF707F532.title: "⑥ 天灾灭世"
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
 		"日落：暮色"
 		"日薄西山，暮色暗淡"
@@ -84,6 +78,12 @@
 	chapter.5659CE99755DE90F.title: "多人联机推荐"
 	chapter.5A87116CA9FE4E2F.chapter_subtitle: ["隐藏式任务"]
 	chapter.5A87116CA9FE4E2F.title: "〖苔原龙〗成长之路"
+	chapter.5D6324B55C8EDE23.chapter_subtitle: [
+		"黎明：天灾"
+		"黎明曙光，划破黑暗"
+		"难度：★★★★★★"
+	]
+	chapter.5D6324B55C8EDE23.title: "⑥ 天灾灭世"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
 		"番外篇：铁魔法"
 		"Iron的法术与魔法书"
@@ -1886,12 +1886,6 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "学会使用魔法书"
 	quest.346F1B08A0E6345D.title: "见习法师"
-	quest.348D233B6FFB81BA.quest_desc: [
-		"像末地传送门那样摆放，然后放入12中不同的眼球，方可打开传送门"
-		"任务为临时任务，下版本会修改"
-		""
-		"&c本章节暂未完成！！！"
-	]
 	quest.34CBA8F45D46E480.quest_subtitle: "作者：YeueingE"
 	quest.34CBA8F45D46E480.title: "预制建筑：新手小屋"
 	quest.34F81E5815B0AB4B.quest_desc: [
@@ -3324,6 +3318,7 @@
 	]
 	quest.5FCFEA69626A53AE.quest_subtitle: "作者：zchuan_che"
 	quest.5FCFEA69626A53AE.title: "预制建筑：中式庭院"
+	quest.60300CF89DE750C2.title: "&c&l第六章 天灾灭世"
 	quest.6096A24B9426FCFC.quest_desc: [
 		"&a目标：合成猎人碎片"
 		""
