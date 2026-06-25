@@ -1,0 +1,134 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dihuang_loong:seismic_charge",
+                            "speed_threshold": {
+                                "type": "minecraft:linear",
+                                "base": 0.09,
+                                "per_level_above_first": 0.0
+                            },
+                            "base_damage": {
+                                "type": "minecraft:linear",
+                                "base": 2.0,
+                                "per_level_above_first": 1.0
+                            },
+                            "speed_multiplier": {
+                                "type": "minecraft:linear",
+                                "base": 3.0,
+                                "per_level_above_first": 0.5
+                            },
+                            "cooldown_ticks": 10,
+                            "collision_inflate": {
+                                "type": "minecraft:linear",
+                                "base": 1.0,
+                                "per_level_above_first": 0.2
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            }
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:passive"
+    },
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 7,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 8,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 9,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            },
+            {
+                "from_level": 10,
+                "texture_resource": "dragonsurvival:abilities/dihuang/seismic_charge_1"
+            }
+        ]
+    },
+    "upgrade": {
+        "experience_cost": {
+            "type": "minecraft:linear",
+            "base": 15.0,
+            "per_level_above_first": 15.0
+        },
+        "maximum_level": 10,
+        "upgrade_type": "dragonsurvival:experience_points"
+    },
+    "usage_blocked": {
+        "condition": "inverted",
+        "term": {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "dragonsurvival:dragon_predicate",
+                            "stage_specific": {
+                                "growth": {
+                                    "min": 20
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "dragonsurvival:dragon_predicate",
+                            "is_flying": false
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,9 +1,10 @@
 [general]
-	#Enable time manipulation ability (only one player per world can use)
-	timeAbility = false
 	#Block destruction mode for skills (ON, FTB_PROTECTION, FTB_FORBID, OFF). FTB_PROTECTION checks per-block permission; FTB_FORBID forbids destruction in any claimed chunk.
 	#Allowed Values: ON, FTB_PROTECTION, FTB_FORBID, OFF
 	blockDestructionMode = "FTB_FORBID"
+	#Time manipulation ability mode: OFF (disabled), TICK (tick rate control), TIME (daytime sun control)
+	#Allowed Values: OFF, TICK, TIME
+	timeAbilityMode = "TIME"
 
 [skills]
 	#Base damage for Black Hole skill
