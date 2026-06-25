@@ -8,5 +8,5 @@
 	// min: 0, max: 3600000
 	"findABlockCheckAroundEntitiesDelayMs": 30000,
 	// Enables pets for Patrons. Will be added in a future release.
-	"enablePatronPets": true
+	"enablePatronPets": false
 }

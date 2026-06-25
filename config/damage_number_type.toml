@@ -3390,6 +3390,20 @@
 				append = ""
 				format = ""
 
+		[type.dihuang_loong.seismic_charge]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.dihuang_loong.seismic_charge.icon]
+				tex = ""
+				item = ""
+
+			[type.dihuang_loong.seismic_charge.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -4590,6 +4604,48 @@
 			item = ""
 
 		[tag."iceandfire:dragon_fire".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."dihuang_loong:tectonic_dash"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dihuang_loong:tectonic_dash".icon]
+			tex = ""
+			item = ""
+
+		[tag."dihuang_loong:tectonic_dash".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."dihuang_loong:projectile_and_melee_damage"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dihuang_loong:projectile_and_melee_damage".icon]
+			tex = ""
+			item = ""
+
+		[tag."dihuang_loong:projectile_and_melee_damage".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."dihuang_loong:seismic_charge"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dihuang_loong:seismic_charge".icon]
+			tex = ""
+			item = ""
+
+		[tag."dihuang_loong:seismic_charge".format]
 			prepend = ""
 			append = ""
 			format = ""
