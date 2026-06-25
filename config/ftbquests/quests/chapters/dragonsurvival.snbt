@@ -398,18 +398,11 @@
 				}
 			]
 			size: 2.0d
-			tasks: [
-				{
-					id: "3A8A86E87BBFA2EC"
-					item: { count: 1, id: "explorerscompass:explorerscompass" }
-					type: "item"
-				}
-				{
-					id: "04731266F9836A49"
-					item: { count: 1, id: "minecraft:crying_obsidian" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A8A86E87BBFA2EC"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 5.0d
 		}
