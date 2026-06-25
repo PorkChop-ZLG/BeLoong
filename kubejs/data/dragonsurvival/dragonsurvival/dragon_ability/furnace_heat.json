@@ -119,6 +119,52 @@
         "target_type": "dragonsurvival:self"
       },
       "trigger_rate": 1.0
+    },
+    {
+      "trigger_rate": 1.0,
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "targeting_mode": "allies_and_self",
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "furnace_heat_forge_speed",
+                    "duration": 60,
+                    "is_hidden": true,
+                    "should_remove_automatically": true
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "iceandfire:generic.dragon_forge_speed",
+                      "amount": {
+                        "type": "minecraft:lookup",
+                        "fallback": {
+                          "type": "minecraft:linear",
+                          "base": 10,
+                          "per_level_above_first": 10
+                        },
+                        "values": [
+                          10.0,
+                          20.0,
+                          30.0,
+                          60.0,
+                          80.0,
+                          100.0
+                        ]
+                      },
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ],
   "activation": {
