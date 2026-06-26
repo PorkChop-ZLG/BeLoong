@@ -1,6 +1,24 @@
 // 该脚本用于魔改 化龍整合包 的专属配方
 
 ServerEvents.recipes(event => {
+    // 黎明曙光
+    event.shaped(Item.of('beloong:dawn_light', 1), [
+        'ABC',
+        'DEF',
+        'GHI'
+    ],
+        {
+            A: 'cataclysm:lava_power_cell',
+            B: 'cataclysm:witherite_ingot',
+            C: 'cataclysm:void_core',
+            D: 'cataclysm:ignitium_ingot',
+            E: 'cataclysm:blessed_amethyst_crab_meat',
+            F: 'cataclysm:cursium_ingot',
+            G: 'cataclysm:crystallized_coral',
+            H: 'cataclysm:ancient_metal_ingot',
+            I: 'cataclysm:lacrima'
+        }
+    )
     // 专属龙心 换成 远古龙心
     event.shapeless(
         Item.of('dragonsurvival:elder_dragon_heart', 1),

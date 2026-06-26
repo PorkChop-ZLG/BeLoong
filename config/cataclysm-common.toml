@@ -748,21 +748,21 @@
 		#Earth Quake Damage
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		earth_quake_damage = 5.0
+		earth_quake_damage = 200.0
 		#Amethyst Cluster Damage
 		# Default: 12.0
 		# Range: 0.0 ~ 1000000.0
-		amethyst_cluster_damage = 12.0
+		amethyst_cluster_damage = 120.0
 
 		[mobs.amethyst_crab.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 25.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 	[mobs.leviathan]
 		#Bite Hp Damage

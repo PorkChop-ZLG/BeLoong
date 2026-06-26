@@ -12,6 +12,17 @@
       ]
     },
     {
+      "name": "enderite_block",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:enderite_block",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "name": "disc",
       "conditions": [
         {
