@@ -849,48 +849,48 @@
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
 			attack_multiplier = 10.0
-			
+
 	[mobs.ancient_remnant]
 		#Charge Hp Damage
 		# Default: 0.1
 		# Range: 0.0 ~ 1.0
-		charge_hp_damage = 0.1
+		charge_hp_damage = 1.0
 		#Hp Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		hp_damage = 0.05
+		hp_damage = 0.5
 		#Stomp Hp Damage
 		# Default: 0.03
 		# Range: 0.0 ~ 1.0
-		stomp_hp_damage = 0.03
+		stomp_hp_damage = 0.3
 		#EarthQuake Damage
 		# Default: 11.0
 		# Range: 0.0 ~ 1000000.0
-		earthquake_damage = 11.0
+		earthquake_damage = 110.0
 		#Ancient Desert Stele Damage
 		# Default: 11.0
 		# Range: 0.0 ~ 1000000.0
-		ancient_desert_stele_damage = 11.0
+		ancient_desert_stele_damage = 110.0
 
 		[mobs.ancient_remnant.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 4.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 2.0
+			attack_multiplier = 10.0
 
 		[mobs.ancient_remnant.cap_config]
 			#Damage Cap
 			# Default: 21.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 9999.0
+			damage_cap = 999.0
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 9999.0
+			dps_cap = 999.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -898,13 +898,13 @@
 			#Range Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 14.0
+			range_cap = 99.0
 
 		[mobs.ancient_remnant.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 1000.0
 
 		[mobs.ancient_remnant.respawner_config]
 			#Respawner
@@ -912,17 +912,17 @@
 
 		[mobs.ancient_remnant.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 		[mobs.modern_remnant.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 	[mobs.koboleton]
 		#CauseKoboletontoDropItemInHandPercent
@@ -934,11 +934,11 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 		[mobs.kobolediator.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -948,21 +948,21 @@
 		#Sandstorm Damage
 		# Default: 6.0
 		# Range: 0.0 ~ 1000000.0
-		sandstorm_damage = 6.0
+		sandstorm_damage = 60.0
 		#Ancient Desert Stele Damage
 		# Default: 11.0
 		# Range: 0.0 ~ 1000000.0
-		ancient_desert_stele_damage = 11.0
+		ancient_desert_stele_damage = 110.0
 
 		[mobs.wadjet.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 	[mobs.maledictus]
 		#Phantom Halberd Damage
