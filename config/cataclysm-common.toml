@@ -516,25 +516,25 @@
 		#Smash Hp Damage
 		# Default: 0.08
 		# Range: 0.0 ~ 1.0
-		smash_hp_damage = 0.2
+		smash_hp_damage = 0.08
 		#Flame Jet Damage
 		# Default: 7.0
 		# Range: 0.0 ~ 1000000.0
-		flame_jet_damage = 140.0
+		flame_jet_damage = 70.0
 		#Flare Bomb Damage
 		# Default: 10.0
 		# Range: 0.0 ~ 1000000.0
-		flare_bomb_damage = 200.0
+		flare_bomb_damage = 100.0
 
 		[mobs.netherite_monstrosity.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 6.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 6.0
+			attack_multiplier = 10.0
 
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
@@ -572,7 +572,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 10.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
