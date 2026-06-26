@@ -368,27 +368,27 @@
 		#Gravity Punch Hp Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		gravity_punch_hp_damage = 0.05
+		gravity_punch_hp_damage = 0.5
 		#Teleport Attack Hp Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		teleport_attack_hp_damage = 0.05
+		teleport_attack_hp_damage = 0.5
 		#Knockback Hp Damage
 		# Default: 0.06
 		# Range: 0.0 ~ 1.0
-		knockback_hp_damage = 0.06
+		knockback_hp_damage = 0.6
 		#Uppercut Hp Damage
 		# Default: 0.1
 		# Range: 0.0 ~ 1.0
-		uppercut_hp_damage = 0.1
+		uppercut_hp_damage = 1.0
 		#Rocket Punch Hp Damage
 		# Default: 0.1
 		# Range: 0.0 ~ 1.0
-		rocket_punch_hp_damage = 0.1
+		rocket_punch_hp_damage = 1.0
 		#Area Attack Hp Damage
 		# Default: 0.08
 		# Range: 0.0 ~ 1.0
-		area_attack_hp_damage = 0.08
+		area_attack_hp_damage = 0.8
 		#Block Breaking X
 		# Default: 15
 		# Range: 0 ~ 20
@@ -404,7 +404,7 @@
 		#Void Rune Damage
 		# Default: 9.0
 		# Range: 0.0 ~ 1000000.0
-		void_rune_damage = 9.0
+		void_rune_damage = 90.0
 		#Enable separate music per boss phase
 		separate_phase_music = true
 
@@ -412,21 +412,21 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 10.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 5.0
+			attack_multiplier = 10.0
 
 		[mobs.ender_guardian.cap_config]
 			#Damage Cap
 			# Default: 22.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 9999.0
+			damage_cap = 999.0
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 9999.0
+			dps_cap = 999.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -434,13 +434,13 @@
 			#Range Cap
 			# Default: 12.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 12.0
+			range_cap = 99.0
 
 		[mobs.ender_guardian.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 1000.0
 
 		[mobs.ender_guardian.respawner_config]
 			#Respawner
@@ -448,7 +448,7 @@
 
 		[mobs.ender_guardian.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 	[mobs.ender_golem]
 		#Void Rune Damage
@@ -460,21 +460,21 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 		[mobs.ender_golem.cap_config]
 			#Damage Cap
 			# Default: 999999.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 999999.0
+			damage_cap = 999.0
 			#Dps Cap
 			# Default: 999999.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 999999.0
+			dps_cap = 999.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -482,13 +482,13 @@
 			#Range Cap
 			# Default: 8.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 8.0
+			range_cap = 99.0
 
 		[mobs.ender_golem.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 1000.0
 
 		[mobs.ender_golem.ignore_mobgriefing_config]
 			#Ignore MobGriefing
