@@ -758,7 +758,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 25.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -768,35 +768,35 @@
 		#Bite Hp Damage
 		# Default: 0.1
 		# Range: 0.0 ~ 1.0
-		bite_hp_damage = 0.1
+		bite_hp_damage = 1.0
 		#Rush Hp Damge
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		rush_hp_damage = 0.05
+		rush_hp_damage = 0.5
 		#Tail Swing Hp Damage
 		# Default: 0.06
 		# Range: 0.0 ~ 1.0
-		tail_swing_hp_damage = 0.06
+		tail_swing_hp_damage = 0.6
 		#Tentacle Hp Damage
 		# Default: 0.06
 		# Range: 0.0 ~ 1.0
-		tentacle_hp_damage = 0.06
+		tentacle_hp_damage = 0.6
 		#Dimensional Rift Damage
 		# Default: 10.0
 		# Range: 0.0 ~ 1000000.0
-		dimensional_rift_damage = 10.0
+		dimensional_rift_damage = 100.0
 		#Abyss Blast Damage
 		# Default: 10.0
 		# Range: 0.0 ~ 1000000.0
-		abyss_blast_damage = 10.0
+		abyss_blast_damage = 100.0
 		#Abyss Blast HP Damage
 		# Default: 0.1
 		# Range: 0.0 ~ 1.0
-		abyss_blast_hp_damage = 0.1
+		abyss_blast_hp_damage = 1.0
 		#Abyss Orb Damage
 		# Default: 4.0
 		# Range: 0.0 ~ 1000000.0
-		abyss_orb_damage = 4.0
+		abyss_orb_damage = 40.0
 		#Leviathan Immune Out of Water.
 		immune_out_of_water = true
 		#Enable separate music per boss phase
@@ -804,27 +804,27 @@
 
 		[mobs.leviathan.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 		[mobs.leviathan.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 10.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 4.0
+			attack_multiplier = 10.0
 
 		[mobs.leviathan.cap_config]
 			#Damage Cap
 			# Default: 20.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 9999.0
+			damage_cap = 999.0
 			#Dps Cap
 			# Default: 15.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 9999.0
+			dps_cap = 999.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -832,24 +832,24 @@
 			#Range Cap
 			# Default: 38.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 38.0
+			range_cap = 99.0
 
 		[mobs.leviathan.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 1000.0
 
 		[mobs.baby_leviathan.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
-
+			attack_multiplier = 10.0
+			
 	[mobs.ancient_remnant]
 		#Charge Hp Damage
 		# Default: 0.1
