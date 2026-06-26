@@ -516,7 +516,7 @@
 		#Smash Hp Damage
 		# Default: 0.08
 		# Range: 0.0 ~ 1.0
-		smash_hp_damage = 0.08
+		smash_hp_damage = 0.8
 		#Flame Jet Damage
 		# Default: 7.0
 		# Range: 0.0 ~ 1000000.0
@@ -720,29 +720,29 @@
 		#Range Cap
 		# Default: 15.0
 		# Range: 1.0 ~ 1000000.0
-		range_cap = 15.0
+		range_cap = 99.0
 		#Wither Homing Missile
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		homing_missile = 5.0
+		homing_missile = 50.0
 		#Death Laser Damage
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		death_laser_damage = 5.0
+		death_laser_damage = 50.0
 		#Death Laser HP Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		death_laser_hp_damage = 0.05
+		death_laser_hp_damage = 0.5
 
 		[mobs.prowler.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 	[mobs.amethyst_crab]
 		#Earth Quake Damage
@@ -968,51 +968,51 @@
 		#Phantom Halberd Damage
 		# Default: 11.0
 		# Range: 0.0 ~ 1000000.0
-		phantom_halberd_damage = 11.0
+		phantom_halberd_damage = 110.0
 		#Hp Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		hp_damage = 0.05
+		hp_damage = 0.5
 		#Shock Wave Hp Damage
 		# Default: 0.03
 		# Range: 0.0 ~ 1.0
-		shock_wave_hp_damage = 0.03
+		shock_wave_hp_damage = 0.3
 		#AOE Hp Damage
 		# Default: 0.15
 		# Range: 0.0 ~ 1.0
-		aoe_hp_damage = 0.15
+		aoe_hp_damage = 1.0
 		#Flying Smash Hp Damage
 		# Default: 0.1
 		# Range: 0.0 ~ 1.0
-		flying_smash_hp_damage = 0.1
+		flying_smash_hp_damage = 1.0
 		#Smash Hp Damage
 		# Default: 0.08
 		# Range: 0.0 ~ 1.0
-		smash_hp_damage = 0.08
+		smash_hp_damage = 0.8
 		#Phantom Arrow Damage
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		phantom_arrow_damage = 5.0
+		phantom_arrow_damage = 50.0
 
 		[mobs.maledictus.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 10.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 5.0
+			attack_multiplier = 10.0
 
 		[mobs.maledictus.cap_config]
 			#Damage Cap
 			# Default: 20.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 9999.0
+			damage_cap = 999.0
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 9999.0
+			dps_cap = 999.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -1020,39 +1020,39 @@
 			#Range Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 14.0
+			range_cap = 99.0
 
 		[mobs.maledictus.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 100.0
 
 		[mobs.maledictus.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 	[mobs.aptrgangr]
 		#Axe Blade Damage
 		# Default: 8.0
 		# Range: 0.0 ~ 1000000.0
-		axe_blade_damage = 8.0
+		axe_blade_damage = 80.0
 
 		[mobs.aptrgangr.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 		[mobs.aptrgangr.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 100.0
 
 	[mobs.scylla]
 		#Spear Damage
@@ -1080,15 +1080,15 @@
 		#Hp Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		hp_damage = 0.05
+		hp_damage = 0.5
 		#Spin Hp Damage
 		# Default: 0.07
 		# Range: 0.0 ~ 1.0
-		spin_hp_damage = 0.07
+		spin_hp_damage = 0.7
 		#Lightning Storm Hp Damage
 		# Default: 0.04
 		# Range: 0.0 ~ 1.0
-		lightning_storm_hp_damage = 0.04
+		lightning_storm_hp_damage = 0.4
 
 		[mobs.scylla.combat_config]
 			#Scale mob health by this value
