@@ -498,53 +498,53 @@
 		#Lava bomb Magazine
 		# Default: 3
 		# Range: 0 ~ 20
-		lava_bomb_magazine = 3
+		lava_bomb_magazine = 6
 		#Lava bomb Amount
 		# Default: 3
 		# Range: 1 ~ 1000
-		lava_bomb_amount = 3
+		lava_bomb_amount = 6
 		#Lava bomb Duration
 		# Default: 350
 		# Range: 1 ~ 10000
-		lava_bomb_duration = 350
+		lava_bomb_duration = 400
 		#Lava bomb Random Duration
 		# Default: 150
 		# Range: 1 ~ 10000
-		lava_bomb_random_duration = 150
+		lava_bomb_random_duration = 200
 		#Body collide like shulker
 		body_collided = true
 		#Smash Hp Damage
 		# Default: 0.08
 		# Range: 0.0 ~ 1.0
-		smash_hp_damage = 0.08
+		smash_hp_damage = 0.2
 		#Flame Jet Damage
 		# Default: 7.0
 		# Range: 0.0 ~ 1000000.0
-		flame_jet_damage = 7.0
+		flame_jet_damage = 140.0
 		#Flare Bomb Damage
 		# Default: 10.0
 		# Range: 0.0 ~ 1000000.0
-		flare_bomb_damage = 10.0
+		flare_bomb_damage = 200.0
 
 		[mobs.netherite_monstrosity.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.25
+			health_multiplier = 6.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.2
+			attack_multiplier = 6.0
 
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 9999.0
+			damage_cap = 999.0
 			#Dps Cap
 			# Default: 20.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 9999.0
+			dps_cap = 999.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -552,13 +552,13 @@
 			#Range Cap
 			# Default: 18.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 18.0
+			range_cap = 99.0
 
 		[mobs.netherite_monstrosity.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 1000.0
 
 		[mobs.netherite_monstrosity.respawner_config]
 			#Respawner
@@ -566,17 +566,17 @@
 
 		[mobs.netherite_monstrosity.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 		[mobs.netherite_ministrosity.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 10.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 10.0
 
 	[mobs.ignis]
 		#Ignis's Life steal Multiplier

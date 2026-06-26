@@ -32,11 +32,11 @@
 		"彻底击败所有BOSS；"
 		"视为通关『化龍』"
 	]
-	chapter.29CB766687624EDA.title: "怪物图鉴"
+	chapter.29CB766687624EDA.title: "领主图鉴"
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
-		"日落：暮色"
+		"黄昏：暮色"
 		"日薄西山，暮色暗淡"
 		"难度：★★★"
 	]
@@ -1518,8 +1518,8 @@
 		""
 		"{ \"text\": \"点击查看鸣谢名单\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"359B897165997027\" } }"
 	]
-	quest.26F59CBF01B32CE6.quest_subtitle: "集齐怪物图鉴，即可通关"
-	quest.26F59CBF01B32CE6.title: "&e【BOSS全收集】"
+	quest.26F59CBF01B32CE6.quest_subtitle: "集齐领主图鉴，即可通关"
+	quest.26F59CBF01B32CE6.title: "&e【领主全收集】"
 	quest.27C667BFA15E8E67.quest_desc: [
 		"战斗：专攻闪电魔法，施放同时击中多个目标的法术。"
 		"能力："

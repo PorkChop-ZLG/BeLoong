@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         'GHI'
     ],
         {
-            A: 'cataclysm:lava_power_cell',
+            A: 'cataclysm:monstrous_horn',
             B: 'cataclysm:witherite_ingot',
             C: 'cataclysm:void_core',
             D: 'cataclysm:ignitium_ingot',
