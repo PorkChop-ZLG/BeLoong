@@ -582,7 +582,7 @@
 		#Ignis's Life steal Multiplier
 		# Default: 1.0
 		# Range: 0.0 ~ 1000000.0
-		healing_multiplier = 1.0
+		healing_multiplier = 10.0
 		#Enable separate music per boss phase
 		separate_phase_music = true
 
@@ -590,21 +590,21 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 8.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 5.0
+			attack_multiplier = 10.0
 
 		[mobs.ignis.cap_config]
 			#Damage Cap
 			# Default: 20.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 9999.0
+			damage_cap = 999.0
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 9999.0
+			dps_cap = 999.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -612,37 +612,37 @@
 			#Range Cap
 			# Default: 15.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 15.0
+			range_cap = 99.0
 
 		[mobs.ignis.nature_heal_config]
 			#Nature Heal
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 1000.0
 
 		[mobs.ignis.ignore_mobgriefing_config]
 			#Ignore MobGriefing
-			ignore_mobgriefing = true
+			ignore_mobgriefing = false
 
 	[mobs.ignited_revenant]
 		#Ashen Breath Damage
 		# Default: 4.0
 		# Range: 0.0 ~ 1000000.0
-		ashen_breath_damage = 4.0
+		ashen_breath_damage = 40.0
 		#Blazing Bone Damage
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
-		blazing_bone_damage = 5.0
+		blazing_bone_damage = 50.0
 
 		[mobs.ignited_revenant.combat_config]
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 30.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 19.0
 
 	[mobs.harbinger]
 		#Harbinger Auto Heal
