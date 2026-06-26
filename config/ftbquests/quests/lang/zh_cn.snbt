@@ -284,7 +284,7 @@
 		""
 		"&a推荐装备：&b锋利附魔的斧头&6，&e附魔金苹果&6，&5末影珍珠&6。"
 		""
-		"&9慈悲竞技场&6位于地底深处的庞大洞穴中。竞技场被强力磁场笼罩，你无法破坏和放置方块，也禁止飞行。"
+		"&9慈悲竞技场&6被强力磁场笼罩，你无法破坏和放置方块，也禁止飞行。"
 		""
 		"&d「慈悲」&6的所有攻击都是&f真实伤害&6，因此对护甲没有任何要求。&d「慈悲」&6本体无法被直接攻击，只能通过反射回的&b闪电射线&6对其造成伤害。"
 		""
@@ -680,7 +680,7 @@
 		""
 		"&a建议：准备远程武器❎ 提高你的血量✅"
 		""
-		"&9严厉竞技场&6位于末地的外岛。竞技场由正义石铸造，任何存在都不能将其摧毁。"
+		"&9严厉竞技场&6由正义石铸造，任何存在都不能将其摧毁。"
 		""
 		"&d「严厉」&6的屏幕会显示当前的&e犯罪行为&6，一旦犯罪则会&e积累罪行&6。&e飞行&6和&e逃跑&6也算犯罪！罪行积累满&25条&6，则会被&c直接抹杀！"
 		"&d「严厉」&6本体无法被直接攻击，但是它也是罪人，也会犯罪！&c只有犯下杀戮之罪，它才会受到伤害！"
@@ -1263,7 +1263,11 @@
 	quest.1FCB1AD94F2996B2.quest_subtitle: "这真的可以吃吗？"
 	quest.1FCB1AD94F2996B2.title: "铃仙"
 	quest.203D481DA0DFD214.title: "一把...艺术品？"
-	quest.203DA3A3EA44F457.quest_desc: ["&8暂时是最终BOSS"]
+	quest.203DA3A3EA44F457.quest_desc: [
+		"&c暂时是最终BOSS"
+		""
+		"{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FC068CD405DBBD4\" } }"
+	]
 	quest.203DA3A3EA44F457.title: "严厉"
 	quest.20418663EEBB6E73.quest_subtitle: "天权非远近，不可向人宣"
 	quest.20418663EEBB6E73.title: "&2天权"
@@ -1468,6 +1472,7 @@
 	quest.258CFD18EE567A75.title: "掌握星之奥义"
 	quest.2599EC1F2F19464A.quest_subtitle: "成长到主序星阶段"
 	quest.2599EC1F2F19464A.title: "主序星"
+	quest.25B16F5A70DCC3AA.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03DA2F2992CDD7DA\" } }"]
 	quest.25B16F5A70DCC3AA.title: "慈悲"
 	quest.25CB6218676EEC49.quest_desc: [
 		"右键进入一个&a雷霆术士魔宠&r绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6冰霜术士塔&r中找到"
@@ -2396,7 +2401,7 @@
 		""
 		"&a建议：在夜晚挑战他&7&o（因为天空很美丽）"
 		""
-		"&9王国竞技场&6位于深海的冰火岛屿上。竞技场被王国掌控着，你无法破坏和放置方块。"
+		"&9王国竞技场&6被王国掌控着，你无法破坏和放置方块。"
 		""
 		"&d「王国」&6的攻击分为&b冰属性&6和&c火属性&6，在岛上，你的准星会有个圆圈显示你的弱点属性。"
 		"&d「王国」&6本体无法被直接攻击，只能在&e火炮对决&6期间，通过发射&e王国火炮&6对其造成伤害。"
@@ -3238,6 +3243,7 @@
 		"&7【 &l&6提洛斯回响&e·&4原初受火者 &7】"
 	]
 	quest.5CE2B692394FA5A2.quest_subtitle: "聆听，原初的回响"
+	quest.5CF366174F74DDA7.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45865A0F5D63488F\" } }"]
 	quest.5CF366174F74DDA7.title: "王国"
 	quest.5CFF88C245EF7BE5.quest_desc: ["&c注意：是原地生成一只【流浪商人】！"]
 	quest.5CFF88C245EF7BE5.quest_subtitle: "交换群青物品"
