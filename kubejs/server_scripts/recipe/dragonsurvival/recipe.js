@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
         ' A '
     ],
         {
-            A: 'dragonsurvival:elder_dragon_bone',
+            A: 'dragonsurvival:heart_element',
             B: 'minecraft:diamond'
         }
     )

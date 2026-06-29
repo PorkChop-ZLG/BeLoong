@@ -1180,7 +1180,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 2
 	# Range: 0 ~ 1000
-	deepling_spawn_weight = 2
+	deepling_spawn_weight = 20
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 30
 	# Range: > 0
@@ -1188,7 +1188,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
-	deepling_brute_spawn_weight = 1
+	deepling_brute_spawn_weight = 10
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 50
 	# Range: > 0
@@ -1196,7 +1196,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 2
 	# Range: 0 ~ 1000
-	deepling_angler_spawn_weight = 2
+	deepling_angler_spawn_weight = 20
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 30
 	# Range: > 0
@@ -1204,7 +1204,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
-	deepling_priest_spawn_weight = 1
+	deepling_priest_spawn_weight = 10
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 70
 	# Range: > 0
@@ -1212,7 +1212,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
-	deepling_warlock_spawn_weight = 1
+	deepling_warlock_spawn_weight = 10
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 70
 	# Range: > 0
@@ -1220,7 +1220,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
-	coral_golem_spawn_weight = 1
+	coral_golem_spawn_weight = 10
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 70
 	# Range: > 0
