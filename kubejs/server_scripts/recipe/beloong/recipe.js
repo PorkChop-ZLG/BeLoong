@@ -19,6 +19,19 @@ ServerEvents.recipes(event => {
             I: 'cataclysm:lacrima'
         }
     )
+    // 放大护符 与 缩小护符 互换
+    event.shapeless(
+        Item.of('beloong:amplification_charm', 1),
+        [
+            'artifacts:charm_of_shrinking'
+        ]
+    )
+    event.shapeless(
+        Item.of('artifacts:charm_of_shrinking', 1),
+        [
+            'beloong:amplification_charm'
+        ]
+    )
     // 专属龙心 换成 远古龙心
     event.shapeless(
         Item.of('dragonsurvival:elder_dragon_heart', 1),

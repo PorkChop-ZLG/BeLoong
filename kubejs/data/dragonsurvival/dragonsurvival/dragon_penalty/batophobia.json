@@ -22,6 +22,24 @@
               "beloong:serene": {}
             }
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "beloong:growth_acceleration": {}
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "dragonsurvival:source_of_magic": {}
+            }
+          }
         }
       ]
     }
