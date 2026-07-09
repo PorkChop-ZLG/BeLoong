@@ -61,7 +61,7 @@
 
 [whitelist]
 	#Blocks that CAN be picked up (useWhitelistBlocks must be true)
-	allowedBlocks = ["minecraft:budding_amethyst"]
+	allowedBlocks = ["minecraft:budding_amethyst", "cataclysm:altar_of_amethyst"]
 	#Whitelist. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Black---and-Whitelist-Config
 	#Entities that CAN be picked up (useWhitelistEntities must be true)
 	allowedEntities = ["minecraft:villager"]

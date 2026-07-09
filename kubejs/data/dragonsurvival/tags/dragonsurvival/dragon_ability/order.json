@@ -43,6 +43,9 @@
 		"dragonsurvival:singularity",
 		"dragonsurvival:energy_siphon",
 		"dragonsurvival:wyrmhole",
+		
+        "dragonsurvival:rock_riding",
+        "dragonsurvival:rock_spin",
 
 		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"

@@ -132,8 +132,7 @@
       "specialEffect": "metal_shining"
     },
     {
-      "texture": "tooltipoverhaul:textures/overlay/draconic_fire_frame.png",
-      "namespace": "dragonsurvival",
+      "namespace": "beloong",
       "iconAppearAnimation": "pendulum",
       "gradientType": "custom",
       "borderType": "gradient",
@@ -142,13 +141,7 @@
     },
     {
       "texture": "tooltipoverhaul:textures/overlay/garden_frame.png",
-      "namespace": "xfws_someitems",
-      "iconAppearAnimation": "pendulum",
-      "specialEffect": "white_dust"
-    },
-    {
-      "texture": "tooltipoverhaul:textures/overlay/garden_frame.png",
-      "namespace": "meowmere",
+      "namespace": "xfws_swords",
       "iconAppearAnimation": "pendulum",
       "specialEffect": "white_dust"
     },
@@ -171,6 +164,7 @@
         "kubejs:tundra_dragon_heart",
         "kubejs:astral_dragon_heart",
         "kubejs:crystcursed_dragon_heart",
+        "kubejs:dihuang_loong_heart",
         "kubejs:wing_kirin_heart"
       ],
       "iconAppearAnimation": "bounce",

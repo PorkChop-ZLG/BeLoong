@@ -41,8 +41,8 @@
 			id: "39AF32032B46C495"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0C4A71A28CA2E327"
-				table_id: 3727137034912313201L
+				id: "1510A89ABB2EAEE4"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -90,12 +90,6 @@
 				}
 				{
 					consume_items: true
-					id: "698B92A30B635AC0"
-					item: { count: 1, id: "ds_aether_addon:zephyr" }
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "580E19B4ECA14E4B"
 					item: { count: 1, id: "ds_aether_addon:chopfordragon" }
 					type: "item"
@@ -112,6 +106,18 @@
 					item: { count: 1, id: "ds_aether_addon:aether_dragon_treat" }
 					type: "item"
 				}
+				{
+					consume_items: true
+					id: "6A2517C4350771A4"
+					item: { count: 1, id: "ds_aether_addon:dim_sum" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "68AA5B12F63569F3"
+					item: { count: 1, id: "ds_aether_addon:morning_tea" }
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: 7.5d
@@ -120,7 +126,6 @@
 			dependencies: [
 				"45FBCC91C2442B02"
 				"1036A454EE8AB619"
-				"12A467A5BE97AA0E"
 			]
 			dependency_requirement: "one_completed"
 			icon: {
@@ -150,18 +155,18 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5C6D3B1CFF3C9F69"
-					table_id: 3727137034912313201L
-					type: "choice"
-				}
-				{
 					id: "131FCAF25F9CAF4B"
 					item: {
 						count: 1
 						id: "kubejs:progenitor_dragon_power"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01477E1A74C1403B"
+					table_id: 1222056859089637561L
+					type: "choice"
 				}
 			]
 			shape: "octagon"
@@ -253,8 +258,8 @@
 			id: "3B512F52E529954C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5C17D055C7E44BA2"
-				table_id: 3727137034912313201L
+				id: "3D528C06C148FD57"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -292,8 +297,8 @@
 			id: "6E3E82FB2A6E1D40"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "657C25EE15F5822C"
-				table_id: 3727137034912313201L
+				id: "791953217F4290BA"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -331,8 +336,8 @@
 			id: "4BE1FAC8EB16D548"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4B0EF6008A98896B"
-				table_id: 3727137034912313201L
+				id: "0BFABDA0EBC97E1F"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -368,8 +373,8 @@
 			id: "387B82087B06B184"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "283BCC285BD59BCD"
-				table_id: 3727137034912313201L
+				id: "06BE48F788B8796E"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -1138,127 +1143,6 @@
 				}
 			]
 			x: 1.5d
-			y: 22.5d
-		}
-		{
-			dependencies: ["387B82087B06B184"]
-			id: "12A467A5BE97AA0E"
-			optional: true
-			rewards: [
-				{
-					count: 9
-					id: "7B89A4BDD1A1E721"
-					item: {
-						count: 1
-						id: "kubejs:aether_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "4AB468433630B302"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					biome: "biomeswevegone:skyris_vale"
-					icon: {
-						id: "biomeswevegone:foxglove"
-					}
-					id: "44984E2EFC3D8018"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:enchanted_tangle"
-					icon: {
-						id: "biomeswevegone:fairy_slipper"
-					}
-					id: "44700986F74122BB"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:crag_gardens"
-					icon: {
-						id: "biomeswevegone:delphinium"
-					}
-					id: "4FEF081970B79E66"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:sakura_grove"
-					icon: {
-						id: "biomeswevegone:japanese_orchid"
-					}
-					id: "76BEF2CDF58924B6"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:rose_fields"
-					icon: {
-						id: "biomeswevegone:osiria_rose"
-					}
-					id: "79B800DC6D51AE9C"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:allium_shrubland"
-					icon: {
-						id: "biomeswevegone:tall_pink_allium"
-					}
-					id: "75BABDCBEA6EC406"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:amaranth_grassland"
-					icon: {
-						id: "biomeswevegone:amaranth"
-					}
-					id: "68B982DE629DEBEB"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:jacaranda_jungle"
-					icon: {
-						id: "biomeswevegone:jacaranda_sapling"
-					}
-					id: "5CE843C22A5B49D4"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:firecracker_chaparral"
-					icon: {
-						id: "biomeswevegone:firecracker_flower_bush"
-					}
-					id: "3717C80371720B3F"
-					type: "biome"
-				}
-				{
-					biome: "regions_unexplored:flower_fields"
-					icon: {
-						id: "regions_unexplored:waratah"
-					}
-					id: "03FBE520E94DF072"
-					type: "biome"
-				}
-				{
-					biome: "regions_unexplored:poppy_fields"
-					icon: {
-						id: "regions_unexplored:poppy_bush"
-					}
-					id: "2B44125E41766CE0"
-					type: "biome"
-				}
-				{
-					biome: "regions_unexplored:magnolia_woodland"
-					icon: {
-						id: "regions_unexplored:pink_magnolia_shrub"
-					}
-					id: "24C9A14A7F3F4F8E"
-					type: "biome"
-				}
-			]
-			x: -1.5d
 			y: 22.5d
 		}
 	]

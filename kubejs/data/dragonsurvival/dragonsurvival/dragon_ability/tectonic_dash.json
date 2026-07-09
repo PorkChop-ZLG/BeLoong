@@ -1,0 +1,203 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:dragon_breath",
+                "applied_effects": {
+                    "block_effect": [
+                        {
+                            "effect_type": "dragonsurvival:block_break",
+                            "probability": 1,
+                            "valid_blocks": {
+                                "type": "matching_blocks",
+                                "blocks": "#dihuang_loong:tectonic_dash_break"
+                            },
+                            "drop_loot": false
+                        }
+                    ]
+                },
+                "range_multiplier": {
+                    "type": "minecraft:lookup",
+                    "fallback": {
+                        "type": "minecraft:linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0.1
+                    },
+                    "values": [
+                        0.5,
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dihuang_loong:tectonic_dash",
+                            "dash_velocity": {
+                                "type": "minecraft:lookup",
+                                "fallback": {
+                                    "type": "minecraft:linear",
+                                    "base": 2.0,
+                                    "per_level_above_first": 1.0
+                                },
+                                "values": [
+                                    2.0,
+                                    3.0,
+                                    4.0,
+                                    5.0,
+                                    6.0,
+                                    7.0
+                                ]
+                            },
+                            "damage": {
+                                "type": "minecraft:lookup",
+                                "fallback": {
+                                    "type": "minecraft:linear",
+                                    "base": 20,
+                                    "per_level_above_first": 50
+                                },
+                                "values": [
+                                    20.0,
+                                    50.0,
+                                    100.0,
+                                    200.0,
+                                    500.0,
+                                    1000.0
+                                ]
+                            },
+                            "radius": {
+                                "type": "minecraft:lookup",
+                                "fallback": {
+                                    "type": "minecraft:linear",
+                                    "base": 2.0,
+                                    "per_level_above_first": 0.5
+                                },
+                                "values": [
+                                    2.0,
+                                    2.5,
+                                    3.0,
+                                    4.0,
+                                    5.0,
+                                    6.0
+                                ]
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            }
+        }
+    ],
+    "activation": {
+        "animations": {
+            "start_and_charging": {
+                "animation_key": "jump",
+                "layer": "BASE",
+                "locks_neck": true,
+                "locks_tail": true,
+                "transition_length": 2
+            },
+            "end": {
+                "animation_key": "fly_spin",
+                "layer": "BASE",
+                "locks_neck": true,
+                "locks_tail": true,
+                "transition_length": 2
+            }
+        },
+        "activation_type": "dragonsurvival:simple",
+        "cast_time": 2,
+        "cooldown": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 60.0,
+                "per_level_above_first": -10.0
+            },
+            "values": [
+                60.0,
+                50.0,
+                40.0,
+                30.0,
+                20.0,
+                10.0
+            ]
+        },
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+        },
+        "can_move_while_casting": true
+    },
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/dihuang/tectonic_dash_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/dihuang/tectonic_dash_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/dihuang/tectonic_dash_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/dihuang/tectonic_dash_3"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/dihuang/tectonic_dash_3"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/dihuang/tectonic_dash_3"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/dihuang/tectonic_dash_3"
+            }
+        ]
+    },
+    "upgrade": {
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 20.0,
+                "per_level_above_first": 20.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 6,
+        "upgrade_type": "dragonsurvival:dragon_growth"
+    },
+    "usage_blocked": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "is_flying": true
+            }
+        }
+    }
+}

@@ -1,3 +1,4 @@
+/*
 ServerEvents.recipes(event => {
     event.remove({ id: 'explorerscompass:explorers_compass' })
     event.shaped(Item.of('explorerscompass:explorerscompass', 1), [
@@ -11,3 +12,4 @@ ServerEvents.recipes(event => {
             C: 'minecraft:compass',
         })
 })
+*/

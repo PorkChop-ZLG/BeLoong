@@ -1,0 +1,272 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "block_visions": [
+                                {
+                                    "base": {
+                                        "custom_icon": "dragonsurvival:textures/ability_effect/general_ore_vision.png",
+                                        "duration": 600,
+                                        "id": "dragonsurvival:general_ore_vision"
+                                    },
+                                    "blocks": "#dragonsurvival:general_ores",
+                                    "colors": [
+                                        "white"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:coal_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/coal",
+                                    "colors": [
+                                        "black"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:iron_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/iron",
+                                    "colors": [
+                                        "#d5ad91"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:diamond_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/diamond",
+                                    "colors": [
+                                        "aqua"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:lapis_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/lapis",
+                                    "colors": [
+                                        "blue"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:gold_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/gold",
+                                    "colors": [
+                                        "gold"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:redstone_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/redstone",
+                                    "colors": [
+                                        "dark_red"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:emerald_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/emerald",
+                                    "colors": [
+                                        "green"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:quartz_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/quartz",
+                                    "colors": [
+                                        "gray"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:copper_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "#c:ores/copper",
+                                    "colors": [
+                                        "#e47b55"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                },
+                                {
+                                    "base": {
+                                        "duration": 600,
+                                        "id": "dragonsurvival:netherite_vision",
+                                        "is_hidden": true
+                                    },
+                                    "blocks": "minecraft:ancient_debris",
+                                    "colors": [
+                                        "#5c332b"
+                                    ],
+                                    "display_type": "outline",
+                                    "range": {
+                                        "type": "linear",
+                                        "base": 16,
+                                        "per_level_above_first": 16
+                                    }
+                                }
+                            ],
+                            "effect_type": "dragonsurvival:block_vision"
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            }
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:simple",
+        "animations": {
+            "end": {
+                "animation_key": "mass_buff",
+                "layer": "BASE",
+                "locks_neck": true,
+                "locks_tail": true
+            },
+            "start_and_charging": {
+                "animation_key": "cast_mass_buff",
+                "layer": "BASE",
+                "locks_neck": true,
+                "locks_tail": true,
+                "transition_length": 2
+            }
+        },
+        "can_move_while_casting": false,
+        "cast_time": 60.0,
+        "cooldown": 600.0,
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+        },
+        "sound": {
+            "end": "minecraft:ui.toast.in"
+        }
+    },
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ore_sense_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ore_sense_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ore_sense_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/dihuang/ore_sense_3"
+            }
+        ]
+    },
+    "upgrade": {
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 20.0,
+                "per_level_above_first": 20.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0
+            ]
+        },
+        "maximum_level": 3,
+        "upgrade_type": "dragonsurvival:dragon_growth"
+    }
+}

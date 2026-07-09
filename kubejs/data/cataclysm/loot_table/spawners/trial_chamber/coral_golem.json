@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:crystallized_coral"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "cataclysm:spawners/trial_chamber/coral_golem"
+}

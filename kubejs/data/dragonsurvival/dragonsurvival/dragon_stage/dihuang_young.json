@@ -1,15 +1,15 @@
 {
   "growth_items": [
     {
-      "growth_in_ticks": 6000,
+      "growth_in_ticks": 12000,
       "items": "dragonsurvival:heart_element"
     },
     {
-      "growth_in_ticks": 12000,
+      "growth_in_ticks": 36000,
       "items": "dragonsurvival:weak_dragon_heart"
     },
     {
-      "growth_in_ticks": -12000,
+      "growth_in_ticks": -36000,
       "items": "dragonsurvival:star_bone"
     },
     {
@@ -100,5 +100,5 @@
       "operation": "add_value"
     }
   ],
-  "ticks_until_grown": 3456000
+  "ticks_until_grown": 1728000
 }

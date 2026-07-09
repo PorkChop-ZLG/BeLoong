@@ -2,32 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "terra_curio:royal_gel"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:slime_staff"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:swamp_whip"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:slimy_saddle"
-        }
-      ]
-    },
-    {
       "bonus_rolls": 0.0,
       "entries": [
         {

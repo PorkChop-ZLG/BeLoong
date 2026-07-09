@@ -650,8 +650,6 @@
 	quest.0F00F91A36533F86.quest_subtitle: "Learn Lightning Dragon Habits"
 	quest.0F00F91A36533F86.title: "Observe Lightning Dragon"
 	quest.0F4C981910BE7936.quest_subtitle: "\"Three Cups and You're Home\""
-	quest.0F8D2B34E704C083.quest_subtitle: "Draw Terraria Accessories"
-	quest.0F8D2B34E704C083.title: "Terraria Accessory Gacha Box"
 	quest.0FB3F40215AD09FA.quest_desc: [
 		"&aGoal: Find the Sandworm Nest"
 		""
@@ -793,8 +791,6 @@
 	quest.1164ECE00370CB7B.title: "Belt T3"
 	quest.117731AAE830A4E2.quest_subtitle: "Prepared for the Unlucky"
 	quest.117731AAE830A4E2.title: "Ruined War Scythe Pity"
-	quest.117EFC004D3867C0.quest_subtitle: "Draw Items from Xiao Fanwei"
-	quest.117EFC004D3867C0.title: "Xiao Fanwei Blind Box"
 	quest.11C9E6E6BAB0A735.title: "Spellbook T3"
 	quest.11FC2E4D6E6B0D93.quest_desc: [
 		"&d&lDark Doppelganger"
@@ -846,25 +842,6 @@
 		"&c(Recipe modified, requires Beginner's Journal)"
 	]
 	quest.12A10457CBA9AF23.quest_subtitle: "Worn, but Highly Cost-Effective"
-	quest.12A467A5BE97AA0E.quest_desc: [
-		"Biomes We Have Visited:"
-		"&2Nature's Compass: &aSky Valley&r"
-		"&2Nature's Compass: &aSealed Grudge Realm&r"
-		"&2Nature's Compass: &aCliff Garden&r"
-		"&2Nature's Compass: &aCherry Grove&r"
-		"&2Nature's Compass: &aRose Plains&r"
-		"&2Nature's Compass: &aPompon Scallion Thicket&r"
-		"&2Nature's Compass: &aAmaranth Plains&r"
-		"&2Nature's Compass: &aJacaranda Jungle&r"
-		"&2Nature's Compass: &aBirdtail Evergreen Shrubland&r"
-		""
-		"Unvisited Lands:"
-		"&2Nature's Compass: &aBlooming Plains&r"
-		"&2Nature's Compass: &aPoppy Plains&r"
-		"&2Nature's Compass: &aMagnolia Grove&r"
-	]
-	quest.12A467A5BE97AA0E.quest_subtitle: "Check in at 12 Flower Biomes"
-	quest.12A467A5BE97AA0E.title: "When You Bloom, Butterflies Come"
 	quest.12E2CD43AD01F522.title: "Kill: Bogged"
 	quest.12EB86E73FDAF20F.quest_desc: ["&aObjective: Observe a Fire Dragon"]
 	quest.12EB86E73FDAF20F.quest_subtitle: "Learn Fire Dragon Behavior"
@@ -882,8 +859,6 @@
 	quest.132EA960D6542BEB.title: "Step One: Obtain Gohei"
 	quest.13427D639FF8D906.quest_desc: ["&cUnlocked after completing 【Twilight Forest】 chapter!"]
 	quest.13427D639FF8D906.title: "Sculk Katana"
-	quest.136C026EB4306742.quest_subtitle: "&o&7Terraria accessory tiers only indicate acquisition difficulty. Build wisely."
-	quest.136C026EB4306742.title: "Terraria Accessories T2"
 	quest.136ED357B1C436B8.quest_subtitle: "Smoked and Roasted~"
 	quest.13756DEBEDF71236.quest_desc: [
 		"&6To obtain &eFrozen Fresh Food and Frozen Charred Food&6,"
@@ -1219,8 +1194,6 @@
 	]
 	quest.1C07B232D4664C3D.quest_subtitle: "Smash Valudo"
 	quest.1C1277D37C9D79ED.quest_subtitle: "Nine Steams, Three Boils~"
-	quest.1CA4502D0B69550A.quest_subtitle: "Collect all Terra Accessories"
-	quest.1CA4502D0B69550A.title: "&c&lTerra Accessories Graduation"
 	quest.1CECEAD9D6372EF2.quest_desc: [
 		"&6Use the &2Yin Yang Core&6 to write &2Two-Form Spells"
 		"{image:iss_magicfromtheeast:item/yin_yang_core width:100 height:100 align:center}"
@@ -1411,8 +1384,6 @@
 	]
 	quest.24F3DC3742819BE4.quest_subtitle: "★★★★★"
 	quest.24F3DC3742819BE4.title: "Terra Mob: World Eater"
-	quest.24FD6F11C82C2688.quest_subtitle: "&o&7Terra item gradient represents acquisition difficulty; player strategy required"
-	quest.24FD6F11C82C2688.title: "Terra Item T1"
 	quest.24FE16788AAD170E.title: "Belt T1"
 	quest.251F47EF8754FE5B.quest_desc: ["&cUnlocks after completing chapter 【Car Maids】!"]
 	quest.251F47EF8754FE5B.quest_subtitle: "Make Your Maid Invincible"
@@ -1623,12 +1594,6 @@
 	]
 	quest.2B5CAD5134FFA4AF.quest_subtitle: "Start Your『BeLoong』 Journey!"
 	quest.2B5CAD5134FFA4AF.title: "&6&lMain Quest: Dragon Survival"
-	quest.2B6E8F9EF14EC294.quest_desc: [
-		"Right-click the &6Rolled Ancient Map&r to unfold it into a map."
-		""
-		"The red X on the map marks an ancient leftover fortress."
-	]
-	quest.2B6E8F9EF14EC294.quest_subtitle: "Marks a Forgotten Fortress"
 	quest.2B8490063511F9F1.quest_desc: [
 		"Combat: Uses nature magic to control enemies."
 		"Abilities:"
@@ -2041,9 +2006,6 @@
 	quest.39A482BF78452D09.title: "Energizing Soup"
 	quest.39AF32032B46C495.quest_subtitle: "Begin the Aether Dragon's path of growth"
 	quest.39AF32032B46C495.title: "Aether Dragon Hatchling"
-	quest.39B6FDA08FEAC979.quest_desc: [""]
-	quest.39B6FDA08FEAC979.quest_subtitle: "&o&7Terra Trinket tiers only represent acquisition difficulty; players need to reasonably combine them in terms of strength."
-	quest.39B6FDA08FEAC979.title: " Terra Trinkets T0"
 	quest.3A606C2453D06AFF.quest_desc: [
 		"&aObjective: Observe the Ritual Core for 5 seconds"
 		""
@@ -3481,19 +3443,6 @@
 	]
 	quest.6AC7F72FF93C6500.quest_subtitle: "Hearing celestial music clears the ears"
 	quest.6AC7F72FF93C6500.title: "&eSpirit Law Conjuration"
-	quest.6B23ED6B44E5FDFF.quest_desc: [
-		"&2Nature's Compass: &aSpike Ice Land&r"
-		"&2Nature's Compass: &aCold Deciduous Forest&r"
-		"&2Nature's Compass: &aFrozen Tundra&r"
-		"&2Nature's Compass: &aIce Highlands&r"
-		"&2Nature's Compass: &aFrozen Pine Taiga&r"
-		"&2Nature's Compass: &aHowling Peaks&r"
-		"&2Nature's Compass: &aFrost Taiga&r"
-		"&2Nature's Compass: &aSplintered Glaciers&r"
-		"&2Nature's Compass: &aSnowy Taiga&r"
-	]
-	quest.6B23ED6B44E5FDFF.quest_subtitle: "Visit 9 Tundra biomes"
-	quest.6B23ED6B44E5FDFF.title: "True Frost Walker"
 	quest.6B26A9D9D92F69DA.quest_subtitle: "Dragon Exile Land"
 	quest.6B26A9D9D92F69DA.title: "Check-in: End Midlands"
 	quest.6B3CAAA337596F88.quest_desc: [
@@ -4018,8 +3967,6 @@
 		""
 		"&6Players not in any dimension network can join this network by using a bound connector."
 	]
-	quest.79DBDE661A38E757.quest_subtitle: "&o&7Terra Trinket tiers only represent acquisition difficulty; players need to reasonably combine them in terms of strength."
-	quest.79DBDE661A38E757.title: "Terra Trinkets T3"
 	quest.7A9D8CB5ED4A6B1C.title: "Foot Ornament T2"
 	quest.7AB503D1D36B29D9.quest_subtitle: "Alcoholic Juice?"
 	quest.7AC2C9F419309308.title: "Permafrost Armor Set"
@@ -4173,15 +4120,11 @@
 	reward.4FA5DE6B8C446E46.title: "Rain/Snow"
 	reward.5A9476EF337264A3.title: "Spawn 【Coral Golem】"
 	reward.5DA01E41DB6D6A01.title: "Choose Your Dragon Egg"
-	reward.75A5CB8F03F3BFD2.title: "Spawn 【Mimic】"
 	reward.7D4E423C2BEB7F9C.title: "Clear Sky"
-	reward_table.0A72BDBE9FA6207D.title: "Xiao Fan Wei Blind Box"
 	reward_table.0F48BCBAFA4E52F3.title: "Newbie Gift Pack"
 	reward_table.149FBD4E03B83B80.title: "Concrete"
 	reward_table.1FEB68824B7D178E.title: "Dragon Egg"
 	reward_table.2DCB6EECCE37DE3C.title: "Blocktown Blueprints"
-	reward_table.33B97362D326AF71.title: "Terra Trinket Blind Box"
-	reward_table.36D6AF72EE45D67D.title: "Terra Boss Summoning Items"
 	reward_table.3E928BE988507C6D.title: "Cataclysm Boss Summoning Items"
 	reward_table.470A343B90F6B99A.title: "Twilight Sapling Blind Box"
 	reward_table.49C6A2B8867D43FC.title: "Toggle Weather"

@@ -1,6 +1,9 @@
 {
   "replace": true,
   "values": [
+    "minecraft:desert",
+    "#minecraft:is_savanna",
+    "#minecraft:is_badlands",
     {
       "id": "#beloong:is_desert",
       "required": false

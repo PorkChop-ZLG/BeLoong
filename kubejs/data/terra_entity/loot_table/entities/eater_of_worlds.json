@@ -2,32 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "terra_curio:worm_scarf"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "terra_curio:putrid_scent"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:iron_golem_staff"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:combat_wrench"
-        }
-      ]
-    },
-    {
       "bonus_rolls": 0.0,
       "entries": [
         {

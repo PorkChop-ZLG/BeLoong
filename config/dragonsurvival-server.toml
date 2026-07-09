@@ -318,7 +318,7 @@
 		#Determines the chance (in %) of bones dropping when a dragon harvests an ore block
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
-		dragon_ore_bone_chance = 0.05
+		dragon_ore_bone_chance = 0.1
 		#Determines the chance (in %) of dust dropping when a dragon harvests an ore block
 		# Default: 0.2
 		# Range: 0.0 ~ 1.0

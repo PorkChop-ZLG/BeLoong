@@ -20,14 +20,19 @@ _version = 4
 			[client.advanced.graphics.quality]
 				#
 				# The radius of the mod's render distance. (measured in chunks)
+				# 
+				# Note: this is a best effort number. 
+				# The actual render distance may be above or below this number 
+				# depending on your other graphic settings.
 				lodChunkRenderDistanceRadius = 256
 				#
-				# This indicates how quickly LODs decrease in quality the further away they are. 
-				# Higher settings will render higher quality fake chunks farther away, 
+				# This indicates how far apart drops in LOD quality are. 
+				# 
+				# Higher settings will increase the distance between drops 
 				# but will increase memory and GPU usage.
 				horizontalQuality = "MEDIUM"
 				#
-				# What is the maximum detail LODs should be drawn at? 
+				# What is the maximum detail LODs can render at? 
 				# Higher settings will increase memory and GPU usage. 
 				# 
 				# CHUNK: render 1 LOD for each Chunk. 
@@ -36,8 +41,8 @@ _version = 4
 				# TWO_BLOCKS: render 64 LODs for each Chunk. 
 				# BLOCK: render 256 LODs for each Chunk (width of one block). 
 				# 
-				# Lowest Quality: CHUNK
-				# Highest Quality: BLOCK
+				# Fastest: CHUNK
+				# Fanciest: BLOCK
 				maxHorizontalResolution = "BLOCK"
 				#
 				# This indicates how well LODs will represent 
@@ -45,13 +50,12 @@ _version = 4
 				# Higher options will make the world more accurate, butwill increase memory and GPU usage. 
 				# 
 				# Lowest Quality: HEIGHT_MAP
-				# Highest Quality: EXTREME
+				# Highest Quality: PIXEL_ART
 				verticalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
-				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
 				transparency = "COMPLETE"
 				#
@@ -113,23 +117,33 @@ _version = 4
 				saturationMultiplier = "1.0"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
-				#     Note that anything other than '0' will greatly effect Lod building time. 
+				#     Note: anything above '0' will slow down LOD loading time. 
 				# 
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
 				lodBiomeBlending = 3
+				#
+				# If true DH will try to use the camera position when 
+				# determining LOD quality drop-off. 
+				# If false DH will use the player's position. 
+				#  
+				# Enabling helps free-cam mods render correctly. 
+				# Disabling helps multi-camera mods render correctly (ie Immersive Portals or camera mods).
+				useCameraPositionForQualityDropOff = true
 
 			[client.advanced.graphics.genericRendering]
 				#
-				# If true non terrain objects will be rendered in DH's terrain. 
-				# This includes beacon beams and clouds.
+				# If true non terrain objects will be rendered by DH. 
+				# i.e. beacon beams and clouds.
 				enableGenericRendering = true
 				#
 				# If true LOD beacon beams will be rendered.
 				enableBeaconRendering = true
 				#
-				# Sets the maximum height at which beacons will render.This will only affect new beacons coming into LOD render distance.Beacons currently visible in LOD chunks will not be affected.
+				# Sets the maximum height beacons will render up to. 
+				# 
+				# Requires a world re-load to take affect.
 				beaconRenderHeight = 6000
 				#
 				# If true LOD beacon beams will be rendered wider at extreme distances, 
@@ -144,8 +158,12 @@ _version = 4
 				# 
 				# Example: "minecraft:overworld,minecraft:the_end"
 				# 
-				# Changes will only be seen when the world is re-loaded.
+				# Changes require a world re-load.
 				dimensionEnabledCloudRenderingCsv = "minecraft:overworld"
+				#
+				# False = DH will render a single layer of clouds, like vanilla Minecraft. 
+				# True = DH will render 3 layers of clouds at different heights.
+				enableMultiLayerClouds = true
 
 			[client.advanced.graphics.fog]
 				#
@@ -359,6 +377,18 @@ _version = 4
 				# A comma separated list of block resource locations that will be removed 
 				# when on top of water.
 				waterSurfaceBlockReplacementCsv = "minecraft:lily_pad"
+				#
+				# Defines what blocks should be rendered as LODs. 
+				# 
+				# NONE: Include all blocks in the LODs 
+				# NON_COLLIDING: Only render solid blocks in the LODs (tall grass, torches, etc. will be ignored)
+				blocksToIgnore = "NON_COLLIDING"
+				#
+				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
+				# 
+				# True: a red flower will tint the grass below it red. 
+				# False: skipped blocks will not change color of surface below them.
+				tintWithAvoidedBlocks = true
 
 			[client.advanced.graphics.experimental]
 				#
@@ -391,6 +421,14 @@ _version = 4
 				# OPEN_GL - Default 
 				# BLAZE_3D - Only supported on MC 1.21.11
 				renderingApi = "AUTO"
+				#
+				# Requires a restart to change. 
+				#  
+				# Options: 
+				# AUTO - changes based on the most likely API for that MC version 
+				# OPEN_GL - The Default for MC 1.21.11 and older (supports Iris shaders) 
+				# BLAZE_3D - The Default for MC 26.1.2 and newer (supports Vulkan)
+				renderingEngine = "AUTO"
 
 		[client.advanced.multiplayer]
 			#
@@ -655,6 +693,7 @@ _version = 4
 		# Hidden blocks (IE ores) are ignored.  
 		# Expected Compression Ratio: 0.7
 		worldCompression = "VISUALLY_EQUAL"
+		dataCompression = "Z_STD_BLOCK"
 
 		[common.lodBuilding.experimental]
 			#

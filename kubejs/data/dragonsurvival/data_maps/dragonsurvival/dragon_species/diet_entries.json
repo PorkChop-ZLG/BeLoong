@@ -2061,21 +2061,39 @@
         }
       },
       {
-        "items": "ds_aether_addon:zephyr",
+        "items": "ds_aether_addon:dim_sum",
         "properties": {
           "can_always_eat": true,
           "eat_seconds": 0.5,
-          "nutrition": 4,
-          "saturation": 6.0
+          "nutrition": 6,
+          "saturation": 8.0,
+          "effects": [
+            {
+              "effect": {
+                "id": "beloong:serene",
+                "amplifier": 0,
+                "duration": 1200
+              }
+            }
+          ]
         }
       },
       {
-        "items": "ds_aether_addon:relaxanttea",
+        "items": "ds_aether_addon:morning_tea",
         "properties": {
           "can_always_eat": true,
           "eat_seconds": 1.0,
-          "nutrition": 1,
-          "saturation": 2.0
+          "nutrition": 2,
+          "saturation": 4.0,
+          "effects": [
+            {
+              "effect": {
+                "id": "beloong:serene",
+                "amplifier": 1,
+                "duration": 1200
+              }
+            }
+          ]
         }
       },
       {
@@ -2415,21 +2433,39 @@
         }
       },
       {
-        "items": "ds_aether_addon:zephyr",
+        "items": "ds_aether_addon:dim_sum",
         "properties": {
           "can_always_eat": true,
           "eat_seconds": 0.5,
-          "nutrition": 4,
-          "saturation": 6.0
+          "nutrition": 6,
+          "saturation": 8.0,
+          "effects": [
+            {
+              "effect": {
+                "id": "beloong:serene",
+                "amplifier": 0,
+                "duration": 1200
+              }
+            }
+          ]
         }
       },
       {
-        "items": "ds_aether_addon:relaxanttea",
+        "items": "ds_aether_addon:morning_tea",
         "properties": {
           "can_always_eat": true,
           "eat_seconds": 1.0,
-          "nutrition": 1,
-          "saturation": 2.0
+          "nutrition": 2,
+          "saturation": 4.0,
+          "effects": [
+            {
+              "effect": {
+                "id": "beloong:serene",
+                "amplifier": 1,
+                "duration": 1200
+              }
+            }
+          ]
         }
       },
       {

@@ -4,10 +4,6 @@
     {
       "id": "eternal_starlight:starlight_permafrost_forest",
       "required": false
-    },
-    {
-      "id": "eternal_starlight:starlight_taiga",
-      "required": false
     }
   ]
 }

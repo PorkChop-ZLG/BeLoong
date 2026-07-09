@@ -17,14 +17,6 @@
       },
       "trigger": "minecraft:consume_item"
     },
-    "consume_zephyr": {
-      "conditions": {
-        "item": {
-          "items": "ds_aether_addon:zephyr"
-        }
-      },
-      "trigger": "minecraft:consume_item"
-    },
     "consume_stroganina": {
       "conditions": {
         "item": {
@@ -45,6 +37,22 @@
       "conditions": {
         "item": {
           "items": "ds_aether_addon:aether_dragon_treat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_morning_tea": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:morning_tea"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "consume_dim_sum": {
+      "conditions": {
+        "item": {
+          "items": "ds_aether_addon:dim_sum"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -70,9 +78,6 @@
       "consume_chopfordragon"
     ],
     [
-      "consume_zephyr"
-    ],
-    [
       "consume_stroganina"
     ],
     [
@@ -80,6 +85,12 @@
     ],
     [
       "consume_aether_dragon_treat"
+    ],
+    [
+      "consume_morning_tea"
+    ],
+    [
+      "consume_dim_sum"
     ]
   ],
   "rewards": {

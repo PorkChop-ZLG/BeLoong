@@ -116,7 +116,7 @@
       "effects": [
         {
           "duration": 400,
-          "effect": "ds_aether_addon:zen"
+          "effect": "beloong:serene"
         },
         {
           "duration": 400,
@@ -136,7 +136,7 @@
       "effects": [
         {
           "duration": 400,
-          "effect": "ds_aether_addon:zen"
+          "effect": "beloong:serene"
         },
         {
           "duration": 400,
@@ -216,11 +216,11 @@
       "effects": [
         {
           "duration": 400,
-          "effect": "dragonsurvival:empowered_soul"
+          "effect": "star_dragon:starlight_replenish"
         },
         {
           "duration": 400,
-          "effect": "star_dragon:starlight_replenish"
+          "effect": "dragonsurvival:empowered_soul"
         }
       ],
       "payment_data": {

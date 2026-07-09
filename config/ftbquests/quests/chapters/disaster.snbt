@@ -1,0 +1,806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "disaster"
+	group: "68BA145F90AA30CE"
+	icon: {
+		id: "beloong:dawn_light"
+	}
+	id: "5D6324B55C8EDE23"
+	images: [
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 180.0d
+			width: 1.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 180.0d
+			width: 1.2d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 180.0d
+			width: 1.2d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "beloong:block/disaster_portal_frame_top"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"15AFDC56C1DDD186"
+				"6285E3FE40B50A5D"
+				"10F79CEDC9B4CAE1"
+				"7F9E6D10F321927F"
+				"3D97123D1901A1C8"
+				"07B6867A808FFAC7"
+				"29D055DC49B2AA7D"
+				"3EC4B6AD875A25D5"
+				"6AE0A2C8D7978FC2"
+				"2BA5B4E1E4B65148"
+				"3699E72666A2DBF6"
+				"76BDFD3D489242DC"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.4d
+			id: "60300CF89DE750C2"
+			rewards: [{
+				id: "4426C192B0F79227"
+				type: "xp"
+				xp: 6000
+			}]
+			shape: "square"
+			size: 3.5d
+			tasks: [{
+				dimension: "beloong:disaster"
+				icon: {
+					id: "beloong:disaster_portal_block"
+				}
+				id: "107FECC7ACD2007B"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "07B6867A808FFAC7"
+			shape: "none"
+			tasks: [{
+				id: "38828CF88F5B0255"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3D97123D1901A1C8"
+			shape: "none"
+			tasks: [{
+				id: "3C64E202BA73834A"
+				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7F9E6D10F321927F"
+			shape: "none"
+			tasks: [{
+				id: "77583F0713CC77E7"
+				item: { count: 1, id: "fdbosses:eye_of_geburah" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "76BDFD3D489242DC"
+			shape: "none"
+			tasks: [{
+				id: "0D1D993FB95A41B8"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3699E72666A2DBF6"
+			shape: "none"
+			tasks: [{
+				id: "57FCC9B9789B6AFC"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "2BA5B4E1E4B65148"
+			shape: "none"
+			tasks: [{
+				id: "2E6821A1DB32EEB4"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "beloong:disaster_portal_frame"
+			}
+			id: "3E19144D5EB7AD14"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "0FB9384795C3D6D9"
+				item: {
+					count: 1
+					id: "beloong:disaster_portal_frame"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4050A83512229E84"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3EC4B6AD875A25D5"
+			shape: "none"
+			tasks: [{
+				id: "4F81A6F7BA43C163"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6AE0A2C8D7978FC2"
+			shape: "none"
+			tasks: [{
+				id: "59EFCE0DEE2F3C1E"
+				item: { count: 1, id: "cataclysm:void_eye" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "29D055DC49B2AA7D"
+			shape: "none"
+			tasks: [{
+				id: "0DC7E65F96749E23"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6285E3FE40B50A5D"
+			shape: "none"
+			tasks: [{
+				id: "2370FA9BD0909650"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "15AFDC56C1DDD186"
+			shape: "none"
+			tasks: [{
+				id: "5FD34999934450B0"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "10F79CEDC9B4CAE1"
+			shape: "none"
+			tasks: [{
+				id: "29405D04BC84E37D"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["656220D0E2FD4EC3"]
+			icon: {
+				id: "cataclysm:tidal_claws"
+			}
+			icon_scale: 2.0d
+			id: "2CFF0B3572B7EB9E"
+			rewards: [{
+				id: "3A5A707E3EB30AC2"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "48DE7F0F27705F26"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["656220D0E2FD4EC3"]
+			icon: {
+				id: "cataclysm:ceraunus"
+			}
+			icon_scale: 2.0d
+			id: "21323E99CF41C966"
+			rewards: [{
+				id: "0DCF5F3C9C583A8F"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "6A27D4B1A283FC97"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["656220D0E2FD4EC3"]
+			icon: {
+				id: "cataclysm:soul_render"
+			}
+			icon_scale: 2.0d
+			id: "1B0B122E34652FB1"
+			rewards: [{
+				id: "48EA9B797F58EEA7"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "2EDF9349B1E9A942"
+				type: "advancement"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59B00DF89051DF63"]
+			icon: {
+				id: "cataclysm:meat_shredder"
+			}
+			icon_scale: 2.0d
+			id: "3EDDBBC5AF621226"
+			rewards: [{
+				id: "18A664881AB79B80"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "7F326578F986082F"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59B00DF89051DF63"]
+			icon: {
+				id: "cataclysm:infernal_forge"
+			}
+			icon_scale: 2.0d
+			id: "584133F57D70B352"
+			rewards: [{
+				id: "115E1B5398D5C1BC"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "18CD7F042820D03F"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59B00DF89051DF63"]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			icon_scale: 2.0d
+			id: "7BD8AC615F70D4E2"
+			rewards: [{
+				id: "3E72A97B424AFEC9"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "78D789450227552E"
+				type: "advancement"
+			}]
+			x: 27.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F758694C8CD85B1"]
+			icon: {
+				id: "cataclysm:wrath_of_the_desert"
+			}
+			icon_scale: 2.0d
+			id: "1A80A4C81CAD4255"
+			rewards: [{
+				id: "4B071B9B8ADFD209"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "4A2ECCDBBC7A5D6D"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F758694C8CD85B1"]
+			icon: {
+				id: "cataclysm:gauntlet_of_guard"
+			}
+			icon_scale: 2.0d
+			id: "7AC9CC444540D2F2"
+			rewards: [{
+				id: "4322D972238F4314"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "6A1DDBCC595AD934"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F758694C8CD85B1"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			icon_scale: 2.0d
+			id: "36E3E423EE072800"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "08DC61B579188541"
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60300CF89DE750C2"]
+			id: "75C55E4F8204566A"
+			rewards: [
+				{
+					id: "4D0F23862EC529CB"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "4550D4D0BBE1A2BE"
+					item: {
+						count: 1
+						id: "cataclysm:amethyst_crab_shell"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:budding_amethyst"
+				}
+				id: "1D255EE8078C6805"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60300CF89DE750C2"]
+			id: "36AB6B47419CE439"
+			rewards: [
+				{
+					id: "15DBB61E999EF67F"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "10A3FA4C540F6AE4"
+					item: {
+						count: 1
+						id: "irons_spellbooks:amethyst_resonance_charm"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "cataclysm:amethyst_crab_shell"
+				}
+				id: "62D555316276A5BC"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 60L
+				to_observe: "cataclysm:amethyst_crab"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60300CF89DE750C2"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "7C2584EC1FC5EED8"
+			tasks: [{
+				id: "6D58EB64DC477CFC"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C2584EC1FC5EED8"]
+			id: "656220D0E2FD4EC3"
+			size: 1.5d
+			tasks: [{
+				id: "5A956A82C0F87585"
+				item: { count: 1, id: "minecraft:grass_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C2584EC1FC5EED8"]
+			id: "59B00DF89051DF63"
+			size: 1.5d
+			tasks: [{
+				id: "0DB01EE81F079880"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C2584EC1FC5EED8"]
+			id: "3F758694C8CD85B1"
+			size: 1.5d
+			tasks: [{
+				id: "259910BEF069BD95"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"584133F57D70B352"
+				"7BD8AC615F70D4E2"
+				"3EDDBBC5AF621226"
+			]
+			id: "129CF9B7FE7355E7"
+			rewards: [{
+				id: "1C9F3A87393F48DB"
+				type: "xp"
+				xp: 888
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0754D6F0C97CFA28"
+				item: { count: 1, id: "cataclysm:ignitium_block" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1B0B122E34652FB1"
+				"2CFF0B3572B7EB9E"
+				"21323E99CF41C966"
+			]
+			id: "31326816B36FBBAA"
+			rewards: [{
+				id: "578C3E6A5BD281B0"
+				type: "xp"
+				xp: 888
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6114D39DB104172D"
+				item: { count: 1, id: "cataclysm:cursium_block" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A80A4C81CAD4255"
+				"36E3E423EE072800"
+				"7AC9CC444540D2F2"
+			]
+			id: "34A977FA41D9743A"
+			rewards: [{
+				id: "7025645F45FC54B3"
+				type: "xp"
+				xp: 888
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5786D724CBFA09E6"
+				item: { count: 1, id: "cataclysm:enderite_block" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"34A977FA41D9743A"
+				"31326816B36FBBAA"
+				"129CF9B7FE7355E7"
+			]
+			id: "1221574EFE6F3EFB"
+			rewards: [{
+				id: "1DA0F63A6B3FE0CE"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "415E5EB3763FC678"
+				item: { count: 1, id: "cataclysm:altar_of_amethyst" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1221574EFE6F3EFB"]
+			id: "4315F6D6290944AA"
+			rewards: [{
+				id: "20C22621646E39F1"
+				type: "xp"
+				xp: 1200
+			}]
+			tasks: [{
+				id: "2F6C237FB631A7C7"
+				item: { count: 1, id: "cataclysm:blessed_amethyst_crab_meat" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60300CF89DE750C2"]
+			icon_scale: 1.5d
+			id: "354B2DABA8FB48EA"
+			rewards: [{
+				id: "7B2BF82BA5B3E66D"
+				type: "xp"
+				xp: 1500
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "23258363C3FEF91C"
+				item: { count: 1, id: "beloong:dawn_light" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["354B2DABA8FB48EA"]
+			icon_scale: 2.0d
+			id: "25B16F5A70DCC3AA"
+			rewards: [{
+				id: "11D6DD4DE37DF716"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/chesed"
+				criterion: ""
+				id: "0A4F769D4257CB4E"
+				type: "advancement"
+			}]
+			x: 44.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["354B2DABA8FB48EA"]
+			dependency_requirement: "one_completed"
+			icon_scale: 2.0d
+			id: "5CF366174F74DDA7"
+			rewards: [{
+				id: "039D616227C59440"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/malkuth"
+				criterion: ""
+				id: "693CC89A075DCA55"
+				type: "advancement"
+			}]
+			x: 44.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["354B2DABA8FB48EA"]
+			icon_scale: 2.0d
+			id: "203DA3A3EA44F457"
+			rewards: [{
+				id: "3E406FFAA1D3AB1F"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/geburah"
+				criterion: ""
+				id: "1C1D12966F4B8801"
+				type: "advancement"
+			}]
+			x: 48.0d
+			y: 0.0d
+		}
+	]
+}

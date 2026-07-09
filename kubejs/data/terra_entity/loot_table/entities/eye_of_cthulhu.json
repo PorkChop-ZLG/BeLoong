@@ -2,32 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "terra_curio:shield_of_cthulhu"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "xfws_someitems:sculk_megaphone"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "xfws_someitems:celestial_magnet"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "xfws_someitems:band_of_starpower"
-        }
-      ]
-    },
-    {
       "bonus_rolls": 0.0,
       "entries": [
         {

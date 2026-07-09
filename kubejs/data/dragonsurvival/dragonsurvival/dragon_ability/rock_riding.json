@@ -1,0 +1,182 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:flight",
+              "icon": "dragonsurvival:textures/ability_effect/rock_riding.png",
+              "level_requirement": 1
+            },
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:flight_time",
+                    "is_hidden": true
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "dragonsurvival:penalty_resistance_time",
+                      "amount": {
+                        "type": "minecraft:lookup",
+                        "values": [
+                          -100.0,
+                          0.0,
+                          400.0,
+                          1000.0
+                        ],
+                        "fallback": {
+                          "type": "minecraft:linear",
+                          "base": -100.0,
+                          "per_level_above_first": 100.0
+                        }
+                      },
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:rock_riding_flight_level",
+                    "is_hidden": true
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "dragonsurvival:flight_level",
+                      "amount": {
+                        "type": "minecraft:lookup",
+                        "values": [
+                          0.0,
+                          1.0,
+                          2.0,
+                          3.0,
+                          4.0,
+                          5.0
+                        ],
+                        "fallback": {
+                          "type": "minecraft:linear",
+                          "base": 0.0,
+                          "per_level_above_first": 1.0
+                        }
+                      },
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:rock_riding_flight_speed",
+                    "is_hidden": true
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "dragonsurvival:flight_speed",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": -0.2,
+                        "per_level_above_first": 0.1
+                      },
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:rock_riding_flight_stamina",
+                    "is_hidden": true
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "dragonsurvival:flight_stamina",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": -0.2,
+                        "per_level_above_first": 0.1
+                      },
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        },
+        "target_type": "dragonsurvival:self"
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/dihuang/rock_riding_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/dihuang/rock_riding_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "dragonsurvival:abilities/dihuang/rock_riding_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "dragonsurvival:abilities/dihuang/rock_riding_3"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "dragonsurvival:abilities/dihuang/rock_riding_4"
+      },
+      {
+        "from_level": 5,
+        "texture_resource": "dragonsurvival:abilities/dihuang/rock_riding_4"
+      },
+      {
+        "from_level": 6,
+        "texture_resource": "dragonsurvival:abilities/dihuang/rock_riding_4"
+      }
+    ]
+  },
+  "upgrade": {
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 20.0,
+        "per_level_above_first": 20.0
+      },
+      "values": [
+        20.0,
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
+      ]
+    },
+    "maximum_level": 6,
+    "upgrade_type": "dragonsurvival:dragon_growth"
+  }
+}

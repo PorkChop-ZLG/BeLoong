@@ -2,32 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "terra_curio:bone_glove"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:valor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terra_entity:sculk_wisp_staff"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "xfws_someitems:mana_flower"
-        }
-      ]
-    },
-    {
       "bonus_rolls": 0.0,
       "entries": [
         {

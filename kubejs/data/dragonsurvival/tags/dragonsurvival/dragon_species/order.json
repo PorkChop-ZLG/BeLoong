@@ -1,8 +1,8 @@
 {
   "replace": true,
   "values": [
-    "dragonsurvival:dihuang_loong",
     "dragonsurvival:aether_dragon",
+    "dragonsurvival:dihuang_loong",
     "dragonsurvival:tundra_dragon",
     "dragonsurvival:star_dragon",
     "dragonsurvival:cave_dragon",

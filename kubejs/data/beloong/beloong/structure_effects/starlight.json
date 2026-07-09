@@ -1,0 +1,30 @@
+{
+  "eternal_starlight:cursed_garden": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 3,
+      "duration": 100
+    }
+  ],
+  "eternal_starlight:golem_forge": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 3,
+      "duration": 100
+    }
+  ],
+  "block_factorys_bosses:sandworm_nest": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 3,
+      "duration": 100
+    }
+  ],
+  "block_factorys_bosses:yeti_hideout": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 3,
+      "duration": 100
+    }
+  ]
+}

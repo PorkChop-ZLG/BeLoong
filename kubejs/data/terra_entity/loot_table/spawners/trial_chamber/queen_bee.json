@@ -20,10 +20,6 @@
         {
           "type": "minecraft:item",
           "name": "terra_entity:honeyed_goggles"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terra_curio:honey_comb"
         }
       ]
     },

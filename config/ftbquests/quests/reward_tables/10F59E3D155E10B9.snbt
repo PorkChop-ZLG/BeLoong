@@ -1,0 +1,117 @@
+{
+	id: "10F59E3D155E10B9"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ id: "0DE90AB1ACE85D9A", item: { count: 1, id: "artifacts:umbrella" } }
+		{
+			id: "02655D7D87FC0AE2"
+			item: {
+				count: 1
+				id: "artifacts:everlasting_beef"
+			}
+			weight: 0.01f
+		}
+		{ id: "1B50417F121F943F", item: { count: 1, id: "artifacts:plastic_drinking_hat" } }
+		{ id: "06C5CCABDD0A258F", item: { count: 1, id: "artifacts:novelty_drinking_hat" } }
+		{ id: "46F487F0A3C654F3", item: { count: 1, id: "artifacts:snorkel" } }
+		{
+			id: "5D70C017D0E1294F"
+			item: {
+				count: 1
+				id: "artifacts:night_vision_goggles"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "6557B6ED78E81708"
+			item: {
+				count: 1
+				id: "artifacts:villager_hat"
+			}
+			weight: 0.5f
+		}
+		{ id: "46A7999D4B72F85E", item: { count: 1, id: "artifacts:superstitious_hat" } }
+		{ id: "3626112468C12188", item: { count: 1, id: "artifacts:cowboy_hat" } }
+		{ id: "0844C4F57F200325", item: { count: 1, id: "artifacts:anglers_hat" } }
+		{ id: "106C6E052A72C1A2", item: { count: 1, id: "artifacts:lucky_scarf" } }
+		{ id: "6EE0AE962F7A9F7F", item: { count: 1, id: "artifacts:scarf_of_invisibility" } }
+		{ id: "7FE115928831435C", item: { count: 1, id: "artifacts:cross_necklace" } }
+		{ id: "7CDE1059F332A735", item: { count: 1, id: "artifacts:panic_necklace" } }
+		{ id: "5C32C2B65E32F5B7", item: { count: 1, id: "artifacts:shock_pendant" } }
+		{ id: "7477CCCD9C3D7FBD", item: { count: 1, id: "artifacts:flame_pendant" } }
+		{ id: "22EC9FA28B2C37D9", item: { count: 1, id: "artifacts:thorn_pendant" } }
+		{ id: "35E937D0846F539B", item: { count: 1, id: "artifacts:charm_of_sinking" } }
+		{
+			id: "74658140D8C6706B"
+			item: {
+				count: 1
+				id: "artifacts:charm_of_shrinking"
+			}
+			weight: 0.1f
+		}
+		{ id: "5600E5E24B32D048", item: { count: 1, id: "artifacts:cloud_in_a_bottle" } }
+		{ id: "70BB7EAB2A4547C9", item: { count: 1, id: "artifacts:obsidian_skull" } }
+		{ id: "354845FC60F64B5D", item: { count: 1, id: "artifacts:antidote_vessel" } }
+		{ id: "4EDF8A0DFC5EC953", item: { count: 1, id: "artifacts:universal_attractor" } }
+		{
+			id: "6C369185D46D5E63"
+			item: {
+				count: 1
+				id: "artifacts:crystal_heart"
+			}
+			weight: 0.5f
+		}
+		{ id: "6C90DB2E6C687E4A", item: { count: 1, id: "artifacts:helium_flamingo" } }
+		{ id: "6F89C21B2A1D07ED", item: { count: 1, id: "artifacts:chorus_totem" } }
+		{ id: "2733DC9456D3EA9C", item: { count: 1, id: "artifacts:warp_drive" } }
+		{ id: "095C03A662170986", item: { count: 1, id: "artifacts:digging_claws" } }
+		{ id: "01FB3A902E30590F", item: { count: 1, id: "artifacts:feral_claws" } }
+		{
+			id: "2969278B597E1AAA"
+			item: {
+				count: 1
+				id: "artifacts:power_glove"
+			}
+			weight: 0.5f
+		}
+		{ id: "7442A5C0FF9042E6", item: { count: 1, id: "artifacts:fire_gauntlet" } }
+		{ id: "2AB558BA0C43FBC3", item: { count: 1, id: "artifacts:pocket_piston" } }
+		{
+			id: "75C70B957CA58797"
+			item: {
+				count: 1
+				id: "artifacts:vampiric_glove"
+			}
+			weight: 0.5f
+		}
+		{ id: "6AE932BBC36C41A3", item: { count: 1, id: "artifacts:golden_hook" } }
+		{ id: "6A46C000249A290F", item: { count: 1, id: "artifacts:onion_ring" } }
+		{ id: "4133C63244FB3289", item: { count: 1, id: "artifacts:pickaxe_heater" } }
+		{ id: "5B66D7D9637CB3B4", item: { count: 1, id: "artifacts:withered_bracelet" } }
+		{ id: "493AC2A7147CE741", item: { count: 1, id: "artifacts:aqua_dashers" } }
+		{
+			id: "0154EBC85B11C1B6"
+			item: {
+				count: 1
+				id: "artifacts:bunny_hoppers"
+			}
+			weight: 0.1f
+		}
+		{ id: "24BDAFCDF282B678", item: { count: 1, id: "artifacts:kitty_slippers" } }
+		{ id: "7F15B151324DCDB5", item: { count: 1, id: "artifacts:running_shoes" } }
+		{ id: "36460386B181D410", item: { count: 1, id: "artifacts:snowshoes" } }
+		{ id: "213E6D498525B0CD", item: { count: 1, id: "artifacts:steadfast_spikes" } }
+		{ id: "1BE9757827905957", item: { count: 1, id: "artifacts:flippers" } }
+		{ id: "5A3AE5B82E441C94", item: { count: 1, id: "artifacts:rooted_boots" } }
+		{ id: "08DFC1720BE277FF", item: { count: 1, id: "artifacts:strider_shoes" } }
+		{
+			id: "38D03B97804A441C"
+			item: {
+				count: 1
+				id: "artifacts:whoopee_cushion"
+			}
+			weight: 2.0f
+		}
+	]
+}

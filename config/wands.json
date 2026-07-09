@@ -84,5 +84,15 @@
   "str_shears_allowed": [
     "minecraft:moss_block"
   ],
-  "str_denied": []
+  "str_denied": [
+    "iceandfire:copper_pile",
+    "iceandfire:silver_pile",
+    "iceandfire:gold_pile",
+    "dragonsurvival:debris_dragon_treasure",
+    "dragonsurvival:diamond_dragon_treasure",
+    "dragonsurvival:emerald_dragon_treasure",
+    "dragonsurvival:copper_dragon_treasure",
+    "dragonsurvival:gold_dragon_treasure",
+    "dragonsurvival:gold_dragon_treasure"
+  ]
 }

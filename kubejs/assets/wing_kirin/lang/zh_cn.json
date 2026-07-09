@@ -1,5 +1,10 @@
 {
-  "dragon_ability.dragonsurvival.thunderous_shout.desc": "§7■深呼一口气，随后全数调动体内丹田，将内力以§6音波§r§7之形式顷刻啸出，犹如迅雷疾泻声闻数里，令敌§e肝胆俱裂，心惊胆战§r§7。§r§7\n\n■若有§6「金钟」§r§7这一神器，更可聚音激能，§a大量提升威力§r§7，形成§e摧枯拉朽§r§7之势。\n\n§e■由于所需内力极为深厚，因而有§n持续时间限制§r§e，随§a技能等级（成长等级）提高§r§e而提升。§7\n\n§4■对饱食度消耗极高，身受重伤时亦不可发功；当持续施法达到最大持续限制时，将会使你筋疲力竭，伤害锐减。§r\n\n§6§o“*挣扎*这就是狮（龙）吼功吗§r”",
-  "dragon_species.dragonsurvival.wing_kirin.locked": "获得§5鞘翅§r后，即可化为瑞兽———§6翼麒麟。§r",
+  "dragon_species.dragonsurvival.wing_kirin.locked": "■获得§5鞘翅§r后，邂逅生活于九天之上的瑞兽———§6翼麒麟§r",
+  "dragon_stage.wing_kirin.kirin_adult": "成年麒麟",
+  "dragon_stage.wing_kirin.kirin_ancient": "壮年麒麟",
+  "dragon_stage.wing_kirin.kirin_archean": "太古麒麟",
+  "dragon_stage.wing_kirin.kirin_newborn": "幼年麒麟",
+  "dragon_stage.wing_kirin.kirin_progenitor": "始祖麒麟",
+  "dragon_stage.wing_kirin.kirin_young": "青年麒麟",
   "dragonsurvival.advancement.wing_kirin/be_old.desc": "身为翼麒麟成长至始祖麒麟阶段。"
 }

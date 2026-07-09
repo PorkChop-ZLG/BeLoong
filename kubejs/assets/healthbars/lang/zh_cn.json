@@ -1,0 +1,5 @@
+{
+  "key.categories.healthbars": "血条显示",
+  "key.toggle_health_bars": "开关血条显示",
+  "key.toggle_health_bars.message": "渲染血条显示：%s"
+}

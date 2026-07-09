@@ -1,0 +1,46 @@
+{
+	"parent": "wing_kirin:wing_kirin/fly_higher",
+	"criteria": {
+		"be_fully_grown_ancient": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "dragonsurvival:dragon_predicate",
+								"dragon_species": "dragonsurvival:wing_kirin",
+								"stage_specific": {
+									"dragon_stage": "wing_kirin:kirin_progenitor"
+								}
+							}
+						}
+					}
+				]
+			},
+			"trigger": "dragonsurvival:be_dragon"
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "dragonsurvival.advancement.wing_kirin/be_old.desc"
+		},
+		"icon": {
+			"count": 1,
+			"id": "wing_kirin:wing_kirin_full_icon"
+		},
+		"title": {
+			"translate": "dragonsurvival.advancement.wing_kirin/be_old"
+		}
+	},
+	"requirements": [
+		[
+			"be_fully_grown_ancient"
+		]
+	],
+	"rewards": {
+		"experience": 300
+	},
+	"sends_telemetry_event": true
+}

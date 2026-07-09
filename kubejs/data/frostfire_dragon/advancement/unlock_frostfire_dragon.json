@@ -1,0 +1,57 @@
+{
+  "parent": "frostfire_dragon:be_dragon",
+  "criteria": {
+    "ice_dragon_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "iceandfire:dragon_ice"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "fire_dragon_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "iceandfire:dragon_fire"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "frostfire_dragon.advancement.unlock_frostfire_dragon.desc"
+    },
+    "icon": {
+      "id": "cataclysm:flame_eye"
+    },
+    "title": {
+      "translate": "frostfire_dragon.advancement.unlock_frostfire_dragon"
+    }
+  },
+  "requirements": [
+    [
+      "ice_dragon_damage"
+    ],
+    [
+      "fire_dragon_damage"
+    ]
+  ],
+  "rewards": {
+    "experience": 12
+  }
+}

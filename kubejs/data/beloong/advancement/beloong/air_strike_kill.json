@@ -1,0 +1,39 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "air_strike_kill": {
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "beloong:air_strike"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "beloong.advancement.beloong/air_strike_kill.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "eternal_starlight:starcore"
+    },
+    "title": {
+      "translate": "beloong.advancement.beloong/air_strike_kill"
+    }
+  },
+  "requirements": [
+    [
+      "air_strike_kill"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

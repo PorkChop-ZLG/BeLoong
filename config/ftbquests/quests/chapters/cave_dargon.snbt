@@ -40,8 +40,8 @@
 			id: "5AAE0970AABAF89B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7EEC8AFBAD726169"
-				table_id: 3727137034912313201L
+				id: "42C4E61279CE15B1"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -190,18 +190,18 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "267910F1F16C26CD"
-					table_id: 3727137034912313201L
-					type: "choice"
-				}
-				{
 					id: "0674E240B650E069"
 					item: {
 						count: 1
 						id: "kubejs:progenitor_dragon_power"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "214A8FA69606C98D"
+					table_id: 1222056859089637561L
+					type: "choice"
 				}
 			]
 			shape: "octagon"
@@ -293,8 +293,8 @@
 			id: "24A1E8B804776D1F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "478B77CE38921FA9"
-				table_id: 3727137034912313201L
+				id: "2067E354E805B399"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -332,9 +332,9 @@
 			id: "620D2C27E39DACD0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "79041BB200CD6462"
-				table_id: 3727137034912313201L
-				type: "loot"
+				id: "507CC8798955592B"
+				table_id: 1222056859089637561L
+				type: "random"
 			}]
 			shape: "none"
 			size: 3.0d
@@ -372,8 +372,8 @@
 			id: "22DFEA6E1E1AE527"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2E488B6534F4992A"
-				table_id: 3727137034912313201L
+				id: "322169C462CA9834"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -409,8 +409,8 @@
 			id: "46A3CDDB1A15D9FE"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5F17EB923D036566"
-				table_id: 3727137034912313201L
+				id: "0DC1CA35708E4BC3"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "pentagon"
@@ -1279,22 +1279,6 @@
 						id: "regions_unexplored:joshua_shrub"
 					}
 					id: "135AC0DF7E7ECC3D"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:mojave_desert"
-					icon: {
-						id: "biomeswevegone:cracked_sand"
-					}
-					id: "577F39D0DA88C851"
-					type: "biome"
-				}
-				{
-					biome: "biomeswevegone:windswept_desert"
-					icon: {
-						id: "biomeswevegone:windswept_sand"
-					}
-					id: "57E06E32058D56B2"
 					type: "biome"
 				}
 				{

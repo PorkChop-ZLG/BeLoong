@@ -1,0 +1,23 @@
+{
+  "species": "dragonsurvival:wing_kirin",
+  "stage": "wing_kirin:kirin_adult",
+  "model": "dragonsurvival:dragon_model",
+  "parts": {
+    "base": "wing_kirin_base",
+    "bottom": "bottom_7",
+    "eyes": "wing_kirin_eye_1",
+    "horns": "wing_kirin_horn_1",
+    "spikes": "cloudy_spinal_hair",
+    "claws": "claw_7_sea",
+    "teeth": "teeth_12",
+    "magic": "sea_magic_4",
+    "extra": "azure_mane",
+    "extra1": "golden_scale",
+    "extra2": "cloudy_eyebrow",
+    "extra3": "cloudy_tail",
+    "extra4": "crane_wing",
+    "extra5": "white_mane",
+    "extra6": "white_moustache",
+    "extra7": "cattle_ear"
+  }
+}

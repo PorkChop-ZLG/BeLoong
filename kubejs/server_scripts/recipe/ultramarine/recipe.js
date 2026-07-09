@@ -1,5 +1,20 @@
 // 该脚本用于魔改 群青 的配方
 ServerEvents.recipes(event => {
+    // 包子
+    event.shapeless(
+        Item.of('ultramarine:baozi', 3),
+        [
+            '#c:dough',
+            '#c:foods/cooked_meat'
+        ]
+    )
+    event.shapeless(
+        Item.of('ultramarine:baozi', 3),
+        [
+            '#c:dough',
+            '#c:foods/cabbage'
+        ]
+    )
     // 东方秘术的玉 合成 群青的玉
     event.shapeless(
         Item.of('ultramarine:jade', 2),

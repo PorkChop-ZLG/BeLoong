@@ -40,8 +40,8 @@
 			id: "2C055589A88C2771"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2CEE6C65BE18060F"
-				table_id: 3727137034912313201L
+				id: "73BB59C7C32539B6"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -262,18 +262,18 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0E90C337FB000503"
-					table_id: 3727137034912313201L
-					type: "choice"
-				}
-				{
 					id: "32F7AC24BD6BA83A"
 					item: {
 						count: 1
 						id: "kubejs:progenitor_dragon_power"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B572BEC9046ADA6"
+					table_id: 1222056859089637561L
+					type: "choice"
 				}
 			]
 			shape: "octagon"
@@ -365,8 +365,8 @@
 			id: "0A6E69E220DAFB6F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "17768056BE151BBA"
-				table_id: 3727137034912313201L
+				id: "62981481D9B0A0FB"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -404,8 +404,8 @@
 			id: "0068C01865EF22C7"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "792011B80E625492"
-				table_id: 3727137034912313201L
+				id: "705F58E9A7B6CE2C"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -443,8 +443,8 @@
 			id: "05DDE53B6ECC9F16"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1A0249586B248DF7"
-				table_id: 3727137034912313201L
+				id: "0810EB7937076DBB"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "none"
@@ -480,8 +480,8 @@
 			id: "7F9E7B3E2BADCD5F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "51674DED1F81975A"
-				table_id: 3727137034912313201L
+				id: "41853AA9FCD31A39"
+				table_id: 1222056859089637561L
 				type: "random"
 			}]
 			shape: "pentagon"

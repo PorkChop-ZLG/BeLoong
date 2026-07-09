@@ -1,6 +1,37 @@
 // 该脚本用于魔改 化龍整合包 的专属配方
 
 ServerEvents.recipes(event => {
+    // 黎明曙光
+    event.shaped(Item.of('beloong:dawn_light', 1), [
+        'ABC',
+        'DEF',
+        'GHI'
+    ],
+        {
+            A: 'cataclysm:monstrous_horn',
+            B: 'cataclysm:witherite_ingot',
+            C: 'cataclysm:void_core',
+            D: 'cataclysm:ignitium_ingot',
+            E: 'cataclysm:blessed_amethyst_crab_meat',
+            F: 'cataclysm:cursium_ingot',
+            G: 'cataclysm:crystallized_coral',
+            H: 'cataclysm:ancient_metal_ingot',
+            I: 'cataclysm:lacrima'
+        }
+    )
+    // 放大护符 与 缩小护符 互换
+    event.shapeless(
+        Item.of('beloong:amplification_charm', 1),
+        [
+            'artifacts:charm_of_shrinking'
+        ]
+    )
+    event.shapeless(
+        Item.of('artifacts:charm_of_shrinking', 1),
+        [
+            'beloong:amplification_charm'
+        ]
+    )
     // 专属龙心 换成 远古龙心
     event.shapeless(
         Item.of('dragonsurvival:elder_dragon_heart', 1),
@@ -44,6 +75,12 @@ ServerEvents.recipes(event => {
             'kubejs:crystcursed_dragon_heart'
         ]
     )
+    event.shapeless(
+        Item.of('dragonsurvival:elder_dragon_heart', 1),
+        [
+            'kubejs:dihuang_loong_heart'
+        ]
+    )
     // 泰拉BOSS召唤物 换成 远古龙心
     event.shapeless(
         Item.of('dragonsurvival:elder_dragon_heart', 1),
@@ -85,6 +122,26 @@ ServerEvents.recipes(event => {
             A: 'dragonsurvival:elder_dragon_dust',
             B: 'ds_aether_addon:mistral'
         }
+    )
+    // 早茶
+    event.remove({ id: 'ds_aether_addon:relaxanttearecipe' })
+    event.shapeless(
+        Item.of('ds_aether_addon:morning_tea', 1),
+        [
+            '#minecraft:flowers',
+            'minecraft:potion',
+            'twilightforest:steeleaf_ingot'
+        ]
+    )
+    // 点心
+    event.remove({ id: 'ds_aether_addon:zephyrrecipe' })
+    event.shapeless(
+        Item.of('ds_aether_addon:dim_sum', 1),
+        [
+            '#c:eggs',
+            'minecraft:honeycomb',
+            'ultramarine:baozi'
+        ]
     )
     // 远古龙尘 换 奥术源质
     event.shaped(Item.of('irons_spellbooks:arcane_essence', 1), [

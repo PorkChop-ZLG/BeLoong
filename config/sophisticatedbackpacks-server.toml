@@ -99,6 +99,10 @@
 		# Default: 3
 		# Range: 1 ~ 6
 		slotsInRow = 3
+		#List of additional crafting shapes compacting and compression upgrades will try when checking if items can be compacted. Shapes are expected as rows of 1s and 0s separated by / where 1 means the tested item is present and 0 means the slot is empty. Example: "111/101/111" checks a hollow 3x3 shape with 8 items.
+		additionalCompactingShapes = ["111/101/111"]
+		#List of item-specific additional crafting shapes compacting and compression upgrades will try when checking if items can be compacted. Entries are expected in format of "mod:item=shape", for example "some_mod:tiny_coal=111/101/111".
+		additionalCompactingShapeOverrides = []
 
 	#Advanced Compacting Upgrade Settings
 	[server.advancedCompactingUpgrade]
@@ -609,9 +613,9 @@
 		hostileMultiplier = 1.0
 		#When true, mobs that expose inventories or container menus are not capturable.
 		disallowInventoryEntities = false
-		#Entity types that cannot be captured.
+		#Entity types or entity tags prefixed with # that cannot be captured.
 		entityBlockList = ["minecraft:wither", "minecraft:ender_dragon", "fdbosses:block_projectile", "fdbosses:chesed", "fdbosses:chesed_boss_spawner", "fdbosses:geburah", "fdbosses:geburah_boss_spawner", "fdbosses:malkuth", "fdbosses:malkuth_boss_spawner", "fdbosses:chesed_crystal", "fdbosses:chesed_monolith", "fdbosses:chesed_ray_reflector", "fdbosses:malkuth_cannon", "fdbosses:malkuth_repair_crystal", "undergarden:forgotten_guardian", "touhou_little_maid:maid", "darkdoppelganger:dark_doppelganger", "darkdoppelganger:dark_doppelganger_minion", "darkdoppelganger:ender_dagger", "darkdoppelganger:ender_field", "darkdoppelganger:portal_join_entity", "darkdoppelganger:portal_leave_entity", "terra_entity:king_slime", "terra_entity:eye_of_cthulhu", "terra_entity:brain_of_cthulhu", "terra_entity:visual_neuron", "terra_entity:eater_of_worlds", "terra_entity:eater_of_worlds_segment", "terra_entity:queen_bee", "terra_entity:skeletron", "terra_entity:skeletron_hand", "terra_entity:wall_of_flesh", "terra_entity:wall_of_flesh_eye", "terra_entity:wall_of_flesh_mouth", "iceandfire:amphithere", "iceandfire:fire_dragon", "iceandfire:fire_dragon_charge", "iceandfire:ice_dragon", "iceandfire:ice_dragon_charge", "iceandfire:lightning_dragon", "iceandfire:lightning_dragon_charge", "eternal_starlight:the_gatekeeper", "eternal_starlight:starlight_golem", "eternal_starlight:lunar_monstrosity"]
-		#Entity types treated as hostile by mob catcher slot cost and tier rules.
+		#Entity types or entity tags prefixed with # treated as hostile by mob catcher slot cost and tier rules.
 		hostileOverrides = []
-		#Entity types treated as passive by mob catcher slot cost and tier rules.
+		#Entity types or entity tags prefixed with # treated as passive by mob catcher slot cost and tier rules.
 		passiveOverrides = []

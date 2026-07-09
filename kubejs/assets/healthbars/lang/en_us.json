@@ -1,0 +1,5 @@
+{
+  "key.categories.healthbars": "Health Bars",
+  "key.toggle_health_bars": "Toggle Health Bars",
+  "key.toggle_health_bars.message": "Render Health Bars: %s"
+}

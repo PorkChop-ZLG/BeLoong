@@ -1,0 +1,114 @@
+{
+  "other_treasure": [
+    {
+      "block": "minecraft:copper_block",
+      "value": 2.0,
+      "limit": 5
+    },
+    {
+      "block": "minecraft:iron_block",
+      "value": 5.0,
+      "limit": 5
+    },
+    {
+      "block": "minecraft:gold_block",
+      "value": 15.0,
+      "limit": 10
+    },
+    {
+      "block": "minecraft:emerald_block",
+      "value": 20.0,
+      "limit": 5
+    },
+    {
+      "block": "minecraft:diamond_block",
+      "value": 40.0,
+      "limit": 10
+    },
+    {
+      "block": "minecraft:netherite_block",
+      "value": 80.0,
+      "limit": 10
+    },
+    {
+      "block": "iceandfire:silver_block",
+      "value": 10.0,
+      "limit": 10
+    },
+    {
+      "block": "iceandfire:gold_pile",
+      "value": 4.0,
+      "limit": 100
+    },
+    {
+      "block": "iceandfire:copper_pile",
+      "value": 1.0,
+      "limit": 100
+    },
+    {
+      "block": "iceandfire:silver_pile",
+      "value": 3.0,
+      "limit": 100
+    },
+    {
+      "block": "twilightforest:naga_trophy",
+      "value": 100.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:lich_trophy",
+      "value": 120.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:minoshroom_trophy",
+      "value": 50.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:hydra_trophy",
+      "value": 200.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:knight_phantom_trophy",
+      "value": 50.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:ur_ghast_trophy",
+      "value": 200.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:alpha_yeti_trophy",
+      "value": 50.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:snow_queen_trophy",
+      "value": 200.0,
+      "limit": 1
+    },
+    {
+      "block": "twilightforest:quest_ram_trophy",
+      "value": 50.0,
+      "limit": 1
+    },
+    {
+      "block": "fdbosses:chesed_trophy",
+      "value": 1000.0,
+      "limit": 1
+    },
+    {
+      "block": "fdbosses:malkuth_trophy",
+      "value": 1000.0,
+      "limit": 1
+    },
+    {
+      "block": "fdbosses:geburah_trophy",
+      "value": 1000.0,
+      "limit": 1
+    }
+  ]
+}

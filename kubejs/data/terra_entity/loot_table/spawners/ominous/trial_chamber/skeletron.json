@@ -29,10 +29,6 @@
         {
           "type": "minecraft:item",
           "name": "terra_entity:sculk_wisp_staff"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "xfws_someitems:mana_flower"
         }
       ]
     },
