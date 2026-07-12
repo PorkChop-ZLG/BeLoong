@@ -172,12 +172,8 @@
         "experience_cost": 60
       }
     },
-    "dragonsurvival:crystcursed_dragon": {
+    "#dragonsurvival:crystcursed_dragon": {
       "effects": [
-        {
-          "duration": 400,
-          "effect": "minecraft:luck"
-        },
         {
           "duration": 400,
           "effect": "crystcursed_dragon:replenish_the_source"

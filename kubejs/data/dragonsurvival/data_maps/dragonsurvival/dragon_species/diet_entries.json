@@ -2759,7 +2759,7 @@
         }
       }
     ],
-    "dragonsurvival:crystcursed_dragon": [
+    "#dragonsurvival:crystcursed_dragon": [
       {
         "items": "crystcursed_dragon:crystcursed_dragon_treat",
         "properties": {
@@ -2776,6 +2776,9 @@
             }
           ]
         }
+      },
+      {
+        "items": "minecraft:ominous_bottle"
       },
       {
         "items": "crystcursed_dragon:golden_amethyst_shard",
@@ -2796,10 +2799,28 @@
         }
       },
       {
-        "items": "minecraft:amethyst_shard",
+        "items": "#c:gems/amethyst",
         "properties": {
           "eat_seconds": 0.6,
-          "nutrition": 8,
+          "nutrition": 4,
+          "saturation": 8.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "#c:gems/quartz",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 4,
+          "saturation": 6.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "#c:gems/lapis",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 4,
           "saturation": 6.0,
           "can_always_eat": true
         }
@@ -3834,7 +3855,7 @@
         }
       }
     ],
-		"dragonsurvival:dihuang_loong": [
+    "dragonsurvival:dihuang_loong": [
       {
         "items": "artifacts:everlasting_beef",
         "properties": {
@@ -3966,7 +3987,7 @@
             }
           ]
         }
-			}
+      }
     ]
   }
 }
