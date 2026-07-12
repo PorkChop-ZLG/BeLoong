@@ -63,6 +63,6 @@
         }
       }
     },
-    "visibility": "visible_if_locked"
+    "visibility": "always_hidden"
   }
 }

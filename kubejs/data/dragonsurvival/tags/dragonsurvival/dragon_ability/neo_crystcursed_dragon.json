@@ -1,14 +1,14 @@
 {
     "values": [
-        "dragonsurvival:crystcursed_volley",
-        "dragonsurvival:crystcursed_path",
-        "dragonsurvival:crystcursed_missile",
-        "dragonsurvival:crystcursed_revenge",
-        "dragonsurvival:crystcursed_rain",
-        "dragonsurvival:crystcursed_laser",
-        "dragonsurvival:crystal_budding",
-        "dragonsurvival:crystcursed_mana_infusion",
-        "dragonsurvival:crystcursed_magic_setting",
+        "dragonsurvival:neo_crystcursed_volley",
+        "dragonsurvival:neo_crystcursed_path",
+        "dragonsurvival:neo_crystcursed_missile",
+        "dragonsurvival:neo_crystcursed_revenge",
+        "dragonsurvival:neo_crystcursed_rain",
+        "dragonsurvival:neo_crystcursed_laser",
+        "dragonsurvival:neo_crystal_budding",
+        "dragonsurvival:neo_crystcursed_mana_infusion",
+        "dragonsurvival:neo_crystcursed_magic_setting",
 
         "dragonsurvival:crystcursed_magic",
         "dragonsurvival:source_preservation",
