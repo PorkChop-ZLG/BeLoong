@@ -1,5 +1,5 @@
 {
-  "abilities": "#dragonsurvival:crystcursed_dragon",
+  "abilities": "#dragonsurvival:neo_crystcursed_dragon",
   "mana_handling": {
     "mana_per_level": 0.2,
     "mana_xp_conversion": 0.01,
@@ -14,13 +14,13 @@
     "dragonsurvival:crystcursed_progenitor"
   ],
   "bodies": [
-    "dragonsurvival:center",
-    "dragonsurvival:east",
-    "dragonsurvival:west"
+    "dragonsurvival:neo_crystcursed_center",
+    "dragonsurvival:neo_crystcursed_east",
+    "dragonsurvival:neo_crystcursed_west"
   ],
   "misc_resources": {
     "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/crystcursed/cast_bar.png",
-    "altar_banner": "dragonsurvival:textures/gui/custom/altar/crystcursed/altar_icon.png",
+    "altar_banner": "dragonsurvival:textures/gui/custom/altar/neo_crystcursed/altar_icon.png",
     "food_sprites": "dragonsurvival:textures/gui/custom/food_icons/crystcursed_food_icons.png",
     "food_tooltip": {
       "font": "crystcursed_dragon:food_tooltip_icon_font",
@@ -50,7 +50,7 @@
     "claw_texture_slot": "sword"
   },
   "penalties": "#dragonsurvival:crystcursed_dragon",
-  "unlockable_behavior": {
+    "unlockable_behavior": {
     "unlock_condition": {
       "condition": "entity_properties",
       "entity": "this",
