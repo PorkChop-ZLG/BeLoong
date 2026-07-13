@@ -1,0 +1,193 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:damage",
+                            "amount": {
+                                "type": "clamped",
+                                "max": 6,
+                                "min": 0,
+                                "value": {
+                                    "type": "linear",
+                                    "base": 2,
+                                    "per_level_above_first": 2
+                                }
+                            },
+                            "damage_type": "dragonsurvival:crystcursed_laser"
+                        }
+                    ],
+                    "targeting_mode": "all_except_self",
+                    "target_conditions": {
+                        "condition": "any_of",
+                        "terms": []
+                    }
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_point": "channel_completion"
+        },
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "crystcursed_dragon:dragon_ability/crystcursed_laser/main-ability-charging"
+                        },
+                        {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
+                                "amplifier": 2,
+                                "duration": 2,
+                                "effect_particles": false,
+                                "effects": [
+                                    "slowness"
+                                ],
+                                "probability": 1,
+                                "show_icon": false
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_point": "charging"
+        },
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "crystcursed_dragon:dragon_ability/crystcursed_laser/main-ability-default"
+                        },
+                        {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
+                                "amplifier": 3,
+                                "duration": 2,
+                                "effect_particles": false,
+                                "effects": [
+                                    "slowness"
+                                ],
+                                "probability": 1,
+                                "show_icon": false
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_point": "default"
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:channeled",
+        "animations": {
+            "looping": {
+                "animation_key": "breath",
+                "layer": "BREATH",
+                "locks_neck": false,
+                "locks_tail": false,
+                "transition_length": 5
+            },
+            "start_and_charging": {
+                "animation_key": "spell_charge",
+                "layer": "BREATH",
+                "locks_neck": false,
+                "locks_tail": false,
+                "transition_length": 5
+            }
+        },
+        "cast_time": 50,
+        "cooldown": 800,
+        "continuous_mana_cost": {
+            "amount": 0.15,
+            "type": "ticking"
+        },
+        "max_duration": {
+            "type": "minecraft:linear",
+            "base": 100,
+            "per_level_above_first": 20
+        },
+        "notification": {
+            "usage_blocked": {
+                "translate": "dragon_ability.dragonsurvival.crystcursed_laser.usage_blocked"
+            }
+        }
+    },
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_3"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_4"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_4"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_4"
+            }
+        ]
+    },
+    "upgrade": {
+        "upgrade_type": "dragonsurvival:dragon_growth",
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 50.0,
+                "per_level_above_first": 50.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 6
+    },
+    "usage_blocked": {
+        "condition": "inverted",
+        "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type_specific": {
+                    "type": "dragonsurvival:dragon_predicate",
+                    "stage_specific": {
+                        "growth": {
+                            "min": 40
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
