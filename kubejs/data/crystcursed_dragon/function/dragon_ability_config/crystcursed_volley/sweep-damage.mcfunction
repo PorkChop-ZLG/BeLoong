@@ -6,8 +6,19 @@
 
 function crystcursed_dragon:lib/level_based_value/main { \
     function: { \
-        type: "lookup", \
-        values: [0.6f,0.6f,0.8f,0.8f], \
-        fallback: 1f \
+            "type": "lookup", \
+            "fallback": { \
+                "type": "linear", \
+                "base": 0.4, \
+                "per_level_above_first": 0.2 \
+            }, \
+            "values": [ \
+                0.4, \
+                0.6, \
+                0.8, \
+                1.0, \
+                1.2, \
+                1.4 \
+            ] \
     } \
 }
