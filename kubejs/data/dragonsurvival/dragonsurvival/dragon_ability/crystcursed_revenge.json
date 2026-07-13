@@ -86,21 +86,27 @@
         "cast_time": 1,
         "continuous_mana_cost": {
             "type": "ticking",
-            "amount": 0.025
+            "amount": 0.01
         },
-        "cooldown": 40,
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 120.0,
+            "per_level_above_first": -20.0
+        },
         "max_duration": {
             "type": "minecraft:lookup",
             "fallback": {
                 "type": "minecraft:linear",
-                "base": 30,
-                "per_level_above_first": 35
+                "base": 30.0,
+                "per_level_above_first": 10.0
             },
             "values": [
-                30,
-                65,
-                100,
-                100
+                30.0,
+                40.0,
+                50.0,
+                60.0,
+                80.0,
+                100.0
             ]
         }
     },

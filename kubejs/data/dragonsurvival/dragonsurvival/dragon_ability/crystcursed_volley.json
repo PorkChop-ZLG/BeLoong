@@ -88,8 +88,8 @@
         },
         "cooldown": {
             "type": "minecraft:linear",
-            "base": 100.0,
-            "per_level_above_first": -20.0
+            "base": 60.0,
+            "per_level_above_first": -10.0
         },
         "initial_mana_cost": {
             "type": "minecraft:linear",
