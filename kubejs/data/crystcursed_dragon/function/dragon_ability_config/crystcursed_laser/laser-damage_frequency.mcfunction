@@ -13,5 +13,5 @@
 # - 3f: 3 ticks per check
 
 function crystcursed_dragon:lib/level_based_value/main { \
-    function: 3f, \
+    function: 4f, \
 }

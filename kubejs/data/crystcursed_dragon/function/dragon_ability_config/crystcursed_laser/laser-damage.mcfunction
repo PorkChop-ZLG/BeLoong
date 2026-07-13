@@ -6,13 +6,17 @@
 
 function crystcursed_dragon:lib/level_based_value/main { \
     function: { \
-        type: "clamped", \
-        max: 6f, \
-        min: 0f, \
-        value: { \
-            type: "linear", \
-            base: 2f, \
-            per_level_above_first: 2f \
-        } \
+            "type": "lookup", \
+            "fallback": { \
+                "type": "linear", \
+                "base": 10.0, \
+                "per_level_above_first": 10.0 \
+            }, \
+            "values": [ \
+                10.0, \
+                25.0, \
+                50.0, \
+                100.0 \
+            ] \
     } \
 }

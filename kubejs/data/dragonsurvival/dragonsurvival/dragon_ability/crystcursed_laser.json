@@ -7,14 +7,18 @@
                         {
                             "effect_type": "dragonsurvival:damage",
                             "amount": {
-                                "type": "clamped",
-                                "max": 6,
-                                "min": 0,
-                                "value": {
-                                    "type": "linear",
-                                    "base": 2,
-                                    "per_level_above_first": 2
-                                }
+                                "type": "minecraft:lookup",
+                                "fallback": {
+                                    "type": "minecraft:linear",
+                                    "base": 10.0,
+                                    "per_level_above_first": 10.0
+                                },
+                                "values": [
+                                    10.0,
+                                    25.0,
+                                    50.0,
+                                    100.0
+                                ]
                             },
                             "damage_type": "dragonsurvival:crystcursed_laser"
                         }
@@ -104,17 +108,21 @@
                 "transition_length": 5
             }
         },
-        "cast_time": 50,
-        "cooldown": 800,
-        "continuous_mana_cost": {
-            "amount": 0.15,
-            "type": "ticking"
-        },
-        "max_duration": {
+        "cast_time": 40,
+        "cooldown": {
             "type": "minecraft:linear",
-            "base": 100,
+            "base": 60,
             "per_level_above_first": 20
         },
+        "continuous_mana_cost": {
+            "amount": {
+                "type": "linear",
+                "base": 0.1,
+                "per_level_above_first": 0.1
+            },
+            "type": "ticking"
+        },
+        "max_duration": 160.0,
         "notification": {
             "usage_blocked": {
                 "translate": "dragon_ability.dragonsurvival.crystcursed_laser.usage_blocked"
@@ -142,14 +150,6 @@
             {
                 "from_level": 4,
                 "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_4"
-            },
-            {
-                "from_level": 5,
-                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_4"
-            },
-            {
-                "from_level": 6,
-                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_laser_4"
             }
         ]
     },
@@ -159,35 +159,16 @@
             "type": "minecraft:lookup",
             "fallback": {
                 "type": "minecraft:linear",
-                "base": 50.0,
+                "base": 100.0,
                 "per_level_above_first": 50.0
             },
             "values": [
-                20.0,
-                50.0,
                 100.0,
                 150.0,
                 200.0,
                 250.0
             ]
         },
-        "maximum_level": 6
-    },
-    "usage_blocked": {
-        "condition": "inverted",
-        "term": {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "type_specific": {
-                    "type": "dragonsurvival:dragon_predicate",
-                    "stage_specific": {
-                        "growth": {
-                            "min": 40
-                        }
-                    }
-                }
-            }
-        }
+        "maximum_level": 4
     }
 }
