@@ -86,8 +86,16 @@
             "type": "ticking",
             "amount": 0.1
         },
-        "cooldown": 40,
-        "initial_mana_cost": 0.25
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 100.0,
+            "per_level_above_first": -20.0
+        },
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.25
+        }
     },
     "can_be_manually_disabled": true,
     "icon": {

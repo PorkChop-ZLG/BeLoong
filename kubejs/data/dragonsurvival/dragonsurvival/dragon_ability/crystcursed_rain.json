@@ -53,8 +53,16 @@
         },
         "can_move_while_casting": true,
         "cast_time": 15.0,
-        "cooldown": 160.0,
-        "initial_mana_cost": 2
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 20.0,
+            "per_level_above_first": 20.0
+        },
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 2.0
+        }
     },
     "can_be_manually_disabled": true,
     "icon": {
