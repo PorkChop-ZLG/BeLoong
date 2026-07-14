@@ -67,28 +67,6 @@ ItemEvents.modification(event => {
   event.modify('eternal_starlight:golem_steel_greatsword', item => {
     item.attackDamage = 19.0
   })
-  // 深暗之园
-  event.modify('undergarden:cloggrum_battleaxe', item => {
-    item.attackDamage = 26.5
-  })
-  event.modify('undergarden:cloggrum_sword', item => {
-    item.attackDamage = 16.5
-  })
-  event.modify('undergarden:froststeel_sword', item => {
-    item.attackDamage = 14.0
-  })
-  event.modify('undergarden:utherium_sword', item => {
-    item.attackDamage = 18.0
-  })
-  event.modify('undergarden:forgotten_battleaxe', item => {
-    item.attackDamage = 27.0
-  })
-  event.modify('undergarden:forgotten_sword', item => {
-    item.attackDamage = 17.0
-  })
-  event.modify('undergarden:spear', item => {
-    item.attackDamage = 16.0
-  })
 })
 
 // 最大堆叠数量
