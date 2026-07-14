@@ -1,10 +1,4 @@
 {
-	chapter.025C2A1E99ADD3C3.chapter_subtitle: [
-		"将在1.3.4版本替换为新的维度！"
-		"难度：★★★★★"
-		"星光暗淡，长夜漫漫"
-	]
-	chapter.025C2A1E99ADD3C3.title: "&m⑤ 深暗之园&r（即将删除）"
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["隐藏式任务"]
 	chapter.0ACA55AC777A92A0.title: "〖以太龙〗成长之路"
 	chapter.0F599041F0C4C0AF.chapter_subtitle: [
@@ -226,19 +220,6 @@
 	]
 	quest.03300B3D470F9B73.quest_subtitle: "网络音乐机"
 	quest.033C8C16CABE2ACE.title: "击杀：冰晶核"
-	quest.034ACABF80D25D29.quest_desc: [
-		"&a目标：击败蜂王，提交蜂巢背包"
-		""
-		"&2深暗之园&6唯一还有生机的地方，是那片&a绿油油的森林&6。"
-		"&6苟延残喘的原住民，逃到了此处谋求生机。"
-		"&6密林的深处，埋藏着一座巨大的蜂巢，"
-		"&6或许，一切问题的答案就藏在那座蜂巢之中。"
-		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AC7BA9585F4271A\" } }"
-		""
-		"&9结构罗盘：&b【深暗之园】蜂王&r"
-	]
-	quest.034ACABF80D25D29.quest_subtitle: "击败蜂王"
-	quest.034ACABF80D25D29.title: "蜂王"
 	quest.038BE99D4FE3442D.quest_desc: [
 		"&e『&6化龍&e』&6是一款以&d龙之生存&6为核心的&a冒险休闲整合包&6。"
 		"&6在这里，你可化身各种各样的&d龙族&6进行冒险生存，"
@@ -344,22 +325,6 @@
 	quest.0512242C244673AA.quest_subtitle: "击杀虚空之花，提交其掉落物"
 	quest.0512242C244673AA.title: "铸就木之龙躯"
 	quest.052F870EA4EFBE56.quest_subtitle: "感受到太空的感觉了吗"
-	quest.053172C0F13D3578.quest_desc: [
-		"&l&d「克苏鲁之脑」"
-		"&6生命：&a8000"
-		"&6攻击：&c160"
-		"&6护甲：&74"
-		""
-		"&l&d生成"
-		"&9结构罗盘：&b【深暗之园】克苏鲁之脑&r"
-		"{@pagebreak}"
-		"&l&d攻略"
-		"&c克苏鲁之脑本体只能受到远程伤害！"
-		"克苏鲁之脑在生成时会伴随&216只视神经元&r一同生成，在击杀所有视神经单元之前，克苏鲁之脑自身处于&c无敌状态&r且不会主动攻击目标。"
-		"当克苏鲁之脑的全部16个视神经元全部被击杀后，进入二阶段。此时克苏鲁之脑可以被攻击，他会召唤出三个&e克苏鲁之脑幻象&r，&c必须攻击真身才能造成伤害！"
-	]
-	quest.053172C0F13D3578.quest_subtitle: "★★★★★"
-	quest.053172C0F13D3578.title: "泰拉生物：克苏鲁之脑"
 	quest.053BA563D0DBF380.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E22E2A0F31B536\" } }"]
 	quest.053BA563D0DBF380.quest_subtitle: "击杀下界铁掌，提交其掉落物"
 	quest.053BA563D0DBF380.title: "铸就火之龙躯"
@@ -540,20 +505,6 @@
 	quest.0A6E69E220DAFB6F.title: "青年森林龙"
 	quest.0A9D7FCC65BE863F.quest_subtitle: "集齐森林龙的家具"
 	quest.0A9D7FCC65BE863F.title: "森林龙之家"
-	quest.0AC7BA9585F4271A.quest_desc: [
-		"&l&d「蜂王」"
-		"&6生命：&a9000"
-		"&6攻击：&c180"
-		"&6护甲：&72"
-		""
-		"&l&d生成"
-		"&9结构罗盘：&b【深暗之园】蜂王&r"
-		"{@pagebreak}"
-		"&l&d攻略"
-		"蜂王可以飞行，直接飞起来拿刀砍就行。"
-	]
-	quest.0AC7BA9585F4271A.quest_subtitle: "★★★★★"
-	quest.0AC7BA9585F4271A.title: "泰拉生物：蜂王"
 	quest.0ADC425FA160CAD0.quest_desc: [
 		"&a目标：击败沙虫"
 		""
@@ -642,15 +593,6 @@
 	]
 	quest.0C7F298F1FA0C8D4.quest_subtitle: "你想当个懦夫吗？"
 	quest.0C7F298F1FA0C8D4.title: "&c死亡不掉落"
-	quest.0CBB05169A5210EB.quest_desc: [
-		"&a目标：击杀一只腐衰微体"
-		""
-		"&6深暗之园的原住民，曾举行了一场盛大的仪式；"
-		"&6但是仪式出现了差错，召来了不可名状的&e克苏鲁&6。"
-		"&6仪式中的所有人都被感染，身体腐烂变成&e腐衰生物&6。"
-		"&6他们失去了灵魂，成为克苏鲁入侵此界的爪牙。"
-	]
-	quest.0CBB05169A5210EB.title: "腐衰微体"
 	quest.0D59D12207F20A4C.title: "观察：闪熠绣球花"
 	quest.0DD185730F003AC4.quest_desc: [
 		"&c进阶高级附魔台&6允许你自由打造你的装备，"
@@ -731,15 +673,6 @@
 	]
 	quest.1011C97DAE40FD1B.quest_subtitle: "流星雨是仅能在星光维度中出现的特殊天气，发生概率极低、持续时间极短。"
 	quest.1011C97DAE40FD1B.title: "一起去看流星雨"
-	quest.101EAA70BF95EBE6.quest_desc: [
-		"&a目标：获得遗忆镐，挖开封住邃渊的渊畏石"
-		""
-		"&2深暗之园&6的地底是坚不可摧的&e渊畏石&6 ，"
-		"&e渊畏石&6的底下封印着恐怖的&5邃渊&6。"
-		"&6你必须想办法做出&a遗忆镐&6，才能将其挖穿。"
-		"{ \"text\": \"遗忆镐需要在下僻巢穴获得，点击跳转\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C76712CBF85E716\" } }"
-	]
-	quest.101EAA70BF95EBE6.quest_subtitle: "挖掘尘封的秘密"
 	quest.1029B426047952E5.quest_subtitle: "果味米酒"
 	quest.1036A454EE8AB619.quest_desc: [
 		"&d&l「慈悲」"
@@ -889,19 +822,6 @@
 	]
 	quest.1420594CE21D4239.quest_subtitle: "能做出这个也是天才了"
 	quest.145D2D48D83B6D72.title: "项链T1"
-	quest.146CDD92C8E0963C.quest_desc: [
-		"&a目标：击败世界吞噬怪，提交蠕虫围巾"
-		""
-		"&2深暗之园&6的中层是一望无际的&9远古之海&6。"
-		"&6远古之海曾是生命的起源，然而如今已被彻底污染。"
-		"&6汪洋中，悬浮着一座巨大的角斗场，"
-		"&6这本是贵族观看斗兽之所，直到一条巨虫霸占了这里。"
-		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"24F3DC3742819BE4\" } }"
-		""
-		"&9结构罗盘：&b【深暗之园】世界吞噬怪&r"
-	]
-	quest.146CDD92C8E0963C.quest_subtitle: "击败世界吞噬怪"
-	quest.146CDD92C8E0963C.title: "世界吞噬怪"
 	quest.14D31B8DCB673BE7.quest_desc: ["&6龙之生存中最基础的材料。"]
 	quest.14D31B8DCB673BE7.quest_subtitle: "基础材料"
 	quest.14ED830A8AC56A7A.quest_desc: [
@@ -929,13 +849,6 @@
 		"六大主龙之一，掌握末影的力量。"
 	]
 	quest.1588CA412F4FAA24.title: "&5主龙：星界龙"
-	quest.159566AC6D6F2977.quest_desc: [
-		"&a目标：合成凝注台，学会使用凝注"
-		""
-		"&e凝注台&6可用于&e凝注&6，配方请自行查询EMI。"
-		"&6此外，泰拉BOSS的召唤物也可通过&e凝注&6获得。"
-	]
-	quest.159566AC6D6F2977.quest_subtitle: "狠狠地灌注"
 	quest.15C5C16F69808158.quest_subtitle: "这是史莱姆吗？"
 	quest.15CE2F1DA319C4B4.quest_desc: [
 		"&l&d「斯库拉」"
@@ -975,8 +888,6 @@
 	quest.16AC902A8860C5D5.title: "红巨星"
 	quest.16AD045AE7B461C7.quest_subtitle: "纯米大吟酿"
 	quest.16B32CB0D55A9718.title: "项链T0"
-	quest.16DAA386E0B19BB2.quest_subtitle: "保底：憎恶之蜂"
-	quest.16DAA386E0B19BB2.title: "养蜂人"
 	quest.16DF8F0EA133B69A.quest_desc: ["这是一个临时任务，用于暂时解锁该技能，未来版本会改用其他方式获得！"]
 	quest.16DF8F0EA133B69A.title: "技能：龙击长空"
 	quest.170C5452183F9D7E.title: "观察：烈焰百合"
@@ -1008,20 +919,6 @@
 	]
 	quest.17A9978D7AFEA210.quest_subtitle: "★★★★"
 	quest.17A9978D7AFEA210.title: "永恒星光：月藤巨物"
-	quest.17BEAE92E1A0B323.quest_desc: [
-		"&a目标：击败史莱姆王，提交皇家凝胶"
-		""
-		"&2深暗之园&6中，经常能看见布满藤蔓的&a残破神庙&6，"
-		"&6过去，那是&b渊居民&6祭祀的场所，但是如今已经废弃。"
-		"&6中央的祭坛上，囚禁着来自异世界的&d史莱姆王&6，"
-		"&6如今，&e史莱姆王&6的力量已经恢复了一部分；"
-		"&6任何龙靠近，都会&c唤醒&6这团巨大的史莱姆！"
-		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6E27A53C36C34AB1\" } }"
-		""
-		"&9结构罗盘：&b【深暗之园】史莱姆王&r"
-	]
-	quest.17BEAE92E1A0B323.quest_subtitle: "击败史莱姆王"
-	quest.17BEAE92E1A0B323.title: "史莱姆王"
 	quest.17ECFF157B63592F.quest_subtitle: "提交末地相关的部分物品"
 	quest.17ECFF157B63592F.title: "末地的土特产"
 	quest.17F6BAB9A64544C9.quest_subtitle: "集齐所有护符"
@@ -1205,14 +1102,6 @@
 	quest.1CECEAD9D6372EF2.title: "&3两仪学派"
 	quest.1D4B9072EAB12A10.quest_subtitle: "完成以太龙的部分成就"
 	quest.1D4B9072EAB12A10.title: "以太龙趣味挑战"
-	quest.1D5517D47880238A.quest_desc: [
-		"&a目标：与石生体进行交易"
-		""
-		"&6腐化入侵多年后，岩石中诞生了一种奇特的生物。"
-		"&6它们的身体由岩石构成，可以降低腐化的程度，"
-		"&6因此还保留着一些理智，可以进行交易。"
-	]
-	quest.1D5517D47880238A.title: "石生体"
 	quest.1DC6A40640299BA6.title: "打卡：冰刺之地"
 	quest.1DEC01DBBD68858D.title: "挑战：雪怪巢穴"
 	quest.1DF1EB641301D0B7.quest_desc: [
@@ -1324,12 +1213,6 @@
 	quest.21F9F82D260D81BD.quest_subtitle: "&5我可是真龙"
 	quest.21F9F82D260D81BD.title: "&6嗯...稀薄的龙族血脉吗？"
 	quest.21FA8360A0A9725F.title: "冰霜执法者装备"
-	quest.2212CFA0F99595C7.quest_desc: [
-		"&6主线&3【永恒星光】&6的通关奖励。"
-		"&6这是一种特殊的武器，不算在&e天顶剑&6的合成之内。"
-		"&6运气好的时候，可以直接&c秒杀&6生物。"
-		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6344D6B5AEC69478\" } }"
-	]
 	quest.22616810BC8A22CA.quest_subtitle: "&5&l「末」&r&d一枚神奇的空间戒指"
 	quest.22616810BC8A22CA.title: "第三幕：赠礼"
 	quest.226EC0050127B453.quest_desc: [
@@ -1419,21 +1302,6 @@
 	quest.24AF8C0A4EC3CE90.title: "甜蜜蜜"
 	quest.24BCC3403F50D4C8.quest_subtitle: "每条龙保底一次"
 	quest.24BCC3403F50D4C8.title: "二重身之戒保底"
-	quest.24F3DC3742819BE4.quest_desc: [
-		"&l&d「世界吞噬怪」"
-		"&6生命：&a8000"
-		"&6攻击：&c160"
-		"&6护甲：&72"
-		""
-		"&l&d生成"
-		"&9结构罗盘：&b【深暗之园】世界吞噬怪&r"
-		"{@pagebreak}"
-		"&l&d攻略"
-		"世界吞噬怪不是单体目标，而是由&260个有独立生命的世界吞噬怪体节&r组成。当世界吞噬怪的头部或体节被击杀时会断裂，缺失头部的体节会变为新的头部，如果是从世界吞噬怪的中间拦腰截断，则会分裂为两条更短的世界吞噬怪。只有击杀世界吞噬怪全部的体节才能将其完全杀死。"
-		"&o&7当前版本存在BUG，有概率无法判定击杀。"
-	]
-	quest.24F3DC3742819BE4.quest_subtitle: "★★★★★"
-	quest.24F3DC3742819BE4.title: "泰拉生物：世界吞噬怪"
 	quest.24FE16788AAD170E.title: "腰带T1"
 	quest.251F47EF8754FE5B.quest_desc: ["&c完成章节【车万女仆】后解锁！"]
 	quest.251F47EF8754FE5B.quest_subtitle: "让你的女仆无敌"
@@ -1486,8 +1354,6 @@
 	]
 	quest.26053B577195305A.quest_subtitle: "成长到黑洞阶段"
 	quest.26053B577195305A.title: "黑洞"
-	quest.266DB339AFE5B9FE.quest_subtitle: "保底：血腥脊椎"
-	quest.266DB339AFE5B9FE.title: "猩红主宰"
 	quest.267503A8DD306195.quest_subtitle: "咖啡冰淇淋~"
 	quest.26B50865936A316F.quest_desc: [
 		"&a目标：合成雷霆术士碎片"
@@ -1643,26 +1509,12 @@
 		"&c注：德鲁伊魔宠禁止自然生成，请在系统商店购买"
 	]
 	quest.2B8490063511F9F1.title: "德鲁伊魔宠"
-	quest.2B87E4C3672E1D90.quest_desc: ["&c完成章节【永恒星光】后解锁！"]
-	quest.2B87E4C3672E1D90.title: "北斗飞镖"
 	quest.2B9D5B62DD244102.quest_subtitle: "升级苔原龙4个被动技能到满级"
 	quest.2B9D5B62DD244102.title: "掌握冰之奥义"
 	quest.2C055589A88C2771.quest_subtitle: "开启森林龙的成长之路"
 	quest.2C055589A88C2771.title: "幼年森林龙"
 	quest.2C2DB4D51CFF767D.quest_subtitle: "完成苔原龙的部分成就"
 	quest.2C2DB4D51CFF767D.title: "苔原龙趣味挑战"
-	quest.2C76712CBF85E716.quest_desc: [
-		"&a目标：找到下僻巢穴"
-		""
-		"&6泰拉世界的&e骷髅王&6觊觎这片富饶的大地，"
-		"&6随同&2腐化之地&6一起入侵了这个世界。"
-		"&e骷髅王&6修筑了&e下僻巢穴&6作为自己的大本营，"
-		"&6里面藏着数不清的骷髅怪物！"
-		""
-		"&9结构罗盘：&b【深暗之园】下僻巢穴&r"
-	]
-	quest.2C76712CBF85E716.quest_subtitle: "被遗忘的地牢"
-	quest.2C76712CBF85E716.title: "下僻巢穴"
 	quest.2C81337448F9655F.quest_desc: [
 		"&a目标：击败雪怪"
 		""
@@ -1693,18 +1545,6 @@
 		""
 		"&9结构罗盘：&b【铁魔法】冰霜术士塔"
 	]
-	quest.2E299ACD32EA2CA2.quest_desc: [
-		"&a目标：击败骷髅王，提交骨头手套"
-		""
-		"&6如今，一切谜团都已揭晓，"
-		"&6唯有唤醒沉睡的骷髅王，&6将其彻底消灭，"
-		"&6才能解决&2深暗之园&6灾难的源头。"
-		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F7A124D6DAE13F1\" } }"
-		""
-		"&9结构罗盘：&b【深暗之园】下僻巢穴&r"
-	]
-	quest.2E299ACD32EA2CA2.quest_subtitle: "击败骷髅王"
-	quest.2E299ACD32EA2CA2.title: "骷髅王"
 	quest.2E6A1BFF333127EA.quest_subtitle: "死者之王小概率掉落"
 	quest.2E6A1BFF333127EA.title: "熄法结节 法术卷轴"
 	quest.2E92127811717292.quest_subtitle: "重兵把守的传送门"
@@ -1727,15 +1567,6 @@
 	quest.2ECFB391DB73DDF9.title: "掌握木之奥义"
 	quest.2F2C234A12BA69AD.title: "金海龟蛋"
 	quest.2F3416393FD59904.title: "首饰T2"
-	quest.2F41A23967B32470.quest_desc: [
-		"&a目标：击杀一只微光蚰蜒"
-		""
-		"&6它曾是深暗之园最不起眼的生物，无人在意。"
-		"&6某天，腐化之地入侵，&e史莱姆王&6降临此界，"
-		"&e微光蚰蜒&6凭借着与史莱姆相似的特性，"
-		"&6成为了&e史莱姆王&6入侵的带路党！"
-	]
-	quest.2F41A23967B32470.title: "微光蚰蜒"
 	quest.2F6413E87AEFEA8C.quest_desc: [
 		"&6使用后，习得所有龙的铁魔法联动技能。"
 		""
@@ -1874,16 +1705,6 @@
 	quest.341092EC0D9FF3B8.title: "森林龙的美食"
 	quest.34155DB28754AEA6.quest_subtitle: "集齐所有脚饰"
 	quest.34155DB28754AEA6.title: "&a脚饰毕业"
-	quest.34157C6ADA0E26B8.quest_desc: [
-		"&a目标：进入深暗之园"
-		""
-		"&6泰拉瑞亚的&2腐化之地&6已经蔓延到了这里。"
-		"&6昔日生机勃勃的世界，如今已经沦为腐烂的王国，"
-		"&6根据任务的指引，探索这个深暗的维度，"
-		"&6击杀彻底变异的怪物，挑战来自泰拉瑞亚的BOSS，"
-		"&6试着解开这背后的谜团吧。"
-	]
-	quest.34157C6ADA0E26B8.title: "深暗之园"
 	quest.3467A667B8A55E00.title: "腰带T2"
 	quest.346F1B08A0E6345D.quest_desc: [
 		"&5魔法书&r需要装备才能使用。"
@@ -2052,11 +1873,6 @@
 	]
 	quest.37EBD56D6A20D8F6.quest_subtitle: "真正的力量"
 	quest.37EBD56D6A20D8F6.title: "始祖龙珠"
-	quest.37F1B7C8FF396C68.quest_desc: [
-		"&e飞鱼&6是一种飞行生物，只在&b雨天或雷雨&6出没。"
-		"&6使用技能&d「祈雨之舞」&6可以唤来&b雷雨&6。"
-	]
-	quest.37F1B7C8FF396C68.title: "击杀：飞鱼"
 	quest.3859C3FFB6F2C61B.quest_desc: [
 		"&a目标：完成主线【龙之生存】或番外篇【铁魔法】"
 		""
@@ -2165,8 +1981,6 @@
 	quest.3C70592EFB49B53A.quest_subtitle: "女仆随身听"
 	quest.3C725E33FECDE01D.quest_subtitle: "太空特色"
 	quest.3C8B6F5362402CA0.quest_subtitle: "畅销饮品"
-	quest.3CF49F49FFB8A864.quest_subtitle: "保底：蠕虫诱饵"
-	quest.3CF49F49FFB8A864.title: "腐化主宰"
 	quest.3D0F6DE15AB80E2E.quest_desc: [
 		"&6音乐唱片&r在&6唱片刻录机&r上刻录网易云音乐。"
 		""
@@ -2282,20 +2096,6 @@
 	]
 	quest.4093B7F10DE1AE47.quest_subtitle: "★★"
 	quest.4093B7F10DE1AE47.title: "暮色森林：幻影骑士"
-	quest.409DBA9330BA0269.quest_desc: [
-		"&l&d「克苏鲁之眼」"
-		"&6生命：&a2000"
-		"&6攻击：&c170"
-		"&6护甲：&72"
-		""
-		"&l&d生成"
-		"&9结构罗盘：&b【深暗之园】克苏鲁之眼&r"
-		"{@pagebreak}"
-		"&l&d攻略"
-		"克苏鲁之眼可以飞行，直接飞起来拿刀砍就行。"
-	]
-	quest.409DBA9330BA0269.quest_subtitle: "★★★★★"
-	quest.409DBA9330BA0269.title: "泰拉生物：克苏鲁之眼"
 	quest.40D693D34C2593C4.title: "BWG原木自选"
 	quest.410087ACF6234CC1.quest_subtitle: "天地莫施恩，璇题激流日"
 	quest.410087ACF6234CC1.title: "&5天璇"
@@ -2348,27 +2148,7 @@
 	]
 	quest.434D3A47067493D8.quest_subtitle: "古老强大的骑士文明曾是暮色森林中最辉煌的那一支，但如今他们已经衰落。"
 	quest.434D3A47067493D8.title: "&8这是鬼魂？"
-	quest.4358E3E5AC4CD8BF.quest_desc: [
-		"&a目标：合成深园催化石"
-		""
-		"&c本章主线将在1.3.4版本移除！！！"
-		"&d预计删除模组：&b泰拉饰品、泰拉生物、深暗之园。"
-		"&d预计新增模组：&a传奇怪物、幽匿维度。"
-	]
-	quest.4358E3E5AC4CD8BF.quest_subtitle: "基岩之下的黑暗王国"
-	quest.4358E3E5AC4CD8BF.title: "&2&l主线：深暗之园"
 	quest.4385F7925457C289.title: "魔法书T1"
-	quest.439CE3D219AEA946.quest_desc: [
-		"&a目标：深入深暗之园的地下，进入邃渊"
-		""
-		"&5邃渊&6之中积累了&2深暗之园&6的所有肮脏之物，"
-		"&6当泰拉瑞亚的腐化之地入侵，这里便成了腐烂的天堂。"
-		"&6在&5邃渊&6中会不断积累&e御腐感染&6，积累满会开始扣血。"
-		"&e御腐感染&6是饥饿值上方的状态栏，"
-		"&6食用&e澄腐粒&6和&e澄腐团质&6可以清除腐烂。"
-	]
-	quest.439CE3D219AEA946.quest_subtitle: "掌管腐烂天道的司命"
-	quest.439CE3D219AEA946.title: "腐烂值"
 	quest.44B5EE463B467926.title: "脚饰T0"
 	quest.44B85B8C33C3E538.quest_desc: [
 		"&a目标：找到雪怪巢穴"
@@ -2378,15 +2158,6 @@
 		"&9结构罗盘：&b【领主的崛起】雪怪巢穴&r"
 	]
 	quest.44B85B8C33C3E538.title: "雪怪巢穴"
-	quest.44CE0CDA182CFC61.quest_desc: [
-		"&a目标：挖掘渊畏澄腐矿石，获得澄腐团质"
-		""
-		"&e澄腐团质&6食用后可以完全清除&e御腐感染&6，"
-		"&e澄腐粒&6食用后可以降低&e御腐感染&6。"
-		"&e渊畏澄腐矿石&6生成于深暗之园Y小于0的地方。"
-		"&6此外，&e澄腐团质&6还可用于&e凝注&6。"
-	]
-	quest.44CE0CDA182CFC61.quest_subtitle: "静心师太的遗留"
 	quest.44CF273ECA38F841.title: "战斗法师装备"
 	quest.44DBC43AEBA8B676.quest_subtitle: "集齐所有手饰"
 	quest.44DBC43AEBA8B676.title: "&a手饰毕业"
@@ -2454,23 +2225,6 @@
 	]
 	quest.4633599C0B5F87C4.quest_subtitle: "【以太龙成长之路    完结】"
 	quest.4633599C0B5F87C4.title: "&3以太龙毕业"
-	quest.465680AFE754AEAD.quest_desc: [
-		"&a目标：观察试炼刷怪笼1秒"
-		""
-		"&e试炼刷怪笼&6是我的世界原版1.21.1新加入的方块。"
-		"&6在深暗之园中，试炼刷怪笼用于&e生成泰拉BOSS&6。"
-		""
-		"&6每个&e泰拉BOSS&6都有一个&b对应结构&6，"
-		"&6结构中央有一个对应的&e试炼刷怪笼&6。"
-		"&6玩家靠近时会激活试炼刷怪笼，从而开启BOSS挑战。"
-		"&a正常情况下&6，挑战的泰拉BOSS是&c残血状态&6；"
-		"&6喝下不祥之瓶&6，开启&4不祥试炼&6，泰拉BOSS会&c恢复满血&6！"
-		"&6击败泰拉BOSS后，会掉落&2两份战利品&6，"
-		"&6分别是BOSS本身掉落一份，试炼刷怪笼奖励一份。"
-		"&6若是挑战&4不祥试炼&6，奖励会更加丰厚！"
-	]
-	quest.465680AFE754AEAD.quest_subtitle: "泰拉BOSS的召唤方式"
-	quest.465680AFE754AEAD.title: "试炼刷怪笼"
 	quest.466B0E05A6EA4EF9.quest_desc: [
 		"自然中的一切旋律都可以给予你灵感，"
 		"你认为你可以用它们做些什么…"
@@ -2758,18 +2512,6 @@
 		"&d绯夜脂锭+电龙血=天赐锭（龙霆锻炉）"
 	]
 	quest.4F9B70EE7BB0E995.quest_subtitle: "可炼制龙钢"
-	quest.4FC2986473F06494.quest_desc: [
-		"&a目标：击败遗忆守卫，合成遗忆锭"
-		""
-		"&e渊居民&6牺牲了无数英勇的战士，"
-		"&6终于将入侵的&e骷髅王&6击败和封印。"
-		"&6那处&e下僻巢穴&6，成为了囚禁&e骷髅王&6的地牢。"
-		"&6为了防止&e骷髅王&6死灰复燃，&e渊居民&6派遣重兵把守地牢。"
-		"&6即使他们的名字已无人知晓，仍旧坚守自己的使命。"
-		"&6后人称他们为&e遗忆守卫&6。"
-	]
-	quest.4FC2986473F06494.quest_subtitle: "它们的名字已无人得知"
-	quest.4FC2986473F06494.title: "遗忆守卫"
 	quest.4FCCF9100795CFEB.title: "神中神"
 	quest.5003D0EDCDBEB34E.quest_desc: [
 		" 他生前肯定是一位实力不容小觑的巫师，爆炎、瞬移、召唤，这些法术对他来说也只是用来对付不速之客的小手段罢了。 这样的实力值得我的认可。"
@@ -2859,7 +2601,6 @@
 	]
 	quest.513C98D0E44293EA.quest_subtitle: "【苔原龙成长之路    完结】"
 	quest.513C98D0E44293EA.title: "&f苔原龙毕业"
-	quest.514EEE78CDEF8BC2.title: "泰拉BOSS毕业"
 	quest.51683C60A0CE8843.title: "茅山道士装备"
 	quest.517B7C0FB7C6E380.quest_subtitle: "集齐所有首饰"
 	quest.517B7C0FB7C6E380.title: "&a首饰毕业"
@@ -3116,12 +2857,6 @@
 	quest.593BB9B492CFB1D9.quest_subtitle: "野火烧不尽"
 	quest.593BB9B492CFB1D9.title: "&6炽焰学派"
 	quest.59524F0DEF703874.title: "挑战：卫城"
-	quest.59590736E74E343F.quest_desc: [
-		"&6在过去的版本，需要使用泰拉BOSS召唤物，在BOSS重生笼召唤泰拉BOSS。"
-		"&6现版本已更换为试炼刷怪笼，但是你依旧可以在此兑换BOSS召唤物和BOSS重生笼。"
-	]
-	quest.59590736E74E343F.quest_subtitle: "保底：可疑眼球"
-	quest.59590736E74E343F.title: "猎魔人"
 	quest.59638405BD4083B3.quest_desc: ["被关押在牛头人迷宫深处的、半哞菇半米诺陶的野兽，它的肉据说可以驱散火焰。"]
 	quest.59638405BD4083B3.quest_subtitle: "只有傻子才会被这种贫弱的生物击败"
 	quest.59638405BD4083B3.title: "&2一只不同寻常的特殊品种吗"
@@ -3301,19 +3036,6 @@
 	]
 	quest.5E2651DABF146E68.quest_subtitle: "打卡stellarity的末地生物群系"
 	quest.5E2651DABF146E68.title: "群星末地"
-	quest.5E2F36A14E2F1879.quest_desc: [
-		"&a目标：击败克苏鲁之眼，提交克苏鲁护盾"
-		""
-		"&2深暗之园&6的地底，是永无天日的&5邃渊&6。"
-		"&6邃渊内，潜藏着无数邪祟与亡魂，无人敢轻易踏足。"
-		"&6据说，不可名状的克苏鲁将它的爪牙伸入此处，"
-		"&6洁白的骨掌，托举着一颗血淋淋的眼球。"
-		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"409DBA9330BA0269\" } }"
-		""
-		"&9结构罗盘：&b【深暗之园】克苏鲁之眼&r"
-	]
-	quest.5E2F36A14E2F1879.quest_subtitle: "击败克苏鲁之眼"
-	quest.5E2F36A14E2F1879.title: "克苏鲁之眼"
 	quest.5E95712B13C6FEFC.quest_desc: [
 		"&l&d「深海巨鱿」"
 		"&6生命：&a500"
@@ -3453,8 +3175,6 @@
 	quest.63DB1E9C5C2FDC80.title: "&d创造模式建筑之杖"
 	quest.641714B711DFD326.quest_subtitle: "千金换美酒"
 	quest.643A2342CCAA0252.title: "暮色森林BOSS毕业"
-	quest.644B0B549EA0753D.quest_desc: ["&a目标：提交一个黯瓜炸弹"]
-	quest.644B0B549EA0753D.title: "黯瓜"
 	quest.6501A79D7C2DC803.quest_desc: [
 		"&6维度网络所有者潜行右键后可以将其绑定到当前网络。"
 		""
@@ -3729,27 +3449,6 @@
 	]
 	quest.6D88CFA0D4618ECB.quest_subtitle: "★"
 	quest.6D88CFA0D4618ECB.title: "Mowzie的生物：雕刻家-通臂大师"
-	quest.6DC97A09E372363A.quest_desc: [
-		"&a目标：合成并提交一把泰拉棱镜"
-		""
-		"&6你击败了&2深暗之园&6的所有BOSS，获得了六把神剑："
-		"&e青冥，破山，白虹，流星，龙渊，赤霄。"
-		"&6你将这六把剑合一，铸就了&b泰拉棱镜&6。"
-		"&6渊居民用镇族之宝&d鸿蒙方舟&6，与你交换&b泰拉棱镜&6，"
-		"&6用于反弹腐化之地的侵蚀，让深暗之园重新焕发生机。"
-		""
-		"&6天地初开时，鸿蒙之气汇聚成&d鸿蒙方舟&6，"
-		"&6此剑具有开天之力，持有者可跨越世界的屏障。"
-		"&6巨剑凌空，爆发出璀璨夺目的剑光，独断万古！"
-		"&6通往异世界的维度裂隙被撕开，你踏入其中。"
-		"&6路的尽头是什么？你不得而知。"
-		"&6旅途，到此为止了，吗？"
-		""
-		"&e【主线任务全部完结】"
-		"{ \"text\": \"点击查看鸣谢名单\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"359B897165997027\" } }"
-	]
-	quest.6DC97A09E372363A.quest_subtitle: "【第四章    完结】"
-	quest.6DC97A09E372363A.title: "&e&l鸿蒙方舟"
 	quest.6E02B2425A8EAB67.quest_desc: [
 		"&l&d「星光傀儡」"
 		"&6生命：&a2500"
@@ -3772,20 +3471,6 @@
 	quest.6E02B2425A8EAB67.quest_subtitle: "★★★★"
 	quest.6E02B2425A8EAB67.title: "永恒星光：星光傀儡"
 	quest.6E1F78E1B1284026.title: "不祥之瓶"
-	quest.6E27A53C36C34AB1.quest_desc: [
-		"&l&d「史莱姆王」"
-		"&6生命：&a6000"
-		"&6攻击：&c120"
-		"&6护甲：&72"
-		""
-		"&l&d生成"
-		"&9结构罗盘：&b【深暗之园】史莱姆王&r"
-		"{@pagebreak}"
-		"&l&d攻略"
-		"史莱姆王的行为模式较为单一，类似于原版的史莱姆，但它会使用&e传送&r。当在&2半径100格&r内检测不到玩家时，史莱姆王会判定为&c脱战并缩小消失&r。"
-	]
-	quest.6E27A53C36C34AB1.quest_subtitle: "★★★★★"
-	quest.6E27A53C36C34AB1.title: "泰拉生物：史莱姆王"
 	quest.6E3E82FB2A6E1D40.quest_subtitle: "成长到成年龙阶段"
 	quest.6E3E82FB2A6E1D40.title: "成年以太龙"
 	quest.6E5594142D1F7454.quest_subtitle: "苏打清酒"
@@ -3811,21 +3496,6 @@
 	]
 	quest.6EB8860F9973F098.quest_subtitle: "破碎虚空"
 	quest.6EB8860F9973F098.title: "虚空碎片"
-	quest.6F7A124D6DAE13F1.quest_desc: [
-		"&l&d「骷髅王」"
-		"&6生命：&a10000"
-		"&6攻击：&c200"
-		"&6护甲：&710"
-		""
-		"&l&d生成"
-		"&9结构罗盘：&b【深暗之园】下僻巢穴&r"
-		"{@pagebreak}"
-		"&l&d攻略"
-		"骷髅王在生成时会伴随两条手臂一起生成。手臂存在时会用手臂进行攻击，失去手臂后骷髅王的脑袋会转起来发动攻击。"
-		"&c建议先斩断其手臂，然后利用飞行拉扯进行远程攻击。"
-	]
-	quest.6F7A124D6DAE13F1.quest_subtitle: "★★★★★"
-	quest.6F7A124D6DAE13F1.title: "泰拉生物：骷髅王"
 	quest.6FA6C83BA212F83D.title: "观察：北极熊"
 	quest.6FD356A298590C96.quest_subtitle: "冒着泡泡的夏天"
 	quest.7001BFE7FD4B7BB7.title: "九头蛇的血与高塔恶魂的泪似乎能和铁发生反应"
@@ -3898,12 +3568,6 @@
 	quest.72D2474557AFE788.quest_subtitle: "集齐所有腰带"
 	quest.72D2474557AFE788.title: "&a腰带毕业"
 	quest.731F9BC680E3927E.quest_subtitle: "无尽的法力"
-	quest.732B904AB3D5BD73.quest_desc: [
-		"&6主线&3【深暗之园】&6的任务道具。"
-		"&6这是一种特殊的武器，不算在&e天顶剑&6的合成之内。"
-		"&6可以召唤强力的&e泰拉棱镜&6攻击敌人。"
-		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
-	]
 	quest.735C8B5A219C57AE.quest_desc: [
 		"&a目标：学会使用技能，击杀任意一只怪物"
 		""
@@ -3961,19 +3625,6 @@
 	quest.73777155E02C7B4C.quest_subtitle: "★★"
 	quest.73777155E02C7B4C.title: "暮色森林：米诺菇"
 	quest.7404B8964BC82524.title: "挑战：冰霜蜘蛛巢穴"
-	quest.74233FDAFCB21F8E.quest_desc: [
-		"&a目标：击败克苏鲁之脑，提交混乱之脑"
-		""
-		"&2深暗之园&6的地底，是永无天日的&5邃渊&6。"
-		"&6邃渊内，潜藏着无数邪祟与亡魂，无人敢轻易踏足。"
-		"&6据说，不可名状的克苏鲁将它的爪牙伸入此处，"
-		"&6洁白的骨掌，托举着一颗无法看清的脑袋。"
-		"{ \"text\": \"点击跳转到BOSS攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"053172C0F13D3578\" } }"
-		""
-		"&9结构罗盘：&b【深暗之园】克苏鲁之脑&r"
-	]
-	quest.74233FDAFCB21F8E.quest_subtitle: "击败克苏鲁之脑"
-	quest.74233FDAFCB21F8E.title: "克苏鲁之脑"
 	quest.745D36D1D182C0CD.title: "牧师装备"
 	quest.747F45AAE1161962.quest_subtitle: "平价好味"
 	quest.74AD0E230F7A62A1.quest_subtitle: "提交原版的7种树苗和暮色森林的10种树苗"
@@ -4134,9 +3785,6 @@
 	]
 	quest.77B34238D24BB235.quest_subtitle: "雷惊天地龙蛇蛰"
 	quest.77B34238D24BB235.title: "&3雷霆学派"
-	quest.78154BF5E76EB76C.quest_desc: ["&7&o注：统计的单位是厘米(cm)"]
-	quest.78154BF5E76EB76C.quest_subtitle: "游泳2万米，水下行走2万米，水面行走2千米"
-	quest.78154BF5E76EB76C.title: "海底两万里"
 	quest.78411669AF1FD737.quest_subtitle: "提交11种桶装鱼"
 	quest.78411669AF1FD737.title: "熔岩捕鱼达人"
 	quest.788C34888B5F1C0E.quest_desc: [
@@ -4177,12 +3825,6 @@
 	quest.7AC2C9F419309308.title: "永冻石套装"
 	quest.7AC9CC444540D2F2.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0088F3221CD99A3D\" } }"]
 	quest.7AC9CC444540D2F2.title: "末影守卫"
-	quest.7B0685078C312577.quest_desc: [
-		"&6在过去的版本，需要使用泰拉BOSS召唤物，在BOSS重生笼召唤泰拉BOSS。"
-		"&6现版本已更换为试炼刷怪笼，但是你依旧可以在此兑换BOSS召唤物和BOSS重生笼。"
-	]
-	quest.7B0685078C312577.quest_subtitle: "保底：史莱姆皇冠"
-	quest.7B0685078C312577.title: "史莱姆杀手"
 	quest.7B8C08F5F32626E1.title: "魔法书T2"
 	quest.7BA915DE214AD00A.quest_desc: [
 		"&a目标：获得手稿"
@@ -4398,7 +4040,6 @@
 	task.5D04F3C0318EA71B.title: "抵达天际骑士团战舰"
 	task.631C1C4C72BA8B9A.title: "抵达天际征服者战舰"
 	task.6842523920A24ED2.title: "抵达诅咒花园"
-	task.7A1E94E375EA2B3F.title: "观察[试炼刷怪笼]"
 	task.7B72722ECA137F18.title: "见证流星落下"
 	task.7DD9CC7C0FBA7BE4.title: "制作魔法地图"
 }

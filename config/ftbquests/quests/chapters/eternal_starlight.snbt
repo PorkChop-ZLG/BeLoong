@@ -601,14 +601,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "660E7F0934536F4D"
-					item: {
-						count: 1
-						id: "terra_entity:bei_dou_boomerang"
-					}
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			size: 3.0d

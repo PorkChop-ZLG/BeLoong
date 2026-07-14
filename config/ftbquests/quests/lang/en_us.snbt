@@ -1,10 +1,4 @@
 {
-	chapter.025C2A1E99ADD3C3.chapter_subtitle: [
-		"Chapter IV: The Deep Dark Realm"
-		"Starlight fades, all returns to silence."
-		"Difficulty: ★★★★★"
-	]
-	chapter.025C2A1E99ADD3C3.title: "④ The Undergarden"
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["Hidden Quests"]
 	chapter.0ACA55AC777A92A0.title: "〖Aether Dragon〗Path of Growth"
 	chapter.0F599041F0C4C0AF.chapter_subtitle: [
@@ -211,19 +205,6 @@
 	]
 	quest.03300B3D470F9B73.quest_subtitle: "Online Music Player"
 	quest.033C8C16CABE2ACE.title: "Kill: Ice Crystal Core"
-	quest.034ACABF80D25D29.quest_desc: [
-		"&aObjective: Defeat the Bee Queen and obtain the Beehive Backpack"
-		""
-		"&2The Undergarden&6’s only living land is the &agreen forest&6."
-		"&6The remaining natives fled here to survive."
-		"&6Deep within lies a gigantic hive,"
-		"&6perhaps holding all the answers."
-		"&6Find the &eAbhorrent Bee&6 and meet the Bee Queen."
-		""
-		"&9Structure Compass: &b【The Undergarden】Bee Queen&r"
-	]
-	quest.034ACABF80D25D29.quest_subtitle: "Defeat the Bee Queen"
-	quest.034ACABF80D25D29.title: "Bee Queen"
 	quest.038BE99D4FE3442D.quest_desc: [
 		"&e『&6BeLoong&e』&6 is an &aadventure and casual modpack&6 centered on &dDragon Survival&6."
 		"&6Here, you can become various &ddragons&6 and survive,"
@@ -327,17 +308,6 @@
 	quest.0512242C244673AA.quest_subtitle: "Kill Void Blossom and Submit Drops"
 	quest.0512242C244673AA.title: "Forge the Wood Dragon Body"
 	quest.052F870EA4EFBE56.quest_subtitle: "Feel the Space Yet?"
-	quest.053172C0F13D3578.quest_desc: [
-		"&l&d「Brain of Cthulhu」"
-		"&6Health: &a8000"
-		"&6Attack: &c160"
-		"&6Armor: &74"
-		""
-		"&l&dSpawn"
-		"{ \"text\": \"Click to view Boss Info\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74233FDAFCB21F8E\" } }"
-	]
-	quest.053172C0F13D3578.quest_subtitle: "★★★★★"
-	quest.053172C0F13D3578.title: "Terraria: Brain of Cthulhu"
 	quest.053BA563D0DBF380.quest_desc: ["{ \"text\": \"Click to view Boss Info\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E22E2A0F31B536\" } }"]
 	quest.053BA563D0DBF380.quest_subtitle: "Kill Nether Ironclad and Submit Drops"
 	quest.053BA563D0DBF380.title: "Forge the Fire Dragon Body"
@@ -511,17 +481,6 @@
 	quest.0A6E69E220DAFB6F.title: "Young Forest Dragon"
 	quest.0A9D7FCC65BE863F.quest_subtitle: "Collect all Forest Dragon furniture"
 	quest.0A9D7FCC65BE863F.title: "Forest Dragon Home"
-	quest.0AC7BA9585F4271A.quest_desc: [
-		"&l&d「Queen Bee」"
-		"&6Health: &a9000"
-		"&6Attack: &c180"
-		"&6Armor: &72"
-		""
-		"&l&dSpawn"
-		"{ \"text\": \"Click to view BOSS info\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"034ACABF80D25D29\" } }"
-	]
-	quest.0AC7BA9585F4271A.quest_subtitle: "★★★★★"
-	quest.0AC7BA9585F4271A.title: "Terraria Creatures: Queen Bee"
 	quest.0ADC425FA160CAD0.quest_desc: [
 		"&aGoal: Defeat Sandworm"
 		""
@@ -719,15 +678,6 @@
 	]
 	quest.1011C97DAE40FD1B.quest_subtitle: "Meteor showers are rare, short special weather in the Starlight Dimension."
 	quest.1011C97DAE40FD1B.title: "Let’s Watch the Meteor Shower"
-	quest.101EAA70BF95EBE6.quest_desc: [
-		"&aGoal: Obtain the Reminiscence Pickaxe to mine Dreadstone sealing the Abyss"
-		""
-		"&2The Undergarden&6 underground is covered by indestructible &eDreadstone&6,"
-		"&6sealing the terrifying &5Abyss&6 below."
-		"&6You must craft a &aReminiscence Pickaxe&6 to break through it."
-		"{ \"text\": \"The Reminiscence Pickaxe is found in the Forgotten Lair, click to jump\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C76712CBF85E716\" } }"
-	]
-	quest.101EAA70BF95EBE6.quest_subtitle: "Dig Up Buried Secrets"
 	quest.1029B426047952E5.quest_subtitle: "Fruit Rice Wine"
 	quest.1036A454EE8AB619.quest_desc: [
 		"&d&l「Chesed」"
@@ -883,19 +833,6 @@
 	]
 	quest.1420594CE21D4239.quest_subtitle: "Only a Genius Could Make This"
 	quest.145D2D48D83B6D72.title: "Necklace T1"
-	quest.146CDD92C8E0963C.quest_desc: [
-		"&aObjective: Defeat the World Eater and obtain the Worm Scarf"
-		""
-		"&2The Undergarden&6 mid-layer is an endless &9Ancient Sea&6."
-		"&6Once the cradle of life, now completely corrupted."
-		"&6A massive arena floats above the ocean,"
-		"&6once for nobles to watch battles, now claimed by a giant worm."
-		"&6Find the &eWorm Bait&6, lure it out, and slay it."
-		""
-		"&9Structure Compass: &b【The Undergarden】World Eater&r"
-	]
-	quest.146CDD92C8E0963C.quest_subtitle: "Defeat the World Eater"
-	quest.146CDD92C8E0963C.title: "World Eater"
 	quest.14D31B8DCB673BE7.quest_desc: ["&6The most basic material in Dragon Survival."]
 	quest.14D31B8DCB673BE7.quest_subtitle: "Basic Material"
 	quest.14ED830A8AC56A7A.quest_desc: [
@@ -917,13 +854,6 @@
 	quest.15433E12926E99B9.title: "&dIs This Bulging Mound a Dragon Nest?"
 	quest.155114DC02DEBDDE.quest_subtitle: "Cream, Coffee, and Liquor"
 	quest.1588CA412F4FAA24.quest_desc: ["&5Congratulations on completing the Astral Dragon growth path!"]
-	quest.159566AC6D6F2977.quest_desc: [
-		"&aObjective: Craft an Infusion Altar and learn Infusion"
-		""
-		"&eInfusion Altar&6 is used for &eInfusion&6. Check EMI for recipes."
-		"&6Terraria boss summons can also be obtained via &eInfusion&6."
-	]
-	quest.159566AC6D6F2977.quest_subtitle: "Infuse Hard"
 	quest.15C5C16F69808158.quest_subtitle: "Is This a Slime?"
 	quest.15CE2F1DA319C4B4.quest_desc: [
 		"&l&d「Scylla」"
@@ -959,8 +889,6 @@
 	quest.16AC902A8860C5D5.title: "Red Giant"
 	quest.16AD045AE7B461C7.quest_subtitle: "Junmai Daiginjo"
 	quest.16B32CB0D55A9718.title: "Necklace T0"
-	quest.16DAA386E0B19BB2.quest_subtitle: "Guaranteed: Abomination Bee"
-	quest.16DAA386E0B19BB2.title: "Beekeeper"
 	quest.170C5452183F9D7E.title: "Observe: Blaze Lily"
 	quest.1744C1A7A7BFF4D7.quest_desc: ["&6The Offering Box seems unable to take out the 5-yen coin. You can exchange it here&r"]
 	quest.1744C1A7A7BFF4D7.quest_subtitle: "But no one would really do that..."
@@ -1016,18 +944,6 @@
 	]
 	quest.17A9978D7AFEA210.quest_subtitle: "★★★★"
 	quest.17A9978D7AFEA210.title: "Eternal Starlight: Moonvine Colossus"
-	quest.17BEAE92E1A0B323.quest_desc: [
-		"&aGoal: Defeat the Slime King and obtain Royal Gel"
-		""
-		"&2In The Undergarden&6, vine-covered &aRuined Temples&6 are often seen."
-		"&6They were once worship sites of the &bDeepfolk&6, now abandoned."
-		"&6On the central altar is imprisoned the &dSlime King&6 from another world."
-		"&6Find the &eSlime Crown&6 and crown the former king."
-		""
-		"&9Structure Compass: &b【The Undergarden】Slime King&r"
-	]
-	quest.17BEAE92E1A0B323.quest_subtitle: "Defeat the Slime King"
-	quest.17BEAE92E1A0B323.title: "Slime King"
 	quest.17ECFF157B63592F.quest_subtitle: "Submit Some End-Related Items"
 	quest.17ECFF157B63592F.title: "End Specialties"
 	quest.17F6BAB9A64544C9.quest_subtitle: "Collect All Talismans"
@@ -1281,12 +1197,6 @@
 	quest.21F9F82D260D81BD.quest_subtitle: "&5I am a True Dragon"
 	quest.21F9F82D260D81BD.title: "&6Hmm… a diluted Dragon Bloodline?"
 	quest.21FA8360A0A9725F.title: "Frost Enforcer Gear"
-	quest.2212CFA0F99595C7.quest_desc: [
-		"&6Mainline &3【Eternal Starlight】&6 completion reward."
-		"&6This is a special weapon, not included in the crafting of &eZenith Sword&6."
-		"&6If luck favors, it can &cone-shot&6 mobs."
-		"{ \"text\": \"Click to view acquisition methods\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6344D6B5AEC69478\" } }"
-	]
 	quest.22616810BC8A22CA.quest_subtitle: "&5&l『End』&r&dA Magical Space Ring"
 	quest.22616810BC8A22CA.title: "Act III: Gift"
 	quest.226EC0050127B453.quest_desc: [
@@ -1373,17 +1283,6 @@
 	quest.24AF8C0A4EC3CE90.title: "Sweet Honey"
 	quest.24BCC3403F50D4C8.quest_subtitle: "One guaranteed per dragon"
 	quest.24BCC3403F50D4C8.title: "Clone Ring Guarantee"
-	quest.24F3DC3742819BE4.quest_desc: [
-		"&l&d『World Eater』"
-		"&6Health: &a8000"
-		"&6Attack: &c160"
-		"&6Armor: &72"
-		""
-		"&l&dSpawn"
-		"{ \"text\": \"Click to view BOSS guide\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"146CDD92C8E0963C\" } }"
-	]
-	quest.24F3DC3742819BE4.quest_subtitle: "★★★★★"
-	quest.24F3DC3742819BE4.title: "Terra Mob: World Eater"
 	quest.24FE16788AAD170E.title: "Belt T1"
 	quest.251F47EF8754FE5B.quest_desc: ["&cUnlocks after completing chapter 【Car Maids】!"]
 	quest.251F47EF8754FE5B.quest_subtitle: "Make Your Maid Invincible"
@@ -1431,8 +1330,6 @@
 	]
 	quest.26053B577195305A.quest_subtitle: "Grow to Black Hole Stage"
 	quest.26053B577195305A.title: "Black Hole"
-	quest.266DB339AFE5B9FE.quest_subtitle: "Guarantee: Blood Spine"
-	quest.266DB339AFE5B9FE.title: "Crimson Overlord"
 	quest.267503A8DD306195.quest_subtitle: "Coffee Ice Cream~"
 	quest.26B50865936A316F.quest_desc: [
 		"&aObjective: Craft Thunder Mage Shard"
@@ -1605,27 +1502,12 @@
 		"&cNote: Druid Familiars cannot naturally spawn; purchase from the system shop."
 	]
 	quest.2B8490063511F9F1.title: "Druid Familiar"
-	quest.2B87E4C3672E1D90.quest_desc: ["&cUnlocked after completing the 『Eternal Starlight』 chapter!"]
-	quest.2B87E4C3672E1D90.title: "Big Dipper Dart"
 	quest.2B9D5B62DD244102.quest_subtitle: "Upgrade Tundra Dragon's 4 Passive Skills to Max Level"
 	quest.2B9D5B62DD244102.title: "Master the Secrets of Ice"
 	quest.2C055589A88C2771.quest_subtitle: "Start the Forest Dragon's Growth Journey"
 	quest.2C055589A88C2771.title: "Juvenile Forest Dragon"
 	quest.2C2DB4D51CFF767D.quest_subtitle: "Complete Some Tundra Dragon Achievements"
 	quest.2C2DB4D51CFF767D.title: "Tundra Dragon Fun Challenge"
-	quest.2C76712CBF85E716.quest_desc: [
-		"&aObjective: Find the Subterranean Nest"
-		""
-		"&6You learned from the &eQueen Bee&6 the reason for The Undergarden corruption."
-		"&6The &eSkeleton King&6 of Terra coveted this fertile land,"
-		"&6invading alongside the &2Corrupted Lands&6."
-		"&eSkeleton King&6 built the &eSubterranean Nest&6 as his base,"
-		"&6filled with countless skeleton mobs!"
-		""
-		"&9Structure Compass: &b【The Undergarden】Subterranean Nest&r"
-	]
-	quest.2C76712CBF85E716.quest_subtitle: "Forgotten Dungeon"
-	quest.2C76712CBF85E716.title: "Subterranean Nest"
 	quest.2C81337448F9655F.quest_desc: [
 		"&aObjective: Defeat the Yeti"
 		""
@@ -1654,18 +1536,6 @@
 		""
 		"&9Structure Compass: &b【Iron Magic】Frost Mage Tower"
 	]
-	quest.2E299ACD32EA2CA2.quest_desc: [
-		"&aObjective: Defeat the Skeleton King and obtain the Bone Glove"
-		""
-		"&6Now, all mysteries have been unveiled."
-		"&6Use the &2Forgotten Ingot &6obtained from the &eForgotten Guardian&6,"
-		"&6to awaken the sealed &eSkeleton King&6!"
-		"&6Completely annihilate it to eradicate the source of the &2The Undergarden &6catastrophe."
-		""
-		"&9Structure Compass: &b【The Undergarden】Undergarden Lair&r"
-	]
-	quest.2E299ACD32EA2CA2.quest_subtitle: "Defeat the Skeleton King"
-	quest.2E299ACD32EA2CA2.title: "Skeleton King"
 	quest.2E6A1BFF333127EA.quest_subtitle: "Small chance to drop from the Dead King"
 	quest.2E6A1BFF333127EA.title: "Ruptured Node Spell Scroll"
 	quest.2E92127811717292.quest_subtitle: "Heavily Guarded Portal"
@@ -1817,17 +1687,6 @@
 	quest.341092EC0D9FF3B8.title: "Forest Dragon's Delicacies"
 	quest.34155DB28754AEA6.quest_subtitle: "Collect all foot ornaments"
 	quest.34155DB28754AEA6.title: "&aFoot Ornaments Completion"
-	quest.34157C6ADA0E26B8.quest_desc: [
-		"&aObjective: Enter The Undergarden"
-		""
-		"&6This modpack has completely revamped &2The Undergarden&6."
-		"&6The &2Corruption &6from Terraria has spread here."
-		"&6The once vibrant world has now degenerated into the rotten Malkuth."
-		"&6Follow the quest guidance, explore this deep, dark dimension,"
-		"&6slay the fully mutated monsters, challenge bosses from Terraria,"
-		"&6and try to unravel the mysteries behind it all."
-	]
-	quest.34157C6ADA0E26B8.title: "The Undergarden"
 	quest.3467A667B8A55E00.title: "Belt T2"
 	quest.346F1B08A0E6345D.quest_desc: [
 		"&5Spell Books &rneed to be equipped to use."
@@ -1980,11 +1839,6 @@
 	]
 	quest.37E22E2A0F31B536.quest_subtitle: "★★★"
 	quest.37E22E2A0F31B536.title: "Cataclysm: Netherite Ironclad"
-	quest.37F1B7C8FF396C68.quest_desc: [
-		"&eFlying Fish &6are flying creatures that only appear during &brainy or thunderous weather&6."
-		"&6Use the &d「Rain Dance」 &6skill to summon &bthunderstorms&6."
-	]
-	quest.37F1B7C8FF396C68.title: "Kill: Flying Fish"
 	quest.3859C3FFB6F2C61B.quest_desc: [
 		"&6Congratulations on completing &e【Chapter I】&6 or &e【Side Story】"
 		"&6Now the &bSystem Shop &6is open, you can exchange for various rare treasures!"
@@ -2097,8 +1951,6 @@
 	quest.3C70592EFB49B53A.quest_subtitle: "Maid's Walkman"
 	quest.3C725E33FECDE01D.quest_subtitle: "Space Specialty"
 	quest.3C8B6F5362402CA0.quest_subtitle: "Best-selling Drink"
-	quest.3CF49F49FFB8A864.quest_subtitle: "Guaranteed: Worm Food"
-	quest.3CF49F49FFB8A864.title: "Corruption Dominator"
 	quest.3D0F6DE15AB80E2E.quest_desc: [
 		"&6Music Discs &rcan be burned with NetEase Cloud Music on the &6Record Burner&r."
 		""
@@ -2206,17 +2058,6 @@
 	]
 	quest.4093B7F10DE1AE47.quest_subtitle: "★★"
 	quest.4093B7F10DE1AE47.title: "Twilight Forest: Phantom Knight"
-	quest.409DBA9330BA0269.quest_desc: [
-		"&l&d「Eye of Cthulhu」"
-		"&6Health: &a2000"
-		"&6Attack: &c1700"
-		"&6Armor: &72"
-		""
-		"&l&dSpawn"
-		"{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E2F36A14E2F1879\" } }"
-	]
-	quest.409DBA9330BA0269.quest_subtitle: "★★★★★"
-	quest.409DBA9330BA0269.title: "Terra Creature: Eye of Cthulhu"
 	quest.40D693D34C2593C4.title: "BWG Log Assortment"
 	quest.410087ACF6234CC1.quest_subtitle: "Heaven grants no grace, the swirling pool reflects the sun."
 	quest.410087ACF6234CC1.title: "&5Tianxuan"
@@ -2252,34 +2093,7 @@
 	]
 	quest.434D3A47067493D8.quest_subtitle: "The ancient and powerful knight civilization was once the most glorious in the Twilight Forest, but now they have declined."
 	quest.434D3A47067493D8.title: "&8Are these ghosts?"
-	quest.4358E3E5AC4CD8BF.quest_desc: [
-		"&aObjective: Craft a Catalyst"
-		""
-		"&2The Undergarden &6is a dark underground dimension located deep below the bedrock of the Overworld."
-		"&6The flora there has adapted to the dark and can grow without sunlight."
-		"&6Strange creatures call it home, and various Rotspawn from a chaotic and dark realm"
-		"&6spread themselves everywhere to invade this place..."
-		""
-		"&6Build a Nether portal-shaped frame using any &eStone Bricks&6."
-		"&6Then &dright-click &6the bottom of the frame with a &eCatalyst &6to light it."
-		"&6This creates a &2The Undergarden &6portal."
-		""
-		"&c(Recipe modified, requires materials from Eternal Starlight)"
-	]
-	quest.4358E3E5AC4CD8BF.quest_subtitle: "The dark Malkuth beneath the bedrock"
-	quest.4358E3E5AC4CD8BF.title: "&2&lMain Quest: The Undergarden"
 	quest.4385F7925457C289.title: "Spell Book T1"
-	quest.439CE3D219AEA946.quest_desc: [
-		"&aObjective: Delve deep underground in The Undergarden and enter the Abyss"
-		""
-		"&5The Abyss &6accumulates all the filth of &2The Undergarden&6."
-		"&6When the Corruption from Terraria invaded, it became a paradise of decay."
-		"&6In &5the Abyss&6, you will accumulate &eRot Infection&6. When full, you start losing health."
-		"&eRot Infection &6is the status bar above your hunger bar."
-		"&6Eating &eRotbane Nodules &6and &eRotbane Clumps &6can cleanse the rot."
-	]
-	quest.439CE3D219AEA946.quest_subtitle: "The Arbiter of the Decay Domain"
-	quest.439CE3D219AEA946.title: "Rot Value"
 	quest.44B5EE463B467926.title: "Foot Ornament T0"
 	quest.44B85B8C33C3E538.quest_desc: [
 		"&aObjective: Find the Yeti Lair"
@@ -2289,15 +2103,6 @@
 		"&9Structure Compass: &b【Rise of the YETI】Yeti Lair&r"
 	]
 	quest.44B85B8C33C3E538.title: "Yeti Lair"
-	quest.44CE0CDA182CFC61.quest_desc: [
-		"&aObjective: Mine Dread Rot Ore to obtain Rotbane Clumps"
-		""
-		"&6Eating &eRotbane Clumps &6can completely clear &eRot Infection&6."
-		"&6Eating &eRotbane Nodules &6can reduce &eRot Infection&6."
-		"&eDread Rot Ore &6generates in The Undergarden at Y-levels below 0."
-		"&6Additionally, &eRotbane Clumps &6can be used for &eInfusion&6."
-	]
-	quest.44CE0CDA182CFC61.quest_subtitle: "Legacy of the Serene Master"
 	quest.44CF273ECA38F841.title: "Battlemage Armor"
 	quest.44DBC43AEBA8B676.quest_subtitle: "Collect all hand ornaments"
 	quest.44DBC43AEBA8B676.title: "&aHand Ornaments Completion"
@@ -2365,30 +2170,6 @@
 	]
 	quest.4633599C0B5F87C4.quest_subtitle: "【Aether Dragon Growth Path Concluded】"
 	quest.4633599C0B5F87C4.title: "&3Aether Dragon Completion"
-	quest.465680AFE754AEAD.quest_desc: [
-		"&aObjective: Observe the Boss Respawn Cage for 5 seconds"
-		""
-		"&eBoss Respawn Cages &6are items from the new &cCataclysm &6mod used to resurrect bosses."
-		"&6Observe the &atop &6of the respawn cage; it will show the &aresurrection item &6needed to revive the boss."
-		"&6Hold the resurrection item and &d【Right-click】 &6the cage to revive the boss."
-		""
-		"&6Items required to revive bosses:"
-		"&bNetherite Monstrosity - Eye of the Monstrosity"
-		"&bEnder Guardian - Eye of the Void"
-		"&bThe Harbinger - Eye of the Mechanicum"
-		"&bAncient Remnant - Eye of the Desert"
-		"&bScylla - Eye of the Storm"
-		"&bKing Slime - Slime Crown"
-		"&bEye of Cthulhu - Suspicious Eye"
-		"&bBrain of Cthulhu - Bloody Spine"
-		"&bEater of Worlds - Worm Food"
-		"&bQueen Bee - Abominable Bee"
-		"&bSkeleton King - Forgotten Ingot"
-		""
-		"&7&oFor technical reasons, Terra bosses do not spawn Boss Respawn Cages upon death."
-	]
-	quest.465680AFE754AEAD.quest_subtitle: "Summoning Method for Terra Bosses"
-	quest.465680AFE754AEAD.title: "Boss Respawn Cage"
 	quest.466B0E05A6EA4EF9.quest_desc: [
 		"All melodies in nature can inspire you."
 		"You think you can do something with them..."
@@ -2679,20 +2460,6 @@
 		"&dCinderlight Ingot + Lightning Dragon Blood = Aether Ingot (Dragon Forge)"
 	]
 	quest.4F9B70EE7BB0E995.quest_subtitle: "Can be smelted into Dragonsteel"
-	quest.4FC2986473F06494.quest_desc: [
-		"&aObjective: Defeat the Forgotten Guardian and craft the Forgotten Ingot"
-		""
-		"&eThe Abyssal Dwellers &6sacrificed countless brave warriors,"
-		"&6finally defeating and sealing away the invading &eSkeleton King&6."
-		"&6That &eUndergarden Lair &6became the dungeon imprisoning the &eSkeleton King&6."
-		"&6To prevent the &eSkeleton King&6 from rising again, &ethe Abyssal Dwellers &6stationed heavy guards in the dungeon."
-		"&6Even though their names are now forgotten, they remain steadfast in their duty."
-		"&6Later generations called them &eForgotten Guardians&6."
-		"&6It is said that the &2Forgotten Ingots &6that make up their armor"
-		"&6are the key to resurrecting the &eSkeleton King&6!"
-	]
-	quest.4FC2986473F06494.quest_subtitle: "Their names are now unknown"
-	quest.4FC2986473F06494.title: "Forgotten Guardian"
 	quest.4FCCF9100795CFEB.title: "God among Gods"
 	quest.5003D0EDCDBEB34E.quest_desc: [
 		" In life, he must have been a wizard of considerable power. Fireball, Teleport, Summon - these spells were but minor tricks for dealing with uninvited guests. Such prowess deserves my recognition."
@@ -3011,8 +2778,6 @@
 	quest.593BB9B492CFB1D9.quest_subtitle: "The wildfire cannot be consumed"
 	quest.593BB9B492CFB1D9.title: "&6Blazing Conjuration"
 	quest.59524F0DEF703874.title: "Challenge: Citadel"
-	quest.59590736E74E343F.quest_subtitle: "Guaranteed: Suspicious Eye"
-	quest.59590736E74E343F.title: "Demon Hunter"
 	quest.59638405BD4083B3.quest_desc: ["A beast, half Mooshroom half Minotaur, imprisoned deep within the Labyrinth. Its meat is said to ward off flames."]
 	quest.59638405BD4083B3.quest_subtitle: "Only a fool would be defeated by such a weak creature"
 	quest.59638405BD4083B3.title: "&2A peculiar special breed, perhaps?"
@@ -3185,19 +2950,6 @@
 	]
 	quest.5E2651DABF146E68.quest_subtitle: "Visit Stellarity's End biomes"
 	quest.5E2651DABF146E68.title: "Stellar End"
-	quest.5E2F36A14E2F1879.quest_desc: [
-		"&aObjective: Defeat the Eye of Cthulhu and obtain the Cthulhu Shield"
-		""
-		"&2Beneath The Undergarden &6lies the sunless &5Abyss&6."
-		"&6Within the Abyss lurk countless evil spirits and lost souls, a place few dare to tread."
-		"&6It is said that the unspeakable Cthulhu has extended its claws here,"
-		"&6a pale bony palm holding aloft a bloody eyeball."
-		"&6Find a &eSuspicious Eye &6and unveil the mystery of Cthulhu."
-		""
-		"&9Structure Compass: &b【The Undergarden】Eye of Cthulhu&r"
-	]
-	quest.5E2F36A14E2F1879.quest_subtitle: "Defeat the Eye of Cthulhu"
-	quest.5E2F36A14E2F1879.title: "Eye of Cthulhu"
 	quest.5EE6DC4771476CC8.quest_subtitle: "Alternate Whiskey"
 	quest.5EFF5C22E67BCE5D.quest_subtitle: "Located in The End"
 	quest.5EFF5C22E67BCE5D.title: "Check-in: Prismarine Forest"
@@ -3553,27 +3305,6 @@
 	]
 	quest.6D88CFA0D4618ECB.quest_subtitle: "★"
 	quest.6D88CFA0D4618ECB.title: "Mowzie's Mobs: Carver - Macaque Master"
-	quest.6DC97A09E372363A.quest_desc: [
-		"&aObjective: Craft and submit a Terraprisma"
-		""
-		"&6You have defeated all the bosses of &2The Undergarden&6 and obtained six divine swords:"
-		"&eQing Ming, Po Shan, Bai Hong, Liu Xing, Long Yuan, Chi Xiao."
-		"&6You merge these six swords into one, forging the &bTerraprisma&6."
-		"&6The Abyssal Dwellers exchange their clan's treasure, the &dPrimordial Ark&6, for your &bTerraprisma&6,"
-		"&6to repel the Corruption's erosion and revitalize The Undergarden."
-		""
-		"&6At the dawn of creation, the primordial essence coalesced into the &dPrimordial Ark&6."
-		"&6This sword possesses the power to split the heavens, its wielder can cross the barriers of worlds."
-		"&6The great sword soars, bursting forth with dazzling brilliance, severing the ages!"
-		"&6The dimensional rift to another world is torn open, and you step through."
-		"&6What lies at the end of the road? You do not know."
-		"&6The journey ends here, or does it?"
-		""
-		"&e【All Main Quests Completed】"
-		"{ \"text\": \"Click to view acknowledgements\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"359B897165997027\" } }"
-	]
-	quest.6DC97A09E372363A.quest_subtitle: "【Chapter IV Concluded】"
-	quest.6DC97A09E372363A.title: "&e&lPrimordial Ark"
 	quest.6E02B2425A8EAB67.quest_desc: [
 		"&l&d「Starlight Golem」"
 		"&6Health: &a2500"
@@ -3627,17 +3358,6 @@
 	]
 	quest.6E02B2425A8EAB67.quest_subtitle: "★★★★"
 	quest.6E02B2425A8EAB67.title: "Eternal Starlight: Starlight Golem"
-	quest.6E27A53C36C34AB1.quest_desc: [
-		"&l&d「King Slime」"
-		"&6Health: &a6000"
-		"&6Attack: &c120"
-		"&6Armor: &72"
-		""
-		"&l&dSpawn"
-		"{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17BEAE92E1A0B323\" } }"
-	]
-	quest.6E27A53C36C34AB1.quest_subtitle: "★★★★★"
-	quest.6E27A53C36C34AB1.title: "Terra Creature: King Slime"
 	quest.6E3E82FB2A6E1D40.quest_subtitle: "Grow to the Adult Dragon stage"
 	quest.6E3E82FB2A6E1D40.title: "Adult Aether Dragon"
 	quest.6E5594142D1F7454.quest_subtitle: "Soda Sake"
@@ -3662,17 +3382,6 @@
 	]
 	quest.6EB8860F9973F098.quest_subtitle: "Shattering the Void"
 	quest.6EB8860F9973F098.title: "Void Shard"
-	quest.6F7A124D6DAE13F1.quest_desc: [
-		"&l&d「Skeleton King」"
-		"&6Health: &a10000"
-		"&6Attack: &c200"
-		"&6Armor: &710"
-		""
-		"&l&dSpawn"
-		"{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E299ACD32EA2CA2\" } }"
-	]
-	quest.6F7A124D6DAE13F1.quest_subtitle: "★★★★★"
-	quest.6F7A124D6DAE13F1.title: "Terra Creature: Skeleton King"
 	quest.6FA6C83BA212F83D.title: "Observation: Polar Bear"
 	quest.6FD356A298590C96.quest_subtitle: "Bubbly Summer"
 	quest.7001BFE7FD4B7BB7.title: "Hydra's blood and the Ghast's tears seem to react with iron"
@@ -3734,12 +3443,6 @@
 	quest.72D2474557AFE788.quest_subtitle: "Collect all belts"
 	quest.72D2474557AFE788.title: "&aBelts Completion"
 	quest.731F9BC680E3927E.quest_subtitle: "Infinite Mana"
-	quest.732B904AB3D5BD73.quest_desc: [
-		"&6Main Quest &3【The Undergarden】 &6quest item."
-		"&6This is a special weapon, not included in the &eZenith Sword &6crafting."
-		"&6It can summon a powerful &eTerraprisma &6to attack enemies."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
-	]
 	quest.735C8B5A219C57AE.quest_desc: [
 		"&aObjective: Learn to use skills, kill 1 Iron Golem"
 		""
@@ -3797,19 +3500,6 @@
 	quest.73777155E02C7B4C.quest_subtitle: "★★"
 	quest.73777155E02C7B4C.title: "Twilight Forest: Minoshroom"
 	quest.7404B8964BC82524.title: "Challenge: Frost Spider Nest"
-	quest.74233FDAFCB21F8E.quest_desc: [
-		"&aObjective: Defeat the Brain of Cthulhu and obtain the Brain of Confusion"
-		""
-		"&2Beneath The Undergarden &6lies the sunless &5Abyss&6."
-		"&6Within the Abyss lurk countless evil spirits and lost souls, a place few dare to tread."
-		"&6It is said that the unspeakable Cthulhu has extended its claws here,"
-		"&6a pale bony palm holding aloft an indecipherable brain."
-		"&6Find a &eBloody Spine &6and finally seal Cthulhu away."
-		""
-		"&9Structure Compass: &b【The Undergarden】Brain of Cthulhu&r"
-	]
-	quest.74233FDAFCB21F8E.quest_subtitle: "Defeat the Brain of Cthulhu"
-	quest.74233FDAFCB21F8E.title: "Brain of Cthulhu"
 	quest.745D36D1D182C0CD.title: "Cleric Armor"
 	quest.747F45AAE1161962.quest_subtitle: "Affordable and Tasty"
 	quest.74AD0E230F7A62A1.quest_subtitle: "Submit 7 types of vanilla saplings and 10 types of Twilight Forest saplings"
@@ -3944,9 +3634,6 @@
 	]
 	quest.77B34238D24BB235.quest_subtitle: "Thunder startles heaven and earth, dragons and snakes hibernate"
 	quest.77B34238D24BB235.title: "&3Thunder Conjuration"
-	quest.78154BF5E76EB76C.quest_desc: ["&7&oNote: Units are measured in centimeters (cm)"]
-	quest.78154BF5E76EB76C.quest_subtitle: "Swim 20,000 meters, walk underwater 20,000 meters, walk on water 2,000 meters"
-	quest.78154BF5E76EB76C.title: "20,000 Leagues Under the Sea"
 	quest.78411669AF1FD737.quest_subtitle: "Submit 11 types of bucket fish"
 	quest.78411669AF1FD737.title: "Lava Angler"
 	quest.788C34888B5F1C0E.quest_desc: [
@@ -3970,8 +3657,6 @@
 	quest.7A9D8CB5ED4A6B1C.title: "Foot Ornament T2"
 	quest.7AB503D1D36B29D9.quest_subtitle: "Alcoholic Juice?"
 	quest.7AC2C9F419309308.title: "Permafrost Armor Set"
-	quest.7B0685078C312577.quest_subtitle: "Guaranteed: Slime Crown"
-	quest.7B0685078C312577.title: "Slime Slayer"
 	quest.7B8C08F5F32626E1.title: "Spell Book T2"
 	quest.7BA915DE214AD00A.quest_desc: [
 		"&aObjective: Obtain Manuscripts"
@@ -4159,7 +3844,6 @@
 	task.5D04F3C0318EA71B.title: "Reach the Sky Knights Frigate"
 	task.631C1C4C72BA8B9A.title: "Reach the Sky Conqueror Frigate"
 	task.6842523920A24ED2.title: "Reach the Cursed Garden"
-	task.7A1E94E375EA2B3F.title: "Observe [Boss Respawn Cage]"
 	task.7B72722ECA137F18.title: "Witness a Meteor Shower"
 	task.7DD9CC7C0FBA7BE4.title: "Craft a Magic Map"
 }

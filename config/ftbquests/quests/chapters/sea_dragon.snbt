@@ -217,7 +217,6 @@
 		}
 		{
 			dependencies: [
-				"78154BF5E76EB76C"
 				"71BFA3CE3156E064"
 				"07FF8B926B1BA0A3"
 			]
@@ -1156,58 +1155,6 @@
 			]
 			x: 1.5d
 			y: 17.5d
-		}
-		{
-			dependencies: ["087A166AA7484802"]
-			id: "78154BF5E76EB76C"
-			optional: true
-			rewards: [
-				{
-					count: 9
-					id: "7D2FB3B1F417E607"
-					item: {
-						count: 1
-						id: "kubejs:sea_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "39992F9DEB3C8BC2"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						id: "terra_curio:water_walking_boots"
-					}
-					id: "3D0BB05E9E048920"
-					stat: "minecraft:swim_one_cm"
-					type: "stat"
-					value: 2000000
-				}
-				{
-					icon: {
-						id: "terra_curio:obsidian_water_walking_boots"
-					}
-					id: "52C0BD10B82EA13D"
-					stat: "minecraft:walk_under_water_one_cm"
-					type: "stat"
-					value: 2000000
-				}
-				{
-					icon: {
-						id: "artifacts:aqua_dashers"
-					}
-					id: "5E7FD6932E1287FC"
-					stat: "minecraft:walk_on_water_one_cm"
-					type: "stat"
-					value: 200000
-				}
-			]
-			x: 1.5d
-			y: 22.5d
 		}
 		{
 			dependencies: ["087A166AA7484802"]

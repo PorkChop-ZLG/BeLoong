@@ -1134,172 +1134,6 @@
 			y: 5.0d
 		}
 		{
-			icon: {
-				id: "terra_entity:king_slime_spawn_egg"
-			}
-			id: "6E27A53C36C34AB1"
-			rewards: [
-				{
-					id: "1FEBC5E3146FD76E"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 30
-					id: "29E52349C523F440"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "terra_entity:king_slime"
-				id: "4832B400AE7778B6"
-				type: "kill"
-				value: 3L
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			icon: {
-				id: "terra_entity:cthulhu_eye_spawn_egg"
-			}
-			id: "409DBA9330BA0269"
-			rewards: [
-				{
-					id: "58916AE7F43444A2"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 30
-					id: "15BA4963CE008DFD"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "terra_entity:eye_of_cthulhu"
-				id: "76D589078A9CAE2F"
-				type: "kill"
-				value: 3L
-			}]
-			x: 1.0d
-			y: 6.0d
-		}
-		{
-			icon: {
-				id: "terra_entity:brain_of_cthulhu_spawn_egg"
-			}
-			id: "053172C0F13D3578"
-			rewards: [
-				{
-					id: "6901FB20814B62AC"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 30
-					id: "5FDBF128D065271C"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "599232A700A96588"
-					item: { count: 1, id: "terra_entity:iron_golem_staff" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "023CD8485566F096"
-					item: { count: 1, id: "terra_entity:flamarang" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			icon: {
-				id: "terra_entity:eater_of_world_spawn_egg"
-			}
-			id: "24F3DC3742819BE4"
-			rewards: [
-				{
-					id: "13C2132CB1C52787"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 30
-					id: "3BBFE9E1A9898098"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "55AE59DC532F0C2E"
-					item: { count: 1, id: "terra_entity:iron_golem_staff" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "76758F37F4ABC8A3"
-					item: { count: 1, id: "terra_entity:combat_wrench" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			icon: {
-				id: "terra_entity:queen_bee_spawn_egg"
-			}
-			id: "0AC7BA9585F4271A"
-			rewards: [
-				{
-					id: "2B17C991EA064417"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 30
-					id: "26F09195C6F0B96C"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "terra_entity:queen_bee"
-				id: "0D5BB4CAC11140D8"
-				type: "kill"
-				value: 3L
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
 			can_repeat: true
 			icon: {
 				id: "darkdoppelganger:shadow_orb"
@@ -1514,44 +1348,6 @@
 		}
 		{
 			icon: {
-				id: "terra_entity:skeletron_spawn_egg"
-			}
-			id: "6F7A124D6DAE13F1"
-			rewards: [
-				{
-					id: "08005FA1D1293946"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					count: 30
-					id: "38D04716E91B8F4B"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "1D6A8D825D77C39F"
-					item: { count: 1, id: "terra_entity:valor" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "6E545ED04AE0C88B"
-					item: { count: 1, id: "terra_entity:sculk_wisp_staff" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 6.0d
-		}
-		{
-			icon: {
 				id: "mowziesmobs:wrought_helmet"
 			}
 			id: "228A2960FA4D62F7"
@@ -1729,7 +1525,6 @@
 				"626520C2BF68EC5F"
 				"01FF89454D454C6A"
 				"30071E3FF4CC9D23"
-				"514EEE78CDEF8BC2"
 				"36F664568D6F7A92"
 			]
 			hide_dependency_lines: true
@@ -1992,43 +1787,6 @@
 			}]
 			x: 8.0d
 			y: 5.0d
-		}
-		{
-			dependencies: [
-				"24F3DC3742819BE4"
-				"053172C0F13D3578"
-				"6F7A124D6DAE13F1"
-				"6E27A53C36C34AB1"
-				"0AC7BA9585F4271A"
-				"409DBA9330BA0269"
-			]
-			icon: {
-				id: "terra_entity:terraprisma"
-			}
-			id: "514EEE78CDEF8BC2"
-			rewards: [
-				{
-					count: 8
-					id: "67B9707FA7C06EBC"
-					item: {
-						count: 1
-						id: "kubejs:progenitor_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "39E12BEA32705AE6"
-					type: "xp"
-					xp: 10000
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "5B275009DA1CA8AB"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 6.0d
 		}
 		{
 			id: "5E95712B13C6FEFC"

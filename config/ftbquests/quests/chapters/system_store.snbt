@@ -1032,10 +1032,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"6DC97A09E372363A"
-			]
+			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "xfws_swords:ark_of_the_cosmos"
@@ -1115,35 +1112,6 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"6344D6B5AEC69478"
-			]
-			hide_dependency_lines: true
-			icon: {
-				id: "terra_entity:bei_dou_boomerang"
-			}
-			id: "2B87E4C3672E1D90"
-			rewards: [{
-				id: "6927CD9407D7C0D1"
-				item: {
-					count: 1
-					id: "terra_entity:bei_dou_boomerang"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "1AAD299AF57958D9"
-				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
-				type: "item"
-			}]
-			x: 7.0d
 			y: 1.5d
 		}
 		{
