@@ -1,10 +1,5 @@
 [
   {
-    "mob": "terra_entity:lava_slime",
-    "when": "onjoin",
-    "result": "deny"
-  },
-  {
     "mob": "alshanex_familiars:druid_pet",
     "when": "position",
     "result": "deny"
@@ -22,13 +17,6 @@
     "result": "allow",
     "healthadd": 500,
     "damageadd": 60
-  },
-  {
-    "mob": "terra_entity:wandering_eye_fish",
-    "when": "onjoin",
-    "result": "allow",
-    "healthmultiply": 0.5,
-    "damagemultiply": 0.5
   },
   {
     "mob": "twilightforest:naga",
@@ -82,68 +70,5 @@
     "result": "allow",
     "healthset": 1700,
     "damageset": 60
-  },
-  {
-    "mob": "terra_entity:king_slime",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 6000,
-    "damageset": 120
-  },
-  {
-    "mob": "terra_entity:eye_of_cthulhu",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 7000,
-    "damageset": 140
-  },
-  {
-    "mob": "terra_entity:brain_of_cthulhu",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 8000,
-    "damageset": 160
-  },
-  {
-    "mob": "terra_entity:visual_neuron",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 400,
-    "damageset": 160
-  },
-  {
-    "mob": "terra_entity:eater_of_worlds",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 8000,
-    "damageset": 160
-  },
-  {
-    "mob": "terra_entity:eater_of_worlds_segment",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 130,
-    "damageset": 160
-  },
-  {
-    "mob": "terra_entity:queen_bee",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 9000,
-    "damageset": 180
-  },
-  {
-    "mob": "terra_entity:skeletron",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 10000,
-    "damageset": 200
-  },
-  {
-    "mob": "terra_entity:skeletron_hand",
-    "when": "onjoin",
-    "result": "allow",
-    "healthset": 2000,
-    "damageset": 200
   }
 ]
