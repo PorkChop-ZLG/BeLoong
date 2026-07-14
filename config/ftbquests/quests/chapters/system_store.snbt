@@ -1111,7 +1111,7 @@
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{

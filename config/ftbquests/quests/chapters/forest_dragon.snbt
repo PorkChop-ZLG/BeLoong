@@ -1123,12 +1123,6 @@
 				}
 				{
 					consume_items: true
-					id: "53CA363A7B446A07"
-					item: { count: 1, id: "undergarden:gloomgourd_seeds" }
-					type: "item"
-				}
-				{
-					consume_items: true
 					id: "5CC514C9BA7C3E87"
 					item: { count: 1, id: "biomeswevegone:pale_pumpkin_seeds" }
 					type: "item"
