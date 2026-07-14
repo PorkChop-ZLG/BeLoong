@@ -3418,6 +3418,104 @@
 				append = ""
 				format = ""
 
+		[type.legendary_monsters.laser]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.laser.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.laser.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.gravity]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.gravity.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.gravity.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.ghost]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.ghost.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.ghost.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.cut]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.cut.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.cut.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.clouds]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.clouds.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.clouds.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.void]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.void.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.void.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.impale]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.impale.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.impale.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
