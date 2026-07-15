@@ -3516,6 +3516,20 @@
 				append = ""
 				format = ""
 
+	[type.melody_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.melody_magic.icon]
+			tex = ""
+			item = ""
+
+		[type.melody_magic.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -4772,6 +4786,20 @@
 			item = ""
 
 		[tag."beloong:air_strike".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."tunes_n_tomes:melody_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."tunes_n_tomes:melody_magic".icon]
+			tex = ""
+			item = ""
+
+		[tag."tunes_n_tomes:melody_magic".format]
 			prepend = ""
 			append = ""
 			format = ""
