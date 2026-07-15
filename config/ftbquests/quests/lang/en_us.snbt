@@ -451,11 +451,6 @@
 	quest.0850E956F0AFB4DF.title: "Nyan Cat Blade"
 	quest.087A166AA7484802.quest_subtitle: "Grow into Ancient Dragon stage"
 	quest.087A166AA7484802.title: "Ancient Sea Dragon"
-	quest.08A211F39D111276.quest_desc: [
-		"&aGoal: Obtain Familiar Soul"
-		""
-		"&6Use an &eEmpty Bottle&6 on a &eLost Soul&d [Right-click]&6 to obtain a &eFamiliar Soul&6."
-	]
 	quest.08CE97F6C822784E.quest_desc: ["&9Structure Compass: &b[Eastern Mysticism] Taoist Temple&r"]
 	quest.08CE97F6C822784E.quest_subtitle: "Learn Yin-Yang Arts"
 	quest.08CE97F6C822784E.title: "Challenge: Taoist Temple"
@@ -463,18 +458,6 @@
 	quest.095F26381CC3BDF9.quest_desc: ["{ \"text\": \"Click to view BOSS info\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196959C6E061913D\" } }"]
 	quest.095F26381CC3BDF9.quest_subtitle: "Kill Obsidian Monolith and submit its drop"
 	quest.095F26381CC3BDF9.title: "Defeat: Obsidian Monolith"
-	quest.0981AABC1E98CC30.quest_desc: [
-		"Combat: Basic magic from different schools."
-		"Abilities:"
-		"Transmutation: Converts scrolls on pedestals into random scrolls of equal rarity, with a small chance to upgrade."
-		"Enderman’s Nightmare: Endermen fear it and will flee."
-		"Shulker Protection: Resists shulker bullets."
-		"Spawn: Found in &6End Laboratories&r."
-		"Food: Can be healed with Arcane Cloth."
-		""
-		"&9Structure Compass: &b[Familiars] End Laboratory"
-	]
-	quest.0981AABC1E98CC30.title: "Archmage Familiar"
 	quest.09AD9A5F6A9D97B8.quest_desc: ["&9Structure Compass: &b[YUNG] Ocean Monument&r"]
 	quest.09AD9A5F6A9D97B8.title: "Challenge: Ocean Monument"
 	quest.0A6E69E220DAFB6F.quest_subtitle: "Grow into Young Dragon stage"
@@ -687,18 +670,6 @@
 	]
 	quest.1036A454EE8AB619.quest_subtitle: "Defeat Chesed and Malkuth"
 	quest.1036A454EE8AB619.title: "King of Chesed"
-	quest.10B31CDCE12AD99C.quest_desc: [
-		"Combat: Focuses on fire magic, burning enemies."
-		"Abilities:"
-		"Lava Heart: Sets attackers on fire."
-		"Heat Resistance: Grants fire immunity to itself and its owner."
-		"Spawn: Wanders hot areas of the &2Nether&r."
-		"Food: Healed with Blaze Powder."
-		""
-		"&9Structure Compass: &bCrimson Enchanting Table&r"
-		"&9Structure Compass: &bNether Demon&r"
-	]
-	quest.10B31CDCE12AD99C.title: "Blazing Familiar"
 	quest.10E3B21E1DACD87E.quest_subtitle: "Grow into Adult Dragon stage"
 	quest.10E3B21E1DACD87E.title: "Adult Tundra Dragon"
 	quest.10EEAA4808CEB43D.quest_desc: [
@@ -725,16 +696,6 @@
 	]
 	quest.10F9BE8C1E4AE1FA.quest_subtitle: "★★★"
 	quest.10F9BE8C1E4AE1FA.title: "Twilight Forest: Snow Queen"
-	quest.113378DAACF3A395.quest_desc: [
-		"Combat: Skilled at summoning magic, controlling enemies and confusing them."
-		"Abilities:"
-		"Magic: When its owner's health is low, the Illusionist will cast magic to hide its owner from enemies."
-		"Decoy: When its health is low, it disappears and leaves behind an explosive duplicate to taunt nearby enemies."
-		"Pickpocket: When no one is watching and there are &eGold Nuggets&r or &aEmeralds&r on the ground, this little trickster will steal them."
-		"Spawning: &aIllusionist Familiar&r naturally disguises itself as other Overworld familiars. Use the &4Mirror of Truth&r to reveal them."
-		"Food: Can be healed with Gold Blocks."
-	]
-	quest.113378DAACF3A395.title: "Illusionist Familiar"
 	quest.11394C5FEF7DB9AA.quest_subtitle: "Rippling water shines in clear sunlight"
 	quest.11394C5FEF7DB9AA.title: "&fSacred School"
 	quest.115598900952BB0D.title: "Check-in: Mycotoxic Thicket"
@@ -800,11 +761,6 @@
 	quest.12F9EDC857BB2555.title: "Cave Dragon Cuisine"
 	quest.130DF0F4E2C8FCD1.quest_desc: ["&cUnlocked after completing 【Dragon Codex】 chapter!"]
 	quest.130DF0F4E2C8FCD1.title: "Rage of the Mad Star"
-	quest.132B8803AE174E78.quest_desc: [
-		"Right-click an &aIllusionist Familiar&r to bind it and equip it in the necklace slot to summon/unsummon it. Can be found in &6Woodland Mansion&r"
-		""
-		"&9Structure Compass: &bWoodland Mansion"
-	]
 	quest.132EA960D6542BEB.quest_subtitle: "Want to Become a Magical Girl?"
 	quest.132EA960D6542BEB.title: "Step One: Obtain Gohei"
 	quest.13427D639FF8D906.quest_desc: ["&cUnlocked after completing 【Twilight Forest】 chapter!"]
@@ -880,11 +836,6 @@
 		"{ \"text\": \"Click to view how to obtain\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19632689D6646EBD\" } }"
 	]
 	quest.163153BE5D349228.title: "Sweep Items"
-	quest.1647C075AFC0FC73.quest_desc: [
-		"&6Obtained by opening &eMysterious Orbs&6, used to unlock &3Spirit Law&6 spells."
-		"{ \"text\": \"Click to view how to obtain\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53F62FC8058F6AE7\" } }"
-	]
-	quest.1647C075AFC0FC73.title: "Bard Equipment"
 	quest.16AC902A8860C5D5.quest_subtitle: "Grow to the Red Giant Stage"
 	quest.16AC902A8860C5D5.title: "Red Giant"
 	quest.16AD045AE7B461C7.quest_subtitle: "Junmai Daiginjo"
@@ -1018,17 +969,6 @@
 	quest.196959C6E061913D.quest_subtitle: "★★★"
 	quest.196959C6E061913D.title: "Phantasmal Chaos: Obsidian Monolith"
 	quest.19878C818E548C2D.title: "Observe: Root Tendrils"
-	quest.19BFE7F4FD9FF5A4.quest_desc: [
-		"&eAlshanex's Familiars"
-		"&eIron's Spells &n Spellbooks&6 addon, adding &212&6 creatures called &aFamiliars&6."
-		"&aFamiliars&6 can be tamed with &9Arcane Essence&6."
-		"&aThey fight alongside players using powerful magic."
-		"&6Adds a new spell school: &3Spirit Law"
-		""
-		"&7&oNote: Some content may be inaccurate"
-	]
-	quest.19BFE7F4FD9FF5A4.quest_subtitle: "Companions on the Journey"
-	quest.19BFE7F4FD9FF5A4.title: "Alshanex's Familiars"
 	quest.19DA784FDC312506.quest_desc: [
 		"&aGoal: Reach the Primordial Dragon stage and defeat the Dark Doppelganger"
 		""
@@ -1043,12 +983,6 @@
 	quest.19F5D45CF7D9CAF5.quest_subtitle: "Collect the Shadow Dragon Armor Set"
 	quest.19F5D45CF7D9CAF5.title: "Brightest and Darkest"
 	quest.1A1F4138D32ADC70.title: "Talisman T0"
-	quest.1A4D533D4FC10A14.quest_desc: [
-		"Right-click a &aNecromancer Familiar&r to bind it and equip it in the necklace slot."
-		"It can be found in the &6Nether Graveyard&r."
-		""
-		"&9Structure Compass: &b【Familiars】Nether Graveyard"
-	]
 	quest.1A60448B701DF708.quest_desc: [
 		"&aGoal: Defeat the Starlight Golem and obtain the Oxidized Alloy Furnace"
 		""
@@ -1089,18 +1023,6 @@
 	quest.1B5B7580815E49B0.quest_desc: ["When holding wool, it will actively follow you. Right-click to give it wool of different colors or drop it on the ground to pick it up. Each color lengthens its body and emits particles matching the wool's color, with corresponding wool on its body. After collecting all sixteen vanilla wool colors, it emits particles of all given colors and drops a Puzzle Sheep loot, Horn of Dissolution, Iron Ingot, Gold Ingot, Lapis Lazuli, Diamond, and Emerald, one of each."]
 	quest.1B5B7580815E49B0.quest_subtitle: "It seems to want to trade with me"
 	quest.1B5B7580815E49B0.title: "&5Strange Sheep"
-	quest.1BC6ADF60CE0E739.quest_desc: [
-		"&aObjective: Reach Origin Island"
-		""
-		"&6In the vast ocean lies a long-lost island,"
-		"&6its sole resident is &aLost Soul&6, an early form of Magic Pet."
-		"&6Lost Soul can be bottled with an &eEmpty Bottle&6 and used in the &eMagic Pet Ritual&6."
-		"&eMagic Pet Ritual&6 is conducted at the island's center using &eAltar Crafting&6 to create Magic Pet items."
-		""
-		"&bStructure Compass: &9【Magic Pet】Origin Island"
-	]
-	quest.1BC6ADF60CE0E739.quest_subtitle: "The Origin of Magic Pets"
-	quest.1BC6ADF60CE0E739.title: "Origin Island"
 	quest.1BCEED323665EDE1.quest_subtitle: "Grow to Primeval Dragon Stage"
 	quest.1BCEED323665EDE1.title: "Primeval Tundra Dragon"
 	quest.1C07B232D4664C3D.quest_desc: [
@@ -1170,11 +1092,6 @@
 	quest.203D481DA0DFD214.title: "A Piece of... Art?"
 	quest.20418663EEBB6E73.quest_subtitle: "Tianquan is neither near nor far, cannot be disclosed"
 	quest.20418663EEBB6E73.title: "&2Tianquan"
-	quest.208CA6AD540C7968.quest_desc: [
-		"Right-click &aPlague Doctor Magic Pet&r to bind it, equip in necklace slot to summon/un-summon key-bound Magic Pet. Found in &6Pierced Icebreaker&r."
-		""
-		"&9Structure Compass: &b【Iron Magic】Pierced Icebreaker"
-	]
 	quest.20D561FC8502C837.title: "Kill: Grabbing Grass"
 	quest.20FA399F30BF33A4.quest_subtitle: "Add a slice of lemon for me"
 	quest.21609D985B493CCB.quest_desc: [
@@ -1318,46 +1235,9 @@
 	quest.258CFD18EE567A75.title: "Master the Star Secrets"
 	quest.2599EC1F2F19464A.quest_subtitle: "Grow to Main Sequence Star Stage"
 	quest.2599EC1F2F19464A.title: "Main Sequence Star"
-	quest.25CB6218676EEC49.quest_desc: [
-		"Right-click a &aThunder Mage Familiar&r to bind it, equip in Necklace slot to summon/dismiss, found in &6Frost Mage Tower&r"
-		""
-		"&9Structure Compass: &b【Iron Magic】Frost Mage Tower"
-	]
-	quest.25E5594426882E5A.quest_desc: [
-		"Right-click a &aHunter Familiar&r to bind it, equip in Necklace slot to summon/dismiss bound familiars, found in &6Summoner Tower&r"
-		""
-		"&9Structure Compass: &b【Iron Magic】Summoner Tower"
-	]
 	quest.26053B577195305A.quest_subtitle: "Grow to Black Hole Stage"
 	quest.26053B577195305A.title: "Black Hole"
 	quest.267503A8DD306195.quest_subtitle: "Coffee Ice Cream~"
-	quest.26B50865936A316F.quest_desc: [
-		"&aObjective: Craft Thunder Mage Shard"
-		""
-		"&d【Right-Click】&6 to spawn &eThunder Mage Familiar&6."
-		"&6Recipe as follows:"
-		"{image:kubejs:textures/task/lightning_mage_shard.png width:200 height:200 align:center}"
-	]
-	quest.26D99EE35B3F2868.quest_desc: [
-		"Combat: Specializes in Blood Magic, including Necromancy for summoning undead."
-		"Abilities:"
-		"Undead Chaos: Causes nearby undead to rampage, attacking nearby entities."
-		"Wither: Turns nearby skeletons into Wither Skeletons."
-		"Spawn: Found in &2Soul Sand Valley&r's &6Nether Cemetery&r for death research."
-		"Food: Can be healed with Bones or Blood Bottles."
-		""
-		"&9Structure Compass: &b【Familiar】Nether Cemetery"
-	]
-	quest.26D99EE35B3F2868.title: "Necromancer Familiar"
-	quest.27C667BFA15E8E67.quest_desc: [
-		"Combat: Specializes in Lightning Magic, casting spells that hit multiple targets."
-		"Abilities:"
-		"Charge Owner: Can charge the owner, increasing speed and strength."
-		"Charge Crawler: Every time it finds a creeper, it charges with it."
-		"Spawn: Roams &2mountains&r seeking spots to attract lightning."
-		"Food: Can be healed with Lightning Bottles."
-	]
-	quest.27C667BFA15E8E67.title: "Thunder Mage Familiar"
 	quest.282FECD2B1F669AD.quest_subtitle: "Everything You Want to Know Is Here"
 	quest.282FECD2B1F669AD.title: "Tea Ceremony Guide"
 	quest.28625E49F473135B.quest_desc: [
@@ -1491,17 +1371,6 @@
 	]
 	quest.2B5CAD5134FFA4AF.quest_subtitle: "Start Your『BeLoong』 Journey!"
 	quest.2B5CAD5134FFA4AF.title: "&6&lMain Quest: Dragon Survival"
-	quest.2B8490063511F9F1.quest_desc: [
-		"Combat: Uses nature magic to control enemies."
-		"Abilities:"
-		"Overgrowth: Can bonemeal nearby crops."
-		"Nature's Blessing: Can breed nearby animals."
-		"Spawn: Found in &2Forests&r."
-		"Food: Can be healed with saplings."
-		""
-		"&cNote: Druid Familiars cannot naturally spawn; purchase from the system shop."
-	]
-	quest.2B8490063511F9F1.title: "Druid Familiar"
 	quest.2B9D5B62DD244102.quest_subtitle: "Upgrade Tundra Dragon's 4 Passive Skills to Max Level"
 	quest.2B9D5B62DD244102.title: "Master the Secrets of Ice"
 	quest.2C055589A88C2771.quest_subtitle: "Start the Forest Dragon's Growth Journey"
@@ -1531,28 +1400,12 @@
 	quest.2CFCFA632C2D16F5.title: "Challenge: Black Pine Knight Fortress"
 	quest.2D088213B9CC2A49.quest_subtitle: "Drunken Dream Meets Peach Immortal"
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "Dreamlike as Bubbles"
-	quest.2D718FB73B8AF552.quest_desc: [
-		"Right-click an &aFrost Mage Familiar&r to bind it, equip in the Necklace slot to summon/desummon the bound familiar, can be found in &6Frost Mage Tower&r"
-		""
-		"&9Structure Compass: &b【Iron Magic】Frost Mage Tower"
-	]
 	quest.2E6A1BFF333127EA.quest_subtitle: "Small chance to drop from the Dead King"
 	quest.2E6A1BFF333127EA.title: "Ruptured Node Spell Scroll"
 	quest.2E92127811717292.quest_subtitle: "Heavily Guarded Portal"
 	quest.2E92127811717292.title: "Observation: End Portal"
 	quest.2EB0BF01344C3DD7.title: "Heart-stopping Chorus Fruit"
 	quest.2ECA4D4990D20697.quest_desc: ["&aObjective: Collect all Dragonsteel weapons and tools"]
-	quest.2ECA678E765E94F4.quest_desc: [
-		"Combat: Excels in fearsome magic and unknown arts, capable of summoning beings born from the shadows."
-		"Abilities:"
-		"True Sight: Besides granting immunity to Blindness and Darkness, it provides the owner with Night Vision."
-		"Dark Rite: Can deactivate Sculk Shrieker, hiding the owner from the Warden."
-		"Spawning: Can research dark magic in his laboratory located in the &6Ancient City&r."
-		"Food: Can be healed using Ancient Knowledge Fragments."
-		""
-		"&9Structure Compass: &bAncient City"
-	]
-	quest.2ECA678E765E94F4.title: "Evoker Familiar"
 	quest.2ECFB391DB73DDF9.quest_subtitle: "Level up all 4 Forest Dragon passive skills to max"
 	quest.2ECFB391DB73DDF9.title: "Mastery of Wooden Essence"
 	quest.2F2C234A12BA69AD.title: "Golden Turtle Egg"
@@ -1606,15 +1459,6 @@
 		"&6Side Story &3【Iron's Spells 'n Spellbooks】 &6completion reward."
 		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
 	]
-	quest.309081C2591414CB.quest_desc: [
-		"&aObjective: Obtain a Sniffer Egg and hatch a Sniffer"
-		""
-		"&6Use a brush and &d【Right-click】 &6Suspicious Sand for a chance to obtain a &eSniffer Egg&6."
-		"&6Place the &eSniffer Egg &6on a &eMoss Block&6; it will hatch after &210 minutes&6."
-		"&eSniffers &6will sometimes dig up &eTorchflower Seeds &6from the ground."
-		"&eTorchflower Seeds &6are the favorite food of familiars and can awaken memories."
-	]
-	quest.309081C2591414CB.quest_subtitle: "Hatch a Sniffer"
 	quest.309615294A70B9E9.quest_desc: ["&9Structure Compass: &b【YUNG】Desert Pyramid&r"]
 	quest.309615294A70B9E9.title: "Challenge: Desert Pyramid"
 	quest.30A3124E55AA6C4F.title: "High Evoker Armor"
@@ -1679,7 +1523,6 @@
 	quest.32F93BDD9F3692F9.title: "Kill: Tarminated"
 	quest.330CE4B915D1BB41.quest_subtitle: "Grow to the Ancient Dragon stage"
 	quest.330CE4B915D1BB41.title: "Ancient Sea Dragon"
-	quest.33959EE68C579CD0.title: "Bard Armor"
 	quest.33C7AE423913A469.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15CE2F1DA319C4B4\" } }"]
 	quest.33C7AE423913A469.quest_subtitle: "Kill Scylla and submit its drops"
 	quest.33C7AE423913A469.title: "Forge the Aquatic Dragon Physique"
@@ -1860,21 +1703,6 @@
 	quest.39A482BF78452D09.title: "Energizing Soup"
 	quest.39AF32032B46C495.quest_subtitle: "Begin the Aether Dragon's path of growth"
 	quest.39AF32032B46C495.title: "Aether Dragon Hatchling"
-	quest.3A606C2453D06AFF.quest_desc: [
-		"&aObjective: Observe the Ritual Core for 5 seconds"
-		""
-		"&eIn the middle of the Origin Island &6is an &eAltar&6."
-		"&eFamiliar Statues &6are placed around the &eAltar&6, with the &eAltar Core &6at its center."
-		"&6Use &dEMI &6to look up the recipes for altar crafting."
-		"&d【Right-click】 &6to place the &ecentral &6item of the recipe onto the &eAltar Core&6."
-		"&d【Right-click】 &6to place the &esurrounding &6items of the recipe onto the &efour statues&6."
-		"&6Except for the central item, the surrounding items &ahave no placement order&6."
-		""
-		""
-		"{image:kubejs:textures/task/ritual_core.png width:200 height:160 align:center}"
-	]
-	quest.3A606C2453D06AFF.quest_subtitle: "Craft Familiar Items"
-	quest.3A606C2453D06AFF.title: "Familiar Ritual"
 	quest.3AA1AA79BED0F294.quest_desc: [
 		"&aExchange: Heaven's Gift + Spin to Win = Aether Dragon Soul"
 		""
@@ -1992,12 +1820,6 @@
 		"&6Main Quest &3【Twilight Forest】 &6completion reward."
 		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"316AFA91B0365E94\" } }"
 	]
-	quest.3EE35D1C668B344B.quest_desc: [
-		"Summon: Craft &bFrost Mage Shards &fto summon"
-		""
-		"&7&oNo detailed information yet, please explore for yourself"
-	]
-	quest.3EE35D1C668B344B.title: "Frost Mage Familiar"
 	quest.3F053183F9C244AD.quest_desc: [
 		"&aObjective: Find the castle in the Nether"
 		""
@@ -2249,23 +2071,8 @@
 	]
 	quest.48E18718D8715F1A.quest_subtitle: "★★★"
 	quest.48E18718D8715F1A.title: "Twilight Forest: Hydra"
-	quest.494B6EFDE9F2D605.quest_desc: [
-		"Combat: Excels in holy magic. His primary role is support, but he can also cast powerful holy spells to purify enemies."
-		"Abilities:"
-		"Salvation: He will attack undead creatures upon sight, but if he sees a Zombie Villager, he will use his holy power to heal it and grant it salvation."
-		"Spawning: To obtain a &aCleric Familiar&r, you need to cast a &dPurification spell &rnear an untamed &aNecromancer Familiar&r."
-		"Food: Can be healed using Holy Pearls."
-	]
-	quest.494B6EFDE9F2D605.title: "Cleric Familiar"
 	quest.49E035E1CB353C48.quest_subtitle: "Grow to the Adult Dragon stage"
 	quest.49E035E1CB353C48.title: "Adult Sea Dragon"
-	quest.49E7BEC398FC9C2D.quest_desc: [
-		"&aObjective: Obtain a Harp"
-		""
-		"&6Obtained by opening a &eMysterious Orb&6."
-		"&6Hold the &eHarp &6and use a &eScroll Scribing Table &6to unlock &3Spirit Law &6spells."
-		"{ \"text\": \"Click to jump to Spirit Law Conjuration\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AC7F72FF93C6500\" } }"
-	]
 	quest.49FC89FFF13329BF.quest_subtitle: "Grow to the Neutron Star stage"
 	quest.49FC89FFF13329BF.title: "Neutron Star"
 	quest.4A3DB16FEE8A6BE4.title: "High Evoker Armor"
@@ -2435,24 +2242,6 @@
 	]
 	quest.4F428214195427D6.quest_subtitle: "Intoxicated by Heaven and Earth"
 	quest.4F9732AC25D1D1CA.title: "Hand Ornament T2"
-	quest.4F977202E988A26C.quest_desc: [
-		"&3The Bard Familiar &6is the most difficult familiar to obtain."
-		"&6First, you need to obtain the &eachievements &6for taming all other familiars."
-		"&6After that, you must craft and open a &bMysterious Orb&6."
-		"{ \"text\": \"Click to jump to Mysterious Orb introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53F62FC8058F6AE7\" } }"
-		"&6Then, near an &euntamed familiar&6,"
-		"&6hold a &eHarp &6and cast a &3Spirit Law spell&6,"
-		"&6making it fall in love with music and transform into a &3Bard Familiar&6."
-		"&6Finally, use &bArcane Source &6to tame it,"
-		"&6and use &eLost Melody &6to bind it."
-		""
-		"&rCombat: Excels in sound magic, attacking enemies with powerful melodies, but also supporting friends with auxiliary melodies."
-		"Abilities:"
-		"Musical Nature: It will play melodies to make adventures better."
-		"Food: Can be healed using Music Discs."
-	]
-	quest.4F977202E988A26C.quest_subtitle: "【Familiar Side Quest Concluded】"
-	quest.4F977202E988A26C.title: "&3&lBard Familiar"
 	quest.4F9B70EE7BB0E995.quest_desc: [
 		"&aObjective: Obtain Lightning Dragon Blood"
 		""
@@ -2469,13 +2258,6 @@
 	quest.5003D0EDCDBEB34E.title: "&bVile Undead"
 	quest.5026FCE365E612AF.quest_subtitle: "Crimson skirts stained by wine"
 	quest.5026FCE365E612AF.title: "&4Crimson Conjuration"
-	quest.507B726553E6BC24.quest_desc: [
-		"&aObjective: Craft Archmage Shards"
-		""
-		"&d【Right-click】 &6to spawn an &eArchmage Familiar&6."
-		"&6Recipe:"
-		"{image:kubejs:textures/task/archmage_shard.png width:200 height:200 align:center}"
-	]
 	quest.5083AFBE18C36085.quest_desc: [
 		"&4The Heraldry system &6is equivalent to the spell systems of other mods (Iron's Spells, Cataclysm, etc.)."
 		""
@@ -2503,13 +2285,6 @@
 	quest.508986FA5D56C11E.quest_subtitle: "【Cave Dragon Growth Path Concluded】"
 	quest.508986FA5D56C11E.title: "&cCave Dragon Completion"
 	quest.5096264BBB1C9577.quest_subtitle: "Infinite Mana"
-	quest.50A3AE4D35FD1CB3.quest_desc: [
-		"&aObjective: Craft Druid Shards"
-		""
-		"&d【Right-click】 &6to spawn a &eDruid Familiar&6."
-		"&6Recipe:"
-		"{image:kubejs:textures/task/druid_shard.png width:200 height:200 align:center}"
-	]
 	quest.50BB90328AFA019B.title: "Kill: Breeze"
 	quest.50E66A5B37FF3E9B.quest_desc: [
 		"&aObjective: Find the Inheritance Grounds"
@@ -2610,17 +2385,6 @@
 	]
 	quest.53401F206F58F9C4.quest_subtitle: "The Heaven Sword and Dragon Saber"
 	quest.534483AFF139EBD4.title: "Onmyoji Armor"
-	quest.5362937A37D4D82E.quest_desc: [
-		" Combat: Excels at attacking enemies with arrows, combined with swift movements."
-		" Abilities:"
-		" Watchful Eye: Has the ability to protect the owner from enemies targeting them, even if the owner hasn't noticed the threat."
-		" Scent of Loot: The owner can right-click on it with any item to make it search for nearby entities that can drop that item, marking them for the owner to see."
-		" Spawning: Can be found in &6Hunter Camps &rin &2Forest biomes&r, or in the &2Overworld&r."
-		" Food: Can be healed using wolf food."
-		""
-		"&9Structure Compass: &b【Familiar】Hunter Camp"
-	]
-	quest.5362937A37D4D82E.title: "Hunter Familiar"
 	quest.53A0BF6EAC599D29.quest_desc: ["A once very prosperous civilization flourished here, but you never witnessed it. Now, an eternal twilight shrouds this land. Only a few ruins, lush trees, and strange creatures remain in the forest. You are determined to unravel the mysteries of the Twilight Forest, but you soon discover that the ruins have new masters. Not all forest inhabitants are friendly to intruders! Find some &aTorchberries &rand &aRaven Feathers &rand combine them with &aGlowstone &rto craft a &dMagic Map Core"]
 	quest.53A0BF6EAC599D29.quest_subtitle: "The nearby structures seem to emanate hostility"
 	quest.53A0BF6EAC599D29.title: "&eA True Dragon Fears No Challenge"
@@ -2637,15 +2401,6 @@
 	]
 	quest.53B131469820D741.quest_subtitle: "Can 『BeLoong』 also play business simulation?"
 	quest.53B131469820D741.title: "&eMystia's Izakaya"
-	quest.53F62FC8058F6AE7.quest_desc: [
-		"&aObjective: Craft a Mysterious Orb"
-		""
-		"&6You must tame all familiars except the &aBard Familiar &6to use it!"
-		"&d【Right-click】 &6to use the &eMysterious Orb &6to obtain a &eHarp &6and &eLost Melody&6."
-		"&6These two items are used to tame the &aBard Familiar&6."
-		"&6Recipe:"
-		"{image:kubejs:textures/task/mysterious_orb.png width:200 height:200 align:center}"
-	]
 	quest.5409A055F5C34999.quest_desc: [
 		"&6Multiplayer Server Hosting Recommendation &r- &b&lStarry Game"
 		""
@@ -2967,13 +2722,6 @@
 	]
 	quest.5FCFEA69626A53AE.quest_subtitle: "Author: zchuan_che"
 	quest.5FCFEA69626A53AE.title: "Prefab Building: Chinese Courtyard"
-	quest.6096A24B9426FCFC.quest_desc: [
-		"&aObjective: Craft Hunter Shards"
-		""
-		"&d【Right-click】 &6to spawn a &eHunter Familiar&6."
-		"&6Recipe:"
-		"{image:kubejs:textures/task/hunter_shard.png width:200 height:200 align:center}"
-	]
 	quest.60B7FFFA63E2B4B2.title: "Frost Enforcer Armor"
 	quest.60E6ED7ED056ABDD.title: "Charm T2"
 	quest.61841B2C10B08D91.quest_desc: [
@@ -3008,7 +2756,6 @@
 	quest.61841B2C10B08D91.quest_subtitle: "Only the author can see this"
 	quest.61841B2C10B08D91.title: "Quest Writing Guidelines"
 	quest.61ACAF91D4015A4E.title: "Ring T3"
-	quest.61C9B40DB6C199ED.quest_desc: ["Right-click on a &aCleric Familiar &rto bind it. Equip it in the necklace slot to summon/dismiss the bound familiar. Can be found in &6Cleric Towers&r."]
 	quest.61D94A7F289D6DE8.quest_desc: [
 		"&6Sneak + Right-click while empty-handed to bind to the current player's dimension network. Dimension network admins can sneak + right-click empty-handed to unbind."
 		""
@@ -3132,13 +2879,6 @@
 	quest.6705495FDA1F7987.quest_subtitle: "Provides immunity effects for dragons"
 	quest.67177331CC1421A8.title: "Recall Dark Doppelganger"
 	quest.6739C42CBAC00318.title: "Terracotta Assortment"
-	quest.67473775B305582F.quest_desc: [
-		"&aObjective: Obtain Memory Fragments"
-		""
-		"&6Feed &eCrystallized Berries &6to &atamed familiars &6to obtain &eMemory Fragments&6."
-		"&d【Right-click】 &6to use a &eMemory Fragment&6. It will act like an Eye of Ender,"
-		"&6leading you to the birthplace of familiars — the &aOrigin Island&6."
-	]
 	quest.675B09EF31EDCEA1.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300B6A5EADD11286\" } }"]
 	quest.675B09EF31EDCEA1.quest_subtitle: "Kill the Ancient Remnant and submit its drops"
 	quest.675B09EF31EDCEA1.title: "Forge the Wind Dragon Physique"
@@ -3187,14 +2927,6 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie's Mobs: Frostmaw"
-	quest.6AC7F72FF93C6500.quest_desc: [
-		"&6Use a &eNote Block &6to scribe &3Spirit Law spells"
-		"&6You must hold a &3Harp &6to cast &3Spirit Law spells"
-		"{ \"text\": \"Click to jump to mod introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19BFE7F4FD9FF5A4\" } }"
-		"{image:minecraft:block/note_block width:100 height:100 align:mid}"
-	]
-	quest.6AC7F72FF93C6500.quest_subtitle: "Hearing celestial music clears the ears"
-	quest.6AC7F72FF93C6500.title: "&eSpirit Law Conjuration"
 	quest.6B26A9D9D92F69DA.quest_subtitle: "Dragon Exile Land"
 	quest.6B26A9D9D92F69DA.title: "Check-in: End Midlands"
 	quest.6B3CAAA337596F88.quest_desc: [
@@ -3204,20 +2936,6 @@
 	]
 	quest.6B3CAAA337596F88.quest_subtitle: "Trinket Draw"
 	quest.6B3CAAA337596F88.title: "Mimic"
-	quest.6B5D3B7AD863862F.quest_desc: [
-		"&aObjective: Obtain a Familiar Bed and Arcane Source"
-		""
-		"&eFamiliar Beds &6are used to restore a familiar's health."
-		""
-		"&6Use &bArcane Source &6to tame a familiar."
-		"&6Tamed familiars need to be bound using the corresponding &bFamiliar Trinket&6."
-		"&6The bound Familiar Trinket can be placed in the &eCurios Slot&6."
-		"&6Then press the &d【P】 &6key to summon and dismiss the familiar."
-		""
-		"&7&oSome familiar descriptions were written by Shi_yue33."
-	]
-	quest.6B5D3B7AD863862F.quest_subtitle: "Companions on the Journey"
-	quest.6B5D3B7AD863862F.title: "Taming Familiars"
 	quest.6B64D3D885D9E1A9.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
 	quest.6B64D3D885D9E1A9.quest_subtitle: "Kill the Cursed Winged Wraith and submit its drops"
 	quest.6B64D3D885D9E1A9.title: "Crowning the Throne of Ice"
@@ -3388,9 +3106,6 @@
 	quest.7027688F812C9DCE.quest_subtitle: "Rich Milky Flavor"
 	quest.7053C2521F197FF5.quest_subtitle: "&5&l「End」&r&eExplaining Draconic Common Sense"
 	quest.7053C2521F197FF5.title: "Act 5: The Dragon Race"
-	quest.707603494DF98ADC.quest_desc: ["&6This spell is currently uncraftable and is an easter egg item."]
-	quest.707603494DF98ADC.quest_subtitle: "Easter Egg Spell Scroll"
-	quest.707603494DF98ADC.title: "Serenade Spell Scroll"
 	quest.7082701EBE593912.quest_desc: [
 		"&dEternal Starlight &6adds a mysterious Starlight dimension."
 		"&6It features &28 &6unique biomes with distinct ecosystems,"
@@ -3534,23 +3249,10 @@
 	]
 	quest.75BFB4E20D3E76DC.quest_subtitle: "Mob Farm Killing Chamber"
 	quest.75BFB4E20D3E76DC.title: "Spikes"
-	quest.75DAC7E968F5A64D.quest_desc: [
-		"Combat: Specializes in poison magic, poisoning enemies and letting them die slowly."
-		"Abilities:"
-		"Toxic Blood: He and his owner deal increased damage to poisoned entities. When Plague Doctor familiars are hit, they throw poison potions as a countermeasure."
-		"Spawning: To obtain him, you need to craft a &4Potion of Poison &rand give it to a tamed &aDruid Familiar&r."
-		"Food: Can be healed using Poisonous Spider Fangs."
-	]
-	quest.75DAC7E968F5A64D.title: "Plague Doctor Familiar"
 	quest.75F377E217613AEF.quest_subtitle: "Grow to the Young Dragon stage"
 	quest.75F377E217613AEF.title: "Young Sea Dragon"
 	quest.762DDE9C0729E876.quest_subtitle: "Collect all rings"
 	quest.762DDE9C0729E876.title: "&aRings Completion"
-	quest.7660B5738B22D1C0.quest_desc: [
-		"Right-click on an &aArchmage Familiar &rto bind it. Equip it in the necklace slot to summon/dismiss the bound familiar. Can be found in &6Frost Mage Towers&r."
-		""
-		"&9Structure Compass: &b【Iron's Spells 'n Spellbooks】Frost Mage Tower"
-	]
 	quest.7669BD22EB40BE98.quest_desc: [
 		"&aObjective: Purchase the Guild Key from the Guild Master"
 		""
@@ -3575,13 +3277,6 @@
 	]
 	quest.7683B63A191EC24D.quest_subtitle: "Visit Eternal Starlight's 6 forests and some structures"
 	quest.7683B63A191EC24D.title: "I see it, the everlasting surge!"
-	quest.76DA5D673D138D6D.quest_desc: [
-		"Right-click on a &aBlazing Familiar &rto bind it. Equip it in the necklace slot to summon/dismiss the bound familiar. Can be found in &6Blazing Mage Towers&r."
-		""
-		"&9Structure Compass: &b【Iron's Spells 'n Spellbooks】Blazing Mage Tower"
-		""
-		"&o&7Note: Can also be found in structures housing familiars in the Nether."
-	]
 	quest.77457906D3353B69.quest_desc: [
 		"&7【&d&lV&r&7】&5&lIron's Spells: Tap to use spells"
 		"&7【&d&lT&r&7】&5&lIron's Spells: Open spell wheel"
@@ -3610,13 +3305,6 @@
 	]
 	quest.77457906D3353B69.quest_subtitle: "Must Read"
 	quest.77457906D3353B69.title: "&dKeybind Tips"
-	quest.775821B61326D686.quest_desc: [
-		"&aObjective: Craft Evoker Shards"
-		""
-		"&d【Right-click】 &6to spawn an &eEvoker Familiar&6."
-		"&6Recipe:"
-		"{image:kubejs:textures/task/summoner_shard.png width:200 height:200 align:center}"
-	]
 	quest.7768704F7110F259.title: "Blocktown Blueprint Assortment"
 	quest.77777B69F96AD646.quest_desc: [
 		"&6Right-click a Dining Table with the Ledger to bind it. Right-click again to unbind. Each table gets its own number. Once you start operating, bound tables may order dishes and drinks from the menu, displayed on the left of your inventory. Fulfill the order for the corresponding table number to earn coins!"
@@ -3625,22 +3313,10 @@
 		"&o&7Why can't I see the customers??&r&r"
 	]
 	quest.77777B69F96AD646.quest_subtitle: "Welcome~"
-	quest.77A674B07F9D02CC.quest_desc: [
-		"&aObjective: Craft a Mirror of Truth"
-		""
-		"&d【Right-click】 &6to use the &eMirror of Truth &6to reveal hidden &eIllusioner Familiars&6."
-		"&6Recipe:"
-		"{image:kubejs:textures/task/truth_mirror.png width:200 height:200 align:center}"
-	]
 	quest.77B34238D24BB235.quest_subtitle: "Thunder startles heaven and earth, dragons and snakes hibernate"
 	quest.77B34238D24BB235.title: "&3Thunder Conjuration"
 	quest.78411669AF1FD737.quest_subtitle: "Submit 11 types of bucket fish"
 	quest.78411669AF1FD737.title: "Lava Angler"
-	quest.788C34888B5F1C0E.quest_desc: [
-		"Right-click on a &aDruid Familiar &rto bind it. Equip it in the necklace slot to summon/dismiss the bound familiar with its keybind. Can be found in &2Jungle Temples&r."
-		""
-		"&9Structure Compass: &bJungle Temple"
-	]
 	quest.788F9A70AD8AE1C7.title: "Observation: Giant Lily Pad"
 	quest.78C4C223493F39D2.quest_subtitle: "&5&l「End」&r&dLegacy of the Draconic Ancestors"
 	quest.78C4C223493F39D2.title: "Act 4: Dragon Heart"
@@ -3716,11 +3392,6 @@
 	quest.7D308C430870C16F.quest_subtitle: "Romantic figures of the ages, west of the ancient fortress"
 	quest.7D308C430870C16F.title: "&8Dark Conjuration"
 	quest.7D4B1A1F9E3FC20C.quest_subtitle: "Midsummer's Finest Drink"
-	quest.7D4CBD8911785C5D.quest_desc: [
-		"Right-click on an &aEvoker Familiar &rto bind it. Equip it in the necklace slot to summon/dismiss the bound familiar with its keybind. Can be found in &6Ancient Cities&r."
-		""
-		"&9Structure Compass: &bAncient City"
-	]
 	quest.7D81132CD0C6EF1C.quest_desc: ["&fCongratulations on completing the Tundra Dragon's path of growth!"]
 	quest.7DA6938BDD9417AE.quest_desc: [
 		"&aObjective: Obtain Dragon Bones"
@@ -3737,7 +3408,6 @@
 	]
 	quest.7DB7B55E956A4A94.quest_subtitle: "Prevent Animal Spawning"
 	quest.7DD416AF2172DFC1.title: "Flight Empowerment"
-	quest.7DE4E3D96764D416.quest_desc: ["Right-click on a &aBard Familiar &rto bind it. Equip it in the necklace slot to summon/dismiss the bound familiar with its keybind. Obtained from &4Mysterious Orbs&r."]
 	quest.7E43C24DAFAF97FB.quest_desc: [
 		"Terrarian Confluence is an expansion mod combining Minecraft and Terraria, aiming to break the boundaries between these two games and bring players a unique gaming experience."
 		""
@@ -3838,7 +3508,6 @@
 	task.47EF0A9E75AD7C31.title: "Reach the Blossom Palace"
 	task.48D06F60D6501811.title: "Pixie Village"
 	task.4DD3DC302875CF23.title: "Read Me"
-	task.51B6B7C3EE7C972C.title: "Observe [Ritual Core]"
 	task.53A89357B6E4BB6A.title: "Reach the Trial Chambers"
 	task.5AC3C8A012576E52.title: "All Objectives Completed"
 	task.5D04F3C0318EA71B.title: "Reach the Sky Knights Frigate"

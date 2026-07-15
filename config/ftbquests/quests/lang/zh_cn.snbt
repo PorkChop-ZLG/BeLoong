@@ -474,11 +474,6 @@
 	quest.0850E956F0AFB4DF.title: "彩虹猫之刃"
 	quest.087A166AA7484802.quest_subtitle: "成长到太古龙阶段"
 	quest.087A166AA7484802.title: "太古海洋龙"
-	quest.08A211F39D111276.quest_desc: [
-		"&a目标：获得魔宠灵魂"
-		""
-		"&6使用&e空瓶子&6对&e失落灵魂&d【右键】&6获取&e魔宠灵魂&6。"
-	]
 	quest.08CE97F6C822784E.quest_desc: ["&9结构罗盘：&b【东方秘术】道观&r"]
 	quest.08CE97F6C822784E.quest_subtitle: "学习两仪法术"
 	quest.08CE97F6C822784E.title: "挑战：道观"
@@ -486,18 +481,6 @@
 	quest.095F26381CC3BDF9.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196959C6E061913D\" } }"]
 	quest.095F26381CC3BDF9.quest_subtitle: "击杀黑曜巨石柱，提交其掉落物"
 	quest.095F26381CC3BDF9.title: "击败：黑耀巨石柱"
-	quest.0981AABC1E98CC30.quest_desc: [
-		"战斗：来自不同学校的基础魔法。"
-		"能力："
-		"转换：能够将基座中的法术卷轴转换为其他相同稀有度的随机卷轴，并且有一点机会获得更高稀有度的卷轴。"
-		"安德曼的噩梦：末影人很害怕他，看到他就会逃跑。"
-		"潜影贝保护：具有对抗潜影贝子弹的能力。"
-		"生成：可以在&6末地实验室&r发现。"
-		"食物：可以使用奥术布治疗。"
-		""
-		"&9结构罗盘：&b【魔宠】末地实验室"
-	]
-	quest.0981AABC1E98CC30.title: "大法师魔宠"
 	quest.09AD9A5F6A9D97B8.quest_desc: ["&9结构罗盘：&b【YUNG】海底神殿&r"]
 	quest.09AD9A5F6A9D97B8.title: "挑战：海底神殿"
 	quest.0A359F255D5E3C1B.title: "龙之生存专属附魔书"
@@ -682,18 +665,6 @@
 	]
 	quest.1036A454EE8AB619.quest_subtitle: "击败「慈悲」和「王国」"
 	quest.1036A454EE8AB619.title: "慈悲的国王"
-	quest.10B31CDCE12AD99C.quest_desc: [
-		"战斗：专攻火魔法，将敌人烧死。"
-		"能力："
-		"熔岩之心：被击中后，他会让攻击者着火一段时间。"
-		"耐热：赋予他的主人和他自己火焰免疫力。"
-		"生成：可以在&2下界&r的炎热地方四处游荡。"
-		"食物：可以用烈焰粉治愈。"
-		""
-		"&9结构罗盘：&b绯红附魔台&r"
-		"&9结构罗盘：&b下界恶魔&r"
-	]
-	quest.10B31CDCE12AD99C.title: "炽热魔宠"
 	quest.10E3B21E1DACD87E.quest_subtitle: "成长到成年龙阶段"
 	quest.10E3B21E1DACD87E.title: "成年苔原龙"
 	quest.10EEAA4808CEB43D.quest_desc: [
@@ -720,16 +691,6 @@
 	]
 	quest.10F9BE8C1E4AE1FA.quest_subtitle: "★★★"
 	quest.10F9BE8C1E4AE1FA.title: "暮色森林：冰雪女王"
-	quest.113378DAACF3A395.quest_desc: [
-		"战斗：擅长召唤魔法，控制敌人迷惑他们。"
-		"能力："
-		"魔术：当主人的生命值较低时，幻术师会施展魔术，将他的主人隐藏起来，不让敌人看到。"
-		"诱饵：当他的生命值较低时，他会消失，留下一个爆炸性的复制品，嘲讽周围的敌人攻击它。"
-		"扒手：当没有人看着并且地板上有&e金粒&r或&a绿宝石&r时，这个小骗子会把它们据为己有。"
-		"生成：&a幻术师魔宠&r自然地伪装成其他主世界的魔宠，使用&4真理之镜&r让他们显现自己。"
-		"食物：可以用金块治疗。"
-	]
-	quest.113378DAACF3A395.title: "幻术师魔宠"
 	quest.11394C5FEF7DB9AA.quest_subtitle: "水光潋滟晴方好"
 	quest.11394C5FEF7DB9AA.title: "&f神圣学派"
 	quest.115598900952BB0D.title: "打卡：蕈毒灌丛带"
@@ -789,11 +750,6 @@
 	quest.12F9EDC857BB2555.title: "洞穴龙的美食"
 	quest.130DF0F4E2C8FCD1.quest_desc: ["&c完成章节【龙族图鉴】后解锁！"]
 	quest.130DF0F4E2C8FCD1.title: "群星之怒"
-	quest.132B8803AE174E78.quest_desc: [
-		"右键单击一个&a幻术师魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6林地府邸&r 中找到"
-		""
-		"&9结构罗盘：&b林地府邸"
-	]
 	quest.132EA960D6542BEB.quest_subtitle: "想成为魔法少女吗"
 	quest.132EA960D6542BEB.title: "第一步：获得御币"
 	quest.13427D639FF8D906.quest_desc: ["&c完成章节【暮色森林】后解锁！"]
@@ -879,11 +835,6 @@
 		"&c注：为了防止滥用，需要开启作弊权限！"
 	]
 	quest.163153BE5D349228.title: "清理掉落物"
-	quest.1647C075AFC0FC73.quest_desc: [
-		"&6通过开启&e神秘宝珠&6获得，用于解锁&3律灵&6法术。"
-		"{ \"text\": \"点击跳转到获取方式\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53F62FC8058F6AE7\" } }"
-	]
-	quest.1647C075AFC0FC73.title: "吟游诗人装备"
 	quest.16AC902A8860C5D5.quest_subtitle: "成长到红巨星阶段"
 	quest.16AC902A8860C5D5.title: "红巨星"
 	quest.16AD045AE7B461C7.quest_subtitle: "纯米大吟酿"
@@ -970,17 +921,6 @@
 	quest.196959C6E061913D.quest_subtitle: "★★★"
 	quest.196959C6E061913D.title: "祸乱鬼魅：黑耀巨石柱"
 	quest.19878C818E548C2D.title: "观察：根须"
-	quest.19BFE7F4FD9FF5A4.quest_desc: [
-		"&eAlshanex's Familiars"
-		"&e铁魔法&6的附属，添加了&212种&6名为&a魔宠&6的生物。"
-		"&a魔宠&6可以用&9奥术源质&6驯服，之后可以跟随玩家。"
-		"&a魔宠&6会使用强大的魔法与玩家并肩作战。"
-		"&6同时增加了一种新的法术流派：&3律灵"
-		""
-		"&7&o注：部分内容可能有误，将在未来的版本重写。"
-	]
-	quest.19BFE7F4FD9FF5A4.quest_subtitle: "旅途中的伙伴"
-	quest.19BFE7F4FD9FF5A4.title: "Alshanex的魔宠"
 	quest.19DA784FDC312506.quest_desc: [
 		"&a目标：成长到始祖龙阶段，击败黑暗二重身"
 		""
@@ -1001,11 +941,6 @@
 	quest.19F5D45CF7D9CAF5.quest_subtitle: "集齐黯影龙铠套装"
 	quest.19F5D45CF7D9CAF5.title: "最光明，最黑暗"
 	quest.1A1F4138D32ADC70.title: "护符T0"
-	quest.1A4D533D4FC10A14.quest_desc: [
-		"右键单击&a死灵法师魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤绑定魔宠，可在&6 下界墓园&r 中找到"
-		""
-		"&9结构罗盘：&b【魔宠】下界墓园"
-	]
 	quest.1A60448B701DF708.quest_desc: [
 		"&a目标：击败星光傀儡，获得氧化的合金炉"
 		""
@@ -1054,18 +989,6 @@
 	quest.1B5B7580815E49B0.quest_desc: [" 手持羊毛时它会主动跟随，右击将不同颜色的羊毛交给它，也可以丢在地上让它去拾取，每获得一个颜色的羊毛，它的身体就会变长，同时周身散发与给予羊毛颜色相同的颗粒，身上也会有对应颜色的羊毛。当它得到了原版全十六色的羊毛后，周身会散发全部给予羊毛颜色的颗粒，并丢出谜题羊战利品、瓦解之号角、铁块、金块、青金石块、钻石块、绿宝石块各一个"]
 	quest.1B5B7580815E49B0.quest_subtitle: "他似乎想和我交易"
 	quest.1B5B7580815E49B0.title: "&5奇怪的羊"
-	quest.1BC6ADF60CE0E739.quest_desc: [
-		"&a目标：抵达起源之岛"
-		""
-		"&6浩瀚的海洋中有一座失落已久的岛屿,"
-		"&6它唯一的居民是&a失落灵魂&6，这是魔宠非常早期的形态。"
-		"&6失落灵魂可以用&e空瓶子&6装瓶，可以在&e魔宠仪式&6中使用。 "
-		"&e魔宠仪式&6在岛的中心进行，使用&e祭坛合成&6魔宠物品。"
-		""
-		"&b结构罗盘：&9【魔宠】起源之岛"
-	]
-	quest.1BC6ADF60CE0E739.quest_subtitle: "魔宠的起源之地"
-	quest.1BC6ADF60CE0E739.title: "起源之岛"
 	quest.1BCEED323665EDE1.quest_subtitle: "成长到太古龙阶段"
 	quest.1BCEED323665EDE1.title: "太古苔原龙"
 	quest.1C07B232D4664C3D.quest_desc: [
@@ -1160,11 +1083,6 @@
 	quest.203DA3A3EA44F457.title: "严厉"
 	quest.20418663EEBB6E73.quest_subtitle: "天权非远近，不可向人宣"
 	quest.20418663EEBB6E73.title: "&2天权"
-	quest.208CA6AD540C7968.quest_desc: [
-		"右键单击&a瘟疫医生魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤具有键绑定的魔宠，可在&6 被刺穿的破冰船&r 中找到"
-		""
-		"&9结构罗盘：&b【铁魔法】被刺穿的破冰船"
-	]
 	quest.20A6123E18C27B8B.quest_desc: [
 		"&6在任何超越维度的UI槽位中右键，将会转换一定玩家等级变为液态经验（一种流体）并存入当前槽位，亦可右键标记槽来标记液态经验。对着任何液态经验流体中键，可以将经验转换为玩家等级。"
 		""
@@ -1342,37 +1260,9 @@
 	quest.2599EC1F2F19464A.title: "主序星"
 	quest.25B16F5A70DCC3AA.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03DA2F2992CDD7DA\" } }"]
 	quest.25B16F5A70DCC3AA.title: "慈悲"
-	quest.25CB6218676EEC49.quest_desc: [
-		"右键进入一个&a雷霆术士魔宠&r绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6冰霜术士塔&r中找到"
-		""
-		"&9结构罗盘：&b【铁魔法】冰霜术士塔"
-	]
-	quest.25E5594426882E5A.quest_desc: [
-		"右键单击&a猎人魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤具有键绑定的受束缚魔宠，可在 &6召唤师塔 &r中找到"
-		""
-		"&9结构罗盘：&b【铁魔法】召唤师塔"
-	]
 	quest.26053B577195305A.quest_subtitle: "成长到黑洞阶段"
 	quest.26053B577195305A.title: "黑洞"
 	quest.267503A8DD306195.quest_subtitle: "咖啡冰淇淋~"
-	quest.26B50865936A316F.quest_desc: [
-		"&a目标：合成雷霆术士碎片"
-		""
-		"&d【右键】&6生成&e雷霆术士魔宠&6。"
-		"&6配方如下："
-		"{image:kubejs:textures/task/lightning_mage_shard.png width:200 height:200 align:center}"
-	]
-	quest.26D99EE35B3F2868.quest_desc: [
-		"战斗：专攻血魔法，包括召唤亡灵的死灵术能力。"
-		"能力："
-		"亡灵混沌：有能力让周围的亡灵实体横冲直撞，在混乱中攻击附近的实体。"
-		"枯萎：有能力将附近的骷髅变成凋零骷髅。"
-		"出生点：可以在&2灵魂沙谷&r的&6下界墓园&r中找到研究死亡的情况。"
-		"食物：可以用骨头或血瓶来治愈。"
-		""
-		"&9结构罗盘：&b【魔宠】下界墓园"
-	]
-	quest.26D99EE35B3F2868.title: "死灵法师魔宠"
 	quest.26F59CBF01B32CE6.quest_desc: [
 		"&a目标：集齐怪物图鉴中的所有BOSS"
 		""
@@ -1387,15 +1277,6 @@
 	]
 	quest.26F59CBF01B32CE6.quest_subtitle: "集齐领主图鉴，即可通关"
 	quest.26F59CBF01B32CE6.title: "&e【领主全收集】"
-	quest.27C667BFA15E8E67.quest_desc: [
-		"战斗：专攻闪电魔法，施放同时击中多个目标的法术。"
-		"能力："
-		"Charge Owner：有能力为所有者充电一段时间，提高他的速度和力量。"
-		"冲锋爬行者：每次找到爬行者，他都会跟着他冲锋。"
-		"生成：可以在&2山中&r徘徊，寻找吸引闪电的好地方。"
-		"食物：可以用闪电瓶治疗。"
-	]
-	quest.27C667BFA15E8E67.title: "雷霆术士魔宠"
 	quest.282FECD2B1F669AD.quest_subtitle: "你想知道的都在这里"
 	quest.282FECD2B1F669AD.title: "茶艺指南"
 	quest.28625E49F473135B.quest_desc: [
@@ -1498,17 +1379,6 @@
 	]
 	quest.2B5CAD5134FFA4AF.quest_subtitle: "开启『化龍』之旅吧！"
 	quest.2B5CAD5134FFA4AF.title: "&6&l主线：龙之生存"
-	quest.2B8490063511F9F1.quest_desc: [
-		"战斗：擅长使用自然魔法来控制敌人。"
-		"能力："
-		"过度生长：具有对附近农作物进行骨粉的能力。"
-		"Nature's Blessing：具有繁殖附近动物的能力。"
-		"生成：可以在&2森林&r中发现。"
-		"食物：可以用树苗治愈。"
-		""
-		"&c注：德鲁伊魔宠禁止自然生成，请在系统商店购买"
-	]
-	quest.2B8490063511F9F1.title: "德鲁伊魔宠"
 	quest.2B9D5B62DD244102.quest_subtitle: "升级苔原龙4个被动技能到满级"
 	quest.2B9D5B62DD244102.title: "掌握冰之奥义"
 	quest.2C055589A88C2771.quest_subtitle: "开启森林龙的成长之路"
@@ -1540,11 +1410,6 @@
 	quest.2CFF0B3572B7EB9E.title: "利维坦"
 	quest.2D088213B9CC2A49.quest_subtitle: "醉梦遇桃仙"
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "梦幻如泡沫"
-	quest.2D718FB73B8AF552.quest_desc: [
-		"右键单击一个&a冰霜术士魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6冰霜术士塔&r 中找到"
-		""
-		"&9结构罗盘：&b【铁魔法】冰霜术士塔"
-	]
 	quest.2E6A1BFF333127EA.quest_subtitle: "死者之王小概率掉落"
 	quest.2E6A1BFF333127EA.title: "熄法结节 法术卷轴"
 	quest.2E92127811717292.quest_subtitle: "重兵把守的传送门"
@@ -1552,17 +1417,6 @@
 	quest.2EB0BF01344C3DD7.title: "钻心紫颂果"
 	quest.2ECA4D4990D20697.quest_desc: ["&a目标：集齐龙霆钢武器和工具"]
 	quest.2ECA4D4990D20697.title: "龙霆钢装备"
-	quest.2ECA678E765E94F4.quest_desc: [
-		"战斗：擅长可怕的魔法和未知的艺术，能够召唤在阴影中诞生的生物。"
-		"能力："
-		"真视：除了使主人免疫失明和黑暗效果外，还能够为主人提供夜视能力。"
-		"黑暗仪式：能够停用幽匿尖啸者，向典狱长隐藏主人。"
-		"生成：可以在他位于&6古城&r的实验室里研究黑魔法。"
-		"食物：可以使用远古知识碎片进行治疗。"
-		""
-		"&9结构罗盘：&b远古城市"
-	]
-	quest.2ECA678E765E94F4.title: "唤魔师魔宠"
 	quest.2ECFB391DB73DDF9.quest_subtitle: "升级森林龙4个被动技能到满级"
 	quest.2ECFB391DB73DDF9.title: "掌握木之奥义"
 	quest.2F2C234A12BA69AD.title: "金海龟蛋"
@@ -1623,15 +1477,6 @@
 		"&6番外&3【铁魔法】&6的通关奖励。"
 		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
 	]
-	quest.309081C2591414CB.quest_desc: [
-		"&a目标：获得嗅探兽蛋，孵化一只嗅探兽"
-		""
-		"&6使用刷子&d【右键】&6可疑的沙子，有概率获得&e嗅探兽蛋&6。"
-		"&6将&e嗅探兽蛋&6放在&e苔藓块&6上，&210分钟&6后孵化。"
-		"&e嗅探兽&6有时会在地里挖出&e晶化浆果&6，"
-		"&e晶化浆果&6是魔宠最喜欢的食物，可以唤醒记忆。"
-	]
-	quest.309081C2591414CB.quest_subtitle: "培育一只嗅探兽"
 	quest.309615294A70B9E9.quest_desc: ["&9结构罗盘：&b【YUNG】沙漠神殿&r"]
 	quest.309615294A70B9E9.title: "挑战：沙漠神殿"
 	quest.30A3124E55AA6C4F.title: "高阶唤魔师装备"
@@ -1697,7 +1542,6 @@
 	quest.32F93BDD9F3692F9.title: "击杀：塔木蛀虫"
 	quest.330CE4B915D1BB41.quest_subtitle: "成长到远古龙阶段"
 	quest.330CE4B915D1BB41.title: "远古海洋龙"
-	quest.33959EE68C579CD0.title: "吟游诗人装备"
 	quest.33C7AE423913A469.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15CE2F1DA319C4B4\" } }"]
 	quest.33C7AE423913A469.quest_subtitle: "击杀斯库拉，提交其掉落物"
 	quest.33C7AE423913A469.title: "铸就水之龙躯"
@@ -1897,21 +1741,6 @@
 	quest.39A482BF78452D09.title: "充能汤"
 	quest.39AF32032B46C495.quest_subtitle: "开启以太龙的成长之路"
 	quest.39AF32032B46C495.title: "幼年以太龙"
-	quest.3A606C2453D06AFF.quest_desc: [
-		"&a目标：观察仪式核心5秒"
-		""
-		"&e起源之岛&6的中间是一座&e祭坛&6，"
-		"&e祭坛&6的四周摆放着&e魔宠雕像&6，中央是&e祭坛核心&6。"
-		"&6使用&dEMI&6查询祭坛合成的配方。"
-		"&6将配方&e中间&6的物品&d【右键】&6摆放在&e祭坛核心&6上面，"
-		"&6配方&e四周&6的物品&d【右键】&6摆放在&e四座雕像&6上面。"
-		"&6除了中间的物品，四周的物品&a没有摆放顺序&6。"
-		""
-		""
-		"{image:kubejs:textures/task/ritual_core.png width:200 height:160 align:center}"
-	]
-	quest.3A606C2453D06AFF.quest_subtitle: "合成魔宠物品"
-	quest.3A606C2453D06AFF.title: "魔宠仪式"
 	quest.3AA1AA79BED0F294.quest_desc: [
 		"&a兑换：天赐之翼+横滚之能=空龙魂"
 		""
@@ -2029,12 +1858,6 @@
 	]
 	quest.3EDDBBC5AF621226.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C0284F1758BA896\" } }"]
 	quest.3EDDBBC5AF621226.title: "先驱者"
-	quest.3EE35D1C668B344B.quest_desc: [
-		"召唤：合成&b冰霜术士碎片&f进行召唤"
-		""
-		"&7&o暂无详细资料，请自行摸索"
-	]
-	quest.3EE35D1C668B344B.title: "冰霜术士魔宠"
 	quest.3F053183F9C244AD.quest_desc: [
 		"&a目标：找到下界的城堡"
 		""
@@ -2282,23 +2105,8 @@
 	]
 	quest.48E18718D8715F1A.quest_subtitle: "★★★"
 	quest.48E18718D8715F1A.title: "暮色森林：九头蛇"
-	quest.494B6EFDE9F2D605.quest_desc: [
-		"战斗：擅长圣魔法，他的主要作用是辅助，但他也可以施放强大的圣法术来净化敌人。"
-		"能力："
-		"救赎：他会在看到不死生物时攻击他，但如果他看到僵尸村民，他会用他的神圣力量治愈他并赐予他救赎。"
-		"生成：要获得&a牧师魔宠&r，你需要在未驯服的&a死灵法师魔宠&r附近施放&d净化法术&r。"
-		"食物：可以用神圣珍珠来治疗。"
-	]
-	quest.494B6EFDE9F2D605.title: "牧师魔宠"
 	quest.49E035E1CB353C48.quest_subtitle: "成长到成年龙阶段"
 	quest.49E035E1CB353C48.title: "成年海洋龙"
-	quest.49E7BEC398FC9C2D.quest_desc: [
-		"&a目标：获得竖琴"
-		""
-		"&6开启&e神秘宝珠&6获得。"
-		"&6手持&e竖琴&6使用&e卷轴抄写台&6，解锁&3律灵&6法术。"
-		"{ \"text\": \"点击跳转到律灵学派\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AC7F72FF93C6500\" } }"
-	]
 	quest.49FC89FFF13329BF.quest_subtitle: "成长到中子星阶段"
 	quest.49FC89FFF13329BF.title: "中子星"
 	quest.4A3DB16FEE8A6BE4.title: "高阶唤魔师装备"
@@ -2487,24 +2295,6 @@
 	]
 	quest.4F428214195427D6.quest_subtitle: "醉天地"
 	quest.4F9732AC25D1D1CA.title: "手饰T2"
-	quest.4F977202E988A26C.quest_desc: [
-		"&3吟游诗人魔宠&6是最难获得的魔宠。"
-		"&6首先，你要获得驯服其他所有魔宠的&e成就&6，"
-		"&6之后，你要合成并且开启&b神秘宝珠&6，"
-		"{ \"text\": \"点击跳转到神秘宝珠介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53F62FC8058F6AE7\" } }"
-		"&6然后，在&e未驯服的魔宠&6附近，"
-		"&6手持&e竖琴&6施放一个&3律灵魔法&6，"
-		"&6让其爱上音乐，变成&3吟游诗人魔宠&6。"
-		"&6最后，使用&b奥术源质&6进行驯服，"
-		"&6使用&e失落旋律&6进行绑定。"
-		""
-		"&r战斗：擅长声音魔法，用强大的旋律攻击他的敌人，但也用辅助旋律支持他的朋友。"
-		"能力："
-		"音乐性质：他会演奏旋律，让冒险变得更美好。"
-		"食物：可以用音乐唱片来治疗。"
-	]
-	quest.4F977202E988A26C.quest_subtitle: "【魔宠支线    完结】"
-	quest.4F977202E988A26C.title: "&3&l吟游诗人魔宠"
 	quest.4F9B70EE7BB0E995.quest_desc: [
 		"&a目标：获得电龙血"
 		""
@@ -2521,13 +2311,6 @@
 	quest.5003D0EDCDBEB34E.title: "&b卑贱的不死族"
 	quest.5026FCE365E612AF.quest_subtitle: "血色罗裙翻酒污"
 	quest.5026FCE365E612AF.title: "&4猩红学派"
-	quest.507B726553E6BC24.quest_desc: [
-		"&a目标：合成大法师碎片"
-		""
-		"&d【右键】&6生成&e大法师魔宠&6。"
-		"&6配方如下："
-		"{image:kubejs:textures/task/archmage_shard.png width:200 height:200 align:center}"
-	]
 	quest.5083AFBE18C36085.quest_desc: [
 		"&4纹章系统&6相当于其它 Mod（铁魔法、诡厄巫法等）的法术系统；"
 		""
@@ -2570,13 +2353,6 @@
 	quest.508986FA5D56C11E.quest_subtitle: "【洞穴龙成长之路    完结】"
 	quest.508986FA5D56C11E.title: "&c洞穴龙毕业"
 	quest.5096264BBB1C9577.quest_subtitle: "无尽的法力"
-	quest.50A3AE4D35FD1CB3.quest_desc: [
-		"&a目标：合成德鲁伊碎片"
-		""
-		"&d【右键】&6生成&e德鲁伊魔宠&6。"
-		"&6配方如下："
-		"{image:kubejs:textures/task/druid_shard.png width:200 height:200 align:center}"
-	]
 	quest.50BB90328AFA019B.title: "击杀：旋风人"
 	quest.50E66A5B37FF3E9B.quest_desc: [
 		"&a目标：找到传承之所"
@@ -2685,17 +2461,6 @@
 	]
 	quest.53401F206F58F9C4.quest_subtitle: "倚天屠龙记"
 	quest.534483AFF139EBD4.title: "阴阳师装备"
-	quest.5362937A37D4D82E.quest_desc: [
-		" 战斗： 擅长用箭攻击敌人，结合快速动作。"
-		" 能力："
-		" Watcher：有能力保护拥有者免受瞄准他的敌人的攻击，即使拥有者没有注意到他们。"
-		"闻到战利品的味道：拥有者可以用任何物品右键单击他，让他搜索周围可以掉落它们的实体，并标记它们供拥有者查看。"
-		" 生成：可以在&2森林生物群系&r的&6猎人营地&r或&2主世界&r中发现。"
-		"食物：可以用狼的食物来治疗。"
-		""
-		"&9结构罗盘：&b【魔宠】猎人营地"
-	]
-	quest.5362937A37D4D82E.title: "猎人魔宠"
 	quest.53A0BF6EAC599D29.quest_desc: ["这里曾孕育了十分繁荣的文明，但是你未能亲眼目睹。如今永恒之夜笼罩着这里，森林中仅存着一些遗迹、葱郁的树木及奇怪的生物。你决心揭开暮色森林的神秘面纱，但是你很快发现，遗迹拥有了新的主人。并非所有森林居民都对入侵者十分友好！找到一些&a火炬浆果&r和&a渡鸦羽毛&r用他们和&a萤石&r合成&d魔法地图核心"]
 	quest.53A0BF6EAC599D29.quest_subtitle: "附近的建筑中貌似散发着敌意"
 	quest.53A0BF6EAC599D29.title: "&e真龙不惧任何挑战"
@@ -2714,15 +2479,6 @@
 	]
 	quest.53B131469820D741.quest_subtitle: "『化龍』也能玩模拟经营？"
 	quest.53B131469820D741.title: "&e东方夜雀食堂"
-	quest.53F62FC8058F6AE7.quest_desc: [
-		"&a目标：合成神秘宝珠"
-		""
-		"&6必须驯服除了&a吟游诗人魔宠&6以外的所有魔宠才能使用！"
-		"&d【右键】&6使用&e神秘宝珠&6可以获得&e竖琴&6和&e失落旋律&6。"
-		"&6这两个物品用于驯服&a吟游诗人魔宠&6。"
-		"&6配方如下："
-		"{image:kubejs:textures/task/mysterious_orb.png width:200 height:200 align:center}"
-	]
 	quest.5409A055F5C34999.quest_desc: [
 		"&6联机开服推荐 &r- &b&l星遥游戏"
 		""
@@ -3067,21 +2823,8 @@
 	quest.5FCFEA69626A53AE.title: "预制建筑：中式庭院"
 	quest.60300CF89DE750C2.quest_desc: ["&7那一日，灾从天降……"]
 	quest.60300CF89DE750C2.title: "&c&l第六章 天灾灭世"
-	quest.6096A24B9426FCFC.quest_desc: [
-		"&a目标：合成猎人碎片"
-		""
-		"&d【右键】&6生成&e猎人魔宠&6。"
-		"&6配方如下："
-		"{image:kubejs:textures/task/hunter_shard.png width:200 height:200 align:center}"
-	]
 	quest.60B7FFFA63E2B4B2.title: "冰霜执法者装备"
 	quest.60E6ED7ED056ABDD.title: "护符T2"
-	quest.6172FD3F22459CA3.quest_desc: [
-		"在&5末地&r随处可见"
-		""
-		"&7&o暂无详细资料，请自行摸索"
-	]
-	quest.6172FD3F22459CA3.title: "龙骑士魔宠"
 	quest.61841B2C10B08D91.quest_desc: [
 		"&a目标：第一行用绿色简述任务的完成目标"
 		""
@@ -3114,7 +2857,6 @@
 	quest.61841B2C10B08D91.quest_subtitle: "只有编写者能看到"
 	quest.61841B2C10B08D91.title: "任务编写规范"
 	quest.61ACAF91D4015A4E.title: "戒指T3"
-	quest.61C9B40DB6C199ED.quest_desc: ["右键点击一个&a牧师魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定的绑定魔宠，可以在&6牧师塔&r中找到"]
 	quest.61D94A7F289D6DE8.quest_desc: [
 		"&6空手Shift右键绑定到当前玩家所在的维度网络。维度网络的管理员空手Shift右键可取消绑定。"
 		""
@@ -3242,13 +2984,6 @@
 	quest.6705495FDA1F7987.quest_subtitle: "提供龙的免疫效果"
 	quest.67177331CC1421A8.title: "拉回黑暗二重身"
 	quest.6739C42CBAC00318.title: "陶瓦自选"
-	quest.67473775B305582F.quest_desc: [
-		"&a目标：获得记忆碎片"
-		""
-		"&6对&a已驯服的魔宠&6喂食&e晶化浆果&6获得&e记忆碎片&6。"
-		"&d【右键】&6使用&e记忆碎片&6，它会向末影之眼一样，"
-		"&6带领你前往魔宠的发源地——&a起源之岛&6。"
-	]
 	quest.675B09EF31EDCEA1.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300B6A5EADD11286\" } }"]
 	quest.675B09EF31EDCEA1.quest_subtitle: "击杀远古遗魂，提交其掉落物"
 	quest.675B09EF31EDCEA1.title: "铸就风之龙躯"
@@ -3306,37 +3041,11 @@
 	quest.6AB162630EE26FE3.quest_desc: ["&a目标：通过龙之祭坛，化为一条龙"]
 	quest.6AB162630EE26FE3.quest_subtitle: "化为一条你喜欢的龙"
 	quest.6AB162630EE26FE3.title: "化龙"
-	quest.6AC7F72FF93C6500.quest_desc: [
-		"&6使用&e音符盒&6撰写&3律灵法术"
-		"&6手持&3竖琴&6才能释放&3律灵法术"
-		"{ \"text\": \"点击跳转到模组介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19BFE7F4FD9FF5A4\" } }"
-		"{image:minecraft:block/note_block width:100 height:100 align:mid}"
-	]
-	quest.6AC7F72FF93C6500.quest_subtitle: "如听仙乐耳暂明"
-	quest.6AC7F72FF93C6500.title: "&e律灵学派"
-	quest.6AF7686A53867768.quest_desc: [
-		"右键点击一个&a龙骑士师魔宠&r来绑定他，"
-		"击杀&5末影龙&r掉落。"
-	]
 	quest.6B26A9D9D92F69DA.quest_subtitle: "龙族流放之地"
 	quest.6B26A9D9D92F69DA.title: "打卡：末地内陆"
 	quest.6B3CAAA337596F88.quest_desc: [""]
 	quest.6B3CAAA337596F88.quest_subtitle: "饰品抽奖"
 	quest.6B3CAAA337596F88.title: "奇异饰品盲盒"
-	quest.6B5D3B7AD863862F.quest_desc: [
-		"&a目标：获得魔宠的床和奥术源质"
-		""
-		"&e魔宠的床&6用于回复魔宠的生命值。"
-		""
-		"&6使用&b奥术源质&6可以驯服魔宠，"
-		"&6驯服后的魔宠需要使用对应的&b魔宠饰物&6绑定，"
-		"&6绑定后的魔宠饰物可以放入&e饰品栏&6，"
-		"&6然后按&d【P】&6键唤出和收回魔宠。"
-		""
-		"&7&o魔宠的部分介绍由Shi_yue33负责编写。"
-	]
-	quest.6B5D3B7AD863862F.quest_subtitle: "旅途中的伙伴"
-	quest.6B5D3B7AD863862F.title: "驯服魔宠"
 	quest.6B64D3D885D9E1A9.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
 	quest.6B64D3D885D9E1A9.quest_subtitle: "击杀咒翼灵骸，提交其掉落物"
 	quest.6B64D3D885D9E1A9.title: "加冕冰之王座"
@@ -3502,9 +3211,6 @@
 	quest.7027688F812C9DCE.quest_subtitle: "奶香醇厚"
 	quest.7053C2521F197FF5.quest_subtitle: "&5&l「末」&r&d讲解龙族的常识"
 	quest.7053C2521F197FF5.title: "第五幕：龙族"
-	quest.707603494DF98ADC.quest_desc: ["&6该法术暂时无法合成，属于彩蛋物品。"]
-	quest.707603494DF98ADC.quest_subtitle: "彩蛋法术卷轴"
-	quest.707603494DF98ADC.title: "小夜曲 法术卷轴"
 	quest.7082701EBE593912.quest_desc: [
 		"&d永恒星光&6添加了一个神秘莫测的星光维度。"
 		"&6拥有&28个&6具有独特生态的生物群系；"
@@ -3682,23 +3388,10 @@
 	]
 	quest.75C55E4F8204566A.quest_subtitle: "目标：找到紫水晶巢穴"
 	quest.75C55E4F8204566A.title: "地底避难"
-	quest.75DAC7E968F5A64D.quest_desc: [
-		"战斗：专攻毒魔法，毒害敌人，让他们慢慢死去。"
-		"能力："
-		"毒血：他的主人和他自己对中毒的实体造成更高的伤害，当瘟疫医生佣兽被击中时，他们会投掷毒药水作为对策。"
-		"生成：要得到他，你需要制作一个&4剧毒试剂&r并将其交给一个被驯服的&a德鲁伊魔宠&r。"
-		"食物：可以用毒蜘蛛牙治愈。"
-	]
-	quest.75DAC7E968F5A64D.title: "瘟疫医生魔宠"
 	quest.75F377E217613AEF.quest_subtitle: "成长到青年龙阶段"
 	quest.75F377E217613AEF.title: "青年海洋龙"
 	quest.762DDE9C0729E876.quest_subtitle: "集齐所有戒指"
 	quest.762DDE9C0729E876.title: "&a戒指毕业"
-	quest.7660B5738B22D1C0.quest_desc: [
-		"右键单击&a大法师魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤绑定魔宠，可在&6 冰霜术士塔&r 中找到"
-		""
-		"&9结构罗盘：&b【铁魔法】冰霜术士塔"
-	]
 	quest.7669BD22EB40BE98.quest_desc: [
 		"&a目标：向公会首领购买公会之钥"
 		""
@@ -3723,13 +3416,6 @@
 	]
 	quest.7683B63A191EC24D.quest_subtitle: "打卡永恒星光的6种森林和部分结构"
 	quest.7683B63A191EC24D.title: "我看到了，生生不息的激荡！"
-	quest.76DA5D673D138D6D.quest_desc: [
-		"右键单击一个&a炽热魔宠&r来绑定他，装备在项链槽中，以便能够召唤/取消召唤绑定魔宠，可在 &6炽焰术士塔&r 中找到"
-		""
-		"&9结构罗盘：&b【铁魔法】炽焰术士塔"
-		""
-		"&o&7注：也能在下界发现魔宠的结构中找到哦"
-	]
 	quest.77457906D3353B69.quest_desc: [
 		"&7【&d&lV&r&7】&5&l铁魔法：点按使用魔法"
 		"&7【&d&lT&r&7】&5&l铁魔法：打开法术轮盘"
@@ -3761,13 +3447,6 @@
 	]
 	quest.77457906D3353B69.quest_subtitle: "必读"
 	quest.77457906D3353B69.title: "&d按键提示"
-	quest.775821B61326D686.quest_desc: [
-		"&a目标：合成唤魔师碎片"
-		""
-		"&d【右键】&6生成&e唤魔师魔宠&6。"
-		"&6配方如下："
-		"{image:kubejs:textures/task/summoner_shard.png width:200 height:200 align:center}"
-	]
 	quest.7768704F7110F259.title: "方块小镇蓝图自选"
 	quest.77777B69F96AD646.quest_desc: [
 		"&6使用账本右键餐桌即可绑定，再次右键解绑。每个桌子会有自己的桌号，开始营业后被绑定的餐桌可能会点菜单上的菜品与酒水，并在物品栏左边显示，满足对应桌号的需求就能获取钱币！"
@@ -3776,22 +3455,10 @@
 		"&o&7为什么我看不到顾客？？&r&r"
 	]
 	quest.77777B69F96AD646.quest_subtitle: "欢迎光临~"
-	quest.77A674B07F9D02CC.quest_desc: [
-		"&a目标：合成真理之镜"
-		""
-		"&d【右键】&6使用&e真理之境&6可以使隐藏的&e幻术师魔宠&6显形。"
-		"&6配方如下："
-		"{image:kubejs:textures/task/truth_mirror.png width:200 height:200 align:center}"
-	]
 	quest.77B34238D24BB235.quest_subtitle: "雷惊天地龙蛇蛰"
 	quest.77B34238D24BB235.title: "&3雷霆学派"
 	quest.78411669AF1FD737.quest_subtitle: "提交11种桶装鱼"
 	quest.78411669AF1FD737.title: "熔岩捕鱼达人"
-	quest.788C34888B5F1C0E.quest_desc: [
-		"右键单击&a德鲁伊魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤带有其键绑定的绑定魔宠，可在&2丛林神庙&r中找到"
-		""
-		"&9结构罗盘：&b丛林神庙"
-	]
 	quest.788F9A70AD8AE1C7.title: "观察：巨型荷花"
 	quest.78C4C223493F39D2.quest_subtitle: "&5&l「末」&r&d龙族先辈的遗留"
 	quest.78C4C223493F39D2.title: "第四幕：龙心"
@@ -3889,11 +3556,6 @@
 	quest.7D308C430870C16F.quest_subtitle: "千古风流人物故垒西边"
 	quest.7D308C430870C16F.title: "&8邪术学派"
 	quest.7D4B1A1F9E3FC20C.quest_subtitle: "盛夏佳饮"
-	quest.7D4CBD8911785C5D.quest_desc: [
-		"右键单击&a唤魔师魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤带有其键绑定的绑定魔宠，可在&6远古城市&r中找到"
-		""
-		"&9结构罗盘：&b远古城市"
-	]
 	quest.7D81132CD0C6EF1C.quest_desc: [
 		"&a目标：提交苔原龙的毕业证"
 		""
@@ -3916,7 +3578,6 @@
 	]
 	quest.7DB7B55E956A4A94.quest_subtitle: "禁止动物生成"
 	quest.7DD416AF2172DFC1.title: "飞行赋能"
-	quest.7DE4E3D96764D416.quest_desc: ["右键单击&a吟游诗人魔宠&r以绑定他，装备在项链槽中以能够召唤/取消召唤具有键绑定魔宠，从&4神秘宝珠&r中获得"]
 	quest.7E43C24DAFAF97FB.quest_desc: [
 		"《汇流来世》是一个结合《我的世界》与《泰拉瑞亚》的扩展模组，旨在打破这两款游戏原本的世界界限，为玩家带来独特的游戏体验。"
 		""
@@ -4034,7 +3695,6 @@
 	task.47EF0A9E75AD7C31.title: "抵达繁花之宫"
 	task.48D06F60D6501811.title: "小精灵村"
 	task.4DD3DC302875CF23.title: "已读点我"
-	task.51B6B7C3EE7C972C.title: "观察[仪式核心]"
 	task.53A89357B6E4BB6A.title: "抵达试炼密室"
 	task.5AC3C8A012576E52.title: "已完成所有目标"
 	task.5D04F3C0318EA71B.title: "抵达天际骑士团战舰"

@@ -1,0 +1,4 @@
+#Stun time in seconds that a familiar gets stunned with the Familiologist armor set bonus.
+# Default: 5
+# Range: > 1
+stunTimePerFamiliar = 5
