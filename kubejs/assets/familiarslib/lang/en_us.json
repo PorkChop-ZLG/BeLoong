@@ -1,8 +1,4 @@
 {
-  "school.familiarslib.sound": "Sound",
-  "attribute.familiarslib.sound_spell_power": "Sound Spell Power",
-  "attribute.familiarslib.sound_magic_resist": "Sound Spell Resistance",
-
   "ui.familiarslib.consumable_item": "Upgrade Item",
   "ui.familiarslib.consumable_item_desc": "Right click a Familiar to use",
   "ui.familiarslib.familiar_storage_screen": "Familiar Storage",
@@ -57,10 +53,23 @@
   "message.familiarslib.storage_block_chunk_limit": "These houses are too close together!",
   "message.familiarslib.no_familiars_selected": "No familiars selected!",
   "message.familiarslib.familiars_toggled": "Familiars summoned/desummoned!",
+  "message.familiarslib.familiar_died_in_house": "If you see this message report that your familiar died in a familiar house.",
+  "message.familiarslib.quick_summon_no_familiar": "No familiar in slot %d!",
 
   "key.familiarslib.summoning_keys": "FamiliarLib",
+  "key.familiarslib.quick_summoning_keys": "Quick summon keys",
   "key.familiarslib.summoning_key": "Summon/Unsummon Familiar",
   "key.familiarslib.screen_key": "Open Familiar Selection Screen",
+  "key.familiarslib.familiar_quick_summon_1": "Quick Summon Familiar 01",
+  "key.familiarslib.familiar_quick_summon_2": "Quick Summon Familiar 02",
+  "key.familiarslib.familiar_quick_summon_3": "Quick Summon Familiar 03",
+  "key.familiarslib.familiar_quick_summon_4": "Quick Summon Familiar 04",
+  "key.familiarslib.familiar_quick_summon_5": "Quick Summon Familiar 05",
+  "key.familiarslib.familiar_quick_summon_6": "Quick Summon Familiar 06",
+  "key.familiarslib.familiar_quick_summon_7": "Quick Summon Familiar 07",
+  "key.familiarslib.familiar_quick_summon_8": "Quick Summon Familiar 08",
+  "key.familiarslib.familiar_quick_summon_9": "Quick Summon Familiar 09",
+  "key.familiarslib.familiar_quick_summon_10": "Quick Summon Familiar 10",
 
   "item.familiarslib.familiar_spellbook.desc": "When equipped, this spellbook connects you with your tamed familiars, allowing you to share your magic attributes with them.",
   "item.familiarslib.consumable.tooltip.type": "Type: %s",
@@ -78,5 +87,8 @@
   "consumable.type.blocking": "Blocking",
 
   "curios.identifier.familiar_trinket": "Familiar Trinket",
-  "curios.modifiers.familiar_trinket": "When equipped as Familiar Trinket:"
+  "curios.modifiers.familiar_trinket": "When equipped as Familiar Trinket:",
+
+  "attribute.familiarslib.familiar_damage": "Familiar Power",
+  "attribute.familiarslib.familiar_resist": "Familiar Resist"
 }
