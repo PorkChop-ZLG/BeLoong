@@ -531,6 +531,8 @@
 		# Default: 18.0
 		# Range: 0.0 ~ 1000.0
 		"Cloud Golem Damage Cap" = 18.0
+		#Enables Projectile Immunity cooldown for Cloud Golem
+		"Allow Projectile Immunity cooldown Damage" = true
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud
@@ -703,6 +705,8 @@
 		# Default: 3
 		# Range: 0 ~ 1000
 		"% Damage for Obliterator's portal Explosion" = 3
+		#ON/OFF The Obliterator Projectile immunity in first Phase
+		"ON/OFF The Obliterator Projectile immunity in first Phase" = true
 
 	["Mob Settings"."Flame Drifter Settings"]
 		#Multiplies damage dealt by Flame Drifter
