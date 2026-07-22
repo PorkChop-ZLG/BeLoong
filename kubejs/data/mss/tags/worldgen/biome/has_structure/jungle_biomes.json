@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:is_jungle",
+    {
+      "id": "byg:guiana_shield",
+      "required": false
+    },
+    {
+      "id": "byg:jacaranda_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_jungle",
+      "required": false
+    }
+  ]
+}

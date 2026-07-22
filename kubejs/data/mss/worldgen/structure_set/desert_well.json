@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "mss:desert_well",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "salt": 336251454,
+    "spacing": 66,
+    "separation": 15,
+    "min_distance_from_world_origin": 250
+  }
+}
