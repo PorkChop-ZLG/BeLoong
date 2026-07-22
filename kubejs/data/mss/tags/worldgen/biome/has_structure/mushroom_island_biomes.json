@@ -1,6 +1,9 @@
 {
   "replace": true,
   "values": [
-    "#biomeswevegone:magical"
+    {
+      "id": "#beloong:is_disaster",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": true,
   "values": [
-    "#biomeswevegone:badlands"
+    {
+      "id": "#beloong:is_disaster",
+      "required": false
+    }
   ]
 }

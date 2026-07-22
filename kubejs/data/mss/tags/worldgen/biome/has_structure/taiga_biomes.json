@@ -1,7 +1,9 @@
 {
   "replace": true,
   "values": [
-    "#biomeswevegone:taiga",
-    "#biomeswevegone:coniferous"
+    {
+      "id": "#beloong:is_disaster",
+      "required": false
+    }
   ]
 }
