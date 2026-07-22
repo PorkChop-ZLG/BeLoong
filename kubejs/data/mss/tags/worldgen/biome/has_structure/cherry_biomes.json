@@ -1,9 +1,6 @@
 {
+  "replace": true,
   "values": [
-    "minecraft:cherry_grove",
-    {
-      "id": "#c:is_cherry",
-      "required": false
-    }
+    "#biomeswevegone:floral"
   ]
 }

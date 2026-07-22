@@ -1,21 +1,7 @@
 {
+  "replace": true,
   "values": [
-    "#minecraft:is_taiga",
-    {
-      "id": "byg:canadian_shield",
-      "required": false
-    },
-    {
-      "id": "byg:snowy_deciduous_forest",
-      "required": false
-    },
-    {
-      "id": "byg:snowy_evergreen_taiga",
-      "required": false
-    },
-    {
-      "id": "#c:is_taiga",
-      "required": false
-    }
+    "#biomeswevegone:taiga",
+    "#biomeswevegone:coniferous"
   ]
 }
