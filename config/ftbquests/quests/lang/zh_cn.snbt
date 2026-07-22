@@ -94,11 +94,10 @@
 	chapter.7B67918088B05AB6.chapter_subtitle: ["隐藏式任务"]
 	chapter.7B67918088B05AB6.title: "〖星界龙〗成长之路"
 	chapter.7C914FF1A42F8A5B.chapter_subtitle: [
-		"日出：龙宫"
 		"旭日东升，普照龙宫"
 		"难度：新手教程"
 	]
-	chapter.7C914FF1A42F8A5B.title: "序 龙宫化龙（未完成）"
+	chapter.7C914FF1A42F8A5B.title: "引 龙宫化龙"
 	chapter.7E93FF98428B8B46.chapter_subtitle: [
 		"番外篇：冰火传说"
 		"冰火传说社区版"
@@ -1800,6 +1799,8 @@
 		"六大主龙之一，掌握风和两仪的力量。"
 	]
 	quest.3BF1FD634ECFCB4E.title: "&3主龙：以太龙"
+	quest.3C1132797D408E77.quest_subtitle: "点我了解详情"
+	quest.3C1132797D408E77.title: "何为化龙？"
 	quest.3C70592EFB49B53A.quest_desc: [
 		"手持&6音响背包&r对&e女仆&r右键即可背上。"
 		""

@@ -13,14 +13,62 @@
 	id: "7C914FF1A42F8A5B"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "6C793599D6EB7D88"
-		tasks: [{
-			dimension: "beloong:loong_palace"
-			id: "044DBFBFD6683D20"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "6C793599D6EB7D88"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				dimension: "beloong:loong_palace"
+				id: "044DBFBFD6683D20"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2705A6D6DAEF6584"
+			rewards: [{
+				id: "48BAADD4127FADF3"
+				type: "xp"
+				xp: 20
+			}]
+			size: 2.0d
+			tasks: [{
+				advancement: "beloong:beloong/root"
+				criterion: ""
+				id: "22998934755FA8D5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			hide_lock_icon: true
+			icon: {
+				id: "beloong:beloong_logo"
+			}
+			icon_scale: 1.5d
+			id: "3C1132797D408E77"
+			rewards: [{
+				id: "28EAB4E589071387"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3D66D6D8638FE356"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 }
