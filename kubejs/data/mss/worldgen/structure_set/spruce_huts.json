@@ -1,10 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "mss:spruce_huts",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "moogs_structures:advanced_random_spread",
     "salt": 225114645,

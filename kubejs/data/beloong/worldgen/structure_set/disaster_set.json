@@ -8,47 +8,187 @@
   "structures": [
     {
       "structure": "fdbosses:chesed_arena",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "fdbosses:malkuth_arena",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "fdbosses:geburah_arena",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "cataclysm:ancient_factory",
-      "weight": 2
+      "weight": 5
     },
     {
       "structure": "cataclysm:burning_arena",
-      "weight": 2
+      "weight": 5
     },
     {
       "structure": "cataclysm:ruined_citadel",
-      "weight": 2
+      "weight": 5
     },
     {
       "structure": "cataclysm:soul_black_smith",
-      "weight": 2
+      "weight": 5
     },
     {
       "structure": "cataclysm:sunken_city",
-      "weight": 2
+      "weight": 5
     },
     {
       "structure": "cataclysm:cursed_pyramid",
-      "weight": 2
+      "weight": 5
     },
     {
       "structure": "cataclysm:frosted_prison",
-      "weight": 2
+      "weight": 5
     },
     {
       "structure": "cataclysm:acropolis",
-      "weight": 2
+      "weight": 5
+    },
+    {
+      "structure": "mss:arena",
+      "weight": 1
+    },
+    {
+      "structure": "mss:birch_river",
+      "weight": 1
+    },
+    {
+      "structure": "mss:calcite_house",
+      "weight": 1
+    },
+    {
+      "structure": "mss:castle_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "mss:castle_tower",
+      "weight": 1
+    },
+    {
+      "structure": "mss:cherry_river",
+      "weight": 1
+    },
+    {
+      "structure": "mss:desert_pyramid",
+      "weight": 1
+    },
+    {
+      "structure": "mss:desert_well",
+      "weight": 1
+    },
+    {
+      "structure": "mss:diorite_house",
+      "weight": 1
+    },
+    {
+      "structure": "mss:frozen_pond",
+      "weight": 1
+    },
+    {
+      "structure": "mss:jungle",
+      "weight": 1
+    },
+    {
+      "structure": "mss:large_tower",
+      "weight": 1
+    },
+    {
+      "structure": "mss:leaf_hollow",
+      "weight": 1
+    },
+    {
+      "structure": "mss:mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "mss:muddy_water_hole",
+      "weight": 1
+    },
+    {
+      "structure": "mss:mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "mss:nether_portal",
+      "weight": 1
+    },
+    {
+      "structure": "mss:palm_island",
+      "weight": 1
+    },
+    {
+      "structure": "mss:red_sand",
+      "weight": 1
+    },
+    {
+      "structure": "mss:small_deepslate_house",
+      "weight": 1
+    },
+    {
+      "structure": "mss:small_oak_house",
+      "weight": 1
+    },
+    {
+      "structure": "mss:small_pond",
+      "weight": 1
+    },
+    {
+      "structure": "mss:small_tower",
+      "weight": 1
+    },
+    {
+      "structure": "mss:spruce_huts",
+      "weight": 1
+    },
+    {
+      "structure": "mss:taiga",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_1",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_2",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_3",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_4",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_5",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_6",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_7",
+      "weight": 1
+    },
+    {
+      "structure": "mss:tree_8",
+      "weight": 1
+    },
+    {
+      "structure": "mss:volcano",
+      "weight": 1
+    },
+    {
+      "structure": "mss:white_house",
+      "weight": 1
     }
   ]
 }

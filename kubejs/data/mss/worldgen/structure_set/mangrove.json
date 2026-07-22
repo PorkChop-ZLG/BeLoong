@@ -1,10 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "mss:mangrove",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "moogs_structures:advanced_random_spread",
     "salt": 111136452,

@@ -1,10 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "mss:tree_1",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "moogs_structures:advanced_random_spread",
     "salt": 226894852,
