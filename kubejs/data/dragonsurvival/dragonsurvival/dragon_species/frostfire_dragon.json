@@ -1,5 +1,10 @@
 {
 	"abilities": "#dragonsurvival:frostfire_dragon",
+	"mana_handling": {
+		"mana_per_level": 0.2,
+		"mana_xp_conversion": 0,
+		"max_mana_from_levels": 20
+	},
 	"misc_resources": {
 		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/cave/cast_bar.png",
 		"altar_banner": "dragonsurvival:textures/gui/custom/altar/frostfire/altar_icon.png",
