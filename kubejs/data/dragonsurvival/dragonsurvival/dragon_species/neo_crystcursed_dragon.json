@@ -58,6 +58,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
+						"beloong:beloong/finish_beginner_tutorial": true,
             "crystcursed_dragon:crystcursed/unlock_species": true
           }
         }
