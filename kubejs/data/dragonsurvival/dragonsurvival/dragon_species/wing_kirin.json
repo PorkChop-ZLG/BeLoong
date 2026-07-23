@@ -55,6 +55,7 @@
 				"type_specific": {
 					"type": "minecraft:player",
 					"advancements": {
+						"beloong:beloong/finish_beginner_tutorial": true,
 						"minecraft:end/elytra": true
 					}
 				}

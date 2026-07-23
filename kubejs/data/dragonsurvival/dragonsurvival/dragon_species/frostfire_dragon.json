@@ -45,6 +45,7 @@
 				"type_specific": {
 					"type": "minecraft:player",
 					"advancements": {
+						"beloong:beloong/finish_beginner_tutorial": true,
 						"frostfire_dragon:unlock_frostfire_dragon": true
 					}
 				}
