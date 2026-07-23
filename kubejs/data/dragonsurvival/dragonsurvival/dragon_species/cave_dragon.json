@@ -42,5 +42,20 @@
     "primary_color": "#E84141",
     "secondary_color": "#730B0B"
   },
-  "penalties": "#dragonsurvival:cave_dragon"
+  "penalties": "#dragonsurvival:cave_dragon",
+  "unlockable_behavior": {
+    "unlock_condition": {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "beloong:beloong/finish_beginner_tutorial": true
+          }
+        }
+      }
+    },
+    "visibility": "visible_if_locked"
+  }
 }

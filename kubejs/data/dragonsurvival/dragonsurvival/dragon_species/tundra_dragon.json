@@ -43,5 +43,20 @@
     "primary_color": "#AAE0E0",
     "secondary_color": "#84A8A8"
   },
-  "penalties": "#dragonsurvival:tundra_dragon"
+  "penalties": "#dragonsurvival:tundra_dragon",
+  "unlockable_behavior": {
+    "unlock_condition": {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "beloong:beloong/finish_beginner_tutorial": true
+          }
+        }
+      }
+    },
+    "visibility": "visible_if_locked"
+  }
 }
