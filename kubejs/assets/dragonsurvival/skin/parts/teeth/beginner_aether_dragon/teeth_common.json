@@ -1,0 +1,11 @@
+{
+  "key": "common_teeth",
+  "texture": "dragonsurvival:textures/dragon/custom/common_teeth.png",
+  "average_hue": 0.08854166666666667,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

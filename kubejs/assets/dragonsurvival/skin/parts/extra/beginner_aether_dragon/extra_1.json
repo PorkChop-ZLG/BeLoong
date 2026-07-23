@@ -1,0 +1,11 @@
+{
+  "key": "rain_drop_extra",
+  "texture": "dragonsurvival:textures/dragon/custom/rain_extra.png",
+  "average_hue": 0.08768939393939393,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "key": "magic_aether",
+  "texture": "dragonsurvival:textures/dragon/custom/magic_aether.png",
+  "average_hue": 0.0860023724792408,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "key": "cloud_spikes",
+  "texture": "dragonsurvival:textures/dragon/custom/cloud_spikes.png",
+  "average_hue": 0.6053416890480453,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

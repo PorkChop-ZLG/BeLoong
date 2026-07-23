@@ -1,5 +1,5 @@
 {
-  "abilities": "#dragonsurvival:aether_dragon",
+  "abilities": "#dragonsurvival:beginner_aether_dragon",
   "mana_handling": {
     "mana_per_level": 0.2,
     "mana_xp_conversion": 0,
