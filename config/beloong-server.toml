@@ -89,3 +89,9 @@
 	#当这些效果过期、被牛奶清除或被指令移除时，触发结构重检
 	#具体效果与结构的映射请在 data/beloong/beloong/structure_effects/ 中配置
 	watchedEffects = ["beloong:flight_ban"]
+
+[beloong_water]
+	#化龙池水冷却（ticks）
+	# Default: 200
+	# Range: 0 ~ 72000
+	beloongWaterCooldown = 200
