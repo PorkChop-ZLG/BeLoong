@@ -1,0 +1,11 @@
+{
+  "key": "furry_base",
+  "texture": "dragonsurvival:textures/dragon/custom/furry_base.png",
+  "average_hue": 0.8920146636914249,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

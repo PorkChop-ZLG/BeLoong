@@ -56,6 +56,14 @@
       ],
       "structure": "dragonsurvival:end_spawn_platforms/aether_end_spawn_platform"
     },
+    "dragonsurvival:beginner_aether_dragon": {
+      "spawn_position": [
+        150,
+        50,
+        150
+      ],
+      "structure": "dragonsurvival:end_spawn_platforms/aether_end_spawn_platform"
+    },
     "dragonsurvival:astral_dragon": {
       "spawn_position": [
         -150,
