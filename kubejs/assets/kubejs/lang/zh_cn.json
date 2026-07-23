@@ -129,8 +129,8 @@
   "dragon_ability.dragonsurvival.progenitor_shroud.desc": "■只能通过道具§d“始祖之力”§r获得，始祖龙阶段才能解锁。\n\n■当你的生命值低于§2 30% §r时，你将受到始祖巨龙的庇护，§c免疫一切伤害！",
 
   "dragon_species.dragonsurvival.beginner_aether_dragon": "【新手】以太龙",
-  "dragon_species.dragonsurvival.beginner_aether_dragon.altar.desc": "§3§l新手教程专用龙种，完成新手教程后可解锁其他龙种。\n\n§7■§6以太龙§r§7是§f迅捷§r§7、§f灵巧§r§7而优雅的中国龙，身躯可划破§f云海与波涛§r§7。\n\n§2■特性：§f§r§7风属性魔法、高速飞行、水下呼吸增益、摔落免疫。\n§4■诅咒：§r§7无法在地面停留太长时间。\n§6■食谱：§r %s",
-  "dragon_species.dragonsurvival.beginner_aether_dragon.banner.desc": "§3§l新手教程专用龙种，完成新手教程后可解锁其他龙种。\n\n§7■§6以太龙§r§7是§f迅捷§r§7、§f灵巧§r§7而优雅的中国龙，身躯可划破§f云海与波涛§r§7。\n\n§2■特性：§f§r§7风属性魔法、高速飞行、水下呼吸增益、摔落免疫。\n§4■诅咒：§r§7无法在地面停留太长时间。",
+  "dragon_species.dragonsurvival.beginner_aether_dragon.altar.desc": "§3新手教程专用龙种，完成新手教程后可解锁其他龙种。\n\n§7■§6以太龙§7是迅捷§7、灵巧而优雅的中国龙，身躯可划破云海与波涛。\n\n§2■特性：§7风元素魔法，呼风唤雨，高速飞行，摔落免疫，§d可化形龙娘§7。\n§4■诅咒：§7无法在地面停留太长时间，否则会§c流失魔力§7。\n§6■食谱：§r %s",
+  "dragon_species.dragonsurvival.beginner_aether_dragon.banner.desc": "§3新手教程专用龙种，完成新手教程后可解锁其他龙种。\n\n§7■§6以太龙§7是迅捷§7、灵巧而优雅的中国龙，身躯可划破云海与波涛。\n\n§2■特性：§7风元素魔法，呼风唤雨，高速飞行，摔落免疫，§d可化形龙娘§7。\n§4■诅咒：§7无法在地面停留太长时间，否则会§c流失魔力§7。§r",
   "dragon_species.dragonsurvival.aether_dragon_human": "青龙",
   "dragon_species.dragonsurvival.aether_dragon_human.alter.desc": "§7■§6青龙§r§7是以太龙化形后的人身§r§7。\n\n§2■特性：§f§r§7风属性魔法、高速飞行、水下呼吸增益、摔落免疫。\n§6■食谱：§f§r§7动物制品。§r",
   "dragon_species.dragonsurvival.aether_dragon_human.banner.desc": "§7■§6青龙§r§7是以太龙化形后的人身§r§7。\n\n§2■特性：§f§r§7风属性魔法、高速飞行、水下呼吸增益、摔落免疫。§r",

@@ -46,5 +46,20 @@
     "primary_color": "#7AC1EB",
     "secondary_color": "#92BDD6"
   },
-  "penalties": "#dragonsurvival:aether_dragon"
+  "penalties": "#dragonsurvival:aether_dragon",
+  "unlockable_behavior": {
+    "unlock_condition": {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "beloong:beloong/finish_beginner_tutorial": true
+          }
+        }
+      }
+    },
+    "visibility": "visible_if_locked"
+  }
 }
