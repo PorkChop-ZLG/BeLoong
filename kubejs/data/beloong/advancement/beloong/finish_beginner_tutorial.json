@@ -1,0 +1,30 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "finish_beginner_tutorial": {
+      "trigger": "minecraft:impossible"
+      }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/finish_beginner_tutorial"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/finish_beginner_tutorial.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "beloong:eternal_porkchop"
+    }
+  },
+  "requirements": [
+    [
+      "finish_beginner_tutorial"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": false
+}

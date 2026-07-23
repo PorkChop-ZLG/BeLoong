@@ -16,15 +16,15 @@
     }
   },
   "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/air_strike_kill"
+    },
     "description": {
       "translate": "beloong.advancement.beloong/air_strike_kill.desc"
     },
     "icon": {
       "count": 1,
       "id": "eternal_starlight:starcore"
-    },
-    "title": {
-      "translate": "beloong.advancement.beloong/air_strike_kill"
     }
   },
   "requirements": [
