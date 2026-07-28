@@ -20,8 +20,8 @@
     "leaf_culling_quality": "SOLID"
   },
   "notifications": {
-    "has_cleared_donation_button": false,
-    "has_seen_donation_prompt": false
+    "has_cleared_donation_button": true,
+    "has_seen_donation_prompt": true
   },
   "debug": {
     "terrain_sorting_enabled": true

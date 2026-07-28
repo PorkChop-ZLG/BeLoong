@@ -1,0 +1,8 @@
+{
+  "common": {
+    "portalTeleportTick": 100
+  },
+  "lightning": {
+    "lightningDestructive": false
+  }
+}
