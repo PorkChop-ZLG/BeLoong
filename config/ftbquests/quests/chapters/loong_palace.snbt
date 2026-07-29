@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
@@ -23,12 +24,29 @@
 			}
 			icon_scale: 2.0d
 			id: "6C793599D6EB7D88"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/execute as @s in beloong:loong_palace run tp 0 64 0"
+				disable_reward_screen_blur: true
+				exclude_from_claim_all: true
+				feedback_message: "你已抵达龙宫！"
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1437281433DFB699"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
 			shape: "none"
 			size: 2.0d
 			tasks: [{
-				dimension: "beloong:loong_palace"
-				id: "044DBFBFD6683D20"
-				type: "dimension"
+				id: "5C5CECD70287AF5B"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -3.0d

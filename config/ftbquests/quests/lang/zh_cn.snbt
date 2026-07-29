@@ -3094,6 +3094,8 @@
 		"从龙之一，于寒冰与烈火当中，诞生出新的元素——冰焰。"
 	]
 	quest.6BF3A8995ACD12E2.title: "&#7FC6E8从龙：冰焰龙"
+	quest.6C793599D6EB7D88.quest_subtitle: "点击回到龙宫"
+	quest.6C793599D6EB7D88.title: "龙宫"
 	quest.6C7973AE332F1467.quest_desc: [
 		"&a目标：提交森林龙的毕业证"
 		""
@@ -3640,6 +3642,7 @@
 	reward.0063ACDBFD9EF275.title: "驭风精通"
 	reward.05315AE97430A082.title: "嗜血掠夺"
 	reward.0A0F3DE349F4B9F1.title: "雷暴"
+	reward.1437281433DFB699.title: "前往龙宫"
 	reward.1A637C1E53731C27.title: "猎杀预谋"
 	reward.1EB7C8ED22A19F53.title: "关闭死亡不掉落"
 	reward.273C176B55FD48D2.title: "切换天气"
@@ -3698,6 +3701,7 @@
 	task.4DD3DC302875CF23.title: "已读点我"
 	task.53A89357B6E4BB6A.title: "抵达试炼密室"
 	task.5AC3C8A012576E52.title: "已完成所有目标"
+	task.5C5CECD70287AF5B.title: "点我前往龙宫"
 	task.5D04F3C0318EA71B.title: "抵达天际骑士团战舰"
 	task.631C1C4C72BA8B9A.title: "抵达天际征服者战舰"
 	task.6842523920A24ED2.title: "抵达诅咒花园"
