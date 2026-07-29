@@ -61,20 +61,6 @@
 		# Default: 0
 		# Range: -2032 ~ 2032
 		triggerY = 0
-		#目标维度 ID
-		targetDimension = "minecraft:overworld"
-		#目标固定 X 坐标
-		# Default: 0.5
-		# Range: -3.0E7 ~ 3.0E7
-		targetX = 0.5
-		#目标固定 Z 坐标
-		# Default: 0.5
-		# Range: -3.0E7 ~ 3.0E7
-		targetZ = 0.5
-		#高度图查找失败时的回退 Y 坐标
-		# Default: 64.5
-		# Range: -2032.0 ~ 2032.0
-		fallbackY = 64.5
 
 [disaster_portal]
 	#激活传送门所需的 12 种眼球物品 ID（顺序可任意）

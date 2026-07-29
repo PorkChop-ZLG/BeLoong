@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "loong_palace"
@@ -65,7 +64,7 @@
 				id: "22998934755FA8D5"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -86,6 +85,402 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C1132797D408E77"]
+			icon_scale: 2.0d
+			id: "1C83DAE89543CA28"
+			rewards: [{
+				id: "434C32DA3FD49126"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					id: "waystones:prismarine_waystone"
+				}
+				id: "49BD8884A1BB1C1D"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C83DAE89543CA28"]
+			icon_scale: 2.0d
+			id: "3C27F9618144DD22"
+			rewards: [
+				{
+					id: "5821AB91BA926D6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @s minecraft:luck 300 0 true"
+					id: "6A6787D2857F6BD1"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "ultramarine:loong_tuanhua"
+				}
+				id: "21FF88760DD155A9"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "dragonsurvival:dragon_soul"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			icon: {
+				id: "ultramarine:medium_lotus"
+			}
+			icon_scale: 2.0d
+			id: "48D785889A3C35A3"
+			rewards: [{
+				id: "621DBAC577323756"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "beloong:loong_palace"
+				icon: {
+					id: "ultramarine:medium_lotus"
+				}
+				id: "492C3F2BFFB6071B"
+				ignore_dimension: false
+				position: [I;
+					0
+					78
+					-253
+				]
+				size: [I;
+					16
+					16
+					16
+				]
+				type: "location"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "71F5D112B526DB55"
+			rewards: [{
+				id: "24D5B38DE38CA4DD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2F6E97B9FBB68D22"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/forest/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "453ED60248E2C10C"
+			rewards: [{
+				id: "650C30FED2157634"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "34CBBCDDF24AE11C"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "5A2666846D1EFCCE"
+			rewards: [{
+				id: "5D6F840895A6732F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7F5AE3DD87D6DCAF"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/tundra/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "07424E6102195443"
+			rewards: [{
+				id: "1EEF5A2F7446D438"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "76C0FE4A1793F0C8"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/star/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "77B80117D16BB2C8"
+			rewards: [{
+				id: "0EA5E85EC9ADDDE4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5323FC7182E67236"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/crystcursed/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "760C3E4759FA6815"
+			rewards: [{
+				id: "2C5F361BB923B262"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6C22F89C0101C284"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/dihuang/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "3D40BFE799CE54AD"
+			rewards: [{
+				id: "0059301EF066777B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "377B2BA32E59029B"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "77A47D197F3E9CA9"
+			rewards: [{
+				id: "40B0A6060692E7CE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1200F7731DDE7C15"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C27F9618144DD22"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3C1D8952551DB648"
+			tasks: [{
+				id: "48893A7CFC590609"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C1132797D408E77"]
+			icon: {
+				id: "dragonsurvival:elder_dragon_bone"
+			}
+			id: "4E9FFC41AF8A07FB"
+			rewards: [{
+				id: "6E6C9C6E5D5B37DD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "beloong:beloong/root"
+				criterion: ""
+				id: "12C9ED42B5541ACE"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9FFC41AF8A07FB"]
+			icon: {
+				id: "dragonsurvival:wing_grant"
+			}
+			icon_scale: 2.0d
+			id: "0BB08B64EC232C64"
+			rewards: [
+				{
+					id: "197987D4ACCB874C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "enabled"
+					id: "1F7AC35D02CCA7D1"
+					item: {
+						count: 1
+						id: "ds_aether_addon:morning_tea"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "7EFFBB65C414C265"
+					item: {
+						count: 1
+						id: "ds_aether_addon:dim_sum"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "beloong:loong_palace"
+				icon: {
+					id: "yuushya:monobloc"
+				}
+				id: "4BA66E6775C27D92"
+				ignore_dimension: false
+				position: [I;
+					-23
+					197
+					-403
+				]
+				size: [I;
+					5
+					5
+					5
+				]
+				type: "location"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BB08B64EC232C64"]
+			icon: {
+				id: "ds_aether_addon:morning_tea"
+			}
+			icon_scale: 2.0d
+			id: "7C9883DF832ACA33"
+			rewards: [{
+				id: "730ACC4CB9E80C67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "extradelight:food"
+				criterion: ""
+				id: "5BBF2CCA01F99B35"
+				type: "advancement"
+			}]
+			x: 13.0d
 			y: 0.0d
 		}
 	]
