@@ -45,18 +45,35 @@
 	},
 	"penalties": "#dragonsurvival:dihuang_loong",
 	"unlockable_behavior": {
-		"unlock_condition": {
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-				"type_specific": {
-					"type": "player",
-					"advancements": {
-						"beloong:beloong/finish_beginner_tutorial": true
-					}
-				}
-			}
-		},
-		"visibility": "visible_if_locked"
-	}
+    "visibility": "visible_if_locked",
+    "unlock_condition": {
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/finish_beginner_tutorial": true
+              }
+            }
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/skip_beginner_tutorial": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
 }

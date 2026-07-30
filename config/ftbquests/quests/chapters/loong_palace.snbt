@@ -24,7 +24,7 @@
 			icon_scale: 2.0d
 			id: "6C793599D6EB7D88"
 			optional: true
-			repeat_cooldown: 60
+			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s in beloong:loong_palace run tp 0 64 0"
@@ -817,19 +817,19 @@
 					xp: 100
 				}
 				{
-					auto: "invisible"
-					command: "/effect clear @s"
-					id: "1DF052A27C0E5A4A"
-					permission_level: 2
-					type: "command"
-				}
-				{
 					id: "03E5068875A3B85C"
 					item: {
 						count: 1
 						id: "dragonsurvival:dragon_soul"
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/effect clear @s"
+					id: "7FF42C0105607F12"
+					permission_level: 2
+					type: "command"
 				}
 			]
 			tasks: [{
@@ -865,6 +865,13 @@
 					id: "29DF8A62E564F2EE"
 					type: "advancement"
 				}
+				{
+					auto: "invisible"
+					command: "/effect clear @s dragonsurvival:hunter_omen"
+					id: "07A6D549B345C654"
+					permission_level: 2
+					type: "command"
+				}
 			]
 			shape: "diamond"
 			size: 1.5d
@@ -889,7 +896,7 @@
 			icon_scale: 2.0d
 			id: "16DF8F0EA133B69A"
 			optional: true
-			repeat_cooldown: 600
+			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
 				command: "/dragon-ability add @s dragonsurvival:air_strike"
@@ -923,7 +930,7 @@
 			icon_scale: 2.0d
 			id: "19E36A004B2CACC1"
 			optional: true
-			repeat_cooldown: 600
+			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
 				command: "/dragon-ability add @s dragonsurvival:tp_loong_palace"

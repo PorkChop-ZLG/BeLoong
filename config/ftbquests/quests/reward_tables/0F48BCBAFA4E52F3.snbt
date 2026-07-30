@@ -5,19 +5,5 @@
 	id: "0F48BCBAFA4E52F3"
 	loot_size: 1
 	order_index: 3
-	rewards: [
-		{ id: "236F42153D452734", item: { components: { "minecraft:custom_name": "\"§e『§6化龍§e』§d祭坛\"" }, count: 1, id: "dragonsurvival:cherry_dragon_altar" } }
-		{ id: "1F7F0F07D36E6D77", item: { components: { "akashictome:defined_mod": "ftbquests", "akashictome:is_morphed": 1b, "akashictome:og_display_name": "{\"translate\":\"item.ftbquests.book\"}", "akashictome:tool_content": [ { components: { "akashictome:defined_mod": "touhou_little_maid", "patchouli:book": "touhou_little_maid:memorizable_gensokyo" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "irons_spellbooks", "patchouli:book": "irons_spellbooks:iss_guide_book" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "melodymagic", "patchouli:book": "melodymagic:melodymagic_book" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "twilightdelight", "patchouli:book": "twilightdelight:twilight_guide" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "ultramarine", "patchouli:book": "ultramarine:tiangong_kaiwu" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "yuushya", "patchouli:book": "yuushya:yuushya_guidebook" }, count: 1, id: "patchouli:guide_book" } ], "minecraft:custom_name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"任务书\"}]}" }, count: 1, id: "ftbquests:book" } }
-		{ id: "471703D931A90420", item: { count: 1, id: "beyonddimensions:net_creater" } }
-		{ id: "464BA3AE2BC5CA0B", item: { count: 1, id: "yuushya:octagon_pavilion" } }
-		{
-			count: 16
-			id: "1BD7820799460991"
-			item: {
-				count: 1
-				id: "minecraft:cooked_porkchop"
-			}
-		}
-		{ id: "19C9D4AE9EEE4D95", item: { count: 1, id: "waystones:warp_stone" } }
-	]
+	rewards: [{ id: "1F7F0F07D36E6D77", item: { components: { "akashictome:defined_mod": "ftbquests", "akashictome:is_morphed": 1b, "akashictome:og_display_name": "{\"translate\":\"item.ftbquests.book\"}", "akashictome:tool_content": [ { components: { "akashictome:defined_mod": "touhou_little_maid", "patchouli:book": "touhou_little_maid:memorizable_gensokyo" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "irons_spellbooks", "patchouli:book": "irons_spellbooks:iss_guide_book" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "melodymagic", "patchouli:book": "melodymagic:melodymagic_book" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "twilightdelight", "patchouli:book": "twilightdelight:twilight_guide" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "ultramarine", "patchouli:book": "ultramarine:tiangong_kaiwu" }, count: 1, id: "patchouli:guide_book" }, { components: { "akashictome:defined_mod": "yuushya", "patchouli:book": "yuushya:yuushya_guidebook" }, count: 1, id: "patchouli:guide_book" } ], "minecraft:custom_name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"任务书\"}]}" }, count: 1, id: "ftbquests:book" } }]
 }

@@ -60,7 +60,7 @@
 			shape: "heart"
 			size: 2.5d
 			tasks: [{
-				dimension: "minecraft:overworld"
+				dimension: "beloong:loong_palace"
 				disable_toast: true
 				icon: {
 					id: "dragonsurvival:elder_dragon_bone"

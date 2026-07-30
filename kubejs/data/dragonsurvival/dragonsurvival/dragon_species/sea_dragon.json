@@ -45,18 +45,35 @@
   },
   "penalties": "#dragonsurvival:sea_dragon",
   "unlockable_behavior": {
+    "visibility": "visible_if_locked",
     "unlock_condition": {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type_specific": {
-          "type": "player",
-          "advancements": {
-            "beloong:beloong/finish_beginner_tutorial": true
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/finish_beginner_tutorial": true
+              }
+            }
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/skip_beginner_tutorial": true
+              }
+            }
           }
         }
-      }
-    },
-    "visibility": "visible_if_locked"
+      ]
+    }
   }
 }
