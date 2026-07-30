@@ -30,6 +30,8 @@
 	entityDenyList = ["minecraft:wither"]
 	#Set to true to enable warp modifier items for applying status effects on teleports.
 	enableModifiers = true
+	#Set to false to disable durability loss on warp stones.
+	enableDurability = true
 
 [inventoryButton]
 	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
@@ -75,6 +77,8 @@
 	preferJourneyMapIntegrationMod = true
 	#If enabled, Waystones will add markers for waystones and sharestones to Dynmap.
 	dynmap = true
+	#Set to true to apply Waystones' entity teleport packet fix to all entity teleports, including vanilla and other mods.
+	fixVanillaTeleportBug = false
 
 [blueMap]
 	#Controls whether Waystones' BlueMap integration should be loaded

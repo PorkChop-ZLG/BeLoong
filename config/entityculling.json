@@ -1,5 +1,5 @@
 {
-  "configVersion": 7,
+  "configVersion": 8,
   "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
     "create:rope_pulley",
@@ -49,7 +49,8 @@
     "fdbosses:malkuth_repair_crystal",
     "fdbosses:malkuth_repair_entity",
     "fdbosses:malkuth_slash",
-    "fdbosses:radial_earthquake"
+    "fdbosses:radial_earthquake",
+    "quark:soul_bead"
   ],
   "tracingDistance": 128,
   "debugMode": false,
@@ -91,10 +92,23 @@
     "create:carriage_contraption",
     "minecraft:pale_oak_chest_boat",
     "minecraft:bamboo_chest_raft",
-    "minecraft:mangrove_chest_boat"
+    "minecraft:mangrove_chest_boat",
+    "cinematiccataclysm:scylla_cutscene",
+    "minecraft:block_display",
+    "cinematiccataclysm:maledictus_cutscene",
+    "cinematiccataclysm:leviathan_cutscene",
+    "cinematiccataclysm:ancient_remnant_cutscene",
+    "minecraft:text_display",
+    "createbigcannons:cannon_carriage",
+    "createbigcannons:pitch_contraption",
+    "minecraft:item_display",
+    "cinematiccataclysm:ignis_cutscene",
+    "voidscape:corrupted_pawn"
   ],
   "disableF3": false,
   "skipEntityCulling": false,
   "skipBlockEntityCulling": false,
-  "blockEntityFrustumCulling": true
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": false,
+  "solidLeaves": false
 }

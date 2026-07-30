@@ -1,4 +1,6 @@
 {
+  // Directly samples the heightmap when checking for a valid bridge configuration. The approximation is vastly more efficient and increases successful bridge placements, but may break under strange circumstances (e.g. while using Tectonic or the Amplified world type).
   "directly_sample_heightmap": false,
+  // The chance of a bridge placing is a valid position is found.
   "frequency": 0.8
 }
