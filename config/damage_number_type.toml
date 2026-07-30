@@ -3404,6 +3404,20 @@
 				append = ""
 				format = ""
 
+		[type.dihuang_loong.ground_stomp]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.dihuang_loong.ground_stomp.icon]
+				tex = ""
+				item = ""
+
+			[type.dihuang_loong.ground_stomp.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 		[type.beloong.air_strike]
 			#Color of the damage number. [NO-VALUE] to use default color.
 			color = "[NO-VALUE]"
@@ -4800,6 +4814,20 @@
 			item = ""
 
 		[tag."tunes_n_tomes:melody_magic".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."dihuang_loong:ground_stomp"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dihuang_loong:ground_stomp".icon]
+			tex = ""
+			item = ""
+
+		[tag."dihuang_loong:ground_stomp".format]
 			prepend = ""
 			append = ""
 			format = ""

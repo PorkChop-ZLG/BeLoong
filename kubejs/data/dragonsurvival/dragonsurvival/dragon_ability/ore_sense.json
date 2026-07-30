@@ -20,8 +20,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -37,8 +37,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -54,8 +54,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -71,8 +71,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -88,8 +88,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -105,8 +105,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -122,8 +122,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -139,8 +139,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -156,8 +156,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -173,8 +173,8 @@
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 },
                                 {
@@ -185,13 +185,16 @@
                                     },
                                     "blocks": "minecraft:ancient_debris",
                                     "colors": [
-                                        "#5c332b"
+                                        "dark_aqua",
+                                        "black",
+                                        "aqua",
+                                        "dark_gray"
                                     ],
                                     "display_type": "outline",
                                     "range": {
                                         "type": "linear",
-                                        "base": 16,
-                                        "per_level_above_first": 16
+                                        "base": 12,
+                                        "per_level_above_first": 12
                                     }
                                 }
                             ],
