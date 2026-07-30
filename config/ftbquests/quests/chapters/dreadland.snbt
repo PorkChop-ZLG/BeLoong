@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "dreadland"
 	group: "68BA145F90AA30CE"
+	icon: {
+		id: "iceandfire:dread_queen_sword"
+	}
 	id: "6C8BADAE3A031956"
 	order_index: 5
 	quest_links: [ ]

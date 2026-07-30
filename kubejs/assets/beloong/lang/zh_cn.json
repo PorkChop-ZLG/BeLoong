@@ -4,5 +4,7 @@
   "beloong.advancement.beloong/finish_beginner_tutorial": "完成新手教程",
   "beloong.advancement.beloong/finish_beginner_tutorial.desc": "完成新手教程后，可解锁其他龙种。",
   "beloong.advancement.beloong/root": "化龙",
-  "beloong.advancement.beloong/root.desc": "化为一条龙开启你的冒险之旅吧！"
+  "beloong.advancement.beloong/root.desc": "化为一条龙开启你的冒险之旅吧！",
+  "beloong.advancement.beloong/wind_breath": "新手教程-微风之息",
+  "beloong.advancement.beloong/wind_breath.desc": "使用龙息击杀一头猪。"
 }

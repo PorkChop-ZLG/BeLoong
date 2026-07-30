@@ -2699,6 +2699,15 @@
 	quest.58340821BF7679E4.title: "青年苔原龙"
 	quest.584133F57D70B352.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5997BC4982540330\" } }"]
 	quest.584133F57D70B352.title: "下界合金巨兽"
+	quest.58814D5BF5A8BD45.quest_desc: [
+		"&9目标：前往演武场，激活传送石碑"
+		""
+		"吃饱之后，就要开始学习真本事了。在此之前，你需要先前往&a演武场&r。"
+		""
+		"&a演武场&r位于龙宫正对面的空岛。你可以&d按【M】键&r打开地图，找到演武场的位置，然后直接飞过去。或者通过化龙山顶的&b传送石碑&r，先传送到龙宫门口，然后穿过接引平台，通过连廊，即可抵达。"
+	]
+	quest.58814D5BF5A8BD45.quest_subtitle: "点击查看详情"
+	quest.58814D5BF5A8BD45.title: "演武场"
 	quest.59340FB7B273A35A.quest_desc: [""]
 	quest.59340FB7B273A35A.quest_subtitle: "所有龙都将无所遁形"
 	quest.59340FB7B273A35A.title: "&d神话级寻龙杖"
@@ -2955,6 +2964,9 @@
 	]
 	quest.61841B2C10B08D91.quest_subtitle: "只有编写者能看到"
 	quest.61841B2C10B08D91.title: "任务编写规范"
+	quest.619FE6270FADA973.quest_desc: ["&9目标：使用微风之息技能击杀一只猪"]
+	quest.619FE6270FADA973.quest_subtitle: "点击查看详情"
+	quest.619FE6270FADA973.title: "龙息魔法"
 	quest.61ACAF91D4015A4E.title: "戒指T3"
 	quest.61D94A7F289D6DE8.quest_desc: [
 		"&6空手Shift右键绑定到当前玩家所在的维度网络。维度网络的管理员空手Shift右键可取消绑定。"
@@ -3439,6 +3451,9 @@
 	quest.73777155E02C7B4C.quest_subtitle: "★★"
 	quest.73777155E02C7B4C.title: "暮色森林：米诺菇"
 	quest.7404B8964BC82524.title: "挑战：冰霜蜘蛛巢穴"
+	quest.741C678902C1BC72.quest_desc: ["点击✅从而在演武场生成一只猪"]
+	quest.741C678902C1BC72.quest_subtitle: "了解任务要求后点我"
+	quest.741C678902C1BC72.title: "生成一只猪"
 	quest.745D36D1D182C0CD.title: "牧师装备"
 	quest.747F45AAE1161962.quest_subtitle: "平价好味"
 	quest.74AD0E230F7A62A1.quest_subtitle: "提交原版的7种树苗和暮色森林的10种树苗"

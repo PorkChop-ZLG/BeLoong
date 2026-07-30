@@ -1,0 +1,54 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "wind_breath": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pig"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:beginner_aether_dragon"
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "dragonsurvival:dragon_breath"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/wind_breath"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/wind_breath.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "yuushya:fan_head"
+    }
+  },
+  "requirements": [
+    [
+      "wind_breath"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

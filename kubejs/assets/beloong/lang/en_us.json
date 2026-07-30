@@ -4,5 +4,7 @@
   "beloong.advancement.beloong/finish_beginner_tutorial": "Finish Beginner Tutorial",
   "beloong.advancement.beloong/finish_beginner_tutorial.desc": "Complete the Beginner Tutorial to unlock other dragon types.",
   "beloong.advancement.beloong/root": "BeLoong",
-  "beloong.advancement.beloong/root.desc": "Become a loong and start your journey!"
+  "beloong.advancement.beloong/root.desc": "Become a loong and start your journey!",
+  "beloong.advancement.beloong/wind_breath": "Tutorial - Wind Breath",
+  "beloong.advancement.beloong/wind_breath.desc": "Kill a pig using Dragon Breath."
 }

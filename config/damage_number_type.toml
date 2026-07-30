@@ -506,6 +506,20 @@
 				append = ""
 				format = ""
 
+		[type.dragonsurvival.wind_breath]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.dragonsurvival.wind_breath.icon]
+				tex = ""
+				item = ""
+
+			[type.dragonsurvival.wind_breath.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[type.blood_cauldron]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"

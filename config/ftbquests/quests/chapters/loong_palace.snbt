@@ -469,11 +469,22 @@
 			}
 			icon_scale: 2.0d
 			id: "7C9883DF832ACA33"
-			rewards: [{
-				id: "730ACC4CB9E80C67"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "730ACC4CB9E80C67"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "5C7DC3B45C6993B3"
+					item: {
+						count: 1
+						id: "ds_aether_addon:aether_dragon_treat"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "extradelight:food"
 				criterion: ""
@@ -482,6 +493,126 @@
 			}]
 			x: 13.0d
 			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:trial_spawner"
+			}
+			icon_scale: 2.0d
+			id: "58814D5BF5A8BD45"
+			rewards: [
+				{
+					id: "7C5B4874B699B2D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DEA42304E7757C3"
+					item: {
+						components: {
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:leather_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "69042955AD91496D"
+					item: {
+						components: {
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:leather_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "22519BD7724CD214"
+					item: {
+						components: {
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:leather_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "0762EFACCDBA5D20"
+					item: {
+						components: {
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:leather_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "beloong:loong_palace"
+				icon: {
+					id: "minecraft:trial_spawner"
+				}
+				id: "51FABC051B7D60CD"
+				ignore_dimension: false
+				position: [I;
+					0
+					64
+					148
+				]
+				size: [I;
+					16
+					16
+					16
+				]
+				type: "location"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/aether/wind_breath_6.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "619FE6270FADA973"
+			tasks: [{
+				advancement: "beloong:beloong/wind_breath"
+				criterion: ""
+				id: "30D9818D59E57163"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:pig_spawn_egg"
+			}
+			icon_scale: 2.0d
+			id: "741C678902C1BC72"
+			optional: true
+			repeat_cooldown: 60
+			rewards: [{
+				auto: "invisible"
+				command: "/execute in beloong:loong_palace run summon minecraft:pig 0 65 203"
+				id: "43E6E2491B5B595D"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				id: "361E14CBA1EC32D6"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -2.0d
 		}
 	]
 }
