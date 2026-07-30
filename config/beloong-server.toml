@@ -81,3 +81,46 @@
 	# Default: 200
 	# Range: 0 ~ 72000
 	beloongWaterCooldown = 200
+
+	[loong_palace.environment_protection]
+		#Master switch for configurable Loong Palace environment protection
+		#龙宫可配置环境保护的总开关
+		enabled = true
+		#Prevent explosions reaching NeoForge's detonate event from changing blocks
+		#Dragon Survival's protected explosion skill remains fully canceled
+		#阻止进入 NeoForge 爆炸事件的爆炸修改方块
+		#龙之生存受保护的爆炸技能仍会被完整取消
+		protectExplosions = true
+		#Prevent block placement attributed to non-player entities or no actor
+		#阻止由非玩家实体或无来源行为放置方块
+		protectNonPlayerBlockPlacement = true
+		#Prevent living entities from destroying blocks
+		#阻止生物破坏方块
+		protectLivingBlockDestruction = true
+		#Disable mob-griefing actions
+		#阻止生物破坏环境的行为
+		protectMobGriefing = true
+		#Prevent farmland trampling
+		#阻止耕地被踩踏
+		protectFarmlandTrampling = true
+		#Prevent tool actions such as stripping, tilling, and flattening
+		#阻止去皮、耕作和铲平等工具修改方块的行为
+		protectToolModifications = true
+		#Prevent random-tick crop growth and non-bypass bone meal use
+		#阻止随机刻作物生长和无绕过权限玩家使用骨粉
+		protectCropGrowth = true
+		#Prevent saplings and similar blocks from growing configured features
+		#阻止树苗等方块生长为地物
+		protectFeatureGrowth = true
+		#Prevent block updates from creating portals
+		#阻止方块更新创建传送门
+		protectPortalCreation = true
+		#Prevent players from placing or collecting fluids with buckets and solid buckets
+		#阻止玩家使用桶和固体桶放置或收集流体
+		protectFluidContainerEdits = true
+		#Prevent players from placing, changing, or destroying paintings and item frames
+		#阻止玩家放置、修改或破坏画与物品展示框
+		protectHangingEntityEdits = true
+		#Prevent players from inserting or removing flower-pot contents
+		#阻止玩家放入或取出花盆内容物
+		protectFlowerPotEdits = true
