@@ -6,5 +6,7 @@
   "beloong.advancement.beloong/root": "BeLoong",
   "beloong.advancement.beloong/root.desc": "Become a loong and start your journey!",
   "beloong.advancement.beloong/wind_breath": "Tutorial - Wind Breath",
-  "beloong.advancement.beloong/wind_breath.desc": "Kill a pig using Dragon Breath."
+  "beloong.advancement.beloong/wind_breath.desc": "Kill a pig using Dragon Breath.",
+  "beloong.advancement.beloong/wind_sword": "Tutorial - Wind Sword",
+  "beloong.advancement.beloong/wind_sword.desc": "Kill a creeper using Wind Sword."
 }

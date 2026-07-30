@@ -51,23 +51,6 @@
 			y: -3.0d
 		}
 		{
-			id: "2705A6D6DAEF6584"
-			rewards: [{
-				id: "48BAADD4127FADF3"
-				type: "xp"
-				xp: 20
-			}]
-			size: 2.0d
-			tasks: [{
-				advancement: "beloong:beloong/root"
-				criterion: ""
-				id: "22998934755FA8D5"
-				type: "advancement"
-			}]
-			x: 20.0d
-			y: 0.0d
-		}
-		{
 			hide_lock_icon: true
 			icon: {
 				id: "beloong:beloong_logo"
@@ -495,8 +478,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7C9883DF832ACA33"]
 			icon: {
-				id: "minecraft:trial_spawner"
+				id: "waystones:waystone"
 			}
 			icon_scale: 2.0d
 			id: "58814D5BF5A8BD45"
@@ -574,6 +558,11 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"58814D5BF5A8BD45"
+				"741C678902C1BC72"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/aether/wind_breath_6.png"
@@ -582,6 +571,22 @@
 			}
 			icon_scale: 2.0d
 			id: "619FE6270FADA973"
+			rewards: [
+				{
+					id: "7F30ACC6E67D0AF6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "133578268A04CC6D"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_bone"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "beloong:beloong/wind_breath"
 				criterion: ""
@@ -607,11 +612,75 @@
 				permission_level: 2
 				type: "command"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "361E14CBA1EC32D6"
 				type: "checkmark"
 			}]
 			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"619FE6270FADA973"
+				"6BAC6C911CBA18CD"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/iss_ds_integration/iss_jade3_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "18E283E2D5D0D640"
+			rewards: [
+				{
+					id: "5E908A429ACCCB6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 36
+					id: "7F1200B1A1DF77F1"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/wind_sword"
+				criterion: ""
+				id: "422A9CDE65406ECE"
+				type: "advancement"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:creeper_spawn_egg"
+			}
+			icon_scale: 2.0d
+			id: "6BAC6C911CBA18CD"
+			optional: true
+			repeat_cooldown: 60
+			rewards: [{
+				auto: "invisible"
+				command: "/execute in beloong:loong_palace run summon minecraft:creeper 0 65 203"
+				id: "5ED8E093FD52E872"
+				permission_level: 2
+				type: "command"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "506053A97A1DD355"
+				type: "checkmark"
+			}]
+			x: 19.0d
 			y: -2.0d
 		}
 	]

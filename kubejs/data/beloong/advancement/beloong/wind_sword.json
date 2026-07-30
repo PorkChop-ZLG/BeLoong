@@ -1,0 +1,54 @@
+{
+  "parent": "beloong:beloong/wind_breath",
+  "criteria": {
+    "wind_sword": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:beginner_aether_dragon"
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "iss_magicfromtheeast:symmetry_magic"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/wind_sword"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/wind_sword.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "eternal_starlight:flowglaze_sword"
+    }
+  },
+  "requirements": [
+    [
+      "wind_sword"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

@@ -304,6 +304,8 @@
   "message.sign.gatekeeper2": "先知球体，可开此门",
   "message.sign.gatekeeper3": "暮色已尽，星光永恒",
 
+  "damage_type.dragonsurvival.wind_breath": "微风之息",
+
   "death.attack.cataclysm.storm_bringer": "%s被船锚贯穿身体",
   "death.attack.dragonsurvival.wind_breath": "%s被大风刮走了",
   "death.attack.dragonsurvival.wind_breath.player": "%s被%s的大风刮走了",

@@ -30,6 +30,8 @@
   "dragonsurvival.gui.penalty.supply_trigger": "每%s秒",
   "dragonsurvival.gui.penalty.supply_trigger.constant": "每游戏刻",
 
+  "enum.tab_button_type.ability_tab": "技能面板",
+
 	"skin_part.dragonsurvival.astral_dragon.all_extra_1": "冠冕",
 	"skin_part.dragonsurvival.astral_dragon.all_extra_10": "监守者爪",
 	"skin_part.dragonsurvival.astral_dragon.all_extra_11": "监守者身躯",

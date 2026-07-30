@@ -304,6 +304,8 @@
   "message.sign.gatekeeper2": "Orb Opens the Way",
   "message.sign.gatekeeper3": "Starlight Eternal",
 
+  "damage_type.dragonsurvival.wind_breath": "Wind Breath",
+
   "death.attack.cataclysm.storm_bringer": "%s was impaled by an anchor",
   "death.attack.dragonsurvival.wind_breath": "%s was blown away by the wind",
   "death.attack.dragonsurvival.wind_breath.player": "%s was blown away by %s",
