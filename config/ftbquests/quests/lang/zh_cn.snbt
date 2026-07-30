@@ -84,6 +84,7 @@
 		"难度：★★"
 	]
 	chapter.6C87160D1AC7FE19.title: "℗ 铁魔法"
+	chapter.6C8BADAE3A031956.chapter_subtitle: ["来不及写了，先占位"]
 	chapter.6C8BADAE3A031956.title: "⑤ 冰火悚域"
 	chapter.6EC27D3BF2313600.chapter_subtitle: ["选择你的法术流派"]
 	chapter.6EC27D3BF2313600.title: "铁魔法学院"
@@ -106,7 +107,7 @@
 	]
 	chapter.7E93FF98428B8B46.title: "℗ 冰火传说"
 	chapter_group.0476E1FA2E206D30.title: "支线任务"
-	chapter_group.1EFE04C2BB6E0380.title: "前言(必读)"
+	chapter_group.1EFE04C2BB6E0380.title: "新手教程"
 	chapter_group.489BCE33471451DE.title: "其他"
 	chapter_group.5EAD9A1417FDCCF3.title: "休闲时光"
 	chapter_group.68BA145F90AA30CE.title: "主线任务"
@@ -857,7 +858,11 @@
 	quest.16AC902A8860C5D5.title: "红巨星"
 	quest.16AD045AE7B461C7.quest_subtitle: "纯米大吟酿"
 	quest.16B32CB0D55A9718.title: "项链T0"
-	quest.16DF8F0EA133B69A.quest_desc: ["这是一个临时任务，用于暂时解锁该技能，未来版本会改用其他方式获得！"]
+	quest.16DF8F0EA133B69A.quest_desc: [
+		"&9目标：点击✅从而获得技能奖励 龙击长空"
+		""
+		"&z龙击长空&r是龙族的秘传绝技，通过&b高速滑翔&r积攒动能，然后撞向敌人，&c造成巨额伤害&r。"
+	]
 	quest.16DF8F0EA133B69A.title: "技能：龙击长空"
 	quest.170C5452183F9D7E.title: "观察：烈焰百合"
 	quest.1744C1A7A7BFF4D7.quest_desc: ["&6赛钱箱似乎无法取出5円的钱币，可以在这里兑换&r"]
@@ -964,7 +969,11 @@
 	]
 	quest.19DA784FDC312506.quest_subtitle: "【森林龙成长之路    完结】"
 	quest.19DA784FDC312506.title: "&2森林龙毕业"
-	quest.19E36A004B2CACC1.quest_desc: ["这是一个临时任务，用于暂时解锁该技能，未来版本会改用其他方式获得！"]
+	quest.19E36A004B2CACC1.quest_desc: [
+		"&9目标：点击✅从而获得技能奖励 龙宫传送"
+		""
+		"&z龙宫传送&r是龙族于&a主世界&r和&6龙宫&r之间往返的主要方式，只有通过新手教程，得到龙宫认可的龙才能拥有。"
+	]
 	quest.19E36A004B2CACC1.title: "技能：龙宫传送"
 	quest.19EC475553EC785D.quest_subtitle: "呐，要开始放晴了哟~"
 	quest.19EC475553EC785D.title: "切换天气"
@@ -1371,6 +1380,19 @@
 	quest.293872FA6D26833A.title: "第三步：召唤女仆"
 	quest.293A4F21A1CA4A9F.quest_subtitle: "集齐海洋龙的家具"
 	quest.293A4F21A1CA4A9F.title: "海洋龙之家"
+	quest.294DCB1F2F69927E.quest_desc: [
+		"&9目标：使用空龙魂存储自身，化为人类"
+		""
+		"&z龙魂&r是龙族最重要的传承物品。手持&e空龙魂&r，&d长按右键&r即可将你所玩的龙&b存入龙魂之中&r，&a重新变为人类&r。"
+		""
+		"这样，你就可以再次进入&3化龙池&r，或者使用&8龙之祭坛&r，化为其他龙种，而&a不用担心丢失成长进度&r。"
+		""
+		"你可以按&d【Shift+右键】&r将龙魂&a摆放在地上&r，欣赏自己的身姿；也可以&d再次长按右键&r，&a还原你原来的状态&r。"
+		""
+		"&c&l至此，新手教程完全结束！&r你可以体验其他的龙种，前往&2主世界&r展开真正的冒险。"
+	]
+	quest.294DCB1F2F69927E.quest_subtitle: "点击查看详情"
+	quest.294DCB1F2F69927E.title: "&6&l龙魂传承"
 	quest.29874A2088326B37.quest_subtitle: "孔鸟飞而迎兮，腾群鹤于摇光"
 	quest.29874A2088326B37.title: "&e摇光"
 	quest.29B1D35BA68F4E5A.title: "建筑材料自选"
@@ -1519,6 +1541,20 @@
 	]
 	quest.300B6A5EADD11286.quest_subtitle: "★★★★★★"
 	quest.300B6A5EADD11286.title: "灾变：远古遗魂"
+	quest.30147ED868E1EB9E.quest_desc: [
+		"&9目标：成长到青年阶段"
+		""
+		"&z龙的成长&r是本整合包最核心的&c变强方式&r。随着龙的成长，可以提高你的&a血量、攻击力、护甲值和移动速度&r等基础属性，同时也能&a提高魔法技能的等级&r，以及解锁更多魔法技能。"
+		""
+		"&d按【E】键&r打开龙背包，鼠标移动到&n背包右上角&r的&6龙头像&r，即可显示当前的&6成长阶段&r和所需要的&6成长道具&r。"
+		"头像左边的水晶代表你当前种族所拥有的成长阶段和成长数值。"
+		""
+		"龙会随着时间推移自然成长，但是最主要的成长方式是吸收&e成长道具&r中的能量。最常见的成长道具是&e龙心&r，同时龙心也是本整合包的主要&e货币&r。龙每个阶段所需要的成长道具都不同，提供的成长时间也不完全相同。"
+		""
+		"手持任务奖励的&a远古龙骨&r和&a脆弱龙心&r，&d按鼠标右键&r吸收能量，从而成长到&b青年龙阶段&r吧。"
+	]
+	quest.30147ED868E1EB9E.quest_subtitle: "点击查看详情"
+	quest.30147ED868E1EB9E.title: "龙之成长"
 	quest.308ACBC769E52128.quest_desc: [
 		"&6番外&3【铁魔法】&6的通关奖励。"
 		"{ \"text\": \"点击跳转到获取途径\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
@@ -1897,6 +1933,15 @@
 	]
 	quest.3D40BFE799CE54AD.quest_subtitle: "点击了解地黄龙"
 	quest.3D40BFE799CE54AD.title: "地黄龙"
+	quest.3D74C6BF68CB4A92.quest_desc: [
+		"&9目标：喝下不祥之瓶，召唤铁傀儡并且击杀"
+		""
+		"你已经基本了解了&e『&6化龍&e』&r整合包的主要特色和玩法。现在是检验你学习成果的时候了。"
+		""
+		"你需要喝下上个任务奖励的&5不祥之瓶&r，然后靠近演武场中央的&e试炼刷怪笼&r，此时会自动生成一只&f铁傀儡&r。你可以使用&c任何手段&r，只要能&c击杀铁傀儡&r，即可过关。"
+	]
+	quest.3D74C6BF68CB4A92.quest_subtitle: "点击查看详情"
+	quest.3D74C6BF68CB4A92.title: "最终试炼"
 	quest.3DB21E73BA8C8682.quest_desc: [
 		"&a&l使用教程："
 		"step1：准备你想投至世界的&d图片&d"
@@ -2489,6 +2534,15 @@
 	quest.51683C60A0CE8843.title: "茅山道士装备"
 	quest.517B7C0FB7C6E380.quest_subtitle: "集齐所有首饰"
 	quest.517B7C0FB7C6E380.title: "&a首饰毕业"
+	quest.51CE47B1ADD35248.quest_desc: [
+		"&9目标：前往主世界"
+		""
+		"&z新手教程&r已经全部完结，感谢你的耐心游玩！化龙的冒险之旅才刚刚开始，希望你能牢记教程里学到的知识。未来的路充满坎坷，需要你砥砺前行。当你遇到不解困惑的地方，一定要按&d【J】&r打开任务，&a任务书会解答你的大部分疑问&r。"
+		""
+		"你可以跳入龙宫下方的&5虚空&r，传送到&2主世界&r！"
+	]
+	quest.51CE47B1ADD35248.quest_subtitle: "祝你前程似锦"
+	quest.51CE47B1ADD35248.title: "&2&l化龙冒险之旅！"
 	quest.52095C31FABA1ED2.quest_desc: [
 		"①&3暮色森林&6的&e【拆解台】&6已被禁用。"
 		"&e拆解台&6可以轻松获取正常难以获得的材料，"
@@ -2834,6 +2888,19 @@
 	]
 	quest.5C54D192CA150300.quest_subtitle: "★★★★"
 	quest.5C54D192CA150300.title: "首领崛起：霜冻雪怪"
+	quest.5C68B97AC2696D9D.quest_desc: [
+		"&9目标：在财宝堆上睡觉"
+		""
+		"&z财宝堆成长加速&r是本整合包新增的原创玩法。当你在财宝堆上面&a睡觉时&r，可以大幅度&a加速自然成长&r，睡觉也能变强！"
+		""
+		"不同的&e财宝堆&r有不同的&6财宝价值&r和&6数量限制&r。睡觉时，会计算周围&216×16×9&r立方体范围内的财宝堆的&e总财宝价值&r。每&2100点财宝价值&r，可以提高&61级成长加速效果&r；每级成长加速增加&2100%的自然成长速度&r。计算公式为："
+		""
+		"&b自然成长速度=(财宝总价值÷100 + 2)×100%"
+		""
+		"简而言之，财宝堆数量越多，品质越好，成长速度越快。在&n演武场的枫树底下&r，有四个&6铜财宝堆&r，你可以在上面睡一觉体验一下。"
+	]
+	quest.5C68B97AC2696D9D.quest_subtitle: "点击查看详情"
+	quest.5C68B97AC2696D9D.title: "财宝堆成长加速"
 	quest.5C7DC397FD36FFDB.quest_desc: [
 		"&a目标：获得训练人偶"
 		""
@@ -2948,6 +3015,21 @@
 	quest.5FCFEA69626A53AE.title: "预制建筑：中式庭院"
 	quest.60300CF89DE750C2.quest_desc: ["&7那一日，灾从天降……"]
 	quest.60300CF89DE750C2.title: "&c&l第六章 天灾灭世"
+	quest.60304C9009AEC933.quest_desc: [
+		"&9目标：升级被动技能凝神聚气到满级"
+		""
+		"龙族虽然有强大的力量和先天优势，但这是有代价的，这个代价就是&4诅咒&r。龙族曾经盛极一时，统治世界，直到诅咒降临，又盛转衰，荣光不再。没有龙直到诅咒来源何方，这个秘密需要你去探寻。"
+		""
+		"点击龙背包上面第三个&6种族信息&r，即可查看你遭受到的&4诅咒&r。&4诅咒&r分为&c龙族诅咒&r和&c特殊诅咒&r。"
+		""
+		"&c龙族诅咒&r是所有龙都有的，包括&e物品限制&r和&e龙威&r。这导致你无法使用&a鞘翅、三叉戟&r等物品，同时你的龙威会&a吓跑一些小动物&r。"
+		""
+		"&c特殊诅咒&r是每种龙特有的。以新手教程的&3以太龙&r举例，&3以太龙&r必须保持在&b空中飞行&r，否则&b魔力会不断流逝&r。在你的饥饿值上方有个条子，这个条子就是&6诅咒值条。当&6诅咒值条&r归零，你就会遭受诅咒。"
+		""
+		"对于&3以太龙&r，升级被动技能&b凝神聚气&r可以&a减缓诅咒值条归零的速度&r。此外，食用&e早茶&r这种特殊食物，也可以&a暂时免疫诅咒&r。"
+	]
+	quest.60304C9009AEC933.quest_subtitle: "点击查看详情"
+	quest.60304C9009AEC933.title: "龙之诅咒"
 	quest.60B7FFFA63E2B4B2.title: "冰霜执法者装备"
 	quest.60E6ED7ED056ABDD.title: "护符T2"
 	quest.61841B2C10B08D91.quest_desc: [
@@ -3806,6 +3888,9 @@
 	quest.7F3860516EB20F18.title: "谁能主持公道？"
 	quest.7F59185C7CD743A1.quest_subtitle: "风从何处来"
 	quest.7F59185C7CD743A1.title: "获得：孔雀羽扇"
+	quest.7F6793C865F7784D.quest_desc: ["因为跳过了新手教程，所以也没有奖励。"]
+	quest.7F6793C865F7784D.quest_subtitle: "被你发现了"
+	quest.7F6793C865F7784D.title: "跳过新手教程"
 	quest.7F7757E6C4E4B498.quest_desc: [
 		"&6疣猪兽皮&r是好用的魔法材料。"
 		""
@@ -3829,6 +3914,7 @@
 	reward.454B2D28BF497396.title: "生成【珊瑚傀儡】"
 	reward.4605D18D17F1BB92.title: "化凡为人"
 	reward.4611741776C9A599.title: "威压之力"
+	reward.4B9637D64D06DF32.title: "获得技能：龙击长空"
 	reward.4BCB923F946FBCF3.title: "生成【紫水晶巨蟹】"
 	reward.4FA5DE6B8C446E46.title: "雨雪"
 	reward.5A9476EF337264A3.title: "生成【行商】"
@@ -3836,6 +3922,7 @@
 	reward.615281F2EE1416FE.title: "不屈之魂"
 	reward.61DB822EE5166EAB.title: "永猎通缉"
 	reward.6B1DE3C71CC72400.title: "圣疗灵光"
+	reward.6BF153A621FBE02F.title: "获得技能：龙宫传送"
 	reward.6CFE2CB668667884.title: "开启死亡不掉落"
 	reward.6F1D6D4E8BFC60D7.title: "圣耀龙鳞"
 	reward.70DF28F993259115.title: "和平誓约"

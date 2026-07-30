@@ -1,12 +1,18 @@
 {
   "beloong.advancement.beloong/air_strike_kill": "Adorable Star Skyward Smash",
   "beloong.advancement.beloong/air_strike_kill.desc": "Kill an enemy using the skill [Air Strike].",
-  "beloong.advancement.beloong/finish_beginner_tutorial": "Finish Beginner Tutorial",
+  "beloong.advancement.beloong/dragon_curse": "Tutorial - Dragon Curses",
+  "beloong.advancement.beloong/dragon_curse.desc": "Upgrade the passive ability Qi Concentration to its maximum level.",
+  "beloong.advancement.beloong/finish_beginner_tutorial": "Tutorial - Finish",
   "beloong.advancement.beloong/finish_beginner_tutorial.desc": "Complete the Beginner Tutorial to unlock other dragon types.",
   "beloong.advancement.beloong/root": "BeLoong",
   "beloong.advancement.beloong/root.desc": "Become a loong and start your journey!",
+  "beloong.advancement.beloong/skip_beginner_tutorial": "Skip Beginner Tutorial",
+  "beloong.advancement.beloong/skip_beginner_tutorial.desc": "Although the Beginner Tutorial can be skipped, it is still recommended to complete it carefully.",
   "beloong.advancement.beloong/wind_breath": "Tutorial - Wind Breath",
   "beloong.advancement.beloong/wind_breath.desc": "Kill a pig using Dragon Breath.",
   "beloong.advancement.beloong/wind_sword": "Tutorial - Wind Sword",
-  "beloong.advancement.beloong/wind_sword.desc": "Kill a creeper using Wind Sword."
+  "beloong.advancement.beloong/wind_sword.desc": "Kill a creeper using Wind Sword.",
+  "beloong.advancement.beloong/young_dragon": "Tutorial - Dragon Growth",
+  "beloong.advancement.beloong/young_dragon.desc": "Grow into young stage."
 }

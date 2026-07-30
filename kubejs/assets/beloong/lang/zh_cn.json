@@ -1,12 +1,18 @@
 {
   "beloong.advancement.beloong/air_strike_kill": "可爱星星飞天撞",
   "beloong.advancement.beloong/air_strike_kill.desc": "使用技能「龙击长空」击杀一名敌人。",
-  "beloong.advancement.beloong/finish_beginner_tutorial": "完成新手教程",
+  "beloong.advancement.beloong/dragon_curse": "新手教程 - 龙之诅咒",
+  "beloong.advancement.beloong/dragon_curse.desc": "升级被动技能凝神聚气到满级。",
+  "beloong.advancement.beloong/finish_beginner_tutorial": "新手教程 - 完成",
   "beloong.advancement.beloong/finish_beginner_tutorial.desc": "完成新手教程后，可解锁其他龙种。",
   "beloong.advancement.beloong/root": "化龙",
   "beloong.advancement.beloong/root.desc": "化为一条龙开启你的冒险之旅吧！",
-  "beloong.advancement.beloong/wind_breath": "新手教程-微风之息",
+  "beloong.advancement.beloong/skip_beginner_tutorial": "跳过新手教程",
+  "beloong.advancement.beloong/skip_beginner_tutorial.desc": "虽然新手教程可以跳过，但还是建议认真完成。",
+  "beloong.advancement.beloong/wind_breath": "新手教程 - 微风之息",
   "beloong.advancement.beloong/wind_breath.desc": "使用龙息击杀一头猪。",
-  "beloong.advancement.beloong/wind_sword": "新手教程-云龙剑",
-  "beloong.advancement.beloong/wind_sword.desc": "使用云龙剑击杀一只苦力怕。"
+  "beloong.advancement.beloong/wind_sword": "新手教程 - 云龙剑",
+  "beloong.advancement.beloong/wind_sword.desc": "使用云龙剑击杀一只苦力怕。",
+  "beloong.advancement.beloong/young_dragon": "新手教程 - 龙之成长",
+  "beloong.advancement.beloong/young_dragon.desc": "成长到青年龙阶段。"
 }

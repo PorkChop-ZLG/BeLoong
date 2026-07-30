@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "loong_palace"
-	group: "68BA145F90AA30CE"
+	group: "1EFE04C2BB6E0380"
 	icon: {
 		components: {
 			"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
@@ -24,6 +24,7 @@
 			icon_scale: 2.0d
 			id: "6C793599D6EB7D88"
 			optional: true
+			repeat_cooldown: 60
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s in beloong:loong_palace run tp 0 64 0"
@@ -370,7 +371,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3C1132797D408E77"]
+			dependencies: ["48D785889A3C35A3"]
 			icon: {
 				id: "dragonsurvival:elder_dragon_bone"
 			}
@@ -607,7 +608,7 @@
 			repeat_cooldown: 60
 			rewards: [{
 				auto: "invisible"
-				command: "/execute in beloong:loong_palace run summon minecraft:pig 0 65 203"
+				command: "/execute in beloong:loong_palace run summon minecraft:pig 0 67 203"
 				id: "43E6E2491B5B595D"
 				permission_level: 2
 				type: "command"
@@ -641,7 +642,7 @@
 					xp: 100
 				}
 				{
-					count: 36
+					count: 45
 					id: "7F1200B1A1DF77F1"
 					item: {
 						count: 1
@@ -670,7 +671,7 @@
 			repeat_cooldown: 60
 			rewards: [{
 				auto: "invisible"
-				command: "/execute in beloong:loong_palace run summon minecraft:creeper 0 65 203"
+				command: "/execute in beloong:loong_palace run summon minecraft:creeper 0 67 203"
 				id: "5ED8E093FD52E872"
 				permission_level: 2
 				type: "command"
@@ -682,6 +683,307 @@
 			}]
 			x: 19.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["18E283E2D5D0D640"]
+			icon: {
+				id: "dragonsurvival:heart_element"
+			}
+			icon_scale: 2.0d
+			id: "30147ED868E1EB9E"
+			rewards: [
+				{
+					id: "24D3D51EA85B145C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 50
+					id: "4C813FD7ED8D1B1F"
+					item: {
+						count: 1
+						id: "dragonsurvival:gold_dragon_treasure"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/young_dragon"
+				criterion: ""
+				id: "6FEA1123461FE736"
+				type: "advancement"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30147ED868E1EB9E"]
+			icon: {
+				id: "dragonsurvival:gold_dragon_treasure"
+			}
+			icon_scale: 2.0d
+			id: "5C68B97AC2696D9D"
+			rewards: [
+				{
+					id: "6324C2D8E9F45C5F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "390ED62893EF0504"
+					item: {
+						count: 1
+						id: "beyonddimensions:net_creater"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dragonsurvival:sleep_on_treasure"
+				criterion: ""
+				id: "7E551C2911DD6512"
+				type: "advancement"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C68B97AC2696D9D"]
+			icon: {
+				id: "iss_magicfromtheeast:yin_yang_core"
+			}
+			icon_scale: 2.0d
+			id: "60304C9009AEC933"
+			rewards: [
+				{
+					id: "3996466DD380BD35"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A79A57794D74BA6"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:sharpness": 5
+									"soulbound:soulbound": 1
+								}
+							}
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:wooden_sword"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D35383526404A86"
+					item: {
+						count: 1
+						id: "minecraft:ominous_bottle"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute in beloong:loong_palace run data merge block 0 65 203 {cooldown_ends_at:0L}"
+					id: "27E39DE988D34A56"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/dragon_curse"
+				criterion: ""
+				id: "3BBFB63FFAAC0055"
+				type: "advancement"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60304C9009AEC933"]
+			icon: {
+				id: "minecraft:trial_spawner"
+			}
+			icon_scale: 2.0d
+			id: "3D74C6BF68CB4A92"
+			rewards: [
+				{
+					id: "7B7783819D4FE20E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "invisible"
+					command: "/effect clear @s"
+					id: "1DF052A27C0E5A4A"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "03E5068875A3B85C"
+					item: {
+						count: 1
+						id: "dragonsurvival:dragon_soul"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "19FC7D22F98E27AA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D74C6BF68CB4A92"]
+			id: "294DCB1F2F69927E"
+			rewards: [
+				{
+					id: "54A79AF36AFAE56B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "109D3E0DE41A923B"
+					item: {
+						count: 1
+						id: "beloong:eternal_porkchop"
+					}
+					type: "item"
+				}
+				{
+					advancement: "beloong:beloong/finish_beginner_tutorial"
+					auto: "invisible"
+					criterion: ""
+					id: "29DF8A62E564F2EE"
+					type: "advancement"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				advancement: "dragonsurvival:use_dragon_soul"
+				criterion: ""
+				id: "66BB6E186378FE94"
+				type: "advancement"
+			}]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3D74C6BF68CB4A92"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_4.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "16DF8F0EA133B69A"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				auto: "enabled"
+				command: "/dragon-ability add @s dragonsurvival:air_strike"
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_5.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4B9637D64D06DF32"
+				permission_level: 2
+				type: "command"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "07C610D03044B4C0"
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["294DCB1F2F69927E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "19E36A004B2CACC1"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				auto: "enabled"
+				command: "/dragon-ability add @s dragonsurvival:tp_loong_palace"
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6BF153A621FBE02F"
+				permission_level: 2
+				type: "command"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2681E99F42E8BE25"
+				type: "checkmark"
+			}]
+			x: 29.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["294DCB1F2F69927E"]
+			icon_scale: 1.5d
+			id: "51CE47B1ADD35248"
+			rewards: [{
+				id: "61F869F4C0BD37F5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "035CE1D2808F82F6"
+				type: "dimension"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:barrier"
+			}
+			id: "7F6793C865F7784D"
+			invisible: true
+			rewards: [{
+				advancement: "beloong:beloong/skip_beginner_tutorial"
+				criterion: ""
+				id: "345C4E204B91CACF"
+				type: "advancement"
+			}]
+			shape: "none"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "51C247484A3AF4FF"
+				type: "dimension"
+			}]
+			x: -32.0d
+			y: 0.0d
 		}
 	]
 }

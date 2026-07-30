@@ -1,0 +1,30 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "skip_beginner_tutorial": {
+      "trigger": "minecraft:impossible"
+      }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/skip_beginner_tutorial"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/skip_beginner_tutorial.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:barrier"
+    }
+  },
+  "requirements": [
+    [
+      "skip_beginner_tutorial"
+    ]
+  ],
+  "rewards": {
+    "experience": 0
+  },
+  "sends_telemetry_event": false
+}
