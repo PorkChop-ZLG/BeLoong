@@ -1,0 +1,16 @@
+#Maximum number of active sound markers a player can have at once
+# Default: 4
+# Range: 1 ~ 16
+maxSoundMarkers = 4
+#How long sound markers last in seconds before expiring
+# Default: 60
+# Range: 10 ~ 600
+markerDurationSeconds = 60
+#If true the marker will be set when casting a sound spell while shifting, if false it will be set when casting without shifting
+markerWhenShift = false
+#How many ticks of delay per 5 blocks of distance before a marker resonates. 20 ticks = 1 second. Set to 0 for instant resonance regardless of distance.
+# Default: 10
+# Range: 0 ~ 200
+resonanceTicksPer5Blocks = 10
+#Enable postgame armor set for compatibility with other mods which add postgame ISS content
+postgameArmor = false

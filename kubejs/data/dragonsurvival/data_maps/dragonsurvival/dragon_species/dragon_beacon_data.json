@@ -152,6 +152,26 @@
         "experience_cost": 60
       }
     },
+    "dragonsurvival:beginner_aether_dragon": {
+      "effects": [
+        {
+          "duration": 400,
+          "effect": "beloong:serene"
+        },
+        {
+          "duration": 400,
+          "effect": "minecraft:speed"
+        },
+        {
+          "duration": 400,
+          "effect": "dragonsurvival:empowered_soul"
+        }
+      ],
+      "payment_data": {
+        "duration_multiplier": 30,
+        "experience_cost": 60
+      }
+    },
     "dragonsurvival:astral_dragon": {
       "effects": [
         {
@@ -172,12 +192,8 @@
         "experience_cost": 60
       }
     },
-    "dragonsurvival:crystcursed_dragon": {
+    "#dragonsurvival:crystcursed_dragon": {
       "effects": [
-        {
-          "duration": 400,
-          "effect": "minecraft:luck"
-        },
         {
           "duration": 400,
           "effect": "crystcursed_dragon:replenish_the_source"

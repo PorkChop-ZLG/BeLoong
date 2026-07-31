@@ -7,6 +7,7 @@
         "dragonsurvival:crystcursed_rain",
         "dragonsurvival:crystcursed_laser",
         "dragonsurvival:crystal_budding",
+        "dragonsurvival:crystcursed_mana_infusion",
         "dragonsurvival:crystcursed_magic_setting",
 
         "dragonsurvival:crystcursed_magic",
@@ -23,7 +24,7 @@
         "crystcursed_dragon:key_trigger/on_key_pressed/key-mouse-right",
         "crystcursed_dragon:key_trigger/on_key_released/key-mouse-right",
         "crystcursed_dragon:key_trigger/on_key_pressed/key-mouse-left",
-        
+
 		"dragonsurvival:become_bigger",
 		"dragonsurvival:become_smaller"
     ]

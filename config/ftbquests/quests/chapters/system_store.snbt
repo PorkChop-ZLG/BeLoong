@@ -34,7 +34,7 @@
 			y: 0.1d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -497,72 +497,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				components: {
-					"irons_spellbooks:spell_container": {
-						data: [{
-							id: "alshanex_familiars:lullaby"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-				id: "irons_spellbooks:scroll"
-			}
-			id: "707603494DF98ADC"
-			rewards: [{
-				id: "54D11D9184FCCD7C"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "alshanex_familiars:lullaby"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					count: 32L
-					id: "7E7DB83FDD6C42DF"
-					item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7348AA479FD73F45"
-					item: { count: 1, id: "minecraft:note_block" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "6D077D44B1B98B6E"
-					item: { count: 1, id: "irons_spellbooks:legendary_ink" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "alshanex_familiars:druid_shard"
 			}
 			id: "6511938692C22F27"
@@ -678,7 +612,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -920,7 +854,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -1032,10 +966,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"6DC97A09E372363A"
-			]
+			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "xfws_swords:ark_of_the_cosmos"
@@ -1111,35 +1042,6 @@
 				consume_items: true
 				count: 3L
 				id: "4C5552B98FE6E180"
-				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"6344D6B5AEC69478"
-			]
-			hide_dependency_lines: true
-			icon: {
-				id: "terra_entity:bei_dou_boomerang"
-			}
-			id: "2B87E4C3672E1D90"
-			rewards: [{
-				id: "6927CD9407D7C0D1"
-				item: {
-					count: 1
-					id: "terra_entity:bei_dou_boomerang"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "1AAD299AF57958D9"
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
@@ -1328,7 +1230,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -1463,7 +1365,7 @@
 				}
 				{
 					id: "147C479AFFEC8E70"
-					item: { count: 1, id: "alshanex_familiars:mysterious_orb" }
+					item: { components: { "ftbquests:missing_item": "alshanex_familiars:mysterious_orb" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

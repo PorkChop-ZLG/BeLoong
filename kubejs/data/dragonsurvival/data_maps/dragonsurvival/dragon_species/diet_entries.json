@@ -2759,7 +2759,98 @@
         }
       }
     ],
-    "dragonsurvival:crystcursed_dragon": [
+    "dragonsurvival:beginner_aether_dragon": [
+      {
+        "items": "ds_aether_addon:aether_dragon_treat",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 4,
+          "saturation": 8.0,
+          "can_always_eat": true,
+          "effects": [
+            {
+              "effect": {
+                "id": "dragonsurvival:source_of_magic",
+                "duration": 1200
+              }
+            }
+          ]
+        }
+      },
+      {
+        "items": "ds_aether_addon:stuffedegg",
+        "properties": {
+          "can_always_eat": true,
+          "eat_seconds": 1.0,
+          "nutrition": 5,
+          "saturation": 10.0
+        }
+      },
+      {
+        "items": "ds_aether_addon:chopfordragon",
+        "properties": {
+          "can_always_eat": true,
+          "eat_seconds": 1.2,
+          "nutrition": 8,
+          "saturation": 12.0
+        }
+      },
+      {
+        "items": "ds_aether_addon:stroganina",
+        "properties": {
+          "can_always_eat": true,
+          "eat_seconds": 1.2,
+          "nutrition": 8,
+          "saturation": 12.0
+        }
+      },
+      {
+        "items": "ds_aether_addon:dim_sum",
+        "properties": {
+          "can_always_eat": true,
+          "eat_seconds": 0.5,
+          "nutrition": 6,
+          "saturation": 8.0,
+          "effects": [
+            {
+              "effect": {
+                "id": "beloong:serene",
+                "amplifier": 0,
+                "duration": 1200
+              }
+            }
+          ]
+        }
+      },
+      {
+        "items": "ds_aether_addon:morning_tea",
+        "properties": {
+          "can_always_eat": true,
+          "eat_seconds": 1.0,
+          "nutrition": 2,
+          "saturation": 4.0,
+          "effects": [
+            {
+              "effect": {
+                "id": "beloong:serene",
+                "amplifier": 1,
+                "duration": 1200
+              }
+            }
+          ]
+        }
+      },
+      {
+        "items": "ds_aether_addon:mistral",
+        "properties": {
+          "can_always_eat": true,
+          "eat_seconds": 1.5,
+          "nutrition": 12,
+          "saturation": 18.0
+        }
+      }
+    ],
+    "#dragonsurvival:crystcursed_dragon": [
       {
         "items": "crystcursed_dragon:crystcursed_dragon_treat",
         "properties": {
@@ -2776,6 +2867,9 @@
             }
           ]
         }
+      },
+      {
+        "items": "minecraft:ominous_bottle"
       },
       {
         "items": "crystcursed_dragon:golden_amethyst_shard",
@@ -2796,10 +2890,28 @@
         }
       },
       {
-        "items": "minecraft:amethyst_shard",
+        "items": "#c:gems/amethyst",
         "properties": {
           "eat_seconds": 0.6,
-          "nutrition": 8,
+          "nutrition": 4,
+          "saturation": 8.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "#c:gems/quartz",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 4,
+          "saturation": 6.0,
+          "can_always_eat": true
+        }
+      },
+      {
+        "items": "#c:gems/lapis",
+        "properties": {
+          "eat_seconds": 0.6,
+          "nutrition": 4,
           "saturation": 6.0,
           "can_always_eat": true
         }
@@ -3834,7 +3946,7 @@
         }
       }
     ],
-		"dragonsurvival:dihuang_loong": [
+    "dragonsurvival:dihuang_loong": [
       {
         "items": "artifacts:everlasting_beef",
         "properties": {
@@ -3966,7 +4078,7 @@
             }
           ]
         }
-			}
+      }
     ]
   }
 }

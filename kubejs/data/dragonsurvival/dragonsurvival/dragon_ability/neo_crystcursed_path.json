@@ -1,0 +1,134 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "crystcursed_dragon:dragon_ability/crystcursed_path/main-ability"
+                        }
+                    ],
+                    "targeting_mode": "allies_and_self"
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_rate": 1
+        },
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:projectile",
+                            "number_of_projectiles": 1,
+                            "projectile_data": "dragonsurvival:crystcursed_path_message_entity",
+                            "speed": 1,
+                            "target_direction": {
+                                "direction": "down"
+                            }
+                        }
+                    ],
+                    "target_conditions": {
+                        "condition": "any_of",
+                        "terms": []
+                    },
+                    "targeting_mode": "all"
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_rate": 1
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:simple",
+        "animations": {
+            "end": {
+                "animation_key": "magic_alt",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": true,
+                "transition_length": 1
+            }
+        },
+        "can_move_while_casting": false,
+        "cast_time": 2.0,
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 120.0,
+            "per_level_above_first": -20.0
+        },
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+        }
+    },
+    "can_be_manually_disabled": true,
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_path_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_path_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_path_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_path_3"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_path_4"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_path_4"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_path_4"
+            }
+        ]
+    },
+    "upgrade": {
+        "upgrade_type": "dragonsurvival:dragon_growth",
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 50.0,
+                "per_level_above_first": 50.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 6
+    },
+    "usage_blocked": {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "flags": {
+                        "is_on_ground": false
+                    }
+                }
+            }
+        ]
+    }
+}

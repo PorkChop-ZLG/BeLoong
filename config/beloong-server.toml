@@ -61,20 +61,6 @@
 		# Default: 0
 		# Range: -2032 ~ 2032
 		triggerY = 0
-		#目标维度 ID
-		targetDimension = "minecraft:overworld"
-		#目标固定 X 坐标
-		# Default: 0.5
-		# Range: -3.0E7 ~ 3.0E7
-		targetX = 0.5
-		#目标固定 Z 坐标
-		# Default: 0.5
-		# Range: -3.0E7 ~ 3.0E7
-		targetZ = 0.5
-		#高度图查找失败时的回退 Y 坐标
-		# Default: 64.5
-		# Range: -2032.0 ~ 2032.0
-		fallbackY = 64.5
 
 [disaster_portal]
 	#激活传送门所需的 12 种眼球物品 ID（顺序可任意）
@@ -89,3 +75,52 @@
 	#当这些效果过期、被牛奶清除或被指令移除时，触发结构重检
 	#具体效果与结构的映射请在 data/beloong/beloong/structure_effects/ 中配置
 	watchedEffects = ["beloong:flight_ban"]
+
+[beloong_water]
+	#化龙池水冷却（ticks）
+	# Default: 200
+	# Range: 0 ~ 72000
+	beloongWaterCooldown = 200
+
+	[loong_palace.environment_protection]
+		#Master switch for configurable Loong Palace environment protection
+		#龙宫可配置环境保护的总开关
+		enabled = true
+		#Prevent explosions reaching NeoForge's detonate event from changing blocks
+		#Dragon Survival's protected explosion skill remains fully canceled
+		#阻止进入 NeoForge 爆炸事件的爆炸修改方块
+		#龙之生存受保护的爆炸技能仍会被完整取消
+		protectExplosions = true
+		#Prevent block placement attributed to non-player entities or no actor
+		#阻止由非玩家实体或无来源行为放置方块
+		protectNonPlayerBlockPlacement = true
+		#Prevent living entities from destroying blocks
+		#阻止生物破坏方块
+		protectLivingBlockDestruction = true
+		#Disable mob-griefing actions
+		#阻止生物破坏环境的行为
+		protectMobGriefing = true
+		#Prevent farmland trampling
+		#阻止耕地被踩踏
+		protectFarmlandTrampling = true
+		#Prevent tool actions such as stripping, tilling, and flattening
+		#阻止去皮、耕作和铲平等工具修改方块的行为
+		protectToolModifications = true
+		#Prevent random-tick crop growth and non-bypass bone meal use
+		#阻止随机刻作物生长和无绕过权限玩家使用骨粉
+		protectCropGrowth = true
+		#Prevent saplings and similar blocks from growing configured features
+		#阻止树苗等方块生长为地物
+		protectFeatureGrowth = true
+		#Prevent block updates from creating portals
+		#阻止方块更新创建传送门
+		protectPortalCreation = true
+		#Prevent players from placing or collecting fluids with buckets and solid buckets
+		#阻止玩家使用桶和固体桶放置或收集流体
+		protectFluidContainerEdits = true
+		#Prevent players from placing, changing, or destroying paintings and item frames
+		#阻止玩家放置、修改或破坏画与物品展示框
+		protectHangingEntityEdits = true
+		#Prevent players from inserting or removing flower-pot contents
+		#阻止玩家放入或取出花盆内容物
+		protectFlowerPotEdits = true

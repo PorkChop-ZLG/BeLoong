@@ -1,0 +1,11 @@
+{
+  "key": "angel_eyes",
+  "texture": "dragonsurvival:textures/dragon/custom/angel_eyes.png",
+  "average_hue": 0.09895833333333333,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

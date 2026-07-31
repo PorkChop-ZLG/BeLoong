@@ -1,0 +1,179 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "crystcursed_dragon:dragon_ability/crystcursed_volley/main-ability"
+                        }
+                    ],
+                    "targeting_mode": "allies_and_self",
+                    "target_conditions": {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": false
+                            }
+                        }
+                    }
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_rate": 4
+        },
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "crystcursed_dragon:dragon_ability/crystcursed_volley/main-ability"
+                        },
+                        {
+                            "effect_type": "dragonsurvival:mana_recovery",
+                            "action_type": "add",
+                            "adjustment_type": "flat",
+                            "amount": -0.75,
+                            "probability": 1
+                        }
+                    ],
+                    "targeting_mode": "allies_and_self",
+                    "target_conditions": {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": true
+                            }
+                        }
+                    }
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_rate": 10
+        },
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:projectile",
+                            "number_of_projectiles": 1,
+                            "projectile_data": "dragonsurvival:crystcursed_volley_message_entity",
+                            "speed": 4,
+                            "target_direction": {
+                                "direction": "down"
+                            }
+                        }
+                    ],
+                    "target_conditions": {
+                        "condition": "any_of",
+                        "terms": []
+                    },
+                    "targeting_mode": "all"
+                },
+                "target_type": "dragonsurvival:self"
+            }
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:channeled",
+        "cast_time": 1,
+        "continuous_mana_cost": {
+            "type": "ticking",
+            "amount": 0.1
+        },
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 60.0,
+            "per_level_above_first": -10.0
+        },
+        "initial_mana_cost": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.25
+        },
+        "animations": {
+            "start_and_charging": {
+                "starting_animation_key": "blend_mana_veins_charge_forward",
+                "looping_animation_key": "blend_mana_veins_on",
+                "layer": "BREATH",
+                "locks_neck": false,
+                "locks_tail": false,
+                "transition_length": 5
+            },
+            "looping": {
+                "animation_key": "blend_mana_veins_on",
+                "layer": "BREATH",
+                "locks_neck": false,
+                "locks_tail": false
+            },
+            "end": {
+                "animation_key": "blend_mana_veins_fade_forward",
+                "layer": "BREATH",
+                "locks_neck": false,
+                "locks_tail": false
+            }
+        }
+    },
+    "can_be_manually_disabled": true,
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_volley_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_volley_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_volley_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_volley_3"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_volley_4"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_volley_5"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_volley_5"
+            }
+        ]
+    },
+    "upgrade": {
+        "upgrade_type": "dragonsurvival:dragon_growth",
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 50.0,
+                "per_level_above_first": 50.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 6
+    },
+    "usage_blocked": {
+        "name": "crystcursed_dragon:dragon_ability/crystcursed_volley/usage_blocked",
+        "condition": "reference"
+    }
+}

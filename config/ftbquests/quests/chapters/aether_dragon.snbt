@@ -283,7 +283,6 @@
 			dependencies: [
 				"02B96CE03E4B8FF7"
 				"51238BE8AF0EA852"
-				"37F1B7C8FF396C68"
 				"459C37FAE369EFF4"
 				"31E0FB1E1052AF73"
 			]
@@ -564,38 +563,6 @@
 			}]
 			x: 1.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["3B512F52E529954C"]
-			id: "37F1B7C8FF396C68"
-			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "72B22B00FED40642"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "20209B31BD8BF7EB"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				entity: "terra_entity:flying_fish"
-				icon: {
-					id: "terra_entity:flying_fish_spawn_egg"
-				}
-				id: "1E11D4B669EC086A"
-				type: "kill"
-				value: 10L
-			}]
-			x: 1.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["3B512F52E529954C"]

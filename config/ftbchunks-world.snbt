@@ -49,7 +49,7 @@
 	
 	# Dimension ID's where the no_wilderness rule is enforced - building is only allowed in claimed chunks. If this is non-empty, it overrides the 'no_wilderness' setting.
 	# Default: []
-	no_wilderness_dimensions: ["beloong:loong_palace"]
+	no_wilderness_dimensions: [ ]
 	
 	# If true, pistons are prevented from pushing/pulling blocks across claims owned by different teams (unless the target claim has public 'edit block' permissions defined). If 'disable_protection' is set to true, this setting is ignored.
 	# Default: true

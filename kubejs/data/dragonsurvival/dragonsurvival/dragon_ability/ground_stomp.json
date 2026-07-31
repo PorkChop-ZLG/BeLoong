@@ -87,6 +87,21 @@
             },
             "trigger_point": "default",
             "trigger_rate": 0
+        },
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dihuang_loong:ground_stomp_completion"
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            },
+            "trigger_point": "channel_completion",
+            "trigger_rate": 0
         }
     ],
     "activation": {
@@ -100,7 +115,7 @@
                 "transition_length": 2
             },
             "end": {
-                "animation_key": "ground_stomp2",
+                "animation_key": "ground_stomp",
                 "layer": "BASE",
                 "locks_neck": true,
                 "locks_tail": true,

@@ -67,7 +67,7 @@
                   100.0
                 ]
               },
-              "damage_type": "minecraft:wind_charge",
+              "damage_type": "dragonsurvival:wind_breath",
               "effect_type": "dragonsurvival:damage"
             }
           ],

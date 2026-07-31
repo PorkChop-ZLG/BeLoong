@@ -2,7 +2,7 @@
 	"abilities": "#dragonsurvival:dihuang_loong",
 	"mana_handling": {
 		"mana_per_level": 0.2,
-		"mana_xp_conversion": 0.01,
+		"mana_xp_conversion": 0,
 		"max_mana_from_levels": 20
 	},
 	"bodies": "dragonsurvival:dihuang_body",
@@ -43,5 +43,37 @@
 		"primary_color": "#E84141",
 		"secondary_color": "#730B0B"
 	},
-	"penalties": "#dragonsurvival:dihuang_loong"
+	"penalties": "#dragonsurvival:dihuang_loong",
+	"unlockable_behavior": {
+    "visibility": "visible_if_locked",
+    "unlock_condition": {
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/finish_beginner_tutorial": true
+              }
+            }
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/skip_beginner_tutorial": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
 }

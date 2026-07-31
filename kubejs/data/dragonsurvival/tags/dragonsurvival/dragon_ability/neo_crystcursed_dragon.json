@@ -1,0 +1,31 @@
+{
+    "values": [
+        "dragonsurvival:neo_crystcursed_volley",
+        "dragonsurvival:neo_crystcursed_path",
+        "dragonsurvival:neo_crystcursed_missile",
+        "dragonsurvival:neo_crystcursed_revenge",
+        "dragonsurvival:neo_crystcursed_rain",
+        "dragonsurvival:neo_crystcursed_laser",
+        "dragonsurvival:neo_crystal_budding",
+        "dragonsurvival:neo_crystcursed_mana_infusion",
+        "dragonsurvival:neo_crystcursed_magic_setting",
+
+        "dragonsurvival:crystcursed_magic",
+        "dragonsurvival:source_preservation",
+        "dragonsurvival:crystcursed_armor",
+        "dragonsurvival:shattering_impact",
+        
+        "dragonsurvival:innate_resistance",
+        "dragonsurvival:crystcursed_claws_and_teeth",
+        "dragonsurvival:symbiotic_crystal_rest",
+        "dragonsurvival:crystcursed_wings",
+        "dragonsurvival:crystcursed_spin",
+
+        "crystcursed_dragon:key_trigger/on_key_pressed/key-mouse-right",
+        "crystcursed_dragon:key_trigger/on_key_released/key-mouse-right",
+        "crystcursed_dragon:key_trigger/on_key_pressed/key-mouse-left",
+
+		"dragonsurvival:become_bigger",
+		"dragonsurvival:become_smaller"
+    ]
+}

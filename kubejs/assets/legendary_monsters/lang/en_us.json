@@ -1,0 +1,720 @@
+{
+  "item.legendary_monsters.dinosaur_bone" : "Dinosaur Bone",
+  "item.legendary_monsters.ambushers_skin" : "Ambusher's Skin",
+  "item.legendary_monsters.sharp_battle_axe" : "Sharp Battle Axe",
+  "item.legendary_monsters.anchor_handle" : "Anchor Handle",
+  "item.legendary_monsters.reinforced_monstrous_anchor" : "Reinforced Monstrous Anchor",
+  "item.legendary_monsters.ancient_spike" : "Ancient Spike",
+
+  "item.legendary_monsters.shulker_mimic_spawn_egg" : "Shulker Mimic Spawn Egg",
+  "item.legendary_monsters.ancient_guardian_spawn_egg" : "Ancient Guardian Spawn Egg",
+  "item.legendary_monsters.posessed_paladin_spawn_egg" : "Possessed Paladin Spawn Egg",
+
+  "item.legendary_monsters.beheaded_knight_spawn_egg" : "Beheaded Knight Spawn Egg",
+
+  "item.legendary_monsters.resurrected_knight_spawn_egg" : "Resurrected Knight Spawn Egg",
+  "item.legendary_monsters.monstrous_anchor" : "Monstrous Anchor",
+  "item.legendary_monsters.spiky_shield" : "Spiky Shield",
+  "item.legendary_monsters.withered_ribcage" : "Withered Ribcage",
+  "item.legendary_monsters.chorus_blade" : "Chorus Blade",
+  "item.legendary_monsters.chorus_mask" : "Chorus Mask",
+  "item.legendary_monsters.chorus_crystal" : "Chorus Crystal",
+  "item.legendary_monsters.chorus_cannon" : "Chorus Cannon",
+  "item.legendary_monsters.infected_chorus_fruit" : "Infected Chorus Fruit",
+  "item.legendary_monsters.chorus_bomb_projectile" : "Chorus Bomb",
+  "item.legendary_monsters.large_shulker_shell" : "Large Shulker Shell",
+  "item.legendary_monsters.shulker_shield" : "Shulker Shield",
+  "item.legendary_monsters.shulker_helmet" : "Shulker Helmet",
+  "item.legendary_monsters.the_great_frost" : "The Great Frost",
+  "item.legendary_monsters.dinosaur_bone_shield" : "Dinosaur Bone Shield",
+  "item.legendary_monsters.frozen_rune" : "Frozen Rune",
+  "item.legendary_monsters.frostbitten_shield" : "Frostbitten Shield",
+  "item.legendary_monsters.mossy_chestplate" : "Mossy Chestplate",
+  "item.legendary_monsters.lava_eaters_skin" : "Lava Eater's Skin",
+  "item.legendary_monsters.fiery_jaw" : "Fiery Jaw",
+  "item.legendary_monsters.void_sword" : "Void Sword",
+  "item.legendary_monsters.dinosaur_bone_meal" : "Dinosaur Bone Meal",
+  "item.legendary_monsters.entity_warper" : "Entity Warper",
+  "item.legendary_monsters.nature_crystal" : "Nature Crystal",
+  "item.legendary_monsters.warped_mushroom_cap_part" : "Warped Mushroom Cap Part",
+  "item.legendary_monsters.void_gem" : "Void Gem",
+  "item.legendary_monsters.withered_bone" : "Withered Bone",
+  "item.legendary_monsters.void_entity_warper" : "Void Entity Warper",
+  "item.legendary_monsters.mossy_hammer" : "Mossy Hammer",
+  "item.legendary_monsters.overgrown_colossus_spawn_egg" : "Overgrown Colossus Spawn Egg",
+  "item.legendary_monsters.mossy_golem_spawn_egg" : "Mossy Golem Spawn Egg",
+  "item.legendary_monsters.the_obliterator_spawn_egg" : "The Obliterator Spawn Egg",
+
+  "item.legendary_monsters.flameborn_guard_spawn_egg" : "Flameborn Guard Spawn Egg",
+
+  "item.legendary_monsters.flame_drifter_spawn_egg" : "Flame Drifter Spawn Egg",
+  "item.legendary_monsters.annihilation_pursuer_spawn_egg": "Annihilation Pursuer Spawn Egg",
+
+  "item.legendary_monsters.hovering_hurricane_spawn_egg" : "Hovering Hurricane Spawn Egg",
+  "item.legendary_monsters.stratling_spawn_egg" : "Stratling Spawn Egg",
+  "item.legendary_monsters.spike_bug_spawn_egg" : "Spiky Worm Spawn Egg",
+  "item.legendary_monsters.ambusher_spawn_egg" : "Ambusher Spawn Egg",
+  "item.legendary_monsters.skeletosaurus_spawn_egg" : "Skeletosaurus Spawn Egg",
+  "item.legendary_monsters.warped_fungussus_spawn_egg" : "Warped Fungussus Spawn Egg",
+  "item.legendary_monsters.chorusling_spawn_egg" : "Chorusling Spawn Egg",
+  "item.legendary_monsters.lava_eater_spawn_egg" : "Lava Eater Spawn Egg",
+  "item.legendary_monsters.endersent_spawn_egg" : "Chorusent Spawn Egg",
+  "item.legendary_monsters.frostbitten_golem_spawn_egg" : "Frostbitten Golem Spawn Egg",
+  "item.legendary_monsters.withered_abomination_spawn_egg" : "Withered Abomination Spawn Egg",
+  "item.legendary_monsters.dune_sentinel_spawn_egg" : "Dune Sentinel Spawn Egg",
+  "item.legendary_monsters.cloud_golem_spawn_egg" : "Cumulonimbus, The Cloud Golem Spawn Egg",
+  "item.legendary_monsters.haunted_knight_spawn_egg" : "Haunted Knight Spawn Egg",
+  "item.legendary_monsters.haunted_guard_spawn_egg" : "Haunted Guard Spawn Egg",
+  "item.legendary_monsters.bomber_spawn_egg" : "Bomber Spawn Egg",
+  "item.legendary_monsters.fatal_mortar" : "Fatal Mortar Spawn Egg",
+  "item.legendary_monsters.ender_hammer" : "Ender Hammer",
+  "item.legendary_monsters.withered_scythe" : "Withered Scythe",
+  "item.legendary_monsters.dinosaur_bone_club" : "Dinosaur Bone Club",
+  "item.legendary_monsters.air_rune" : "Air Rune",
+  "item.legendary_monsters.wand_of_clouds" : "Wand Of Clouds",
+  "item.legendary_monsters.sharp_sai" : "Sharp Sai",
+  "item.legendary_monsters.axe_of_lightning" : "Axe Of Lightning",
+  "item.legendary_monsters.molten_metal_ingot" : "Molten Metal Ingot",
+  "item.legendary_monsters.atmospheric_boots" : "Atmospheric Boots",
+  "item.legendary_monsters.soul_great_sword" : "Soul Great Sword",
+  "item.legendary_monsters.spiky_spear" : "Spiky Spear",
+  "item.legendary_monsters.golden_halbert" : "Golden Halberd",
+  "item.legendary_monsters.knights_sword" : "Knight's Sword",
+  "item.legendary_monsters.corrupted_soul" : "Corrupted Soul",
+  "item.legendary_monsters.purified_soul" : "Purified Soul",
+  "item.legendary_monsters.knight_summoner" : "Knight Summoner",
+  "item.legendary_monsters.guard_summoner" : "Guard Summoner",
+  "item.legendary_monsters.deactivated_knight_summoner" : "Deactivated Knight Summoner",
+  "item.legendary_monsters.deactivated_guard_summoner" : "Deactivated Guard Summoner",
+  "item.legendary_monsters.knights_sword_blade_half" : "Knight's Sword Blade Half",
+  "item.legendary_monsters.long_stick_half" : "Long Stick Half",
+  "item.legendary_monsters.primal_ice_shard" : "Primal Ice Shard",
+  "item.legendary_monsters.withered_horn" : "Withered Horn",
+  "item.legendary_monsters.guide_book" : "Guide Book",
+  "item.legendary_monsters.skeloraptor_spawn_egg" : "Skeloraptor Spawn Egg",
+  "item.legendary_monsters.fatal_mortar_spawn_egg" : "Fatal Mortar Spawn Egg",
+  "item.legendary_monsters.chiseled_ancient_dripstone_shard" : "Chiseled Ancient Dripstone Shard",
+  "item.legendary_monsters.sand_cannon" : "Sand Cannon",
+  "item.legendary_monsters.blastproof_metal_scrap" : "Blastproof Metal Scrap",
+  "item.legendary_monsters.blastproof_helmet" : "Blastproof Helmet",
+  "item.legendary_monsters.ancient_sandstone_shard" : "Ancient Sandstone Shard",
+  "item.legendary_monsters.ancient_detonator" : "Ancient Detonator",
+  "item.legendary_monsters.crystal_of_sandstorm" : "Crystal Of Sandstorm",
+  "item.legendary_monsters.explosive_sand" : "Explosive Sand",
+  "item.legendary_monsters.sickle_of_harvest" : "Sickle Of Harvest",
+
+  "item.legendary_monsters.heart_of_tornado" : "Heart Of Tornado",
+
+  "item.legendary_monsters.cloud_rod" : "Cloud Rod",
+
+  "item.legendary_monsters.music_disc_advance" : "Music Disc",
+
+  "item.legendary_monsters.music_disc_obliterator" : "Music Disc",
+
+  "item.legendary_monsters.music_disc_possessed_paladin" : "Music Disc",
+
+  "item.legendary_monsters.music_disc_obliterator.desc" : "Ubjuara0 - Obliterator",
+
+  "item.legendary_monsters.music_disc_possessed_paladin.desc" : "Makai Symphony - Collapsing Kingdom",
+
+
+  "item.legendary_monsters.music_disc_advance.desc" : "Light Canvas - Advance",
+  "item.legendary_monsters.crystal_of_air" : "Crystal Of Air",
+  "item.legendary_monsters.fiery_boots" : "Fiery Boots",
+
+  "item.legendary_monsters.eye_of_sandstorm" : "Eye Of Sandstorm",
+  "item.legendary_monsters.eye_of_many_ribs" : "Eye Of Many Ribs",
+  "item.legendary_monsters.eye_of_frost" : "Eye Of Frost",
+  "item.legendary_monsters.eye_of_soul" : "Eye Of Soul",
+  "item.legendary_monsters.eye_of_air" : "Eye Of Air",
+  "item.legendary_monsters.eye_of_moss" : "Eye Of Moss",
+  "item.legendary_monsters.eye_of_chorus" : "Eye Of Chorus",
+  "item.legendary_monsters.eye_of_shulker" : "Eye Of Shulker",
+  "item.legendary_monsters.eye_of_bones" : "Eye Of Bones",
+  "item.legendary_monsters.eye_of_magma" : "Eye Of Magma",
+  "item.legendary_monsters.eye_of_ghost" : "Eye Of Ghost",
+
+
+  "entity.legendary_monsters.ice_spike": "Ice Spike",
+  "entity.legendary_monsters.skeletosaurus": "Skeletosaurus",
+
+  "entity.legendary_monsters.hovering_hurricane": "Hovering Hurricane",
+  "entity.legendary_monsters.stratling": "Stratling",
+  "entity.legendary_monsters.mossy_golem": "Mossy Golem",
+  "entity.legendary_monsters.overgrown_colossus": "Overgrown Colossus",
+  "entity.legendary_monsters.warped_fungussus": "Warped Fungussus",
+  "entity.legendary_monsters.frostbitten_golem": "Frostbitten Golem",
+  "entity.legendary_monsters.lava_eater": "Lava Eater",
+  "entity.legendary_monsters.endersent": "Chorusent",
+  "entity.legendary_monsters.chorusling": "Chorusling",
+  "entity.legendary_monsters.shulker_mimic": "Shulker Mimic",
+  "entity.legendary_monsters.ambusher": "Ambusher",
+  "entity.legendary_monsters.spiky_bug": "Spiky Worm",
+  "entity.legendary_monsters.withered_abomination": "Withered Abomination",
+  "entity.legendary_monsters.ancient_guardian": "Ancient Guardian",
+  "entity.legendary_monsters.cloud_golem": "Cumulonimbus",
+  "entity.legendary_monsters.dark_cloud_golem": "Cloud Golem",
+  "entity.legendary_monsters.knights_armor": "Knight",
+  "entity.legendary_monsters.guard": "Guard",
+  "entity.legendary_monsters.haunted_knight": "Haunted Knight",
+  "entity.legendary_monsters.haunted_guard": "Haunted Guard",
+  "entity.legendary_monsters.posessed_paladin": "Possessed Paladin",
+  "entity.legendary_monsters.dune_sentinel": "Dune Sentinel",
+  "entity.legendary_monsters.skeloraptor": "Skeloraptor",
+  "entity.legendary_monsters.bomb": "Bomb",
+  "entity.legendary_monsters.bomber": "Bomber",
+
+  "entity.legendary_monsters.the_obliterator": "The Obliterator",
+
+  "entity.legendary_monsters.flameborn_guard": "Flameborn Guard",
+
+
+  "entity.legendary_monsters.flame_drifter": "Flame Drifter",
+
+  "entity.legendary_monsters.annihilation_pursuer": "Annihilation Pursuer",
+
+  "entity.legendary_monsters.beheaded_knight": "Beheaded Knight",
+
+  "entity.legendary_monsters.resurrected_knight": "Resurrected Knight",
+
+  "entity.legendary_monsters.wandering_eye": "Wandering Eye",
+
+
+  "entity.legendary_monsters.flameborn_warrior": "Flameborn Warrior",
+  "creativetab.legendary_monsters" : "Legendary Monsters",
+
+  "sounds.legendary_monsters.endersent_attack": "Endersent Smashes The Ground",
+  "sounds.legendary_monsters.endersent_ambient": "Endersent Talks",
+  "sounds.legendary_monsters.endersent_death": "Endersent Dies in Pain",
+
+  "effect.legendary_monsters.chorus_infection": "Chorus Infection",
+  "effect.legendary_monsters.freeze": "Freeze",
+  "effect.legendary_monsters.soul_fracture": "Soul Fracture",
+  "effect.legendary_monsters.bleeding": "Bleeding",
+  "effect.legendary_monsters.soul_rage": "Soul Rage",
+  "effect.legendary_monsters.stun": "Stun",
+  "effect.legendary_monsters.fear": "Fear",
+  "effect.legendary_monsters.broken_armor": "Broken Armor",
+  "effect.legendary_monsters.gravity_pull": "Gravity Pull",
+  "effect.legendary_monsters.curse_of_desert": "Curse Of Desert",
+
+  "effect.legendary_monsters.unbreakable": "Unbreakable",
+
+  "effect.legendary_monsters.annihilation": "Annihilation",
+
+  "block.legendary_monsters.swinging_axe": "Swinging Axe",
+
+  "block.legendary_monsters.somber_trapdoor": "Somber Trapdoor",
+  "block.legendary_monsters.ancient_dripstone_bricks": "Ancient Dripstone Bricks",
+  "block.legendary_monsters.ancient_dripstone_block": "Ancient Dripstone Block",
+  "block.legendary_monsters.ancient_dripstone_brick_pillar": "Ancient Dripstone Brick Pillar",
+  "block.legendary_monsters.chiseled_ancient_dripstone_bricks": "Chiseled Ancient Dripstone Bricks",
+  "block.legendary_monsters.ancient_dripstone_tiles": "Ancient Dripstone Tiles",
+  "block.legendary_monsters.ancient_dripstone_brick_slab": "Ancient Dripstone Brick Slab",
+  "block.legendary_monsters.ancient_dripstone_brick_wall": "Ancient Dripstone Brick Wall",
+  "block.legendary_monsters.ancient_dripstone_brick_stairs": "Ancient Dripstone Brick Stairs",
+  "block.legendary_monsters.ancient_dripstone_tile_slab": "Ancient Dripstone Tile Slab",
+  "block.legendary_monsters.ancient_dripstone_tile_stairs": "Ancient Dripstone Tile Stairs",
+  "block.legendary_monsters.ancient_dripstone_tile_wall": "Ancient Dripstone Tile Wall",
+  "block.legendary_monsters.cloud_block": "Cloud Block",
+  "block.legendary_monsters.cloud_bricks": "Cloud Bricks",
+  "block.legendary_monsters.skeletosaurus_egg": "Skeletosaurus Egg",
+
+  "block.legendary_monsters.polished_diorite_pillar": "Polished Diorite Pillar",
+
+  "block.legendary_monsters.chiseled_diorite": "Chiseled Diorite",
+
+  "block.legendary_monsters.indestructible_block": "Indestructible Block",
+
+  "advancements.legendary_monsters.legendary_monsters_root.title": "Legendary Monsters",
+  "advancements.legendary_monsters.legendary_monsters_root.description": "New challenging mobs!",
+  "advancements.legendary_monsters.nether_root.title": "Legendary Monsters: Nether",
+  "advancements.legendary_monsters.nether_root.description": "New Challenges in the Nether!",
+  "advancements.legendary_monsters.end_root.title": "Legendary Monsters: End",
+  "advancements.legendary_monsters.end_root.description": "New Challenges in the End!",
+
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.title": "Long Time Ago",
+  "advancements.legendary_monsters.locate_skeletosaurus_nest.description": "locate the skeletosaurus nest",
+
+  "advancements.legendary_monsters.locate_space_station.title": "The Place Of The Beginning",
+  "advancements.legendary_monsters.locate_space_station.description": "Locate the Space Station",
+  "advancements.legendary_monsters.defeat_skeletosaurus.title": "The Ancient Skeleton",
+  "advancements.legendary_monsters.defeat_skeletosaurus.description": "Defeat the Skeletosaurus",
+
+  "advancements.legendary_monsters.locate_soul_fortress_remains.title": "The Soul Fortress",
+  "advancements.legendary_monsters.locate_soul_fortress_remains.description": "locate the soul fortress remains",
+  "advancements.legendary_monsters.defeat_withered_abomination.title": "The Soul Eater",
+  "advancements.legendary_monsters.defeat_withered_abomination.description": "Defeat the Withered Abomination",
+
+  "advancements.legendary_monsters.locate_mossy_temple.title": "Covered in Moss",
+  "advancements.legendary_monsters.locate_mossy_temple.description": "locate the Mossy Temple",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.title": "The Mossy Beast",
+  "advancements.legendary_monsters.defeat_overgrown_colossus.description": "Defeat the Overgrown Colossus",
+
+  "advancements.legendary_monsters.locate_ancient_stronghold.title": "Dripstone Everywhere",
+  "advancements.legendary_monsters.locate_ancient_stronghold.description": "locate the Ancient Stronghold",
+  "advancements.legendary_monsters.defeat_ancient_guardian.title": "The One - Armed Monster",
+  "advancements.legendary_monsters.defeat_ancient_guardian.description": "Defeat the Ancient Guardian",
+  "advancements.legendary_monsters.defeat_ambusher.title": "An Imposter",
+  "advancements.legendary_monsters.defeat_ambusher.description": "Defeat the Ambusher",
+  "advancements.legendary_monsters.defeat_spiky_bug.title": "A Disgusting Worm",
+  "advancements.legendary_monsters.defeat_spiky_bug.description": "Defeat the Spiky Worm",
+
+  "advancements.legendary_monsters.locate_shulker_tower.title": "There Is No Gravity Here!",
+  "advancements.legendary_monsters.locate_shulker_tower.description": "Locate the Shulker Tower",
+  "advancements.legendary_monsters.defeat_shulker_mimic.title": "Spooky Scary Shulker Box",
+  "advancements.legendary_monsters.defeat_shulker_mimic.description": "Defeat the Shulker Mimic",
+
+  "advancements.legendary_monsters.locate_ancient_tower_remains.title": "Far Away From Home",
+  "advancements.legendary_monsters.locate_ancient_tower_remains.description": "Locate the ancient tower remains",
+  "advancements.legendary_monsters.defeat_endersent.title": "The Tall Guy",
+  "advancements.legendary_monsters.defeat_endersent.description": "Defeat the Chorusent",
+  "advancements.legendary_monsters.defeat_chorusling.title": "The Chorus Infection",
+  "advancements.legendary_monsters.defeat_chorusling.description": "Defeat the chorusling",
+
+  "advancements.legendary_monsters.locate_cloudy_temple.title": "Made From Clouds...",
+  "advancements.legendary_monsters.locate_cloudy_temple.description": "Locate the Cloudy Temple",
+  "advancements.legendary_monsters.defeat_cloud_golem.title": "Against The Gods",
+  "advancements.legendary_monsters.defeat_cloud_golem.description": "Defeat the Cloud Golem",
+
+  "advancements.legendary_monsters.locate_lava_eater.title": "A Voltanic Place",
+  "advancements.legendary_monsters.locate_lava_eater.description": "Find The Lava Eater's Nest",
+  "advancements.legendary_monsters.defeat_lava_eater.title": "Fiery Beast",
+  "advancements.legendary_monsters.defeat_lava_eater.description": "Defeat the Lava Eater",
+
+  "advancements.legendary_monsters.locate_frostbitten_temple.title": "A Freezing Place",
+  "advancements.legendary_monsters.locate_frostbitten_temple.description": "Locate The Frostbitten Temple",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.title": "The Coldest Golem",
+  "advancements.legendary_monsters.defeat_frostbitten_golem.description": "Defeat the Frostbitten Golem",
+
+  "advancements.legendary_monsters.defeat_warped_fungussus.title": "It's Teleporting!",
+  "advancements.legendary_monsters.defeat_warped_fungussus.description": "Defeat the Warped Fungussus",
+
+  "advancements.legendary_monsters.locate_abandoned_crypt.title": "The Echo Of Past Battle",
+  "advancements.legendary_monsters.locate_abandoned_crypt.description": "Locate The Collapsed Kingdom",
+  "advancements.legendary_monsters.defeat_haunted_knight.title": "Living Armor",
+  "advancements.legendary_monsters.defeat_haunted_knight.description": "Defeat the Haunted Knight",
+  "advancements.legendary_monsters.defeat_haunted_guard.title": "A Lost Guard",
+  "advancements.legendary_monsters.defeat_haunted_guard.description": "Defeat the Haunted Guard",
+  "advancements.legendary_monsters.defeat_posessed_paladin.title": "Finally Free",
+  "advancements.legendary_monsters.defeat_posessed_paladin.description": "Defeat the Possessed Paladin",
+
+  "advancements.legendary_monsters.defeat_the_obliterator.title": "Obliteration for Obliterator",
+  "advancements.legendary_monsters.defeat_the_obliterator.description": "Defeat The Obliterator",
+
+
+  "advancements.legendary_monsters.defeat_flameborn.title": "Flame Of The End",
+  "advancements.legendary_monsters.defeat_flameborn.description": "Defeat Flameborn Guard and Warrior",
+
+  "advancements.legendary_monsters.defeat_wandering_eye.title": "Float f1",
+  "advancements.legendary_monsters.defeat_wandering_eye.description": "Defeat the Wandering Eye",
+
+
+  "advancements.legendary_monsters.defeat_flame_drifter.title": "Professional Drifter",
+  "advancements.legendary_monsters.defeat_flame_drifter.description": "Defeat The Flame Drifter",
+
+  "advancements.legendary_monsters.defeat_bomber.title": "Sandstone Bomb",
+  "advancements.legendary_monsters.defeat_bomber.description": "Defeat Bomber",
+  "advancements.legendary_monsters.defeat_dune_sentinel.title": "Ancient War Machine",
+  "advancements.legendary_monsters.defeat_dune_sentinel.description": "Defeat Dune Sentinel",
+  "advancements.legendary_monsters.locate_ruined_pyramid.title": "Another Desert Temple!",
+  "advancements.legendary_monsters.locate_ruined_pyramid.description": "Locate The Ruined Pyramid",
+
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.title": "Slowing Down A Bit...",
+  "advancements.legendary_monsters.defeat_annihilation_pursuer.description": "Defeat Annihilation Pursuer",
+
+  "advancements.legendary_monsters.defeat_beheaded_knight.title": "Headless KnightMan",
+  "advancements.legendary_monsters.defeat_beheaded_knight.description": "Defeat the Beheaded Knight",
+
+  "advancements.legendary_monsters.defeat_resurrected_knight.title": "My Head Is Back!",
+  "advancements.legendary_monsters.defeat_resurrected_knight.description": "Defeat the Resurrected Knight",
+
+  "advancements.legendary_monsters.defeat_fractured_apostle.title": "Mage Class Detected",
+  "advancements.legendary_monsters.defeat_fractured_apostle.description": "Defeat the Fractured Apostle",
+
+  "advancements.legendary_monsters.defeat_fractured.title": "No Body, Yet Still Alive",
+  "advancements.legendary_monsters.defeat_fractured.description": "Defeat the Fractured",
+
+  "advancements.legendary_monsters.defeat_haunted_duo.title": "The Power Of Friendship",
+  "advancements.legendary_monsters.defeat_haunted_duo.description": "Defeat the Haunted Duo",
+
+
+  "death.attack.legendary_monsters.spikes": "%s was pierced by thorns.",
+
+  "item.legendary_monsters.soul_great_sword1": "Right click to Parry (AOE), deals damage",
+  "item.legendary_monsters.soul_great_sword2": " equal to weapon damage + 30% of reflected damage, and heals you 20% of your max HP,",
+  "item.legendary_monsters.soul_great_sword3": "can't parry Bypass Armor damage source",
+  "item.legendary_monsters.soul_great_sword4": "",
+  "item.legendary_monsters.soul_great_sword5": "Hold Shift + Right click for 1s while looking at an entity in 10 block radius to release homing phantom daggers",
+
+
+  "block.legendary_monsters.chiseled_enderstone_pillar": "Chiseled Enderstone Pillar",
+
+  "item.legendary_monsters.wand_of_clouds1": "\u00A76Special Ability: \u00A77 Summons 1 Big explosive cloud [14 dmg] and",
+  "item.legendary_monsters.wand_of_clouds2": "\u00A773 small explosive clouds[5 dmg each] above your enemies. \u00A76[RIGHT CLICK ON AN ENTITY TO USE]",
+
+
+  "item.legendary_monsters.withered_ribcage1": "§6Special Ability: §7this chestplate protects player",
+  "item.legendary_monsters.withered_ribcage2": "§7 from wither effect. and applies wither effect to entities that hurt you",
+
+  "item.legendary_monsters.withered_scythe1": "§6Special Ability: Hold right click to charge forward",
+  "item.legendary_monsters.withered_scythe2": "§7 and damage entities",
+
+
+
+  "item.legendary_monsters.m_anchor1": "§6Special Ability: §7hold right click for 1,5 seconds to launch in the air",
+  "item.legendary_monsters.m_anchor2": "§7 and completely stun (for 3 sec. mobs can't attack you and move) all entities around you (in 4 block range).",
+  "item.legendary_monsters.m_anchor3": "§6Special Ability 2: §7Attack to deal 4 damage to nearby entities in 3 block radius ",
+
+
+  "item.legendary_monsters.mossy_chestplate1": "\u00A76Special Ability: \u00A77 Use 'R' key to spawn poison clouds around you, ",
+  "item.legendary_monsters.mossy_chestplate2": "§7that damage mobs and heal you.",
+
+
+  "item.legendary_monsters.mossy_hammer1": "§6Special Ability: §7 Deals 10 damage to all entities and applies",
+  "item.legendary_monsters.mossy_hammer2": "§7poison effect to every entity in 4 block radius, and if player has bone",
+  "item.legendary_monsters.mossy_hammer3": "§7 meal in his inventory, moss blocks appear under every damaged entity in 3 block radius!",
+  "item.legendary_monsters.mossy_hammer4": "§6[RIGHT CLICK ON BLOCK TO USE] ",
+  "item.legendary_monsters.mossy_hammer5": "§7It can be also used as a pickaxe!  ",
+
+  "item.legendary_monsters.sand_cannon1": "§6Special Ability: §7 Hold click for 1.5 sec. to shoot a Sandstone Bomb",
+
+
+  "item.legendary_monsters.chorus_helmet1": "§6Special Ability:§7 this Mask protects player",
+
+  "item.legendary_monsters.chorus_helmet2": "§7 from Chorus Infection.",
+
+
+
+
+  "item.legendary_monsters.chorus_blade1": "§6Special Ability: §7 Teleports player to random location nearby.",
+  "item.legendary_monsters.chorus_blade2": "§7 for example it can be used to dodge an attack. §6[RIGHT CLICK TO USE]",
+
+
+  "item.legendary_monsters.axe_of_lightning1": "§6Special Ability:§7 right click to summon Lightning Strike§6[9 Damage per Tick, Bypass Armor],",
+  "item.legendary_monsters.axe_of_lightning2": "§7Right Click on block to summon Electric Burst shockwave in the direction",
+  "item.legendary_monsters.axe_of_lightning3": "§7you are looking§6[Damage of this weapon per shockwave hit, Bypass Armor]",
+
+
+  "item.legendary_monsters.atm_boots1": "§6Special Ability: §750% Fall Damage Reduction",
+
+
+  "item.legendary_monsters.dino_club1": "§6Special Ability: §7right click on a block to spawn",
+  "item.legendary_monsters.dino_club2": "§7shockwaves in circular shape.",
+
+  "item.legendary_monsters.entity_warper1": "§6Special Ability: §7Teleports all entities",
+  "item.legendary_monsters.entity_warper2": "§7in 4 block radius to player! §6[RIGHT CLICK TO USE].",
+
+  "item.legendary_monsters.void_entity_warper1": "§6Special Ability: §7Lets you pick any",
+  "item.legendary_monsters.void_entity_warper2": "§7entity to teleport to you in 6 block range! §6[RIGHT CLICK TO USE]",
+
+
+  "item.legendary_monsters.great_frost1": "§6Special Ability: §7Right Click to summon Ice Spikes",
+  "item.legendary_monsters.great_frost2": "§6Special Ability 2: §7Right Click + shift on block to summon Ice Spikes around you",
+
+
+  "item.legendary_monsters.shulker_helmet1": "§7 This helmet protects player from levitation effect.",
+
+  "item.legendary_monsters.dino_shield": "§6Extremely Durable!",
+
+  "item.legendary_monsters.blast_proof_helmet1": "§6Special Ability:§7 35% explosion damage reduction",
+  "item.legendary_monsters.blast_proof_helmet2": "§6(Creeper Jumpscares are not so dangerous anymore!)",
+
+
+  "item.legendary_monsters.fiery_jaw1": "§6Special Ability: §7 Fiery jaw Pushes every entity in",
+  "item.legendary_monsters.fiery_jaw2": "§7 3 block radius, away from the player, and player starts breathing fire§6[RIGHT CLICK TO USE]",
+
+
+  "item.legendary_monsters.golden_halberd1": "§6Special Ability: §7 25% Chance to give 'bleeding' effect to your enemies",
+
+  "item.legendary_monsters.golden_halberd2": "§7after dealing a critical hit.",
+
+
+  "item.legendary_monsters.fiery_boots1": "§6Special Ability: §7Use 'X' Key to spread fire on your position while walking.",
+
+  "item.legendary_monsters.frost_shield1": "§6Special Ability: §7 Freezes your enemy for 3 seconds",
+
+  "item.legendary_monsters.frost_shield2": "§6[BLOCK TO USE]",
+
+  "item.legendary_monsters.chorus_cannon1": "§6Special Ability: §7 Hold click for 1.5 sec. to shoot a Chorus Bomb which",
+
+  "item.legendary_monsters.chorus_cannon2": "§7Applies Chorus Infection Effect to your enemies",
+
+  "item.legendary_monsters.spiky_shield1": "\u00A76Special Ability: \u00A77 50% Chance of reflecting damage back to your enemy ",
+  "item.legendary_monsters.spiky_shield2": "\u00A77 when you are blocking with shield",
+  "item.legendary_monsters.spiky_shield3": "§2[Damage: 5 + 25% of your enemy attack damage] ",
+  "item.legendary_monsters.spiky_shield4": "§6[BLOCK TO USE]",
+
+  "item.legendary_monsters.shulker_shield1": "§6Special Ability: §760% to give levitation effect to your enemies",
+  "item.legendary_monsters.shulker_shield2": "§6[BLOCK TO USE",
+
+  "item.legendary_monsters.heartoftornado1": "§6Hold Rightclick to shoot a tornado that grabs entities[lasts for 3 seconds]",
+
+  "death.attack.legendary_monsters.laser": "%s was Exterminated by %s using pure Lightning Energy",
+
+  "death.attack.legendary_monsters.clouds": "%s was Crushed to death by %s",
+
+  "death.attack.legendary_monsters.ghost": "%s has left the Reality",
+
+  "death.attack.legendary_monsters.cut": "%s was cut in half",
+
+  "death.attack.legendary_monsters.gravity": "%s has Levitated for too long",
+
+  "death.attack.legendary_monsters.void": "%s was annihilated by %s",
+
+  "death.attack.legendary_monsters.shadow": "%s was turned into ashes by %s",
+
+  "death.attack.legendary_monsters.impale": "%s was impaled",
+
+  "legendary_monsters.message.stratling_interaction": "Right Click to Interact (Trade)",
+
+
+  "item.legendary_monsters.totem_of_moss" : "Totem Of Moss",
+
+  "item.legendary_monsters.somber_key" : "Somber Key",
+
+  "item.legendary_monsters.totem_of_moss.desc" : "Right - Click to summon Mossy Golem that assists you in battles and speeds up nearby crop grow speed while near young crops. golem can be respawned when it dies",
+
+
+  "legendary_monsters.message.pet_sit_enable": " §cSit§f Mode Enabled",
+  "legendary_monsters.message.pet_walk_enable": " §aWalk§f Mode Enabled",
+  "legendary_monsters.message.pet_stand_enable": " §cStand still§f Mode Enabled",
+  "legendary_monsters.message.pet_stand_disable": " §aWalk freely§f Mode Enabled",
+
+  "legendary_monsters.message.pet_wander_enable": " §aWander§f Mode Enabled",
+  "legendary_monsters.message.pet_follow_enable": " §6Follow§f Mode Enabled",
+
+  "legendary_monsters.message.pet_guard_enable": " §3Guard§f Mode Enabled",
+
+
+  "legendary_monsters.message.mossy_golem_string_message_name": "Mossy Golem",
+  "legendary_monsters.message.knight_string_message_name": "Knight",
+  "legendary_monsters.message.guard_string_message_name": "Guard",
+  "legendary_monsters.message.skeloraptor_string_message_name": "Skeloraptor",
+
+  "legendary_monsters.message.obliterator_p3_1_message": "§a.",
+  "legendary_monsters.message.obliterator_p3_2_message": "§a'...'",
+
+  "legendary_monsters.message.obliterator_ultimate": "§aYour Doom Approaches",
+
+
+  "key.categories.legendary_monsters": "Legendary Monsters Key Category",
+  "key.legendary_monsters.mossy_chestplate_ability": "Legendary Monsters Chestplate Ability",
+  "key.legendary_monsters.fiery_boots_ability": "Legendary Monsters Boots Ability",
+
+  "key.legendary_monsters.skeloraptor_roar": "Skeloraptor Roar Ability",
+
+  "key.legendary_monsters.skeloraptor_attack": "Skeloraptor Attack Ability",
+
+  "key.legendary_monsters.helmet": "Legendary Monsters Helmet Ability",
+
+  "item.legendary_monsters.totem_of_moss1": "§6Right - Click on a Block to summon a Mossy Golem that makes crops grow way faster while near ungrown crops ",
+  "item.legendary_monsters.totem_of_moss2": "§7and can help you during fights. Golem is automatically tamed. It can be respawned easily after death ",
+
+  "item.legendary_monsters.totem_of_moss3": "§fShift + Right Click on golem to enable '§aStand Still Mode§7'",
+
+
+  "item.legendary_monsters.guard_summoner1": "§7Right Click on the ground to summon a guard ",
+  "item.legendary_monsters.guard_summoner2": "§7it's Automatically tamed on spawn",
+  "item.legendary_monsters.guard_summoner3": "§7Deals more damage and in bigger ARC than knight but is slower.",
+  "item.legendary_monsters.guard_summoner4": "§7can be easily respawned after death using iron ingots and deactivated summoner",
+  "item.legendary_monsters.guard_summoner5": "§7You can re-color him while holding valuable materials or change it's behavior state with shift + right click.",
+
+  "item.legendary_monsters.knight_summoner1": "§7Right click on block to summon a knight",
+  "item.legendary_monsters.knight_summoner2": "§7it's Automatically tamed on spawn",
+  "item.legendary_monsters.knight_summoner3": "§7Deals less damage than guard but can do fast combos and can block incoming attacks",
+  "item.legendary_monsters.knight_summoner4": "§7can be easily respawned after death using iron ingots and deactivated summoner",
+  "item.legendary_monsters.knight_summoner5": "§7You can re-color him while holding valuable materials or change it's behavior state with shift + right click.",
+
+  "legendary_monsters.message.skeloraptor_time_until_next_roar": "Roar Cooldown: ",
+  "block.legendary_monsters.skeletosaurus_egg1": "§7Place it down and wait, to hatch Skeloraptor, once fully grown tame it with raw meat,",
+  "block.legendary_monsters.skeletosaurus_egg2": "§7you can ride it and make it attack while you are riding it (Skeletosaurus attack Patterns)",
+  "block.legendary_monsters.skeletosaurus_egg3": "§7you can use 'R' key to roar and scare mobs.",
+  "block.legendary_monsters.skeletosaurus_egg4": "§6-Place on soul sand for faster hatching time.",
+  "legendary_monsters.message.skeloraptor_mount": "Press 'R' to Roar, Press Left Shift to Dismount",
+
+  "legendary_monsters.message.teleport_machine": "§aInsert an 'Eye Crystal' in the teleport machine to summon the boss",
+
+  "item.legendary_monsters.atom_splitter1": "§7Hold right click for 1.5s to shoot an Annihilation Beam",
+  "item.legendary_monsters.atom_splitter2": "§7Shift + Hold right click for 1.5s to shoot Cluster Annihilation Bomb",
+  "item.legendary_monsters.atom_splitter3": "§7And don't get fooled by the ammo system! it's unbreakable! automatically reloads with Annihilation Bottles in inventory ",
+
+
+  "item.legendary_monsters.the_tesseract1": "§7Hold right click for 1.5s to summon Annihilation Portals in a Star pattern.",
+  "item.legendary_monsters.the_tesseract2": "§7During Portal summoning nearby entities are affected by their gravity pull.",
+
+  "item.legendary_monsters.buckler_of_annihilation1": "§7Hold right click + shift for 0.5s to perform area attack, and to shoot 3 small Annihilation Bombs [8 damage bypass armor]. Cooldown appears after hitting an entity with area attack",
+  "item.legendary_monsters.enderitium_ingot": "Enderitium Ingot",
+
+  "item.legendary_monsters.bottle_of_annihilation": "Bottle Of Annihilation",
+
+  "item.legendary_monsters.enderitium_upgrade_smithing_template": "Smithing Template",
+
+  "item.legendary_monsters.annihilator_upgrade_smithing_template": "Smithing Template",
+
+  "item.legendary_monsters.portal_shard": "Portal Shard",
+  "item.legendary_monsters.enderitium_gem": "Enderitium Gem",
+  "item.legendary_monsters.raw_enderitium": "Raw Enderitium",
+  "item.legendary_monsters.enderitium_sword": "Enderitium Sword",
+  "item.legendary_monsters.enderitium_axe": "Enderitium Axe",
+  "item.legendary_monsters.enderitium_shovel": "Enderitium Shovel",
+  "item.legendary_monsters.enderitium_hoe": "Enderitium Hoe",
+  "item.legendary_monsters.enderitium_pickaxe": "Enderitium Pickaxe",
+
+
+  "block.legendary_monsters.enderitium_ore": "Enderitium Ore",
+  "block.legendary_monsters.enderitium_block": "Enderitium Block",
+
+  "block.legendary_monsters.chiseled_enderstone_bricks": "Chiseled Enderstone Bricks",
+  "block.legendary_monsters.enderstone_bricks": "Enderstone Bricks",
+
+  "block.legendary_monsters.enderstone_brick_stairs": "Enderstone Brick Stairs",
+
+  "block.legendary_monsters.enderstone_brick_slab": "Enderstone Brick Slab",
+
+  "block.legendary_monsters.enderstone_brick_wall": "Enderstone Brick Wall",
+
+  "block.legendary_monsters.enderstone_pillar": "Enderstone Pillar",
+  "block.legendary_monsters.enderstone": "Enderstone",
+  "block.legendary_monsters.cobbled_enderstone": "Cobbled Enderstone",
+
+  "block.legendary_monsters.smooth_enderstone": "Smooth Enderstone",
+
+  "block.legendary_monsters.smooth_enderstone_slab": "Smooth Enderstone Slab",
+  "block.legendary_monsters.smooth_enderstone_stairs": "Smooth Enderstone Stairs",
+  "block.legendary_monsters.smooth_enderstone_wall": "Smooth Enderstone Wall",
+
+  "block.legendary_monsters.cobbled_enderstone_slab": "Cobbled Enderstone Slab",
+  "block.legendary_monsters.cobbled_enderstone_stairs": "Cobbled Enderstone Stairs",
+  "block.legendary_monsters.cobbled_enderstone_wall": "Cobbled Enderstone Wall",
+
+
+  "block.legendary_monsters.enderstone_slab": "Enderstone Slab",
+  "block.legendary_monsters.enderstone_stairs": "Enderstone Stairs",
+  "block.legendary_monsters.enderstone_wall": "Enderstone Wall",
+
+  "block.legendary_monsters.ender_anchor": "Ender Anchor",
+
+
+  "block.legendary_monsters.teleport_machine": "Teleport Machine",
+  "block.legendary_monsters.annihilation_lantern": "Annihilation Lantern",
+
+  "block.legendary_monsters.soul_candle": "Soul Candle",
+
+
+  "item.legendary_monsters.ancient_sandstone_shard1": "§7Obtainable by killing Bombers in the desert, at night",
+
+  "item.legendary_monsters.atom_splitter": "Atom Splitter",
+
+  "item.legendary_monsters.buckler_of_annihilation": "Buckler Of Annihilation",
+
+  "item.legendary_monsters.eye_crystal" : "Eye Crystal",
+
+  "item.legendary_monsters.the_tesseract" : "The Tesseract",
+
+  "item.legendary_monsters.cloud_bread" : "Cloud Bread",
+
+  "item.legendary_monsters.dark_cloud_bread" : "Dark Cloud Bread",
+
+  "item.legendary_monsters.wandering_eye_spawn_egg" : "Wandering Eye Spawn Egg",
+
+  "item.legendary_monsters.enderitium_sickle" : "Enderitium Sickle",
+
+  "item.legendary_monsters.flameborn_warrior_spawn_egg" : "Flameborn Warrior Spawn Egg",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade5": " Enderitium Ingot",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade4": "Ingredients:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade3": " Diamond Equipment",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade2": "Applies to:",
+  "item.legendary_monsters.smithing_template.enderitium_upgrade1": "Enderitium Upgrade",
+
+  "item.legendary_monsters.smithing_template.annihilator_upgrade5": " Portal Shard",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade4": "Ingredients:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade3": " Netherite Equipment",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade2": "Applies to:",
+  "item.legendary_monsters.smithing_template.annihilator_upgrade1": "Annihilator's Upgrade",
+  "block.legendary_monsters.ender_anchor1":"Fill it with Annihilation Lanterns to set spawn point in the end",
+
+
+  "item.legendary_monsters.annihilator_helmet" : "Annihilator's Helmet",
+
+  "item.legendary_monsters.annihilator_chestplate" : "Annihilator's Chestplate",
+
+  "item.legendary_monsters.annihilator_leggings" : "Annihilator's Leggings",
+
+  "item.legendary_monsters.annihilator_boots" : "Annihilator's Boots",
+
+  "item.legendary_monsters.annihilator_helmet1" : "You don't aggro endermen when you look at them, Press 'C' key to instantly teleport to position you are looking at (in 15 block range)",
+
+  "item.legendary_monsters.annihilator_chestplate1" : "When you are at half a health or lower an Annihilation Supernova explodes at your position, and you become invulnerable for 3 seconds.",
+
+  "item.legendary_monsters.bottled_lightning" : "Bottled Lightning",
+
+
+  "item.legendary_monsters.shattered_greatsword" : "Shattered Greatsword",
+  "item.legendary_monsters.shattered_greatsword1" : "'The Knights of the Collapsed Kingdom'",
+
+  "item.legendary_monsters.resurrected_javelin" : "Resurrected Javelin",
+
+  "item.legendary_monsters.metal_debris" : "Metal Debris",
+
+  "item.legendary_monsters.somber_key_ring" : "Somber Key Ring",
+
+  "item.legendary_monsters.somber_key_blade" : "Somber Key Blade",
+
+  "item.legendary_monsters.somber_key_part" : "Combine with another key part to create Somber Key",
+
+
+  "item.legendary_monsters.eye_of_annihilation" : "Eye Of Annihilation",
+  "item.legendary_monsters.annihilator_leggings1" : "25% Chance of turning your attack into bypass armor AOE, (your current WeaponDamage / 2) upon landing a crit",
+  "item.legendary_monsters.annihilator_unknown" : "Ability Still WIP, will be added soon",
+
+  "item.legendary_monsters.annihilator_boots1" : "Protects you against weakness and slowness",
+
+  "legendary_monsters.message.stun": "Stunned!",
+
+  "legendary_monsters.message.possessed_paladin_snore": "''Zzzzz...''",
+
+  "legendary_monsters.message.possessed_paladin_talk1": "'One was slain..'",
+
+  "legendary_monsters.message.possessed_paladin_talk2": "'A Soul Trapped..'",
+
+  "legendary_monsters.message.possessed_paladin_talk3": "'A Shadow will cover the stars once again'",
+
+  "legendary_monsters.message.possessed_paladin_talk4": "'Now i fight as..'",
+
+  "legendary_monsters.message.possessed_paladin_talk5": "'..Orion, The Fractured Omen'",
+
+  "legendary_monsters.message.possessed_paladin_talk6": "'I..'",
+
+  "legendary_monsters.message.possessed_paladin_talk7": "'..Am Free..'",
+
+  "legendary_monsters.message.possessed_paladin_talk8": "'I'll always find a way around death'",
+  "legendary_monsters.message.possessed_paladin_talk9": "'It's not over yet'",
+
+  "legendary_monsters.message.possessed_paladin_talk10": "'My shadow will cover the stars once again'",
+
+  "legendary_monsters.message.possessed_paladin_kill_parry": "/kill doesn't even bother me",
+
+  "block.legendary_monsters.somber_trapdoor1": "Right click in the middle with a Somber Key to break a lock",
+
+  "block.legendary_monsters.small_spike_trap_block": "Small Spike Trap Block",
+
+  "block.legendary_monsters.big_spike_trap_block": "Big Spike Trap Block",
+  "legendary_monsters.message.somber_trapdoor": "Right click the trapdoor with a Somber Key to break a lock",
+
+  "legendary_monsters.bar_name.possessed_paladin_p2": "Orion, The Fractured Omen",
+
+  "item.legendary_monsters.fractured_apostle_spawn_egg" : "Fractured Apostle Spawn Egg",
+
+  "entity.legendary_monsters.fractured_apostle": "Fractured Apostle",
+
+  "item.legendary_monsters.fractured_spawn_egg" : "Fractured Spawn Egg",
+
+  "entity.legendary_monsters.fractured": "Fractured",
+  "item.legendary_monsters.corrupted_soul1": "I am.. free.. I'll face the final battle once again"
+
+}
+
+
+
+

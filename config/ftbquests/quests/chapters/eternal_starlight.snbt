@@ -167,7 +167,7 @@
 			y: 13.399999999999999d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -598,14 +598,6 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "660E7F0934536F4D"
-					item: {
-						count: 1
-						id: "terra_entity:bei_dou_boomerang"
 					}
 					type: "item"
 				}

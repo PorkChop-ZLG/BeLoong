@@ -106,7 +106,7 @@
                 "transition_length": 2
             },
             "end": {
-                "animation_key": "fly_spin",
+                "animation_key": "tectonic_dash",
                 "layer": "BASE",
                 "locks_neck": true,
                 "locks_tail": true,

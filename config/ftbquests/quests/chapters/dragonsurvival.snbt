@@ -7,93 +7,16 @@
 		id: "dragonsurvival:elder_dragon_bone"
 	}
 	id: "1E4C1C94528F4F43"
-	images: [
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/scroll_background_01.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: -27.0d
-			y: -14.0d
-		}
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/scroll_background_02.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: 27.5d
-			y: -14.0d
-		}
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/scroll_background_03.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: -27.0d
-			y: 13.399999999999999d
-		}
-		{
-			height: 5.0d
-			image: "ftblibrary:icons/map"
-			order: 100
-			rotation: 0.0d
-			width: 5.0d
-			x: 0.0d
-			y: 14.0d
-		}
-		{
-			height: 6.0d
-			image: "kubejs:textures/task/dragon_1.png"
-			order: 100
-			rotation: 0.0d
-			width: 12.0d
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			height: 5.0d
-			image: "kubejs:textures/task/beloong_logo.png"
-			order: 300
-			rotation: 0.0d
-			width: 5.0d
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			height: 10.0d
-			image: "kubejs:textures/task/dragon_2.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: -16.5d
-			y: 5.5d
-		}
-		{
-			height: 10.0d
-			image: "kubejs:textures/task/dragon_3.png"
-			order: 50
-			rotation: 0.0d
-			width: 10.0d
-			x: -5.0d
-			y: -0.5d
-		}
-		{
-			height: 10.0d
-			image: "kubejs:textures/task/dragon_4.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 21.5d
-			y: 5.5d
-		}
-		{
-			height: 32.0d
-			image: "kubejs:textures/task/scroll_background_04.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: 27.5d
-			y: 13.39d
-		}
-	]
-	order_index: 1
+	images: [{
+		height: 5.0d
+		image: "ftblibrary:icons/map"
+		order: 100
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 14.0d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1464,52 +1387,6 @@
 			}]
 			x: 3.5d
 			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_4.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "16DF8F0EA133B69A"
-			optional: true
-			rewards: [{
-				command: "/dragon-ability add @s dragonsurvival:air_strike"
-				id: "4B9637D64D06DF32"
-				permission_level: 2
-				type: "command"
-			}]
-			tasks: [{
-				id: "07C610D03044B4C0"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "19E36A004B2CACC1"
-			optional: true
-			rewards: [{
-				command: "/dragon-ability add @s dragonsurvival:tp_loong_palace"
-				id: "6BF153A621FBE02F"
-				permission_level: 2
-				type: "command"
-			}]
-			tasks: [{
-				id: "2681E99F42E8BE25"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: 1.5d
 		}
 	]
 }

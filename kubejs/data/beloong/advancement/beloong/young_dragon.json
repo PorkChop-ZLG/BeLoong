@@ -1,0 +1,46 @@
+{
+  "parent": "beloong:beloong/wind_sword",
+  "criteria": {
+    "young_dragon": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:beginner_aether_dragon",
+                "stage_specific": {
+                  "dragon_stage": "dragonsurvival:aether_young"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/young_dragon"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/young_dragon.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:elder_dragon_bone"
+    }
+  },
+  "requirements": [
+    [
+      "young_dragon"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

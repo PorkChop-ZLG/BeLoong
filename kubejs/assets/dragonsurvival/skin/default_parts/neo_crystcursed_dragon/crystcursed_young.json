@@ -1,0 +1,16 @@
+{
+    "species": "dragonsurvival:neo_crystcursed_dragon",
+    "stage": "dragonsurvival:crystcursed_young",
+    "model": "dragonsurvival:neo_crystcursed_dragon",
+    "parts": {
+        "base": "base_1",
+        "eyes": "eyes_1",
+        "horns": "horns_1",
+        "spikes": "spikes_6",
+        "claws": "claw_1",
+        "teeth": "teeth_1",
+        "magic": "magic_1",
+        "extra": "ventral_scales_glow_1",
+        "extra1": "tail_1"
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "actions": [
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "crystcursed_dragon:dragon_ability/crystcursed_revenge/main-ability"
+                        },
+                        {
+                            "effect_type": "dragonsurvival:potion",
+                            "potion": {
+                                "amplifier": 2,
+                                "duration": 2,
+                                "effect_particles": false,
+                                "effects": [
+                                    "slowness"
+                                ],
+                                "probability": 1,
+                                "show_icon": false
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_rate": 1
+        },
+        {
+            "target_selection": {
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:particle",
+                            "particle_count": 20,
+                            "particle_data": {
+                                "horizontal_position": {
+                                    "type": "in_bounding_box",
+                                    "scale": 4
+                                },
+                                "horizontal_velocity": {
+                                    "base": 0
+                                },
+                                "particle": {
+                                    "type": "enchant"
+                                },
+                                "speed": 0,
+                                "vertical_position": {
+                                    "type": "in_bounding_box",
+                                    "offset": 0
+                                },
+                                "vertical_velocity": {
+                                    "base": 0
+                                }
+                            }
+                        }
+                    ],
+                    "targeting_mode": "all"
+                },
+                "target_type": "dragonsurvival:self"
+            },
+            "trigger_rate": 6
+        }
+    ],
+    "activation": {
+        "activation_type": "dragonsurvival:channeled",
+        "animations": {
+            "end": {
+                "animation_key": "magic_alt",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": true,
+                "transition_length": 5
+            },
+            "looping": {
+                "animation_key": "cast_magic_alt",
+                "layer": "BASE",
+                "locks_neck": false,
+                "locks_tail": false,
+                "transition_length": 5
+            }
+        },
+        "can_move_while_casting": true,
+        "cast_time": 1,
+        "continuous_mana_cost": {
+            "type": "ticking",
+            "amount": 0.01
+        },
+        "cooldown": {
+            "type": "minecraft:linear",
+            "base": 120.0,
+            "per_level_above_first": -20.0
+        },
+        "max_duration": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 30.0,
+                "per_level_above_first": 10.0
+            },
+            "values": [
+                30.0,
+                40.0,
+                50.0,
+                60.0,
+                80.0,
+                100.0
+            ]
+        }
+    },
+    "can_be_manually_disabled": true,
+    "icon": {
+        "texture_entries": [
+            {
+                "from_level": 0,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_revenge_0"
+            },
+            {
+                "from_level": 1,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_revenge_1"
+            },
+            {
+                "from_level": 2,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_revenge_2"
+            },
+            {
+                "from_level": 3,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_revenge_3"
+            },
+            {
+                "from_level": 4,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_revenge_4"
+            },
+            {
+                "from_level": 5,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_revenge_4"
+            },
+            {
+                "from_level": 6,
+                "texture_resource": "dragonsurvival:abilities/crystcursed/crystcursed_revenge_4"
+            }
+        ]
+    },
+    "upgrade": {
+        "upgrade_type": "dragonsurvival:dragon_growth",
+        "growth_requirement": {
+            "type": "minecraft:lookup",
+            "fallback": {
+                "type": "minecraft:linear",
+                "base": 50.0,
+                "per_level_above_first": 50.0
+            },
+            "values": [
+                20.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0
+            ]
+        },
+        "maximum_level": 6
+    }
+}

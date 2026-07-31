@@ -1,5 +1,10 @@
 {
 	"abilities": "#dragonsurvival:wing_kirin",
+	"mana_handling": {
+		"mana_per_level": 0.2,
+		"mana_xp_conversion": 0,
+		"max_mana_from_levels": 20
+	},
 	"misc_resources": {
 		"ability_bar": "wing_kirin:textures/gui/custom/casting_bars/cast_bar.png",
 		"altar_banner": "wing_kirin:textures/gui/custom/altar/altar_icon.png",
@@ -30,7 +35,7 @@
 		"secondary_color": "#30aecf",
 		"claw_texture_slot": "sword"
 	},
-	"bodies":[
+	"bodies": [
 		"dragonsurvival:center",
 		"dragonsurvival:east"
 	],
@@ -50,6 +55,7 @@
 				"type_specific": {
 					"type": "minecraft:player",
 					"advancements": {
+						"beloong:beloong/finish_beginner_tutorial": true,
 						"minecraft:end/elytra": true
 					}
 				}

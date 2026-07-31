@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dreadland"
+	group: "68BA145F90AA30CE"
+	icon: {
+		id: "iceandfire:dread_queen_sword"
+	}
+	id: "6C8BADAE3A031956"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "2C91F2899A333562"
+		tasks: [{
+			dimension: "iceandfire_dreadland:dreadland"
+			id: "5A2C0B52B6A49778"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

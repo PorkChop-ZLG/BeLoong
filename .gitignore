@@ -1,4 +1,5 @@
 # ---- GitHub 忽略文件夹 ----
+.claude/
 .git/
 .github/
 .mixin.out/

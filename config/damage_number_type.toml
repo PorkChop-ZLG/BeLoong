@@ -506,6 +506,20 @@
 				append = ""
 				format = ""
 
+		[type.dragonsurvival.wind_breath]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.dragonsurvival.wind_breath.icon]
+				tex = ""
+				item = ""
+
+			[type.dragonsurvival.wind_breath.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 	[type.blood_cauldron]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -3404,6 +3418,20 @@
 				append = ""
 				format = ""
 
+		[type.dihuang_loong.ground_stomp]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.dihuang_loong.ground_stomp.icon]
+				tex = ""
+				item = ""
+
+			[type.dihuang_loong.ground_stomp.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 		[type.beloong.air_strike]
 			#Color of the damage number. [NO-VALUE] to use default color.
 			color = "[NO-VALUE]"
@@ -3417,6 +3445,118 @@
 				prepend = ""
 				append = ""
 				format = ""
+
+		[type.legendary_monsters.laser]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.laser.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.laser.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.gravity]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.gravity.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.gravity.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.ghost]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.ghost.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.ghost.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.cut]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.cut.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.cut.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.clouds]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.clouds.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.clouds.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.void]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.void.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.void.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.legendary_monsters.impale]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.legendary_monsters.impale.icon]
+				tex = ""
+				item = ""
+
+			[type.legendary_monsters.impale.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+	[type.melody_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.melody_magic.icon]
+			tex = ""
+			item = ""
+
+		[type.melody_magic.format]
+			prepend = ""
+			append = ""
+			format = ""
 
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
@@ -4674,6 +4814,34 @@
 			item = ""
 
 		[tag."beloong:air_strike".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."tunes_n_tomes:melody_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."tunes_n_tomes:melody_magic".icon]
+			tex = ""
+			item = ""
+
+		[tag."tunes_n_tomes:melody_magic".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."dihuang_loong:ground_stomp"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dihuang_loong:ground_stomp".icon]
+			tex = ""
+			item = ""
+
+		[tag."dihuang_loong:ground_stomp".format]
 			prepend = ""
 			append = ""
 			format = ""

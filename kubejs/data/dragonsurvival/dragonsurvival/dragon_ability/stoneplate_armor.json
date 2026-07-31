@@ -17,7 +17,7 @@
                                             "per_level_above_first": 800
                                         }
                                     },
-                                    "damage_types": "#oreback_dragon:projectile_and_melee_damage",
+                                    "damage_types": "#dihuang_loong:projectile_and_melee_damage",
                                     "multiplier": {
                                         "type": "linear",
                                         "base": 0.75,

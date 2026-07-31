@@ -1,8 +1,4 @@
 {
-  "school.familiarslib.sound": "律灵",
-  "attribute.familiarslib.sound_spell_power": "律灵法术强度",
-  "attribute.familiarslib.sound_magic_resist": "律灵法术抗性",
-
   "ui.familiarslib.consumable_item": "升级物品",
   "ui.familiarslib.consumable_item_desc": "右键点击一只魔宠以使用",
   "ui.familiarslib.familiar_storage_screen": "魔宠仓库",
@@ -57,10 +53,23 @@
   "message.familiarslib.storage_block_chunk_limit": "这些小屋靠得太近了！",
   "message.familiarslib.no_familiars_selected": "未选择任何魔宠！",
   "message.familiarslib.familiars_toggled": "魔宠召唤/放生状态已切换！",
+  "message.familiarslib.familiar_died_in_house": "你的魔宠在魔宠小屋中死亡，请报告此问题。",
+  "message.familiarslib.quick_summon_no_familiar": "第 %d 个槽位没有魔宠！",
 
   "key.familiarslib.summoning_keys": "魔宠",
+  "key.familiarslib.quick_summoning_keys": "快捷召唤魔宠",
   "key.familiarslib.summoning_key": "召唤/收回魔宠",
   "key.familiarslib.screen_key": "打开魔宠选择界面",
+  "key.familiarslib.familiar_quick_summon_1": "快捷召唤魔宠01",
+  "key.familiarslib.familiar_quick_summon_2": "快捷召唤魔宠02",
+  "key.familiarslib.familiar_quick_summon_3": "快捷召唤魔宠03",
+  "key.familiarslib.familiar_quick_summon_4": "快捷召唤魔宠04",
+  "key.familiarslib.familiar_quick_summon_5": "快捷召唤魔宠05",
+  "key.familiarslib.familiar_quick_summon_6": "快捷召唤魔宠06",
+  "key.familiarslib.familiar_quick_summon_7": "快捷召唤魔宠07",
+  "key.familiarslib.familiar_quick_summon_8": "快捷召唤魔宠08",
+  "key.familiarslib.familiar_quick_summon_9": "快捷召唤魔宠09",
+  "key.familiarslib.familiar_quick_summon_10": "快捷召唤魔宠10",
 
   "item.familiarslib.familiar_spellbook.desc": "当装备时，此法术书会连接你与已驯服的魔宠，让你与它们共享魔法属性。",
   "item.familiarslib.consumable.tooltip.type": "类型：%s",
@@ -78,5 +87,8 @@
   "consumable.type.blocking": "格挡",
 
   "curios.identifier.familiar_trinket": "魔宠饰品",
-  "curios.modifiers.familiar_trinket": "装备在魔宠饰品栏时："
+  "curios.modifiers.familiar_trinket": "装备在魔宠饰品栏时：",
+
+  "attribute.familiarslib.familiar_damage": "魔宠强度",
+  "attribute.familiarslib.familiar_resist": "魔宠抗性"
 }

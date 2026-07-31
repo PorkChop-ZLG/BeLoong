@@ -333,6 +333,9 @@
 						"1.8": [0, 0, 2.5],
 						"5.0": [0, 0, 0]
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -2011,6 +2014,7 @@
 				},
 				"Head": {
 					"rotation": {
+						"0.0": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 						"30.0": [0, 0, 0],
 						"30.5": {
 							"pre": [24.18989, 15.20469, 19.3881],
@@ -3238,31 +3242,31 @@
 				},
 				"Head": {
 					"rotation": {
-						"0.0": [1.82548, 1.99465, 2.24747],
-						"0.0417": [1.39867, 1.61791, 2.1297],
-						"0.0833": [1.11263, 1.15236, 1.91928],
-						"0.125": [0.99929, 0.59675, 1.58722],
-						"0.1667": [1.08903, -0.03657, 1.09688],
-						"0.2083": [1.38572, -0.71046, 0.42209],
-						"0.25": [1.82548, -1.35733, -0.38742],
-						"0.2917": [2.26523, -1.89491, -1.15298],
-						"0.3333": [2.56193, -2.26126, -1.7168],
-						"0.375": [2.65167, -2.43598, -2.06292],
-						"0.4167": [2.53832, -2.43176, -2.23817],
-						"0.4583": [2.25228, -2.27537, -2.28869],
-						"0.5": [1.82548, -1.99465, -2.24747],
-						"0.5417": [1.39867, -1.61791, -2.1297],
-						"0.5833": [1.11263, -1.15236, -1.91928],
-						"0.625": [0.99929, -0.59675, -1.58722],
-						"0.6667": [1.08903, 0.03657, -1.09688],
-						"0.7083": [1.38572, 0.71046, -0.42209],
-						"0.75": [1.82548, 1.35733, 0.38742],
-						"0.7917": [2.26523, 1.89491, 1.15298],
-						"0.8333": [2.56193, 2.26126, 1.7168],
-						"0.875": [2.65167, 2.43598, 2.06292],
-						"0.9167": [2.53832, 2.43176, 2.23817],
-						"0.9583": [2.25228, 2.27537, 2.28869],
-						"1.0": [1.82548, 1.99465, 2.24747]
+						"0.0": ["1.82548+math.clamp(query.head_pitch*0.5,-45,45)", "1.99465-math.clamp(query.head_yaw*0.6666,-60,60)", 2.24747],
+						"0.0417": ["1.39867+math.clamp(query.head_pitch*0.5,-45,45)", "1.61791-math.clamp(query.head_yaw*0.6666,-60,60)", 2.1297],
+						"0.0833": ["1.11263+math.clamp(query.head_pitch*0.5,-45,45)", "1.15236-math.clamp(query.head_yaw*0.6666,-60,60)", 1.91928],
+						"0.125": ["0.99929+math.clamp(query.head_pitch*0.5,-45,45)", "0.59675-math.clamp(query.head_yaw*0.6666,-60,60)", 1.58722],
+						"0.1667": ["1.08903+math.clamp(query.head_pitch*0.5,-45,45)", "-0.03657-math.clamp(query.head_yaw*0.6666,-60,60)", 1.09688],
+						"0.2083": ["1.38572+math.clamp(query.head_pitch*0.5,-45,45)", "-0.71046-math.clamp(query.head_yaw*0.6666,-60,60)", 0.42209],
+						"0.25": ["1.82548+math.clamp(query.head_pitch*0.5,-45,45)", "-1.35733-math.clamp(query.head_yaw*0.6666,-60,60)", -0.38742],
+						"0.2917": ["2.26523+math.clamp(query.head_pitch*0.5,-45,45)", "-1.89491-math.clamp(query.head_yaw*0.6666,-60,60)", -1.15298],
+						"0.3333": ["2.56193+math.clamp(query.head_pitch*0.5,-45,45)", "-2.26126-math.clamp(query.head_yaw*0.6666,-60,60)", -1.7168],
+						"0.375": ["2.65167+math.clamp(query.head_pitch*0.5,-45,45)", "-2.43598-math.clamp(query.head_yaw*0.6666,-60,60)", -2.06292],
+						"0.4167": ["2.53832+math.clamp(query.head_pitch*0.5,-45,45)", "-2.43176-math.clamp(query.head_yaw*0.6666,-60,60)", -2.23817],
+						"0.4583": ["2.25228+math.clamp(query.head_pitch*0.5,-45,45)", "-2.27537-math.clamp(query.head_yaw*0.6666,-60,60)", -2.28869],
+						"0.5": ["1.82548+math.clamp(query.head_pitch*0.5,-45,45)", "-1.99465-math.clamp(query.head_yaw*0.6666,-60,60)", -2.24747],
+						"0.5417": ["1.39867+math.clamp(query.head_pitch*0.5,-45,45)", "-1.61791-math.clamp(query.head_yaw*0.6666,-60,60)", -2.1297],
+						"0.5833": ["1.11263+math.clamp(query.head_pitch*0.5,-45,45)", "-1.15236-math.clamp(query.head_yaw*0.6666,-60,60)", -1.91928],
+						"0.625": ["0.99929+math.clamp(query.head_pitch*0.5,-45,45)", "-0.59675-math.clamp(query.head_yaw*0.6666,-60,60)", -1.58722],
+						"0.6667": ["1.08903+math.clamp(query.head_pitch*0.5,-45,45)", "0.03657-math.clamp(query.head_yaw*0.6666,-60,60)", -1.09688],
+						"0.7083": ["1.38572+math.clamp(query.head_pitch*0.5,-45,45)", "0.71046-math.clamp(query.head_yaw*0.6666,-60,60)", -0.42209],
+						"0.75": ["1.82548+math.clamp(query.head_pitch*0.5,-45,45)", "1.35733-math.clamp(query.head_yaw*0.6666,-60,60)", 0.38742],
+						"0.7917": ["2.26523+math.clamp(query.head_pitch*0.5,-45,45)", "1.89491-math.clamp(query.head_yaw*0.6666,-60,60)", 1.15298],
+						"0.8333": ["2.56193+math.clamp(query.head_pitch*0.5,-45,45)", "2.26126-math.clamp(query.head_yaw*0.6666,-60,60)", 1.7168],
+						"0.875": ["2.65167+math.clamp(query.head_pitch*0.5,-45,45)", "2.43598-math.clamp(query.head_yaw*0.6666,-60,60)", 2.06292],
+						"0.9167": ["2.53832+math.clamp(query.head_pitch*0.5,-45,45)", "2.43176-math.clamp(query.head_yaw*0.6666,-60,60)", 2.23817],
+						"0.9583": ["2.25228+math.clamp(query.head_pitch*0.5,-45,45)", "2.27537-math.clamp(query.head_yaw*0.6666,-60,60)", 2.28869],
+						"1.0": ["1.82548+math.clamp(query.head_pitch*0.5,-45,45)", "1.99465-math.clamp(query.head_yaw*0.6666,-60,60)", 2.24747]
 					},
 					"position": [0, 0, 0]
 				},
@@ -3872,6 +3876,9 @@
 				},
 				"Rxyz": {
 					"position": [0, 1, 8]
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -3989,6 +3996,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -4106,6 +4116,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -4203,7 +4216,7 @@
 					"rotation": ["ysm.head_pitch", "math.clamp(ysm.head_yaw,-60,60)", 0]
 				},
 				"Head": {
-					"rotation": [-65, 0, 0],
+					"rotation": ["-65+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 					"position": [0, 0, 0]
 				},
 				"tail": {
@@ -4551,6 +4564,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -4668,6 +4684,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -4907,6 +4926,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -5024,6 +5046,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -5203,6 +5228,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -5382,6 +5410,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -6655,6 +6686,9 @@
 						"0.1667": [0, -50, 0],
 						"0.25": [0, 0, 0]
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -6725,7 +6759,7 @@
 					"scale": 1
 				},
 				"Head": {
-					"rotation": [-20.73226, 0, 0],
+					"rotation": ["-20.73226+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 					"position": [0, 0, 0]
 				},
 				"AllHead": {
@@ -6834,25 +6868,16 @@
 				},
 				"Head": {
 					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.0417": [-0.08, 0, 0],
-						"0.0833": [-0.19, 0, 0],
-						"0.125": [-0.33, 0, 0],
-						"0.1667": [-0.49, 0, 0],
-						"0.2083": [-0.64, 0, 0],
-						"0.25": [-0.78, 0, 0],
-						"0.2917": [-0.89, 0, 0],
-						"0.3333": [-0.97, 0, 0],
-						"0.375": [-1, 0, 0],
-						"0.4167": [-0.97, 0, 0],
-						"0.4583": [-0.89, 0, 0],
-						"0.5": [-0.78, 0, 0],
-						"0.5417": [-0.64, 0, 0],
-						"0.5833": [-0.49, 0, 0],
-						"0.625": [-0.33, 0, 0],
-						"0.6667": [-0.19, 0, 0],
-						"0.7083": [-0.08, 0, 0],
-						"0.75": [0, 0, 0]
+						"0.0": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.0833": ["-0.19+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.1667": ["-0.49+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.25": ["-0.78+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.3333": ["-0.97+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.4167": ["-0.97+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.5": ["-0.78+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.5833": ["-0.49+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.6667": ["-0.19+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
+						"0.75": ["-0+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 					}
 				},
 				"DownBody": {
@@ -7001,6 +7026,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -7118,6 +7146,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -7169,7 +7200,7 @@
 					"scale": 1
 				},
 				"Head": {
-					"rotation": [-20.73226, 0, 0],
+					"rotation": ["-20.73226+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 					"position": [0, 0, 0]
 				},
 				"AllHead": {
@@ -7258,23 +7289,23 @@
 				"Head": {
 					"rotation": {
 						"0.0": {
-							"post": [-10, 0, 0],
+							"post": ["-10+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 							"lerp_mode": "catmullrom"
 						},
 						"0.75": {
-							"post": [0, 0, 0],
+							"post": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 							"lerp_mode": "catmullrom"
 						},
 						"1.5": {
-							"post": [-10, 0, 0],
+							"post": ["-10+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 							"lerp_mode": "catmullrom"
 						},
 						"2.25": {
-							"post": [0, 0, 0],
+							"post": ["-0+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 							"lerp_mode": "catmullrom"
 						},
 						"3.0": {
-							"post": [-10, 0, 0],
+							"post": ["-10+math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 							"lerp_mode": "catmullrom"
 						}
 					}
@@ -10733,7 +10764,7 @@
 					"scale": 1
 				},
 				"Head": {
-					"rotation": [0, 0, 0],
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 					"position": [0, 0, 0]
 				},
 				"DownBody": {
@@ -10830,7 +10861,7 @@
 					"scale": 1
 				},
 				"Head": {
-					"rotation": [0, 0, 0],
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 					"position": [0, 0, 0]
 				},
 				"DownBody": {
@@ -10927,7 +10958,7 @@
 					"scale": 1
 				},
 				"Head": {
-					"rotation": [0, 0, 0],
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0],
 					"position": [0, 0, 0]
 				},
 				"DownBody": {
@@ -13731,6 +13762,9 @@
 						"0.1667": [0, -50, 0],
 						"0.25": [0, 0, 0]
 					}
+				},
+				"Head": {
+					"rotation": ["math.clamp(query.head_pitch*0.5,-45,45)", "-math.clamp(query.head_yaw*0.6666,-60,60)", 0]
 				}
 			}
 		},
@@ -14133,31 +14167,31 @@
 				"Head": {
 					"rotation": {
 						"0.0": {
-							"post": [7.38733, 1.29876, -9.91615],
+							"post": ["7.38733+math.clamp(query.head_pitch*0.5,-45,45)", "1.29876-math.clamp(query.head_yaw*0.6666,-60,60)", -9.91615],
 							"lerp_mode": "catmullrom"
 						},
 						"0.2083": {
-							"post": [2.5, 0, 10],
+							"post": ["2.5+math.clamp(query.head_pitch*0.5,-45,45)", "-0-math.clamp(query.head_yaw*0.6666,-60,60)", 10],
 							"lerp_mode": "catmullrom"
 						},
 						"0.4167": {
-							"post": [-4.05471, 0.05748, -8.74314],
+							"post": ["-4.05471+math.clamp(query.head_pitch*0.5,-45,45)", "0.05748-math.clamp(query.head_yaw*0.6666,-60,60)", -8.74314],
 							"lerp_mode": "catmullrom"
 						},
 						"0.625": {
-							"post": [4.99762, 0.10901, 7.50238],
+							"post": ["4.99762+math.clamp(query.head_pitch*0.5,-45,45)", "0.10901-math.clamp(query.head_yaw*0.6666,-60,60)", 7.50238],
 							"lerp_mode": "catmullrom"
 						},
 						"0.8333": {
-							"post": [2.5, 0, -5],
+							"post": ["2.5+math.clamp(query.head_pitch*0.5,-45,45)", "-0-math.clamp(query.head_yaw*0.6666,-60,60)", -5],
 							"lerp_mode": "catmullrom"
 						},
 						"1.0417": {
-							"post": [0.00238, 0.10901, 10.00238],
+							"post": ["0.00238+math.clamp(query.head_pitch*0.5,-45,45)", "0.10901-math.clamp(query.head_yaw*0.6666,-60,60)", 10.00238],
 							"lerp_mode": "catmullrom"
 						},
 						"1.25": {
-							"post": [7.38733, 1.29876, -9.91615],
+							"post": ["7.38733+math.clamp(query.head_pitch*0.5,-45,45)", "1.29876-math.clamp(query.head_yaw*0.6666,-60,60)", -9.91615],
 							"lerp_mode": "catmullrom"
 						}
 					}

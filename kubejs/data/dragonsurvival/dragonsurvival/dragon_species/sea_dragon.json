@@ -2,7 +2,7 @@
   "abilities": "#dragonsurvival:sea_dragon",
   "mana_handling": {
     "mana_per_level": 0.2,
-    "mana_xp_conversion": 0.01,
+    "mana_xp_conversion": 0,
     "max_mana_from_levels": 20
   },
   "custom_stage_progression": [
@@ -43,5 +43,37 @@
     "primary_color": "#2DA5E0",
     "secondary_color": "#1D7099"
   },
-  "penalties": "#dragonsurvival:sea_dragon"
+  "penalties": "#dragonsurvival:sea_dragon",
+  "unlockable_behavior": {
+    "visibility": "visible_if_locked",
+    "unlock_condition": {
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/finish_beginner_tutorial": true
+              }
+            }
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/skip_beginner_tutorial": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
 }

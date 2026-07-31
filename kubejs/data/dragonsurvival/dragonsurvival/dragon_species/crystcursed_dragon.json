@@ -2,13 +2,13 @@
   "abilities": "#dragonsurvival:crystcursed_dragon",
   "mana_handling": {
     "mana_per_level": 0.2,
-    "mana_xp_conversion": 0.01,
+    "mana_xp_conversion": 0,
     "max_mana_from_levels": 20
   },
   "custom_stage_progression": [
-    "dragonsurvival:newborn",
-    "dragonsurvival:young",
-    "dragonsurvival:adult",
+    "dragonsurvival:crystcursed_newborn",
+    "dragonsurvival:crystcursed_young",
+    "dragonsurvival:crystcursed_adult",
     "dragonsurvival:crystcursed_ancient",
     "dragonsurvival:crystcursed_archean",
     "dragonsurvival:crystcursed_progenitor"
@@ -63,6 +63,6 @@
         }
       }
     },
-    "visibility": "visible_if_locked"
+    "visibility": "always_hidden"
   }
 }

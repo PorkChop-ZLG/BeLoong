@@ -21,7 +21,7 @@
 	template_seed_dimensions = []
 	#Whether the configured dimension and coordinates should be used as the initial spawn point for new players and as the respawn fallback when they have no personal respawn point.
 	#是否将配置的维度和坐标作为新玩家的初始出生点,以及在玩家没有个人重生点时的默认复活点.
-	login_spawn_teleport_enabled = false
+	login_spawn_teleport_enabled = true
 	#Configured spawn target in the format dimension_id;x;y;z;yaw;pitch, for example minecraft:overworld;0.5;64.0;0.5;0.0;0.0.
 	#配置出生点的格式为 dimension_id;x;y;z;yaw;pitch,例如 minecraft:overworld;0.5;64.0;0.5;0.0;0.0.
 	login_spawn_target = "beloong:loong_palace;0.5;64.0;0.5;180.0;0.0"

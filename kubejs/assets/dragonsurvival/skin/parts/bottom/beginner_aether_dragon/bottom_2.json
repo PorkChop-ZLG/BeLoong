@@ -1,0 +1,11 @@
+{
+  "key": "mustache_thin",
+  "texture": "dragonsurvival:textures/dragon/custom/mustache_thin.png",
+  "average_hue": 0.004043126684636099,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

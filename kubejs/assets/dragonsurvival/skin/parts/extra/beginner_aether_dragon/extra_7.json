@@ -1,0 +1,11 @@
+{
+  "key": "furry_tail",
+  "texture": "dragonsurvival:textures/dragon/custom/furry_tail.png",
+  "average_hue": 0.08768939393939393,
+  "applicable_species": [
+    "dragonsurvival:beginner_aether_dragon"
+  ],
+  "applicable_bodies": [
+    "dragonsurvival:aether_body"
+  ]
+}

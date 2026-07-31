@@ -70,25 +70,6 @@
 		}
 		{
 			icon_scale: 2.0d
-			id: "2212CFA0F99595C7"
-			rewards: [{
-				id: "50026C6F748EA95C"
-				item: {
-					count: 1
-					id: "kubejs:progenitor_dragon_heart"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0482A5118E6EB49A"
-				item: { count: 1, id: "terra_entity:bei_dou_boomerang" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.0d
-		}
-		{
-			icon_scale: 2.0d
 			id: "5443C9546910E4B4"
 			rewards: [{
 				id: "39391EF4419B81A4"
@@ -238,25 +219,6 @@
 			}]
 			x: -3.0d
 			y: 2.0d
-		}
-		{
-			icon_scale: 2.0d
-			id: "732B904AB3D5BD73"
-			rewards: [{
-				id: "1BCD40C0BE201989"
-				item: {
-					count: 1
-					id: "kubejs:progenitor_dragon_heart"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1C668FF3A08C2FE2"
-				item: { count: 1, id: "terra_entity:terraprisma" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.0d
 		}
 		{
 			icon_scale: 2.0d

@@ -16,7 +16,7 @@
 		x: 0.0d
 		y: -4.5d
 	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -60,7 +60,7 @@
 			shape: "heart"
 			size: 2.5d
 			tasks: [{
-				dimension: "minecraft:overworld"
+				dimension: "beloong:loong_palace"
 				disable_toast: true
 				icon: {
 					id: "dragonsurvival:elder_dragon_bone"
