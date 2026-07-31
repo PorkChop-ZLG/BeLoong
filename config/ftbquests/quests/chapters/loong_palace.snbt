@@ -66,9 +66,9 @@
 				}
 				{
 					auto: "invisible"
-					command: "/waystones place 0 78 -57 prismarine_waystone 龙宫"
+					command: "/function beloong:waystone_loong_palace"
 					id: "77741916B7A863C0"
-					permission_level: 4
+					permission_level: 2
 					silent: true
 					type: "command"
 				}
@@ -435,7 +435,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/execute in beloong:loong_palace run waystones place -24 196 -404 mossy_waystone 仙岛山巅"
+					command: "/function beloong:waystone_hill"
 					id: "08E7C38604339CCD"
 					permission_level: 2
 					silent: true
@@ -555,8 +555,9 @@
 				}
 				{
 					auto: "invisible"
-					command: "/execute in beloong:loong_palace run waystones place 0 64 150 waystone 演武场"
+					command: "/function beloong:waystone_arena"
 					id: "5FE2EA785746C071"
+					permission_level: 2
 					silent: true
 					type: "command"
 				}
@@ -668,7 +669,7 @@
 					xp: 100
 				}
 				{
-					count: 45
+					count: 48
 					id: "7F1200B1A1DF77F1"
 					item: {
 						count: 1
@@ -880,6 +881,14 @@
 				{
 					id: "109D3E0DE41A923B"
 					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"soulbound:soulbound": 1
+								}
+							}
+							"minecraft:repair_cost": 1
+						}
 						count: 1
 						id: "beloong:eternal_porkchop"
 					}
@@ -985,11 +994,29 @@
 			dependencies: ["294DCB1F2F69927E"]
 			icon_scale: 1.5d
 			id: "51CE47B1ADD35248"
-			rewards: [{
-				id: "61F869F4C0BD37F5"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "61F869F4C0BD37F5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "27828B5C7AD4696B"
+					item: {
+						count: 1
+						id: "yuushya:octagon_pavilion"
+					}
+					type: "item"
+				}
+				{
+					id: "4950CB519E9A1B80"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -1006,6 +1033,7 @@
 			}
 			id: "7F6793C865F7784D"
 			invisible: true
+			optional: true
 			rewards: [{
 				advancement: "beloong:beloong/skip_beginner_tutorial"
 				criterion: ""
