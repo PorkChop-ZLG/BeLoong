@@ -57,6 +57,14 @@
 					silent: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/waystones place 0 78 -57 prismarine_waystone 龙宫"
+					id: "1F7949D4CB5412D5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 3.0d

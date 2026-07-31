@@ -41,15 +41,6 @@
 				}
 				{
 					auto: "invisible"
-					command: "/tellraw @s [{\"text\":\"主线任务将在\",\"color\":\"aqua\"},{\"text\":\" 1.3.4版本\",\"color\":\"gold\"},{\"text\":\"完全重写！\",\"color\":\"aqua\"}]"
-					exclude_from_claim_all: true
-					id: "245A5E82BC3EEDB1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
 					exclude_from_claim_all: true
 					id: "7501774280FB4672"
 					table_id: 1101337620141462259L

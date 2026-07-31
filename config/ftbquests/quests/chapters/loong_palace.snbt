@@ -58,11 +58,21 @@
 			}
 			icon_scale: 1.5d
 			id: "3C1132797D408E77"
-			rewards: [{
-				id: "28EAB4E589071387"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "28EAB4E589071387"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "invisible"
+					command: "/waystones place 0 78 -57 prismarine_waystone 龙宫"
+					id: "77741916B7A863C0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "3D66D6D8638FE356"
@@ -423,6 +433,14 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute in beloong:loong_palace run waystones place -24 196 -404 mossy_waystone 仙岛山巅"
+					id: "08E7C38604339CCD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				dimension: "beloong:loong_palace"
@@ -437,9 +455,9 @@
 					-403
 				]
 				size: [I;
-					5
-					5
-					5
+					8
+					8
+					8
 				]
 				type: "location"
 			}]
@@ -535,6 +553,13 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute in beloong:loong_palace run waystones place 0 64 150 waystone 演武场"
+					id: "5FE2EA785746C071"
+					silent: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				dimension: "beloong:loong_palace"
@@ -611,6 +636,7 @@
 				command: "/execute in beloong:loong_palace run summon minecraft:pig 0 67 203"
 				id: "43E6E2491B5B595D"
 				permission_level: 2
+				silent: true
 				type: "command"
 			}]
 			shape: "none"
@@ -674,6 +700,7 @@
 				command: "/execute in beloong:loong_palace run summon minecraft:creeper 0 67 203"
 				id: "5ED8E093FD52E872"
 				permission_level: 2
+				silent: true
 				type: "command"
 			}]
 			shape: "none"
@@ -908,6 +935,7 @@
 				}
 				id: "4B9637D64D06DF32"
 				permission_level: 2
+				silent: true
 				type: "command"
 			}]
 			shape: "none"
@@ -942,6 +970,7 @@
 				}
 				id: "6BF153A621FBE02F"
 				permission_level: 2
+				silent: true
 				type: "command"
 			}]
 			shape: "none"
