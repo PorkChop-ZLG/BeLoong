@@ -9,6 +9,7 @@
 	id: "70F8D93CCB47276E"
 	images: [{
 		height: 5.0d
+		id: "76826F4303B31CB1"
 		image: "kubejs:textures/task/beloong_logo.png"
 		order: 1000
 		rotation: 0.0d

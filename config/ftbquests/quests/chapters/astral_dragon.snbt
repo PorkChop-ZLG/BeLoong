@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 9.0d
+			id: "278FC531DB8742BF"
 			image: "kubejs:textures/task/astral_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 5.0d
+			id: "6828FDBC7944DE7D"
 			image: "ftblibrary:textures/faces/minecraft/ender_dragon.png"
 			rotation: 0.0d
 			width: 5.0d

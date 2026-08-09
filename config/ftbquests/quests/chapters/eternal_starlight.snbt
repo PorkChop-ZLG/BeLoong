@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 1.2d
+			id: "7ED4770576E5C430"
 			image: "eternal_starlight:block/starlight_portal"
 			order: 9
 			rotation: 0.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.2d
+			id: "31754707A89C98B8"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0646BB060EBB93ED"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 1.2d
+			id: "56AA8B088A846834"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5937AF9A2D19C1A1"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.2d
+			id: "477A67EA6D069A23"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -64,6 +70,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2A562FFC8D6304D0"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -73,6 +80,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6FA358144FEFA249"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -82,6 +90,7 @@
 		}
 		{
 			height: 1.2d
+			id: "601F61CFA8955242"
 			image: "eternal_starlight:block/chiseled_voidstone"
 			order: 100
 			rotation: 0.0d
@@ -91,6 +100,7 @@
 		}
 		{
 			height: 1.2d
+			id: "08ED56D7C1AA45C8"
 			image: "eternal_starlight:block/starlight_portal"
 			order: 10
 			rotation: 0.0d
@@ -100,6 +110,7 @@
 		}
 		{
 			height: 1.2d
+			id: "15BFBE031350DAF2"
 			image: "eternal_starlight:block/starlight_portal"
 			order: 8
 			rotation: 0.0d
@@ -109,6 +120,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5F65DBE35C68EA10"
 			image: "eternal_starlight:block/starlight_portal"
 			order: 8
 			rotation: 0.0d
@@ -118,6 +130,7 @@
 		}
 		{
 			height: 1.2d
+			id: "67A4934540201900"
 			image: "eternal_starlight:block/starlight_portal"
 			order: 10
 			rotation: 0.0d
@@ -127,6 +140,7 @@
 		}
 		{
 			height: 6.0d
+			id: "3A0C77F9D4E69BDB"
 			image: "kubejs:textures/task/eternal_starlight_icon.png"
 			order: 1
 			rotation: 0.0d
@@ -136,6 +150,7 @@
 		}
 		{
 			height: 32.0d
+			id: "49EF75BDC92DFAC4"
 			image: "kubejs:textures/task/scroll_background_01.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -144,6 +159,7 @@
 		}
 		{
 			height: 32.0d
+			id: "78EAB9D3E7FC6706"
 			image: "kubejs:textures/task/scroll_background_02.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -152,6 +168,7 @@
 		}
 		{
 			height: 32.0d
+			id: "33A54E647C99668C"
 			image: "kubejs:textures/task/scroll_background_03.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -160,6 +177,7 @@
 		}
 		{
 			height: 32.0d
+			id: "241EB0017AC2131F"
 			image: "kubejs:textures/task/scroll_background_04.png"
 			rotation: 0.0d
 			width: 64.0d

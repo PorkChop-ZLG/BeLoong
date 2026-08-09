@@ -7,6 +7,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "27583B02EDF2D1F0"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -15,6 +16,7 @@
 		}
 		{
 			height: 3.0d
+			id: "56DC18F6EC04D236"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -23,6 +25,7 @@
 		}
 		{
 			height: 3.0d
+			id: "32026336999CB160"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -31,6 +34,7 @@
 		}
 		{
 			height: 3.0d
+			id: "03C14C2FC2293DBD"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -39,6 +43,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4A3E5C5BCBC99182"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -47,6 +52,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4A5E822B83C0ECA7"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -55,6 +61,7 @@
 		}
 		{
 			height: 3.0d
+			id: "55ED3BEEBE1992F7"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			order: 10
 			rotation: 0.0d
@@ -64,6 +71,7 @@
 		}
 		{
 			height: 3.0d
+			id: "2BA2803A4A000E69"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			order: 11
 			rotation: 0.0d

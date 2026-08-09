@@ -18,6 +18,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "17CE23822119D7FD"
 			image: "kubejs:textures/task/iron_spells_background.png"
 			order: 100
 			rotation: 0.0d
@@ -27,6 +28,7 @@
 		}
 		{
 			height: 9.0d
+			id: "37066C676E52E3B8"
 			image: "kubejs:textures/task/echo_of_the_flamebearer.png"
 			order: 10
 			rotation: 0.0d
@@ -36,6 +38,7 @@
 		}
 		{
 			height: 2.0d
+			id: "36C78E2812B1C021"
 			image: "kubejs:textures/task/happy_ghast.png"
 			order: 10
 			rotation: 0.0d
@@ -45,6 +48,7 @@
 		}
 		{
 			height: 32.0d
+			id: "2E4BA2F00979BCDA"
 			image: "kubejs:textures/task/scroll_background_01.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -53,6 +57,7 @@
 		}
 		{
 			height: 32.0d
+			id: "32B449D1F9279257"
 			image: "kubejs:textures/task/scroll_background_02.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -61,6 +66,7 @@
 		}
 		{
 			height: 32.0d
+			id: "6D44DA80549F6F9C"
 			image: "kubejs:textures/task/scroll_background_03.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -69,6 +75,7 @@
 		}
 		{
 			height: 32.0d
+			id: "11C431AEA7C8612B"
 			image: "kubejs:textures/task/scroll_background_04.png"
 			rotation: 0.0d
 			width: 64.0d

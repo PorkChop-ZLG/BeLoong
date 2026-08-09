@@ -9,6 +9,7 @@
 	id: "1E4C1C94528F4F43"
 	images: [{
 		height: 5.0d
+		id: "149B515EBB71F6F0"
 		image: "ftblibrary:icons/map"
 		order: 100
 		rotation: 0.0d

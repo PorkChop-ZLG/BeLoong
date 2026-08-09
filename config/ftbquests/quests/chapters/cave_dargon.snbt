@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 6.0d
+			id: "7A284895953CF3B5"
 			image: "kubejs:textures/task/cave_dragon.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 9.0d
+			id: "6A440E75BF7E9BE7"
 			image: "kubejs:textures/task/cave_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d

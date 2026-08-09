@@ -12,6 +12,8 @@
 	warpPlateUseTime = 20
 	#The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.
 	scrollUseTime = 10
+	#The time in ticks that an entity has to be off of a target warp plate before it can teleport from that same warp plate again.
+	warpPlateCooldownTime = 20
 
 [teleports]
 	#Set to false to simply disable all xp costs. See warpRequirements for more fine-grained control.

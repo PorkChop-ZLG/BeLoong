@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 1.2d
+			id: "31723080129DBAF1"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 99
 			rotation: 0.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "72A5917477B47143"
 			image: "minecraft:block/dandelion"
 			order: 1000
 			rotation: 0.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1FB026029FEC3872"
 			image: "minecraft:block/poppy"
 			order: 1000
 			rotation: 0.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2F157568DA3535C9"
 			image: "minecraft:block/nether_portal"
 			order: 10
 			rotation: 0.0d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4243843BA73D65EA"
 			image: "minecraft:block/nether_portal"
 			order: 9
 			rotation: 0.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4DF418916EC0FF30"
 			image: "minecraft:block/nether_portal"
 			order: 9
 			rotation: 0.0d
@@ -64,6 +70,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5615429FDCBF2039"
 			image: "minecraft:block/nether_portal"
 			order: 8
 			rotation: 0.0d
@@ -73,6 +80,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2A6B437815ADD843"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 98
 			rotation: 0.0d
@@ -82,6 +90,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2339E8D86873A2FA"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 100
 			rotation: 0.0d
@@ -91,6 +100,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2A8CF653C82DBD02"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 97
 			rotation: 0.0d
@@ -100,6 +110,7 @@
 		}
 		{
 			height: 1.2d
+			id: "17EC4F5CB60E8F53"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 99
 			rotation: 0.0d
@@ -109,6 +120,7 @@
 		}
 		{
 			height: 1.2d
+			id: "13B6E53075696FB7"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 98
 			rotation: 0.0d
@@ -118,6 +130,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6CBF1FB2A9E0EABA"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 97
 			rotation: 0.0d
@@ -127,6 +140,7 @@
 		}
 		{
 			height: 1.2d
+			id: "503A0CFFFEB95C90"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 96
 			rotation: 0.0d
@@ -136,6 +150,7 @@
 		}
 		{
 			height: 1.2d
+			id: "7744F642814E7AAA"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 95
 			rotation: 0.0d
@@ -145,6 +160,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2571EAA73CEB9480"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 96
 			rotation: 0.0d
@@ -154,6 +170,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0E8FDF46B1306EC8"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 95
 			rotation: 0.0d
@@ -163,6 +180,7 @@
 		}
 		{
 			height: 1.2d
+			id: "23B0DBDD4023E009"
 			image: "regions_unexplored:block/alpha_grass_block_top"
 			order: 94
 			rotation: 0.0d
@@ -172,6 +190,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2246F087ACF763CA"
 			image: "minecraft:block/dandelion"
 			order: 1000
 			rotation: 0.0d
@@ -181,6 +200,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0C0679EB70C73C32"
 			image: "minecraft:block/dandelion"
 			order: 1000
 			rotation: 0.0d
@@ -190,6 +210,7 @@
 		}
 		{
 			height: 1.0d
+			id: "580A7A32C8D7C444"
 			image: "minecraft:block/dandelion"
 			order: 1000
 			rotation: 0.0d
@@ -199,6 +220,7 @@
 		}
 		{
 			height: 1.0d
+			id: "643DF987150EEEEF"
 			image: "minecraft:block/poppy"
 			order: 1000
 			rotation: 0.0d
@@ -208,6 +230,7 @@
 		}
 		{
 			height: 1.0d
+			id: "406AA847C2CEB8AC"
 			image: "minecraft:block/poppy"
 			order: 1000
 			rotation: 0.0d
@@ -217,6 +240,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5DCDB4EAA1C9A23D"
 			image: "minecraft:block/poppy"
 			order: 1000
 			rotation: 0.0d
@@ -226,6 +250,7 @@
 		}
 		{
 			height: 1.0d
+			id: "576DFADAA18B5B8F"
 			image: "minecraft:block/poppy"
 			order: 1000
 			rotation: 0.0d
@@ -235,6 +260,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3F799FF8DB404260"
 			image: "minecraft:block/poppy"
 			order: 1000
 			rotation: 0.0d
@@ -244,6 +270,7 @@
 		}
 		{
 			height: 1.0d
+			id: "487C9032E8F52713"
 			image: "minecraft:block/dandelion"
 			order: 1000
 			rotation: 0.0d
@@ -253,6 +280,7 @@
 		}
 		{
 			height: 1.0d
+			id: "09A675D9B8AE0391"
 			image: "minecraft:block/dandelion"
 			order: 1000
 			rotation: 0.0d
@@ -262,6 +290,7 @@
 		}
 		{
 			height: 2.0d
+			id: "17942B505D33C674"
 			image: "kubejs:textures/task/twilightforest_logo.png"
 			order: 100
 			rotation: 0.0d
@@ -271,6 +300,7 @@
 		}
 		{
 			height: 32.0d
+			id: "3D993DDB88841C21"
 			image: "kubejs:textures/task/scroll_background_01.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -279,6 +309,7 @@
 		}
 		{
 			height: 32.0d
+			id: "75975B57292DB50F"
 			image: "kubejs:textures/task/scroll_background_02.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -287,6 +318,7 @@
 		}
 		{
 			height: 32.0d
+			id: "2D39DD51E1BD6DB4"
 			image: "kubejs:textures/task/scroll_background_03.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -295,6 +327,7 @@
 		}
 		{
 			height: 32.0d
+			id: "7252A4C7F91536FD"
 			image: "kubejs:textures/task/scroll_background_04.png"
 			rotation: 0.0d
 			width: 64.0d

@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 6.0d
+			id: "7F53BDF3737428D3"
 			image: "kubejs:textures/task/background_1.png"
 			order: 100
 			rotation: 0.0d
@@ -21,6 +22,7 @@
 		}
 		{
 			height: 9.0d
+			id: "3EE0A84B527FFEEF"
 			image: "kubejs:textures/task/aether_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d

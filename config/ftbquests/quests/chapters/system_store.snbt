@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 12.0d
+			id: "672FB684D7037861"
 			image: "kubejs:textures/task/shop_3.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 12.0d
+			id: "4ECD2B242DD8F9EE"
 			image: "kubejs:textures/task/shop_1.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 12.0d
+			id: "2F3D3EC2C9DBD663"
 			image: "kubejs:textures/task/shop_2.png"
 			rotation: 0.0d
 			width: 12.0d

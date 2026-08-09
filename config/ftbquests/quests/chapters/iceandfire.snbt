@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 1.2d
+			id: "100567F3652CED04"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.2d
+			id: "09BB132ED9084050"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2FE225985C1D63EE"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5F9243E8584C7F20"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5CBC52649EC73060"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.2d
+			id: "11231AA412E4EF0C"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -64,6 +70,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6905876676491160"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -73,6 +80,7 @@
 		}
 		{
 			height: 1.2d
+			id: "582BA375FB9B4DA5"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -82,6 +90,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0A81A188A2222107"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -91,6 +100,7 @@
 		}
 		{
 			height: 1.2d
+			id: "08269925F17AFCF9"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -100,6 +110,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5C2C7438936858A4"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -109,6 +120,7 @@
 		}
 		{
 			height: 1.2d
+			id: "538B9D01E92694E7"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -118,6 +130,7 @@
 		}
 		{
 			height: 1.2d
+			id: "7746520D95CE153E"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -127,6 +140,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6DCA3F8D6107D7B7"
 			image: "iceandfire:block/dragonforge_ice_input_active"
 			order: 100
 			rotation: 0.0d
@@ -136,6 +150,7 @@
 		}
 		{
 			height: 1.2d
+			id: "426ECA6E0F818105"
 			image: "iceandfire:block/dragonforge_ice_core"
 			order: 100
 			rotation: 0.0d
@@ -145,6 +160,7 @@
 		}
 		{
 			height: 1.2d
+			id: "1AD0597C6A222BFB"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -154,6 +170,7 @@
 		}
 		{
 			height: 1.2d
+			id: "734E8450A1A2DADA"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -163,6 +180,7 @@
 		}
 		{
 			height: 1.2d
+			id: "799B17688645A332"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -172,6 +190,7 @@
 		}
 		{
 			height: 1.2d
+			id: "20248D75EC639DE6"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -181,6 +200,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4CD3F27999A62DCB"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -190,6 +210,7 @@
 		}
 		{
 			height: 1.2d
+			id: "1E222DCA3A3A0115"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -199,6 +220,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5B7AECF1FBBB399B"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -208,6 +230,7 @@
 		}
 		{
 			height: 1.2d
+			id: "283FB1B87EB75F97"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -217,6 +240,7 @@
 		}
 		{
 			height: 1.2d
+			id: "32B08CD3765D4E9E"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -226,6 +250,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0A5F69CB7FB3A63B"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -235,6 +260,7 @@
 		}
 		{
 			height: 1.2d
+			id: "7743E93702ECA6CE"
 			image: "iceandfire:block/dragonforge_ice_brick"
 			order: 100
 			rotation: 0.0d
@@ -244,6 +270,7 @@
 		}
 		{
 			height: 1.2d
+			id: "32F63DB4CBBFC0C5"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -253,6 +280,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2E4AB3AF8ED8B277"
 			image: "iceandfire:block/dragonforge_fire_core"
 			order: 100
 			rotation: 0.0d
@@ -262,6 +290,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6E9EAB35666DC092"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -271,6 +300,7 @@
 		}
 		{
 			height: 1.2d
+			id: "354CD1A8A7B731D3"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -280,6 +310,7 @@
 		}
 		{
 			height: 1.2d
+			id: "777BFC02E9D54CFE"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -289,6 +320,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6903E489D0EA50F0"
 			image: "iceandfire:block/dragonforge_fire_input_active"
 			order: 100
 			rotation: 0.0d
@@ -298,6 +330,7 @@
 		}
 		{
 			height: 1.2d
+			id: "698587067FFC3DE1"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -307,6 +340,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4B9A486FA76AE9A1"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -316,6 +350,7 @@
 		}
 		{
 			height: 1.2d
+			id: "74198F228DEDBC5A"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -325,6 +360,7 @@
 		}
 		{
 			height: 1.2d
+			id: "14EA2F692A7890A2"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -334,6 +370,7 @@
 		}
 		{
 			height: 1.2d
+			id: "641320C69ABAC4C9"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -343,6 +380,7 @@
 		}
 		{
 			height: 1.2d
+			id: "7614E86E18F111AD"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -352,6 +390,7 @@
 		}
 		{
 			height: 1.2d
+			id: "16B2A3B306A4D1F0"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -361,6 +400,7 @@
 		}
 		{
 			height: 1.2d
+			id: "68FA168EEA1F92EC"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -370,6 +410,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0F78F9BB49DCDD8D"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -379,6 +420,7 @@
 		}
 		{
 			height: 1.2d
+			id: "724D6930C660CB3A"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -388,6 +430,7 @@
 		}
 		{
 			height: 1.2d
+			id: "06174C7C47A6F3CE"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -397,6 +440,7 @@
 		}
 		{
 			height: 1.2d
+			id: "47654B9F169D57C8"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -406,6 +450,7 @@
 		}
 		{
 			height: 1.2d
+			id: "29D6D29C811CF7BD"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -415,6 +460,7 @@
 		}
 		{
 			height: 1.2d
+			id: "7DD4E1B526E70033"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -424,6 +470,7 @@
 		}
 		{
 			height: 1.2d
+			id: "705400EF5491EC34"
 			image: "iceandfire:block/dragonforge_fire_brick"
 			order: 100
 			rotation: 0.0d
@@ -433,6 +480,7 @@
 		}
 		{
 			height: 1.2d
+			id: "064E09EA728A5413"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -442,6 +490,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0A5A5DD0323528F4"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -451,6 +500,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0DDB129A31369970"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -460,6 +510,7 @@
 		}
 		{
 			height: 1.2d
+			id: "149A17AA2ED5AD57"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -469,6 +520,7 @@
 		}
 		{
 			height: 1.2d
+			id: "05533FF9101DE483"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -478,6 +530,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4319B2187EC35E60"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -487,6 +540,7 @@
 		}
 		{
 			height: 1.2d
+			id: "1B056B33D10D89B4"
 			image: "iceandfire:block/dragon_bone_block"
 			order: 100
 			rotation: 0.0d
@@ -496,6 +550,7 @@
 		}
 		{
 			height: 20.0d
+			id: "3A34800D7F0F80C1"
 			image: "iceandfire:textures/gui/bestiary/drawings_icedragon_attacks.png"
 			order: 10
 			rotation: 0.0d
@@ -505,6 +560,7 @@
 		}
 		{
 			height: 20.0d
+			id: "53A4D937DFAFEAE2"
 			image: "iceandfire:textures/gui/bestiary/drawings_firedragon_attacks.png"
 			order: 10
 			rotation: 0.0d
@@ -514,6 +570,7 @@
 		}
 		{
 			height: 20.0d
+			id: "16B30D2D2878DB87"
 			image: "iceandfire:textures/gui/bestiary/drawings_lightningdragon_attacks.png"
 			order: 10
 			rotation: 0.0d
@@ -523,6 +580,7 @@
 		}
 		{
 			height: 32.0d
+			id: "3A5719F54209802B"
 			image: "kubejs:textures/task/scroll_background_01.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -531,6 +589,7 @@
 		}
 		{
 			height: 32.0d
+			id: "3733212A8779D998"
 			image: "kubejs:textures/task/scroll_background_02.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -539,6 +598,7 @@
 		}
 		{
 			height: 32.0d
+			id: "27D70988B1AB2373"
 			image: "kubejs:textures/task/scroll_background_03.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -547,6 +607,7 @@
 		}
 		{
 			height: 32.0d
+			id: "532BB69D9E1646E6"
 			image: "kubejs:textures/task/scroll_background_04.png"
 			rotation: 0.0d
 			width: 64.0d
@@ -554,12 +615,9 @@
 			y: 13.89d
 		}
 		{
-			click: "https://www.mcmod.cn/item/192950.html"
+			click_action: "open_uri:https://www.mcmod.cn/item/192950.html"
 			height: 5.0d
-			hover: [
-				"龙钢煅炉"
-				"点击查看搭建方式"
-			]
+			id: "705566946F6F8DC4"
 			image: "kubejs:textures/task/dragonforge.png"
 			order: 100
 			rotation: 0.0d
@@ -569,6 +627,7 @@
 		}
 		{
 			height: 4.0d
+			id: "3AEAFC5F83E081BB"
 			image: "kubejs:textures/task/iceandfire_logo.png"
 			rotation: 0.0d
 			width: 10.0d

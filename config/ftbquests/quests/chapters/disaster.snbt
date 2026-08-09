@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 1.2d
+			id: "61DCC9291761E97C"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 180.0d
 			width: 1.2d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 1.2d
+			id: "417BA0D1F75C3FEE"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 180.0d
 			width: 1.2d
@@ -26,6 +28,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2FF4F8392D6A96B6"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 180.0d
 			width: 1.2d
@@ -34,6 +37,7 @@
 		}
 		{
 			height: 1.2d
+			id: "7F945824E1D26AEA"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 90.0d
 			width: 1.2d
@@ -42,6 +46,7 @@
 		}
 		{
 			height: 1.2d
+			id: "427C554AF607E4E6"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 90.0d
 			width: 1.2d
@@ -50,6 +55,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2803C4AEA9549F27"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 90.0d
 			width: 1.2d
@@ -58,6 +64,7 @@
 		}
 		{
 			height: 1.2d
+			id: "26714836611C985F"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 0.0d
 			width: 1.2d
@@ -66,6 +73,7 @@
 		}
 		{
 			height: 1.2d
+			id: "3E1F02D6F6D68CFE"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 0.0d
 			width: 1.2d
@@ -74,6 +82,7 @@
 		}
 		{
 			height: 1.2d
+			id: "00CF3B50D90ED15B"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: 0.0d
 			width: 1.2d
@@ -82,6 +91,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6BCBDC58BCC0F792"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: -90.0d
 			width: 1.2d
@@ -90,6 +100,7 @@
 		}
 		{
 			height: 1.2d
+			id: "3BDC3090C2088062"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: -90.0d
 			width: 1.2d
@@ -98,6 +109,7 @@
 		}
 		{
 			height: 1.2d
+			id: "3914CD93ED1564D9"
 			image: "beloong:block/disaster_portal_frame_top"
 			rotation: -90.0d
 			width: 1.2d

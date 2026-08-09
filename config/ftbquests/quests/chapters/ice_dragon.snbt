@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 9.0d
+			id: "46DFB6693D7D20F5"
 			image: "kubejs:textures/task/tundra_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 10.0d
+			id: "7FFE6164A34E5C7F"
 			image: "kubejs:textures/task/liebel_drawing.png"
 			rotation: 0.0d
 			width: 10.0d

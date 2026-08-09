@@ -20,6 +20,7 @@
 		id: "irons_spellbooks:hither_thither_wand"
 	}
 	id: "6EC27D3BF2313600"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
