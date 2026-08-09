@@ -1363,11 +1363,6 @@
 					item: { count: 1, id: "eternal_starlight:soul_dew" }
 					type: "item"
 				}
-				{
-					id: "147C479AFFEC8E70"
-					item: { components: { "ftbquests:missing_item": "alshanex_familiars:mysterious_orb" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
 			]
 			x: 3.0d
 			y: 3.0d

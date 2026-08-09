@@ -20,6 +20,26 @@
         ]
       },
       "trigger": "dragonsurvival:be_dragon"
+    },
+    "young_dragon_2": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:aether_dragon",
+                "stage_specific": {
+                  "dragon_stage": "dragonsurvival:aether_young"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
     }
   },
   "display": {
@@ -36,7 +56,7 @@
   },
   "requirements": [
     [
-      "young_dragon"
+      "young_dragon", "young_dragon_2"
     ]
   ],
   "rewards": {

@@ -6,18 +6,6 @@
         "entity": {
           "type": "minecraft:creeper"
         },
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "dragonsurvival:dragon_predicate",
-                "dragon_species": "dragonsurvival:beginner_aether_dragon"
-              }
-            }
-          }
-        ],
         "killing_blow": {
           "tags": [
             {
