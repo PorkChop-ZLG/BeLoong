@@ -1,27 +1,23 @@
 # 该方程用于道具 始祖龙珠 额外添加饰品栏
 
-# 首饰 5
-curios set head @s 5
-# 项链 5
-curios set necklace @s 5
+# 首饰 8
+curios set head @s 8
+# 项链 8
+curios set necklace @s 8
 # 背饰 1
 curios set back @s 1
 # 手饰 4
 curios set hands @s 4
-# 戒指 10
-curios set ring @s 10
-# 腰带 5
-curios set belt @s 5
-# 脚饰 5
-curios set feet @s 5
-# 护符 5
-curios set charm @s 5
-# 配饰(泰拉饰品) 11
-curios set accessory @s 11
-# 魔宠饰品(魔宠) 12
-curios set familiar_trinket @s 12
+# 戒指 20
+curios set ring @s 20
+# 腰带 8
+curios set belt @s 8
+# 脚饰 4
+curios set feet @s 4
+# 护符 8
+curios set charm @s 8
 # 魔法书(铁魔法) 4
-curios set spellbook @s 4
+curios set spellbook @s 3
 
 # 不死图腾粒子
 particle minecraft:totem_of_undying ~ ~1 ~ 0.4 0.6 0.4 0.1 80 force @s
