@@ -185,7 +185,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -211,7 +211,7 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -237,7 +237,7 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -271,58 +271,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "dragonsurvival:wing_grant"
-			}
-			id: "7DD416AF2172DFC1"
-			rewards: [{
-				id: "47B31BC97B9D13FF"
-				item: {
-					count: 1
-					id: "dragonsurvival:wing_grant"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "4A59C9FADF49D2B9"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "dragonsurvival:spin_grant"
-			}
-			id: "36C95FFAF0BAB532"
-			rewards: [{
-				id: "5949D188EB0B83C8"
-				item: {
-					count: 1
-					id: "dragonsurvival:spin_grant"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "515EB3D0DB4BB3AA"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "irons_spellbooks:lightning_upgrade_orb"
 			}
 			id: "19EC475553EC785D"
@@ -339,7 +287,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -406,8 +354,8 @@
 				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -493,7 +441,7 @@
 				}
 			]
 			x: 1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -1097,7 +1045,7 @@
 				}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -1259,8 +1207,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true

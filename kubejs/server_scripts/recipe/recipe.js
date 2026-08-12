@@ -1,4 +1,5 @@
 // 该脚本用于魔改 化龍整合包 的专属配方
+// 模组之间的联动配方，难以分类的配方都位于此处
 
 ServerEvents.recipes(event => {
     // 黎明曙光
@@ -79,37 +80,6 @@ ServerEvents.recipes(event => {
         Item.of('dragonsurvival:elder_dragon_heart', 1),
         [
             'kubejs:dihuang_loong_heart'
-        ]
-    )
-    // 泰拉BOSS召唤物 换成 远古龙心
-    event.shapeless(
-        Item.of('dragonsurvival:elder_dragon_heart', 1),
-        [
-            'kubejs:slime_crown'
-        ]
-    )
-    event.shapeless(
-        Item.of('dragonsurvival:elder_dragon_heart', 1),
-        [
-            'kubejs:suspicious_looking_eye'
-        ]
-    )
-    event.shapeless(
-        Item.of('dragonsurvival:elder_dragon_heart', 1),
-        [
-            'kubejs:worm_food'
-        ]
-    )
-    event.shapeless(
-        Item.of('dragonsurvival:elder_dragon_heart', 1),
-        [
-            'kubejs:bloody_spine'
-        ]
-    )
-    event.shapeless(
-        Item.of('dragonsurvival:elder_dragon_heart', 1),
-        [
-            'kubejs:abeemination'
         ]
     )
     // 以太龙的佳肴

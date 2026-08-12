@@ -1003,7 +1003,7 @@
 	quest.1A80A4C81CAD4255.title: "远古遗魂"
 	quest.1AA4E0CE318BA06A.quest_subtitle: "成长到远古龙阶段"
 	quest.1AA4E0CE318BA06A.title: "远古苔原龙"
-	quest.1AA55A95262C406C.quest_desc: ["&c完成章节【深暗之园】后解锁！"]
+	quest.1AA55A95262C406C.quest_desc: [""]
 	quest.1AA55A95262C406C.title: "鸿蒙方舟"
 	quest.1AF16021BB5DD12E.quest_subtitle: "完成森林龙的部分成就"
 	quest.1AF16021BB5DD12E.title: "森林龙趣味挑战"
@@ -1736,7 +1736,6 @@
 	quest.36AB6B47419CE439.quest_desc: ["&7水池中央，栖居着一只巨大的螃蟹，它并没有攻击你。紫水晶巨蟹是这个世界的原住民，你从紫水晶长老的口中，得知了天灾的起源……"]
 	quest.36AB6B47419CE439.quest_subtitle: "目标：观察紫水晶巨蟹"
 	quest.36AB6B47419CE439.title: "紫水晶长老"
-	quest.36C95FFAF0BAB532.title: "旋冲赋能"
 	quest.36D18D859382FB7D.quest_subtitle: "美味甘甜"
 	quest.36E3E423EE072800.quest_desc: [
 		"这是灾变模组预告的第九位BOSS，但是暂未发布。"
@@ -3835,7 +3834,6 @@
 		"&6范围是半径为&264&6的球形。"
 	]
 	quest.7DB7B55E956A4A94.quest_subtitle: "禁止动物生成"
-	quest.7DD416AF2172DFC1.title: "飞行赋能"
 	quest.7E43C24DAFAF97FB.quest_desc: [
 		"《汇流来世》是一个结合《我的世界》与《泰拉瑞亚》的扩展模组，旨在打破这两款游戏原本的世界界限，为玩家带来独特的游戏体验。"
 		""
