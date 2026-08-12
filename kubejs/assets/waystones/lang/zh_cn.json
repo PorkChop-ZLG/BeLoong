@@ -345,5 +345,12 @@
   "waystones.configuration.blueMap.includeUndiscoveredWaystones.tooltip": "开启后在BlueMap中标记所有未发现的传送石碑位置",
   "waystones.iconCredits": "图标作者:JoeCreates (CC-BY-SA 3.0)",
   "waystones.map.untitled_waystone": "未命名的传送石碑",
-  "config.jade.plugin_waystones.waystone": "传送石碑"
+  "config.jade.plugin_waystones.waystone": "传送石碑",
+  
+  "waystones.groups.dimension.beloong.disaster": "天灾",
+  "waystones.groups.dimension.beloong.loong_palace": "龙宫",
+  "waystones.groups.dimension.eternal_starlight.starlight": "永恒星光",
+  "waystones.groups.dimension.extradelight.cornfield": "玉米地",
+  "waystones.groups.dimension.iceandfire_dreadland.dreadland": "悚域",
+  "waystones.groups.dimension.twilightforest.twilight_forest": "暮色森林"
 }

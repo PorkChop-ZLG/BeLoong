@@ -345,5 +345,12 @@
   "waystones.configuration.blueMap.includeUndiscoveredWaystones.tooltip": "If enabled, undiscovered waystones will be tracked as markers on BlueMap",
   "waystones.iconCredits": "Icons by JoeCreates (CC-BY-SA 3.0)",
   "waystones.map.untitled_waystone": "Untitled Waystone",
-  "config.jade.plugin_waystones.waystone": "Waystones"
+  "config.jade.plugin_waystones.waystone": "Waystones",
+  
+  "waystones.groups.dimension.beloong.disaster": "Disaster",
+  "waystones.groups.dimension.beloong.loong_palace": "Loong Palace",
+  "waystones.groups.dimension.eternal_starlight.starlight": "Eternal Starlight",
+  "waystones.groups.dimension.extradelight.cornfield": "Cornfield",
+  "waystones.groups.dimension.iceandfire_dreadland.dreadland": "Dreadland",
+  "waystones.groups.dimension.twilightforest.twilight_forest": "Twilight Forest"
 }
