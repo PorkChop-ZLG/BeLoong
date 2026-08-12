@@ -2828,14 +2828,6 @@
 	]
 	quest.6510A7883109C0C5.quest_subtitle: "Prepared for the unlucky"
 	quest.6510A7883109C0C5.title: "Betrayer's Insignia Guarantee"
-	quest.6511938692C22F27.quest_desc: [
-		"&aDruid Familiars &6are prevented from naturally spawning,"
-		"&6because they can breed animals infinitely, causing severe lag."
-		""
-		"&7&oIf you can't see it after spawning, please exit and re-enter the game."
-	]
-	quest.6511938692C22F27.quest_subtitle: "Cannot spawn naturally"
-	quest.6511938692C22F27.title: "Druid Familiar"
 	quest.6551B8D4F580ACE3.quest_desc: [
 		"&aObjective: Collect all Building Staves"
 		""

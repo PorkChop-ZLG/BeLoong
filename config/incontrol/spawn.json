@@ -1,10 +1,5 @@
 [
   {
-    "mob": "alshanex_familiars:druid_pet",
-    "when": "position",
-    "result": "deny"
-  },
-  {
     "mob": "minecraft:ender_dragon",
     "when": "onjoin",
     "result": "allow",

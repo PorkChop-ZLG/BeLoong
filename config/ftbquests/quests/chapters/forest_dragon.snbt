@@ -1418,7 +1418,7 @@
 				}
 				{
 					icon: {
-						id: "alshanex_familiars:strange_mushroom"
+						id: "farmersdelight:red_mushroom_colony"
 					}
 					id: "7C3F76931D8DA241"
 					structure: "dungeons_arise:mushroom_village"
