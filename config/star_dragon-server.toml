@@ -1,7 +1,7 @@
 [general]
 	#Block destruction mode for skills (ON, FTB_PROTECTION, FTB_FORBID, OFF). FTB_PROTECTION checks per-block permission; FTB_FORBID forbids destruction in any claimed chunk.
 	#Allowed Values: ON, FTB_PROTECTION, FTB_FORBID, OFF
-	blockDestructionMode = "FTB_FORBID"
+	blockDestructionMode = "FTB_PROTECTION"
 	#Time manipulation ability mode: OFF (disabled), TICK (tick rate control), TIME (daytime sun control)
 	#Allowed Values: OFF, TICK, TIME
 	timeAbilityMode = "TIME"
