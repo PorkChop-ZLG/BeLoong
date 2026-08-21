@@ -57,8 +57,8 @@
 			image: "kubejs:textures/task/astral_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
-			y: 6.5d
+			x: 2.0d
+			y: -6.5d
 		}
 		{
 			height: 6.0d
@@ -84,8 +84,8 @@
 			image: "kubejs:textures/task/crystcursed_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: -6.5d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			height: 6.0d
@@ -93,8 +93,8 @@
 			image: "kubejs:textures/task/star_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.0d
-			y: -6.5d
+			x: 7.0d
+			y: 6.5d
 		}
 	]
 	order_index: 0
@@ -351,21 +351,14 @@
 			]
 			shape: "none"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2A782EDBD46C65FB"
-					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"星界龙毕业证\"}],\"text\":\"\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"恭喜你完成了星界龙的支线任务！\"}],\"text\":\"\"}"], "minecraft:rarity": "epic" }, count: 1, id: "astral_dragon:astral_full_icon" }
-					type: "item"
-				}
-				{
-					advancement: "astral_dragon:astral/singularity"
-					criterion: ""
-					id: "0D3918B42039D3AC"
-					type: "advancement"
-				}
-			]
-			x: 5.0d
-			y: 3.0d
+			tasks: [{
+				advancement: "astral_dragon:astral/singularity"
+				criterion: ""
+				id: "0D3918B42039D3AC"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -410,8 +403,8 @@
 				id: "0C233B853A97A80E"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -461,8 +454,8 @@
 				item: { count: 1, id: "star_dragon:starcubess" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 7.0d
+			y: 3.0d
 		}
 	]
 }

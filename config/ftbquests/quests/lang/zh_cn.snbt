@@ -93,8 +93,6 @@
 		"Pork猪排"
 	]
 	chapter.70F8D93CCB47276E.title: "&d关于&e『&6化龍&e』&d整合包"
-	chapter.7B67918088B05AB6.chapter_subtitle: ["隐藏式任务"]
-	chapter.7B67918088B05AB6.title: "〖星界龙〗成长之路"
 	chapter.7C914FF1A42F8A5B.chapter_subtitle: [
 		"旭日东升，普照龙宫"
 		"难度：新手教程"
@@ -174,9 +172,6 @@
 	]
 	quest.02660EF9A8CDA757.quest_subtitle: "末地将迎来它新的主人"
 	quest.02660EF9A8CDA757.title: "击败 [末影龙]"
-	quest.026EE10B22870C6B.quest_desc: ["&6据说，幻翼一族与龙族有些渊源，谁说得清呢？"]
-	quest.026EE10B22870C6B.quest_subtitle: "有龙说，这是进化失败的龙？"
-	quest.026EE10B22870C6B.title: "幻翼杀手"
 	quest.0290886F399EB569.quest_desc: [
 		"&6通过电话，你可以直接买到现成的食材或酒水，当然，大多数的酒水只有使用电话才能获得&r"
 		""
@@ -410,12 +405,6 @@
 	]
 	quest.06BED8FFC050C39A.title: "强者的象征"
 	quest.072FD241CD272F4C.title: "打卡：炼狱之地"
-	quest.07328C6505484271.quest_desc: [
-		"&d末影龙&6，正是&5星界龙&6一脉的始祖，"
-		"&6昔日龙族的至高统治者。"
-	]
-	quest.07328C6505484271.quest_subtitle: "复活吧，我的爱龙！"
-	quest.07328C6505484271.title: "复活：末影龙"
 	quest.073A531B004C31E3.quest_desc: [
 		"&l&d「利维坦」"
 		"&6生命：&a12000"
@@ -486,9 +475,6 @@
 	quest.08CE97F6C822784E.quest_subtitle: "学习两仪法术"
 	quest.08CE97F6C822784E.title: "挑战：道观"
 	quest.09070CEC4EBD2898.quest_subtitle: "提神醒脑"
-	quest.095F26381CC3BDF9.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196959C6E061913D\" } }"]
-	quest.095F26381CC3BDF9.quest_subtitle: "击杀黑曜巨石柱，提交其掉落物"
-	quest.095F26381CC3BDF9.title: "击败：黑耀巨石柱"
 	quest.09AD9A5F6A9D97B8.quest_desc: ["&9结构罗盘：&b【YUNG】海底神殿&r"]
 	quest.09AD9A5F6A9D97B8.title: "挑战：海底神殿"
 	quest.0A359F255D5E3C1B.title: "龙之生存专属附魔书"
@@ -506,13 +492,6 @@
 	quest.0ADC425FA160CAD0.quest_subtitle: "我要穿越这片沙漠，找寻真的自我"
 	quest.0ADC425FA160CAD0.title: "沙虫"
 	quest.0AE4AB2612E41CA0.quest_subtitle: "十六夜咲夜特调"
-	quest.0B0D756819D16F7D.quest_desc: [
-		"&6人类在末地石中注入魔力，建造了这种傀儡。"
-		"&6在那场战争中，这玩意曾是杀伤力无比的绞肉机。"
-		"&6战争过后，它们随着堡垒一起被遗忘在末地，"
-		"&6却仍不忘自己的职责，默默坚守无人的堡垒。"
-	]
-	quest.0B0D756819D16F7D.title: "击杀：末影傀儡"
 	quest.0B1F2B46DAF0D8AC.quest_desc: [
 		"&l&d「监守者」"
 		"&6生命：&a500"
@@ -757,10 +736,9 @@
 		"&a目标：化为晶咒龙"
 		""
 		"&#299e96「晶咒龙」"
-		"从龙之一，受到诅咒，只能与水晶为伴，掌握变异的“晶咒”魔法。"
-		"在未来的版本，晶咒龙有机会成为新的主龙！"
+		"九大主龙之一，掌握着变异的晶咒魔法。"
 	]
-	quest.12D51CB6B22EB6E9.title: "&#299e96从龙：晶咒龙"
+	quest.12D51CB6B22EB6E9.title: "&#299e96主龙：晶咒龙"
 	quest.12E2CD43AD01F522.title: "击杀：沼骸"
 	quest.12EB86E73FDAF20F.quest_desc: ["&a目标：观察一只火龙"]
 	quest.12EB86E73FDAF20F.quest_subtitle: "了解火龙习性"
@@ -817,13 +795,8 @@
 	quest.15433E12926E99B9.quest_subtitle: "没进化出翅膀的低等生物罢了"
 	quest.15433E12926E99B9.title: "&d这隆起的土邱是龙巢吗？"
 	quest.155114DC02DEBDDE.quest_subtitle: "奶油，咖啡与酒"
-	quest.1588CA412F4FAA24.quest_desc: [
-		"&a目标：提交星界龙的毕业证"
-		""
-		"&5&l「星界龙」"
-		"六大主龙之一，掌握末影的力量。"
-	]
-	quest.1588CA412F4FAA24.title: "&5主龙：星界龙"
+	quest.1588CA412F4FAA24.quest_desc: ["&a目标：化为星辰龙并成长到最终阶段"]
+	quest.1588CA412F4FAA24.title: "&5从龙：星界龙"
 	quest.15C5C16F69808158.quest_subtitle: "这是史莱姆吗？"
 	quest.15CE2F1DA319C4B4.quest_desc: [
 		"&l&d「斯库拉」"
@@ -854,8 +827,6 @@
 		"&c注：为了防止滥用，需要开启作弊权限！"
 	]
 	quest.163153BE5D349228.title: "清理掉落物"
-	quest.16AC902A8860C5D5.quest_subtitle: "成长到红巨星阶段"
-	quest.16AC902A8860C5D5.title: "红巨星"
 	quest.16AD045AE7B461C7.quest_subtitle: "纯米大吟酿"
 	quest.16B32CB0D55A9718.title: "项链T0"
 	quest.16DF8F0EA133B69A.quest_desc: [
@@ -893,8 +864,6 @@
 	]
 	quest.17A9978D7AFEA210.quest_subtitle: "★★★★"
 	quest.17A9978D7AFEA210.title: "永恒星光：月藤巨物"
-	quest.17ECFF157B63592F.quest_subtitle: "提交末地相关的部分物品"
-	quest.17ECFF157B63592F.title: "末地的土特产"
 	quest.17F6BAB9A64544C9.quest_subtitle: "集齐所有护符"
 	quest.17F6BAB9A64544C9.title: "&a护符毕业"
 	quest.1818669657F8A0B2.quest_desc: ["&6只能在&d星光维度&6使用，有概率召唤&d流星雨&6。"]
@@ -1108,22 +1077,7 @@
 	]
 	quest.1E7A718688067EC6.quest_subtitle: "★★"
 	quest.1E7A718688067EC6.title: "原版：凋灵"
-	quest.1EA1A1A70323BE0C.quest_subtitle: "位于末地"
-	quest.1EA1A1A70323BE0C.title: "打卡：血肉冻原"
 	quest.1ECC3AFD4ECADE42.title: "护符T3"
-	quest.1EE624BDBB0F7301.quest_desc: [
-		"&6一座废弃的堡垒，里面爬满了恶心的甲虫。"
-		"&6那曾是人类抵御龙族的坚固堡垒，在战争中被摧毁。"
-	]
-	quest.1EE624BDBB0F7301.title: "击杀：末影甲虫"
-	quest.1FBBB4F5A5AF64FD.quest_desc: [
-		"&a目标：成长到奇点阶段，击败黑暗二重身"
-		""
-		"&6最终的试炼，是直面你内心的&5黑暗&6，从而超越自我！"
-		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11FC2E4D6E6B0D93\" } }"
-	]
-	quest.1FBBB4F5A5AF64FD.quest_subtitle: "【星界龙成长之路    完结】"
-	quest.1FBBB4F5A5AF64FD.title: "&5星界龙毕业"
 	quest.1FCB1AD94F2996B2.quest_desc: [
 		"&6恭喜你集齐了&e夜雀乐事&6的大部分食物，"
 		"&6更多的餐饮等你去发掘。"
@@ -1305,19 +1259,8 @@
 	]
 	quest.25871E50A41EC3EA.quest_subtitle: "★★★"
 	quest.25871E50A41EC3EA.title: "暮色森林：娜迦"
-	quest.258CFD18EE567A75.quest_desc: [
-		"&6当年一战，末影龙陨落，星界龙一脉几乎灭族。"
-		"&6在其他龙族的救济下，星界龙勉强在末地苟活，"
-		"&6但是因为断绝了传承，只剩下寥寥几个小技能。"
-	]
-	quest.258CFD18EE567A75.quest_subtitle: "升级星界龙1个被动技能到满级"
-	quest.258CFD18EE567A75.title: "掌握星之奥义"
-	quest.2599EC1F2F19464A.quest_subtitle: "成长到主序星阶段"
-	quest.2599EC1F2F19464A.title: "主序星"
 	quest.25B16F5A70DCC3AA.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03DA2F2992CDD7DA\" } }"]
 	quest.25B16F5A70DCC3AA.title: "慈悲"
-	quest.26053B577195305A.quest_subtitle: "成长到黑洞阶段"
-	quest.26053B577195305A.title: "黑洞"
 	quest.267503A8DD306195.quest_subtitle: "咖啡冰淇淋~"
 	quest.26F59CBF01B32CE6.quest_desc: [
 		"&a目标：集齐怪物图鉴中的所有BOSS"
@@ -1357,13 +1300,6 @@
 	]
 	quest.28625E49F473135B.quest_subtitle: "★★★★"
 	quest.28625E49F473135B.title: "永恒星光：守门人"
-	quest.2868198C85787E08.quest_desc: [
-		"&6当年那些被流放到末地的死刑犯，有一部分逃到末地外岛，繁衍生息，慢慢演变成末地村庄。"
-		""
-		"&9结构罗盘：&b末地村庄&r"
-	]
-	quest.2868198C85787E08.quest_subtitle: "流放之所"
-	quest.2868198C85787E08.title: "打卡：末地村庄"
 	quest.28E29AA14A69F617.quest_desc: [
 		"&6维度网络管理员潜行右键可以将其绑定到当前网络。"
 		""
@@ -1463,15 +1399,6 @@
 	]
 	quest.2C81337448F9655F.quest_subtitle: "只是雪，飘进双眼"
 	quest.2C81337448F9655F.title: "雪怪"
-	quest.2CABA649B11966EB.quest_subtitle: "这，难道是虫洞？"
-	quest.2CABA649B11966EB.title: "观察：末地折跃门"
-	quest.2CDF187F53C29F22.quest_desc: [
-		"&6一座隐藏在末地深处的教堂，供奉着光之女皇。末影龙殒命之前，曾拜托光之女皇照顾剩下的龙族。如今，龙族的传承绵延不绝，但是光之女皇却不见了踪影。"
-		""
-		"&9结构罗盘：&b光明教堂&r"
-	]
-	quest.2CDF187F53C29F22.quest_subtitle: "没有龙知道光之女皇去了哪里"
-	quest.2CDF187F53C29F22.title: "挑战：光明教堂"
 	quest.2CEFD2DF7A413288.title: "灾变BOSS召唤物"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9结构罗盘：&b黑松骑士要塞&r"]
 	quest.2CFCFA632C2D16F5.title: "挑战：黑松骑士要塞"
@@ -1481,8 +1408,6 @@
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "梦幻如泡沫"
 	quest.2E6A1BFF333127EA.quest_subtitle: "死者之王小概率掉落"
 	quest.2E6A1BFF333127EA.title: "熄法结节 法术卷轴"
-	quest.2E92127811717292.quest_subtitle: "重兵把守的传送门"
-	quest.2E92127811717292.title: "观察：末地传送门"
 	quest.2EB0BF01344C3DD7.title: "钻心紫颂果"
 	quest.2ECA4D4990D20697.quest_desc: ["&a目标：集齐龙霆钢武器和工具"]
 	quest.2ECA4D4990D20697.title: "龙霆钢装备"
@@ -1879,7 +1804,7 @@
 		"&a目标：提交以太龙的毕业证"
 		""
 		"&3&l「以太龙」"
-		"六大主龙之一，掌握风和两仪的力量。"
+		"九大主龙之一，掌握风和两仪的力量。"
 	]
 	quest.3BF1FD634ECFCB4E.title: "&3主龙：以太龙"
 	quest.3C1132797D408E77.quest_desc: [
@@ -2054,14 +1979,6 @@
 	quest.415DFAC173D75395.quest_desc: ["&a目标：集齐全套圣辉龙铠"]
 	quest.415DFAC173D75395.quest_subtitle: "集齐圣辉龙铠套装"
 	quest.415DFAC173D75395.title: "重塑金身"
-	quest.41C8EFCFDDD74B24.quest_desc: [
-		"&e幻梦塔楼&6是一座位于末地外岛的巨型塔楼，"
-		"&6里面封印着数不清的&e幻翼&6，十分可怕。"
-		""
-		"&9结构罗盘：&b【地牢浮现之时】幻梦塔楼&r"
-	]
-	quest.41C8EFCFDDD74B24.quest_subtitle: "超大号幻翼"
-	quest.41C8EFCFDDD74B24.title: "挑战：幻梦塔楼"
 	quest.41DB497093B18B47.title: "手饰T1"
 	quest.4218F6E0430B190C.title: "脚饰T3"
 	quest.422368D6F94C0ABD.quest_desc: [
@@ -2090,7 +2007,7 @@
 		"&a目标：提交海洋龙的毕业证"
 		""
 		"&9&l「海洋龙」"
-		"六大主龙之一，三大原始龙族之一，掌握雷霆的力量。"
+		"九大主龙之一，三大原始龙族之一，掌握雷霆的力量。"
 	]
 	quest.431A9BCA53DB263B.title: "&9主龙：海洋龙"
 	quest.434D3A47067493D8.quest_desc: [
@@ -2113,9 +2030,6 @@
 	quest.44CF273ECA38F841.title: "战斗法师装备"
 	quest.44DBC43AEBA8B676.quest_subtitle: "集齐所有手饰"
 	quest.44DBC43AEBA8B676.title: "&a手饰毕业"
-	quest.4535A656F620B8B9.quest_desc: ["&a目标：获得龙蛋"]
-	quest.4535A656F620B8B9.quest_subtitle: "那段尘封的往事"
-	quest.4535A656F620B8B9.title: "末影龙的后代"
 	quest.453ED60248E2C10C.quest_desc: [
 		"&9目标：了解龙的特性后，点击左上角的✅"
 		""
@@ -2252,8 +2166,6 @@
 	quest.48E18718D8715F1A.title: "暮色森林：九头蛇"
 	quest.49E035E1CB353C48.quest_subtitle: "成长到成年龙阶段"
 	quest.49E035E1CB353C48.title: "成年海洋龙"
-	quest.49FC89FFF13329BF.quest_subtitle: "成长到中子星阶段"
-	quest.49FC89FFF13329BF.title: "中子星"
 	quest.4A3DB16FEE8A6BE4.title: "高阶唤魔师装备"
 	quest.4A5D5042C28278A2.quest_desc: [
 		"&b&l超越维度"
@@ -2402,19 +2314,6 @@
 	]
 	quest.4DBAD417CE6615B0.quest_subtitle: "★★★★"
 	quest.4DBAD417CE6615B0.title: "首领崛起：巨型沙虫"
-	quest.4DE67F32DA93384F.quest_desc: [
-		"&6巨大的阴影从天际略过，数不清的敌人从天而降。"
-		"&6这就是当年人类战胜龙族的强大武器——天际战舰。"
-		"&7&o人类帝国吹响战歌，天际挑战者从天划过；"
-		"&7&o亡灵法师挥动法杖，天际征服者统治战场；"
-		"&7&o女之武神御驾亲临，天际骑士团所向披靡。"
-		""
-		"&9结构罗盘：&b【地牢浮现之时】天际挑战者&r"
-		"&9结构罗盘：&b【地牢浮现之时】天际征服者&r"
-		"&9结构罗盘：&b【地牢浮现之时】天际骑士团&r"
-	]
-	quest.4DE67F32DA93384F.quest_subtitle: "挑战3艘地牢浮现之时的战舰"
-	quest.4DE67F32DA93384F.title: "是时候报仇雪恨了"
 	quest.4DEF1998BE552CE0.quest_subtitle: "每条龙保底一次"
 	quest.4DEF1998BE552CE0.title: "二重身之戒保底"
 	quest.4E1F113694EB8B3E.title: "猩红教徒装备"
@@ -2961,31 +2860,6 @@
 	quest.5DB104CFE665CC09.quest_subtitle: "打卡6种沙漠生物群系和部分结构"
 	quest.5DB104CFE665CC09.title: "我要穿越这片沙漠"
 	quest.5DD97094AAD4DDA2.quest_subtitle: "“性价比之王”"
-	quest.5E2651DABF146E68.quest_desc: [
-		"&2自然罗盘：&a紫晶森林&r"
-		"&2自然罗盘：&a灰烬三角洲&r"
-		"&2自然罗盘：&a水晶峰峦&r"
-		"&2自然罗盘：&a末地灌木带&r"
-		"&2自然罗盘：&a末地荒原&r"
-		"&2自然罗盘：&a末影废土&r"
-		"&2自然罗盘：&a无尽沙丘&r"
-		"&2自然罗盘：&a炽焰丘陵&r"
-		"&2自然罗盘：&a血肉冻原&r"
-		""
-		"&c&l【下一页还有】"
-		"{@pagebreak}"
-		"&2自然罗盘：&a雾凇山谷&r"
-		"&2自然罗盘：&a冰封沼泽&r"
-		"&2自然罗盘：&a霜灌木林&r"
-		"&2自然罗盘：&a寒霜尖蜂&r"
-		"&2自然罗盘：&a圣洁冻原&r"
-		"&2自然罗盘：&a海晶森林&r"
-		"&2自然罗盘：&a圣域&r"
-		"&2自然罗盘：&a龙巢地&r"
-		"&2自然罗盘：&a扭曲沼泽&r"
-	]
-	quest.5E2651DABF146E68.quest_subtitle: "打卡stellarity的末地生物群系"
-	quest.5E2651DABF146E68.title: "群星末地"
 	quest.5E95712B13C6FEFC.quest_desc: [
 		"&l&d「深海巨鱿」"
 		"&6生命：&a500"
@@ -2999,8 +2873,6 @@
 	]
 	quest.5E95712B13C6FEFC.title: "首领崛起：深海巨鱿"
 	quest.5EE6DC4771476CC8.quest_subtitle: "“异格威士忌”"
-	quest.5EFF5C22E67BCE5D.quest_subtitle: "位于末地"
-	quest.5EFF5C22E67BCE5D.title: "打卡：海晶森林"
 	quest.5F710FD97963CF8F.title: "牧师装备"
 	quest.5FCFEA69626A53AE.quest_desc: [
 		"&d&l【中式庭院】"
@@ -3124,16 +2996,6 @@
 	quest.6344D6B5AEC69478.title: "&d&l终末星光"
 	quest.634C5657E921C26C.quest_subtitle: "提交海洋龙的所有专属食物"
 	quest.634C5657E921C26C.title: "海洋龙的美食"
-	quest.638EEC92478431C8.quest_desc: [
-		"&a目标：访问主世界、下界、末地三个维度"
-		"&a目标：使用“奇点”技能击杀一名敌人"
-		"&a目标：在主世界319格以上的位置与村民交易"
-		""
-		"&6星界龙一脉，因为需要不断躲避追杀，"
-		"&6因此练就了在维度之间穿梭的本领。"
-	]
-	quest.638EEC92478431C8.quest_subtitle: "完成星界龙的部分成就"
-	quest.638EEC92478431C8.title: "星界龙趣味挑战"
 	quest.63DB1E9C5C2FDC80.quest_desc: [
 		"&6允许你像&e创世神&6一样修改地形和建筑，拥有无限耐久。"
 		""
@@ -3255,8 +3117,6 @@
 	quest.6AB162630EE26FE3.quest_desc: ["&a目标：通过龙之祭坛，化为一条龙"]
 	quest.6AB162630EE26FE3.quest_subtitle: "化为一条你喜欢的龙"
 	quest.6AB162630EE26FE3.title: "化龙"
-	quest.6B26A9D9D92F69DA.quest_subtitle: "龙族流放之地"
-	quest.6B26A9D9D92F69DA.title: "打卡：末地内陆"
 	quest.6B3CAAA337596F88.quest_desc: [""]
 	quest.6B3CAAA337596F88.quest_subtitle: "饰品抽奖"
 	quest.6B3CAAA337596F88.title: "奇异饰品盲盒"
@@ -3267,9 +3127,9 @@
 		"&a目标：化为星辰龙并提交1个星辰立方"
 		""
 		"&#2E2888「星辰龙」"
-		"从龙之一，星界龙的变种，掌握变异的“星辰”魔法。"
+		"九大主龙之一，掌握变异的“星辰”魔法。"
 	]
-	quest.6B6C646887FE40EF.title: "&#2E2888从龙：星辰龙"
+	quest.6B6C646887FE40EF.title: "&#2E2888主龙：星辰龙"
 	quest.6B6CE283EC1FD731.quest_desc: ["火焰沼泽周围是若干湿地，这些湿地则掩埋了一个充斥着牛头人的迷宫。从他们的身上取得&a迷宫核心"]
 	quest.6B6CE283EC1FD731.title: "&c一群画地为牢的家伙"
 	quest.6BA6E3779F1D4FC3.quest_desc: [
@@ -3315,7 +3175,7 @@
 		"&a目标：提交森林龙的毕业证"
 		""
 		"&2&l「森林龙」"
-		"六大主龙之一，三大原始龙族之一，掌握自然的力量。"
+		"九大主龙之一，三大原始龙族之一，掌握自然的力量。"
 	]
 	quest.6C7973AE332F1467.title: "&2主龙：森林龙"
 	quest.6C896BDFB4BBB4E4.quest_desc: [
@@ -3344,12 +3204,6 @@
 	quest.6C896BDFB4BBB4E4.title: "区块认领与强加载"
 	quest.6CB7E3C2DE9FA1DC.quest_subtitle: "集齐所有项链"
 	quest.6CB7E3C2DE9FA1DC.title: "&a项链毕业"
-	quest.6CC27511B19B214F.quest_desc: [
-		"&5星界龙&6不需要吃东西。"
-		"&6可以使用技能&e“能量虹吸”&6汲取能量以填饱肚子。"
-	]
-	quest.6CC27511B19B214F.quest_subtitle: "开启星界龙的成长之路"
-	quest.6CC27511B19B214F.title: "原恒星"
 	quest.6CC5B640AD43F55C.quest_desc: [
 		"&a目标：获得工作台和铁砧"
 		""
@@ -3453,7 +3307,7 @@
 		"&a目标：提交洞穴龙的毕业证"
 		""
 		"&c&l「洞穴龙」"
-		"六大主龙之一，三大原始龙族之一，掌握火焰的力量。"
+		"九大主龙之一，三大原始龙族之一，掌握火焰的力量。"
 	]
 	quest.70F041A9AA323CCD.title: "&c主龙：洞穴龙"
 	quest.71356A8881052F9A.quest_desc: [
@@ -3563,10 +3417,6 @@
 	quest.74AD0E230F7A62A1.quest_subtitle: "提交原版的7种树苗和暮色森林的10种树苗"
 	quest.74AD0E230F7A62A1.title: "理智的树木学家"
 	quest.74B48A026628E827.title: "观察：仙人掌"
-	quest.74CCA3A95866E0CE.quest_subtitle: "他们是末地要塞的守卫，镇守着末地传送门"
-	quest.74CCA3A95866E0CE.title: "击杀：卫道士"
-	quest.74D8E9EC39D5A9D2.quest_subtitle: "末地要塞经过重做，危机重重"
-	quest.74D8E9EC39D5A9D2.title: "挑战：要塞"
 	quest.752424B438B87389.quest_desc: [
 		"&6部分法术因为&c存在BUG&6或&4过于强力&6，已被禁用！"
 		"&6以下是禁术目录："
@@ -3634,9 +3484,6 @@
 		"&6右键&e刃枪兵&6使之晋升为&e公会首领&6。"
 	]
 	quest.7669BD22EB40BE98.quest_subtitle: "与公会首领交易"
-	quest.766B3F52833465AC.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0088F3221CD99A3D\" } }"]
-	quest.766B3F52833465AC.quest_subtitle: "击杀末影守卫，提交其掉落物"
-	quest.766B3F52833465AC.title: "击败：末影守卫"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2自然罗盘：&a猩红森林&r"
 		"&2自然罗盘：&a螺旋藻森林&r"
@@ -3713,8 +3560,6 @@
 	quest.78D2FCC2F0B6177B.quest_desc: [""]
 	quest.78D2FCC2F0B6177B.quest_subtitle: "一夫夜呼乱者四应"
 	quest.78D2FCC2F0B6177B.title: "&2唤魔学派"
-	quest.78FC37281E091A60.quest_subtitle: "每条龙保底一次"
-	quest.78FC37281E091A60.title: "二重身之戒保底"
 	quest.790877257A40CEF8.quest_desc: [
 		"&6维度网络管理员潜行右键可以将其绑定到当前网络。"
 		""
@@ -3868,18 +3713,6 @@
 	]
 	quest.7EB346A1790BD94B.quest_subtitle: "找到公会城堡"
 	quest.7EB346A1790BD94B.title: "公会城堡"
-	quest.7F3860516EB20F18.quest_desc: [
-		"&d&l「严厉」"
-		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FC068CD405DBBD4\" } }"
-		""
-		"&6为了消灭末地的龙族，人类铸造了威力恐怖的天平："
-		"&6它的本体坚不可摧，它的火力无与伦比；"
-		"&6它痛恨飞行的龙族，它抹杀空中的敌人；"
-		"&6它会认为万物有罪，它用激光主持公道；"
-		"&6它是永恒的审判官，它是龙族的刽子手。"
-	]
-	quest.7F3860516EB20F18.quest_subtitle: "击败「严厉」"
-	quest.7F3860516EB20F18.title: "谁能主持公道？"
 	quest.7F59185C7CD743A1.quest_subtitle: "风从何处来"
 	quest.7F59185C7CD743A1.title: "获得：孔雀羽扇"
 	quest.7F6793C865F7784D.quest_desc: ["因为跳过了新手教程，所以也没有奖励。"]

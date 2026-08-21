@@ -271,7 +271,6 @@
 		{
 			dependencies: [
 				"03EB435BA284D2D0"
-				"1EA1A1A70323BE0C"
 				"7404B8964BC82524"
 				"13756DEBEDF71236"
 				"226EC0050127B453"
@@ -510,37 +509,6 @@
 			}]
 			x: 1.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["58340821BF7679E4"]
-			id: "1EA1A1A70323BE0C"
-			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "2E0B879CD2F6672C"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "0BDFAF3A4EA6F2E3"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				biome: "stellarity:flesh_tundra"
-				icon: {
-					id: "minecraft:nether_wart_block"
-				}
-				id: "51834D3B984E52AF"
-				type: "biome"
-			}]
-			x: -1.0d
-			y: 7.0d
 		}
 		{
 			dependencies: ["58340821BF7679E4"]
