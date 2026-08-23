@@ -3,7 +3,6 @@
   "biomes": "#iceandfire_dreadland:is_lightning",
   "type": "legendary_monsters:lm_jigsaw",
   "step": "surface_structures",
-  "project_start_to_heightmap": "WORLD_SURFACE",
   "spawn_overrides": {
     "monster": {
       "bounding_box": "full",
@@ -15,7 +14,7 @@
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
-      "absolute": 120
+      "absolute": 160
     },
     "max_inclusive": {
       "absolute": 180

@@ -1,0 +1,79 @@
+{
+  "cataclysm:acropolis": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "cataclysm:ancient_factory": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "cataclysm:burning_arena": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "cataclysm:cursed_pyramid": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "cataclysm:frosted_prison": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "cataclysm:ruined_citadel": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "cataclysm:soul_black_smith": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "cataclysm:sunken_city": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "fdbosses:chesed_arena": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 6,
+      "duration": 100
+    }
+  ],
+  "fdbosses:geburah_arena": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 6,
+      "duration": 100
+    }
+  ],
+  "fdbosses:malkuth_arena": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 6,
+      "duration": 100
+    }
+  ]
+}
