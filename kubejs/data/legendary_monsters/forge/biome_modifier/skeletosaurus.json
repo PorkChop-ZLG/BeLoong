@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#iceandfire_dreadland:is_fireland",
+  "spawners": [
+    {
+      "type": "legendary_monsters:skeletosaurus",
+      "weight": 0.5,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

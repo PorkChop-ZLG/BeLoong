@@ -1,0 +1,17 @@
+{
+    "structures":  [
+
+                   ],
+    "placement":  {
+                      "frequency":  0.75,
+                      "frequency_reduction_method":  "legacy_type_1",
+                      "type":  "minecraft:random_spread",
+                      "spacing":  110,
+                      "separation":  75,
+                      "salt":  8570437
+                  },
+    "exclusion_zone":  {
+                           "chunk_count":  6,
+                           "other_set":  "minecraft:end_city"
+                       }
+}

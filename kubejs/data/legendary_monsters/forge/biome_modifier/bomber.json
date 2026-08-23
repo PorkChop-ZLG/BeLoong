@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#iceandfire_dreadland:is_fireland",
+  "spawners": {
+    "type": "legendary_monsters:bomber",
+    "weight": 75,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
