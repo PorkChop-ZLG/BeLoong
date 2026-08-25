@@ -4,7 +4,7 @@
   "spawners": [
     {
       "type": "legendary_monsters:skeletosaurus",
-      "weight": 0.5,
+      "weight": 1,
       "minCount": 1,
       "maxCount": 1
     }

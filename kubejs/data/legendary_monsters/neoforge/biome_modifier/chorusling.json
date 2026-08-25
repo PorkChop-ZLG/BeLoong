@@ -4,7 +4,7 @@
   "spawners": [
     {
       "type": "legendary_monsters:chorusling",
-      "weight": 3,
+      "weight": 10,
       "minCount": 1,
       "maxCount": 1
     }

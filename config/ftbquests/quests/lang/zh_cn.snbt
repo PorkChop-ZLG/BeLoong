@@ -7,13 +7,11 @@
 	]
 	chapter.0F599041F0C4C0AF.title: "神器图鉴"
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
-		"清晨：龙星"
 		"日上三竿，晨光熹微"
 		"难度：★"
 	]
 	chapter.1E4C1C94528F4F43.title: "① 龙之生存"
 	chapter.1FF49F51664E5364.chapter_subtitle: [
-		"正午：下界"
 		"烈日当空，午时已到"
 		"难度：★★"
 	]
@@ -30,7 +28,6 @@
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
-		"黄昏：暮色"
 		"日薄西山，暮色暗淡"
 		"难度：★★★"
 	]
@@ -52,7 +49,6 @@
 	chapter.4E2D44FFE575436A.chapter_subtitle: ["隐藏式任务"]
 	chapter.4E2D44FFE575436A.title: "〖海洋龙〗成长之路"
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
-		"半夜：星光"
 		"暮色已尽，星光乍现"
 		"难度：★★★★"
 	]
@@ -73,7 +69,6 @@
 	chapter.5A87116CA9FE4E2F.chapter_subtitle: ["隐藏式任务"]
 	chapter.5A87116CA9FE4E2F.title: "〖苔原龙〗成长之路"
 	chapter.5D6324B55C8EDE23.chapter_subtitle: [
-		"黎明：天灾"
 		"黎明曙光，划破黑暗"
 		"难度：★★★★★★"
 	]
@@ -84,7 +79,10 @@
 		"难度：★★"
 	]
 	chapter.6C87160D1AC7FE19.title: "℗ 铁魔法"
-	chapter.6C8BADAE3A031956.chapter_subtitle: ["来不及写了，先占位"]
+	chapter.6C8BADAE3A031956.chapter_subtitle: [
+		"月明星稀，长夜无疆"
+		"难度：★★★★★"
+	]
 	chapter.6C8BADAE3A031956.title: "⑤ 冰火悚域"
 	chapter.6EC27D3BF2313600.chapter_subtitle: ["选择你的法术流派"]
 	chapter.6EC27D3BF2313600.title: "铁魔法学院"
@@ -216,6 +214,8 @@
 	]
 	quest.03300B3D470F9B73.quest_subtitle: "网络音乐机"
 	quest.033C8C16CABE2ACE.title: "击杀：冰晶核"
+	quest.036BAD83C2057F52.quest_subtitle: "★★★★★"
+	quest.036BAD83C2057F52.title: "传奇怪物：湮灭构造体"
 	quest.038BE99D4FE3442D.quest_desc: [
 		"&e『&6化龍&e』&6是一款以&d龙之生存&6为核心的&a冒险休闲整合包&6。"
 		"&6在这里，你可化身各种各样的&d龙族&6进行冒险生存，"
@@ -655,6 +655,13 @@
 	quest.1011C97DAE40FD1B.quest_subtitle: "流星雨是仅能在星光维度中出现的特殊天气，发生概率极低、持续时间极短。"
 	quest.1011C97DAE40FD1B.title: "一起去看流星雨"
 	quest.1029B426047952E5.quest_subtitle: "果味米酒"
+	quest.10348A0D35A496AF.quest_desc: [
+		"&9目标：找到荒古要塞"
+		""
+		"&9结构罗盘：&b【传奇怪物】荒古要塞&r"
+	]
+	quest.10348A0D35A496AF.quest_subtitle: "荒古禁区"
+	quest.10348A0D35A496AF.title: "荒古要塞"
 	quest.1036A454EE8AB619.quest_desc: [
 		"&d&l「慈悲」"
 		"{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03DA2F2992CDD7DA\" } }"
@@ -797,6 +804,7 @@
 	quest.155114DC02DEBDDE.quest_subtitle: "奶油，咖啡与酒"
 	quest.1588CA412F4FAA24.quest_desc: ["&a目标：化为星辰龙并成长到最终阶段"]
 	quest.1588CA412F4FAA24.title: "&5从龙：星界龙"
+	quest.15B0C5F57872F7E2.title: "悚域BOSS毕业"
 	quest.15C5C16F69808158.quest_subtitle: "这是史莱姆吗？"
 	quest.15CE2F1DA319C4B4.quest_desc: [
 		"&l&d「斯库拉」"
@@ -974,6 +982,8 @@
 	quest.1AA4E0CE318BA06A.title: "远古苔原龙"
 	quest.1AA55A95262C406C.quest_desc: [""]
 	quest.1AA55A95262C406C.title: "鸿蒙方舟"
+	quest.1ACB04A36A9C62B9.quest_subtitle: "★★★★★"
+	quest.1ACB04A36A9C62B9.title: "传奇怪物：堕落圣骑"
 	quest.1AF16021BB5DD12E.quest_subtitle: "完成森林龙的部分成就"
 	quest.1AF16021BB5DD12E.title: "森林龙趣味挑战"
 	quest.1B0B122E34652FB1.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
@@ -1078,6 +1088,9 @@
 	quest.1E7A718688067EC6.quest_subtitle: "★★"
 	quest.1E7A718688067EC6.title: "原版：凋灵"
 	quest.1ECC3AFD4ECADE42.title: "护符T3"
+	quest.1F5E680BAE5D2003.quest_desc: ["&9目标：击败荒古守护者"]
+	quest.1F5E680BAE5D2003.quest_subtitle: "荒古圣体"
+	quest.1F5E680BAE5D2003.title: "荒古守护者"
 	quest.1FCB1AD94F2996B2.quest_desc: [
 		"&6恭喜你集齐了&e夜雀乐事&6的大部分食物，"
 		"&6更多的餐饮等你去发掘。"
@@ -1300,6 +1313,9 @@
 	]
 	quest.28625E49F473135B.quest_subtitle: "★★★★"
 	quest.28625E49F473135B.title: "永恒星光：守门人"
+	quest.28B79D99FF19DB3D.quest_desc: ["&9目标：击败沙丘哨兵"]
+	quest.28B79D99FF19DB3D.quest_subtitle: "这是豌豆射手吗？"
+	quest.28B79D99FF19DB3D.title: "沙丘哨兵"
 	quest.28E29AA14A69F617.quest_desc: [
 		"&6维度网络管理员潜行右键可以将其绑定到当前网络。"
 		""
@@ -1399,6 +1415,7 @@
 	]
 	quest.2C81337448F9655F.quest_subtitle: "只是雪，飘进双眼"
 	quest.2C81337448F9655F.title: "雪怪"
+	quest.2C91F2899A333562.title: "&b&l第五章 冰火悚域"
 	quest.2CEFD2DF7A413288.title: "灾变BOSS召唤物"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9结构罗盘：&b黑松骑士要塞&r"]
 	quest.2CFCFA632C2D16F5.title: "挑战：黑松骑士要塞"
@@ -2243,6 +2260,7 @@
 		"受此方世界影响，暂时使用龙的身躯。"
 	]
 	quest.4B723B7F2ACB3FB8.title: "&#fbdc92特殊：翼麒麟"
+	quest.4B9C19DD3E2679C1.title: "霜冻傀儡"
 	quest.4BCF83DBB5612B54.quest_subtitle: "每条龙保底一次"
 	quest.4BCF83DBB5612B54.title: "二重身之戒保底"
 	quest.4BD6C7A2A6DC392B.quest_desc: [
@@ -2634,6 +2652,7 @@
 	]
 	quest.56B73043CC964E09.quest_subtitle: "掠夺一只村民"
 	quest.56B73043CC964E09.title: "——劫掠——"
+	quest.56CD03186ED90684.title: "蔓生巨像"
 	quest.57129F2800906CC9.quest_desc: [
 		"&6主线&3【暮色森林】&6的彩蛋奖励。"
 		"&6这是一种特殊的武器，不算在&e天顶剑&6的合成之内。"
@@ -2846,6 +2865,8 @@
 	]
 	quest.5D05EE02D584AF2F.quest_subtitle: "集齐所有财宝堆"
 	quest.5D05EE02D584AF2F.title: "闪闪发光"
+	quest.5D37685BFBAB83E4.quest_subtitle: "★★★★★"
+	quest.5D37685BFBAB83E4.title: "传奇怪物：云筑魔像"
 	quest.5D56B0917C5223A6.quest_desc: ["&6亲和之戒加上法术卷轴可以在奥术铁砧上敲成对应法术等级加一的戒指"]
 	quest.5D56B0917C5223A6.title: "戒指T0"
 	quest.5DB104CFE665CC09.quest_desc: [
@@ -2888,6 +2909,7 @@
 	quest.5FCFEA69626A53AE.quest_subtitle: "作者：zchuan_che"
 	quest.5FCFEA69626A53AE.title: "预制建筑：中式庭院"
 	quest.60300CF89DE750C2.quest_desc: ["&7那一日，灾从天降……"]
+	quest.60300CF89DE750C2.quest_subtitle: "目标：进入天灾维度"
 	quest.60300CF89DE750C2.title: "&c&l第六章 天灾灭世"
 	quest.60304C9009AEC933.quest_desc: [
 		"&9目标：升级被动技能凝神聚气到满级"
@@ -3078,6 +3100,7 @@
 	]
 	quest.6796172A3CF129FB.quest_subtitle: "Shift+右键"
 	quest.67DC6EC2B82FCFB1.title: "打卡：暮光沼泽"
+	quest.67EFDB7BAD8A5906.quest_desc: ["&9目标：获得怪怖之锚"]
 	quest.680E37E83464BEE6.quest_subtitle: "完成炽海生机的部分成就"
 	quest.680E37E83464BEE6.title: "炽海生机"
 	quest.6899F801A6F97245.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48BAABC889E9DC5F\" } }"]
@@ -3162,6 +3185,8 @@
 	]
 	quest.6BD730F6532DEC81.quest_subtitle: "简易的建筑工具"
 	quest.6BD730F6532DEC81.title: "建筑棒"
+	quest.6BEBE43B10552D6A.quest_desc: ["&9目标：击败尖刺蠕虫"]
+	quest.6BEBE43B10552D6A.title: "尖刺蠕虫"
 	quest.6BF3A8995ACD12E2.quest_desc: [
 		"&a目标：化为冰焰龙"
 		""

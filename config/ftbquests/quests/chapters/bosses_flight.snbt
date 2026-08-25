@@ -1527,6 +1527,7 @@
 				"01FF89454D454C6A"
 				"30071E3FF4CC9D23"
 				"36F664568D6F7A92"
+				"15B0C5F57872F7E2"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1824,6 +1825,89 @@
 			}]
 			x: 3.0d
 			y: 3.0d
+		}
+		{
+			id: "5D37685BFBAB83E4"
+			rewards: [
+				{
+					id: "0C5F25452C319773"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "207D7E8046486CA2"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "60D2865F071D89A5"
+				type: "kill"
+				value: 3L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "1ACB04A36A9C62B9"
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				id: "222A434DE3E652E0"
+				type: "kill"
+				value: 3L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "036BAD83C2057F52"
+			tasks: [{
+				entity: "legendary_monsters:the_obliterator"
+				id: "42D9D7611F714D10"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5D37685BFBAB83E4"
+				"1ACB04A36A9C62B9"
+				"036BAD83C2057F52"
+			]
+			icon: {
+				id: "iceandfire:dread_queen_staff"
+			}
+			id: "15B0C5F57872F7E2"
+			rewards: [
+				{
+					count: 5
+					id: "53D99A9053D48A0D"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "0BB07FF0078AA342"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B5541BC76FCADD4"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
 		}
 	]
 }
