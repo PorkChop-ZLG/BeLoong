@@ -2,3 +2,5 @@
 fixStableHoverDrift = true
 #禁用王国场地的冰火天空盒渲染，解决渲染异常的问题
 disableMalkuthHellscapeSkybox = false
+#当龙盔甲没有专门贴图时，不显示通用默认回退盔甲
+hideUndevelopedDragonArmor = true

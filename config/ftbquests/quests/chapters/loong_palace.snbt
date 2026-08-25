@@ -60,22 +60,11 @@
 			}
 			icon_scale: 1.5d
 			id: "3C1132797D408E77"
-			rewards: [
-				{
-					id: "28EAB4E589071387"
-					type: "xp"
-					xp: 100
-				}
-				{
-					auto: "invisible"
-					command: "/function beloong:waystone_loong_palace"
-					id: "77741916B7A863C0"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "28EAB4E589071387"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "3D66D6D8638FE356"
@@ -438,15 +427,6 @@
 					}
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/function beloong:waystone_hill"
-					id: "08E7C38604339CCD"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
-				}
 			]
 			tasks: [{
 				dimension: "beloong:loong_palace"
@@ -559,15 +539,6 @@
 						id: "minecraft:leather_boots"
 					}
 					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/function beloong:waystone_arena"
-					id: "5FE2EA785746C071"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
 				}
 			]
 			tasks: [{

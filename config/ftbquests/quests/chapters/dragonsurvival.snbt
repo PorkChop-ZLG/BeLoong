@@ -58,14 +58,6 @@
 					silent: true
 					type: "command"
 				}
-				{
-					auto: "invisible"
-					command: "/function beloong:waystone_loong_palace"
-					id: "1F7949D4CB5412D5"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
 			]
 			shape: "hexagon"
 			size: 3.0d
