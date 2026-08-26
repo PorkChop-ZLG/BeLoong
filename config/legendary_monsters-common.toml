@@ -688,9 +688,9 @@
 		#ON/OFF Obliterator I Frame protection
 		"The Obliterator Invulnerability Time" = true
 		#Increases/Decreases Anti Cheese(Airborne Variation) distance which makes the Boss invulnerable when player has a high ground, default is -4 below the boss and 4 above. chaning the value will change both '-' and '+' values.
-		# Default: 4
+		# Default: 3
 		# Range: 0 ~ 1000
-		"Protection against airborne cheese" = 4
+		"Protection against airborne cheese" = 3
 		#ON/OFF Annihilation effect that The Obliterator Inflicts after hitting you, it's a stacking debuff that reduces your attack speed.
 		"The Obliterator Annihilation Debuff Effect" = false
 		#% Damage for Obliterator's clones(punching)

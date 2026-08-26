@@ -4845,3 +4845,17 @@
 			prepend = ""
 			append = ""
 			format = ""
+
+	[tag."artifacts:is_melee"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."artifacts:is_melee".icon]
+			tex = ""
+			item = ""
+
+		[tag."artifacts:is_melee".format]
+			prepend = ""
+			append = ""
+			format = ""
