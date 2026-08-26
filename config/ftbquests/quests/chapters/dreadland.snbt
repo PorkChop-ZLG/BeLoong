@@ -248,6 +248,11 @@
 			hide_dependency_lines: true
 			icon_scale: 1.45d
 			id: "2C91F2899A333562"
+			rewards: [{
+				id: "4C8524D051EE6825"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "square"
 			size: 3.5d
 			tasks: [{
@@ -344,8 +349,8 @@
 				id: "0773426303AFFDCD"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -364,7 +369,7 @@
 				id: "508B084178841EFC"
 				type: "advancement"
 			}]
-			x: 7.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -380,8 +385,8 @@
 				id: "73696A312A18E4ED"
 				type: "advancement"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 15.5d
+			y: 3.0d
 		}
 		{
 			id: "67EFDB7BAD8A5906"
@@ -395,8 +400,8 @@
 				item: { count: 1, id: "legendary_monsters:monstrous_anchor" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 16.5d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -415,7 +420,7 @@
 				id: "01943B1C648119E2"
 				type: "advancement"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -431,8 +436,8 @@
 				id: "48F58F616F3A6DD0"
 				type: "advancement"
 			}]
-			x: 8.5d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "76CD787AE233C3FA"
@@ -447,7 +452,7 @@
 				id: "4F23795C641F0862"
 				type: "advancement"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -462,8 +467,8 @@
 				item: { count: 1, id: "legendary_monsters:blastproof_helmet" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.0d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			id: "67E8CB8FBDE047D1"
@@ -477,7 +482,7 @@
 				item: { count: 1, id: "legendary_monsters:sand_cannon" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
@@ -497,7 +502,7 @@
 				id: "4E599C6BB830BA6C"
 				type: "advancement"
 			}]
-			x: 13.0d
+			x: 15.75d
 			y: 0.0d
 		}
 		{
@@ -517,7 +522,7 @@
 				id: "0B3AF9DFD95CA7C6"
 				type: "advancement"
 			}]
-			x: 16.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -533,7 +538,7 @@
 				id: "52143813CC2E9FF8"
 				type: "advancement"
 			}]
-			x: 13.5d
+			x: 16.5d
 			y: -1.5d
 		}
 		{
@@ -548,7 +553,7 @@
 				item: { count: 1, id: "legendary_monsters:nature_crystal" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 15.5d
 			y: -1.5d
 		}
 		{
@@ -600,7 +605,7 @@
 				id: "79358A79B7717D70"
 				type: "advancement"
 			}]
-			x: 19.0d
+			x: 24.0d
 			y: 0.0d
 		}
 	]
