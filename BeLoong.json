@@ -107,7 +107,7 @@
         ]
       },
       "--fml.neoForgeVersion",
-      "21.1.236",
+      "21.1.248",
       "--fml.fmlVersion",
       "4.0.43",
       "--fml.mcVersion",
@@ -165,7 +165,7 @@
       "-DignoreList=client-extra,${version_name}.jar",
       "-DlibraryDirectory=${library_directory}",
       "-p",
-      "${library_directory}/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.8/asm-9.8.jar${classpath_separator}${library_directory}/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar",
+      "${library_directory}/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar${classpath_separator}${library_directory}/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar",
       "--add-modules",
       "ALL-MODULE-PATH",
       "--add-opens",
@@ -180,10 +180,10 @@
   },
   "assetIndex": {
     "id": "17",
-    "sha1": "f46c17d5bbad70e53b823f37959f7934beb5de77",
+    "sha1": "1f22f8f4b4575831ce8d1d74b5656eb1bc04732c",
     "size": 449557,
-    "totalSize": 822021961,
-    "url": "https://piston-meta.mojang.com/v1/packages/f46c17d5bbad70e53b823f37959f7934beb5de77/17.json"
+    "totalSize": 824474118,
+    "url": "https://piston-meta.mojang.com/v1/packages/1f22f8f4b4575831ce8d1d74b5656eb1bc04732c/17.json"
   },
   "assets": "17",
   "complianceLevel": 1,
@@ -1911,57 +1911,57 @@
       }
     },
     {
-      "name": "org.ow2.asm:asm-commons:9.8",
+      "name": "org.ow2.asm:asm-commons:9.10.1",
       "downloads": {
         "artifact": {
-          "sha1": "36e4d212970388e5bd2c5180292012502df461bb",
-          "size": 73498,
-          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar",
-          "path": "org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+          "sha1": "4229e4c55fd8e01c23f9fe9884075cc628aacc50",
+          "size": 74840,
+          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+          "path": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
         }
       }
     },
     {
-      "name": "org.ow2.asm:asm-util:9.8",
+      "name": "org.ow2.asm:asm-util:9.10.1",
       "downloads": {
         "artifact": {
-          "sha1": "395f1c1f035258511f27bc9b2583d76e4b143f59",
-          "size": 94559,
-          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar",
-          "path": "org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+          "sha1": "7bb9d450e8d4cbf9f9e04096c44bbfe7fba80b15",
+          "size": 95628,
+          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+          "path": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
         }
       }
     },
     {
-      "name": "org.ow2.asm:asm-analysis:9.8",
+      "name": "org.ow2.asm:asm-analysis:9.10.1",
       "downloads": {
         "artifact": {
-          "sha1": "b9747a320844b6cb1eacd90d8ecfd260a16c01d3",
-          "size": 35151,
-          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar",
-          "path": "org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+          "sha1": "8d49f14d51f632cb1d87c88d1ceaf50db0d8af1b",
+          "size": 35140,
+          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+          "path": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
         }
       }
     },
     {
-      "name": "org.ow2.asm:asm-tree:9.8",
+      "name": "org.ow2.asm:asm-tree:9.10.1",
       "downloads": {
         "artifact": {
-          "sha1": "018419ca5b77a2f81097c741e7872e6ab8d2f40d",
-          "size": 51934,
-          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar",
-          "path": "org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+          "sha1": "e244332a17564c1d1572449399a842de35881be2",
+          "size": 51958,
+          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+          "path": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
         }
       }
     },
     {
-      "name": "org.ow2.asm:asm:9.8",
+      "name": "org.ow2.asm:asm:9.10.1",
       "downloads": {
         "artifact": {
-          "sha1": "dc19ecb3f7889b7860697215cae99c0f9b6f6b4b",
-          "size": 126113,
-          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.8/asm-9.8.jar",
-          "path": "org/ow2/asm/asm/9.8/asm-9.8.jar"
+          "sha1": "ada2141c0cc52ee8f5c48cd5fa4ce0e794f22236",
+          "size": 126151,
+          "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+          "path": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
         }
       }
     },
