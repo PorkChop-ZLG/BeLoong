@@ -229,31 +229,6 @@
 			y: 3.0d
 		}
 		{
-			can_repeat: true
-			icon: {
-				id: "beloong:disaster_portal_frame"
-			}
-			id: "3E19144D5EB7AD14"
-			optional: true
-			rewards: [{
-				count: 12
-				id: "0FB9384795C3D6D9"
-				item: {
-					count: 1
-					id: "beloong:disaster_portal_frame"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "4050A83512229E84"
-				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 0.0d
-		}
-		{
 			icon_scale: 1.5d
 			id: "3EC4B6AD875A25D5"
 			shape: "none"

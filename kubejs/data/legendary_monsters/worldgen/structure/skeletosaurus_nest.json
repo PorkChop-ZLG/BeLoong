@@ -1,6 +1,6 @@
 {
   "start_pool": "legendary_monsters:skeletosaurus_nest",
-  "biomes": "#iceandfire_dreadland:is_fireland",
+  "biomes": "#legendary_monsters:has_structure/skeletosaurus_nest_biomes",
   "type": "minecraft:jigsaw",
   "step": "surface_structures",
   "project_start_to_heightmap": "WORLD_SURFACE_WG",

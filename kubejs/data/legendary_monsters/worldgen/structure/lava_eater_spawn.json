@@ -1,6 +1,6 @@
 {
   "start_pool": "legendary_monsters:lava_eater_spawn",
-  "biomes": "#iceandfire_dreadland:is_fireland",
+  "biomes": "#legendary_monsters:has_structure/lava_eater_spawn_biomes",
   "type": "minecraft:jigsaw",
   "step": "surface_structures",
   "project_start_to_heightmap": "WORLD_SURFACE_WG",

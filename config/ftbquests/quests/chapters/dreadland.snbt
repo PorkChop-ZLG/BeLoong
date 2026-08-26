@@ -234,7 +234,7 @@
 			id: "3C3CF95CFEE7D0E4"
 			image: "iceandfire_dreadland:textures/environment/dread_portal_background.png"
 			order: 50
-			rotation: 180.0d
+			rotation: 0.0d
 			width: 4.0d
 			x: 0.0d
 			y: 0.0d
@@ -245,7 +245,6 @@
 	quests: [
 		{
 			dependencies: ["77650D7436678A64"]
-			hide_dependency_lines: true
 			icon_scale: 1.45d
 			id: "2C91F2899A333562"
 			rewards: [{
@@ -273,6 +272,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "29B5A8E4CF04DD6D"
@@ -289,6 +289,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "641484E20D393B98"
@@ -305,6 +306,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "7171BD2C97C36AC6"
@@ -327,6 +329,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "4B2FF480206B32A0"
@@ -337,6 +340,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["56CD03186ED90684"]
 			id: "10348A0D35A496AF"
 			rewards: [{
 				id: "457EEE462BA200CC"
@@ -349,10 +353,11 @@
 				id: "0773426303AFFDCD"
 				type: "advancement"
 			}]
-			x: 14.5d
-			y: 3.0d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["10348A0D35A496AF"]
 			icon: {
 				id: "legendary_monsters:ancient_guardian_spawn_egg"
 			}
@@ -373,6 +378,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1F5E680BAE5D2003"]
 			id: "6BEBE43B10552D6A"
 			rewards: [{
 				id: "41AECBEC84076ED8"
@@ -385,10 +391,11 @@
 				id: "73696A312A18E4ED"
 				type: "advancement"
 			}]
-			x: 15.5d
-			y: 3.0d
+			x: 20.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["1F5E680BAE5D2003"]
 			id: "67EFDB7BAD8A5906"
 			rewards: [{
 				id: "5FD67D8A64A23102"
@@ -400,10 +407,11 @@
 				item: { count: 1, id: "legendary_monsters:monstrous_anchor" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.0d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["61DA31A272BC48AB"]
 			icon: {
 				id: "legendary_monsters:dune_sentinel_spawn_egg"
 			}
@@ -424,6 +432,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["77650D7436678A64"]
 			id: "61DA31A272BC48AB"
 			rewards: [{
 				id: "5B747E33E484F0F7"
@@ -440,6 +449,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["28B79D99FF19DB3D"]
 			id: "76CD787AE233C3FA"
 			rewards: [{
 				id: "14EFD2EFE5903761"
@@ -452,10 +462,11 @@
 				id: "4F23795C641F0862"
 				type: "advancement"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["28B79D99FF19DB3D"]
 			id: "53B94779D8D89F9D"
 			rewards: [{
 				id: "132A01D418E38182"
@@ -467,10 +478,11 @@
 				item: { count: 1, id: "legendary_monsters:blastproof_helmet" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
+			dependencies: ["28B79D99FF19DB3D"]
 			id: "67E8CB8FBDE047D1"
 			rewards: [{
 				id: "2F310C57C3489249"
@@ -482,10 +494,11 @@
 				item: { count: 1, id: "legendary_monsters:sand_cannon" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
+			dependencies: ["5FAA8786ABA8BF94"]
 			icon: {
 				id: "legendary_monsters:overgrown_colossus_spawn_egg"
 			}
@@ -502,10 +515,11 @@
 				id: "4E599C6BB830BA6C"
 				type: "advancement"
 			}]
-			x: 15.75d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["61B245C87C07699C"]
 			icon: {
 				id: "legendary_monsters:frostbitten_golem_spawn_egg"
 			}
@@ -526,6 +540,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4B9C19DD3E2679C1"]
 			id: "5FAA8786ABA8BF94"
 			rewards: [{
 				id: "713DBFE700205327"
@@ -538,25 +553,11 @@
 				id: "52143813CC2E9FF8"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: -1.5d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
-			id: "5AE4646D15597238"
-			rewards: [{
-				id: "2F66F9E8A077061B"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "1FC88F667E5C70B4"
-				item: { count: 1, id: "legendary_monsters:nature_crystal" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: -1.5d
-		}
-		{
+			dependencies: ["28B79D99FF19DB3D"]
 			id: "61B245C87C07699C"
 			rewards: [{
 				id: "5EBD25AB24F5EC19"
@@ -569,25 +570,11 @@
 				id: "6343444BE3EA667F"
 				type: "advancement"
 			}]
-			x: 15.5d
-			y: 1.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			id: "5812F649D14625D2"
-			rewards: [{
-				id: "39B8C1184B07A380"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5935293512E8C21F"
-				item: { count: 1, id: "legendary_monsters:frozen_rune" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: 1.5d
-		}
-		{
+			dependencies: ["3DB9735D5CAF9032"]
 			icon: {
 				id: "legendary_monsters:cloud_golem_spawn_egg"
 			}
@@ -607,6 +594,433 @@
 			}]
 			x: 24.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4B9C19DD3E2679C1"]
+			id: "63A49F8C690FD884"
+			rewards: [{
+				id: "029B491CACBB44B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "772DDFFA652B4AB6"
+					item: { count: 1, id: "legendary_monsters:the_great_frost" }
+					type: "item"
+				}
+				{
+					id: "0CB45F6C86177D4C"
+					item: { count: 1, id: "legendary_monsters:frostbitten_shield" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56CD03186ED90684"]
+			id: "6F1B63E86A70F0A1"
+			rewards: [{
+				id: "12107057D1D0D55D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0C032815753B0FA6"
+					item: { count: 1, id: "legendary_monsters:mossy_hammer" }
+					type: "item"
+				}
+				{
+					id: "059AFF7AB57628DF"
+					item: { count: 1, id: "legendary_monsters:mossy_chestplate" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56CD03186ED90684"]
+			id: "4C92811BBF044817"
+			rewards: [{
+				id: "0EC7169DDF186EFF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26BCAD422FA9BEEB"
+				item: { count: 1, id: "legendary_monsters:totem_of_moss" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B9C19DD3E2679C1"]
+			id: "048B0DD23E73AD71"
+			rewards: [{
+				id: "04A979CFDADBB2C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5911946081E3812B"
+				item: { count: 1, id: "legendary_monsters:primal_ice_shard" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F5E680BAE5D2003"]
+			id: "7C8F8BB510056E30"
+			rewards: [{
+				id: "6BDD1C3806A4A85B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31EAB816A1F356FC"
+				item: { count: 1, id: "legendary_monsters:spiky_shield" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F5E680BAE5D2003"]
+			id: "3DB9735D5CAF9032"
+			rewards: [{
+				id: "7A1F5170692BEF0D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_cloudy_temple"
+				criterion: ""
+				id: "5FEAB76511130ACA"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21CD011E6F16C411"]
+			id: "181E7B87DE32CEA3"
+			rewards: [{
+				id: "68570748AA423721"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_lava_eater"
+				criterion: ""
+				id: "4A921F40390FEB48"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["181E7B87DE32CEA3"]
+			icon: {
+				id: "legendary_monsters:lava_eater_spawn_egg"
+			}
+			id: "1A626874CCDC9694"
+			rewards: [{
+				id: "508A863C04C13165"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_lava_eater"
+				criterion: ""
+				id: "6F7A09898CCF8215"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A626874CCDC9694"]
+			id: "72151A2FD66D3BD6"
+			rewards: [{
+				id: "303DBE18240C2197"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_skeletosaurus_nest"
+				criterion: ""
+				id: "3929C3BD9F352FA1"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72151A2FD66D3BD6"]
+			icon: {
+				id: "legendary_monsters:skeletosaurus_spawn_egg"
+			}
+			id: "2E825FE5146172A7"
+			rewards: [{
+				id: "164BC14F04BAC515"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_skeletosaurus"
+				criterion: ""
+				id: "37152D7E71E0BD78"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E825FE5146172A7"]
+			id: "12EA14096CBC0447"
+			rewards: [{
+				id: "0716DDBDFA1DC17D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_soul_fortress_remains"
+				criterion: ""
+				id: "1C66A91FBEB1DD2A"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["12EA14096CBC0447"]
+			icon: {
+				id: "legendary_monsters:withered_abomination_spawn_egg"
+			}
+			id: "7F5AC4043CEA54E3"
+			rewards: [{
+				id: "5915DC3F42B703EF"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_withered_abomination"
+				criterion: ""
+				id: "74F80485D445E1F0"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F5AC4043CEA54E3"]
+			id: "066F880D0A204FEA"
+			rewards: [{
+				id: "3BEC98AAAFE379E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_abandoned_crypt"
+				criterion: ""
+				id: "46ED66EB7FBEE910"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["066F880D0A204FEA"]
+			icon: {
+				id: "legendary_monsters:posessed_paladin_spawn_egg"
+			}
+			id: "66B5A93D255C0662"
+			rewards: [{
+				id: "18DB31B9C679E7BE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_posessed_paladin"
+				criterion: ""
+				id: "3A2B52210EB253CA"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["66B5A93D255C0662"]
+			id: "2A221FA065AEECA3"
+			rewards: [{
+				id: "728D5340FC4545EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_ancient_tower_remains"
+				criterion: ""
+				id: "3D80FCF569444E83"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2A221FA065AEECA3"]
+			icon: {
+				id: "legendary_monsters:endersent_spawn_egg"
+			}
+			id: "6C9C453593952765"
+			rewards: [{
+				id: "4205255CCDC2FF1D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_endersent"
+				criterion: ""
+				id: "676C0382212BBE1C"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6C9C453593952765"]
+			id: "2527E346B4D46960"
+			rewards: [{
+				id: "79C0BA4FF7DD65BE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_shulker_tower"
+				criterion: ""
+				id: "5D09C8DD560758F9"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2527E346B4D46960"]
+			icon: {
+				id: "legendary_monsters:shulker_mimic_spawn_egg"
+			}
+			id: "3D3952553BFB204D"
+			rewards: [{
+				id: "2E66C9D24438049B"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_shulker_mimic"
+				criterion: ""
+				id: "40B64FEEB0308954"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3D3952553BFB204D"]
+			id: "4403D0B442B8A042"
+			rewards: [{
+				id: "54F35909B62941BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_space_station"
+				criterion: ""
+				id: "5D707B96362C0144"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["65BAF028E2704435"]
+			icon: {
+				id: "legendary_monsters:the_obliterator_spawn_egg"
+			}
+			id: "347C54BAEC42A4AA"
+			rewards: [{
+				id: "0B58517AA11990CD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_the_obliterator"
+				criterion: ""
+				id: "51CC1AD0B26967D2"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4403D0B442B8A042"]
+			icon: {
+				id: "legendary_monsters:annihilation_pursuer_spawn_egg"
+			}
+			id: "71E9214EA5D1D662"
+			rewards: [{
+				id: "1F473CD514C090AA"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_annihilation_pursuer"
+				criterion: ""
+				id: "36E3E7A6767BB977"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["71E9214EA5D1D662"]
+			id: "65BAF028E2704435"
+			rewards: [{
+				id: "659CFC3B08AF71D6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C759399F576B71D"
+				item: { count: 1, id: "legendary_monsters:eye_crystal" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			id: "2C5DAED6CD1A78E6"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "14DAAA356503F785"
+				type: "checkmark"
+			}]
+			x: -24.0d
+			y: -16.0d
 		}
 	]
 }

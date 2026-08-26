@@ -1,6 +1,6 @@
 {
   "start_pool": "legendary_monsters:space_station/start",
-  "biomes": "#iceandfire_dreadland:is_lightning",
+  "biomes": "#legendary_monsters:has_structure/space_station_biomes",
   "type": "legendary_monsters:lm_jigsaw",
   "step": "surface_structures",
   "spawn_overrides": {

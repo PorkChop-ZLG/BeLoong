@@ -1,6 +1,6 @@
 {
   "start_pool": "legendary_monsters:soul_fortress_remains",
-  "biomes": "#iceandfire_dreadland:is_fireland",
+  "biomes": "#legendary_monsters:has_structure/soul_fortress_remains_biomes",
   "type": "minecraft:jigsaw",
   "step": "surface_structures",
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
