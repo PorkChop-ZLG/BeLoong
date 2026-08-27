@@ -1,0 +1,15 @@
+{
+  "text.autoconfig.betterendisland-fabric-1_21.title": "YUNG's Better End Island",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg": "Resummoned Dragon Drops Egg",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg.@Tooltip": "Whether the Ender Dragon drops an egg every time it's defeated",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform": "Spawn Vanilla Obsidian Platform",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform.@Tooltip": "Whether the vanilla obsidian platform should spawn in the End instead of the revamped platform",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways": "Spawn Vanilla End Gateways",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways.@Tooltip": "Whether the vanilla End Gateways should spawn in the End instead of the revamped gateways",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound": "Play Bell Sound",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound.@Tooltip": "Whether the bell sound should play before the Ender Dragon is summoned for the first time and during re-summonings",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially": "Spawn Central Tower Initially",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially.@Tooltip": "Whether the central tower should spawn in the End when the world is first generated",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon": "Respawn Central Tower on Resummon",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon.@Tooltip": "Whether the central tower should respawn in the End when the Ender Dragon is re-summoned"
+}

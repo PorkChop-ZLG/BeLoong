@@ -927,7 +927,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1A626874CCDC9694"]
+			dependencies: ["7F5AC4043CEA54E3"]
 			id: "72151A2FD66D3BD6"
 			rewards: [{
 				id: "303DBE18240C2197"
@@ -941,7 +941,7 @@
 				type: "advancement"
 			}]
 			x: 24.0d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["72151A2FD66D3BD6"]
@@ -972,10 +972,10 @@
 				type: "advancement"
 			}]
 			x: 24.0d
-			y: 8.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["2E825FE5146172A7"]
+			dependencies: ["1A626874CCDC9694"]
 			id: "12EA14096CBC0447"
 			rewards: [{
 				id: "0716DDBDFA1DC17D"
@@ -989,7 +989,7 @@
 				type: "advancement"
 			}]
 			x: 24.0d
-			y: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["12EA14096CBC0447"]
@@ -1020,10 +1020,10 @@
 				type: "advancement"
 			}]
 			x: 24.0d
-			y: 12.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["7F5AC4043CEA54E3"]
+			dependencies: ["2E825FE5146172A7"]
 			id: "066F880D0A204FEA"
 			rewards: [{
 				id: "3BEC98AAAFE379E3"

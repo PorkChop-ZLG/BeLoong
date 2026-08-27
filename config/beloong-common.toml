@@ -10,3 +10,13 @@ fixCataclysmStructureHeight = true
 fixDragonsurvivalProjectileCrash = true
 #修复Fsweep打开部分容器崩溃
 fixFsweepContainerCrash = true
+
+[template_update]
+	#Enable old-save template dimension migration
+	#是否启用旧存档模板维度自动迁移
+	enabled = true
+	#Template version; bump this to force old saves to be overwritten from the template
+	#模板版本号；更新地图模板后手动 +1 可触发旧存档覆盖更新
+	# Default: 1
+	# Range: > 1
+	templateVersion = 1
