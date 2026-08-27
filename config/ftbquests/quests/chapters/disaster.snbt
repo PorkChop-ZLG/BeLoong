@@ -18,6 +18,7 @@
 			y: -2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.2d
 			id: "417BA0D1F75C3FEE"
 			image: "beloong:block/disaster_portal_frame_top"
@@ -116,25 +117,132 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0C948DA39E6C9500"
+			image: "beloong:block/disaster_portal_frame_eye_10"
+			rotation: 180.0d
+			width: 1.2d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0B4CFFF5A3714328"
+			image: "beloong:block/disaster_portal_frame_eye_11"
+			rotation: 180.0d
+			width: 1.2d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6464F37630089401"
+			image: "beloong:block/disaster_portal_frame_eye_12"
+			rotation: 180.0d
+			width: 1.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "554F7E5F14FCA0DC"
+			image: "beloong:block/disaster_portal_frame_eye_6"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "346FFD7A7C2EF7AF"
+			image: "beloong:block/disaster_portal_frame_eye_9"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6204BD9BB6C03BC0"
+			image: "beloong:block/disaster_portal_frame_eye_8"
+			rotation: 90.0d
+			width: 1.2d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0426BD2710F1B7B9"
+			image: "beloong:block/disaster_portal_frame_eye_2"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "38819C4A75BF68AF"
+			image: "beloong:block/disaster_portal_frame_eye_3"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3A02299E38F766E7"
+			image: "beloong:block/disaster_portal_frame_eye_5"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6C8833EE6C1018CF"
+			image: "beloong:block/disaster_portal_frame_eye_7"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "51E89A118EB1310F"
+			image: "beloong:block/disaster_portal_frame_eye_1"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "38BFB137782532D7"
+			image: "beloong:block/disaster_portal_frame_eye_4"
+			rotation: -90.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.0d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"15AFDC56C1DDD186"
-				"6285E3FE40B50A5D"
-				"10F79CEDC9B4CAE1"
-				"7F9E6D10F321927F"
-				"3D97123D1901A1C8"
-				"07B6867A808FFAC7"
-				"29D055DC49B2AA7D"
-				"3EC4B6AD875A25D5"
-				"6AE0A2C8D7978FC2"
-				"2BA5B4E1E4B65148"
-				"3699E72666A2DBF6"
-				"76BDFD3D489242DC"
-			]
+			dependencies: ["63EE66C72921DB29"]
 			hide_dependency_lines: true
 			icon_scale: 1.45d
 			id: "60300CF89DE750C2"
@@ -155,150 +263,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "07B6867A808FFAC7"
-			shape: "none"
-			tasks: [{
-				id: "38828CF88F5B0255"
-				item: { count: 1, id: "fdbosses:eye_of_chesed" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "3D97123D1901A1C8"
-			shape: "none"
-			tasks: [{
-				id: "3C64E202BA73834A"
-				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "7F9E6D10F321927F"
-			shape: "none"
-			tasks: [{
-				id: "77583F0713CC77E7"
-				item: { count: 1, id: "fdbosses:eye_of_geburah" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "76BDFD3D489242DC"
-			shape: "none"
-			tasks: [{
-				id: "0D1D993FB95A41B8"
-				item: { count: 1, id: "cataclysm:mech_eye" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "3699E72666A2DBF6"
-			shape: "none"
-			tasks: [{
-				id: "57FCC9B9789B6AFC"
-				item: { count: 1, id: "cataclysm:monstrous_eye" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "2BA5B4E1E4B65148"
-			shape: "none"
-			tasks: [{
-				id: "2E6821A1DB32EEB4"
-				item: { count: 1, id: "cataclysm:flame_eye" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "3EC4B6AD875A25D5"
-			shape: "none"
-			tasks: [{
-				id: "4F81A6F7BA43C163"
-				item: { count: 1, id: "cataclysm:desert_eye" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "6AE0A2C8D7978FC2"
-			shape: "none"
-			tasks: [{
-				id: "59EFCE0DEE2F3C1E"
-				item: { count: 1, id: "cataclysm:void_eye" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "29D055DC49B2AA7D"
-			shape: "none"
-			tasks: [{
-				id: "0DC7E65F96749E23"
-				item: { count: 1, id: "minecraft:ender_eye" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "6285E3FE40B50A5D"
-			shape: "none"
-			tasks: [{
-				id: "2370FA9BD0909650"
-				item: { count: 1, id: "cataclysm:abyss_eye" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "15AFDC56C1DDD186"
-			shape: "none"
-			tasks: [{
-				id: "5FD34999934450B0"
-				item: { count: 1, id: "cataclysm:storm_eye" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			icon_scale: 1.5d
-			id: "10F79CEDC9B4CAE1"
-			shape: "none"
-			tasks: [{
-				id: "29405D04BC84E37D"
-				item: { count: 1, id: "cataclysm:cursed_eye" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["656220D0E2FD4EC3"]
@@ -787,6 +751,17 @@
 				type: "advancement"
 			}]
 			x: 48.0d
+			y: 0.0d
+		}
+		{
+			id: "326610D581A2F754"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "3ACC06C1D8780864"
+				type: "checkmark"
+			}]
+			x: -40.0d
 			y: 0.0d
 		}
 	]

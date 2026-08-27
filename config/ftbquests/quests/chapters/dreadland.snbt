@@ -239,6 +239,138 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "356BDE370240BA49"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 99
+			rotation: 180.0d
+			width: 1.2d
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "120D583E89DA6A92"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 98
+			rotation: 180.0d
+			width: 1.2d
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "36BF5266AFD7CB3D"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 97
+			rotation: 180.0d
+			width: 1.2d
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "07F0CCE4AAE927E5"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 99
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1A41A5FF5D9D7AA6"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 98
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.0d
+			y: 16.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "55F6A8DFF3A095D3"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 97
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.0d
+			y: 17.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "579E737D2C4DBD60"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 95
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5902E523D45BE730"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 94
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6543AAEFA5FFB360"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 93
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "76CA94F043803F0E"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 95
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2F3BE82D766EA188"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0B9971034F019711"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 93
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 18.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -416,11 +548,21 @@
 				id: "legendary_monsters:dune_sentinel_spawn_egg"
 			}
 			id: "28B79D99FF19DB3D"
-			rewards: [{
-				id: "093B2CD8CF201DFF"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "093B2CD8CF201DFF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "063307B3568DDBF2"
+					item: {
+						count: 1
+						id: "cataclysm:desert_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_dune_sentinel"
@@ -503,11 +645,21 @@
 				id: "legendary_monsters:overgrown_colossus_spawn_egg"
 			}
 			id: "56CD03186ED90684"
-			rewards: [{
-				id: "24954D70AF7B0ADA"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "24954D70AF7B0ADA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EB7C8D8105B9469"
+					item: {
+						count: 1
+						id: "cataclysm:storm_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_overgrown_colossus"
@@ -524,11 +676,21 @@
 				id: "legendary_monsters:frostbitten_golem_spawn_egg"
 			}
 			id: "4B9C19DD3E2679C1"
-			rewards: [{
-				id: "4DA6AB1431B19484"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4DA6AB1431B19484"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "70FE845D7A28331E"
+					item: {
+						count: 1
+						id: "cataclysm:cursed_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_frostbitten_golem"
@@ -739,11 +901,21 @@
 				id: "legendary_monsters:lava_eater_spawn_egg"
 			}
 			id: "1A626874CCDC9694"
-			rewards: [{
-				id: "508A863C04C13165"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "508A863C04C13165"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "743EF13B7A04E4FE"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_lava_eater"
@@ -777,11 +949,21 @@
 				id: "legendary_monsters:skeletosaurus_spawn_egg"
 			}
 			id: "2E825FE5146172A7"
-			rewards: [{
-				id: "164BC14F04BAC515"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "164BC14F04BAC515"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AC625E0B8DD561F"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_skeletosaurus"
@@ -815,11 +997,21 @@
 				id: "legendary_monsters:withered_abomination_spawn_egg"
 			}
 			id: "7F5AC4043CEA54E3"
-			rewards: [{
-				id: "5915DC3F42B703EF"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5915DC3F42B703EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "457698A19CAA34B2"
+					item: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_withered_abomination"
@@ -902,11 +1094,21 @@
 				id: "legendary_monsters:endersent_spawn_egg"
 			}
 			id: "6C9C453593952765"
-			rewards: [{
-				id: "4205255CCDC2FF1D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4205255CCDC2FF1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7D7B81CC85A0B108"
+					item: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_endersent"
@@ -940,11 +1142,21 @@
 				id: "legendary_monsters:shulker_mimic_spawn_egg"
 			}
 			id: "3D3952553BFB204D"
-			rewards: [{
-				id: "2E66C9D24438049B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2E66C9D24438049B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "033092CBF112DEF9"
+					item: {
+						count: 1
+						id: "cataclysm:void_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_shulker_mimic"
@@ -1010,11 +1222,21 @@
 				id: "legendary_monsters:annihilation_pursuer_spawn_egg"
 			}
 			id: "71E9214EA5D1D662"
-			rewards: [{
-				id: "1F473CD514C090AA"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1F473CD514C090AA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C8D8A12F2F3D64B"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_annihilation_pursuer"
@@ -1049,8 +1271,305 @@
 				id: "14DAAA356503F785"
 				type: "checkmark"
 			}]
-			x: -24.0d
-			y: -16.0d
+			x: -20.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["347C54BAEC42A4AA"]
+			id: "5B17EE2B443E6FAB"
+			rewards: [
+				{
+					id: "0DEFA99251721B2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "02B65429F99477BC"
+					item: {
+						count: 1
+						id: "beloong:disaster_portal_frame"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "beloong:disaster_portal_frame"
+				}
+				id: "5EA3A7C0DD9BA121"
+				observation_type: "block"
+				observe_type: 0
+				timer: 5L
+				to_observe: "beloong:disaster_portal_frame"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "07B6867A808FFAC7"
+			rewards: [{
+				id: "31EC9E83C64F8CD6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "38828CF88F5B0255"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "7F9E6D10F321927F"
+			rewards: [{
+				id: "7D323647286D08C4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "77583F0713CC77E7"
+				item: { count: 1, id: "fdbosses:eye_of_geburah" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "3D97123D1901A1C8"
+			rewards: [{
+				id: "6239B29C4083CF42"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3C64E202BA73834A"
+				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "3EC4B6AD875A25D5"
+			rewards: [{
+				id: "1FA745646E8375AF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4F81A6F7BA43C163"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "29D055DC49B2AA7D"
+			rewards: [{
+				id: "5890470E91E4A830"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0DC7E65F96749E23"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "6AE0A2C8D7978FC2"
+			rewards: [{
+				id: "4B41E65BC85672DD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "59EFCE0DEE2F3C1E"
+				item: { count: 1, id: "cataclysm:void_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "3699E72666A2DBF6"
+			rewards: [{
+				id: "367DDB441762A9C9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "57FCC9B9789B6AFC"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "2BA5B4E1E4B65148"
+			rewards: [{
+				id: "2E9A9C7022508F33"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2E6821A1DB32EEB4"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "76BDFD3D489242DC"
+			rewards: [{
+				id: "6F9B1893E64B7174"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0D1D993FB95A41B8"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "10F79CEDC9B4CAE1"
+			rewards: [{
+				id: "17F63F34DE5B08A4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "29405D04BC84E37D"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "15AFDC56C1DDD186"
+			rewards: [{
+				id: "4358AD9C4EDF0480"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5FD34999934450B0"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "6285E3FE40B50A5D"
+			rewards: [{
+				id: "5864511A4FD0D3B8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2370FA9BD0909650"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"5B17EE2B443E6FAB"
+				"7F9E6D10F321927F"
+				"15AFDC56C1DDD186"
+				"3D97123D1901A1C8"
+				"6285E3FE40B50A5D"
+				"29D055DC49B2AA7D"
+				"07B6867A808FFAC7"
+				"3EC4B6AD875A25D5"
+				"2BA5B4E1E4B65148"
+				"3699E72666A2DBF6"
+				"6AE0A2C8D7978FC2"
+				"76BDFD3D489242DC"
+				"10F79CEDC9B4CAE1"
+			]
+			icon: {
+				id: "xfws_swords:ark_of_the_cosmos"
+			}
+			id: "63EE66C72921DB29"
+			rewards: [
+				{
+					id: "7AE66D067A810601"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FCEEF35CFB70F96"
+					item: {
+						count: 1
+						id: "xfws_swords:ark_of_the_cosmos"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "beloong:disaster"
+				icon: {
+					id: "beloong:disaster_portal_block"
+				}
+				id: "68710894F3F6247D"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 16.0d
 		}
 	]
 }
