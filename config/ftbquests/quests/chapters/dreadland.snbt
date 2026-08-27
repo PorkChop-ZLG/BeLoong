@@ -579,11 +579,21 @@
 				id: "legendary_monsters:cloud_golem_spawn_egg"
 			}
 			id: "21CD011E6F16C411"
-			rewards: [{
-				id: "059D62FDF6337DE7"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "059D62FDF6337DE7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "31C2D336B9205FFF"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_chesed"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -843,11 +853,21 @@
 				id: "legendary_monsters:posessed_paladin_spawn_egg"
 			}
 			id: "66B5A93D255C0662"
-			rewards: [{
-				id: "18DB31B9C679E7BE"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "18DB31B9C679E7BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "619C5F31CEB11AFC"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_malkuth"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -958,11 +978,21 @@
 				id: "legendary_monsters:the_obliterator_spawn_egg"
 			}
 			id: "347C54BAEC42A4AA"
-			rewards: [{
-				id: "0B58517AA11990CD"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0B58517AA11990CD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "503295DB7B8C2AC3"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_geburah"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
