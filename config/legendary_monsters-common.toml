@@ -494,21 +494,21 @@
 		#Multiplies damage dealt by Beheaded Knight
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Beheaded Knight Damage Multiplier" = 1.0
+		"Beheaded Knight Damage Multiplier" = 28.0
 		#Multiplies health of Beheaded Knight
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Beheaded Knight Health Multiplier" = 1.0
+		"Beheaded Knight Health Multiplier" = 20.0
 
 	["Mob Settings"."Resurrected Knight Settings"]
 		#Multiplies damage dealt by Resurrected Knight
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Resurrected Knight Damage Multiplier" = 1.0
+		"Resurrected Knight Damage Multiplier" = 30.0
 		#Multiplies health of Resurrected Knight
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Resurrected Knight Health Multiplier" = 1.0
+		"Resurrected Knight Health Multiplier" = 20.0
 
 	["Mob Settings"."Overgrown Colosuss Settings"]
 		#Multiplies damage dealt by Overgrown Colosuss
@@ -576,21 +576,21 @@
 		#Multiplies damage dealt by Skeletosaurus
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Skeletosaurus Damage Multiplier" = 1.0
+		"Skeletosaurus Damage Multiplier" = 20.0
 		#Multiplies health of Skeletosaurus
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Skeletosaurus Health Multiplier" = 1.0
+		"Skeletosaurus Health Multiplier" = 20.0
 
 	["Mob Settings"."Lava Eater Settings"]
 		#Multiplies damage dealt by Lava Eater
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Lava Eater Damage Multiplier" = 1.0
+		"Lava Eater Damage Multiplier" = 19.0
 		#Multiplies health of Lava Eater
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Lava Eater Health Multiplier" = 1.0
+		"Lava Eater Health Multiplier" = 20.0
 		#Disables/Enables Projectile Immunity for Lava Eater
 		"Allow Lava Eater Projectile Immunity" = true
 
@@ -608,11 +608,11 @@
 		#Multiplies damage dealt by Withered Abomination
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Withered Abomination Damage Multiplier" = 1.0
+		"Withered Abomination Damage Multiplier" = 16.0
 		#Multiplies health of Withered Abomination
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Withered Abomination Health Multiplier" = 1.0
+		"Withered Abomination Health Multiplier" = 18.0
 		#Enables/Disables Stun Ability for Withered Abomination
 		"Allow Withered Abomination Stun Ability" = false
 
