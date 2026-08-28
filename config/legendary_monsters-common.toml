@@ -586,11 +586,11 @@
 		#Multiplies damage dealt by Lava Eater
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Lava Eater Damage Multiplier" = 19.0
+		"Lava Eater Damage Multiplier" = 20.0
 		#Multiplies health of Lava Eater
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Lava Eater Health Multiplier" = 20.0
+		"Lava Eater Health Multiplier" = 19.0
 		#Disables/Enables Projectile Immunity for Lava Eater
 		"Allow Lava Eater Projectile Immunity" = true
 

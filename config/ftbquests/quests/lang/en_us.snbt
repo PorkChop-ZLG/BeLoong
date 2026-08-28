@@ -2058,17 +2058,6 @@
 	quest.4B2A79FC0C011CB2.title: "Dragonsteel Forge"
 	quest.4BCF83DBB5612B54.quest_subtitle: "Guaranteed once per dragon"
 	quest.4BCF83DBB5612B54.title: "Doppelganger Ring Guarantee"
-	quest.4BD6C7A2A6DC392B.quest_desc: [
-		"&aObjective: Obtain a Dehydrated Ghast"
-		""
-		"&6Dehydrated Ghasts can sometimes be found near &ffossils &6in the Nether."
-		"&6After being placed in water for about &220 minutes&6, a Dehydrated Ghast will transform into a &6Ghastling&6. After another &220 minutes&6, it will grow into a &6Happy Ghast&6."
-		"&6Feeding a &rSnowball &6to a Ghastling can speed up its growth."
-		"&6Players can use a &dHarness &6on a Happy Ghast to make it rideable,"
-		"&6and use shears to remove the harness when not riding."
-		""
-		"&7&oNaming it \"kiki\" yields a surprise."
-	]
 	quest.4BE17AD8808CFFEF.quest_desc: [
 		"&6The Scroll Scribing Table &ris used to scribe various &eSpell Scrolls&r."
 		""

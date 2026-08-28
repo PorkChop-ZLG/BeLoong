@@ -612,32 +612,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3FB2C999F046AAE3"]
-			id: "4BD6C7A2A6DC392B"
-			rewards: [
-				{
-					id: "1A3EDB4EBACBF28E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "7FA34EEEAB5F59DB"
-					item: {
-						count: 1
-						id: "happy_ghast_legacy:music_disc_tears"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2563170F7C759D6E"
-				item: { count: 1, id: "happy_ghast_legacy:dried_ghast" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["05ED8DD7872103B7"]
 			icon: {
 				id: "irons_spellbooks:decrepit_scythe"

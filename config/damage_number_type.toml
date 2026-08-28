@@ -3558,6 +3558,20 @@
 			append = ""
 			format = ""
 
+	[type.sulfurCubeHot]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.sulfurCubeHot.icon]
+			tex = ""
+			item = ""
+
+		[type.sulfurCubeHot.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -4856,6 +4870,20 @@
 			item = ""
 
 		[tag."artifacts:is_melee".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."minecraft:sulfur_cube_with_block_immune_to"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:sulfur_cube_with_block_immune_to".icon]
+			tex = ""
+			item = ""
+
+		[tag."minecraft:sulfur_cube_with_block_immune_to".format]
 			prepend = ""
 			append = ""
 			format = ""

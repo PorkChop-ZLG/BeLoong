@@ -6,8 +6,8 @@
   },
   "min": {
     "//": "The lowest possible value for the attribute.",
-    "//default": 0.0,
-    "value": 0.0
+    "//default": -2.0,
+    "value": -2.0
   },
   "max": {
     "//": "The highest possible value for the attribute.",
