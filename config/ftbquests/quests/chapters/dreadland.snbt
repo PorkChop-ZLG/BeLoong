@@ -247,7 +247,7 @@
 			order: 99
 			rotation: 180.0d
 			width: 1.2d
-			x: 0.0d
+			x: 4.0d
 			y: 14.0d
 		}
 		{
@@ -258,7 +258,7 @@
 			order: 98
 			rotation: 180.0d
 			width: 1.2d
-			x: 1.0d
+			x: 5.0d
 			y: 14.0d
 		}
 		{
@@ -269,7 +269,7 @@
 			order: 97
 			rotation: 180.0d
 			width: 1.2d
-			x: 2.0d
+			x: 6.0d
 			y: 14.0d
 		}
 		{
@@ -280,7 +280,7 @@
 			order: 99
 			rotation: 90.0d
 			width: 1.2d
-			x: -1.0d
+			x: 3.0d
 			y: 15.0d
 		}
 		{
@@ -291,7 +291,7 @@
 			order: 98
 			rotation: 90.0d
 			width: 1.2d
-			x: -1.0d
+			x: 3.0d
 			y: 16.0d
 		}
 		{
@@ -302,7 +302,7 @@
 			order: 97
 			rotation: 90.0d
 			width: 1.2d
-			x: -1.0d
+			x: 3.0d
 			y: 17.0d
 		}
 		{
@@ -313,7 +313,7 @@
 			order: 95
 			rotation: -90.0d
 			width: 1.2d
-			x: 3.0d
+			x: 7.0d
 			y: 15.0d
 		}
 		{
@@ -324,7 +324,7 @@
 			order: 94
 			rotation: -90.0d
 			width: 1.2d
-			x: 3.0d
+			x: 7.0d
 			y: 16.0d
 		}
 		{
@@ -335,7 +335,7 @@
 			order: 93
 			rotation: -90.0d
 			width: 1.2d
-			x: 3.0d
+			x: 7.0d
 			y: 17.0d
 		}
 		{
@@ -346,7 +346,7 @@
 			order: 95
 			rotation: 0.0d
 			width: 1.2d
-			x: 0.0d
+			x: 4.0d
 			y: 18.0d
 		}
 		{
@@ -357,7 +357,7 @@
 			order: 94
 			rotation: 0.0d
 			width: 1.2d
-			x: 1.0d
+			x: 5.0d
 			y: 18.0d
 		}
 		{
@@ -368,7 +368,7 @@
 			order: 93
 			rotation: 0.0d
 			width: 1.2d
-			x: 2.0d
+			x: 6.0d
 			y: 18.0d
 		}
 	]
@@ -494,11 +494,21 @@
 				id: "legendary_monsters:ancient_guardian_spawn_egg"
 			}
 			id: "1F5E680BAE5D2003"
-			rewards: [{
-				id: "5E1A8319CB8F27F6"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5E1A8319CB8F27F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43834414F773F48E"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "legendary_monsters:defeat_the_ancient_guardian"
@@ -908,10 +918,10 @@
 					xp: 100
 				}
 				{
-					id: "743EF13B7A04E4FE"
+					id: "317B5817BAAAB7F5"
 					item: {
 						count: 1
-						id: "cataclysm:mech_eye"
+						id: "cataclysm:flame_eye"
 					}
 					type: "item"
 				}
@@ -1004,10 +1014,10 @@
 					xp: 100
 				}
 				{
-					id: "457698A19CAA34B2"
+					id: "03DE6F117493507C"
 					item: {
 						count: 1
-						id: "cataclysm:flame_eye"
+						id: "cataclysm:abyss_eye"
 					}
 					type: "item"
 				}
@@ -1101,10 +1111,10 @@
 					xp: 100
 				}
 				{
-					id: "7D7B81CC85A0B108"
+					id: "707516F8B0D4EB03"
 					item: {
 						count: 1
-						id: "cataclysm:abyss_eye"
+						id: "cataclysm:void_eye"
 					}
 					type: "item"
 				}
@@ -1149,10 +1159,10 @@
 					xp: 100
 				}
 				{
-					id: "033092CBF112DEF9"
+					id: "7DFE4ACD3B8AAD6A"
 					item: {
 						count: 1
-						id: "cataclysm:void_eye"
+						id: "minecraft:ender_eye"
 					}
 					type: "item"
 				}
@@ -1185,7 +1195,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["65BAF028E2704435"]
+			dependencies: ["4403D0B442B8A042"]
 			icon: {
 				id: "legendary_monsters:the_obliterator_spawn_egg"
 			}
@@ -1213,54 +1223,7 @@
 				id: "51CC1AD0B26967D2"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["4403D0B442B8A042"]
-			icon: {
-				id: "legendary_monsters:annihilation_pursuer_spawn_egg"
-			}
-			id: "71E9214EA5D1D662"
-			rewards: [
-				{
-					id: "1F473CD514C090AA"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "1C8D8A12F2F3D64B"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				advancement: "legendary_monsters:defeat_annihilation_pursuer"
-				criterion: ""
-				id: "36E3E7A6767BB977"
-				type: "advancement"
-			}]
 			x: 12.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["71E9214EA5D1D662"]
-			id: "65BAF028E2704435"
-			rewards: [{
-				id: "659CFC3B08AF71D6"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3C759399F576B71D"
-				item: { count: 1, id: "legendary_monsters:eye_crystal" }
-				type: "item"
-			}]
-			x: 10.0d
 			y: 16.0d
 		}
 		{
@@ -1304,7 +1267,7 @@
 				to_observe: "beloong:disaster_portal_frame"
 				type: "observation"
 			}]
-			x: 6.0d
+			x: 10.0d
 			y: 16.0d
 		}
 		{
@@ -1322,7 +1285,7 @@
 				item: { count: 1, id: "fdbosses:eye_of_chesed" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 13.0d
 		}
 		{
@@ -1340,7 +1303,7 @@
 				item: { count: 1, id: "fdbosses:eye_of_geburah" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: 13.0d
 		}
 		{
@@ -1358,7 +1321,7 @@
 				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: 13.0d
 		}
 		{
@@ -1376,7 +1339,7 @@
 				item: { count: 1, id: "cataclysm:desert_eye" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 15.0d
 		}
 		{
@@ -1394,7 +1357,7 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 16.0d
 		}
 		{
@@ -1412,7 +1375,7 @@
 				item: { count: 1, id: "cataclysm:void_eye" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 17.0d
 		}
 		{
@@ -1430,7 +1393,7 @@
 				item: { count: 1, id: "cataclysm:monstrous_eye" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: 19.0d
 		}
 		{
@@ -1448,7 +1411,7 @@
 				item: { count: 1, id: "cataclysm:flame_eye" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: 19.0d
 		}
 		{
@@ -1466,7 +1429,7 @@
 				item: { count: 1, id: "cataclysm:mech_eye" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 19.0d
 		}
 		{
@@ -1484,7 +1447,7 @@
 				item: { count: 1, id: "cataclysm:cursed_eye" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: 17.0d
 		}
 		{
@@ -1502,7 +1465,7 @@
 				item: { count: 1, id: "cataclysm:storm_eye" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: 16.0d
 		}
 		{
@@ -1520,7 +1483,7 @@
 				item: { count: 1, id: "cataclysm:abyss_eye" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: 15.0d
 		}
 		{
@@ -1568,7 +1531,7 @@
 				id: "68710894F3F6247D"
 				type: "dimension"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: 16.0d
 		}
 	]

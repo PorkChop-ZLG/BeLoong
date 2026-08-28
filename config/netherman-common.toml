@@ -1,0 +1,251 @@
+["Azazel Armor Configuration"]
+	#Allows the Azazel Chestplate to break blocks when flying into them at high speed.
+	azazelArmorBlockBreaking = true
+
+["Azazel Boss Configuration"]
+	#Maximum health of Azazel
+	# Default: 800.0
+	# Range: 100.0 ~ 10000.0
+	maxHealth = 800.0
+	#Movement speed of Azazel
+	# Default: 0.2
+	# Range: 0.05 ~ 1.0
+	movementSpeed = 0.2
+	#Knockback resistance (1.0 = completely immune)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 1.0
+
+["Azazel Human Configuration"]
+	#Maximum health of Azazel Human
+	# Default: 1000.0
+	# Range: 100.0 ~ 10000.0
+	humanMaxHealth = 1000.0
+	#Movement speed of Azazel Human
+	# Default: 0.25
+	# Range: 0.05 ~ 1.0
+	humanMovementSpeed = 0.25
+	#Knockback resistance (1.0 = completely immune)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	humanKnockbackResistance = 1.0
+
+["Azazel Human Attack Config"]
+	#Damage for the leg stomp attack
+	# Default: 25.0
+	# Range: 0.0 ~ 200.0
+	humanStompDamage = 25.0
+	#Knockback strength for the leg stomp attack
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	humanStompKnockback = 1.2
+	#Damage for the first scythe swing
+	# Default: 15.0
+	# Range: 0.0 ~ 200.0
+	humanScythe1Damage = 15.0
+	#Knockback for the first scythe swing
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	humanScythe1Knockback = 0.5
+	#Damage for the second scythe swing
+	# Default: 25.0
+	# Range: 0.0 ~ 200.0
+	humanScythe2Damage = 25.0
+	#Knockback for the second scythe swing
+	# Default: 6.0
+	# Range: 0.0 ~ 20.0
+	humanScythe2Knockback = 6.0
+	#Damage for the melee spear attack
+	# Default: 20.0
+	# Range: 0.0 ~ 200.0
+	humanSpearMeleeDamage = 20.0
+	#Knockback for the melee spear attack
+	# Default: 8.0
+	# Range: 0.0 ~ 20.0
+	humanSpearMeleeKnockback = 8.0
+	#Damage for the mid-range spear push attack
+	# Default: 10.0
+	# Range: 0.0 ~ 200.0
+	humanSpearMidPushDamage = 10.0
+	#Knockback for the mid-range spear push attack
+	# Default: 8.0
+	# Range: 0.0 ~ 20.0
+	humanSpearMidPushKnockback = 8.0
+	#Damage for the mid-range spear pull attack
+	# Default: 20.0
+	# Range: 0.0 ~ 200.0
+	humanSpearMidPullDamage = 20.0
+	#Pull strength for the mid-range spear pull attack
+	# Default: 5.0
+	# Range: 0.0 ~ 20.0
+	humanSpearMidPullKnockback = 5.0
+	#Damage dealt to players in the path of the charge
+	# Default: 30.0
+	# Range: 0.0 ~ 200.0
+	humanChargeDamage = 30.0
+	#Knockback for the charge attack
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	humanChargeKnockback = 1.5
+	#Damage for the scythe splash projectile
+	# Default: 20.0
+	# Range: 0.0 ~ 200.0
+	humanSplashDamage = 20.0
+	#Damage for the ground spikes
+	# Default: 10.0
+	# Range: 0.0 ~ 200.0
+	humanSpikeDamage = 10.0
+	#Wither effect duration (in ticks) for ground spikes. 100 = 5 seconds. 0 = disable.
+	# Default: 100
+	# Range: 0 ~ 1200
+	humanSpikeWitherDuration = 100
+	#Maximum distance for melee attacks (blocks)
+	# Default: 2.0
+	# Range: 1.0 ~ 50.0
+	humanMeleeAttackRadius = 2.0
+	#Maximum distance for mid-range attacks (blocks)
+	# Default: 8.0
+	# Range: 1.0 ~ 50.0
+	humanMidAttackRadiusMax = 8.0
+	#Minimum distance for long-range attacks (blocks)
+	# Default: 6.0
+	# Range: 1.0 ~ 50.0
+	humanLongAttackRadiusMin = 6.0
+	#Distance at which boss stops walking and starts attacking (blocks)
+	# Default: 8.0
+	# Range: 1.0 ~ 50.0
+	humanMovementStopRadius = 8.0
+	#Damage for the flying spike projectiles
+	# Default: 10.0
+	# Range: 0.0 ~ 200.0
+	humanProjectileSpikeDamage = 10.0
+	#Wither effect duration (in ticks) for flying spike projectiles. 100 = 5 sec.
+	# Default: 100
+	# Range: 0 ~ 1200
+	humanProjectileSpikeWitherDuration = 100
+
+["Azazel Attack Damage"]
+	#Damage dealt by the launch explosion attack
+	# Default: 8.0
+	# Range: 0.0 ~ 100.0
+	launchAttackDamage = 8.0
+	#Damage dealt when pulling players in
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	pullAttackDamage = 5.0
+	#Damage dealt by the wind knockback attack
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	windAttackDamage = 5.0
+	#Damage dealt per hit during the wheel dash attack
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	wheelAttackDamage = 4.0
+
+["Azazel Attack Frequencies"]
+	#Chance (1 in X ticks) for Azazel to perform an active attack. Lower = faster attacks.
+	# Default: 80
+	# Range: 10 ~ 600
+	attackChance = 80
+	#Chance (1 in X ticks) to spawn minions passively while idle.
+	# Default: 600
+	# Range: 100 ~ 2400
+	passiveSummonChance = 600
+
+["NPC Doctor Config"]
+	#true = the Doctor will only give potions with effects from vanilla.false = it gives random effects from ANY installed mod
+	doctorVanillaPotionsOnly = false
+	#A list of mod IDs (namespaces) allowed to be given as potions by the Doctor if doctorVanillaPotionsOnly is true.
+	doctorAllowedModNamespaces = ["minecraft"]
+
+["Nether Spawner Configuration"]
+	#Radius within which the spawner detects players to activate.
+	# Default: 20.0
+	# Range: 1.0 ~ 128.0
+	playerDetectionRadius = 20.0
+	#Cooldown (in ticks) for spawning Mini-Bosses (Manipulator, Guardian, Welcomer) [20 ticks = 1 second].
+	# Default: 18000
+	# Range: 1200 ~ 1000000
+	miniBossCooldown = 18000
+	#Cooldown (in ticks) for spawning Civilian NPCs (Blacksmith, Doctor, Gilded Golem, Trader).
+	# Default: 20000
+	# Range: 1200 ~ 1000000
+	civilianNpcCooldown = 20000
+	#Number of Believers spawned at once.
+	# Default: 5
+	# Range: 1 ~ 20
+	believersSpawnCount = 5
+	#The scatter radius for spawning Believers.
+	# Default: 6.0
+	# Range: 1.0 ~ 32.0
+	believersSpawnRadius = 6.0
+	#Maximum number of Believers around the spawner before it skips spawning.
+	# Default: 5
+	# Range: 1 ~ 50
+	believersMaxNearby = 5
+	#Cooldown if Believers successfully spawned.
+	# Default: 20000
+	# Range: 1200 ~ 1000000
+	believersSuccessCooldown = 20000
+	#Soft cooldown if spawning was skipped because there are too many Believers around.
+	# Default: 600
+	# Range: 20 ~ 72000
+	believersFailCooldown = 600
+
+["Azazel Trophy Mask Configuration"]
+	#Time (in ticks) to regenerate 1 totem charge in the mask [2400 ticks = 2 minutes].
+	# Default: 2400
+	# Range: 200 ~ 72000
+	maskRegenCooldown = 2400
+	#Does wearing the Azazel Trophy mask grant fire immunity?
+	maskFireImmunity = true
+
+["Azazel Defense & Melee"]
+	#Radius to trigger close-combat attacks (Launch, Midas)
+	# Default: 6.0
+	# Range: 1.0 ~ 20.0
+	meleeAttackRadius = 6.0
+	#Chance (0-100%) to perform a melee attack when a player is close
+	# Default: 30
+	# Range: 0 ~ 100
+	meleeAttackChance = 30
+	#Minimum hits required to trigger the defense shield
+	# Default: 5
+	# Range: 1 ~ 100
+	shieldHitsMin = 5
+	#Maximum hits required to trigger the defense shield
+	# Default: 20
+	# Range: 1 ~ 100
+	shieldHitsMax = 20
+
+["Azazel Midas Attack"]
+	#Number of BossUnits spawned during Midas attack
+	# Default: 3
+	# Range: 0 ~ 10
+	midasBossUnitCount = 3
+	#Number of Guardians spawned during Midas attack
+	# Default: 2
+	# Range: 0 ~ 10
+	midasGuardianCount = 2
+	#Fire damage dealt per tick on the fire ring
+	# Default: 8.0
+	# Range: 0.0 ~ 100.0
+	midasFireDamage = 8.0
+	#Ticks required near the boss to turn an item into gold (40 = 2 seconds)
+	# Default: 200
+	# Range: 1 ~ 2000
+	midasGoldTime = 200
+
+["Azazel Prison Attack"]
+	#Radius of the blackstone prison
+	# Default: 5
+	# Range: 2 ~ 15
+	prisonRadius = 5
+	#Time in ticks before the prison breaks (200 = 10 seconds)
+	# Default: 200
+	# Range: 60 ~ 1200
+	prisonDuration = 200
+	#Maximum random height of the prison walls
+	# Default: 6
+	# Range: 3 ~ 15
+	prisonMaxHeight = 6

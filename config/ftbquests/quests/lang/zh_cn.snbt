@@ -9,13 +9,14 @@
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
 		"日上三竿，晨光熹微"
 		"难度：★"
+		"注意：尚未重写"
 	]
 	chapter.1E4C1C94528F4F43.title: "① 龙之生存"
 	chapter.1FF49F51664E5364.chapter_subtitle: [
 		"烈日当空，午时已到"
 		"难度：★★"
 	]
-	chapter.1FF49F51664E5364.title: "② 下界末地"
+	chapter.1FF49F51664E5364.title: "② 炼狱终焉"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["隐藏式任务"]
 	chapter.22143E6BF4F1DBAD.title: "〖洞穴龙〗成长之路"
 	chapter.27AE0B7401476AE5.chapter_subtitle: ["物美价廉，童叟无欺"]
@@ -30,6 +31,7 @@
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
 		"日薄西山，暮色暗淡"
 		"难度：★★★"
+		"注意：尚未重写"
 	]
 	chapter.2FCFFB6D530A343F.title: "③ 暮色森林"
 	chapter.3DA5315F4969F944.chapter_subtitle: ["隐藏式任务"]
@@ -51,6 +53,7 @@
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
 		"暮色已尽，星光乍现"
 		"难度：★★★★"
+		"注意：尚未重写"
 	]
 	chapter.4EDF13489B6BA152.title: "④ 永恒星光"
 	chapter.508CCA54F0BC90CA.chapter_subtitle: [
@@ -1461,7 +1464,16 @@
 	]
 	quest.2C81337448F9655F.quest_subtitle: "只是雪，飘进双眼"
 	quest.2C81337448F9655F.title: "雪怪"
-	quest.2C91F2899A333562.quest_desc: ["&6任务：进入悚域维度"]
+	quest.2C91F2899A333562.quest_desc: [
+		"&6任务：进入悚域维度"
+		""
+		"&b悚域维度&r是&e『&6化龍&e』&6整合包&r的原创维度，由于完成度较低，暂时只有传奇怪物主线。"
+		""
+		"不同于原版悚域的&f冰雪世界&r，新的悚域拥有四大主题区域：&b冰域&r、&c火域&r、&d雷域&r、&8悚域&r。每个区域都有独特的地貌、结构、生物和Boss。"
+		""
+		"&e传奇怪物&r的所有生物和结构都迁移到了悚域维度，主世界、下界、末地将不再生成！"
+	]
+	quest.2C91F2899A333562.quest_subtitle: "谱写新的传奇！"
 	quest.2C91F2899A333562.title: "&b&l第五章 冰火悚域"
 	quest.2CEFD2DF7A413288.title: "灾变BOSS召唤物"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9结构罗盘：&b黑松骑士要塞&r"]
@@ -2828,7 +2840,6 @@
 		"&d慈悲之眼"
 		"&d王国之眼"
 		"&d严厉之眼"
-		""
 		"&b机械之眼"
 		"&b烈焰之眼"
 		"&b虚空之眼"
@@ -3008,9 +3019,13 @@
 	quest.60300CF89DE750C2.quest_desc: [
 		"&6任务：进入天灾维度"
 		""
-		"&7那一日，灾从天降……"
+		"&c天灾维度&r是&e『&6化龍&e』&6整合包&r的原创维度，相当于&2主世界&r的平行宇宙，但是有些许区别。"
+		""
+		"天灾维度继承了&2原版的生物群系&r，但是额外拥有&2BWG的生物群系&r，这使得地形更加绚丽多彩。"
+		""
+		"&e灾变模组&r的所有结构都迁移到了天灾维度，并且悬浮于九天之上。天灾，即天上的灾变！"
 	]
-	quest.60300CF89DE750C2.quest_subtitle: "大灾变！"
+	quest.60300CF89DE750C2.quest_subtitle: "那一日，灾从天降！"
 	quest.60300CF89DE750C2.title: "&c&l第六章 天灾灭世"
 	quest.60304C9009AEC933.quest_desc: [
 		"&6任务：升级被动技能凝神聚气到满级"
@@ -3142,6 +3157,11 @@
 	]
 	quest.63DB1E9C5C2FDC80.quest_subtitle: "移山填海，一念之间"
 	quest.63DB1E9C5C2FDC80.title: "&d创造模式建筑之杖"
+	quest.63EE66C72921DB29.quest_desc: [
+		"&6任务：激活天灾传送门，进入天灾维度"
+		""
+		"要想进入&c天灾维度&r，必须集齐12种特殊的眼珠，在击败湮灭空间站的最终Boss后，激活空间站中央上方的天灾传送门。"
+	]
 	quest.63EE66C72921DB29.quest_subtitle: "【第五章    完结】"
 	quest.63EE66C72921DB29.title: "&l&e黎明曙光，划破黑暗"
 	quest.641714B711DFD326.quest_subtitle: "千金换美酒"
@@ -3179,7 +3199,6 @@
 	]
 	quest.6583633BEC31ECDF.quest_subtitle: "★★★★★★"
 	quest.6583633BEC31ECDF.title: "灾变：焰魔"
-	quest.65BAF028E2704435.quest_desc: ["&6任务：使用眼之水晶，召唤湮灭构造体"]
 	quest.65D18729B9A46063.title: "瘟疫医生装备"
 	quest.65DF9D6C0D5E7583.quest_desc: [
 		"&6任务：开启圣辉宝库，获得圣辉模版"
@@ -3500,8 +3519,6 @@
 	quest.71BFA3CE3156E064.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"]
 	quest.71BFA3CE3156E064.quest_subtitle: "击杀利维坦，提交其掉落物"
 	quest.71BFA3CE3156E064.title: "加冕水之王座"
-	quest.71E9214EA5D1D662.quest_desc: ["&6任务：击败湮灭猎影"]
-	quest.71E9214EA5D1D662.title: "湮灭猎影"
 	quest.71F5D112B526DB55.quest_desc: [
 		"&6任务：了解龙的特性后，点击左上角的✅"
 		""
@@ -3669,6 +3686,13 @@
 	]
 	quest.7683B63A191EC24D.quest_subtitle: "打卡永恒星光的6种森林和部分结构"
 	quest.7683B63A191EC24D.title: "我看到了，生生不息的激荡！"
+	quest.76A7A167E97880D8.quest_desc: [
+		"&6任务：进入下界"
+		""
+		"原版的下界和末地合并为一章主线。"
+	]
+	quest.76A7A167E97880D8.quest_subtitle: "探寻诅咒的秘密"
+	quest.76A7A167E97880D8.title: "&l&4第二章 炼狱终焉"
 	quest.76CD787AE233C3FA.quest_desc: ["&6任务：击败崩魔苦力怕"]
 	quest.76CD787AE233C3FA.title: "崩魔苦力怕"
 	quest.77457906D3353B69.quest_desc: [

@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether"
@@ -8,13 +7,226 @@
 		id: "minecraft:weeping_vines"
 	}
 	id: "1FF49F51664E5364"
-	images: [ ]
+	images: [
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "20C1290F4FE5D28E"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "28BD68A19DBC7F19"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6677E877DBACDE6C"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4E3717665A79E37E"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "03C0B505A3A60380"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4BBC3E507F9E0A3B"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7A783F11335BB8DD"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "752389997522E0F2"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "46B576E8585CF6CA"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5ED6C051414373B6"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "034B66184442B988"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "73216A76730E59FB"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "63D41D30C856E273"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3FB126EA31449C1B"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5407B2CE6188B189"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "76F874B64D0B7C9E"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "125E5E0247FC8480"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "60172F7675CCAA01"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 1.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
+		icon_scale: 1.45d
 		id: "76A7A167E97880D8"
+		rewards: [{
+			id: "73C825FF467DE00D"
+			type: "xp"
+			xp: 100
+		}]
+		shape: "square"
+		size: 2.3d
 		tasks: [{
 			dimension: "minecraft:the_nether"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "31A8B2FD0F3394BF"
 			type: "dimension"
 		}]
