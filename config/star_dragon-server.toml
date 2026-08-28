@@ -5,12 +5,30 @@
 	#Time manipulation ability mode: OFF (disabled), TICK (tick rate control), TIME (daytime sun control)
 	#Allowed Values: OFF, TICK, TIME
 	timeAbilityMode = "TIME"
+	#Max blocks actually destroyed per tick by chunked block destruction (supernova, star laser). Higher values finish faster but can cause lag spikes.
+	# Default: 2048
+	# Range: 64 ~ 32768
+	blockDestructionBlocksPerTick = 2048
+	#Whether block destruction skills (supernova, star laser) drop ores. Default false to reduce item entity lag.
+	blockDestructionOreDrops = false
 
 [skills]
 	#Base damage for Black Hole skill
 	# Default: 6.0
 	# Range: 1.0 ~ 20.0
 	blackHoleBaseDamage = 6.0
+	#Black Hole block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	blackHoleBlockDestruction = "GLOBAL"
+	#Supernova Explosion block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	supernovaBlockDestruction = "GLOBAL"
+	#True Gravity Field block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	trueGravityFieldBlockDestruction = "GLOBAL"
+	#Stellar Laser block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	starLaserBlockDestruction = "GLOBAL"
 
 [starlight]
 	#Minimum day-night factor at noon (0.0 ~ 1.0)
@@ -29,24 +47,10 @@
 	# Default: 0.6
 	# Range: 0.0 ~ 1.0
 	skyBlockedFactor = 0.6
-	#Base increase rate per tick when starPower > 0.5
-	# Default: 0.005
-	# Range: 0.0 ~ 1.0
-	baseIncreaseRate = 0.005
-	#Base decrease rate per tick when starPower < 0.5
-	# Default: 0.005
-	# Range: 0.0 ~ 1.0
-	baseDecreaseRate = 0.005
-	#Acceleration strength: how much faster the bar moves away from 50%
-	# Default: 1.0
-	# Range: 0.0 ~ 10.0
-	accelerationStrength = 1.0
 	#Minimum damage modifier when bar is at 0%
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	minDamageModifier = 0.1
-	#Dimension override: dimId:strategy (strategies: overworld_logic, end_logic, nether_logic)
-	dimensionOverrides = []
 	#Star cubes scan radius (blocks)
 	# Default: 6
 	# Range: 1 ~ 32
