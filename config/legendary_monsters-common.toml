@@ -258,30 +258,6 @@
 		# Range: 0.0 ~ 1000.0
 		"Atom Splitter Damage multiplier" = 1.0
 
-	["Mob Settings"."Cloud Golem Settings"]
-		#Multiplies health of Cloud Golem
-		# Default: 1.0
-		# Range: 0.0 ~ 1000.0
-		"Cloud Golem Health Multiplier" = 17.5
-		#Multiplies damage dealt by Cloud Golem
-		# Default: 1.0
-		# Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Multiplier" = 1.0
-		#Enables Projectile Damage for Cloud Golem
-		"Allow Cloud Golem Projectile Damage" = false
-		#Enables Projectile Immunity cooldown for Cloud Golem
-		"Allow Projectile Immunity cooldown Damage" = true
-		#Cloud Golem loses Consciousness after Laser Attack
-		"Allow Cloud Golem Loses Consciousness" = true
-		#Cloud Golem can Charge once more after missing when he is low on HP
-		"Allow Cloud Golem Charge once More" = true
-		#Enables/Disables Cloud Golem Invulnerability Time (this boss is not getting schredded in 0.5seconds by frame - ignore weapons)
-		"Allow Cloud Golem Invulnerability Time" = true
-		#Maximum damage that can be dealt to Cloud Golem
-		# Default: 18.0
-		# Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Cap" = 18.0
-
 	["Mob Settings"."General Settings"]
 		#allow Camera Shake
 		"Allow Camera Shake" = true
@@ -533,6 +509,30 @@
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
 		"Mossy Golem Health Multiplier" = 1.0
+
+	["Mob Settings"."Cloud Golem Settings"]
+		#Multiplies damage dealt by Cloud Golem
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		"Cloud Golem Damage Multiplier" = 1.0
+		#Multiplies health of Cloud Golem
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		"Cloud Golem Health Multiplier" = 1.0
+		#Enables Projectile Damage for Cloud Golem
+		"Allow Cloud Golem Projectile Damage" = false
+		#Enables Projectile Immunity cooldown for Cloud Golem
+		"Allow Projectile Immunity cooldown Damage" = true
+		#Cloud Golem loses Consciousness after Laser Attack
+		"Allow Cloud Golem Loses Consciousness" = true
+		#Cloud Golem can Charge once more after missing when he is low on HP
+		"Allow Cloud Golem Charge once More" = true
+		#Enables/Disables Cloud Golem Invulnerability Time (this boss is not getting schredded in 0.5seconds by frame - ignore weapons)
+		"Allow Cloud Golem Invulnerability Time" = true
+		#Maximum damage that can be dealt to Cloud Golem
+		# Default: 18.0
+		# Range: 0.0 ~ 1000.0
+		"Cloud Golem Damage Cap" = 18.0
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud
