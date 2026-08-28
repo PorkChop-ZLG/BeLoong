@@ -3678,7 +3678,7 @@
         }
       }
     ],
-    "dragonsurvival:star_dragon": [
+    "star_dragon:star_dragon": [
       {
         "items": "artifacts:everlasting_beef",
         "properties": {

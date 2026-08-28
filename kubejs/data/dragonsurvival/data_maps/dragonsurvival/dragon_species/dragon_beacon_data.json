@@ -224,7 +224,7 @@
         "experience_cost": 60
       }
     },
-    "dragonsurvival:star_dragon": {
+    "star_dragon:star_dragon": {
       "effects": [
         {
           "duration": 400,

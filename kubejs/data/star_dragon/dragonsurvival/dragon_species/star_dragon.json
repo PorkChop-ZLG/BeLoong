@@ -1,0 +1,77 @@
+{
+  "abilities": "#star_dragon:star_dragon",
+  "mana_handling": {
+    "mana_per_level": 0.2,
+    "mana_xp_conversion": 0,
+    "max_mana_from_levels": 20
+  },
+  "custom_stage_progression": [
+    "star_dragon:stardust",
+    "star_dragon:nebula",
+    "star_dragon:nova",
+    "star_dragon:stellar"
+  ],
+  "misc_resources": {
+    "ability_bar": "star_dragon:textures/gui/custom/casting_bars/star/cast_bar.png",
+    "altar_banner": "star_dragon:textures/gui/custom/altar/star/altar.png",
+    "food_sprites": "star_dragon:textures/gui/custom/food_icons/star_food_icons.png",
+    "food_tooltip": {
+      "font": "star_dragon:food_tooltip_icon_font",
+      "nutrition_icon": "\\uEA07",
+      "saturation_icon": "\\uEA08"
+    },
+    "growth_crystal": {
+      "empty": "star_dragon:textures/gui/custom/stage/star/point_main.png",
+      "full": "star_dragon:textures/gui/custom/stage/star/point_hover.png"
+    },
+    "growth_left_arrow": {
+      "hover_icon": "star_dragon:textures/gui/custom/stage/star/left_arrow_hover.png",
+      "icon": "star_dragon:textures/gui/custom/stage/star/left_arrow_main.png"
+    },
+    "growth_right_arrow": {
+      "hover_icon": "star_dragon:textures/gui/custom/stage/star/right_arrow_hover.png",
+      "icon": "star_dragon:textures/gui/custom/stage/star/right_arrow_main.png"
+    },
+    "mana_sprites": {
+      "empty": "star_dragon:textures/gui/custom/mana_icons/star/empty.png",
+      "full": "star_dragon:textures/gui/custom/mana_icons/star/full.png",
+      "recovery": "star_dragon:textures/gui/custom/mana_icons/star/recovery.png",
+      "reserved": "star_dragon:textures/gui/custom/mana_icons/star/reserved.png"
+    },
+    "primary_color": "#2E2888",
+    "secondary_color": "#C6BDFF"
+  },
+  "penalties": "#star_dragon:star_dragon",
+  "unlockable_behavior": {
+    "visibility": "visible_if_locked",
+    "unlock_condition": {
+      "condition": "any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/finish_beginner_tutorial": true
+              }
+            }
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "beloong:beloong/skip_beginner_tutorial": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
