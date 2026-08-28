@@ -1,0 +1,729 @@
+	["Item Settings"."General Item Settings"]
+		#允许灵魂巨剑格挡/弹反能力
+		"Allow Soul Great Sword Parry Ability" = true
+
+	["Item Settings"."The Tesseract"]
+		#超立方体伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Tesseract Damage multiplier" = 1.0
+		#超立方体技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Tesseract Ability Damage multiplier" = 1.0
+		#超立方体速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Tesseract Speed multiplier" = 1.0
+		#超立方体范围倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Tesseract Range multiplier" = 1.0
+
+	["Item Settings"."Fiery Jaw"]
+		#炽火之颚伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Fiery Jaw Damage multiplier" = 1.0
+		#炽火之颚技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Fiery Jaw Ability Damage multiplier" = 1.0
+		#炽火之颚速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Fiery Jaw Speed multiplier" = 1.0
+
+	["Item Settings"."Spiky Shield"]
+		#尖刺之盾伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Spiky Shield Damage multiplier" = 1.0
+
+	["Item Settings"."Buckler Of Annihilation"]
+		#湮灭圆盾斩击伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Buckler Of Annihilation Slash Damage multiplier" = 1.0
+		#湮灭圆盾爆弹伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Buckler Of Annihilation Bomb Damage multiplier" = 1.0
+
+	["Item Settings"."Knights Sword"]
+		#骑士长铗伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Knights Sword Damage multiplier" = 1.0
+		#骑士长铗速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Knights Sword Speed multiplier" = 1.0
+
+	["Item Settings"."Guards Axe"]
+		#守卫斧伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Guards Axe Damage multiplier" = 1.0
+		#守卫斧范围倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Guards Axe Range multiplier" = 1.0
+		#守卫斧速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Guards Axe Speed multiplier" = 1.0
+
+	["Item Settings"."Somber Key"]
+		#阴沉钥匙伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Somber Key Damage multiplier" = 1.0
+		#阴沉钥匙速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Somber Key Speed multiplier" = 1.0
+
+	["Item Settings"."Anchor Handle"]
+		#锚把手伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Anchor Handle Damage multiplier" = 1.0
+		#锚把手速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Anchor Handle Speed multiplier" = 1.0
+
+	["Item Settings"."Monstrous Anchor"]
+		#怪怖之锚伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Monstrous Anchor Damage multiplier" = 1.0
+		#怪怖之锚技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Monstrous Anchor Ability Damage multiplier" = 1.0
+		#怪怖之锚速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Monstrous Anchor Speed multiplier" = 1.0
+		#怪怖之锚范围倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Monstrous Anchor Range multiplier" = 1.0
+
+	["Item Settings"."Resurrected Javelin"]
+		#复生长戟伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Resurrected Javelin Damage multiplier" = 1.0
+		#复生长戟速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Resurrected Javelin Speed multiplier" = 1.0
+		#复生长戟范围倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Resurrected Javelin Range multiplier" = 1.0
+
+	["Item Settings"."Shattered Great Sword"]
+		#碎裂巨剑伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Shattered Great Sword Damage Multiplier" = 1.0
+		#碎裂巨剑速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Shattered Great Sword Speed multiplier" = 1.0
+		#碎裂巨剑范围倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Shattered Great Sword Range multiplier" = 1.0
+
+	["Item Settings"."Wand Of Clouds"]
+		#层云叠杖伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Wand Of Clouds Damage multiplier" = 1.0
+		#层云叠杖技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Wand Of Clouds Ability Damage multiplier" = 1.0
+		#层云叠杖速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Wand Of Clouds Speed multiplier" = 1.0
+
+	["Item Settings"."Mossy Hammer"]
+		#覆藓磐锤伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Mossy Hammer multiplier" = 1.0
+		#覆藓磐锤技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Mossy Hammer Ability Damage multiplier" = 1.0
+		#覆藓磐锤速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Mossy Hammer Speed multiplier" = 1.0
+
+	["Item Settings"."Chorus Blade"]
+		#紫颂之刃伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Chorus Blade multiplier" = 1.0
+		#紫颂之刃速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Chorus Blade Speed multiplier" = 1.0
+
+	["Item Settings"."Soul Great Sword"]
+		#灵魂巨剑伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Soul Great Sword Damage multiplier" = 1.0
+		#灵魂巨剑技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Soul Great Sword Ability Damage multiplier" = 1.0
+		#灵魂巨剑速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Soul Great Sword Speed multiplier" = 1.0
+		#灵魂巨剑范围倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Soul Great Sword Range multiplier" = 1.0
+
+	["Item Settings"."Dinosaur Bone Club"]
+		#恐龙骨槌伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Dinosaur Bone Club Damage multiplier" = 1.0
+		#恐龙骨槌技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Dinosaur Bone Club Ability Damage multiplier" = 1.0
+		#恐龙骨槌速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Dinosaur Bone Club Speed multiplier" = 1.0
+
+	["Item Settings"."Axe Of Lightning"]
+		#雷霆之钺伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Axe Of Lightning Damage multiplier" = 1.0
+		#雷霆之钺落雷伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Axe Of Lightning Bolt Damage multiplier" = 1.0
+		#雷霆之钺速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Axe Of Lightning Speed multiplier" = 1.0
+
+	["Item Settings"."The Great Frost"]
+		#巨寒之霜伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Great Frost Damage multiplier" = 1.0
+		#巨寒之霜技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Great Frost Ability Damage multiplier" = 1.0
+		#巨寒之霜速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Great Frost Speed multiplier" = 1.0
+
+	["Item Settings"."Withered Scythe"]
+		#凋零之镰伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Withered Scythe Damage multiplier" = 1.0
+		#凋零之镰技能伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Withered Scythe Ability Damage multiplier" = 1.0
+		#凋零之镰速度倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Withered Scythe Speed multiplier" = 1.0
+
+	["Item Settings"."Atom Splitter"]
+		#原子分裂器伤害倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Atom Splitter Damage multiplier" = 1.0
+
+	["Mob Settings"."General Settings"]
+		#允许镜头震动
+		"Allow Camera Shake" = true
+		#允许镜头缩放
+		"Allow Camera Zoom" = true
+		#小 Boss 单次伤害上限
+		# 默认：21
+		# 范围：0 ~ 1000
+		"MiniBoss DamageCap" = 21
+		#允许 Boss 打断玩家进食
+		"Allow Bosses cancel eating" = true
+		#允许骑士召唤物主动攻击
+		"Allow Knight Summons Initiate Attack" = true
+		#允许 Boss 削减玩家抗性效果
+		"Allow Bosses to reduce player's resistance effect" = true
+		#允许自定义 Boss 血条
+		"Allow Custom Boss Bars" = true
+		#例如：Boss 团灭玩家回血后，会回到之前的阶段
+		"Allow Boss phase reset" = true
+		#允许 Boss 脱战自愈
+		"Allow Bosses Natural Healing" = true
+		#允许 Boss 音乐
+		"Allow Boss Music" = true
+		#如果 Boss 没有目标且距离出生点超过 15 格，会传送回出生点；小 Boss 同样适用。
+		"Allow Bosses and Mini Bosses teleport back to their spawn Position" = true
+		#Boss 音乐音量倍率
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Boss Music Volume Multiplier" = 1.0
+		#允许坠落云粒子
+		"Allow Falling Cloud Particles" = true
+		#允许双人组 Boss 在队友死亡且无目标时复活队友
+		"Allow duo boss respawn teammate" = true
+
+	["Mob Settings"."Chorusling Settings"]
+		#提高紫颂灵造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Chorusling Damage Multiplier" = 1.0
+		#提高紫颂灵的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Chorusling Health Multiplier" = 1.0
+
+	["Mob Settings"."Endersent Settings"]
+		#提高紫颂遣使造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Endersent Damage Multiplier" = 1.0
+		#提高紫颂遣使的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Endersent Health Multiplier" = 1.0
+
+	["Mob Settings"."Spiky Worm Settings"]
+		#提高尖刺蠕虫造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Spiky Worm Damage Multiplier" = 1.0
+		#提高尖刺蠕虫的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Spiky Worm Health Multiplier" = 1.0
+
+	["Mob Settings"."Ambusher Settings"]
+		#提高暗伏者造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Ambusher Damage Multiplier" = 1.0
+		#提高暗伏者的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Ambusher Health Multiplier" = 1.0
+		#允许/禁用暗伏者的弹射物伤害
+		"Allow Ambusher Projectile Immunity" = true
+
+	["Mob Settings"."Stratling Settings"]
+		#提高惊灵造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Stratling Damage Multiplier" = 1.0
+		#提高惊灵的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Stratling Health Multiplier" = 1.0
+
+	["Mob Settings"."Hovering Hurricane Settings"]
+		#提高飓旋造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Hovering Hurricane Damage Multiplier" = 1.0
+		#提高飓旋的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Hovering Hurricane Health Multiplier" = 1.0
+
+	["Mob Settings"."Ancient Guardian Settings"]
+		#提高荒古守卫者造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Ancient Guardian Damage Multiplier" = 1.0
+		#提高荒古守卫者的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Ancient Guardian Health Multiplier" = 1.0
+		#允许/禁用荒古守卫者的眩晕能力。§c注意：禁用可能会让 Boss 战变得无聊。
+		"Allow Ancient Guardian Stun Ability" = true
+		#允许/禁用荒古守卫者的弹射物伤害
+		"Allow Ancient Guardian Projectile Immunity" = true
+
+	["Mob Settings"."Haunted Knight Settings"]
+		#提高缠魂骑士造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Haunted Knight Damage Multiplier" = 1.0
+		#提高缠魂骑士的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Haunted Knight Health Multiplier" = 1.0
+		#允许/禁用缠魂骑士的弹射物免疫
+		"Allow Haunted Knight Projectile Immunity" = true
+
+	["Mob Settings"."Tamable Knight Settings"]
+		#提高可驯服骑士造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Tamable Knight Damage Multiplier" = 1.0
+		#提高可驯服骑士的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Tamable Knight Health Multiplier" = 1.0
+		#提高骑士造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 100.0
+		"Knight Damage Multiplier" = 1.0
+		#提高骑士的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 100.0
+		"Knight Health Multiplier" = 1.0
+
+	["Mob Settings"."Tamable Guard Settings"]
+		#提高可驯服守卫造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Tamable Guard Damage Multiplier" = 1.0
+		#提高可驯服守卫的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Tamable Guard Health Multiplier" = 1.0
+		#提高守卫造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Guard Damage Multiplier" = 1.0
+		#提高守卫的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Guard Health Multiplier" = 1.0
+
+	["Mob Settings"."Fractured Apostle Settings"]
+		#提高碎裂使徒造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Fractured Apostle Damage Multiplier" = 1.0
+		#提高碎裂使徒的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Fractured Apostle Health Multiplier" = 1.0
+
+	["Mob Settings"."Fractured Settings"]
+		#提高碎裂者造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Fractured Damage Multiplier" = 1.0
+		#提高碎裂者的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Fractured Health Multiplier" = 1.0
+
+	["Mob Settings"."Haunted Guard Settings"]
+		#提高缠魂守卫造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Haunted Guard Damage Multiplier" = 1.0
+		#提高缠魂守卫的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Haunted Guard Health Multiplier" = 1.0
+		#允许/禁用缠魂守卫的弹射物免疫
+		"Allow Haunted Guard Projectile Immunity" = true
+
+	["Mob Settings"."Posessed Paladin Settings"]
+		#提高堕落圣骑造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Posessed Paladin Damage Multiplier" = 1.0
+		#提高堕落圣骑的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Posessed Paladin Health Multiplier" = 1.0
+		#单次伤害上限
+		# 默认：21.0
+		# 范围：0.0 ~ 1000.0
+		"Damage Cap" = 21.0
+		#允许/禁用堕落圣骑的弹射物免疫
+		"Allow Posessed Paladin Projectile Immunity" = true
+		#允许堕落圣骑的无敌帧
+		"Allow Possesed Paladin Invulnerability Time" = true
+
+	["Mob Settings"."Beheaded Knight Settings"]
+		#提高无头骑士造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Beheaded Knight Damage Multiplier" = 1.0
+		#提高无头骑士的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Beheaded Knight Health Multiplier" = 1.0
+
+	["Mob Settings"."Resurrected Knight Settings"]
+		#提高复生骑士造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Resurrected Knight Damage Multiplier" = 1.0
+		#提高复生骑士的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Resurrected Knight Health Multiplier" = 1.0
+
+	["Mob Settings"."Overgrown Colosuss Settings"]
+		#提高蔓生巨像造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Overgrown Colosuss Damage Multiplier" = 1.0
+		#提高蔓生巨像的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Overgrown Colosuss Health Multiplier" = 1.0
+		#允许/禁用蔓生巨像的眩晕能力。§c注意：禁用可能会让 Boss 战变得无聊。
+		"Allow Overgrown Colosuss Stun Ability" = true
+		#允许/禁用蔓生巨像的弹射物免疫
+		"Allow Overgrown Colosuss Projectile Immunity" = true
+
+	["Mob Settings"."Mossy Golem Settings"]
+		#提高覆藓傀儡造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Mossy Golem Damage Multiplier" = 1.0
+		#提高覆藓傀儡的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Mossy Golem Health Multiplier" = 1.0
+
+	["Mob Settings"."Cloud Golem Settings"]
+		#提高云筑魔像造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Cloud Golem Damage Multiplier" = 1.0
+		#提高云筑魔像的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Cloud Golem Health Multiplier" = 1.0
+		#允许云筑魔像的弹射物伤害
+		"Allow Cloud Golem Projectile Damage" = false
+		#允许云筑魔像的弹射物免疫冷却伤害
+		"Allow Projectile Immunity cooldown Damage" = true
+		#云筑魔像激光攻击后会短暂失神
+		"Allow Cloud Golem Loses Consciousness" = true
+		#云筑魔像低血量时未命中可再冲锋一次
+		"Allow Cloud Golem Charge once More" = true
+		#允许/禁用云筑魔像的无敌帧（避免被帧伤武器 0.5 秒秒杀）
+		"Allow Cloud Golem Invulnerability Time" = true
+		#云筑魔像单次可受到的最大伤害
+		# 默认：18.0
+		# 范围：0.0 ~ 1000.0
+		"Cloud Golem Damage Cap" = 18.0
+
+	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
+		#提高坠落云造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Falling Cloud Damage Multiplier" = 1.0
+
+	["Mob Settings"."Frostbitten Golem Settings"]
+		#提高霜冻傀儡造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Frostbitten Golem Damage Multiplier" = 1.0
+		#提高霜冻傀儡的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Frostbitten Golem Health Multiplier" = 1.0
+		#允许/禁用霜冻傀儡的弹射物免疫
+		"Allow Frostbitten Golem Projectile Immunity" = true
+
+	["Mob Settings"."Dune Sentinel Settings"]
+		#提高沙丘哨兵造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Dune Sentinel Damage Multiplier" = 1.0
+		#提高沙丘哨兵的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Dune Sentinel Health Multiplier" = 1.0
+		#允许/禁用沙丘哨兵的弹射物免疫
+		"Allow Dune Sentinel Projectile Immunity" = true
+		#提高崩魔苦力怕造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Bomber Damage Multiplier" = 1.0
+		#提高崩魔苦力怕的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Bomber Health Multiplier" = 1.0
+
+	["Mob Settings"."Skeletosaurus Settings"]
+		#提高骸骨巨龙造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Skeletosaurus Damage Multiplier" = 1.0
+		#提高骸骨巨龙的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Skeletosaurus Health Multiplier" = 1.0
+
+	["Mob Settings"."Lava Eater Settings"]
+		#提高噬焰蜥造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Lava Eater Damage Multiplier" = 1.0
+		#提高噬焰蜥的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Lava Eater Health Multiplier" = 1.0
+		#禁用/允许噬焰蜥的弹射物免疫
+		"Allow Lava Eater Projectile Immunity" = true
+
+	["Mob Settings"."Warped Fungussus Settings"]
+		#提高诡疑君造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Warped Fungussus Damage Multiplier" = 1.0
+		#提高诡疑君的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Warped Fungussus Health Multiplier" = 1.0
+
+	["Mob Settings"."Withered Abomination Settings"]
+		#提高凋零恶煞造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Withered Abomination Damage Multiplier" = 1.0
+		#提高凋零恶煞的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Withered Abomination Health Multiplier" = 1.0
+		#允许/禁用凋零恶煞的眩晕能力
+		"Allow Withered Abomination Stun Ability" = false
+
+	["Mob Settings"."Shulker Mimic Settings"]
+		#提高潜影拟态者造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Shulker Mimic Damage Multiplier" = 1.0
+		#提高潜影拟态者的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Shulker Mimic Health Multiplier" = 1.0
+		#允许/禁用潜影拟态者的弹射物免疫
+		"Allow Shulker Mimic Projectile Immunity" = true
+
+	["Mob Settings"."Skeloraptor Settings"]
+		#提高骸骨幼龙造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Skeloraptor Damage Multiplier" = 1.0
+		#提高骸骨幼龙的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Skeloraptor Health Multiplier" = 1.0
+
+	["Mob Settings"."Flameborn Guard Settings"]
+		#提高淬焰守卫造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Flameborn Guard Damage Multiplier" = 1.0
+		#提高淬焰守卫的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Flameborn Guard Health Multiplier" = 1.0
+
+	["Mob Settings"."Flameborn Warrior Settings"]
+		#提高淬焰战士造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Flameborn Guard Damage Multiplier" = 1.0
+		#提高淬焰战士的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Flameborn Guard Health Multiplier" = 1.0
+
+	["Mob Settings"."Annihilation Pursuer Settings"]
+		#提高湮灭猎影造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Annihilation Pursuer Damage Multiplier" = 1.0
+		#提高湮灭猎影的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Annihilation Pursuer Health Multiplier" = 1.0
+
+	["Mob Settings"."The Obliterator Settings"]
+		#提高湮灭构造体造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Obliterator Damage Multiplier" = 1.0
+		#提高湮灭构造体的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"The Obliterator Health Multiplier" = 1.0
+		#越大，伤害适应越强
+		# 默认：1
+		# 范围：0 ~ 1000
+		"The Obliterator Damage Adaptation Multiplier" = 1
+		#单次伤害上限
+		# 默认：20.0
+		# 范围：0.0 ~ 1000.0
+		DamageCap = 20.0
+		#开关湮灭构造体的无敌帧保护
+		"The Obliterator Invulnerability Time" = true
+		#增大/减小“防高空逃课”距离：Boss 在玩家占据高地时无敌，默认 Boss 下方 -4、上方 +4；修改该值会同时改变上下范围。
+		# 默认：3
+		# 范围：0 ~ 1000
+		"Protection against airborne cheese" = 3
+		#开关湮灭构造体命中后施加的“湮灭”减益（可叠加，降低攻击速度）
+		"The Obliterator Annihilation Debuff Effect" = false
+		#开关湮灭构造体一阶段弹射物免疫
+		"ON/OFF The Obliterator Projectile immunity in first Phase" = true
+		#湮灭构造体克隆体（拳头）伤害百分比
+		# 默认：7
+		# 范围：0 ~ 1000
+		"% Damage for Obliterator's clones(punching)" = 7
+		#湮灭构造体传送门伤害百分比
+		# 默认：5
+		# 范围：0 ~ 1000
+		"% Damage for Obliterator's portals" = 5
+		#湮灭构造体传送门爆炸伤害百分比
+		# 默认：3
+		# 范围：0 ~ 1000
+		"% Damage for Obliterator's portal Explosion" = 3
+
+	["Mob Settings"."Flame Drifter Settings"]
+		#提高流焰重炮造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Flame Drifter Damage Multiplier" = 1.0
+		#提高流焰重炮的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Flame Drifter Health Multiplier" = 1.0
+
+	["Mob Settings"."Wandering Eye Settings"]
+		#提高飘荡魔眼造成的伤害
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Wandering Eye Damage Multiplier" = 1.0
+		#提高飘荡魔眼的生命值
+		# 默认：1.0
+		# 范围：0.0 ~ 1000.0
+		"Wandering Eye Health Multiplier" = 1.0
