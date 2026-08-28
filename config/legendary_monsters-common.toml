@@ -476,15 +476,15 @@
 		#Multiplies damage dealt by Posessed Paladin
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Posessed Paladin Damage Multiplier" = 1.0
+		"Posessed Paladin Damage Multiplier" = 16.0
 		#Multiplies health of Posessed Paladin.
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Posessed Paladin Health Multiplier" = 1.0
+		"Posessed Paladin Health Multiplier" = 17.5
 		#Damage Cap
 		# Default: 21.0
 		# Range: 0.0 ~ 1000.0
-		"Damage Cap" = 21.0
+		"Damage Cap" = 1000.0
 		#Enables/Disables Projectile Immunity for Posessed Paladin
 		"Allow Posessed Paladin Projectile Immunity" = true
 		#Allow Possesed Paladin Invulnerability Time
@@ -538,7 +538,7 @@
 		#Multiplies damage dealt by Falling Cloud
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Falling Cloud Damage Multiplier" = 12.5
+		"Falling Cloud Damage Multiplier" = 1.0
 
 	["Mob Settings"."Frostbitten Golem Settings"]
 		#Multiplies damage dealt by Frostbitten Golem
@@ -672,11 +672,11 @@
 		#Multiplies damage dealt by The Obliterator
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"The Obliterator Damage Multiplier" = 1.0
+		"The Obliterator Damage Multiplier" = 20.0
 		#Multiplies Health of The Obliterator
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"The Obliterator Health Multiplier" = 1.0
+		"The Obliterator Health Multiplier" = 18.0
 		#The bigger it is the stronger the Damage Adaptation is
 		# Default: 1
 		# Range: 0 ~ 1000
@@ -684,13 +684,13 @@
 		#DamageCap
 		# Default: 20.0
 		# Range: 0.0 ~ 1000.0
-		DamageCap = 20.0
+		DamageCap = 1000.0
 		#ON/OFF Obliterator I Frame protection
 		"The Obliterator Invulnerability Time" = true
 		#Increases/Decreases Anti Cheese(Airborne Variation) distance which makes the Boss invulnerable when player has a high ground, default is -4 below the boss and 4 above. chaning the value will change both '-' and '+' values.
 		# Default: 3
 		# Range: 0 ~ 1000
-		"Protection against airborne cheese" = 3
+		"Protection against airborne cheese" = 8
 		#ON/OFF Annihilation effect that The Obliterator Inflicts after hitting you, it's a stacking debuff that reduces your attack speed.
 		"The Obliterator Annihilation Debuff Effect" = false
 		#ON/OFF The Obliterator Projectile immunity in first Phase
