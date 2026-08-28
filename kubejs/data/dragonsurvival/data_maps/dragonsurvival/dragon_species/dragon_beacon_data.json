@@ -210,14 +210,10 @@
     },
     "dragonsurvival:frostfire_dragon": {
       "effects": [
-        {
-          "duration": 400,
-          "effect": "dragonsurvival:cave_fire"
-        },
-        {
-          "duration": 400,
-          "effect": "dragonsurvival:sturdy_skin"
-        },
+				{
+					"duration": 400,
+					"effect": "frostfire_dragon:reverse_erosion"
+				},
         {
           "duration": 400,
           "effect": "dragonsurvival:empowered_soul"

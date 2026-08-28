@@ -3,7 +3,19 @@
 	#Health of the Dark Doppelganger
 	# Default: 600.0
 	# Range: 1.0 ~ 100000.0
-	health = 5000.0
+	health = 600.0
+	#Attack Damage of the Dark Doppelganger
+	# Default: 10.0
+	# Range: 0.1 ~ 1000.0
+	attack_damage = 10.0
+	#Movement Speed of the Dark Doppelganger
+	# Default: 0.2
+	# Range: 0.01 ~ 2.0
+	movement_speed = 0.2
+	#Knockback Resistance of the Dark Doppelganger
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	knockback_resistance = 0.6
 	#Armor of the Dark Doppelganger
 	# Default: 10.0
 	# Range: 0.0 ~ 100.0
@@ -11,30 +23,9 @@
 	#Follow Range of the Dark Doppelganger
 	# Default: 64.0
 	# Range: 1.0 ~ 256.0
-	follow_range = 128.0
-	#Movement Speed of the Dark Doppelganger
-	# Default: 0.2
-	# Range: 0.01 ~ 2.0
-	movement_speed = 0.25
-	#Knockback Resistance of the Dark Doppelganger
-	# Default: 0.6
-	# Range: 0.0 ~ 1.0
-	knockback_resistance = 1.0
-	#Attack Damage of the Dark Doppelganger
-	# Default: 10.0
-	# Range: 0.1 ~ 1000.0
-	attack_damage = 150.0
+	follow_range = 64.0
 	#Hard mode of the Dark Doppelganger
-	hard_mode = true
-	#Armor item IDs the boss is NOT allowed to copy from the player. Supports wildcard with * suffix.
-	#Examples:
-	#minecraft:netherite_helmet
-	#irons_spellbooks:*
-	banned_armor = ["minecraft:netherite_helmet"]
-	#Scales all Iron's Spellbooks spell power attributes copied from the summoner. 1.0 = no change.
-	# Default: 1.0
-	# Range: 0.0 ~ 100.0
-	doppelgangerSpellPowerMultiplier = 1.5
+	hard_mode = false
 	#If true, the boss will copy the player's armor unless the armor is banned or missing. If false, the boss will always use the configured default armor set.
 	copy_player_armor = true
 	#If true, the boss will copy the player's main hand item. If false, it will always use the configured default main hand item.
@@ -49,6 +40,15 @@
 	default_leggings = "irons_spellbooks:netherite_mage_leggings"
 	#Default boots item ID used when the boss should not copy the player's boots.
 	default_boots = "irons_spellbooks:netherite_mage_boots"
+	#Armor item IDs the boss is NOT allowed to copy from the player. Supports wildcard with * suffix.
+	#Examples:
+	#minecraft:netherite_helmet
+	#irons_spellbooks:*
+	banned_armor = ["minecraft:netherite_helmet"]
+	#Scales all Iron's Spellbooks spell power attributes copied from the summoner. 1.0 = no change.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	doppelgangerSpellPowerMultiplier = 1.0
 
 	[dark_doppelganger.phase1]
 		spells_a = ["irons_spellbooks:guiding_bolt", "irons_spellbooks:blood_needles", "irons_spellbooks:blood_slash"]
@@ -69,29 +69,34 @@
 		spells_d = ["irons_spellbooks:evasion", "irons_spellbooks:echoing_strikes"]
 
 	[dark_doppelganger.final]
-		spells_a = ["irons_spellbooks:eldritch_blast", "irons_spellbooks:sonic_boom", "irons_spellbooks:ray_of_frost", "irons_spellbooks:sculk_tentacles"]
-		spells_b = ["irons_spellbooks:ascension", "irons_spellbooks:ray_of_siphoning"]
+		spells_a = ["irons_spellbooks:eldritch_blast", "irons_spellbooks:sonic_boom", "irons_spellbooks:abyssal_shroud", "irons_spellbooks:ray_of_frost", "irons_spellbooks:sculk_tentacles"]
+		spells_b = ["irons_spellbooks:ascension", "irons_spellbooks:abyssal_shroud"]
 		spells_c = ["irons_spellbooks:blood_step"]
-		spells_d = ["irons_spellbooks:echoing_strikes", "irons_spellbooks:root", "irons_spellbooks:blight", "irons_spellbooks:counterspell"]
+		spells_d = ["irons_spellbooks:abyssal_shroud", "irons_spellbooks:echoing_strikes", "irons_spellbooks:root", "irons_spellbooks:blight"]
+
+#Summoning Configuration
+[summoning]
+	#When true, the Shadow Altar can only summon the Dark Doppelganger in The End
+	altar_end_only = true
 
 #Minion Configuration
 [minion]
 	#Base max health for minions
 	# Default: 40.0
 	# Range: 1.0 ~ 1000.0
-	health = 1000.0
+	health = 40.0
 	#Base attack damage for minions
 	# Default: 6.0
 	# Range: 0.1 ~ 100.0
-	attack_damage = 50.0
+	attack_damage = 6.0
 	#Base movement speed for minions
 	# Default: 0.28
 	# Range: 0.01 ~ 2.0
-	movement_speed = 0.4
+	movement_speed = 0.28
 	#Base armor for minions
 	# Default: 4.0
 	# Range: 0.0 ~ 100.0
-	armor = 10.0
+	armor = 4.0
 	#Spell used for the minion barrage goal. Must be a valid spell id.
 	#Example: irons_spellbooks:devour
 	barrage_spell = "irons_spellbooks:devour"
