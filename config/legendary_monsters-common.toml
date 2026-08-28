@@ -382,11 +382,11 @@
 		#Multiplies damage dealt by Ancient Guardian
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Ancient Guardian Damage Multiplier" = 1.0
+		"Ancient Guardian Damage Multiplier" = 8.0
 		#Multiplies health of Ancient Guardian
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Ancient Guardian Health Multiplier" = 1.0
+		"Ancient Guardian Health Multiplier" = 18.0
 		#Enables/Disables Stun Ability for Ancient Guardian. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Ancient Guardian Stun Ability" = true
 		#Enables/Disables Projectile Damage for Ancient Guardian
@@ -514,11 +514,11 @@
 		#Multiplies damage dealt by Overgrown Colosuss
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Overgrown Colosuss Damage Multiplier" = 1.0
+		"Overgrown Colosuss Damage Multiplier" = 10.0
 		#Multiplies health of Overgrown Colosuss
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Overgrown Colosuss Health Multiplier" = 1.0
+		"Overgrown Colosuss Health Multiplier" = 16.0
 		#Enables/Disables Stun Ability for Overgrown Colosuss. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Overgrown Colosuss Stun Ability" = true
 		#Enables/Disables Projectile Immunity for Overgrown Colosuss
@@ -544,11 +544,11 @@
 		#Multiplies damage dealt by Frostbitten Golem
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Frostbitten Golem Damage Multiplier" = 1.0
+		"Frostbitten Golem Damage Multiplier" = 9.0
 		#Multiplies health of Frostbitten Golem
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Frostbitten Golem Health Multiplier" = 1.0
+		"Frostbitten Golem Health Multiplier" = 11.0
 		#Enables/Disables Projectile Immunity for Frostbitten Golem
 		"Allow Frostbitten Golem Projectile Immunity" = true
 
@@ -556,21 +556,21 @@
 		#Multiplies damage dealt by Dune Sentinel
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Dune Sentinel Damage Multiplier" = 1.0
+		"Dune Sentinel Damage Multiplier" = 8.0
 		#Multiplies health of Dune Sentinel
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Dune Sentinel Health Multiplier" = 1.0
+		"Dune Sentinel Health Multiplier" = 12.0
 		#Enables/Disables Projectile Immunity for Dune Sentinel
 		"Allow Dune Sentinel Projectile Immunity" = true
 		#Multiplies damage dealt by Bomber
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Bomber Damage Multiplier" = 1.0
+		"Bomber Damage Multiplier" = 8.0
 		#Multiplies health of Bomber
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Bomber Health Multiplier" = 1.0
+		"Bomber Health Multiplier" = 12.0
 
 	["Mob Settings"."Skeletosaurus Settings"]
 		#Multiplies damage dealt by Skeletosaurus
