@@ -330,11 +330,11 @@
 		#Multiplies damage dealt by Endersent
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Endersent Damage Multiplier" = 1.0
+		"Endersent Damage Multiplier" = 20.0
 		#Multiplies health of Endersent
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Endersent Health Multiplier" = 1.0
+		"Endersent Health Multiplier" = 21.0
 
 	["Mob Settings"."Spiky Worm Settings"]
 		#Multiplies damage dealt by Spiky Worm
@@ -620,11 +620,11 @@
 		#Multiplies damage dealt by Shulker Mimic
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Shulker Mimic Damage Multiplier" = 1.0
+		"Shulker Mimic Damage Multiplier" = 30.0
 		#Multiplies health of Shulker Mimic
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Shulker Mimic Health Multiplier" = 1.0
+		"Shulker Mimic Health Multiplier" = 22.5
 		#Enables/Disables Projectile immunity for Shulker Mimic
 		"Allow Shulker Mimic Projectile Immunity" = true
 
@@ -662,11 +662,11 @@
 		#Multiplies damage dealt by Annihilation Pursuer
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Annihilation Pursuer Damage Multiplier" = 1.0
+		"Annihilation Pursuer Damage Multiplier" = 40.0
 		#Multiplies health of Annihilation Pursuer
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
-		"Annihilation Pursuer Health Multiplier" = 1.0
+		"Annihilation Pursuer Health Multiplier" = 24.0
 
 	["Mob Settings"."The Obliterator Settings"]
 		#Multiplies damage dealt by The Obliterator

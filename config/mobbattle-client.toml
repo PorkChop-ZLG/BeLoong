@@ -1,0 +1,2 @@
+#If the team has a color will play particles of that color above the mob
+showTeamParticle = true
