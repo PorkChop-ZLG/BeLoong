@@ -1,0 +1,83 @@
+{
+  "abilities": "#dragonsurvival:night_striker",
+  "custom_stage_progression": [
+    "dragonsurvival:night_striker_newborn",
+    "dragonsurvival:night_striker_young",
+    "dragonsurvival:night_striker_adult",
+    "dragonsurvival:night_striker_ancient"
+  ],
+  "bodies": [
+    "dragonsurvival:night_striker",
+    "dragonsurvival:night_striker_female"
+  ],
+  "unlockable_behavior": {
+    "visibility": "visible_if_locked",
+    "unlock_condition": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "beloong:beloong/finish_beginner_tutorial": true,
+                "minecraft:adventure/hero_of_the_village": true
+              }
+            }
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "beloong:beloong/skip_beginner_tutorial": true,
+                "minecraft:adventure/hero_of_the_village": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "misc_resources": {
+    "ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/night_striker/cast_bar.png",
+    "altar_banner": "dragonsurvival:textures/gui/custom/altar/night_striker/altar_icon.png",
+    "food_sprites": "dragonsurvival:textures/gui/custom/food_icons/night_striker_food_icons.png",
+    "food_tooltip": {
+      "nutrition_icon": "",
+      "saturation_icon": ""
+    },
+    "growth_crystal": {
+      "empty": "dragonsurvival:textures/gui/custom/stage/night_striker/point_main.png",
+      "full": "dragonsurvival:textures/gui/custom/stage/night_striker/point_hover.png"
+    },
+    "growth_left_arrow": {
+      "hover_icon": "dragonsurvival:textures/gui/custom/stage/night_striker/left_arrow_hover.png",
+      "icon": "dragonsurvival:textures/gui/custom/stage/night_striker/left_arrow_main.png"
+    },
+    "growth_right_arrow": {
+      "hover_icon": "dragonsurvival:textures/gui/custom/stage/night_striker/right_arrow_hover.png",
+      "icon": "dragonsurvival:textures/gui/custom/stage/night_striker/right_arrow_main.png"
+    },
+    "help_button": "dragonsurvival:textures/gui/custom/help_button/forest_help_button.png",
+    "mana_sprites": {
+      "empty": "dragonsurvival:textures/gui/custom/mana_icons/night_striker/empty.png",
+      "full": "dragonsurvival:textures/gui/custom/mana_icons/night_striker/full.png",
+      "recovery": "dragonsurvival:textures/gui/custom/mana_icons/night_striker/recovery.png",
+      "reserved": "dragonsurvival:textures/gui/custom/mana_icons/night_striker/reserved.png"
+    },
+    "primary_color": "#CC4141",
+    "secondary_color": "#781111"
+  },
+  "mana_handling": {
+    "mana_per_level": 0.2,
+    "mana_xp_conversion": 0,
+    "max_mana_from_levels": 20
+  },
+  "penalties": "#dragonsurvival:night_striker"
+}

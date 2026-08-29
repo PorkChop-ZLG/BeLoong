@@ -119,6 +119,14 @@
 				0
 			],
 			"structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
+		},
+		"dragonsurvival:night_striker": {
+			"spawn_position": [
+				200,
+				50,
+				-200
+			],
+			"structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
 		}
   }
 }

@@ -1,0 +1,10 @@
+{
+  "item.ds_night_striker_addon.striker_plasma_item": "夜煞等离子体",
+  "effect.ds_night_striker_addon.i_am_striker": "我就是夜煞",
+  "gamerule.strikerPlasmaPower.description": "夜煞爆炸的威力有多大？数值越高，爆炸半径越大，击退越强。",
+  "gamerule.strikerPlasmaPower": "夜煞等离子威力",
+  "gamerule.strikerPlasmaPush": "夜煞等离子击退",
+  "gamerule.strikerPlasmaPush.description": "爆炸后生物被抛向空中的高度？",
+  "entity.ds_night_striker_addon.night_striker_plasma": "等离子体",
+  "tag.damage_type.minecraft.is_explosion": "爆炸"
+}
