@@ -1,0 +1,127 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "beautify:acacia_trellis",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "1"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_rose_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "2"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_sunflower_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "3"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_peony_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "4"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_lilac_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "5"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_vine_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "6"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_weeping_vines_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "7"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_twisting_vines_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:acacia_trellis",
+                            "properties": {
+                                "flowers": "8"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/acacia_lichen_trellis"
+                }
+            ]
+        }
+    ]
+}

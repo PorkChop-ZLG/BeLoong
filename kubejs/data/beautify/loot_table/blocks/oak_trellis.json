@@ -1,0 +1,127 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "0"
+                            }
+                        }
+                    ],
+                    "name": "beautify:oak_trellis",
+                    "type": "minecraft:item"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "1"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_rose_trellis"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "2"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_sunflower_trellis"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "3"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_peony_trellis"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "4"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_lilac_trellis"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "5"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_vine_trellis"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "6"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_weeping_vines_trellis"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "7"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_twisting_vines_trellis"
+                },
+                {
+                    "conditions": [
+                        {
+                            "block": "beautify:oak_trellis",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "flowers": "8"
+                            }
+                        }
+                    ],
+                    "type": "minecraft:loot_table",
+                    "value": "beautify:blocks/oak_lichen_trellis"
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "type": "minecraft:block"
+}

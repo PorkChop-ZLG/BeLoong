@@ -5,19 +5,6 @@
       "rolls": {
         "type": "minecraft:binomial",
         "n": 1,
-        "p": 0.01
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:abeemination"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:binomial",
-        "n": 1,
         "p": 0.1
       },
       "entries": [
