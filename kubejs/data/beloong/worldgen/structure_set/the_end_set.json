@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20260829,
+    "separation": 24,
+    "spacing": 48
+  },
+  "structures": [
+    {
+      "structure": "bosses_of_mass_destruction:gauntlet_arena",
+      "weight": 1
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "weight": 1
+    },
+    {
+      "structure": "bosses_of_mass_destruction:obsidilith_arena",
+      "weight": 1
+    }
+  ]
+}
