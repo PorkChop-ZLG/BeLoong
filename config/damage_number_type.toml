@@ -3586,6 +3586,62 @@
 			append = ""
 			format = ""
 
+	[type.annihilator_breath]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.annihilator_breath.icon]
+			tex = ""
+			item = ""
+
+		[type.annihilator_breath.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.mini_laser]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.mini_laser.icon]
+			tex = ""
+			item = ""
+
+		[type.mini_laser.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.laser]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.laser.icon]
+			tex = ""
+			item = ""
+
+		[type.laser.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.lightning_storm]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.lightning_storm.icon]
+			tex = ""
+			item = ""
+
+		[type.lightning_storm.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -4898,6 +4954,62 @@
 			item = ""
 
 		[tag."minecraft:sulfur_cube_with_block_immune_to".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."annihilator_type_a:mini_laser"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."annihilator_type_a:mini_laser".icon]
+			tex = ""
+			item = ""
+
+		[tag."annihilator_type_a:mini_laser".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."annihilator_type_a:annihilator_breath"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."annihilator_type_a:annihilator_breath".icon]
+			tex = ""
+			item = ""
+
+		[tag."annihilator_type_a:annihilator_breath".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."annihilator_type_a:laser"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."annihilator_type_a:laser".icon]
+			tex = ""
+			item = ""
+
+		[tag."annihilator_type_a:laser".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."annihilator_type_a:lightning_storm"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."annihilator_type_a:lightning_storm".icon]
+			tex = ""
+			item = ""
+
+		[tag."annihilator_type_a:lightning_storm".format]
 			prepend = ""
 			append = ""
 			format = ""
