@@ -20,11 +20,11 @@
 	#Maximum health of Azazel Human
 	# Default: 1000.0
 	# Range: 100.0 ~ 10000.0
-	humanMaxHealth = 1000.0
+	humanMaxHealth = 10000.0
 	#Movement speed of Azazel Human
 	# Default: 0.25
 	# Range: 0.05 ~ 1.0
-	humanMovementSpeed = 0.25
+	humanMovementSpeed = 0.5
 	#Knockback resistance (1.0 = completely immune)
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0

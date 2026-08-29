@@ -1,0 +1,3 @@
+[client]
+	#Allowed Values: GRAY_CAT_WORKSHOP, GLASS_DARK
+	shopUiTheme = "GLASS_DARK"
