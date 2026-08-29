@@ -1,0 +1,523 @@
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "minecraft:empty",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "irons_spellbooks:dead_king_corpse"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 20,total_mobs: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "minecraft:empty",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "eternal_starlight:starlight_golem"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "iceandfire:chest/dread_key",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "iceandfire:dread_lich"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "minecraft:empty",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "iceandfire:gorgon"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "dragonsurvival:chests/dragon_chest_loot",weight: 1
+                }
+            ],simultaneous_mobs: 2.0f,simultaneous_mobs_added_per_player: 1.0f,spawn_potentials: [
+                {data: {entity: {id: "dragonsurvival:hunter_spearman"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 20,total_mobs: 4.0f,total_mobs_added_per_player: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "dragonsurvival:chests/dragon_chest_loot",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 1.0f,spawn_potentials: [
+                {data: {entity: {id: "dragonsurvival:hunter_knight"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 20,total_mobs: 1.0f,total_mobs_added_per_player: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "dragonsurvival:chests/dragon_chest_loot",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "dragonsurvival:hunter_ambusher"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "minecraft:empty",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "mowziesmobs:ferrous_wroughtnaut"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "minecraft:empty",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "mowziesmobs:frostmaw"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "minecraft:empty",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "mowziesmobs:umvuthi"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+give @p minecraft:trial_spawner[block_entity_data={id: "minecraft:trial_spawner",normal_config: {loot_tables_to_eject: [
+                {data: "minecraft:empty",weight: 1
+                }
+            ],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {data: {entity: {id: "mowziesmobs:sculptor"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+
+give @p minecraft:trial_spawner[
+    block_entity_data={
+        id: "minecraft:trial_spawner",normal_config: {
+            loot_tables_to_eject: [
+                {
+                    data: "minecraft:spawners/ominous/trial_chamber/key",weight: 1
+                }
+            ],
+            simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [
+                {
+                    data: {
+                        entity: {
+                            id: "terra_entity:eater_of_worlds"
+                        }
+                    },weight: 1
+                }
+            ],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f
+        }
+    }
+]
+
+give @p minecraft:trial_spawner[block_entity_data={
+    id: "minecraft:trial_spawner",
+    normal_config: {loot_tables_to_eject: [{data: "terra_entity:spawners/trial_chamber/king_slime",weight: 1}],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [{data: {entity: {id: "terra_entity:king_slime"}},weight: 1}],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f},
+    ominous_config: {loot_tables_to_eject: [{data: "terra_entity:spawners/ominous/trial_chamber/king_slime",weight: 1}],simultaneous_mobs: 1.0f,simultaneous_mobs_added_per_player: 0.0f,spawn_potentials: [{data: {entity: {id: "terra_entity:king_slime"}},weight: 1}],spawn_range: 1,ticks_between_spawn: 1200,total_mobs: 1.0f}
+    }
+]
+
+// 史莱姆王，常态残血普通奖励，不祥满血始祖龙心
+give @p minecraft:trial_spawner[block_entity_data={
+id:"minecraft:trial_spawner",
+normal_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/trial_chamber/king_slime",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:king_slime"
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:1200,
+    total_mobs:1.0f
+},
+ominous_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/ominous/trial_chamber/king_slime",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:king_slime",
+                    active_effects:[
+                        {
+                            id:"minecraft:instant_health",
+                            amplifier:4,
+                            duration:200
+                        }
+                    ]
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:200,
+    total_mobs:1.0f
+}
+}]
+
+// 克苏鲁之眼
+give @p minecraft:trial_spawner[block_entity_data={
+id:"minecraft:trial_spawner",
+normal_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/trial_chamber/eye_of_cthulhu",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:eye_of_cthulhu"
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:1200,
+    total_mobs:1.0f
+},
+ominous_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/ominous/trial_chamber/eye_of_cthulhu",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:eye_of_cthulhu",
+                    active_effects:[
+                        {
+                            id:"minecraft:instant_health",
+                            amplifier:4,
+                            duration:200
+                        }
+                    ]
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:200,
+    total_mobs:1.0f
+}
+}]
+
+// 克苏鲁之脑
+give @p minecraft:trial_spawner[block_entity_data={
+id:"minecraft:trial_spawner",
+normal_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/trial_chamber/brain_of_cthulhu",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:brain_of_cthulhu"
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:1200,
+    total_mobs:1.0f
+},
+ominous_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/ominous/trial_chamber/brain_of_cthulhu",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:brain_of_cthulhu",
+                    active_effects:[
+                        {
+                            id:"minecraft:instant_health",
+                            amplifier:4,
+                            duration:200
+                        }
+                    ]
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:200,
+    total_mobs:1.0f
+}
+}]
+
+// 世界吞噬怪
+give @p minecraft:trial_spawner[block_entity_data={
+id:"minecraft:trial_spawner",
+normal_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/trial_chamber/eater_of_worlds",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:eater_of_worlds"
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:1200,
+    total_mobs:1.0f
+},
+ominous_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/ominous/trial_chamber/eater_of_worlds",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:eater_of_worlds",
+                    active_effects:[
+                        {
+                            id:"minecraft:instant_health",
+                            amplifier:4,
+                            duration:200
+                        }
+                    ]
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:200,
+    total_mobs:1.0f
+}
+}]
+
+// 蜂王
+give @p minecraft:trial_spawner[block_entity_data={
+id:"minecraft:trial_spawner",
+normal_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/trial_chamber/queen_bee",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:queen_bee"
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:1200,
+    total_mobs:1.0f
+},
+ominous_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/ominous/trial_chamber/queen_bee",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:queen_bee",
+                    active_effects:[
+                        {
+                            id:"minecraft:instant_health",
+                            amplifier:4,
+                            duration:200
+                        }
+                    ]
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:200,
+    total_mobs:1.0f
+}
+}]
+
+// 骷髅王
+give @p minecraft:trial_spawner[block_entity_data={
+id:"minecraft:trial_spawner",
+normal_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/trial_chamber/skeletron",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:skeletron"
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:1200,
+    total_mobs:1.0f
+},
+ominous_config:{
+    loot_tables_to_eject:[{data:"terra_entity:spawners/ominous/trial_chamber/skeletron",weight:1}],
+    simultaneous_mobs:1.0f,
+    simultaneous_mobs_added_per_player:0.0f,
+    spawn_potentials:[
+        {
+            data:{
+                custom_spawn_rules:{},
+                entity:{
+                    id:"terra_entity:skeletron",
+                    active_effects:[
+                        {
+                            id:"minecraft:instant_health",
+                            amplifier:4,
+                            duration:200
+                        }
+                    ]
+                }
+            },
+            weight:1
+        }
+    ],
+    spawn_range:1,
+    ticks_between_spawn:200,
+    total_mobs:1.0f
+}
+}]
+
+//珊瑚傀儡
+give @p minecraft:trial_spawner
+[block_entity_data={
+    id: "minecraft:trial_spawner",
+    required_player_range: 32,
+    normal_config: {
+        loot_tables_to_eject: [
+            {data: "cataclysm:spawners/trial_chamber/coral_golem", weight: 1}
+        ],
+        simultaneous_mobs: 1.0f,
+        simultaneous_mobs_added_per_player: 1.0f,
+        spawn_potentials: [
+            {
+                data: {
+                    custom_spawn_rules: {},
+                    entity: {
+                        id: "cataclysm:coral_golem",
+                        Health: 3000.0f,
+                        attributes: [
+                            {id: "minecraft:generic.max_health", base: 3000.0d},
+                            {id: "minecraft:generic.attack_damage", base: 100.0d}
+                        ]
+                    }
+                },
+                weight: 1
+            }
+        ],
+        spawn_range: 1,
+        ticks_between_spawn: 1200,
+        total_mobs: 1.0f,
+        total_mobs_added_per_player: 1.0f
+    },
+    ominous_config: {
+        loot_tables_to_eject: [
+            {data: "cataclysm:spawners/ominous/trial_chamber/coral_golem_ominous", weight: 1}
+        ],
+        simultaneous_mobs: 1.0f,
+        simultaneous_mobs_added_per_player: 1.0f,
+        spawn_potentials: [
+            {
+                data: {
+                    custom_spawn_rules: {},
+                    entity: {
+                        id: "cataclysm:coral_golem",
+                        Health: 5000.0f,
+                        attributes: [
+                            {id: "minecraft:generic.max_health", base: 5000.0d},
+                            {id: "minecraft:generic.attack_damage", base: 200.0d}
+                        ]
+                    }
+                },
+                weight: 1
+            }
+        ],
+        spawn_range: 1,
+        ticks_between_spawn: 200,
+        total_mobs: 1.0f,
+        total_mobs_added_per_player: 1.0f
+    }
+}]
