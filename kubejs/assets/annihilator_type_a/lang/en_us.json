@@ -1,0 +1,6 @@
+{
+  "dragon_species.dragonsurvival.annihilator_type_a": "Mechanical Dragon: Annihilator Type-A",
+  "dragon_species.dragonsurvival.annihilator_type_a.locked": "§7■ §6Mechanical Dragon: Annihilator Type-A§r§7 is an §fAnnihilator§r§7 forged from metal and energy.\\n\\§2■ Traits: §r§7No fall damage, depends on minerals.\n§4■ Weaknesses: §r§7Random malfunctions.\n\n§3■ Unlock Conditions: §r§7\n1. Complete the §6Beginner Tutorial§7.\n2. Explore the §cMechanical Nest§7 structure.§r",
+  "dragon_species.dragonsurvival.annihilator_type_a.altar.desc": "§7■ §6Mechanical Dragon: Annihilator Type-A§r§7 is an §fAnnihilator§r§7 forged from metal and energy.\\n\\§2■ Traits: §r§7No fall damage, depends on minerals.\n§4■ Weaknesses: §r§7Random malfunctions.\n§6■ Diet: §r%s",
+  "dragon_species.dragonsurvival.annihilator_type_a.banner.desc": "§7■ §6Mechanical Dragon: Annihilator Type-A§r§7 is an §fAnnihilator§r§7 forged from metal and energy."
+}
