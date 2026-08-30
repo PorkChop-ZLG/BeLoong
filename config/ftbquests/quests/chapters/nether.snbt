@@ -994,11 +994,10 @@
 					xp: 200
 				}
 				{
-					count: 6
-					id: "4106DFC6A072AF20"
+					id: "4F29F4B19E0EDC48"
 					item: {
 						count: 1
-						id: "irons_spellbooks:cinder_essence"
+						id: "minecraft:echo_shard"
 					}
 					type: "item"
 				}
@@ -1158,11 +1157,10 @@
 					xp: 500
 				}
 				{
-					count: 3
-					id: "0FFF4867358CFDDA"
+					id: "7EEE78640A35E672"
 					item: {
 						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
+						id: "bosses_of_mass_destruction:soul_star"
 					}
 					type: "item"
 				}
@@ -1184,11 +1182,21 @@
 		{
 			dependencies: ["2294D847D63E0ADE"]
 			id: "50A8397A7FF4CF05"
-			rewards: [{
-				id: "1FF2FFFAD9AB415C"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "1FF2FFFAD9AB415C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2CB22EF55EE3F870"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "dragonsurvival:blackstone_dragon_altar"
@@ -1206,11 +1214,21 @@
 				id: "bosses_of_mass_destruction:blazing_eye"
 			}
 			id: "4BEF109F5DC9F775"
-			rewards: [{
-				id: "44029B00828E042A"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "44029B00828E042A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "752DD197932511A2"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
@@ -1224,11 +1242,21 @@
 		{
 			dependencies: ["4BEF109F5DC9F775"]
 			id: "15219EFBF31EEBB2"
-			rewards: [{
-				id: "78A9BC05ECCD1977"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "78A9BC05ECCD1977"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3F238B621FD55097"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "dragonsurvival:obsidian_dragon_altar"
@@ -1246,11 +1274,21 @@
 				id: "bosses_of_mass_destruction:obsidian_heart"
 			}
 			id: "1C637B2176DD1B81"
-			rewards: [{
-				id: "432E6E05CCF013B1"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "432E6E05CCF013B1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1643F66797CC7851"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
@@ -1264,11 +1302,21 @@
 		{
 			dependencies: ["1C637B2176DD1B81"]
 			id: "2F65D8FD77A5EE2B"
-			rewards: [{
-				id: "228D13AAE0CEF042"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "228D13AAE0CEF042"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "082EA520FFB488B4"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "dragonsurvival:ice_dragon_altar"
@@ -1286,11 +1334,21 @@
 				id: "bosses_of_mass_destruction:ancient_anima"
 			}
 			id: "7DFFA6C409B39CC1"
-			rewards: [{
-				id: "163F15B988AA5DB8"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "163F15B988AA5DB8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0DD1DB7724A0FEC6"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:ancient_anima"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
@@ -1307,11 +1365,21 @@
 				id: "dragonsurvival:purpur_dragon_altar"
 			}
 			id: "3351A1696C0D3A69"
-			rewards: [{
-				id: "4610261D1BBB6BDE"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "4610261D1BBB6BDE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "17F44C777194ADDB"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:void_lily"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_aviary"
 				criterion: ""
@@ -1327,11 +1395,22 @@
 				id: "bosses_of_mass_destruction:crystal_fruit"
 			}
 			id: "5CFC7A1D79C8C423"
-			rewards: [{
-				id: "3C5DB3B545C3B45D"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "3C5DB3B545C3B45D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "672599EEFC696AEA"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:levitation_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
@@ -1367,10 +1446,15 @@
 				xp: 200
 			}]
 			tasks: [{
-				advancement: "minecraft:end/respawn_dragon"
-				criterion: ""
-				id: "2C3510C4F8DBD1D6"
-				type: "advancement"
+				icon: {
+					id: "minecraft:end_crystal"
+				}
+				id: "3A714FE85592E2E0"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 30L
+				to_observe: "minecraft:ender_dragon"
+				type: "observation"
 			}]
 			x: 32.0d
 			y: 24.0d

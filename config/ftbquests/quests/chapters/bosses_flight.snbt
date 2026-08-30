@@ -1243,10 +1243,11 @@
 				}
 			]
 			tasks: [{
-				advancement: "block_factorys_bosses:no_hit_underworld_knight"
-				criterion: ""
-				id: "2384979D9742ABA8"
-				type: "advancement"
+				consume_items: true
+				count: 3L
+				id: "72986B88C6D2AD71"
+				item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+				type: "item"
 			}]
 			x: 4.0d
 			y: 3.0d
