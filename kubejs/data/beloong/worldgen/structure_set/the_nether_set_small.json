@@ -19,22 +19,6 @@
       "weight": 1
     },
     {
-      "structure": "netherman:gast_chamber",
-      "weight": 1
-    },
-    {
-      "structure": "netherman:gehen_statue",
-      "weight": 1
-    },
-    {
-      "structure": "netherman:eye_columns",
-      "weight": 1
-    },
-    {
-      "structure": "netherman:trap",
-      "weight": 1
-    },
-    {
       "structure": "mvs:nether_well",
       "weight": 1
     },
