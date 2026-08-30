@@ -1,0 +1,46 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20260901,
+    "separation": 40,
+    "spacing": 80,
+    "exclusion_zone": {
+      "other_set": "minecraft:nether_complexes",
+      "chunk_count": 4
+    }
+  },
+  "structures": [
+    {
+      "structure": "betterfortresses:fortress",
+      "weight": 1
+    },
+    {
+      "structure": "irons_spellbooks:ancient_battleground",
+      "weight": 1
+    },
+    {
+      "structure": "irons_spellbooks:citadel",
+      "weight": 1
+    },
+    {
+      "structure": "netherman:mansion_nether",
+      "weight": 1
+    },
+    {
+      "structure": "block_factorys_bosses:underworld_arena",
+      "weight": 1
+    },
+    {
+      "structure": "dragonsurvival:treasure_angry_cave",
+      "weight": 1
+    },
+    {
+      "structure": "dragonsurvival:treasure_angry_forest",
+      "weight": 1
+    },
+    {
+      "structure": "dragonsurvival:treasure_angry_sea",
+      "weight": 1
+    }
+  ]
+}

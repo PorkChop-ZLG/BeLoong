@@ -1,0 +1,13 @@
+{
+    "structures": [],
+    "placement": {
+        "type": "yungsapi:enhanced_random_spread",
+        "salt": 784827271,
+        "spacing": 30,
+        "separation": 20,
+        "enhanced_exclusion_zone": {
+            "other_set": "#betterfortresses:fortress_avoid",
+            "chunk_count": 10
+        }
+    }
+}

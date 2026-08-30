@@ -1,0 +1,13 @@
+{
+    "structures": [],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1803092476,
+        "spacing": 36,
+        "separation": 20,
+        "super_exclusion_zone": {
+            "chunk_count": 1,
+            "other_set": "#dragonsurvival:underground_avoid_nether"
+        }
+    }
+}

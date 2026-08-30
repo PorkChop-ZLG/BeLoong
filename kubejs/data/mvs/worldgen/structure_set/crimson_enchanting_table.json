@@ -1,0 +1,9 @@
+{
+    "structures": [],
+    "placement": {
+        "type": "moogs_structures:advanced_random_spread",
+        "salt": 836845261,
+        "spacing": 77,
+        "separation": 58
+    }
+}
