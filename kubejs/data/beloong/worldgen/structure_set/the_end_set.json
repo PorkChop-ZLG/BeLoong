@@ -1,21 +1,37 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 20260829,
+    "salt": 20260830,
     "separation": 24,
-    "spacing": 48
+    "spacing": 48,
+    "exclusion_zone": {
+      "other_set": "minecraft:end_cities",
+      "chunk_count": 4
+    }
   },
   "structures": [
     {
       "structure": "bosses_of_mass_destruction:gauntlet_arena",
-      "weight": 1
-    },
-    {
-      "structure": "bosses_of_mass_destruction:lich_tower",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "bosses_of_mass_destruction:obsidilith_arena",
+      "weight": 4
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "weight": 4
+    },
+    {
+      "structure": "dragonsurvival:treasure_end",
+      "weight": 3
+    },
+    {
+      "structure": "dungeons_arise:aviary",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:keep_kayra",
       "weight": 1
     }
   ]

@@ -206,31 +206,148 @@
 			x: 0.5d
 			y: 1.0d
 		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "3534A0747BD5F406"
+			image: "minecraft:painting/wither"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: -1.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		icon_scale: 1.45d
-		id: "76A7A167E97880D8"
-		rewards: [{
-			id: "73C825FF467DE00D"
-			type: "xp"
-			xp: 100
-		}]
-		shape: "square"
-		size: 2.3d
-		tasks: [{
-			dimension: "minecraft:the_nether"
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:block/nether_portal"
+	quests: [
+		{
+			icon_scale: 1.45d
+			id: "76A7A167E97880D8"
+			rewards: [{
+				id: "73C825FF467DE00D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.3d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
 				}
-				id: "ftbquests:custom_icon"
+				id: "31A8B2FD0F3394BF"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "37912F243389D665"
+			rewards: [
+				{
+					id: "62142E117B58BD44"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "5F53311377F9C459"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "2D918FDF74D87F25"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:piglin_head"
 			}
-			id: "31A8B2FD0F3394BF"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			id: "54D1810722DCCC0C"
+			rewards: [
+				{
+					id: "6627931A8E174B1E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "03E1A100B59448EE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "3AB04E1F97B53087"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "5EB5DB20B9FBF372"
+			rewards: [
+				{
+					id: "713CEC96E14E55FE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "329C4E1C14E75AB9"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "034FA97196F17AB9"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "622A55D89E3ED919"
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "2481CBA150EC7016"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "7332CD16CC158C56"
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "797297062D6F1ABA"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
 }

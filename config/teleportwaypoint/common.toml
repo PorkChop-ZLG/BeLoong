@@ -7,4 +7,4 @@ teleportCooldownTicks = 20
 	#Whether new worlds enable the vanilla structure override datapack by default.
 	defaultEnableStructureWaypoints = true
 	#Whether new worlds enable the YUNG structure compatibility datapack by default.
-	defaultEnableYungStructureWaypoints = true
+	defaultEnableYungStructureWaypoints = false
