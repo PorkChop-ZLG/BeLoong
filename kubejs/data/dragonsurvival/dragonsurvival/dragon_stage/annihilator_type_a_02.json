@@ -1,0 +1,104 @@
+{
+  "growth_items": [
+    {
+      "growth_in_ticks": 72000,
+      "items": "dragonsurvival:weak_dragon_heart"
+    },
+    {
+      "growth_in_ticks": 144000,
+      "items": "dragonsurvival:elder_dragon_heart"
+    },
+    {
+      "growth_in_ticks": -144000,
+      "items": "dragonsurvival:star_bone"
+    },
+    {
+      "growth_in_ticks": 0,
+      "items": "dragonsurvival:star_heart"
+    }
+  ],
+  "growth_range": {
+    "max": 150.0,
+    "min": 100.0
+  },
+  "is_default": false,
+  "is_natural_growth_stopped": {
+    "type_specific": {
+      "type": "dragonsurvival:dragon_predicate",
+      "is_growth_stopped": true
+    }
+  },
+  "modifiers": [
+    {
+      "amount": {
+        "precise_amount": 0.018,
+        "precise_base": 0.8
+      },
+      "attribute": "minecraft:generic.scale",
+      "operation": "add_value"
+    },
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 82.0,
+        "per_level_above_first": 2.0
+      },
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value"
+    },
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 4.1,
+        "per_level_above_first": 0.1
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value"
+    },
+    {
+      "amount": 3.0,
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": "add_value"
+    },
+    {
+      "amount": 0.03,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_value"
+    },
+    {
+      "amount": 0.3,
+      "attribute": "minecraft:generic.jump_strength",
+      "operation": "add_value"
+    },
+    {
+      "amount": 1.4,
+      "attribute": "minecraft:generic.step_height",
+      "operation": "add_value"
+    },
+    {
+      "amount": 27.0,
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "operation": "add_value"
+    },
+    {
+      "amount": 4.0,
+      "attribute": "minecraft:player.block_interaction_range",
+      "operation": "add_value"
+    },
+    {
+      "amount": 4.0,
+      "attribute": "minecraft:player.entity_interaction_range",
+      "operation": "add_value"
+    },
+    {
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 5.04,
+        "per_level_above_first": 0.04
+      },
+      "attribute": "dragonsurvival:dragon_breath_range",
+      "operation": "add_value"
+    }
+  ],
+  "ticks_until_grown": 5184000
+}

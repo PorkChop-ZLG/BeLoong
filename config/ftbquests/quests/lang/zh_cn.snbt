@@ -3757,7 +3757,7 @@
 		""
 		"如果你中了&e凋零&r效果，会持续扣血，此时喝一桶&f牛奶&r即可解毒。"
 	]
-	quest.7332CD16CC158C56.quest_subtitle: "是凋灵，不是凋零！"
+	quest.7332CD16CC158C56.quest_subtitle: "别打错成凋零了"
 	quest.7332CD16CC158C56.title: "&l&d凋灵"
 	quest.735C8B5A219C57AE.quest_desc: [
 		"&6任务：学会使用技能，击杀任意一只怪物"
