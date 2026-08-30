@@ -12,7 +12,7 @@
 			image: "kubejs:textures/task/cave_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -5.0d
+			x: -7.0d
 			y: 6.5d
 		}
 		{
@@ -21,7 +21,7 @@
 			image: "kubejs:textures/task/forest_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.0d
+			x: -5.0d
 			y: 6.5d
 		}
 		{
@@ -30,7 +30,7 @@
 			image: "kubejs:textures/task/sea_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -1.0d
+			x: -3.0d
 			y: 6.5d
 		}
 		{
@@ -39,7 +39,7 @@
 			image: "kubejs:textures/task/tundra_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.0d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -48,7 +48,7 @@
 			image: "kubejs:textures/task/aether_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.0d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -84,7 +84,7 @@
 			image: "kubejs:textures/task/crystcursed_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
+			x: 3.0d
 			y: 6.5d
 		}
 		{
@@ -93,7 +93,7 @@
 			image: "kubejs:textures/task/star_banner_01.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 7.0d
+			x: 5.0d
 			y: 6.5d
 		}
 	]
@@ -134,7 +134,7 @@
 					type: "advancement"
 				}
 			]
-			x: -5.0d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
@@ -171,7 +171,7 @@
 					type: "advancement"
 				}
 			]
-			x: -3.0d
+			x: -5.0d
 			y: 3.0d
 		}
 		{
@@ -208,7 +208,7 @@
 					type: "advancement"
 				}
 			]
-			x: -1.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -245,7 +245,7 @@
 					type: "advancement"
 				}
 			]
-			x: 3.0d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -282,7 +282,7 @@
 					type: "advancement"
 				}
 			]
-			x: 1.0d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -296,6 +296,8 @@
 				"12D51CB6B22EB6E9"
 				"6BF3A8995ACD12E2"
 				"6B6C646887FE40EF"
+				"7369E1F267AEE21B"
+				"3D00DAB64DEB1AA3"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -333,26 +335,26 @@
 		{
 			icon_scale: 1.5d
 			id: "1588CA412F4FAA24"
+			optional: true
 			rewards: [
 				{
-					count: 3
-					id: "6A0DEB5ADE722247"
+					id: "75D1E02C52175E83"
 					item: {
 						count: 1
-						id: "kubejs:progenitor_dragon_heart"
+						id: "dragonsurvival:elder_dragon_heart"
 					}
 					type: "item"
 				}
 				{
-					id: "4CBC8F1A7F7903C5"
-					type: "xp_levels"
-					xp_levels: 100
+					id: "0C105A46C0298C5D"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "none"
 			size: 2.0d
 			tasks: [{
-				advancement: "astral_dragon:astral/singularity"
+				advancement: "astral_dragon:astral/be_dragon"
 				criterion: ""
 				id: "0D3918B42039D3AC"
 				type: "advancement"
@@ -386,7 +388,6 @@
 		{
 			icon_scale: 1.5d
 			id: "12D51CB6B22EB6E9"
-			optional: true
 			rewards: [{
 				id: "105BAF7093763F95"
 				item: {
@@ -403,21 +404,28 @@
 				id: "0C233B853A97A80E"
 				type: "advancement"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
 			icon_scale: 1.5d
 			id: "6BF3A8995ACD12E2"
 			optional: true
-			rewards: [{
-				id: "076F3855A61AC176"
-				item: {
-					count: 1
-					id: "dragonsurvival:elder_dragon_heart"
+			rewards: [
+				{
+					id: "076F3855A61AC176"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5F8A4E3A0FAE502C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "none"
 			size: 2.0d
 			tasks: [{
@@ -432,13 +440,12 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/star/ancient_stage_hover.png"
+					"ftbquests:icon": "star_dragon:textures/gui/custom/stage/star/ancient_stage_hover.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
 			icon_scale: 1.5d
 			id: "6B6C646887FE40EF"
-			optional: true
 			rewards: [{
 				id: "6EBF9ECF97CF0201"
 				item: {
@@ -454,8 +461,66 @@
 				item: { count: 1, id: "star_dragon:starcubess" }
 				type: "item"
 			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/dihuang/ancient_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "7369E1F267AEE21B"
+			rewards: [{
+				id: "675D5200C4626540"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_heart"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				advancement: "dihuang_loong:dihuang/be_old_loong"
+				criterion: ""
+				id: "71DC7957B6FDE065"
+				type: "advancement"
+			}]
 			x: 7.0d
 			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3D00DAB64DEB1AA3"
+			optional: true
+			rewards: [
+				{
+					id: "5E671C660572BD73"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "44F208FF53A5F4E2"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				advancement: "dragonsurvival:annihilator_type_a/be_dragon"
+				criterion: ""
+				id: "1E037F4B10B41469"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 }

@@ -9,6 +9,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/ender_dragon_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "37DD5B8A42ABC578"
 			rewards: [
 				{
@@ -41,10 +47,16 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/wither_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "1E7A718688067EC6"
 			rewards: [
 				{
@@ -112,7 +124,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{

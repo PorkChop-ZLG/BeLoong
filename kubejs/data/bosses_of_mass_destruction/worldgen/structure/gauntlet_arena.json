@@ -7,7 +7,7 @@
   "biomes": "#bosses_of_mass_destruction:has_structure/gauntlet_arena",
   "use_expansion_hack": false,
   "start_height": {
-    "absolute": -8
+    "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "spawn_overrides": {

@@ -3,14 +3,14 @@
     "mob": "minecraft:ender_dragon",
     "when": "onjoin",
     "result": "allow",
-    "healthadd": 800,
-    "damageadd": 40
+    "healthadd": 2000,
+    "damageadd": 100
   },
   {
     "mob": "minecraft:wither",
     "when": "onjoin",
     "result": "allow",
-    "healthadd": 500,
+    "healthadd": 600,
     "damageadd": 60
   },
   {

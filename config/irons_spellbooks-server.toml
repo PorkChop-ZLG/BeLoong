@@ -65,17 +65,17 @@
 	#Configure Boss Stats
 	["Boss Config".Tyros]
 		#Additional Health
-		additionalHealth = 4000.0
+		additionalHealth = 1000.0
 		#Additional Melee Attack Damage
 		additionalAttackDamage = 100.0
 		#Additional Spell Power (additive percent)
 		additionalSpellPower = 2.0
 		#[Experimental] Whether Tyros has an Ominous Bossfight. Default: false
-		tyrosOminousEnabled = false
+		tyrosOminousEnabled = true
 
 	["Boss Config"."Dead King"]
 		#Additional Health
-		additionalHealth = 1500.0
+		additionalHealth = 500.0
 		#Additional Melee Attack Damage
 		additionalAttackDamage = 50.0
 		#Additional Spell Power (additive percent)

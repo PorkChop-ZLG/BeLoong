@@ -685,7 +685,7 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				dimension: "minecraft:the_end"
+				dimension: "minecraft:the_nether"
 				id: "048B8D112D749312"
 				type: "dimension"
 			}]
@@ -693,44 +693,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["032FB020CD21A6EB"]
-			icon: {
-				id: "dragonsurvival:primordial_anchor"
-			}
-			id: "2294D847D63E0ADE"
-			rewards: [
-				{
-					id: "2BEA03C37777F13B"
-					type: "xp"
-					xp: 500
-				}
-				{
-					count: 3
-					id: "0FFF4867358CFDDA"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "dragonsurvival:primordial_anchor"
-				}
-				id: "3F9D5A0ED02C341F"
-				observation_type: "block"
-				observe_type: 0
-				timer: 100L
-				to_observe: "dragonsurvival:primordial_anchor"
-				type: "observation"
-			}]
-			x: 22.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2294D847D63E0ADE"]
 			icon: {
 				id: "dragonsurvival:dragon_soul"
 			}
@@ -1339,6 +1301,17 @@
 			}]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			id: "75D8AB1B178F5860"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "751C6C7B63E54EA8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -14.0d
 		}
 	]
 }
