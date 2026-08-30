@@ -1,0 +1,34 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20260830,
+    "separation": 24,
+    "spacing": 48,
+    "exclusion_zone": {
+      "other_set": "minecraft:end_cities",
+      "chunk_count": 4
+    }
+  },
+  "structures": [
+    {
+      "structure": "bosses_of_mass_destruction:gauntlet_arena",
+      "weight": 3
+    },
+    {
+      "structure": "bosses_of_mass_destruction:obsidilith_arena",
+      "weight": 3
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "weight": 3
+    },
+    {
+      "structure": "dragonsurvival:treasure_end",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:aviary",
+      "weight": 1
+    }
+  ]
+}

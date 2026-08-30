@@ -54,9 +54,9 @@
 		"normalPunchExplosionMultiplier": 1.5
 	},
 	"voidBlossomConfig": {
-		"health": 1400.0,
-		"armor": 4.0,
-		"attack": 48.0,
+		"health": 1800.0,
+		"armor": 12.0,
+		"attack": 60.0,
 		"idleHealingPerTick": 20.0,
 		"experienceDrop": 1000
 	},

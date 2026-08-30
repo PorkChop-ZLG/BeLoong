@@ -148,17 +148,6 @@
 	quest.014D856119B0F3F7.title: "Kill: Sea Serpent"
 	quest.01595FC4029CAD14.title: "Blazing Tutor Set"
 	quest.0256EDAC77E359BD.title: "Battlemage Equipment"
-	quest.02660EF9A8CDA757.quest_desc: [
-		"&aObjective: Defeat the Ender Dragon"
-		""
-		"&dAfter the Ender Dragon&6 is slain, it drops massive loot and a mysterious pool appears."
-		""
-		"&6At this time, you have two choices:"
-		"&61. Find the &5End Portal&6 beside the chest and return to the &2Overworld&6;"
-		"&62. Throw a &dDragon Egg&6 into the pool and travel to the &3Twilight Forest&6."
-	]
-	quest.02660EF9A8CDA757.quest_subtitle: "The End Awaits Its New Master"
-	quest.02660EF9A8CDA757.title: "Defeat [Ender Dragon]"
 	quest.0290886F399EB569.quest_desc: [
 		"&6With the phone, you can directly purchase ready-made ingredients or drinks. Most beverages can only be obtained this way.&r"
 		""

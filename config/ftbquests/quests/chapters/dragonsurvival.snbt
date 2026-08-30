@@ -792,55 +792,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["032FB020CD21A6EB"]
-			id: "02660EF9A8CDA757"
-			optional: true
-			rewards: [
-				{
-					id: "099C299E695C22B0"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					count: 8
-					id: "7E7CEB881A57E92C"
-					item: {
-						count: 1
-						id: "irons_spellbooks:dragonskin"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3D45E0032F969903"
-					item: {
-						count: 1
-						id: "minecraft:dragon_breath"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "34AB4F870764D13F"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "268F7D063C0DB800"
-				type: "kill"
-				value: 1L
-			}]
-			x: 22.0d
-			y: -2.25d
-		}
-		{
 			dependencies: ["50E66A5B37FF3E9B"]
 			icon: {
 				id: "dragonsurvival:elder_dragon_bone"
