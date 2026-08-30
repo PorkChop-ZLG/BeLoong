@@ -1,0 +1,26 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 288371663,
+    "separation": 45,
+    "spacing": 50,
+    "exclusion_zone": {
+      "other_set": "minecraft:end_cities",
+      "chunk_count": 4
+    }
+  },
+  "structures": [
+    {
+      "structure": "dungeons_arise:heavenly_challenger",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:heavenly_rider",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:heavenly_conqueror",
+      "weight": 1
+    }
+  ]
+}

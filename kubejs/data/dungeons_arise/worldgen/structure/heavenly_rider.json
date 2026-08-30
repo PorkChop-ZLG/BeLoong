@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "dungeons_arise:eerie/heavenly_rider/heavenly_rider_main",
+  "size": 7,
+  "biomes": "#beloong:is_the_end_air",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "max_distance_from_center": 114,
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 200
+  },
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}
