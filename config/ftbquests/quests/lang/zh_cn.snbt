@@ -1883,7 +1883,7 @@
 		"&l&d生成"
 		"&6在末地主岛的中央的水池的四块基岩上放置末地水晶生成。"
 	]
-	quest.37DD5B8A42ABC578.quest_subtitle: "★★"
+	quest.37DD5B8A42ABC578.quest_subtitle: "★★★"
 	quest.37DD5B8A42ABC578.title: "原版：末影龙"
 	quest.37E22E2A0F31B536.quest_desc: [
 		"&l&d「下界铁掌」"
@@ -3511,7 +3511,7 @@
 	quest.6B6CE283EC1FD731.title: "&c一群画地为牢的家伙"
 	quest.6BA6E3779F1D4FC3.quest_desc: [
 		"&l&d「提洛斯回响·原初受火者」"
-		"&6生命：&a1000"
+		"&6生命：&a2000"
 		"&6攻击：&c110"
 		"&6护甲：&715"
 		""

@@ -1868,6 +1868,22 @@
 		}
 		{
 			id: "1ACB04A36A9C62B9"
+			rewards: [
+				{
+					id: "7468EBF8E1746DFB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "5ABCAB7C15B4DAC9"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:posessed_paladin"
 				id: "222A434DE3E652E0"
@@ -1879,6 +1895,22 @@
 		}
 		{
 			id: "036BAD83C2057F52"
+			rewards: [
+				{
+					id: "742BABBD4F68F235"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "2B689344707CADE1"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "legendary_monsters:the_obliterator"
 				id: "42D9D7611F714D10"
