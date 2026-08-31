@@ -8,6 +8,129 @@
 
 ## [Unreleased]
 
+## [1.3.5] - 2026-08-31
+
+> 现已支持旧版本存档升级！
+
+### 内容改动
+- 更新 NeoForge 加载器到 21.1.248 版本
+- 新增两条从龙，分别是 驯龙高手：夜煞、机械龙：湮灭型A，
+- 新增“猛龙之居”模组，超多新的龙等你来发现
+- 新增“原版移植”模组，包含苍白花园、快乐恶魂、硫磺怪、落叶堆等内容
+- 新增商店模组，但是还没有写任何内容，未来再更新
+- 原创模组[传送锚点]，可以在Xaero地图上直接找到野外结构，并且可以直接在地图上传送
+- 新增 YUNG 下界要塞、末地岛屿、要塞优化，删除了Stellarity数据包，末地翻新了
+- 第二章主线【炼狱终焉】和第五章主线【冰火悚域】初步完成，全新的线性任务写法，提供更明确的指引
+- 彻底重置了饰品栏位，排版更为优雅，而且可以佩戴10个戒指了
+- 删除魔宠模组及相关任务，删了星界龙的成长之路任务
+- 将祸乱鬼魅的四个Boss都迁移到了末地，优化下界和末地的结构，现在不再会重叠了
+- 将传奇怪物的所有结构和Boss搬迁至悚域，大幅度强化了传奇怪物的数值，删除了伤害限制
+- 更新大量汉化与翻译
+
+### 龙族改动
+
+#### 夜煞
+- 来自驯龙高手的无牙仔！拥有独立模型，获得村庄英雄成就后解锁
+
+#### 湮灭型A
+- 充满未来科技风的机械龙，拥有强大的输出火力，但是会随机出故障，探索机械巢穴后解锁
+
+#### 星辰龙
+- 更新至 2.0.2，修复龙宫破坏BUG和其他BUG
+- 新增了几个技能，详细见星辰龙模组的更新日志
+
+#### 冰焰龙
+- 更新至 1.6.0，详细见冰焰龙模组的更新日志
+
+#### 以太龙
+- 修复一个小BUG
+
+### 模组改动
+
+#### 新增模组
+- [原版移植] VanillaBackport
+- [商店] ViScriptShop
+- [YUNG的下界要塞优化] YungsBetterNetherFortresses
+- [YUNG的末地岛屿优化] YungsBetterEndIsland
+- [YUNG的要塞优化] YungsBetterStrongholds
+- [猛龙之居] wyrmroost
+- [龙之生存：夜煞] ds_night_striker_addon
+- [龙之生存：湮灭型A] annihilator_type_a
+- [高级战利品信息显示] AdvancedLootInfo
+- [传送锚点] teleportwaypoint
+- 【前置】Platform
+- 【前置】ldlib2
+
+#### 移除模组
+- [Alshanex的魔宠] alshanex_familiars
+- [快乐恶魂重置版] happy_ghast_legacy
+- [落叶] fallingleaves
+- [简易战利品查看器] simplelootviewer
+- 【前置】familiarslib
+
+#### 更新模组
+- [FTB任务] ftb-quests
+- [FTB区块] ftb-chunks
+- [FTB基础] ftb-essentials
+- [Iron的法术与魔法书] irons_spellbooks
+- [JEI物品管理器] jei
+- [JEI生物繁殖] justenoughbreeding
+- [传奇怪物] legendary_monsters
+- [传送石碑] waystones
+- [农夫乐事] FarmersDelight
+- [冰火传说社区版] iceandfire
+- [冰火传说：悚域] iceandfire_dreadland
+- [奇异饰品] artifacts
+- [建筑棒] ConstructionSticks
+- [战利品箱子] lootr
+- [拾光定影：拍立得] exposure_polaroid
+- [旋律魔法] melodymagic
+- [永恒星光] eternalstarlight
+- [炽海生机] netherdepthsupgrade
+- [玉] Jade
+- [现代化修复] modernfix
+- [精妙核心] sophisticatedcore
+- [精妙背包] sophisticatedbackpacks
+- [自定义游戏加载界面] drippyloadingscreen
+- [花哨菜单] fancymenu
+- [超越维度] beyonddimensions
+- [通用拼音搜索] jecharacters
+- [附魔描述] enchdesc
+- [黑暗二重身] darkdoppelganger
+- [龙之生存] DragonSurvival
+- [龙之生存：冰焰龙] frostfire_dragon
+- [龙之生存：星辰龙] star_dragon
+- [龙之生存：滚筒飞行] dragon_barrel_roll
+- [化龙核心] beloong
+- 【魔改】incontrol
+- 【前置】balm
+- 【前置】ftb-library
+- 【前置】ftb-xmod-compat
+- 【前置】gtbcs_spell_lib
+- 【前置】lithostitched
+- 【前置】uranus
+
+### BUG 修复
+- 修复新手教程可能卡关的BUG
+- 修复传送石碑崩溃BUG
+- 修复星辰龙的龙宫破坏BUG
+- 修复以太龙的一个小BUG
+- 修复了一些模组残留和报错
+
+---
+
+## [1.3.4] - 2026-07-31
+
+> 待补充：1.3.4（含 1.3.4-hotfix）更新内容暂未整理。
+
+---
+
+## [1.3.3] - 2026-06-12
+
+> 待补充：1.3.3（含 1.3.3.1 ~ 1.3.3.3）更新内容暂未整理。
+
+---
+
 ## [1.3.2-fix] - 2026-04-05
 
 > 注意：1.3.2-fix 不兼容 1.3.2 的服务端！
