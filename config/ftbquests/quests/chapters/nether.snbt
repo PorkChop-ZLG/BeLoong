@@ -1535,12 +1535,43 @@
 			shape: "octagon"
 			size: 3.0d
 			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "775B951B15C2A81D"
-				type: "dimension"
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "7B510EBE7E4E081E"
+				type: "advancement"
 			}]
 			x: 32.0d
 			y: 32.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "3A2BAF5D46546864"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				auto: "enabled"
+				command: "/end_island reset"
+				feedback_message: "已重置末地主岛"
+				icon: {
+					id: "minecraft:bell"
+				}
+				id: "067D7853001A5035"
+				permission_level: 2
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "511C8EE7CB039000"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: -4.0d
 		}
 	]
 }

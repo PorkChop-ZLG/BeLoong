@@ -1,0 +1,25 @@
+#Wyrmroost General Options
+[general]
+	#Do not enable this unless you are told to!
+	debugMode = false
+
+#Wyrmroost Dragon Options
+[dragons]
+	#How far dragons can travel from their home points
+	# Default: 16
+	# Range: 6 ~ 1024
+	home_radius = 16
+	#Base Flammability for Dragon Fire Breath.
+	#A value of 0 will disable fire block damage completely.
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	breath_lammability = 0.8
+	#Breed Limit for each dragon. This determines how many times a certain dragon can breed.
+	#Leaving this blank will disable the functionality.
+	breed_limits = ["butterfly_leviathan:1", "royal_red:2"]
+
+	[dragons.griefing]
+		#If True, Dragons will respect the Minecraft MobGriefing Gamerule. Else, follow "dragonGriefing" option
+		respect_mob_griefing = true
+		#If true and not respecting MobGriefing rules, allow dragons to grief
+		dragon_griefing = true

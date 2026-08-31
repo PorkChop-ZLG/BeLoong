@@ -3642,6 +3642,48 @@
 			append = ""
 			format = ""
 
+	[type.windGust]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.windGust.icon]
+			tex = ""
+			item = ""
+
+		[type.windGust.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.fireBreath1]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fireBreath1.icon]
+			tex = ""
+			item = ""
+
+		[type.fireBreath1.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.fireBreath0]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fireBreath0.icon]
+			tex = ""
+			item = ""
+
+		[type.fireBreath0.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"

@@ -19,7 +19,7 @@
 	chapter.1FF49F51664E5364.title: "② 炼狱终焉"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["隐藏式任务"]
 	chapter.22143E6BF4F1DBAD.title: "〖洞穴龙〗成长之路"
-	chapter.27AE0B7401476AE5.chapter_subtitle: ["物美价廉，童叟无欺"]
+	chapter.27AE0B7401476AE5.chapter_subtitle: ["即将替换为更高级的商店"]
 	chapter.27AE0B7401476AE5.title: "&2&l系统商店"
 	chapter.29CB766687624EDA.chapter_subtitle: [
 		"彻底击败所有BOSS；"
@@ -74,6 +74,7 @@
 	chapter.5D6324B55C8EDE23.chapter_subtitle: [
 		"黎明曙光，划破黑暗"
 		"难度：★★★★★★"
+		"注意：尚不完善"
 	]
 	chapter.5D6324B55C8EDE23.title: "⑥ 天灾灭世"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
@@ -1090,6 +1091,11 @@
 	quest.1B5B7580815E49B0.quest_desc: [" 手持羊毛时它会主动跟随，右击将不同颜色的羊毛交给它，也可以丢在地上让它去拾取，每获得一个颜色的羊毛，它的身体就会变长，同时周身散发与给予羊毛颜色相同的颗粒，身上也会有对应颜色的羊毛。当它得到了原版全十六色的羊毛后，周身会散发全部给予羊毛颜色的颗粒，并丢出谜题羊战利品、瓦解之号角、铁块、金块、青金石块、钻石块、绿宝石块各一个"]
 	quest.1B5B7580815E49B0.quest_subtitle: "他似乎想和我交易"
 	quest.1B5B7580815E49B0.title: "&5奇怪的羊"
+	quest.1BBEE3C325886113.quest_desc: [
+		"&6任务：获得火域之钥"
+		""
+		"&9结构罗盘：&b【冰火传说】烈火教堂&r"
+	]
 	quest.1BCEED323665EDE1.quest_subtitle: "成长到太古龙阶段"
 	quest.1BCEED323665EDE1.title: "太古苔原龙"
 	quest.1C07B232D4664C3D.quest_desc: [
@@ -1505,6 +1511,11 @@
 	quest.2B9D5B62DD244102.title: "掌握冰之奥义"
 	quest.2C055589A88C2771.quest_subtitle: "开启森林龙的成长之路"
 	quest.2C055589A88C2771.title: "幼年森林龙"
+	quest.2C13AB4946347C72.quest_desc: [
+		"&6任务：获得冰域之钥"
+		""
+		"&9结构罗盘：&b【冰火传说】寒冰教堂&r"
+	]
 	quest.2C2DB4D51CFF767D.quest_subtitle: "完成苔原龙的部分成就"
 	quest.2C2DB4D51CFF767D.title: "苔原龙趣味挑战"
 	quest.2C5DAED6CD1A78E6.title: "我是占位的"
@@ -1927,6 +1938,13 @@
 	quest.39A482BF78452D09.title: "充能汤"
 	quest.39AF32032B46C495.quest_subtitle: "开启以太龙的成长之路"
 	quest.39AF32032B46C495.title: "幼年以太龙"
+	quest.3A2BAF5D46546864.quest_desc: [
+		"如果你是&6旧版本存档&r更新到新版本，"
+		"或者是&6末影龙战斗&r出现异常，"
+		"请点击左上角的✅重置末地主岛。"
+	]
+	quest.3A2BAF5D46546864.quest_subtitle: "修复末影龙战斗"
+	quest.3A2BAF5D46546864.title: "重置末地主岛"
 	quest.3AA1AA79BED0F294.quest_desc: [
 		"&a兑换：天赐之翼+横滚之能=空龙魂"
 		""
@@ -2172,6 +2190,11 @@
 	]
 	quest.4093B7F10DE1AE47.quest_subtitle: "★★"
 	quest.4093B7F10DE1AE47.title: "暮色森林：幻影骑士"
+	quest.40A287892FE34A47.quest_desc: [
+		"&6任务：获得雷域之钥"
+		""
+		"&9结构罗盘：&b【冰火传说】雷电教堂&r"
+	]
 	quest.40D693D34C2593C4.title: "BWG原木自选"
 	quest.410087ACF6234CC1.quest_subtitle: "天地莫施恩，璇题激流日"
 	quest.410087ACF6234CC1.title: "&5天璇"
@@ -2489,7 +2512,11 @@
 		"右键方块召唤一只自动驯服的&a覆藓傀儡&r。"
 		"&a覆藓傀儡&r死亡后必定掉落一个，也可合成获得。"
 	]
-	quest.4C9801CCF49684B3.quest_desc: ["&6任务：激活暮色森林传送门，进入暮色森林"]
+	quest.4C9801CCF49684B3.quest_desc: [
+		"&6任务：激活暮色森林传送门，进入暮色森林"
+		""
+		"将&d龙蛋&r投入末地中央的水池中，激活&3暮色森林传送门&r。"
+	]
 	quest.4C9801CCF49684B3.quest_subtitle: "【第二章    完结】"
 	quest.4C9801CCF49684B3.title: "&3&l日薄西山，暮色笼罩"
 	quest.4CA71EFB328936E4.quest_desc: [
@@ -4181,6 +4208,7 @@
 	quest.7FC498B5DDFD8500.title: "戒指T2"
 	reward.0063ACDBFD9EF275.title: "驭风精通"
 	reward.05315AE97430A082.title: "嗜血掠夺"
+	reward.067D7853001A5035.title: "重置末地主岛"
 	reward.0A0F3DE349F4B9F1.title: "雷暴"
 	reward.1437281433DFB699.title: "前往龙宫"
 	reward.1A637C1E53731C27.title: "猎杀预谋"
@@ -4243,6 +4271,7 @@
 	task.492C3F2BFFB6071B.title: "前往坐标(0,78,-153)"
 	task.4BA66E6775C27D92.title: "前往坐标(-23,197,-403)"
 	task.4DD3DC302875CF23.title: "已读点我"
+	task.511C8EE7CB039000.title: "点我重置末地主岛"
 	task.51FABC051B7D60CD.title: "前往坐标(0,64,148)"
 	task.53A89357B6E4BB6A.title: "抵达试炼密室"
 	task.5AC3C8A012576E52.title: "已完成所有目标"

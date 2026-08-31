@@ -1,0 +1,9 @@
+#All egg hatch times in ticks (1 second = 20 ticks)
+overworld_drake = 18000
+silver_glider = 12000
+roost_stalker = 6000
+butterfly_leviathan = 40000
+dragon_fruit_drake = 9600
+canari_wyvern = 6000
+royal_red = 72000
+alpine = 12000

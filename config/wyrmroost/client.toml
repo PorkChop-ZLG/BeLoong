@@ -1,0 +1,9 @@
+#Wyrmroost Client Options
+[General]
+	#Disables Frustum check when rendering (Dragons parts dont go poof when looking too far) - Only applies to bigger bois
+	disableFrustumCheck = true
+	#Toggles Rendering of the Dragon Staff's Entity Color shaders
+	#Disable this if you're having issues with shaders
+	renderEntityOutlines = true
+	#Only when the time comes...
+	deckTheHalls = true
