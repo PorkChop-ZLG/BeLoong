@@ -13,7 +13,7 @@ modpackMode = false
 
   # Which window modes the F11 key cycles through
   # Accepted values are: [ATTACH, REPLACE, OFF]
-  attachModeF11 = "ATTACH"
+  attachModeF11 = "REPLACE"
 
 [fpsDisplay]
   # FPS and system details overlay
@@ -27,7 +27,7 @@ modpackMode = false
   verticalAlign = "TOP"
 
   # Accepted values are: [OFF, ALL, GPU_ONLY, RAM_ONLY]
-  systemDetails = "OFF"
+  systemDetails = "ALL"
 
   # Value must be greater than 0
   margin = 12
@@ -65,7 +65,7 @@ modpackMode = false
   chunkFadeSpeed = "SLOW"
 
   # Accepted values are: [ALL, OFF]
-  leavesCulling = "OFF"
+  leavesCulling = "ALL"
 
   # Y level where the dark below-horizon void plane starts rendering; 63 keeps vanilla behavior, lower it to remove the dark sky band at low heights
   # Value must be less than '256' and greater than '-64'
@@ -115,7 +115,7 @@ modpackMode = false
   # Hides the JEI/REI/EMI ingredient overlay until the search field is focused
   hideJREMI = false
   hideJREMIHint = false
-  fontShadows = true
+  fontShadows = false
   fastLanguageReload = true
 
   # Settings screen style; non-sodium styles are WIP and only open on dev environments

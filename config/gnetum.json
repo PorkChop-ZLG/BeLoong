@@ -66,6 +66,12 @@
       },
       "pass": 2
     },
+    "tunes_n_tomes:sound_marker_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "fdbosses:electrified": {
       "enabled": {
         "value": "AUTO"
@@ -199,6 +205,12 @@
       "pass": 3
     },
     "touhou_little_maid:tlm_show_power": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "fdbosses:netzach_overlay": {
       "enabled": {
         "value": "AUTO"
       },
@@ -378,6 +390,12 @@
       },
       "pass": 3
     },
+    "twilightforest:item_display_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "eternal_starlight:spell_crosshair": {
       "enabled": {
         "value": "AUTO"
@@ -434,6 +452,12 @@
       },
       "pass": 1
     },
+    "chloride": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "chatbox": {
       "enabled": {
         "value": "AUTO"
@@ -443,6 +467,12 @@
   },
   "mapModdedElementsPost": {
     "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "puzzleslib": {
       "enabled": {
         "value": "AUTO"
       },
