@@ -1,0 +1,24 @@
+{
+  "type": "netherdepthsupgrade:nether_fortress_piece",
+  "start_pool": "netherdepthsupgrade:nether_fortress_side/start_pool",
+  "size": 2,
+  "max_distance_from_center": 10,
+  "biomes": "#minecraft:has_structure/nether_fortress",
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {
+    "water_ambient": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "netherdepthsupgrade:blazefish",
+          "weight": 10,
+          "minCount": 3,
+          "maxCount": 4
+        }
+      ]
+    }
+  }
+}

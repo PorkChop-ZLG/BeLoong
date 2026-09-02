@@ -1,0 +1,10 @@
+#Minimum delay in ticks between two teleport requests per player. 0 disables the cooldown.
+# Default: 20
+# Range: 0 ~ 72000
+teleportCooldownTicks = 20
+
+[optionalDataPacks]
+	#Whether new worlds enable the vanilla structure override datapack by default.
+	defaultEnableStructureWaypoints = true
+	#Whether new worlds enable the YUNG structure compatibility datapack by default.
+	defaultEnableYungStructureWaypoints = false

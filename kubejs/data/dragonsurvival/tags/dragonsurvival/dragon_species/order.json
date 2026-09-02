@@ -7,11 +7,13 @@
     "dragonsurvival:forest_dragon",
     "dragonsurvival:sea_dragon",
     "dragonsurvival:tundra_dragon",
-    "dragonsurvival:star_dragon",
+    "star_dragon:star_dragon",
     "dragonsurvival:neo_crystcursed_dragon",
     "dragonsurvival:astral_dragon",
     "dragonsurvival:frostfire_dragon",
     "dragonsurvival:wing_kirin",
+    "dragonsurvival:annihilator_type_a",
+    "dragonsurvival:night_striker",
     "dragonsurvival:beginner_aether_dragon"
   ]
 }

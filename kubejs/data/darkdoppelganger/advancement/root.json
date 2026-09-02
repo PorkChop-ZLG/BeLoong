@@ -15,14 +15,14 @@
     "announce_to_chat": false,
     "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
     "description": {
-      "translate": "advancement.summon_scroll.description"
+      "translate": "advancement.summon_dark_doppelganger.description"
     },
     "icon": {
       "count": 1,
       "id": "darkdoppelganger:summon_scroll"
     },
     "title": {
-      "translate": "advancement.summon_scroll.title"
+      "translate": "advancement.summon_dark_doppelganger.title"
     }
   },
   "requirements": [

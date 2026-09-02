@@ -1,0 +1,237 @@
+{
+  "parent": "star_dragon:star/the_power_of_time",
+  "criteria": {
+    "master_stardust_armor": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:stardust_armor",
+        "level": 3
+      }
+    },
+    "master_true_gravity_field": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:true_gravity_field",
+        "level": 5
+      }
+    },
+    "master_sun_protection": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:sun_protection",
+        "level": 7
+      }
+    },
+    "master_star_athletics": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:star_athletics",
+        "level": 5
+      }
+    },
+    "master_star_laser": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:star_laser",
+        "level": 4
+      }
+    },
+    "master_glowing": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:glowing",
+        "level": 4
+      }
+    },
+    "master_star_magic": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:star_magic",
+        "level": 10
+      }
+    },
+    "master_stellar_breath": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:stellar_breath",
+        "level": 4
+      }
+    },
+    "master_stellar_cells": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:starlight",
+        "level": 3
+      }
+    },
+    "master_black_hole": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:black_hole",
+        "level": 4
+      }
+    },
+    "master_gravitational_field": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:gravitational_field",
+        "level": 3
+      }
+    },
+    "master_starbound_projection": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:starbound_projection",
+        "level": 3
+      }
+    },
+    "master_supernova_explosion": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:supernova_explosion",
+        "level": 3
+      }
+    },
+    "master_control_time": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:control_time",
+        "level": 1
+      }
+    },
+    "master_constellation_passive": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:constellation_passive",
+        "level": 5
+      }
+    },
+    "have_star_wings": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:star_wings",
+        "level": 6
+      }
+    },
+    "have_night_sky_flying": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:night_sky_flying",
+        "level": 1
+      }
+    },
+    "have_star_dragon": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:star_dragon",
+        "level": 1
+      }
+    },
+    "have_star_spin": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:star_spin",
+        "level": 1
+      }
+    },
+    "master_starlight_nourishment": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:starlight_nourishment",
+        "level": 1
+      }
+    },
+    "master_meteor_shower": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:meteor_shower",
+        "level": 5
+      }
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "id": "star_dragon:easter_egg",
+      "count": 1
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/higher_dimension_gaze"
+    },
+    "description": {
+      "translate": "star_dragon.advancement.star/higher_dimension_gaze.desc"
+    }
+  },
+  "requirements": [
+    [
+      "master_stardust_armor"
+    ],
+    [
+      "master_true_gravity_field"
+    ],
+    [
+      "master_sun_protection"
+    ],
+    [
+      "master_star_athletics"
+    ],
+    [
+      "master_star_laser"
+    ],
+    [
+      "master_glowing"
+    ],
+    [
+      "master_star_magic"
+    ],
+    [
+      "master_stellar_breath"
+    ],
+    [
+      "master_stellar_cells"
+    ],
+    [
+      "master_black_hole"
+    ],
+    [
+      "master_gravitational_field"
+    ],
+    [
+      "master_starbound_projection"
+    ],
+    [
+      "master_supernova_explosion"
+    ],
+    [
+      "master_control_time"
+    ],
+    [
+      "master_constellation_passive"
+    ],
+    [
+      "have_star_wings"
+    ],
+    [
+      "have_night_sky_flying"
+    ],
+    [
+      "have_star_dragon"
+    ],
+    [
+      "have_star_spin"
+    ],
+    [
+      "master_starlight_nourishment"
+    ],
+    [
+      "master_meteor_shower"
+    ]
+  ],
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "star_dragon:gameplay/easter_egg_reward"
+    ]
+  }
+}

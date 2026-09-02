@@ -1,0 +1,62 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20260823,
+    "separation": 15,
+    "spacing": 30
+  },
+  "structures": [
+    {
+      "structure": "legendary_monsters:ancient_stronghold",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:ancient_tower_remains",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:frostbitten_temple",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:lava_eater_spawn",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:mossy_temple",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:ruined_pyramid",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:shulker_tower",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:skeletosaurus_nest",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:soul_fortress_remains",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:warped_fungussus_nest",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:cloudy_temple",
+      "weight": 2
+    },
+    {
+      "structure": "legendary_monsters:collapsed_kingdom",
+      "weight": 2
+    },
+    {
+      "structure": "legendary_monsters:space_station",
+      "weight": 1
+    }
+  ]
+}

@@ -27,6 +27,10 @@
     {
       "required": false,
       "id": "eternal_starlight:starlight_forest"
+    },
+    {
+      "required": false,
+      "id": "#iceandfire_dreadland:is_fireland"
     }
   ]
 }

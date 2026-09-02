@@ -23,6 +23,10 @@
     {
       "required": false,
       "id": "twilightforest:fire_swamp"
+    },
+    {
+      "required": false,
+      "id": "#iceandfire_dreadland:is_fireland"
     }
   ]
 }

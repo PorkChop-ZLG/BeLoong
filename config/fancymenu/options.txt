@@ -28,7 +28,7 @@ S:custom_game_intro_skip_text = '';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
-S:custom_window_title = 'BeLoong Beta 1.3.3.3';
+S:custom_window_title = 'BeLoong Beta 1.3.5';
 S:custom_window_icon_16 = '';
 
 
@@ -150,6 +150,6 @@ S:global_menu_background_texture = '';
 
 B:mcp_server_enabled = 'false';
 B:dev_pip_window_debug = 'false';
-B:dev_force_mcef_missing = 'false';
 B:dev_force_watermedia_missing = 'false';
+B:dev_force_rinku_missing = 'false';
 I:mcp_server_port = '48561';

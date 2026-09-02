@@ -1,0 +1,105 @@
+["Alpine Dragon"]
+	#Health
+	health = 40.0
+	#Ground Speed
+	ground_speed = 0.22
+	#Knockback Resistance
+	knockback_resistance = 1.0
+	#Attack Damage
+	attack_damage = 3.0
+	#Flying Speed
+	flying_speed = 0.185
+	#Projectile Damage
+	projectile_damage = 1.0
+
+["Butterfly Leviathan"]
+	#Health
+	health = 180.0
+	#Ground Speed
+	ground_speed = 0.08
+	#Knockback Resistance
+	knockback_resistance = 1.0
+	#Attack Damage
+	attack_damage = 14.0
+	#Swim Speed
+	swim_speed = 0.3
+
+["Canari Wyvern"]
+	#Health
+	health = 12.0
+	#Ground Speed
+	ground_speed = 0.2
+	#Attack Damage
+	attack_damage = 3.0
+	#Flying Speed
+	flying_speed = 0.1
+
+["Dragon Fruit Drake"]
+	#Health
+	health = 15.0
+	#Ground Speed
+	ground_speed = 0.23
+	#Attack Damage
+	attack_damage = 3.0
+
+["Overworld Drake"]
+	#Health
+	health = 70.0
+	#Ground Speed
+	ground_speed = 0.2125
+	#Knockback Resistance
+	knockback_resistance = 0.75
+	#Attack Damage
+	attack_damage = 8.0
+	#Attack Knockback
+	attack_knockback = 2.85
+
+["Roost Stalker"]
+	#Health
+	health = 8.0
+	#Health when tamed
+	health_tamed = 20.0
+	#Ground Speed
+	ground_speed = 0.285
+	#Attack Damage
+	attack_damage = 2.0
+
+["Royal Red Male"]
+	#Health
+	health = 120.0
+	#Ground Speed
+	ground_speed = 0.2275
+	#Knockback Resistance
+	knockback_resistance = 1.0
+	#Attack Damage
+	attack_damage = 12.0
+	#Attack Knockback
+	attack_knockback = 3.0
+	#Flying Speed
+	flying_speed = 0.125
+	#Projectile Damage
+	projectile_damage = 4.0
+
+["Royal Red Female"]
+	#Health
+	health = 130.0
+	#Ground Speed
+	ground_speed = 0.22
+	#Attack Damage
+	attack_damage = 12.0
+	#Attack Knockback
+	attack_knockback = 4.0
+	#Knockback Resistance
+	knockback_resistance = 1.0
+	#Flying Speed
+	flying_speed = 0.121
+	#Projectile Damage
+	projectile_damage = 4.0
+
+["Silver Glider"]
+	#Health
+	health = 20.0
+	#Ground Speed
+	ground_speed = 0.23
+	#Flying Speed
+	flying_speed = 0.12

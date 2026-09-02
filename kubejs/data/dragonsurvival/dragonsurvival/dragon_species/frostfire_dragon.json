@@ -39,17 +39,35 @@
 	"unlockable_behavior": {
 		"visibility": "visible_if_locked",
 		"unlock_condition": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"type_specific": {
-					"type": "minecraft:player",
-					"advancements": {
-						"beloong:beloong/finish_beginner_tutorial": true,
-						"frostfire_dragon:unlock_frostfire_dragon": true
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"beloong:beloong/finish_beginner_tutorial": true,
+								"frostfire_dragon:unlock_frostfire_dragon": true
+							}
+						}
+					}
+				},
+				{
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"advancements": {
+								"beloong:beloong/skip_beginner_tutorial": true,
+								"frostfire_dragon:unlock_frostfire_dragon": true
+							}
+						}
 					}
 				}
-			}
+			]
 		}
 	}
 }

@@ -10,6 +10,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "7C914FF1A42F8A5B"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -40,6 +41,7 @@
 				id: "1437281433DFB699"
 				permission_level: 2
 				silent: true
+				team_reward: true
 				type: "command"
 			}]
 			shape: "none"
@@ -107,6 +109,8 @@
 					command: "/effect give @s minecraft:luck 300 0 true"
 					id: "6A6787D2857F6BD1"
 					permission_level: 2
+					silent: true
+					team_reward: true
 					type: "command"
 				}
 			]
@@ -264,7 +268,7 @@
 			hide_until_deps_complete: true
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/star/adult_stage_hover.png"
+					"ftbquests:icon": "star_dragon:textures/gui/custom/stage/star/adult_stage_hover.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -437,9 +441,9 @@
 					-403
 				]
 				size: [I;
-					5
-					5
-					5
+					8
+					8
+					8
 				]
 				type: "location"
 			}]
@@ -460,6 +464,7 @@
 					xp: 100
 				}
 				{
+					auto: "enabled"
 					count: 3
 					id: "5C7DC3B45C6993B3"
 					item: {
@@ -605,12 +610,14 @@
 			icon_scale: 2.0d
 			id: "741C678902C1BC72"
 			optional: true
-			repeat_cooldown: 60
+			repeat_cooldown: 30
 			rewards: [{
 				auto: "invisible"
 				command: "/execute in beloong:loong_palace run summon minecraft:pig 0 67 203"
 				id: "43E6E2491B5B595D"
 				permission_level: 2
+				silent: true
+				team_reward: true
 				type: "command"
 			}]
 			shape: "none"
@@ -642,7 +649,7 @@
 					xp: 100
 				}
 				{
-					count: 45
+					count: 48
 					id: "7F1200B1A1DF77F1"
 					item: {
 						count: 1
@@ -668,12 +675,14 @@
 			icon_scale: 2.0d
 			id: "6BAC6C911CBA18CD"
 			optional: true
-			repeat_cooldown: 60
+			repeat_cooldown: 30
 			rewards: [{
 				auto: "invisible"
 				command: "/execute in beloong:loong_palace run summon minecraft:creeper 0 67 203"
 				id: "5ED8E093FD52E872"
 				permission_level: 2
+				silent: true
+				team_reward: true
 				type: "command"
 			}]
 			shape: "none"
@@ -730,10 +739,10 @@
 					xp: 100
 				}
 				{
-					id: "390ED62893EF0504"
+					id: "175182F621BE3C7F"
 					item: {
 						count: 1
-						id: "beyonddimensions:net_creater"
+						id: "waystones:warp_stone"
 					}
 					type: "item"
 				}
@@ -791,6 +800,8 @@
 					command: "/execute in beloong:loong_palace run data merge block 0 65 203 {cooldown_ends_at:0L}"
 					id: "27E39DE988D34A56"
 					permission_level: 2
+					silent: true
+					team_reward: true
 					type: "command"
 				}
 			]
@@ -829,15 +840,27 @@
 					command: "/effect clear @s"
 					id: "7FF42C0105607F12"
 					permission_level: 2
+					silent: true
+					team_reward: true
 					type: "command"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:iron_golem"
-				id: "19FC7D22F98E27AA"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:iron_golem"
+					id: "19FC7D22F98E27AA"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "minecraft:story/smelt_iron"
+					criterion: ""
+					id: "0E8FED3D44563D57"
+					optional_task: true
+					type: "advancement"
+				}
+			]
 			x: 27.0d
 			y: 0.0d
 		}
@@ -853,6 +876,14 @@
 				{
 					id: "109D3E0DE41A923B"
 					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"soulbound:soulbound": 1
+								}
+							}
+							"minecraft:repair_cost": 1
+						}
 						count: 1
 						id: "beloong:eternal_porkchop"
 					}
@@ -870,6 +901,8 @@
 					command: "/effect clear @s dragonsurvival:hunter_omen"
 					id: "07A6D549B345C654"
 					permission_level: 2
+					silent: true
+					team_reward: true
 					type: "command"
 				}
 			]
@@ -908,6 +941,8 @@
 				}
 				id: "4B9637D64D06DF32"
 				permission_level: 2
+				silent: true
+				team_reward: true
 				type: "command"
 			}]
 			shape: "none"
@@ -942,6 +977,8 @@
 				}
 				id: "6BF153A621FBE02F"
 				permission_level: 2
+				silent: true
+				team_reward: true
 				type: "command"
 			}]
 			shape: "none"
@@ -956,11 +993,31 @@
 			dependencies: ["294DCB1F2F69927E"]
 			icon_scale: 1.5d
 			id: "51CE47B1ADD35248"
-			rewards: [{
-				id: "61F869F4C0BD37F5"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "61F869F4C0BD37F5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					auto: "enabled"
+					id: "27828B5C7AD4696B"
+					item: {
+						count: 1
+						id: "yuushya:octagon_pavilion"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "1F5DFBB5254B1F08"
+					item: {
+						count: 1
+						id: "beyonddimensions:net_creater"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -972,11 +1029,13 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				id: "minecraft:barrier"
 			}
 			id: "7F6793C865F7784D"
 			invisible: true
+			optional: true
 			rewards: [{
 				advancement: "beloong:beloong/skip_beginner_tutorial"
 				criterion: ""
@@ -986,6 +1045,7 @@
 			shape: "none"
 			tasks: [{
 				dimension: "minecraft:overworld"
+				disable_toast: true
 				id: "51C247484A3AF4FF"
 				type: "dimension"
 			}]

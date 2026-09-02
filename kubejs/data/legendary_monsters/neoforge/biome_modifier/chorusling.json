@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#iceandfire_dreadland:is_lightning",
+  "spawners": [
+    {
+      "type": "legendary_monsters:chorusling",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

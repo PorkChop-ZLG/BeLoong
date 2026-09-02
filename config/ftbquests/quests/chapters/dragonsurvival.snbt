@@ -9,6 +9,7 @@
 	id: "1E4C1C94528F4F43"
 	images: [{
 		height: 5.0d
+		id: "149B515EBB71F6F0"
 		image: "ftblibrary:icons/map"
 		order: 100
 		rotation: 0.0d
@@ -684,7 +685,7 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				dimension: "minecraft:the_end"
+				dimension: "minecraft:the_nether"
 				id: "048B8D112D749312"
 				type: "dimension"
 			}]
@@ -692,44 +693,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["032FB020CD21A6EB"]
-			icon: {
-				id: "dragonsurvival:primordial_anchor"
-			}
-			id: "2294D847D63E0ADE"
-			rewards: [
-				{
-					id: "2BEA03C37777F13B"
-					type: "xp"
-					xp: 500
-				}
-				{
-					count: 3
-					id: "0FFF4867358CFDDA"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "dragonsurvival:primordial_anchor"
-				}
-				id: "3F9D5A0ED02C341F"
-				observation_type: "block"
-				observe_type: 0
-				timer: 100L
-				to_observe: "dragonsurvival:primordial_anchor"
-				type: "observation"
-			}]
-			x: 22.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2294D847D63E0ADE"]
 			icon: {
 				id: "dragonsurvival:dragon_soul"
 			}
@@ -789,55 +752,6 @@
 			]
 			x: 25.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["032FB020CD21A6EB"]
-			id: "02660EF9A8CDA757"
-			optional: true
-			rewards: [
-				{
-					id: "099C299E695C22B0"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					count: 8
-					id: "7E7CEB881A57E92C"
-					item: {
-						count: 1
-						id: "irons_spellbooks:dragonskin"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3D45E0032F969903"
-					item: {
-						count: 1
-						id: "minecraft:dragon_breath"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "34AB4F870764D13F"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "268F7D063C0DB800"
-				type: "kill"
-				value: 1L
-			}]
-			x: 22.0d
-			y: -2.25d
 		}
 		{
 			dependencies: ["50E66A5B37FF3E9B"]
@@ -1387,6 +1301,17 @@
 			}]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			id: "75D8AB1B178F5860"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "751C6C7B63E54EA8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -14.0d
 		}
 	]
 }

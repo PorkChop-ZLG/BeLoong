@@ -88,13 +88,13 @@
       ],
       "structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
     },
-    "dragonsurvival:star_dragon": {
+    "star_dragon:star_dragon": {
       "spawn_position": [
         -200,
         50,
         200
       ],
-      "structure": "dragonsurvival:end_spawn_platforms/star_end_spawn_platform"
+      "structure": "star_dragon:end_spawn_platforms/star_end_spawn_platform"
     },
     "dragonsurvival:wing_kirin": {
       "spawn_position": [
@@ -111,6 +111,22 @@
 				0
 			],
 			"structure": "dragonsurvival:end_spawn_platforms/dihuang_end_spawn_platform"
+		},
+		"dragonsurvival:annihilator_type_a": {
+			"spawn_position": [
+				-200,
+				50,
+				0
+			],
+			"structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
+		},
+		"dragonsurvival:night_striker": {
+			"spawn_position": [
+				200,
+				50,
+				-200
+			],
+			"structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
 		}
   }
 }

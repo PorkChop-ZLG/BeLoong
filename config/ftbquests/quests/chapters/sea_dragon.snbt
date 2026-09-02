@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 6.0d
+			id: "79B5F3A12AD76741"
 			image: "kubejs:textures/task/sea_dragon.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 9.0d
+			id: "4D23CF44EF44867F"
 			image: "kubejs:textures/task/sea_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -452,7 +454,6 @@
 			dependencies: [
 				"634C5657E921C26C"
 				"0C6C9EF6B3BA9388"
-				"5EFF5C22E67BCE5D"
 				"014D856119B0F3F7"
 				"7BBFEA3573C09A67"
 			]
@@ -672,37 +673,6 @@
 			}]
 			x: -1.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["75F377E217613AEF"]
-			id: "5EFF5C22E67BCE5D"
-			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "4A1127E2EC5DEAA9"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "2BA3A18672F2969F"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				biome: "stellarity:prismarine_forest"
-				icon: {
-					id: "minecraft:sea_lantern"
-				}
-				id: "62B72896E57C4220"
-				type: "biome"
-			}]
-			x: -1.0d
-			y: 7.0d
 		}
 		{
 			dependencies: ["75F377E217613AEF"]

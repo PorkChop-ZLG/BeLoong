@@ -13,4 +13,4 @@ keepCurios = "DEFAULT"
 	#The maximum number of slots per page of the Curios menu.
 	# Default: 48
 	# Range: 1 ~ 48
-	maxSlotsPerPage = 40
+	maxSlotsPerPage = 32

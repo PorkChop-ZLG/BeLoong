@@ -1,3 +1,5 @@
 [performance]
 	#Reduce laser visual effects (spirals, pulse rings, shockwaves). Enable on low-end PCs.
 	laserReduced = false
+	#Enable black hole accretion disk visuals. Disable on low-end PCs.
+	blackHoleAccretionDisk = true

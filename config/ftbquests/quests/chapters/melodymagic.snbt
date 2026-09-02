@@ -13,6 +13,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "29C1F743294079C7"
 			image: "melodymagic:item/note"
 			rotation: 0.0d
 			width: 5.0d
@@ -21,6 +22,7 @@
 		}
 		{
 			height: 10.0d
+			id: "4E78F707F785013C"
 			image: "melodymagic:textures/gui/select.png"
 			rotation: 0.0d
 			width: 10.0d

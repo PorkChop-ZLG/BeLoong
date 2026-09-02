@@ -13,6 +13,10 @@
     {
       "required": false,
       "id": "twilightforest:spooky_forest"
+    },
+    {
+      "required": false,
+      "id": "#iceandfire_dreadland:is_lightning"
     }
   ]
 }

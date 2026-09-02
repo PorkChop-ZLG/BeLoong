@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether"
@@ -8,16 +7,1571 @@
 		id: "minecraft:weeping_vines"
 	}
 	id: "1FF49F51664E5364"
+	images: [
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "20C1290F4FE5D28E"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "28BD68A19DBC7F19"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6677E877DBACDE6C"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4E3717665A79E37E"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "03C0B505A3A60380"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4BBC3E507F9E0A3B"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7A783F11335BB8DD"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "752389997522E0F2"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "46B576E8585CF6CA"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5ED6C051414373B6"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "034B66184442B988"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "73216A76730E59FB"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "63D41D30C856E273"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3FB126EA31449C1B"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5407B2CE6188B189"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "76F874B64D0B7C9E"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "125E5E0247FC8480"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "60172F7675CCAA01"
+			image: "minecraft:block/nether_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4C2011B982E55D2E"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 31.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "70261634C9F4C743"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 32.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "59DD440E6B88AA84"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 33.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2F99B6A6C25DDFFB"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 31.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "681FB06B3D20FF20"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "05505D8CCA7F2FA8"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 33.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7F5CA8EE8D262B0A"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 90.0d
+			width: 1.2d
+			x: 34.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "40669CE495166A2E"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 90.0d
+			width: 1.2d
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "77B8620BCCC54B49"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 90.0d
+			width: 1.2d
+			x: 34.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3403B3228681BCE9"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 90.0d
+			width: 1.2d
+			x: 30.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "24491965421BD7A0"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 90.0d
+			width: 1.2d
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1B12064A21DBF72B"
+			image: "minecraft:block/end_portal_frame_top"
+			order: 100
+			rotation: 90.0d
+			width: 1.2d
+			x: 30.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0302453C0E051CA2"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 33.0d
+			y: 29.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "009739154FBF1FB7"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 32.0d
+			y: 29.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "012E8040A1FD1AE6"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 33.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3981F66AB67C8481"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 32.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "675F5C829527F3C0"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 34.0d
+			y: 34.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5545E502C7B94153"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 31.0d
+			y: 29.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1CB3FB60DE95A360"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 30.0d
+			y: 30.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6802CFBE6DAFB952"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 29.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "26C60742A82845CB"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 31.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "232C15AFD12C4B4E"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 30.0d
+			y: 34.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "777A88BBDDB23A85"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 29.0d
+			y: 33.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5F6149A2384B3917"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 29.0d
+			y: 32.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "265AFED16422F13D"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 35.0d
+			y: 33.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "01F38FB5326DF324"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 35.0d
+			y: 32.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "727FA788B79123A7"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 34.0d
+			y: 30.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "29BA6E0F81C60889"
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 35.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.8d
+			id: "7E6117F2242BEEFC"
+			image: "minecraft:textures/misc/underwater.png"
+			rotation: 0.0d
+			width: 5.8d
+			x: 32.0d
+			y: 32.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "7E0BDEBDC2F9FA91"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.0d
+			y: 29.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "221CEC3A4FCB4985"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 29.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "106D139E49B2F401"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 29.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4261399C2E903E43"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.0d
+			y: 33.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "483F30C38EFEBCBF"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.0d
+			y: 34.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "228AEED767190C11"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 30.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6B05618BF8477C29"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "31DFDB9DDAACCD53"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.0d
+			y: 32.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0C1E3817DE72A59C"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.0d
+			y: 33.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "004DAA0AC5F7E048"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 34.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "2C8A8C8AAA49FE1A"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "1D12C43979029BEC"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "632C3FF7896DC16F"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "795ABB67E926CEF0"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.0d
+			y: 32.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "54CFDD01675CD5D2"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6F1A703F852A04E5"
+			image: "minecraft:block/pink_petals"
+			order: 200
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.0d
+			y: 30.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "76A7A167E97880D8"
-		tasks: [{
-			dimension: "minecraft:the_nether"
-			id: "31A8B2FD0F3394BF"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			icon_scale: 1.45d
+			id: "76A7A167E97880D8"
+			rewards: [{
+				id: "73C825FF467DE00D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.3d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "31A8B2FD0F3394BF"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76A7A167E97880D8"]
+			id: "37912F243389D665"
+			rewards: [
+				{
+					id: "62142E117B58BD44"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "5F53311377F9C459"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "2D918FDF74D87F25"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37912F243389D665"]
+			icon: {
+				id: "minecraft:piglin_head"
+			}
+			id: "54D1810722DCCC0C"
+			rewards: [
+				{
+					id: "6627931A8E174B1E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "03E1A100B59448EE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "3AB04E1F97B53087"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54D1810722DCCC0C"]
+			id: "5EB5DB20B9FBF372"
+			rewards: [
+				{
+					id: "713CEC96E14E55FE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 6
+					id: "09955E6727CF28F0"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "034FA97196F17AB9"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EB5DB20B9FBF372"]
+			id: "622A55D89E3ED919"
+			rewards: [
+				{
+					id: "04E1A7AF31FE61CA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "2080E8A69D3ED80B"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "2481CBA150EC7016"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["622A55D89E3ED919"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/wither_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7332CD16CC158C56"
+			rewards: [
+				{
+					id: "31044BA1926AB763"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7611D47D3E2C0C73"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:nether/summon_wither"
+					criterion: ""
+					id: "797297062D6F1ABA"
+					type: "advancement"
+				}
+				{
+					entity: "minecraft:wither"
+					id: "1D98FF9ABCCD6F3D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7332CD16CC158C56"]
+			id: "18A1C9F5BE82FFD4"
+			rewards: [{
+				id: "17C5616CB1535F20"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: {
+					id: "block_factorys_bosses:underworld_arena_door"
+				}
+				id: "0878CFEE8F24D750"
+				structure: "block_factorys_bosses:underworld_arena"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18A1C9F5BE82FFD4"]
+			icon: {
+				id: "block_factorys_bosses:soul_knight_wither_skeleton_spawn_egg"
+			}
+			id: "7D0C169A64527891"
+			rewards: [
+				{
+					id: "154E85709301D743"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "14201CBA4E658596"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:underworld_arena_key"
+					}
+					type: "item"
+				}
+				{
+					id: "004A42F9C40CB209"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:ancient_trial_key"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:soul_skeleton"
+					id: "1C39D8FFBB8C5A50"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "block_factorys_bosses:soul_knight_wither_skeleton"
+					id: "1C02E434DA0BA0D8"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D0C169A64527891"]
+			icon: {
+				components: {
+					"ftbquests:icon": "block_factorys_bosses:item/knight"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2D1C583D847AA0B2"
+			rewards: [
+				{
+					id: "24AA050770E5B970"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "4938ECC1EE08249D"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_underworld_knight"
+				criterion: ""
+				id: "7E56883A5A0845CC"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D1C583D847AA0B2"]
+			id: "7018DCB23059AC0D"
+			rewards: [
+				{
+					id: "57FEC505B05BC365"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4F29F4B19E0EDC48"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "irons_spellbooks:cinderous_soul_rune"
+				}
+				id: "5981486C175DC7FA"
+				structure: "irons_spellbooks:citadel"
+				type: "structure"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7018DCB23059AC0D"]
+			id: "405DCDA5AF25ABC6"
+			rewards: [
+				{
+					id: "06910DBD1775F1BE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "33E8AA826CE9ADD3"
+					item: {
+						count: 1
+						id: "irons_spellbooks:decrepit_key"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5495F955126B8D97"
+				item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["405DCDA5AF25ABC6"]
+			id: "1538C9C2C9C5BC1B"
+			rewards: [
+				{
+					id: "2D33D9F7508143B3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "68916D9A9A8B72D7"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				icon: {
+					id: "irons_spellbooks:decrepit_scythe"
+				}
+				id: "540F81A4CF58F752"
+				type: "kill"
+				value: 1L
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1538C9C2C9C5BC1B"]
+			id: "7AF9D81C915F4747"
+			rewards: [
+				{
+					id: "033288199106D994"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 12
+					id: "449E37D5D74A5661"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "5F7E5C4CBDE8FFFB"
+				type: "dimension"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AF9D81C915F4747"]
+			id: "15C8B8AA60276011"
+			rewards: [{
+				id: "72BF55B495023B9A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "7D69778F0E26C798"
+				type: "advancement"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C8B8AA60276011"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.45d
+			id: "0F2271A7D264E7F3"
+			rewards: [{
+				id: "7D39CF23E2D59D7B"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 3.5d
+			tasks: [{
+				advancement: "dragonsurvival:find_end_platform"
+				criterion: ""
+				id: "53397A9F1FBA8B2F"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F2271A7D264E7F3"]
+			icon: {
+				id: "dragonsurvival:primordial_anchor"
+			}
+			id: "2294D847D63E0ADE"
+			rewards: [
+				{
+					id: "2BEA03C37777F13B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7EEE78640A35E672"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:primordial_anchor"
+				}
+				id: "3F9D5A0ED02C341F"
+				observation_type: "block"
+				observe_type: 0
+				timer: 100L
+				to_observe: "dragonsurvival:primordial_anchor"
+				type: "observation"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2294D847D63E0ADE"]
+			id: "50A8397A7FF4CF05"
+			rewards: [
+				{
+					id: "1FF2FFFAD9AB415C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2CB22EF55EE3F870"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:blackstone_dragon_altar"
+				}
+				id: "7D46D39E0ADE77FA"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				type: "structure"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50A8397A7FF4CF05"]
+			icon: {
+				id: "bosses_of_mass_destruction:blazing_eye"
+			}
+			id: "4BEF109F5DC9F775"
+			rewards: [
+				{
+					id: "44029B00828E042A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "752DD197932511A2"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				id: "7A510CC0C43BF4A5"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4BEF109F5DC9F775"]
+			id: "15219EFBF31EEBB2"
+			rewards: [
+				{
+					id: "78A9BC05ECCD1977"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3F238B621FD55097"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:obsidian_dragon_altar"
+				}
+				id: "5953B3C3B0BA7EDE"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				type: "structure"
+			}]
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["15219EFBF31EEBB2"]
+			icon: {
+				id: "bosses_of_mass_destruction:obsidian_heart"
+			}
+			id: "1C637B2176DD1B81"
+			rewards: [
+				{
+					id: "432E6E05CCF013B1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1643F66797CC7851"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				id: "48285E4FD2EB55A8"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1C637B2176DD1B81"]
+			id: "2F65D8FD77A5EE2B"
+			rewards: [
+				{
+					id: "228D13AAE0CEF042"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "082EA520FFB488B4"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:ice_dragon_altar"
+				}
+				id: "7A4E1467D9DDAFCF"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				type: "structure"
+			}]
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2F65D8FD77A5EE2B"]
+			icon: {
+				id: "bosses_of_mass_destruction:ancient_anima"
+			}
+			id: "7DFFA6C409B39CC1"
+			rewards: [
+				{
+					id: "163F15B988AA5DB8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0DD1DB7724A0FEC6"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:ancient_anima"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				id: "637B7469A152D8C7"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7DFFA6C409B39CC1"]
+			icon: {
+				id: "dragonsurvival:purpur_dragon_altar"
+			}
+			id: "3351A1696C0D3A69"
+			rewards: [
+				{
+					id: "4610261D1BBB6BDE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "17F44C777194ADDB"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:void_lily"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dungeons_arise:find_aviary"
+				criterion: ""
+				id: "6510E87D2A160537"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3351A1696C0D3A69"]
+			icon: {
+				id: "bosses_of_mass_destruction:crystal_fruit"
+			}
+			id: "5CFC7A1D79C8C423"
+			rewards: [
+				{
+					id: "3C5DB3B545C3B45D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "672599EEFC696AEA"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:levitation_block"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+				criterion: ""
+				id: "3916D8C114FC4D2A"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5CFC7A1D79C8C423"]
+			id: "71CF19C22829724C"
+			rewards: [{
+				id: "603BEC321330D1DB"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "41C1735851EC9139"
+				item: { count: 1, id: "bosses_of_mass_destruction:levitation_block" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["71CF19C22829724C"]
+			id: "722C45B9E7707F91"
+			rewards: [{
+				id: "3D486F6947B76BAB"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:end_crystal"
+				}
+				id: "3A714FE85592E2E0"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 30L
+				to_observe: "minecraft:ender_dragon"
+				type: "observation"
+			}]
+			x: 32.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["722C45B9E7707F91"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/ender_dragon_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "72885815B807121A"
+			rewards: [{
+				id: "1FD0042B023DB405"
+				type: "xp"
+				xp: 200
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "0A954D9F8BC69764"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 26.0d
+		}
+		{
+			id: "4320E0D168D7BD65"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "46E117DC022231E9"
+				type: "checkmark"
+			}]
+			x: -32.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["72885815B807121A"]
+			id: "0D4A1D70C73B98D3"
+			rewards: [{
+				id: "29EEC95DE54F619D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "0EF8A6D573428CA7"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["0D4A1D70C73B98D3"]
+			icon: {
+				id: "xfws_swords:meowmere"
+			}
+			id: "4C9801CCF49684B3"
+			rewards: [
+				{
+					id: "11FFF387B2553145"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "43CA5BEB5E361310"
+					item: {
+						count: 1
+						id: "xfws_swords:meowmere"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "7B510EBE7E4E081E"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 32.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "3A2BAF5D46546864"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				auto: "enabled"
+				command: "/end_island reset"
+				feedback_message: "已重置末地主岛"
+				icon: {
+					id: "minecraft:bell"
+				}
+				id: "067D7853001A5035"
+				permission_level: 2
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "511C8EE7CB039000"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: -4.0d
+		}
+	]
 }

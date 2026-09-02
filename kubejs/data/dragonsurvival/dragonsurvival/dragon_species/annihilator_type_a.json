@@ -1,0 +1,81 @@
+{
+	"abilities": "#dragonsurvival:annihilator_type_a",
+	"mana_handling": {
+		"mana_per_level": 0.2,
+		"mana_xp_conversion": 0,
+		"max_mana_from_levels": 20
+	},
+	"custom_stage_progression": [
+		"dragonsurvival:annihilator_type_a_00",
+		"dragonsurvival:annihilator_type_a_01",
+		"dragonsurvival:annihilator_type_a_02",
+		"dragonsurvival:annihilator_type_a_03"
+	],
+	"misc_resources": {
+		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/annihilator_type_a/cast_bar.png",
+		"altar_banner": "dragonsurvival:textures/gui/custom/altar/annihilator_type_a/altar_icon.png",
+		"food_sprites": "dragonsurvival:textures/gui/custom/food_icons/annihilator_type_a_icons.png",
+		"food_tooltip": {
+			"nutrition_icon": "\\uEA02",
+			"saturation_icon": "\\uEA05"
+		},
+		"growth_crystal": {
+			"empty": "dragonsurvival:textures/gui/custom/stage/annihilator_type_a/point_main.png",
+			"full": "dragonsurvival:textures/gui/custom/stage/annihilator_type_a/point_hover.png"
+		},
+		"growth_left_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/annihilator_type_a/left_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/annihilator_type_a/left_arrow_main.png"
+		},
+		"growth_right_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/annihilator_type_a/right_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/annihilator_type_a/right_arrow_main.png"
+		},
+		"mana_sprites": {
+			"empty": "dragonsurvival:textures/gui/custom/mana_icons/annihilator_type_a/empty.png",
+			"full": "dragonsurvival:textures/gui/custom/mana_icons/annihilator_type_a/full.png",
+			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/annihilator_type_a/recovery.png",
+			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/annihilator_type_a/reserved.png"
+		},
+		"primary_color": "#66CCFF",
+		"secondary_color": "#C0C0C0"
+	},
+	"bodies": [
+		"dragonsurvival:annihilator_type_a_body"
+	],
+	"penalties": "#dragonsurvival:annihilator_type_a",
+    "unlockable_behavior": {
+    "visibility": "visible_if_locked",
+    "unlock_condition": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "beloong:beloong/finish_beginner_tutorial": true,
+                "dungeons_arise:find_mechanical_nest":true
+              }
+            }
+          }
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "beloong:beloong/skip_beginner_tutorial": true,
+                "dungeons_arise:find_mechanical_nest":true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

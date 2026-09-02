@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 12.0d
+			id: "672FB684D7037861"
 			image: "kubejs:textures/task/shop_3.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 12.0d
+			id: "4ECD2B242DD8F9EE"
 			image: "kubejs:textures/task/shop_1.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 12.0d
+			id: "2F3D3EC2C9DBD663"
 			image: "kubejs:textures/task/shop_2.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -182,7 +185,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -208,7 +211,7 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -234,7 +237,7 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -268,58 +271,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "dragonsurvival:wing_grant"
-			}
-			id: "7DD416AF2172DFC1"
-			rewards: [{
-				id: "47B31BC97B9D13FF"
-				item: {
-					count: 1
-					id: "dragonsurvival:wing_grant"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "4A59C9FADF49D2B9"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "dragonsurvival:spin_grant"
-			}
-			id: "36C95FFAF0BAB532"
-			rewards: [{
-				id: "5949D188EB0B83C8"
-				item: {
-					count: 1
-					id: "dragonsurvival:spin_grant"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "515EB3D0DB4BB3AA"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "irons_spellbooks:lightning_upgrade_orb"
 			}
 			id: "19EC475553EC785D"
@@ -336,7 +287,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -403,8 +354,8 @@
 				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -490,40 +441,7 @@
 				}
 			]
 			x: 1.5d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "alshanex_familiars:druid_shard"
-			}
-			id: "6511938692C22F27"
-			rewards: [{
-				id: "443F50A399561B06"
-				item: {
-					count: 1
-					id: "alshanex_familiars:druid_shard"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "0A8EB90E8FD381BB"
-					item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-					type: "item"
-				}
-				{
-					id: "2D16FE2783F65D0E"
-					item: { count: 1, id: "alshanex_familiars:life_fruit_tier_2" }
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -1127,45 +1045,7 @@
 				}
 			]
 			x: 3.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "alshanex_familiars:illusionist_shard"
-			}
-			id: "695C60D2B6D3E646"
-			rewards: [{
-				id: "4CC9F8450F80F88E"
-				item: {
-					count: 1
-					id: "alshanex_familiars:illusionist_shard"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 6L
-					id: "6203CD7235D2682B"
-					item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "2E7AC9CAF8B09F06"
-					item: { count: 1, id: "alshanex_familiars:truth_mirror" }
-					type: "item"
-				}
-				{
-					id: "7298DF942763C922"
-					item: { count: 1, id: "alshanex_familiars:life_fruit_tier_3" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -1327,8 +1207,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -1361,11 +1241,6 @@
 					count: 3L
 					id: "78AB5964D910533E"
 					item: { count: 1, id: "eternal_starlight:soul_dew" }
-					type: "item"
-				}
-				{
-					id: "147C479AFFEC8E70"
-					item: { components: { "ftbquests:missing_item": "alshanex_familiars:mysterious_orb" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

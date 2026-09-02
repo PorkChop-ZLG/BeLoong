@@ -28,6 +28,10 @@
     {
       "required": false,
       "id": "twilightforest:glacier"
+    },
+    {
+      "required": false,
+      "id": "#iceandfire_dreadland:is_iceland"
     }
   ]
 }

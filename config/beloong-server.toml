@@ -124,3 +124,26 @@
 		#Prevent players from inserting or removing flower-pot contents
 		#阻止玩家放入或取出花盆内容物
 		protectFlowerPotEdits = true
+
+[dragon_summon]
+	#Enable the Ender Dragon summon ritual
+	#启用手动召唤末影龙仪式
+	enabled = true
+	#Block used to summon the Ender Dragon
+	#用于召唤末影龙的特殊方块 ID
+	summonBlock = "bosses_of_mass_destruction:levitation_block"
+	#Custom return portal offset X
+	#自定义返回传送门偏移 X
+	# Default: -6
+	# Range: -1000 ~ 1000
+	offsetX = -6
+	#Custom return portal offset Y
+	#自定义返回传送门偏移 Y
+	# Default: -5
+	# Range: -1000 ~ 1000
+	offsetY = -5
+	#Custom return portal offset Z
+	#自定义返回传送门偏移 Z
+	# Default: -6
+	# Range: -1000 ~ 1000
+	offsetZ = -6

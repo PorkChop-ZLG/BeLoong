@@ -1,21 +1,16 @@
 [
   {
-    "mob": "alshanex_familiars:druid_pet",
-    "when": "position",
-    "result": "deny"
-  },
-  {
     "mob": "minecraft:ender_dragon",
     "when": "onjoin",
     "result": "allow",
-    "healthadd": 800,
-    "damageadd": 40
+    "healthadd": 1800,
+    "damageadd": 100
   },
   {
     "mob": "minecraft:wither",
     "when": "onjoin",
     "result": "allow",
-    "healthadd": 500,
+    "healthadd": 300,
     "damageadd": 60
   },
   {

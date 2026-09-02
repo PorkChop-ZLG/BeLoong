@@ -13,6 +13,7 @@
 	images: [
 		{
 			height: 1.2d
+			id: "53E5B1A1EAE88227"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -22,6 +23,7 @@
 		}
 		{
 			height: 1.2d
+			id: "714B6CAB1F66C921"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 1.2d
+			id: "01791416784F855D"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -40,6 +43,7 @@
 		}
 		{
 			height: 1.2d
+			id: "63AD8E9F53B3452C"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -49,6 +53,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4F15D13DB01DCED0"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -58,6 +63,7 @@
 		}
 		{
 			height: 1.2d
+			id: "78CD858326E84E51"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -67,6 +73,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4631E0D50662E85D"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -76,6 +83,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4C6BA9BFEC79B404"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -85,6 +93,7 @@
 		}
 		{
 			height: 1.2d
+			id: "4FABA4A341AB5F10"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -94,6 +103,7 @@
 		}
 		{
 			height: 1.2d
+			id: "232F4F21212422BA"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -103,6 +113,7 @@
 		}
 		{
 			height: 1.2d
+			id: "0ECB5A1DC5B30636"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -112,6 +123,7 @@
 		}
 		{
 			height: 1.2d
+			id: "5F67B708D35FE2DC"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -121,6 +133,7 @@
 		}
 		{
 			height: 1.2d
+			id: "176EAC9308FA3A69"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -130,6 +143,7 @@
 		}
 		{
 			height: 1.2d
+			id: "6F1A30590601F208"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -139,6 +153,7 @@
 		}
 		{
 			height: 1.2d
+			id: "748A88CEA365D79D"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -148,6 +163,7 @@
 		}
 		{
 			height: 1.2d
+			id: "798B9EC5637691E9"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -157,6 +173,7 @@
 		}
 		{
 			height: 1.2d
+			id: "1CCECFA368E81F4A"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -166,6 +183,7 @@
 		}
 		{
 			height: 1.2d
+			id: "2BD6F10A8A965A6A"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -175,6 +193,7 @@
 		}
 		{
 			height: 1.2d
+			id: "13C5D5ABE787EEEF"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -184,6 +203,7 @@
 		}
 		{
 			height: 1.2d
+			id: "7608FBDAAFF1E1C3"
 			image: "minecraft:block/red_wool"
 			order: 100
 			rotation: 0.0d
@@ -193,6 +213,7 @@
 		}
 		{
 			height: 1.2d
+			id: "545F0D73ACCA6083"
 			image: "touhou_little_maid:item/hakurei_gohei"
 			order: 200
 			rotation: 0.0d
@@ -202,6 +223,7 @@
 		}
 		{
 			height: 6.0d
+			id: "4C0E0DD6F1DF53AA"
 			image: "kubejs:textures/task/wine_fox.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -210,6 +232,7 @@
 		}
 		{
 			height: 5.0d
+			id: "7D47C2AF8DA3225C"
 			image: "kubejs:textures/task/touhou_little_maid.png"
 			rotation: 0.0d
 			width: 5.0d

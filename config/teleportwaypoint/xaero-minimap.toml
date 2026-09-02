@@ -1,0 +1,12 @@
+#Show teleport waypoints on Xaero's minimap.
+showWaypoints = true
+#Maximum distance in blocks for waypoints to appear on the minimap. 0 disables the limit.
+# Default: 256
+# Range: 0 ~ 100000
+range = 256
+
+[waypoint]
+	#Show inactive teleport waypoints.
+	showInactive = true
+	#Show active teleport waypoints.
+	showActive = true

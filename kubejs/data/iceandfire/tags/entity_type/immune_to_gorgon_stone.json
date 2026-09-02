@@ -1,31 +1,48 @@
 {
   "values": [
     {
-      "id": "alshanex_familiars:bard_pet",
+      "id": "fdbosses:chesed",
       "required": false
     },
-    "alshanex_familiars:archmage_pet",
-    "alshanex_familiars:cleric_pet",
-    "alshanex_familiars:dragon_warrior_pet",
-    "alshanex_familiars:druid_pet",
-    "alshanex_familiars:frostling_pet",
-    "alshanex_familiars:hunter_pet",
-    "alshanex_familiars:illusionist_pet",
-    "alshanex_familiars:mage_pet",
-    "alshanex_familiars:necromancer_pet",
-    "alshanex_familiars:plague_pet",
-    "alshanex_familiars:scorcher_pet",
-    "alshanex_familiars:summoner_pet",
-    "fdbosses:chesed",
-    "fdbosses:chesed_boss_spawner",
-    "fdbosses:geburah",
-    "fdbosses:geburah_boss_spawner",
-    "fdbosses:malkuth",
-    "fdbosses:malkuth_boss_spawner",
-    "fdbosses:chesed_crystal",
-    "fdbosses:chesed_monolith",
-    "fdbosses:chesed_ray_reflector",
-    "fdbosses:malkuth_cannon",
-    "fdbosses:malkuth_repair_crystal"
+    {
+      "id": "fdbosses:chesed_boss_spawner",
+      "required": false
+    },
+    {
+      "id": "fdbosses:geburah",
+      "required": false
+    },
+    {
+      "id": "fdbosses:geburah_boss_spawner",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_boss_spawner",
+      "required": false
+    },
+    {
+      "id": "fdbosses:chesed_crystal",
+      "required": false
+    },
+    {
+      "id": "fdbosses:chesed_monolith",
+      "required": false
+    },
+    {
+      "id": "fdbosses:chesed_ray_reflector",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_cannon",
+      "required": false
+    },
+    {
+      "id": "fdbosses:malkuth_repair_crystal",
+      "required": false
+    }
   ]
 }

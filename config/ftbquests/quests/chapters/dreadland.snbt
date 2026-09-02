@@ -7,16 +7,1532 @@
 		id: "iceandfire:dread_queen_sword"
 	}
 	id: "6C8BADAE3A031956"
+	images: [
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3150136CDFC79623"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 97
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "72DED00596194FC6"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 96
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "54F8E504ACBB1FBD"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 95
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5819756FF72E893F"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "79E0F1F51552B444"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 98
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "054BC19171FFBFBB"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 93
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "25E6EBC542483BE1"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 92
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7EB532F1D5C14B58"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 91
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "71CFFEDAF127A989"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 90
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "72462AFD950A173D"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 91
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "223910C469A27A2B"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 92
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6C32EF7467618ED3"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 93
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "608CB6232785CBA2"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5C666B6205CCBAA2"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 99
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "63C613BBC2A98D98"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7B8C72D43D14B1FC"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 99
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4166F32316A53DA5"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 98
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "062F60339BBC8CB6"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 97
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "00165D80E46A4E43"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 96
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "04CFB7797D828B84"
+			image: "iceandfire:block/dread_stone_bricks"
+			order: 95
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 6.0d
+			id: "3C3CF95CFEE7D0E4"
+			image: "iceandfire_dreadland:textures/environment/dread_portal_background.png"
+			order: 50
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "356BDE370240BA49"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 99
+			rotation: 180.0d
+			width: 1.2d
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "120D583E89DA6A92"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 98
+			rotation: 180.0d
+			width: 1.2d
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "36BF5266AFD7CB3D"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 97
+			rotation: 180.0d
+			width: 1.2d
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "07F0CCE4AAE927E5"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 99
+			rotation: 90.0d
+			width: 1.2d
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1A41A5FF5D9D7AA6"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 98
+			rotation: 90.0d
+			width: 1.2d
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "55F6A8DFF3A095D3"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 97
+			rotation: 90.0d
+			width: 1.2d
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "579E737D2C4DBD60"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 95
+			rotation: -90.0d
+			width: 1.2d
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5902E523D45BE730"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 94
+			rotation: -90.0d
+			width: 1.2d
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6543AAEFA5FFB360"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 93
+			rotation: -90.0d
+			width: 1.2d
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "76CA94F043803F0E"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 95
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2F3BE82D766EA188"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0B9971034F019711"
+			image: "beloong:block/disaster_portal_frame_top"
+			order: 93
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 18.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "2C91F2899A333562"
-		tasks: [{
-			dimension: "iceandfire_dreadland:dreadland"
-			id: "5A2C0B52B6A49778"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["77650D7436678A64"]
+			icon_scale: 1.45d
+			id: "2C91F2899A333562"
+			rewards: [{
+				id: "4C8524D051EE6825"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 3.5d
+			tasks: [{
+				dimension: "iceandfire_dreadland:dreadland"
+				icon: {
+					id: "iceandfire_dreadland:dread_portal"
+				}
+				id: "5A2C0B52B6A49778"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2C13AB4946347C72"
+			rewards: [{
+				id: "4DEB1C19B2D55775"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "29B5A8E4CF04DD6D"
+				item: { count: 1, id: "iceandfire_dreadland:iceland_key" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "1BBEE3C325886113"
+			rewards: [{
+				id: "05B98BE043CD0F46"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "641484E20D393B98"
+				item: { count: 1, id: "iceandfire_dreadland:fireland_key" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "40A287892FE34A47"
+			rewards: [{
+				id: "2969558CD4FC8074"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7171BD2C97C36AC6"
+				item: { count: 1, id: "iceandfire_dreadland:lightning_key" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1BBEE3C325886113"
+				"2C13AB4946347C72"
+				"40A287892FE34A47"
+			]
+			hide_dependency_lines: true
+			id: "77650D7436678A64"
+			rewards: [{
+				id: "3E368F0832CE82D8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4B2FF480206B32A0"
+				item: { count: 1, id: "iceandfire_dreadland:dreadland_key" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56CD03186ED90684"]
+			id: "10348A0D35A496AF"
+			rewards: [{
+				id: "457EEE462BA200CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_ancient_stronghold"
+				criterion: ""
+				id: "0773426303AFFDCD"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10348A0D35A496AF"]
+			icon: {
+				id: "legendary_monsters:ancient_guardian_spawn_egg"
+			}
+			id: "1F5E680BAE5D2003"
+			rewards: [
+				{
+					id: "5E1A8319CB8F27F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43834414F773F48E"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_the_ancient_guardian"
+				criterion: ""
+				id: "508B084178841EFC"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F5E680BAE5D2003"]
+			id: "6BEBE43B10552D6A"
+			rewards: [{
+				id: "41AECBEC84076ED8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:defeat_spiky_bug"
+				criterion: ""
+				id: "73696A312A18E4ED"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F5E680BAE5D2003"]
+			id: "67EFDB7BAD8A5906"
+			rewards: [{
+				id: "5FD67D8A64A23102"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "090A95BD402A3E97"
+				item: { count: 1, id: "legendary_monsters:monstrous_anchor" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61DA31A272BC48AB"]
+			icon: {
+				id: "legendary_monsters:dune_sentinel_spawn_egg"
+			}
+			id: "28B79D99FF19DB3D"
+			rewards: [
+				{
+					id: "093B2CD8CF201DFF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "063307B3568DDBF2"
+					item: {
+						count: 1
+						id: "cataclysm:desert_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_dune_sentinel"
+				criterion: ""
+				id: "01943B1C648119E2"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77650D7436678A64"]
+			id: "61DA31A272BC48AB"
+			rewards: [{
+				id: "5B747E33E484F0F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_ruined_pyramid"
+				criterion: ""
+				id: "48F58F616F3A6DD0"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28B79D99FF19DB3D"]
+			id: "76CD787AE233C3FA"
+			rewards: [{
+				id: "14EFD2EFE5903761"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:defeat_bomber"
+				criterion: ""
+				id: "4F23795C641F0862"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28B79D99FF19DB3D"]
+			id: "53B94779D8D89F9D"
+			rewards: [{
+				id: "132A01D418E38182"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26AA921EF6AA1F39"
+				item: { count: 1, id: "legendary_monsters:blastproof_helmet" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28B79D99FF19DB3D"]
+			id: "67E8CB8FBDE047D1"
+			rewards: [{
+				id: "2F310C57C3489249"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "733CAAC22E2D6F8F"
+				item: { count: 1, id: "legendary_monsters:sand_cannon" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FAA8786ABA8BF94"]
+			icon: {
+				id: "legendary_monsters:overgrown_colossus_spawn_egg"
+			}
+			id: "56CD03186ED90684"
+			rewards: [
+				{
+					id: "24954D70AF7B0ADA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EB7C8D8105B9469"
+					item: {
+						count: 1
+						id: "cataclysm:storm_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_overgrown_colossus"
+				criterion: ""
+				id: "4E599C6BB830BA6C"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61B245C87C07699C"]
+			icon: {
+				id: "legendary_monsters:frostbitten_golem_spawn_egg"
+			}
+			id: "4B9C19DD3E2679C1"
+			rewards: [
+				{
+					id: "4DA6AB1431B19484"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "70FE845D7A28331E"
+					item: {
+						count: 1
+						id: "cataclysm:cursed_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_frostbitten_golem"
+				criterion: ""
+				id: "0B3AF9DFD95CA7C6"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B9C19DD3E2679C1"]
+			id: "5FAA8786ABA8BF94"
+			rewards: [{
+				id: "713DBFE700205327"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_mossy_temple"
+				criterion: ""
+				id: "52143813CC2E9FF8"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28B79D99FF19DB3D"]
+			id: "61B245C87C07699C"
+			rewards: [{
+				id: "5EBD25AB24F5EC19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_frostbitten_temple"
+				criterion: ""
+				id: "6343444BE3EA667F"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DB9735D5CAF9032"]
+			icon: {
+				id: "legendary_monsters:cloud_golem_spawn_egg"
+			}
+			id: "21CD011E6F16C411"
+			rewards: [
+				{
+					id: "059D62FDF6337DE7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "31C2D336B9205FFF"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_chesed"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_cloud_golem"
+				criterion: ""
+				id: "79358A79B7717D70"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B9C19DD3E2679C1"]
+			id: "63A49F8C690FD884"
+			rewards: [{
+				id: "029B491CACBB44B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "772DDFFA652B4AB6"
+					item: { count: 1, id: "legendary_monsters:the_great_frost" }
+					type: "item"
+				}
+				{
+					id: "0CB45F6C86177D4C"
+					item: { count: 1, id: "legendary_monsters:frostbitten_shield" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56CD03186ED90684"]
+			id: "6F1B63E86A70F0A1"
+			rewards: [{
+				id: "12107057D1D0D55D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0C032815753B0FA6"
+					item: { count: 1, id: "legendary_monsters:mossy_hammer" }
+					type: "item"
+				}
+				{
+					id: "059AFF7AB57628DF"
+					item: { count: 1, id: "legendary_monsters:mossy_chestplate" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56CD03186ED90684"]
+			id: "4C92811BBF044817"
+			rewards: [{
+				id: "0EC7169DDF186EFF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26BCAD422FA9BEEB"
+				item: { count: 1, id: "legendary_monsters:totem_of_moss" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B9C19DD3E2679C1"]
+			id: "048B0DD23E73AD71"
+			rewards: [{
+				id: "04A979CFDADBB2C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5911946081E3812B"
+				item: { count: 1, id: "legendary_monsters:primal_ice_shard" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F5E680BAE5D2003"]
+			id: "7C8F8BB510056E30"
+			rewards: [{
+				id: "6BDD1C3806A4A85B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31EAB816A1F356FC"
+				item: { count: 1, id: "legendary_monsters:spiky_shield" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F5E680BAE5D2003"]
+			id: "3DB9735D5CAF9032"
+			rewards: [{
+				id: "7A1F5170692BEF0D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_cloudy_temple"
+				criterion: ""
+				id: "5FEAB76511130ACA"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21CD011E6F16C411"]
+			id: "181E7B87DE32CEA3"
+			rewards: [{
+				id: "68570748AA423721"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_lava_eater"
+				criterion: ""
+				id: "4A921F40390FEB48"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["181E7B87DE32CEA3"]
+			icon: {
+				id: "legendary_monsters:lava_eater_spawn_egg"
+			}
+			id: "1A626874CCDC9694"
+			rewards: [
+				{
+					id: "508A863C04C13165"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "317B5817BAAAB7F5"
+					item: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_lava_eater"
+				criterion: ""
+				id: "6F7A09898CCF8215"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F5AC4043CEA54E3"]
+			id: "72151A2FD66D3BD6"
+			rewards: [{
+				id: "303DBE18240C2197"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_skeletosaurus_nest"
+				criterion: ""
+				id: "3929C3BD9F352FA1"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["72151A2FD66D3BD6"]
+			icon: {
+				id: "legendary_monsters:skeletosaurus_spawn_egg"
+			}
+			id: "2E825FE5146172A7"
+			rewards: [
+				{
+					id: "164BC14F04BAC515"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AC625E0B8DD561F"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_skeletosaurus"
+				criterion: ""
+				id: "37152D7E71E0BD78"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A626874CCDC9694"]
+			id: "12EA14096CBC0447"
+			rewards: [{
+				id: "0716DDBDFA1DC17D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_soul_fortress_remains"
+				criterion: ""
+				id: "1C66A91FBEB1DD2A"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12EA14096CBC0447"]
+			icon: {
+				id: "legendary_monsters:withered_abomination_spawn_egg"
+			}
+			id: "7F5AC4043CEA54E3"
+			rewards: [
+				{
+					id: "5915DC3F42B703EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03DE6F117493507C"
+					item: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_withered_abomination"
+				criterion: ""
+				id: "74F80485D445E1F0"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E825FE5146172A7"]
+			id: "066F880D0A204FEA"
+			rewards: [{
+				id: "3BEC98AAAFE379E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_abandoned_crypt"
+				criterion: ""
+				id: "46ED66EB7FBEE910"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["066F880D0A204FEA"]
+			icon: {
+				id: "legendary_monsters:posessed_paladin_spawn_egg"
+			}
+			id: "66B5A93D255C0662"
+			rewards: [
+				{
+					id: "18DB31B9C679E7BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "619C5F31CEB11AFC"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_malkuth"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_posessed_paladin"
+				criterion: ""
+				id: "3A2B52210EB253CA"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["66B5A93D255C0662"]
+			id: "2A221FA065AEECA3"
+			rewards: [{
+				id: "728D5340FC4545EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_ancient_tower_remains"
+				criterion: ""
+				id: "3D80FCF569444E83"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2A221FA065AEECA3"]
+			icon: {
+				id: "legendary_monsters:endersent_spawn_egg"
+			}
+			id: "6C9C453593952765"
+			rewards: [
+				{
+					id: "4205255CCDC2FF1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "707516F8B0D4EB03"
+					item: {
+						count: 1
+						id: "cataclysm:void_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_endersent"
+				criterion: ""
+				id: "676C0382212BBE1C"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6C9C453593952765"]
+			id: "2527E346B4D46960"
+			rewards: [{
+				id: "79C0BA4FF7DD65BE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_shulker_tower"
+				criterion: ""
+				id: "5D09C8DD560758F9"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2527E346B4D46960"]
+			icon: {
+				id: "legendary_monsters:shulker_mimic_spawn_egg"
+			}
+			id: "3D3952553BFB204D"
+			rewards: [
+				{
+					id: "2E66C9D24438049B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7DFE4ACD3B8AAD6A"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_shulker_mimic"
+				criterion: ""
+				id: "40B64FEEB0308954"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3D3952553BFB204D"]
+			id: "4403D0B442B8A042"
+			rewards: [{
+				id: "54F35909B62941BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:locate_space_station"
+				criterion: ""
+				id: "5D707B96362C0144"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4403D0B442B8A042"]
+			icon: {
+				id: "legendary_monsters:the_obliterator_spawn_egg"
+			}
+			id: "347C54BAEC42A4AA"
+			rewards: [
+				{
+					id: "0B58517AA11990CD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "503295DB7B8C2AC3"
+					item: {
+						count: 1
+						id: "fdbosses:eye_of_geburah"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "legendary_monsters:defeat_the_obliterator"
+				criterion: ""
+				id: "51CC1AD0B26967D2"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			id: "2C5DAED6CD1A78E6"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "14DAAA356503F785"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["347C54BAEC42A4AA"]
+			id: "5B17EE2B443E6FAB"
+			rewards: [
+				{
+					id: "0DEFA99251721B2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "02B65429F99477BC"
+					item: {
+						count: 1
+						id: "beloong:disaster_portal_frame"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "beloong:disaster_portal_frame"
+				}
+				id: "5EA3A7C0DD9BA121"
+				observation_type: "block"
+				observe_type: 0
+				timer: 5L
+				to_observe: "beloong:disaster_portal_frame"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "07B6867A808FFAC7"
+			rewards: [{
+				id: "31EC9E83C64F8CD6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "38828CF88F5B0255"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "7F9E6D10F321927F"
+			rewards: [{
+				id: "7D323647286D08C4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "77583F0713CC77E7"
+				item: { count: 1, id: "fdbosses:eye_of_geburah" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "3D97123D1901A1C8"
+			rewards: [{
+				id: "6239B29C4083CF42"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3C64E202BA73834A"
+				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "3EC4B6AD875A25D5"
+			rewards: [{
+				id: "1FA745646E8375AF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4F81A6F7BA43C163"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "29D055DC49B2AA7D"
+			rewards: [{
+				id: "5890470E91E4A830"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0DC7E65F96749E23"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "6AE0A2C8D7978FC2"
+			rewards: [{
+				id: "4B41E65BC85672DD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "59EFCE0DEE2F3C1E"
+				item: { count: 1, id: "cataclysm:void_eye" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "3699E72666A2DBF6"
+			rewards: [{
+				id: "367DDB441762A9C9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "57FCC9B9789B6AFC"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "2BA5B4E1E4B65148"
+			rewards: [{
+				id: "2E9A9C7022508F33"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2E6821A1DB32EEB4"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "76BDFD3D489242DC"
+			rewards: [{
+				id: "6F9B1893E64B7174"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0D1D993FB95A41B8"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "10F79CEDC9B4CAE1"
+			rewards: [{
+				id: "17F63F34DE5B08A4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "29405D04BC84E37D"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "15AFDC56C1DDD186"
+			rewards: [{
+				id: "4358AD9C4EDF0480"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5FD34999934450B0"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "6285E3FE40B50A5D"
+			rewards: [{
+				id: "5864511A4FD0D3B8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2370FA9BD0909650"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"5B17EE2B443E6FAB"
+				"7F9E6D10F321927F"
+				"15AFDC56C1DDD186"
+				"3D97123D1901A1C8"
+				"6285E3FE40B50A5D"
+				"29D055DC49B2AA7D"
+				"07B6867A808FFAC7"
+				"3EC4B6AD875A25D5"
+				"2BA5B4E1E4B65148"
+				"3699E72666A2DBF6"
+				"6AE0A2C8D7978FC2"
+				"76BDFD3D489242DC"
+				"10F79CEDC9B4CAE1"
+			]
+			icon: {
+				id: "xfws_swords:ark_of_the_cosmos"
+			}
+			id: "63EE66C72921DB29"
+			rewards: [
+				{
+					id: "7AE66D067A810601"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FCEEF35CFB70F96"
+					item: {
+						count: 1
+						id: "xfws_swords:ark_of_the_cosmos"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "beloong:disaster"
+				icon: {
+					id: "beloong:disaster_portal_block"
+				}
+				id: "68710894F3F6247D"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+	]
 }

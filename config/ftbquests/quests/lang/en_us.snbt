@@ -80,8 +80,6 @@
 		"PorkChop_ZLG"
 	]
 	chapter.70F8D93CCB47276E.title: "&dAbout &e『&6BeLoong&e』 &dModpack"
-	chapter.7B67918088B05AB6.chapter_subtitle: ["Hidden Quests"]
-	chapter.7B67918088B05AB6.title: "〖Astral Dragon〗Path of Growth"
 	chapter.7E93FF98428B8B46.chapter_subtitle: [
 		"Side Story: Ice and Fire"
 		"Ice and Fire Community Edition"
@@ -95,6 +93,11 @@
 	chapter_group.68BA145F90AA30CE.title: "Main Quests"
 	chapter_group.6B7CC0230CA6913F.title: "Compendium Collection"
 	file.0000000000000001.title: "&e『&6BeLoong&e』"
+	image.09957AD231EC139C.title: "您的赞助将加快『化龍』的开发\\n点击图片前往爱发电\\n记得备注游戏ID\\n我好填写赞助名单"
+	image.4A8DECFD38631A47.title: "点击图片前往【星遥游戏】\\n优惠码：25beloong"
+	image.5ECBF8A2875CE728.title: "点击图片前往【星叶云联】\\n优惠码：beloong"
+	image.705566946F6F8DC4.title: "龙钢煅炉\\n点击查看搭建方式"
+	image.7442E9F7B40A9427.title: "欢迎您加入『化龍』交流频道\\n点击图片前往QQ频道"
 	quest.0014213DE61FC595.quest_subtitle: "Collect All Cave Dragon Furniture"
 	quest.0014213DE61FC595.title: "Cave Dragon Home"
 	quest.00628C62EEB79A37.quest_subtitle: "Pocket Dimension"
@@ -145,20 +148,6 @@
 	quest.014D856119B0F3F7.title: "Kill: Sea Serpent"
 	quest.01595FC4029CAD14.title: "Blazing Tutor Set"
 	quest.0256EDAC77E359BD.title: "Battlemage Equipment"
-	quest.02660EF9A8CDA757.quest_desc: [
-		"&aObjective: Defeat the Ender Dragon"
-		""
-		"&dAfter the Ender Dragon&6 is slain, it drops massive loot and a mysterious pool appears."
-		""
-		"&6At this time, you have two choices:"
-		"&61. Find the &5End Portal&6 beside the chest and return to the &2Overworld&6;"
-		"&62. Throw a &dDragon Egg&6 into the pool and travel to the &3Twilight Forest&6."
-	]
-	quest.02660EF9A8CDA757.quest_subtitle: "The End Awaits Its New Master"
-	quest.02660EF9A8CDA757.title: "Defeat [Ender Dragon]"
-	quest.026EE10B22870C6B.quest_desc: ["&6It is said that Phantoms have some connection to dragons. Who really knows?"]
-	quest.026EE10B22870C6B.quest_subtitle: "Some Dragons Say: A Failed Evolution?"
-	quest.026EE10B22870C6B.title: "Phantom Slayer"
 	quest.0290886F399EB569.quest_desc: [
 		"&6With the phone, you can directly purchase ready-made ingredients or drinks. Most beverages can only be obtained this way.&r"
 		""
@@ -385,12 +374,6 @@
 	]
 	quest.06BED8FFC050C39A.title: "Symbol of Strength"
 	quest.072FD241CD272F4C.title: "Checkpoint: Infernal Lands"
-	quest.07328C6505484271.quest_desc: [
-		"&dThe Ender Dragon&6 is the progenitor of the &5Astral Dragon&6 lineage,"
-		"&6and the supreme ruler of dragonkind in ancient times."
-	]
-	quest.07328C6505484271.quest_subtitle: "Rise again, my beloved dragon!"
-	quest.07328C6505484271.title: "Revive: Ender Dragon"
 	quest.073A531B004C31E3.quest_desc: [
 		"&l&d「Leviathan」"
 		"&6Health: &a4000"
@@ -455,9 +438,6 @@
 	quest.08CE97F6C822784E.quest_subtitle: "Learn Yin-Yang Arts"
 	quest.08CE97F6C822784E.title: "Challenge: Taoist Temple"
 	quest.09070CEC4EBD2898.quest_subtitle: "Refreshing"
-	quest.095F26381CC3BDF9.quest_desc: ["{ \"text\": \"Click to view BOSS info\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196959C6E061913D\" } }"]
-	quest.095F26381CC3BDF9.quest_subtitle: "Kill Obsidian Monolith and submit its drop"
-	quest.095F26381CC3BDF9.title: "Defeat: Obsidian Monolith"
 	quest.09AD9A5F6A9D97B8.quest_desc: ["&9Structure Compass: &b[YUNG] Ocean Monument&r"]
 	quest.09AD9A5F6A9D97B8.title: "Challenge: Ocean Monument"
 	quest.0A6E69E220DAFB6F.quest_subtitle: "Grow into Young Dragon stage"
@@ -474,13 +454,6 @@
 	quest.0ADC425FA160CAD0.quest_subtitle: "Crossing the desert to find my true self"
 	quest.0ADC425FA160CAD0.title: "Sandworm"
 	quest.0AE4AB2612E41CA0.quest_subtitle: "Sakuya Izayoi Special"
-	quest.0B0D756819D16F7D.quest_desc: [
-		"&6Humans infused End Stone with magic to create these golems."
-		"&6They were devastating killing machines in the war."
-		"&6Afterwards, they were forgotten with the fortresses,"
-		"&6yet still silently guarded their posts."
-	]
-	quest.0B0D756819D16F7D.title: "Kill: End Golem"
 	quest.0B1F2B46DAF0D8AC.quest_desc: [
 		"&l&d「Warden」"
 		"&6Health: &a500"
@@ -836,8 +809,6 @@
 		"{ \"text\": \"Click to view how to obtain\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19632689D6646EBD\" } }"
 	]
 	quest.163153BE5D349228.title: "Sweep Items"
-	quest.16AC902A8860C5D5.quest_subtitle: "Grow to the Red Giant Stage"
-	quest.16AC902A8860C5D5.title: "Red Giant"
 	quest.16AD045AE7B461C7.quest_subtitle: "Junmai Daiginjo"
 	quest.16B32CB0D55A9718.title: "Necklace T0"
 	quest.170C5452183F9D7E.title: "Observe: Blaze Lily"
@@ -895,8 +866,6 @@
 	]
 	quest.17A9978D7AFEA210.quest_subtitle: "★★★★"
 	quest.17A9978D7AFEA210.title: "Eternal Starlight: Moonvine Colossus"
-	quest.17ECFF157B63592F.quest_subtitle: "Submit Some End-Related Items"
-	quest.17ECFF157B63592F.title: "End Specialties"
 	quest.17F6BAB9A64544C9.quest_subtitle: "Collect All Talismans"
 	quest.17F6BAB9A64544C9.title: "&aTalisman Completion"
 	quest.1818669657F8A0B2.quest_desc: ["&6Usable only in the &dStarlight Dimension&6, with a chance to summon &dMeteor Showers&6."]
@@ -1067,22 +1036,7 @@
 	]
 	quest.1E7A718688067EC6.quest_subtitle: "★"
 	quest.1E7A718688067EC6.title: "Vanilla: Wither"
-	quest.1EA1A1A70323BE0C.quest_subtitle: "Located in The End"
-	quest.1EA1A1A70323BE0C.title: "Check-in: Frozen Flesh Wastes"
 	quest.1ECC3AFD4ECADE42.title: "Accessory T3"
-	quest.1EE624BDBB0F7301.quest_desc: [
-		"&6An abandoned fortress crawling with disgusting beetles."
-		"&6Once a stronghold to resist dragons, destroyed in war."
-	]
-	quest.1EE624BDBB0F7301.title: "Kill: Ender Beetle"
-	quest.1FBBB4F5A5AF64FD.quest_desc: [
-		"&aObjective: Grow to Neutron Star stage, defeat Dark Doppelganger"
-		""
-		"&6The ultimate trial is to confront your inner &5darkness&6 and transcend yourself!"
-		"{ \"text\": \"Click to view BOSS introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11FC2E4D6E6B0D93\" } }"
-	]
-	quest.1FBBB4F5A5AF64FD.quest_subtitle: "【Astral Dragon Growth Path    Complete】"
-	quest.1FBBB4F5A5AF64FD.title: "&5Astral Dragon Graduation"
 	quest.1FCB1AD94F2996B2.quest_desc: [
 		"&6Congratulations on collecting most of the &eNight Sparrow Treats&6,"
 		"&6more delicacies await your discovery."
@@ -1226,17 +1180,6 @@
 	]
 	quest.25871E50A41EC3EA.quest_subtitle: "★★★"
 	quest.25871E50A41EC3EA.title: "Twilight Forest: Naga"
-	quest.258CFD18EE567A75.quest_desc: [
-		"&6In the great battle, the Ender Dragon fell, almost wiping out the Astral Dragon lineage."
-		"&6With aid from other dragons, Astral Dragons barely survived in the End,"
-		"&6but having lost their inheritance, only a few minor skills remain."
-	]
-	quest.258CFD18EE567A75.quest_subtitle: "Upgrade 1 Astral Dragon Passive Skill to Max"
-	quest.258CFD18EE567A75.title: "Master the Star Secrets"
-	quest.2599EC1F2F19464A.quest_subtitle: "Grow to Main Sequence Star Stage"
-	quest.2599EC1F2F19464A.title: "Main Sequence Star"
-	quest.26053B577195305A.quest_subtitle: "Grow to Black Hole Stage"
-	quest.26053B577195305A.title: "Black Hole"
 	quest.267503A8DD306195.quest_subtitle: "Coffee Ice Cream~"
 	quest.282FECD2B1F669AD.quest_subtitle: "Everything You Want to Know Is Here"
 	quest.282FECD2B1F669AD.title: "Tea Ceremony Guide"
@@ -1293,13 +1236,6 @@
 	]
 	quest.28625E49F473135B.quest_subtitle: "★★★★"
 	quest.28625E49F473135B.title: "Eternal Starlight: The Gatekeeper"
-	quest.2868198C85787E08.quest_desc: [
-		"&6Those death row prisoners exiled to The End, some escaped to outer islands, reproduced, gradually forming End Villages."
-		""
-		"&9Structure Compass: &bEnd Village&r"
-	]
-	quest.2868198C85787E08.quest_subtitle: "Place of Exile"
-	quest.2868198C85787E08.title: "Check-in: End Village"
 	quest.28E29AA14A69F617.quest_desc: [
 		"&6Sneak right-click the Dimension Network Admin to bind it to the current network."
 		""
@@ -1386,15 +1322,6 @@
 	]
 	quest.2C81337448F9655F.quest_subtitle: "Just Snow, Drift Into Eyes"
 	quest.2C81337448F9655F.title: "Yeti"
-	quest.2CABA649B11966EB.quest_subtitle: "Is This a Wormhole?"
-	quest.2CABA649B11966EB.title: "Observation: End Warp Gate"
-	quest.2CDF187F53C29F22.quest_desc: [
-		"&6A hidden chapel deep in The End, worshipping the Queen of Light. Before the Ender Dragon's death, it entrusted the Queen to watch over the remaining dragons. Now, the dragon lineage continues, but the Queen of Light is missing."
-		""
-		"&9Structure Compass: &bChapel of Light&r"
-	]
-	quest.2CDF187F53C29F22.quest_subtitle: "No Dragon Knows Where the Queen of Light Went"
-	quest.2CDF187F53C29F22.title: "Challenge: Chapel of Light"
 	quest.2CEFD2DF7A413288.title: "Cataclysm BOSS Summon"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9Structure Compass: &bBlack Pine Knight Fortress&r"]
 	quest.2CFCFA632C2D16F5.title: "Challenge: Black Pine Knight Fortress"
@@ -1402,8 +1329,6 @@
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "Dreamlike as Bubbles"
 	quest.2E6A1BFF333127EA.quest_subtitle: "Small chance to drop from the Dead King"
 	quest.2E6A1BFF333127EA.title: "Ruptured Node Spell Scroll"
-	quest.2E92127811717292.quest_subtitle: "Heavily Guarded Portal"
-	quest.2E92127811717292.title: "Observation: End Portal"
 	quest.2EB0BF01344C3DD7.title: "Heart-stopping Chorus Fruit"
 	quest.2ECA4D4990D20697.quest_desc: ["&aObjective: Collect all Dragonsteel weapons and tools"]
 	quest.2ECFB391DB73DDF9.quest_subtitle: "Level up all 4 Forest Dragon passive skills to max"
@@ -1618,7 +1543,6 @@
 	quest.359B897165997027.title: "Acknowledgements List"
 	quest.366B99B5082468A6.quest_subtitle: "&5&l「Shadow」&r&eLegacy of the Draconic Ancestors"
 	quest.366B99B5082468A6.title: "Act 4: Dragon Heart"
-	quest.36C95FFAF0BAB532.title: "Spin to Win Empowerment"
 	quest.36D18D859382FB7D.quest_subtitle: "Delicious and Sweet"
 	quest.3753EB478219DC26.quest_desc: ["&9Structure Compass: &b【Iron's Spells 'n Spellbooks】Ancient Battlefield&r"]
 	quest.3753EB478219DC26.title: "Challenge: Ancient Battlefield"
@@ -1779,6 +1703,7 @@
 	quest.3C70592EFB49B53A.quest_subtitle: "Maid's Walkman"
 	quest.3C725E33FECDE01D.quest_subtitle: "Space Specialty"
 	quest.3C8B6F5362402CA0.quest_subtitle: "Best-selling Drink"
+	quest.3D00DAB64DEB1AA3.quest_desc: ["&5Congratulations on completing the Astral Dragon growth path!"]
 	quest.3D0F6DE15AB80E2E.quest_desc: [
 		"&6Music Discs &rcan be burned with NetEase Cloud Music on the &6Record Burner&r."
 		""
@@ -1886,14 +1811,6 @@
 	quest.415DFAC173D75395.quest_desc: ["&aObjective: Collect the full set of Radiant Dragon Armor"]
 	quest.415DFAC173D75395.quest_subtitle: "Collect the Radiant Dragon Armor set"
 	quest.415DFAC173D75395.title: "Reform the Golden Body"
-	quest.41C8EFCFDDD74B24.quest_desc: [
-		"&eThe Dream Tower &6is a giant tower located in the Outer End Islands."
-		"&6It seals away countless &ePhantoms&6, making it quite terrifying."
-		""
-		"&9Structure Compass: &b【When Dungeons Arise】Dream Tower&r"
-	]
-	quest.41C8EFCFDDD74B24.quest_subtitle: "Giant Phantoms"
-	quest.41C8EFCFDDD74B24.title: "Challenge: Dream Tower"
 	quest.41DB497093B18B47.title: "Hand Ornament T1"
 	quest.4218F6E0430B190C.title: "Foot Ornament T3"
 	quest.422368D6F94C0ABD.quest_desc: [
@@ -1928,9 +1845,6 @@
 	quest.44CF273ECA38F841.title: "Battlemage Armor"
 	quest.44DBC43AEBA8B676.quest_subtitle: "Collect all hand ornaments"
 	quest.44DBC43AEBA8B676.title: "&aHand Ornaments Completion"
-	quest.4535A656F620B8B9.quest_desc: ["&aObjective: Obtain a Dragon Egg"]
-	quest.4535A656F620B8B9.quest_subtitle: "That Dusty Past"
-	quest.4535A656F620B8B9.title: "The Ender Dragon's Offspring"
 	quest.45865A0F5D63488F.quest_desc: [
 		"&l&dQliphoth「Malkuth」"
 		""
@@ -2073,8 +1987,6 @@
 	quest.48E18718D8715F1A.title: "Twilight Forest: Hydra"
 	quest.49E035E1CB353C48.quest_subtitle: "Grow to the Adult Dragon stage"
 	quest.49E035E1CB353C48.title: "Adult Sea Dragon"
-	quest.49FC89FFF13329BF.quest_subtitle: "Grow to the Neutron Star stage"
-	quest.49FC89FFF13329BF.title: "Neutron Star"
 	quest.4A3DB16FEE8A6BE4.title: "High Evoker Armor"
 	quest.4A5D5042C28278A2.quest_desc: [
 		"&6Right-click to create a dimension network."
@@ -2136,17 +2048,6 @@
 	quest.4B2A79FC0C011CB2.title: "Dragonsteel Forge"
 	quest.4BCF83DBB5612B54.quest_subtitle: "Guaranteed once per dragon"
 	quest.4BCF83DBB5612B54.title: "Doppelganger Ring Guarantee"
-	quest.4BD6C7A2A6DC392B.quest_desc: [
-		"&aObjective: Obtain a Dehydrated Ghast"
-		""
-		"&6Dehydrated Ghasts can sometimes be found near &ffossils &6in the Nether."
-		"&6After being placed in water for about &220 minutes&6, a Dehydrated Ghast will transform into a &6Ghastling&6. After another &220 minutes&6, it will grow into a &6Happy Ghast&6."
-		"&6Feeding a &rSnowball &6to a Ghastling can speed up its growth."
-		"&6Players can use a &dHarness &6on a Happy Ghast to make it rideable,"
-		"&6and use shears to remove the harness when not riding."
-		""
-		"&7&oNaming it \"kiki\" yields a surprise."
-	]
 	quest.4BE17AD8808CFFEF.quest_desc: [
 		"&6The Scroll Scribing Table &ris used to scribe various &eSpell Scrolls&r."
 		""
@@ -2204,19 +2105,6 @@
 	]
 	quest.4DBAD417CE6615B0.quest_subtitle: "★★★★"
 	quest.4DBAD417CE6615B0.title: "Rise of the YETI: Sandworm"
-	quest.4DE67F32DA93384F.quest_desc: [
-		"&6A massive shadow sweeps across the sky, countless enemies descend from above."
-		"&6This is the powerful weapon humanity used to defeat dragons in the past—the Skyborne Frigate."
-		"&7&oThe human empire sounds the war chant, the Sky Challenger streaks across the sky;"
-		"&7&oThe Necromancer waves his staff, the Sky Conqueror rules the battlefield;"
-		"&7&oThe Valkyrie descends in person, the Sky Knights are invincible."
-		""
-		"&9Structure Compass: &b【When Dungeons Arise】Sky Challenger&r"
-		"&9Structure Compass: &b【When Dungeons Arise】Sky Conqueror&r"
-		"&9Structure Compass: &b【When Dungeons Arise】Sky Knights&r"
-	]
-	quest.4DE67F32DA93384F.quest_subtitle: "Challenge all 3 When Dungeons Arise frigates"
-	quest.4DE67F32DA93384F.title: "Time for Revenge"
 	quest.4DEF1998BE552CE0.quest_subtitle: "Guaranteed once per dragon"
 	quest.4DEF1998BE552CE0.title: "Doppelganger Ring Guarantee"
 	quest.4E1F113694EB8B3E.title: "Crimson Cultist Armor"
@@ -2680,34 +2568,7 @@
 	quest.5DB104CFE665CC09.quest_subtitle: "Visit 6 desert biomes and some structures"
 	quest.5DB104CFE665CC09.title: "I'm Going to Cross This Desert"
 	quest.5DD97094AAD4DDA2.quest_subtitle: "\"The King of Value\""
-	quest.5E2651DABF146E68.quest_desc: [
-		"&2Nature's Compass: &aAmethyst Forest&r"
-		"&2Nature's Compass: &aAsh Delta&r"
-		"&2Nature's Compass: &aCrystal Peaks&r"
-		"&2Nature's Compass: &aEnd Shrubland&r"
-		"&2Nature's Compass: &aEnd Wasteland&r"
-		"&2Nature's Compass: &aEnder Barrens&r"
-		"&2Nature's Compass: &aEndless Dunes&r"
-		"&2Nature's Compass: &aFiery Hills&r"
-		"&2Nature's Compass: &aFlesh Tundra&r"
-		""
-		"&c&l【Continued on next page】"
-		"{@pagebreak}"
-		"&2Nature's Compass: &aFrosted Valley&r"
-		"&2Nature's Compass: &aFrozen Swamp&r"
-		"&2Nature's Compass: &aFrostland Woodlands&r"
-		"&2Nature's Compass: &aFrostspike&r"
-		"&2Nature's Compass: &aHallowed Tundra&r"
-		"&2Nature's Compass: &aPrismarine Forest&r"
-		"&2Nature's Compass: &aSanctuary&r"
-		"&2Nature's Compass: &aWyrmnest Tundra&r"
-		"&2Nature's Compass: &aTwisted Swamp&r"
-	]
-	quest.5E2651DABF146E68.quest_subtitle: "Visit Stellarity's End biomes"
-	quest.5E2651DABF146E68.title: "Stellar End"
 	quest.5EE6DC4771476CC8.quest_subtitle: "Alternate Whiskey"
-	quest.5EFF5C22E67BCE5D.quest_subtitle: "Located in The End"
-	quest.5EFF5C22E67BCE5D.title: "Check-in: Prismarine Forest"
 	quest.5F710FD97963CF8F.title: "Cleric Armor"
 	quest.5FCFEA69626A53AE.quest_desc: [
 		"&d&l【Chinese Courtyard】"
@@ -2796,12 +2657,6 @@
 	quest.6344D6B5AEC69478.title: "&d&lFinal Starlight"
 	quest.634C5657E921C26C.quest_subtitle: "Submit all exclusive foods for the Sea Dragon"
 	quest.634C5657E921C26C.title: "Sea Dragon's Delicacies"
-	quest.638EEC92478431C8.quest_desc: [
-		"&6The Astral Dragon lineage, due to constantly needing to evade pursuit,"
-		"&6has honed the ability to travel between dimensions."
-	]
-	quest.638EEC92478431C8.quest_subtitle: "Complete some Aether Dragon achievements"
-	quest.638EEC92478431C8.title: "Astral Dragon Fun Challenges"
 	quest.63DB1E9C5C2FDC80.quest_desc: [
 		"&6Allows you to modify terrain and structures like a &eDeity&6, with infinite durability."
 		""
@@ -2823,14 +2678,6 @@
 	]
 	quest.6510A7883109C0C5.quest_subtitle: "Prepared for the unlucky"
 	quest.6510A7883109C0C5.title: "Betrayer's Insignia Guarantee"
-	quest.6511938692C22F27.quest_desc: [
-		"&aDruid Familiars &6are prevented from naturally spawning,"
-		"&6because they can breed animals infinitely, causing severe lag."
-		""
-		"&7&oIf you can't see it after spawning, please exit and re-enter the game."
-	]
-	quest.6511938692C22F27.quest_subtitle: "Cannot spawn naturally"
-	quest.6511938692C22F27.title: "Druid Familiar"
 	quest.6551B8D4F580ACE3.quest_desc: [
 		"&aObjective: Collect all Building Staves"
 		""
@@ -2927,8 +2774,6 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie's Mobs: Frostmaw"
-	quest.6B26A9D9D92F69DA.quest_subtitle: "Dragon Exile Land"
-	quest.6B26A9D9D92F69DA.title: "Check-in: End Midlands"
 	quest.6B3CAAA337596F88.quest_desc: [
 		"&cNote: This spawns a 【Mimic】 right on the spot!"
 		""
@@ -2992,12 +2837,6 @@
 	quest.6C896BDFB4BBB4E4.title: "Claiming Chunks and Force-Loading"
 	quest.6CB7E3C2DE9FA1DC.quest_subtitle: "Collect all necklaces"
 	quest.6CB7E3C2DE9FA1DC.title: "&aNecklaces Completion"
-	quest.6CC27511B19B214F.quest_desc: [
-		"&5Astral Dragons &6do not need to eat."
-		"&6They can use the &eEnergy Siphon &6skill to absorb energy to fill their hunger."
-	]
-	quest.6CC27511B19B214F.quest_subtitle: "Begin the Astral Dragon's path of growth"
-	quest.6CC27511B19B214F.title: "Protostar"
 	quest.6CC5B640AD43F55C.quest_desc: [
 		"&aObjective: Build a Beacon"
 		""
@@ -3220,10 +3059,6 @@
 	quest.74AD0E230F7A62A1.quest_subtitle: "Submit 7 types of vanilla saplings and 10 types of Twilight Forest saplings"
 	quest.74AD0E230F7A62A1.title: "Sensible Dendrologist"
 	quest.74B48A026628E827.title: "Observation: Cactus"
-	quest.74CCA3A95866E0CE.quest_subtitle: "They guard the End Portal in the Stronghold"
-	quest.74CCA3A95866E0CE.title: "Kill: Vindicator"
-	quest.74D8E9EC39D5A9D2.quest_subtitle: "The End Stronghold has been revamped, full of dangers"
-	quest.74D8E9EC39D5A9D2.title: "Challenge: Stronghold"
 	quest.75439ACB199C6BBA.title: "Kill: Ancient Knight"
 	quest.7552748C8250227C.quest_desc: [
 		"&l&d「Sunbird - Umuwuti」"
@@ -3261,9 +3096,6 @@
 		"&6right-click a &eBlade-Gunner &6to promote them to a &eGuild Master&6."
 	]
 	quest.7669BD22EB40BE98.quest_subtitle: "Trade with the Guild Master"
-	quest.766B3F52833465AC.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0088F3221CD99A3D\" } }"]
-	quest.766B3F52833465AC.quest_subtitle: "Kill the Ender Guardian and submit its drops"
-	quest.766B3F52833465AC.title: "Defeat: Ender Guardian"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2Nature's Compass: &aCrimson Forest&r"
 		"&2Nature's Compass: &aSpiral Forest&r"
@@ -3323,8 +3155,6 @@
 	quest.78D2FCC2F0B6177B.quest_desc: [""]
 	quest.78D2FCC2F0B6177B.quest_subtitle: "One calls out in the night, many respond"
 	quest.78D2FCC2F0B6177B.title: "&2Evocation Conjuration"
-	quest.78FC37281E091A60.quest_subtitle: "Guaranteed once per dragon"
-	quest.78FC37281E091A60.title: "Doppelganger Ring Guarantee"
 	quest.790877257A40CEF8.quest_desc: [
 		"&6Dimension network admins can bind it to the current network by sneaking and right-clicking."
 		""
@@ -3407,7 +3237,6 @@
 		"&6with a spherical range of radius &264&6."
 	]
 	quest.7DB7B55E956A4A94.quest_subtitle: "Prevent Animal Spawning"
-	quest.7DD416AF2172DFC1.title: "Flight Empowerment"
 	quest.7E43C24DAFAF97FB.quest_desc: [
 		"Terrarian Confluence is an expansion mod combining Minecraft and Terraria, aiming to break the boundaries between these two games and bring players a unique gaming experience."
 		""
@@ -3442,18 +3271,6 @@
 	]
 	quest.7EB346A1790BD94B.quest_subtitle: "Find the Guild Castle"
 	quest.7EB346A1790BD94B.title: "Guild Castle"
-	quest.7F3860516EB20F18.quest_desc: [
-		"&d&l「Geburah」"
-		"{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FC068CD405DBBD4\" } }"
-		""
-		"&6To eliminate the dragons in The End, humanity forged a terrifyingly powerful balance:"
-		"&6Its body is indestructible, its firepower unparalleled;"
-		"&6It hates flying dragons, it erases airborne enemies;"
-		"&6It deems all things guilty, it dispenses justice with lasers;"
-		"&6It is the eternal inquisitor, it is the executioner of dragons."
-	]
-	quest.7F3860516EB20F18.quest_subtitle: "Defeat 「Geburah」"
-	quest.7F3860516EB20F18.title: "Who Can Dispense Justice?"
 	quest.7F59185C7CD743A1.quest_subtitle: "From whence does the wind come?"
 	quest.7F59185C7CD743A1.title: "Obtain: Peacock Feather Fan"
 	quest.7F7757E6C4E4B498.quest_desc: [

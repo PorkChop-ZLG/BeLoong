@@ -6,6 +6,7 @@
 	id: "0F599041F0C4C0AF"
 	images: [{
 		height: 12.0d
+		id: "6F0ED073ED6C1549"
 		image: "minecraft:block/crafting_table_top"
 		rotation: 0.0d
 		width: 12.0d

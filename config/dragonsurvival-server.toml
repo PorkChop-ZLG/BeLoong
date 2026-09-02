@@ -124,9 +124,9 @@
 
 	[dragon_hunters.spearman]
 		#Additional vertical reach for the spearman
-		# Default: 2.5
+		# Default: 3.0
 		# Range: 0.0 ~ 256.0
-		spearman_bonus_vertical_reach = 2.5
+		spearman_bonus_vertical_reach = 3.0
 		#Base value for the armor attribute
 		# Default: 2.0
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -144,9 +144,9 @@
 		# Range: > 0
 		spearman_attack_knockback = 0
 		#Additional horizontal reach for the spearman
-		# Default: 0.5
+		# Default: 2.0
 		# Range: 0.0 ~ 256.0
-		spearman_bonus_horizontal_reach = 0.5
+		spearman_bonus_horizontal_reach = 2.0
 		#Base value for the max health attribute
 		# Default: 24.0
 		# Range: 1.0 ~ 1.7976931348623157E308

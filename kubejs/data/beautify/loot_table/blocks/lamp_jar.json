@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "beautify:lamp_jar",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:lamp_jar",
+                            "properties": {
+                                "fill_level": "0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:lamp_jar",
+                            "properties": {
+                                "fill_level": "5"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/lamp_jar1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:lamp_jar",
+                            "properties": {
+                                "fill_level": "10"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/lamp_jar2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:lamp_jar",
+                            "properties": {
+                                "fill_level": "15"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/lamp_jar3"
+                }
+            ]
+        }
+    ]
+}

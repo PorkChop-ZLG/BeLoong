@@ -9,14 +9,9 @@
 	id: "4C5C324ECE492CD6"
 	images: [
 		{
-			click: "https://ifdian.net/a/beloong"
+			click_action: "open_uri:https://ifdian.net/a/beloong"
 			height: 5.0d
-			hover: [
-				"您的赞助将加快『化龍』的开发"
-				"点击图片前往爱发电"
-				"记得备注游戏ID"
-				"我好填写赞助名单"
-			]
+			id: "09957AD231EC139C"
 			image: "kubejs:textures/task/afdian.png"
 			order: 2
 			rotation: 0.0d
@@ -25,12 +20,9 @@
 			y: -3.5d
 		}
 		{
-			click: "https://pd.qq.com/s/w6s6l3tz"
+			click_action: "open_uri:https://pd.qq.com/s/w6s6l3tz"
 			height: 5.0d
-			hover: [
-				"欢迎您加入『化龍』交流频道"
-				"点击图片前往QQ频道"
-			]
+			id: "7442E9F7B40A9427"
 			image: "kubejs:textures/task/channel.png"
 			order: 1
 			rotation: 0.0d

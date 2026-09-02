@@ -4,23 +4,23 @@
 	colorselector: {
 		# Colors recently selected in the color selector
 		# Default: []
-		recents: [I; ]
+		recents: [I;
+			-5899521
+			-9830416
+			-11337781
+			-9716981
+		]
 	}
 	sidebar: {
 		buttons: {
-			"ftbteams:my_team": {
-				enabled: true
-				x: 1
-				y: 1
-			}
-			"ftbquests:quests": {
-				enabled: true
-				x: 3
-				y: 1
-			}
 			"ftbchunks:chunks": {
 				enabled: true
 				x: 0
+				y: 2
+			}
+			"viscript_shop:shop": {
+				enabled: true
+				x: 2
 				y: 2
 			}
 			"ftblibrary:toggle/night": {
@@ -58,14 +58,24 @@
 				x: 1
 				y: 2
 			}
-			"ftblibrary:toggle/day": {
-				enabled: true
-				x: 1
-				y: 0
-			}
 			"ftblibrary:toggle/rain": {
 				enabled: true
 				x: 3
+				y: 0
+			}
+			"ftbteams:my_team": {
+				enabled: true
+				x: 1
+				y: 1
+			}
+			"ftbquests:quests": {
+				enabled: true
+				x: 3
+				y: 1
+			}
+			"ftblibrary:toggle/day": {
+				enabled: true
+				x: 1
 				y: 0
 			}
 		}

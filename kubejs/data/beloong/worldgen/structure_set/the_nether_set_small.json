@@ -1,0 +1,34 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20260902,
+    "separation": 15,
+    "spacing": 30,
+    "exclusion_zone": {
+      "other_set": "minecraft:nether_complexes",
+      "chunk_count": 4
+    }
+  },
+  "structures": [
+    {
+      "structure": "totw_modded:nether",
+      "weight": 1
+    },
+    {
+      "structure": "netherdepthsupgrade:nether_fortress_piece",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:nether_well",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:nether_devil",
+      "weight": 1
+    },
+    {
+      "structure": "mvs:crimson_enchanting_table",
+      "weight": 1
+    }
+  ]
+}

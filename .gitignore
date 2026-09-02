@@ -30,6 +30,7 @@ XaeroWaypoints_BACKUP240807/
 
 # ---- GitHub 忽略文件 ----
 command_history.txt
+defaultoptions.journal.json
 emi.json
 ops.json
 patchouli_data.json

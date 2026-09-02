@@ -1,0 +1,6 @@
+#Auto target mobs from other teams (if e.g. done per command)
+autoAddAI = true
+#Follow range increase for battling mobs
+# Default: 96.0
+# Range: 0.0 ~ 1.7976931348623157E308
+followRangeIncrease = 96.0

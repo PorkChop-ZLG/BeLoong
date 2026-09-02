@@ -7,6 +7,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "27583B02EDF2D1F0"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -15,6 +16,7 @@
 		}
 		{
 			height: 3.0d
+			id: "56DC18F6EC04D236"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -23,6 +25,7 @@
 		}
 		{
 			height: 3.0d
+			id: "32026336999CB160"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -31,6 +34,7 @@
 		}
 		{
 			height: 3.0d
+			id: "03C14C2FC2293DBD"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -39,6 +43,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4A3E5C5BCBC99182"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -47,6 +52,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4A5E822B83C0ECA7"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -55,6 +61,7 @@
 		}
 		{
 			height: 3.0d
+			id: "55ED3BEEBE1992F7"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			order: 10
 			rotation: 0.0d
@@ -64,6 +71,7 @@
 		}
 		{
 			height: 3.0d
+			id: "2BA2803A4A000E69"
 			image: "minecraft:textures/gui/sprites/container/slot.png"
 			order: 11
 			rotation: 0.0d
@@ -515,33 +523,11 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			tasks: [
-				{
-					id: "7160EDE8E755919B"
-					item: { count: 1, id: "alshanex_familiars:statue_curio" }
-					type: "item"
-				}
-				{
-					id: "0A2C45DD712D2FB3"
-					item: { count: 1, id: "alshanex_familiars:invisibility_curio" }
-					type: "item"
-				}
-				{
-					id: "7855549DC234466C"
-					item: { count: 1, id: "alshanex_familiars:evasion_curio" }
-					type: "item"
-				}
-				{
-					id: "3EFCAB09237CCB1B"
-					item: { count: 1, id: "alshanex_familiars:healing_curio" }
-					type: "item"
-				}
-				{
-					id: "29F71C8A0DD386B2"
-					item: { count: 1, id: "irons_spellbooks:invisibility_ring" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "29F71C8A0DD386B2"
+				item: { count: 1, id: "irons_spellbooks:invisibility_ring" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 4.5d
 		}
@@ -905,18 +891,11 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "6A5527B8DD2FA037"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
-					type: "item"
-				}
-				{
-					id: "1198F275190812DB"
-					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:familiar_spellbook" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6A5527B8DD2FA037"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
+				type: "item"
+			}]
 			x: 21.0d
 			y: 2.5d
 		}

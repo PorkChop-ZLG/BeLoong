@@ -1,0 +1,17 @@
+{
+  "type": "moogs_structures:moogs_structures_generic_nether_jigsaw_structure",
+  "start_pool": "mvs:other_decoration/crimson_enchanting_table/start_pool",
+  "size": 1,
+  "biomes": "#mvs:primary_wood_type/crimson",
+  "cannot_spawn_in_liquid": true,
+  "land_search_direction": "HIGHEST_LAND",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "terrain_height_radius_check": 2,
+  "allowed_terrain_height_range": 3,
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {}
+}

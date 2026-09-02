@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#iceandfire_dreadland:is_fireland",
+  "spawners": [
+    {
+      "type": "legendary_monsters:skeletosaurus",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

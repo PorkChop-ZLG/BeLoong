@@ -85,6 +85,7 @@
   "ftblibrary.client_settings.tooltips.item_modname": "在物品选择界面显示模组名称",
   "ftblibrary.client_settings.tooltips.fluid_modname": "在流体选择界面显示模组名称",
   "ftblibrary.client_settings.tooltips.image_modname": "在图像选择界面显示模组名称",
+  "ftblibrary.client_settings.tooltips.entity_modname": "在实体面部选择界面显示模组名称",
   "ftblibrary.client_settings.sidebar": "侧边栏按钮",
   "ftblibrary.client_settings.sidebar.enabled": "启用侧边栏按钮",
   "ftblibrary.client_settings.sidebar.position": "侧边栏按钮位置",

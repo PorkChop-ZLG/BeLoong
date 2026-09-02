@@ -4,10 +4,17 @@
 	filename: "bosses_flight"
 	group: "6B7CC0230CA6913F"
 	id: "29CB766687624EDA"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/ender_dragon_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "37DD5B8A42ABC578"
 			rewards: [
 				{
@@ -40,10 +47,16 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/wither_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "1E7A718688067EC6"
 			rewards: [
 				{
@@ -111,7 +124,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -1230,10 +1243,11 @@
 				}
 			]
 			tasks: [{
-				advancement: "block_factorys_bosses:no_hit_underworld_knight"
-				criterion: ""
-				id: "2384979D9742ABA8"
-				type: "advancement"
+				consume_items: true
+				count: 3L
+				id: "72986B88C6D2AD71"
+				item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+				type: "item"
 			}]
 			x: 4.0d
 			y: 3.0d
@@ -1526,6 +1540,7 @@
 				"01FF89454D454C6A"
 				"30071E3FF4CC9D23"
 				"36F664568D6F7A92"
+				"15B0C5F57872F7E2"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1823,6 +1838,121 @@
 			}]
 			x: 3.0d
 			y: 3.0d
+		}
+		{
+			id: "5D37685BFBAB83E4"
+			rewards: [
+				{
+					id: "0C5F25452C319773"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "207D7E8046486CA2"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "60D2865F071D89A5"
+				type: "kill"
+				value: 3L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "1ACB04A36A9C62B9"
+			rewards: [
+				{
+					id: "7468EBF8E1746DFB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "5ABCAB7C15B4DAC9"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				id: "222A434DE3E652E0"
+				type: "kill"
+				value: 3L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "036BAD83C2057F52"
+			rewards: [
+				{
+					id: "742BABBD4F68F235"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "2B689344707CADE1"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:the_obliterator"
+				id: "42D9D7611F714D10"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5D37685BFBAB83E4"
+				"1ACB04A36A9C62B9"
+				"036BAD83C2057F52"
+			]
+			icon: {
+				id: "iceandfire:dread_queen_staff"
+			}
+			id: "15B0C5F57872F7E2"
+			rewards: [
+				{
+					count: 5
+					id: "53D99A9053D48A0D"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "0BB07FF0078AA342"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B5541BC76FCADD4"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
 		}
 	]
 }

@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 6.0d
+			id: "14E0CDA9912DAB7D"
 			image: "kubejs:textures/task/forest_dragon.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 9.0d
+			id: "55AEB57355AB86F7"
 			image: "kubejs:textures/task/forest_banner_02.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -1416,7 +1418,7 @@
 				}
 				{
 					icon: {
-						id: "alshanex_familiars:strange_mushroom"
+						id: "farmersdelight:red_mushroom_colony"
 					}
 					id: "7C3F76931D8DA241"
 					structure: "dungeons_arise:mushroom_village"

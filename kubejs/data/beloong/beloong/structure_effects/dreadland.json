@@ -1,0 +1,93 @@
+{
+  "legendary_monsters:ancient_stronghold": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:ancient_tower_remains": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:frostbitten_temple": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:lava_eater_spawn": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:mossy_temple": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:ruined_pyramid": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:shulker_tower": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:skeletosaurus_nest": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:soul_fortress_remains": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:warped_fungussus_nest": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 4,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:cloudy_temple": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:collapsed_kingdom": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ],
+  "legendary_monsters:space_station": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 5,
+      "duration": 100
+    }
+  ]
+}

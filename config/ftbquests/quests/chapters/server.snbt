@@ -9,12 +9,9 @@
 	id: "5659CE99755DE90F"
 	images: [
 		{
-			click: "https://started.ink?ref=beloong"
+			click_action: "open_uri:https://started.ink?ref=beloong"
 			height: 3.0d
-			hover: [
-				"点击图片前往【星遥游戏】"
-				"优惠码：25beloong"
-			]
+			id: "4A8DECFD38631A47"
 			image: "kubejs:textures/task/started.png"
 			order: 2
 			rotation: 0.0d
@@ -23,12 +20,9 @@
 			y: -2.5d
 		}
 		{
-			click: "https://xyebbs.com/resources/885/prom"
+			click_action: "open_uri:https://xyebbs.com/resources/885/prom"
 			height: 5.0d
-			hover: [
-				"点击图片前往【星叶云联】"
-				"优惠码：beloong"
-			]
+			id: "5ECBF8A2875CE728"
 			image: "kubejs:textures/task/xyebbs.png"
 			order: 1
 			rotation: 0.0d

@@ -1,15 +1,1 @@
-[
-  {
-    "user": {
-      "type": "player",
-      "name": "InkRedragon",
-      "uniqueId": "e9cadba5-d4eb-4469-b340-6a942b3f35d9"
-    },
-    "time": 1782473161355,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/9t6bpxsC1o"
-    }
-  }
-]
+[]

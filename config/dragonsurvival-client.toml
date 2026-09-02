@@ -31,6 +31,8 @@
 		# Default: 0
 		# Range: > -2147483648
 		cast_bar_x_offset = 0
+		#Shows the available (non-reserved) mana in text form above the mana icons
+		show_mana_text = false
 
 	[ui.hud]
 		#If enabled the vanilla food bar will be shown
@@ -205,3 +207,5 @@
 	# Default: 0.07999999821186066
 	# Range: 0.0 ~ 0.5
 	spin_camera_entry_zoom_strength = 0.07999999821186066
+	#If enabled, Do a Barrel Roll replaces Dragon Survival's normal gliding controls and camera orientation
+	barrel_roll_compatibility = true

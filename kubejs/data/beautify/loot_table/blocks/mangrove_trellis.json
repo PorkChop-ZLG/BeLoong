@@ -1,0 +1,127 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "beautify:mangrove_trellis",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "1"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_rose_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "2"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_sunflower_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "3"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_peony_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "4"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_lilac_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "5"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_vine_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "6"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_weeping_vines_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "7"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_twisting_vines_trellis"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "beautify:mangrove_trellis",
+                            "properties": {
+                                "flowers": "8"
+                            }
+                        }
+                    ],
+                    "value": "beautify:blocks/mangrove_lichen_trellis"
+                }
+            ]
+        }
+    ]
+}

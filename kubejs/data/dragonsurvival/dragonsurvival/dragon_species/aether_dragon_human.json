@@ -28,8 +28,8 @@
       "icon": "dragonsurvival:textures/gui/custom/stage/aether/left_arrow_main.png"
     },
     "growth_right_arrow": {
-      "hover_icon": "dragonsurvival:textures/gui/custom/stage/forest/right_arrow_hover.png",
-      "icon": "dragonsurvival:textures/gui/custom/stage/forest/right_arrow_main.png"
+      "hover_icon": "dragonsurvival:textures/gui/custom/stage/aether/right_arrow_hover.png",
+      "icon": "dragonsurvival:textures/gui/custom/stage/aether/right_arrow_main.png"
     },
     "mana_sprites": {
       "empty": "dragonsurvival:textures/gui/custom/mana_icons/aether/empty.png",

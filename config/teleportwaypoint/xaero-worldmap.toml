@@ -1,0 +1,8 @@
+#Show teleport waypoints on Xaero's world map.
+showWaypoints = true
+
+[waypoint]
+	#Show inactive teleport waypoints.
+	showInactive = true
+	#Show active teleport waypoints.
+	showActive = true

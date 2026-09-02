@@ -210,14 +210,10 @@
     },
     "dragonsurvival:frostfire_dragon": {
       "effects": [
-        {
-          "duration": 400,
-          "effect": "dragonsurvival:cave_fire"
-        },
-        {
-          "duration": 400,
-          "effect": "dragonsurvival:sturdy_skin"
-        },
+				{
+					"duration": 400,
+					"effect": "frostfire_dragon:reverse_erosion"
+				},
         {
           "duration": 400,
           "effect": "dragonsurvival:empowered_soul"
@@ -228,7 +224,7 @@
         "experience_cost": 60
       }
     },
-    "dragonsurvival:star_dragon": {
+    "star_dragon:star_dragon": {
       "effects": [
         {
           "duration": 400,
@@ -269,6 +265,42 @@
 				{
 					"duration": 400,
 					"effect": "minecraft:resistance"
+				},
+				{
+					"duration": 400,
+					"effect": "dragonsurvival:empowered_soul"
+				}
+			],
+			"payment_data": {
+				"duration_multiplier": 30,
+				"experience_cost": 60
+			}
+		},
+		"dragonsurvival:annihilator_type_a": {
+			"effects": [
+				{
+					"duration": 400,
+					"effect": "dragonsurvival:cave_fire"
+				},
+				{
+					"duration": 400,
+					"effect": "dragonsurvival:sturdy_skin"
+				},
+				{
+					"duration": 400,
+					"effect": "dragonsurvival:empowered_soul"
+				}
+			],
+			"payment_data": {
+				"duration_multiplier": 30,
+				"experience_cost": 60
+			}
+		},
+		"dragonsurvival:night_striker": {
+			"effects": [
+				{
+					"duration": 400,
+					"effect": "dragonsurvival:animal_peace"
 				},
 				{
 					"duration": 400,
