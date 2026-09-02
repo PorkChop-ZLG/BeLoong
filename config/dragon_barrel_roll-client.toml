@@ -1,7 +1,7 @@
 #Dragon Barrel Roll Configuration
 [dragon]
 	#Enable/Disable the entire mod.
-	enableMod = true
+	enableMod = false
 	#Allow barrel roll while hovering (not sprint-flying).
 	enableHoverRoll = false
 	#Allow barrel roll while gliding (sprint-flying).

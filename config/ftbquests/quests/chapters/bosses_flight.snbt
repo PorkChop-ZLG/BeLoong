@@ -1216,6 +1216,12 @@
 			y: 4.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "block_factorys_bosses:item/knight_angry"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0C4859FFFC25935A"
 			rewards: [
 				{
@@ -1253,6 +1259,12 @@
 			y: 3.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "block_factorys_bosses:item/worm_angry"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "4DBAD417CE6615B0"
 			rewards: [
 				{
@@ -1280,15 +1292,22 @@
 				}
 			]
 			tasks: [{
-				advancement: "block_factorys_bosses:no_hit_sandworm"
-				criterion: ""
-				id: "0AF20C353B51A486"
-				type: "advancement"
+				consume_items: true
+				count: 3L
+				id: "2BADCFC215125BD3"
+				item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: 3.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "block_factorys_bosses:item/yeti_angry"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "5C54D192CA150300"
 			rewards: [
 				{
@@ -1316,15 +1335,22 @@
 				}
 			]
 			tasks: [{
-				advancement: "block_factorys_bosses:no_hit_yeti"
-				criterion: ""
-				id: "3F7A933AC07B89AA"
-				type: "advancement"
+				consume_items: true
+				count: 3L
+				id: "37277B58094CFBE2"
+				item: { count: 1, id: "block_factorys_bosses:ice_gauntlet" }
+				type: "item"
 			}]
 			x: 6.0d
 			y: 3.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "block_factorys_bosses:item/dragon_angry"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "03B1663E1AEFE3E8"
 			rewards: [
 				{
@@ -1352,10 +1378,11 @@
 				}
 			]
 			tasks: [{
-				advancement: "block_factorys_bosses:no_hit_dragon"
-				criterion: ""
-				id: "7390FDBD4E7600E9"
-				type: "advancement"
+				consume_items: true
+				count: 3L
+				id: "1C1EAE5EE6096BF5"
+				item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+				type: "item"
 			}]
 			x: 7.0d
 			y: 3.0d
@@ -1804,6 +1831,12 @@
 			y: 5.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "block_factorys_bosses:item/kraken_angry"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "5E95712B13C6FEFC"
 			rewards: [
 				{
@@ -1831,10 +1864,11 @@
 				}
 			]
 			tasks: [{
-				advancement: "block_factorys_bosses:no_hit_kraken"
-				criterion: ""
-				id: "5968213186B1CC3F"
-				type: "advancement"
+				consume_items: true
+				count: 20L
+				id: "745AEC200D76F418"
+				item: { count: 1, id: "block_factorys_bosses:kraken_tooth" }
+				type: "item"
 			}]
 			x: 3.0d
 			y: 3.0d
