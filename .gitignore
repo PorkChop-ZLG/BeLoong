@@ -6,6 +6,7 @@
 .probe/
 .vscode/
 BeLoong-natives/
+cache/
 crash-reports/
 CustomSkinLoader/
 data/
