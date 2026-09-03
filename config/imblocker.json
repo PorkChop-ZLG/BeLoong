@@ -3,7 +3,9 @@
     "screenWhitelist": [
       "net.mehvahdjukaar.supplementaries.client.screens.TextHolderEditScreen",
       "net.minecraft.client.gui.screens.inventory.BookEditScreen",
-      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen"
+      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen",
+      "com.lowdragmc.lowdraglib2.gui.holder.ModularUIScreen",
+      "com.lowdragmc.lowdraglib2.gui.holder.ModularUIContainerScreen"
     ],
     "enableScreenRecovering": false,
     "recoveredScreens": [],

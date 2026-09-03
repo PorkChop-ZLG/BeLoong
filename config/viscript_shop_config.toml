@@ -1,7 +1,7 @@
 [config]
-	showFtbLibraryButton = false
-	enableLegacyDataMigration = true
+	showFtbLibraryButton = true
+	enableLegacyDataMigration = false
 	# Default: -1
 	# Range: > -1
 	maxShopUiGiveItemsPerPurchase = -1
-	isPersonalStock = false
+	isPersonalStock = true

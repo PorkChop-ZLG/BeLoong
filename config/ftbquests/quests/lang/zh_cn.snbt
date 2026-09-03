@@ -1919,8 +1919,10 @@
 		""
 		"&6在&b系统商店&6，你可以兑换各种奇珍异宝！"
 		"&6通用货币是&d龙心&6，部分宝贝还有别的要求。"
+		""
+		"&c本商店将于1.4版本正式移除，替换为新的商店！"
 	]
-	quest.3859C3FFB6F2C61B.quest_subtitle: "叮！恭喜您解锁【系统商店】"
+	quest.3859C3FFB6F2C61B.quest_subtitle: "即将换为新的商店"
 	quest.3859C3FFB6F2C61B.title: "&e『&6化龍&e』&a系统商店"
 	quest.385C34B9D7641E76.quest_subtitle: "过于强力，禁止合成"
 	quest.385C34B9D7641E76.title: "止心术 法术卷轴"

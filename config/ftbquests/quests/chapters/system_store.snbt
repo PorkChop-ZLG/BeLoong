@@ -47,7 +47,7 @@
 			]
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "minecraft:villager_spawn_egg"
+				id: "minecraft:emerald"
 			}
 			id: "3859C3FFB6F2C61B"
 			rewards: [{
