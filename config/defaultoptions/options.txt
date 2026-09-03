@@ -21,9 +21,9 @@ mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"false"
-renderDistance:12
-simulationDistance:12
+renderClouds:"true"
+renderDistance:8
+simulationDistance:8
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["serilum_mod_translations","vanilla","mod_resources","moonlight:merged_pack","mod/continuity:resourcepacks/default","mod/continuity:resourcepacks/glass_pane_culling_fix","mod/eternal_starlight:resourcepacks/starlight_3d_mace","file/Icon Xaero\u0027s 1.22.zip","mod/yuushya:resourcepacks/mcpatcher_feature","file/BeLoong Music V3.zip","file/BeLoong Gui V3.zip","file/Assorted Allays x FA - V.11.0.zip","[无缝玻璃] Clear Glass Pack 1.21.zip","[更好的草和蕨] Os\u0027 Colorful Grasses (Mix).zip","[更好的草方块] Fast Better Grass.zip"]
+resourcePacks:["serilum_mod_translations","vanilla","mod_resources","moonlight:merged_pack","mod/continuity:resourcepacks/default","mod/continuity:resourcepacks/glass_pane_culling_fix","mod/eternal_starlight:resourcepacks/starlight_3d_mace","mod/yuushya:resourcepacks/mcpatcher_feature","file/Icon Xaero\u0027s 1.22.zip","file/BeLoong Gui V3.zip","file/Assorted Allays x FA - V.11.0.zip","[无缝玻璃] Clear Glass Pack 1.21.zip","[更好的草和蕨] Os\u0027 Colorful Grasses (Mix).zip","[更好的草方块] Fast Better Grass.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn

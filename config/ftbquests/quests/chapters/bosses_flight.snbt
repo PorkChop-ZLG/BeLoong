@@ -1147,29 +1147,6 @@
 			y: 5.0d
 		}
 		{
-			can_repeat: true
-			icon: {
-				id: "darkdoppelganger:shadow_orb"
-			}
-			id: "4CA71EFB328936E4"
-			optional: true
-			rewards: [{
-				command: "/tp @e[type=darkdoppelganger:dark_doppelganger] @s"
-				id: "1B91B56997E9023F"
-				permission_level: 2
-				silent: true
-				team_reward: true
-				type: "command"
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "11E872728B6E7AE8"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
 			icon: {
 				id: "fdbosses:malkuth_trophy"
 			}
@@ -1987,6 +1964,29 @@
 			}]
 			x: 3.0d
 			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "darkdoppelganger:shadow_orb"
+			}
+			id: "4CA71EFB328936E4"
+			optional: true
+			rewards: [{
+				command: "/tp @e[type=darkdoppelganger:dark_doppelganger] @s"
+				id: "1B91B56997E9023F"
+				permission_level: 2
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "11E872728B6E7AE8"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 5.0d
 		}
 	]
 }

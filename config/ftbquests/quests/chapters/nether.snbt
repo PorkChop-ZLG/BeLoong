@@ -1573,5 +1573,127 @@
 			x: 32.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["0F2271A7D264E7F3"]
+			id: "3C5BB748322BAC9F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "29B87350E69B6B3F"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "30D925239EF5927E"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cooldown_upgrade_orb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "darkdoppelganger:shadow_altar"
+				}
+				id: "4EF92A0738F6ED93"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "darkdoppelganger:shadow_altar"
+				type: "observation"
+			}]
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C5BB748322BAC9F"]
+			hide_until_deps_complete: true
+			id: "6E7C29B7BD87C467"
+			optional: true
+			rewards: [
+				{
+					id: "7C18F304BAD169F0"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "60CA9FF91603C8AD"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:counterspell"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:spellbreaker"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62C4D376AD690992"
+				item: { count: 1, id: "darkdoppelganger:shadow_orb" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E7C29B7BD87C467"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "darkdoppelganger:doppel_portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "darkdoppelganger:doppelganger_ring"
+			}
+			id: "21690FB87B5D206E"
+			optional: true
+			rewards: [
+				{
+					id: "43470707EFE27A0A"
+					type: "xp"
+					xp: 20000
+				}
+				{
+					id: "55A601674021FE8F"
+					item: {
+						count: 1
+						id: "darkdoppelganger:summon_scroll"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "darkdoppelganger:kill"
+				criterion: ""
+				id: "51ABA4D83BA6DE9C"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
 	]
 }
