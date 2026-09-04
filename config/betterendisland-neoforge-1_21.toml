@@ -4,7 +4,7 @@
 	"Resummoned Dragon Drops Egg" = true
 	# Whether the vanilla obsidian platform should spawn in the End instead of the revamped platform.
 	# Default: false
-	"Spawn Vanilla Obsidian Platform" = false
+	"Spawn Vanilla Obsidian Platform" = true
 	# Whether vanilla End Gateways should spawn in the End instead of the revamped End Gateways.
 	# Default: false
 	"Spawn Vanilla End Gateways" = false
