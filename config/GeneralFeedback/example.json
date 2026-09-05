@@ -1,0 +1,7 @@
+{
+  "id": "default",
+  "title": "化龍整合包",
+  "placeholder": "请输入文本...",
+  "token": "YOUR_GITHUB_TOKEN",
+  "url": "https://api.github.com/repos/PorkChop-ZLG/BeLoong/issues"
+}

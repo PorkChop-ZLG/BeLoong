@@ -5,7 +5,8 @@
       "net.minecraft.client.gui.screens.inventory.BookEditScreen",
       "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen",
       "com.lowdragmc.lowdraglib2.gui.holder.ModularUIScreen",
-      "com.lowdragmc.lowdraglib2.gui.holder.ModularUIContainerScreen"
+      "com.lowdragmc.lowdraglib2.gui.holder.ModularUIContainerScreen",
+      "com.sighs.generalfeedback.client.FeedbackScreen"
     ],
     "enableScreenRecovering": false,
     "recoveredScreens": [],
