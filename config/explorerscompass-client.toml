@@ -66,7 +66,7 @@
 	#Draws the direction strip on a panel of its own. Turn this off to leave only the marks, the compass points and the readout, with nothing behind them: they carry their own shadows, and fade out towards the ends of the strip on their own.
 	directionBarBackground = true
 	#Turns a structure preview slowly on its own, so that it is seen from more than one side without being dragged around. The button on the preview screen switches this on and off as well.
-	structurePreviewAutoSpin = true
+	structurePreviewAutoSpin = false
 	#How many cells a structure preview may hold before it opens drawn as coloured blocks instead of real ones. Both are one cell to one block; what the coloured tier gives up is the textures, not the detail. Real blocks take longer to assemble into a model, which happens in the background while a coloured stand-in is shown, so this decides which of the two a large structure settles on rather than how long it takes to appear. The button on the preview screen switches between the two for the structure being looked at either way. Raise this to have real blocks on larger structures by default; set it to 0 to open every preview in colours.
 	# Default: 40000
 	# Range: 0 ~ 400000
