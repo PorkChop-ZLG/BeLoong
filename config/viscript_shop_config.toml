@@ -5,3 +5,4 @@
 	# Range: > -1
 	maxShopUiGiveItemsPerPurchase = -1
 	isPersonalStock = true
+	ftbDefaultShop = "beloong"
