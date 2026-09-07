@@ -3684,6 +3684,20 @@
 			append = ""
 			format = ""
 
+	[type.gn001_sword]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.gn001_sword.icon]
+			tex = ""
+			item = ""
+
+		[type.gn001_sword.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -5052,6 +5066,20 @@
 			item = ""
 
 		[tag."annihilator_type_a:lightning_storm".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."annihilator_type_a:gn001_sword"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."annihilator_type_a:gn001_sword".icon]
+			tex = ""
+			item = ""
+
+		[tag."annihilator_type_a:gn001_sword".format]
 			prepend = ""
 			append = ""
 			format = ""
