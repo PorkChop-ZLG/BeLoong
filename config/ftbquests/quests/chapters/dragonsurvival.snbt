@@ -306,21 +306,11 @@
 				id: "explorerscompass:explorerscompass"
 			}
 			id: "24473ACF6BA65B65"
-			rewards: [
-				{
-					id: "14AD7260230ABF42"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "22C3BA895D93366C"
-					item: {
-						count: 1
-						id: "naturescompass:naturescompass"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "14AD7260230ABF42"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "3A8A86E87BBFA2EC"
