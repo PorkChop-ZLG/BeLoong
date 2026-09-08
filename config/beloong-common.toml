@@ -10,6 +10,12 @@ fixCataclysmStructureHeight = true
 fixDragonsurvivalProjectileCrash = true
 #修复Fsweep打开部分容器崩溃
 fixFsweepContainerCrash = true
+#Enable Ferrous Wroughtnaut damage by vanilla mace
+#允许使用原版重锤对已激活的钢铁守护者造成伤害
+enableMowzieMaceDamage = true
+#Remove Sculptor anti-cheat
+#移除通臂大师跑酷试炼中的飞行、水中和持续上升反作弊；保留距离、低于石柱和传送检测
+removeSculptorAntiCheat = true
 
 [template_update]
 	#Enable old-save template dimension migration
