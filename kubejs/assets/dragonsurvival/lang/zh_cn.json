@@ -3,7 +3,7 @@
   "attribute.dragonsurvival.penalty_resistance_time.desc": "增加诅咒生效前的抵抗时间",
 
   "dragon_penalty.dragonsurvival.item_blacklist": "物品限制",
-  "dragon_penalty.dragonsurvival.item_blacklist.desc": "■龙§d无法使用§7鞘翅和三叉戟，因为龙本身的能力与之冲突。这些物品不会被装备上，强行装备会从快捷栏中§c掉落§7，但你仍可以用它们进行合成。",
+  "dragon_penalty.dragonsurvival.item_blacklist.desc": "■龙§d无法使用§7盾牌、鞘翅和三叉戟，因为龙本身的能力与之冲突。这些物品不会被装备上，强行装备会从快捷栏中§c掉落§7，但你仍可以用它们进行合成。",
 
   "dragon_species.dragonsurvival.cave_dragon": "洞穴龙",
   "dragon_species.dragonsurvival.cave_dragon.locked": "§7■§6洞穴龙§7是居住在洞穴和熔岩中的真龙，能够喷吐火焰熔炼矿物。\n\n§2■特性：§7火元素魔法，免疫火焰，爪子如同镐子可挖掘岩石。\n§4■诅咒：§7畏水和畏寒，在水中和寒冷地区会损失生命值。\n\n§3■解锁条件：§7\n1.完成§6新手教程§7。§r",

@@ -1451,7 +1451,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -1481,7 +1481,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 1.0d
 		}
 		{

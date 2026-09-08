@@ -16,7 +16,7 @@
 	#Attempts to translate biome names before fixing the unlocalized names. Unlike structures, almost every biome is named by the game itself or by the mod that adds it, so there is rarely anything left to fix up.
 	translateBiomeNames = true
 	#Mirrors each waypoint the compass records into Xaero's Minimap as well. Has no effect when that mod is not installed. The compass keeps a waypoint of its own for every place it locates either way, marked on the direction strip and listed on the waypoints screen; this is about whether the minimap gets a copy.
-	createXaeroWaypoints = true
+	createXaeroWaypoints = false
 	#The color of the waypoints the compass records, as an index into Xaero's Minimap's own color list, which is also the game's list of text colors. Used on the direction strip as well as in the minimap.
 	# Default: 6
 	# Range: 0 ~ 15

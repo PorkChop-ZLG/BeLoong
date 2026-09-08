@@ -1,4 +1,8 @@
 {
   "teleportwaypoint.waypoint.lm_space_station": "Space Station",
-  "teleportwaypoint.waypoint.keep_kayra": "Keep Kayra"
+  "teleportwaypoint.waypoint.keep_kayra": "Keep Kayra",
+  "teleportwaypoint.waypoint.mz_frostmaw_spawn": "Frostmaw Spawn",
+  "teleportwaypoint.waypoint.mz_monastery": "Monastery",
+  "teleportwaypoint.waypoint.mz_umvuthana_grove": "Umvuthana Grove",
+  "teleportwaypoint.waypoint.mz_wrought_chamber": "Wrought Chamber"
 }

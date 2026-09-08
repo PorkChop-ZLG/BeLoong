@@ -3,7 +3,7 @@
   "attribute.dragonsurvival.penalty_resistance_time.desc": "Increases the time before the curse effect is applied",
   
   "dragon_penalty.dragonsurvival.item_blacklist": "Item Blacklist",
-  "dragon_penalty.dragonsurvival.item_blacklist.desc": "■ Dragons are §dunable to wield§r§7 or equip elytra and tridents. They won't equip and will §cdrop§r from the hotbar, but you can still craft items with it.",
+  "dragon_penalty.dragonsurvival.item_blacklist.desc": "■ Dragons are §dunable to wield§r§7 or equip shield, elytra and tridents. They won't equip and will §cdrop§r from the hotbar, but you can still craft items with it.",
 
   "dragon_species.dragonsurvival.cave_dragon": "Cave Dragon",
   "dragon_species.dragonsurvival.cave_dragon.locked": "§7■ §6Cave Dragons§7 are the spawn of §ffire§7. They have little in common with living creatures. Their skeleton is made of §fnetherite§7, blood is §flava§7, and skin is §frocks§7.\n\n§2■ Features:§7 fire resistance, pickaxe claws, lava magic, faster movement on stone and hot blocks.\n§4■ Curses:§7 water.\n\n§3■ Unlock Conditions: §7\n1. Complete the§6 Beginner Tutorial§7.§r",

@@ -1,8 +1,18 @@
 {
   "effect": {
     "items": [
+      "#c:tools/shield",
       "minecraft:trident",
-      ".*:.*?elytra.*"
+      ".*:.*?elytra.*",
+      "cataclysm:black_steel_targe",
+      "cataclysm:azure_sea_shield",
+      "cataclysm:bulwark_of_the_flame",
+      "artifacts:umbrella",
+      "legendary_monsters:shulker_shield",
+      "legendary_monsters:dinosaur_bone_shield",
+      "legendary_monsters:frostbitten_shield",
+      "legendary_monsters:spiky_shield",
+      "legendary_monsters:buckler_of_annihilation"
     ],
     "penalty_type": "dragonsurvival:item_blacklist"
   },
