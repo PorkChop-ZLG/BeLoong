@@ -402,7 +402,7 @@
 			rewards: [{
 				id: "4DEB1C19B2D55775"
 				type: "xp"
-				xp: 100
+				xp: 500
 			}]
 			shape: "rsquare"
 			size: 1.5d
@@ -419,7 +419,7 @@
 			rewards: [{
 				id: "05B98BE043CD0F46"
 				type: "xp"
-				xp: 100
+				xp: 500
 			}]
 			shape: "rsquare"
 			size: 1.5d
@@ -436,7 +436,7 @@
 			rewards: [{
 				id: "2969558CD4FC8074"
 				type: "xp"
-				xp: 100
+				xp: 500
 			}]
 			shape: "rsquare"
 			size: 1.5d
@@ -459,7 +459,7 @@
 			rewards: [{
 				id: "3E368F0832CE82D8"
 				type: "xp"
-				xp: 100
+				xp: 500
 			}]
 			shape: "rsquare"
 			size: 2.0d
