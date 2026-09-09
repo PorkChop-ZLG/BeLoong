@@ -1,0 +1,101 @@
+#Maximum spell attack search range
+# Default: 64
+# Range: 8 ~ 192
+maxSpellRange = 64
+#Start spell casting range
+# Default: 15
+# Range: 2 ~ 64
+startSpellRange = 15
+#Maximum mana multiplier, relative to the player's (Default: 1)
+# Default: 1.0
+# Range: 0.01 ~ 100.0
+maxManaMultiplier = 1.0
+#Lightning-struck maids regenerate mana 100x faster (Default: false)
+lightningManaRegen = false
+#Walk speed in spell battle
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+spellBattleWalkSpeed = 1.0
+#Max combo delay tick
+# Default: 10
+# Range: 1 ~ 600
+maxComboDelayTick = 10
+#Maids below 60% health drink a healing potion without consuming an item (Default: false)
+drinkPotionInSpellBattle = false
+#Show spell names in spell battle (Default: true)
+showChatBubblesInSpellBattle = true
+#Allow maids to use melee weapons during spell attacks (Default: true)
+meleeAttackInMagicTask = true
+#Base chance for air force maid (Default: 0.1)
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+airForceBaseChance = 0.1
+#Air force chance per level (Default: 0.1)
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+airForceChancePerLevel = 0.1
+#Air force follow height (Default: 4.0 blocks)
+# Default: 4.0
+# Range: 0.0 ~ 64.0
+airForceFollowHeight = 4.0
+#Air force follow radius (Default: 6.0 blocks)
+# Default: 6.0
+# Range: 0.0 ~ 32.0
+airForceFollowRadius = 6.0
+#Air force fly speed (Default: 0.4)
+# Default: 0.4
+# Range: 0.0 ~ 3.0
+airForceFlySpeed = 0.4
+#Minimum air casting distance (Default: 5.0 blocks)
+# Default: 5.0
+# Range: 0.0 ~ 64.0
+airForceMinAttackRange = 5.0
+
+[spell_compat]
+	#Extra attack spell ids
+	extraAttackSpells = []
+	#Extra defense spell ids
+	extraDefenseSpells = []
+	#Extra movement spell ids
+	extraMovementSpells = []
+	#Extra self-heal spell ids
+	extraSupportSpells = []
+	#Extra ally buff spell ids
+	extraPositiveEffectSpells = []
+	#Extra negative effect spell ids
+	extraNegativeEffectSpells = []
+	#Extra ally heal spell ids
+	extraSupportEffectSpells = []
+	#Extra summon spell ids
+	extraSummonSpells = []
+	#Maid should recast spell ids
+	maidShouldRecastSpells = []
+	#Extra spell casting range (spell id => range). Default values are loaded from datapack.
+	extra_spell_casting_range = {}
+	#Extra spell caused effects (spell id => effect id). Default values are loaded from datapack.
+	extra_spell_caused_effects = {}
+
+[vulpine_gift]
+	#Enable max-favorability maid morning gift on player wakeup (Default: true)
+	vulpineGiftEnabled = true
+	#Radius (in blocks) around the bed to search for an eligible maid gifter (Default: 8.0)
+	# Default: 8.0
+	# Range: 1.0 ~ 32.0
+	vulpineGiftRadius = 8.0
+	#Require a normal full sleep cycle. If false, gifts can also be given when waking immediately due to monsters/thunder (Default: true)
+	vulpineGiftRequireFullSleep = true
+
+[summoned_maid]
+	#Highest spell level a summoned maid may carry. Set to 10 to disable. (Default: 3)
+	# Default: 3
+	# Range: 1 ~ 20
+	summonedMaidMaxSpellLevel = 3
+	#Highest spell rarity a summoned maid may carry. Set to LEGENDARY to disable. (Default: EPIC)
+	#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+	summonedMaidMaxSpellRarity = "EPIC"
+	#Allow summoned maids to carry learned-only school spells, i.e. Eldritch (Default: false)
+	summonedMaidAllowEldritch = false
+	#Creepers flee from summoned maids. Costs one extra AI goal on every creeper in the world;
+	#the goal short-circuits in dimensions with no summoned maid, but set to false to remove it
+	#entirely. (Default: true)
+	creeperAvoidSummonedMaid = true
