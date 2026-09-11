@@ -1575,6 +1575,9 @@
 		}
 		{
 			dependencies: ["0F2271A7D264E7F3"]
+			icon: {
+				id: "darkdoppelganger:shadow_altar"
+			}
 			id: "3C5BB748322BAC9F"
 			invisible: true
 			optional: true
@@ -1594,15 +1597,10 @@
 				}
 			]
 			tasks: [{
-				icon: {
-					id: "darkdoppelganger:shadow_altar"
-				}
-				id: "4EF92A0738F6ED93"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "darkdoppelganger:shadow_altar"
-				type: "observation"
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "65D91C7F8221030F"
+				type: "advancement"
 			}]
 			x: 28.0d
 			y: 4.0d
