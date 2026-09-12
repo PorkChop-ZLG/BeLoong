@@ -160,8 +160,25 @@ if ($wtxt -ne '1:7 2:12 3:10') { Bad "ground weight breakdown = $wtxt, expected 
 
 if ($gj.placement.spacing -ne 32 -or $gj.placement.separation -ne 16 -or $gj.placement.salt -ne 20260921) { Bad "ground placement wrong" } else { OK "ground placement 32/16/20260921" }
 if ($uj.placement.spacing -ne 32 -or $uj.placement.separation -ne 16 -or $uj.placement.salt -ne 20260922) { Bad "underground placement wrong" } else { OK "underground placement 32/16/20260922" }
-if ($gj.placement.exclusion_zone.other_set -ne 'beloong:disaster_set_underground') { Bad "ground exclusion wrong" } else { OK "ground excludes underground" }
-if ($uj.placement.exclusion_zone.other_set -ne 'beloong:disaster_set_ground') { Bad "underground exclusion wrong" } else { OK "underground excludes ground" }
+if ($gj.placement.exclusion_zone) { Bad "ground set must NOT declare an exclusion_zone" } else { OK "ground set has no exclusion_zone" }
+if ($uj.placement.exclusion_zone) { Bad "underground set must NOT declare an exclusion_zone" } else { OK "underground set has no exclusion_zone" }
+
+# Regression: a MUTUAL exclusion pair causes unbounded recursion in vanilla's
+# StructurePlacement.ExclusionZone and a StackOverflowError on a worldgen worker thread.
+$refs = @{}
+$dataRoot = (Resolve-Path -LiteralPath (Join-Path $Root 'kubejs\data')).Path
+foreach ($f in (Get-ChildItem -LiteralPath (Join-Path $Root 'kubejs\data') -Recurse -File -Filter *.json)) {
+    $txt = [System.IO.File]::ReadAllText($f.FullName, [System.Text.Encoding]::UTF8)
+    $m = [regex]::Match($txt, '"other_set"\s*:\s*"([^"]+)"')
+    if ($m.Success) {
+        $ns = ($f.FullName.Substring($dataRoot.Length + 1) -split '\\')[0]
+        $refs[($ns + ':' + $f.BaseName)] = $m.Groups[1].Value
+    }
+}
+$cycles = @()
+foreach ($k in $refs.Keys) { $v = $refs[$k]; if ($refs.ContainsKey($v) -and $refs[$v] -eq $k) { $cycles += "$k <-> $v" } }
+if ($cycles.Count) { Bad "mutual exclusion cycle(s) present: $($cycles -join ' ; ')" }
+else { OK "no mutual exclusion pair among $($refs.Count) exclusion_zone references" }
 
 $zip = [System.IO.Compression.ZipFile]::OpenRead($DaJar)
 $jarIds = @($zip.Entries | Where-Object { $_.FullName -match '^data/dungeons_arise/worldgen/structure/[^/]+\.json$' } | ForEach-Object { $_.FullName.Split('/')[-1].Replace('.json','') })

@@ -9,10 +9,13 @@
 ## [Unreleased]
 
 ### 内容改动
+- 将地牢浮现之时·海洋扩展（Seven Seas）的 5 条船全部迁移至天灾维度，新增结构集 `beloong:disaster_set_sea`（间距 40 / 分离 34），并按 `beloong:disaster/is_ocean` 精确限定海洋群系；原结构集已清空，船只不再在其他维度生成
 - 将地牢浮现之时的 33 个结构（地面 29 + 地下 4）迁移至天灾维度，除末地已有的 5 个外不再在其他维度生成
-- 新增天灾维度专属群系主题标签体系 `beloong:disaster/*`（31 个，对齐 NeoForge `c:` 约定主题），并按主题精确指定每个结构的生成群系
+- 新增天灾维度专属群系主题标签体系 `beloong:disaster/*`（对齐 NeoForge `c:` 约定主题），并按主题精确指定每个结构的生成群系（最终保留 13 个被引用的标签）
 - `beloong:is_disaster` 总账标签补入化龙核心的 5 个自制群系（海洋 / 冰海 / 河流 / 洞穴 / 碎裂地形），天灾维度的海洋、河流与洞穴区域自此可正常生成结构
-- 新增结构集 `beloong:disaster_set_ground`（间距 32/分离 16）与 `beloong:disaster_set_underground`（间距 32/分离 16），两者互斥；地牢浮现之时原有两个结构集已清空
+- 修复天灾传送门在主线程同步加载目标维度区块导致的卡死：改为原版传送门范式（`Portal` + `DimensionTransition`），落点区块未就绪时非阻塞预热并逐 tick 重试，超时（200 tick）有界失败
+- 修复新建存档首次进入天灾维度时因结构集**双向互斥**触发世界生成线程 `StackOverflowError` 的问题（已移除 `exclusion_zone`）
+- 新增结构集 `beloong:disaster_set_ground`（间距 32/分离 16）与 `beloong:disaster_set_underground`（间距 32/分离 16），两者不设互斥（天灾维度结构已设计为互不重叠）；地牢浮现之时原有两个结构集已清空
 
 ## [1.3.5] - 2026-08-31
 

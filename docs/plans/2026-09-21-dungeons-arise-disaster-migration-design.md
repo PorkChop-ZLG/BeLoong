@@ -366,3 +366,131 @@ is_dead  is_floral  is_icy  is_magical  is_river  is_sandy  is_savanna  is_waste
 - 产物 `docs/tools/out/`
 
 脚本用 `$PSScriptRoot` 反推实例根目录，移动后仍可用。
+
+---
+
+## 九、根因结论与修复（2026-09-21 追加）
+
+### 9.1 问题现象
+
+玩家**新建存档后首次进入天灾维度**时，服务器主线程永久卡死，无崩溃报告。旧存档（目标区块已存在）不复现。
+
+### 9.2 根因：结构集双向互斥导致 worker 线程 StackOverflowError
+
+**证据**：`logs/debug-2.log.gz:71749`，`Worker-Main-17` 线程：
+
+```
+java.lang.StackOverflowError: null
+  at RandomSpreadStructurePlacement.isPlacementChunk(...)
+  at StructurePlacement.isStructureChunk(StructurePlacement.java:87)
+  at ChunkGeneratorStructureState.hasStructureChunkInRange(ChunkGeneratorStructureState.java:198)
+  at StructurePlacement$ExclusionZone.isPlacementForbidden(StructurePlacement.java:144)
+  at StructurePlacement.applyInteractionsWithOtherStructures(StructurePlacement.java:93)
+  at StructurePlacement.isStructureChunk(StructurePlacement.java:89)
+  ... （同一四步循环重复）
+```
+
+帧计数：`hasStructureChunkInRange` 与 `isStructureChunk` 各 **255~256** 次，`StructurePlacement` 共 **1537** 帧 → **255 层递归**。
+
+**机制**：原版 `StructurePlacement` 的排除区检查链**没有任何环路防护**（无 visited 集合、无深度上限、无"不可回指"校验）：
+
+```
+isStructureChunk(:89)                                  // StructurePlacement.java
+  → applyInteractionsWithOtherStructures(:93)
+  → ExclusionZone.isPlacementForbidden(:144)
+  → ChunkGeneratorStructureState.hasStructureChunkInRange(:198)   // 遍历 (2*chunk_count+1)^2 个区块
+  → isStructureChunk(:89)                              // 回到起点
+```
+
+本迁移建立的 `disaster_set_ground` 与 `disaster_set_underground` **双向互指**（各 `chunk_count=10`，即每次展开 441 个候选），构成环。全实例 **21 处 `other_set` 中，只有这一对是双向的**；其余（原版 `minecraft:end_cities`/`nether_complexes`/`villages`、灾变 `#cataclysm:*_avoid` 等）全部单向，故不成环。
+
+**结果**：worker 线程爆栈 → `Caught exception in thread ... Worker-Main-17` → 该区块的生成 future **永不完成**。
+
+### 9.3 与 portal 缺陷的叠加关系
+
+```
+① worker 生成天灾区块 → 排除区互递归 → StackOverflowError → 区块 future 永不完成
+② 玩家走天灾传送门（新存档，落点区块不存在）
+   → DisasterPortalBlock.entityInside:136 → targetLevel.getChunk(FULL)
+   → ServerChunkCache.getChunk:159 → MainThreadExecutor.managedBlock → 主线程永久停转
+```
+
+**两个缺陷都真实、都需修复**：
+- 缺陷①（本迁移数据引入）：worker 爆栈，区块生成失败、结构不生成
+- 缺陷②（化龙核心既有）：把"区块生成失败"放大为"整个游戏卡死"
+
+**旧存档为何不卡**：落点区块早已生成，`getChunk` 命中 4 槽 LRU 缓存（`ServerChunkCache.getChunk:144-151`）直接返回，绕过了缺陷②；故缺陷①即使发生也无人察觉。
+
+### 9.4 修复
+
+**移除两个结构集的 `exclusion_zone`**（天灾维度的结构已设计为互不重叠，无需互斥）。
+
+- `disaster_set_ground` 与 `disaster_set_underground` 的 `placement` 现仅含 `type`/`spacing`/`separation`/`salt`
+- 成员数、间距、salt、权重分布**全部未变**（地面 29 = `1:7 2:12 3:10`；地下 4 = `2:4`）
+- **覆盖 §2.7 的互斥设计与决策 16「新地面组与空中集不设互斥」的相邻条款**
+
+**连带修改**（防止 bug 复活）：
+1. `docs/tools/gen-da-structure-sets.ps1` — 停止输出 `exclusion_zone`；新增**无环回归断言**（扫描全整合包 21 处 `other_set`，发现任何双向互斥即失败）
+2. `docs/tools/verify-disaster-migration.ps1` — 断言改为"不得声明 `exclusion_zone`"，并加入同一无环检测
+
+### 9.5 教训
+
+1. **原版 `exclusion_zone` 不支持双向（互指）**。若要互斥，**只能单向**，且需评估递归展开代价（`chunk_count` 的平方）。
+2. **天灾维度本就设计了结构不重叠**，添加互斥是多余且危险的——"零收益 + 高风险"的组合。
+3. **worker 线程异常不会出现在主线程转储里**。本次主线程转储只暴露了缺陷②（portal 阻塞），缺陷①只存在于 `debug.log` 的 `Worker-Main-*` 行。**排查卡死必须同时搜 worker 线程异常**。
+4. **新存档是这类缺陷的唯一有效验收环境**；旧存档会因区块缓存而假通过。
+
+---
+
+## 十、附属扩展：海洋扩展（Seven Seas）迁移（2026-09-21 追加）
+
+### 10.1 背景
+
+`dungeons_arise_seven_seas`（DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge）是地牢浮现之时的**附属模组**，共 **5 个结构，全部是船**。命名空间 `dungeons_arise_seven_seas`（独立于主模组的 `dungeons_arise`）。
+
+| 船 | 模板数 | 体积 |
+|---|---|---|
+| `victory_frigate` | 12 | 123 KB |
+| `pirate_junk` | 7 | 41 KB |
+| `unicorn_galleon` | 7 | 37 KB |
+| `corsair_corvette` | 6 | 29 KB |
+| `small_yacht` | 4 | 13 KB |
+
+### 10.2 迁移方式（沿用主模组范式）
+
+| 项 | 值 | 说明 |
+|---|---|---|
+| 目标群系标签 | **`#beloong:disaster/is_ocean`** | **单一引用**——5 个船的源标签内容完全相同，故无需多主题 |
+| 新结构集 | **`beloong:disaster_set_sea`** | 与 `disaster_set` / `_ground` / `_underground` 组成**四件套** |
+| `spacing` / `separation` | **40 / 34** | 原扩展为 68/60，但那是针对主世界全部海洋设计；天灾仅有 4 个海洋群系，68/60 会过于罕见 |
+| `salt` | **98123789** | 沿用原值（已核实全实例唯一） |
+| 权重 | **5 条船全部 = 1** | 同原扩展 |
+| `exclusion_zone` | **不加** | 天灾维度结构已设计为互不重叠（见第九章教训） |
+| 原结构集 | **清空** `dungeons_arise_seven_seas:minor_structures` | 保留原 placement（68/60/98123789）仅清空成员 |
+
+### 10.3 关键取证
+
+1. **5 个船的源标签内容完全一致**：`{"replace": false, "values": ["#minecraft:is_ocean"]}` → 一次批量覆盖即可
+2. **全实例只有扩展自身引用这 5 条船**（无其他结构集、无 kubejs/paxi 引用）→ 清空原集 = **真正彻底清空**
+3. **迁移前它们已经在天灾维度漏生**：`#minecraft:is_ocean` 被 BWG 追加了 `#biomeswevegone:ocean`（`dead_sea` + `lush_stacks`），而这两者在天灾维度内。故本任务实质是**收编 + 独占**，非新增
+4. **5 个船均为** `step: surface_structures` + `project_start_to_heightmap: WORLD_SURFACE_WG` + 负 `start_height`（-4~0）
+
+### 10.4 已知取舍（用户已确认）
+
+- **`beloong:frozen_ocean` 会结冰**（温度 0.0 + `temperature_modifier: frozen`），船会嵌入冰盖 —— **接受**为特色
+- 未使用 `beloong:is_sea`（该标签含 3 个陆地海岸群系 `basalt_barrera`/`dacite_shore`/`rainbow_beach`，船会搁浅；且不含自制海洋 `beloong:ocean`/`frozen_ocean`）
+- 未使用 `disaster/is_beach`（船不应靠岸）
+
+### 10.5 改动清单（7 个数据文件）
+
+| 路径 | 数量 | 动作 |
+|---|---|---|
+| `kubejs/data/dungeons_arise_seven_seas/tags/worldgen/biome/has_structure/*_biomes.json` | 5 | 新建，`replace:true` → `#beloong:disaster/is_ocean` |
+| `kubejs/data/beloong/worldgen/structure_set/disaster_set_sea.json` | 1 | 新建（5 成员 / weight 1 / 40-34-98123789 / 无 exclusion） |
+| `kubejs/data/dungeons_arise_seven_seas/worldgen/structure_set/minor_structures.json` | 1 | 覆盖 → `structures: []` |
+
+工具：`docs/tools/gen-sevenseas-migration.ps1`（含 6 步断言与无双向互斥回归检测）
+
+### 10.6 验收
+
+静态校验 15 项全通过。实机需用**新存档**验证（见实施脚本输出）。

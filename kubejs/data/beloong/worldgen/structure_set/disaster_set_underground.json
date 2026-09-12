@@ -3,11 +3,7 @@
     "type": "minecraft:random_spread",
     "spacing": 32,
     "separation": 16,
-    "salt": 20260922,
-    "exclusion_zone": {
-      "other_set": "beloong:disaster_set_ground",
-      "chunk_count": 10
-    }
+    "salt": 20260922
   },
   "structures": [
     { "structure": "dungeons_arise:foundry", "weight": 2 },

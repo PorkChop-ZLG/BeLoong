@@ -4,10 +4,22 @@
 # Design ref: docs/plans/2026-09-21-dungeons-arise-disaster-migration-design.md section 2.7
 #
 # Params (approved):
-#   ground      : spacing 32, separation 16, salt 20260921, exclusion -> underground(10)
-#   underground : spacing 32, separation 16, salt 20260922, exclusion -> ground(10)
-#   exclusion_zone is a SINGLE-VALUE field (verified: 12 structure sets in the instance use
-#   it, 0 use more than one). minecraft:strongholds was dropped for that reason.
+#   ground      : spacing 32, separation 16, salt 20260921
+#   underground : spacing 32, separation 16, salt 20260922
+#
+# NO exclusion_zone - deliberately omitted.
+#   The disaster dimension's structures are already designed not to overlap. More importantly,
+#   a MUTUAL exclusion pair (A excludes B and B excludes A) causes unbounded recursion in
+#   vanilla's StructurePlacement.ExclusionZone and blows the worldgen worker thread's stack:
+#     StackOverflowError
+#       StructurePlacement.isStructureChunk(:89)
+#       -> applyInteractionsWithOtherStructures(:93)
+#       -> ExclusionZone.isPlacementForbidden(:144)
+#       -> ChunkGeneratorStructureState.hasStructureChunkInRange(:198)
+#       -> isStructureChunk(:89)  ... 255 levels deep
+#   Observed in logs/debug-2.log.gz as "Worker-Main-17 ... StackOverflowError".
+#   A later assertion in this script scans the whole pack and refuses to proceed if ANY
+#   mutual exclusion pair exists.
 #
 # Weights (approved): ground 7/12/10 ; underground all 2 ; total 7/16/10 = 33
 #   3 = small/ambient, 2 = standard dungeon, 1 = major landmark/boss
@@ -85,18 +97,14 @@ if (($g1 + $g2 + $g3) -ne 29) { Add-Fail "ground weight breakdown sums to $($g1+
 if ($g1 -ne 7 -or $g2 -ne 12 -or $g3 -ne 10) { Add-Fail "ground weights should be 7/12/10, got $g1/$g2/$g3" }
 if (($w1.Count + $w2.Count + $w3.Count) -ne 33) { Add-Fail "weight total = $($w1.Count+$w2.Count+$w3.Count), expected 33" }
 
-function New-SetJson([object[]]$entries, [int]$spacing, [int]$separation, [long]$salt, [string]$excludeSet) {
+function New-SetJson([object[]]$entries, [int]$spacing, [int]$separation, [long]$salt) {
     $sb = New-Object System.Text.StringBuilder
     [void]$sb.Append("{`r`n")
     [void]$sb.Append("  `"placement`": {`r`n")
     [void]$sb.Append("    `"type`": `"minecraft:random_spread`",`r`n")
     [void]$sb.Append("    `"spacing`": $spacing,`r`n")
     [void]$sb.Append("    `"separation`": $separation,`r`n")
-    [void]$sb.Append("    `"salt`": $salt,`r`n")
-    [void]$sb.Append("    `"exclusion_zone`": {`r`n")
-    [void]$sb.Append("      `"other_set`": `"$excludeSet`",`r`n")
-    [void]$sb.Append("      `"chunk_count`": 10`r`n")
-    [void]$sb.Append("    }`r`n")
+    [void]$sb.Append("    `"salt`": $salt`r`n")
     [void]$sb.Append("  },`r`n")
     [void]$sb.Append("  `"structures`": [`r`n")
     for ($i = 0; $i -lt $entries.Count; $i++) {
@@ -112,8 +120,8 @@ function New-SetJson([object[]]$entries, [int]$spacing, [int]$separation, [long]
 $groundEntries = @($ground | ForEach-Object { [pscustomobject]@{ Name = $_; Weight = (Get-Weight $_) } })
 $underEntries  = @($Underground | ForEach-Object { [pscustomobject]@{ Name = $_; Weight = (Get-Weight $_) } })
 
-$groundJson = New-SetJson $groundEntries 32 16 20260921 'beloong:disaster_set_underground'
-$underJson  = New-SetJson $underEntries  32 16 20260922 'beloong:disaster_set_ground'
+$groundJson = New-SetJson $groundEntries 32 16 20260921
+$underJson  = New-SetJson $underEntries  32 16 20260922
 
 Write-Host ""
 Write-Host "=== 3. Emit structure sets ===" -ForegroundColor Cyan
@@ -129,9 +137,35 @@ if ($Apply) {
     if (@($gj.structures).Count -ne 29) { Add-Fail "ground round-trip = $(@($gj.structures).Count), expected 29" }
     if (@($uj.structures).Count -ne 4)  { Add-Fail "underground round-trip = $(@($uj.structures).Count), expected 4" }
     if ($gj.placement.spacing -ne 32 -or $gj.placement.separation -ne 16) { Add-Fail "ground placement wrong" }
-    if ($gj.placement.exclusion_zone.other_set -ne 'beloong:disaster_set_underground') { Add-Fail "ground exclusion wrong" }
-    if ($uj.placement.exclusion_zone.other_set -ne 'beloong:disaster_set_ground') { Add-Fail "underground exclusion wrong" }
-    Write-Host "  [OK] round-trip verified" -ForegroundColor Green
+    if ($gj.placement.exclusion_zone) { Add-Fail "ground must NOT have an exclusion_zone" }
+    if ($uj.placement.exclusion_zone) { Add-Fail "underground must NOT have an exclusion_zone" }
+    Write-Host "  [OK] round-trip verified (no exclusion_zone)" -ForegroundColor Green
+}
+
+# ---------------------------------------------------------------- 4. regression: no mutual exclusion pairs anywhere
+Write-Host ""
+Write-Host "=== 4. Regression: scan pack for mutual exclusion cycles ===" -ForegroundColor Cyan
+$DataDir = Join-Path $Root 'kubejs\data'
+$refs = @{}
+$dataRoot = (Resolve-Path -LiteralPath $DataDir).Path
+foreach ($f in (Get-ChildItem -LiteralPath $DataDir -Recurse -File -Filter *.json)) {
+    $txt = [System.IO.File]::ReadAllText($f.FullName, [System.Text.Encoding]::UTF8)
+    $m = [regex]::Match($txt, '"other_set"\s*:\s*"([^"]+)"')
+    if ($m.Success) {
+        $ns  = ($f.FullName.Substring($dataRoot.Length + 1) -split '\\')[0]
+        $refs[($ns + ':' + $f.BaseName)] = $m.Groups[1].Value
+    }
+}
+Write-Host "  exclusion_zone references found: $($refs.Count)"
+$cycles = @()
+foreach ($k in $refs.Keys) {
+    $v = $refs[$k]
+    if ($refs.ContainsKey($v) -and $refs[$v] -eq $k) { $cycles += "$k <-> $v" }
+}
+if ($cycles.Count) {
+    Add-Fail "mutual exclusion cycle(s) would cause StackOverflowError: $($cycles -join ' ; ')"
+} else {
+    Write-Host "  [OK] no mutual exclusion pair (all references are one-way)" -ForegroundColor Green
 }
 
 Write-Host ""
