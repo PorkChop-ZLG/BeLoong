@@ -44,7 +44,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "49A48A0205438D6F"
-				item: { count: 1, id: "zenith:zenith" }
+				item: { components: { "ftbquests:missing_item": "zenith:zenith" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
