@@ -64,3 +64,6 @@ config/packetfixer.properties
 # ---- 忽略的文件扩展名 ----
 .probe
 .log
+
+# ---- 本地令牌文件（含真实 PAT，禁止入库）----
+config/GeneralFeedback/example.json
