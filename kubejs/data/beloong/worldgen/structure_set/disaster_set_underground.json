@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 16,
+    "salt": 20260922,
+    "exclusion_zone": {
+      "other_set": "beloong:disaster_set_ground",
+      "chunk_count": 10
+    }
+  },
+  "structures": [
+    { "structure": "dungeons_arise:foundry", "weight": 2 },
+    { "structure": "dungeons_arise:mining_complex", "weight": 2 },
+    { "structure": "dungeons_arise:plague_asylum", "weight": 2 },
+    { "structure": "dungeons_arise:infested_temple", "weight": 2 }
+  ]
+}

@@ -1,5 +1,8 @@
 {
+  "replace": false,
   "values": [
-    "#biomeswevegone:desert"
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:windswept_desert"
   ]
 }

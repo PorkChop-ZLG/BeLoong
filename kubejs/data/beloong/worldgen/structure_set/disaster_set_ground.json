@@ -1,0 +1,43 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 16,
+    "salt": 20260921,
+    "exclusion_zone": {
+      "other_set": "beloong:disaster_set_underground",
+      "chunk_count": 10
+    }
+  },
+  "structures": [
+    { "structure": "dungeons_arise:abandoned_temple", "weight": 3 },
+    { "structure": "dungeons_arise:bandit_towers", "weight": 2 },
+    { "structure": "dungeons_arise:bandit_village", "weight": 1 },
+    { "structure": "dungeons_arise:bathhouse", "weight": 3 },
+    { "structure": "dungeons_arise:ceryneian_hind", "weight": 2 },
+    { "structure": "dungeons_arise:coliseum", "weight": 1 },
+    { "structure": "dungeons_arise:fishing_hut", "weight": 3 },
+    { "structure": "dungeons_arise:greenwood_pub", "weight": 2 },
+    { "structure": "dungeons_arise:illager_campsite", "weight": 3 },
+    { "structure": "dungeons_arise:illager_corsair", "weight": 1 },
+    { "structure": "dungeons_arise:illager_fort", "weight": 2 },
+    { "structure": "dungeons_arise:illager_galley", "weight": 1 },
+    { "structure": "dungeons_arise:illager_windmill", "weight": 2 },
+    { "structure": "dungeons_arise:jungle_tree_house", "weight": 3 },
+    { "structure": "dungeons_arise:kisegi_sanctuary", "weight": 2 },
+    { "structure": "dungeons_arise:lighthouse", "weight": 3 },
+    { "structure": "dungeons_arise:mechanical_nest", "weight": 2 },
+    { "structure": "dungeons_arise:merchant_campsite", "weight": 3 },
+    { "structure": "dungeons_arise:monastery", "weight": 1 },
+    { "structure": "dungeons_arise:mushroom_house", "weight": 3 },
+    { "structure": "dungeons_arise:mushroom_mines", "weight": 2 },
+    { "structure": "dungeons_arise:mushroom_village", "weight": 2 },
+    { "structure": "dungeons_arise:scorched_mines", "weight": 2 },
+    { "structure": "dungeons_arise:shiraz_palace", "weight": 1 },
+    { "structure": "dungeons_arise:small_blimp", "weight": 3 },
+    { "structure": "dungeons_arise:thornborn_towers", "weight": 2 },
+    { "structure": "dungeons_arise:typhon", "weight": 1 },
+    { "structure": "dungeons_arise:undead_pirate_ship", "weight": 2 },
+    { "structure": "dungeons_arise:wishing_well", "weight": 3 }
+  ]
+}

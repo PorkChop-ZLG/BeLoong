@@ -1,5 +1,7 @@
 {
+  "replace": false,
   "values": [
-    "#biomeswevegone:windswept"
+    "beloong:windswept",
+    "biomeswevegone:windswept_desert"
   ]
 }

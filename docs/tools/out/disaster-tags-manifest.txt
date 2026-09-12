@@ -1,0 +1,18 @@
+# beloong:disaster/* theme tag manifest
+# AUTO-GENERATED. Do not hand-edit. Design ref: design.md section 2.2
+
+beloong:disaster/is_desert	core=0	bwg=3	total=3	biomeswevegone:atacama_outback biomeswevegone:mojave_desert biomeswevegone:windswept_desert
+beloong:disaster/is_plains	core=0	bwg=9	total=9	biomeswevegone:allium_shrubland biomeswevegone:amaranth_grassland biomeswevegone:coconino_meadow biomeswevegone:crimson_tundra biomeswevegone:firecracker_chaparral biomeswevegone:prairie biomeswevegone:pumpkin_valley biomeswevegone:rose_fields biomeswevegone:temperate_grove
+beloong:disaster/is_swamp	core=0	bwg=5	total=5	biomeswevegone:bayou biomeswevegone:cypress_swamplands biomeswevegone:cypress_wetlands biomeswevegone:pale_bog biomeswevegone:white_mangrove_marshes
+beloong:disaster/is_mountain	core=0	bwg=2	total=2	biomeswevegone:crag_gardens biomeswevegone:howling_peaks
+beloong:disaster/is_windswept	core=1	bwg=1	total=2	beloong:windswept biomeswevegone:windswept_desert
+beloong:disaster/is_snowy	core=0	bwg=2	total=2	biomeswevegone:eroded_borealis biomeswevegone:howling_peaks
+beloong:disaster/is_forest	core=0	bwg=19	total=19	biomeswevegone:aspen_boreal biomeswevegone:black_forest biomeswevegone:canadian_shield biomeswevegone:cika_woods biomeswevegone:coniferous_forest biomeswevegone:dacite_ridges biomeswevegone:ebony_woods biomeswevegone:enchanted_tangle biomeswevegone:eroded_borealis biomeswevegone:forgotten_forest biomeswevegone:frosted_coniferous_forest biomeswevegone:howling_peaks biomeswevegone:orchard biomeswevegone:overgrowth_woodlands biomeswevegone:redwood_thicket biomeswevegone:sakura_grove biomeswevegone:skyris_vale biomeswevegone:weeping_witch_forest biomeswevegone:zelkova_forest
+beloong:disaster/is_taiga	core=0	bwg=2	total=2	biomeswevegone:frosted_taiga biomeswevegone:maple_taiga
+beloong:disaster/is_jungle	core=0	bwg=4	total=4	biomeswevegone:crag_gardens biomeswevegone:fragment_jungle biomeswevegone:jacaranda_jungle biomeswevegone:tropical_rainforest
+beloong:disaster/is_badlands	core=0	bwg=4	total=4	biomeswevegone:red_rock_peaks biomeswevegone:red_rock_valley biomeswevegone:rugged_badlands biomeswevegone:sierra_badlands
+beloong:disaster/is_ocean	core=2	bwg=2	total=4	beloong:frozen_ocean beloong:ocean biomeswevegone:dead_sea biomeswevegone:lush_stacks
+beloong:disaster/is_beach	core=0	bwg=3	total=3	biomeswevegone:basalt_barrera biomeswevegone:dacite_shore biomeswevegone:rainbow_beach
+beloong:disaster/is_hill	core=1	bwg=0	total=1	beloong:windswept
+
+# total theme tags: 13

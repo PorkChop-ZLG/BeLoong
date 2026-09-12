@@ -1,5 +1,7 @@
 {
+  "replace": false,
   "values": [
-    "#biomeswevegone:snowy"
+    "biomeswevegone:eroded_borealis",
+    "biomeswevegone:howling_peaks"
   ]
 }

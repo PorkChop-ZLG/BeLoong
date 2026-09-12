@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#beloong:disaster/is_mountain",
+    "#beloong:disaster/is_hill"
+  ]
+}

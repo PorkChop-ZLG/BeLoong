@@ -1,0 +1,368 @@
+# 地牢浮现之时 → 天灾维度迁移 设计文档
+
+**Date:** 2026-09-21
+**Status:** Implemented（Batch 1–6 已完成；静态校验 33 项检查 / 0 错误通过；运行期 `/locate` 验证待执行）
+**Approach:** A —— `c:` 型主题命名空间 `beloong:disaster/*` + 总账 `beloong:is_disaster` + 两套结构集
+
+> 本文由 brainstorming 技能产出，全部数字均由脚本核对，无手算。
+> 与之同构的既有先例：`docs` 中悚域迁移（Legendary Monsters）与末地迁移。
+
+---
+
+## 一、Problem Statement
+
+「地牢浮现之时」（`dungeons_arise`，40 个结构）目前在整合包中：
+
+1. 通过 `#minecraft:is_taiga` / `#c:is_jungle` / `#c:is_desert` / `#forge:is_desert` 等**被 BWG 污染过的原版聚合标签**筛选群系，因此在**天灾维度零星漏生**（行为不可控）；
+2. 其中 5 个结构已在早前被迁移到末地，用的是**直接改写结构 JSON 的 `biomes` 字段**（权宜手段，绕过了模组的标签抽象层）；
+3. 两个原始结构集 `major_structures`(32) / `minor_structures`(6) 共覆盖 **38 个**结构；40 个结构 JSON 中另有 **3 个不在任何结构集里**（视为已删除）：`giant_mushroom`、`mining_system` 有结构 JSON 但为孤儿，`small_prairie_house` **连结构 JSON 都不存在**（仅剩一个群系标签文件）。**这三者均不纳入迁移。**
+
+**目标**：把除末地 5 个与已删除 3 个以外的 **33 个**结构迁移到天灾维度，用**群系标签**精准指定气候归属，并用**两套结构集**统一管理密度与互斥。
+
+**同时**：完善 `beloong:is_disaster` 自建总账标签，同步 BWG 最新群系与化龙核心自制群系。
+
+---
+
+## 二、Design
+
+### 2.1 Architecture：三层标签体系
+
+```
+beloong:is_disaster                      ← 总账（60 项 = 55 BWG + 5 化龙自制）
+    │                                      用途：地下结构的总群系门槛
+    │
+beloong:disaster/<c:主题>                 ← 31 个主题标签，内容为裸群系 ID
+    │                                      用途：需求「精准映射」的载体
+    │
+dungeons_arise:has_structure/*_biomes     ← 33 个结构标签，replace:true
+                                            可引多个主题（values 数组多引用）
+```
+
+**关键设计点（用户确认）**：
+
+| 层 | 写法 | 理由 |
+|---|---|---|
+| `beloong:disaster/*` | **裸群系 ID**，不用 `#biomeswevegone:` 引用 | 便于后续人工审核与管理 |
+| `beloong:disaster/*` | **`replace: false`** | 这是**自制标签**，没有上游先写入的内容，写 `false` 语义正确 |
+| `beloong:is_disaster` | 5 个自制群系**置于 `values` 数组最上方** | 显式区分"化龙核心自制"与"BWG 群系" |
+| `dungeons_arise:has_structure/*` | **`replace: true`** + **可引多个主题** | 覆盖模组自建标签（有上游内容）；多主题靠多引用表达，无需合并标签 |
+| 结构 JSON 的 `biomes` 字段 | **不改** | 改它等于绕过模组的标签抽象层；标签才是正确的抽象边界 |
+
+> ⚠️ **`replace` 语义澄清**：`replace` 是"是否清空此前数据包累积的同名标签条目"，不是"是否文件优先"。自制全新标签没有上游条目，故 `false` 与 `true` 结果相同，但 `false` 语义正确。
+
+### 2.2 主题标签全清单（31 个：改写 22 + 新建 9）
+
+| # | 标签 ID | 群系数 | 内容来源 | 动作 |
+|---|---|---|---|---|
+| 1 | `disaster/is_hot/overworld` | 19 | `biomeswevegone:climate/hot` | 改写 |
+| 2 | `disaster/is_temperate/overworld` | 19 | `biomeswevegone:climate/temperate` | 改写 |
+| 3 | `disaster/is_cold/overworld` | 17 | `biomeswevegone:climate/cold` | 改写 |
+| 4 | `disaster/is_wet/overworld` | 8 | `biomeswevegone:climate/wet` | 改写 |
+| 5 | `disaster/is_dry/overworld` | **6** | 展开 `biomeswevegone:climate/dry` | 改写 |
+| 6 | `disaster/is_dense_vegetation/overworld` | **31** | 展开 `biomeswevegone:density/dense` | 改写 |
+| 7 | `disaster/is_sparse_vegetation/overworld` | 8 | `biomeswevegone:density/sparse` | 改写 |
+| 8 | `disaster/is_desert` | 3 | `biomeswevegone:desert` | 改写 |
+| 9 | `disaster/is_plains` | 9 | `biomeswevegone:plains` | 改写 |
+| 10 | `disaster/is_swamp` | 5 | `biomeswevegone:swamp` | 改写 |
+| 11 | `disaster/is_sandy` | 5 | `biomeswevegone:sandy` | 改写 |
+| 12 | `disaster/is_floral` | 7 | `biomeswevegone:floral` | 改写 |
+| 13 | `disaster/is_dead` | 1 | `biomeswevegone:dead` | 改写 |
+| 14 | `disaster/is_wasteland` | 3 | `biomeswevegone:wasteland` | 改写 |
+| 15 | `disaster/is_magical` | 4 | `biomeswevegone:magical` | 改写 |
+| 16 | `disaster/is_mountain` | 2 | `biomeswevegone:mountain` | 改写 |
+| 17 | `disaster/is_mountain/peak` | 2 | `biomeswevegone:peak` | 改写 |
+| 18 | `disaster/is_mountain/slope` | 2 | `biomeswevegone:slope` | 改写 |
+| 19 | `disaster/is_windswept` | **1+1** | `biomeswevegone:windswept` **+ `beloong:windswept`** | 改写+追加 |
+| 20 | `disaster/is_snowy` | 2 | `biomeswevegone:snowy` | 改写 |
+| 21 | `disaster/is_icy` | 1 | `biomeswevegone:icy` | 改写 |
+| 22 | `disaster/is_tree/coniferous` | 10 | `biomeswevegone:coniferous` | 改写 |
+| 23 | `disaster/is_forest` | 19 | `biomeswevegone:forest` | **新建** |
+| 24 | `disaster/is_taiga` | 2 | `biomeswevegone:taiga` | **新建** |
+| 25 | `disaster/is_jungle` | 4 | `biomeswevegone:jungle` | **新建** |
+| 26 | `disaster/is_badlands` | 4 | `biomeswevegone:badlands` | **新建** |
+| 27 | `disaster/is_savanna` | 3 | `biomeswevegone:savanna` | **新建** |
+| 28 | `disaster/is_ocean` | **2+2** | `biomeswevegone:ocean` **+ `beloong:ocean` + `beloong:frozen_ocean`** | **新建** |
+| 29 | `disaster/is_beach` | 3 | `biomeswevegone:beach` | **新建** |
+| 30 | `disaster/is_hill` | **1** | **自建**（= `beloong:windswept`） | **新建** |
+| 31 | `disaster/is_river` | **1** | **自建**（= `beloong:river`） | **新建** |
+
+> **计数口径说明**：下表"群素数"为**递归展开后的唯一群系数**（拍平为裸 ID 后的大小），非 BWG 标签文件的顶层条目数。二者会在标签引用处不同——例如 `biomeswevegone:density/dense` 顶层 15 条（含 3 条标签引用 `#forest`/`#jungle`/`#swamp`），展开去重后为 **31**；`biomeswevegone:climate/dry` 顶层 4 条，展开后为 **6**。
+
+**已取消**：`disaster/is_cave`（用户决定：地下结构改用 `#beloong:is_disaster` 总账，不再需要洞穴专属主题）。
+
+**主题轴对齐说明**：命名与分类轴**完全对应 NeoForge 的 `c:` 约定标签**。但 NeoForge 的 `c:` 定义了 ~80 个主题，BWG 只填了 23 个（且全是转发到 `biomeswevegone:*`），因此 `is_forest` / `is_taiga` / `is_jungle` / `is_badlands` / `is_savanna` / `is_ocean` / `is_beach` / `is_hill` / `is_river` 这 9 个的内容需自行组织。
+
+**完备性口径**：**完备优先**（用户决定）——每个主题标签尽量含全语义相符的群系，允许一个群系同属多个主题；**零消费者的主题标签保留不删**，供将来新增结构直接引用。
+
+### 2.3 化龙核心 5 个自制群系的落位
+
+这 5 个群系是**逐字复制原版群系 JSON 后改名**，刻意不带任何原版/BWG 标签，因此**必须写裸 ID**，且置于各文件 `values` 数组最上方。
+
+| 自制群系 | 参数点 | 落入的主题标签 |
+|---|---|---|
+| `beloong:windswept` | **352** | `disaster/is_windswept` + `disaster/is_hill` |
+| `beloong:river` | 18 | `disaster/is_river` |
+| `beloong:ocean` | 8 | `disaster/is_ocean` |
+| `beloong:frozen_ocean` | 4 | `disaster/is_ocean` |
+| `beloong:caves` | 3 | **（无主题标签；仅进入 `is_disaster` 总账）** |
+
+实测确认（化龙核心 jar `data/beloong/worldgen/biome/`）：`caves`、`frozen_ocean`、`ocean`、`river`、`windswept` 五个 ID 一致；同目录另有 `loong_palace`，**不属天灾体系，不纳入**。
+
+### 2.4 总账 `beloong:is_disaster` 升级
+
+| 项 | 现状（实测） | 目标 |
+|---|---|---|
+| BWG 群系 | 55 | 55（**不变**，已与 BWG 全部群系逐项对齐、零缺失零多余） |
+| 自制群系 | 0 | **5**（置顶） |
+| 合计 | 55 | **60** |
+
+> BWG 基线核对：BWG 2.6.0 共 55 个 `worldgen/biome` JSON，与 `biomeswevegone:overworld` 标签双向 diff 为空。
+> `biomeswevegone:eroded_borealis` 已由用户手动启用，**会生成**，因此保留在清单内。
+
+### 2.5 Components：结构 → 主题映射（33 个）
+
+**地面组 `beloong:disaster_set_ground`（29 个）**
+
+| 主题引用 | 数量 | 结构 |
+|---|---|---|
+| `is_forest` | 6 | `greenwood_pub`、`mushroom_house`、`mushroom_mines`、`mushroom_village`、`thornborn_towers`、`mechanical_nest` |
+| `is_plains` | 5 | `coliseum`、`illager_campsite`、`illager_windmill`、`merchant_campsite`、`wishing_well` |
+| `is_taiga`(+`is_hill`/`is_mountain`/`is_snowy`) | 4 | `abandoned_temple`、`illager_fort`、`monastery`、`bathhouse` |
+| `is_ocean`(+`is_beach`) | 5 | `illager_corsair`、`illager_galley`、`typhon`、`undead_pirate_ship`、`fishing_hut` |
+| `is_desert` | 3 | `ceryneian_hind`、`scorched_mines`、`shiraz_palace` |
+| `is_badlands` | 2 | `bandit_towers`、`bandit_village` |
+| `is_mountain` | 1 | `kisegi_sanctuary` |
+| `is_windswept` | 1 | `small_blimp` |
+| `is_jungle` | 1 | `jungle_tree_house` |
+| `is_beach`(+`is_plains`) | 1 | `lighthouse` |
+| **合计** | **29** | |
+
+**地下组 `beloong:disaster_set_underground`（4 个）**——全部引 `#beloong:is_disaster`
+
+| 结构 | `step` | `start_height` | 说明 |
+|---|---|---|---|
+| `foundry` | `underground_structures` | `absolute: -10` | 埋地 |
+| `mining_complex` | `underground_structures` | `absolute: -5` | `terrain_adaptation: bury` |
+| `plague_asylum` | `strongholds` | `absolute: 0` | `terrain_adaptation: bury` |
+| `infested_temple` | `fluid_springs` | `absolute: -32` | `project_start_to_heightmap: WORLD_SURFACE_WG` |
+
+**闭合校验（脚本实测）**：
+```
+jar 内结构 JSON                          40
+  − 末地迁移                             5
+  − 已删除（不入集）                      2   （giant_mushroom、mining_system）
+  − 地下组                               4
+  = 地面组                              29
+  参与迁移 = 地面 29 + 地下 4            = 33  ✅
+```
+
+> **`small_prairie_house` 不存在**：本版 DA（`DungeonsArise-1.21.1-2.1.68`）的 `worldgen/structure/` 下**没有**该结构 JSON，只有残留的 `tags/worldgen/biome/has_structure/small_prairie_house_biomes.json`。它是我在讨论过程中从列表里**误采的幻觉项**，已从全部清单、权重表与文件计数中剔除。详见第五节复盘。
+
+**排除项**：
+- 末地迁移 5 个：`aviary`、`keep_kayra`、`heavenly_rider`、`heavenly_conqueror`、`heavenly_challenger`（保留其现有结构 JSON override）
+- 已删除 1 个：`mining_system`（`has_structure/mining_system_biomes` 保持 `values: []` 不动，后续需要时再启用）
+
+**权重分级（参照 `dreadland_set` 的 3/2/1 三档；脚本核对：地面 29 = 7+12+10，总计 33 = 7+16+10）**
+
+| 权重 | 数量 | 结构 |
+|---|---|---|
+| **3** | 10 | `fishing_hut`、`wishing_well`、`bathhouse`、`merchant_campsite`、`illager_campsite`、`small_blimp`、`lighthouse`、`jungle_tree_house`、`abandoned_temple`、`mushroom_house` |
+$116 | `greenwood_pub`、`mushroom_village`、`mushroom_mines`、`thornborn_towers`、`mechanical_nest`、`illager_fort`、`illager_windmill`、`kisegi_sanctuary`、`bandit_towers`、`scorched_mines`、`ceryneian_hind`、`plague_asylum`、`foundry`、`mining_complex`、`infested_temple``undead_pirate_ship` |
+| **1** | 7 | `coliseum`、`monastery`、`shiraz_palace`、`bandit_village`、`illager_corsair`、`illager_galley`、`typhon` |
+| **合计** | **33** | 10 + 16 + 7 = 33 ✅ 与成员表闭合 |
+
+### 2.6 Data Flow：生成判定链路
+
+天灾维度（`beloong:disaster`，`settings: minecraft:overworld`）中一个 DA 结构的生成判定：
+
+```
+① ChunkGenerator.createState 把全部 structure set 交给该维度
+        ↓
+② 对该 set 内每个结构：hasBiomesForStructureSet(generator, structure)
+        ↓
+③ structure.biomes（= #dungeons_arise:has_structure/<x>_biomes）
+        与 dimension.possibleBiomes() 求交，非空才继续
+        ↓
+④ placement（random_spread: spacing/separation/salt）给出候选区块
+        ↓
+⑤ exclusion_zone 过滤（本方案：地面↔地下互斥；地下↔minecraft:strongholds）
+        ↓
+⑥ start_height 决定垂直落点（biomes 只管水平，不管 Y）
+```
+
+**关键推论**：`biomes` 标签是**三维不敏感**的，只管"这个群系 ID 合不合格"。地下结构之所以在地下，靠的是 `start_height` 为负值，而不是靠群系标签。这正是 `infested_temple`（`-32`）、`kisegi_sanctuary`（`-32`）能用**地表群系**却生在地下的原因。
+
+### 2.7 结构集定义
+
+| 项 | `disaster_set_ground` | `disaster_set_underground` | `disaster_set`（既有，**不动**） |
+|---|---|---|---|
+| 定位 | 地面结构 | 地下结构 | **空中/悬浮结构**（mss `Soaring` 系，Y 上限 100~200） |
+| `spacing` | **32** | **32** | 20（保持） |
+| `separation` | **16** | **16** | 10（保持） |
+| `salt` | **20260921** | **20260922** | 20260604（保持） |
+| `exclusion_zone` | `disaster_set_underground`(10) | `disaster_set_ground`(10) | — |
+| 成员数 | 30 | 4 | 46 |
+| 单点密度 | 0.00098 | 0.00098 | 0.00250 |
+
+**间距参照系**：`dreadland_set` 30/15、`the_end_set` 48/24、`the_nether_set` 60/30、`the_nether_set_small` 30/15、`the_end_set_air` 50/45。全整合包 `separation = spacing / 2` 为惯例。
+
+**与空中 `disaster_set` 不设互斥**（用户决定）：mss 空中结构在 Y=100~200，DA 地面结构在 Y≈0，实际冲突概率低；不设可降低耦合，也让 `disaster_set` 完全不受本次改动影响。
+
+**`exclusion_zone` 是单值字段**（实测：全实例 12 个结构集使用该字段，**0 个**使用多个；其类型为单对象 `{"chunk_count":N,"other_set":"..."}` 而非数组）。因此地下组**只能设置一个互斥**，取 `beloong:disaster_set_ground`，**放弃 `minecraft:strongholds`**：地面↔地下在 forest/taiga/plains 等群系上高度重叠，互斥收益远大于要塞。
+
+### 2.8 完整文件清单（70 项操作）
+
+| 类别 | 路径 | 数量 | 动作 |
+|---|---|---|---|
+| 主题标签（已有） | `kubejs/data/beloong/tags/worldgen/biome/disaster/**` | **22** | 拍平为裸 ID + `replace:false` |
+| 主题标签（新建） | `.../disaster/{is_forest,is_taiga,is_jungle,is_badlands,is_savanna,is_ocean,is_beach,is_hill,is_river}.json` | 9 | 新建 |
+| 总账 | `.../biome/is_disaster.json` | 1 | 追加 5 个自制群系（置顶） |
+| 结构标签 | `kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/*_biomes.json` | 33 | `replace:true` → 主题引用 |
+| 结构集（新建） | `kubejs/data/beloong/worldgen/structure_set/disaster_set_ground.json`、`disaster_set_underground.json` | 2 | 新建 |
+| 结构集（清空） | `kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json`、`minor_structures.json` | 2 | `"structures": []` |
+| **不动** | `kubejs/data/beloong/worldgen/structure_set/disaster_set.json` | — | **空中结构集，极其重要，保持原样** |
+| **不动** | 5 个末地结构的 `dungeons_arise/worldgen/structure/*.json` override | — | 保留（JSON override 优先级高于 `biomes` 标签引用） |
+| **不动** | `dungeons_arise/tags/worldgen/biome/has_structure/mining_system_biomes.json` | — | 保持 `values: []` |
+| **合计** | | **69** | 22+9+1+33+2+2 = 69 ✅ |
+
+> 主题标签总数 **31 = 已有 22（改写）+ 新建 9**。`disaster/is_mountain.json`（父标签）本身也有文件，计入 22 内。
+> 已取消 `disaster/is_cave`，故 31 而非 32。
+
+---
+
+## 三、Error Handling
+
+| 失败模式 | 后果 | 缓解 |
+|---|---|---|
+| `beloong:disaster/*` 引用了**未注册**的群系 ID | 标签绑定失败，**整个数据包加载报错**（KubeJS/数据包会拒绝加载） | 每个 ID 必须与 BWG 2.6.0 / 化龙核心 jar 实际注册项逐一核对 |
+| `has_structure/*` 引用了**不存在的主题标签** | 同上 | 31 个主题标签必须**全部先落地**，再写 33 个结构标签 |
+| 拼错群系 ID（如 `zelkova` vs `zelkova_forest`） | 整包加载失败，启动崩溃 | 用脚本从源 jar / 源目录生成清单，不手写 |
+| **引用了不存在的结构 ID**（如 `dungeons_arise:small_prairie_house`） | 结构集 JSON 解析失败，**该结构集整体失效** | 结构集成员必须用脚本从 `worldgen/structure/` 实际文件枚举得出，**禁止手抄**（本设计已因此踩坑，见第五节） |
+| 清空 DA 原结构集后忘记新建 set | **33 个迁移结构在主世界及所有维度全部消失** | 两套新 set 必须先建好再清空原 set；或同批完成 |
+| `exclusion_zone` 引用了不存在的 set ID | 该 set 加载失败 | `minecraft:strongholds` 与两个新 set ID 必须精确拼写 |
+| `salt` 与既有 set 冲突 | 候选点重合，结构挤在一起 | 已避开全部现有 salt（20260604/20260823/20260830/20260902/288371663/88371663/342415935） |
+
+---
+
+## 四、Decisions Made
+
+1. **改 `has_structure` 标签，不改结构 JSON 的 `biomes` 字段**（用户纠正）：标签是模组的抽象边界；改 JSON 会绕过它。早前的末地迁移用了 JSON override，属权宜手段，本次不沿用。
+2. **`beloong:disaster/*` 内容用裸群系 ID，不用 `#biomeswevegone:` 引用**（用户决定）：便于后续人工审核与管理，代价是失去随 BWG 自动同步的能力。
+3. **`beloong:disaster/*` 用 `replace: false`**（用户纠正）：自制全新标签没有上游写入内容，`false` 语义正确。
+4. **自制群系置于 `values` 数组最上方**（用户要求）：显式区分来源。
+5. **地下结构用总账 `#beloong:is_disaster`，取消 `is_cave` 主题**（用户决定）：地下结构需要宽群系覆盖，靠 `start_height` 保证垂直位置。
+6. **多主题靠「一个 `has_structure` 标签装多个主题引用」表达**，不新建合并标签（用户确认）。
+7. **主题轴完全对应 NeoForge `c:` 约定标签**（用户决定）：`beloong:disaster/<c:主题>`。
+8. **完备优先**：允许群系同属多主题；零消费者主题标签保留不删（用户决定）。
+9. **`is_hill` 保留**（用户决定）：尽管只有 1 个群系（`beloong:windswept`）。
+10. **`kisegi_sanctuary` 归地面组**（用户纠正）：它用 `WORLD_SURFACE_WG` 投影到地表下 32 格，不是地下结构。
+11. **地下结构 4 个**（用户纠正）：`foundry`/`mining_complex`/`plague_asylum`/`infested_temple`。
+12. **`mining_system` 已删除，标签保持空白**（用户决定）：后续需要时再启用。
+13. ~~**`giant_mushroom` 落 `is_plains` 可接受**~~：**已作废** —— 该结构已从模组结构集中删除，不纳入本次迁移。
+14. **地面组 `spacing 32 / separation 16`**（用户决定）。
+15. **`beloong:disaster_set` 是空中/悬浮结构集，极其重要，不动**（用户纠正；见下节复盘）。
+16. **新地面组与空中 `disaster_set` 不设互斥**（用户决定）。
+17. **两个原结构集覆盖的 38 个结构从天灾以外全部撤出**（用户确认）：清空后它们只在天灾维度生成（其中 5 个末地结构因结构 JSON override 仍留在末地）。
+
+---
+
+## 五、复盘：两个被纠正的方法论错误
+
+### 5.1 把「零引用」当成「死文件」
+
+**错误陈述**：我曾判断 `kubejs/data/beloong/worldgen/structure_set/disaster_set.json` 是"死文件"，并建议删除。理由是 `grep 'beloong:disaster_set'` 全库零命中。
+
+**错在哪里**：
+
+> **结构集（structure_set）不是"被引用"的对象，它就是生成单元本身。**
+> `ChunkGenerator.createState` 把注册表里**全部** structure set 交给每个维度，再用「结构的群系标签 ∩ 该维度 `possibleBiomes()`」筛一道。
+> **任何结构集都不会被文件名引用——所以这个 grep 判据对每一个结构集都会得出"死文件"的结论**，包括 `dreadland_set`、`the_end_set`、`the_nether_set`。
+
+**实际真相**（实测印证）：`disaster_set` 的 46 个成员中，mss（Moogs **Soaring** Structures）的 35 个结构 `start_height` 全部为 `uniform` 且 `max_inclusive` 达 Y=100~200 —— 它是天灾维度的**空中结构集**，与 `the_end_set_air` 完全同构。用户给新集命名 `disaster_set_ground` / `disaster_set_underground`，正是相对于这个既有空中集的三件套。
+
+**可带走的规则**：
+> **判断一个数据驱动对象是否"死亡"，不能用"谁引用了它"来判断。** 对注册表驱动的对象（structure_set、biome、configured_feature…），只要它在注册表里且其筛选条件可满足，它就是活的。要判断"是否生效"，必须看**消费链路**（对本例：`createState` → `hasBiomesForStructureSet` → `possibleBiomes()` 求交），而不是引用计数。
+
+### 5.2 幻觉结构项 `small_prairie_house`，以及"用错误的和校验错误的和"
+
+**错误陈述**：设计过程中我的地面组名单、权重表、文件计数里始终包含一个 `small_prairie_house`。
+
+**真相**：本版 DA（`DungeonsArise-1.21.1-2.1.68`）的 `worldgen/structure/` 下有 **40 个结构 JSON，其中没有 `small_prairie_house`**。它只有两个残留文件：`tags/worldgen/biome/has_structure/small_prairie_house_biomes.json`（群系标签）与 `advancement/` 里的两处字符串命中。**它是我从讨论中途的某个列表里误采的项，随后自我强化地传播到了所有下游清单。**
+
+**它为什么难被发现**（这才是要点）：
+
+1. 我为它"合理化"了一个权重（先 1 后 3），让它看起来像真实成员；
+2. 成员数与权重表**同时含它**，于是两者**互相校验通过**——我用"和等于 34"去验证一份含幻觉项的名单，而 34 这个目标本身就是错的；
+3. 真正确认它不存在，靠的是**回源**：`Get-ChildItem worldgen/structure/*.json` 的实际文件枚举 + `Test-Path` 逐个存在性检查。
+
+**可带走的规则**：
+> **清单类事实必须从源数据枚举生成，禁止在对话中手工转录。** 任何"我复述一遍清单"的动作都会引入不可见的幻觉项，而幻觉项一旦进入两处以上就会被交叉校验"洗白"。
+> **校验数字的闭合，不能替代校验清单的来源。**（`30 + 4 = 34` 闭合，但 `small_prairie_house` 与 `mining_system` 一进一出，和依然闭合。）
+
+**实施硬约束（已写入执行计划要求）**：31 个主题标签、33 个结构标签、2 个结构集的所有成员，**必须由脚本从源目录/jar 枚举生成**，不得手写。
+
+---
+
+## 六、Non-Goals
+
+- **不剔除原版/其他模组结构**：那是前一轮讨论的独立议题（BWG 污染 `minecraft:has_structure/*` 的 17 个标签），本设计**不涉及**。
+- **不改 `beloong:is_desert` / `is_sea` / `is_snowy` 等既有主题标签**：它们已被 `cataclysm:koboleton_spawn` / `deeplings_spawn` 消费，与本设计形成两套并存的主题轴；统一问题留待后续（用户明确"先不管已有的 `is_*` 标签"）。
+- **不重建 `beloong:is_disaster` 的 BWG 部分**：实测已完整（55/55 对齐），只追加 5 个自制群系。
+- **不给 5 个末地结构做任何改动**。
+- **不处理 `beloong:caves` 无结构**的问题：其 3 个参数点不会有 DA 结构，这是决策 5 的已知代价。
+- **不引入 `lithostitched` 的 `set_structure_spawn_condition`**：实测 1.21.1 版没有维度限定能力，本设计不需要它。
+
+---
+
+## 七、Next Steps
+
+Invoke `planning` skill to create implementation plan at
+`docs/plans/2026-09-21-dungeons-arise-disaster-migration.md`.
+
+执行计划必须包含：
+1. 用**脚本**从 BWG jar + 化龙核心 jar 生成 31 个主题标签的完整裸 ID 清单（禁止手写）
+2. 用**脚本**从 DA jar 生成 33 个 `has_structure/*` 覆盖内容
+3. 用**脚本**生成两套结构集 JSON 并核对成员数/权重闭合
+4. 明确的运行期验证步骤（`/locate structure` 逐项验证 + 主世界不再生成 DA 结构）
+5. 文档同步：`.claude/memory/decisions-log.md`、`learned-patterns.md`
+
+---
+
+## 八、实施后修订（2026-09-21）
+
+### 8.1 主题标签由 31 个收敛为 13 个
+
+**变更**：删除 18 个「零引用」主题标签，`beloong:disaster/` 目录由 31 个文件（含 9 个子文件夹）收敛为 **13 个扁平文件**。
+
+**删除清单**（全部经全令牌匹配确认为零引用，扫描 758 个数据文件）：
+```
+is_cold/overworld  is_hot/overworld  is_temperate/overworld
+is_wet/overworld   is_dry/overworld
+is_dense_vegetation/overworld  is_sparse_vegetation/overworld
+is_mountain/peak   is_mountain/slope  is_tree/coniferous
+is_dead  is_floral  is_icy  is_magical  is_river  is_sandy  is_savanna  is_wasteland
+```
+
+**保留 13 个**（每个都被至少一个结构引用）：
+`is_forest`、`is_plains`、`is_taiga`、`is_hill`、`is_snowy`、`is_ocean`、`is_beach`、`is_desert`、`is_badlands`、`is_mountain`、`is_windswept`、`is_jungle`、`is_swamp`
+
+**子文件夹为何存在**：这 10 个子文件夹内文件是照搬 BWG `c:` 标签层级的结果（`c:is_hot/overworld`、`c:is_mountain/peak`、`c:is_tree/coniferous`），它们**恰好全部落在零引用名单内**，因此删除后目录自然变为纯扁平。
+
+**已知后果（已接受）**：`beloong:river` 失去唯一的主题标签 `is_river`，此后与 `beloong:caves` 一样仅由总账 `is_disaster` 覆盖。**对当前 33 个结构零影响**（它们全部走总账或已保留的主题）。
+
+**此修订覆盖 §2.2 的标签清单与决策 8「零消费者主题标签保留不删」。**
+
+### 8.2 实施期发现并修复的两个脚本缺陷
+
+1. **`gen-is-disaster.ps1` 不幂等**：原假设 `is_disaster` 内 0 个自制群系，第二次运行必失败。已改为先剥离已有自制群系再重新置顶插入，连续两次 `-Apply` 均通过。
+2. **迁移工具目录时误删文件**：`Move-Item -LiteralPath tools\* ...` 因 `-LiteralPath` 不支持通配符而失败，紧随的 `Remove-Item -Recurse -Force` 照常执行，导致全部脚本被永久删除。已全部重建到 `docs/tools/`（用户约定位置）。
+
+### 8.3 工具脚本位置约定
+
+辅助脚本统一放 **`docs/tools/`**（不放实例根的 `tools/`）：
+- 生成器 `docs/tools/gen-*.ps1`
+- 校验器 `docs/tools/verify-*.ps1`
+- 清理器 `docs/tools/prune-disaster-tags.ps1`
+- 产物 `docs/tools/out/`
+
+脚本用 `$PSScriptRoot` 反推实例根目录，移动后仍可用。

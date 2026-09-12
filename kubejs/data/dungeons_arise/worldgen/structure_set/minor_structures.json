@@ -1,0 +1,13 @@
+{
+  "structures": [],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 45,
+    "separation": 40,
+    "salt": 342415935
+  },
+  "exclusion_zone": {
+    "other_set": "dungeons_arise:major_structures",
+    "chunk_count": 10
+  }
+}

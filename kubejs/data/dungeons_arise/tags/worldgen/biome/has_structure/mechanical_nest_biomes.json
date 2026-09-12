@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#beloong:disaster/is_forest",
+    "#beloong:disaster/is_swamp"
+  ]
+}

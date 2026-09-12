@@ -1,5 +1,7 @@
 {
+  "replace": false,
   "values": [
-    "#biomeswevegone:mountain"
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:howling_peaks"
   ]
 }

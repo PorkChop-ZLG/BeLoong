@@ -1,0 +1,36 @@
+# dungeons_arise has_structure/*_biomes overrides
+# AUTO-GENERATED. Design ref: design.md section 2.5
+
+abandoned_temple_biomes	#beloong:disaster/is_taiga #beloong:disaster/is_hill
+bandit_towers_biomes	#beloong:disaster/is_badlands
+bandit_village_biomes	#beloong:disaster/is_badlands
+bathhouse_biomes	#beloong:disaster/is_taiga #beloong:disaster/is_plains #beloong:disaster/is_snowy
+ceryneian_hind_biomes	#beloong:disaster/is_desert
+coliseum_biomes	#beloong:disaster/is_plains
+fishing_hut_biomes	#beloong:disaster/is_beach
+foundry_biomes	#beloong:is_disaster
+greenwood_pub_biomes	#beloong:disaster/is_forest
+illager_campsite_biomes	#beloong:disaster/is_plains #beloong:disaster/is_hill
+illager_corsair_biomes	#beloong:disaster/is_ocean
+illager_fort_biomes	#beloong:disaster/is_taiga #beloong:disaster/is_snowy
+illager_galley_biomes	#beloong:disaster/is_ocean #beloong:disaster/is_beach
+illager_windmill_biomes	#beloong:disaster/is_plains
+infested_temple_biomes	#beloong:is_disaster
+jungle_tree_house_biomes	#beloong:disaster/is_jungle
+kisegi_sanctuary_biomes	#beloong:disaster/is_mountain #beloong:disaster/is_hill
+lighthouse_biomes	#beloong:disaster/is_beach #beloong:disaster/is_plains
+mechanical_nest_biomes	#beloong:disaster/is_forest #beloong:disaster/is_swamp
+merchant_campsite_biomes	#beloong:disaster/is_plains
+mining_complex_biomes	#beloong:is_disaster
+monastery_biomes	#beloong:disaster/is_taiga #beloong:disaster/is_mountain #beloong:disaster/is_hill
+mushroom_house_biomes	#beloong:disaster/is_forest
+mushroom_mines_biomes	#beloong:disaster/is_forest
+mushroom_village_biomes	#beloong:disaster/is_forest
+plague_asylum_biomes	#beloong:is_disaster
+scorched_mines_biomes	#beloong:disaster/is_desert
+shiraz_palace_biomes	#beloong:disaster/is_desert
+small_blimp_biomes	#beloong:disaster/is_windswept
+thornborn_towers_biomes	#beloong:disaster/is_forest
+typhon_biomes	#beloong:disaster/is_ocean
+undead_pirate_ship_biomes	#beloong:disaster/is_ocean
+wishing_well_biomes	#beloong:disaster/is_plains

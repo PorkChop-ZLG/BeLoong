@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "beloong:frozen_ocean",
+    "beloong:ocean",
+    "biomeswevegone:dead_sea",
+    "biomeswevegone:lush_stacks"
+  ]
+}
