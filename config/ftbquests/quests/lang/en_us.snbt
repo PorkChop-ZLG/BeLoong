@@ -1,11 +1,6 @@
 {
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["Hidden Quests"]
 	chapter.0ACA55AC777A92A0.title: "〖Aether Dragon〗Path of Growth"
-	chapter.0F599041F0C4C0AF.chapter_subtitle: [
-		"Collect all legendary artifacts;"
-		"Considered as clearing 『BeLoong』"
-	]
-	chapter.0F599041F0C4C0AF.title: "Artifact Compendium"
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
 		"Chapter I: The Fallen Dragonkin"
 		"Dragon Power, Three Stages!"
@@ -116,14 +111,6 @@
 	]
 	quest.0088F3221CD99A3D.quest_subtitle: "★★★★"
 	quest.0088F3221CD99A3D.title: "Cataclysm: Ender Guardian"
-	quest.00D084781CAAF9C4.quest_desc: [
-		"&6Side Story &3【Ice and Fire】 &6Quest Item."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22CDEC8A0577E317\" } }"
-	]
-	quest.00F9DB2E98984479.quest_desc: [
-		"&6Side Story &3【Ice and Fire】 &6Quest Item."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ECA4D4990D20697\" } }"
-	]
 	quest.0105D9B7766A1BA4.quest_desc: [
 		"&aObjective: Open the Shadow Vault and obtain the Shadow Template"
 		""
@@ -261,10 +248,6 @@
 	quest.03EB435BA284D2D0.title: "Observe: Ice Lily"
 	quest.040C5733423CA409.quest_subtitle: "House in the Clouds"
 	quest.040C5733423CA409.title: "Check-in: Giant’s Cabin"
-	quest.0413301F45252E5F.quest_desc: [
-		"&6Side Story &3【Iron Magic】&6 Quest Item."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
-	]
 	quest.0498FCED96BB59A4.quest_desc: [
 		"&aObjective: Inspect Loot Chests"
 		""
@@ -534,10 +517,6 @@
 	]
 	quest.0BCEE748756B8A82.quest_subtitle: "Dark Forest~ Woo~ This Eternal Truth~"
 	quest.0BCEE748756B8A82.title: "Checkpoint: Dark Forest"
-	quest.0BEABCA7656A4180.quest_desc: [
-		"&6Weapon of Cataclysm &3[Ignis]&6."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6583633BEC31ECDF\" } }"
-	]
 	quest.0BFBF916B58BF952.quest_subtitle: "Submit 4 kinds of Charcoal Foods"
 	quest.0BFBF916B58BF952.title: "Still Edible When Burnt"
 	quest.0C4859FFFC25935A.quest_desc: [
@@ -750,10 +729,6 @@
 	quest.138CBAC873742985.quest_subtitle: "Yuheng rides firm, Xihe soars high"
 	quest.138CBAC873742985.title: "&aYuheng"
 	quest.1399E2FD5FF13DE5.quest_subtitle: "Icy and Chilling"
-	quest.13E374F05CB19377.quest_desc: [
-		"&6Completion reward for the &3Dragon Codex&6."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5BB4A81605A76537\" } }"
-	]
 	quest.13F417E2FB58EB86.title: "Observe: Zircon Blue Flower Cluster"
 	quest.1420594CE21D4239.quest_desc: [
 		"&6Each dish has attributes. What happens if you add forbidden ingredients?&r"
@@ -804,10 +779,6 @@
 	quest.15D4B079675BDA00.quest_subtitle: "Recipe Modified, Requires Permafrost Ingot"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "Defeat Three Yeti Bosses"
 	quest.1611AF1CA2E30FEE.title: "Which One Is the Real Yeti?"
-	quest.1622BD52272D5656.quest_desc: [
-		"&6Side Story &3【Ice and Fire】&6 quest item."
-		"{ \"text\": \"Click to view how to obtain\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19632689D6646EBD\" } }"
-	]
 	quest.163153BE5D349228.title: "Sweep Items"
 	quest.16AD045AE7B461C7.quest_subtitle: "Junmai Daiginjo"
 	quest.16B32CB0D55A9718.title: "Necklace T0"
@@ -1380,10 +1351,6 @@
 	]
 	quest.300B6A5EADD11286.quest_subtitle: "★★★"
 	quest.300B6A5EADD11286.title: "Cataclysm: Ancient Remnant"
-	quest.308ACBC769E52128.quest_desc: [
-		"&6Side Story &3【Iron's Spells 'n Spellbooks】 &6completion reward."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
-	]
 	quest.309615294A70B9E9.quest_desc: ["&9Structure Compass: &b【YUNG】Desert Pyramid&r"]
 	quest.309615294A70B9E9.title: "Challenge: Desert Pyramid"
 	quest.30A3124E55AA6C4F.title: "High Evoker Armor"
@@ -1741,10 +1708,6 @@
 	quest.3E5F53B92682C2E2.quest_subtitle: "Prepare and wear at least one piece of Thermal Springstone armor. Only fire can destroy the giant plants dwelling here."
 	quest.3E5F53B92682C2E2.title: "The Labyrinth Holding Lost Souls"
 	quest.3E9235C058186DC1.title: "Hand Ornament T0"
-	quest.3ECBA6DB5DDE8A7C.quest_desc: [
-		"&6Main Quest &3【Twilight Forest】 &6completion reward."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"316AFA91B0365E94\" } }"
-	]
 	quest.3F053183F9C244AD.quest_desc: [
 		"&aObjective: Find the castle in the Nether"
 		""
@@ -2311,10 +2274,6 @@
 	]
 	quest.5409A055F5C34999.quest_subtitle: "Starry Game | Xingye Cloud Link"
 	quest.5409A055F5C34999.title: "Multiplayer Recommendations"
-	quest.5443C9546910E4B4.quest_desc: [
-		"&6Main Quest &3【The Undergarden】 &6completion reward."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
-	]
 	quest.549E269DFE9CCCBA.title: "Aether Dragon Soul"
 	quest.54A9EA09DB80D187.title: "Trinkets T0"
 	quest.55C69AD6F42A1ADA.quest_subtitle: "Cream Mint"
@@ -2380,12 +2339,6 @@
 	]
 	quest.56B73043CC964E09.quest_subtitle: "Pillage a Villager"
 	quest.56B73043CC964E09.title: "——Pillage——"
-	quest.57129F2800906CC9.quest_desc: [
-		"&6Main Quest &3【Twilight Forest】 &6easter egg reward."
-		"&6This is a special weapon, not included in the &eZenith Sword &6crafting."
-		"&6It has the highest base damage and dragon skill damage bonus."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"254ACB3DBF934D44\" } }"
-	]
 	quest.573DE89DDB233083.title: "Concrete Assortment"
 	quest.574D327123271BA3.title: "First Entry into The End"
 	quest.577508CE564D487C.quest_subtitle: "Everything you want to know is here"
@@ -2977,12 +2930,6 @@
 	]
 	quest.71356A8881052F9A.quest_subtitle: "Item Disguise"
 	quest.71356A8881052F9A.title: "Transmog Table"
-	quest.7140F79C02D9A138.quest_desc: [
-		"&6The &e&lstrongest weapon &6in the current version."
-		"&6Crafted from &29 &6ultimate weapons from different mods,"
-		"&6it possesses the power to &cannihilate anything&6! &7&o(Except some mechanic-based mobs)"
-		"&6Wielding this divine weapon symbolizes &dyour completion &6of this modpack."
-	]
 	quest.717F72FCA6275810.quest_subtitle: "Economical and Tasty~"
 	quest.71BFA3CE3156E064.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"]
 	quest.71BFA3CE3156E064.quest_subtitle: "Kill the Leviathan and submit its drops"
