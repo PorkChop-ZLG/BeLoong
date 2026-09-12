@@ -2,7 +2,7 @@
 # AUTO-GENERATED. no exclusion_zone anywhere by design.
 
 target tag : #beloong:disaster/is_ocean
-new set    : beloong:disaster_set_sea  spacing=40 separation=34 salt=98123789
+new set    : beloong:disaster_sea_set  spacing=40 separation=34 salt=98123789
 
 dungeons_arise_seven_seas:corsair_corvette	weight=1	-> #beloong:disaster/is_ocean
 dungeons_arise_seven_seas:pirate_junk	weight=1	-> #beloong:disaster/is_ocean

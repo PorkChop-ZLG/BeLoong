@@ -1,4 +1,9 @@
-﻿# 地牢浮现之时 → 天灾维度迁移 实施计划
+# 地牢浮现之时 → 天灾维度迁移 实施计划
+
+> **命名更新（2026-09-21，不改写正文）：** 结构集已按「维度_位置_set」重命名，本文正文中的旧 ID 对应关系为 
+`disaster_set` → `disaster_sky_set`、`disaster_set_ground` → `disaster_ground_set`、`disaster_set_underground` → `disaster_underground_set`、`disaster_set_sea` → `disaster_sea_set`。
+另外：主题标签已由 31 个收敛为 13 个（见 decisions-log）；地面集权重已归一为大型 1 / 小型 2（`1:16 2:13`）；两套结构集的 `exclusion_zone` 已移除（见本目录 §9）。
+
 
 **Goal:** 把 `dungeons_arise` 的 33 个结构（地面 29 + 地下 4）改为**仅在天灾维度生成**，用 31 个 `beloong:disaster/*` 主题标签精准指定气候归属，并用两套新结构集统一管理。
 

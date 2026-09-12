@@ -3,7 +3,7 @@
 #
 # Design decisions (user-approved):
 #   - Target biome tag: #beloong:disaster/is_ocean  (single reference, no multi-theme)
-#   - New structure set: beloong:disaster_set_sea
+#   - New structure set: beloong:disaster_sea_set
 #   - placement: spacing 40 / separation 34 / salt 98123789 (original salt kept)
 #   - weights: all five ships = 1 (same as the expansion's original set)
 #   - NO exclusion_zone (all disaster-dimension structures are designed not to overlap;
@@ -49,7 +49,7 @@ $DataDir   = Join-Path $Root 'kubejs\data'
 $Manifest  = Join-Path $Root 'docs\tools\out\sevenseas-migration-manifest.txt'
 
 $TargetRef = '#beloong:disaster/is_ocean'
-$SetId     = 'beloong:disaster_set_sea'
+$SetId     = 'beloong:disaster_sea_set'
 $Spacing   = 40
 $Separation= 34
 $Salt      = 98123789
@@ -158,7 +158,7 @@ for ($i = 0; $i -lt $ships.Count; $i++) {
 [void]$sb.Append("  ]`r`n")
 [void]$sb.Append("}`r`n")
 $setJson = $sb.ToString()
-$setPath = Join-Path $SetOutDir 'disaster_set_sea.json'
+$setPath = Join-Path $SetOutDir 'disaster_sea_set.json'
 
 if ($Apply) {
     if (-not [System.IO.Directory]::Exists($SetOutDir)) { [System.IO.Directory]::CreateDirectory($SetOutDir) | Out-Null }

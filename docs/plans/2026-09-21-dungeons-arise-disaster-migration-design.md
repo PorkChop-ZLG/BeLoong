@@ -1,5 +1,10 @@
 # 地牢浮现之时 → 天灾维度迁移 设计文档
 
+> **命名更新（2026-09-21，不改写正文）：** 结构集已按「维度_位置_set」重命名，本文正文中的旧 ID 对应关系为 
+`disaster_set` → `disaster_sky_set`、`disaster_set_ground` → `disaster_ground_set`、`disaster_set_underground` → `disaster_underground_set`、`disaster_set_sea` → `disaster_sea_set`。
+另外：主题标签已由 31 个收敛为 13 个（见 decisions-log）；地面集权重已归一为大型 1 / 小型 2（`1:16 2:13`）；两套结构集的 `exclusion_zone` 已移除（见本目录 §9）。
+
+
 **Date:** 2026-09-21
 **Status:** Implemented（Batch 1–6 已完成；静态校验 33 项检查 / 0 错误通过；运行期 `/locate` 验证待执行）
 **Approach:** A —— `c:` 型主题命名空间 `beloong:disaster/*` + 总账 `beloong:is_disaster` + 两套结构集

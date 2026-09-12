@@ -8,8 +8,8 @@
 #            All preconditions are asserted before writing.
 #
 # Preconditions asserted:
-#   1) beloong:disaster_set_ground.json exists with 29 members
-#   2) beloong:disaster_set_underground.json exists with 4 members
+#   1) beloong:disaster_ground_set.json exists with 29 members
+#   2) beloong:disaster_underground_set.json exists with 4 members
 #   3) all 33 member structure IDs exist in the DA jar
 #   4) the 5 End-migrated structures keep their structure-JSON overrides (untouched here)
 #
@@ -42,8 +42,8 @@ function Add-Fail([string]$m) { $script:fail.Add($m); Write-Host "  [FAIL] $m" -
 Write-Host ""
 Write-Host "=== 1. Preconditions ===" -ForegroundColor Cyan
 
-$gPath = Join-Path $SetDir 'disaster_set_ground.json'
-$uPath = Join-Path $SetDir 'disaster_set_underground.json'
+$gPath = Join-Path $SetDir 'disaster_ground_set.json'
+$uPath = Join-Path $SetDir 'disaster_underground_set.json'
 foreach ($p in @($gPath, $uPath)) {
     if (-not (Test-Path -LiteralPath $p)) { Add-Fail "missing required file: $p" }
 }
@@ -53,8 +53,8 @@ $gj = Get-Content -LiteralPath $gPath -Raw -Encoding UTF8 | ConvertFrom-Json
 $uj = Get-Content -LiteralPath $uPath -Raw -Encoding UTF8 | ConvertFrom-Json
 $gc = @($gj.structures).Count
 $uc = @($uj.structures).Count
-Write-Host "  disaster_set_ground      : $gc members"
-Write-Host "  disaster_set_underground : $uc members"
+Write-Host "  disaster_ground_set      : $gc members"
+Write-Host "  disaster_underground_set : $uc members"
 if ($gc -ne 29) { Add-Fail "ground members = $gc, expected 29" }
 if ($uc -ne 4)  { Add-Fail "underground members = $uc, expected 4" }
 

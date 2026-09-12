@@ -143,8 +143,8 @@ OK "excluded structures (End/heavenly/mining_system/deleted) not re-pointed at d
 
 Write-Host ""
 Write-Host "================ F. Structure sets ================" -ForegroundColor Cyan
-$gp = Join-Path $SetDir 'disaster_set_ground.json'
-$up = Join-Path $SetDir 'disaster_set_underground.json'
+$gp = Join-Path $SetDir 'disaster_ground_set.json'
+$up = Join-Path $SetDir 'disaster_underground_set.json'
 foreach ($p in @($gp, $up)) { if (-not (Test-Path -LiteralPath $p)) { Bad "missing set: $p" } }
 
 $gj = [System.IO.File]::ReadAllText($gp, [System.Text.Encoding]::UTF8) | ConvertFrom-Json
@@ -156,7 +156,7 @@ if ($gN + $uN -ne 33) { Bad "total = $($gN + $uN), expected 33" } else { OK "tot
 
 $w = @($gj.structures | ForEach-Object { $_.weight } | Group-Object | Sort-Object Name)
 $wtxt = ($w | ForEach-Object { "$($_.Name):$($_.Count)" }) -join ' '
-if ($wtxt -ne '1:7 2:12 3:10') { Bad "ground weight breakdown = $wtxt, expected 1:7 2:12 3:10" } else { OK "ground weights 1:7 2:12 3:10" }
+if ($wtxt -ne '1:16 2:13') { Bad "ground weight breakdown = $wtxt, expected 1:16 2:13" } else { OK "ground weights 1:16 2:13 (large=1, small=2)" }
 
 if ($gj.placement.spacing -ne 32 -or $gj.placement.separation -ne 16 -or $gj.placement.salt -ne 20260921) { Bad "ground placement wrong" } else { OK "ground placement 32/16/20260921" }
 if ($uj.placement.spacing -ne 32 -or $uj.placement.separation -ne 16 -or $uj.placement.salt -ne 20260922) { Bad "underground placement wrong" } else { OK "underground placement 32/16/20260922" }
