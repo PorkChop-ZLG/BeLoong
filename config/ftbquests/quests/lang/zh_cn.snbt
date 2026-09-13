@@ -1379,6 +1379,8 @@
 	quest.25B16F5A70DCC3AA.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03DA2F2992CDD7DA\" } }"]
 	quest.25B16F5A70DCC3AA.title: "慈悲"
 	quest.267503A8DD306195.quest_subtitle: "咖啡冰淇淋~"
+	quest.26C96833C1F6A28B.quest_desc: ["&6任务：击败烈焰人，获得烈焰棒"]
+	quest.26C96833C1F6A28B.title: "烈焰人"
 	quest.26F59CBF01B32CE6.quest_desc: [
 		"&6任务：集齐怪物图鉴中的所有BOSS"
 		""
@@ -1566,6 +1568,8 @@
 	quest.2D1C583D847AA0B2.quest_subtitle: "这个演出动画有点帅啊"
 	quest.2D1C583D847AA0B2.title: "&l&3冥界骑士"
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "梦幻如泡沫"
+	quest.2E45C77DBA83582F.quest_desc: ["&6任务：将金锭丢给猪灵进行交易"]
+	quest.2E45C77DBA83582F.title: "猪灵交易"
 	quest.2E6A1BFF333127EA.quest_subtitle: "死者之王小概率掉落"
 	quest.2E6A1BFF333127EA.title: "熄法结节 法术卷轴"
 	quest.2E825FE5146172A7.quest_desc: ["&6任务：击败骸骨巨龙"]
@@ -3033,6 +3037,8 @@
 	quest.5997BC4982540330.quest_subtitle: "★★★★★★"
 	quest.5997BC4982540330.title: "灾变：下界合金巨兽"
 	quest.59B00DF89051DF63.title: "下界三王"
+	quest.59B5BB4EF52AD685.quest_desc: ["&6任务：挖到远古残骸"]
+	quest.59B5BB4EF52AD685.title: "远古残骸"
 	quest.5A2666846D1EFCCE.quest_desc: [
 		"&6任务：了解龙的特性后，点击左上角的✅"
 		""
@@ -3461,6 +3467,8 @@
 	]
 	quest.6510A7883109C0C5.quest_subtitle: "专为非酋准备"
 	quest.6510A7883109C0C5.title: "背叛者徽记保底"
+	quest.654403DF5078429A.quest_desc: ["&6任务：使用酿造台酿造一瓶药水"]
+	quest.654403DF5078429A.title: "酿造台"
 	quest.6551B8D4F580ACE3.quest_desc: [
 		"&6任务：集齐所有建筑之杖"
 		""

@@ -705,6 +705,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			icon_scale: 1.45d
 			id: "76A7A167E97880D8"
 			rewards: [{
@@ -715,15 +721,10 @@
 			shape: "square"
 			size: 2.3d
 			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: {
-					components: {
-						"ftbquests:icon": "minecraft:block/nether_portal"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "31A8B2FD0F3394BF"
-				type: "dimension"
+				advancement: "minecraft:nether/root"
+				criterion: ""
+				id: "7A4EE1D09A86E3F5"
+				type: "advancement"
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -796,11 +797,11 @@
 					xp: 200
 				}
 				{
-					count: 6
-					id: "09955E6727CF28F0"
+					count: 8
+					id: "400B1B7646C5855C"
 					item: {
 						count: 1
-						id: "minecraft:blaze_rod"
+						id: "minecraft:nether_wart"
 					}
 					type: "item"
 				}
@@ -887,11 +888,21 @@
 		{
 			dependencies: ["7332CD16CC158C56"]
 			id: "18A1C9F5BE82FFD4"
-			rewards: [{
-				id: "17C5616CB1535F20"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "17C5616CB1535F20"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7BC977CAD12F34C0"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:ancient_trial_key"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "block_factorys_bosses:underworld_arena_door"
@@ -920,14 +931,6 @@
 					item: {
 						count: 1
 						id: "block_factorys_bosses:underworld_arena_key"
-					}
-					type: "item"
-				}
-				{
-					id: "004A42F9C40CB209"
-					item: {
-						count: 1
-						id: "block_factorys_bosses:ancient_trial_key"
 					}
 					type: "item"
 				}
@@ -1073,6 +1076,9 @@
 		}
 		{
 			dependencies: ["1538C9C2C9C5BC1B"]
+			icon: {
+				id: "minecraft:grass_block"
+			}
 			id: "7AF9D81C915F4747"
 			rewards: [
 				{
@@ -1081,34 +1087,55 @@
 					xp: 200
 				}
 				{
-					count: 12
-					id: "449E37D5D74A5661"
+					count: 3
+					id: "5BA82C4F80A03D9D"
 					item: {
 						count: 1
-						id: "minecraft:ender_pearl"
+						id: "minecraft:ender_eye"
 					}
 					type: "item"
 				}
 			]
-			tasks: [{
-				dimension: "minecraft:overworld"
-				icon: {
-					id: "minecraft:grass_block"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: {
+						id: "minecraft:grass_block"
+					}
+					id: "5F7E5C4CBDE8FFFB"
+					optional_task: true
+					type: "dimension"
 				}
-				id: "5F7E5C4CBDE8FFFB"
-				type: "dimension"
-			}]
+				{
+					advancement: "minecraft:nether/fast_travel"
+					criterion: ""
+					id: "65FD60D1131FBF54"
+					optional_task: true
+					type: "advancement"
+				}
+			]
 			x: 26.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AF9D81C915F4747"]
 			id: "15C8B8AA60276011"
-			rewards: [{
-				id: "72BF55B495023B9A"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "72BF55B495023B9A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 6
+					id: "4DC870F904A0BCE7"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "minecraft:story/follow_ender_eye"
 				criterion: ""
@@ -1692,6 +1719,126 @@
 			}]
 			x: 24.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["37912F243389D665"]
+			id: "59B5BB4EF52AD685"
+			rewards: [
+				{
+					id: "507FCDF7A4E9100C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3BD3015571322A12"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "16A0C031CA6EE657"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54D1810722DCCC0C"]
+			id: "2E45C77DBA83582F"
+			rewards: [
+				{
+					id: "0327982B9FB57D60"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "11C36C78BF4C5377"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "2D2A7FCF725CFC85"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5EB5DB20B9FBF372"]
+			icon: {
+				id: "minecraft:blaze_spawn_egg"
+			}
+			id: "26C96833C1F6A28B"
+			rewards: [
+				{
+					id: "7F6A520CBF045450"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "21B25E8C62F93D0A"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "4C6FABBAAD621FD0"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["622A55D89E3ED919"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "654403DF5078429A"
+			rewards: [
+				{
+					id: "0681D776E4AE84EE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6732DB9A2A5CB9DB"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "7B91D35C9D2E8FFF"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 1.5d
 		}
 	]
 }

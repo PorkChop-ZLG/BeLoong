@@ -247,8 +247,8 @@
 			order: 99
 			rotation: 180.0d
 			width: 1.2d
-			x: 4.0d
-			y: 14.0d
+			x: 49.0d
+			y: -1.0d
 		}
 		{
 			click_action: "none:"
@@ -258,8 +258,8 @@
 			order: 98
 			rotation: 180.0d
 			width: 1.2d
-			x: 5.0d
-			y: 14.0d
+			x: 50.0d
+			y: -1.0d
 		}
 		{
 			click_action: "none:"
@@ -269,8 +269,8 @@
 			order: 97
 			rotation: 180.0d
 			width: 1.2d
-			x: 6.0d
-			y: 14.0d
+			x: 51.0d
+			y: -1.0d
 		}
 		{
 			click_action: "none:"
@@ -280,8 +280,8 @@
 			order: 99
 			rotation: 90.0d
 			width: 1.2d
-			x: 3.0d
-			y: 15.0d
+			x: 48.0d
+			y: 0.0d
 		}
 		{
 			click_action: "none:"
@@ -291,8 +291,8 @@
 			order: 98
 			rotation: 90.0d
 			width: 1.2d
-			x: 3.0d
-			y: 16.0d
+			x: 48.0d
+			y: 1.0d
 		}
 		{
 			click_action: "none:"
@@ -302,8 +302,8 @@
 			order: 97
 			rotation: 90.0d
 			width: 1.2d
-			x: 3.0d
-			y: 17.0d
+			x: 48.0d
+			y: 2.0d
 		}
 		{
 			click_action: "none:"
@@ -313,8 +313,8 @@
 			order: 95
 			rotation: -90.0d
 			width: 1.2d
-			x: 7.0d
-			y: 15.0d
+			x: 52.0d
+			y: 0.0d
 		}
 		{
 			click_action: "none:"
@@ -324,8 +324,8 @@
 			order: 94
 			rotation: -90.0d
 			width: 1.2d
-			x: 7.0d
-			y: 16.0d
+			x: 52.0d
+			y: 1.0d
 		}
 		{
 			click_action: "none:"
@@ -335,8 +335,8 @@
 			order: 93
 			rotation: -90.0d
 			width: 1.2d
-			x: 7.0d
-			y: 17.0d
+			x: 52.0d
+			y: 2.0d
 		}
 		{
 			click_action: "none:"
@@ -346,8 +346,8 @@
 			order: 95
 			rotation: 0.0d
 			width: 1.2d
-			x: 4.0d
-			y: 18.0d
+			x: 49.0d
+			y: 3.0d
 		}
 		{
 			click_action: "none:"
@@ -357,8 +357,8 @@
 			order: 94
 			rotation: 0.0d
 			width: 1.2d
-			x: 5.0d
-			y: 18.0d
+			x: 50.0d
+			y: 3.0d
 		}
 		{
 			click_action: "none:"
@@ -368,8 +368,8 @@
 			order: 93
 			rotation: 0.0d
 			width: 1.2d
-			x: 6.0d
-			y: 18.0d
+			x: 51.0d
+			y: 3.0d
 		}
 	]
 	order_index: 4
@@ -498,7 +498,7 @@
 				id: "0773426303AFFDCD"
 				type: "advancement"
 			}]
-			x: 22.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -529,8 +529,8 @@
 				id: "508B084178841EFC"
 				type: "advancement"
 			}]
-			x: 24.0d
-			y: 0.75d
+			x: 18.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["1F5E680BAE5D2003"]
@@ -546,8 +546,8 @@
 				id: "73696A312A18E4ED"
 				type: "advancement"
 			}]
-			x: 24.0d
-			y: 2.5d
+			x: 18.5d
+			y: -2.75d
 		}
 		{
 			dependencies: ["1F5E680BAE5D2003"]
@@ -562,8 +562,8 @@
 				item: { count: 1, id: "legendary_monsters:monstrous_anchor" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 2.0d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["61DA31A272BC48AB"]
@@ -593,8 +593,8 @@
 				id: "01943B1C648119E2"
 				type: "advancement"
 			}]
-			x: 7.5d
-			y: -2.25d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6340FBFCEA10D1AC"]
@@ -623,8 +623,8 @@
 				id: "48F58F616F3A6DD0"
 				type: "advancement"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 5.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["28B79D99FF19DB3D"]
@@ -640,8 +640,8 @@
 				id: "4F23795C641F0862"
 				type: "advancement"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["28B79D99FF19DB3D"]
@@ -656,8 +656,8 @@
 				item: { count: 1, id: "legendary_monsters:blastproof_helmet" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["28B79D99FF19DB3D"]
@@ -672,8 +672,8 @@
 				item: { count: 1, id: "legendary_monsters:sand_cannon" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5FAA8786ABA8BF94"]
@@ -703,8 +703,8 @@
 				id: "4E599C6BB830BA6C"
 				type: "advancement"
 			}]
-			x: 18.5d
-			y: -2.25d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["61B245C87C07699C"]
@@ -734,8 +734,8 @@
 				id: "0B3AF9DFD95CA7C6"
 				type: "advancement"
 			}]
-			x: 13.0d
-			y: 0.75d
+			x: 10.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["3FD398E85B2582ED"]
@@ -764,8 +764,8 @@
 				id: "52143813CC2E9FF8"
 				type: "advancement"
 			}]
-			x: 16.5d
-			y: -1.5d
+			x: 13.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["196D64F5AFD45762"]
@@ -794,11 +794,11 @@
 				id: "6343444BE3EA667F"
 				type: "advancement"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3DB9735D5CAF9032"]
+			dependencies: ["5141EC232C84B53E"]
 			icon: {
 				id: "legendary_monsters:cloud_golem_spawn_egg"
 			}
@@ -826,8 +826,8 @@
 				id: "79358A79B7717D70"
 				type: "advancement"
 			}]
-			x: 30.0d
-			y: 0.0d
+			x: 23.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4B9C19DD3E2679C1"]
@@ -849,8 +849,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 2.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["56CD03186ED90684"]
@@ -872,8 +872,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -3.5d
+			x: 13.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["56CD03186ED90684"]
@@ -888,8 +888,8 @@
 				item: { count: 1, id: "legendary_monsters:totem_of_moss" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: -3.5d
+			x: 15.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4B9C19DD3E2679C1"]
@@ -904,8 +904,8 @@
 				item: { count: 1, id: "legendary_monsters:primal_ice_shard" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 2.0d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1F5E680BAE5D2003"]
@@ -920,8 +920,8 @@
 				item: { count: 1, id: "legendary_monsters:spiky_shield" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 2.0d
+			x: 19.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1F5E680BAE5D2003"]
@@ -950,7 +950,7 @@
 				id: "5FEAB76511130ACA"
 				type: "advancement"
 			}]
-			x: 26.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -967,8 +967,8 @@
 				id: "4A921F40390FEB48"
 				type: "advancement"
 			}]
-			x: 30.0d
-			y: 2.0d
+			x: 25.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["181E7B87DE32CEA3"]
@@ -998,8 +998,8 @@
 				id: "6F7A09898CCF8215"
 				type: "advancement"
 			}]
-			x: 28.5d
-			y: 3.75d
+			x: 26.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F5AC4043CEA54E3"]
@@ -1015,8 +1015,8 @@
 				id: "3929C3BD9F352FA1"
 				type: "advancement"
 			}]
-			x: 24.5d
-			y: 9.5d
+			x: 29.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["72151A2FD66D3BD6"]
@@ -1046,8 +1046,8 @@
 				id: "37152D7E71E0BD78"
 				type: "advancement"
 			}]
-			x: 21.75d
-			y: 10.5d
+			x: 30.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A626874CCDC9694"]
@@ -1063,8 +1063,8 @@
 				id: "1C66A91FBEB1DD2A"
 				type: "advancement"
 			}]
-			x: 28.0d
-			y: 6.0d
+			x: 27.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["12EA14096CBC0447"]
@@ -1094,8 +1094,8 @@
 				id: "74F80485D445E1F0"
 				type: "advancement"
 			}]
-			x: 25.5d
-			y: 6.75d
+			x: 28.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2E825FE5146172A7"]
@@ -1111,8 +1111,8 @@
 				id: "46ED66EB7FBEE910"
 				type: "advancement"
 			}]
-			x: 24.0d
-			y: 14.0d
+			x: 31.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["066F880D0A204FEA"]
@@ -1143,8 +1143,8 @@
 				id: "3A2B52210EB253CA"
 				type: "advancement"
 			}]
-			x: 24.0d
-			y: 16.0d
+			x: 33.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["66B5A93D255C0662"]
@@ -1160,8 +1160,8 @@
 				id: "3D80FCF569444E83"
 				type: "advancement"
 			}]
-			x: 22.0d
-			y: 16.0d
+			x: 35.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2A221FA065AEECA3"]
@@ -1191,8 +1191,8 @@
 				id: "676C0382212BBE1C"
 				type: "advancement"
 			}]
-			x: 20.0d
-			y: 16.0d
+			x: 36.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C9C453593952765"]
@@ -1208,8 +1208,8 @@
 				id: "5D09C8DD560758F9"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 16.0d
+			x: 38.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2527E346B4D46960"]
@@ -1239,8 +1239,8 @@
 				id: "40B64FEEB0308954"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 16.0d
+			x: 39.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3D3952553BFB204D"]
@@ -1256,8 +1256,8 @@
 				id: "5D707B96362C0144"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 16.0d
+			x: 41.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4403D0B442B8A042"]
@@ -1288,8 +1288,8 @@
 				id: "51CC1AD0B26967D2"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 16.0d
+			x: 43.0d
+			y: 1.0d
 		}
 		{
 			id: "2C5DAED6CD1A78E6"
@@ -1299,8 +1299,8 @@
 				id: "14DAAA356503F785"
 				type: "checkmark"
 			}]
-			x: -20.0d
-			y: -19.0d
+			x: -50.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["347C54BAEC42A4AA"]
@@ -1332,8 +1332,8 @@
 				to_observe: "beloong:disaster_portal_frame"
 				type: "observation"
 			}]
-			x: 10.0d
-			y: 16.0d
+			x: 45.0d
+			y: 1.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1350,8 +1350,8 @@
 				item: { count: 1, id: "fdbosses:eye_of_chesed" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 13.0d
+			x: 49.0d
+			y: -2.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1368,8 +1368,8 @@
 				item: { count: 1, id: "fdbosses:eye_of_geburah" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 13.0d
+			x: 50.0d
+			y: -2.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1386,8 +1386,8 @@
 				item: { count: 1, id: "fdbosses:eye_of_malkuth" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: 51.0d
+			y: -2.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1404,8 +1404,8 @@
 				item: { count: 1, id: "cataclysm:desert_eye" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 47.0d
+			y: 0.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1422,8 +1422,8 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 16.0d
+			x: 47.0d
+			y: 1.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1440,8 +1440,8 @@
 				item: { count: 1, id: "cataclysm:void_eye" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 17.0d
+			x: 47.0d
+			y: 2.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1458,8 +1458,8 @@
 				item: { count: 1, id: "cataclysm:monstrous_eye" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 19.0d
+			x: 51.0d
+			y: 4.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1476,8 +1476,8 @@
 				item: { count: 1, id: "cataclysm:flame_eye" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 19.0d
+			x: 50.0d
+			y: 4.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1494,8 +1494,8 @@
 				item: { count: 1, id: "cataclysm:mech_eye" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 19.0d
+			x: 49.0d
+			y: 4.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1512,8 +1512,8 @@
 				item: { count: 1, id: "cataclysm:cursed_eye" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 17.0d
+			x: 53.0d
+			y: 2.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1530,8 +1530,8 @@
 				item: { count: 1, id: "cataclysm:storm_eye" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: 53.0d
+			y: 1.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1548,8 +1548,8 @@
 				item: { count: 1, id: "cataclysm:abyss_eye" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.0d
+			x: 53.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1596,8 +1596,8 @@
 				id: "68710894F3F6247D"
 				type: "dimension"
 			}]
-			x: 5.0d
-			y: 16.0d
+			x: 50.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2C91F2899A333562"]
@@ -1654,8 +1654,8 @@
 				id: "081D5AD0DCFEF689"
 				type: "biome"
 			}]
-			x: 9.5d
-			y: -1.5d
+			x: 8.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["56CD03186ED90684"]
@@ -1683,8 +1683,8 @@
 				id: "4382345630E9EBE9"
 				type: "biome"
 			}]
-			x: 20.5d
-			y: -1.5d
+			x: 16.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["4B9C19DD3E2679C1"]
@@ -1712,10 +1712,11 @@
 				id: "0E9454D1372B52EE"
 				type: "biome"
 			}]
-			x: 15.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["3DB9735D5CAF9032"]
 			id: "5141EC232C84B53E"
 			rewards: [
 				{
@@ -1739,8 +1740,8 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 28.0d
-			y: 0.0d
+			x: 21.0d
+			y: 1.0d
 		}
 	]
 }
