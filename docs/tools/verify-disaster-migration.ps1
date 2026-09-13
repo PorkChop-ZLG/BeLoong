@@ -163,6 +163,18 @@ if ($uj.placement.spacing -ne 32 -or $uj.placement.separation -ne 16 -or $uj.pla
 if ($gj.placement.exclusion_zone) { Bad "ground set must NOT declare an exclusion_zone" } else { OK "ground set has no exclusion_zone" }
 if ($uj.placement.exclusion_zone) { Bad "underground set must NOT declare an exclusion_zone" } else { OK "underground set has no exclusion_zone" }
 
+# Spawn exclusion (user-approved 250 blocks). Two silent-failure modes are guarded:
+#   a) the Moogs type is reverted to minecraft:random_spread -> the unknown key survives
+#      parsing but is ignored, so the guard vanishes with no error anywhere;
+#   b) min_distance_from_world_origin is dropped -> same silent loss.
+# The value is in BLOCKS (the reference impl multiplies chunk coords by 16), and the
+# origin it checks is dimension-local, not the overworld's.
+$MoogsType = 'moogs_structures:advanced_random_spread'
+if ($gj.placement.type -ne $MoogsType) { Bad "ground placement type = '$($gj.placement.type)', expected '$MoogsType'" } else { OK "ground placement type is the spawn-excluding one" }
+if ($gj.placement.min_distance_from_world_origin -ne 250) { Bad "ground min_distance_from_world_origin = '$($gj.placement.min_distance_from_world_origin)', expected 250" } else { OK "ground keeps DA structures >= 250 blocks from the origin" }
+if ($uj.placement.type -ne 'minecraft:random_spread') { Bad "underground placement type must stay vanilla random_spread" } else { OK "underground placement type unchanged (vanilla)" }
+if ($null -ne $uj.placement.min_distance_from_world_origin) { Bad "underground must NOT declare min_distance_from_world_origin" } else { OK "underground declares no origin guard" }
+
 # Regression: a MUTUAL exclusion pair causes unbounded recursion in vanilla's
 # StructurePlacement.ExclusionZone and a StackOverflowError on a worldgen worker thread.
 $refs = @{}

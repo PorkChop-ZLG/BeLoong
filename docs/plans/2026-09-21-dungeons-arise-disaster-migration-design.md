@@ -1,4 +1,30 @@
 # 地牢浮现之时 → 天灾维度迁移 设计文档
+## 十一、原点禁区（2026-09-21 补记，非原设计）
+
+**需求：** 让地牢浮现之时的地面结构在天灾维度原点 250 方块（约 15.6 区块）半径内不生成。
+
+**结论：原版 1.21.1 无法实现，必须换用模组 placement 类型。**
+
+依据（源码已逐条核对）：
+- StructurePlacementType.java:8-9 只注册 andom_spread 与 concentric_rings；
+- StructurePlacement 的 codec 参数仅 locate_offset / requency_reduction_method / requency / salt / exclusion_zone（:34-45），**无原点/距离字段**；
+- RandomSpreadStructurePlacement.isPlacementChunk（:82-85）纯种子判定；
+- placement 类型由代码注册（Registry.register(BuiltInRegistries.STRUCTURE_PLACEMENT, ...)），数据包只能引用；
+- exclusion_zone 语义是"避开另一结构集的区块"（:132-146），且结构集需先过 hasBiomesForStructureSet 过滤（ChunkGeneratorStructureState.java:55-57），无法用标记集伪造禁区。
+
+**采用方案：** eloong:disaster_ground_set 的 placement 改为
+moogs_structures:advanced_random_spread + min_distance_from_world_origin: 250。
+
+- 该类型由 MoogsStructureLib 3.1.2 注册（MoogsStructuresStructurePlacementType，注册名 dvanced_random_spread），实例中 MoogsVoyagerStructures / MoogsSoaringStructures / MoogsStructureLib 均依赖它；
+- 字段语义（同源参考实现 Repurposed Structures → Dragon Survival AdvancedRandomSpread.java:121-133）：xBlockPos = x*16; zBlockPos = z*16; if (x²+z² < min²) return false; → **单位方块**、禁区为**圆**；
+- **原点是所在维度自身的原点**，非主世界原点：该类常量池无任何跨维度引用，唯一上下文是每维度构建的 ChunkGeneratorStructureState；
+- 天灾维度 coordinate_scale: 1.0 且传送门下行 1:1，故此处两种解读坐标一致。
+
+**不改动的部分：** disaster_underground_set 保持 minecraft:random_spread；spacing/separation 保持 32/16；成员与权重不变。
+
+**salt：** 地面 88371664、地下 342415936。这是**用户有意设定的最终值**，与本次 placement 改动无关；文档他处出现的 20260921/20260922 为设计稿原拟值，已作废。详见 §7 参数表下的说明。
+
+**待实机验收（新存档）：** 反复 /locate structure dungeons_arise:<结构> 于 eloong:disaster，确认落点距原点 ≥ 250 方块。
 
 > **命名更新（2026-09-21，不改写正文）：** 结构集已按「维度_位置_set」重命名，本文正文中的旧 ID 对应关系为 
 `disaster_set` → `disaster_sky_set`、`disaster_set_ground` → `disaster_ground_set`、`disaster_set_underground` → `disaster_underground_set`、`disaster_set_sea` → `disaster_sea_set`。
@@ -204,10 +230,14 @@ $116 | `greenwood_pub`、`mushroom_village`、`mushroom_mines`、`thornborn_towe
 | 定位 | 地面结构 | 地下结构 | **空中/悬浮结构**（mss `Soaring` 系，Y 上限 100~200） |
 | `spacing` | **32** | **32** | 20（保持） |
 | `separation` | **16** | **16** | 10（保持） |
-| `salt` | **20260921** | **20260922** | 20260604（保持） |
-| `exclusion_zone` | `disaster_set_underground`(10) | `disaster_set_ground`(10) | — |
-| 成员数 | 30 | 4 | 46 |
-| 单点密度 | 0.00098 | 0.00098 | 0.00250 |
+| salt | **88371664** | **342415936** | 20260604（保持） |
+| `exclusion_zone` | 无（设计稿原为互斥，实施时移除，见 §9） | 无（同上） | — |
+| 成员数 | 29 | 4 | 46 |
+| 单点密度 | 0.01563 | 0.01563 | 0.02500 |
+
+> **本表的 salt 为最终值（2026-09-21 用户确认）：** 地面 `88371664`、地下 `342415936`。
+> 取值为原 DA 结构集 salt（`88371663` / `342415935`）**各 +1**，从而在保留"与原集同源可追溯"的同时
+> 与原集错开，二者在全实例 103 个结构集中各自唯一（详见 §7 风险表的复用说明）。
 
 **间距参照系**：`dreadland_set` 30/15、`the_end_set` 48/24、`the_nether_set` 60/30、`the_nether_set_small` 30/15、`the_end_set_air` 50/45。全整合包 `separation = spacing / 2` 为惯例。
 
@@ -245,7 +275,7 @@ $116 | `greenwood_pub`、`mushroom_village`、`mushroom_mines`、`thornborn_towe
 | **引用了不存在的结构 ID**（如 `dungeons_arise:small_prairie_house`） | 结构集 JSON 解析失败，**该结构集整体失效** | 结构集成员必须用脚本从 `worldgen/structure/` 实际文件枚举得出，**禁止手抄**（本设计已因此踩坑，见第五节） |
 | 清空 DA 原结构集后忘记新建 set | **33 个迁移结构在主世界及所有维度全部消失** | 两套新 set 必须先建好再清空原 set；或同批完成 |
 | `exclusion_zone` 引用了不存在的 set ID | 该 set 加载失败 | `minecraft:strongholds` 与两个新 set ID 必须精确拼写 |
-| `salt` 与既有 set 冲突 | 候选点重合，结构挤在一起 | 已避开全部现有 salt（20260604/20260823/20260830/20260902/288371663/88371663/342415935） |
+| `salt` 与既有 set 冲突 | 候选点重合，结构挤在一起 | 最终值 `88371664`/`342415936` 已核实为全实例唯一（该维度两套 set 间距相同仅靠 salt 区分；设计稿原拟的 `20260921`/`20260922` 因与既有 salt 命名同族易混，改用原集 +1 方案） |
 
 ---
 
@@ -430,8 +460,10 @@ isStructureChunk(:89)                                  // StructurePlacement.jav
 
 **移除两个结构集的 `exclusion_zone`**（天灾维度的结构已设计为互不重叠，无需互斥）。
 
-- `disaster_set_ground` 与 `disaster_set_underground` 的 `placement` 现仅含 `type`/`spacing`/`separation`/`salt`
-- 成员数、间距、salt、权重分布**全部未变**（地面 29 = `1:7 2:12 3:10`；地下 4 = `2:4`）
+- `disaster_ground_set` 与 `disaster_underground_set` 的 `placement` 现仅含 `type`/`spacing`/`separation`/`salt`
+- 成员数、间距、权重分布**全部未变**（地面 29 = `1:16 2:13`；地下 4 = `1:4`）
+  - 注：此处原记为 `1:7 2:12 3:10` / `2:4`，是权重归一之前的旧值，已按实际取值更正
+  - 注：**salt 在本节修复之后另行调整过**（2026-09-21，用户有意设定），现值为地面 `88371664`、地下 `342415936`，见 §7 参数表
 - **覆盖 §2.7 的互斥设计与决策 16「新地面组与空中集不设互斥」的相邻条款**
 
 **连带修改**（防止 bug 复活）：
@@ -468,7 +500,7 @@ isStructureChunk(:89)                                  // StructurePlacement.jav
 | 目标群系标签 | **`#beloong:disaster/is_ocean`** | **单一引用**——5 个船的源标签内容完全相同，故无需多主题 |
 | 新结构集 | **`beloong:disaster_set_sea`** | 与 `disaster_set` / `_ground` / `_underground` 组成**四件套** |
 | `spacing` / `separation` | **40 / 34** | 原扩展为 68/60，但那是针对主世界全部海洋设计；天灾仅有 4 个海洋群系，68/60 会过于罕见 |
-| `salt` | **98123789** | 沿用原值（已核实全实例唯一） |
+| `salt` | **98123789** | 沿用原值；该值与已清空的 `dungeons_arise_seven_seas:minor_structures` 相同，但后者 `structures: []`、不产生任何候选点，故不构成实际冲突 |
 | 权重 | **5 条船全部 = 1** | 同原扩展 |
 | `exclusion_zone` | **不加** | 天灾维度结构已设计为互不重叠（见第九章教训） |
 | 原结构集 | **清空** `dungeons_arise_seven_seas:minor_structures` | 保留原 placement（68/60/98123789）仅清空成员 |

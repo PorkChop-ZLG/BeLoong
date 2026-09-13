@@ -17,6 +17,7 @@
 - 修复新建存档首次进入天灾维度时因结构集**双向互斥**触发世界生成线程 `StackOverflowError` 的问题（已移除 `exclusion_zone`）
 - 新增结构集 `beloong:disaster_ground_set`（间距 32/分离 16）与 `beloong:disaster_underground_set`（间距 32/分离 16），两者不设互斥（天灾维度结构已设计为互不重叠）；地牢浮现之时原有两个结构集已清空
 - 统一天灾维度结构集命名（维度 + 位置：`disaster_sky_set` / `disaster_ground_set` / `disaster_sea_set` / `disaster_underground_set`），并把地面集权重按原结构集口径归一：原 `major_structures` 中的大型结构 weight 1（16 个）、小型结构 weight 2（13 个）
+- 地牢浮现之时的地面结构不再生成于天灾维度原点附近：`beloong:disaster_ground_set` 改用 `moogs_structures:advanced_random_spread` 并设 `min_distance_from_world_origin: 250`（单位为方块，即半径 250 的圆形禁区）。原版 1.21.1 只注册 `random_spread` 与 `concentric_rings` 两种 placement 且都不判断原点，无法表达该规则；该 placement 类型由 MoogsStructureLib 提供，其判定使用所在维度自身的原点
 
 ## [1.3.5] - 2026-08-31
 

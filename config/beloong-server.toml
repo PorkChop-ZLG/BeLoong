@@ -49,10 +49,11 @@
 		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetZ = 0.5
-		#高度图查找失败时的回退 Y 坐标
-		# Default: 64.5
+		#高度图查找失败（落点区块未加载）时的回退 Y 坐标；龙宫落点地表实测为 Y=64.0。
+		#旧存档若已被写成 64.5，需手动改为 65.0——默认值只在首次生成配置时生效，不会覆盖已有值。
+		# Default: 65.0
 		# Range: -2032.0 ~ 2032.0
-		fallbackY = 64.5
+		fallbackY = 65.0
 
 	[dimension_transport.loongPalaceToOverworld]
 		#是否启用 龙宫 → 主世界 的传送
