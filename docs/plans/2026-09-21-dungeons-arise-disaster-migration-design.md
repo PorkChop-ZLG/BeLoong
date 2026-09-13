@@ -471,6 +471,7 @@ isStructureChunk(:89)                                  // StructurePlacement.jav
 **连带修改**（防止 bug 复活）：
 1. `docs/tools/gen-da-structure-sets.ps1` — 停止输出 `exclusion_zone`；新增**无环回归断言**（扫描全整合包 21 处 `other_set`，发现任何双向互斥即失败）
 2. `docs/tools/verify-disaster-migration.ps1` — 断言改为"不得声明 `exclusion_zone`"，并加入同一无环检测
+   - ⚠️ 该脚本已于 2026-09-13 删除（见 §12.3）；「不得声明 `exclusion_zone`」现在只能靠人工核对
 
 ### 9.5 教训
 
@@ -545,37 +546,41 @@ isStructureChunk(:89)                                  // StructurePlacement.jav
 
 | 结构集 | 成员 | placement | 维护方式 |
 |---|---|---|---|
-| `beloong:disaster_ground_set` | 29 | `moogs_structures:advanced_random_spread` / 32-16 / salt `88371664` / `min_distance_from_world_origin` 250 | **脚本管理**：`gen-da-structure-sets.ps1` 生成，`verify-disaster-migration.ps1` 校验 |
-| `beloong:disaster_underground_set` | 4 | `minecraft:random_spread` / 32-16 / salt `342415936` | **脚本管理**：同上 |
-| `beloong:disaster_sea_set` | 5 | `moogs_structures:advanced_random_spread` / 40-34 / salt `98123789` / `min_distance_from_world_origin` 250 | **手工维护**（见 12.2） |
-| `beloong:disaster_sky_set` | 46 | `moogs_structures:advanced_random_spread` / 20-10 / salt `20260604` / `min_distance_from_world_origin` 250 | **手工维护**（见 12.2） |
+| `beloong:disaster_ground_set` | 35 | `moogs_structures:advanced_random_spread` / 32-16 / salt `88371664` / `min_distance_from_world_origin` 250 | **手工维护**（成员已含 6 个灾变小结构）；`gen-da-structure-sets.ps1` 仍可重建其中 DA 的 29 项，但会覆盖手工追加的成员，**不要再跑** |
+| `beloong:disaster_underground_set` | 5 | `minecraft:random_spread` / 32-16 / salt `342415936` | **手工维护**（含 `cataclysm:amethyst_nest` 权重 4）；同上 |
+| `beloong:disaster_sea_set` | 5 | `moogs_structures:advanced_random_spread` / 40-34 / salt `98123789` / `min_distance_from_world_origin` 250 | **手工维护** |
+| `beloong:disaster_sky_set` | 46 | `moogs_structures:advanced_random_spread` / 20-10 / salt `20260604` / `min_distance_from_world_origin` 250 | **手工维护** |
 
-**四个集合现已统一带 `min_distance_from_world_origin: 250`**（原点 250 方块禁区，单位方块，判定为圆）。
+**四个集合现已统一带 `min_distance_from_world_origin: 250`**（原点 250 方块禁区，单位方块，判定为圆；`disaster_underground_set` 除外，它是原版 `random_spread`，无此字段）。
+
+**⚠️ `verify-disaster-migration.ps1` 已于 2026-09-13 由用户决定删除**（灾变小结构并入后其写死的 DA 口径既漏报又误报）。四个集合自此**全部为手工维护**，无自动校验。
 
 ### 12.2 手工维护的两个集合
 
-`disaster_sea_set` 与 `disaster_sky_set` **不在任何生成器或校验器的覆盖范围内**——这是**有意选择**，不是遗漏：
+`disaster_sea_set` 与 `disaster_sky_set` **从一开始就不在任何生成器或校验器的覆盖范围内**——这是**有意选择**，不是遗漏：
 
 - 两者的成员分别来自七海扩展 jar（5 条船）与 mss（46 个空中结构），各有独立的迁移脚本（`gen-sevenseas-migration.ps1`）或纯手工来源；
 - 为其新增"枚举 + 生成 + 校验"的工具链，成本高于收益；
 - 它们的 placement 已手写为与 ground 集一致的原点禁区写法。
 
+**2026-09-13 更新：`disaster_ground_set` 与 `disaster_underground_set` 也已转为手工维护**——灾变小结构并入后不再有能安全重建它们的脚本（详见 12.3）。至此**四个集合全部手工维护**。
+
 **由此产生的已知风险（接受）：**
 
-1. 若这两个集合的 placement 被改回 `minecraft:random_spread` 或删掉 `min_distance_from_world_origin`，**没有任何脚本会报警**，禁区会静默消失（原版会保留未知键但不使用）。
-2. 覆盖它们的模组（mss / 七海）若更新并改变结构集内容，不会自动反映。
+1. 若任一集合的 placement 被改回 `minecraft:random_spread` 或删掉 `min_distance_from_world_origin`，**没有任何脚本会报警**，禁区会静默消失（原版会保留未知键但不使用）。
+2. 覆盖它们的模组（mss / 七海 / 灾变）若更新并改变结构集或结构 JSON 内容，不会自动反映。
 
-**变更这两个集合时请手工核对：**
-- `type` 必须是 `moogs_structures:advanced_random_spread`（该 placement 类型由 MoogsStructureLib 提供，原版不存在）；
+**变更这些集合时请手工核对：**
+- `type` 必须是 `moogs_structures:advanced_random_spread`（该 placement 类型由 MoogsStructureLib 提供，原版不存在；`disaster_underground_set` 例外，它是原版类型且无禁区字段）；
 - `min_distance_from_world_origin` 必须存在且为方块数（250 = 15.6 区块）；
-- salt 不得与全实例既有值冲突——两个集合的间距都是 `spacing/separation` 全异于 ground/underground，故 salt 冲突风险低，但 `20260604` 与 `98123789` 若将来有新增集合，需一并检查。
+- salt 不得与全实例既有值冲突——各集合的 `spacing/separation` 互异，故冲突风险低，但若将来新增集合，需重新核对全实例 salt 表。
 
 ### 12.3 工具链的边界（勿误以为覆盖全量）
 
 `docs/tools/` 下的脚本**只覆盖它明确列出的目标**，不是"天灾维度的全量校验"：
 
-- `gen-da-structure-sets.ps1` → 仅写 `disaster_ground_set.json` 与 `disaster_underground_set.json`；
-- `verify-disaster-migration.ps1` → 校验 DA 的 33 个结构迁移、主题标签、`has_structure` 覆盖、两套脚本管理的结构集，**不校验 sea/sky 的 placement**；
-- `gen-sevenseas-migration.ps1` → 七海 5 条船的标签与集合（其生成的结构集即 `disaster_sea_set`，但脚本内不校验原点禁区字段）。
+- `gen-da-structure-sets.ps1` → 只写 `disaster_ground_set.json` 与 `disaster_underground_set.json`，且**只写 DA 的 29 + 4 个成员**。这两个文件现在分别有 35 和 5 个成员（各含灾变结构），**再跑一次 `-Apply` 会把手工追加的灾变成员整段覆盖掉**——该脚本已事实上停用；
+- `gen-sevenseas-migration.ps1` → 七海 5 条船的标签与集合（其生成的结构集即 `disaster_sea_set`，但脚本内不校验原点禁区字段）；
+- `verify-disaster-migration.ps1` → **已于 2026-09-13 删除**（用户决定）。它写死了 DA 的 29/4/33 成员数与 `1:16 2:13` 权重分布，灾变小结构并入后既漏报（w3 那 3 个 DA 结构的预期本就过时）又误报（把合法的 `cataclysm:*` 成员判为"不在 DA jar 中"）。
 
-**因此：运行一次校验全绿，不等于四个天灾结构集都正确。** 这句话是本节的要点。
+**因此：现在没有任何脚本能校验四个天灾结构集。** 改动它们之后只能靠人工核对或实机 `/locate` 验证。这句话是本节的要点。
