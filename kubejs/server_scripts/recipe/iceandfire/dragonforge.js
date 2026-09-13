@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
             }
         }
     )
-    // 远古龙心 + 烈焰之眼 = 龙炎煅炉 = 洞穴龙心
+    // 远古龙心 + 火魔源 = 龙炎煅炉 = 洞穴龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -113,14 +113,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:blazing_eye"
+                "item": "beloong:fire_essence"
             },
             "result": {
                 "id": "kubejs:cave_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 烈焰之眼 = 龙霜煅炉 = 洞穴龙心
+    // 远古龙心 + 火魔源 = 龙霜煅炉 = 洞穴龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -130,14 +130,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:blazing_eye"
+                "item": "beloong:fire_essence"
             },
             "result": {
                 "id": "kubejs:cave_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 烈焰之眼 = 龙霆煅炉 = 洞穴龙心
+    // 远古龙心 + 火魔源 = 龙霆煅炉 = 洞穴龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -147,14 +147,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:blazing_eye"
+                "item": "beloong:fire_essence"
             },
             "result": {
                 "id": "kubejs:cave_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 水晶果实 = 龙炎煅炉 = 森林龙心
+    // 远古龙心 + 木魔源 = 龙炎煅炉 = 森林龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -164,14 +164,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:crystal_fruit"
+                "item": "beloong:wood_essence"
             },
             "result": {
                 "id": "kubejs:forest_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 水晶果实 = 龙霜煅炉 = 森林龙心
+    // 远古龙心 + 木魔源 = 龙霜煅炉 = 森林龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -181,14 +181,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:crystal_fruit"
+                "item": "beloong:wood_essence"
             },
             "result": {
                 "id": "kubejs:forest_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 水晶果实 = 龙霆煅炉 = 森林龙心
+    // 远古龙心 + 木魔源 = 龙霆煅炉 = 森林龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -198,14 +198,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:crystal_fruit"
+                "item": "beloong:wood_essence"
             },
             "result": {
                 "id": "kubejs:forest_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 风暴精华 = 龙炎煅炉 = 海洋龙心
+    // 远古龙心 + 水魔源 = 龙炎煅炉 = 海洋龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -215,14 +215,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "cataclysm:essence_of_the_storm"
+                "item": "beloong:water_essence"
             },
             "result": {
                 "id": "kubejs:sea_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 风暴精华 = 龙霜煅炉 = 海洋龙心
+    // 远古龙心 + 水魔源 = 龙霜煅炉 = 海洋龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -232,14 +232,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "cataclysm:essence_of_the_storm"
+                "item": "beloong:water_essence"
             },
             "result": {
                 "id": "kubejs:sea_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 风暴精华 = 龙霆煅炉 = 海洋龙心
+    // 远古龙心 + 水魔源 = 龙霆煅炉 = 海洋龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -249,14 +249,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "cataclysm:essence_of_the_storm"
+                "item": "beloong:water_essence"
             },
             "result": {
                 "id": "kubejs:sea_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 古代灵魂 = 龙炎煅炉 = 苔原龙心
+    // 远古龙心 + 冰魔源 = 龙炎煅炉 = 苔原龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -266,14 +266,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:ancient_anima"
+                "item": "beloong:ice_essence"
             },
             "result": {
                 "id": "kubejs:tundra_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 古代灵魂 = 龙霜煅炉 = 苔原龙心
+    // 远古龙心 + 冰魔源 = 龙霜煅炉 = 苔原龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -283,14 +283,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:ancient_anima"
+                "item": "beloong:ice_essence"
             },
             "result": {
                 "id": "kubejs:tundra_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 古代灵魂 = 龙霆煅炉 = 苔原龙心
+    // 远古龙心 + 冰魔源 = 龙霆煅炉 = 苔原龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -300,14 +300,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:ancient_anima"
+                "item": "beloong:ice_essence"
             },
             "result": {
                 "id": "kubejs:tundra_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 瓶中沙暴 = 龙炎煅炉 = 以太龙心
+    // 远古龙心 + 风魔源 = 龙炎煅炉 = 以太龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -317,14 +317,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "cataclysm:sandstorm_in_a_bottle"
+                "item": "beloong:wind_essence"
             },
             "result": {
                 "id": "kubejs:aether_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 瓶中沙暴 = 龙霜煅炉 = 以太龙心
+    // 远古龙心 + 风魔源 = 龙霜煅炉 = 以太龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -334,14 +334,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "cataclysm:sandstorm_in_a_bottle"
+                "item": "beloong:wind_essence"
             },
             "result": {
                 "id": "kubejs:aether_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 瓶中沙暴 = 龙霆煅炉 = 以太龙心
+    // 远古龙心 + 风魔源 = 龙霆煅炉 = 以太龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -351,14 +351,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "cataclysm:sandstorm_in_a_bottle"
+                "item": "beloong:wind_essence"
             },
             "result": {
                 "id": "kubejs:aether_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 黑曜石之心 = 龙炎煅炉 = 星界龙心
+    // 远古龙心 + 土魔源 = 龙炎煅炉 = 地黄龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -368,14 +368,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:obsidian_heart"
+                "item": "beloong:earth_essence"
             },
             "result": {
-                "id": "kubejs:astral_dragon_heart"
+                "id": "kubejs:dihuang_loong_heart"
             }
         }
     )
-    // 远古龙心 + 黑曜石之心 = 龙霜煅炉 = 星界龙心
+    // 远古龙心 + 土魔源 = 龙霜煅炉 = 地黄龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -385,14 +385,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:obsidian_heart"
+                "item": "beloong:earth_essence"
             },
             "result": {
-                "id": "kubejs:astral_dragon_heart"
+                "id": "kubejs:dihuang_loong_heart"
             }
         }
     )
-    // 远古龙心 + 黑曜石之心 = 龙霆煅炉 = 星界龙心
+    // 远古龙心 + 土魔源 = 龙霆煅炉 = 地黄龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -402,14 +402,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "bosses_of_mass_destruction:obsidian_heart"
+                "item": "beloong:earth_essence"
             },
             "result": {
-                "id": "kubejs:astral_dragon_heart"
+                "id": "kubejs:dihuang_loong_heart"
             }
         }
     )
-    // 远古龙心 + 魔法水晶 = 龙炎煅炉 = 晶咒龙心
+    // 远古龙心 + 暗魔源 = 龙炎煅炉 = 星界龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -419,14 +419,65 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "eternal_starlight:mana_crystal"
+                "item": "beloong:dark_essence"
+            },
+            "result": {
+                "id": "kubejs:astral_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 暗魔源 = 龙霜煅炉 = 星界龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "ice",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "beloong:dark_essence"
+            },
+            "result": {
+                "id": "kubejs:astral_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 暗魔源 = 龙霆煅炉 = 星界龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "lightning",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "beloong:dark_essence"
+            },
+            "result": {
+                "id": "kubejs:astral_dragon_heart"
+            }
+        }
+    )
+    // 远古龙心 + 金魔源 = 龙炎煅炉 = 晶咒龙心
+    event.custom(
+        {
+            "type": "iceandfire:dragonforge",
+            "dragonType": "fire",
+            "cookTime": 2400,
+            "input": {
+                "item": "dragonsurvival:elder_dragon_heart"
+            },
+            "blood": {
+                "item": "beloong:metal_essence"
             },
             "result": {
                 "id": "kubejs:crystcursed_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 魔法水晶 = 龙霜煅炉 = 晶咒龙心
+    // 远古龙心 + 金魔源 = 龙霜煅炉 = 晶咒龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -436,14 +487,14 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "eternal_starlight:mana_crystal"
+                "item": "beloong:metal_essence"
             },
             "result": {
                 "id": "kubejs:crystcursed_dragon_heart"
             }
         }
     )
-    // 远古龙心 + 魔法水晶 = 龙霆煅炉 = 晶咒龙心
+    // 远古龙心 + 金魔源 = 龙霆煅炉 = 晶咒龙心
     event.custom(
         {
             "type": "iceandfire:dragonforge",
@@ -453,7 +504,7 @@ ServerEvents.recipes(event => {
                 "item": "dragonsurvival:elder_dragon_heart"
             },
             "blood": {
-                "item": "eternal_starlight:mana_crystal"
+                "item": "beloong:metal_essence"
             },
             "result": {
                 "id": "kubejs:crystcursed_dragon_heart"
@@ -508,57 +559,6 @@ ServerEvents.recipes(event => {
             },
             "result": {
                 "id": "kubejs:wing_kirin_heart"
-            }
-        }
-    )
-    // 远古龙心 + 大地水晶 = 龙炎煅炉 = 地黄龙心
-    event.custom(
-        {
-            "type": "iceandfire:dragonforge",
-            "dragonType": "fire",
-            "cookTime": 2400,
-            "input": {
-                "item": "dragonsurvival:elder_dragon_heart"
-            },
-            "blood": {
-                "item": "eternal_starlight:terra_crystal"
-            },
-            "result": {
-                "id": "kubejs:dihuang_loong_heart"
-            }
-        }
-    )
-    // 远古龙心 + 大地水晶 = 龙霜煅炉 = 地黄龙心
-    event.custom(
-        {
-            "type": "iceandfire:dragonforge",
-            "dragonType": "ice",
-            "cookTime": 2400,
-            "input": {
-                "item": "dragonsurvival:elder_dragon_heart"
-            },
-            "blood": {
-                "item": "eternal_starlight:terra_crystal"
-            },
-            "result": {
-                "id": "kubejs:dihuang_loong_heart"
-            }
-        }
-    )
-    // 远古龙心 + 大地水晶 = 龙霆煅炉 = 地黄龙心
-    event.custom(
-        {
-            "type": "iceandfire:dragonforge",
-            "dragonType": "lightning",
-            "cookTime": 2400,
-            "input": {
-                "item": "dragonsurvival:elder_dragon_heart"
-            },
-            "blood": {
-                "item": "eternal_starlight:terra_crystal"
-            },
-            "result": {
-                "id": "kubejs:dihuang_loong_heart"
             }
         }
     )

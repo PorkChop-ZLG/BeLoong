@@ -57,7 +57,7 @@
               "type": "minecraft:player",
               "advancements": {
                 "beloong:beloong/finish_beginner_tutorial": true,
-                "dungeons_arise:find_mechanical_nest":true
+                "minecraft:story/mine_diamond":true
               }
             }
           }
@@ -70,7 +70,7 @@
               "type": "minecraft:player",
               "advancements": {
                 "beloong:beloong/skip_beginner_tutorial": true,
-                "dungeons_arise:find_mechanical_nest":true
+                "minecraft:story/mine_diamond":true
               }
             }
           }
