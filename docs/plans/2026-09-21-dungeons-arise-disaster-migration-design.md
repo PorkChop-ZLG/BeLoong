@@ -238,6 +238,8 @@ $116 | `greenwood_pub`、`mushroom_village`、`mushroom_mines`、`thornborn_towe
 > **本表的 salt 为最终值（2026-09-21 用户确认）：** 地面 `88371664`、地下 `342415936`。
 > 取值为原 DA 结构集 salt（`88371663` / `342415935`）**各 +1**，从而在保留"与原集同源可追溯"的同时
 > 与原集错开，二者在全实例 103 个结构集中各自唯一（详见 §7 风险表的复用说明）。
+>
+> 本表描述的 ground / underground 两套 set **由脚本管理**；既有空中集与七海 sea 集为**手工维护**，边界见 §12。
 
 **间距参照系**：`dreadland_set` 30/15、`the_end_set` 48/24、`the_nether_set` 60/30、`the_nether_set_small` 30/15、`the_end_set_air` 50/45。全整合包 `separation = spacing / 2` 为惯例。
 
@@ -517,6 +519,7 @@ isStructureChunk(:89)                                  // StructurePlacement.jav
 - **`beloong:frozen_ocean` 会结冰**（温度 0.0 + `temperature_modifier: frozen`），船会嵌入冰盖 —— **接受**为特色
 - 未使用 `beloong:is_sea`（该标签含 3 个陆地海岸群系 `basalt_barrera`/`dacite_shore`/`rainbow_beach`，船会搁浅；且不含自制海洋 `beloong:ocean`/`frozen_ocean`）
 - 未使用 `disaster/is_beach`（船不应靠岸）
+- **（2026-09-21 追加）** sea 集现已带原点禁区 `min_distance_from_world_origin: 250`，由用户**手工**加入，不在生成器/校验器覆盖内 —— 见 §12
 
 ### 10.5 改动清单（7 个数据文件）
 
@@ -531,3 +534,48 @@ isStructureChunk(:89)                                  // StructurePlacement.jav
 ### 10.6 验收
 
 静态校验 15 项全通过。实机需用**新存档**验证（见实施脚本输出）。
+
+---
+
+## 十二、维护边界：自动脚本 vs 手工维护（2026-09-21 用户确认）
+
+**用户指示：** 小需求直接手写，不要为每件事都拉生成器。据此划定以下边界。
+
+### 12.1 四个天灾结构集的现状与归属
+
+| 结构集 | 成员 | placement | 维护方式 |
+|---|---|---|---|
+| `beloong:disaster_ground_set` | 29 | `moogs_structures:advanced_random_spread` / 32-16 / salt `88371664` / `min_distance_from_world_origin` 250 | **脚本管理**：`gen-da-structure-sets.ps1` 生成，`verify-disaster-migration.ps1` 校验 |
+| `beloong:disaster_underground_set` | 4 | `minecraft:random_spread` / 32-16 / salt `342415936` | **脚本管理**：同上 |
+| `beloong:disaster_sea_set` | 5 | `moogs_structures:advanced_random_spread` / 40-34 / salt `98123789` / `min_distance_from_world_origin` 250 | **手工维护**（见 12.2） |
+| `beloong:disaster_sky_set` | 46 | `moogs_structures:advanced_random_spread` / 20-10 / salt `20260604` / `min_distance_from_world_origin` 250 | **手工维护**（见 12.2） |
+
+**四个集合现已统一带 `min_distance_from_world_origin: 250`**（原点 250 方块禁区，单位方块，判定为圆）。
+
+### 12.2 手工维护的两个集合
+
+`disaster_sea_set` 与 `disaster_sky_set` **不在任何生成器或校验器的覆盖范围内**——这是**有意选择**，不是遗漏：
+
+- 两者的成员分别来自七海扩展 jar（5 条船）与 mss（46 个空中结构），各有独立的迁移脚本（`gen-sevenseas-migration.ps1`）或纯手工来源；
+- 为其新增"枚举 + 生成 + 校验"的工具链，成本高于收益；
+- 它们的 placement 已手写为与 ground 集一致的原点禁区写法。
+
+**由此产生的已知风险（接受）：**
+
+1. 若这两个集合的 placement 被改回 `minecraft:random_spread` 或删掉 `min_distance_from_world_origin`，**没有任何脚本会报警**，禁区会静默消失（原版会保留未知键但不使用）。
+2. 覆盖它们的模组（mss / 七海）若更新并改变结构集内容，不会自动反映。
+
+**变更这两个集合时请手工核对：**
+- `type` 必须是 `moogs_structures:advanced_random_spread`（该 placement 类型由 MoogsStructureLib 提供，原版不存在）；
+- `min_distance_from_world_origin` 必须存在且为方块数（250 = 15.6 区块）；
+- salt 不得与全实例既有值冲突——两个集合的间距都是 `spacing/separation` 全异于 ground/underground，故 salt 冲突风险低，但 `20260604` 与 `98123789` 若将来有新增集合，需一并检查。
+
+### 12.3 工具链的边界（勿误以为覆盖全量）
+
+`docs/tools/` 下的脚本**只覆盖它明确列出的目标**，不是"天灾维度的全量校验"：
+
+- `gen-da-structure-sets.ps1` → 仅写 `disaster_ground_set.json` 与 `disaster_underground_set.json`；
+- `verify-disaster-migration.ps1` → 校验 DA 的 33 个结构迁移、主题标签、`has_structure` 覆盖、两套脚本管理的结构集，**不校验 sea/sky 的 placement**；
+- `gen-sevenseas-migration.ps1` → 七海 5 条船的标签与集合（其生成的结构集即 `disaster_sea_set`，但脚本内不校验原点禁区字段）。
+
+**因此：运行一次校验全绿，不等于四个天灾结构集都正确。** 这句话是本节的要点。

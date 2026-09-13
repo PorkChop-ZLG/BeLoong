@@ -158,8 +158,13 @@ $w = @($gj.structures | ForEach-Object { $_.weight } | Group-Object | Sort-Objec
 $wtxt = ($w | ForEach-Object { "$($_.Name):$($_.Count)" }) -join ' '
 if ($wtxt -ne '1:16 2:13') { Bad "ground weight breakdown = $wtxt, expected 1:16 2:13" } else { OK "ground weights 1:16 2:13 (large=1, small=2)" }
 
-if ($gj.placement.spacing -ne 32 -or $gj.placement.separation -ne 16 -or $gj.placement.salt -ne 20260921) { Bad "ground placement wrong" } else { OK "ground placement 32/16/20260921" }
-if ($uj.placement.spacing -ne 32 -or $uj.placement.separation -ne 16 -or $uj.placement.salt -ne 20260922) { Bad "underground placement wrong" } else { OK "underground placement 32/16/20260922" }
+# Salts are the user-approved FINAL values: each is the ORIGINAL DA set's salt + 1
+# (major 88371663 -> 88371664, minor 342415935 -> 342415936), keeping them traceable
+# to the originals while staying unique across all 103 structure sets in the pack.
+# The ground and underground sets share spacing/separation (32/16) and are told apart
+# ONLY by salt, so these two assertions are the thing that keeps them distinct.
+if ($gj.placement.spacing -ne 32 -or $gj.placement.separation -ne 16 -or $gj.placement.salt -ne 88371664) { Bad "ground placement wrong (salt=$($gj.placement.salt), expected 88371664)" } else { OK "ground placement 32/16/88371664" }
+if ($uj.placement.spacing -ne 32 -or $uj.placement.separation -ne 16 -or $uj.placement.salt -ne 342415936) { Bad "underground placement wrong (salt=$($uj.placement.salt), expected 342415936)" } else { OK "underground placement 32/16/342415936" }
 if ($gj.placement.exclusion_zone) { Bad "ground set must NOT declare an exclusion_zone" } else { OK "ground set has no exclusion_zone" }
 if ($uj.placement.exclusion_zone) { Bad "underground set must NOT declare an exclusion_zone" } else { OK "underground set has no exclusion_zone" }
 

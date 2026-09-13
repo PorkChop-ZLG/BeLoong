@@ -6,21 +6,9 @@
     "salt": 342415936
   },
   "structures": [
-    {
-      "structure": "dungeons_arise:foundry",
-      "weight": 1
-    },
-    {
-      "structure": "dungeons_arise:mining_complex",
-      "weight": 1
-    },
-    {
-      "structure": "dungeons_arise:plague_asylum",
-      "weight": 1
-    },
-    {
-      "structure": "dungeons_arise:infested_temple",
-      "weight": 1
-    }
+    { "structure": "dungeons_arise:foundry", "weight": 1 },
+    { "structure": "dungeons_arise:mining_complex", "weight": 1 },
+    { "structure": "dungeons_arise:plague_asylum", "weight": 1 },
+    { "structure": "dungeons_arise:infested_temple", "weight": 1 }
   ]
 }

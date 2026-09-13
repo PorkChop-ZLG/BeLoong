@@ -4,9 +4,10 @@
 # Design ref: docs/plans/2026-09-21-dungeons-arise-disaster-migration-design.md section 2.7
 #
 # Params (approved):
-#   ground      : spacing 32, separation 16, salt 20260921
+#   ground      : spacing 32, separation 16, salt 88371664 (= original major salt + 1)
 #                 placement moogs_structures:advanced_random_spread + min_distance_from_world_origin 250
-#   underground : spacing 32, separation 16, salt 20260922, placement minecraft:random_spread (untouched)
+#   underground : spacing 32, separation 16, salt 342415936 (= original minor salt + 1)
+#                 placement minecraft:random_spread (untouched)
 #
 # Spawn exclusion (see the long comment further down for the full derivation):
 #   The ground set is the ONLY set in the pack that keeps DA structures away from the
@@ -73,6 +74,19 @@ $Deleted     = @('giant_mushroom','mining_system','small_prairie_house')
 $Underground = @('foundry','mining_complex','plague_asylum','infested_temple')
 # NOTE: weights are NOT hardcoded - they are derived from the original DA structure sets
 #       in section 2 below (major weight 1 = large = 1; everything else = small = 2).
+
+# --- Salts (user-approved FINAL values, 2026-09-21) -------------------------------
+# Each is the ORIGINAL DA structure set's salt + 1:
+#     ground      : major_structures salt 88371663 + 1 = 88371664
+#     underground : minor_structures salt 342415935 + 1 = 342415936
+# The +1 keeps the values traceable back to the original sets while shifting them off
+# the originals, so a candidate-point collision with the (now emptied) DA sets is
+# impossible by construction. Verified unique across all 103 structure sets in the pack.
+#
+# DO NOT change these without re-checking the whole-pack salt table: the ground and
+# underground sets share spacing/separation (32/16) and are told apart ONLY by salt.
+$GroundSalt = 88371664
+$UndergroundSalt = 342415936
 
 # --- Spawn exclusion (user-approved: 250 blocks) ---------------------------------
 # The GROUND set uses moogs_structures:advanced_random_spread instead of the vanilla
@@ -214,8 +228,8 @@ $groundEntries = @($ground | ForEach-Object { [pscustomobject]@{ Name = $_; Weig
 $underEntries  = @($Underground | ForEach-Object { [pscustomobject]@{ Name = $_; Weight = (Get-Weight $_) } })
 
 # Ground: spawn-excluding placement. Underground: untouched vanilla placement.
-$groundJson = New-SetJson $groundEntries 32 16 20260921 $MoogsReducedType $MinDistanceFromWorldOrigin
-$underJson  = New-SetJson $underEntries  32 16 20260922
+$groundJson = New-SetJson $groundEntries 32 16 $GroundSalt $MoogsReducedType $MinDistanceFromWorldOrigin
+$underJson  = New-SetJson $underEntries  32 16 $UndergroundSalt
 
 Write-Host ""
 Write-Host "=== 3. Emit structure sets ===" -ForegroundColor Cyan
@@ -232,8 +246,8 @@ if ($Apply) {
     $uj = Get-Content -LiteralPath (Join-Path $OutDir 'disaster_underground_set.json') -Raw -Encoding UTF8 | ConvertFrom-Json
     if (@($gj.structures).Count -ne 29) { Add-Fail "ground round-trip = $(@($gj.structures).Count), expected 29" }
     if (@($uj.structures).Count -ne 4)  { Add-Fail "underground round-trip = $(@($uj.structures).Count), expected 4" }
-    if ($gj.placement.spacing -ne 32 -or $gj.placement.separation -ne 16) { Add-Fail "ground placement wrong" }
-    if ($uj.placement.spacing -ne 32 -or $uj.placement.separation -ne 16) { Add-Fail "underground placement wrong" }
+    if ($gj.placement.spacing -ne 32 -or $gj.placement.separation -ne 16 -or $gj.placement.salt -ne $GroundSalt) { Add-Fail "ground placement wrong (salt=$($gj.placement.salt))" }
+    if ($uj.placement.spacing -ne 32 -or $uj.placement.separation -ne 16 -or $uj.placement.salt -ne $UndergroundSalt) { Add-Fail "underground placement wrong (salt=$($uj.placement.salt))" }
     if ($gj.placement.exclusion_zone) { Add-Fail "ground must NOT have an exclusion_zone" }
     if ($uj.placement.exclusion_zone) { Add-Fail "underground must NOT have an exclusion_zone" }
     # Spawn exclusion must be present on the ground set and absent from the underground set.
@@ -291,8 +305,8 @@ if ($groundObj.placement.type -ne $MoogsReducedType) {
 if ($groundObj.placement.min_distance_from_world_origin -ne $MinDistanceFromWorldOrigin) {
     Add-Fail "disaster_ground_set min_distance_from_world_origin is '$($groundObj.placement.min_distance_from_world_origin)', expected $MinDistanceFromWorldOrigin"
 }
-if ($groundObj.placement.spacing -ne 32 -or $groundObj.placement.separation -ne 16 -or $groundObj.placement.salt -ne 20260921) {
-    Add-Fail "disaster_ground_set placement spacing/separation/salt changed"
+if ($groundObj.placement.spacing -ne 32 -or $groundObj.placement.separation -ne 16 -or $groundObj.placement.salt -ne $GroundSalt) {
+    Add-Fail "disaster_ground_set placement spacing/separation/salt changed (salt=$($groundObj.placement.salt), expected $GroundSalt)"
 }
 # Informational: how many sets in the pack actually use the origin guard.
 $guardCount = 0
