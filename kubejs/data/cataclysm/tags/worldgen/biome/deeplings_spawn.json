@@ -1,12 +1,8 @@
 {
   "replace": true,
   "values": [
-    "minecraft:deep_ocean",
-    "minecraft:deep_lukewarm_ocean",
-    "minecraft:deep_cold_ocean",
-    "minecraft:deep_frozen_ocean",
     {
-      "id": "#beloong:is_sea",
+      "id": "#beloong:disaster/is_ocean",
       "required": false
     }
   ]

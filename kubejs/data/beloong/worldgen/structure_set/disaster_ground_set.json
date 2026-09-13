@@ -8,6 +8,30 @@
   },
   "structures": [
     {
+      "structure": "cataclysm:abandoned_spire",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:abandoned_temple",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:abandoned_village",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:desert_temple",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:desert_site",
+      "weight": 2
+    },
+    {
+      "structure": "cataclysm:desert_occupied_village",
+      "weight": 2
+    },
+    {
       "structure": "dungeons_arise:abandoned_temple",
       "weight": 2
     },

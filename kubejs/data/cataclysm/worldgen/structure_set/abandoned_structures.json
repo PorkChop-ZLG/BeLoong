@@ -1,18 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "cataclysm:abandoned_spire",
-      "weight": 1
-    },
-    {
-      "structure": "cataclysm:abandoned_temple",
-      "weight": 1
-    },
-    {
-      "structure": "cataclysm:abandoned_village",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "cataclysm:cataclysm_random_spread",
     "salt": 514659267,
