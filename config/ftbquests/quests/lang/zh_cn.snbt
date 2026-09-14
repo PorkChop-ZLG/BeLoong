@@ -190,6 +190,8 @@
 	quest.033C8C16CABE2ACE.title: "击杀：冰晶核"
 	quest.036BAD83C2057F52.quest_subtitle: "★★★★★"
 	quest.036BAD83C2057F52.title: "传奇怪物：湮灭构造体"
+	quest.0382B5B420BB05A4.quest_desc: ["&6任务：击败紫颂灵"]
+	quest.0382B5B420BB05A4.title: "紫颂灵"
 	quest.038BE99D4FE3442D.quest_desc: [
 		"&e『&6化龍&e』&6是一款以&d龙之生存&6为核心的&a冒险休闲整合包&6。"
 		"&6在这里，你可化身各种各样的&d龙族&6进行冒险生存，"
@@ -1186,6 +1188,8 @@
 	quest.203DA3A3EA44F457.title: "严厉"
 	quest.20418663EEBB6E73.quest_subtitle: "天权非远近，不可向人宣"
 	quest.20418663EEBB6E73.title: "&2天权"
+	quest.204C6A9D7D685031.quest_desc: ["&6任务：击败流焰重炮"]
+	quest.204C6A9D7D685031.title: "流烟重炮"
 	quest.20A6123E18C27B8B.quest_desc: [
 		"&6在任何超越维度的UI槽位中右键，将会转换一定玩家等级变为液态经验（一种流体）并存入当前槽位，亦可右键标记槽来标记液态经验。对着任何液态经验流体中键，可以将经验转换为玩家等级。"
 		""
@@ -1581,6 +1585,8 @@
 	quest.2ECFB391DB73DDF9.title: "掌握木之奥义"
 	quest.2F2C234A12BA69AD.title: "金海龟蛋"
 	quest.2F3416393FD59904.title: "首饰T2"
+	quest.2F4105DBA00B5C8B.quest_desc: ["&6任务：击败缠魂骑士"]
+	quest.2F4105DBA00B5C8B.title: "缠魂骑士"
 	quest.2F6413E87AEFEA8C.quest_desc: [
 		"&6使用后，习得所有龙的铁魔法联动技能。"
 		""
@@ -2022,6 +2028,8 @@
 	quest.3B512F52E529954C.quest_subtitle: "成长到青年龙阶段"
 	quest.3B512F52E529954C.title: "青年以太龙"
 	quest.3B93840E4935B0B0.title: "打卡：海洋"
+	quest.3BBE937809651386.quest_desc: ["&6任务：击败淬焰战士和淬焰守卫"]
+	quest.3BBE937809651386.title: "淬焰双子"
 	quest.3BF1FD634ECFCB4E.quest_desc: [
 		"&6任务：提交以太龙的毕业证"
 		""
@@ -3153,6 +3161,8 @@
 	]
 	quest.5C68B97AC2696D9D.quest_subtitle: "点击查看详情"
 	quest.5C68B97AC2696D9D.title: "财宝堆成长加速"
+	quest.5C698CC9B779275B.quest_desc: ["&6任务：击败缠魂守卫"]
+	quest.5C698CC9B779275B.title: "缠魂守卫"
 	quest.5C7DC397FD36FFDB.quest_desc: [
 		"&6任务：获得训练人偶"
 		""
@@ -3222,6 +3232,8 @@
 	quest.5DB104CFE665CC09.quest_subtitle: "打卡6种沙漠生物群系和部分结构"
 	quest.5DB104CFE665CC09.title: "我要穿越这片沙漠"
 	quest.5DD97094AAD4DDA2.quest_subtitle: "“性价比之王”"
+	quest.5E5A3F0507EC46D2.quest_desc: ["&6任务：击败无头骑士和复生骑士"]
+	quest.5E5A3F0507EC46D2.title: "双子骑士"
 	quest.5E95712B13C6FEFC.quest_desc: [
 		"&l&d「深海巨鱿」"
 		"&6生命：&a500"
@@ -3297,6 +3309,8 @@
 	]
 	quest.60304C9009AEC933.quest_subtitle: "点击查看详情"
 	quest.60304C9009AEC933.title: "龙之诅咒"
+	quest.606DBF7C67216271.quest_desc: ["&6任务：击败碎裂使徒"]
+	quest.606DBF7C67216271.title: "碎裂使徒"
 	quest.60B7FFFA63E2B4B2.title: "冰霜执法者装备"
 	quest.60E6ED7ED056ABDD.title: "护符T2"
 	quest.61841B2C10B08D91.quest_desc: [
@@ -3547,6 +3561,8 @@
 	quest.67EFDB7BAD8A5906.quest_desc: ["&6任务：获得怪怖之锚"]
 	quest.680E37E83464BEE6.quest_subtitle: "完成炽海生机的部分成就"
 	quest.680E37E83464BEE6.title: "炽海生机"
+	quest.6812FC70BEC3E173.quest_desc: ["&6任务：击败飘荡魔眼"]
+	quest.6812FC70BEC3E173.title: "飘荡魔眼"
 	quest.6899F801A6F97245.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48BAABC889E9DC5F\" } }"]
 	quest.6899F801A6F97245.quest_subtitle: "击杀暗夜巫妖，提交其掉落物"
 	quest.6899F801A6F97245.title: "铸就冰之龙躯"
@@ -3584,6 +3600,8 @@
 	quest.6AB162630EE26FE3.quest_desc: ["&6任务：通过龙之祭坛，化为一条龙"]
 	quest.6AB162630EE26FE3.quest_subtitle: "化为一条你喜欢的龙"
 	quest.6AB162630EE26FE3.title: "化龙"
+	quest.6B374FA9A003150A.quest_desc: ["&6任务：击败碎裂者"]
+	quest.6B374FA9A003150A.title: "碎裂者"
 	quest.6B3CAAA337596F88.quest_desc: [""]
 	quest.6B3CAAA337596F88.quest_subtitle: "饰品抽奖"
 	quest.6B3CAAA337596F88.title: "奇异饰品盲盒"
@@ -3688,6 +3706,8 @@
 	]
 	quest.6CC5B640AD43F55C.quest_subtitle: "具有更多功能"
 	quest.6CC5B640AD43F55C.title: "更好的工作台和铁砧"
+	quest.6D04FF23B1FBF2B8.quest_desc: ["&6任务：被潜影被攻击后漂浮50格高度"]
+	quest.6D04FF23B1FBF2B8.title: "潜影贝"
 	quest.6D86EE35624F9507.quest_desc: ["  &6铁刀是获得雀夜食堂各种原料的重要工具，在开始前先拿到一把铁刀吧！"]
 	quest.6D86EE35624F9507.quest_subtitle: "神奇的工具"
 	quest.6D88CFA0D4618ECB.quest_desc: [
@@ -3723,6 +3743,8 @@
 	quest.6E02B2425A8EAB67.quest_subtitle: "★★★★"
 	quest.6E02B2425A8EAB67.title: "永恒星光：星光傀儡"
 	quest.6E1F78E1B1284026.title: "不祥之瓶"
+	quest.6E231B440990950C.quest_desc: ["&6任务：击败湮灭猎影"]
+	quest.6E231B440990950C.title: "湮灭猎影"
 	quest.6E3E82FB2A6E1D40.quest_subtitle: "成长到成年龙阶段"
 	quest.6E3E82FB2A6E1D40.title: "成年以太龙"
 	quest.6E5594142D1F7454.quest_subtitle: "苏打清酒"
@@ -3801,6 +3823,12 @@
 		"九大主龙之一，三大原始龙族之一，掌握火焰的力量。"
 	]
 	quest.70F041A9AA323CCD.title: "&c主龙：洞穴龙"
+	quest.7126F143FE7A7200.quest_desc: [
+		"&6任务：击败诡疑君"
+		""
+		"&9结构罗盘：&b【传奇怪物】诡疑君巢穴"
+	]
+	quest.7126F143FE7A7200.title: "诡疑君"
 	quest.71356A8881052F9A.quest_desc: [
 		"&e幻化台&6可以改变物品的外观。"
 		"&6如把钻石剑的外观替换为木剑，打一个出其不意。"
@@ -4350,6 +4378,7 @@
 	task.18E01757FBF8D898.title: "已读点我"
 	task.235B2B99657FD3F3.title: "抵达古城"
 	task.254EEE1BB90441AC.title: "抵达天际挑战者战舰"
+	task.25B3DE2D313D7F6B.title: "碎裂使徒"
 	task.2795504CF21E0901.title: "已读点我"
 	task.34D536E9CDE42AF8.title: "击杀星光傀儡"
 	task.36C84C69D5858996.title: "制作迷宫地图"
@@ -4362,9 +4391,11 @@
 	task.511C8EE7CB039000.title: "点我重置末地主岛"
 	task.51FABC051B7D60CD.title: "前往坐标(0,64,148)"
 	task.53A89357B6E4BB6A.title: "抵达试炼密室"
+	task.59F780F4EEB3DD58.title: "缠魂骑士"
 	task.5AC3C8A012576E52.title: "已完成所有目标"
 	task.5C5CECD70287AF5B.title: "点我前往龙宫"
 	task.5D04F3C0318EA71B.title: "抵达天际骑士团战舰"
+	task.62C9922C91FF91A7.title: "碎裂者"
 	task.631C1C4C72BA8B9A.title: "抵达天际征服者战舰"
 	task.6842523920A24ED2.title: "抵达诅咒花园"
 	task.7B72722ECA137F18.title: "见证流星落下"
