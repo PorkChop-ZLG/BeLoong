@@ -3,8 +3,17 @@
 # Range: 0 ~ 72000
 teleportCooldownTicks = 20
 
-[optionalDataPacks]
-	#Whether new worlds enable the vanilla structure override datapack by default.
-	defaultEnableStructureWaypoints = true
-	#Whether new worlds enable the YUNG structure compatibility datapack by default.
-	defaultEnableYungStructureWaypoints = false
+[structureWaypoints]
+	#Master switch for automatic waypoint placement in structures.
+	#When false, chunk loading does no structure waypoint work at all.
+	#This is read as the very first gate of the chunk load handler, so changing it
+	#requires a server restart to take effect.
+	enabled = true
+	#"WHITELIST" = only place in structures listed by teleportwaypoint:waypoint_whitelist
+	#"BLACKLIST" = place in every structure EXCEPT those listed by teleportwaypoint:waypoint_blacklist
+	#The lists themselves are data pack tags under data/teleportwaypoint/tags/worldgen/structure/.
+	#Allowed Values: WHITELIST, BLACKLIST
+	mode = "WHITELIST"
+	#When true, this mod writes DEBUG-level log lines. All debug output is gated by this
+	#option and is written in English only, so log files never contain mojibake.
+	debugMode = false
