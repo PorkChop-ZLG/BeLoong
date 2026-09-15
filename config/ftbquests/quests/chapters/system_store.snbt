@@ -41,10 +41,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"3FC2BE2D5BDCA2AF"
-				"18189EEE0D9A4F88"
-			]
+			dependencies: ["18189EEE0D9A4F88"]
 			dependency_requirement: "one_completed"
 			icon: {
 				id: "minecraft:emerald"

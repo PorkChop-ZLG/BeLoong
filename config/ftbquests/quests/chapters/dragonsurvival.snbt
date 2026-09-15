@@ -7,16 +7,172 @@
 		id: "dragonsurvival:elder_dragon_bone"
 	}
 	id: "1E4C1C94528F4F43"
-	images: [{
-		height: 5.0d
-		id: "149B515EBB71F6F0"
-		image: "ftblibrary:icons/map"
-		order: 100
-		rotation: 0.0d
-		width: 5.0d
-		x: 0.0d
-		y: 14.0d
-	}]
+	images: [
+		{
+			height: 5.0d
+			id: "149B515EBB71F6F0"
+			image: "ftblibrary:icons/map"
+			order: 100
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "57E10DF6BCB74932"
+			image: "minecraft:block/glowstone"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3CD3D9CCCD407A86"
+			image: "minecraft:block/glowstone"
+			order: 99
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0FD032477841129F"
+			image: "minecraft:block/glowstone"
+			order: 98
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3F01676813F6FDFB"
+			image: "minecraft:block/glowstone"
+			order: 97
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "05978546B04C2905"
+			image: "minecraft:block/glowstone"
+			order: 96
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5B7152503507D00B"
+			image: "minecraft:block/glowstone"
+			order: 99
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "755E9EABD3939713"
+			image: "minecraft:block/glowstone"
+			order: 98
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7EA1A1341EECB6D2"
+			image: "minecraft:block/glowstone"
+			order: 97
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7D17B20E8EE333B6"
+			image: "minecraft:block/glowstone"
+			order: 96
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4E5C682F78DB7103"
+			image: "minecraft:block/glowstone"
+			order: 95
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2C4884BABB2C6C3A"
+			image: "minecraft:block/glowstone"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "57CECB4BB884601F"
+			image: "minecraft:block/glowstone"
+			order: 93
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4AFED29001D9B5D4"
+			image: "minecraft:block/glowstone"
+			order: 95
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "73AF254BC1D521E3"
+			image: "minecraft:block/glowstone"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -70,8 +226,8 @@
 				type: "stat"
 				value: 100
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
@@ -166,70 +322,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6AB162630EE26FE3"]
-			dependency_requirement: "one_completed"
-			id: "56AEAD8720A0B3F9"
-			rewards: [
-				{
-					id: "70228690BCBF9AA7"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "3B143BE3C811658E"
-					item: {
-						count: 1
-						id: "dragonsurvival:heart_element"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					id: "dragonsurvival:wing_grant"
-				}
-				id: "758036D9740F841E"
-				stat: "minecraft:fly_one_cm"
-				type: "stat"
-				value: 100000
-			}]
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["56AEAD8720A0B3F9"]
-			icon: {
-				id: "minecraft:fire_charge"
-			}
-			id: "735C8B5A219C57AE"
-			rewards: [
-				{
-					id: "78C623566656E611"
-					type: "xp"
-					xp: 200
-				}
-				{
-					count: 3
-					id: "07D62887CCFFFCEC"
-					item: {
-						count: 1
-						id: "dragonsurvival:heart_element"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "minecraft:adventure/kill_a_mob"
-				criterion: ""
-				id: "16A4F864C4C3A7F5"
-				type: "advancement"
-			}]
-			x: 8.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["735C8B5A219C57AE"]
 			icon: {
 				id: "minecraft:villager_spawn_egg"
 			}
@@ -256,11 +348,10 @@
 				id: "6B2D8CA1DC528079"
 				type: "advancement"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["56AEAD8720A0B3F9"]
 			hide_lock_icon: true
 			icon: {
 				id: "dragonsurvival:spearman_promotion"
@@ -533,60 +624,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["735C8B5A219C57AE"]
-			id: "5D05EE02D584AF2F"
-			rewards: [
-				{
-					id: "128A603C5220F062"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					count: 3
-					id: "66902D7F921E85C0"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0F712F45C1C8EA24"
-					item: { count: 1, id: "dragonsurvival:iron_dragon_treasure" }
-					type: "item"
-				}
-				{
-					id: "0F2CF3E033E59119"
-					item: { count: 1, id: "dragonsurvival:gold_dragon_treasure" }
-					type: "item"
-				}
-				{
-					id: "6239775B1DADAD29"
-					item: { count: 1, id: "dragonsurvival:copper_dragon_treasure" }
-					type: "item"
-				}
-				{
-					id: "36EC09F190101B1F"
-					item: { count: 1, id: "dragonsurvival:emerald_dragon_treasure" }
-					type: "item"
-				}
-				{
-					id: "31BCEF642EEAB089"
-					item: { count: 1, id: "dragonsurvival:diamond_dragon_treasure" }
-					type: "item"
-				}
-				{
-					id: "3A8E59945DDC8814"
-					item: { count: 1, id: "dragonsurvival:debris_dragon_treasure" }
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["65DF9D6C0D5E7583"]
 			id: "415DFAC173D75395"
 			rewards: [
@@ -653,36 +690,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
-			dependency_requirement: "one_completed"
-			id: "032FB020CD21A6EB"
-			rewards: [
-				{
-					id: "5AFA12C02570071F"
-					type: "xp"
-					xp: 800
-				}
-				{
-					count: 10
-					id: "22DB422401C5D990"
-					item: {
-						count: 1
-						id: "dragonsurvival:heart_element"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "048B8D112D749312"
-				type: "dimension"
-			}]
-			x: 19.0d
-			y: 0.0d
-		}
-		{
 			icon: {
 				id: "dragonsurvival:dragon_soul"
 			}
@@ -742,55 +749,6 @@
 			]
 			x: 25.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["50E66A5B37FF3E9B"]
-			icon: {
-				id: "dragonsurvival:elder_dragon_bone"
-			}
-			id: "3FC2BE2D5BDCA2AF"
-			rewards: [
-				{
-					id: "0764132C742053E0"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "3E95CB4DCF944D27"
-					item: {
-						count: 1
-						id: "artifacts:charm_of_shrinking"
-					}
-					type: "item"
-				}
-				{
-					count: 10
-					id: "56C7B55434CB6EA5"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "687EE5CE1568822E"
-					item: {
-						count: 1
-						id: "beloong:amplification_charm"
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			size: 3.0d
-			tasks: [{
-				advancement: "dragonsurvival:use_dragon_soul"
-				criterion: ""
-				id: "3D6600A35AE13213"
-				type: "advancement"
-			}]
-			x: 29.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["186EDCECB309BC44"]
@@ -1215,8 +1173,8 @@
 				id: "1E39433E0D79D35D"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 12.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["2B5CAD5134FFA4AF"]
@@ -1275,24 +1233,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
-			id: "6AB162630EE26FE3"
-			rewards: [{
-				id: "35F9883C02816602"
-				type: "xp"
-				xp: 20
-			}]
-			size: 2.0d
-			tasks: [{
-				advancement: "beloong:beloong/root"
-				criterion: ""
-				id: "24723B158A248898"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
 			id: "75D8AB1B178F5860"
 			invisible: true
 			optional: true
@@ -1302,6 +1242,178 @@
 			}]
 			x: 0.0d
 			y: -14.0d
+		}
+		{
+			icon_scale: 1.45d
+			id: "394AD1DCB885B429"
+			rewards: [{
+				id: "6B8A915C75769FCA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.3d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "5AD856A605C6CD01"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["394AD1DCB885B429"]
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "6588C404E5712724"
+			rewards: [
+				{
+					id: "73DF93A244F69DF6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4E35141193353767"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "07BAF504F8415E85"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+							"minecraft:repair_cost": 1
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:wooden_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/origin_of_all"
+				criterion: ""
+				id: "68637F31CE793AED"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6588C404E5712724"]
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "5D70D6D899218342"
+			rewards: [{
+				id: "2509E221767378AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "02B0FCF32E0E90CA"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "775551E2F0EF59B5"
+			rewards: [
+				{
+					id: "41BD4D10F882905F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4552634A95367963"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "04DB06B7D7A9C267"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "0237579785072690"
+			rewards: [
+				{
+					id: "15A502CC3EEB6A08"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D1901D4466C9098"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2A74704691744C18"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:sharpness": 5
+								}
+							}
+							"minecraft:repair_cost": 1
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:wooden_sword"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/dragon_altar"
+				criterion: ""
+				id: "0FB39A26A1FD9D7E"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D70D6D899218342"]
+			id: "7EE21DE9D9C6EFFE"
+			rewards: [{
+				id: "01B86CCF2CC67243"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+				id: "50D8F43BC17537BD"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -2.5d
 		}
 	]
 }

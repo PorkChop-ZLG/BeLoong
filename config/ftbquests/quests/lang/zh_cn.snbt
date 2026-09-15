@@ -2,14 +2,13 @@
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["隐藏式任务"]
 	chapter.0ACA55AC777A92A0.title: "〖以太龙〗成长之路"
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
-		"日上三竿，晨光熹微"
 		"难度：★"
-		"注意：尚未重写"
+		"适合：幼年龙"
 	]
 	chapter.1E4C1C94528F4F43.title: "① 龙之生存"
 	chapter.1FF49F51664E5364.chapter_subtitle: [
-		"烈日当空，午时已到"
 		"难度：★★"
+		"适合：青年龙"
 	]
 	chapter.1FF49F51664E5364.title: "② 炼狱终焉"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["隐藏式任务"]
@@ -24,9 +23,8 @@
 	chapter.2C8C8E4BA7603921.chapter_subtitle: ["聆听忘却的旋律"]
 	chapter.2C8C8E4BA7603921.title: "旋律魔法"
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
-		"日薄西山，暮色暗淡"
 		"难度：★★★"
-		"注意：尚未重写"
+		"适合：成年龙"
 	]
 	chapter.2FCFFB6D530A343F.title: "③ 暮色森林"
 	chapter.3DA5315F4969F944.chapter_subtitle: ["隐藏式任务"]
@@ -46,9 +44,8 @@
 	chapter.4E2D44FFE575436A.chapter_subtitle: ["隐藏式任务"]
 	chapter.4E2D44FFE575436A.title: "〖海洋龙〗成长之路"
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
-		"暮色已尽，星光乍现"
 		"难度：★★★★"
-		"注意：尚未重写"
+		"适合：远古龙"
 	]
 	chapter.4EDF13489B6BA152.title: "④ 永恒星光"
 	chapter.508CCA54F0BC90CA.chapter_subtitle: [
@@ -67,9 +64,8 @@
 	chapter.5A87116CA9FE4E2F.chapter_subtitle: ["隐藏式任务"]
 	chapter.5A87116CA9FE4E2F.title: "〖苔原龙〗成长之路"
 	chapter.5D6324B55C8EDE23.chapter_subtitle: [
-		"黎明曙光，划破黑暗"
 		"难度：★★★★★★"
-		"注意：尚不完善"
+		"适合：始祖龙"
 	]
 	chapter.5D6324B55C8EDE23.title: "⑥ 天灾灭世"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
@@ -79,8 +75,8 @@
 	]
 	chapter.6C87160D1AC7FE19.title: "℗ 铁魔法"
 	chapter.6C8BADAE3A031956.chapter_subtitle: [
-		"月明星稀，长夜无疆"
 		"难度：★★★★★"
+		"适合：太古龙"
 	]
 	chapter.6C8BADAE3A031956.title: "⑤ 冰火悚域"
 	chapter.6EC27D3BF2313600.chapter_subtitle: ["选择你的法术流派"]
@@ -91,8 +87,8 @@
 	]
 	chapter.70F8D93CCB47276E.title: "&d关于&e『&6化龍&e』&d整合包"
 	chapter.7C914FF1A42F8A5B.chapter_subtitle: [
-		"旭日东升，普照龙宫"
 		"难度：新手教程"
+		"适合：所有龙"
 	]
 	chapter.7C914FF1A42F8A5B.title: "引 龙宫化龙"
 	chapter.7E93FF98428B8B46.chapter_subtitle: [
@@ -149,6 +145,21 @@
 	quest.014D856119B0F3F7.title: "击杀：海蟒"
 	quest.01595FC4029CAD14.title: "炽焰导师套装"
 	quest.01FF89454D454C6A.title: "Mowzie的BOSS毕业"
+	quest.0237579785072690.quest_desc: [
+		"&6任务：使用JEI查询配方，合成龙之祭坛"
+		""
+		"其实，根本不需要&3化龙池&r也能化龙，走个流程而已。"
+		""
+		"使用&e龙之祭坛&r，可以非常方便地化为其他龙种，但是需要注意，不使用&d龙魂存储&r的话，&c会丢失你的成长进度！"
+		""
+		"我猜你不知道龙之祭坛的合成配方是什么。没关系，你或许注意到&a物品栏右侧&r的&e物品列表&r了吧。那玩意叫&bJEI&r，可以查询所有的合成配方。"
+		""
+		"在右下角的搜索框里，搜索&e“龙之祭坛”&r后点击对应的物品，在配方界面中&a点击右下角的加号&r，即可自动填充合成表。&6合成任意的龙之祭坛&r即可完成本任务。"
+		""
+		"{image:beloong:textures/quests/use_jei.png width:100 height:225 align:center}"
+	]
+	quest.0237579785072690.quest_subtitle: "原来不用化龙池"
+	quest.0237579785072690.title: "龙之祭坛"
 	quest.0256EDAC77E359BD.title: "战斗法师装备"
 	quest.0290886F399EB569.quest_desc: [
 		"&6通过电话，你可以直接买到现成的食材或酒水，当然，大多数的酒水只有使用电话才能获得&r"
@@ -174,9 +185,6 @@
 	]
 	quest.03090E47EC9BB762.quest_subtitle: "成为炼金术师吧"
 	quest.032B061110A311CA.title: "雷电法王装备"
-	quest.032FB020CD21A6EB.quest_desc: ["&6任务：搭建下界传送门，进入下界"]
-	quest.032FB020CD21A6EB.quest_subtitle: "进入下界"
-	quest.032FB020CD21A6EB.title: "下界"
 	quest.03300B3D470F9B73.quest_desc: [
 		"&6唱片机&r用于播放网易云音乐唱片。"
 		""
@@ -961,7 +969,7 @@
 		"&8&o（请小心，苦力怕会爆炸）"
 	]
 	quest.18E283E2D5D0D640.quest_subtitle: "点击查看详情"
-	quest.18E283E2D5D0D640.title: "技能面板"
+	quest.18E283E2D5D0D640.title: "&b&l技能面板"
 	quest.19632689D6646EBD.quest_desc: ["&6任务：集齐龙霜钢武器和工具"]
 	quest.19632689D6646EBD.title: "龙霜钢装备"
 	quest.196959C6E061913D.quest_desc: [
@@ -1461,7 +1469,7 @@
 		"&c&l至此，新手教程完全结束！&r你可以体验其他的龙种，前往&2主世界&r展开真正的冒险。"
 	]
 	quest.294DCB1F2F69927E.quest_subtitle: "点击查看详情"
-	quest.294DCB1F2F69927E.title: "&6&l龙魂传承"
+	quest.294DCB1F2F69927E.title: "&a&l龙魂传承"
 	quest.29874A2088326B37.quest_subtitle: "孔鸟飞而迎兮，腾群鹤于摇光"
 	quest.29874A2088326B37.title: "&e摇光"
 	quest.29B1D35BA68F4E5A.title: "建筑材料自选"
@@ -1962,6 +1970,19 @@
 	quest.387B82087B06B184.title: "太古以太龙"
 	quest.38F2CD611DFF78EA.quest_desc: ["&6shift+右键可以打开账本，查看今日的收入，点击账本封面则进入菜单界面，将&e至少一种菜品与一种酒水&r&6分别放入对应的菜单栏中(左键选中并移至右方栏中，再次左键即可放入，右键清除)。绑定餐桌后即可在账本页面开始营业~&r&r"]
 	quest.38F2CD611DFF78EA.quest_subtitle: "今天的菜单有什么？"
+	quest.394AD1DCB885B429.quest_desc: [
+		"&6任务：通过任意方式，前往主世界"
+		""
+		"&a欢迎来到&e『&6化龍&e』！"
+		""
+		"&e龙之生存&r是&6化龍整合包&r的核心模组，而第一章主线也将围绕&e“龙之生存”&r展开。"
+		""
+		"龙之生存，顾名思义，你将以龙的视角进行生存，感受龙的生活习性与战斗方式，体验全新的冒险旅程。"
+		""
+		"你的主要目标是&a成长与变强&r。&b探索遗迹，搜刮财宝&r；&e强化装备，升级技能&r；&d狩猎强敌，挑战Boss&r。一步一个爪印，努力成长为一条可以俯瞰世间的巨龙吧！"
+	]
+	quest.394AD1DCB885B429.quest_subtitle: "欢迎来到化龙！"
+	quest.394AD1DCB885B429.title: "&6&l第一章 龙之生存"
 	quest.399FE647E5FED2BE.title: "打卡：极光冰川"
 	quest.39A482BF78452D09.title: "充能汤"
 	quest.39AF32032B46C495.quest_subtitle: "开启以太龙的成长之路"
@@ -2040,7 +2061,7 @@
 	quest.3C1132797D408E77.quest_desc: [
 		"&6任务：点击左上角的✅，即可完成任务"
 		""
-		"&7『&e化龍&7』&r是一款以&e龙&r为主题，以&2龙的成长&r与&d魔法战斗&r为核心玩法，集冒险、休闲、角色扮演、GalGame为一体的整合包。"
+		"&e『&6化龍&e』&r是一款以&e龙&r为主题，以&2龙的成长&r与&d魔法战斗&r为核心玩法，集冒险、休闲、角色扮演、GalGame为一体的整合包。"
 		""
 		"不同于其他整合包，在这里，你将&e变成一条龙&r，以龙的身份开始游戏。"
 		""
@@ -2049,7 +2070,7 @@
 		"祝你早日成为独当一面的巨龙！"
 	]
 	quest.3C1132797D408E77.quest_subtitle: "点我了解详情"
-	quest.3C1132797D408E77.title: "何为化龙？"
+	quest.3C1132797D408E77.title: "&6&l何为化龙？"
 	quest.3C1D8952551DB648.quest_desc: ["整合包原创龙种，纯正的中国龙，预计在化龙1.5大版本更新，敬请期待。"]
 	quest.3C1D8952551DB648.quest_subtitle: "预计化龙1.5版本上线"
 	quest.3C1D8952551DB648.title: "敬请期待：亢金龙"
@@ -2118,7 +2139,7 @@
 		"注意：以太龙的&b“上升气流”&r技能无法判定为击杀。如果卡关，获得&f铁锭&r也能完成本任务。"
 	]
 	quest.3D74C6BF68CB4A92.quest_subtitle: "点击查看详情"
-	quest.3D74C6BF68CB4A92.title: "最终试炼"
+	quest.3D74C6BF68CB4A92.title: "实战演练"
 	quest.3DB21E73BA8C8682.quest_desc: [
 		"&a&l使用教程："
 		"step1：准备你想投至世界的&d图片&d"
@@ -2189,17 +2210,6 @@
 	]
 	quest.3FB2C999F046AAE3.quest_subtitle: "猩红之地蔓延到下界"
 	quest.3FB2C999F046AAE3.title: "猩红下界"
-	quest.3FC2BE2D5BDCA2AF.quest_desc: [
-		"&6任务：使用龙之魂，储存你的龙族形态。"
-		""
-		"&6恭喜你，走到了道路的尽头，龙之生存已经到了尾声。"
-		"&6手持&d空龙魂&6，长按右键，你将重新&e化为凡人&6。"
-		"&6龙魂中，记录着旅途的点点滴滴，汇聚着龙族的能力。"
-		"&6你可以将其赠与他人，或是小心翼翼地保存；"
-		"&6最后，跳入&e传承之所&6的末地传送门，踏上新的征程！"
-	]
-	quest.3FC2BE2D5BDCA2AF.quest_subtitle: "【第一章    完结】"
-	quest.3FC2BE2D5BDCA2AF.title: "&6&l龙魂传承"
 	quest.3FD398E85B2582ED.quest_desc: [
 		"&6任务：进入雷域"
 		""
@@ -2254,6 +2264,18 @@
 	quest.40D693D34C2593C4.title: "BWG原木自选"
 	quest.410087ACF6234CC1.quest_subtitle: "天地莫施恩，璇题激流日"
 	quest.410087ACF6234CC1.title: "&5天璇"
+	quest.412059FEA6DD0919.quest_desc: [
+		"&6任务：使用龙自带的工作台，合成一块盾牌"
+		""
+		"龙族生来就会创造和使用工具，龙自带一个&6工作台&r。"
+		"&d按【E】键&r打开龙的物品栏，在右上角有个 3X3 的九宫格。"
+		""
+		"领取上一个任务奖励的木板和铁锭，按照图示摆放，合成一块&e盾牌&r吧。"
+		""
+		"{image:beloong:textures/quests/craft_shield.png width:200 height:120 align:center}"
+	]
+	quest.412059FEA6DD0919.quest_subtitle: "点击查看详情"
+	quest.412059FEA6DD0919.title: "龙之合成"
 	quest.415DFAC173D75395.quest_desc: ["&6任务：集齐全套圣辉龙铠"]
 	quest.415DFAC173D75395.quest_subtitle: "集齐圣辉龙铠套装"
 	quest.415DFAC173D75395.title: "重塑金身"
@@ -2296,6 +2318,18 @@
 	]
 	quest.434D3A47067493D8.quest_subtitle: "古老强大的骑士文明曾是暮色森林中最辉煌的那一支，但如今他们已经衰落。"
 	quest.434D3A47067493D8.title: "&8这是鬼魂？"
+	quest.4365509DC0D226C7.quest_desc: [
+		"&6任务：捡起丢在地上的盾牌，放到物品栏里面"
+		""
+		"好吧，其实合成盾牌并没有用，因为&c龙无法使用盾牌！&r"
+		"龙族的身体与人类差距过大，无法使用一些人类的武器和工具。"
+		"&e盾牌、三叉戟、鞘翅&r都无法使用，但是龙可以使用魔法操纵物品，比如可以使用&e弓箭。"
+		"不过龙很少使用武器，因为&d龙语魔法&r远比武器强大。"
+		""
+		"如果你的&e龙爪持握&r限制物品，会&b自动丢到地上&r。但是你依旧可以&e捡起来&r，放到&e物品栏&r里，作为材料进行合成。"
+	]
+	quest.4365509DC0D226C7.quest_subtitle: "点击查看详情"
+	quest.4365509DC0D226C7.title: "物品限制"
 	quest.4385F7925457C289.title: "魔法书T1"
 	quest.4403D0B442B8A042.quest_desc: [
 		"&6任务：找到湮灭空间站"
@@ -2632,6 +2666,16 @@
 		"新手教程以太龙无法化形，而且只有三个成长阶段。"
 		""
 		"在完成新手教程后，&e所有的主龙&r都会向你开放！你可以选择化为&3真正的以太龙&r，或者其他主龙。从龙还有额外的解锁条件，可以在后续的游玩中体验。"
+		""
+		"{image:kubejs:textures/task/dragon_altar.png width:120 height:90 align:center}"
+		""
+		"{@pagebreak}"
+		""
+		"{image:kubejs:textures/task/dragon_editor.png width:200 height:100 align:center}"
+		"选择龙种之后，进入&a捏龙界面&r。"
+		"最上方是龙的&a成长阶段&r，每种阶段的外形各不相同。"
+		"因此当你完成编辑后，请点击左上角&a应用到所有阶段&r，"
+		"然后点击&a确定&r，即可&6化身为龙&r！"
 	]
 	quest.4E9FFC41AF8A07FB.quest_subtitle: "点击查看详情"
 	quest.4E9FFC41AF8A07FB.title: "&6&l化身为龙！"
@@ -2936,19 +2980,6 @@
 		"&6另外，你还需要制作菜品对应的厨具，可在配发中查看&r&r&r"
 	]
 	quest.564CE7EE150DBED0.quest_subtitle: "烹饪必备"
-	quest.56AEAD8720A0B3F9.quest_desc: [
-		"&6任务：学会飞行，飞行1000 米"
-		""
-		"&6作为龙，&e飞行&6是必学的一个技能。"
-		"&6点按&d【G】&6键，右上角出现&e翅膀图标&6，表示开启飞行。"
-		"&6普通飞行模式和&e创造飞行&6一样。"
-		"&6长按&d【Ctrl】&6和&d【W】&6进行加速，和&e鞘翅飞行&6一样。"
-		"&6此时&n抬高视角&r&6可垂直飞行，直冲云霄。"
-		""
-		"&c注意：飞行非常消耗饥饿值，请勿长时间开启飞行！"
-	]
-	quest.56AEAD8720A0B3F9.quest_subtitle: "学会龙族的飞行"
-	quest.56AEAD8720A0B3F9.title: "蹒跚学“飞”"
 	quest.56B33061AF98D6B8.quest_desc: ["&6任务：观察一只冰龙"]
 	quest.56B33061AF98D6B8.quest_subtitle: "了解冰龙习性"
 	quest.56B33061AF98D6B8.title: "观察冰龙"
@@ -3202,24 +3233,12 @@
 	quest.5CFF88C245EF7BE5.quest_desc: ["&c注意：是原地生成一只【流浪商人】！"]
 	quest.5CFF88C245EF7BE5.quest_subtitle: "交换群青物品"
 	quest.5CFF88C245EF7BE5.title: "流浪商人"
-	quest.5D05EE02D584AF2F.quest_desc: [
-		"&6任务：集齐所有财宝堆"
-		""
-		"&e财宝堆&6是龙族休息的地方，可以恢复生命值。"
-		""
-		"&d全新机制：成长加速！"
-		"&6在&e财宝堆&6上睡觉，可以加快你的&e成长速度&6。"
-		"&6默认情况下，提供&22倍&6成长速度。"
-		"&6增加财宝堆数量，提高品质，可以增加&e财宝价值&6；"
-		"&6每&2100点&6财宝价值，可以增加&2100%&6的成长速度；"
-		"&6最大可提供&2100倍&6的成长加速！"
-	]
-	quest.5D05EE02D584AF2F.quest_subtitle: "集齐所有财宝堆"
-	quest.5D05EE02D584AF2F.title: "闪闪发光"
 	quest.5D37685BFBAB83E4.quest_subtitle: "★★★★★"
 	quest.5D37685BFBAB83E4.title: "传奇怪物：云筑魔像"
 	quest.5D56B0917C5223A6.quest_desc: ["&6亲和之戒加上法术卷轴可以在奥术铁砧上敲成对应法术等级加一的戒指"]
 	quest.5D56B0917C5223A6.title: "戒指T0"
+	quest.5D70D6D899218342.quest_desc: ["&6任务：挖掘任意石头，获取圆石"]
+	quest.5D70D6D899218342.title: "获取圆石"
 	quest.5DB104CFE665CC09.quest_desc: [
 		"&2自然罗盘：&a内陆沙漠&r"
 		"&2自然罗盘：&a巨人柱沙漠&r"
@@ -3360,7 +3379,7 @@
 		"学会释放和切换技能后，点击本任务上方的&e“生成一头猪”&r任务，这会在&e演武场正中央&r生成一只猪。使用技能快捷栏的第一个技能&6“微风之息”&r，击杀一头猪吧！"
 	]
 	quest.619FE6270FADA973.quest_subtitle: "点击查看详情"
-	quest.619FE6270FADA973.title: "龙语魔法"
+	quest.619FE6270FADA973.title: "&d&l龙语魔法"
 	quest.61ACAF91D4015A4E.title: "戒指T3"
 	quest.61B245C87C07699C.quest_desc: [
 		"&6任务：找到霜冻神殿"
@@ -3503,6 +3522,17 @@
 	]
 	quest.6583633BEC31ECDF.quest_subtitle: "★★★★★★"
 	quest.6583633BEC31ECDF.title: "灾变：焰魔"
+	quest.6588C404E5712724.quest_desc: [
+		"&6任务：砍掉任意一颗树，获取原木"
+		""
+		"曾有人如此评价：“你就算是龙开局也得撸上三个原木。”&a木材是最基础的物资&r，可以打造工具、武器，用来造建筑，甚至可以烹饪。"
+		""
+		"&e砍树非常简单&r，你只需要按住数字&d【1】&r左边的波浪号&d【~】&r键，然后随便找一颗树，按&d【鼠标左键】&r挖掉任意树干，即可砍倒整棵树了。"
+		""
+		"这是你的第一个任务，&6获得任意原木&r都能完成任务，甚至路上捡到或宝箱里开到都可以。"
+	]
+	quest.6588C404E5712724.quest_subtitle: "龙也要挖木头开局"
+	quest.6588C404E5712724.title: "获取原木"
 	quest.65D18729B9A46063.title: "瘟疫医生装备"
 	quest.65DF9D6C0D5E7583.quest_desc: [
 		"&6任务：开启圣辉宝库，获得圣辉模版"
@@ -3597,9 +3627,6 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie的生物：霜冻巨兽"
-	quest.6AB162630EE26FE3.quest_desc: ["&6任务：通过龙之祭坛，化为一条龙"]
-	quest.6AB162630EE26FE3.quest_subtitle: "化为一条你喜欢的龙"
-	quest.6AB162630EE26FE3.title: "化龙"
 	quest.6B374FA9A003150A.quest_desc: ["&6任务：击败碎裂者"]
 	quest.6B374FA9A003150A.title: "碎裂者"
 	quest.6B3CAAA337596F88.quest_desc: [""]
@@ -3904,30 +3931,6 @@
 	]
 	quest.7332CD16CC158C56.quest_subtitle: "别打错成凋零了"
 	quest.7332CD16CC158C56.title: "&l&d凋灵"
-	quest.735C8B5A219C57AE.quest_desc: [
-		"&6任务：学会使用技能，击杀任意一只怪物"
-		""
-		"&6每种龙都有其专属技能，点击物品栏上方的&6技能信息&f。"
-		"&6龙能携带4个&e主动技能&6，位于屏幕&e右下角&6。"
-		"&6先按&d【R】&6键选择技能，再长按&d【C】&6键释放。"
-		"&6使用技能要消耗&5法力&6，技能上方的小点点表示法力值。"
-		"&6法力值&6随着&2经验等级&6提高而增加，技能伤害同理。"
-		""
-		"&c注意：如果法力耗尽，技能会消耗经验值！"
-		"{@pagebreak}"
-		"&6打开物品栏，点击最上方一排第二个的&a技能信息&6。"
-		"&6可以看到从左往右有四列技能，下面依次讲解。"
-		""
-		"&a1: &d快捷栏&6，界面右下角的四个主动技能，可替换。"
-		"&a2: &d主动技能&6，拖动到快捷栏替换，等级与经验相关。"
-		"&a3: &d被动技能&6，点击右边的箭头可以升级，消耗经验。"
-		"&a4: &d被动&d，&6代表每种龙的特性。"
-		""
-		"&c注意：按鼠标滚轮可以翻页，按shift查看技能详情！"
-		"{image:kubejs:textures/task/dragon_skill.png width:100 height:80 align:center}"
-	]
-	quest.735C8B5A219C57AE.quest_subtitle: "学会使用龙族技能"
-	quest.735C8B5A219C57AE.title: "龙语魔法"
 	quest.7369E1F267AEE21B.quest_desc: [
 		"&6任务：化为地黄龙成长到远古阶段"
 		""
@@ -4095,6 +4098,7 @@
 	]
 	quest.77457906D3353B69.quest_subtitle: "必读"
 	quest.77457906D3353B69.title: "&d按键提示"
+	quest.775551E2F0EF59B5.quest_desc: ["&6任务："]
 	quest.77650D7436678A64.quest_desc: ["&6任务：集齐三把钥匙，合成悚域之钥"]
 	quest.7768704F7110F259.title: "方块小镇蓝图自选"
 	quest.77777B69F96AD646.quest_desc: [
@@ -4305,6 +4309,8 @@
 	]
 	quest.7EB346A1790BD94B.quest_subtitle: "找到公会城堡"
 	quest.7EB346A1790BD94B.title: "公会城堡"
+	quest.7EE21DE9D9C6EFFE.quest_desc: ["&6任务：合成一把石镐"]
+	quest.7EE21DE9D9C6EFFE.title: "获得石镐"
 	quest.7F59185C7CD743A1.quest_subtitle: "风从何处来"
 	quest.7F59185C7CD743A1.title: "获得：孔雀羽扇"
 	quest.7F5AC4043CEA54E3.quest_desc: ["&6任务：击败凋零恶煞"]

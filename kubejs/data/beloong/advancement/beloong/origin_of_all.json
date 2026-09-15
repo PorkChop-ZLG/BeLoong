@@ -1,0 +1,37 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "get_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/origin_of_all"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/origin_of_all.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_log"
+    }
+  },
+  "requirements": [
+    [
+      "get_logs"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

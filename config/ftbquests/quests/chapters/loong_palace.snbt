@@ -497,46 +497,20 @@
 					xp: 100
 				}
 				{
-					id: "2DEA42304E7757C3"
+					count: 12
+					id: "4C1C3D16B301F6FF"
 					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
 						count: 1
-						id: "minecraft:leather_helmet"
+						id: "minecraft:oak_planks"
 					}
 					type: "item"
 				}
 				{
-					id: "69042955AD91496D"
+					count: 2
+					id: "0DC370D9F955E0D4"
 					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
 						count: 1
-						id: "minecraft:leather_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "22519BD7724CD214"
-					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
-						count: 1
-						id: "minecraft:leather_leggings"
-					}
-					type: "item"
-				}
-				{
-					id: "0762EFACCDBA5D20"
-					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
-						count: 1
-						id: "minecraft:leather_boots"
+						id: "minecraft:iron_ingot"
 					}
 					type: "item"
 				}
@@ -584,11 +558,11 @@
 					xp: 100
 				}
 				{
-					count: 64
-					id: "133578268A04CC6D"
+					count: 24
+					id: "153DDD7853B5B0A5"
 					item: {
 						count: 1
-						id: "dragonsurvival:elder_dragon_bone"
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -599,7 +573,7 @@
 				id: "30D9818D59E57163"
 				type: "advancement"
 			}]
-			x: 17.0d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -625,7 +599,7 @@
 				id: "361E14CBA1EC32D6"
 				type: "checkmark"
 			}]
-			x: 17.0d
+			x: 21.0d
 			y: -2.0d
 		}
 		{
@@ -649,7 +623,7 @@
 					xp: 100
 				}
 				{
-					count: 48
+					count: 24
 					id: "7F1200B1A1DF77F1"
 					item: {
 						count: 1
@@ -664,7 +638,7 @@
 				id: "422A9CDE65406ECE"
 				type: "advancement"
 			}]
-			x: 19.0d
+			x: 23.0d
 			y: 0.0d
 		}
 		{
@@ -690,7 +664,7 @@
 				id: "506053A97A1DD355"
 				type: "checkmark"
 			}]
-			x: 19.0d
+			x: 23.0d
 			y: -2.0d
 		}
 		{
@@ -722,7 +696,7 @@
 				id: "6FEA1123461FE736"
 				type: "advancement"
 			}]
-			x: 21.0d
+			x: 25.0d
 			y: 0.0d
 		}
 		{
@@ -753,7 +727,7 @@
 				id: "7E551C2911DD6512"
 				type: "advancement"
 			}]
-			x: 23.0d
+			x: 27.0d
 			y: 0.0d
 		}
 		{
@@ -811,7 +785,7 @@
 				id: "3BBFB63FFAAC0055"
 				type: "advancement"
 			}]
-			x: 25.0d
+			x: 29.0d
 			y: 0.0d
 		}
 		{
@@ -845,23 +819,13 @@
 					type: "command"
 				}
 			]
-			tasks: [
-				{
-					entity: "minecraft:iron_golem"
-					id: "19FC7D22F98E27AA"
-					optional_task: true
-					type: "kill"
-					value: 1L
-				}
-				{
-					advancement: "minecraft:story/smelt_iron"
-					criterion: ""
-					id: "0E8FED3D44563D57"
-					optional_task: true
-					type: "advancement"
-				}
-			]
-			x: 27.0d
+			tasks: [{
+				advancement: "beloong:beloong/combat_training"
+				criterion: ""
+				id: "326F6675C9F79C9C"
+				type: "advancement"
+			}]
+			x: 31.0d
 			y: 0.0d
 		}
 		{
@@ -914,7 +878,7 @@
 				id: "66BB6E186378FE94"
 				type: "advancement"
 			}]
-			x: 29.0d
+			x: 33.0d
 			y: 0.0d
 		}
 		{
@@ -950,7 +914,7 @@
 				id: "07C610D03044B4C0"
 				type: "checkmark"
 			}]
-			x: 27.0d
+			x: 31.0d
 			y: 2.0d
 		}
 		{
@@ -986,7 +950,7 @@
 				id: "2681E99F42E8BE25"
 				type: "checkmark"
 			}]
-			x: 29.0d
+			x: 33.0d
 			y: 2.0d
 		}
 		{
@@ -1025,7 +989,7 @@
 				id: "035CE1D2808F82F6"
 				type: "dimension"
 			}]
-			x: 32.0d
+			x: 36.0d
 			y: 0.0d
 		}
 		{
@@ -1051,6 +1015,68 @@
 			}]
 			x: -28.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["58814D5BF5A8BD45"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "412059FEA6DD0919"
+			rewards: [
+				{
+					id: "27CA4269430DDD69"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "19374515E3E65712"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_bone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/dragon_crafting"
+				criterion: ""
+				id: "5DE2B3E211336443"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["412059FEA6DD0919"]
+			icon: {
+				id: "block_factorys_bosses:enhanced_shield"
+			}
+			id: "4365509DC0D226C7"
+			rewards: [
+				{
+					id: "26A95973F50BC03D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "4935F27B21B9B08C"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_bone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/item_restriction"
+				criterion: ""
+				id: "1F7675AFD94C9E26"
+				type: "advancement"
+			}]
+			x: 19.0d
+			y: 0.0d
 		}
 	]
 }

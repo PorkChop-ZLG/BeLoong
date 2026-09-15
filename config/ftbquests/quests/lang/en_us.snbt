@@ -159,17 +159,6 @@
 	]
 	quest.03090E47EC9BB762.quest_subtitle: "Become an Alchemist"
 	quest.032B061110A311CA.title: "Thunder Lord Equipment"
-	quest.032FB020CD21A6EB.quest_desc: [
-		"&aObjective: Activate the End Portal and enter the End"
-		""
-		"&eDragons&6 will spawn on a &especial obsidian platform&6 when entering the &5End&6."
-		"&eHumans&6 will spawn on the normal obsidian platform."
-		"&6If you cannot find the main End island, try increasing &erender distance&6."
-		""
-		"&7&oIf the central island does not load, relog."
-	]
-	quest.032FB020CD21A6EB.quest_subtitle: "Enter the End"
-	quest.032FB020CD21A6EB.title: "Final Battle"
 	quest.03300B3D470F9B73.quest_desc: [
 		"&6Jukebox&r is used to play NetEase Cloud Music records."
 		""
@@ -1734,17 +1723,6 @@
 	]
 	quest.3FB2C999F046AAE3.quest_subtitle: "The Crimson has spread to the Nether"
 	quest.3FB2C999F046AAE3.title: "Crimson Nether"
-	quest.3FC2BE2D5BDCA2AF.quest_desc: [
-		"&aObjective: Use a Dragon Soul to store your dragon form."
-		""
-		"&6Congratulations, you have reached the end of the path. Dragon Survival is drawing to a close."
-		"&6Hold an &dAether Dragon Soul &6and long-press right-click to &ereturn to mortal form&6."
-		"&6Within the Dragon Soul are recorded the memories of your journey,汇聚着龙族的能力."
-		"&6You can gift it to others, or keep it safe;"
-		"&6Finally, jump into the End Portal in the &eInheritance Grounds &6and embark on a new journey!"
-	]
-	quest.3FC2BE2D5BDCA2AF.quest_subtitle: "【Chapter I Concluded】"
-	quest.3FC2BE2D5BDCA2AF.title: "&6&lDragon Soul Inheritance"
 	quest.403F4499E19370C1.quest_desc: [
 		"&6The Mino++ Game Table &rlets you play UNO with your friends."
 		"You can select &6Mino &rin the &6Maid Work Mode&r."
@@ -2311,19 +2289,6 @@
 		"&6Additionally, you need to craft the cooking utensils corresponding to the dishes. Check the EMI for details.&r&r&r"
 	]
 	quest.564CE7EE150DBED0.quest_subtitle: "Essential for Cooking"
-	quest.56AEAD8720A0B3F9.quest_desc: [
-		"&aObjective: Learn to fly, fly 1000 meters"
-		""
-		"&6As a dragon, &eflight &6is an essential skill to learn."
-		"&6Press the &d【G】 &6key; a &ewing icon &6appearing in the top-right corner indicates flight is enabled."
-		"&6Normal flight mode is the same as &eCreative flight&6."
-		"&6Hold &d【Ctrl】 &6and &d【W】 &6to accelerate, just like &eElytra flight&6."
-		"&6While doing so, &ntilting your view up&r&6 allows for vertical flight, soaring into the sky."
-		""
-		"&cNote: Flying consumes a lot of hunger; do not fly for extended periods!"
-	]
-	quest.56AEAD8720A0B3F9.quest_subtitle: "Learn Draconic Flight"
-	quest.56AEAD8720A0B3F9.title: "Learning to 'Fly'"
 	quest.56B33061AF98D6B8.quest_desc: ["&aObjective: Observe an Ice Dragon"]
 	quest.56B33061AF98D6B8.quest_subtitle: "Learn Ice Dragon habits"
 	quest.56B33061AF98D6B8.title: "Observe Ice Dragon"
@@ -2498,13 +2463,6 @@
 	quest.5CFF88C245EF7BE5.quest_desc: ["&cNote: This spawns a 【Coral Golem】 right on the spot!"]
 	quest.5CFF88C245EF7BE5.quest_subtitle: "Drops Crystallized Coral"
 	quest.5CFF88C245EF7BE5.title: "Coral Golem"
-	quest.5D05EE02D584AF2F.quest_desc: [
-		"&aObjective: Collect all Dragon Treasure Heaps"
-		""
-		"&eDragon Treasure Heaps &6are places where dragons rest and can recover health."
-	]
-	quest.5D05EE02D584AF2F.quest_subtitle: "Collect all Dragon Treasure Heaps"
-	quest.5D05EE02D584AF2F.title: "Shiny and Sparkling"
 	quest.5D56B0917C5223A6.quest_desc: ["&6Combine a Ring of Affinity with a Spell Scroll on an Arcane Anvil to create a ring that increases the spell's level by one."]
 	quest.5D56B0917C5223A6.title: "Ring T0"
 	quest.5DB104CFE665CC09.quest_desc: [
@@ -2944,30 +2902,6 @@
 	quest.72D2474557AFE788.quest_subtitle: "Collect all belts"
 	quest.72D2474557AFE788.title: "&aBelts Completion"
 	quest.731F9BC680E3927E.quest_subtitle: "Infinite Mana"
-	quest.735C8B5A219C57AE.quest_desc: [
-		"&aObjective: Learn to use skills, kill 1 Iron Golem"
-		""
-		"&6Each dragon type has its own unique skills. Click &6Skill Info &fat the top of your inventory."
-		"&6A dragon can equip 4 &eActive Skills&6, located at the &ebottom-right corner &6of the screen."
-		"&6First press the &d【R】 &6key to select a skill, then hold &d【C】 &6to cast it."
-		"&6Using skills consumes &5Mana&6. The dots above the skill icon indicate your mana level."
-		"&6Mana &6increases with your &2experience level&6, and skill damage scales similarly."
-		""
-		"&cNote: If you run out of mana, skills will consume experience points!"
-		"{@pagebreak}"
-		"&6Open your inventory and click the second icon in the top row, &aSkill Info&6."
-		"&6You'll see four columns of skills from left to right, explained below."
-		""
-		"&a1: &dHotbar&6 - The four active skills in the bottom-right corner of the UI; they can be swapped."
-		"&a2: &dActive Skills&6 - Drag these to the hotbar to replace skills; their level is tied to experience."
-		"&a3: &dPassive Skills&6 - Click the arrow on the right to upgrade them, consuming experience."
-		"&a4: &dPassive Traits&6 - Represent the innate characteristics of each dragon type."
-		""
-		"&cNote: Use the mouse wheel to scroll pages, and hold Shift to view skill details!"
-		"{image:kubejs:textures/task/dragon_skill.png width:100 height:80 align:center}"
-	]
-	quest.735C8B5A219C57AE.quest_subtitle: "Learn to use draconic skills"
-	quest.735C8B5A219C57AE.title: "Draconic Magic"
 	quest.7374FD45EAC02F8D.quest_desc: [
 		"&6Place on top of an &dAethersent Block&6"
 		""

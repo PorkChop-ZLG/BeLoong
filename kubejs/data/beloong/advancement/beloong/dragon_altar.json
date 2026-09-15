@@ -1,0 +1,37 @@
+{
+  "parent": "beloong:beloong/origin_of_all",
+  "criteria": {
+    "get_dragon_altar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#dragonsurvival:dragon_altars"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/dragon_altar"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/dragon_altar.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:cherry_dragon_altar"
+    }
+  },
+  "requirements": [
+    [
+      "get_dragon_altar"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}
