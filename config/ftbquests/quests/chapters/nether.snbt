@@ -719,7 +719,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			size: 2.3d
+			size: 2.35d
 			tasks: [{
 				advancement: "minecraft:nether/root"
 				criterion: ""

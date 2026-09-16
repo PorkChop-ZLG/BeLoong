@@ -1,0 +1,36 @@
+{
+  "parent": "beloong:beloong/dragon_altar",
+  "criteria": {
+    "sword_swapped_in": {
+      "trigger": "beloong:claw_sword_swap"
+    },
+    "claw_sword_kill": {
+      "trigger": "beloong:claw_sword_kill"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/my_claw_is_not_blunt"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/my_claw_is_not_blunt.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "artifacts:feral_claws"
+    }
+  },
+  "requirements": [
+    [
+      "sword_swapped_in"
+    ],
+    [
+      "claw_sword_kill"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

@@ -172,65 +172,77 @@
 			x: 0.5d
 			y: 2.0d
 		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "66E06E3AED37BF12"
+			image: "beloong:block/loong_palace_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7DBD98E70F83E230"
+			image: "beloong:block/loong_palace_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6595C0DA0CEA7FFD"
+			image: "beloong:block/loong_palace_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5CA4511D2011C07D"
+			image: "beloong:block/loong_palace_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "361CE26B38F4553E"
+			image: "beloong:block/loong_palace_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "287845137DC35ADC"
+			image: "beloong:block/loong_palace_portal"
+			order: 80
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 1.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				id: "dragonsurvival:cherry_dragon_altar"
-			}
-			id: "2B5CAD5134FFA4AF"
-			rewards: [
-				{
-					id: "6EB3D61DDFD2532F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					auto: "invisible"
-					command: "/title @s times 1s 3s 1s"
-					exclude_from_claim_all: true
-					id: "7287BBB410527627"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/title @s title [{\"text\":\"欢迎来到\",\"color\":\"green\"},{\"text\":\"『\",\"color\":\"yellow\"},{\"text\":\"化龍\",\"color\":\"gold\"},{\"text\":\"』\",\"color\":\"yellow\"}]"
-					exclude_from_claim_all: true
-					id: "0921D40405EB448D"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/title @s subtitle [{\"text\":\"金鳞岂是池中物\",\"color\":\"light_purple\"}]"
-					exclude_from_claim_all: true
-					id: "0F8DFB083BAF0CF9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			shape: "hexagon"
-			size: 3.0d
-			tasks: [{
-				icon: {
-					id: "dragonsurvival:stone_dragon_altar"
-				}
-				id: "0414DE1F40AD9B98"
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 100
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			hide_dependency_lines: true
 			icon: {
 				id: "dragonsurvival:elder_dragon_dust"
@@ -387,11 +399,10 @@
 				structure: "dragonsurvival:dragon_hunters_castle"
 				type: "structure"
 			}]
-			x: 11.0d
+			x: 28.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			dependency_requirement: "one_started"
 			icon: {
 				id: "explorerscompass:explorerscompass"
@@ -435,7 +446,7 @@
 				item: { count: 1, id: "dragonsurvival:hunter_key" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 31.0d
 			y: 0.0d
 		}
 		{
@@ -462,7 +473,7 @@
 				item: { count: 1, id: "dragonsurvival:dark_key" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 31.0d
 			y: -2.0d
 		}
 		{
@@ -489,7 +500,7 @@
 				item: { count: 1, id: "dragonsurvival:light_key" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 31.0d
 			y: 2.0d
 		}
 		{
@@ -512,7 +523,7 @@
 				id: "3DAFC5DD42B0DE04"
 				type: "checkmark"
 			}]
-			x: 11.0d
+			x: 28.5d
 			y: -2.0d
 		}
 		{
@@ -554,7 +565,7 @@
 				item: { count: 1, id: "dragonsurvival:dragon_hunter_sword" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 33.5d
 			y: 0.0d
 		}
 		{
@@ -587,7 +598,7 @@
 				item: { count: 1, id: "dragonsurvival:dark_upgrade" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 33.5d
 			y: -2.0d
 		}
 		{
@@ -620,7 +631,7 @@
 				item: { count: 1, id: "dragonsurvival:light_upgrade" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 33.5d
 			y: 2.0d
 		}
 		{
@@ -653,7 +664,7 @@
 				id: "4601F93975A67D7A"
 				type: "advancement"
 			}]
-			x: 17.5d
+			x: 35.0d
 			y: 3.5d
 		}
 		{
@@ -686,7 +697,7 @@
 				id: "30BBB79DC1C5A385"
 				type: "advancement"
 			}]
-			x: 17.5d
+			x: 35.0d
 			y: -3.5d
 		}
 		{
@@ -716,7 +727,7 @@
 				structure: "dragonsurvival:treasure_end"
 				type: "structure"
 			}]
-			x: 25.0d
+			x: 38.0d
 			y: 0.0d
 		}
 		{
@@ -747,7 +758,7 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
+			x: 38.0d
 			y: 2.0d
 		}
 		{
@@ -909,11 +920,10 @@
 				item: { count: 1, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 28.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			id: "52760593973916B2"
 			rewards: [{
 				id: "30F8BAA5C51D33C5"
@@ -964,7 +974,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			id: "75BFB4E20D3E76DC"
 			rewards: [
 				{
@@ -1122,7 +1131,6 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			dependency_requirement: "one_started"
 			icon: {
 				id: "minecraft:wooden_hoe"
@@ -1177,7 +1185,6 @@
 			y: 8.25d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			id: "6796172A3CF129FB"
 			rewards: [{
 				id: "7E3303065614C43D"
@@ -1193,7 +1200,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["2B5CAD5134FFA4AF"]
 			id: "6CC5B640AD43F55C"
 			rewards: [{
 				id: "583602D831772F1F"
@@ -1244,6 +1250,13 @@
 			y: -14.0d
 		}
 		{
+			hide_details_until_startable: false
+			icon: {
+				components: {
+					"ftbquests:icon": "beloong:block/loong_palace_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			icon_scale: 1.45d
 			id: "394AD1DCB885B429"
 			rewards: [{
@@ -1252,7 +1265,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			size: 2.3d
+			size: 2.35d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "5AD856A605C6CD01"
@@ -1263,6 +1276,7 @@
 		}
 		{
 			dependencies: ["394AD1DCB885B429"]
+			hide_details_until_startable: false
 			icon: {
 				id: "minecraft:oak_log"
 			}
@@ -1300,6 +1314,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				advancement: "beloong:beloong/origin_of_all"
 				criterion: ""
@@ -1356,6 +1371,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["6588C404E5712724"]
 			id: "0237579785072690"
 			rewards: [
 				{
@@ -1414,6 +1430,192 @@
 			}]
 			x: 6.5d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"394AD1DCB885B429"
+				"48735D8735398D7A"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "minecraft:copper_bulb"
+			}
+			id: "384B6CDEB088679E"
+			rewards: [
+				{
+					id: "7E70D63B1E6D6903"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B4BD7289F5D88C7"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:adventure/minecraft_trials_edition"
+				criterion: ""
+				id: "1AAB42BBD83BF0BF"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "2F808021ED569F24"
+			rewards: [
+				{
+					id: "5C744250DFED84F9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38B8595E80890164"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "6C28D89CD0077BEB"
+					item: {
+						count: 1
+						id: "teleportwaypoint:pocket_waypoint"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "teleportwaypoint:waypoint"
+				}
+				id: "1C3713FBF118C2B6"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "teleportwaypoint:waypoint"
+				type: "observation"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:trial_spawner"
+			}
+			id: "5C9117C50CAA9789"
+			rewards: [
+				{
+					id: "0116C3C7A176B315"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C9661B5A1F72868"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "732C0909222BBAB1"
+					item: {
+						count: 1
+						id: "minecraft:ominous_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:trial_spawner"
+				}
+				id: "48D95EB567283244"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:trial_spawner"
+				type: "observation"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0237579785072690"]
+			id: "48735D8735398D7A"
+			rewards: [
+				{
+					id: "78F00EFB607CC8CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4009DCCA6E1CBF5C"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "6B20172012AE5141"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+							"minecraft:repair_cost": 1
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:wooden_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/my_claw_is_not_blunt"
+				criterion: ""
+				id: "717D33109E579BB8"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "7B5A17E27853751F"
+			rewards: [
+				{
+					id: "02BDB0C7CA2FC1D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CE059F43BFC20DF"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38E5DA7F400E3F0B"
+				item: { count: 1, id: "minecraft:ominous_trial_key" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
 		}
 	]
 }

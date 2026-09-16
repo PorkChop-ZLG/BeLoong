@@ -27,49 +27,26 @@
 	# Default: 20
 	# Range: 1 ~ 1200
 	checkIntervalTicks = 20
-	#传送后冷却时间（ticks），防止循环传送
-	# Default: 100
-	# Range: 0 ~ 72000
-	cooldownTicks = 100
 
 	[dimension_transport.overworldToLoongPalace]
-		#是否启用 主世界 → 龙宫 的传送
-		enabled = true
-		#触发传送的 Y 轴高度（玩家 Y > 此值时传送）
-		# Default: 8848
-		# Range: -4064 ~ 100000
-		triggerY = 10000
-		#目标维度 ID
-		targetDimension = "beloong:loong_palace"
-		#目标固定 X 坐标
+		#龙宫侧落点的固定 X 坐标
+		#本节的三个值只描述「其他世界 → 龙宫」的落点；触发方式由技能或传送门方块决定。
 		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetX = 0.5
-		#目标固定 Z 坐标
+		#龙宫侧落点的固定 Z 坐标
 		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetZ = 0.5
-		#高度图查找失败（落点区块未加载）时的回退 Y 坐标；龙宫落点地表实测为 Y=64.0。
-		#旧存档若已被写成 64.5，需手动改为 65.0——默认值只在首次生成配置时生效，不会覆盖已有值。
+		#高度图取不到落点时的兜底 Y 坐标（龙宫是纯虚空维度，该列没有方块，
+		#因此高度图必然取不到——实际落点恒为该值）。
 		# Default: 65.0
 		# Range: -2032.0 ~ 2032.0
 		fallbackY = 65.0
 
-	[dimension_transport.loongPalaceToOverworld]
-		#是否启用 龙宫 → 主世界 的传送
-		enabled = true
-		#触发传送的 Y 轴高度（玩家 Y < 此值时传送）
-		# Default: 0
-		# Range: -2032 ~ 2032
-		triggerY = 0
-
 [disaster_portal]
 	#激活传送门所需的 12 种眼球物品 ID（顺序可任意）
 	eyeItems = ["minecraft:ender_eye", "cataclysm:mech_eye", "cataclysm:flame_eye", "cataclysm:void_eye", "cataclysm:monstrous_eye", "cataclysm:abyss_eye", "cataclysm:desert_eye", "cataclysm:cursed_eye", "cataclysm:storm_eye", "fdbosses:eye_of_chesed", "fdbosses:eye_of_malkuth", "fdbosses:eye_of_geburah"]
-	#传送冷却时间（ticks），防止循环传送
-	# Default: 100
-	# Range: 0 ~ 72000
-	teleportCooldownTicks = 100
 
 [structure_effects]
 	#需要监听过期/移除事件的药水效果ID列表

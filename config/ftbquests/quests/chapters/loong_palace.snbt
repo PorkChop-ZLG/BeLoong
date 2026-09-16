@@ -65,6 +65,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "3D66D6D8638FE356"
@@ -375,7 +376,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["48D785889A3C35A3"]
+			dependencies: [
+				"48D785889A3C35A3"
+				"3C1132797D408E77"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "dragonsurvival:elder_dragon_bone"
 			}
@@ -954,8 +959,18 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["294DCB1F2F69927E"]
-			icon_scale: 1.5d
+			dependencies: [
+				"294DCB1F2F69927E"
+				"4E9FFC41AF8A07FB"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
 			id: "51CE47B1ADD35248"
 			rewards: [
 				{
@@ -982,12 +997,13 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "none"
 			size: 2.0d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "035CE1D2808F82F6"
-				type: "dimension"
+				advancement: "beloong:beloong/adventure_begins"
+				criterion: ""
+				id: "49B6734E8003AC8C"
+				type: "advancement"
 			}]
 			x: 36.0d
 			y: 0.0d
