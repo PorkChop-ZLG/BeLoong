@@ -1,5 +1,5 @@
 {
-  "parent": "beloong:beloong/root",
+  "parent": "beloong:beloong/item_restriction",
   "criteria": {
     "wind_breath": {
       "conditions": {

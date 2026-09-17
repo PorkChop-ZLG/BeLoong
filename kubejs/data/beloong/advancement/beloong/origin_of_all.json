@@ -1,5 +1,5 @@
 {
-  "parent": "beloong:beloong/root",
+  "parent": "beloong:beloong/adventure_begins",
   "criteria": {
     "get_logs": {
       "conditions": {

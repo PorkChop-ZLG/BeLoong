@@ -1,0 +1,40 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "find_wrought_chamber": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "mowziesmobs:wrought_chamber"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/wrought_chamber"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/wrought_chamber.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "mowziesmobs:wrought_axe"
+    }
+  },
+  "requirements": [
+    [
+      "find_wrought_chamber"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

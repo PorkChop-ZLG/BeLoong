@@ -1268,6 +1268,9 @@
 			size: 2.35d
 			tasks: [{
 				dimension: "minecraft:overworld"
+				icon: {
+					id: "beloong:loong_palace_portal"
+				}
 				id: "5AD856A605C6CD01"
 				type: "dimension"
 			}]
@@ -1367,8 +1370,8 @@
 				id: "04DB06B7D7A9C267"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6588C404E5712724"]
@@ -1433,8 +1436,8 @@
 		}
 		{
 			dependencies: [
-				"394AD1DCB885B429"
 				"48735D8735398D7A"
+				"6588C404E5712724"
 			]
 			dependency_requirement: "one_completed"
 			icon: {
@@ -1455,6 +1458,23 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7829143986F40749"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+							"minecraft:repair_cost": 1
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:wooden_shovel"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
 			tasks: [{
@@ -1467,6 +1487,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["384B6CDEB088679E"]
 			id: "2F808021ED569F24"
 			rewards: [
 				{
@@ -1506,6 +1527,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2F808021ED569F24"]
 			icon: {
 				id: "minecraft:trial_spawner"
 			}
@@ -1593,6 +1615,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5C9117C50CAA9789"]
 			id: "7B5A17E27853751F"
 			rewards: [
 				{
@@ -1608,13 +1631,91 @@
 					}
 					type: "item"
 				}
+				{
+					count: 3
+					id: "5C7E5E407C267A8F"
+					item: {
+						count: 1
+						id: "minecraft:ominous_trial_key"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "38E5DA7F400E3F0B"
-				item: { count: 1, id: "minecraft:ominous_trial_key" }
-				type: "item"
+				advancement: "minecraft:adventure/revaulting"
+				criterion: ""
+				id: "214AD4149DB25D08"
+				type: "advancement"
 			}]
 			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7B5A17E27853751F"
+				"384B6CDEB088679E"
+			]
+			icon: {
+				id: "minecraft:mace"
+			}
+			id: "50F0679111551BC1"
+			rewards: [
+				{
+					id: "35350F93AF011517"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0249FF90BE8147CD"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A21A2F327A6AA0B"
+					item: {
+						count: 1
+						id: "minecraft:wind_charge"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4C53849F05ABEC6F"
+				item: { count: 1, id: "minecraft:mace" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			id: "495698FD506A217F"
+			rewards: [
+				{
+					id: "358B617EE4D40516"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62755F1079C8C3D7"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17AA318BC9DA8109"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 17.5d
 			y: 0.0d
 		}
 	]
