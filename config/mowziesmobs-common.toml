@@ -11,7 +11,7 @@
 		suns_blessing_duration = 60
 		# Default: 1.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		suns_blessing_attack_multiplier = 1.0
+		suns_blessing_attack_multiplier = 10.0
 		#Cost in minutes of using the solar beam ability.
 		# Default: 5
 		# Range: > 0

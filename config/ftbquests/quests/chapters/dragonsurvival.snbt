@@ -1350,8 +1350,8 @@
 				id: "04DB06B7D7A9C267"
 				type: "advancement"
 			}]
-			x: 29.5d
-			y: 8.0d
+			x: 36.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6588C404E5712724"]
@@ -2027,6 +2027,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "44B4084926AFB063"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "mowziesmobs:sneak_grove"
@@ -2051,6 +2060,14 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "76F4A0408C41EC77"
+					item: {
+						count: 1
+						id: "mowziesmobs:naga_fang"
 					}
 					type: "item"
 				}
@@ -2103,6 +2120,163 @@
 				type: "advancement"
 			}]
 			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BC413965BB28310"]
+			icon: {
+				id: "mowziesmobs:sculptor_staff"
+			}
+			id: "622F037A87E0907A"
+			rewards: [
+				{
+					id: "6490BBE153BA677F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7668D21504122451"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/monastery"
+				criterion: ""
+				id: "114E019727E06FDF"
+				type: "advancement"
+			}]
+			x: 37.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "beloong:textures/mob_effect/flight_ban.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "434CBE74ED3531E4"
+			rewards: [
+				{
+					id: "091AF73A456D8E2D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50D6D0A3CFE2F7A0"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "beloong:beloong/flight_ban"
+				criterion: ""
+				id: "22A610EEDCB5B952"
+				type: "advancement"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["434CBE74ED3531E4"]
+			id: "675A7E2D68EAA2F9"
+			rewards: [
+				{
+					id: "6CBB6BDFC830C8F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "76DB0089769BBDBE"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "33D932D69729BA94"
+					item: {
+						count: 1
+						id: "mowziesmobs:bluff_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "mowziesmobs:kill_bluff"
+				criterion: ""
+				id: "183148F578790838"
+				type: "advancement"
+			}]
+			x: 41.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"675A7E2D68EAA2F9"
+				"6BC413965BB28310"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "mowziesmobs:earthrend_gauntlet"
+			}
+			id: "7311C2E64E62F173"
+			rewards: [
+				{
+					id: "0EC9534A1EB4575C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "336E8FAA2831AE66"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "100527E9D57F1A02"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "mowziesmobs:sculptor_challenge"
+					criterion: ""
+					id: "116B0498F6F72CB6"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "5691234C569F034F"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 43.0d
 			y: 0.0d
 		}
 	]
