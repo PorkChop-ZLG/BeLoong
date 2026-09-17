@@ -1,7 +1,7 @@
 {
-  "parent": "beloong:beloong/root",
+  "parent": "beloong:beloong/umvuthana_grove",
   "criteria": {
-    "find_wrought_chamber": {
+    "find_monastery": {
       "conditions": {
         "player": [
           {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "mowziesmobs:wrought_chamber"
+                "structures": "mowziesmobs:monastery"
               }
             }
           }
@@ -20,20 +20,20 @@
   },
   "display": {
     "title": {
-      "translate": "beloong.advancement.beloong/wrought_chamber"
+      "translate": "beloong.advancement.beloong/monastery"
     },
     "description": {
-      "translate": "beloong.advancement.beloong/wrought_chamber.desc"
+      "translate": "beloong.advancement.beloong/monastery.desc"
     },
     "frame": "task",
     "icon": {
       "count": 1,
-      "id": "mowziesmobs:wrought_axe"
+      "id": "mowziesmobs:sand_rake"
     }
   },
   "requirements": [
     [
-      "find_wrought_chamber"
+      "find_monastery"
     ]
   ],
   "rewards": {

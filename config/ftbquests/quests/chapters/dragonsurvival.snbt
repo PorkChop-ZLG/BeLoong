@@ -360,8 +360,8 @@
 				id: "6B2D8CA1DC528079"
 				type: "advancement"
 			}]
-			x: 9.0d
-			y: 2.5d
+			x: 26.5d
+			y: 8.0d
 		}
 		{
 			hide_lock_icon: true
@@ -399,28 +399,8 @@
 				structure: "dragonsurvival:dragon_hunters_castle"
 				type: "structure"
 			}]
-			x: 28.5d
-			y: 0.0d
-		}
-		{
-			dependency_requirement: "one_started"
-			icon: {
-				id: "explorerscompass:explorerscompass"
-			}
-			id: "24473ACF6BA65B65"
-			rewards: [{
-				id: "14AD7260230ABF42"
-				type: "xp"
-				xp: 100
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "3A8A86E87BBFA2EC"
-				item: { count: 1, id: "explorerscompass:explorerscompass" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.0d
+			x: 14.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7EB346A1790BD94B"]
@@ -446,8 +426,8 @@
 				item: { count: 1, id: "dragonsurvival:hunter_key" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 0.0d
+			x: 17.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7EB346A1790BD94B"]
@@ -473,8 +453,8 @@
 				item: { count: 1, id: "dragonsurvival:dark_key" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: -2.0d
+			x: 17.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7EB346A1790BD94B"]
@@ -500,8 +480,8 @@
 				item: { count: 1, id: "dragonsurvival:light_key" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 2.0d
+			x: 17.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -523,8 +503,8 @@
 				id: "3DAFC5DD42B0DE04"
 				type: "checkmark"
 			}]
-			x: 28.5d
-			y: -2.0d
+			x: 14.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7669BD22EB40BE98"]
@@ -565,8 +545,8 @@
 				item: { count: 1, id: "dragonsurvival:dragon_hunter_sword" }
 				type: "item"
 			}]
-			x: 33.5d
-			y: 0.0d
+			x: 19.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["69C53D16FB6FCEF5"]
@@ -598,8 +578,8 @@
 				item: { count: 1, id: "dragonsurvival:dark_upgrade" }
 				type: "item"
 			}]
-			x: 33.5d
-			y: -2.0d
+			x: 19.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4AE7B82C02B26C16"]
@@ -631,8 +611,8 @@
 				item: { count: 1, id: "dragonsurvival:light_upgrade" }
 				type: "item"
 			}]
-			x: 33.5d
-			y: 2.0d
+			x: 19.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["65DF9D6C0D5E7583"]
@@ -664,8 +644,8 @@
 				id: "4601F93975A67D7A"
 				type: "advancement"
 			}]
-			x: 35.0d
-			y: 3.5d
+			x: 21.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0105D9B7766A1BA4"]
@@ -697,8 +677,8 @@
 				id: "30BBB79DC1C5A385"
 				type: "advancement"
 			}]
-			x: 35.0d
-			y: -3.5d
+			x: 21.0d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -727,8 +707,8 @@
 				structure: "dragonsurvival:treasure_end"
 				type: "structure"
 			}]
-			x: 38.0d
-			y: 0.0d
+			x: 24.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -758,8 +738,8 @@
 					type: "item"
 				}
 			]
-			x: 38.0d
-			y: 2.0d
+			x: 24.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["186EDCECB309BC44"]
@@ -920,8 +900,8 @@
 				item: { count: 1, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
-			x: 28.5d
-			y: 2.0d
+			x: 14.5d
+			y: 9.0d
 		}
 		{
 			id: "52760593973916B2"
@@ -1219,7 +1199,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["75BFB4E20D3E76DC"]
@@ -1370,8 +1350,8 @@
 				id: "04DB06B7D7A9C267"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 29.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6588C404E5712724"]
@@ -1655,6 +1635,7 @@
 				"7B5A17E27853751F"
 				"384B6CDEB088679E"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "minecraft:mace"
 			}
@@ -1694,6 +1675,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["50F0679111551BC1"]
 			id: "495698FD506A217F"
 			rewards: [
 				{
@@ -1709,6 +1691,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "059840268F5A8335"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_night_vision"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "17AA318BC9DA8109"
@@ -1716,6 +1711,398 @@
 				type: "item"
 			}]
 			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["495698FD506A217F"]
+			id: "0F4895082ED58187"
+			rewards: [
+				{
+					id: "2392CFA73B47D521"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F574B66455902EA"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "6E8717852E53CF59"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_leaping"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/wrought_chamber"
+				criterion: ""
+				id: "1098FFBAE1635FEE"
+				type: "advancement"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F4895082ED58187"
+				"50F0679111551BC1"
+			]
+			dependency_requirement: "one_completed"
+			id: "56602E5649F698B0"
+			rewards: [
+				{
+					id: "637BA6E17E999014"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2999E97479984541"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "0131642B24894258"
+					item: {
+						count: 1
+						id: "minecraft:diamond_sword"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "2A3103AE883190AF"
+				type: "advancement"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56602E5649F698B0"]
+			id: "2DF95D86E465FD5A"
+			rewards: [
+				{
+					id: "1D3FDFC8B9D80652"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "493E817A87199BFF"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "7B87E40DCAA64A0B"
+					item: {
+						count: 1
+						id: "mowziesmobs:captured_grottol"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "boss_respawner:boss_respawner"
+				}
+				id: "61DDD9129D967DE7"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "boss_respawner:boss_respawner"
+				type: "observation"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DF95D86E465FD5A"]
+			icon: {
+				id: "tundradragon:infused_ice_crystal"
+			}
+			id: "613A7A035C752DD3"
+			rewards: [
+				{
+					id: "5DC4941977302BF3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7911FCF69C3F0434"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "357327A02E7A3E63"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_invisibility"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/frostmaw_spawn"
+				criterion: ""
+				id: "055E14693BB5FB28"
+				type: "advancement"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5D43D87C46BA7F7C"
+				"56602E5649F698B0"
+			]
+			dependency_requirement: "one_completed"
+			id: "03543491BD9D3C04"
+			rewards: [
+				{
+					id: "313A81DF28DA2B30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5488A5A4BEE594B2"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3AA07123ABE89FEB"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "3ADEC9B024CBC6BD"
+				type: "advancement"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["613A7A035C752DD3"]
+			hide_details_until_startable: false
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:long_invisibility"
+					}
+				}
+				id: "minecraft:potion"
+			}
+			id: "5D43D87C46BA7F7C"
+			rewards: [
+				{
+					id: "12F5398E3E81C974"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3EB3DAF3A353AEBA"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "7F17A7D799EFC132"
+					item: {
+						count: 1
+						id: "mowziesmobs:glowing_jelly"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mowziesmobs:steal_ice_crystal"
+					criterion: ""
+					id: "45B06608C75B1EC0"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					id: "2C1F891E7FC0CE52"
+					item: { count: 1, id: "mowziesmobs:ice_crystal" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03543491BD9D3C04"]
+			icon: {
+				id: "regions_unexplored:baobab_sapling"
+			}
+			id: "5C27B56FBEC74CCC"
+			rewards: [
+				{
+					id: "758BDE56B0EB1AEE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18E1B1BA6957787F"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "4AA69944AC506FF5"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_faith"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/umvuthana_grove"
+				criterion: ""
+				id: "3C30EE80620792DA"
+				type: "advancement"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C27B56FBEC74CCC"]
+			id: "5DBE013E4CF0A6B2"
+			rewards: [
+				{
+					id: "530CA0D984119E5E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "475B2CB587F36828"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "mowziesmobs:sneak_grove"
+				criterion: ""
+				id: "75B25D865640CF33"
+				type: "advancement"
+			}]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DBE013E4CF0A6B2"]
+			id: "5130F25C6849C219"
+			rewards: [
+				{
+					id: "476EA05FA9650C9B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A68DCE79D225B55"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+				id: "0154C5A68C647323"
+				type: "advancement"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5130F25C6849C219"
+				"03543491BD9D3C04"
+			]
+			dependency_requirement: "one_completed"
+			id: "6BC413965BB28310"
+			rewards: [
+				{
+					id: "54A1CB902DBAFAB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2AA68C2CC0DAA90C"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2E756A9411E6B55B"
+					item: {
+						count: 1
+						id: "mowziesmobs:grant_suns_blessing"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "3C3FD61F7226BBAE"
+				type: "advancement"
+			}]
+			x: 35.0d
 			y: 0.0d
 		}
 	]

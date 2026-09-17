@@ -196,6 +196,9 @@
 	]
 	quest.03300B3D470F9B73.quest_subtitle: "网络音乐机"
 	quest.033C8C16CABE2ACE.title: "击杀：冰晶核"
+	quest.03543491BD9D3C04.quest_desc: ["&6任务：击败霜冻巨兽"]
+	quest.03543491BD9D3C04.quest_subtitle: "就欺负你不能飞"
+	quest.03543491BD9D3C04.title: "&b&l霜冻巨兽"
 	quest.036BAD83C2057F52.quest_subtitle: "★★★★★"
 	quest.036BAD83C2057F52.title: "传奇怪物：湮灭构造体"
 	quest.0382B5B420BB05A4.quest_desc: ["&6任务：击败紫颂灵"]
@@ -592,6 +595,18 @@
 	]
 	quest.0F2271A7D264E7F3.quest_subtitle: "丧钟为谁而鸣？"
 	quest.0F2271A7D264E7F3.title: "&l&5第二章 下篇·终焉"
+	quest.0F4895082ED58187.quest_desc: [
+		"&6任务：找到锻造室"
+		""
+		"在主世界地底，遍布着&c洞穴龙&r一族建造的&e锻造室&r，曾源源不断地为龙族锻造&e沉重核心&r，可如今被人类占据了。"
+		""
+		"人类占领锻造室后，派遣重兵把守，以及一位令龙闻风丧胆的首领——&c钢铁守护者&r。"
+		""
+		"你的任务，是&6夺回龙族的锻造室&r。一定要万分小心，这个地方非常难打。"
+		"{image:beloong:textures/quests/wrought_chamber.png width:200 height:120 align:center}"
+	]
+	quest.0F4895082ED58187.quest_subtitle: "收复失地"
+	quest.0F4895082ED58187.title: "锻造室"
 	quest.0F4C981910BE7936.quest_subtitle: "“三杯不过乡”"
 	quest.0FB3F40215AD09FA.quest_desc: [
 		"&6任务：找到沙虫巢穴"
@@ -1292,11 +1307,12 @@
 		"{@pagebreak}"
 		"&l&d攻略"
 		"&c钢铁守护者常态下免疫一切攻击！"
-		"有时钢铁守护者会把巨斧举过头顶，约1秒之后竖劈。竖劈后钢铁守护者的巨斧会砍进地面卡住，2秒内钢铁守护者将试图拔出巨斧。"
-		"此时钢铁守护者&e弱点暴露，整个身后解除无敌，攻击背部可以造成伤害！"
-		"此时是伤害钢铁守护者的唯一机会，&c但只能造成单次伤害&r。成功伤害之后钢铁守护者将会硬直约1秒。"
 		""
-		"&o&7可以通过法术“天坠冲击”直接造成伤害。"
+		"有时钢铁守护者会把巨斧举过头顶，约1秒之后竖劈。竖劈后钢铁守护者的巨斧会砍进地面卡住，2秒内钢铁守护者将试图拔出巨斧。"
+		""
+		"此时钢铁守护者&e弱点暴露&r，整个身后解除无敌，&e攻击背部&r可以造成伤害，但只能造成单次伤害。成功伤害之后钢铁守护者将会硬直约1秒。"
+		""
+		"&e『&6化龍&e』&a特色魔改&r：使用&e重锤&r可以无视无敌效果，对钢铁守护者&e直接造成伤害&r！"
 	]
 	quest.228A2960FA4D62F7.quest_subtitle: "★"
 	quest.228A2960FA4D62F7.title: "Mowzie的生物：钢铁守护者"
@@ -1332,16 +1348,6 @@
 	quest.2382792253556556.quest_subtitle: "&5&l「末」&r&d龙族的长公主?"
 	quest.2382792253556556.title: "第一幕：苏醒"
 	quest.23B15DCACE72783B.quest_subtitle: "醉意朦胧"
-	quest.24473ACF6BA65B65.quest_desc: [
-		"&6任务：合成结构罗盘"
-		""
-		"&e结构罗盘&6可以帮你定位各种&2结构&6，"
-		"&6可谓是本整合包最实用的工具。"
-		"&6结构罗盘中的&c所有结构&6已完成&e汉化&6，"
-		"&6你只要搜索&2【模组名】&6或者&2结构中文名&6即可查询，"
-		"&6实在搜不到再使用英文。"
-	]
-	quest.24473ACF6BA65B65.quest_subtitle: "真·最强神器"
 	quest.246AF6AE22BD5403.quest_desc: [
 		"&6空手Shift右键绑定到当前玩家所在的维度网络。维度网络管理员空手Shift右键可取消绑定。"
 		""
@@ -1558,6 +1564,17 @@
 	quest.2D1C583D847AA0B2.quest_subtitle: "这个演出动画有点帅啊"
 	quest.2D1C583D847AA0B2.title: "&l&3冥界骑士"
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "梦幻如泡沫"
+	quest.2DF95D86E465FD5A.quest_desc: [
+		"&6任务：观察Boss重生笼"
+		""
+		"部分强大的Boss死后，会留下&eBoss重生笼&r。使用与Boss息息相关的物品 &d【右键】&rBoss重生笼，可以复活Boss。"
+		""
+		"传闻，这是来自地狱的邪恶囚笼，当强者死后，其灵魂会被封印在笼子当中，等待后人唤醒。Boss重生笼&e坚不可摧&r，龙族至今无法掌握其中的奥秘。"
+		""
+		"&c钢铁守护者&r常年镇守地底，只有&a岩壳居蟹&r与他作伴。你可以用&e捕获的岩壳居蟹&r，将其复活。但是我劝你不要这么做，除非你还没打过瘾。"
+	]
+	quest.2DF95D86E465FD5A.quest_subtitle: "这是灵魂的囚笼"
+	quest.2DF95D86E465FD5A.title: "Boss重生笼"
 	quest.2E45C77DBA83582F.quest_desc: ["&6任务：将金锭丢给猪灵进行交易"]
 	quest.2E45C77DBA83582F.title: "猪灵交易"
 	quest.2E6A1BFF333127EA.quest_subtitle: "死者之王小概率掉落"
@@ -1948,7 +1965,7 @@
 		""
 		"考虑到这是你的第一次实战，&a注意安全，小龙&r。"
 	]
-	quest.384B6CDEB088679E.quest_subtitle: "龙宫的全球卫星导航"
+	quest.384B6CDEB088679E.quest_subtitle: "在地底先练起来"
 	quest.384B6CDEB088679E.title: "试炼密室"
 	quest.3859C3FFB6F2C61B.quest_desc: [
 		"&6任务：完成主线【龙之生存】或番外篇【铁魔法】"
@@ -2507,8 +2524,7 @@
 		"拿着&e结构罗盘&r按&d【右键】&r使用，在最顶上的&e搜索框&r里输入目标的名字。选中列表中的结构，点击&a搜索框左边的按钮&r，可以&b预览目标建筑&r。点击&e搜索&r按钮，会自动寻找离你最近的目标结构。如果搜到的结构不满意，可以点击&e搜索下一个&r。"
 		""
 		"尝试搜索 &9&n锻造室&r &r，这是你接下来需要探索的地方。"
-		""
-		"{image:beloong:textures/quests/use_compass.png width:200 height:112 align:center}"
+		"{image:beloong:textures/quests/use_compass.png width:200 height:120 align:center}"
 	]
 	quest.495698FD506A217F.quest_subtitle: "最实用的工具"
 	quest.49E035E1CB353C48.quest_subtitle: "成长到成年龙阶段"
@@ -2821,6 +2837,17 @@
 	quest.50F0679111551BC1.quest_subtitle: "龙族专武"
 	quest.50F0679111551BC1.title: "&d&l重锤"
 	quest.51238BE8AF0EA852.title: "打卡：远古城市"
+	quest.5130F25C6849C219.quest_desc: [
+		"&6任务：获得太阳祝福，使用太阳技能"
+		""
+		"坐在宝座上的那只大肥鸟，显然也把你当成信徒了。把前面任务我送你的&e金块&r拿出来，和&e太阳鸟&r交易&e太阳祝福&r，顺便多白嫖几次。"
+		""
+		"获得太阳祝福后，你可以&a施展一系列技能&r。不过都是雷声大雨点小，&b没什么伤害&r，图一乐就行。"
+		""
+		"你一会把这只对龙族大不敬的太阳鸟宰了，我送你真正的太阳之力。"
+	]
+	quest.5130F25C6849C219.quest_subtitle: "最帅的特效，最刮的伤害"
+	quest.5130F25C6849C219.title: "太阳祝福"
 	quest.5137133EEAA60C15.quest_subtitle: "店家！上最贵的菜！"
 	quest.513C98D0E44293EA.quest_desc: [
 		"&6任务：成长到始祖龙阶段，击败黑暗二重身"
@@ -3023,6 +3050,21 @@
 		"&6另外，你还需要制作菜品对应的厨具，可在配发中查看&r&r&r"
 	]
 	quest.564CE7EE150DBED0.quest_subtitle: "烹饪必备"
+	quest.56602E5649F698B0.quest_desc: [
+		"&6任务：击败钢铁守护者"
+		""
+		"人类学习了锻造室里的技术，锻造出了&e坚不可摧&r的盔甲，培养出了&e刀枪不入&r的&c钢铁守护者&r，镇守着地底。"
+		""
+		"&c钢铁守护者&r常年处于沉睡中，只有敌人来犯时才会苏醒。他手持战斧，攻击大开大合，伤害高的离谱。"
+		""
+		"人类为了控制钢铁守护者，在他的背后插入了&b钻石剑&r。当他的巨斧嵌入地板之时，&e背后的弱点&r会暴露出来，这是唯一能伤害到他的地方。"
+		""
+		"好在，钝器是盔甲的克星。使用你刚刚获得的&d重锤&r，可以直接对钢铁守护者造成伤害。这就是为什么人类要把重锤藏起来。"
+		""
+		"{ \"text\": \"点我跳转到Boss攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"228A2960FA4D62F7\" } }"
+	]
+	quest.56602E5649F698B0.quest_subtitle: "第一次挑战Boss"
+	quest.56602E5649F698B0.title: "&c&l钢铁守护者"
 	quest.56B33061AF98D6B8.quest_desc: ["&6任务：观察一只冰龙"]
 	quest.56B33061AF98D6B8.quest_subtitle: "了解冰龙习性"
 	quest.56B33061AF98D6B8.title: "观察冰龙"
@@ -3208,6 +3250,19 @@
 	quest.5C0284F1758BA896.quest_subtitle: "★★★★★★"
 	quest.5C0284F1758BA896.title: "灾变：先驱者"
 	quest.5C18A4A80ABB1440.quest_desc: ["&6创建维度网络后，每 10 分钟自然生成一个。"]
+	quest.5C27B56FBEC74CCC.quest_desc: [
+		"&6任务：找到乌姆塔纳村落"
+		""
+		"&2森林龙族&r近期发现，在&2森林龙&r栖息的热带雨林附近，一伙猛禽正在草原上举行神秘的仪式。"
+		""
+		"鸟类本是龙族统治下的一员，现在却敢忤逆龙族，私自拜见偶像，怕是想谋反？！"
+		""
+		"刚好，你从雪地里回来，可以飞去&#FFB857热带草原&r上暖暖身子，顺便调查一下这帮傻鸟在干什么。"
+		""
+		"&9结构罗盘：&b乌姆塔纳村落&r"
+	]
+	quest.5C27B56FBEC74CCC.quest_subtitle: "这里在举行神秘的仪式"
+	quest.5C27B56FBEC74CCC.title: "乌姆塔纳村落"
 	quest.5C54D192CA150300.quest_desc: [
 		"&l&d「雪怪」"
 		"&6生命：&a4000"
@@ -3289,6 +3344,15 @@
 	quest.5CFF88C245EF7BE5.title: "流浪商人"
 	quest.5D37685BFBAB83E4.quest_subtitle: "★★★★★"
 	quest.5D37685BFBAB83E4.title: "传奇怪物：云筑魔像"
+	quest.5D43D87C46BA7F7C.quest_desc: [
+		"&6任务：喝下隐身药水，偷走冰霜结晶"
+		""
+		"&b霜冻巨兽&r抢走了苔原龙族的至宝&b冰霜结晶&r，掌握着恐怖的冰属性魔法，难以抗衡。"
+		""
+		"好在，这货吃饱了就睡。趁它&a睡着时&r，喝下&e隐身药水&r，悄咪咪地靠近，偷走它手中的冰霜结晶。没了冰霜结晶，它的实力会大打折扣。"
+	]
+	quest.5D43D87C46BA7F7C.quest_subtitle: "当一次小偷"
+	quest.5D43D87C46BA7F7C.title: "冰霜结晶"
 	quest.5D56B0917C5223A6.quest_desc: ["&6亲和之戒加上法术卷轴可以在奥术铁砧上敲成对应法术等级加一的戒指"]
 	quest.5D56B0917C5223A6.title: "戒指T0"
 	quest.5D70D6D899218342.quest_desc: ["&6任务：挖掘任意石头，获取圆石"]
@@ -3304,6 +3368,15 @@
 	]
 	quest.5DB104CFE665CC09.quest_subtitle: "打卡6种沙漠生物群系和部分结构"
 	quest.5DB104CFE665CC09.title: "我要穿越这片沙漠"
+	quest.5DBE013E4CF0A6B2.quest_desc: [
+		"&6任务：戴上面具，潜入乌姆塔纳村落"
+		""
+		"你可以在村落里面找到各种各样的&e面具&r。戴上面具后，&e乌姆塔纳族人&r会把你当成朝圣者，不会主动攻击你。"
+		""
+		"如果你实在找不到面具，我在上一个任务为你提前准备好了。可惜这玩意戴在龙的头上，没什么效果。"
+	]
+	quest.5DBE013E4CF0A6B2.quest_subtitle: "视力不好，智力也不太行"
+	quest.5DBE013E4CF0A6B2.title: "潜入村落"
 	quest.5DD97094AAD4DDA2.quest_subtitle: "“性价比之王”"
 	quest.5E5A3F0507EC46D2.quest_desc: ["&6任务：击败无头骑士和复生骑士"]
 	quest.5E5A3F0507EC46D2.title: "双子骑士"
@@ -3386,6 +3459,19 @@
 	quest.606DBF7C67216271.title: "碎裂使徒"
 	quest.60B7FFFA63E2B4B2.title: "冰霜执法者装备"
 	quest.60E6ED7ED056ABDD.title: "护符T2"
+	quest.613A7A035C752DD3.quest_desc: [
+		"&6任务：找到霜冻巨兽的巢穴"
+		""
+		"&c洞穴龙&r的锻造室收回来了，但是&f苔原龙&r的家被占领了。"
+		""
+		"冰天雪地的苔原，曾是&f苔原龙族&r的家园。如今，一种名为&b霜冻巨兽&r的怪物占领了苔原龙的巢穴，在苔原为非作歹，造下无数杀孽。"
+		""
+		"你的任务，是&6找寻霜冻巨兽的巢穴&r，清理掉那帮杂碎。"
+		""
+		"&9结构罗盘：&b霜冻巨兽巢穴&r"
+	]
+	quest.613A7A035C752DD3.quest_subtitle: "冰原上的巨兽"
+	quest.613A7A035C752DD3.title: "霜冻巨兽巢穴"
 	quest.61841B2C10B08D91.quest_desc: [
 		"&6任务：第一行用橙色简述任务的完成目标"
 		""
@@ -3721,6 +3807,8 @@
 	]
 	quest.6BB3E512C48E308C.quest_subtitle: "没财宝的宫殿也叫宫殿？"
 	quest.6BB3E512C48E308C.title: "&1冰川之上的独裁者"
+	quest.6BC413965BB28310.quest_desc: ["&6任务：击败太阳鸟·乌姆武提"]
+	quest.6BC413965BB28310.title: "太阳鸟·乌姆武提"
 	quest.6BD730F6532DEC81.quest_desc: [
 		"&6任务：集齐所有建筑棒"
 		""
@@ -4080,6 +4168,7 @@
 	]
 	quest.75C55E4F8204566A.quest_subtitle: "目标：找到紫水晶巢穴"
 	quest.75C55E4F8204566A.title: "地底避难"
+	quest.75D8AB1B178F5860.title: "我是占位的"
 	quest.75F377E217613AEF.quest_subtitle: "成长到青年龙阶段"
 	quest.75F377E217613AEF.title: "青年海洋龙"
 	quest.760C3E4759FA6815.quest_desc: [

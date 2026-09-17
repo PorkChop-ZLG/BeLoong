@@ -1089,20 +1089,6 @@
 	quest.2382792253556556.quest_subtitle: "&5&l『End』&r&dDragon’s Eldest Princess?"
 	quest.2382792253556556.title: "Act I: Awakening"
 	quest.23B15DCACE72783B.quest_subtitle: "Drunken Haze"
-	quest.24473ACF6BA65B65.quest_desc: [
-		"&aObjective: Craft a Structure Compass"
-		""
-		"&eStructure Compass&6 helps locate various &2structures&6,"
-		"&6one of the most practical tools in this pack."
-		"&6All &cstructures&6 in the Structure Compass are &elocalized&6,"
-		"&6simply search &2[Mod Name]&6 or &2structure Chinese name&6,"
-		"&6if not found, use English."
-		""
-		"&c(Recipe modified: requires Crying Obsidian)"
-		""
-		"&7&oCrying Obsidian is craftable"
-	]
-	quest.24473ACF6BA65B65.quest_subtitle: "True Ultimate Artifact"
 	quest.246AF6AE22BD5403.quest_desc: [
 		"&6Shift-right-click empty-handed to bind to the current Dimension Network. Admins can unbind similarly."
 		""
