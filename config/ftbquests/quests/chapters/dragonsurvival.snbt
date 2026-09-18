@@ -1775,10 +1775,11 @@
 					type: "item"
 				}
 				{
-					id: "0131642B24894258"
+					count: 8
+					id: "79D87385C1951201"
 					item: {
 						count: 1
-						id: "minecraft:diamond_sword"
+						id: "minecraft:iron_block"
 					}
 					type: "item"
 				}
@@ -2142,6 +2143,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "76CB1CF20DC8DFC4"
+					item: {
+						count: 1
+						id: "mowziesmobs:gong"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "beloong:beloong/monastery"
@@ -2173,6 +2182,19 @@
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "094AD344DD897AA2"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_leaping"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
 					}
 					type: "item"
 				}

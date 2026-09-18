@@ -4130,7 +4130,7 @@
 		""
 		"{ \"text\": \"点我跳转到Boss攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D88CFA0D4618ECB\" } }"
 	]
-	quest.7311C2E64E62F173.quest_subtitle: "你喜欢跑酷吗？"
+	quest.7311C2E64E62F173.quest_subtitle: "被收买了，很容易通关"
 	quest.7311C2E64E62F173.title: "&l&#935427雕刻家·通臂大师"
 	quest.731F9BC680E3927E.quest_subtitle: "无尽的法力"
 	quest.7332CD16CC158C56.quest_desc: [
