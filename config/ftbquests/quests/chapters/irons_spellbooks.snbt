@@ -46,42 +46,6 @@
 			x: 9.0d
 			y: 2.0d
 		}
-		{
-			height: 32.0d
-			id: "2E4BA2F00979BCDA"
-			image: "kubejs:textures/task/scroll_background_01.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: -27.0d
-			y: -13.5d
-		}
-		{
-			height: 32.0d
-			id: "32B449D1F9279257"
-			image: "kubejs:textures/task/scroll_background_02.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: 27.5d
-			y: -13.5d
-		}
-		{
-			height: 32.0d
-			id: "6D44DA80549F6F9C"
-			image: "kubejs:textures/task/scroll_background_03.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: -27.0d
-			y: 13.89d
-		}
-		{
-			height: 32.0d
-			id: "11C431AEA7C8612B"
-			image: "kubejs:textures/task/scroll_background_04.png"
-			rotation: 0.0d
-			width: 64.0d
-			x: 27.5d
-			y: 13.89d
-		}
 	]
 	order_index: 7
 	quest_links: [ ]

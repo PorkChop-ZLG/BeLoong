@@ -1914,6 +1914,17 @@
 	quest.37A6F13A2D3EF905.quest_subtitle: "雀跃尽醉欢"
 	quest.37B91353A61136FB.quest_subtitle: "桂花香"
 	quest.37BC039A5B650EF7.title: "暗影行者装备"
+	quest.37C0B0A9D63B5FC9.quest_desc: [
+		"&6任务：找到地下墓穴"
+		""
+		"人类的突然崛起，让龙族百思不得其解。直到&eBoss重生笼&r的出现，事情有了眉目。"
+		""
+		"人类掌握了&c禁忌的猩红法术&r，与地狱的恶魔达成了某些交易。而这一切，都指向一位&e死去的人类国王&r。"
+		""
+		"国王死后埋葬在&e地下墓穴&r中，无数的亡灵为他守陵。地下墓穴设置有&c禁空法阵&r，龙族难以飞行。墓穴中也藏着许多宝贝，你可以先去盗墓。"
+	]
+	quest.37C0B0A9D63B5FC9.quest_subtitle: "死亡亦是归途"
+	quest.37C0B0A9D63B5FC9.title: "地下墓穴"
 	quest.37D854A4A8F97409.title: "阴阳师武器"
 	quest.37DD5B8A42ABC578.quest_desc: [
 		"&l&d「末影龙」"
@@ -3438,6 +3449,15 @@
 	]
 	quest.5EB5DB20B9FBF372.quest_subtitle: "我记得不长这样啊"
 	quest.5EB5DB20B9FBF372.title: "下界要塞"
+	quest.5EC260A741C9A138.quest_desc: [
+		"&6任务：击败10只僵尸"
+		""
+		"&2僵尸&r是最常见的亡灵生物，主世界的夜晚就会大量生成。僵尸是人类死后变成的，而这正是拜那位&e死者之王&r所赐。"
+		""
+		"那位国王，曾使用禁忌魔法，把战场上阵亡的人类变成僵尸。无穷无尽的尸海让龙族疲于招架，无奈退走；而那位国王也遭受诅咒，死后灵魂不得安宁，被永远困在&e地下墓穴&r之中。"
+	]
+	quest.5EC260A741C9A138.quest_subtitle: "最常见的亡灵生物"
+	quest.5EC260A741C9A138.title: "僵尸"
 	quest.5EE6DC4771476CC8.quest_subtitle: "“异格威士忌”"
 	quest.5F710FD97963CF8F.title: "牧师装备"
 	quest.5FAA8786ABA8BF94.quest_desc: [
@@ -3655,6 +3675,13 @@
 	quest.6344D6B5AEC69478.title: "&d&l终末星光"
 	quest.634C5657E921C26C.quest_subtitle: "提交海洋龙的所有专属食物"
 	quest.634C5657E921C26C.title: "海洋龙的美食"
+	quest.639FD9A4833A9854.quest_desc: [
+		"&6任务：击败死者之王"
+		""
+		"&#8242FF死者之王"
+	]
+	quest.639FD9A4833A9854.quest_subtitle: "亡灵生物的源头"
+	quest.639FD9A4833A9854.title: "&l&#8242FF死者之王"
 	quest.63A49F8C690FD884.quest_desc: ["&6任务：获得巨寒之霜和霜冻之盾"]
 	quest.63A49F8C690FD884.title: "霜冻套装"
 	quest.63DB1E9C5C2FDC80.quest_desc: [
@@ -3775,6 +3802,15 @@
 	quest.675B09EF31EDCEA1.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300B6A5EADD11286\" } }"]
 	quest.675B09EF31EDCEA1.quest_subtitle: "击杀远古遗魂，提交其掉落物"
 	quest.675B09EF31EDCEA1.title: "铸就风之龙躯"
+	quest.676F79FA81CFA979.quest_desc: [
+		"&6任务：击败一个诅咒盔甲架"
+		""
+		"&e地下墓穴&r的核心区域，两侧陈列着一些盔甲架。&e死者之王&r的诅咒使盔甲架活化，和僵尸一起守卫墓穴。"
+		""
+		"&f诅咒盔甲架&r是&9中立生物&r，不会主动攻击你。"
+	]
+	quest.676F79FA81CFA979.quest_subtitle: "别被外形骗了"
+	quest.676F79FA81CFA979.title: "诅咒盔甲架"
 	quest.6796172A3CF129FB.quest_desc: [
 		"&6任务：获得盔甲架并学会使用"
 		""
@@ -3805,6 +3841,18 @@
 	quest.68A904F25FFE8956.quest_subtitle: "★★★"
 	quest.68A904F25FFE8956.title: "暮色森林：暮初恶魂"
 	quest.68F38201DF496DA9.quest_subtitle: "无尽的法力"
+	quest.69318A9BF197DF2A.quest_desc: [
+		"&6任务：合成破法者，学会使用法术反制"
+		""
+		"人类的魔法与龙族不同，被称作&d铁魔法&r。龙族的魔法与生俱来，人类的魔法需要后天修炼。&a龙族&r也能使用人类的&d铁魔法&r。"
+		""
+		"在与人类法师的战斗中，龙族研究出了&b破法者&r。&b破法者&r内部刻印了&b法术反制&r，可以破除一部分人类的铁魔法。"
+		""
+		"爪持破法者按&d【V】&r键，射出看不清的符文射线，可以&a清除法术构造物&r。"
+		""
+		"有了破法者，你面对&e死者之王&r时，可以稍微轻松一点。"
+	]
+	quest.69318A9BF197DF2A.quest_subtitle: "宣布你的法术无效"
 	quest.69BE2E1BCBE71766.title: "魔法书T0"
 	quest.69C53D16FB6FCEF5.quest_desc: [
 		"&6任务：击败公会骑士，获得黯影之钥。"
@@ -4628,6 +4676,7 @@
 	task.62C9922C91FF91A7.title: "碎裂者"
 	task.631C1C4C72BA8B9A.title: "抵达天际征服者战舰"
 	task.6842523920A24ED2.title: "抵达诅咒花园"
+	task.73940669A686A5B4.title: "僵尸"
 	task.7B72722ECA137F18.title: "见证流星落下"
 	task.7DD9CC7C0FBA7BE4.title: "制作魔法地图"
 }

@@ -2301,5 +2301,249 @@
 			x: 43.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7311C2E64E62F173"]
+			icon: {
+				id: "irons_spellbooks:wayward_compass"
+			}
+			id: "37C0B0A9D63B5FC9"
+			rewards: [
+				{
+					id: "64FC90ABD1793182"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F57A0143B263FE1"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "70D66FDD67320282"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+				criterion: ""
+				id: "205C52BFDC8893A9"
+				type: "advancement"
+			}]
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37C0B0A9D63B5FC9"]
+			id: "5EC260A741C9A138"
+			rewards: [
+				{
+					id: "70FBB60FDB37F5F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "352F7610FD391150"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "0D43E60C263E5BE9"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A814EF696B8D715"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "73940669A686A5B4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 46.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37C0B0A9D63B5FC9"]
+			id: "676F79FA81CFA979"
+			rewards: [
+				{
+					id: "06E55BCED709AD7F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4DF8D151B3C6E7E9"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "282B2D8D949C8EFC"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2089C47036FE8ECA"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:cursed_armor_stand"
+				icon: {
+					id: "minecraft:armor_stand"
+				}
+				id: "09822A06B0A3A44B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 46.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5EC260A741C9A138"
+				"676F79FA81CFA979"
+			]
+			id: "69318A9BF197DF2A"
+			rewards: [
+				{
+					id: "6EF1B4903F0F3CEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "284DAE77197887C9"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "7ACB5A88C2EF459E"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dead_king_phylactery"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "099CD1CDC89661D1"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:dead_king_phylactery"
+			}
+			id: "639FD9A4833A9854"
+			rewards: [
+				{
+					id: "2C54024AC4D35C95"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F3D5CBA9BE03C7B"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "41F1BD1DCAB7C4D5"
+					item: {
+						count: 1
+						id: "irons_spellbooks:bone_key"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "58593025925A519C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dead_king_phylactery_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "6807A3FE03CD683A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 50.5d
+			y: 0.0d
+		}
 	]
 }
