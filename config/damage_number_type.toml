@@ -3446,6 +3446,20 @@
 				append = ""
 				format = ""
 
+		[type.beloong.tornado]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.beloong.tornado.icon]
+				tex = ""
+				item = ""
+
+			[type.beloong.tornado.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 		[type.legendary_monsters.laser]
 			#Color of the damage number. [NO-VALUE] to use default color.
 			color = "[NO-VALUE]"

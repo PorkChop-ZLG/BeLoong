@@ -238,6 +238,160 @@
 			x: 0.5d
 			y: 1.0d
 		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1DA90C60E0F2CCFB"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 57.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7FF2BDCC57286047"
+			image: "minecraft:block/obsidian"
+			order: 99
+			rotation: 0.0d
+			width: 1.2d
+			x: 58.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2387CEC372DFC480"
+			image: "minecraft:block/obsidian"
+			order: 98
+			rotation: 0.0d
+			width: 1.2d
+			x: 59.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2854F2D56BF88DBF"
+			image: "minecraft:block/obsidian"
+			order: 97
+			rotation: 0.0d
+			width: 1.2d
+			x: 60.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0F173B54736FE3AF"
+			image: "minecraft:block/obsidian"
+			order: 99
+			rotation: 0.0d
+			width: 1.2d
+			x: 57.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3AA99B413BC1D5BA"
+			image: "minecraft:block/obsidian"
+			order: 96
+			rotation: 0.0d
+			width: 1.2d
+			x: 60.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "73E8DD4BFB81ACD8"
+			image: "minecraft:block/obsidian"
+			order: 98
+			rotation: 0.0d
+			width: 1.2d
+			x: 57.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3B5319F55731FA2B"
+			image: "minecraft:block/obsidian"
+			order: 97
+			rotation: 0.0d
+			width: 1.2d
+			x: 57.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0ABCDBEA134E7FAA"
+			image: "minecraft:block/obsidian"
+			order: 96
+			rotation: 0.0d
+			width: 1.2d
+			x: 57.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "71B127EC2FA52B75"
+			image: "minecraft:block/obsidian"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: 60.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "11EBAA91D28D3FD4"
+			image: "minecraft:block/obsidian"
+			order: 100
+			rotation: 0.0d
+			width: 1.2d
+			x: 60.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "46F22FA94F01F213"
+			image: "minecraft:block/obsidian"
+			order: 93
+			rotation: 0.0d
+			width: 1.2d
+			x: 60.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0798876BFC543469"
+			image: "minecraft:block/obsidian"
+			order: 94
+			rotation: 0.0d
+			width: 1.2d
+			x: 59.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "05C19E85FF3D3357"
+			image: "minecraft:block/obsidian"
+			order: 95
+			rotation: 0.0d
+			width: 1.2d
+			x: 58.5d
+			y: 2.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -2465,6 +2619,7 @@
 				"5EC260A741C9A138"
 				"676F79FA81CFA979"
 			]
+			dependency_requirement: "one_completed"
 			id: "69318A9BF197DF2A"
 			rewards: [
 				{
@@ -2498,9 +2653,7 @@
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "irons_spellbooks:dead_king_phylactery"
-			}
+			dependencies: ["69318A9BF197DF2A"]
 			id: "639FD9A4833A9854"
 			rewards: [
 				{
@@ -2517,14 +2670,6 @@
 					type: "item"
 				}
 				{
-					id: "41F1BD1DCAB7C4D5"
-					item: {
-						count: 1
-						id: "irons_spellbooks:bone_key"
-					}
-					type: "item"
-				}
-				{
 					count: 8
 					id: "58593025925A519C"
 					item: {
@@ -2537,12 +2682,51 @@
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
-				entity: "irons_spellbooks:dead_king"
-				id: "6807A3FE03CD683A"
-				type: "kill"
-				value: 1L
+				advancement: "beloong:beloong/dead_king"
+				criterion: ""
+				id: "753D72897307762E"
+				type: "advancement"
 			}]
-			x: 50.5d
+			x: 50.0d
+			y: 0.0d
+		}
+		{
+			id: "052D4B32D026CB7C"
+			rewards: [
+				{
+					id: "213CAC1683FB1477"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3DDCE4ED14267E56"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "09F30FFA26B5C220"
+					item: {
+						count: 1
+						id: "irons_spellbooks:bone_key"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "irons_spellbooks:bone_vault"
+				}
+				id: "1DC9600A03D2139A"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "irons_spellbooks:bone_vault"
+				type: "observation"
+			}]
+			x: 52.0d
 			y: 0.0d
 		}
 	]

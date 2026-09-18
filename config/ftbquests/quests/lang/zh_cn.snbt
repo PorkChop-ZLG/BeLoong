@@ -309,6 +309,9 @@
 	quest.0512242C244673AA.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B02DF458924B95C\" } }"]
 	quest.0512242C244673AA.quest_subtitle: "击杀虚空之花，提交其掉落物"
 	quest.0512242C244673AA.title: "铸就木之龙躯"
+	quest.052D4B32D026CB7C.quest_desc: ["&6任务：观察骸骨宝库并且开启"]
+	quest.052D4B32D026CB7C.quest_subtitle: "这是大保险"
+	quest.052D4B32D026CB7C.title: "骸骨宝库"
 	quest.052F870EA4EFBE56.quest_subtitle: "感受到太空的感觉了吗"
 	quest.053BA563D0DBF380.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E22E2A0F31B536\" } }"]
 	quest.053BA563D0DBF380.quest_subtitle: "击杀下界铁掌，提交其掉落物"
@@ -3852,7 +3855,7 @@
 		""
 		"有了破法者，你面对&e死者之王&r时，可以稍微轻松一点。"
 	]
-	quest.69318A9BF197DF2A.quest_subtitle: "宣布你的法术无效"
+	quest.69318A9BF197DF2A.quest_subtitle: "禁止使用魔法"
 	quest.69BE2E1BCBE71766.title: "魔法书T0"
 	quest.69C53D16FB6FCEF5.quest_desc: [
 		"&6任务：击败公会骑士，获得黯影之钥。"

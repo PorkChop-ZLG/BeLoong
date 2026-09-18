@@ -1,0 +1,30 @@
+{
+  "parent": "beloong:beloong/dead_king",
+  "criteria": {
+    "killed": {
+      "trigger": "beloong:ominous_dead_king_kill"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/true_dead_king"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/true_dead_king.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "irons_spellbooks:dead_king_phylactery"
+    }
+  },
+  "requirements": [
+    [
+      "killed"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

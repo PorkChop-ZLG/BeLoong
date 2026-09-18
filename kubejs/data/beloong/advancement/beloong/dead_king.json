@@ -1,0 +1,30 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "killed": {
+      "trigger": "beloong:dead_king_kill"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/dead_king"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/dead_king.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "irons_spellbooks:dead_king_phylactery_shard"
+    }
+  },
+  "requirements": [
+    [
+      "killed"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

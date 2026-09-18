@@ -5,7 +5,7 @@
 	group: "1EFE04C2BB6E0380"
 	icon: {
 		components: {
-			"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+			"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -18,7 +18,7 @@
 			can_repeat: true
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -34,7 +34,7 @@
 				feedback_message: "你已抵达龙宫！"
 				icon: {
 					components: {
-						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+						"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -891,7 +891,7 @@
 			dependencies: ["3D74C6BF68CB4A92"]
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_4.png"
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/air_strike_4.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -901,10 +901,10 @@
 			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
-				command: "/dragon-ability add @s dragonsurvival:air_strike"
+				command: "/dragon-ability add @s beloong:air_strike"
 				icon: {
 					components: {
-						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_5.png"
+						"ftbquests:icon": "beloong:textures/gui/sprites/abilities/air_strike_4.png"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -927,7 +927,7 @@
 			dependencies: ["294DCB1F2F69927E"]
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -937,10 +937,10 @@
 			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
-				command: "/dragon-ability add @s dragonsurvival:tp_loong_palace"
+				command: "/dragon-ability add @s beloong:tp_loong_palace"
 				icon: {
 					components: {
-						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+						"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -966,7 +966,7 @@
 			dependency_requirement: "one_completed"
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
