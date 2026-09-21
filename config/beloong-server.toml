@@ -132,7 +132,7 @@
 	enabled = true
 	#Structure id that gates the ritual (single id, no tags)
 	#触发仪式的限定结构 ID（单个，不支持标签）
-	structure = "dragonsurvival:dragon_hunters_castle"
+	structure = "dragonsurvival:netherlands"
 	#Ritual music volume; ALSO determines the audible radius (16 * max(volume, 1) blocks)
 	#仪式音乐音量；同时决定可闻半径（16 × max(volume, 1) 格）
 	#Vanilla jukebox uses 4.0F (64-block radius). 0.5 is 1/8 of that, i.e. a 16-block radius.
