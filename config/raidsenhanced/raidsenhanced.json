@@ -1,9 +1,9 @@
 {
-  "zapperStaffBallLightningDamage": 7.0,
-  "zapperStaffLightningDamage": 15.0,
+  "zapperStaffBallLightningDamage": 20.0,
+  "zapperStaffLightningDamage": 30.0,
   "zapperStaffLightningUseCooldown": 60,
   "zapperStaffBallLightningUseCooldown": 20,
-  "handcannonBombDamage": 10.0,
+  "handcannonBombDamage": 50.0,
   "handcannonUseCooldown": 30,
   "raidDrill": {
     "minRaidersSpawn": 2,
