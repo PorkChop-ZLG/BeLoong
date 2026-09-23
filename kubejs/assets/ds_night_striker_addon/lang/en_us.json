@@ -1,0 +1,9 @@
+{
+  "item.ds_night_striker_addon.striker_plasma_item": "Striker Plasma Item",
+  "item.ds_night_striker_addon.striker_plasma_item_ly": "Striker Plasma Item, Low yield",
+  "effect.ds_night_striker_addon.i_am_striker": "I Am Striker",
+  "gamerule.strikerPlasmaPower.description": "How powerful is the Night Striker's explosion? The higher the value, the larger the explosion radius and the greater the knockback.",
+  "gamerule.strikerPlasmaPower": "Striker Plasma Power",
+  "gamerule.strikerPlasmaPush": "Striker Plasma Push",
+  "gamerule.strikerPlasmaPush.description": "How high are the creatures thrown into the air after the explosion?"
+}

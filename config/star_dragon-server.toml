@@ -1,7 +1,7 @@
 [general]
-	#Block destruction mode for skills (ON, FTB_PROTECTION, FTB_FORBID, OFF). FTB_PROTECTION checks per-block permission; FTB_FORBID forbids destruction in any claimed chunk.
-	#Allowed Values: ON, FTB_PROTECTION, FTB_FORBID, OFF
-	blockDestructionMode = "FTB_PROTECTION"
+	#Block destruction mode for skills (ON, PARTIAL_PROTECTION, FTB_FORBID, OFF). ON destroys everything without checks. PARTIAL_PROTECTION (partial protection) respects BreakEvent-based protections (fdbosses/WorldGuard etc.) and does not require FTB. FTB_FORBID also runs the BreakEvent protection check, then forbids destruction in any claimed chunk (requires FTB Chunks).
+	#Allowed Values: ON, PARTIAL_PROTECTION, FTB_FORBID, OFF
+	blockDestructionMode = "PARTIAL_PROTECTION"
 	#Time manipulation ability mode: OFF (disabled), TICK (tick rate control), TIME (daytime sun control)
 	#Allowed Values: OFF, TICK, TIME
 	timeAbilityMode = "TIME"
@@ -13,28 +13,20 @@
 	blockDestructionOreDrops = false
 
 [skills]
-	#Base damage for Black Hole skill
-	# Default: 6.0
-	# Range: 1.0 ~ 20.0
-	blackHoleBaseDamage = 6.0
-	#Black Hole block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
-	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	#Black Hole block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), PARTIAL_PROTECTION (partial protection: BreakEvent-based, no FTB needed), FTB_FORBID (FTB-only: run BreakEvent protection check, then forbid in claimed chunks), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, PARTIAL_PROTECTION, FTB_FORBID, OFF
 	blackHoleBlockDestruction = "GLOBAL"
-	#Supernova Explosion block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
-	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	#Supernova Explosion block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), PARTIAL_PROTECTION (partial protection: BreakEvent-based, no FTB needed), FTB_FORBID (FTB-only: run BreakEvent protection check, then forbid in claimed chunks), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, PARTIAL_PROTECTION, FTB_FORBID, OFF
 	supernovaBlockDestruction = "GLOBAL"
-	#True Gravity Field block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
-	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	#True Gravity Field block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), PARTIAL_PROTECTION (partial protection: BreakEvent-based, no FTB needed), FTB_FORBID (FTB-only: run BreakEvent protection check, then forbid in claimed chunks), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, PARTIAL_PROTECTION, FTB_FORBID, OFF
 	trueGravityFieldBlockDestruction = "GLOBAL"
-	#Stellar Laser block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), FTB_PROTECTION (per-claim permission), FTB_FORBID (forbid in claims), OFF (disabled)
-	#Allowed Values: GLOBAL, ON, FTB_PROTECTION, FTB_FORBID, OFF
+	#Stellar Laser block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), PARTIAL_PROTECTION (partial protection: BreakEvent-based, no FTB needed), FTB_FORBID (FTB-only: run BreakEvent protection check, then forbid in claimed chunks), OFF (disabled)
+	#Allowed Values: GLOBAL, ON, PARTIAL_PROTECTION, FTB_FORBID, OFF
 	starLaserBlockDestruction = "GLOBAL"
 
 [starlight]
-	#Minimum day-night factor at noon (0.0 ~ 1.0)
-	# Default: 0.3
-	# Range: 0.0 ~ 1.0
-	dayNightMin = 0.3
 	#Weather factor when raining
 	# Default: 0.7
 	# Range: 0.0 ~ 1.0
@@ -47,10 +39,6 @@
 	# Default: 0.6
 	# Range: 0.0 ~ 1.0
 	skyBlockedFactor = 0.6
-	#Minimum damage modifier when bar is at 0%
-	# Default: 0.1
-	# Range: 0.0 ~ 1.0
-	minDamageModifier = 0.1
 	#Star cubes scan radius (blocks)
 	# Default: 6
 	# Range: 1 ~ 32
@@ -59,7 +47,7 @@
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	cubesBonusPer = 0.05
-	#Maximum star power bonus from cubes
-	# Default: 0.5
+	#Maximum star power bonus from cubes. 1.0 means no effective cap (star power itself is still capped at 100%).
+	# Default: 1.0
 	# Range: 0.0 ~ 1.0
 	cubesBonusMax = 0.5
