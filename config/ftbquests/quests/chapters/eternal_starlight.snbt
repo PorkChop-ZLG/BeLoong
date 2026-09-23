@@ -750,24 +750,6 @@
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "eternal_starlight:seeking_eye"
-			}
-			id: "5083AFBE18C36085"
-			rewards: [{
-				id: "57A8232FEE3FDE00"
-				type: "xp"
-				xp: 100
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "2B87A8B50F3B2B38"
-				type: "checkmark"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["1011C97DAE40FD1B"]
 			icon: {
 				id: "eternal_starlight:eternal_ice"
@@ -919,45 +901,6 @@
 				type: "advancement"
 			}]
 			x: 35.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				id: "eternal_starlight:tenacious_vine"
-			}
-			id: "21609D985B493CCB"
-			optional: true
-			rewards: [{
-				id: "48989D697009D300"
-				item: {
-					count: 1
-					id: "eternal_starlight:lunar_monstrosity_spawner"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "244A05F880D1D6EE"
-					item: { count: 1, id: "eternal_starlight:lunar_berries" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "616C4672B49C1373"
-					item: { count: 1, id: "eternal_starlight:tangled_skull" }
-					type: "item"
-				}
-				{
-					id: "29FC37740A64A434"
-					structure: "eternal_starlight:cursed_garden"
-					type: "structure"
-				}
-			]
-			x: 14.5d
 			y: 0.0d
 		}
 		{

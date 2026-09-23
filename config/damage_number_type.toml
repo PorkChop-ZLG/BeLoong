@@ -5111,3 +5111,17 @@
 			prepend = ""
 			append = ""
 			format = ""
+
+	[tag."eternal_starlight:is_cold"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."eternal_starlight:is_cold".icon]
+			tex = ""
+			item = ""
+
+		[tag."eternal_starlight:is_cold".format]
+			prepend = ""
+			append = ""
+			format = ""

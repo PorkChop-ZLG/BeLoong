@@ -1008,12 +1008,6 @@
 	quest.20418663EEBB6E73.title: "&2Tianquan"
 	quest.20D561FC8502C837.title: "Kill: Grabbing Grass"
 	quest.20FA399F30BF33A4.quest_subtitle: "Add a slice of lemon for me"
-	quest.21609D985B493CCB.quest_desc: [
-		"&eMoonvine Colossus&6 cannot respawn after death,"
-		"&6Use corresponding items to exchange for &eone-time BOSS spawner&6."
-	]
-	quest.21609D985B493CCB.quest_subtitle: "Exchange only in the Cursed Garden"
-	quest.21609D985B493CCB.title: "Exchange Moonvine Colossus Spawner"
 	quest.217A025EF85E999C.quest_subtitle: "Kill 7 Horror Creatures"
 	quest.217A025EF85E999C.title: "Final Battle at Horrible Tomb"
 	quest.217D19EC778156E9.title: "Ring T1"
@@ -2051,24 +2045,6 @@
 	quest.5003D0EDCDBEB34E.title: "&bVile Undead"
 	quest.5026FCE365E612AF.quest_subtitle: "Crimson skirts stained by wine"
 	quest.5026FCE365E612AF.title: "&4Crimson Conjuration"
-	quest.5083AFBE18C36085.quest_desc: [
-		"&4The Heraldry system &6is equivalent to the spell systems of other mods (Iron's Spells, Cataclysm, etc.)."
-		""
-		"&6This system is self-contained. Although its completion is currently low, some spells can still be cast normally using the following operations."
-		""
-		"&6After unlocking your first heraldry:"
-		""
-		"&6Hold a &9Seer Orb &6and press the corresponding keybind (default: H) to cycle through selected heraldries."
-		""
-		"&6With no heraldry selected, hold the Seer Orb and long-press right-click to open the heraldry configuration screen."
-		""
-		"&6Passive heraldries need to be actively equipped (clicked) in the configuration screen to take effect."
-		""
-		"&6After selecting a heraldry, you also need to, according to the prompt on the configuration screen:"
-		""
-		"&6Keep a crystal corresponding to the spell's element type in your inventory (you don't need to prepare all corresponding crystals)."
-	]
-	quest.5083AFBE18C36085.title: "How to Use Heraldry Casting"
 	quest.508986FA5D56C11E.quest_desc: [
 		"&aObjective: Grow to the Arch Dragon stage and defeat the Dark Doppelganger"
 		""
