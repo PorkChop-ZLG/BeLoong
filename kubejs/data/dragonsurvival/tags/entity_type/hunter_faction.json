@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:villager",
+    "dragonsurvival:hunter_ambusher",
+    "dragonsurvival:hunter_griffin",
+    "dragonsurvival:hunter_hound",
+    "dragonsurvival:hunter_knight",
+    "dragonsurvival:hunter_leader",
+    "dragonsurvival:hunter_spearman"
+  ]
+}
