@@ -1,4 +1,26 @@
 #netherdepthsupgrade Config
 #Config for the Nether Depths Upgrade
+#General settings
 #When set to true it will allow you to fish entities instead of items (default is true)
 fish_entities = true
+
+[vent_generation]
+	#Lava level of the Nether.
+	# Default: 31
+	# Range: -64 ~ 320
+	lava_level = 31
+	#If true, vents will only generate below the Nether lava sea and wont show itself poking out of the lava, if you change this to false you will have to update the max y it can generate to.
+	below_lava_only = true
+	#Y level where vents start searching downward for lava.
+	# Default: 31
+	# Range: -64 ~ 320
+	search_start_y = 31
+	#Maximum Y level that vent blocks are allowed to generate at.
+	# Default: 30
+	# Range: -64 ~ 320
+	max_y = 30
+	#Chance for a vent block to be Ancient Debris.
+	#0.0025 = 0.25%, 0.001 = 0.1%, 0.01 = 1%.
+	# Default: 0.0025
+	# Range: 0.0 ~ 1.0
+	ancient_debris_chance = 0.0025
