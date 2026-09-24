@@ -15,7 +15,7 @@
 			order: 100
 			rotation: 0.0d
 			width: 5.0d
-			x: 0.0d
+			x: -27.0d
 			y: 14.0d
 		}
 		{
@@ -246,7 +246,7 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 57.5d
+			x: 70.5d
 			y: -2.0d
 		}
 		{
@@ -257,7 +257,7 @@
 			order: 99
 			rotation: 0.0d
 			width: 1.2d
-			x: 58.5d
+			x: 71.5d
 			y: -2.0d
 		}
 		{
@@ -268,7 +268,7 @@
 			order: 98
 			rotation: 0.0d
 			width: 1.2d
-			x: 59.5d
+			x: 72.5d
 			y: -2.0d
 		}
 		{
@@ -279,7 +279,7 @@
 			order: 97
 			rotation: 0.0d
 			width: 1.2d
-			x: 60.5d
+			x: 73.5d
 			y: -2.0d
 		}
 		{
@@ -290,7 +290,7 @@
 			order: 99
 			rotation: 0.0d
 			width: 1.2d
-			x: 57.5d
+			x: 70.5d
 			y: -1.0d
 		}
 		{
@@ -301,7 +301,7 @@
 			order: 96
 			rotation: 0.0d
 			width: 1.2d
-			x: 60.5d
+			x: 73.5d
 			y: -1.0d
 		}
 		{
@@ -312,7 +312,7 @@
 			order: 98
 			rotation: 0.0d
 			width: 1.2d
-			x: 57.5d
+			x: 70.5d
 			y: 0.0d
 		}
 		{
@@ -323,7 +323,7 @@
 			order: 97
 			rotation: 0.0d
 			width: 1.2d
-			x: 57.5d
+			x: 70.5d
 			y: 1.0d
 		}
 		{
@@ -334,7 +334,7 @@
 			order: 96
 			rotation: 0.0d
 			width: 1.2d
-			x: 57.5d
+			x: 70.5d
 			y: 2.0d
 		}
 		{
@@ -345,7 +345,7 @@
 			order: 94
 			rotation: 0.0d
 			width: 1.2d
-			x: 60.5d
+			x: 73.5d
 			y: 0.0d
 		}
 		{
@@ -356,7 +356,7 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 60.5d
+			x: 73.5d
 			y: 1.0d
 		}
 		{
@@ -367,7 +367,7 @@
 			order: 93
 			rotation: 0.0d
 			width: 1.2d
-			x: 60.5d
+			x: 73.5d
 			y: 2.0d
 		}
 		{
@@ -378,7 +378,7 @@
 			order: 94
 			rotation: 0.0d
 			width: 1.2d
-			x: 59.5d
+			x: 72.5d
 			y: 2.0d
 		}
 		{
@@ -389,7 +389,7 @@
 			order: 95
 			rotation: 0.0d
 			width: 1.2d
-			x: 58.5d
+			x: 71.5d
 			y: 2.0d
 		}
 	]
@@ -514,8 +514,8 @@
 				id: "6B2D8CA1DC528079"
 				type: "advancement"
 			}]
-			x: 26.5d
-			y: 8.0d
+			x: -5.5d
+			y: 12.0d
 		}
 		{
 			hide_lock_icon: true
@@ -553,89 +553,8 @@
 				structure: "dragonsurvival:dragon_hunters_castle"
 				type: "structure"
 			}]
-			x: 14.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["7EB346A1790BD94B"]
-			id: "7669BD22EB40BE98"
-			rewards: [
-				{
-					id: "3577FF3D9160386E"
-					type: "xp"
-					xp: 300
-				}
-				{
-					count: 8
-					id: "7AF8626B563CB260"
-					item: {
-						count: 1
-						id: "dragonsurvival:heart_element"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0FA1F6AF42F18EA2"
-				item: { count: 1, id: "dragonsurvival:hunter_key" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["7EB346A1790BD94B"]
-			id: "69C53D16FB6FCEF5"
-			rewards: [
-				{
-					id: "460A3D72D70D475B"
-					type: "xp"
-					xp: 300
-				}
-				{
-					count: 3
-					id: "011D75E881CCD53C"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "330BEA4143E30324"
-				item: { count: 1, id: "dragonsurvival:dark_key" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["7EB346A1790BD94B"]
-			id: "4AE7B82C02B26C16"
-			rewards: [
-				{
-					id: "087DF6394D82B8FD"
-					type: "xp"
-					xp: 300
-				}
-				{
-					count: 3
-					id: "6B3FA9D0771B03B5"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6345095561C30F96"
-				item: { count: 1, id: "dragonsurvival:light_key" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 9.0d
+			x: -17.5d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -657,11 +576,10 @@
 				id: "3DAFC5DD42B0DE04"
 				type: "checkmark"
 			}]
-			x: 14.5d
-			y: 5.0d
+			x: -17.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["7669BD22EB40BE98"]
 			id: "53401F206F58F9C4"
 			rewards: [
 				{
@@ -699,11 +617,10 @@
 				item: { count: 1, id: "dragonsurvival:dragon_hunter_sword" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 7.0d
+			x: -12.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["69C53D16FB6FCEF5"]
 			id: "0105D9B7766A1BA4"
 			rewards: [
 				{
@@ -732,11 +649,10 @@
 				item: { count: 1, id: "dragonsurvival:dark_upgrade" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 5.0d
+			x: -12.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["4AE7B82C02B26C16"]
 			id: "65DF9D6C0D5E7583"
 			rewards: [
 				{
@@ -765,8 +681,8 @@
 				item: { count: 1, id: "dragonsurvival:light_upgrade" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 9.0d
+			x: -12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["65DF9D6C0D5E7583"]
@@ -798,8 +714,8 @@
 				id: "4601F93975A67D7A"
 				type: "advancement"
 			}]
-			x: 21.0d
-			y: 10.5d
+			x: -11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0105D9B7766A1BA4"]
@@ -831,8 +747,8 @@
 				id: "30BBB79DC1C5A385"
 				type: "advancement"
 			}]
-			x: 21.0d
-			y: 3.5d
+			x: -11.0d
+			y: 7.5d
 		}
 		{
 			icon: {
@@ -861,8 +777,8 @@
 				structure: "dragonsurvival:treasure_end"
 				type: "structure"
 			}]
-			x: 24.0d
-			y: 7.0d
+			x: -8.0d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -892,8 +808,8 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
-			y: 9.0d
+			x: -8.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["186EDCECB309BC44"]
@@ -1054,8 +970,8 @@
 				item: { count: 1, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 9.0d
+			x: -17.5d
+			y: 13.0d
 		}
 		{
 			id: "52760593973916B2"
@@ -1070,7 +986,7 @@
 				item: { count: 1, id: "torchmaster:megatorch" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -27.0d
 			y: 7.5d
 		}
 		{
@@ -1087,7 +1003,7 @@
 				item: { count: 1, id: "torchmaster:dreadlamp" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -29.0d
 			y: 7.5d
 		}
 		{
@@ -1104,7 +1020,7 @@
 				item: { count: 1, id: "torchmaster:feral_flare_lantern" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: -25.0d
 			y: 7.5d
 		}
 		{
@@ -1178,7 +1094,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -27.0d
 			y: 9.5d
 		}
 		{
@@ -1227,7 +1143,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -28.5d
 			y: 11.0d
 		}
 		{
@@ -1261,7 +1177,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -25.5d
 			y: 11.0d
 		}
 		{
@@ -1292,7 +1208,7 @@
 				id: "62C06983D2660627"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -27.0d
 			y: 14.0d
 		}
 		{
@@ -1315,8 +1231,8 @@
 				id: "1E39433E0D79D35D"
 				type: "checkmark"
 			}]
-			x: 12.0d
-			y: 8.25d
+			x: -20.0d
+			y: 12.25d
 		}
 		{
 			id: "6796172A3CF129FB"
@@ -1330,7 +1246,7 @@
 				item: { count: 1, id: "minecraft:armor_stand" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -27.0d
 			y: 11.5d
 		}
 		{
@@ -1352,7 +1268,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -27.0d
 			y: 5.5d
 		}
 		{
@@ -1369,7 +1285,7 @@
 				item: { count: 1, id: "dummmmmmy:target_dummy" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: -25.0d
 			y: 9.5d
 		}
 		{
@@ -1393,11 +1309,21 @@
 			}
 			icon_scale: 1.45d
 			id: "394AD1DCB885B429"
-			rewards: [{
-				id: "6B8A915C75769FCA"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "6B8A915C75769FCA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BE398850DAB4CBD"
+					item: {
+						count: 1
+						id: "yuushya:octagon_pavilion"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.35d
 			tasks: [{
@@ -1480,32 +1406,6 @@
 			}]
 			x: 4.5d
 			y: -1.5d
-		}
-		{
-			id: "775551E2F0EF59B5"
-			rewards: [
-				{
-					id: "41BD4D10F882905F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "4552634A95367963"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_dust"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "minecraft:story/mine_stone"
-				criterion: ""
-				id: "04DB06B7D7A9C267"
-				type: "advancement"
-			}]
-			x: 36.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["6588C404E5712724"]
@@ -2653,7 +2553,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["69318A9BF197DF2A"]
+			dependencies: [
+				"69318A9BF197DF2A"
+				"7311C2E64E62F173"
+			]
 			id: "639FD9A4833A9854"
 			rewards: [
 				{
@@ -2691,6 +2594,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["639FD9A4833A9854"]
 			id: "052D4B32D026CB7C"
 			rewards: [
 				{
@@ -2728,6 +2632,448 @@
 			}]
 			x: 52.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"052D4B32D026CB7C"
+				"639FD9A4833A9854"
+			]
+			id: "4DBFC5ADAA53C35F"
+			rewards: [
+				{
+					id: "67201623E269104C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F05EF2FF038FDCF"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "beloong:beloong/netherlands"
+				criterion: ""
+				id: "7576C7ED955066AD"
+				type: "advancement"
+			}]
+			x: 54.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DBFC5ADAA53C35F"]
+			id: "5B7869303C02FFD4"
+			rewards: [
+				{
+					id: "005642AD6DFB5E4C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04D0F03635E0F8EB"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/hunter_knight"
+				criterion: ""
+				id: "1F2268A37BE57A3F"
+				type: "advancement"
+			}]
+			x: 56.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DBFC5ADAA53C35F"]
+			id: "304DAEBEEFE681C6"
+			rewards: [{
+				id: "189775315A6DFA72"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "beloong:beloong/hunter_hound"
+				criterion: ""
+				id: "6AF84C663954BA93"
+				type: "advancement"
+			}]
+			x: 54.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DBFC5ADAA53C35F"]
+			id: "4DC00E1C311A8AC5"
+			rewards: [{
+				id: "540C397F9706856A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "beloong:beloong/hunter_griffin"
+				criterion: ""
+				id: "70DD964E3AB35A8D"
+				type: "advancement"
+			}]
+			x: 54.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DC00E1C311A8AC5"]
+			id: "7A2316A054FED7E5"
+			rewards: [{
+				id: "772ABC900278C50C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "beloong:beloong/hunter_ambusher"
+				criterion: ""
+				id: "7DCB0E585F093E6C"
+				type: "advancement"
+			}]
+			x: 55.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["304DAEBEEFE681C6"]
+			id: "3CFB972DCF434B18"
+			rewards: [
+				{
+					id: "627ABF73616A9D3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "25D45993457F45B2"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/hunter_spearman"
+				criterion: ""
+				id: "7A82CE61234F0843"
+				type: "advancement"
+			}]
+			x: 55.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B7869303C02FFD4"]
+			icon: {
+				id: "dragonsurvival:hunter_key"
+			}
+			id: "2FEF82AA8E226D4A"
+			rewards: [
+				{
+					id: "210AA68105348DD6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7442D702F7E4B139"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dragonsurvival:hunter/collect_key"
+				criterion: ""
+				id: "10BCA054B4263E21"
+				type: "advancement"
+			}]
+			x: 57.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FEF82AA8E226D4A"]
+			id: "5280E22998AA42DC"
+			rewards: [
+				{
+					id: "4F3272A6724CB3F5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "417A0834355F2762"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dragonsurvival:hunter/open_vault"
+				criterion: ""
+				id: "3B03BED7BAC003E1"
+				type: "advancement"
+			}]
+			x: 59.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5280E22998AA42DC"]
+			id: "56C2CDCF4A6ED266"
+			rewards: [
+				{
+					id: "72481F90DCCDA053"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "022E1D3205011D31"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "raidsenhanced:zapper"
+				id: "6090685640166D7B"
+				type: "kill"
+				value: 3L
+			}]
+			x: 60.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5280E22998AA42DC"]
+			id: "6A58A66A56D019BC"
+			rewards: [
+				{
+					id: "5B15061AF156221C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "25DB2383BD9E1FAA"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "raidsenhanced:golem_of_last_resort"
+				id: "1977CA1095352B32"
+				type: "kill"
+				value: 1L
+			}]
+			x: 60.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"56C2CDCF4A6ED266"
+				"4DBFC5ADAA53C35F"
+				"6A58A66A56D019BC"
+			]
+			dependency_requirement: "one_completed"
+			id: "160F11820FD39F91"
+			rewards: [
+				{
+					id: "2079CE7B182450EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "241423AD5C2A4D96"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "beloong:beloong/warden"
+				criterion: ""
+				id: "670F40B9CC92E156"
+				type: "advancement"
+			}]
+			x: 62.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["160F11820FD39F91"]
+			id: "171EE432493EC6C1"
+			tasks: [{
+				advancement: "dragonsurvival:dark/open_vault"
+				criterion: ""
+				id: "3127B87D7FE3531B"
+				type: "advancement"
+			}]
+			x: 64.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"171EE432493EC6C1"
+				"160F11820FD39F91"
+			]
+			dependency_requirement: "one_completed"
+			id: "046CC9060FF9A799"
+			rewards: [
+				{
+					id: "4C8ADB1CF9501E94"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "57EA6F43183AF70D"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "beloong:beloong/true_dead_king"
+				criterion: ""
+				id: "4B301851459D6CAA"
+				type: "advancement"
+			}]
+			x: 66.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["046CC9060FF9A799"]
+			id: "15BF3555F2FDD819"
+			tasks: [{
+				advancement: "beloong:beloong/hell_gate"
+				criterion: ""
+				id: "73709772EE8BAAF5"
+				type: "advancement"
+			}]
+			x: 68.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0294A7EFD83D05F9"
+				"046CC9060FF9A799"
+			]
+			dependency_requirement: "one_completed"
+			hide_details_until_startable: false
+			icon: {
+				id: "dragonsurvival:dragon_soul"
+			}
+			id: "416D85F4C0C5019D"
+			rewards: [
+				{
+					id: "31726449C23B16D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "66C569AB26F4CC55"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "4D621F7AA6E7B34B"
+					item: {
+						count: 1
+						id: "dragonsurvival:dragon_soul"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6767302CEB19A879"
+				type: "dimension"
+			}]
+			x: 72.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15BF3555F2FDD819"]
+			id: "0294A7EFD83D05F9"
+			rewards: [
+				{
+					id: "1F8B5646CAD05982"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4BCD4448F7B49A3D"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+				id: "7E33F2EC93DF503C"
+				type: "advancement"
+			}]
+			x: 69.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B7869303C02FFD4"]
+			id: "766B986DF990680C"
+			rewards: [{
+				id: "0F577DB3F22040AC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "dragonsurvival:dark/collect_key"
+				criterion: ""
+				id: "2C17A1194E1F743C"
+				type: "advancement"
+			}]
+			x: 56.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B7869303C02FFD4"]
+			id: "19ABCC0C33AD9672"
+			rewards: [{
+				id: "6863B1C31AF36221"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "dragonsurvival:light/collect_key"
+				criterion: ""
+				id: "103A50E652145C55"
+				type: "advancement"
+			}]
+			x: 56.0d
+			y: -5.0d
 		}
 	]
 }

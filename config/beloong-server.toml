@@ -52,7 +52,7 @@
 	#需要监听过期/移除事件的药水效果ID列表
 	#当这些效果过期、被牛奶清除或被指令移除时，触发结构重检
 	#具体效果与结构的映射请在 data/beloong/beloong/structure_effects/ 中配置
-	watchedEffects = ["beloong:flight_ban"]
+	watchedEffects = ["beloong:flight_ban", "minecraft:mining_fatigue", "minecraft:darkness"]
 
 [beloong_water]
 	#化龙池水冷却（ticks）
@@ -139,4 +139,4 @@
 	#原版唱片机是 4.0F（64 格）。0.5 等于其 1/8，半径随之降为 16 格。
 	# Default: 0.5
 	# Range: 0.0 ~ 16.0
-	musicVolume = 0.5
+	musicVolume = 1.0

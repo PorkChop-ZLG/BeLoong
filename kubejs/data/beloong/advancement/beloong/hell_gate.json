@@ -1,0 +1,30 @@
+{
+  "parent": "beloong:beloong/true_dead_king",
+  "criteria": {
+    "opened": {
+      "trigger": "beloong:hell_gate_opened"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/hell_gate"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/hell_gate.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "beloong:hell_gate"
+    }
+  },
+  "requirements": [
+    [
+      "opened"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  },
+  "sends_telemetry_event": true
+}

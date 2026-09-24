@@ -980,15 +980,6 @@
 				}
 				{
 					auto: "enabled"
-					id: "27828B5C7AD4696B"
-					item: {
-						count: 1
-						id: "yuushya:octagon_pavilion"
-					}
-					type: "item"
-				}
-				{
-					auto: "enabled"
 					id: "1F5DFBB5254B1F08"
 					item: {
 						count: 1

@@ -167,6 +167,8 @@
 		"&o&7随时随地，风雨无阻！&r&r"
 	]
 	quest.0290886F399EB569.quest_subtitle: "快速出货工具"
+	quest.0294A7EFD83D05F9.quest_subtitle: "原来还要自己拼"
+	quest.0294A7EFD83D05F9.title: "下界传送门"
 	quest.02B96CE03E4B8FF7.title: "观察：幽匿尖啸体"
 	quest.02EE21851AD77A5F.quest_desc: [
 		"&6在神秘的星光维度，古老法师为抵御黑暗侵袭，以蕴含强大能量的星核为核心、坚硬无比的星铁为身躯，创造出星光傀儡。它能操控星光之力，射出的星光刃可造成巨额伤害，还拥有防 TP、锁血等强大防御能力 。但黑暗力量扭曲了它，如今它失控暴走，成为维度中恐怖的霸主 。"
@@ -272,6 +274,8 @@
 	quest.03EB435BA284D2D0.title: "观察：寒冰百合"
 	quest.040C5733423CA409.quest_subtitle: "云上的小屋"
 	quest.040C5733423CA409.title: "打卡：巨人小屋"
+	quest.046CC9060FF9A799.quest_subtitle: "原来你没死啊"
+	quest.046CC9060FF9A799.title: "&4&l不祥的死者之王"
 	quest.048B0DD23E73AD71.quest_desc: [
 		"&6任务：获得始冰碎片"
 		""
@@ -854,6 +858,7 @@
 	]
 	quest.1588CA412F4FAA24.title: "&5星界龙"
 	quest.15B0C5F57872F7E2.title: "悚域BOSS毕业"
+	quest.15BF3555F2FDD819.title: "地狱之门"
 	quest.15C5C16F69808158.quest_subtitle: "这是史莱姆吗？"
 	quest.15C8B8AA60276011.quest_desc: [
 		"&6目标：找到要塞"
@@ -883,6 +888,8 @@
 		"&b永冻石锭+冰龙血=龙霜钢锭（龙霜锻炉）"
 	]
 	quest.15D4B079675BDA00.quest_subtitle: "配方已修改，需要永冻石锭"
+	quest.160F11820FD39F91.quest_subtitle: "原版最强之人"
+	quest.160F11820FD39F91.title: "监守者"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "击杀3种雪怪BOSS"
 	quest.1611AF1CA2E30FEE.title: "哪个是真的雪怪？"
 	quest.163153BE5D349228.quest_desc: [
@@ -900,6 +907,8 @@
 	]
 	quest.16DF8F0EA133B69A.title: "技能：龙击长空"
 	quest.170C5452183F9D7E.title: "观察：烈焰百合"
+	quest.171EE432493EC6C1.quest_subtitle: "藏在最底下的宝藏"
+	quest.171EE432493EC6C1.title: "黯影宝库"
 	quest.1744C1A7A7BFF4D7.quest_desc: ["&6赛钱箱似乎无法取出5円的钱币，可以在这里兑换&r"]
 	quest.1744C1A7A7BFF4D7.quest_subtitle: "不过没人会这么干吧。。。"
 	quest.1744C1A7A7BFF4D7.title: "钱币兑换"
@@ -1025,6 +1034,7 @@
 	quest.196D64F5AFD45762.quest_subtitle: "千里冰封，万里雪飘"
 	quest.196D64F5AFD45762.title: "冰域"
 	quest.19878C818E548C2D.title: "观察：根须"
+	quest.19ABCC0C33AD9672.title: "圣辉之钥"
 	quest.19DA784FDC312506.quest_desc: [
 		"&6任务：成长到始祖龙阶段，击败黑暗二重身"
 		""
@@ -1641,6 +1651,9 @@
 	]
 	quest.2FEE9B22743CCCBC.quest_desc: ["&9结构罗盘：&b牛头人迷宫&r"]
 	quest.2FEE9B22743CCCBC.title: "挑战：牛头人迷宫"
+	quest.2FEF82AA8E226D4A.quest_desc: ["&6任务：通过任意方式获得猎人之钥"]
+	quest.2FEF82AA8E226D4A.quest_subtitle: "这是傻子吗？"
+	quest.2FEF82AA8E226D4A.title: "猎人首领"
 	quest.2FFA72EF12E63FC6.quest_desc: [
 		"&6使用&b灵魂之瓶&6撰写&b魂灵法术"
 		"{image:iss_magicfromtheeast:item/bottle_of_souls width:100 height:100 align:center}"
@@ -1673,6 +1686,8 @@
 	]
 	quest.30147ED868E1EB9E.quest_subtitle: "点击查看详情"
 	quest.30147ED868E1EB9E.title: "龙之成长"
+	quest.304DAEBEEFE681C6.quest_desc: ["&6任务：击败一只猎人猎犬"]
+	quest.304DAEBEEFE681C6.title: "猎犬"
 	quest.309615294A70B9E9.quest_desc: ["&9结构罗盘：&b【YUNG】沙漠神殿&r"]
 	quest.309615294A70B9E9.title: "挑战：沙漠神殿"
 	quest.30A3124E55AA6C4F.title: "高阶唤魔师装备"
@@ -1973,7 +1988,7 @@
 		""
 		"考虑到这是你的第一次实战，&a注意安全，小龙&r。"
 	]
-	quest.384B6CDEB088679E.quest_subtitle: "在地底先练起来"
+	quest.384B6CDEB088679E.quest_subtitle: "先练练手"
 	quest.384B6CDEB088679E.title: "试炼密室"
 	quest.3859C3FFB6F2C61B.quest_desc: [
 		"&6任务：完成主线【龙之生存】或番外篇【铁魔法】"
@@ -2135,6 +2150,8 @@
 	quest.3C70592EFB49B53A.quest_subtitle: "女仆随身听"
 	quest.3C725E33FECDE01D.quest_subtitle: "太空特色"
 	quest.3C8B6F5362402CA0.quest_subtitle: "畅销饮品"
+	quest.3CFB972DCF434B18.quest_desc: ["&6任务：击败一名猎人刃枪兵"]
+	quest.3CFB972DCF434B18.title: "刃枪兵"
 	quest.3D00DAB64DEB1AA3.quest_desc: [
 		"&6任务：化为机械龙"
 		""
@@ -2306,6 +2323,8 @@
 	quest.415DFAC173D75395.quest_desc: ["&6任务：集齐全套圣辉龙铠"]
 	quest.415DFAC173D75395.quest_subtitle: "集齐圣辉龙铠套装"
 	quest.415DFAC173D75395.title: "重塑金身"
+	quest.416D85F4C0C5019D.quest_subtitle: "【第一章    完结】"
+	quest.416D85F4C0C5019D.title: "&4&l不入地狱 &5&l不见终焉"
 	quest.41DB497093B18B47.title: "手饰T1"
 	quest.4218F6E0430B190C.title: "脚饰T3"
 	quest.422368D6F94C0ABD.quest_desc: [
@@ -2605,14 +2624,6 @@
 		"最后，点击中间的墨水按钮，即可抄写法术。"
 	]
 	quest.4AC69031BAEF29B0.quest_subtitle: "铁魔法的起源"
-	quest.4AE7B82C02B26C16.quest_desc: [
-		"&6任务：培养一名龙锻造师，向他购买圣辉之钥"
-		""
-		"&6首先合成一个&e龙锻造台&6，让村民成为&e龙锻造师&6。"
-		"&6然后不断&2交易&6，直到村民升级到&e大师级别&6。"
-		"&6这时村民才会售卖&e圣辉之钥&6。"
-	]
-	quest.4AE7B82C02B26C16.quest_subtitle: "培养一名巨龙工匠"
 	quest.4B0B81F46A5AA9B1.quest_desc: [
 		" 一盏做工精巧的灯。从色泽上看可能由青铜铸造，但其上没有任何铜绿锈迹；我猜测它的材料是某种灌注魔法的金属。"
 		" 古老的灯盏可能已沉睡地底上百年。而我捧起它时，掌心感受到一丝余温尚存，仿佛它的火焰不久前才被吹熄。"
@@ -2739,6 +2750,15 @@
 	]
 	quest.4DBAD417CE6615B0.quest_subtitle: "★★★★"
 	quest.4DBAD417CE6615B0.title: "首领崛起：巨型沙虫"
+	quest.4DBFC5ADAA53C35F.quest_desc: [
+		"&6任务：找到人类王国——尼德兰"
+		""
+		"&9结构罗盘：&b尼德兰"
+	]
+	quest.4DBFC5ADAA53C35F.quest_subtitle: "潮汐监狱搜打撤"
+	quest.4DBFC5ADAA53C35F.title: "尼德兰"
+	quest.4DC00E1C311A8AC5.quest_desc: ["&6任务：击败一只猎人狮鹫"]
+	quest.4DC00E1C311A8AC5.title: "狮鹫"
 	quest.4DEF1998BE552CE0.quest_subtitle: "每条龙保底一次"
 	quest.4DEF1998BE552CE0.title: "二重身之戒保底"
 	quest.4E1F113694EB8B3E.title: "猩红教徒装备"
@@ -2973,6 +2993,8 @@
 		"&6它的进阶版为&c镇压之杖&6。"
 	]
 	quest.52760593973916B2.quest_subtitle: "禁止怪物生成"
+	quest.5280E22998AA42DC.quest_subtitle: "这是贪了多少钱？"
+	quest.5280E22998AA42DC.title: "猎人宝库"
 	quest.5290F30C84D09FDE.quest_subtitle: "升级洞穴龙4个被动技能到满级"
 	quest.5290F30C84D09FDE.title: "掌握火之奥义"
 	quest.52E270E37E59D418.quest_subtitle: "抽取暮色森林的树苗"
@@ -3105,6 +3127,8 @@
 	]
 	quest.56B73043CC964E09.quest_subtitle: "掠夺一只村民"
 	quest.56B73043CC964E09.title: "——劫掠——"
+	quest.56C2CDCF4A6ED266.quest_subtitle: "这是电击小子"
+	quest.56C2CDCF4A6ED266.title: "电击者"
 	quest.56CD03186ED90684.quest_desc: [
 		"&6任务：击败蔓生巨像"
 		""
@@ -3236,6 +3260,8 @@
 	quest.5B17EE2B443E6FAB.title: "天灾传送门"
 	quest.5B754E8171325667.quest_subtitle: "&5&l「末」&r&d这就是飞行的感觉吗？"
 	quest.5B754E8171325667.title: "第二幕：化龙"
+	quest.5B7869303C02FFD4.quest_subtitle: "坚定的唯物主义战士"
+	quest.5B7869303C02FFD4.title: "猎人骑士"
 	quest.5B9E398C385E0CA1.quest_subtitle: "平原上的白色小花"
 	quest.5BAF5C77F3373696.title: "观察：海泡菜"
 	quest.5BB4A81605A76537.quest_desc: [
@@ -3833,12 +3859,6 @@
 	]
 	quest.69318A9BF197DF2A.quest_subtitle: "禁止使用魔法"
 	quest.69BE2E1BCBE71766.title: "魔法书T0"
-	quest.69C53D16FB6FCEF5.quest_desc: [
-		"&6任务：击败公会骑士，获得黯影之钥。"
-		""
-		"&e公会骑士&6能禁止龙魔法，务必当心。"
-	]
-	quest.69C53D16FB6FCEF5.quest_subtitle: "击败公会骑士"
 	quest.6A0A7CA003C79A28.title: "打卡：锆蓝深海"
 	quest.6A1268143ED70C45.quest_desc: [
 		"&l&d「霜冻巨兽」"
@@ -3851,6 +3871,8 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie的生物：霜冻巨兽"
+	quest.6A58A66A56D019BC.quest_subtitle: "这是自爆卡车"
+	quest.6A58A66A56D019BC.title: "终极傀儡"
 	quest.6B374FA9A003150A.quest_desc: ["&6任务：击败碎裂者"]
 	quest.6B374FA9A003150A.title: "碎裂者"
 	quest.6B3CAAA337596F88.quest_desc: [""]
@@ -4278,14 +4300,7 @@
 	quest.760C3E4759FA6815.title: "晶咒龙"
 	quest.762DDE9C0729E876.quest_subtitle: "集齐所有戒指"
 	quest.762DDE9C0729E876.title: "&a戒指毕业"
-	quest.7669BD22EB40BE98.quest_desc: [
-		"&6任务：向公会首领购买公会之钥"
-		""
-		"&6找到&e公会首领&6，不断和他&2交易&6，直到刷出&e公会之钥&6。"
-		"&6你也可以合成&e刃枪晋升令&6，"
-		"&6右键&e刃枪兵&6使之晋升为&e公会首领&6。"
-	]
-	quest.7669BD22EB40BE98.quest_subtitle: "与公会首领交易"
+	quest.766B986DF990680C.title: "黯影之钥"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2自然罗盘：&a猩红森林&r"
 		"&2自然罗盘：&a螺旋藻森林&r"
@@ -4339,7 +4354,6 @@
 	]
 	quest.77457906D3353B69.quest_subtitle: "必读"
 	quest.77457906D3353B69.title: "&d按键提示"
-	quest.775551E2F0EF59B5.quest_desc: ["&6任务："]
 	quest.77650D7436678A64.quest_desc: ["&6任务：集齐三把钥匙，合成悚域之钥"]
 	quest.7768704F7110F259.title: "方块小镇蓝图自选"
 	quest.77777B69F96AD646.quest_desc: [
@@ -4378,6 +4392,8 @@
 		""
 		"&6未加入任何维度网络的玩家使用绑定过的连接器可以加入此网络。"
 	]
+	quest.7A2316A054FED7E5.quest_desc: ["&6任务：击败一位猎人斥候"]
+	quest.7A2316A054FED7E5.title: "斥候"
 	quest.7A29CD2932DB3DC7.quest_desc: [
 		"&6任务：观察月螟仙人掌"
 		""

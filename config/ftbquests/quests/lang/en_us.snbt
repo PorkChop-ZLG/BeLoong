@@ -1909,14 +1909,6 @@
 		"Finally, click the ink button in the center to scribe the spell."
 	]
 	quest.4AC69031BAEF29B0.quest_subtitle: "The Origin of Iron's Spells"
-	quest.4AE7B82C02B26C16.quest_desc: [
-		"&aObjective: Train a Dragon Forger and buy the Key of Radiance from them."
-		""
-		"&6First, craft a &eDragon Forge &6to turn a villager into a &eDragon Forger&6."
-		"&6Then, keep &2trading &6until the villager reaches &eMaster level&6."
-		"&6Only then will the villager sell the &eKey of Radiance&6."
-	]
-	quest.4AE7B82C02B26C16.quest_subtitle: "Train a Dragon Artisan"
 	quest.4B0B81F46A5AA9B1.quest_desc: [
 		" An exquisitely crafted lamp. Its color suggests it might be cast from bronze, yet it bears no trace of verdigris; I suspect its material is some kind of magic-infused metal."
 		" The ancient lamp may have lain dormant underground for centuries. As I picked it up, I felt a lingering warmth in my palm, as if its flame had been extinguished not long ago."
@@ -2607,12 +2599,6 @@
 	quest.68A904F25FFE8956.title: "Twilight Forest: Twilight Ghast"
 	quest.68F38201DF496DA9.quest_subtitle: "Infinite Mana"
 	quest.69BE2E1BCBE71766.title: "Spell Book T0"
-	quest.69C53D16FB6FCEF5.quest_desc: [
-		"&aObjective: Defeat the Guild Knight and obtain the Key of Shadow."
-		""
-		"&eGuild Knights &6can disable dragon magic, so be cautious."
-	]
-	quest.69C53D16FB6FCEF5.quest_subtitle: "Defeat the Guild Knight"
 	quest.6A0A7CA003C79A28.title: "Check-in: Azure Depth"
 	quest.6A1268143ED70C45.quest_desc: [
 		"&l&d「Frostbitten Giant」"
@@ -2909,14 +2895,6 @@
 	quest.75F377E217613AEF.title: "Young Sea Dragon"
 	quest.762DDE9C0729E876.quest_subtitle: "Collect all rings"
 	quest.762DDE9C0729E876.title: "&aRings Completion"
-	quest.7669BD22EB40BE98.quest_desc: [
-		"&aObjective: Purchase the Guild Key from the Guild Master"
-		""
-		"&6Find a &eGuild Master&6 and keep &2trading &6with them until they offer the &eGuild Key&6."
-		"&6You can also craft a &eBlade-Gun Promotion Order &6and"
-		"&6right-click a &eBlade-Gunner &6to promote them to a &eGuild Master&6."
-	]
-	quest.7669BD22EB40BE98.quest_subtitle: "Trade with the Guild Master"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2Nature's Compass: &aCrimson Forest&r"
 		"&2Nature's Compass: &aSpiral Forest&r"

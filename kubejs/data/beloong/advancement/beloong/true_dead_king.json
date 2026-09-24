@@ -1,5 +1,5 @@
 {
-  "parent": "beloong:beloong/dead_king",
+  "parent": "beloong:beloong/warden",
   "criteria": {
     "killed": {
       "trigger": "beloong:ominous_dead_king_kill"

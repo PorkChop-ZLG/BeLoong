@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:warden",
     "irons_spellbooks:apothecarist",
     "irons_spellbooks:cryomancer",
     "irons_spellbooks:priest",
