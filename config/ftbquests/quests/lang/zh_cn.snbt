@@ -121,14 +121,6 @@
 	]
 	quest.0088F3221CD99A3D.quest_subtitle: "★★★★★★"
 	quest.0088F3221CD99A3D.title: "灾变：末影守卫"
-	quest.0105D9B7766A1BA4.quest_desc: [
-		"&6任务：开启黯影宝库，获得黯影模版"
-		""
-		"&6前往&c下界&6，手持&e黯影之钥&6，它会为你引路。"
-		""
-		"&9结构罗盘：&b【龙之生存】下界龙雕像&r"
-	]
-	quest.0105D9B7766A1BA4.quest_subtitle: "Deep♂Dark"
 	quest.0117683476F067D1.quest_subtitle: "五脏调和~"
 	quest.0148D8DF96431BD6.quest_desc: [
 		"&6任务：获得刷子，刷取龙鳞"
@@ -167,6 +159,15 @@
 		"&o&7随时随地，风雨无阻！&r&r"
 	]
 	quest.0290886F399EB569.quest_subtitle: "快速出货工具"
+	quest.0294A7EFD83D05F9.quest_desc: [
+		"&6任务：激活下界传送门，前往下界"
+		""
+		"地狱之门敞开，门后是一间小密室，充满下界的气息。"
+		""
+		"然而，下界传送门的框架被人拆除了。好在，门后的墙壁上有&e黑曜石&r和&e打火石&r，你可以重新修复并且激活下界传送门。"
+		""
+		"将三个&e黑曜石&r放入门口的缺口处，然后在黑曜石上使用&e打火石点火&r，即可开启&c下界传送门&r。"
+	]
 	quest.0294A7EFD83D05F9.quest_subtitle: "原来还要自己拼"
 	quest.0294A7EFD83D05F9.title: "下界传送门"
 	quest.02B96CE03E4B8FF7.title: "观察：幽匿尖啸体"
@@ -274,6 +275,15 @@
 	quest.03EB435BA284D2D0.title: "观察：寒冰百合"
 	quest.040C5733423CA409.quest_subtitle: "云上的小屋"
 	quest.040C5733423CA409.title: "打卡：巨人小屋"
+	quest.046CC9060FF9A799.quest_desc: [
+		"&6任务：击败不祥的死者之王"
+		""
+		"不好，这是个陷阱！&#8242FF死者之王&r根本没死，&e地下墓穴&r里的是假身。而真身一直躲在尼德兰地底下。"
+		""
+		"真正的&4死者之王&r，浑身缭绕着不祥的气息，实力明显比之前更强，还会很多没见过的法术。"
+		""
+		"事情的真相已经浮出水面。这里是主世界与下界的连接处。死者之王徘徊于两界之间，不死不灭，与世长存。尼德兰王国因此堕落，龙族也遭受灭顶之灾！"
+	]
 	quest.046CC9060FF9A799.quest_subtitle: "原来你没死啊"
 	quest.046CC9060FF9A799.title: "&4&l不祥的死者之王"
 	quest.048B0DD23E73AD71.quest_desc: [
@@ -503,7 +513,7 @@
 		"&l&d生成"
 		"&9结构罗盘：&b远古城市&r"
 	]
-	quest.0B1F2B46DAF0D8AC.quest_subtitle: "★★"
+	quest.0B1F2B46DAF0D8AC.quest_subtitle: "★"
 	quest.0B1F2B46DAF0D8AC.title: "原版：监守者"
 	quest.0B21BEEF0BACA869.title: "首饰T1"
 	quest.0B7325524A346099.quest_desc: [
@@ -858,6 +868,15 @@
 	]
 	quest.1588CA412F4FAA24.title: "&5星界龙"
 	quest.15B0C5F57872F7E2.title: "悚域BOSS毕业"
+	quest.15BF3555F2FDD819.quest_desc: [
+		"&6任务：使用骸骨钥匙，打开地狱之门"
+		""
+		"经历千难万险，终于击败了&4不祥的死者之王&r。然后如今，你的行踪已经暴露，并且深陷地底无法脱离。"
+		""
+		"人族的大军即将赶到，眼下唯一的选择，就是打开那扇&c通往地狱的大门&r，前往&c下界&r博一线生机。"
+		""
+		"&e地狱之门&r被牢牢锁住，但是&4死者之王&r掉落的&e骸骨钥匙&r可以打开此门。"
+	]
 	quest.15BF3555F2FDD819.title: "地狱之门"
 	quest.15C5C16F69808158.quest_subtitle: "这是史莱姆吗？"
 	quest.15C8B8AA60276011.quest_desc: [
@@ -888,7 +907,16 @@
 		"&b永冻石锭+冰龙血=龙霜钢锭（龙霜锻炉）"
 	]
 	quest.15D4B079675BDA00.quest_subtitle: "配方已修改，需要永冻石锭"
-	quest.160F11820FD39F91.quest_subtitle: "原版最强之人"
+	quest.160F11820FD39F91.quest_desc: [
+		"&6任务：击败监守者"
+		""
+		"&e监守者&r本来应该在&e远古城市&r当中。&e尼德兰&r的考古队将其挖出后，藏在地牢中研究，并且似乎在守护着什么。"
+		""
+		"&e监守者&r虽然不是Boss，但是比很多Boss都要难缠。监守者没有视力，却有着超强的听力，任何动静都会让它对你发动攻击。"
+		""
+		"{ \"text\": \"点我跳转到Boss攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B1F2B46DAF0D8AC\" } }"
+	]
+	quest.160F11820FD39F91.quest_subtitle: "千万别发出声音"
 	quest.160F11820FD39F91.title: "监守者"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "击杀3种雪怪BOSS"
 	quest.1611AF1CA2E30FEE.title: "哪个是真的雪怪？"
@@ -907,6 +935,15 @@
 	]
 	quest.16DF8F0EA133B69A.title: "技能：龙击长空"
 	quest.170C5452183F9D7E.title: "观察：烈焰百合"
+	quest.171EE432493EC6C1.quest_desc: [
+		"&6任务：跳入炸开的地洞，开启黯影宝库"
+		""
+		"击败&e监守者&r后，木质地板突然炸开一个大洞，底下连接着一个未知的房间。"
+		""
+		"这个房间透露着一种阴森恐怖的氛围，仿佛连接着地狱。周围的墙壁流淌着岩浆，十二根柱子冒着火焰，房间的尽头是一扇锁住的大门。"
+		""
+		"房间的中央有个&e王座&r，座椅的位置是&5黯影宝库&r。使用&5黯影之钥&r开启宝库，看看尼德兰千辛万苦藏起来的宝贝是什么。"
+	]
 	quest.171EE432493EC6C1.quest_subtitle: "藏在最底下的宝藏"
 	quest.171EE432493EC6C1.title: "黯影宝库"
 	quest.1744C1A7A7BFF4D7.quest_desc: ["&6赛钱箱似乎无法取出5円的钱币，可以在这里兑换&r"]
@@ -1034,7 +1071,7 @@
 	quest.196D64F5AFD45762.quest_subtitle: "千里冰封，万里雪飘"
 	quest.196D64F5AFD45762.title: "冰域"
 	quest.19878C818E548C2D.title: "观察：根须"
-	quest.19ABCC0C33AD9672.title: "圣辉之钥"
+	quest.19ABCC0C33AD9672.quest_desc: ["&6任务：击败猎人首领"]
 	quest.19DA784FDC312506.quest_desc: [
 		"&6任务：成长到始祖龙阶段，击败黑暗二重身"
 		""
@@ -1051,13 +1088,6 @@
 	quest.19E36A004B2CACC1.title: "技能：龙宫传送"
 	quest.19EC475553EC785D.quest_subtitle: "呐，要开始放晴了哟~"
 	quest.19EC475553EC785D.title: "切换天气"
-	quest.19F5D45CF7D9CAF5.quest_desc: [
-		"&6任务：集齐全套黯影龙铠"
-		""
-		"&6注意：穿戴黯影龙铠后，会始终拥有【悬赏追猎】的效果，无法与村民交易！"
-	]
-	quest.19F5D45CF7D9CAF5.quest_subtitle: "集齐黯影龙铠套装"
-	quest.19F5D45CF7D9CAF5.title: "最光明，最黑暗"
 	quest.1A1F4138D32ADC70.title: "护符T0"
 	quest.1A60448B701DF708.quest_desc: [
 		"&6任务：击败星光傀儡，获得氧化的合金炉"
@@ -1651,7 +1681,13 @@
 	]
 	quest.2FEE9B22743CCCBC.quest_desc: ["&9结构罗盘：&b牛头人迷宫&r"]
 	quest.2FEE9B22743CCCBC.title: "挑战：牛头人迷宫"
-	quest.2FEF82AA8E226D4A.quest_desc: ["&6任务：通过任意方式获得猎人之钥"]
+	quest.2FEF82AA8E226D4A.quest_desc: [
+		"&6任务：通过任意方式获得猎人之钥"
+		""
+		"&e猎人首领&r是尼德兰名义上的统治者，但是所有人都知道，这个首领是个&2傻子&r。"
+		""
+		"当你没有&c悬赏追猎&r效果时，&e猎龙者&r不会主动向你发动攻击。你可以与&e猎人首领&r交易，换取&e猎人之钥&r，开启尼德兰的宝库。"
+	]
 	quest.2FEF82AA8E226D4A.quest_subtitle: "这是傻子吗？"
 	quest.2FEF82AA8E226D4A.title: "猎人首领"
 	quest.2FFA72EF12E63FC6.quest_desc: [
@@ -1794,6 +1830,7 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "学会使用魔法书"
 	quest.346F1B08A0E6345D.title: "见习法师"
+	quest.3478FDACA97D4803.title: "猎人首领"
 	quest.347C54BAEC42A4AA.quest_desc: [
 		"&6任务：击败湮灭构造体"
 		""
@@ -2036,18 +2073,6 @@
 	]
 	quest.3A2BAF5D46546864.quest_subtitle: "修复末影龙战斗"
 	quest.3A2BAF5D46546864.title: "重置末地主岛"
-	quest.3AA1AA79BED0F294.quest_desc: [
-		"&a兑换：天赐之翼+横滚之能=空龙魂"
-		""
-		"&e传承之所&6藏有古龙们遗留的宝贵财富。"
-		"&6传承之地有两种，第二种为末地石包裹的&e传承神庙&6。"
-		"&6过去，古龙在这里向幼龙传授飞行与旋冲的魔法。"
-		"&6如今，这些传承已无用处，你可以将其兑换成&d空龙魂&6。"
-		""
-		""
-		"{image:kubejs:textures/task/treasure_end_2.png width:192 height:108 align:center}"
-	]
-	quest.3AA1AA79BED0F294.title: "技能赋能"
 	quest.3AF8293458FE7927.quest_desc: [
 		"做一个 2×2 的小水池，水池旁边放满植物，再向水池投掷一颗钻石。只见一道闪电劈过，暮色世界的传送门便会打开！"
 		"现在，使用龙蛋也能激活暮色森林传送门！"
@@ -2320,9 +2345,15 @@
 	]
 	quest.412059FEA6DD0919.quest_subtitle: "点击查看详情"
 	quest.412059FEA6DD0919.title: "龙之合成"
-	quest.415DFAC173D75395.quest_desc: ["&6任务：集齐全套圣辉龙铠"]
-	quest.415DFAC173D75395.quest_subtitle: "集齐圣辉龙铠套装"
-	quest.415DFAC173D75395.title: "重塑金身"
+	quest.416D85F4C0C5019D.quest_desc: [
+		"&6任务：通过下界传送门，进入下界"
+		""
+		"&a主世界&r的冒险自此告一段落，全新的冒险正等待着你。"
+		""
+		"第一章主线任务，属于&a新手教程的延伸&r。而从第二章主线开始，难度会大幅度提高。"
+		""
+		"&6任务书&r将不再详细讲解，需要你自己去探索和冒险。但是任务书里依旧会记录重要信息，请仔细查阅。"
+	]
 	quest.416D85F4C0C5019D.quest_subtitle: "【第一章    完结】"
 	quest.416D85F4C0C5019D.title: "&4&l不入地狱 &5&l不见终焉"
 	quest.41DB497093B18B47.title: "手饰T1"
@@ -2753,6 +2784,12 @@
 	quest.4DBFC5ADAA53C35F.quest_desc: [
 		"&6任务：找到人类王国——尼德兰"
 		""
+		"&e尼德兰&r，是一个人类小国，曾因屠龙勇士而声名远扬。如今，尼德兰吸引了大量&e猎龙者&r，他们以猎杀龙族为荣。因此，龙族与尼德兰王国水火不容。"
+		""
+		"&e尼德兰&r本意是低洼之地，而种种迹象表明，这个名字还与&c地狱&r有关。因此，你需要进入尼德兰进行调查，顺便解决那些该死的猎龙者。"
+		""
+		"&e尼德兰&r戒备森严，强者如云，并且布置有更强的&b禁空法阵&r和&b防御法阵&r，你不仅&c难以飞行&r，而且&c无法破坏&r建筑。"
+		""
 		"&9结构罗盘：&b尼德兰"
 	]
 	quest.4DBFC5ADAA53C35F.quest_subtitle: "潮汐监狱搜打撤"
@@ -2857,19 +2894,6 @@
 	quest.50A8397A7FF4CF05.quest_subtitle: "你咋跑末地来了"
 	quest.50A8397A7FF4CF05.title: "铁掌竞技场"
 	quest.50BB90328AFA019B.title: "击杀：旋风人"
-	quest.50E66A5B37FF3E9B.quest_desc: [
-		"&6任务：找到传承之所"
-		""
-		"&e传承之所&6藏有古龙们遗留的宝贵财富。"
-		"&6传承之地有两种，第一种为巨大的&e龙之雕像&6。"
-		"&6在龙之雕像的中心，藏有可储存龙族形态的&d空龙魂&6。"
-		""
-		"&9结构罗盘：&b【龙之生存】传承之所&r"
-		""
-		"{image:kubejs:textures/task/treasure_end_1.png width:192 height:108 align:center}"
-	]
-	quest.50E66A5B37FF3E9B.quest_subtitle: "龙魂沉眠之所"
-	quest.50E66A5B37FF3E9B.title: "传承之所"
 	quest.50F0679111551BC1.quest_desc: [
 		"&6任务：获得沉重核心，合成重锤"
 		""
@@ -2993,22 +3017,21 @@
 		"&6它的进阶版为&c镇压之杖&6。"
 	]
 	quest.52760593973916B2.quest_subtitle: "禁止怪物生成"
-	quest.5280E22998AA42DC.quest_subtitle: "这是贪了多少钱？"
+	quest.5280E22998AA42DC.quest_desc: [
+		"&6任务：找到尼德兰的藏宝室，开启猎人宝库"
+		""
+		"&e尼德兰&r的地底，修建了一座庞大复杂的&e地牢&r。而猎龙者们屠杀龙族，劫掠的财宝，都藏在地牢之中。"
+		""
+		"地牢有很多入口，而&a主要入口&r就位于&a大门天桥的下方&r。地牢里守卫森严，龙族对此一无所知，只能你自己探索。"
+		""
+		"不过龙族在尼德兰有安插“线龙”，根据绝密消息，地牢里有&e一幅壁画&r非常可疑。"
+	]
+	quest.5280E22998AA42DC.quest_subtitle: "肖申克的救赎"
 	quest.5280E22998AA42DC.title: "猎人宝库"
 	quest.5290F30C84D09FDE.quest_subtitle: "升级洞穴龙4个被动技能到满级"
 	quest.5290F30C84D09FDE.title: "掌握火之奥义"
 	quest.52E270E37E59D418.quest_subtitle: "抽取暮色森林的树苗"
 	quest.52E270E37E59D418.title: "暮色树苗盲盒"
-	quest.53401F206F58F9C4.quest_desc: [
-		"&6任务：开启公会宝库，获得猎龙者之刃"
-		""
-		"&e猎龙者之刃&6是古代屠龙勇士的遗物，能够弑杀巨龙。"
-		"&6如果它落入龙族之手，会给予龙族诅咒。"
-		"&6前往&2主世界地底&6，手持&e公会之钥&6，它会为你引路。"
-		""
-		"&9结构罗盘：&b【龙之生存】公会宝库&r"
-	]
-	quest.53401F206F58F9C4.quest_subtitle: "倚天屠龙记"
 	quest.534483AFF139EBD4.title: "阴阳师装备"
 	quest.53A0BF6EAC599D29.quest_desc: ["这里曾孕育了十分繁荣的文明，但是你未能亲眼目睹。如今永恒之夜笼罩着这里，森林中仅存着一些遗迹、葱郁的树木及奇怪的生物。你决心揭开暮色森林的神秘面纱，但是你很快发现，遗迹拥有了新的主人。并非所有森林居民都对入侵者十分友好！找到一些&a火炬浆果&r和&a渡鸦羽毛&r用他们和&a萤石&r合成&d魔法地图核心"]
 	quest.53A0BF6EAC599D29.quest_subtitle: "附近的建筑中貌似散发着敌意"
@@ -3115,18 +3138,13 @@
 	quest.56B33061AF98D6B8.quest_desc: ["&6任务：观察一只冰龙"]
 	quest.56B33061AF98D6B8.quest_subtitle: "了解冰龙习性"
 	quest.56B33061AF98D6B8.title: "观察冰龙"
-	quest.56B73043CC964E09.quest_desc: [
-		"&6任务：掠夺一只村民"
+	quest.56C2CDCF4A6ED266.quest_desc: [
+		"&6任务：击杀三名电击者"
 		""
-		"&6龙攻击村民和公会的人时会获得&d悬赏追猎&6效果，"
-		"&6此时不能村民交易，按&d【右键】&6可&c掠夺&6有职业的村民。"
-		"&d悬赏追猎&6期间，有概率刷新&e斥候&6小队前来逮捕你！"
+		"没想到，&e猎龙者&r居然和&e掠夺者&r勾结在一起。在&6尼德兰&r地底的地牢中，躲藏着大量&e电击者&r。"
 		""
-		"&d悬赏追猎&6无法通过牛奶和死亡消除，只能等时间结束。"
-		"&6任务书提供&c【清除悬赏追猎】&6，使用后可清除该效果。"
+		"&e电击者&r是掠夺者中的精英，手持&b电击法杖&r，可以释放高压闪电，相当难缠。并且往往成群结队，推荐使用具备大范围杀伤的技能迎战。"
 	]
-	quest.56B73043CC964E09.quest_subtitle: "掠夺一只村民"
-	quest.56B73043CC964E09.title: "——劫掠——"
 	quest.56C2CDCF4A6ED266.quest_subtitle: "这是电击小子"
 	quest.56C2CDCF4A6ED266.title: "电击者"
 	quest.56CD03186ED90684.quest_desc: [
@@ -3260,7 +3278,7 @@
 	quest.5B17EE2B443E6FAB.title: "天灾传送门"
 	quest.5B754E8171325667.quest_subtitle: "&5&l「末」&r&d这就是飞行的感觉吗？"
 	quest.5B754E8171325667.title: "第二幕：化龙"
-	quest.5B7869303C02FFD4.quest_subtitle: "坚定的唯物主义战士"
+	quest.5B7869303C02FFD4.quest_desc: ["&6任务：击败猎人骑士"]
 	quest.5B7869303C02FFD4.title: "猎人骑士"
 	quest.5B9E398C385E0CA1.quest_subtitle: "平原上的白色小花"
 	quest.5BAF5C77F3373696.title: "观察：海泡菜"
@@ -3752,14 +3770,6 @@
 	quest.6588C404E5712724.quest_subtitle: "龙也要挖木头开局"
 	quest.6588C404E5712724.title: "获取原木"
 	quest.65D18729B9A46063.title: "瘟疫医生装备"
-	quest.65DF9D6C0D5E7583.quest_desc: [
-		"&6任务：开启圣辉宝库，获得圣辉模版"
-		""
-		"&6前往&2主世界地底&6，手持&e圣辉之钥&6，它会为你引路。"
-		""
-		"&9结构罗盘：&b【龙之生存】龙雕像&r"
-	]
-	quest.65DF9D6C0D5E7583.quest_subtitle: "你相信光吗？"
 	quest.6656025163D1E9CE.quest_desc: ["&6学徒法术书&r拥有优秀的综合性能，是性价比之王。"]
 	quest.6656025163D1E9CE.quest_subtitle: "正式踏上法师之路"
 	quest.66787AF56BE1A6FD.quest_subtitle: "&5&l「影」&r&e龙族的大皇子?"
@@ -3871,6 +3881,13 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie的生物：霜冻巨兽"
+	quest.6A58A66A56D019BC.quest_desc: [
+		"&6任务：击杀一台终极傀儡"
+		""
+		"&e终极傀儡&r是人类研发出来对付龙族的大杀器，钢铁之躯具备&a极高的抗性&r，背后的背包能&b发射炮弹&r远距离打击。"
+		""
+		"&6尼德兰&r居然在地牢中藏着数台&e终极傀儡&r，必须全部销毁！"
+	]
 	quest.6A58A66A56D019BC.quest_subtitle: "这是自爆卡车"
 	quest.6A58A66A56D019BC.title: "终极傀儡"
 	quest.6B374FA9A003150A.quest_desc: ["&6任务：击败碎裂者"]
@@ -4300,7 +4317,6 @@
 	quest.760C3E4759FA6815.title: "晶咒龙"
 	quest.762DDE9C0729E876.quest_subtitle: "集齐所有戒指"
 	quest.762DDE9C0729E876.title: "&a戒指毕业"
-	quest.766B986DF990680C.title: "黯影之钥"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2自然罗盘：&a猩红森林&r"
 		"&2自然罗盘：&a螺旋藻森林&r"

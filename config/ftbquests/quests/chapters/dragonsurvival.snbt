@@ -488,36 +488,6 @@
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "minecraft:villager_spawn_egg"
-			}
-			id: "56B73043CC964E09"
-			rewards: [
-				{
-					id: "33173A002288F155"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "174E4F17C8E8764A"
-					item: {
-						count: 1
-						id: "dragonsurvival:heart_element"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "dragonsurvival:dark/steal_from_villager"
-				criterion: ""
-				id: "6B2D8CA1DC528079"
-				type: "advancement"
-			}]
-			x: -5.5d
-			y: 12.0d
-		}
-		{
 			hide_lock_icon: true
 			icon: {
 				id: "dragonsurvival:spearman_promotion"
@@ -578,238 +548,6 @@
 			}]
 			x: -17.5d
 			y: 9.0d
-		}
-		{
-			id: "53401F206F58F9C4"
-			rewards: [
-				{
-					id: "3159F5972177106B"
-					type: "xp"
-					xp: 500
-				}
-				{
-					count: 8
-					id: "761AE23188A1BF08"
-					item: {
-						count: 1
-						id: "dragonsurvival:heart_element"
-					}
-					type: "item"
-				}
-				{
-					id: "7B04979E3F3A59BF"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"dragonsurvival:dragonsbane": 3
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2367BC759AE515EB"
-				item: { count: 1, id: "dragonsurvival:dragon_hunter_sword" }
-				type: "item"
-			}]
-			x: -12.5d
-			y: 11.0d
-		}
-		{
-			id: "0105D9B7766A1BA4"
-			rewards: [
-				{
-					id: "1C3BFE64EE4D6E96"
-					type: "xp"
-					xp: 500
-				}
-				{
-					count: 5
-					id: "7CBFB3A5FA4BDC70"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "258D5022D0AFA375"
-					table_id: 1399308584277313590L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "7F954B6BA129C0BA"
-				item: { count: 1, id: "dragonsurvival:dark_upgrade" }
-				type: "item"
-			}]
-			x: -12.5d
-			y: 9.0d
-		}
-		{
-			id: "65DF9D6C0D5E7583"
-			rewards: [
-				{
-					id: "3431D29784367E9D"
-					type: "xp"
-					xp: 500
-				}
-				{
-					count: 5
-					id: "1D34972BA95E33D6"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4F6E82C7A5E41E4F"
-					table_id: 1399308584277313590L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "79F36233E7B9F0D6"
-				item: { count: 1, id: "dragonsurvival:light_upgrade" }
-				type: "item"
-			}]
-			x: -12.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["65DF9D6C0D5E7583"]
-			id: "415DFAC173D75395"
-			rewards: [
-				{
-					id: "1C32E7C8441FA91D"
-					type: "xp"
-					xp: 888
-				}
-				{
-					id: "0257FEC8050D0ECA"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7A181239A77D5686"
-					table_id: 1399308584277313590L
-					type: "choice"
-				}
-			]
-			tasks: [{
-				advancement: "dragonsurvival:light/get_armor_set"
-				criterion: ""
-				id: "4601F93975A67D7A"
-				type: "advancement"
-			}]
-			x: -11.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["0105D9B7766A1BA4"]
-			id: "19F5D45CF7D9CAF5"
-			rewards: [
-				{
-					id: "4BEA429E75F71D39"
-					type: "xp"
-					xp: 888
-				}
-				{
-					id: "37E91A18238A3101"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "113ED929991668C4"
-					table_id: 1399308584277313590L
-					type: "choice"
-				}
-			]
-			tasks: [{
-				advancement: "dragonsurvival:dark/get_armor_set"
-				criterion: ""
-				id: "30BBB79DC1C5A385"
-				type: "advancement"
-			}]
-			x: -11.0d
-			y: 7.5d
-		}
-		{
-			icon: {
-				id: "dragonsurvival:dragon_soul"
-			}
-			id: "50E66A5B37FF3E9B"
-			rewards: [
-				{
-					id: "1F7798FDB9112843"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 5
-					id: "5D332E61700EE797"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				id: "5F0CD1F57F738F5B"
-				structure: "dragonsurvival:treasure_end"
-				type: "structure"
-			}]
-			x: -8.0d
-			y: 11.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["50E66A5B37FF3E9B"]
-			dependency_requirement: "one_started"
-			id: "3AA1AA79BED0F294"
-			optional: true
-			rewards: [{
-				id: "1E37A1F1A2342CC8"
-				item: {
-					count: 1
-					id: "dragonsurvival:dragon_soul"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "4A98F2E9F856CECC"
-					item: { count: 1, id: "dragonsurvival:wing_grant" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "718A483938777E28"
-					item: { count: 1, id: "dragonsurvival:spin_grant" }
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: 13.0d
 		}
 		{
 			dependencies: ["186EDCECB309BC44"]
@@ -2665,7 +2403,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4DBFC5ADAA53C35F"]
+			dependencies: ["7A2316A054FED7E5"]
 			id: "5B7869303C02FFD4"
 			rewards: [
 				{
@@ -2688,8 +2426,8 @@
 				id: "1F2268A37BE57A3F"
 				type: "advancement"
 			}]
-			x: 56.0d
-			y: 0.0d
+			x: 55.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4DBFC5ADAA53C35F"]
@@ -2745,21 +2483,11 @@
 		{
 			dependencies: ["304DAEBEEFE681C6"]
 			id: "3CFB972DCF434B18"
-			rewards: [
-				{
-					id: "627ABF73616A9D3D"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "25D45993457F45B2"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_dust"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "627ABF73616A9D3D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				advancement: "beloong:beloong/hunter_spearman"
 				criterion: ""
@@ -2770,9 +2498,8 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5B7869303C02FFD4"]
 			icon: {
-				id: "dragonsurvival:hunter_key"
+				id: "dragonsurvival:spearman_promotion"
 			}
 			id: "2FEF82AA8E226D4A"
 			rewards: [
@@ -2796,7 +2523,7 @@
 				id: "10BCA054B4263E21"
 				type: "advancement"
 			}]
-			x: 57.5d
+			x: 56.0d
 			y: 0.0d
 		}
 		{
@@ -2823,7 +2550,7 @@
 				id: "3B03BED7BAC003E1"
 				type: "advancement"
 			}]
-			x: 59.0d
+			x: 58.0d
 			y: 0.0d
 		}
 		{
@@ -2850,7 +2577,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 60.5d
+			x: 60.0d
 			y: -1.0d
 		}
 		{
@@ -2877,7 +2604,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 60.5d
+			x: 60.0d
 			y: 1.0d
 		}
 		{
@@ -2916,6 +2643,21 @@
 		{
 			dependencies: ["160F11820FD39F91"]
 			id: "171EE432493EC6C1"
+			rewards: [
+				{
+					id: "4D7F34F7F65C8B71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6495D25D5508CD6F"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "dragonsurvival:dark/open_vault"
 				criterion: ""
@@ -2961,6 +2703,21 @@
 		{
 			dependencies: ["046CC9060FF9A799"]
 			id: "15BF3555F2FDD819"
+			rewards: [
+				{
+					id: "015AB40E86914579"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43C8183C77562E05"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_dust"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "beloong:beloong/hell_gate"
 				criterion: ""
@@ -3042,6 +2799,23 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3CFB972DCF434B18"]
+			id: "3478FDACA97D4803"
+			rewards: [{
+				id: "7182F62497AB5B51"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "beloong:beloong/hunter_leader"
+				criterion: ""
+				id: "076F4530373D8CA8"
+				type: "advancement"
+			}]
+			x: 55.5d
+			y: -5.0d
+		}
+		{
 			dependencies: ["5B7869303C02FFD4"]
 			id: "766B986DF990680C"
 			rewards: [{
@@ -3055,11 +2829,11 @@
 				id: "2C17A1194E1F743C"
 				type: "advancement"
 			}]
-			x: 56.0d
+			x: 57.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["5B7869303C02FFD4"]
+			dependencies: ["3478FDACA97D4803"]
 			id: "19ABCC0C33AD9672"
 			rewards: [{
 				id: "6863B1C31AF36221"
@@ -3072,7 +2846,7 @@
 				id: "103A50E652145C55"
 				type: "advancement"
 			}]
-			x: 56.0d
+			x: 57.5d
 			y: -5.0d
 		}
 	]

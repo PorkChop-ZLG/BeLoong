@@ -111,14 +111,6 @@
 	]
 	quest.0088F3221CD99A3D.quest_subtitle: "★★★★"
 	quest.0088F3221CD99A3D.title: "Cataclysm: Ender Guardian"
-	quest.0105D9B7766A1BA4.quest_desc: [
-		"&aObjective: Open the Shadow Vault and obtain the Shadow Template"
-		""
-		"&6Go to the &cNether&6 while holding the &eShadow Key&6, it will guide your way."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Nether Dragon Statue&r"
-	]
-	quest.0105D9B7766A1BA4.quest_subtitle: "Deep♂Dark"
 	quest.0117683476F067D1.quest_subtitle: "Balanced Organs~"
 	quest.0148D8DF96431BD6.quest_desc: [
 		"&aObjective: Obtain a Brush and collect Dragon Scales"
@@ -908,9 +900,6 @@
 	quest.19DA784FDC312506.title: "&2Forest Dragon Graduation"
 	quest.19EC475553EC785D.quest_subtitle: "Hey, it's clearing up now~"
 	quest.19EC475553EC785D.title: "Change Weather"
-	quest.19F5D45CF7D9CAF5.quest_desc: ["&aGoal: Collect the Full Shadow Dragon Armor Set"]
-	quest.19F5D45CF7D9CAF5.quest_subtitle: "Collect the Shadow Dragon Armor Set"
-	quest.19F5D45CF7D9CAF5.title: "Brightest and Darkest"
 	quest.1A1F4138D32ADC70.title: "Talisman T0"
 	quest.1A60448B701DF708.quest_desc: [
 		"&aGoal: Defeat the Starlight Golem and obtain the Oxidized Alloy Furnace"
@@ -1541,18 +1530,6 @@
 	quest.39A482BF78452D09.title: "Energizing Soup"
 	quest.39AF32032B46C495.quest_subtitle: "Begin the Aether Dragon's path of growth"
 	quest.39AF32032B46C495.title: "Aether Dragon Hatchling"
-	quest.3AA1AA79BED0F294.quest_desc: [
-		"&aExchange: Heaven's Gift + Spin to Win = Aether Dragon Soul"
-		""
-		"&eThe Inheritance Grounds &6hold the precious legacy left by ancient dragons."
-		"&6There are two types of Inheritance Grounds, the second being an &eInheritance Temple &6made of End Stone."
-		"&6In the past, ancient dragons taught young dragons the magic of flight and spin here."
-		"&6Now, these inheritances are useless, you can exchange them for &dAether Dragon Soul&6."
-		""
-		""
-		"{image:kubejs:textures/task/treasure_end_2.png width:192 height:108 align:center}"
-	]
-	quest.3AA1AA79BED0F294.title: "Skill Empowerment"
 	quest.3AF8293458FE7927.quest_desc: [
 		"Make a 2×2 small pool of water, surround it with plants, and then throw a diamond into the pool. Watch as a bolt of lightning strikes, and the portal to the Twilight Forest will open!"
 		"Now, you can also activate the Twilight Forest portal using a Dragon Egg!"
@@ -1707,9 +1684,6 @@
 	quest.40D693D34C2593C4.title: "BWG Log Assortment"
 	quest.410087ACF6234CC1.quest_subtitle: "Heaven grants no grace, the swirling pool reflects the sun."
 	quest.410087ACF6234CC1.title: "&5Tianxuan"
-	quest.415DFAC173D75395.quest_desc: ["&aObjective: Collect the full set of Radiant Dragon Armor"]
-	quest.415DFAC173D75395.quest_subtitle: "Collect the Radiant Dragon Armor set"
-	quest.415DFAC173D75395.title: "Reform the Golden Body"
 	quest.41DB497093B18B47.title: "Hand Ornament T1"
 	quest.4218F6E0430B190C.title: "Foot Ornament T3"
 	quest.422368D6F94C0ABD.quest_desc: [
@@ -2047,19 +2021,6 @@
 	quest.508986FA5D56C11E.title: "&cCave Dragon Completion"
 	quest.5096264BBB1C9577.quest_subtitle: "Infinite Mana"
 	quest.50BB90328AFA019B.title: "Kill: Breeze"
-	quest.50E66A5B37FF3E9B.quest_desc: [
-		"&aObjective: Find the Inheritance Grounds"
-		""
-		"&eThe Inheritance Grounds &6hold the precious legacy left by ancient dragons."
-		"&6There are two types of Inheritance Grounds, the first being a giant &eDragon Statue&6."
-		"&6At the center of the Dragon Statue lies an &dAether Dragon Soul &6that can store a dragon's form."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Inheritance Grounds&r"
-		""
-		"{image:kubejs:textures/task/treasure_end_1.png width:192 height:108 align:center}"
-	]
-	quest.50E66A5B37FF3E9B.quest_subtitle: "Resting Place of Dragon Souls"
-	quest.50E66A5B37FF3E9B.title: "Inheritance Grounds"
 	quest.51238BE8AF0EA852.title: "Check-in: Ancient City"
 	quest.5137133EEAA60C15.quest_subtitle: "Waiter! Bring out your most expensive dish!"
 	quest.513C98D0E44293EA.quest_desc: [
@@ -2135,16 +2096,6 @@
 	quest.5290F30C84D09FDE.title: "Mastery of Fire Essence"
 	quest.52E270E37E59D418.quest_subtitle: "Draw Twilight Forest Saplings"
 	quest.52E270E37E59D418.title: "Twilight Sapling Blind Box"
-	quest.53401F206F58F9C4.quest_desc: [
-		"&aObjective: Open the Guild Treasury and obtain the Dragonslayer's Blade"
-		""
-		"&eThe Dragonslayer's Blade &6is a relic of ancient dragon hunters, capable of slaying dragons."
-		"&6If it falls into dragon hands, it curses the dragon."
-		"&6Go to the &2Overworld underground&6, holding the &eGuild Key&6, which will guide your way."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Guild Treasury&r"
-	]
-	quest.53401F206F58F9C4.quest_subtitle: "The Heaven Sword and Dragon Saber"
 	quest.534483AFF139EBD4.title: "Onmyoji Armor"
 	quest.53A0BF6EAC599D29.quest_desc: ["A once very prosperous civilization flourished here, but you never witnessed it. Now, an eternal twilight shrouds this land. Only a few ruins, lush trees, and strange creatures remain in the forest. You are determined to unravel the mysteries of the Twilight Forest, but you soon discover that the ruins have new masters. Not all forest inhabitants are friendly to intruders! Find some &aTorchberries &rand &aRaven Feathers &rand combine them with &aGlowstone &rto craft a &dMagic Map Core"]
 	quest.53A0BF6EAC599D29.quest_subtitle: "The nearby structures seem to emanate hostility"
@@ -2224,18 +2175,6 @@
 	quest.56B33061AF98D6B8.quest_desc: ["&aObjective: Observe an Ice Dragon"]
 	quest.56B33061AF98D6B8.quest_subtitle: "Learn Ice Dragon habits"
 	quest.56B33061AF98D6B8.title: "Observe Ice Dragon"
-	quest.56B73043CC964E09.quest_desc: [
-		"&aObjective: Pillage a Villager"
-		""
-		"&6When a dragon attacks villagers or guild members, you gain the &dBounty Hunt &6effect."
-		"&6While under this effect, you cannot trade with villagers, but you can &cPillage &6a Villager with a profession by pressing &d【Right-click】&6."
-		"&6While &dUnder Bounty Hunt&6, there's a chance for &eScout &6squads to spawn and try to arrest you!"
-		""
-		"&dUnder Bounty Hunt &6cannot be removed with milk or death; you must wait for the duration to end."
-		"&6The quest book provides a &c【Clear Bounty Hunt】 &6item that can be used to remove the effect."
-	]
-	quest.56B73043CC964E09.quest_subtitle: "Pillage a Villager"
-	quest.56B73043CC964E09.title: "——Pillage——"
 	quest.573DE89DDB233083.title: "Concrete Assortment"
 	quest.574D327123271BA3.title: "First Entry into The End"
 	quest.577508CE564D487C.quest_subtitle: "Everything you want to know is here"
@@ -2542,14 +2481,6 @@
 	quest.6583633BEC31ECDF.quest_subtitle: "★★★★"
 	quest.6583633BEC31ECDF.title: "Cataclysm: Balrog"
 	quest.65D18729B9A46063.title: "Plague Doctor Armor"
-	quest.65DF9D6C0D5E7583.quest_desc: [
-		"&aObjective: Open the Radiant Treasury and obtain the Radiant Template"
-		""
-		"&6Go to the &2Overworld underground&6, holding the &eKey of Radiance&6, which will guide your way."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Dragon Statue&r"
-	]
-	quest.65DF9D6C0D5E7583.quest_subtitle: "Do you believe in light?"
 	quest.6656025163D1E9CE.quest_desc: ["&6Apprentice Spell Books &rhave excellent overall performance, the king of value."]
 	quest.6656025163D1E9CE.quest_subtitle: "Officially embark on the mage's path"
 	quest.66787AF56BE1A6FD.quest_subtitle: "&5&l「Shadow」&r&eThe Dragon Race's First Prince?"
