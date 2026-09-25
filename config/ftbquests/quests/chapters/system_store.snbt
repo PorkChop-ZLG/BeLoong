@@ -66,105 +66,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "dragonsurvival:diamond_chorus"
-			}
-			id: "2EB0BF01344C3DD7"
-			rewards: [
-				{
-					count: 16
-					id: "5C437E0E7B56C4B4"
-					item: {
-						count: 1
-						id: "dragonsurvival:diamond_chorus"
-					}
-					type: "item"
-				}
-				{
-					id: "4C5BF002F1C69F03"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				consume_items: true
-				id: "1DCA064B404C50E5"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "dragonsurvival:charged_soup"
-			}
-			id: "39A482BF78452D09"
-			rewards: [
-				{
-					count: 16
-					id: "553552662E997714"
-					item: {
-						count: 1
-						id: "dragonsurvival:charged_soup"
-					}
-					type: "item"
-				}
-				{
-					id: "0D40C047E6094251"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				consume_items: true
-				id: "29E659752AF5BBC1"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "dragonsurvival:golden_turtle_egg"
-			}
-			id: "2F2C234A12BA69AD"
-			rewards: [
-				{
-					count: 16
-					id: "02905932070633CB"
-					item: {
-						count: 1
-						id: "dragonsurvival:golden_turtle_egg"
-					}
-					type: "item"
-				}
-				{
-					id: "58F6296D720972DC"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				consume_items: true
-				id: "244FD78CFB3428F0"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "artifacts:mimic_spawn_egg"
 			}
 			id: "6B3CAAA337596F88"
@@ -209,32 +110,6 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "bosses_of_mass_destruction:brimstone_nectar"
-			}
-			id: "4A7563FCA42C104D"
-			rewards: [{
-				id: "57C286E89D056CC0"
-				item: {
-					count: 1
-					id: "bosses_of_mass_destruction:brimstone_nectar"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "6371F6D6A9EE768E"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
-			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -558,29 +433,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "minecraft:quartz_block"
-			}
-			id: "29B1D35BA68F4E5A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "737FA7C5F847CD5D"
-				table_id: 8432794959775709721L
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "1B5189962DFA64CD"
-				item: { count: 1, id: "dragonsurvival:heart_element" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "minecraft:terracotta"
 			}
 			id: "6739C42CBAC00318"
@@ -747,84 +599,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "yuushya:composite_building"
-			}
-			id: "7C16FACA6A4DF20D"
-			rewards: [{
-				id: "66A028EF9DAF774B"
-				item: {
-					count: 1
-					id: "yuushya:composite_building"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "762BE8A19AF38F53"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "yuushya:villa_0"
-			}
-			id: "5FCFEA69626A53AE"
-			rewards: [{
-				id: "0A84A4E77954220B"
-				item: {
-					count: 1
-					id: "yuushya:villa_0"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "6D34597F8117E83F"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "yuushya:octagon_pavilion"
-			}
-			id: "34CBA8F45D46E480"
-			rewards: [{
-				id: "386099989D84CA43"
-				item: {
-					count: 1
-					id: "yuushya:octagon_pavilion"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "558AF8D8288E32E3"
-				item: { count: 1, id: "dragonsurvival:heart_element" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
 			dependencies: [
 				"3859C3FFB6F2C61B"
 				"316AFA91B0365E94"
@@ -983,39 +757,6 @@
 			}]
 			x: -8.5d
 			y: 1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "minecraft:ominous_bottle"
-			}
-			id: "6E1F78E1B1284026"
-			rewards: [{
-				id: "1DA6C360D0AB7B2F"
-				item: {
-					count: 1
-					id: "minecraft:ominous_bottle"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 4L
-					id: "30C1200F2ECED0EF"
-					item: { components: { "minecraft:banner_patterns": [ { color: "cyan", pattern: "minecraft:rhombus" }, { color: "light_gray", pattern: "minecraft:stripe_bottom" }, { color: "gray", pattern: "minecraft:stripe_center" }, { color: "light_gray", pattern: "minecraft:border" }, { color: "black", pattern: "minecraft:stripe_middle" }, { color: "light_gray", pattern: "minecraft:half_horizontal" }, { color: "light_gray", pattern: "minecraft:circle" }, { color: "black", pattern: "minecraft:border" } ], "minecraft:hide_additional_tooltip": { }, "minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}" }, count: 1, id: "minecraft:white_banner" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "34497FF568A165EA"
-					item: { count: 1, id: "dragonsurvival:heart_element" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -1.5d
 		}
 		{
 			can_repeat: true

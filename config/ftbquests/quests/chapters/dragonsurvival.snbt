@@ -15,8 +15,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 5.0d
-			x: -27.0d
-			y: 14.0d
+			x: 0.0d
+			y: 17.0d
 		}
 		{
 			click_action: "none:"
@@ -397,136 +397,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide_dependency_lines: true
-			icon: {
-				id: "dragonsurvival:elder_dragon_dust"
-			}
-			id: "14D31B8DCB673BE7"
-			rewards: [{
-				id: "3A63AC48DF93940E"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "3F720EFB243AD05C"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_dust" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["14D31B8DCB673BE7"]
-			id: "186EDCECB309BC44"
-			rewards: [{
-				id: "3B641A62F9B6141E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3BBBA4A615132710"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_bone" }
-				type: "item"
-			}]
-			x: -16.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["186EDCECB309BC44"]
-			id: "72CDF89F0B188D26"
-			rewards: [{
-				id: "6D574DD30A3DD229"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [{
-				id: "4DEA87313716D1CE"
-				item: { count: 1, id: "dragonsurvival:star_bone" }
-				type: "item"
-			}]
-			x: -20.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["72CDF89F0B188D26"]
-			id: "1C07B232D4664C3D"
-			rewards: [{
-				id: "78E28E9F72133069"
-				type: "xp"
-				xp: 500
-			}]
-			tasks: [{
-				id: "0E3C8CFDCD612B4B"
-				item: { count: 1, id: "dragonsurvival:star_heart" }
-				type: "item"
-			}]
-			x: -24.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1C07B232D4664C3D"
-				"47A5ABEFE4273BB2"
-				"45A70A1CEC93A865"
-			]
-			dependency_requirement: "one_completed"
-			id: "6705495FDA1F7987"
-			rewards: [{
-				id: "7653B5D694D62715"
-				type: "xp"
-				xp: 1000
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "33530F3BDD3CB21A"
-				item: { count: 1, id: "dragonsurvival:dragon_beacon" }
-				type: "item"
-			}]
-			x: -27.0d
-			y: 0.0d
-		}
-		{
-			hide_lock_icon: true
-			icon: {
-				id: "dragonsurvival:spearman_promotion"
-			}
-			id: "7EB346A1790BD94B"
-			rewards: [
-				{
-					id: "1551C181F120664D"
-					type: "xp"
-					xp: 200
-				}
-				{
-					count: 6
-					id: "4C1545F33AA2AD31"
-					item: {
-						count: 1
-						id: "dragonsurvival:heart_element"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "46125BAB1A6273CB"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "78E9F295038C2F8B"
-				structure: "dragonsurvival:dragon_hunters_castle"
-				type: "structure"
-			}]
-			x: -17.5d
-			y: 11.0d
-		}
-		{
 			can_repeat: true
 			dependency_requirement: "one_started"
 			icon: {
@@ -550,39 +420,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["186EDCECB309BC44"]
-			id: "45A70A1CEC93A865"
-			rewards: [{
-				id: "15FB6CF527C20054"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4A2253ACDAA34944"
-				item: { count: 1, id: "dragonsurvival:dragon_memory_block" }
-				type: "item"
-			}]
-			x: -22.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["186EDCECB309BC44"]
-			id: "47A5ABEFE4273BB2"
-			rewards: [{
-				id: "3A3B42B58AD04A6A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4D255F9C61ED4B2E"
-				item: { count: 1, id: "dragonsurvival:beacon_activator" }
-				type: "item"
-			}]
-			x: -22.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["14D31B8DCB673BE7"]
+			dependencies: ["6D4C0BF934994972"]
 			icon: {
 				id: "transmog:void_fragment"
 			}
@@ -597,8 +435,8 @@
 				item: { count: 1, id: "transmog:void_fragment" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6EB8860F9973F098"]
@@ -633,11 +471,11 @@
 				item: { count: 1, id: "transmog:transmogrification_table" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -2.0d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["14D31B8DCB673BE7"]
+			dependencies: ["6D4C0BF934994972"]
 			icon: {
 				id: "enchantinginfuser:enchanting_infuser"
 			}
@@ -652,8 +490,8 @@
 				item: { count: 1, id: "enchantinginfuser:enchanting_infuser" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6EAEEAE8C52FF9D4"]
@@ -671,8 +509,8 @@
 				item: { count: 1, id: "enchantinginfuser:advanced_enchanting_infuser" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: 2.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -718,14 +556,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 1.5d
 			tasks: [{
 				id: "27317662757BA76E"
 				item: { count: 1, id: "torchmaster:megatorch" }
 				type: "item"
 			}]
-			x: -27.0d
-			y: 7.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["52760593973916B2"]
@@ -741,8 +578,8 @@
 				item: { count: 1, id: "torchmaster:dreadlamp" }
 				type: "item"
 			}]
-			x: -29.0d
-			y: 7.5d
+			x: -2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["52760593973916B2"]
@@ -758,8 +595,8 @@
 				item: { count: 1, id: "torchmaster:feral_flare_lantern" }
 				type: "item"
 			}]
-			x: -25.0d
-			y: 7.5d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
 			id: "75BFB4E20D3E76DC"
@@ -832,8 +669,8 @@
 					type: "item"
 				}
 			]
-			x: -27.0d
-			y: 9.5d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["75BFB4E20D3E76DC"]
@@ -881,8 +718,8 @@
 					type: "item"
 				}
 			]
-			x: -28.5d
-			y: 11.0d
+			x: -2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["75BFB4E20D3E76DC"]
@@ -915,10 +752,11 @@
 					type: "item"
 				}
 			]
-			x: -25.5d
-			y: 11.0d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["6D4C0BF934994972"]
 			dependency_requirement: "one_started"
 			icon: {
 				id: "minecraft:wooden_hoe"
@@ -946,8 +784,8 @@
 				id: "62C06983D2660627"
 				type: "checkmark"
 			}]
-			x: -27.0d
-			y: 14.0d
+			x: 0.0d
+			y: 17.0d
 		}
 		{
 			can_repeat: true
@@ -973,6 +811,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D4C0BF934994972"]
 			id: "6796172A3CF129FB"
 			rewards: [{
 				id: "7E3303065614C43D"
@@ -984,8 +823,8 @@
 				item: { count: 1, id: "minecraft:armor_stand" }
 				type: "item"
 			}]
-			x: -27.0d
-			y: 11.5d
+			x: 0.0d
+			y: 14.0d
 		}
 		{
 			id: "6CC5B640AD43F55C"
@@ -1006,11 +845,10 @@
 					type: "item"
 				}
 			]
-			x: -27.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["75BFB4E20D3E76DC"]
 			dependency_requirement: "one_started"
 			id: "5C7DC397FD36FFDB"
 			rewards: [{
@@ -1023,8 +861,8 @@
 				item: { count: 1, id: "dummmmmmy:target_dummy" }
 				type: "item"
 			}]
-			x: -25.0d
-			y: 9.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			id: "75D8AB1B178F5860"
@@ -1034,8 +872,8 @@
 				id: "751C6C7B63E54EA8"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -14.0d
+			x: -68.0d
+			y: -18.0d
 		}
 		{
 			hide_details_until_startable: false
@@ -2751,6 +2589,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1B144277D411A629"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:story/form_obsidian"
@@ -2811,6 +2657,38 @@
 			}]
 			x: 57.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["394AD1DCB885B429"]
+			icon: {
+				id: "beyonddimensions:net_creater"
+			}
+			id: "6D4C0BF934994972"
+			rewards: [
+				{
+					id: "15142E6D25EA2283"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "380A60EEC956DAAA"
+					item: {
+						count: 1
+						id: "beyonddimensions:space_time_bar"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2689076C7D15169D"
+				item: { count: 1, id: "beyonddimensions:net_creater" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 }

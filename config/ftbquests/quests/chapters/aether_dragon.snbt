@@ -285,7 +285,6 @@
 			dependencies: [
 				"02B96CE03E4B8FF7"
 				"51238BE8AF0EA852"
-				"459C37FAE369EFF4"
 				"31E0FB1E1052AF73"
 			]
 			dependency_requirement: "one_completed"
@@ -595,36 +594,7 @@
 				type: "structure"
 			}]
 			x: -1.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["3B512F52E529954C"]
-			id: "459C37FAE369EFF4"
-			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "5CC77E95F785E312"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "1EBC42AFAEEF7652"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				advancement: "dungeons_arise:find_small_blimp"
-				criterion: ""
-				id: "09BB8B681D96F719"
-				type: "advancement"
-			}]
-			x: 1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3B512F52E529954C"]
@@ -657,8 +627,8 @@
 				to_observe: "minecraft:sculk_shrieker"
 				type: "observation"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6E3E82FB2A6E1D40"]

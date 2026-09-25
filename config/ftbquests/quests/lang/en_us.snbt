@@ -718,8 +718,6 @@
 	]
 	quest.1420594CE21D4239.quest_subtitle: "Only a Genius Could Make This"
 	quest.145D2D48D83B6D72.title: "Necklace T1"
-	quest.14D31B8DCB673BE7.quest_desc: ["&6The most basic material in Dragon Survival."]
-	quest.14D31B8DCB673BE7.quest_subtitle: "Basic Material"
 	quest.14ED830A8AC56A7A.quest_desc: [
 		"&l&d「Naga」"
 		"&6Health: &a1200"
@@ -846,8 +844,6 @@
 	]
 	quest.18189EEE0D9A4F88.quest_subtitle: "【Side Story Finale】"
 	quest.18189EEE0D9A4F88.title: "&e&lLightbringer"
-	quest.186EDCECB309BC44.quest_desc: ["&6Common crafting material in Dragon Survival."]
-	quest.186EDCECB309BC44.quest_subtitle: "Greater Dragon Remains"
 	quest.18BC27F09DE456D2.title: "Kill: Drowned"
 	quest.19632689D6646EBD.quest_desc: ["&aGoal: Collect All Dragonfrost Steel Weapons and Tools"]
 	quest.196959C6E061913D.quest_desc: [
@@ -942,12 +938,6 @@
 	quest.1B5B7580815E49B0.title: "&5Strange Sheep"
 	quest.1BCEED323665EDE1.quest_subtitle: "Grow to Primeval Dragon Stage"
 	quest.1BCEED323665EDE1.title: "Primeval Tundra Dragon"
-	quest.1C07B232D4664C3D.quest_desc: [
-		"&6Stops natural growth when used but can still use Dragon Hearts."
-		""
-		"&7&oNo one would use this, right?"
-	]
-	quest.1C07B232D4664C3D.quest_subtitle: "Smash Valudo"
 	quest.1C1277D37C9D79ED.quest_subtitle: "Nine Steams, Three Boils~"
 	quest.1CECEAD9D6372EF2.quest_desc: [
 		"&6Use the &2Yin Yang Core&6 to write &2Two-Form Spells"
@@ -1183,7 +1173,6 @@
 	quest.293A4F21A1CA4A9F.title: "Sea Dragon Home"
 	quest.29874A2088326B37.quest_subtitle: "When the Bird Welcomes, Cranes Soar in Glow"
 	quest.29874A2088326B37.title: "&eGlow"
-	quest.29B1D35BA68F4E5A.title: "Building Materials Optional"
 	quest.2A5E822D66F0BEA1.quest_desc: [
 		"&l&7Iron&5's &6Spells &5and &6Spellbooks&r&o&e (Iron Magic)"
 		""
@@ -1235,11 +1224,9 @@
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "Dreamlike as Bubbles"
 	quest.2E6A1BFF333127EA.quest_subtitle: "Small chance to drop from the Dead King"
 	quest.2E6A1BFF333127EA.title: "Ruptured Node Spell Scroll"
-	quest.2EB0BF01344C3DD7.title: "Heart-stopping Chorus Fruit"
 	quest.2ECA4D4990D20697.quest_desc: ["&aObjective: Collect all Dragonsteel weapons and tools"]
 	quest.2ECFB391DB73DDF9.quest_subtitle: "Level up all 4 Forest Dragon passive skills to max"
 	quest.2ECFB391DB73DDF9.title: "Mastery of Wooden Essence"
-	quest.2F2C234A12BA69AD.title: "Golden Turtle Egg"
 	quest.2F3416393FD59904.title: "Trinkets T2"
 	quest.2F7FBB0379616F31.quest_subtitle: "Guaranteed once per dragon"
 	quest.2F7FBB0379616F31.title: "Doppelganger Ring Guarantee"
@@ -1370,8 +1357,6 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "Learn to use spell books"
 	quest.346F1B08A0E6345D.title: "Apprentice Mage"
-	quest.34CBA8F45D46E480.quest_subtitle: "Author: YeueingE"
-	quest.34CBA8F45D46E480.title: "Prefab Building: Novice Cottage"
 	quest.34F81E5815B0AB4B.quest_desc: [
 		"An &6Ancient Battlefield &rwhose name has long been forgotten."
 		""
@@ -1526,7 +1511,6 @@
 	quest.38F2CD611DFF78EA.quest_desc: ["&6Shift + Right-click to open the ledger and view today's income. Click the ledger cover to enter the menu interface. Place &eat least one dish and one drink &rinto the corresponding menu slots respectively (Left-click to select and move to the right column, left-click again to place, right-click to clear). After binding to a table, you can start operating on the ledger page~&r&r"]
 	quest.38F2CD611DFF78EA.quest_subtitle: "What's on today's menu?"
 	quest.399FE647E5FED2BE.title: "Check-in: Glacial Glacier"
-	quest.39A482BF78452D09.title: "Energizing Soup"
 	quest.39AF32032B46C495.quest_subtitle: "Begin the Aether Dragon's path of growth"
 	quest.39AF32032B46C495.title: "Aether Dragon Hatchling"
 	quest.3AF8293458FE7927.quest_desc: [
@@ -1741,12 +1725,6 @@
 	]
 	quest.45865A0F5D63488F.quest_subtitle: "★★★★★★"
 	quest.45865A0F5D63488F.title: "Qliphoth: Malkuth"
-	quest.459C37FAE369EFF4.title: "Challenge: Blimp"
-	quest.45A70A1CEC93A865.quest_desc: [
-		"&6The base for a Dragon Beacon, making it function like a normal beacon."
-		"&6Once activated and an effect is selected, it provides that effect to nearby dragons."
-	]
-	quest.45A70A1CEC93A865.quest_subtitle: "Base for the Dragon Beacon"
 	quest.45FBCC91C2442B02.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6E02B2425A8EAB67\" } }"]
 	quest.45FBCC91C2442B02.quest_subtitle: "Kill the Starlight Golem and submit its drops"
 	quest.45FBCC91C2442B02.title: "Crowning the Throne of Wind"
@@ -1798,8 +1776,6 @@
 	]
 	quest.4747C01F2F089EA3.title: "Sahara Desert"
 	quest.474EB22EE7989B00.quest_subtitle: "Palace of the Earth Spirits Exclusive!"
-	quest.47A5ABEFE4273BB2.quest_desc: ["&6Used for crafting and activating the Dragon Beacon."]
-	quest.47A5ABEFE4273BB2.quest_subtitle: "Activate the Dragon Beacon"
 	quest.47B35B8ACB0DEA79.quest_subtitle: "Submit all flowers from Eternal Starlight"
 	quest.47B35B8ACB0DEA79.title: "Flower Fairy"
 	quest.48BAABC889E9DC5F.quest_desc: [
@@ -1866,8 +1842,6 @@
 		"&6To share the same network with friends, simply craft a &bMember Inviter&6, right-click to bind it to your network, and then throw it to your friend to use. This allows your friend to access your dimension network but without permission to bind your network to other items or blocks. You can also make a &aNetwork Controller &6to grant them higher permissions, or use a &cAdmin Member Inviter &6to invite them. If you wish to share network storage without sharing the same network, you can give them a bound &dNetwork Terminal."
 	]
 	quest.4A5D5042C28278A2.quest_subtitle: "&8If you don't understand something, press B while hovering over the item to jump to the wiki page."
-	quest.4A7563FCA42C104D.quest_subtitle: "Reset Cataclysm boss structures"
-	quest.4A7563FCA42C104D.title: "Sulfur Nectar"
 	quest.4A99ADF6D98D8013.quest_subtitle: "Complete some Cave Dragon achievements"
 	quest.4A99ADF6D98D8013.title: "Cave Dragon Fun Challenges"
 	quest.4A99D680EDD3652F.quest_subtitle: "The starry river reflects Tianshu's jade green, time in the mortal world drifts with the wind."
@@ -2351,19 +2325,6 @@
 	quest.5DD97094AAD4DDA2.quest_subtitle: "\"The King of Value\""
 	quest.5EE6DC4771476CC8.quest_subtitle: "Alternate Whiskey"
 	quest.5F710FD97963CF8F.title: "Cleric Armor"
-	quest.5FCFEA69626A53AE.quest_desc: [
-		"&d&l【Chinese Courtyard】"
-		""
-		"&aBeLoong 1st Building Contest &eRunner-up Work"
-		""
-		"&6Author: &ezchuan_che"
-		"&6Dimensions: &e48X25X48&c (Please leave space!)"
-		""
-		"&7&oRight-click on the ground to place, otherwise it might be consumed"
-		"&7&oYou'll be knocked back after placing, suggest enabling flight"
-	]
-	quest.5FCFEA69626A53AE.quest_subtitle: "Author: zchuan_che"
-	quest.5FCFEA69626A53AE.title: "Prefab Building: Chinese Courtyard"
 	quest.60B7FFFA63E2B4B2.title: "Frost Enforcer Armor"
 	quest.60E6ED7ED056ABDD.title: "Charm T2"
 	quest.61841B2C10B08D91.quest_desc: [
@@ -2486,17 +2447,6 @@
 	quest.66787AF56BE1A6FD.title: "Act 1: Becoming a Dragon"
 	quest.66EBF5536E322BCF.quest_subtitle: "A leap ignites Dubhe, overlooking the world like a passerby"
 	quest.66EBF5536E322BCF.title: "&6Dubhe"
-	quest.6705495FDA1F7987.quest_desc: [
-		"&eThe Dragon Beacon &6can provide effects that counteract racial weaknesses."
-		"&6Place the Dragon Beacon on &eDragon Memory &6and activate it by right-clicking with a &eKey of Origin&6."
-		"&6Once activated, consume &260 XP &6to gain the effect for &210 minutes&6."
-		""
-		"&6Effects provided by the Dragon Beacon:"
-		"&aBeastly Serenity: Unlocked by Forest Dragon, reduces the effects of darkness."
-		"&cInner Blaze: Unlocked by Cave Dragon, provides immunity to water damage."
-		"&bAquatic Ward: Unlocked by Sea Dragon, slows down dehydration time."
-	]
-	quest.6705495FDA1F7987.quest_subtitle: "Provides immunity effects for dragons"
 	quest.67177331CC1421A8.title: "Recall Dark Doppelganger"
 	quest.6739C42CBAC00318.title: "Terracotta Assortment"
 	quest.675B09EF31EDCEA1.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300B6A5EADD11286\" } }"]
@@ -2749,12 +2699,6 @@
 	quest.71BFA3CE3156E064.quest_subtitle: "Kill the Leviathan and submit its drops"
 	quest.71BFA3CE3156E064.title: "Crowning the Throne of Water"
 	quest.7233CCCC69215923.quest_subtitle: "Red Dog's Delight"
-	quest.72CDF89F0B188D26.quest_desc: [
-		"&6Using this shrinks your size but deducts growth value."
-		""
-		"&7&oWould anyone actually use this?"
-	]
-	quest.72CDF89F0B188D26.quest_subtitle: "Reverse Growth"
 	quest.72D2474557AFE788.quest_subtitle: "Collect all belts"
 	quest.72D2474557AFE788.title: "&aBelts Completion"
 	quest.731F9BC680E3927E.quest_subtitle: "Infinite Mana"
@@ -2928,19 +2872,6 @@
 	quest.7BEEE28B8865648E.title: "&e&lSide Story: Ice and Fire"
 	quest.7C024F9AAFDA7F51.quest_subtitle: "Begin the Sea Dragon's path of growth"
 	quest.7C024F9AAFDA7F51.title: "Sea Dragon Hatchling"
-	quest.7C16FACA6A4DF20D.quest_desc: [
-		"&d&l【Dragon's Roar Pavilion】"
-		""
-		"&aBeLoong 1st Building Contest &eChampion Work"
-		""
-		"&6Author: &e_sapphhire_"
-		"&6Dimensions: &e48X30X48&c (Please leave space!)"
-		""
-		"&7&oRight-click on the ground to place, otherwise it might be consumed"
-		"&7&oYou'll be knocked back after placing, suggest enabling flight"
-	]
-	quest.7C16FACA6A4DF20D.quest_subtitle: "Author: _sapphhire_"
-	quest.7C16FACA6A4DF20D.title: "Prefab Building: Dragon's Roar Pavilion"
 	quest.7C41D5EB11A83677.title: "Necklace T2"
 	quest.7C95E70F3183D31E.quest_subtitle: "Remilia Scarlet"
 	quest.7C9E4FA0FDC61357.quest_subtitle: "Begin the Tundra Dragon's path of growth"
@@ -2988,18 +2919,6 @@
 	]
 	quest.7E8A3F928299D963.quest_subtitle: "★★"
 	quest.7E8A3F928299D963.title: "Twilight Forest: Yeti Leader"
-	quest.7EB346A1790BD94B.quest_desc: [
-		"&aObjective: Find the Guild Castle"
-		""
-		"&eGuild Castles &6are strongholds built by humans to defend against dragons."
-		"&6Find the &eGuild Master &6and purchase the &eGuild Key &6from them."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Guild Castle&r"
-		""
-		"{image:kubejs:textures/task/hunters_castle.png width:100 height:125 align:center}"
-	]
-	quest.7EB346A1790BD94B.quest_subtitle: "Find the Guild Castle"
-	quest.7EB346A1790BD94B.title: "Guild Castle"
 	quest.7F59185C7CD743A1.quest_subtitle: "From whence does the wind come?"
 	quest.7F59185C7CD743A1.title: "Obtain: Peacock Feather Fan"
 	quest.7F7757E6C4E4B498.quest_desc: [

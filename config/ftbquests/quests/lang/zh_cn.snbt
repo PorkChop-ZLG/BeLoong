@@ -68,6 +68,7 @@
 	chapter.5D6324B55C8EDE23.chapter_subtitle: [
 		"难度：★★★★★★"
 		"适合：始祖龙"
+		"尚未完成"
 	]
 	chapter.5D6324B55C8EDE23.title: "⑥ 天灾灭世"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
@@ -201,7 +202,11 @@
 	]
 	quest.03300B3D470F9B73.quest_subtitle: "网络音乐机"
 	quest.033C8C16CABE2ACE.title: "击杀：冰晶核"
-	quest.03543491BD9D3C04.quest_desc: ["&6任务：击败霜冻巨兽"]
+	quest.03543491BD9D3C04.quest_desc: [
+		"&6任务：击败霜冻巨兽"
+		""
+		"{ \"text\": \"点我跳转到Boss攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A1268143ED70C45\" } }"
+	]
 	quest.03543491BD9D3C04.quest_subtitle: "就欺负你不能飞"
 	quest.03543491BD9D3C04.title: "&b&l霜冻巨兽"
 	quest.036BAD83C2057F52.quest_subtitle: "★★★★★"
@@ -824,8 +829,6 @@
 	]
 	quest.1420594CE21D4239.quest_subtitle: "能做出这个也是天才了"
 	quest.145D2D48D83B6D72.title: "项链T1"
-	quest.14D31B8DCB673BE7.quest_desc: ["&6龙之生存中最基础的材料。"]
-	quest.14D31B8DCB673BE7.quest_subtitle: "基础材料"
 	quest.14ED830A8AC56A7A.quest_desc: [
 		"&l&d「娜迦」"
 		"&6生命：&a1200"
@@ -1004,8 +1007,6 @@
 		"&9结构罗盘：&b【传奇怪物】噬焰蜥巢穴&r"
 	]
 	quest.181E7B87DE32CEA3.title: "噬焰蜥巢穴"
-	quest.186EDCECB309BC44.quest_desc: ["&6龙之生存常用的合成材料。"]
-	quest.186EDCECB309BC44.quest_subtitle: "大龙残躯"
 	quest.18A1C9F5BE82FFD4.quest_desc: [
 		"&6任务：找到冥界古堡"
 		""
@@ -1149,12 +1150,6 @@
 	]
 	quest.1BCEED323665EDE1.quest_subtitle: "成长到太古龙阶段"
 	quest.1BCEED323665EDE1.title: "太古苔原龙"
-	quest.1C07B232D4664C3D.quest_desc: [
-		"&6使用后停止自然成长，但依旧可以使用龙心。"
-		""
-		"&7&o同样不会有人用这玩意吧？"
-	]
-	quest.1C07B232D4664C3D.quest_subtitle: "砸瓦鲁多"
 	quest.1C1277D37C9D79ED.quest_subtitle: "九蒸三熯~"
 	quest.1C3B08B3C64F2810.quest_desc: [
 		"&6维度网络管理员空手Shift右键可以将其绑定到当前网络。"
@@ -1516,7 +1511,6 @@
 	quest.294DCB1F2F69927E.title: "&a&l龙魂传承"
 	quest.29874A2088326B37.quest_subtitle: "孔鸟飞而迎兮，腾群鹤于摇光"
 	quest.29874A2088326B37.title: "&e摇光"
-	quest.29B1D35BA68F4E5A.title: "建筑材料自选"
 	quest.2A221FA065AEECA3.quest_desc: [
 		"&6任务：找到古老高塔遗迹"
 		""
@@ -1619,12 +1613,10 @@
 	quest.2E6A1BFF333127EA.title: "熄法结节 法术卷轴"
 	quest.2E825FE5146172A7.quest_desc: ["&6任务：击败骸骨巨龙"]
 	quest.2E825FE5146172A7.title: "骸骨巨龙"
-	quest.2EB0BF01344C3DD7.title: "钻心紫颂果"
 	quest.2ECA4D4990D20697.quest_desc: ["&6任务：集齐龙霆钢武器和工具"]
 	quest.2ECA4D4990D20697.title: "龙霆钢装备"
 	quest.2ECFB391DB73DDF9.quest_subtitle: "升级森林龙4个被动技能到满级"
 	quest.2ECFB391DB73DDF9.title: "掌握木之奥义"
-	quest.2F2C234A12BA69AD.title: "金海龟蛋"
 	quest.2F3416393FD59904.title: "首饰T2"
 	quest.2F4105DBA00B5C8B.quest_desc: ["&6任务：击败缠魂骑士"]
 	quest.2F4105DBA00B5C8B.title: "缠魂骑士"
@@ -1839,8 +1831,6 @@
 	]
 	quest.347C54BAEC42A4AA.quest_subtitle: "星河破碎，大道湮灭！"
 	quest.347C54BAEC42A4AA.title: "&l&#6BBB0B湮灭构造体"
-	quest.34CBA8F45D46E480.quest_subtitle: "作者：YeueingE"
-	quest.34CBA8F45D46E480.title: "预制建筑：新手小屋"
 	quest.34F81E5815B0AB4B.quest_desc: [
 		"名字很久以前就被遗忘了的&6远古战场&r。"
 		""
@@ -2064,7 +2054,6 @@
 	quest.394AD1DCB885B429.quest_subtitle: "欢迎来到化龙！"
 	quest.394AD1DCB885B429.title: "&6&l第一章 龙之生存"
 	quest.399FE647E5FED2BE.title: "打卡：极光冰川"
-	quest.39A482BF78452D09.title: "充能汤"
 	quest.39AF32032B46C495.quest_subtitle: "开启以太龙的成长之路"
 	quest.39AF32032B46C495.title: "幼年以太龙"
 	quest.3A2BAF5D46546864.quest_desc: [
@@ -2494,12 +2483,6 @@
 	]
 	quest.45865A0F5D63488F.quest_subtitle: "★★★★★★"
 	quest.45865A0F5D63488F.title: "逆卡巴拉：王国"
-	quest.459C37FAE369EFF4.title: "挑战：小气艇"
-	quest.45A70A1CEC93A865.quest_desc: [
-		"&6龙之信标的底座，使之和普通信标一样。"
-		"&6龙之信标激活并选定效果后，为周围的龙提供效果。"
-	]
-	quest.45A70A1CEC93A865.quest_subtitle: "龙之信标的底座"
 	quest.45FBCC91C2442B02.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6E02B2425A8EAB67\" } }"]
 	quest.45FBCC91C2442B02.quest_subtitle: "击杀星光傀儡，提交其掉落物"
 	quest.45FBCC91C2442B02.title: "加冕风之王座"
@@ -2551,8 +2534,6 @@
 	]
 	quest.4747C01F2F089EA3.title: "撒哈拉大沙漠"
 	quest.474EB22EE7989B00.quest_subtitle: "地灵殿限定！"
-	quest.47A5ABEFE4273BB2.quest_desc: ["&6可用于合成以及激活龙之信标。"]
-	quest.47A5ABEFE4273BB2.quest_subtitle: "激活龙之信标"
 	quest.47B35B8ACB0DEA79.quest_subtitle: "提交永恒星光的所有花"
 	quest.47B35B8ACB0DEA79.title: "花精灵"
 	quest.48735D8735398D7A.quest_desc: [
@@ -2640,8 +2621,6 @@
 	]
 	quest.4A5D5042C28278A2.quest_subtitle: "最好用的存储模组！"
 	quest.4A5D5042C28278A2.title: "超越维度"
-	quest.4A7563FCA42C104D.quest_subtitle: "重置祸乱鬼魅的BOSS结构"
-	quest.4A7563FCA42C104D.title: "硫磺花蜜"
 	quest.4A99ADF6D98D8013.quest_subtitle: "完成洞穴龙的部分成就"
 	quest.4A99ADF6D98D8013.title: "洞穴龙趣味挑战"
 	quest.4A99D680EDD3652F.quest_subtitle: "星河倒映天枢碧，人间岁月任风吹"
@@ -3491,19 +3470,6 @@
 	]
 	quest.5FAA8786ABA8BF94.quest_subtitle: "位于雷域"
 	quest.5FAA8786ABA8BF94.title: "覆苔神殿"
-	quest.5FCFEA69626A53AE.quest_desc: [
-		"&d&l【中式庭院】"
-		""
-		"&a化龍第一届建筑大赛 &e亚军作品"
-		""
-		"&6作者：&ezchuan_che"
-		"&6大小：&e48X25X48&c（请预留空位！）"
-		""
-		"&7&o对地面右键使用，不然会被吞掉"
-		"&7&o使用后会被弹飞，建议开启飞行"
-	]
-	quest.5FCFEA69626A53AE.quest_subtitle: "作者：zchuan_che"
-	quest.5FCFEA69626A53AE.title: "预制建筑：中式庭院"
 	quest.60300CF89DE750C2.quest_desc: [
 		"&6任务：进入天灾维度"
 		""
@@ -3787,17 +3753,6 @@
 	quest.66B5A93D255C0662.title: "&l&4堕落圣骑"
 	quest.66EBF5536E322BCF.quest_subtitle: "一纵发开阳，俯视当路人"
 	quest.66EBF5536E322BCF.title: "&6开阳"
-	quest.6705495FDA1F7987.quest_desc: [
-		"&e龙之信标&6可以提供能抵御种族缺陷的效果。"
-		"&6龙之信标放在&e龙之记忆&6上，使用&e本源之钥&6右键激活。"
-		"&6激活后，消耗&260点经验&6获得效果，持续&210分钟&6。"
-		""
-		"&6龙之信标提供的效果如下："
-		"&a驯兽宁和：森林龙激活获得，减弱黑暗的影响。"
-		"&c内在炽焰：洞穴龙激活获得，抵御水的伤害效果。"
-		"&b海泽护体：海洋龙激活获得，减缓脱水时间。"
-	]
-	quest.6705495FDA1F7987.quest_subtitle: "提供龙的免疫效果"
 	quest.67177331CC1421A8.title: "拉回黑暗二重身"
 	quest.6739C42CBAC00318.title: "陶瓦自选"
 	quest.675A7E2D68EAA2F9.quest_desc: [
@@ -3927,7 +3882,11 @@
 	]
 	quest.6BB3E512C48E308C.quest_subtitle: "没财宝的宫殿也叫宫殿？"
 	quest.6BB3E512C48E308C.title: "&1冰川之上的独裁者"
-	quest.6BC413965BB28310.quest_desc: ["&6任务：击败太阳鸟·乌姆武提"]
+	quest.6BC413965BB28310.quest_desc: [
+		"&6任务：击败太阳鸟·乌姆武提"
+		""
+		"{ \"text\": \"点我跳转到Boss攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7552748C8250227C\" } }"
+	]
 	quest.6BC413965BB28310.quest_subtitle: "一只鸟也想遇风化龙？"
 	quest.6BC413965BB28310.title: "&e&l太阳鸟·乌姆武提"
 	quest.6BD730F6532DEC81.quest_desc: [
@@ -3998,6 +3957,20 @@
 	quest.6CC5B640AD43F55C.title: "更好的工作台和铁砧"
 	quest.6D04FF23B1FBF2B8.quest_desc: ["&6任务：被潜影被攻击后漂浮50格高度"]
 	quest.6D04FF23B1FBF2B8.title: "潜影贝"
+	quest.6D4C0BF934994972.quest_desc: [
+		"&6任务：使用维度网络发生器，创建一个维度网络"
+		""
+		"新手教程结束的时候，送了你一个维度&b网络发生器&r。"
+		""
+		"这玩意可不得了，拿在爪上&d【右键】&r使用后，再按&d【O】&r键，即可获得一个&a无限容量&r的仓库，称为&b维度网络&r。"
+		""
+		"你获得的任何物品，都可以放入维度网络，&a&n不用担心塞满，不用担心遗失&r。随取随用，非常方便。"
+		""
+		"具体的用法，点击下方的链接："
+		"{ \"text\": \"超越维度详细介绍\", \"underlined\": true, \"color\": blue, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A5D5042C28278A2\" } }"
+	]
+	quest.6D4C0BF934994972.quest_subtitle: "一千万以内最好的存储系统"
+	quest.6D4C0BF934994972.title: "&b&l超越维度"
 	quest.6D86EE35624F9507.quest_desc: ["  &6铁刀是获得雀夜食堂各种原料的重要工具，在开始前先拿到一把铁刀吧！"]
 	quest.6D86EE35624F9507.quest_subtitle: "神奇的工具"
 	quest.6D88CFA0D4618ECB.quest_desc: [
@@ -4032,7 +4005,6 @@
 	]
 	quest.6E02B2425A8EAB67.quest_subtitle: "★★★★"
 	quest.6E02B2425A8EAB67.title: "永恒星光：星光傀儡"
-	quest.6E1F78E1B1284026.title: "不祥之瓶"
 	quest.6E231B440990950C.quest_desc: ["&6任务：击败湮灭猎影"]
 	quest.6E231B440990950C.title: "湮灭猎影"
 	quest.6E3E82FB2A6E1D40.quest_subtitle: "成长到成年龙阶段"
@@ -4174,12 +4146,6 @@
 	]
 	quest.72885815B807121A.quest_subtitle: "加强了，但是没完全加强"
 	quest.72885815B807121A.title: "&l&d末影龙"
-	quest.72CDF89F0B188D26.quest_desc: [
-		"&6使用后能缩小体型，但是会扣除成长值。"
-		""
-		"&7&o不会真有人用这玩意吧？"
-	]
-	quest.72CDF89F0B188D26.quest_subtitle: "逆生长"
 	quest.72D2474557AFE788.quest_subtitle: "集齐所有腰带"
 	quest.72D2474557AFE788.title: "&a腰带毕业"
 	quest.7311C2E64E62F173.quest_desc: [
@@ -4483,19 +4449,6 @@
 	quest.7BEEE28B8865648E.title: "&e&l番外：冰火传说"
 	quest.7C024F9AAFDA7F51.quest_subtitle: "开启海洋龙的成长之路"
 	quest.7C024F9AAFDA7F51.title: "幼年海洋龙"
-	quest.7C16FACA6A4DF20D.quest_desc: [
-		"&d&l【龙吟阁】"
-		""
-		"&a化龍第一届建筑大赛 &e冠军作品"
-		""
-		"&6作者：&e_sapphhire_"
-		"&6大小：&e48X30X48&c（请预留空位！）"
-		""
-		"&7&o对地面右键使用，不然会被吞掉"
-		"&7&o使用后会被弹飞，建议开启飞行"
-	]
-	quest.7C16FACA6A4DF20D.quest_subtitle: "作者：_sapphhire_"
-	quest.7C16FACA6A4DF20D.title: "预制建筑：龙吟阁"
 	quest.7C2584EC1FC5EED8.quest_desc: ["&7千年前，一道时空裂隙，将无数强者传送至此。时过境迁，最终剩下了九位领主和三台终极兵器。它们居于高悬的洞天，统御此界。"]
 	quest.7C2584EC1FC5EED8.quest_subtitle: "目标：了解天灾的起源"
 	quest.7C2584EC1FC5EED8.title: "灾从天降"
@@ -4578,18 +4531,6 @@
 	]
 	quest.7E8A3F928299D963.quest_subtitle: "★★"
 	quest.7E8A3F928299D963.title: "暮色森林：雪怪首领"
-	quest.7EB346A1790BD94B.quest_desc: [
-		"&6任务：找到公会城堡"
-		""
-		"&e公会城堡&6是人类抵御巨龙修建的根据地。"
-		"&6找到&e公会首领&6，和他购买&e公会之钥&f。"
-		""
-		"&9结构罗盘：&b【龙之生存】公会城堡&r"
-		""
-		"{image:kubejs:textures/task/hunters_castle.png width:100 height:125 align:center}"
-	]
-	quest.7EB346A1790BD94B.quest_subtitle: "找到公会城堡"
-	quest.7EB346A1790BD94B.title: "公会城堡"
 	quest.7F59185C7CD743A1.quest_subtitle: "风从何处来"
 	quest.7F59185C7CD743A1.title: "获得：孔雀羽扇"
 	quest.7F5AC4043CEA54E3.quest_desc: ["&6任务：击败凋零恶煞"]
