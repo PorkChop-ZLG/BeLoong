@@ -535,33 +535,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "minecraft:netherite_ingot"
-			}
-			id: "1B1B8104DED5F4AE"
-			rewards: [{
-				count: 64
-				id: "40698357173E1C8F"
-				item: {
-					count: 1
-					id: "minecraft:netherite_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "7024661328D9B03C"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "yuushya:block_blueprint"
 			}
 			id: "7768704F7110F259"

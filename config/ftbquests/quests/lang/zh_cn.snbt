@@ -25,6 +25,7 @@
 	chapter.2FCFFB6D530A343F.chapter_subtitle: [
 		"难度：★★★"
 		"适合：成年龙"
+		"尚未重写"
 	]
 	chapter.2FCFFB6D530A343F.title: "③ 暮色森林"
 	chapter.3DA5315F4969F944.chapter_subtitle: ["隐藏式任务"]
@@ -46,6 +47,7 @@
 	chapter.4EDF13489B6BA152.chapter_subtitle: [
 		"难度：★★★★"
 		"适合：远古龙"
+		"尚未重写"
 	]
 	chapter.4EDF13489B6BA152.title: "④ 永恒星光"
 	chapter.508CCA54F0BC90CA.chapter_subtitle: [
@@ -1116,7 +1118,6 @@
 	quest.1AF16021BB5DD12E.title: "森林龙趣味挑战"
 	quest.1B0B122E34652FB1.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
 	quest.1B0B122E34652FB1.title: "咒翼灵骸"
-	quest.1B1B8104DED5F4AE.title: "下界合金锭"
 	quest.1B240FEAC3D29C3B.quest_desc: [
 		"&6任务：获得任意飞龙的龙蛋"
 		""
@@ -1744,8 +1745,8 @@
 		""
 		"镇守着通往星光维度的大门。"
 	]
-	quest.316AFA91B0365E94.quest_subtitle: "【第二章    完结】"
-	quest.316AFA91B0365E94.title: "&3&l暮色已尽，星光乍现"
+	quest.316AFA91B0365E94.quest_subtitle: "【第三章    完结】"
+	quest.316AFA91B0365E94.title: "&d&l暮色已尽，星光乍现"
 	quest.317B23426E06295F.title: "茅山道士武器"
 	quest.317F86F342B23460.quest_desc: [
 		"&6任务：观察新手小屋里的网络熔炉"
@@ -2743,7 +2744,7 @@
 		"将&d龙蛋&r投入末地中央的水池中，激活&3暮色森林传送门&r。"
 	]
 	quest.4C9801CCF49684B3.quest_subtitle: "【第二章    完结】"
-	quest.4C9801CCF49684B3.title: "&3&l日薄西山，暮色笼罩"
+	quest.4C9801CCF49684B3.title: "&3&l童年回忆 暮色森林"
 	quest.4CA71EFB328936E4.quest_desc: [
 		"&6如果你找不到召唤出的&5黑暗二重身&6，"
 		"&6但是BOSS血条依然存在，"
@@ -3244,8 +3245,6 @@
 	quest.5AAE0970AABAF89B.quest_subtitle: "开启洞穴龙的成长之路"
 	quest.5AAE0970AABAF89B.title: "幼年洞穴龙"
 	quest.5AEA0A59F42E7C52.quest_desc: [
-		"&6任务：学会使用随机传送"
-		""
 		"&6如果搜索不到结构，或是被人探索过了，"
 		"&6可以试试输入&e&l /rtp &r&6进行随机传送。"
 		"&6范围：&2坐标1w格以内&r"
@@ -3424,8 +3423,6 @@
 	quest.5D43D87C46BA7F7C.title: "冰霜结晶"
 	quest.5D56B0917C5223A6.quest_desc: ["&6亲和之戒加上法术卷轴可以在奥术铁砧上敲成对应法术等级加一的戒指"]
 	quest.5D56B0917C5223A6.title: "戒指T0"
-	quest.5D70D6D899218342.quest_desc: ["&6任务：挖掘任意石头，获取圆石"]
-	quest.5D70D6D899218342.title: "获取圆石"
 	quest.5DB104CFE665CC09.quest_desc: [
 		"&2自然罗盘：&a内陆沙漠&r"
 		"&2自然罗盘：&a巨人柱沙漠&r"
@@ -4208,7 +4205,7 @@
 		""
 		"{ \"text\": \"点我跳转到Boss攻略\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E7A718688067EC6\" } }"
 	]
-	quest.7332CD16CC158C56.quest_subtitle: "别打错成凋零了"
+	quest.7332CD16CC158C56.quest_subtitle: "是凋灵不是凋零"
 	quest.7332CD16CC158C56.title: "&l&d凋灵"
 	quest.7369E1F267AEE21B.quest_desc: [
 		"&6任务：化为地黄龙成长到远古阶段"
@@ -4593,8 +4590,6 @@
 	]
 	quest.7EB346A1790BD94B.quest_subtitle: "找到公会城堡"
 	quest.7EB346A1790BD94B.title: "公会城堡"
-	quest.7EE21DE9D9C6EFFE.quest_desc: ["&6任务：合成一把石镐"]
-	quest.7EE21DE9D9C6EFFE.title: "获得石镐"
 	quest.7F59185C7CD743A1.quest_subtitle: "风从何处来"
 	quest.7F59185C7CD743A1.title: "获得：孔雀羽扇"
 	quest.7F5AC4043CEA54E3.quest_desc: ["&6任务：击败凋零恶煞"]

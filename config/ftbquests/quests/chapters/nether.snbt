@@ -214,8 +214,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: -2.0d
+			x: -1.0d
+			y: -34.0d
 		}
 		{
 			click_action: "none:"
@@ -225,8 +225,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: -2.0d
+			x: 0.0d
+			y: -34.0d
 		}
 		{
 			click_action: "none:"
@@ -236,8 +236,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: -2.0d
+			x: 1.0d
+			y: -34.0d
 		}
 		{
 			click_action: "none:"
@@ -247,8 +247,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: 2.0d
+			x: -1.0d
+			y: -30.0d
 		}
 		{
 			click_action: "none:"
@@ -258,8 +258,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: 2.0d
+			x: 0.0d
+			y: -30.0d
 		}
 		{
 			click_action: "none:"
@@ -269,8 +269,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: 2.0d
+			x: 1.0d
+			y: -30.0d
 		}
 		{
 			click_action: "none:"
@@ -280,8 +280,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 34.0d
-			y: -1.0d
+			x: 2.0d
+			y: -33.0d
 		}
 		{
 			click_action: "none:"
@@ -291,8 +291,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 34.0d
-			y: 0.0d
+			x: 2.0d
+			y: -32.0d
 		}
 		{
 			click_action: "none:"
@@ -302,8 +302,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 34.0d
-			y: 1.0d
+			x: 2.0d
+			y: -31.0d
 		}
 		{
 			click_action: "none:"
@@ -313,8 +313,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 30.0d
-			y: -1.0d
+			x: -2.0d
+			y: -33.0d
 		}
 		{
 			click_action: "none:"
@@ -324,8 +324,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 30.0d
-			y: 0.0d
+			x: -2.0d
+			y: -32.0d
 		}
 		{
 			click_action: "none:"
@@ -335,8 +335,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 30.0d
-			y: 1.0d
+			x: -2.0d
+			y: -31.0d
 		}
 		{
 			click_action: "none:"
@@ -346,8 +346,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: 29.0d
+			x: 1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -357,8 +357,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: 29.0d
+			x: 0.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -368,8 +368,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: 35.0d
+			x: 1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -379,8 +379,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: 35.0d
+			x: 0.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -390,8 +390,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 34.0d
-			y: 34.0d
+			x: 2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -401,8 +401,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: 29.0d
+			x: -1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -412,8 +412,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 30.0d
-			y: 30.0d
+			x: -2.0d
+			y: -66.0d
 		}
 		{
 			click_action: "none:"
@@ -423,8 +423,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 29.0d
-			y: 31.0d
+			x: -3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -434,8 +434,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: 35.0d
+			x: -1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -445,8 +445,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 30.0d
-			y: 34.0d
+			x: -2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -456,8 +456,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 29.0d
-			y: 33.0d
+			x: -3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -467,8 +467,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 29.0d
-			y: 32.0d
+			x: -3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -478,8 +478,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 35.0d
-			y: 33.0d
+			x: 3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -489,8 +489,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 35.0d
-			y: 32.0d
+			x: 3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -500,8 +500,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 34.0d
-			y: 30.0d
+			x: 2.0d
+			y: -66.0d
 		}
 		{
 			click_action: "none:"
@@ -511,8 +511,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 35.0d
-			y: 31.0d
+			x: 3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -521,8 +521,8 @@
 			image: "minecraft:textures/misc/underwater.png"
 			rotation: 0.0d
 			width: 5.8d
-			x: 32.0d
-			y: 32.0d
+			x: 0.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -532,8 +532,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 31.0d
-			y: 29.0d
+			x: -1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -543,8 +543,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
-			y: 29.0d
+			x: 1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -554,8 +554,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
-			y: 29.0d
+			x: 0.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -565,8 +565,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 35.0d
-			y: 33.0d
+			x: 3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -576,8 +576,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 34.0d
-			y: 34.0d
+			x: 2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -587,8 +587,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
-			y: 30.0d
+			x: -2.0d
+			y: -66.0d
 		}
 		{
 			click_action: "none:"
@@ -598,8 +598,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 29.0d
-			y: 31.0d
+			x: -3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -609,8 +609,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 29.0d
-			y: 32.0d
+			x: -3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -620,8 +620,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 29.0d
-			y: 33.0d
+			x: -3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -631,8 +631,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
-			y: 34.0d
+			x: -2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -642,8 +642,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 31.0d
-			y: 35.0d
+			x: -1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -653,8 +653,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
-			y: 35.0d
+			x: 0.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -664,8 +664,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
-			y: 35.0d
+			x: 1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -675,8 +675,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 35.0d
-			y: 32.0d
+			x: 3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -686,8 +686,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 35.0d
-			y: 31.0d
+			x: 3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -697,8 +697,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 34.0d
-			y: 30.0d
+			x: 2.0d
+			y: -66.0d
 		}
 	]
 	order_index: 1
@@ -754,8 +754,8 @@
 				id: "2D918FDF74D87F25"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["37912F243389D665"]
@@ -784,8 +784,8 @@
 				id: "3AB04E1F97B53087"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["54D1810722DCCC0C"]
@@ -812,8 +812,8 @@
 				id: "034FA97196F17AB9"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5EB5DB20B9FBF372"]
@@ -840,11 +840,15 @@
 				id: "2481CBA150EC7016"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["622A55D89E3ED919"]
+			dependencies: [
+				"622A55D89E3ED919"
+				"76A7A167E97880D8"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:item/wither_spawn_egg"
@@ -867,7 +871,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [
 				{
 					advancement: "minecraft:nether/summon_wither"
@@ -882,8 +887,8 @@
 					value: 1L
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7332CD16CC158C56"]
@@ -911,8 +916,8 @@
 				structure: "block_factorys_bosses:underworld_arena"
 				type: "structure"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 0.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["18A1C9F5BE82FFD4"]
@@ -949,11 +954,15 @@
 					value: 5L
 				}
 			]
-			x: 16.0d
-			y: 0.0d
+			x: 0.0d
+			y: -16.0d
 		}
 		{
-			dependencies: ["7D0C169A64527891"]
+			dependencies: [
+				"7D0C169A64527891"
+				"7332CD16CC158C56"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "block_factorys_bosses:item/knight"
@@ -977,15 +986,16 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "block_factorys_bosses:kill_underworld_knight"
 				criterion: ""
 				id: "7E56883A5A0845CC"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 0.0d
+			x: 0.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2D1C583D847AA0B2"]
@@ -1013,8 +1023,8 @@
 				structure: "irons_spellbooks:citadel"
 				type: "structure"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 0.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["7018DCB23059AC0D"]
@@ -1039,11 +1049,15 @@
 				item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 0.0d
+			x: 0.0d
+			y: -22.0d
 		}
 		{
-			dependencies: ["405DCDA5AF25ABC6"]
+			dependencies: [
+				"405DCDA5AF25ABC6"
+				"2D1C583D847AA0B2"
+			]
+			dependency_requirement: "one_completed"
 			id: "1538C9C2C9C5BC1B"
 			rewards: [
 				{
@@ -1061,7 +1075,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				entity: "irons_spellbooks:fire_boss"
 				icon: {
@@ -1071,8 +1086,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 24.0d
-			y: 0.0d
+			x: 0.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["1538C9C2C9C5BC1B"]
@@ -1114,8 +1129,8 @@
 					type: "advancement"
 				}
 			]
-			x: 26.0d
-			y: 0.0d
+			x: 0.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["7AF9D81C915F4747"]
@@ -1142,11 +1157,15 @@
 				id: "7D69778F0E26C798"
 				type: "advancement"
 			}]
-			x: 28.0d
-			y: 0.0d
+			x: 0.0d
+			y: -28.0d
 		}
 		{
-			dependencies: ["15C8B8AA60276011"]
+			dependencies: [
+				"15C8B8AA60276011"
+				"1538C9C2C9C5BC1B"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
@@ -1168,8 +1187,8 @@
 				id: "53397A9F1FBA8B2F"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 0.0d
+			x: 0.0d
+			y: -32.0d
 		}
 		{
 			dependencies: ["0F2271A7D264E7F3"]
@@ -1203,8 +1222,8 @@
 				to_observe: "dragonsurvival:primordial_anchor"
 				type: "observation"
 			}]
-			x: 32.0d
-			y: 4.0d
+			x: 0.0d
+			y: -36.0d
 		}
 		{
 			dependencies: ["2294D847D63E0ADE"]
@@ -1232,11 +1251,15 @@
 				structure: "bosses_of_mass_destruction:gauntlet_arena"
 				type: "structure"
 			}]
-			x: 32.0d
-			y: 6.0d
+			x: 0.0d
+			y: -38.0d
 		}
 		{
-			dependencies: ["50A8397A7FF4CF05"]
+			dependencies: [
+				"50A8397A7FF4CF05"
+				"0F2271A7D264E7F3"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:blazing_eye"
 			}
@@ -1256,15 +1279,16 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
 				criterion: ""
 				id: "7A510CC0C43BF4A5"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 8.0d
+			x: 0.0d
+			y: -40.0d
 		}
 		{
 			dependencies: ["4BEF109F5DC9F775"]
@@ -1292,11 +1316,15 @@
 				structure: "bosses_of_mass_destruction:obsidilith_arena"
 				type: "structure"
 			}]
-			x: 32.0d
-			y: 10.0d
+			x: 0.0d
+			y: -42.0d
 		}
 		{
-			dependencies: ["15219EFBF31EEBB2"]
+			dependencies: [
+				"15219EFBF31EEBB2"
+				"4BEF109F5DC9F775"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:obsidian_heart"
 			}
@@ -1316,15 +1344,16 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
 				criterion: ""
 				id: "48285E4FD2EB55A8"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 12.0d
+			x: 0.0d
+			y: -44.0d
 		}
 		{
 			dependencies: ["1C637B2176DD1B81"]
@@ -1352,11 +1381,15 @@
 				structure: "bosses_of_mass_destruction:lich_tower"
 				type: "structure"
 			}]
-			x: 32.0d
-			y: 14.0d
+			x: 0.0d
+			y: -46.0d
 		}
 		{
-			dependencies: ["2F65D8FD77A5EE2B"]
+			dependencies: [
+				"2F65D8FD77A5EE2B"
+				"1C637B2176DD1B81"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:ancient_anima"
 			}
@@ -1376,15 +1409,16 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
 				criterion: ""
 				id: "637B7469A152D8C7"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 16.0d
+			x: 0.0d
+			y: -48.0d
 		}
 		{
 			dependencies: ["7DFFA6C409B39CC1"]
@@ -1413,11 +1447,15 @@
 				id: "6510E87D2A160537"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 18.0d
+			x: 0.0d
+			y: -50.0d
 		}
 		{
-			dependencies: ["3351A1696C0D3A69"]
+			dependencies: [
+				"3351A1696C0D3A69"
+				"7DFFA6C409B39CC1"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:crystal_fruit"
 			}
@@ -1438,15 +1476,16 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
 				criterion: ""
 				id: "3916D8C114FC4D2A"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 20.0d
+			x: 0.0d
+			y: -52.0d
 		}
 		{
 			dependencies: ["5CFC7A1D79C8C423"]
@@ -1461,8 +1500,8 @@
 				item: { count: 1, id: "bosses_of_mass_destruction:levitation_block" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: 22.0d
+			x: 0.0d
+			y: -54.0d
 		}
 		{
 			dependencies: ["71CF19C22829724C"]
@@ -1483,11 +1522,15 @@
 				to_observe: "minecraft:ender_dragon"
 				type: "observation"
 			}]
-			x: 32.0d
-			y: 24.0d
+			x: 0.0d
+			y: -56.0d
 		}
 		{
-			dependencies: ["722C45B9E7707F91"]
+			dependencies: [
+				"722C45B9E7707F91"
+				"5CFC7A1D79C8C423"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:item/ender_dragon_spawn_egg"
@@ -1500,15 +1543,16 @@
 				type: "xp"
 				xp: 200
 			}]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 				id: "0A954D9F8BC69764"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 26.0d
+			x: 0.0d
+			y: -58.0d
 		}
 		{
 			id: "4320E0D168D7BD65"
@@ -1518,8 +1562,8 @@
 				id: "46E117DC022231E9"
 				type: "checkmark"
 			}]
-			x: -32.0d
-			y: -36.0d
+			x: 0.0d
+			y: 58.0d
 		}
 		{
 			dependencies: ["72885815B807121A"]
@@ -1535,11 +1579,15 @@
 				id: "0EF8A6D573428CA7"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 28.0d
+			x: 0.0d
+			y: -60.0d
 		}
 		{
-			dependencies: ["0D4A1D70C73B98D3"]
+			dependencies: [
+				"0D4A1D70C73B98D3"
+				"72885815B807121A"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "xfws_swords:meowmere"
 			}
@@ -1567,8 +1615,8 @@
 				id: "7B510EBE7E4E081E"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 32.0d
+			x: 0.0d
+			y: -64.0d
 		}
 		{
 			can_repeat: true
@@ -1597,8 +1645,8 @@
 				id: "511C8EE7CB039000"
 				type: "checkmark"
 			}]
-			x: 32.0d
-			y: -4.0d
+			x: -3.75d
+			y: -32.25d
 		}
 		{
 			dependencies: ["0F2271A7D264E7F3"]
@@ -1629,8 +1677,8 @@
 				id: "65D91C7F8221030F"
 				type: "advancement"
 			}]
-			x: 28.0d
-			y: 4.0d
+			x: 4.0d
+			y: -32.0d
 		}
 		{
 			dependencies: ["3C5BB748322BAC9F"]
@@ -1670,8 +1718,8 @@
 				item: { count: 1, id: "darkdoppelganger:shadow_orb" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 6.0d
+			x: 6.0d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6E7C29B7BD87C467"]
@@ -1717,8 +1765,8 @@
 				id: "51ABA4D83BA6DE9C"
 				type: "advancement"
 			}]
-			x: 24.0d
-			y: 8.0d
+			x: 8.0d
+			y: -32.0d
 		}
 		{
 			dependencies: ["37912F243389D665"]
@@ -1744,8 +1792,8 @@
 				id: "16A0C031CA6EE657"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["54D1810722DCCC0C"]
@@ -1772,8 +1820,8 @@
 				id: "2D2A7FCF725CFC85"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5EB5DB20B9FBF372"]
@@ -1807,8 +1855,8 @@
 				id: "4C6FABBAAD621FD0"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: -1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["622A55D89E3ED919"]
@@ -1837,8 +1885,8 @@
 				id: "7B91D35C9D2E8FFF"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: 1.5d
+			y: -10.0d
 		}
 	]
 }

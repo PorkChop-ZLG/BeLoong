@@ -391,7 +391,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				advancement: "beloong:beloong/root"
 				criterion: ""

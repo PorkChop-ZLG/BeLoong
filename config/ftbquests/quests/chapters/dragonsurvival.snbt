@@ -546,8 +546,8 @@
 				id: "3DAFC5DD42B0DE04"
 				type: "checkmark"
 			}]
-			x: -17.5d
-			y: 9.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["186EDCECB309BC44"]
@@ -708,8 +708,8 @@
 				item: { count: 1, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
-			x: -17.5d
-			y: 13.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			id: "52760593973916B2"
@@ -969,8 +969,8 @@
 				id: "1E39433E0D79D35D"
 				type: "checkmark"
 			}]
-			x: -20.0d
-			y: 12.25d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "6796172A3CF129FB"
@@ -1127,26 +1127,6 @@
 		}
 		{
 			dependencies: ["6588C404E5712724"]
-			icon: {
-				id: "minecraft:cobblestone"
-			}
-			id: "5D70D6D899218342"
-			rewards: [{
-				id: "2509E221767378AA"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "minecraft:story/mine_stone"
-				criterion: ""
-				id: "02B0FCF32E0E90CA"
-				type: "advancement"
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6588C404E5712724"]
 			id: "0237579785072690"
 			rewards: [
 				{
@@ -1188,23 +1168,6 @@
 			}]
 			x: 5.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["5D70D6D899218342"]
-			id: "7EE21DE9D9C6EFFE"
-			rewards: [{
-				id: "01B86CCF2CC67243"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "minecraft:story/upgrade_tools"
-				criterion: ""
-				id: "50D8F43BC17537BD"
-				type: "advancement"
-			}]
-			x: 6.5d
-			y: -2.5d
 		}
 		{
 			dependencies: [
