@@ -1,5 +1,5 @@
 {
-  "parent": "beloong:beloong/item_restriction",
+  "parent": "beloong:beloong/dragon_crafting",
   "criteria": {
     "wind_breath": {
       "conditions": {

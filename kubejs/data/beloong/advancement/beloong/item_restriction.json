@@ -1,5 +1,4 @@
 {
-  "parent": "beloong:beloong/dragon_crafting",
   "criteria": {
     "pickup_shield": {
       "conditions": {

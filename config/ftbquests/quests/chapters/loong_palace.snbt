@@ -1077,10 +1077,10 @@
 				}
 			]
 			tasks: [{
-				advancement: "beloong:beloong/item_restriction"
-				criterion: ""
-				id: "1F7675AFD94C9E26"
-				type: "advancement"
+				consume_items: true
+				id: "6AE40029E7A9AC0C"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
 			}]
 			x: 19.0d
 			y: 0.0d
