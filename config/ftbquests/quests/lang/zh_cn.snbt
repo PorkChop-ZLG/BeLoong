@@ -981,9 +981,6 @@
 	quest.17A9978D7AFEA210.title: "永恒星光：月藤巨物"
 	quest.17F6BAB9A64544C9.quest_subtitle: "集齐所有护符"
 	quest.17F6BAB9A64544C9.title: "&a护符毕业"
-	quest.1818669657F8A0B2.quest_desc: ["&6只能在&d星光维度&6使用，有概率召唤&d流星雨&6。"]
-	quest.1818669657F8A0B2.quest_subtitle: "星光维度召唤流星雨"
-	quest.1818669657F8A0B2.title: "星引火箭"
 	quest.18189EEE0D9A4F88.quest_desc: [
 		"&6任务：锻造出光明使者胸甲、迅捷之靴、地狱战镰"
 		""
@@ -3054,7 +3051,6 @@
 	]
 	quest.5409A055F5C34999.quest_subtitle: "星遥游戏 | 星叶云联"
 	quest.5409A055F5C34999.title: "多人联机推荐"
-	quest.549E269DFE9CCCBA.title: "空龙魂"
 	quest.54A9EA09DB80D187.title: "首饰T0"
 	quest.54D1810722DCCC0C.quest_desc: [
 		"&6任务：搜刮堡垒遗迹里的箱子"
@@ -3386,9 +3382,6 @@
 	]
 	quest.5CFC7A1D79C8C423.quest_subtitle: "长在虚空中很合理吧"
 	quest.5CFC7A1D79C8C423.title: "&l&a虚空之花"
-	quest.5CFF88C245EF7BE5.quest_desc: ["&c注意：是原地生成一只【流浪商人】！"]
-	quest.5CFF88C245EF7BE5.quest_subtitle: "交换群青物品"
-	quest.5CFF88C245EF7BE5.title: "流浪商人"
 	quest.5D37685BFBAB83E4.quest_subtitle: "★★★★★"
 	quest.5D37685BFBAB83E4.title: "传奇怪物：云筑魔像"
 	quest.5D43D87C46BA7F7C.quest_desc: [
@@ -4565,7 +4558,6 @@
 	reward.4B9637D64D06DF32.title: "获得技能：龙击长空"
 	reward.4BCB923F946FBCF3.title: "生成【紫水晶巨蟹】"
 	reward.4FA5DE6B8C446E46.title: "雨雪"
-	reward.5A9476EF337264A3.title: "生成【行商】"
 	reward.5DA01E41DB6D6A01.title: "自选龙蛋"
 	reward.615281F2EE1416FE.title: "不屈之魂"
 	reward.61DB822EE5166EAB.title: "永猎通缉"

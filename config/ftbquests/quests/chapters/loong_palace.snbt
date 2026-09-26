@@ -469,7 +469,6 @@
 					xp: 100
 				}
 				{
-					auto: "enabled"
 					count: 3
 					id: "5C7DC3B45C6993B3"
 					item: {
@@ -814,15 +813,6 @@
 					}
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/effect clear @s"
-					id: "7FF42C0105607F12"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
-				}
 			]
 			tasks: [{
 				advancement: "beloong:beloong/combat_training"
@@ -864,15 +854,6 @@
 					criterion: ""
 					id: "29DF8A62E564F2EE"
 					type: "advancement"
-				}
-				{
-					auto: "invisible"
-					command: "/effect clear @s dragonsurvival:hunter_omen"
-					id: "07A6D549B345C654"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
 				}
 			]
 			shape: "diamond"

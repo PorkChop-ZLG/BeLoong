@@ -942,9 +942,10 @@
 							"minecraft:enchantments": {
 								levels: {
 									"minecraft:efficiency": 5
+									"soulbound:soulbound": 1
 								}
 							}
-							"minecraft:repair_cost": 1
+							"minecraft:repair_cost": 3
 							"minecraft:unbreakable": { }
 						}
 						count: 1
@@ -987,9 +988,10 @@
 							"minecraft:enchantments": {
 								levels: {
 									"minecraft:sharpness": 5
+									"soulbound:soulbound": 1
 								}
 							}
-							"minecraft:repair_cost": 1
+							"minecraft:repair_cost": 3
 							"minecraft:unbreakable": { }
 						}
 						count: 1
@@ -1038,9 +1040,10 @@
 							"minecraft:enchantments": {
 								levels: {
 									"minecraft:efficiency": 5
+									"soulbound:soulbound": 1
 								}
 							}
-							"minecraft:repair_cost": 1
+							"minecraft:repair_cost": 3
 							"minecraft:unbreakable": { }
 						}
 						count: 1
@@ -1128,6 +1131,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "77D16275D05F12BF"
+					item: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -1167,9 +1179,10 @@
 							"minecraft:enchantments": {
 								levels: {
 									"minecraft:efficiency": 5
+									"soulbound:soulbound": 1
 								}
 							}
-							"minecraft:repair_cost": 1
+							"minecraft:repair_cost": 3
 							"minecraft:unbreakable": { }
 						}
 						count: 1
@@ -1205,7 +1218,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 8
 					id: "5C7E5E407C267A8F"
 					item: {
 						count: 1
@@ -1248,11 +1261,11 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "2A21A2F327A6AA0B"
+					count: 8
+					id: "2DFDA022AB4608FD"
 					item: {
 						count: 1
-						id: "minecraft:wind_charge"
+						id: "minecraft:breeze_rod"
 					}
 					type: "item"
 				}

@@ -90,59 +90,6 @@
 			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
-				id: "eternal_starlight:aetherstrike_rocket"
-			}
-			id: "1818669657F8A0B2"
-			rewards: [{
-				count: 5
-				id: "0B464B91B9F5F7C0"
-				item: {
-					count: 1
-					id: "eternal_starlight:aetherstrike_rocket"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "461AD4E977A06808"
-				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "dragonsurvival:dragon_soul"
-			}
-			id: "549E269DFE9CCCBA"
-			rewards: [{
-				id: "0BF53273F7CE204D"
-				item: {
-					count: 1
-					id: "dragonsurvival:dragon_soul"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "5670A20BF582E137"
-				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
 				id: "irons_spellbooks:lightning_upgrade_orb"
 			}
 			id: "19EC475553EC785D"
@@ -279,41 +226,6 @@
 			]
 			x: -3.0d
 			y: 3.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
-			hide_dependency_lines: true
-			icon: {
-				id: "minecraft:wandering_trader_spawn_egg"
-			}
-			id: "5CFF88C245EF7BE5"
-			rewards: [{
-				command: "/summon ultramarine:travelling_merchant ~ ~ ~"
-				icon: {
-					id: "minecraft:wandering_trader_spawn_egg"
-				}
-				id: "5A9476EF337264A3"
-				permission_level: 2
-				silent: true
-				type: "command"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "7999854850282460"
-					item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
-					type: "item"
-				}
-				{
-					id: "4BB56E068B08FE35"
-					item: { count: 1, id: "ultramarine:teahouse_flag" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -1.5d
 		}
 		{
 			can_repeat: true

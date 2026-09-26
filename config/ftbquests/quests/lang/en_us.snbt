@@ -818,9 +818,6 @@
 	quest.17A9978D7AFEA210.title: "Eternal Starlight: Moonvine Colossus"
 	quest.17F6BAB9A64544C9.quest_subtitle: "Collect All Talismans"
 	quest.17F6BAB9A64544C9.title: "&aTalisman Completion"
-	quest.1818669657F8A0B2.quest_desc: ["&6Usable only in the &dStarlight Dimension&6, with a chance to summon &dMeteor Showers&6."]
-	quest.1818669657F8A0B2.quest_subtitle: "Summon Meteor Showers in Starlight Dimension"
-	quest.1818669657F8A0B2.title: "Starcall Rocket"
 	quest.18189EEE0D9A4F88.quest_desc: [
 		"&aGoal: Forge the Lightbringer Chestplate, Boots of Swiftness, and Hell Scythe"
 		""
@@ -2108,7 +2105,6 @@
 	]
 	quest.5409A055F5C34999.quest_subtitle: "Starry Game | Xingye Cloud Link"
 	quest.5409A055F5C34999.title: "Multiplayer Recommendations"
-	quest.549E269DFE9CCCBA.title: "Aether Dragon Soul"
 	quest.54A9EA09DB80D187.title: "Trinkets T0"
 	quest.55C69AD6F42A1ADA.quest_subtitle: "Cream Mint"
 	quest.561497395CA5BFAC.quest_desc: [
@@ -2304,9 +2300,6 @@
 		"&7【 &l&6Echo of Telos&e·&4The First Fire Receiver &7】"
 	]
 	quest.5CE2B692394FA5A2.quest_subtitle: "Listen, the Echo of the Origin"
-	quest.5CFF88C245EF7BE5.quest_desc: ["&cNote: This spawns a 【Coral Golem】 right on the spot!"]
-	quest.5CFF88C245EF7BE5.quest_subtitle: "Drops Crystallized Coral"
-	quest.5CFF88C245EF7BE5.title: "Coral Golem"
 	quest.5D56B0917C5223A6.quest_desc: ["&6Combine a Ring of Affinity with a Spell Scroll on an Arcane Anvil to create a ring that increases the spell's level by one."]
 	quest.5D56B0917C5223A6.title: "Ring T0"
 	quest.5DB104CFE665CC09.quest_desc: [
@@ -2938,7 +2931,6 @@
 	reward.4605D18D17F1BB92.title: "Return to Mortal Form"
 	reward.4BCB923F946FBCF3.title: "Spawn 【Amethyst Crab】"
 	reward.4FA5DE6B8C446E46.title: "Rain/Snow"
-	reward.5A9476EF337264A3.title: "Spawn 【Coral Golem】"
 	reward.5DA01E41DB6D6A01.title: "Choose Your Dragon Egg"
 	reward.7D4E423C2BEB7F9C.title: "Clear Sky"
 	reward_table.0F48BCBAFA4E52F3.title: "Newbie Gift Pack"
