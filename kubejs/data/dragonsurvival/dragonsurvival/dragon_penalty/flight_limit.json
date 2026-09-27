@@ -1,5 +1,23 @@
 {
-  "icon": "dragonsurvival:penalties/night_striker/night_striker_hunger",
+  "effect": {
+    "penalty_type": "dragonsurvival:mob_effect",
+    "potion": {
+      "amplifier": 0,
+      "duration": 200,
+      "effects": [
+        "dragonsurvival:broken_wings"
+      ]
+    }
+  },
+  "trigger": {
+    "display_like_hunger_bar": true,
+    "penalty_trigger": "dragonsurvival:supply",
+    "recovery_items": [],
+    "reduction_rate": 0.5,
+    "regeneration_rate": 0.008,
+    "supply_type": "dragonsurvival:flight_limit_supply",
+    "trigger_rate": 60
+  },
   "condition": {
     "condition": "minecraft:inverted",
     "term": {
@@ -19,13 +37,7 @@
             "predicate": {
               "type_specific": {
                 "type": "dragonsurvival:dragon_predicate",
-                "is_flying": false
-              },
-              "movement": {
-                "horizontal_speed": {
-                  "min": 6.0
-                },
-                "periodic_tick": 120
+                "is_flying": true
               }
             }
           }
@@ -33,19 +45,5 @@
       ]
     }
   },
-  "effect": {
-    "penalty_type": "dragonsurvival:mob_effect",
-    "potion": {
-      "effects": "minecraft:hunger",
-      "amplifier": 20,
-      "duration": 5,
-      "probability": 1,
-      "effect_particles": false,
-      "show_icon": false
-    }
-  },
-  "trigger": {
-    "penalty_trigger": "dragonsurvival:instant",
-    "trigger_rate": 10
-  }
+  "icon": "dragonsurvival:penalties/dihuang/flight_limit"
 }

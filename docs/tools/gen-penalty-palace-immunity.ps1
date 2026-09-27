@@ -31,6 +31,8 @@ $Spec = @(
     @{ id='dragonsurvival:snowball_weakness';              jar='*DragonSurvival-1.21.1*';              dest='dragonsurvival\dragonsurvival\dragon_penalty\snowball_weakness.json' }
     @{ id='dragonsurvival:water_potion_weakness';          jar='*DragonSurvival-1.21.1*';              dest='dragonsurvival\dragonsurvival\dragon_penalty\water_potion_weakness.json' }
     @{ id='dragonsurvival:water_splash_potion_weakness';   jar='*DragonSurvival-1.21.1*';              dest='dragonsurvival\dragonsurvival\dragon_penalty\water_splash_potion_weakness.json' }
+    @{ id='dragonsurvival:flight_limit';                   jar='*dihuang*';                            dest='dragonsurvival\dragonsurvival\dragon_penalty\flight_limit.json' }
+    @{ id='dragonsurvival:mineral_dependency';             jar='*dihuang*';                            dest='dragonsurvival\dragonsurvival\dragon_penalty\mineral_dependency.json' }
 )
 
 # Copied verbatim, no immunity (generic penalty: "龙威")
@@ -39,14 +41,15 @@ $CopyOnly = @(
 )
 
 # Already customised by the project -> never overwrite
+# (dihuang's flight_limit / mineral_dependency moved into $Spec: they are plain
+#  jar definitions, but the project's kubejs tag override only keeps flight_limit.
+#  See the note printed after generation.)
 $Skip = @(
     'dragonsurvival:batophobia'
     'dragonsurvival:source_emptiness'
     'wing_kirin:evil_entangle'
     'dragonsurvival:item_blacklist'
     'dragonsurvival:night_striker_item_blacklist'
-    'dragonsurvival:flight_limit'
-    'dragonsurvival:mineral_dependency'
 )
 
 # Vanilla LootItemCondition type names (no namespace). Used ONLY to normalise
@@ -65,7 +68,6 @@ function Get-Penalty-Tree {
 
     $jar = Get-ChildItem -LiteralPath $Mods -File |
            Where-Object { $_.Name -like $JarPattern } |
-           Where-Object { $_.Name -notlike '*dihuang*' } |
            Select-Object -First 1
     if (-not $jar) { throw "jar not found for pattern $JarPattern" }
 

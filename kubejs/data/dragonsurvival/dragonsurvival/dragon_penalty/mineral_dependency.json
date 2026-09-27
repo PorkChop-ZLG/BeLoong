@@ -1,4 +1,23 @@
 {
+  "effect": {
+    "penalty_type": "dragonsurvival:mob_effect",
+    "potion": {
+      "amplifier": 2,
+      "duration": 200,
+      "effects": [
+        "minecraft:weakness"
+      ]
+    }
+  },
+  "trigger": {
+    "display_like_hunger_bar": true,
+    "penalty_trigger": "dragonsurvival:supply",
+    "recovery_items": [],
+    "reduction_rate": 1.0,
+    "regeneration_rate": 0.02,
+    "supply_type": "dragonsurvival:sun_supply",
+    "trigger_rate": 40
+  },
   "condition": {
     "condition": "minecraft:inverted",
     "term": {
@@ -20,22 +39,19 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "fluid": {
-                      "fluids": "#minecraft:water"
-                    }
+                    "can_see_sky": true
                   }
                 }
               },
               {
                 "condition": "minecraft:inverted",
                 "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "effects": {
-                      "dragonsurvival:cave_fire": {}
-                    }
-                  }
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "max": 23000,
+                    "min": 13000
+                  },
+                  "period": 24000
                 }
               }
             ]
@@ -44,14 +60,5 @@
       ]
     }
   },
-  "effect": {
-    "amount": 1.0,
-    "damage_type": "dragonsurvival:water_burn",
-    "penalty_type": "dragonsurvival:take_damage"
-  },
-  "icon": "dragonsurvival:penalties/cave/water_weakness",
-  "trigger": {
-    "penalty_trigger": "dragonsurvival:instant",
-    "trigger_rate": 10
-  }
+  "icon": "dragonsurvival:penalties/dihuang/mineral_dependency"
 }

@@ -1,65 +1,76 @@
 {
   "condition": {
-    "condition": "minecraft:all_of",
-    "terms": [
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "dimension": "beloong:loong_palace"
-        }
-      },
-      {
-        "condition": "minecraft:any_of",
-        "terms": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "dragonsurvival:custom_predicates",
-                "weather_predicate": {
-                  "is_raining_or_snowing": true
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "stepping_on": {
-                "block": {
-                  "blocks": "#dragonsurvival:is_wet"
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "block": {
-                  "blocks": "#dragonsurvival:is_wet"
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "condition": "minecraft:inverted",
-        "term": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
           "predicate": {
-            "effects": {
-              "dragonsurvival:cave_fire": {}
-            }
+            "dimension": "beloong:loong_palace"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type_specific": {
+                        "type": "dragonsurvival:custom_predicates",
+                        "weather_predicate": {
+                          "is_raining_or_snowing": true
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "stepping_on": {
+                        "block": {
+                          "blocks": "#dragonsurvival:is_wet"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "location": {
+                        "block": {
+                          "blocks": "#dragonsurvival:is_wet"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "effects": {
+                      "dragonsurvival:cave_fire": {}
+                    }
+                  }
+                }
+              }
+            ]
           }
         }
-      }
-    ]
+      ]
+    }
   },
   "effect": {
     "amount": 1.0,
