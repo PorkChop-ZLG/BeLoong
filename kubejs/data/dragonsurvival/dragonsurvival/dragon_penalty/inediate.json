@@ -1,0 +1,19 @@
+{
+  "icon": "dragonsurvival:penalties/astral/inediate",
+  "effect": {
+    "penalty_type": "dragonsurvival:informational"
+  },
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:instant",
+    "trigger_rate": 1
+  },
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "beloong:loong_palace"
+      }
+    }
+  }
+}
