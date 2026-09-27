@@ -18,6 +18,11 @@
   "dragon_species.dragonsurvival.sea_dragon.altar.desc": "§7■§6海洋龙§7是生活在河流和海洋中的真龙，虽然实力强悍，但是喜欢电鱼。\n\n§2■特性：§7水元素魔法，掌控雷电，爪子如同铲子可以挖掘泥土。\n§4■诅咒：§7畏惧干燥，离开水源太久会损失生命值。\n§6■食谱：§r%s",
   "dragon_species.dragonsurvival.sea_dragon.banner.desc": "§7■§6海洋龙§7是生活在河流和海洋中的真龙，虽然实力强悍，但是喜欢电鱼。\n\n§7■你擅长§f水产养殖§7，也一直喜爱着§f海鲜§7味道。永远生活在§f水中§7是你的宿愿，但为了获取资源，你不得不离开这片温暖的世界，冒险进入这片§c干燥§7的陆地。§r",
 
+  "dragon_stage.dragonsurvival.adult": "成年",
+  "dragon_stage.dragonsurvival.ancient": "远古",
+  "dragon_stage.dragonsurvival.newborn": "幼年",
+  "dragon_stage.dragonsurvival.young": "成年",
+
   "dragonsurvival.configuration.category.penalties": "诅咒",
   "dragonsurvival.configuration.enable_penalties": "启用诅咒",
   "dragonsurvival.configuration.enable_penalties.tooltip": "启用或禁用诅咒系统",

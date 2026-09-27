@@ -18,6 +18,11 @@
   "dragon_species.dragonsurvival.sea_dragon.altar.desc": "§7■ §6Sea Dragons§7 are fragile but ferocious §fcreatures§7. Their skeletons are made of §fgold§7 and conducts §felectricity§7 well.\n\n§2■ Features:§f§7 underwater breathing, shovel claws, electric magic, faster movement on wet and beach blocks.\n§4■ Curses:§7 dehydration.\n§6■ Diet:§r %s",
   "dragon_species.dragonsurvival.sea_dragon.banner.desc": "§7■ §6Sea Dragons§7 are fragile but ferocious §fcreatures§7. Their skeletons are made of §fgold§7 and conducts §felectricity§7 well.\n\n§7■ You have ideally mastered §faquaculture§7 and love §fseafood§7. You would live forever in the §fwater§7, but for the sake of resources you have to leave this cozy world and be exposed to §cdryness§7.§r",
 
+  "dragon_stage.dragonsurvival.adult": "Adult",
+  "dragon_stage.dragonsurvival.ancient": "Ancient",
+  "dragon_stage.dragonsurvival.newborn": "Child",
+  "dragon_stage.dragonsurvival.young": "Young",
+
   "dragonsurvival.configuration.category.penalties": "Curses",
   "dragonsurvival.configuration.enable_penalties": "Enable Curse System",
   "dragonsurvival.configuration.enable_penalties.tooltip": "Enable / Disable the curse system",
