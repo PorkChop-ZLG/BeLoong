@@ -6,6 +6,12 @@
       "condition": "minecraft:any_of",
       "terms": [
         {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "beloong:loong_palace"
+          }
+        },
+        {
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
