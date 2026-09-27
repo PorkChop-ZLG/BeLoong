@@ -11,6 +11,22 @@
   },
   "growth_items": [
     {
+      "growth_in_ticks": 1200,
+      "items": "dragonsurvival:elder_dragon_bone"
+    },
+    {
+      "growth_in_ticks": 6000,
+      "items": "dragonsurvival:heart_element"
+    },
+    {
+      "growth_in_ticks": 36000,
+      "items": "dragonsurvival:weak_dragon_heart"
+    },
+    {
+      "growth_in_ticks": 108000,
+      "items": "dragonsurvival:elder_dragon_heart"
+    },
+    {
       "growth_in_ticks": 1728000,
       "items": "kubejs:cave_dragon_heart"
     },
