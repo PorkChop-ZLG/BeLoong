@@ -50,7 +50,7 @@
       "operation": "add_value",
       "amount": {
         "precise_base": 0.0,
-        "precise_amount": 0.0375
+        "precise_amount": 0.1
       }
     },
     {
@@ -95,6 +95,19 @@
         "precise_base": 1.5,
         "precise_amount": 0.0375
       }
+    },
+    {
+      "attribute": "dragonsurvival:mana",
+      "operation": "add_value",
+      "amount": {
+        "precise_base": -1.0,
+        "precise_amount": 0.05
+      }
+    },
+    {
+      "attribute": "dragonsurvival:mana_regeneration",
+      "operation": "add_value",
+      "amount": 0.001
     }
   ],
   "ticks_until_grown": 432000
