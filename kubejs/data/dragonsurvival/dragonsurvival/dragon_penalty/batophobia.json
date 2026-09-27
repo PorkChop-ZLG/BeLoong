@@ -66,8 +66,8 @@
     "supply_type": "dragonsurvival:asphyxia_supply",
     "attribute": "dragonsurvival:penalty_resistance_time",
     "trigger_rate": 40,
-    "reduction_rate": 1.0,
-    "regeneration_rate": 0.01,
+    "reduction_rate": 0.5,
+    "regeneration_rate": 0.02,
     "recovery_items": [
       {
         "item_predicates": [
