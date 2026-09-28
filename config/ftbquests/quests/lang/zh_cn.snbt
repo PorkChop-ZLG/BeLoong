@@ -1982,16 +1982,6 @@
 	]
 	quest.384B6CDEB088679E.quest_subtitle: "先练练手"
 	quest.384B6CDEB088679E.title: "试炼密室"
-	quest.3859C3FFB6F2C61B.quest_desc: [
-		"&6任务：完成主线【龙之生存】或番外篇【铁魔法】"
-		""
-		"&6在&b系统商店&6，你可以兑换各种奇珍异宝！"
-		"&6通用货币是&d龙心&6，部分宝贝还有别的要求。"
-		""
-		"&c本商店将于1.4版本正式移除，替换为新的商店！"
-	]
-	quest.3859C3FFB6F2C61B.quest_subtitle: "即将换为新的商店"
-	quest.3859C3FFB6F2C61B.title: "&e『&6化龍&e』&a系统商店"
 	quest.386CC89DE12CDBE2.title: "项链T3"
 	quest.3870D9E7C938B489.quest_desc: [
 		"&6空手Shift右键绑定到当前玩家所在的维度网络。维度网络的管理员空手Shift右键可取消绑定。"
@@ -2032,7 +2022,7 @@
 		"&7&o注：本章由linxi2259撰写"
 	]
 	quest.3AF8293458FE7927.quest_subtitle: "一个被永恒之夜笼罩的森林世界"
-	quest.3AF8293458FE7927.title: "&3&l主线：暮色森林"
+	quest.3AF8293458FE7927.title: "&3&l第三章：暮色森林"
 	quest.3B02DF458924B95C.quest_desc: [
 		"&l&d「虚空之花」"
 		"&6生命：&a1800"
@@ -4022,7 +4012,7 @@
 		"&9结构罗盘：&b【永恒星光】传送门遗迹"
 	]
 	quest.7082701EBE593912.quest_subtitle: "神秘莫测的星光主题维度"
-	quest.7082701EBE593912.title: "&d&l主线：永恒星光"
+	quest.7082701EBE593912.title: "&d&l第四章：永恒星光"
 	quest.7094F53A33655DF3.quest_subtitle: "全年龄饮品"
 	quest.70F041A9AA323CCD.quest_desc: [
 		"&6任务：提交洞穴龙的毕业证"
@@ -4279,7 +4269,15 @@
 	]
 	quest.77457906D3353B69.quest_subtitle: "必读"
 	quest.77457906D3353B69.title: "&d按键提示"
-	quest.77650D7436678A64.quest_desc: ["&6任务：集齐三把钥匙，合成悚域之钥"]
+	quest.77650D7436678A64.quest_desc: [
+		"&6任务：集齐三把钥匙，合成悚域之钥"
+		""
+		"深入位于&2主世界&r冰天雪地中的悚陵，使用&e陵主之钥&r开启大门。"
+		""
+		"找到悚陵最深处，由&e悚石&r搭建的&e悚域传送门框架&r，然后使用&e悚域之钥&r激活传送门，即可前往&b悚域&r。"
+		""
+		"&9结构罗盘：&b【冰火传说】悚陵"
+	]
 	quest.77777B69F96AD646.quest_desc: [
 		"&6使用账本右键餐桌即可绑定，再次右键解绑。每个桌子会有自己的桌号，开始营业后被绑定的餐桌可能会点菜单上的菜品与酒水，并在物品栏左边显示，满足对应桌号的需求就能获取钱币！"
 		"如何上菜：右键餐桌将菜品与酒水放入即可~&r"
@@ -4525,7 +4523,6 @@
 	reward_table.733BB7770F2E41F0.title: "BWG原木"
 	reward_table.7941E6ADD29C5C5F.title: "未至之地原木"
 	reward_table.7AA42D8616A73FCE.title: "死亡不掉落"
-	task.033069BC0E4FF639.title: "已读点我"
 	task.059941E75EB6F378.title: "抵达傀儡锻造厂"
 	task.061590EA8BFD252F.title: "欢迎来到『化龍』"
 	task.077EE272E2EA5238.title: "击杀月藤巨物"

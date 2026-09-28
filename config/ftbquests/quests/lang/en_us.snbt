@@ -1478,13 +1478,6 @@
 	]
 	quest.37E22E2A0F31B536.quest_subtitle: "★★★"
 	quest.37E22E2A0F31B536.title: "Cataclysm: Netherite Ironclad"
-	quest.3859C3FFB6F2C61B.quest_desc: [
-		"&6Congratulations on completing &e【Chapter I】&6 or &e【Side Story】"
-		"&6Now the &bSystem Shop &6is open, you can exchange for various rare treasures!"
-		"&6The common currency is &dDragon Heart&6, some treasures have additional requirements."
-	]
-	quest.3859C3FFB6F2C61B.quest_subtitle: "Ding! Congratulations on unlocking 【System Shop】"
-	quest.3859C3FFB6F2C61B.title: "&e『&6BeLoong&e』&aSystem Shop"
 	quest.386CC89DE12CDBE2.title: "Necklace T3"
 	quest.3870D9E7C938B489.quest_desc: [
 		"&6Sneak + Right-click while empty-handed to bind to the current player's dimension network. Dimension network admins can sneak + right-click empty-handed to unbind."
@@ -2913,7 +2906,6 @@
 	reward_table.470A343B90F6B99A.title: "Twilight Sapling Blind Box"
 	reward_table.733BB7770F2E41F0.title: "BWG Logs"
 	reward_table.7941E6ADD29C5C5F.title: "Untamed Lands Logs"
-	task.033069BC0E4FF639.title: "Read Me"
 	task.059941E75EB6F378.title: "Reach the Golem Forge"
 	task.061590EA8BFD252F.title: "Welcome to 『BeLoong』"
 	task.077EE272E2EA5238.title: "Defeat the Lunar Monstrosity"

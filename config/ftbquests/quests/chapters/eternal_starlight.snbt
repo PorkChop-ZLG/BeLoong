@@ -583,6 +583,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "52D69DFB9D0D19B3"
+					item: {
+						count: 1
+						id: "xfws_swords:star_wrath"
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d

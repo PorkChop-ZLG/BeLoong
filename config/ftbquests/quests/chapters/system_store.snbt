@@ -8,62 +8,12 @@
 		id: "minecraft:emerald"
 	}
 	id: "27AE0B7401476AE5"
-	images: [
-		{
-			height: 12.0d
-			id: "672FB684D7037861"
-			image: "kubejs:textures/task/shop_3.png"
-			rotation: 0.0d
-			width: 12.0d
-			x: 0.0d
-			y: 0.1d
-		}
-		{
-			height: 12.0d
-			id: "4ECD2B242DD8F9EE"
-			image: "kubejs:textures/task/shop_1.png"
-			rotation: 0.0d
-			width: 12.0d
-			x: -10.5d
-			y: 0.1d
-		}
-		{
-			height: 12.0d
-			id: "2F3D3EC2C9DBD663"
-			image: "kubejs:textures/task/shop_2.png"
-			rotation: 0.0d
-			width: 12.0d
-			x: 10.5d
-			y: 0.1d
-		}
-	]
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["18189EEE0D9A4F88"]
-			dependency_requirement: "one_completed"
-			icon: {
-				id: "minecraft:emerald"
-			}
-			id: "3859C3FFB6F2C61B"
-			rewards: [{
-				id: "68EBAC3CE85476AF"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "033069BC0E4FF639"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
 			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:mimic_spawn_egg"
@@ -87,10 +37,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"316AFA91B0365E94"
-			]
+			dependencies: ["316AFA91B0365E94"]
 			hide_dependency_lines: true
 			icon: {
 				id: "xfws_swords:sculk_katana"
@@ -111,12 +58,11 @@
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "xfws_swords:ark_of_the_cosmos"
@@ -137,15 +83,12 @@
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"5BB4A81605A76537"
-			]
+			dependencies: ["5BB4A81605A76537"]
 			hide_dependency_lines: true
 			icon: {
 				id: "xfws_swords:star_wrath"
@@ -166,15 +109,12 @@
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3859C3FFB6F2C61B"
-				"18189EEE0D9A4F88"
-			]
+			dependencies: ["18189EEE0D9A4F88"]
 			hide_dependency_lines: true
 			icon: {
 				id: "xfws_swords:meowmere"
@@ -195,12 +135,11 @@
 				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "biomeswevegone:witch_hazel_log"
@@ -219,12 +158,11 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["3859C3FFB6F2C61B"]
 			hide_dependency_lines: true
 			icon: {
 				id: "regions_unexplored:small_oak_log"
@@ -243,8 +181,8 @@
 				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 }

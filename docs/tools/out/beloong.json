@@ -1,0 +1,3484 @@
+{
+  "file": "D:\\BeLoong\\.minecraft\\versions\\BeLoong\\ldlib2\\assets\\viscript_shop\\shop\\beloong.shop",
+  "name": "龙宫商店",
+  "version_num": 7,
+  "isQuickOpening": true,
+  "promotionEnabled": false,
+  "promotionAggregation": "viscript_shop.data.promotion.aggregation.add",
+  "lockedMerchantVisibility": "viscript_shop.data.shop.lockedItemVisibility.show_with_lock",
+  "categories": [
+    {
+      "id": "loong_palace_bug",
+      "name": "龙宫商店",
+      "shopType": "currency",
+      "iconItem": {
+        "id": "dragonsurvival:elder_dragon_bone",
+        "count": 1
+      },
+      "stageRestrictionEnabled": false,
+      "flags": [],
+      "merchants": [
+        {
+          "id": "bb47748e-c28d-46a0-8e75-2d288ed9e6fa",
+          "stock": 10000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "dragonsurvival:elder_dragon_dust",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b7587f96-17b4-414c-8855-3619a4a7d89b",
+          "stock": 10000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10,
+          "result": {
+            "id": "dragonsurvival:elder_dragon_bone",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cd77909d-aa04-438b-af40-a8d780d6f1f4",
+          "stock": 10000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 50,
+          "result": {
+            "id": "dragonsurvival:heart_element",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "d26ae24e-f025-48a2-810d-2afcf154064d",
+          "stock": 10000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 300,
+          "result": {
+            "id": "dragonsurvival:weak_dragon_heart",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "1a042ade-615e-454e-8e32-4b7c520b9677",
+          "stock": 10000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1000,
+          "result": {
+            "id": "dragonsurvival:elder_dragon_heart",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "bc5061b0-4b23-4bcb-9ea4-4bc4bf188669",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 100,
+          "result": {
+            "id": "minecraft:trial_key",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c52be13a-6ad8-4a81-8247-8d72fc332e89",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 400,
+          "result": {
+            "id": "minecraft:ominous_trial_key",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "497d832b-cde1-460c-91ec-a4540459ab2e",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 50,
+          "result": {
+            "id": "minecraft:breeze_rod",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "bf95f663-b066-4966-aa26-c38083213b1d",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2000,
+          "result": {
+            "id": "minecraft:heavy_core",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "0c395118-1e81-45ef-9f71-86b9e459d74c",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 200,
+          "result": {
+            "id": "minecraft:ominous_bottle",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "12d831a8-eebe-4d2c-81dc-f4b86128d800",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 30000,
+          "result": {
+            "id": "dragonsurvival:dragon_soul",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "1e5074fc-8d4c-469d-b4e9-c1a5f268279d",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1000,
+          "result": {
+            "id": "bosses_of_mass_destruction:brimstone_nectar",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "785eb493-29cb-436d-b761-fa56d856ffd3",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 100,
+          "result": {
+            "id": "eternal_starlight:aetherstrike_rocket",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "d775e277-47e1-4487-928e-fafadd2e3e9a",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "cataclysm:necklace_of_the_desert",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6824b9d9-bff0-401e-81ee-b9ac6c38090a",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "cataclysm:abyssal_sacrifice",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b87254ae-6553-49e8-8c9e-fbc5de1d1809",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "cataclysm:burning_ashes",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "72c25a68-356a-4eef-bbdc-dd5b5aed8f3f",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:metal_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cf8a5389-5532-49a4-b218-d382b824ddc4",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:wood_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "663c8523-1fa0-451f-8561-968b749ba283",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:water_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "41ae75c0-1423-4de2-a402-6d8a4722fcd2",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:fire_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "fee5ee3f-bb79-4ce7-9ba9-8893589213f8",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:earth_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7abcb84a-9cbf-43eb-9f20-e369149ee397",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:wind_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3870a036-58bd-4ece-89f1-1194cd855594",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:thunder_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "597a741d-f9d3-4328-b45e-32364c8610e7",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:ice_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "74adae41-3d34-4df6-9e65-5331f5d534ca",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:light_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8a2a44cd-1a8d-42f8-8049-3a445f86134d",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000,
+          "result": {
+            "id": "beloong:dark_essence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "bdccfce4-d003-4c35-8924-0292dc177655",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 100000,
+          "result": {
+            "id": "kubejs:progenitor_dragon_heart",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "f3d08c81-c81b-437b-b00c-a16c46b44301",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 50000,
+          "result": {
+            "id": "kubejs:progenitor_dragon_scale",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "824f596b-f70a-4bb1-a689-d8cd62ccbb02",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 150000,
+          "result": {
+            "id": "kubejs:progenitor_dragon_power",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "a5b9da2d-81ed-4f99-aa59-68dd8a10e089",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1000000,
+          "result": {
+            "id": "kubejs:progenitor_dragon_breath",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "164dd06a-b202-4744-8fd9-040944ae4276",
+          "stock": 100,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 100000000,
+          "result": {
+            "id": "kubejs:progenitor_dragon_ball",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "37497947-aefa-4b57-9c7c-a49d7829e008",
+          "stock": 5,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 3000,
+          "result": {
+            "id": "iceandfire:godly_dragon_seeker",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "d10330f6-fa9e-427e-9091-21e531cc93b4",
+          "stock": 5,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 500000,
+          "result": {
+            "id": "iceandfire:creative_dragon_meal",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "e47cf389-939b-4f99-b044-cc79c1481e27",
+          "stock": 5,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1000000,
+          "result": {
+            "id": "touhou_little_maid:substitute_jizo",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "5bc8f7bf-6296-45b2-b1e4-e1e5a46f378c",
+          "stock": 5,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 10000000,
+          "result": {
+            "id": "wands:creative_wand",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "loong_palace_sell",
+      "name": "龙宫收购",
+      "shopType": "currency",
+      "iconItem": {
+        "id": "dragonsurvival:elder_dragon_dust",
+        "count": 1
+      },
+      "stageRestrictionEnabled": false,
+      "flags": [],
+      "merchants": [
+        {
+          "id": "9378804c-e4e4-4e43-a47f-8e56e2321314",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 5,
+          "result": {
+            "id": "dragonsurvival:elder_dragon_bone",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "fe05b2b1-98c4-48cb-93c1-417bdf71f778",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 25,
+          "result": {
+            "id": "dragonsurvival:heart_element",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9411db7a-c3cf-4017-b949-b99d8a433da4",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 150,
+          "result": {
+            "id": "dragonsurvival:weak_dragon_heart",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9a1b0a16-323e-4f93-9fd3-df4f06b3dc98",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 500,
+          "result": {
+            "id": "dragonsurvival:elder_dragon_heart",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ea9ee802-b90c-4375-904c-f95b8ad8e650",
+          "stock": 50,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 50,
+          "result": {
+            "id": "minecraft:trial_key",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b4289329-11ba-439c-9873-eac2490d6808",
+          "stock": 50,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 200,
+          "result": {
+            "id": "minecraft:ominous_trial_key",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cb6b1d00-c713-46fd-81f2-8997b34c73bf",
+          "stock": 50,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 25,
+          "result": {
+            "id": "minecraft:breeze_rod",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ccbe4664-6cb0-43f9-8c56-f8962ef12fad",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 1000,
+          "result": {
+            "id": "minecraft:heavy_core",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ca29c42e-5bdf-44a2-aea4-787bc9bfe44b",
+          "stock": 50,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 100,
+          "result": {
+            "id": "minecraft:ominous_bottle",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "2a3cf073-94ad-4bf6-9e4f-c1f8e4a154e2",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 200,
+          "result": {
+            "id": "mowziesmobs:wrought_axe",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "376274c4-fa1a-422c-b527-bfc0e796c8bd",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 200,
+          "result": {
+            "id": "mowziesmobs:wrought_helmet",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "172cd32d-b75b-42dd-835f-6689c092da5e",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 400,
+          "result": {
+            "id": "mowziesmobs:ice_crystal",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "a32e8134-f627-481c-afaf-2a91caa3fff8",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 600,
+          "result": {
+            "id": "mowziesmobs:sol_visage",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8893190c-a670-49ba-9c1c-fc8918d42ea9",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 800,
+          "result": {
+            "id": "mowziesmobs:earthrend_gauntlet",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "09944f82-ae05-4d6a-b762-73a178489678",
+          "stock": 50,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 30,
+          "result": {
+            "id": "raidsenhanced:zapper_staff",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "223c379a-c2a8-4519-b2d0-03302e540920",
+          "stock": 50,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 50,
+          "result": {
+            "id": "raidsenhanced:handcannon",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "875c7a53-488b-43e6-a8e5-bf427315ab41",
+          "stock": 50,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 100,
+          "result": {
+            "id": "raidsenhanced:blimp_parts",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "64411787-c35c-406b-9bb8-ff44e60c2b0d",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 1500,
+          "result": {
+            "id": "irons_spellbooks:blood_staff",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "eed677f9-d053-4386-a284-08f46537df6c",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "sell",
+          "money": 1500,
+          "result": {
+            "id": "irons_spellbooks:necronomicon_spell_book",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "loong_palace_exchange",
+      "name": "龙宫兑换",
+      "shopType": "item_for_item",
+      "iconItem": {
+        "id": "dragonsurvival:elder_dragon_heart",
+        "count": 1
+      },
+      "stageRestrictionEnabled": false,
+      "flags": [],
+      "merchants": [
+        {
+          "id": "7ea09e57-da8f-4f79-9708-ca29fa13ae24",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 0,
+          "result": {
+            "id": "minecraft:coal",
+            "count": 1
+          },
+          "costA": {
+            "id": "dragonsurvival:elder_dragon_bone",
+            "count": 1
+          },
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "d6571350-b391-4c3f-97b9-bb9556285bcf",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 0,
+          "result": {
+            "id": "minecraft:gold_ingot",
+            "count": 1
+          },
+          "costA": {
+            "id": "dragonsurvival:heart_element",
+            "count": 1
+          },
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "d3cbb9ba-ee3e-4540-bd41-12d5ddeff313",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 0,
+          "result": {
+            "id": "minecraft:diamond",
+            "count": 1
+          },
+          "costA": {
+            "id": "dragonsurvival:weak_dragon_heart",
+            "count": 1
+          },
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "a7bbbf31-71a6-4833-8b08-5e2b8e553245",
+          "stock": 1000,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 0,
+          "result": {
+            "id": "minecraft:netherite_ingot",
+            "count": 1
+          },
+          "costA": {
+            "id": "dragonsurvival:elder_dragon_heart",
+            "count": 1
+          },
+          "costB": null,
+          "commands": [],
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "building_materials",
+      "name": "建材商店",
+      "shopType": "currency",
+      "iconItem": {
+        "id": "yuushya:octagon_pavilion",
+        "count": 1
+      },
+      "stageRestrictionEnabled": false,
+      "flags": [],
+      "merchants": [
+        {
+          "id": "891aaa9e-bdb5-48b5-9cfd-c83223cdfa90",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 100,
+          "result": {
+            "id": "yuushya:octagon_pavilion",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "a1b08a3c-1c37-4726-92b7-d88976bbfbe1",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1000,
+          "result": {
+            "id": "yuushya:composite_building",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8ef52d96-255d-4d48-ba1a-070b95958cb8",
+          "stock": 10,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1000,
+          "result": {
+            "id": "yuushya:villa_0",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "0aca0f6a-cd61-4f9b-8c1f-fb1d46a98691",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7800d9ff-f0d0-40e4-b8a2-f1060567ec5f",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:sea_lantern",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9dd5a74c-224c-4047-b546-422391eca5c7",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:quartz_block",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "adb090e6-e80d-48b5-a786-ad3dae61f500",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:glowstone",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "e550a492-4534-4110-958b-23dff01a09d3",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:oak_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9d839c4e-ba32-4d50-9a42-70757cec881b",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:spruce_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b4bec25a-9ce4-40ab-a06a-5efb928d8872",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:birch_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8a3cf3e1-b36c-4c38-b1b0-1dc90d650692",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:jungle_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "14d413df-d789-4b68-b560-10e1c4a635a3",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:acacia_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6ee050af-7f3e-4728-9773-fbd451439abe",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:dark_oak_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "f1481ae4-37a9-4822-a184-d881ca007c53",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:mangrove_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9820803a-aea0-4c2d-bce0-0beb75431d80",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:cherry_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3520834e-3fce-474b-842e-5d11d2a782c4",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:pale_oak_log",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "57130544-a8f7-423b-83b9-319c5cac23cf",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:white_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3ecccedf-bebb-4278-934d-a724311942b1",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_gray_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cddc1b50-e1de-4f91-98cb-08b857c624c3",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:gray_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "25a94122-7c9f-4776-94bc-eda0352828bb",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:black_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7e725153-c624-4132-9c04-c1b93ce13ac7",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:brown_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9ec78a3c-f9cd-4a48-a1a7-54d75165b793",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:red_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7217b563-6094-49f5-9f27-084010e2ccbc",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:orange_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "14d4351d-1e24-4a63-b972-49927fc4a3f6",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:yellow_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7e396349-027a-45dc-80a4-c5a49b29f605",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:lime_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "fb776b22-d971-402f-8df2-fa1f640c9639",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:green_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "89c5950d-99a0-4a1d-a92c-b30eb2af4646",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:cyan_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "e9fdd66b-de8b-4e4c-8f22-253b66c637c1",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_blue_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "128f8f05-82aa-4f5a-a30b-b807716f16b1",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:blue_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b9552232-db29-4bd8-b63a-2aa2c555c780",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:purple_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b2f03b49-54ab-4a6a-b3ab-8b2fd5f1285e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:magenta_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9f10bd5d-b1f8-412b-86fb-b220a947e85e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:pink_wool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c79b20cc-2b9c-453f-99f1-98006dbb2348",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "5989f4ef-67d2-4b1b-9550-897afd043170",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:white_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c5a6634d-d879-428a-96d3-f378886bfe5d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_gray_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "116985dd-23db-4a02-91b1-a1a347340282",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:gray_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "98d2adfe-03a2-4b03-b522-0a048eeb0e1f",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:black_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c87bd93e-e727-47df-af87-65af534e240a",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:brown_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "bd19459e-140c-4eb8-b617-6ea850db2d1e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:red_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "708d6dbd-e33c-4222-8a5d-598afff1a0e3",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:orange_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "bd7d86af-b315-4e2d-b98e-03efbc8afa2c",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:yellow_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8647597a-a6e0-47da-bd4e-d78510608726",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:lime_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ba48fbc3-78b8-468f-8da4-ae4b89f476b4",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:green_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "fe83cfa8-351d-4bef-b337-4665e9e421a6",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:cyan_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "71d77b8c-041d-4323-adeb-5ebc8a8a21e4",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_blue_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "2e821efa-ef58-4265-8cdd-88f5fb3d19c1",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:purple_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "82837fbd-c5aa-4f10-8c86-c8d0d0d68c97",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:magenta_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "dd8a6701-ffe6-46fa-bf05-42dd38a7627f",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:pink_terracotta",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "aec5eb39-e9ff-4750-a6d2-c89ec8adb095",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:white_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "1af4bd09-09bb-4488-80eb-3f44517e4b9b",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_gray_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c41269dd-8321-4064-816e-bbf75abbe907",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:gray_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3fbe89ac-22f9-4e4a-aae2-3a4a2dd146b0",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:black_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "2e5d9153-98e8-43d4-b343-abe932326235",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:brown_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ca298811-342f-436e-b78a-1df16a127e22",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:red_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "a46ed464-5e69-427f-88ad-c8e5f70ee8a7",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:orange_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "2ddc0a2b-585b-424b-ab69-047723c9bf5e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:yellow_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c77bc46e-1634-4cdb-876c-5691bebde087",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:lime_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "1e02ea77-e59d-4eaf-a0e5-de2a8b1c058d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:green_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "560fc217-cf20-46ed-8198-9339c78a1e81",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:cyan_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b348e7ad-5e8d-4cca-b63e-a38c0e83eb9d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_blue_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "84535081-095e-42fc-aebf-359ba67bcfcb",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:blue_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "d693abae-e1e5-4d78-8d4d-93707fdd3d08",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:purple_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b1abd11e-bb65-4b10-8e41-2122aae898cc",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:magenta_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "1cec7d95-c066-4a06-be78-da540ebc641e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:pink_concrete",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cf895304-9a70-4339-87a4-db350a622887",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:white_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "12293274-16bd-4fe8-8acb-fd3af0c35623",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_gray_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "41071b1a-a05c-4f3c-9dc9-91d15b4acea2",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:gray_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9531c0b1-6877-4150-90f1-8ea103fc216d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:black_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cae4412d-16db-4e59-a7fe-57364ceb7245",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:brown_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "2ec0c3a0-1ad8-4321-b71e-9ae0ef2a6cd1",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:red_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ea300f0e-8b8d-40ae-8488-afb39d07eb60",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:orange_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "238957bc-0471-4e31-a13d-15d91ebff6cf",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:yellow_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "50c85559-7e5a-4127-b17a-a2af92338113",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:lime_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9a89d43f-7780-4106-86ba-d484e67ce98a",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:green_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "63103a17-b73c-4e1b-b4aa-2b26fe34a486",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:cyan_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "aa510f30-3051-495b-a4ca-a66a88159006",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:light_blue_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "79e7979a-fd3e-4f48-bbf5-75b7e361faaf",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:blue_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "72fa31eb-6e74-4473-aa47-c898691d2f5e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:purple_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "fb4ab35d-0a64-4c27-898f-d6f247273c43",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:magenta_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "4de9100c-30c9-4a14-b473-dfb7c71f0a05",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 1,
+          "result": {
+            "id": "minecraft:pink_stained_glass",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "e46ee1bc-3903-489b-b3bc-a53c89b3f939",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:block_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "d5221318-35ba-4b78-a8f5-0d37c8aa6ef6",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:wood_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7507f081-3dcd-458f-b6f4-439fb74bf9ed",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:stone_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b8e16b08-03cb-49a8-9008-0d464351ebc9",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:fabric_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "9c779e9d-a28a-4276-91a7-60e977fb4ad4",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:catering_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "66f63519-8718-4002-8924-0dfae18a89ed",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:living_being_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "2f428ea6-7a3a-4b4a-97f8-24dfe29cec31",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:store_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "0761646e-ec2a-4423-a41c-4620c7331e7a",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:sign_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "74eaab49-3fbe-4069-a4ea-22a861e68d3e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:furniture_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "69f181ad-25a3-4e18-aef6-b12729462153",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:lighting_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "dae9ed88-0a43-4c80-b4bd-b6f127765c66",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:facility_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8a62aa27-7531-4909-a45d-5c149a9e8dae",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:traffic_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "62b86b64-8955-4c71-9430-691c9afc224e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:extra_shapes_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "814ced9f-2883-4c80-9b13-a39a9e731cc9",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:window_blueprint",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "04ad1732-0b0b-4e27-b8a6-b0de5baffc5d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:stairs",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3e754d17-9a5a-43fb-96c3-f1225a1ad23a",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:slab",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "f18d7f20-e690-41bd-b664-6707ba52a3bc",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:side_slab",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "db7f0e38-a3af-4ae2-aee5-d6459e3466dd",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:ridge",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "77cca32b-e913-40ff-90e0-5a69b8ccb3b1",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:half_slab",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "fbb927ce-0820-4c58-9bda-f3f1b00dae23",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:half_side_slab",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "e2aebf20-cf5c-430c-8917-50fdce264f5e",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:column",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "023b9611-8716-421f-957f-252149e8ec28",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:post",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "51c63b06-5eef-4f34-b8e0-59fe9aeaec25",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:pole",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "64b1bd84-f754-4b0a-bc98-73afe21d8350",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:stick",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "5c45d806-9445-4ffa-998c-37dc0df819fd",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:horizontal_column",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6b06adf3-34fd-4cf0-b725-797737d38958",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:horizontal_post",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c9c73273-27db-48ad-a875-362bfb673c9a",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:horizontal_pole",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8b5877a2-5ae1-4104-9329-8dd2888962b9",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:horizontal_stick",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ca053578-8ea2-4a36-b1ad-52dad535c191",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:snow_layer",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8e462bbb-54ce-4baa-bf68-f748e20c63de",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:platform",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "79976aab-1ca9-4737-b11b-09814f2f1fbd",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:frame_top",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "262ec678-a66f-47cf-a1ee-df4b86af3dc3",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:frame_bottom",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "bdd36550-1cb4-4eda-9d0c-6221024a1428",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:frame_left",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "edf1c725-2abd-4416-9711-618f431f50ec",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:frame_right",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "29b8375a-6a67-4cab-9cf5-c1e0cfe6618b",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:fence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6f0a0c28-97e2-430c-ac0e-d66eeaa941cd",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:fence_corner",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "86a29260-b78d-4dc4-afb5-0287c340dfc3",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:new_fence",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "70b5d4bd-9b0a-462e-ac63-5b111ddb3bed",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:hollow_stairs",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "87e68815-c822-406f-b923-abd3186133f8",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:handrail_left",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cf0ee2d0-76d3-4d8b-9b00-9989f7a8c888",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:handrail_middle",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "892f51fd-1ebe-4ae9-ace8-d843cf1de171",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:handrail_right",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cad31b36-6acd-47f4-b605-f4cdeb0608bd",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:ladder",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "440603f8-d4dc-4c63-8356-8905323ca801",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:warning_slab",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "f5c877b4-a5ae-4a2b-afe5-cfdec9ed27ee",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:slippers",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "67a98c99-6866-49d4-bfd9-b4b671d18eea",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:average_table",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "5406c3af-d8e9-4e9d-aa7b-cdd6a362572c",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:medium_table",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "918cfcb8-16e8-477a-b7ce-db1e82995901",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:big_table",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7d039e38-9e69-4183-9e23-f7b9f4010f29",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:decoration_bookshelf",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c40a6890-91f9-4cf7-a4ba-1c69c2876032",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:decorative_shelf",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8687a29f-70e7-446c-ba6d-9b28bf4218c9",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:bucket",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3abe684b-b58e-40bb-8207-b754c2d411e0",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:bench",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "710f4aa9-f358-49e6-ba95-48268e2c0c8f",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:park_bench",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "bfa47608-74a3-4dbd-b25e-8305674f3a0f",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:park_bench_no_handrail",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "ba9414a2-a0c4-4230-9161-20fe69fd630c",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:couch",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b6417e30-be28-44d2-a492-d1358ac4f0c1",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:shelf",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "4a6c59c9-2503-4b5e-9884-8d60920bafc7",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:bookshelf",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "636e5d0f-8147-4eef-88a5-204d5dadc488",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:uncovered_shelf",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "85e78227-d8d7-4eff-8907-9237efbf705c",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:leaning_ladder",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "587a1056-8cf3-4691-b1af-2a2694500264",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:foldable_ladder",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "37a91180-116d-4ee6-8b72-924a3213503d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:clock",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "e9b99347-3a53-4db4-b030-b93f42588e67",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:round_clock",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "8aedea87-6aa3-4d60-abd0-19e9e79fd50d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:skateboard",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6a62c23a-5912-447d-a42b-ce8652fa70bf",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:leaned_skateboard",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "cefd8358-a56b-42d2-88f9-c56b3849c690",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:park_stool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "649c1f2c-355c-40c8-a784-eba78df7340a",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:seat",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "a45281b6-8a59-4238-9a2e-e9370313f6ce",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:cushion_armchair",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3705fbad-faa5-4faf-9eee-162fdff43211",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:chair",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "1ba7c1d9-adf4-4659-91db-20d0ebe9cc67",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:office_chair",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "00efcce7-be6c-4362-8503-7ee1a2f66fb2",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:bar_stool",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3b28861f-0a85-4dcd-957a-83596b808399",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:basket",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c5c7c161-b0e8-4cdb-994a-10c88a4ff543",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:backpack",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "176253f1-ca12-432d-89b3-78c035c6dd4f",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:phone",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "771c905d-e58b-4e52-bdd4-f5ab81b09077",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:piano",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "172ea536-4490-432e-a3d4-bddc6c441ea5",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:white_bow_gift_box",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b1ab4044-922b-480e-8694-4c5357ce3a00",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:black_bow_gift_box",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3111906c-0c7e-4a7b-9461-9139e43fba06",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:white_bow_small_gift_box",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "fcc356bd-c3ff-4bc0-b35d-32f25a877c6d",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:black_bow_small_gift_box",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "c875a5b4-326e-47f3-b75c-58b38420f11a",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:rain_shed",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "7640aa1f-8086-42bb-8450-957f931885ac",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:lengthened_rain_shed",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6bbe8d02-949a-4961-8271-5d323ac86962",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:venetian_blinds",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "97e65a8a-1c40-4976-b434-9cec2e535765",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:ring_light",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "b2e5e1c6-48f9-45e8-9e2f-8754e3422ac9",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:hanging_light",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6690731f-ccd2-41af-b214-7ef6af6e1e40",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:audio",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "828cafc5-6e06-4f5d-8739-eb996513d3a0",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:audio",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "6d5ab36e-e0f4-4cd1-9095-7e724e7df29c",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:mounted_fern_pot",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "55fec834-ac3d-49ff-863b-52263bf75502",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:board",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3f0ac939-c03f-4c1a-8a0f-54db7268e41c",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:bottle_container",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "12c0432c-cc77-4109-94b5-b7e8fd488b92",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:cart",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        },
+        {
+          "id": "3e22c3c9-2aa9-40ee-8303-8e8723ddaba7",
+          "stock": -1,
+          "xp": 0,
+          "tradeType": "buy",
+          "money": 2,
+          "result": {
+            "id": "yuushya:bicycle",
+            "count": 1
+          },
+          "costA": null,
+          "costB": null,
+          "commands": [],
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "categories": 4,
+    "merchants": 227
+  }
+}

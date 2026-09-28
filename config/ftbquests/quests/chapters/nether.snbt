@@ -1589,7 +1589,7 @@
 			]
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "xfws_swords:meowmere"
+				id: "xfws_swords:sculk_katana"
 			}
 			id: "4C9801CCF49684B3"
 			rewards: [
@@ -1602,7 +1602,7 @@
 					id: "43CA5BEB5E361310"
 					item: {
 						count: 1
-						id: "xfws_swords:meowmere"
+						id: "xfws_swords:sculk_katana"
 					}
 					type: "item"
 				}
