@@ -32,6 +32,16 @@
   "text.config.torchmaster-config.option.megaTorchEntityBlockListOverrides": "巨型火把阻挡名单覆写",
   "text.config.torchmaster-config.option.megaTorchEntityBlockListOverrides.tooltip": "查看Github上的模组Wiki以了解更多细节",
   "text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides": "恐惧之灯阻挡名单覆写",
-  "text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides.tooltip": "查看Github上的模组Wiki以了解更多细节"
-}
+  "text.config.torchmaster-config.option.dreadLampEntityBlockListOverrides.tooltip": "查看Github上的模组Wiki以了解更多细节",
 
+    "screen.torchmaster.volume_gui.title": "火把大师范围显示",
+    "screen.torchmaster.volume_gui.toggle_on": "关闭范围显示",
+    "screen.torchmaster.volume_gui.toggle_off": "开启范围显示",
+    "screen.torchmaster.volume_gui.range": "各方向有效范围：§a%s§r 格",
+    "screen.torchmaster.feral_flare_lantern.title": "狂野闪耀之灯",
+    "screen.torchmaster.feral_flare_lantern.description": "光源放置",
+    "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled": "仅照亮灯能看到的区域。",
+    "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled.description": "不会在墙壁后方放置光源。",
+    "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled": "即使墙壁后方也照亮。",
+    "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled.description": "灯不需要清晰的视野。"
+}
