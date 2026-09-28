@@ -1645,8 +1645,8 @@
 				id: "511C8EE7CB039000"
 				type: "checkmark"
 			}]
-			x: -3.75d
-			y: -32.25d
+			x: -8.0d
+			y: -32.0d
 		}
 		{
 			dependencies: ["0F2271A7D264E7F3"]

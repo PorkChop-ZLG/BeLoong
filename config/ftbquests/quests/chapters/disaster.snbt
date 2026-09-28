@@ -265,17 +265,28 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["656220D0E2FD4EC3"]
+			dependencies: ["0EF9F340C937973F"]
 			icon: {
 				id: "cataclysm:tidal_claws"
 			}
 			icon_scale: 2.0d
 			id: "2CFF0B3572B7EB9E"
-			rewards: [{
-				id: "3A5A707E3EB30AC2"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "3A5A707E3EB30AC2"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "7CFE231730B353F0"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -284,21 +295,32 @@
 				id: "48DE7F0F27705F26"
 				type: "advancement"
 			}]
-			x: 17.0d
+			x: 22.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["656220D0E2FD4EC3"]
+			dependencies: ["2CFF0B3572B7EB9E"]
 			icon: {
 				id: "cataclysm:ceraunus"
 			}
 			icon_scale: 2.0d
 			id: "21323E99CF41C966"
-			rewards: [{
-				id: "0DCF5F3C9C583A8F"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "0DCF5F3C9C583A8F"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 3
+					id: "311FAEB937C7784A"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -307,21 +329,32 @@
 				id: "6A27D4B1A283FC97"
 				type: "advancement"
 			}]
-			x: 22.0d
+			x: 29.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["656220D0E2FD4EC3"]
+			dependencies: ["21323E99CF41C966"]
 			icon: {
 				id: "cataclysm:soul_render"
 			}
 			icon_scale: 2.0d
 			id: "1B0B122E34652FB1"
-			rewards: [{
-				id: "48EA9B797F58EEA7"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "48EA9B797F58EEA7"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "504D869DA00B9B0F"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -330,21 +363,31 @@
 				id: "2EDF9349B1E9A942"
 				type: "advancement"
 			}]
-			x: 27.0d
+			x: 36.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["59B00DF89051DF63"]
+			dependencies: ["746411658E2D2C08"]
 			icon: {
 				id: "cataclysm:meat_shredder"
 			}
 			icon_scale: 2.0d
 			id: "3EDDBBC5AF621226"
-			rewards: [{
-				id: "18A664881AB79B80"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "18A664881AB79B80"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "5E2418779E0CAC9F"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -353,21 +396,31 @@
 				id: "7F326578F986082F"
 				type: "advancement"
 			}]
-			x: 17.0d
-			y: -4.0d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["59B00DF89051DF63"]
+			dependencies: ["3EDDBBC5AF621226"]
 			icon: {
 				id: "cataclysm:infernal_forge"
 			}
 			icon_scale: 2.0d
 			id: "584133F57D70B352"
-			rewards: [{
-				id: "115E1B5398D5C1BC"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "115E1B5398D5C1BC"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "5E54CC897E10C9AA"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -376,21 +429,32 @@
 				id: "18CD7F042820D03F"
 				type: "advancement"
 			}]
-			x: 22.0d
-			y: -4.0d
+			x: 12.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["59B00DF89051DF63"]
+			dependencies: ["1B0B122E34652FB1"]
 			icon: {
 				id: "cataclysm:the_incinerator"
 			}
 			icon_scale: 2.0d
 			id: "7BD8AC615F70D4E2"
-			rewards: [{
-				id: "3E72A97B424AFEC9"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "3E72A97B424AFEC9"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 5
+					id: "0BE056C2EC64F58B"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -399,21 +463,31 @@
 				id: "78D789450227552E"
 				type: "advancement"
 			}]
-			x: 27.0d
-			y: -4.0d
+			x: 43.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3F758694C8CD85B1"]
+			dependencies: ["36DAF8F55B5D8891"]
 			icon: {
 				id: "cataclysm:wrath_of_the_desert"
 			}
 			icon_scale: 2.0d
 			id: "1A80A4C81CAD4255"
-			rewards: [{
-				id: "4B071B9B8ADFD209"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "4B071B9B8ADFD209"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "590DEB4336B03ABE"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -422,21 +496,31 @@
 				id: "4A2ECCDBBC7A5D6D"
 				type: "advancement"
 			}]
-			x: 17.0d
-			y: 4.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["3F758694C8CD85B1"]
+			dependencies: ["1A80A4C81CAD4255"]
 			icon: {
 				id: "cataclysm:gauntlet_of_guard"
 			}
 			icon_scale: 2.0d
 			id: "7AC9CC444540D2F2"
-			rewards: [{
-				id: "4322D972238F4314"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
+			rewards: [
+				{
+					id: "4322D972238F4314"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "277D8BE13E6ACC5C"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -445,24 +529,8 @@
 				id: "6A1DDBCC595AD934"
 				type: "advancement"
 			}]
-			x: 22.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["3F758694C8CD85B1"]
-			icon: {
-				id: "minecraft:dragon_head"
-			}
-			icon_scale: 2.0d
-			id: "36E3E423EE072800"
-			shape: "diamond"
-			size: 2.0d
-			tasks: [{
-				id: "08DC61B579188541"
-				type: "checkmark"
-			}]
-			x: 27.0d
-			y: 4.0d
+			x: 12.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["60300CF89DE750C2"]
@@ -481,6 +549,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 10
+					id: "6E4BE93EA3BF034D"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -490,7 +567,7 @@
 				structure: "cataclysm:amethyst_nest"
 				type: "structure"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -510,6 +587,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 10
+					id: "2332B308399E395A"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -522,7 +608,7 @@
 				to_observe: "cataclysm:amethyst_crab"
 				type: "observation"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -531,134 +617,152 @@
 				id: "minecraft:writable_book"
 			}
 			id: "7C2584EC1FC5EED8"
+			rewards: [
+				{
+					id: "3891671362639026"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "03E44AB9F6E3EDEA"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D58EB64DC477CFC"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7C2584EC1FC5EED8"]
-			id: "656220D0E2FD4EC3"
-			size: 1.5d
-			tasks: [{
-				id: "5A956A82C0F87585"
-				item: { count: 1, id: "minecraft:grass_block" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7C2584EC1FC5EED8"]
-			id: "59B00DF89051DF63"
-			size: 1.5d
-			tasks: [{
-				id: "0DB01EE81F079880"
-				item: { count: 1, id: "minecraft:netherrack" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["7C2584EC1FC5EED8"]
-			id: "3F758694C8CD85B1"
-			size: 1.5d
-			tasks: [{
-				id: "259910BEF069BD95"
-				item: { count: 1, id: "minecraft:end_stone" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"584133F57D70B352"
-				"7BD8AC615F70D4E2"
-				"3EDDBBC5AF621226"
-			]
+			dependencies: ["7BD8AC615F70D4E2"]
 			id: "129CF9B7FE7355E7"
-			rewards: [{
-				id: "1C9F3A87393F48DB"
-				type: "xp"
-				xp: 888
-			}]
-			size: 1.5d
+			rewards: [
+				{
+					id: "1C9F3A87393F48DB"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "664E6BD89FC0670C"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0754D6F0C97CFA28"
 				item: { count: 1, id: "cataclysm:ignitium_block" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: -4.0d
+			x: 43.5d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"1B0B122E34652FB1"
-				"2CFF0B3572B7EB9E"
-				"21323E99CF41C966"
-			]
+			dependencies: ["1B0B122E34652FB1"]
 			id: "31326816B36FBBAA"
-			rewards: [{
-				id: "578C3E6A5BD281B0"
-				type: "xp"
-				xp: 888
-			}]
-			size: 1.5d
+			rewards: [
+				{
+					id: "578C3E6A5BD281B0"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "30E60A38E93C517F"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6114D39DB104172D"
 				item: { count: 1, id: "cataclysm:cursium_block" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: 0.0d
+			x: 36.5d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1A80A4C81CAD4255"
-				"36E3E423EE072800"
-				"7AC9CC444540D2F2"
-			]
 			id: "34A977FA41D9743A"
-			rewards: [{
-				id: "7025645F45FC54B3"
-				type: "xp"
-				xp: 888
-			}]
-			size: 1.5d
+			rewards: [
+				{
+					id: "7025645F45FC54B3"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "6D0EC768C09A791F"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "57BE86E343DB01AC"
+					item: {
+						count: 1
+						id: "cataclysm:amethyst_crab_shell"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5786D724CBFA09E6"
 				item: { count: 1, id: "cataclysm:enderite_block" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: 4.0d
+			x: 46.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"34A977FA41D9743A"
-				"31326816B36FBBAA"
-				"129CF9B7FE7355E7"
-			]
 			id: "1221574EFE6F3EFB"
-			rewards: [{
-				id: "1DA0F63A6B3FE0CE"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "1DA0F63A6B3FE0CE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 10
+					id: "6CEABDDF3D45B0F2"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "3BED390BCDB0FF83"
+					item: {
+						count: 1
+						id: "cataclysm:amethyst_crab_meat"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "415E5EB3763FC678"
 				item: { count: 1, id: "cataclysm:altar_of_amethyst" }
 				type: "item"
 			}]
-			x: 35.0d
+			x: 48.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1221574EFE6F3EFB"]
 			id: "4315F6D6290944AA"
 			rewards: [{
 				id: "20C22621646E39F1"
@@ -670,18 +774,29 @@
 				item: { count: 1, id: "cataclysm:blessed_amethyst_crab_meat" }
 				type: "item"
 			}]
-			x: 37.5d
+			x: 50.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["60300CF89DE750C2"]
+			dependencies: ["7BD8AC615F70D4E2"]
 			icon_scale: 1.5d
 			id: "354B2DABA8FB48EA"
-			rewards: [{
-				id: "7B2BF82BA5B3E66D"
-				type: "xp"
-				xp: 1500
-			}]
+			rewards: [
+				{
+					id: "7B2BF82BA5B3E66D"
+					type: "xp"
+					xp: 1200
+				}
+				{
+					count: 20
+					id: "63FE8A488765B803"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "none"
 			size: 1.5d
 			tasks: [{
@@ -689,18 +804,37 @@
 				item: { count: 1, id: "beloong:dawn_light" }
 				type: "item"
 			}]
-			x: 40.0d
+			x: 53.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["354B2DABA8FB48EA"]
 			icon_scale: 2.0d
 			id: "25B16F5A70DCC3AA"
-			rewards: [{
-				id: "11D6DD4DE37DF716"
-				type: "xp_levels"
-				xp_levels: 7
-			}]
+			rewards: [
+				{
+					id: "11D6DD4DE37DF716"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 6
+					id: "7952E5D8CF988836"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "5935CB71CAC59BAC"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_scale"
+					}
+					type: "item"
+				}
+			]
 			shape: "none"
 			size: 2.5d
 			tasks: [{
@@ -709,7 +843,7 @@
 				id: "0A4F769D4257CB4E"
 				type: "advancement"
 			}]
-			x: 44.0d
+			x: 56.0d
 			y: 3.0d
 		}
 		{
@@ -717,11 +851,30 @@
 			dependency_requirement: "one_completed"
 			icon_scale: 2.0d
 			id: "5CF366174F74DDA7"
-			rewards: [{
-				id: "039D616227C59440"
-				type: "xp_levels"
-				xp_levels: 7
-			}]
+			rewards: [
+				{
+					id: "039D616227C59440"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 6
+					id: "60F29A777D542ABD"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "121F6872DBB9744D"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_scale"
+					}
+					type: "item"
+				}
+			]
 			shape: "none"
 			size: 2.5d
 			tasks: [{
@@ -730,18 +883,41 @@
 				id: "693CC89A075DCA55"
 				type: "advancement"
 			}]
-			x: 44.0d
-			y: -3.0d
+			x: 56.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["354B2DABA8FB48EA"]
+			dependencies: [
+				"354B2DABA8FB48EA"
+				"5CF366174F74DDA7"
+				"25B16F5A70DCC3AA"
+			]
 			icon_scale: 2.0d
 			id: "203DA3A3EA44F457"
-			rewards: [{
-				id: "3E406FFAA1D3AB1F"
-				type: "xp_levels"
-				xp_levels: 7
-			}]
+			rewards: [
+				{
+					id: "3E406FFAA1D3AB1F"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 7
+					id: "2AF99B9EE8B571C2"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "71CCF4BA363ED8BB"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_power"
+					}
+					type: "item"
+				}
+			]
 			shape: "none"
 			size: 2.5d
 			tasks: [{
@@ -750,7 +926,7 @@
 				id: "1C1D12966F4B8801"
 				type: "advancement"
 			}]
-			x: 48.0d
+			x: 60.0d
 			y: 0.0d
 		}
 		{
@@ -762,6 +938,504 @@
 				type: "checkmark"
 			}]
 			x: -40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C2584EC1FC5EED8"]
+			id: "746411658E2D2C08"
+			rewards: [
+				{
+					id: "0A2E9F06A2383148"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "0BB9DB5D33C3DD6D"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "2B8E8E606EE8F284"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "729254DC28416F4D"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3DB0F2C1096A29B4"
+				"326579A2CE8EBC43"
+			]
+			dependency_requirement: "one_completed"
+			id: "0EF9F340C937973F"
+			rewards: [
+				{
+					id: "7E1566D9DCC07FCB"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "72DB886EF6EC360A"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "497A35FAA0120C2E"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C2584EC1FC5EED8"]
+			id: "36DAF8F55B5D8891"
+			rewards: [
+				{
+					id: "54D782A2D9A8565D"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "6A51B4AE1A88D525"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "11C24D6722C2354A"
+					item: {
+						count: 1
+						id: "cataclysm:necklace_of_the_desert"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "108AF03FC8D364D4"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A80A4C81CAD4255"]
+			id: "326579A2CE8EBC43"
+			rewards: [
+				{
+					id: "4A23BF50D9E9879F"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "36F7A339C5709187"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1536A6CB04224C43"
+				item: { count: 1, id: "cataclysm:remnant_skull" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EDDBBC5AF621226"]
+			id: "3DB0F2C1096A29B4"
+			rewards: [
+				{
+					id: "6815F411F043D4E5"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "11D4022FCE7BB2D6"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "220152B7A53C13D6"
+				item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			id: "3F6C84E422ACA0D2"
+			rewards: [
+				{
+					id: "68F492DED8425610"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "4001301BD7C64493"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "1877F1029E02D054"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			id: "2496BA7FE3927940"
+			rewards: [
+				{
+					id: "1D1AD858FAA1287B"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "02B0E7801F84FE48"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "04BD5806EA229A07"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			id: "3A9794C2985F3DC4"
+			rewards: [
+				{
+					id: "6625E83BBBA08DE6"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "46BE517B960488F7"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3E193745823F5A69"
+					item: {
+						count: 1
+						id: "cataclysm:crystallized_coral_fragments"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				id: "622BCF280779153A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "5DA5F1EDA9E7D45D"
+			rewards: [
+				{
+					id: "514ADD34EC189B92"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "6D5BC279FD649C32"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "016B201DC935DF67"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			id: "7E96F04FE6461853"
+			rewards: [
+				{
+					id: "03204BEDE42EEF5F"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "7EE38FA9D49B3ED8"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "11E49D61ECEFE722"
+				type: "advancement"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			id: "00C4F6D36E47A526"
+			rewards: [
+				{
+					id: "7A541296EA8D9A63"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "4010DB150F4E83ED"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:kill_clawdian"
+				criterion: ""
+				id: "4EE6569BE9F5F4CF"
+				type: "advancement"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			id: "055CFD42279AA355"
+			rewards: [
+				{
+					id: "2E792DA8A3CB0A53"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "112A8EE39B9A7F0B"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "58B2CF5FF254C084"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			id: "74CA0EE35AB3A96E"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "334E013A7522E28D"
+				type: "checkmark"
+			}]
+			x: -58.0d
+			y: 0.0d
+		}
+		{
+			id: "2AF844061C7662A5"
+			rewards: [
+				{
+					id: "55FFCED49F838378"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "73AFD2CAAD45BA40"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4088CA43EE40B66B"
+				item: { count: 1, id: "cataclysm:strange_key" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			id: "316BD5A51A314AEF"
+			rewards: [
+				{
+					id: "2CFC209ECDDD5282"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "34D4B28C63D7DB6C"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "07DF691AF630804E"
+				type: "advancement"
+			}]
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			id: "51C9D50A38A3DC3E"
+			rewards: [
+				{
+					id: "762AC8F75E1B29B0"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 10
+					id: "1C21A7CFFE29D4C7"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16B489CEF022ABFA"
+				item: { count: 1, id: "cataclysm:burning_ashes" }
+				type: "item"
+			}]
+			x: 41.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["203DA3A3EA44F457"]
+			icon: {
+				id: "zenith:zenith"
+			}
+			id: "1357BC1537058D15"
+			rewards: [
+				{
+					id: "5244F9E9058C6B57"
+					item: {
+						count: 1
+						id: "zenith:zenith"
+					}
+					type: "item"
+				}
+				{
+					id: "1337B5986A5077C3"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 10
+					id: "4351F7345AD674BC"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [
+				{
+					consume_items: true
+					id: "483103483584EA3B"
+					item: { count: 1, id: "fdbosses:chesed_trophy" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "204BCCB73A880A33"
+					item: { count: 1, id: "fdbosses:malkuth_trophy" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6C9D9742266178EC"
+					item: { count: 1, id: "fdbosses:geburah_trophy" }
+					type: "item"
+				}
+			]
+			x: 64.0d
 			y: 0.0d
 		}
 	]

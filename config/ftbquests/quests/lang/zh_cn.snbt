@@ -68,7 +68,6 @@
 	chapter.5D6324B55C8EDE23.chapter_subtitle: [
 		"难度：★★★★★★"
 		"适合：始祖龙"
-		"尚未完成"
 	]
 	chapter.5D6324B55C8EDE23.title: "⑥ 天灾灭世"
 	chapter.6C87160D1AC7FE19.chapter_subtitle: [
@@ -122,6 +121,9 @@
 	]
 	quest.0088F3221CD99A3D.quest_subtitle: "★★★★★★"
 	quest.0088F3221CD99A3D.title: "灾变：末影守卫"
+	quest.00C4F6D36E47A526.quest_desc: ["&6任务：击败巨钳守卫"]
+	quest.00C4F6D36E47A526.quest_subtitle: "蟹老板"
+	quest.00C4F6D36E47A526.title: "巨钳守卫"
 	quest.0117683476F067D1.quest_subtitle: "五脏调和~"
 	quest.0148D8DF96431BD6.quest_desc: [
 		"&6任务：获得刷子，刷取龙鳞"
@@ -335,6 +337,9 @@
 	quest.053BA563D0DBF380.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E22E2A0F31B536\" } }"]
 	quest.053BA563D0DBF380.quest_subtitle: "击杀下界铁掌，提交其掉落物"
 	quest.053BA563D0DBF380.title: "铸就火之龙躯"
+	quest.055CFD42279AA355.quest_desc: ["&6任务：找到苦寒监牢"]
+	quest.055CFD42279AA355.quest_subtitle: "那一扇门，似曾相识"
+	quest.055CFD42279AA355.title: "苦寒监牢"
 	quest.055D72E0BC34E041.quest_desc: [
 		"&l&d「咒翼灵骸」"
 		"&6生命：&a12600"
@@ -602,6 +607,8 @@
 	]
 	quest.0DD185730F003AC4.quest_subtitle: "随心所欲"
 	quest.0DD185730F003AC4.title: "进阶高级附魔台"
+	quest.0EF9F340C937973F.quest_subtitle: "这玩意不应该在海里吗？"
+	quest.0EF9F340C937973F.title: "沉沦之城"
 	quest.0F00F91A36533F86.quest_desc: ["&6任务：观察一只电龙"]
 	quest.0F00F91A36533F86.quest_subtitle: "了解电龙习性"
 	quest.0F00F91A36533F86.title: "观察电龙"
@@ -771,6 +778,14 @@
 	]
 	quest.11FC2E4D6E6B0D93.quest_subtitle: "★★★★★★"
 	quest.11FC2E4D6E6B0D93.title: "铁魔法：黑暗二重身"
+	quest.1221574EFE6F3EFB.quest_desc: [
+		"&6任务：合成紫水晶祭坛"
+		""
+		"&d紫水晶祭坛&r是紫水晶巨蟹一族世代供奉的珍贵宝物。"
+		""
+		"相传，战胜天灾的秘密，就藏在其中。"
+	]
+	quest.1221574EFE6F3EFB.quest_subtitle: "几乎没人用过这玩意"
 	quest.129D51D8293CDE87.quest_desc: ["&9结构罗盘：&b【YUNG】丛林神庙&r"]
 	quest.129D51D8293CDE87.title: "挑战：丛林神庙"
 	quest.12A10457CBA9AF23.quest_desc: [
@@ -806,6 +821,19 @@
 	quest.132EA960D6542BEB.title: "第一步：获得御币"
 	quest.13427D639FF8D906.quest_desc: ["&c完成章节【暮色森林】后解锁！"]
 	quest.13427D639FF8D906.title: "幽匿太刀"
+	quest.1357BC1537058D15.quest_desc: [
+		"&6任务：提交三个BOSS奖杯"
+		""
+		"&a漫长旅途，抵达终点。主线任务，自此完结。"
+		""
+		"&b然而，化龙冒险，并未结束。新的挑战，即将上演。"
+		""
+		"&e受限于时间，抵不过岁月。匆匆忙忙，问题频现。"
+		""
+		"&d此番未能圆满，只求未来，献上满意的答卷。"
+	]
+	quest.1357BC1537058D15.quest_subtitle: "【第六章    完结】"
+	quest.1357BC1537058D15.title: "&l暂时的结局"
 	quest.136ED357B1C436B8.quest_subtitle: "烟熏火烤~"
 	quest.13756DEBEDF71236.quest_desc: [
 		"&6要想获得&e冰鲜食物和冰焦食物&6，"
@@ -1062,7 +1090,8 @@
 	quest.196D64F5AFD45762.quest_subtitle: "千里冰封，万里雪飘"
 	quest.196D64F5AFD45762.title: "冰域"
 	quest.19878C818E548C2D.title: "观察：根须"
-	quest.19ABCC0C33AD9672.quest_desc: ["&6任务：击败猎人首领"]
+	quest.19ABCC0C33AD9672.quest_desc: ["&6任务：获得圣辉钥匙"]
+	quest.19ABCC0C33AD9672.title: "圣辉钥匙"
 	quest.19DA784FDC312506.quest_desc: [
 		"&6任务：成长到始祖龙阶段，击败黑暗二重身"
 		""
@@ -1094,6 +1123,7 @@
 	quest.1A626874CCDC9694.quest_desc: ["&6任务：击败噬焰蜥"]
 	quest.1A626874CCDC9694.title: "噬焰蜥"
 	quest.1A80A4C81CAD4255.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300B6A5EADD11286\" } }"]
+	quest.1A80A4C81CAD4255.quest_subtitle: "恐龙也是龙吗？"
 	quest.1A80A4C81CAD4255.title: "远古遗魂"
 	quest.1AA4E0CE318BA06A.quest_subtitle: "成长到远古龙阶段"
 	quest.1AA4E0CE318BA06A.title: "远古苔原龙"
@@ -1103,7 +1133,12 @@
 	quest.1ACB04A36A9C62B9.title: "传奇怪物：堕落圣骑"
 	quest.1AF16021BB5DD12E.quest_subtitle: "完成森林龙的部分成就"
 	quest.1AF16021BB5DD12E.title: "森林龙趣味挑战"
-	quest.1B0B122E34652FB1.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
+	quest.1B0B122E34652FB1.quest_desc: [
+		"&6任务：击败咒翼灵骸"
+		""
+		"{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"
+	]
+	quest.1B0B122E34652FB1.quest_subtitle: "这弓箭射的不太准"
 	quest.1B0B122E34652FB1.title: "咒翼灵骸"
 	quest.1B240FEAC3D29C3B.quest_desc: [
 		"&6任务：获得任意飞龙的龙蛋"
@@ -1247,7 +1282,12 @@
 	]
 	quest.20D561FC8502C837.title: "击杀：抓人草"
 	quest.20FA399F30BF33A4.quest_subtitle: "给我加一片柠檬"
-	quest.21323E99CF41C966.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15CE2F1DA319C4B4\" } }"]
+	quest.21323E99CF41C966.quest_desc: [
+		"&6任务：击败斯库拉"
+		""
+		"{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15CE2F1DA319C4B4\" } }"
+	]
+	quest.21323E99CF41C966.quest_subtitle: "刮风又打雷，似是故人来"
 	quest.21323E99CF41C966.title: "斯库拉"
 	quest.21690FB87B5D206E.quest_desc: [
 		"&6隐藏任务：击败黑暗二重身"
@@ -1372,6 +1412,8 @@
 		""
 		"&6此方块可以暴露整个维度网络的存储空间。使用其他模组的存储总线连接，即可管理维度网络中所有物品。同时也支持各种管道和漏斗直接交互。"
 	]
+	quest.2496BA7FE3927940.quest_subtitle: "从末地搬过来的"
+	quest.2496BA7FE3927940.title: "废弃堡垒"
 	quest.24A1E8B804776D1F.quest_subtitle: "成长到青年龙阶段"
 	quest.24A1E8B804776D1F.title: "青年洞穴龙"
 	quest.24AF8C0A4EC3CE90.quest_subtitle: "提交4种蜂蜜制品"
@@ -1527,6 +1569,9 @@
 	quest.2A93227E5737BF76.quest_subtitle: "集齐所有魔法书"
 	quest.2A93227E5737BF76.title: "&a魔法书毕业"
 	quest.2ABB4BB2CFABC303.title: "击杀：流浪者"
+	quest.2AF844061C7662A5.quest_desc: ["&6任务：获得怪奇之钥，打开封印之门"]
+	quest.2AF844061C7662A5.quest_subtitle: "芝麻开门"
+	quest.2AF844061C7662A5.title: "怪奇之钥"
 	quest.2B28373035E0963F.quest_subtitle: "&5&l「影」&r&e一枚神奇的空间戒指"
 	quest.2B28373035E0963F.title: "第3幕：赠礼"
 	quest.2B9D5B62DD244102.quest_subtitle: "升级苔原龙4个被动技能到满级"
@@ -1563,7 +1608,12 @@
 	quest.2C91F2899A333562.title: "&b&l第五章 冰火悚域"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9结构罗盘：&b黑松骑士要塞&r"]
 	quest.2CFCFA632C2D16F5.title: "挑战：黑松骑士要塞"
-	quest.2CFF0B3572B7EB9E.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"]
+	quest.2CFF0B3572B7EB9E.quest_desc: [
+		"&6任务：击败利维坦"
+		""
+		"{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"
+	]
+	quest.2CFF0B3572B7EB9E.quest_subtitle: "像是鱼缸里的鱼"
 	quest.2CFF0B3572B7EB9E.title: "利维坦"
 	quest.2D088213B9CC2A49.quest_subtitle: "醉梦遇桃仙"
 	quest.2D1C583D847AA0B2.quest_desc: [
@@ -1711,6 +1761,9 @@
 	]
 	quest.316AFA91B0365E94.quest_subtitle: "【第三章    完结】"
 	quest.316AFA91B0365E94.title: "&d&l暮色已尽，星光乍现"
+	quest.316BD5A51A314AEF.quest_desc: ["&6任务：找到熔岩竞技场"]
+	quest.316BD5A51A314AEF.quest_subtitle: "天上哪来的熔岩"
+	quest.316BD5A51A314AEF.title: "熔岩竞技场"
 	quest.317B23426E06295F.title: "茅山道士武器"
 	quest.317F86F342B23460.quest_desc: [
 		"&6任务：观察新手小屋里的网络熔炉"
@@ -1751,6 +1804,8 @@
 	]
 	quest.32499F89EEAA2C31.quest_subtitle: "揭开尘封的秘密"
 	quest.32499F89EEAA2C31.title: "卷轴誊写桌"
+	quest.326579A2CE8EBC43.quest_subtitle: "一只小恐龙"
+	quest.326579A2CE8EBC43.title: "现世遗魂"
 	quest.326610D581A2F754.title: "我是占位的"
 	quest.32F93BDD9F3692F9.title: "击杀：塔木蛀虫"
 	quest.330CE4B915D1BB41.quest_subtitle: "成长到远古龙阶段"
@@ -1795,6 +1850,7 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "学会使用魔法书"
 	quest.346F1B08A0E6345D.title: "见习法师"
+	quest.3478FDACA97D4803.quest_desc: ["&6任务：击败猎人首领"]
 	quest.3478FDACA97D4803.title: "猎人首领"
 	quest.347C54BAEC42A4AA.quest_desc: [
 		"&6任务：击败湮灭构造体"
@@ -1803,6 +1859,12 @@
 	]
 	quest.347C54BAEC42A4AA.quest_subtitle: "星河破碎，大道湮灭！"
 	quest.347C54BAEC42A4AA.title: "&l&#6BBB0B湮灭构造体"
+	quest.34A977FA41D9743A.quest_desc: [
+		"&6任务：获得末影合金块"
+		""
+		"暂时由&5&l末影守卫&r掉落。"
+	]
+	quest.34A977FA41D9743A.quest_subtitle: "我在等你，Onyx"
 	quest.34F81E5815B0AB4B.quest_desc: [
 		"名字很久以前就被遗忘了的&6远古战场&r。"
 		""
@@ -1821,6 +1883,18 @@
 		"&b绯夜脂锭+冰龙血=永冻石锭（龙霜锻炉）"
 	]
 	quest.354B2616B210E3AB.quest_subtitle: "可炼制龙钢"
+	quest.354B2DABA8FB48EA.quest_desc: [
+		"&6任务：合成黎明曙光"
+		""
+		"&z黎明曙光&r，是天灾维度的原住民，为了抵抗天灾，研究出来的至宝。"
+		""
+		"以八大灾变Boss的原料为基底，融合&d受祝福的紫水晶蟹肉&r，诞生出足以击穿&5逆卡巴拉Boss&r的强大力量。"
+		""
+		"&5逆卡巴拉Boss&r，是人类为了战胜龙族，收集无数天材地宝，注入人类至强者的魂魄，打造出的终极兵器。"
+		""
+		"这些终极兵器，部分特性已经达到&e第七境界&r，几乎可以&e免疫一切伤害&r。而且攻击力可以&e无视任何防御&r，直接造成&f真实伤害&r。只有利用其本身的设计缺陷，才有战胜的可能。"
+	]
+	quest.354B2DABA8FB48EA.quest_subtitle: "就像阳光，穿过黑夜"
 	quest.3559B497DB99808C.quest_subtitle: "升级以太龙4个被动技能到满级"
 	quest.3559B497DB99808C.title: "掌握风之奥义"
 	quest.359B897165997027.quest_desc: [
@@ -1890,14 +1964,11 @@
 	quest.366B99B5082468A6.quest_subtitle: "&5&l「影」&r&e龙族先辈的遗留"
 	quest.366B99B5082468A6.title: "第4幕：龙心"
 	quest.36AB6B47419CE439.quest_desc: ["&7水池中央，栖居着一只巨大的螃蟹，它并没有攻击你。紫水晶巨蟹是这个世界的原住民，你从紫水晶长老的口中，得知了天灾的起源……"]
-	quest.36AB6B47419CE439.quest_subtitle: "目标：观察紫水晶巨蟹"
-	quest.36AB6B47419CE439.title: "紫水晶长老"
+	quest.36AB6B47419CE439.quest_subtitle: "算是半个原住民"
+	quest.36AB6B47419CE439.title: "紫水晶巨蟹"
 	quest.36D18D859382FB7D.quest_subtitle: "美味甘甜"
-	quest.36E3E423EE072800.quest_desc: [
-		"这是灾变模组预告的第九位BOSS，但是暂未发布。"
-		"将在正式上线后，第一时间进行适配兼容。"
-	]
-	quest.36E3E423EE072800.title: "Onxy（敬请期待）"
+	quest.36DAF8F55B5D8891.quest_subtitle: "金字塔也能飞起来"
+	quest.36DAF8F55B5D8891.title: "被诅咒的金字塔"
 	quest.36F664568D6F7A92.title: "灾变BOSS毕业"
 	quest.3753EB478219DC26.quest_desc: ["&9结构罗盘：&b【铁魔法】远古战场&r"]
 	quest.3753EB478219DC26.title: "挑战：远古战场"
@@ -2015,6 +2086,15 @@
 	]
 	quest.3A2BAF5D46546864.quest_subtitle: "修复末影龙战斗"
 	quest.3A2BAF5D46546864.title: "重置末地主岛"
+	quest.3A9794C2985F3DC4.quest_desc: [
+		"&6任务：击败珊瑚傀儡"
+		""
+		"从&e沉沦之城的瀑布入口&r，一直往前走到最里面，有一个装饰有紫水晶的房间。"
+		""
+		"房间的祭坛上摆着一个&e试炼刷怪笼&r，靠近后刷出一个&#FF60A4珊瑚傀儡&r。如果带有&e不祥效果&r，还会刷出 &a&n难度更高但是奖励更好 &r的&#FF60A4超级珊瑚傀儡&r。"
+	]
+	quest.3A9794C2985F3DC4.quest_subtitle: "无人在意的小Boss"
+	quest.3A9794C2985F3DC4.title: "珊瑚傀儡"
 	quest.3AF8293458FE7927.quest_desc: [
 		"做一个 2×2 的小水池，水池旁边放满植物，再向水池投掷一颗钻石。只见一道闪电劈过，暮色世界的传送门便会打开！"
 		"现在，使用龙蛋也能激活暮色森林传送门！"
@@ -2151,6 +2231,8 @@
 	]
 	quest.3D74C6BF68CB4A92.quest_subtitle: "点击查看详情"
 	quest.3D74C6BF68CB4A92.title: "实战演练"
+	quest.3DB0F2C1096A29B4.quest_subtitle: "古人的缝合技术"
+	quest.3DB0F2C1096A29B4.title: "机械融合砧"
 	quest.3DB21E73BA8C8682.quest_desc: [
 		"&a&l使用教程："
 		"step1：准备你想投至世界的&d图片&d"
@@ -2193,6 +2275,7 @@
 	quest.3E5F53B92682C2E2.title: "关押迷失灵魂的迷宫"
 	quest.3E9235C058186DC1.title: "手饰T0"
 	quest.3EDDBBC5AF621226.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C0284F1758BA896\" } }"]
+	quest.3EDDBBC5AF621226.quest_subtitle: "最菜的机械凋灵"
 	quest.3EDDBBC5AF621226.title: "先驱者"
 	quest.3F053183F9C244AD.quest_desc: [
 		"&6任务：找到下界的城堡"
@@ -2209,7 +2292,8 @@
 	]
 	quest.3F053183F9C244AD.quest_subtitle: "上古文明的智慧结晶"
 	quest.3F053183F9C244AD.title: "城堡"
-	quest.3F758694C8CD85B1.title: "终界三王"
+	quest.3F6C84E422ACA0D2.quest_subtitle: "从下界搬过来的"
+	quest.3F6C84E422ACA0D2.title: "灵魂锻造厂"
 	quest.3FB2C999F046AAE3.quest_desc: [
 		"&6任务：使用黑曜石搭建下界传送门，进入下界。&r"
 		""
@@ -2322,6 +2406,16 @@
 	]
 	quest.42921D7314712236.quest_subtitle: "集齐饰品图鉴，即可通关"
 	quest.42921D7314712236.title: "&e&l【饰品全收集】"
+	quest.4315F6D6290944AA.quest_desc: [
+		"&6任务：向紫水晶祭坛献上紫水晶蟹肉"
+		""
+		"紫水晶巨蟹一族，经常献祭一些族人，将蟹肉放在&d紫水晶祭坛&r上，从而获得&d受祝福的紫水晶蟹肉&r。"
+		""
+		"食用受祝福的紫水晶蟹肉，可以&e免疫多种负面效果&r。常吃可以延年益寿，长命百岁。"
+		""
+		"但是鲜为龙知的是，这玩意还可以合成一件传说中的宝物。"
+	]
+	quest.4315F6D6290944AA.quest_subtitle: "要痛下杀手吗"
 	quest.431A9BCA53DB263B.quest_desc: [
 		"&6任务：提交海洋龙的毕业证"
 		""
@@ -2870,6 +2964,9 @@
 	quest.51683C60A0CE8843.title: "茅山道士装备"
 	quest.517B7C0FB7C6E380.quest_subtitle: "集齐所有首饰"
 	quest.517B7C0FB7C6E380.title: "&a首饰毕业"
+	quest.51C9D50A38A3DC3E.quest_desc: ["&6任务：获得炽燃余烬"]
+	quest.51C9D50A38A3DC3E.quest_subtitle: "这个商店也有卖"
+	quest.51C9D50A38A3DC3E.title: "炽燃余烬"
 	quest.51CE47B1ADD35248.quest_desc: [
 		"&6任务：前往主世界"
 		""
@@ -3116,6 +3213,7 @@
 	quest.58340821BF7679E4.quest_subtitle: "成长到青年龙阶段"
 	quest.58340821BF7679E4.title: "青年苔原龙"
 	quest.584133F57D70B352.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5997BC4982540330\" } }"]
+	quest.584133F57D70B352.quest_subtitle: "重做了依旧垃圾"
 	quest.584133F57D70B352.title: "下界合金巨兽"
 	quest.58814D5BF5A8BD45.quest_desc: [
 		"&6任务：前往演武场，激活传送石碑"
@@ -3154,7 +3252,6 @@
 	]
 	quest.5997BC4982540330.quest_subtitle: "★★★★★★"
 	quest.5997BC4982540330.title: "灾变：下界合金巨兽"
-	quest.59B00DF89051DF63.title: "下界三王"
 	quest.59B5BB4EF52AD685.quest_desc: ["&6任务：挖到远古残骸"]
 	quest.59B5BB4EF52AD685.title: "远古残骸"
 	quest.5A2666846D1EFCCE.quest_desc: [
@@ -3346,6 +3443,14 @@
 	quest.5D43D87C46BA7F7C.title: "冰霜结晶"
 	quest.5D56B0917C5223A6.quest_desc: ["&6亲和之戒加上法术卷轴可以在奥术铁砧上敲成对应法术等级加一的戒指"]
 	quest.5D56B0917C5223A6.title: "戒指T0"
+	quest.5DA5F1EDA9E7D45D.quest_desc: [
+		"&6任务：获得深渊祭品，召唤利维坦"
+		""
+		"珊瑚傀儡会掉落&e晶化珊瑚&r，用于合成&e深渊祭品&r。"
+		""
+		"向沉沦之城中央水底下的&e深渊祭坛&r，献上&e深渊祭品&r，即可召唤海洋里的霸主——&9&l利维坦&r。"
+	]
+	quest.5DA5F1EDA9E7D45D.quest_subtitle: "其实可以直接商店里买"
 	quest.5DB104CFE665CC09.quest_desc: [
 		"&2自然罗盘：&a内陆沙漠&r"
 		"&2自然罗盘：&a巨人柱沙漠&r"
@@ -3645,7 +3750,6 @@
 	]
 	quest.6551B8D4F580ACE3.quest_subtitle: "强大而又复杂的建筑工具"
 	quest.6551B8D4F580ACE3.title: "建筑之杖"
-	quest.656220D0E2FD4EC3.title: "主界三王"
 	quest.657F19533CDF73AD.title: "初入星光维度"
 	quest.6583633BEC31ECDF.quest_desc: [
 		"&l&d「焰魔」"
@@ -4152,10 +4256,13 @@
 	quest.741C678902C1BC72.quest_desc: ["点击✅从而在演武场正中央生成一只&a猪"]
 	quest.741C678902C1BC72.title: "生成一头猪"
 	quest.745D36D1D182C0CD.title: "牧师装备"
+	quest.746411658E2D2C08.quest_subtitle: "古人的智慧"
+	quest.746411658E2D2C08.title: "古代工厂"
 	quest.747F45AAE1161962.quest_subtitle: "平价好味"
 	quest.74AD0E230F7A62A1.quest_subtitle: "提交原版的7种树苗和暮色森林的10种树苗"
 	quest.74AD0E230F7A62A1.title: "理智的树木学家"
 	quest.74B48A026628E827.title: "观察：仙人掌"
+	quest.74CA0EE35AB3A96E.title: "我是占位的"
 	quest.752424B438B87389.quest_desc: [
 		"&6部分法术因为&c存在BUG&6或&4过于强力&6，已被禁用！"
 		"&6以下是禁术目录："
@@ -4196,13 +4303,15 @@
 	quest.75BFB4E20D3E76DC.quest_subtitle: "刷怪塔处死装置"
 	quest.75BFB4E20D3E76DC.title: "尖刺"
 	quest.75C55E4F8204566A.quest_desc: [
-		"&7初入天灾世界，你就遭遇了恐怖的流星火雨。你躲进地底，却发现了一处长满紫水晶的洞穴……"
+		"&6任务：找到地底的紫水晶巢穴"
+		""
+		"初入天灾世界，你就遭遇了恐怖的流星火雨。你躲进地底，却发现了一处长满紫水晶的洞穴……"
 		""
 		"&9结构罗盘：&b【灾变】紫水晶巢穴&r"
 		""
 		"&8&o流星火雨暂未实现，敬请期待。"
 	]
-	quest.75C55E4F8204566A.quest_subtitle: "目标：找到紫水晶巢穴"
+	quest.75C55E4F8204566A.quest_subtitle: "流星雨还没做"
 	quest.75C55E4F8204566A.title: "地底避难"
 	quest.75D8AB1B178F5860.title: "我是占位的"
 	quest.75F377E217613AEF.quest_subtitle: "成长到青年龙阶段"
@@ -4216,6 +4325,8 @@
 	quest.760C3E4759FA6815.title: "晶咒龙"
 	quest.762DDE9C0729E876.quest_subtitle: "集齐所有戒指"
 	quest.762DDE9C0729E876.title: "&a戒指毕业"
+	quest.766B986DF990680C.quest_desc: ["&6任务：获得黯影钥匙"]
+	quest.766B986DF990680C.title: "黯影钥匙"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2自然罗盘：&a猩红森林&r"
 		"&2自然罗盘：&a螺旋藻森林&r"
@@ -4335,6 +4446,7 @@
 	quest.7AB503D1D36B29D9.quest_subtitle: "酒味果汁？"
 	quest.7AC2C9F419309308.title: "永冻石套装"
 	quest.7AC9CC444540D2F2.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0088F3221CD99A3D\" } }"]
+	quest.7AC9CC444540D2F2.quest_subtitle: "再不重做就赶不上版本了"
 	quest.7AC9CC444540D2F2.title: "末影守卫"
 	quest.7AF9D81C915F4747.quest_desc: [
 		"&6任务：返回主世界"
@@ -4373,7 +4485,12 @@
 	]
 	quest.7BB8A9EB27C99160.quest_subtitle: "放置隐形光影"
 	quest.7BBFEA3573C09A67.title: "挑战：独眼巨人海湾"
-	quest.7BD8AC615F70D4E2.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6583633BEC31ECDF\" } }"]
+	quest.7BD8AC615F70D4E2.quest_desc: [
+		"&6任务：击败炎魔"
+		""
+		"{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6583633BEC31ECDF\" } }"
+	]
+	quest.7BD8AC615F70D4E2.quest_subtitle: "流水的整合包，铁打的炎魔"
 	quest.7BD8AC615F70D4E2.title: "炎魔"
 	quest.7BEEE28B8865648E.quest_desc: [
 		"&6任务：获得异兽手记"
@@ -4474,6 +4591,9 @@
 	]
 	quest.7E8A3F928299D963.quest_subtitle: "★★"
 	quest.7E8A3F928299D963.title: "暮色森林：雪怪首领"
+	quest.7E96F04FE6461853.quest_desc: ["&6任务：找到卫城"]
+	quest.7E96F04FE6461853.quest_subtitle: "唯一一个符合原著的"
+	quest.7E96F04FE6461853.title: "卫城"
 	quest.7F59185C7CD743A1.quest_subtitle: "风从何处来"
 	quest.7F59185C7CD743A1.title: "获得：孔雀羽扇"
 	quest.7F5AC4043CEA54E3.quest_desc: ["&6任务：击败凋零恶煞"]
