@@ -95,8 +95,6 @@
 	image.7442E9F7B40A9427.title: "欢迎您加入『化龍』交流频道\\n点击图片前往QQ频道"
 	quest.0014213DE61FC595.quest_subtitle: "Collect All Cave Dragon Furniture"
 	quest.0014213DE61FC595.title: "Cave Dragon Home"
-	quest.00628C62EEB79A37.quest_subtitle: "Pocket Dimension"
-	quest.00628C62EEB79A37.title: "Pocket Dimension Spell Scroll"
 	quest.0068C01865EF22C7.quest_subtitle: "Grow into an Adult Dragon Stage"
 	quest.0068C01865EF22C7.title: "Adult Forest Dragon"
 	quest.0088F3221CD99A3D.quest_desc: [
@@ -758,7 +756,6 @@
 	quest.15D4B079675BDA00.quest_subtitle: "Recipe Modified, Requires Permafrost Ingot"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "Defeat Three Yeti Bosses"
 	quest.1611AF1CA2E30FEE.title: "Which One Is the Real Yeti?"
-	quest.163153BE5D349228.title: "Sweep Items"
 	quest.16AD045AE7B461C7.quest_subtitle: "Junmai Daiginjo"
 	quest.16B32CB0D55A9718.title: "Necklace T0"
 	quest.170C5452183F9D7E.title: "Observe: Blaze Lily"
@@ -891,8 +888,6 @@
 	]
 	quest.19DA784FDC312506.quest_subtitle: "【Forest Dragon Growth Path Finale】"
 	quest.19DA784FDC312506.title: "&2Forest Dragon Graduation"
-	quest.19EC475553EC785D.quest_subtitle: "Hey, it's clearing up now~"
-	quest.19EC475553EC785D.title: "Change Weather"
 	quest.1A1F4138D32ADC70.title: "Talisman T0"
 	quest.1A60448B701DF708.quest_desc: [
 		"&aGoal: Defeat the Starlight Golem and obtain the Oxidized Alloy Furnace"
@@ -1070,9 +1065,6 @@
 	quest.24BCC3403F50D4C8.quest_subtitle: "One guaranteed per dragon"
 	quest.24BCC3403F50D4C8.title: "Clone Ring Guarantee"
 	quest.24FE16788AAD170E.title: "Belt T1"
-	quest.251F47EF8754FE5B.quest_desc: ["&cUnlocks after completing chapter 【Car Maids】!"]
-	quest.251F47EF8754FE5B.quest_subtitle: "Make Your Maid Invincible"
-	quest.251F47EF8754FE5B.title: "&dSubstitute Jizo"
 	quest.25304587B8DDF559.title: "Visit: Sky Village"
 	quest.25492A56F5CD9CC3.title: "Kill: Flame Beetle"
 	quest.254ACB3DBF934D44.quest_desc: [
@@ -1214,13 +1206,10 @@
 	]
 	quest.2C81337448F9655F.quest_subtitle: "Just Snow, Drift Into Eyes"
 	quest.2C81337448F9655F.title: "Yeti"
-	quest.2CEFD2DF7A413288.title: "Cataclysm BOSS Summon"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9Structure Compass: &bBlack Pine Knight Fortress&r"]
 	quest.2CFCFA632C2D16F5.title: "Challenge: Black Pine Knight Fortress"
 	quest.2D088213B9CC2A49.quest_subtitle: "Drunken Dream Meets Peach Immortal"
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "Dreamlike as Bubbles"
-	quest.2E6A1BFF333127EA.quest_subtitle: "Small chance to drop from the Dead King"
-	quest.2E6A1BFF333127EA.title: "Ruptured Node Spell Scroll"
 	quest.2ECA4D4990D20697.quest_desc: ["&aObjective: Collect all Dragonsteel weapons and tools"]
 	quest.2ECFB391DB73DDF9.quest_subtitle: "Level up all 4 Forest Dragon passive skills to max"
 	quest.2ECFB391DB73DDF9.title: "Mastery of Wooden Essence"
@@ -1274,7 +1263,6 @@
 	quest.309615294A70B9E9.title: "Challenge: Desert Pyramid"
 	quest.30A3124E55AA6C4F.title: "High Evoker Armor"
 	quest.312B58307C35BF7B.title: "Check-in: Jungle"
-	quest.313AE70B278B465E.title: "Wool Assortment"
 	quest.314CC9DE3650F016.quest_subtitle: "Everything you want to know is here"
 	quest.314CC9DE3650F016.title: "Gensokyo in Memory"
 	quest.316AFA91B0365E94.quest_desc: [
@@ -2144,7 +2132,6 @@
 	quest.56B33061AF98D6B8.quest_desc: ["&aObjective: Observe an Ice Dragon"]
 	quest.56B33061AF98D6B8.quest_subtitle: "Learn Ice Dragon habits"
 	quest.56B33061AF98D6B8.title: "Observe Ice Dragon"
-	quest.573DE89DDB233083.title: "Concrete Assortment"
 	quest.574D327123271BA3.title: "First Entry into The End"
 	quest.577508CE564D487C.quest_subtitle: "Everything you want to know is here"
 	quest.577508CE564D487C.title: "Twilight Flavors"
@@ -2173,9 +2160,6 @@
 	quest.58076DE30F3777F1.quest_subtitle: "Craft Your Magic Weapon"
 	quest.58340821BF7679E4.quest_subtitle: "Grow to the Young Dragon stage"
 	quest.58340821BF7679E4.title: "Young Tundra Dragon"
-	quest.59340FB7B273A35A.quest_desc: ["&cUnlocked after completing chapter 【Eternal Starlight】!"]
-	quest.59340FB7B273A35A.quest_subtitle: "No dragon shall escape detection"
-	quest.59340FB7B273A35A.title: "&dMythical Dragon Seeking Staff"
 	quest.593BB9B492CFB1D9.quest_subtitle: "The wildfire cannot be consumed"
 	quest.593BB9B492CFB1D9.title: "&6Blazing Conjuration"
 	quest.59524F0DEF703874.title: "Challenge: Citadel"
@@ -2392,13 +2376,6 @@
 	quest.6344D6B5AEC69478.title: "&d&lFinal Starlight"
 	quest.634C5657E921C26C.quest_subtitle: "Submit all exclusive foods for the Sea Dragon"
 	quest.634C5657E921C26C.title: "Sea Dragon's Delicacies"
-	quest.63DB1E9C5C2FDC80.quest_desc: [
-		"&6Allows you to modify terrain and structures like a &eDeity&6, with infinite durability."
-		""
-		"&cUnlocked after completing chapter 【Goal Three: Complete Dragon Collection】!"
-	]
-	quest.63DB1E9C5C2FDC80.quest_subtitle: "Moving mountains and filling seas, in a single thought"
-	quest.63DB1E9C5C2FDC80.title: "&dCreative Mode Building Staff"
 	quest.641714B711DFD326.quest_subtitle: "A thousand gold for fine wine"
 	quest.6501A79D7C2DC803.quest_desc: [
 		"&6Dimension network owners can bind it to the current network by sneaking and right-clicking."
@@ -2441,7 +2418,6 @@
 	quest.66EBF5536E322BCF.quest_subtitle: "A leap ignites Dubhe, overlooking the world like a passerby"
 	quest.66EBF5536E322BCF.title: "&6Dubhe"
 	quest.67177331CC1421A8.title: "Recall Dark Doppelganger"
-	quest.6739C42CBAC00318.title: "Terracotta Assortment"
 	quest.675B09EF31EDCEA1.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300B6A5EADD11286\" } }"]
 	quest.675B09EF31EDCEA1.quest_subtitle: "Kill the Ancient Remnant and submit its drops"
 	quest.675B09EF31EDCEA1.title: "Forge the Wind Dragon Physique"
@@ -2803,7 +2779,6 @@
 	]
 	quest.77457906D3353B69.quest_subtitle: "Must Read"
 	quest.77457906D3353B69.title: "&dKeybind Tips"
-	quest.7768704F7110F259.title: "Blocktown Blueprint Assortment"
 	quest.77777B69F96AD646.quest_desc: [
 		"&6Right-click a Dining Table with the Ledger to bind it. Right-click again to unbind. Each table gets its own number. Once you start operating, bound tables may order dishes and drinks from the menu, displayed on the left of your inventory. Fulfill the order for the corresponding table number to earn coins!"
 		"How to serve: Right-click the Dining Table with the dish or drink to place it~&r"
@@ -2925,7 +2900,6 @@
 	quest.7F9E7B3E2BADCD5F.title: "Ancient Forest Dragon"
 	quest.7FC498B5DDFD8500.title: "Ring T2"
 	reward.0A0F3DE349F4B9F1.title: "Thunderstorm"
-	reward.273C176B55FD48D2.title: "Toggle Weather"
 	reward.3476152E96B2633F.title: "Random Dragon Egg"
 	reward.454B2D28BF497396.title: "Spawn 【Coral Golem】"
 	reward.4605D18D17F1BB92.title: "Return to Mortal Form"
@@ -2934,16 +2908,10 @@
 	reward.5DA01E41DB6D6A01.title: "Choose Your Dragon Egg"
 	reward.7D4E423C2BEB7F9C.title: "Clear Sky"
 	reward_table.0F48BCBAFA4E52F3.title: "Newbie Gift Pack"
-	reward_table.149FBD4E03B83B80.title: "Concrete"
 	reward_table.1FEB68824B7D178E.title: "Dragon Egg"
 	reward_table.2DCB6EECCE37DE3C.title: "Blocktown Blueprints"
-	reward_table.3E928BE988507C6D.title: "Cataclysm Boss Summoning Items"
 	reward_table.470A343B90F6B99A.title: "Twilight Sapling Blind Box"
-	reward_table.49C6A2B8867D43FC.title: "Toggle Weather"
-	reward_table.71DE6340A041212B.title: "Wool"
 	reward_table.733BB7770F2E41F0.title: "BWG Logs"
-	reward_table.745BF7D3B0F66888.title: "Terracotta"
-	reward_table.75074E564922BA19.title: "Building Materials"
 	reward_table.7941E6ADD29C5C5F.title: "Untamed Lands Logs"
 	task.033069BC0E4FF639.title: "Read Me"
 	task.059941E75EB6F378.title: "Reach the Golem Forge"

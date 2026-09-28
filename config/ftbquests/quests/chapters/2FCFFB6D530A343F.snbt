@@ -950,5 +950,29 @@
 			x: -1.0d
 			y: -3.5d
 		}
+		{
+			can_repeat: true
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:hollow_oak_sapling"
+			}
+			id: "52E270E37E59D418"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06412EB340D4B6A2"
+				table_id: 5118961356899793306L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "0F0B305ED549CBE2"
+				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
 	]
 }

@@ -109,8 +109,6 @@
 	file.0000000000000001.title: "&e『&6化龍&e』"
 	quest.0014213DE61FC595.quest_subtitle: "集齐洞穴龙的家具"
 	quest.0014213DE61FC595.title: "洞穴龙之家"
-	quest.00628C62EEB79A37.quest_subtitle: "过于强力，禁止合成"
-	quest.00628C62EEB79A37.title: "深渊庇护 法术卷轴"
 	quest.0068C01865EF22C7.quest_subtitle: "成长到成年龙阶段"
 	quest.0068C01865EF22C7.title: "成年森林龙"
 	quest.0088F3221CD99A3D.quest_desc: [
@@ -496,7 +494,6 @@
 	quest.09070CEC4EBD2898.quest_subtitle: "提神醒脑"
 	quest.09AD9A5F6A9D97B8.quest_desc: ["&9结构罗盘：&b【YUNG】海底神殿&r"]
 	quest.09AD9A5F6A9D97B8.title: "挑战：海底神殿"
-	quest.0A359F255D5E3C1B.title: "龙之生存专属附魔书"
 	quest.0A6E69E220DAFB6F.quest_subtitle: "成长到青年龙阶段"
 	quest.0A6E69E220DAFB6F.title: "青年森林龙"
 	quest.0A9D7FCC65BE863F.quest_subtitle: "集齐森林龙的家具"
@@ -925,12 +922,6 @@
 	quest.160F11820FD39F91.title: "监守者"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "击杀3种雪怪BOSS"
 	quest.1611AF1CA2E30FEE.title: "哪个是真的雪怪？"
-	quest.163153BE5D349228.quest_desc: [
-		"&6一键清理所有掉落物。"
-		""
-		"&c注：为了防止滥用，需要开启作弊权限！"
-	]
-	quest.163153BE5D349228.title: "清理掉落物"
 	quest.16AD045AE7B461C7.quest_subtitle: "纯米大吟酿"
 	quest.16B32CB0D55A9718.title: "项链T0"
 	quest.16DF8F0EA133B69A.quest_desc: [
@@ -1086,8 +1077,6 @@
 		"&z龙宫传送&r是龙族于&a主世界&r和&6龙宫&r之间往返的主要方式，只有通过新手教程，得到龙宫认可的龙才能拥有。"
 	]
 	quest.19E36A004B2CACC1.title: "技能：龙宫传送"
-	quest.19EC475553EC785D.quest_subtitle: "呐，要开始放晴了哟~"
-	quest.19EC475553EC785D.title: "切换天气"
 	quest.1A1F4138D32ADC70.title: "护符T0"
 	quest.1A60448B701DF708.quest_desc: [
 		"&6任务：击败星光傀儡，获得氧化的合金炉"
@@ -1390,9 +1379,6 @@
 	quest.24BCC3403F50D4C8.quest_subtitle: "每条龙保底一次"
 	quest.24BCC3403F50D4C8.title: "二重身之戒保底"
 	quest.24FE16788AAD170E.title: "腰带T1"
-	quest.251F47EF8754FE5B.quest_desc: ["&c完成章节【车万女仆】后解锁！"]
-	quest.251F47EF8754FE5B.quest_subtitle: "让你的女仆无敌"
-	quest.251F47EF8754FE5B.title: "&d替身地藏"
 	quest.2527E346B4D46960.quest_desc: [
 		"&6任务：找到潜影高塔"
 		""
@@ -1575,7 +1561,6 @@
 	]
 	quest.2C91F2899A333562.quest_subtitle: "谱写新的传奇！"
 	quest.2C91F2899A333562.title: "&b&l第五章 冰火悚域"
-	quest.2CEFD2DF7A413288.title: "灾变BOSS召唤物"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9结构罗盘：&b黑松骑士要塞&r"]
 	quest.2CFCFA632C2D16F5.title: "挑战：黑松骑士要塞"
 	quest.2CFF0B3572B7EB9E.quest_desc: ["{ \"text\": \"【点击跳转Boss攻略】\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"]
@@ -1606,8 +1591,6 @@
 	quest.2DF95D86E465FD5A.title: "Boss重生笼"
 	quest.2E45C77DBA83582F.quest_desc: ["&6任务：将金锭丢给猪灵进行交易"]
 	quest.2E45C77DBA83582F.title: "猪灵交易"
-	quest.2E6A1BFF333127EA.quest_subtitle: "死者之王小概率掉落"
-	quest.2E6A1BFF333127EA.title: "熄法结节 法术卷轴"
 	quest.2E825FE5146172A7.quest_desc: ["&6任务：击败骸骨巨龙"]
 	quest.2E825FE5146172A7.title: "骸骨巨龙"
 	quest.2ECA4D4990D20697.quest_desc: ["&6任务：集齐龙霆钢武器和工具"]
@@ -1617,13 +1600,6 @@
 	quest.2F3416393FD59904.title: "首饰T2"
 	quest.2F4105DBA00B5C8B.quest_desc: ["&6任务：击败缠魂骑士"]
 	quest.2F4105DBA00B5C8B.title: "缠魂骑士"
-	quest.2F6413E87AEFEA8C.quest_desc: [
-		"&6使用后，习得所有龙的铁魔法联动技能。"
-		""
-		"&c完成章节【龙族图鉴】后解锁！"
-	]
-	quest.2F6413E87AEFEA8C.quest_subtitle: "万法皆通"
-	quest.2F6413E87AEFEA8C.title: "&d始祖龙息"
 	quest.2F65D8FD77A5EE2B.quest_desc: [
 		"&6任务：找到巫妖高塔"
 		""
@@ -1718,7 +1694,6 @@
 	quest.309615294A70B9E9.title: "挑战：沙漠神殿"
 	quest.30A3124E55AA6C4F.title: "高阶唤魔师装备"
 	quest.312B58307C35BF7B.title: "打卡：丛林"
-	quest.313AE70B278B465E.title: "羊毛自选"
 	quest.314CC9DE3650F016.quest_subtitle: "你想知道的都在这里"
 	quest.314CC9DE3650F016.title: "记忆中的幻想乡"
 	quest.316AFA91B0365E94.quest_desc: [
@@ -1994,14 +1969,6 @@
 	]
 	quest.37E22E2A0F31B536.quest_subtitle: "★★★"
 	quest.37E22E2A0F31B536.title: "祸乱鬼魅：下界铁掌"
-	quest.37EBD56D6A20D8F6.quest_desc: [
-		"&6使用后，添加第二页饰品栏。"
-		"&6原理是设置饰品栏而非添加，因此使用一次即可。"
-		""
-		"&c完成章节【饰品图鉴】后解锁！"
-	]
-	quest.37EBD56D6A20D8F6.quest_subtitle: "真正的力量"
-	quest.37EBD56D6A20D8F6.title: "始祖龙珠"
 	quest.384B6CDEB088679E.quest_desc: [
 		"&6任务：打开地图，找到一个试炼密室"
 		""
@@ -2025,8 +1992,6 @@
 	]
 	quest.3859C3FFB6F2C61B.quest_subtitle: "即将换为新的商店"
 	quest.3859C3FFB6F2C61B.title: "&e『&6化龍&e』&a系统商店"
-	quest.385C34B9D7641E76.quest_subtitle: "过于强力，禁止合成"
-	quest.385C34B9D7641E76.title: "止心术 法术卷轴"
 	quest.386CC89DE12CDBE2.title: "项链T3"
 	quest.3870D9E7C938B489.quest_desc: [
 		"&6空手Shift右键绑定到当前玩家所在的维度网络。维度网络的管理员空手Shift右键可取消绑定。"
@@ -3132,7 +3097,6 @@
 	]
 	quest.56CD03186ED90684.quest_subtitle: "粒子效果卡死你"
 	quest.56CD03186ED90684.title: "蔓生巨像"
-	quest.573DE89DDB233083.title: "混凝土自选"
 	quest.574D327123271BA3.title: "初入末地"
 	quest.577508CE564D487C.quest_subtitle: "你想知道的都在这里"
 	quest.577508CE564D487C.title: "暮色风味乐事"
@@ -3172,9 +3136,6 @@
 	]
 	quest.58814D5BF5A8BD45.quest_subtitle: "点击查看详情"
 	quest.58814D5BF5A8BD45.title: "演武场"
-	quest.59340FB7B273A35A.quest_desc: [""]
-	quest.59340FB7B273A35A.quest_subtitle: "所有龙都将无所遁形"
-	quest.59340FB7B273A35A.title: "&d神话级寻龙杖"
 	quest.593BB9B492CFB1D9.quest_subtitle: "野火烧不尽"
 	quest.593BB9B492CFB1D9.title: "&6炽焰学派"
 	quest.59524F0DEF703874.title: "挑战：卫城"
@@ -3663,13 +3624,6 @@
 	quest.639FD9A4833A9854.title: "&l&#8242FF死者之王"
 	quest.63A49F8C690FD884.quest_desc: ["&6任务：获得巨寒之霜和霜冻之盾"]
 	quest.63A49F8C690FD884.title: "霜冻套装"
-	quest.63DB1E9C5C2FDC80.quest_desc: [
-		"&6允许你像&e创世神&6一样修改地形和建筑，拥有无限耐久。"
-		""
-		"&c完成章节【龙族图鉴】后解锁！"
-	]
-	quest.63DB1E9C5C2FDC80.quest_subtitle: "移山填海，一念之间"
-	quest.63DB1E9C5C2FDC80.title: "&d创造模式建筑之杖"
 	quest.63EE66C72921DB29.quest_desc: [
 		"&6任务：激活天灾传送门，进入天灾维度"
 		""
@@ -3747,7 +3701,6 @@
 	quest.66EBF5536E322BCF.quest_subtitle: "一纵发开阳，俯视当路人"
 	quest.66EBF5536E322BCF.title: "&6开阳"
 	quest.67177331CC1421A8.title: "拉回黑暗二重身"
-	quest.6739C42CBAC00318.title: "陶瓦自选"
 	quest.675A7E2D68EAA2F9.quest_desc: [
 		"&6任务：击败泥峭人，获得泥峭棒"
 		""
@@ -4327,7 +4280,6 @@
 	quest.77457906D3353B69.quest_subtitle: "必读"
 	quest.77457906D3353B69.title: "&d按键提示"
 	quest.77650D7436678A64.quest_desc: ["&6任务：集齐三把钥匙，合成悚域之钥"]
-	quest.7768704F7110F259.title: "方块小镇蓝图自选"
 	quest.77777B69F96AD646.quest_desc: [
 		"&6使用账本右键餐桌即可绑定，再次右键解绑。每个桌子会有自己的桌号，开始营业后被绑定的餐桌可能会点菜单上的菜品与酒水，并在物品栏左边显示，满足对应桌号的需求就能获取钱币！"
 		"如何上菜：右键餐桌将菜品与酒水放入即可~&r"
@@ -4548,10 +4500,8 @@
 	reward.1437281433DFB699.title: "前往龙宫"
 	reward.1A637C1E53731C27.title: "猎杀预谋"
 	reward.1EB7C8ED22A19F53.title: "关闭死亡不掉落"
-	reward.273C176B55FD48D2.title: "切换天气"
 	reward.2C535B2FAAC6B904.title: "龙威浩荡"
 	reward.3476152E96B2633F.title: "随机龙蛋"
-	reward.394C0D6BBDDCE9EE.title: "清理掉落物(需要权限)"
 	reward.454B2D28BF497396.title: "生成【珊瑚傀儡】"
 	reward.4605D18D17F1BB92.title: "化凡为人"
 	reward.4611741776C9A599.title: "威压之力"
@@ -4569,17 +4519,10 @@
 	reward.7D4E423C2BEB7F9C.title: "晴天"
 	reward_table.0F48BCBAFA4E52F3.title: "新手礼包"
 	reward_table.10F59E3D155E10B9.title: "奇异饰品盲盒"
-	reward_table.136B57BE59010836.title: "龙之生存附魔书"
-	reward_table.149FBD4E03B83B80.title: "混凝土"
 	reward_table.1FEB68824B7D178E.title: "龙蛋"
 	reward_table.2DCB6EECCE37DE3C.title: "方块小镇蓝图"
-	reward_table.3E928BE988507C6D.title: "灾变BOSS召唤物"
 	reward_table.470A343B90F6B99A.title: "暮色树苗盲盒"
-	reward_table.49C6A2B8867D43FC.title: "切换天气"
-	reward_table.71DE6340A041212B.title: "羊毛"
 	reward_table.733BB7770F2E41F0.title: "BWG原木"
-	reward_table.745BF7D3B0F66888.title: "陶瓦"
-	reward_table.75074E564922BA19.title: "建筑材料"
 	reward_table.7941E6ADD29C5C5F.title: "未至之地原木"
 	reward_table.7AA42D8616A73FCE.title: "死亡不掉落"
 	task.033069BC0E4FF639.title: "已读点我"
