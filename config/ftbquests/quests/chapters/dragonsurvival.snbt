@@ -2691,6 +2691,22 @@
 					}
 					type: "item"
 				}
+				{
+					id: "775CC9FBAEE1558B"
+					item: {
+						count: 1
+						id: "artifacts:charm_of_shrinking"
+					}
+					type: "item"
+				}
+				{
+					id: "3152281622473606"
+					item: {
+						count: 1
+						id: "beloong:amplification_charm"
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d

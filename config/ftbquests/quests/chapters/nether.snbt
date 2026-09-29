@@ -713,11 +713,21 @@
 			}
 			icon_scale: 1.45d
 			id: "76A7A167E97880D8"
-			rewards: [{
-				id: "73C825FF467DE00D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "05D8B6A5C50F5803"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5171B3744081BA9E"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.35d
 			tasks: [{
@@ -744,6 +754,15 @@
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "791AD6A2BC80444C"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -777,6 +796,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "7F847F9161A59AFB"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/loot_bastion"
@@ -802,6 +830,15 @@
 					item: {
 						count: 1
 						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "23EC3403249E75B4"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -833,6 +870,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "243A485A56A363CB"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/get_wither_skull"
@@ -858,15 +904,24 @@
 			id: "7332CD16CC158C56"
 			rewards: [
 				{
-					id: "31044BA1926AB763"
-					type: "xp"
-					xp: 200
-				}
-				{
 					id: "7611D47D3E2C0C73"
 					item: {
 						count: 1
 						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0BA90B399E899678"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "37789CFA567568A0"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -907,6 +962,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "270A413513472BF3"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -936,6 +1000,15 @@
 					item: {
 						count: 1
 						id: "block_factorys_bosses:underworld_arena_key"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0EDFAB4CADCBAEEC"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -972,16 +1045,25 @@
 			id: "2D1C583D847AA0B2"
 			rewards: [
 				{
-					id: "24AA050770E5B970"
-					type: "xp"
-					xp: 200
-				}
-				{
 					count: 3
 					id: "4938ECC1EE08249D"
 					item: {
 						count: 1
 						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+				{
+					id: "50FE079ED7BF751F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "44AB32F25B4CD3B4"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -1014,6 +1096,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "749C5E5DC6382CB7"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -1043,6 +1134,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "7A36547E556DEF07"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5495F955126B8D97"
@@ -1061,16 +1161,25 @@
 			id: "1538C9C2C9C5BC1B"
 			rewards: [
 				{
-					id: "2D33D9F7508143B3"
-					type: "xp"
-					xp: 200
-				}
-				{
 					count: 5
 					id: "68916D9A9A8B72D7"
 					item: {
 						count: 1
 						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3F61DA7D3D2F596D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "44F881430DA82B8E"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -1107,6 +1216,15 @@
 					item: {
 						count: 1
 						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "131A63D0C3B89C0D"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -1150,6 +1268,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "2B8629D9999BF4E2"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:story/follow_ender_eye"
@@ -1174,11 +1301,22 @@
 			}
 			icon_scale: 1.45d
 			id: "0F2271A7D264E7F3"
-			rewards: [{
-				id: "7D39CF23E2D59D7B"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "7D39CF23E2D59D7B"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					count: 5
+					id: "3700E838021D3C92"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 3.5d
 			tasks: [{
@@ -1207,6 +1345,15 @@
 					item: {
 						count: 1
 						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "18E57D3E3E86A70C"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -1239,6 +1386,15 @@
 					item: {
 						count: 1
 						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "547ED1A07D38E27A"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -1278,6 +1434,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "1D9EDD02CB8EABF1"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -1304,6 +1469,15 @@
 					item: {
 						count: 1
 						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "25154A4DEDE8E565"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -1343,6 +1517,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 7
+					id: "1426FF6AA0C10AB6"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -1369,6 +1552,15 @@
 					item: {
 						count: 1
 						id: "bosses_of_mass_destruction:soul_star"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4FD56DC7F3C07527"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -1408,6 +1600,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "1870E90644375E75"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -1440,6 +1641,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "6E17713DDCE3D605"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "dungeons_arise:find_aviary"
@@ -1462,16 +1672,25 @@
 			id: "5CFC7A1D79C8C423"
 			rewards: [
 				{
-					id: "3C5DB3B545C3B45D"
-					type: "xp"
-					xp: 200
-				}
-				{
 					count: 2
 					id: "672599EEFC696AEA"
 					item: {
 						count: 1
 						id: "bosses_of_mass_destruction:levitation_block"
+					}
+					type: "item"
+				}
+				{
+					id: "418F4AC208AEA3C0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 9
+					id: "4183D699720656EF"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -1490,11 +1709,22 @@
 		{
 			dependencies: ["5CFC7A1D79C8C423"]
 			id: "71CF19C22829724C"
-			rewards: [{
-				id: "603BEC321330D1DB"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "603BEC321330D1DB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "72B87AB1FCC2B274"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "41C1735851EC9139"
 				item: { count: 1, id: "bosses_of_mass_destruction:levitation_block" }
@@ -1506,11 +1736,22 @@
 		{
 			dependencies: ["71CF19C22829724C"]
 			id: "722C45B9E7707F91"
-			rewards: [{
-				id: "3D486F6947B76BAB"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "3D486F6947B76BAB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "5FD562A8B4DCCB32"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "minecraft:end_crystal"
@@ -1538,11 +1779,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "72885815B807121A"
-			rewards: [{
-				id: "1FD0042B023DB405"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "547A4B30E446F541"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "2E865EC517E09567"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -1568,11 +1820,22 @@
 		{
 			dependencies: ["72885815B807121A"]
 			id: "0D4A1D70C73B98D3"
-			rewards: [{
-				id: "29EEC95DE54F619D"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "29EEC95DE54F619D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "475E8434ED26EC6D"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "minecraft:end/dragon_egg"
 				criterion: ""
@@ -1766,6 +2029,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "165642EB82F793EE"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -1795,6 +2067,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 3
+					id: "4E9F15D6808D6A30"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/obtain_ancient_debris"
@@ -1820,6 +2101,15 @@
 					item: {
 						count: 1
 						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "432F04F023555F2A"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -1858,6 +2148,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 3
+					id: "52534B749000C678"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/obtain_blaze_rod"
@@ -1885,6 +2184,15 @@
 					item: {
 						count: 1
 						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "741737265C9776D6"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
