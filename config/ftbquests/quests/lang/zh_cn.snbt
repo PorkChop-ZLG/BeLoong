@@ -13,8 +13,6 @@
 	chapter.1FF49F51664E5364.title: "② 炼狱终焉"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["隐藏式任务"]
 	chapter.22143E6BF4F1DBAD.title: "〖洞穴龙〗成长之路"
-	chapter.27AE0B7401476AE5.chapter_subtitle: ["即将替换为更高级的商店"]
-	chapter.27AE0B7401476AE5.title: "&2&l系统商店"
 	chapter.29CB766687624EDA.chapter_subtitle: [
 		"彻底击败所有BOSS；"
 		"视为通关『化龍』"
@@ -2358,7 +2356,6 @@
 		""
 		"&9结构罗盘：&b【冰火传说】雷电教堂&r"
 	]
-	quest.40D693D34C2593C4.title: "BWG原木自选"
 	quest.410087ACF6234CC1.quest_subtitle: "天地莫施恩，璇题激流日"
 	quest.410087ACF6234CC1.title: "&5天璇"
 	quest.412059FEA6DD0919.quest_desc: [
@@ -2788,7 +2785,6 @@
 		"&e龙食&6也可以玩家龙自己食用，获得&e饱和&6效果。"
 	]
 	quest.4D01D14ECFF753E3.quest_subtitle: "养龙教程"
-	quest.4D0E47207CE1A169.title: "未至之地原木自选"
 	quest.4D0EC1E180924188.quest_subtitle: "每条龙保底一次"
 	quest.4D0EC1E180924188.title: "二重身之戒保底"
 	quest.4D951950709A61AE.quest_subtitle: "夜幕低垂掩玉盘,璇玑运转探天关"
@@ -4637,10 +4633,7 @@
 	reward_table.0F48BCBAFA4E52F3.title: "新手礼包"
 	reward_table.10F59E3D155E10B9.title: "奇异饰品盲盒"
 	reward_table.1FEB68824B7D178E.title: "龙蛋"
-	reward_table.2DCB6EECCE37DE3C.title: "方块小镇蓝图"
 	reward_table.470A343B90F6B99A.title: "暮色树苗盲盒"
-	reward_table.733BB7770F2E41F0.title: "BWG原木"
-	reward_table.7941E6ADD29C5C5F.title: "未至之地原木"
 	reward_table.7AA42D8616A73FCE.title: "死亡不掉落"
 	task.059941E75EB6F378.title: "抵达傀儡锻造厂"
 	task.061590EA8BFD252F.title: "欢迎来到『化龍』"

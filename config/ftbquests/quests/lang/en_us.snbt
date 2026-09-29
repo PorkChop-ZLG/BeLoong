@@ -9,8 +9,6 @@
 	chapter.1E4C1C94528F4F43.title: "① Dragon Survival"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["Hidden Quests"]
 	chapter.22143E6BF4F1DBAD.title: "〖Cave Dragon〗Path of Growth"
-	chapter.27AE0B7401476AE5.chapter_subtitle: ["High Quality, Fair Price"]
-	chapter.27AE0B7401476AE5.title: "&2&lSystem Shop"
 	chapter.29CB766687624EDA.chapter_subtitle: [
 		"Completely defeat all bosses;"
 		"Considered as clearing 『BeLoong』"
@@ -1644,7 +1642,6 @@
 	]
 	quest.4093B7F10DE1AE47.quest_subtitle: "★★"
 	quest.4093B7F10DE1AE47.title: "Twilight Forest: Phantom Knight"
-	quest.40D693D34C2593C4.title: "BWG Log Assortment"
 	quest.410087ACF6234CC1.quest_subtitle: "Heaven grants no grace, the swirling pool reflects the sun."
 	quest.410087ACF6234CC1.title: "&5Tianxuan"
 	quest.41DB497093B18B47.title: "Hand Ornament T1"
@@ -1902,7 +1899,6 @@
 		"&eDragon Meal &6can also be consumed by player-dragons to gain &eSaturation &6."
 	]
 	quest.4D01D14ECFF753E3.quest_subtitle: "Dragon Raising Guide"
-	quest.4D0E47207CE1A169.title: "Untamed Lands Log Assortment"
 	quest.4D0EC1E180924188.quest_subtitle: "Guaranteed once per dragon"
 	quest.4D0EC1E180924188.title: "Doppelganger Ring Guarantee"
 	quest.4D951950709A61AE.quest_subtitle: "Night falls, veiling the jade plate; the Ji mechanism turns, probing the heavenly gate."
@@ -2897,10 +2893,7 @@
 	reward.7D4E423C2BEB7F9C.title: "Clear Sky"
 	reward_table.0F48BCBAFA4E52F3.title: "Newbie Gift Pack"
 	reward_table.1FEB68824B7D178E.title: "Dragon Egg"
-	reward_table.2DCB6EECCE37DE3C.title: "Blocktown Blueprints"
 	reward_table.470A343B90F6B99A.title: "Twilight Sapling Blind Box"
-	reward_table.733BB7770F2E41F0.title: "BWG Logs"
-	reward_table.7941E6ADD29C5C5F.title: "Untamed Lands Logs"
 	task.059941E75EB6F378.title: "Reach the Golem Forge"
 	task.061590EA8BFD252F.title: "Welcome to 『BeLoong』"
 	task.077EE272E2EA5238.title: "Defeat the Lunar Monstrosity"

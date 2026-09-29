@@ -1,7 +1,7 @@
 {
 	id: "10F59E3D155E10B9"
 	loot_size: 1
-	order_index: 7
+	order_index: 4
 	rewards: [
 		{ id: "0DE90AB1ACE85D9A", item: { count: 1, id: "artifacts:umbrella" } }
 		{
