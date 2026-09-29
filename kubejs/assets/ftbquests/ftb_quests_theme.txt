@@ -84,6 +84,9 @@ checkmark_task_active:   ftblibrary:icons/accept
 checkmark_task_inactive: ftblibrary:icons/accept_gray
 
 # [About BeLoong Modpack] Background
+[1E4C1C94528F4F43]
+background:                         ftbquests:textures/gui/bg_1.png
+
 [70F8D93CCB47276E]
 background:                         ftbquests:textures/gui/bg_shanshui.png
 
