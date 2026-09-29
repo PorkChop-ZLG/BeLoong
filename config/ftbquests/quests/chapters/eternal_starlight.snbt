@@ -964,5 +964,39 @@
 			x: 28.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5BB4A81605A76537"
+				"6344D6B5AEC69478"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "xfws_swords:star_wrath"
+			}
+			id: "130DF0F4E2C8FCD1"
+			optional: true
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "37C335D7AA8EAC73"
+				item: {
+					count: 1
+					id: "xfws_swords:star_wrath"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "338A391F75DADA17"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 43.0d
+			y: 0.0d
+		}
 	]
 }

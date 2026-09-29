@@ -976,6 +976,8 @@
 	quest.203D481DA0DFD214.title: "A Piece of... Art?"
 	quest.20418663EEBB6E73.quest_subtitle: "Tianquan is neither near nor far, cannot be disclosed"
 	quest.20418663EEBB6E73.title: "&2Tianquan"
+	quest.20D070B161E96410.quest_desc: ["&cUnlocked after completing the chapter 【The Undergarden】!"]
+	quest.20D070B161E96410.title: "Primordial Ark"
 	quest.20D561FC8502C837.title: "Kill: Grabbing Grass"
 	quest.20FA399F30BF33A4.quest_subtitle: "Add a slice of lemon for me"
 	quest.217A025EF85E999C.quest_subtitle: "Kill 7 Horror Creatures"
@@ -2453,13 +2455,6 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie's Mobs: Frostmaw"
-	quest.6B3CAAA337596F88.quest_desc: [
-		"&cNote: This spawns a 【Mimic】 right on the spot!"
-		""
-		"&7&oOnly one of the same trinket takes effect! E.g., Life Crystals cannot stack health."
-	]
-	quest.6B3CAAA337596F88.quest_subtitle: "Trinket Draw"
-	quest.6B3CAAA337596F88.title: "Mimic"
 	quest.6B64D3D885D9E1A9.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
 	quest.6B64D3D885D9E1A9.quest_subtitle: "Kill the Cursed Winged Wraith and submit its drops"
 	quest.6B64D3D885D9E1A9.title: "Crowning the Throne of Ice"

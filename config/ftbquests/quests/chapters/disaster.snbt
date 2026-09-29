@@ -1438,5 +1438,39 @@
 			x: 64.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			dependencies: [
+				"63EE66C72921DB29"
+				"1357BC1537058D15"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "zenith:zenith"
+			}
+			id: "20D070B161E96410"
+			optional: true
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "384E0A11EEA51692"
+				item: {
+					count: 1
+					id: "zenith:zenith"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "4797C86BE34EEFC7"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 67.0d
+			y: 0.0d
+		}
 	]
 }

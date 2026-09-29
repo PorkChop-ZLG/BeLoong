@@ -489,8 +489,8 @@
 	quest.07FF8B926B1BA0A3.quest_subtitle: "打卡地牢浮现之时的9种海上结构"
 	quest.07FF8B926B1BA0A3.title: "郑和下西洋"
 	quest.082B65CF6587C3A6.title: "雷电法王装备"
-	quest.0850E956F0AFB4DF.quest_desc: ["&c完成章节【铁魔法】的任务【光明使者】后解锁！"]
-	quest.0850E956F0AFB4DF.title: "彩虹猫之刃"
+	quest.0850E956F0AFB4DF.quest_desc: ["&c完成【第三章主线】后解锁！"]
+	quest.0850E956F0AFB4DF.title: "兑换：彩虹猫之刃"
 	quest.087A166AA7484802.quest_subtitle: "成长到太古龙阶段"
 	quest.087A166AA7484802.title: "太古海洋龙"
 	quest.08CE97F6C822784E.quest_desc: ["&9结构罗盘：&b【东方秘术】道观&r"]
@@ -815,12 +815,12 @@
 	quest.12EB86E73FDAF20F.title: "观察火龙"
 	quest.12F9EDC857BB2555.quest_subtitle: "提交洞穴龙的所有专属食物"
 	quest.12F9EDC857BB2555.title: "洞穴龙的美食"
-	quest.130DF0F4E2C8FCD1.quest_desc: ["&c完成章节【龙族图鉴】后解锁！"]
-	quest.130DF0F4E2C8FCD1.title: "群星之怒"
+	quest.130DF0F4E2C8FCD1.quest_desc: ["&c完成【第四章主线】后解锁！"]
+	quest.130DF0F4E2C8FCD1.title: "兑换：群星之怒"
 	quest.132EA960D6542BEB.quest_subtitle: "想成为魔法少女吗"
 	quest.132EA960D6542BEB.title: "第一步：获得御币"
-	quest.13427D639FF8D906.quest_desc: ["&c完成章节【暮色森林】后解锁！"]
-	quest.13427D639FF8D906.title: "幽匿太刀"
+	quest.13427D639FF8D906.quest_desc: ["&c完成【第二章主线】后解锁！"]
+	quest.13427D639FF8D906.title: "兑换：幽匿太刀"
 	quest.1357BC1537058D15.quest_desc: [
 		"&6任务：提交三个BOSS奖杯"
 		""
@@ -1127,8 +1127,8 @@
 	quest.1A80A4C81CAD4255.title: "远古遗魂"
 	quest.1AA4E0CE318BA06A.quest_subtitle: "成长到远古龙阶段"
 	quest.1AA4E0CE318BA06A.title: "远古苔原龙"
-	quest.1AA55A95262C406C.quest_desc: [""]
-	quest.1AA55A95262C406C.title: "鸿蒙方舟"
+	quest.1AA55A95262C406C.quest_desc: ["&c完成【第五章主线】后解锁！"]
+	quest.1AA55A95262C406C.title: "兑换：鸿蒙方舟"
 	quest.1ACB04A36A9C62B9.quest_subtitle: "★★★★★"
 	quest.1ACB04A36A9C62B9.title: "传奇怪物：堕落圣骑"
 	quest.1AF16021BB5DD12E.quest_subtitle: "完成森林龙的部分成就"
@@ -1280,6 +1280,8 @@
 		""
 		"&6转换时会根据玩家等级进度来计算实际总经验数，每点经验可以转换为20mb经验流体。"
 	]
+	quest.20D070B161E96410.quest_desc: ["&c完成【第六章主线】后解锁！"]
+	quest.20D070B161E96410.title: "兑换：天顶剑"
 	quest.20D561FC8502C837.title: "击杀：抓人草"
 	quest.20FA399F30BF33A4.quest_subtitle: "给我加一片柠檬"
 	quest.21323E99CF41C966.quest_desc: [
@@ -3884,9 +3886,6 @@
 	quest.6A58A66A56D019BC.title: "终极傀儡"
 	quest.6B374FA9A003150A.quest_desc: ["&6任务：击败碎裂者"]
 	quest.6B374FA9A003150A.title: "碎裂者"
-	quest.6B3CAAA337596F88.quest_desc: [""]
-	quest.6B3CAAA337596F88.quest_subtitle: "饰品抽奖"
-	quest.6B3CAAA337596F88.title: "奇异饰品盲盒"
 	quest.6B64D3D885D9E1A9.quest_desc: ["{ \"text\": \"点击跳转到BOSS介绍\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
 	quest.6B64D3D885D9E1A9.quest_subtitle: "击杀咒翼灵骸，提交其掉落物"
 	quest.6B64D3D885D9E1A9.title: "加冕冰之王座"

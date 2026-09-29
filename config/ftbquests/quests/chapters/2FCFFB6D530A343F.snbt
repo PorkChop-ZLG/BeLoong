@@ -974,5 +974,36 @@
 			x: -2.5d
 			y: -4.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["316AFA91B0365E94"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "xfws_swords:meowmere"
+			}
+			id: "0850E956F0AFB4DF"
+			optional: true
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "2740647DAED9432E"
+				item: {
+					count: 1
+					id: "xfws_swords:meowmere"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4C5552B98FE6E180"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
 	]
 }
