@@ -519,14 +519,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "03DBB3375C33E2A7"
-					item: {
-						count: 1
-						id: "xfws_swords:meowmere"
-					}
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			size: 3.0d
