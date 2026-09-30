@@ -1,0 +1,60 @@
+{
+  "parent": "beloong:npc/2_1",
+  "criteria": {
+    "reached_throne": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "beloong:loong_palace",
+                "position": {
+                  "x": {
+                    "min": -5,
+                    "max": 5
+                  },
+                  "y": {
+                    "min": 73,
+                    "max": 83
+                  },
+                  "z": {
+                    "min": -117,
+                    "max": -107
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "twilightforest:mystic_crown"
+    },
+    "title": {
+      "translate": "beloong.advancement.npc/3_0"
+    },
+    "description": {
+      "translate": "beloong.advancement.npc/3_0.desc"
+    }
+  },
+  "requirements": [
+    [
+      "reached_throne"
+    ]
+  ],
+  "rewards": {
+    "experience": 0
+  },
+  "sends_telemetry_event": false
+}

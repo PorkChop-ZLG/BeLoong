@@ -60,5 +60,22 @@
   "beloong.advancement.beloong/wrought_chamber": "Wrought Chamber",
   "beloong.advancement.beloong/wrought_chamber.desc": "Find a Wrought Chamber.",
   "beloong.advancement.beloong/young_dragon": "Tutorial - Dragon Growth",
-  "beloong.advancement.beloong/young_dragon.desc": "Grow into young stage."
+  "beloong.advancement.beloong/young_dragon.desc": "Grow into young stage.",
+  "beloong.advancement.npc/3_0": "Audience with the Loong King",
+  "beloong.advancement.npc/3_0.desc": "Meet the Loong King \"Di\" in the depths of the Loong Palace.",
+  "beloong.advancement.npc/3_1": "Blessing of the Loong King",
+  "beloong.advancement.npc/3_1.desc": "Hear the Loong King \"Di\" tell of the prophecy of the Dragon-Blooded Child.",
+  "beloong.dialogue.dihuang_loong.name": "§6Di",
+  "beloong.dialogue.dihuang_loong.p1": "I am the lord of the Loong Palace, sovereign of all under heaven, titled \"§eDi§r\".",
+  "beloong.dialogue.dihuang_loong.p2": "Young friend, you carry the blood of dragons within you. The resurgence of our kind is within sight!",
+  "beloong.dialogue.dihuang_loong.reply1": "§eWhat business do you have with me?",
+  "beloong.chatbox.dihuang_loong.name": "§6Di",
+  "beloong.chatbox.dihuang_loong.p1": "Your Dragon Mother entrusted you to me, hoping I would watch over you in her stead.",
+  "beloong.chatbox.dihuang_loong.p2": "Though you wear human form, you bear the blood of dragons — you can awaken as a true loong!\n§7(At this, \"§eDi§7\"'s voice grows impassioned)",
+  "beloong.chatbox.dihuang_loong.p3": "The Ancestral Dragon once prophesied: when the Dragon-Blooded Child appears, our kind shall surely be saved from fire and water!\n§7(\"§eDi§7\" studies you closely, filled with joy)",
+  "beloong.chatbox.dihuang_loong.opt_awaken": "§eHow do I awaken my bloodline?",
+  "beloong.chatbox.dihuang_loong.opt_save": "§eAm I to save the dragons?",
+  "beloong.chatbox.dihuang_loong.aw1": "Leap into the §3Dragon Pool§r, and you shall become a true loong. \"§5Mo§r\" will take you there.",
+  "beloong.chatbox.dihuang_loong.sv1": "You are still weak as yet. Once you leap into the §3Dragon Pool§r, you shall ride the wind and become a loong! \"§5Mo§r\" will take you there.",
+  "beloong.chatbox.dihuang_loong.option_ok": "§eUnderstood"
 }

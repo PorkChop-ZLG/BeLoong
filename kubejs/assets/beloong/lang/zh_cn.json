@@ -60,5 +60,22 @@
   "beloong.advancement.beloong/wrought_chamber": "锻造室",
   "beloong.advancement.beloong/wrought_chamber.desc": "找到一座锻造室。",
   "beloong.advancement.beloong/young_dragon": "新手教程 - 龙之成长",
-  "beloong.advancement.beloong/young_dragon.desc": "成长到青年龙阶段。"
+  "beloong.advancement.beloong/young_dragon.desc": "成长到青年龙阶段。",
+  "beloong.advancement.npc/3_0": "觐见龙王",
+  "beloong.advancement.npc/3_0.desc": "在龙宫深处见到龙王「帝」。",
+  "beloong.advancement.npc/3_1": "龙王的祝福",
+  "beloong.advancement.npc/3_1.desc": "听完龙王「帝」讲述龙血之子的预言。",
+  "beloong.dialogue.dihuang_loong.name": "§6帝",
+  "beloong.dialogue.dihuang_loong.p1": "吾乃龙宫之主，九五之尊，号曰「§e帝§r」。",
+  "beloong.dialogue.dihuang_loong.p2": "小友身负龙族血脉，龙族之振兴，指日可待！",
+  "beloong.dialogue.dihuang_loong.reply1": "§e你找我何事？",
+  "beloong.chatbox.dihuang_loong.name": "§6帝",
+  "beloong.chatbox.dihuang_loong.p1": "你的龙母将你托付给我，希望我能代为照看。",
+  "beloong.chatbox.dihuang_loong.p2": "你虽为人身，却身具龙族血脉，可觉醒为真龙！\n§7（说到此处，「§e帝§7」的语气激动起来）",
+  "beloong.chatbox.dihuang_loong.p3": "始祖巨龙曾预言，当龙血之子现身之时，必可救龙族于水火当中！\n§7（「§e帝§7」仔细端详着你，充满喜悦）",
+  "beloong.chatbox.dihuang_loong.opt_awaken": "§e我该如何觉醒血脉？",
+  "beloong.chatbox.dihuang_loong.opt_save": "§e我来拯救龙族吗？",
+  "beloong.chatbox.dihuang_loong.aw1": "跳入§3化龙池§r，即可化为真龙。「§5末§r」会带你去的。",
+  "beloong.chatbox.dihuang_loong.sv1": "彼时的你尚且弱小，待你跳入§3化龙池§r中，即可遇风化龙！「§5末§r」会带你去的。",
+  "beloong.chatbox.dihuang_loong.option_ok": "§e好的"
 }

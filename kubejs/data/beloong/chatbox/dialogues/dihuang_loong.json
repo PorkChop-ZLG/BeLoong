@@ -1,0 +1,74 @@
+{
+  "_comment": "龙王「帝」的觐见对话。三个组：start（正题，两个分支选项）→ awaken（分支一）／save（分支二）。两组末尾的「好的」都以 next:-1 结束对话，click 里发放结束进度 3_1。主题沿用 beloong:minimal（它已含 dialogBox 的 @Options 显示事件与三个 functionalButton，缺任一项会导致选项看不见或点不动）。",
+  "theme": "beloong:minimal",
+  "isPause": false,
+  "isScreen": true,
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.p1"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.p2"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.p3"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.dihuang_loong.opt_awaken",
+            "next": "2"
+          },
+          {
+            "text": "beloong.chatbox.dihuang_loong.opt_save",
+            "next": "1"
+          }
+        ]
+      }
+    ],
+    "awaken": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.aw1"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.dihuang_loong.option_ok",
+            "next": "-1",
+            "click": {
+              "type": "command",
+              "value": "execute as @s run advancement grant @s only beloong:npc/3_1"
+            }
+          }
+        ]
+      }
+    ],
+    "save": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.sv1"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.dihuang_loong.option_ok",
+            "next": "-1",
+            "click": {
+              "type": "command",
+              "value": "execute as @s run advancement grant @s only beloong:npc/3_1"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

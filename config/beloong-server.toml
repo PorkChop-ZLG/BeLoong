@@ -140,3 +140,8 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 16.0
 	musicVolume = 1.0
+
+[npc_dialogue]
+	#Enable the simple NPC dialogue screen
+	#启用简易 NPC 对话界面
+	enabled = true
