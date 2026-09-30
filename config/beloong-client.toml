@@ -2,3 +2,18 @@
 fixStableHoverDrift = true
 #禁用王国场地的冰火天空盒渲染，解决渲染异常的问题
 disableMalkuthHellscapeSkybox = false
+
+[npc_dialogue]
+	#Typewriter speed in characters per tick (1 = default, about 20 chars per second)
+	#打字机速度（字/tick），默认 1 ≈ 每秒 20 字
+	# Default: 1
+	# Range: 1 ~ 20
+	charsPerTick = 1
+	#Speaker-name font scale. 1.0 = same size as body text (crispest);
+	#1.5 = as in the reference screenshots, but non-integer scaling of the
+	#bitmap font makes some strokes 1px wide and others 2px
+	#说话人名字的字号倍数。1.0 = 与正文同号（最清晰）；
+	#1.5 = 对齐参考图，但位图字体非整数缩放会让部分笔画 1px、部分 2px
+	# Default: 1.5
+	# Range: 1.0 ~ 2.0
+	nameScale = 1.5
