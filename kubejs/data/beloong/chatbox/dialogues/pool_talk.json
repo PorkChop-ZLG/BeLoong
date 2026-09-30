@@ -1,0 +1,74 @@
+{
+  "_comment": "化龙池边与末的问答（到达化龙池之后、变龙之前）。结构与 mo.json 同惯例：玩家台词是【当前页 options 里的选项】，与末的台词同页显示，不作为独立页。页序全按『跳转目标页在组内的下标』写。start 组：p1 → p2+选项opt_splash(next=2) → p3+选项opt_what(next=yes)；玩家点了 opt_what 后末先答 p4，故 p4 单独放 yes 组，其选项 opt_next 跳到 what 组；what 组 p5 → p6+选项opt_soar(next=-1)，玩家的末句就是收尾选项。⚠️ 数字 next 只能在当前组内跳（ComponentEvent.java:93-95 → skipDialogues(rl, group, index)，边界是该组自身页数），跨组必须写组名字符串（:96-97，从该组第 0 页起）。本段不发放任何进度。",
+  "theme": "beloong:minimal",
+  "isPause": false,
+  "isScreen": true,
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.pool_talk.name",
+          "text": "beloong.chatbox.pool_talk.p1"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.pool_talk.name",
+          "text": "beloong.chatbox.pool_talk.p2"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.pool_talk.opt_splash",
+            "next": "2"
+          }
+        ]
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.pool_talk.name",
+          "text": "beloong.chatbox.pool_talk.p3"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.pool_talk.opt_what",
+            "next": "yes"
+          }
+        ]
+      }
+    ],
+    "yes": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.pool_talk.name",
+          "text": "beloong.chatbox.pool_talk.p4"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.pool_talk.opt_next",
+            "next": "what"
+          }
+        ]
+      }
+    ],
+    "what": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.pool_talk.name",
+          "text": "beloong.chatbox.pool_talk.p5"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.pool_talk.name",
+          "text": "beloong.chatbox.pool_talk.p6"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.pool_talk.opt_soar",
+            "next": "-1"
+          }
+        ]
+      }
+    ]
+  }
+}

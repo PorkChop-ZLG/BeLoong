@@ -948,18 +948,18 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "1D30B91634CCDDD9"
+					id: "02C9A973FABF87B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "54A7D8083CDC1754"
 					item: {
 						count: 1
 						id: "dragonsurvival:elder_dragon_bone"
 					}
 					type: "item"
-				}
-				{
-					id: "02C9A973FABF87B5"
-					type: "xp"
-					xp: 100
 				}
 			]
 			size: 1.5d
