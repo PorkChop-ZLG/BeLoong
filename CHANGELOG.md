@@ -8,16 +8,129 @@
 
 ## [Unreleased]
 
+---
+
+## [1.4] - 2026-10-01
+
+> 本版本汇总了 1.3.2 之后的主要改动，但不是完整改动。需要结合测试版的更新日志一起看
+
 ### 内容改动
-- 将地牢浮现之时·海洋扩展（Seven Seas）的 5 条船全部迁移至天灾维度，新增结构集 `beloong:disaster_sea_set`（间距 40 / 分离 34），并按 `beloong:disaster/is_ocean` 精确限定海洋群系；原结构集已清空，船只不再在其他维度生成
-- 将地牢浮现之时的 33 个结构（地面 29 + 地下 4）迁移至天灾维度，除末地已有的 5 个外不再在其他维度生成
-- 新增天灾维度专属群系主题标签体系 `beloong:disaster/*`（对齐 NeoForge `c:` 约定主题），并按主题精确指定每个结构的生成群系（最终保留 13 个被引用的标签）
-- `beloong:is_disaster` 总账标签补入化龙核心的 5 个自制群系（海洋 / 冰海 / 河流 / 洞穴 / 碎裂地形），天灾维度的海洋、河流与洞穴区域自此可正常生成结构
-- 修复天灾传送门在主线程同步加载目标维度区块导致的卡死：改为原版传送门范式（`Portal` + `DimensionTransition`），落点区块未就绪时非阻塞预热并逐 tick 重试，超时（200 tick）有界失败
-- 修复新建存档首次进入天灾维度时因结构集**双向互斥**触发世界生成线程 `StackOverflowError` 的问题（已移除 `exclusion_zone`）
-- 新增结构集 `beloong:disaster_ground_set`（间距 32/分离 16）与 `beloong:disaster_underground_set`（间距 32/分离 16），两者不设互斥（天灾维度结构已设计为互不重叠）；地牢浮现之时原有两个结构集已清空
-- 统一天灾维度结构集命名（维度 + 位置：`disaster_sky_set` / `disaster_ground_set` / `disaster_sea_set` / `disaster_underground_set`），并把地面集权重按原结构集口径归一：原 `major_structures` 中的大型结构 weight 1（16 个）、小型结构 weight 2（13 个）
-- 地牢浮现之时的地面结构不再生成于天灾维度原点附近：`beloong:disaster_ground_set` 改用 `moogs_structures:advanced_random_spread` 并设 `min_distance_from_world_origin: 250`（单位为方块，即半径 250 的圆形禁区）。原版 1.21.1 只注册 `random_spread` 与 `concentric_rings` 两种 placement 且都不判断原点，无法表达该规则；该 placement 类型由 MoogsStructureLib 提供，其判定使用所在维度自身的原点
+- 全新的NPC对话系统，新增NPC 地黄龙「帝」与末影龙娘「末」。拥有独立模型、对话界面与CG演出，并且龙娘会一步步引导你前去化龙
+- 原创主城维度【龙宫】，固定地图，建筑宏伟，风景瑰丽，所有龙在龙宫免疫诅咒效果
+- 全新的【新手教程】，位于龙宫，超级详细的教学文本，一步步教会你怎么上手化龙整合包
+- 全新的【商店系统】，可以用虚拟货币购买龙心、武器、道具、建材、木材、饰品，并且高价收购BOSS和生物掉落物
+- 全新的原创维度【悚域】，集齐冰、火、雷三把钥匙，合成悚域钥匙，从主世界的悚陵开启传送门进入
+- 全新的原创维度【天灾】，完全由BWG的生物群系构成，相当于主世界的平行世界，但是风景更加秀丽
+- 将【传奇怪物】里的所有BOSS和生物全部迁移到悚域，从而降低原版维度的结构密度。调整BOSS数值，移除限伤
+- 将【地牢浮现之时】【灾变】【逆卡巴拉】的结构全部迁移到天灾维度，大幅度降低主世界卡顿，并且BOSS挑战更加集中，BOSS rush 流程更长
+- 全新第五章主线【冰火悚域】，挑战传奇怪物，收集属于你的魔源，合成专属龙心，进化为始祖龙
+- 全新第六章主线【天灾灭世】，集齐12颗灾变和逆卡巴拉的眼珠子，激活天灾传送门，挑战悬浮在天上的灾变结构，最终直面三个逆卡巴拉BOSS
+- 原创结构【尼德兰】新增地底部分，并且彻底重做，难度极高，奖励极其丰富，适合搜打撤，作为第一章主线的最终挑战
+- 【Mowzie的生物】深度魔改，重锤可以直接伤害钢铁守护者，通臂大师的跑酷反作弊系统弱化
+- 第一章主线【龙之生存】彻底重写，完全线性流程，一步步探索这个世界的真相
+- 第二章主线【炼狱终焉】彻底重写，融合下界和末地两个维度，线性流程，奖励更丰富。移植【祸乱鬼魅】的四个BOSS到末地，集齐四个BOSS掉落物，合成升腾台座，复活末影龙
+- 原创模组【通用BOSS重生笼】，大部分BOSS被击败后，可以使用对应的物品复活
+- 原创模组【传送锚点】，会在各种结构中自然生成，可以在Xaero的地图上显示，激活后可以直接传送
+- 替换【结构罗盘】为更高级的版本，合并【自然罗盘】的功能，并且可以直接渲染对应结构的外观
+- 新增【通用意见反馈】，可以在ESC菜单点击，直接反馈BUG或者建议
+- 重做并美化整合包的主菜单，并新增原版菜单切换按钮
+
+### 龙族改动
+
+#### 通用
+- 龙族成长阶段重做，各种龙心提供的成长时间调整，高阶龙可以用低阶龙心，但是效果削弱
+- 大幅度优化龙的飞行手感，滑翔时不再受到重力影响，并且可以开启滚筒飞行，体验沉浸式飞行
+- 所有龙新增成长的魔力值和魔力恢复速度
+- 龙的普通攻击伤害提高
+- 调整龙的物品限制，不再能使用盾
+- 从龙统一调整为四阶段，满级只有500血
+
+#### 以太龙
+- 新增龙卷风技能
+- 诅咒效果弱化，在龙宫不再受到惩罚
+
+#### 机械龙
+- 解锁条件调整，并新增魔源
+
+### 模组改动
+
+#### 新增模组
+- [通用Boss重生笼] boss_respawner
+- [结构罗盘强化版] Explorer's Compass Enhance
+- [通用意见反馈] generalfeedback
+- [简易战利品查看器] simplelootviewer
+- [救救我的答辩网络] smsn
+
+#### 移除模组
+- [高级战利品信息显示] AdvancedLootInfo
+- [屠宰工艺] butchercraft
+- [实体模型特性] entity_model_features
+- [实体纹理特性] entity_texture_features
+- [宁静灌丛] SereneShrubbery
+- [结构罗盘] ExplorersCompass
+- [自然罗盘] NaturesCompass
+- [钠：动态光源] sodiumdynamiclights
+- [钠：树叶剔除] sodiumleafculling
+
+#### 更新模组
+- [龙之生存] DragonSurvival
+- [奇异饰品] artifacts
+- [冰火传说社区版] iceandfire
+- [灾变] Cataclysm
+- [传奇怪物] legendary_monsters
+- [超越维度] beyonddimensions
+- [永恒星光] eternalstarlight
+- [炽海生机] netherdepthsupgrade
+- [无题鸭] untitledduckmod
+- [战利品箱子] lootr
+- [传送石碑] waystones
+- [建筑棒] ConstructionSticks
+- [精妙核心] sophisticatedcore
+- [精妙背包] sophisticatedbackpacks
+- [现代化的修复] modernfix
+- [花哨菜单] fancymenu
+- [可视化工作台] VisualWorkbench
+- [简单的语音聊天] voicechat
+- [网络音乐机] netmusic
+- [通用拼音搜索] jecharacters
+- [输入法冲突修复] IMBlocker
+- [酒狐的魔法书] winefoxs_spellbooks
+- [商店] ViScriptShop
+- [钠] sodium
+- [钠：光影] iris
+- [钠：氯化物] chloride
+- [钠：视频界面] reeses-sodium-options
+- [JEI物品管理器] jei
+- [JEI药水效果] jeed
+- [火把大师] torchmaster
+- [幻灯片] SlideShow
+- [龙之生存：星辰龙] star_dragon
+- [龙之生存：滚筒飞行] dragon_barrel_roll
+- [龙之生存：夜煞] ds_night_striker_addon
+- [龙之生存：机械龙] annihilator_type_a
+- [龙之生存：以太龙] ds_aether_addon
+- [龙之生存：翼麒麟] wing_kirin
+- [龙之生存：晶咒龙] crystcursed_dragon
+- 【魔改】kubejs
+- 【魔改】incontrol
+- 【前置】YungsApi
+- 【前置】geckolib
+- 【前置】ldlib2
+- 【前置】lithostitched
+- 【前置】balm
+- 【前置】collective
+- 【前置】cupboard
+- 【优化】alltheleaks
+- 【优化】fastpaintings
+- 【优化】gnetum
+- 【优化】immersive_optimization
+
+### BUG 修复
+- 修复飞行相关BUG
+- 修复传奇怪物的血条BUG
+- 修复商店可以无限购买的BUG
+
+---
 
 ## [1.3.5] - 2026-08-31
 
