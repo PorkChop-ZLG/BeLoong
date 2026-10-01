@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/monastery",
+  "criteria": {
+    "get_flight_ban": {
+      "conditions": {
+        "effects": {
+          "beloong:flight_ban": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/flight_ban"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/flight_ban.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:spin_grant"
+    }
+  },
+  "requirements": [
+    [
+      "get_flight_ban"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

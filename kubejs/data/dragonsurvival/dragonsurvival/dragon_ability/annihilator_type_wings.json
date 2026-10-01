@@ -137,7 +137,7 @@
         "per_level_above_first": 50.0
       },
       "values": [
-        20.0,
+        10.0,
         50.0,
         100.0,
         150.0,
@@ -147,5 +147,14 @@
     },
     "maximum_level": 6,
     "upgrade_type": "dragonsurvival:dragon_growth"
+  },
+  "usage_blocked": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+         "annihilator_type_a:true_damage_conversion": {}
+      }
+    }
   }
 }

@@ -18,8 +18,8 @@
     }
   ],
   "growth_range": {
-    "max": 50.0,
-    "min": 20.0
+    "min": 10.0,
+    "max": 50.0
   },
   "is_default": true,
   "is_natural_growth_stopped": {
@@ -30,74 +30,84 @@
   },
   "modifiers": [
     {
-      "amount": {
-        "precise_amount": 0.015,
-        "precise_base": -0.1
-      },
       "attribute": "minecraft:generic.scale",
-      "operation": "add_value"
+      "operation": "add_value",
+      "amount": {
+        "precise_base": -0.1,
+        "precise_amount": 0.01125
+      }
     },
     {
-      "amount": {
-        "type": "minecraft:linear",
-        "base": 1.0,
-        "per_level_above_first": 1.0
-      },
       "attribute": "minecraft:generic.max_health",
-      "operation": "add_value"
+      "operation": "add_value",
+      "amount": {
+        "precise_base": 0.0,
+        "precise_amount": 0.75
+      }
     },
     {
-      "amount": {
-        "type": "minecraft:linear",
-        "base": 0.05,
-        "per_level_above_first": 0.05
-      },
       "attribute": "minecraft:generic.attack_damage",
-      "operation": "add_value"
-    },
-    {
-      "amount": 1.0,
-      "attribute": "minecraft:generic.armor_toughness",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.01,
-      "attribute": "minecraft:generic.movement_speed",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.1,
-      "attribute": "minecraft:generic.jump_strength",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.4,
-      "attribute": "minecraft:generic.step_height",
-      "operation": "add_value"
-    },
-    {
-      "amount": 7.0,
-      "attribute": "minecraft:generic.safe_fall_distance",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.0,
-      "attribute": "minecraft:player.block_interaction_range",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.0,
-      "attribute": "minecraft:player.entity_interaction_range",
-      "operation": "add_value"
-    },
-    {
+      "operation": "add_value",
       "amount": {
-        "type": "minecraft:linear",
-        "base": 1.55,
-        "per_level_above_first": 0.05
-      },
+        "precise_base": 0.0,
+        "precise_amount": 0.1
+      }
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": "add_value",
+      "amount": 1.0
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_value",
+      "amount": 0.01
+    },
+    {
+      "attribute": "minecraft:generic.jump_strength",
+      "operation": "add_value",
+      "amount": 0.1
+    },
+    {
+      "attribute": "minecraft:generic.step_height",
+      "operation": "add_value",
+      "amount": 0.4
+    },
+    {
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "operation": "add_value",
+      "amount": 7.0
+    },
+    {
+      "attribute": "minecraft:player.block_interaction_range",
+      "operation": "add_value",
+      "amount": 0.0
+    },
+    {
+      "attribute": "minecraft:player.entity_interaction_range",
+      "operation": "add_value",
+      "amount": 0.0
+    },
+    {
       "attribute": "dragonsurvival:dragon_breath_range",
-      "operation": "add_value"
+      "operation": "add_value",
+      "amount": {
+        "precise_base": 1.5,
+        "precise_amount": 0.0375
+      }
+    },
+    {
+      "attribute": "dragonsurvival:mana",
+      "operation": "add_value",
+      "amount": {
+        "precise_base": -1.0,
+        "precise_amount": 0.05
+      }
+    },
+    {
+      "attribute": "dragonsurvival:mana_regeneration",
+      "operation": "add_value",
+      "amount": 0.001
     }
   ],
   "ticks_until_grown": 432000

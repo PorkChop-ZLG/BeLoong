@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/netherlands",
+  "criteria": {
+    "kill_hunter_griffin": {
+      "conditions": {
+        "entity": {
+          "type": "dragonsurvival:hunter_griffin"
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/hunter_griffin"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/hunter_griffin.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:griffin_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "kill_hunter_griffin"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

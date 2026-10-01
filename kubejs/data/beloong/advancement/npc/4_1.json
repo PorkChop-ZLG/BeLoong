@@ -1,0 +1,60 @@
+{
+  "parent": "beloong:npc/3_1",
+  "criteria": {
+    "reached_pool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "beloong:loong_palace",
+                "position": {
+                  "x": {
+                    "min": -12,
+                    "max": 8
+                  },
+                  "y": {
+                    "min": 68,
+                    "max": 88
+                  },
+                  "z": {
+                    "min": -281,
+                    "max": -261
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lily_pad"
+    },
+    "title": {
+      "translate": "beloong.advancement.npc/4_1"
+    },
+    "description": {
+      "translate": "beloong.advancement.npc/4_1.desc"
+    }
+  },
+  "requirements": [
+    [
+      "reached_pool"
+    ]
+  ],
+  "rewards": {
+    "experience": 0
+  },
+  "sends_telemetry_event": false
+}

@@ -3,7 +3,7 @@ showWaypoints = true
 #Maximum distance in blocks for waypoints to appear on the minimap. 0 disables the limit.
 # Default: 256
 # Range: 0 ~ 100000
-range = 256
+range = 512
 
 [waypoint]
 	#Show inactive teleport waypoints.

@@ -5,7 +5,7 @@
 	group: "1EFE04C2BB6E0380"
 	icon: {
 		components: {
-			"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+			"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -18,7 +18,7 @@
 			can_repeat: true
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -34,7 +34,7 @@
 				feedback_message: "你已抵达龙宫！"
 				icon: {
 					components: {
-						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+						"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -65,6 +65,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "3D66D6D8638FE356"
@@ -83,47 +84,31 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					id: "waystones:prismarine_waystone"
-				}
-				id: "49BD8884A1BB1C1D"
-				stat: "waystones:waystone_activated"
-				type: "stat"
-				value: 1
+				advancement: "beloong:npc/2_0"
+				criterion: ""
+				id: "7F36B6A99DFB5525"
+				type: "advancement"
 			}]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1C83DAE89543CA28"]
+			icon: {
+				id: "ultramarine:loong_tuanhua"
+			}
 			icon_scale: 2.0d
 			id: "3C27F9618144DD22"
-			rewards: [
-				{
-					id: "5821AB91BA926D6B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					auto: "invisible"
-					command: "/effect give @s minecraft:luck 300 0 true"
-					id: "6A6787D2857F6BD1"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "5821AB91BA926D6B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
-				icon: {
-					id: "ultramarine:loong_tuanhua"
-				}
-				id: "21FF88760DD155A9"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "dragonsurvival:dragon_soul"
-				type: "observation"
+				advancement: "beloong:npc/3_1"
+				criterion: ""
+				id: "513C3E03FE9EE04F"
+				type: "advancement"
 			}]
 			x: 5.0d
 			y: 0.0d
@@ -141,23 +126,10 @@
 				xp: 100
 			}]
 			tasks: [{
-				dimension: "beloong:loong_palace"
-				icon: {
-					id: "ultramarine:medium_lotus"
-				}
-				id: "492C3F2BFFB6071B"
-				ignore_dimension: false
-				position: [I;
-					0
-					78
-					-253
-				]
-				size: [I;
-					16
-					16
-					16
-				]
-				type: "location"
+				advancement: "beloong:npc/4_1"
+				criterion: ""
+				id: "2AA24FF5535652FC"
+				type: "advancement"
 			}]
 			x: 7.0d
 			y: 0.0d
@@ -375,7 +347,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["48D785889A3C35A3"]
+			dependencies: [
+				"48D785889A3C35A3"
+				"3C1132797D408E77"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "dragonsurvival:elder_dragon_bone"
 			}
@@ -386,7 +362,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				advancement: "beloong:beloong/root"
 				criterion: ""
@@ -464,7 +440,6 @@
 					xp: 100
 				}
 				{
-					auto: "enabled"
 					count: 3
 					id: "5C7DC3B45C6993B3"
 					item: {
@@ -497,46 +472,20 @@
 					xp: 100
 				}
 				{
-					id: "2DEA42304E7757C3"
+					count: 12
+					id: "4C1C3D16B301F6FF"
 					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
 						count: 1
-						id: "minecraft:leather_helmet"
+						id: "minecraft:oak_planks"
 					}
 					type: "item"
 				}
 				{
-					id: "69042955AD91496D"
+					count: 2
+					id: "0DC370D9F955E0D4"
 					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
 						count: 1
-						id: "minecraft:leather_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "22519BD7724CD214"
-					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
-						count: 1
-						id: "minecraft:leather_leggings"
-					}
-					type: "item"
-				}
-				{
-					id: "0762EFACCDBA5D20"
-					item: {
-						components: {
-							"minecraft:unbreakable": { }
-						}
-						count: 1
-						id: "minecraft:leather_boots"
+						id: "minecraft:iron_ingot"
 					}
 					type: "item"
 				}
@@ -584,11 +533,11 @@
 					xp: 100
 				}
 				{
-					count: 64
-					id: "133578268A04CC6D"
+					count: 24
+					id: "153DDD7853B5B0A5"
 					item: {
 						count: 1
-						id: "dragonsurvival:elder_dragon_bone"
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -599,7 +548,7 @@
 				id: "30D9818D59E57163"
 				type: "advancement"
 			}]
-			x: 17.0d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -625,7 +574,7 @@
 				id: "361E14CBA1EC32D6"
 				type: "checkmark"
 			}]
-			x: 17.0d
+			x: 21.0d
 			y: -2.0d
 		}
 		{
@@ -649,7 +598,7 @@
 					xp: 100
 				}
 				{
-					count: 48
+					count: 24
 					id: "7F1200B1A1DF77F1"
 					item: {
 						count: 1
@@ -664,7 +613,7 @@
 				id: "422A9CDE65406ECE"
 				type: "advancement"
 			}]
-			x: 19.0d
+			x: 23.0d
 			y: 0.0d
 		}
 		{
@@ -690,7 +639,7 @@
 				id: "506053A97A1DD355"
 				type: "checkmark"
 			}]
-			x: 19.0d
+			x: 23.0d
 			y: -2.0d
 		}
 		{
@@ -722,7 +671,7 @@
 				id: "6FEA1123461FE736"
 				type: "advancement"
 			}]
-			x: 21.0d
+			x: 25.0d
 			y: 0.0d
 		}
 		{
@@ -753,7 +702,7 @@
 				id: "7E551C2911DD6512"
 				type: "advancement"
 			}]
-			x: 23.0d
+			x: 27.0d
 			y: 0.0d
 		}
 		{
@@ -768,23 +717,6 @@
 					id: "3996466DD380BD35"
 					type: "xp"
 					xp: 100
-				}
-				{
-					id: "5A79A57794D74BA6"
-					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:sharpness": 5
-									"soulbound:soulbound": 1
-								}
-							}
-							"minecraft:unbreakable": { }
-						}
-						count: 1
-						id: "minecraft:wooden_sword"
-					}
-					type: "item"
 				}
 				{
 					count: 3
@@ -811,7 +743,7 @@
 				id: "3BBFB63FFAAC0055"
 				type: "advancement"
 			}]
-			x: 25.0d
+			x: 29.0d
 			y: 0.0d
 		}
 		{
@@ -835,33 +767,14 @@
 					}
 					type: "item"
 				}
-				{
-					auto: "invisible"
-					command: "/effect clear @s"
-					id: "7FF42C0105607F12"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
-				}
 			]
-			tasks: [
-				{
-					entity: "minecraft:iron_golem"
-					id: "19FC7D22F98E27AA"
-					optional_task: true
-					type: "kill"
-					value: 1L
-				}
-				{
-					advancement: "minecraft:story/smelt_iron"
-					criterion: ""
-					id: "0E8FED3D44563D57"
-					optional_task: true
-					type: "advancement"
-				}
-			]
-			x: 27.0d
+			tasks: [{
+				advancement: "beloong:beloong/combat_training"
+				criterion: ""
+				id: "326F6675C9F79C9C"
+				type: "advancement"
+			}]
+			x: 31.0d
 			y: 0.0d
 		}
 		{
@@ -896,15 +809,6 @@
 					id: "29DF8A62E564F2EE"
 					type: "advancement"
 				}
-				{
-					auto: "invisible"
-					command: "/effect clear @s dragonsurvival:hunter_omen"
-					id: "07A6D549B345C654"
-					permission_level: 2
-					silent: true
-					team_reward: true
-					type: "command"
-				}
 			]
 			shape: "diamond"
 			size: 1.5d
@@ -914,7 +818,7 @@
 				id: "66BB6E186378FE94"
 				type: "advancement"
 			}]
-			x: 29.0d
+			x: 33.0d
 			y: 0.0d
 		}
 		{
@@ -922,7 +826,7 @@
 			dependencies: ["3D74C6BF68CB4A92"]
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_4.png"
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/air_strike_4.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -932,10 +836,10 @@
 			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
-				command: "/dragon-ability add @s dragonsurvival:air_strike"
+				command: "/dragon-ability add @s beloong:air_strike"
 				icon: {
 					components: {
-						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/air_strike_5.png"
+						"ftbquests:icon": "beloong:textures/gui/sprites/abilities/air_strike_4.png"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -950,7 +854,7 @@
 				id: "07C610D03044B4C0"
 				type: "checkmark"
 			}]
-			x: 27.0d
+			x: 31.0d
 			y: 2.0d
 		}
 		{
@@ -958,7 +862,7 @@
 			dependencies: ["294DCB1F2F69927E"]
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -968,10 +872,10 @@
 			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
-				command: "/dragon-ability add @s dragonsurvival:tp_loong_palace"
+				command: "/dragon-ability add @s beloong:tp_loong_palace"
 				icon: {
 					components: {
-						"ftbquests:icon": "dragonsurvival:textures/gui/sprites/abilities/beloong/tp_loong_palace_1.png"
+						"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -986,27 +890,28 @@
 				id: "2681E99F42E8BE25"
 				type: "checkmark"
 			}]
-			x: 29.0d
+			x: 33.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["294DCB1F2F69927E"]
-			icon_scale: 1.5d
+			dependencies: [
+				"294DCB1F2F69927E"
+				"4E9FFC41AF8A07FB"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "beloong:textures/gui/sprites/abilities/tp_loong_palace_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
 			id: "51CE47B1ADD35248"
 			rewards: [
 				{
 					id: "61F869F4C0BD37F5"
 					type: "xp_levels"
 					xp_levels: 3
-				}
-				{
-					auto: "enabled"
-					id: "27828B5C7AD4696B"
-					item: {
-						count: 1
-						id: "yuushya:octagon_pavilion"
-					}
-					type: "item"
 				}
 				{
 					auto: "enabled"
@@ -1018,14 +923,15 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "none"
 			size: 2.0d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "035CE1D2808F82F6"
-				type: "dimension"
+				advancement: "beloong:beloong/adventure_begins"
+				criterion: ""
+				id: "49B6734E8003AC8C"
+				type: "advancement"
 			}]
-			x: 32.0d
+			x: 36.0d
 			y: 0.0d
 		}
 		{
@@ -1049,7 +955,69 @@
 				id: "51C247484A3AF4FF"
 				type: "dimension"
 			}]
-			x: -32.0d
+			x: -28.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58814D5BF5A8BD45"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "412059FEA6DD0919"
+			rewards: [
+				{
+					id: "27CA4269430DDD69"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "19374515E3E65712"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_bone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/dragon_crafting"
+				criterion: ""
+				id: "5DE2B3E211336443"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["412059FEA6DD0919"]
+			icon: {
+				id: "block_factorys_bosses:enhanced_shield"
+			}
+			id: "4365509DC0D226C7"
+			rewards: [
+				{
+					id: "26A95973F50BC03D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "4935F27B21B9B08C"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_bone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6AE40029E7A9AC0C"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 19.0d
 			y: 0.0d
 		}
 	]

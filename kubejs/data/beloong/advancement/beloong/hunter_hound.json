@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/netherlands",
+  "criteria": {
+    "kill_hunter_hound": {
+      "conditions": {
+        "entity": {
+          "type": "dragonsurvival:hunter_hound"
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/hunter_hound"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/hunter_hound.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:hound_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "kill_hunter_hound"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

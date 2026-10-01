@@ -1,0 +1,100 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:buried_treasure",
+    "#minecraft:mineshaft",
+    "minecraft:nether_fossil",
+    "minecraft:trail_ruins",
+    "#minecraft:ruined_portal",
+    "#minecraft:shipwreck",
+    "#minecraft:ocean_ruin",
+    {
+      "id": "totw_modded:aether",
+      "required": false
+    },
+    {
+      "id": "totw_modded:badlands",
+      "required": false
+    },
+    {
+      "id": "totw_modded:derelict",
+      "required": false
+    },
+    {
+      "id": "totw_modded:derelict_grass",
+      "required": false
+    },
+    {
+      "id": "totw_modded:desert",
+      "required": false
+    },
+    {
+      "id": "totw_modded:end",
+      "required": false
+    },
+    {
+      "id": "totw_modded:everbright",
+      "required": false
+    },
+    {
+      "id": "totw_modded:everdawn",
+      "required": false
+    },
+    {
+      "id": "totw_modded:glacio",
+      "required": false
+    },
+    {
+      "id": "totw_modded:ice",
+      "required": false
+    },
+    {
+      "id": "totw_modded:jungle",
+      "required": false
+    },
+    {
+      "id": "totw_modded:mars",
+      "required": false
+    },
+    {
+      "id": "totw_modded:mercury",
+      "required": false
+    },
+    {
+      "id": "totw_modded:moon",
+      "required": false
+    },
+    {
+      "id": "totw_modded:nether",
+      "required": false
+    },
+    {
+      "id": "totw_modded:ocean",
+      "required": false
+    },
+    {
+      "id": "totw_modded:ocean_warm",
+      "required": false
+    },
+    {
+      "id": "totw_modded:ratlantis",
+      "required": false
+    },
+    {
+      "id": "totw_modded:regular",
+      "required": false
+    },
+    {
+      "id": "totw_modded:tw_canopy",
+      "required": false
+    },
+    {
+      "id": "totw_modded:tw_mangrove",
+      "required": false
+    },
+    {
+      "id": "totw_modded:venus",
+      "required": false
+    }
+  ]
+}

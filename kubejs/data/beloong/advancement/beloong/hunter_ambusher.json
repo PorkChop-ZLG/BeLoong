@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/netherlands",
+  "criteria": {
+    "kill_hunter_ambusher": {
+      "conditions": {
+        "entity": {
+          "type": "dragonsurvival:hunter_ambusher"
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/hunter_ambusher"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/hunter_ambusher.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:ambusher_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "kill_hunter_ambusher"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

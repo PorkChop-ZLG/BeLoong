@@ -299,15 +299,17 @@
   "death.attack.dragonsurvival.wind_breath": "%s被大风刮走了",
   "death.attack.dragonsurvival.wind_breath.player": "%s被%s的大风刮走了",
 
-  "ui.fancymenu.singleplayer": "单人游戏",
-  "ui.fancymenu.multiplayer": "多人游戏",
-  "ui.fancymenu.mods": "模组",
-  "ui.fancymenu.options": "设置",
-  "ui.fancymenu.quit": "退出",
+  "ui.fancymenu.singleplayer": "一条龙的冒险",
+  "ui.fancymenu.multiplayer": "一群龙的冒险",
+  "ui.fancymenu.mods": "模组设置",
+  "ui.fancymenu.options": "游戏选项",
+  "ui.fancymenu.quit": "退出游戏",
   "ui.fancymenu.server1": "星遥游戏",
   "ui.fancymenu.server1.desc": "联机推荐 - 星遥游戏",
   "ui.fancymenu.server2": "星叶云联",
   "ui.fancymenu.server2.desc": "联机推荐 - 星叶云联",
   "ui.fancymenu.afdian1": "【赞助作者】",
-  "ui.fancymenu.afdian2": "点击图片前往爱发电"
+  "ui.fancymenu.afdian2": "点击图片前往爱发电",
+  "ui.fancymenu.to_vanilla": "切换原版界面",
+  "ui.fancymenu.to_beloong": "切换化龙界面"
 }

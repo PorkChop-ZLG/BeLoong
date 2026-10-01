@@ -9,3 +9,6 @@
 	# Default: 100
 	# Range: 1 ~ 200
 	portrait_width_percent = 100
+	#Disable mouse scroll action in the chatbox screen (scroll up for log, down as mouse click)
+	#禁用对话框屏幕的：向上滚动到历史记录，向下滚动同鼠标点击
+	disable_mouse_scroll = false

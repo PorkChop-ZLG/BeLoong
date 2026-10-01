@@ -3446,6 +3446,20 @@
 				append = ""
 				format = ""
 
+		[type.beloong.tornado]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.beloong.tornado.icon]
+				tex = ""
+				item = ""
+
+			[type.beloong.tornado.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 		[type.legendary_monsters.laser]
 			#Color of the damage number. [NO-VALUE] to use default color.
 			color = "[NO-VALUE]"
@@ -3680,6 +3694,48 @@
 			item = ""
 
 		[type.fireBreath0.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.gn001_sword]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.gn001_sword.icon]
+			tex = ""
+			item = ""
+
+		[type.gn001_sword.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.winefox_hex_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.winefox_hex_magic.icon]
+			tex = ""
+			item = ""
+
+		[type.winefox_hex_magic.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.black_hole]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.black_hole.icon]
+			tex = ""
+			item = ""
+
+		[type.black_hole.format]
 			prepend = ""
 			append = ""
 			format = ""
@@ -5052,6 +5108,34 @@
 			item = ""
 
 		[tag."annihilator_type_a:lightning_storm".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."annihilator_type_a:gn001_sword"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."annihilator_type_a:gn001_sword".icon]
+			tex = ""
+			item = ""
+
+		[tag."annihilator_type_a:gn001_sword".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."eternal_starlight:is_cold"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."eternal_starlight:is_cold".icon]
+			tex = ""
+			item = ""
+
+		[tag."eternal_starlight:is_cold".format]
 			prepend = ""
 			append = ""
 			format = ""

@@ -13,8 +13,16 @@
   "dragon_ability.dragonsurvival.night_striker_tail_swipe.desc": "■ 将敌人§2击飞§r§7到远处，并造成少量§2伤害§r§7。\n\n§f■§r§7 龙越§f年长§r§7，攻击越强，击退越远。",
   "dragon_ability.dragonsurvival.night_striker_plasma": "等离子射击",
   "dragon_ability.dragonsurvival.night_striker_plasma.desc": "■ 发射一枚毁灭性的等离子弹，将敌人§2击飞§r§7到空中并造成§2爆炸伤害§r§7。\n\n§f■§r§7 爆炸会§f破坏方块§r§7，但会§2保留掉落物§r§7。\n\n§f■§r§7 年轻龙使用此技能时要小心，因为你也可能被§5卷入爆炸§r§7。",
+	"dragon_ability.dragonsurvival.night_striker_plasma_ly": "低当量等离子射击",
+	"dragon_ability.dragonsurvival.night_striker_plasma_ly.desc": "■ 发射一枚毁灭性的等离子弹，将敌人§2击飞§r§7到空中并造成§2爆炸伤害§r§7。\n\n§f■§r§7 降低了普通等离子弹的当量，以获得更§f精准§r§7的定点打击，可精确命中单个目标，但代价是§f更低的伤害与破坏力§r§7。\n\n§f■§r§7 年轻龙使用此技能时要小心，因为你也可能被§5卷入爆炸§r§7。",
   "dragon_ability.dragonsurvival.night_striker_plasma_breath": "等离子吐息",
   "dragon_ability.dragonsurvival.night_striker_plasma_breath.desc": "■ 你喷出一股毁灭性的等离子流，§2无视护甲§r§7并使敌人§2燃烧§r§7。",
+
+  "dragon_ability.dragonsurvival.night_striker_climbing": "攀爬利爪",
+	"dragon_ability.dragonsurvival.night_striker_climbing.desc": "■ 得益于你§2善于抓握的利爪§r§7，你可以攀爬§2所有表面§r§7。\n\n§f■§r§7 如果没有§f足够的饥饿值§r§7，技能无法激活。",
+	
+	"dragon_ability.dragonsurvival.night_striker_not_enough_hunger": "你因饥饿而太过疲惫：无法攀爬和附着在表面上。",
+  
   "dragon_penalty.dragonsurvival.night_striker_item_blacklist": "物品限制",
   "dragon_penalty.dragonsurvival.night_striker_item_blacklist.desc": "■ 龙§d无法使用§r§7或装备某些物品，包括弓、盾和三叉戟。这些物品无法装备，并会从你的快捷栏中§c掉落§r§7，但仍可用于合成。",
   "dragon_penalty.dragonsurvival.night_striker_fear_1": "恐惧与威慑",
@@ -26,6 +34,9 @@
   "dragon_ability.dragonsurvival.night_striker_mana": "夜煞魔力",
   "dragon_ability.dragonsurvival.night_striker_mana.desc": "■ 升级此技能可以提高你的§2最大魔力池§r§7，并允许你在§f阴影和黑暗处§r§7恢复魔力。\n\n■ §8等级越高，自动获得的魔力越多。",
   "skin_part.dragonsurvival.night_striker.none": "",
+	"entity.ds_night_striker_addon.night_striker_plasma": "等离子体",
+	"entity.ds_night_striker_addon.night_striker_plasma_ly": "低当量等离子体",
+	"tag.damage_type.minecraft.is_explosion": "爆炸",
   "skin_part.dragonsurvival.night_striker.teeth_none": "",
   "skin_part.dragonsurvival.night_striker.spikes_none": "",
   "skin_part.dragonsurvival.night_striker.magic_none": "",

@@ -1,0 +1,41 @@
+{
+  "icon": "dragonsurvival:penalties/night_striker/night_striker_fear",
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "beloong:loong_palace"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "dragonsurvival:animal_peace": {}
+            }
+          }
+        }
+      ]
+    }
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:mob_effect",
+    "potion": {
+      "effects": "dragonsurvival:hunter_omen",
+      "amplifier": 0,
+      "duration": 260,
+      "probability": 1,
+      "effect_particles": false,
+      "show_icon": false
+    }
+  },
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:instant",
+    "trigger_rate": 40
+  }
+}

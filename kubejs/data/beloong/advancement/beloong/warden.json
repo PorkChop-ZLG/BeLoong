@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/dead_king",
+  "criteria": {
+    "kill_warden": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:warden"
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/warden"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/warden.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:warden_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "kill_warden"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

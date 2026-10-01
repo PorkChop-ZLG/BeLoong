@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/netherlands",
+  "criteria": {
+    "kill_hunter_spearman": {
+      "conditions": {
+        "entity": {
+          "type": "dragonsurvival:hunter_spearman"
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/hunter_spearman"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/hunter_spearman.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:spearman_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "kill_hunter_spearman"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

@@ -10,14 +10,19 @@
     {
       "effect": "beloong:flight_ban",
       "amplifier": 1,
-      "duration": 100
-    }
-  ],
-  "mowziesmobs:frostmaw_spawn": [
+      "duration": 200
+    },
     {
-      "effect": "beloong:flight_ban",
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 2,
+      "duration": 200,
+      "advancement": "beloong:beloong/true_dead_king"
+    },
+    {
+      "effect": "minecraft:darkness",
       "amplifier": 0,
-      "duration": 100
+      "duration": 200,
+      "advancement": "beloong:beloong/dead_king"
     }
   ],
   "mowziesmobs:monastery": [
@@ -27,31 +32,10 @@
       "duration": 100
     }
   ],
-  "mowziesmobs:umvuthana_grove": [
-    {
-      "effect": "beloong:flight_ban",
-      "amplifier": 0,
-      "duration": 100
-    }
-  ],
-  "mowziesmobs:wrought_chamber": [
-    {
-      "effect": "beloong:flight_ban",
-      "amplifier": 0,
-      "duration": 100
-    }
-  ],
-  "block_factorys_bosses:kraken_ship": [
-    {
-      "effect": "beloong:flight_ban",
-      "amplifier": 1,
-      "duration": 100
-    }
-  ],
   "irons_spellbooks:catacombs": [
     {
       "effect": "beloong:flight_ban",
-      "amplifier": 1,
+      "amplifier": 0,
       "duration": 100
     }
   ]

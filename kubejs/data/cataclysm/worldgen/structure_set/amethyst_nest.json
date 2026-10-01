@@ -5,10 +5,5 @@
     "separation": 8,
     "spacing": 32
   },
-  "structures": [
-    {
-      "structure": "cataclysm:amethyst_nest",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

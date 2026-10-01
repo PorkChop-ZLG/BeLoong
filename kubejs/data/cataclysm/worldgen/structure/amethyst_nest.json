@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "minecraft:lush_caves",
+  "biomes": "#beloong:is_disaster",
   "start_pool": "cataclysm:amethyst_nest/start_pool",
   "use_expansion_hack": true,
   "step": "underground_decoration",

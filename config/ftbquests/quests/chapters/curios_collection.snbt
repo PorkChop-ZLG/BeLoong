@@ -748,8 +748,8 @@
 					type: "item"
 				}
 				{
-					id: "6DC0D3B2B41FCAD1"
-					item: { count: 1, id: "artifacts:strider_shoes" }
+					id: "6DA4EFAF86D91904"
+					item: { count: 1, id: "artifacts:steadfast_spikes" }
 					type: "item"
 				}
 			]
@@ -773,6 +773,11 @@
 				{
 					id: "2BC3EC921B0D089F"
 					item: { count: 1, id: "cataclysm:sturdy_boots" }
+					type: "item"
+				}
+				{
+					id: "000645E8F42A3AED"
+					item: { count: 1, id: "artifacts:strider_shoes" }
 					type: "item"
 				}
 			]

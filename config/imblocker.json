@@ -3,7 +3,8 @@
     "screenWhitelist": [
       "net.mehvahdjukaar.supplementaries.client.screens.TextHolderEditScreen",
       "net.minecraft.client.gui.screens.inventory.BookEditScreen",
-      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen"
+      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen",
+      "com.sighs.generalfeedback.client.FeedbackScreen"
     ],
     "enableScreenRecovering": false,
     "recoveredScreens": [],
@@ -11,7 +12,8 @@
     "primaryEnglishState": "CJK"
   },
   "advanceSettings": {
-    "enableCharSimulation": false
+    "charSimulationScreens": [],
+    "commandPrefixRegex": "^/"
   },
   "windowsCompatibilitySettings": {
     "enableConversionStatusApi": true,

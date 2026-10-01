@@ -13,7 +13,7 @@
 	#lootr will automatically log all unresolved tables (i.e., for containers that have a loot table associated with them but, for whatever reason, the lookup for this table returns empty). setting this option to true additionally informs players when they open containers.
 	report_unresolved_tables = false
 	#disregard chests and chunks that are outside of the world border; enable this option if you are using a world border and are suffering consistent TPS issues; if you change the world border, you will need to restart your client
-	check_world_border = false
+	check_world_border = true
 	#checks structure pieces as well as structure starts when determining if a structure contains a position, more accurate but may cause lag (default true)
 	perform_piecewise_check = true
 	#if true, accessing a Lootr container will bypass spawn protection
@@ -39,7 +39,7 @@
 	#list of dimensions (to the exclusion of all others) that loot chest should be replaced in (default: blank, allowing all dimensions, e.g., ["minecraft:overworld", "minecraft:the_end"])
 	dimension_whitelist = []
 	#list of dimensions that loot chests should not be replaced in (default: blank, allowing all dimensions, format e.g., ["minecraft:overworld", "minecraft:the_end"])
-	dimension_blacklist = []
+	dimension_blacklist = ["beloong:loong_palace"]
 	#list of dimensions by modid that loot chests should not be replaced in (default: blank, allowing all modids, format e.g., ["minecraft
 	#othermod"])
 	modid_dimension_blacklist = []
@@ -50,8 +50,8 @@
 	loot_table_blacklist = []
 	#list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 	loot_modid_blacklist = []
-	#list of loot tables whose conversion causes problems (in the same format as `loot_table_blacklist`)
-	problematic_loot_tables = ["twilightforest:structures/stronghold_boss", "atum:chests/pharaoh"]
+	#list of loot tables which will forcefully be converted even if they are included in the loot table blacklist or the problematic loot tables (format: see loot_table_blacklist)
+	loot_table_forced_whitelist = []
 
 [breaking]
 	#configuration options for breaking containers
@@ -71,6 +71,8 @@
 	brushables_self_support = false
 	#lootr item frames will not break if the blocks they are attached to are broken
 	item_frames_self_support = false
+	#breaking a lootr chest (while not sneaking) will drop a player's loot but not destroy the block, simply marking it as opened
+	break_to_drop_loot = false
 
 [power]
 	#configuration options for comparators and redstone power
@@ -81,12 +83,6 @@
 
 [notifications]
 	#configuration options for notifications
-	#prevent notifications of decaying or refreshed chests
-	disable_notifications = false
-	#maximum time (in ticks) remaining on a chest before a notification for refreshing or decaying is sent to a player (default 30 seconds, -1 for no delay)
-	# Default: 600
-	# Range: > -1
-	notification_delay = 600
 	#disables styling of breaking, decaying and refreshing messages sent to players
 	disable_message_styles = false
 
@@ -129,3 +125,9 @@
 	start_refresh_while_ticking = false
 	#overriding refresh_loot_tables, refresh_modids and refresh_dimensions: all chests will refresh after being trapped for the first time
 	refresh_all = false
+
+[team]
+	#if true, instead of providing individual loot per player, loot will be assigned based on teams. by default, the entity's scoreboard team will be used. if the player is not in a team, their own uuid will be used instead. [default: false]
+	team_loot = false
+	#the team resolver to use. by default, this is the standard minecraft scoreboard system. anyone not assigned to a scoreboard team will instead be considered in a team of just themselves. this value only needs to be set when using multiple team-based add-ons that provide teams with the same priority and you wish to specify which one you want to use. if blank or empty or the team resolver cannot be found, it will default to 'lootr:default' [default: blank]
+	pinned_team_resolver = ""

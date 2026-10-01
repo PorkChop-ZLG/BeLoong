@@ -1,5 +1,5 @@
 {
-  "parent": "beloong:beloong/dragon_curse",
+  "parent": "beloong:beloong/combat_training",
   "criteria": {
     "finish_beginner_tutorial": {
       "trigger": "minecraft:impossible"

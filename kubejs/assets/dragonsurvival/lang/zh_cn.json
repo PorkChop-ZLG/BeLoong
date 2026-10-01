@@ -3,7 +3,7 @@
   "attribute.dragonsurvival.penalty_resistance_time.desc": "增加诅咒生效前的抵抗时间",
 
   "dragon_penalty.dragonsurvival.item_blacklist": "物品限制",
-  "dragon_penalty.dragonsurvival.item_blacklist.desc": "■龙§d无法使用§7鞘翅和三叉戟，因为龙本身的能力与之冲突。这些物品不会被装备上，强行装备会从快捷栏中§c掉落§7，但你仍可以用它们进行合成。",
+  "dragon_penalty.dragonsurvival.item_blacklist.desc": "■龙§d无法使用§7盾牌、鞘翅和三叉戟，因为龙本身的能力与之冲突。这些物品不会被装备上，强行装备会从快捷栏中§c掉落§7，但你仍可以用它们进行合成。",
 
   "dragon_species.dragonsurvival.cave_dragon": "洞穴龙",
   "dragon_species.dragonsurvival.cave_dragon.locked": "§7■§6洞穴龙§7是居住在洞穴和熔岩中的真龙，能够喷吐火焰熔炼矿物。\n\n§2■特性：§7火元素魔法，免疫火焰，爪子如同镐子可挖掘岩石。\n§4■诅咒：§7畏水和畏寒，在水中和寒冷地区会损失生命值。\n\n§3■解锁条件：§7\n1.完成§6新手教程§7。§r",
@@ -17,6 +17,11 @@
   "dragon_species.dragonsurvival.sea_dragon.locked": "§7■§6海洋龙§7是生活在河流和海洋中的真龙，虽然实力强悍，但是喜欢电鱼。\n\n§2■特性：§7水元素魔法，掌控雷电，爪子如同铲子可以挖掘泥土。\n§4■诅咒：§7畏惧干燥，离开水源太久会损失生命值。\n\n§3■解锁条件：§7\n1.完成§6新手教程§7。§r",
   "dragon_species.dragonsurvival.sea_dragon.altar.desc": "§7■§6海洋龙§7是生活在河流和海洋中的真龙，虽然实力强悍，但是喜欢电鱼。\n\n§2■特性：§7水元素魔法，掌控雷电，爪子如同铲子可以挖掘泥土。\n§4■诅咒：§7畏惧干燥，离开水源太久会损失生命值。\n§6■食谱：§r%s",
   "dragon_species.dragonsurvival.sea_dragon.banner.desc": "§7■§6海洋龙§7是生活在河流和海洋中的真龙，虽然实力强悍，但是喜欢电鱼。\n\n§7■你擅长§f水产养殖§7，也一直喜爱着§f海鲜§7味道。永远生活在§f水中§7是你的宿愿，但为了获取资源，你不得不离开这片温暖的世界，冒险进入这片§c干燥§7的陆地。§r",
+
+  "dragon_stage.dragonsurvival.adult": "成年",
+  "dragon_stage.dragonsurvival.ancient": "远古",
+  "dragon_stage.dragonsurvival.newborn": "幼年",
+  "dragon_stage.dragonsurvival.young": "青年",
 
   "dragonsurvival.configuration.category.penalties": "诅咒",
   "dragonsurvival.configuration.enable_penalties": "启用诅咒",

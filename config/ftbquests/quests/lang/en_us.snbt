@@ -1,11 +1,6 @@
 {
 	chapter.0ACA55AC777A92A0.chapter_subtitle: ["Hidden Quests"]
 	chapter.0ACA55AC777A92A0.title: "〖Aether Dragon〗Path of Growth"
-	chapter.0F599041F0C4C0AF.chapter_subtitle: [
-		"Collect all legendary artifacts;"
-		"Considered as clearing 『BeLoong』"
-	]
-	chapter.0F599041F0C4C0AF.title: "Artifact Compendium"
 	chapter.1E4C1C94528F4F43.chapter_subtitle: [
 		"Chapter I: The Fallen Dragonkin"
 		"Dragon Power, Three Stages!"
@@ -14,8 +9,6 @@
 	chapter.1E4C1C94528F4F43.title: "① Dragon Survival"
 	chapter.22143E6BF4F1DBAD.chapter_subtitle: ["Hidden Quests"]
 	chapter.22143E6BF4F1DBAD.title: "〖Cave Dragon〗Path of Growth"
-	chapter.27AE0B7401476AE5.chapter_subtitle: ["High Quality, Fair Price"]
-	chapter.27AE0B7401476AE5.title: "&2&lSystem Shop"
 	chapter.29CB766687624EDA.chapter_subtitle: [
 		"Completely defeat all bosses;"
 		"Considered as clearing 『BeLoong』"
@@ -100,8 +93,6 @@
 	image.7442E9F7B40A9427.title: "欢迎您加入『化龍』交流频道\\n点击图片前往QQ频道"
 	quest.0014213DE61FC595.quest_subtitle: "Collect All Cave Dragon Furniture"
 	quest.0014213DE61FC595.title: "Cave Dragon Home"
-	quest.00628C62EEB79A37.quest_subtitle: "Pocket Dimension"
-	quest.00628C62EEB79A37.title: "Pocket Dimension Spell Scroll"
 	quest.0068C01865EF22C7.quest_subtitle: "Grow into an Adult Dragon Stage"
 	quest.0068C01865EF22C7.title: "Adult Forest Dragon"
 	quest.0088F3221CD99A3D.quest_desc: [
@@ -116,22 +107,6 @@
 	]
 	quest.0088F3221CD99A3D.quest_subtitle: "★★★★"
 	quest.0088F3221CD99A3D.title: "Cataclysm: Ender Guardian"
-	quest.00D084781CAAF9C4.quest_desc: [
-		"&6Side Story &3【Ice and Fire】 &6Quest Item."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22CDEC8A0577E317\" } }"
-	]
-	quest.00F9DB2E98984479.quest_desc: [
-		"&6Side Story &3【Ice and Fire】 &6Quest Item."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2ECA4D4990D20697\" } }"
-	]
-	quest.0105D9B7766A1BA4.quest_desc: [
-		"&aObjective: Open the Shadow Vault and obtain the Shadow Template"
-		""
-		"&6Go to the &cNether&6 while holding the &eShadow Key&6, it will guide your way."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Nether Dragon Statue&r"
-	]
-	quest.0105D9B7766A1BA4.quest_subtitle: "Deep♂Dark"
 	quest.0117683476F067D1.quest_subtitle: "Balanced Organs~"
 	quest.0148D8DF96431BD6.quest_desc: [
 		"&aObjective: Obtain a Brush and collect Dragon Scales"
@@ -172,17 +147,6 @@
 	]
 	quest.03090E47EC9BB762.quest_subtitle: "Become an Alchemist"
 	quest.032B061110A311CA.title: "Thunder Lord Equipment"
-	quest.032FB020CD21A6EB.quest_desc: [
-		"&aObjective: Activate the End Portal and enter the End"
-		""
-		"&eDragons&6 will spawn on a &especial obsidian platform&6 when entering the &5End&6."
-		"&eHumans&6 will spawn on the normal obsidian platform."
-		"&6If you cannot find the main End island, try increasing &erender distance&6."
-		""
-		"&7&oIf the central island does not load, relog."
-	]
-	quest.032FB020CD21A6EB.quest_subtitle: "Enter the End"
-	quest.032FB020CD21A6EB.title: "Final Battle"
 	quest.03300B3D470F9B73.quest_desc: [
 		"&6Jukebox&r is used to play NetEase Cloud Music records."
 		""
@@ -261,10 +225,6 @@
 	quest.03EB435BA284D2D0.title: "Observe: Ice Lily"
 	quest.040C5733423CA409.quest_subtitle: "House in the Clouds"
 	quest.040C5733423CA409.title: "Check-in: Giant’s Cabin"
-	quest.0413301F45252E5F.quest_desc: [
-		"&6Side Story &3【Iron Magic】&6 Quest Item."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
-	]
 	quest.0498FCED96BB59A4.quest_desc: [
 		"&aObjective: Inspect Loot Chests"
 		""
@@ -534,10 +494,6 @@
 	]
 	quest.0BCEE748756B8A82.quest_subtitle: "Dark Forest~ Woo~ This Eternal Truth~"
 	quest.0BCEE748756B8A82.title: "Checkpoint: Dark Forest"
-	quest.0BEABCA7656A4180.quest_desc: [
-		"&6Weapon of Cataclysm &3[Ignis]&6."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6583633BEC31ECDF\" } }"
-	]
 	quest.0BFBF916B58BF952.quest_subtitle: "Submit 4 kinds of Charcoal Foods"
 	quest.0BFBF916B58BF952.title: "Still Edible When Burnt"
 	quest.0C4859FFFC25935A.quest_desc: [
@@ -750,10 +706,6 @@
 	quest.138CBAC873742985.quest_subtitle: "Yuheng rides firm, Xihe soars high"
 	quest.138CBAC873742985.title: "&aYuheng"
 	quest.1399E2FD5FF13DE5.quest_subtitle: "Icy and Chilling"
-	quest.13E374F05CB19377.quest_desc: [
-		"&6Completion reward for the &3Dragon Codex&6."
-		"{ \"text\": \"Click to view acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5BB4A81605A76537\" } }"
-	]
 	quest.13F417E2FB58EB86.title: "Observe: Zircon Blue Flower Cluster"
 	quest.1420594CE21D4239.quest_desc: [
 		"&6Each dish has attributes. What happens if you add forbidden ingredients?&r"
@@ -762,8 +714,6 @@
 	]
 	quest.1420594CE21D4239.quest_subtitle: "Only a Genius Could Make This"
 	quest.145D2D48D83B6D72.title: "Necklace T1"
-	quest.14D31B8DCB673BE7.quest_desc: ["&6The most basic material in Dragon Survival."]
-	quest.14D31B8DCB673BE7.quest_subtitle: "Basic Material"
 	quest.14ED830A8AC56A7A.quest_desc: [
 		"&l&d「Naga」"
 		"&6Health: &a1200"
@@ -804,11 +754,6 @@
 	quest.15D4B079675BDA00.quest_subtitle: "Recipe Modified, Requires Permafrost Ingot"
 	quest.1611AF1CA2E30FEE.quest_subtitle: "Defeat Three Yeti Bosses"
 	quest.1611AF1CA2E30FEE.title: "Which One Is the Real Yeti?"
-	quest.1622BD52272D5656.quest_desc: [
-		"&6Side Story &3【Ice and Fire】&6 quest item."
-		"{ \"text\": \"Click to view how to obtain\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19632689D6646EBD\" } }"
-	]
-	quest.163153BE5D349228.title: "Sweep Items"
 	quest.16AD045AE7B461C7.quest_subtitle: "Junmai Daiginjo"
 	quest.16B32CB0D55A9718.title: "Necklace T0"
 	quest.170C5452183F9D7E.title: "Observe: Blaze Lily"
@@ -868,9 +813,6 @@
 	quest.17A9978D7AFEA210.title: "Eternal Starlight: Moonvine Colossus"
 	quest.17F6BAB9A64544C9.quest_subtitle: "Collect All Talismans"
 	quest.17F6BAB9A64544C9.title: "&aTalisman Completion"
-	quest.1818669657F8A0B2.quest_desc: ["&6Usable only in the &dStarlight Dimension&6, with a chance to summon &dMeteor Showers&6."]
-	quest.1818669657F8A0B2.quest_subtitle: "Summon Meteor Showers in Starlight Dimension"
-	quest.1818669657F8A0B2.title: "Starcall Rocket"
 	quest.18189EEE0D9A4F88.quest_desc: [
 		"&aGoal: Forge the Lightbringer Chestplate, Boots of Swiftness, and Hell Scythe"
 		""
@@ -894,8 +836,6 @@
 	]
 	quest.18189EEE0D9A4F88.quest_subtitle: "【Side Story Finale】"
 	quest.18189EEE0D9A4F88.title: "&e&lLightbringer"
-	quest.186EDCECB309BC44.quest_desc: ["&6Common crafting material in Dragon Survival."]
-	quest.186EDCECB309BC44.quest_subtitle: "Greater Dragon Remains"
 	quest.18BC27F09DE456D2.title: "Kill: Drowned"
 	quest.19632689D6646EBD.quest_desc: ["&aGoal: Collect All Dragonfrost Steel Weapons and Tools"]
 	quest.196959C6E061913D.quest_desc: [
@@ -946,11 +886,6 @@
 	]
 	quest.19DA784FDC312506.quest_subtitle: "【Forest Dragon Growth Path Finale】"
 	quest.19DA784FDC312506.title: "&2Forest Dragon Graduation"
-	quest.19EC475553EC785D.quest_subtitle: "Hey, it's clearing up now~"
-	quest.19EC475553EC785D.title: "Change Weather"
-	quest.19F5D45CF7D9CAF5.quest_desc: ["&aGoal: Collect the Full Shadow Dragon Armor Set"]
-	quest.19F5D45CF7D9CAF5.quest_subtitle: "Collect the Shadow Dragon Armor Set"
-	quest.19F5D45CF7D9CAF5.title: "Brightest and Darkest"
 	quest.1A1F4138D32ADC70.title: "Talisman T0"
 	quest.1A60448B701DF708.quest_desc: [
 		"&aGoal: Defeat the Starlight Golem and obtain the Oxidized Alloy Furnace"
@@ -967,7 +902,6 @@
 	quest.1AA55A95262C406C.title: "Primordial Ark"
 	quest.1AF16021BB5DD12E.quest_subtitle: "Complete some Forest Dragon achievements"
 	quest.1AF16021BB5DD12E.title: "Forest Dragon Fun Challenge"
-	quest.1B1B8104DED5F4AE.title: "Nether Alloy Ingot"
 	quest.1B240FEAC3D29C3B.quest_desc: [
 		"&aObjective: Obtain any dragon egg"
 		""
@@ -994,12 +928,6 @@
 	quest.1B5B7580815E49B0.title: "&5Strange Sheep"
 	quest.1BCEED323665EDE1.quest_subtitle: "Grow to Primeval Dragon Stage"
 	quest.1BCEED323665EDE1.title: "Primeval Tundra Dragon"
-	quest.1C07B232D4664C3D.quest_desc: [
-		"&6Stops natural growth when used but can still use Dragon Hearts."
-		""
-		"&7&oNo one would use this, right?"
-	]
-	quest.1C07B232D4664C3D.quest_subtitle: "Smash Valudo"
 	quest.1C1277D37C9D79ED.quest_subtitle: "Nine Steams, Three Boils~"
 	quest.1CECEAD9D6372EF2.quest_desc: [
 		"&6Use the &2Yin Yang Core&6 to write &2Two-Form Spells"
@@ -1046,14 +974,10 @@
 	quest.203D481DA0DFD214.title: "A Piece of... Art?"
 	quest.20418663EEBB6E73.quest_subtitle: "Tianquan is neither near nor far, cannot be disclosed"
 	quest.20418663EEBB6E73.title: "&2Tianquan"
+	quest.20D070B161E96410.quest_desc: ["&cUnlocked after completing the chapter 【The Undergarden】!"]
+	quest.20D070B161E96410.title: "Primordial Ark"
 	quest.20D561FC8502C837.title: "Kill: Grabbing Grass"
 	quest.20FA399F30BF33A4.quest_subtitle: "Add a slice of lemon for me"
-	quest.21609D985B493CCB.quest_desc: [
-		"&eMoonvine Colossus&6 cannot respawn after death,"
-		"&6Use corresponding items to exchange for &eone-time BOSS spawner&6."
-	]
-	quest.21609D985B493CCB.quest_subtitle: "Exchange only in the Cursed Garden"
-	quest.21609D985B493CCB.title: "Exchange Moonvine Colossus Spawner"
 	quest.217A025EF85E999C.quest_subtitle: "Kill 7 Horror Creatures"
 	quest.217A025EF85E999C.title: "Final Battle at Horrible Tomb"
 	quest.217D19EC778156E9.title: "Ring T1"
@@ -1129,20 +1053,6 @@
 	quest.2382792253556556.quest_subtitle: "&5&l『End』&r&dDragon’s Eldest Princess?"
 	quest.2382792253556556.title: "Act I: Awakening"
 	quest.23B15DCACE72783B.quest_subtitle: "Drunken Haze"
-	quest.24473ACF6BA65B65.quest_desc: [
-		"&aObjective: Craft a Structure Compass"
-		""
-		"&eStructure Compass&6 helps locate various &2structures&6,"
-		"&6one of the most practical tools in this pack."
-		"&6All &cstructures&6 in the Structure Compass are &elocalized&6,"
-		"&6simply search &2[Mod Name]&6 or &2structure Chinese name&6,"
-		"&6if not found, use English."
-		""
-		"&c(Recipe modified: requires Crying Obsidian)"
-		""
-		"&7&oCrying Obsidian is craftable"
-	]
-	quest.24473ACF6BA65B65.quest_subtitle: "True Ultimate Artifact"
 	quest.246AF6AE22BD5403.quest_desc: [
 		"&6Shift-right-click empty-handed to bind to the current Dimension Network. Admins can unbind similarly."
 		""
@@ -1155,9 +1065,6 @@
 	quest.24BCC3403F50D4C8.quest_subtitle: "One guaranteed per dragon"
 	quest.24BCC3403F50D4C8.title: "Clone Ring Guarantee"
 	quest.24FE16788AAD170E.title: "Belt T1"
-	quest.251F47EF8754FE5B.quest_desc: ["&cUnlocks after completing chapter 【Car Maids】!"]
-	quest.251F47EF8754FE5B.quest_subtitle: "Make Your Maid Invincible"
-	quest.251F47EF8754FE5B.title: "&dSubstitute Jizo"
 	quest.25304587B8DDF559.title: "Visit: Sky Village"
 	quest.25492A56F5CD9CC3.title: "Kill: Flame Beetle"
 	quest.254ACB3DBF934D44.quest_desc: [
@@ -1255,7 +1162,6 @@
 	quest.293A4F21A1CA4A9F.title: "Sea Dragon Home"
 	quest.29874A2088326B37.quest_subtitle: "When the Bird Welcomes, Cranes Soar in Glow"
 	quest.29874A2088326B37.title: "&eGlow"
-	quest.29B1D35BA68F4E5A.title: "Building Materials Optional"
 	quest.2A5E822D66F0BEA1.quest_desc: [
 		"&l&7Iron&5's &6Spells &5and &6Spellbooks&r&o&e (Iron Magic)"
 		""
@@ -1285,28 +1191,6 @@
 	quest.2ABB4BB2CFABC303.title: "Kill: Wanderer"
 	quest.2B28373035E0963F.quest_subtitle: "&5&l\"Shadow\"&r&e A Magical Space Ring"
 	quest.2B28373035E0963F.title: "Act 3: Gift"
-	quest.2B5CAD5134FFA4AF.quest_desc: [
-		"&aWelcome to&e『&6BeLoong&e』"
-		"&6Here we introduce the core mod of this pack — &eDragon Survival&6."
-		""
-		"&eDragon Altar&6 is the core item, used to switch dragon species."
-		"&6Place the Dragon Altar on the ground, right-click to open &eDragon Selection&6. Each dragon has unique &eSkills&6, &eTraits&6, weaknesses, and special &eRecipes&6."
-		""
-		"&6Click the &dDragon Head icon&6 at the top left to view detailed info of the species."
-		"&6Click the rightmost arrow or use &dmouse wheel&6 to turn pages."
-		""
-		"{image:kubejs:textures/task/dragon_altar.png width:200 height:180 align:center}"
-		""
-		"{@pagebreak}"
-		""
-		"{image:kubejs:textures/task/dragon_editor.png width:200 height:100 align:center}"
-		"&6After selecting a dragon, enter the &aDragon Editor&6."
-		"&6The top shows the &aGrowth Stages&6, each stage with distinct appearance."
-		"&6After editing, click &aApply to All Stages&6 at top left,"
-		"&6then click &aConfirm&6 to start your &eBeLoong adventure&6!"
-	]
-	quest.2B5CAD5134FFA4AF.quest_subtitle: "Start Your『BeLoong』 Journey!"
-	quest.2B5CAD5134FFA4AF.title: "&6&lMain Quest: Dragon Survival"
 	quest.2B9D5B62DD244102.quest_subtitle: "Upgrade Tundra Dragon's 4 Passive Skills to Max Level"
 	quest.2B9D5B62DD244102.title: "Master the Secrets of Ice"
 	quest.2C055589A88C2771.quest_subtitle: "Start the Forest Dragon's Growth Journey"
@@ -1322,18 +1206,13 @@
 	]
 	quest.2C81337448F9655F.quest_subtitle: "Just Snow, Drift Into Eyes"
 	quest.2C81337448F9655F.title: "Yeti"
-	quest.2CEFD2DF7A413288.title: "Cataclysm BOSS Summon"
 	quest.2CFCFA632C2D16F5.quest_desc: ["&9Structure Compass: &bBlack Pine Knight Fortress&r"]
 	quest.2CFCFA632C2D16F5.title: "Challenge: Black Pine Knight Fortress"
 	quest.2D088213B9CC2A49.quest_subtitle: "Drunken Dream Meets Peach Immortal"
 	quest.2D5E0500D9BDF3B8.quest_subtitle: "Dreamlike as Bubbles"
-	quest.2E6A1BFF333127EA.quest_subtitle: "Small chance to drop from the Dead King"
-	quest.2E6A1BFF333127EA.title: "Ruptured Node Spell Scroll"
-	quest.2EB0BF01344C3DD7.title: "Heart-stopping Chorus Fruit"
 	quest.2ECA4D4990D20697.quest_desc: ["&aObjective: Collect all Dragonsteel weapons and tools"]
 	quest.2ECFB391DB73DDF9.quest_subtitle: "Level up all 4 Forest Dragon passive skills to max"
 	quest.2ECFB391DB73DDF9.title: "Mastery of Wooden Essence"
-	quest.2F2C234A12BA69AD.title: "Golden Turtle Egg"
 	quest.2F3416393FD59904.title: "Trinkets T2"
 	quest.2F7FBB0379616F31.quest_subtitle: "Guaranteed once per dragon"
 	quest.2F7FBB0379616F31.title: "Doppelganger Ring Guarantee"
@@ -1380,15 +1259,10 @@
 	]
 	quest.300B6A5EADD11286.quest_subtitle: "★★★"
 	quest.300B6A5EADD11286.title: "Cataclysm: Ancient Remnant"
-	quest.308ACBC769E52128.quest_desc: [
-		"&6Side Story &3【Iron's Spells 'n Spellbooks】 &6completion reward."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18189EEE0D9A4F88\" } }"
-	]
 	quest.309615294A70B9E9.quest_desc: ["&9Structure Compass: &b【YUNG】Desert Pyramid&r"]
 	quest.309615294A70B9E9.title: "Challenge: Desert Pyramid"
 	quest.30A3124E55AA6C4F.title: "High Evoker Armor"
 	quest.312B58307C35BF7B.title: "Check-in: Jungle"
-	quest.313AE70B278B465E.title: "Wool Assortment"
 	quest.314CC9DE3650F016.quest_subtitle: "Everything you want to know is here"
 	quest.314CC9DE3650F016.title: "Gensokyo in Memory"
 	quest.316AFA91B0365E94.quest_desc: [
@@ -1468,8 +1342,6 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "Learn to use spell books"
 	quest.346F1B08A0E6345D.title: "Apprentice Mage"
-	quest.34CBA8F45D46E480.quest_subtitle: "Author: YeueingE"
-	quest.34CBA8F45D46E480.title: "Prefab Building: Novice Cottage"
 	quest.34F81E5815B0AB4B.quest_desc: [
 		"An &6Ancient Battlefield &rwhose name has long been forgotten."
 		""
@@ -1606,13 +1478,6 @@
 	]
 	quest.37E22E2A0F31B536.quest_subtitle: "★★★"
 	quest.37E22E2A0F31B536.title: "Cataclysm: Netherite Ironclad"
-	quest.3859C3FFB6F2C61B.quest_desc: [
-		"&6Congratulations on completing &e【Chapter I】&6 or &e【Side Story】"
-		"&6Now the &bSystem Shop &6is open, you can exchange for various rare treasures!"
-		"&6The common currency is &dDragon Heart&6, some treasures have additional requirements."
-	]
-	quest.3859C3FFB6F2C61B.quest_subtitle: "Ding! Congratulations on unlocking 【System Shop】"
-	quest.3859C3FFB6F2C61B.title: "&e『&6BeLoong&e』&aSystem Shop"
 	quest.386CC89DE12CDBE2.title: "Necklace T3"
 	quest.3870D9E7C938B489.quest_desc: [
 		"&6Sneak + Right-click while empty-handed to bind to the current player's dimension network. Dimension network admins can sneak + right-click empty-handed to unbind."
@@ -1624,21 +1489,8 @@
 	quest.38F2CD611DFF78EA.quest_desc: ["&6Shift + Right-click to open the ledger and view today's income. Click the ledger cover to enter the menu interface. Place &eat least one dish and one drink &rinto the corresponding menu slots respectively (Left-click to select and move to the right column, left-click again to place, right-click to clear). After binding to a table, you can start operating on the ledger page~&r&r"]
 	quest.38F2CD611DFF78EA.quest_subtitle: "What's on today's menu?"
 	quest.399FE647E5FED2BE.title: "Check-in: Glacial Glacier"
-	quest.39A482BF78452D09.title: "Energizing Soup"
 	quest.39AF32032B46C495.quest_subtitle: "Begin the Aether Dragon's path of growth"
 	quest.39AF32032B46C495.title: "Aether Dragon Hatchling"
-	quest.3AA1AA79BED0F294.quest_desc: [
-		"&aExchange: Heaven's Gift + Spin to Win = Aether Dragon Soul"
-		""
-		"&eThe Inheritance Grounds &6hold the precious legacy left by ancient dragons."
-		"&6There are two types of Inheritance Grounds, the second being an &eInheritance Temple &6made of End Stone."
-		"&6In the past, ancient dragons taught young dragons the magic of flight and spin here."
-		"&6Now, these inheritances are useless, you can exchange them for &dAether Dragon Soul&6."
-		""
-		""
-		"{image:kubejs:textures/task/treasure_end_2.png width:192 height:108 align:center}"
-	]
-	quest.3AA1AA79BED0F294.title: "Skill Empowerment"
 	quest.3AF8293458FE7927.quest_desc: [
 		"Make a 2×2 small pool of water, surround it with plants, and then throw a diamond into the pool. Watch as a bolt of lightning strikes, and the portal to the Twilight Forest will open!"
 		"Now, you can also activate the Twilight Forest portal using a Dragon Egg!"
@@ -1741,10 +1593,6 @@
 	quest.3E5F53B92682C2E2.quest_subtitle: "Prepare and wear at least one piece of Thermal Springstone armor. Only fire can destroy the giant plants dwelling here."
 	quest.3E5F53B92682C2E2.title: "The Labyrinth Holding Lost Souls"
 	quest.3E9235C058186DC1.title: "Hand Ornament T0"
-	quest.3ECBA6DB5DDE8A7C.quest_desc: [
-		"&6Main Quest &3【Twilight Forest】 &6completion reward."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"316AFA91B0365E94\" } }"
-	]
 	quest.3F053183F9C244AD.quest_desc: [
 		"&aObjective: Find the castle in the Nether"
 		""
@@ -1771,17 +1619,6 @@
 	]
 	quest.3FB2C999F046AAE3.quest_subtitle: "The Crimson has spread to the Nether"
 	quest.3FB2C999F046AAE3.title: "Crimson Nether"
-	quest.3FC2BE2D5BDCA2AF.quest_desc: [
-		"&aObjective: Use a Dragon Soul to store your dragon form."
-		""
-		"&6Congratulations, you have reached the end of the path. Dragon Survival is drawing to a close."
-		"&6Hold an &dAether Dragon Soul &6and long-press right-click to &ereturn to mortal form&6."
-		"&6Within the Dragon Soul are recorded the memories of your journey,汇聚着龙族的能力."
-		"&6You can gift it to others, or keep it safe;"
-		"&6Finally, jump into the End Portal in the &eInheritance Grounds &6and embark on a new journey!"
-	]
-	quest.3FC2BE2D5BDCA2AF.quest_subtitle: "【Chapter I Concluded】"
-	quest.3FC2BE2D5BDCA2AF.title: "&6&lDragon Soul Inheritance"
 	quest.403F4499E19370C1.quest_desc: [
 		"&6The Mino++ Game Table &rlets you play UNO with your friends."
 		"You can select &6Mino &rin the &6Maid Work Mode&r."
@@ -1805,12 +1642,8 @@
 	]
 	quest.4093B7F10DE1AE47.quest_subtitle: "★★"
 	quest.4093B7F10DE1AE47.title: "Twilight Forest: Phantom Knight"
-	quest.40D693D34C2593C4.title: "BWG Log Assortment"
 	quest.410087ACF6234CC1.quest_subtitle: "Heaven grants no grace, the swirling pool reflects the sun."
 	quest.410087ACF6234CC1.title: "&5Tianxuan"
-	quest.415DFAC173D75395.quest_desc: ["&aObjective: Collect the full set of Radiant Dragon Armor"]
-	quest.415DFAC173D75395.quest_subtitle: "Collect the Radiant Dragon Armor set"
-	quest.415DFAC173D75395.title: "Reform the Golden Body"
 	quest.41DB497093B18B47.title: "Hand Ornament T1"
 	quest.4218F6E0430B190C.title: "Foot Ornament T3"
 	quest.422368D6F94C0ABD.quest_desc: [
@@ -1869,12 +1702,6 @@
 	]
 	quest.45865A0F5D63488F.quest_subtitle: "★★★★★★"
 	quest.45865A0F5D63488F.title: "Qliphoth: Malkuth"
-	quest.459C37FAE369EFF4.title: "Challenge: Blimp"
-	quest.45A70A1CEC93A865.quest_desc: [
-		"&6The base for a Dragon Beacon, making it function like a normal beacon."
-		"&6Once activated and an effect is selected, it provides that effect to nearby dragons."
-	]
-	quest.45A70A1CEC93A865.quest_subtitle: "Base for the Dragon Beacon"
 	quest.45FBCC91C2442B02.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6E02B2425A8EAB67\" } }"]
 	quest.45FBCC91C2442B02.quest_subtitle: "Kill the Starlight Golem and submit its drops"
 	quest.45FBCC91C2442B02.title: "Crowning the Throne of Wind"
@@ -1926,8 +1753,6 @@
 	]
 	quest.4747C01F2F089EA3.title: "Sahara Desert"
 	quest.474EB22EE7989B00.quest_subtitle: "Palace of the Earth Spirits Exclusive!"
-	quest.47A5ABEFE4273BB2.quest_desc: ["&6Used for crafting and activating the Dragon Beacon."]
-	quest.47A5ABEFE4273BB2.quest_subtitle: "Activate the Dragon Beacon"
 	quest.47B35B8ACB0DEA79.quest_subtitle: "Submit all flowers from Eternal Starlight"
 	quest.47B35B8ACB0DEA79.title: "Flower Fairy"
 	quest.48BAABC889E9DC5F.quest_desc: [
@@ -1994,8 +1819,6 @@
 		"&6To share the same network with friends, simply craft a &bMember Inviter&6, right-click to bind it to your network, and then throw it to your friend to use. This allows your friend to access your dimension network but without permission to bind your network to other items or blocks. You can also make a &aNetwork Controller &6to grant them higher permissions, or use a &cAdmin Member Inviter &6to invite them. If you wish to share network storage without sharing the same network, you can give them a bound &dNetwork Terminal."
 	]
 	quest.4A5D5042C28278A2.quest_subtitle: "&8If you don't understand something, press B while hovering over the item to jump to the wiki page."
-	quest.4A7563FCA42C104D.quest_subtitle: "Reset Cataclysm boss structures"
-	quest.4A7563FCA42C104D.title: "Sulfur Nectar"
 	quest.4A99ADF6D98D8013.quest_subtitle: "Complete some Cave Dragon achievements"
 	quest.4A99ADF6D98D8013.title: "Cave Dragon Fun Challenges"
 	quest.4A99D680EDD3652F.quest_subtitle: "The starry river reflects Tianshu's jade green, time in the mortal world drifts with the wind."
@@ -2010,14 +1833,6 @@
 		"Finally, click the ink button in the center to scribe the spell."
 	]
 	quest.4AC69031BAEF29B0.quest_subtitle: "The Origin of Iron's Spells"
-	quest.4AE7B82C02B26C16.quest_desc: [
-		"&aObjective: Train a Dragon Forger and buy the Key of Radiance from them."
-		""
-		"&6First, craft a &eDragon Forge &6to turn a villager into a &eDragon Forger&6."
-		"&6Then, keep &2trading &6until the villager reaches &eMaster level&6."
-		"&6Only then will the villager sell the &eKey of Radiance&6."
-	]
-	quest.4AE7B82C02B26C16.quest_subtitle: "Train a Dragon Artisan"
 	quest.4B0B81F46A5AA9B1.quest_desc: [
 		" An exquisitely crafted lamp. Its color suggests it might be cast from bronze, yet it bears no trace of verdigris; I suspect its material is some kind of magic-infused metal."
 		" The ancient lamp may have lain dormant underground for centuries. As I picked it up, I felt a lingering warmth in my palm, as if its flame had been extinguished not long ago."
@@ -2084,7 +1899,6 @@
 		"&eDragon Meal &6can also be consumed by player-dragons to gain &eSaturation &6."
 	]
 	quest.4D01D14ECFF753E3.quest_subtitle: "Dragon Raising Guide"
-	quest.4D0E47207CE1A169.title: "Untamed Lands Log Assortment"
 	quest.4D0EC1E180924188.quest_subtitle: "Guaranteed once per dragon"
 	quest.4D0EC1E180924188.title: "Doppelganger Ring Guarantee"
 	quest.4D951950709A61AE.quest_subtitle: "Night falls, veiling the jade plate; the Ji mechanism turns, probing the heavenly gate."
@@ -2146,24 +1960,6 @@
 	quest.5003D0EDCDBEB34E.title: "&bVile Undead"
 	quest.5026FCE365E612AF.quest_subtitle: "Crimson skirts stained by wine"
 	quest.5026FCE365E612AF.title: "&4Crimson Conjuration"
-	quest.5083AFBE18C36085.quest_desc: [
-		"&4The Heraldry system &6is equivalent to the spell systems of other mods (Iron's Spells, Cataclysm, etc.)."
-		""
-		"&6This system is self-contained. Although its completion is currently low, some spells can still be cast normally using the following operations."
-		""
-		"&6After unlocking your first heraldry:"
-		""
-		"&6Hold a &9Seer Orb &6and press the corresponding keybind (default: H) to cycle through selected heraldries."
-		""
-		"&6With no heraldry selected, hold the Seer Orb and long-press right-click to open the heraldry configuration screen."
-		""
-		"&6Passive heraldries need to be actively equipped (clicked) in the configuration screen to take effect."
-		""
-		"&6After selecting a heraldry, you also need to, according to the prompt on the configuration screen:"
-		""
-		"&6Keep a crystal corresponding to the spell's element type in your inventory (you don't need to prepare all corresponding crystals)."
-	]
-	quest.5083AFBE18C36085.title: "How to Use Heraldry Casting"
 	quest.508986FA5D56C11E.quest_desc: [
 		"&aObjective: Grow to the Arch Dragon stage and defeat the Dark Doppelganger"
 		""
@@ -2174,19 +1970,6 @@
 	quest.508986FA5D56C11E.title: "&cCave Dragon Completion"
 	quest.5096264BBB1C9577.quest_subtitle: "Infinite Mana"
 	quest.50BB90328AFA019B.title: "Kill: Breeze"
-	quest.50E66A5B37FF3E9B.quest_desc: [
-		"&aObjective: Find the Inheritance Grounds"
-		""
-		"&eThe Inheritance Grounds &6hold the precious legacy left by ancient dragons."
-		"&6There are two types of Inheritance Grounds, the first being a giant &eDragon Statue&6."
-		"&6At the center of the Dragon Statue lies an &dAether Dragon Soul &6that can store a dragon's form."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Inheritance Grounds&r"
-		""
-		"{image:kubejs:textures/task/treasure_end_1.png width:192 height:108 align:center}"
-	]
-	quest.50E66A5B37FF3E9B.quest_subtitle: "Resting Place of Dragon Souls"
-	quest.50E66A5B37FF3E9B.title: "Inheritance Grounds"
 	quest.51238BE8AF0EA852.title: "Check-in: Ancient City"
 	quest.5137133EEAA60C15.quest_subtitle: "Waiter! Bring out your most expensive dish!"
 	quest.513C98D0E44293EA.quest_desc: [
@@ -2262,16 +2045,6 @@
 	quest.5290F30C84D09FDE.title: "Mastery of Fire Essence"
 	quest.52E270E37E59D418.quest_subtitle: "Draw Twilight Forest Saplings"
 	quest.52E270E37E59D418.title: "Twilight Sapling Blind Box"
-	quest.53401F206F58F9C4.quest_desc: [
-		"&aObjective: Open the Guild Treasury and obtain the Dragonslayer's Blade"
-		""
-		"&eThe Dragonslayer's Blade &6is a relic of ancient dragon hunters, capable of slaying dragons."
-		"&6If it falls into dragon hands, it curses the dragon."
-		"&6Go to the &2Overworld underground&6, holding the &eGuild Key&6, which will guide your way."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Guild Treasury&r"
-	]
-	quest.53401F206F58F9C4.quest_subtitle: "The Heaven Sword and Dragon Saber"
 	quest.534483AFF139EBD4.title: "Onmyoji Armor"
 	quest.53A0BF6EAC599D29.quest_desc: ["A once very prosperous civilization flourished here, but you never witnessed it. Now, an eternal twilight shrouds this land. Only a few ruins, lush trees, and strange creatures remain in the forest. You are determined to unravel the mysteries of the Twilight Forest, but you soon discover that the ruins have new masters. Not all forest inhabitants are friendly to intruders! Find some &aTorchberries &rand &aRaven Feathers &rand combine them with &aGlowstone &rto craft a &dMagic Map Core"]
 	quest.53A0BF6EAC599D29.quest_subtitle: "The nearby structures seem to emanate hostility"
@@ -2311,11 +2084,6 @@
 	]
 	quest.5409A055F5C34999.quest_subtitle: "Starry Game | Xingye Cloud Link"
 	quest.5409A055F5C34999.title: "Multiplayer Recommendations"
-	quest.5443C9546910E4B4.quest_desc: [
-		"&6Main Quest &3【The Undergarden】 &6completion reward."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6DC97A09E372363A\" } }"
-	]
-	quest.549E269DFE9CCCBA.title: "Aether Dragon Soul"
 	quest.54A9EA09DB80D187.title: "Trinkets T0"
 	quest.55C69AD6F42A1ADA.quest_subtitle: "Cream Mint"
 	quest.561497395CA5BFAC.quest_desc: [
@@ -2352,41 +2120,9 @@
 		"&6Additionally, you need to craft the cooking utensils corresponding to the dishes. Check the EMI for details.&r&r&r"
 	]
 	quest.564CE7EE150DBED0.quest_subtitle: "Essential for Cooking"
-	quest.56AEAD8720A0B3F9.quest_desc: [
-		"&aObjective: Learn to fly, fly 1000 meters"
-		""
-		"&6As a dragon, &eflight &6is an essential skill to learn."
-		"&6Press the &d【G】 &6key; a &ewing icon &6appearing in the top-right corner indicates flight is enabled."
-		"&6Normal flight mode is the same as &eCreative flight&6."
-		"&6Hold &d【Ctrl】 &6and &d【W】 &6to accelerate, just like &eElytra flight&6."
-		"&6While doing so, &ntilting your view up&r&6 allows for vertical flight, soaring into the sky."
-		""
-		"&cNote: Flying consumes a lot of hunger; do not fly for extended periods!"
-	]
-	quest.56AEAD8720A0B3F9.quest_subtitle: "Learn Draconic Flight"
-	quest.56AEAD8720A0B3F9.title: "Learning to 'Fly'"
 	quest.56B33061AF98D6B8.quest_desc: ["&aObjective: Observe an Ice Dragon"]
 	quest.56B33061AF98D6B8.quest_subtitle: "Learn Ice Dragon habits"
 	quest.56B33061AF98D6B8.title: "Observe Ice Dragon"
-	quest.56B73043CC964E09.quest_desc: [
-		"&aObjective: Pillage a Villager"
-		""
-		"&6When a dragon attacks villagers or guild members, you gain the &dBounty Hunt &6effect."
-		"&6While under this effect, you cannot trade with villagers, but you can &cPillage &6a Villager with a profession by pressing &d【Right-click】&6."
-		"&6While &dUnder Bounty Hunt&6, there's a chance for &eScout &6squads to spawn and try to arrest you!"
-		""
-		"&dUnder Bounty Hunt &6cannot be removed with milk or death; you must wait for the duration to end."
-		"&6The quest book provides a &c【Clear Bounty Hunt】 &6item that can be used to remove the effect."
-	]
-	quest.56B73043CC964E09.quest_subtitle: "Pillage a Villager"
-	quest.56B73043CC964E09.title: "——Pillage——"
-	quest.57129F2800906CC9.quest_desc: [
-		"&6Main Quest &3【Twilight Forest】 &6easter egg reward."
-		"&6This is a special weapon, not included in the &eZenith Sword &6crafting."
-		"&6It has the highest base damage and dragon skill damage bonus."
-		"{ \"text\": \"Click to jump to acquisition method\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"254ACB3DBF934D44\" } }"
-	]
-	quest.573DE89DDB233083.title: "Concrete Assortment"
 	quest.574D327123271BA3.title: "First Entry into The End"
 	quest.577508CE564D487C.quest_subtitle: "Everything you want to know is here"
 	quest.577508CE564D487C.title: "Twilight Flavors"
@@ -2415,9 +2151,6 @@
 	quest.58076DE30F3777F1.quest_subtitle: "Craft Your Magic Weapon"
 	quest.58340821BF7679E4.quest_subtitle: "Grow to the Young Dragon stage"
 	quest.58340821BF7679E4.title: "Young Tundra Dragon"
-	quest.59340FB7B273A35A.quest_desc: ["&cUnlocked after completing chapter 【Eternal Starlight】!"]
-	quest.59340FB7B273A35A.quest_subtitle: "No dragon shall escape detection"
-	quest.59340FB7B273A35A.title: "&dMythical Dragon Seeking Staff"
 	quest.593BB9B492CFB1D9.quest_subtitle: "The wildfire cannot be consumed"
 	quest.593BB9B492CFB1D9.title: "&6Blazing Conjuration"
 	quest.59524F0DEF703874.title: "Challenge: Citadel"
@@ -2542,16 +2275,6 @@
 		"&7【 &l&6Echo of Telos&e·&4The First Fire Receiver &7】"
 	]
 	quest.5CE2B692394FA5A2.quest_subtitle: "Listen, the Echo of the Origin"
-	quest.5CFF88C245EF7BE5.quest_desc: ["&cNote: This spawns a 【Coral Golem】 right on the spot!"]
-	quest.5CFF88C245EF7BE5.quest_subtitle: "Drops Crystallized Coral"
-	quest.5CFF88C245EF7BE5.title: "Coral Golem"
-	quest.5D05EE02D584AF2F.quest_desc: [
-		"&aObjective: Collect all Dragon Treasure Heaps"
-		""
-		"&eDragon Treasure Heaps &6are places where dragons rest and can recover health."
-	]
-	quest.5D05EE02D584AF2F.quest_subtitle: "Collect all Dragon Treasure Heaps"
-	quest.5D05EE02D584AF2F.title: "Shiny and Sparkling"
 	quest.5D56B0917C5223A6.quest_desc: ["&6Combine a Ring of Affinity with a Spell Scroll on an Arcane Anvil to create a ring that increases the spell's level by one."]
 	quest.5D56B0917C5223A6.title: "Ring T0"
 	quest.5DB104CFE665CC09.quest_desc: [
@@ -2570,19 +2293,6 @@
 	quest.5DD97094AAD4DDA2.quest_subtitle: "\"The King of Value\""
 	quest.5EE6DC4771476CC8.quest_subtitle: "Alternate Whiskey"
 	quest.5F710FD97963CF8F.title: "Cleric Armor"
-	quest.5FCFEA69626A53AE.quest_desc: [
-		"&d&l【Chinese Courtyard】"
-		""
-		"&aBeLoong 1st Building Contest &eRunner-up Work"
-		""
-		"&6Author: &ezchuan_che"
-		"&6Dimensions: &e48X25X48&c (Please leave space!)"
-		""
-		"&7&oRight-click on the ground to place, otherwise it might be consumed"
-		"&7&oYou'll be knocked back after placing, suggest enabling flight"
-	]
-	quest.5FCFEA69626A53AE.quest_subtitle: "Author: zchuan_che"
-	quest.5FCFEA69626A53AE.title: "Prefab Building: Chinese Courtyard"
 	quest.60B7FFFA63E2B4B2.title: "Frost Enforcer Armor"
 	quest.60E6ED7ED056ABDD.title: "Charm T2"
 	quest.61841B2C10B08D91.quest_desc: [
@@ -2657,13 +2367,6 @@
 	quest.6344D6B5AEC69478.title: "&d&lFinal Starlight"
 	quest.634C5657E921C26C.quest_subtitle: "Submit all exclusive foods for the Sea Dragon"
 	quest.634C5657E921C26C.title: "Sea Dragon's Delicacies"
-	quest.63DB1E9C5C2FDC80.quest_desc: [
-		"&6Allows you to modify terrain and structures like a &eDeity&6, with infinite durability."
-		""
-		"&cUnlocked after completing chapter 【Goal Three: Complete Dragon Collection】!"
-	]
-	quest.63DB1E9C5C2FDC80.quest_subtitle: "Moving mountains and filling seas, in a single thought"
-	quest.63DB1E9C5C2FDC80.title: "&dCreative Mode Building Staff"
 	quest.641714B711DFD326.quest_subtitle: "A thousand gold for fine wine"
 	quest.6501A79D7C2DC803.quest_desc: [
 		"&6Dimension network owners can bind it to the current network by sneaking and right-clicking."
@@ -2699,33 +2402,13 @@
 	quest.6583633BEC31ECDF.quest_subtitle: "★★★★"
 	quest.6583633BEC31ECDF.title: "Cataclysm: Balrog"
 	quest.65D18729B9A46063.title: "Plague Doctor Armor"
-	quest.65DF9D6C0D5E7583.quest_desc: [
-		"&aObjective: Open the Radiant Treasury and obtain the Radiant Template"
-		""
-		"&6Go to the &2Overworld underground&6, holding the &eKey of Radiance&6, which will guide your way."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Dragon Statue&r"
-	]
-	quest.65DF9D6C0D5E7583.quest_subtitle: "Do you believe in light?"
 	quest.6656025163D1E9CE.quest_desc: ["&6Apprentice Spell Books &rhave excellent overall performance, the king of value."]
 	quest.6656025163D1E9CE.quest_subtitle: "Officially embark on the mage's path"
 	quest.66787AF56BE1A6FD.quest_subtitle: "&5&l「Shadow」&r&eThe Dragon Race's First Prince?"
 	quest.66787AF56BE1A6FD.title: "Act 1: Becoming a Dragon"
 	quest.66EBF5536E322BCF.quest_subtitle: "A leap ignites Dubhe, overlooking the world like a passerby"
 	quest.66EBF5536E322BCF.title: "&6Dubhe"
-	quest.6705495FDA1F7987.quest_desc: [
-		"&eThe Dragon Beacon &6can provide effects that counteract racial weaknesses."
-		"&6Place the Dragon Beacon on &eDragon Memory &6and activate it by right-clicking with a &eKey of Origin&6."
-		"&6Once activated, consume &260 XP &6to gain the effect for &210 minutes&6."
-		""
-		"&6Effects provided by the Dragon Beacon:"
-		"&aBeastly Serenity: Unlocked by Forest Dragon, reduces the effects of darkness."
-		"&cInner Blaze: Unlocked by Cave Dragon, provides immunity to water damage."
-		"&bAquatic Ward: Unlocked by Sea Dragon, slows down dehydration time."
-	]
-	quest.6705495FDA1F7987.quest_subtitle: "Provides immunity effects for dragons"
 	quest.67177331CC1421A8.title: "Recall Dark Doppelganger"
-	quest.6739C42CBAC00318.title: "Terracotta Assortment"
 	quest.675B09EF31EDCEA1.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300B6A5EADD11286\" } }"]
 	quest.675B09EF31EDCEA1.quest_subtitle: "Kill the Ancient Remnant and submit its drops"
 	quest.675B09EF31EDCEA1.title: "Forge the Wind Dragon Physique"
@@ -2756,12 +2439,6 @@
 	quest.68A904F25FFE8956.title: "Twilight Forest: Twilight Ghast"
 	quest.68F38201DF496DA9.quest_subtitle: "Infinite Mana"
 	quest.69BE2E1BCBE71766.title: "Spell Book T0"
-	quest.69C53D16FB6FCEF5.quest_desc: [
-		"&aObjective: Defeat the Guild Knight and obtain the Key of Shadow."
-		""
-		"&eGuild Knights &6can disable dragon magic, so be cautious."
-	]
-	quest.69C53D16FB6FCEF5.quest_subtitle: "Defeat the Guild Knight"
 	quest.6A0A7CA003C79A28.title: "Check-in: Azure Depth"
 	quest.6A1268143ED70C45.quest_desc: [
 		"&l&d「Frostbitten Giant」"
@@ -2774,13 +2451,6 @@
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
 	quest.6A1268143ED70C45.title: "Mowzie's Mobs: Frostmaw"
-	quest.6B3CAAA337596F88.quest_desc: [
-		"&cNote: This spawns a 【Mimic】 right on the spot!"
-		""
-		"&7&oOnly one of the same trinket takes effect! E.g., Life Crystals cannot stack health."
-	]
-	quest.6B3CAAA337596F88.quest_subtitle: "Trinket Draw"
-	quest.6B3CAAA337596F88.title: "Mimic"
 	quest.6B64D3D885D9E1A9.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"055D72E0BC34E041\" } }"]
 	quest.6B64D3D885D9E1A9.quest_subtitle: "Kill the Cursed Winged Wraith and submit its drops"
 	quest.6B64D3D885D9E1A9.title: "Crowning the Throne of Ice"
@@ -2977,50 +2647,14 @@
 	]
 	quest.71356A8881052F9A.quest_subtitle: "Item Disguise"
 	quest.71356A8881052F9A.title: "Transmog Table"
-	quest.7140F79C02D9A138.quest_desc: [
-		"&6The &e&lstrongest weapon &6in the current version."
-		"&6Crafted from &29 &6ultimate weapons from different mods,"
-		"&6it possesses the power to &cannihilate anything&6! &7&o(Except some mechanic-based mobs)"
-		"&6Wielding this divine weapon symbolizes &dyour completion &6of this modpack."
-	]
 	quest.717F72FCA6275810.quest_subtitle: "Economical and Tasty~"
 	quest.71BFA3CE3156E064.quest_desc: ["{ \"text\": \"Click to jump to boss introduction\", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073A531B004C31E3\" } }"]
 	quest.71BFA3CE3156E064.quest_subtitle: "Kill the Leviathan and submit its drops"
 	quest.71BFA3CE3156E064.title: "Crowning the Throne of Water"
 	quest.7233CCCC69215923.quest_subtitle: "Red Dog's Delight"
-	quest.72CDF89F0B188D26.quest_desc: [
-		"&6Using this shrinks your size but deducts growth value."
-		""
-		"&7&oWould anyone actually use this?"
-	]
-	quest.72CDF89F0B188D26.quest_subtitle: "Reverse Growth"
 	quest.72D2474557AFE788.quest_subtitle: "Collect all belts"
 	quest.72D2474557AFE788.title: "&aBelts Completion"
 	quest.731F9BC680E3927E.quest_subtitle: "Infinite Mana"
-	quest.735C8B5A219C57AE.quest_desc: [
-		"&aObjective: Learn to use skills, kill 1 Iron Golem"
-		""
-		"&6Each dragon type has its own unique skills. Click &6Skill Info &fat the top of your inventory."
-		"&6A dragon can equip 4 &eActive Skills&6, located at the &ebottom-right corner &6of the screen."
-		"&6First press the &d【R】 &6key to select a skill, then hold &d【C】 &6to cast it."
-		"&6Using skills consumes &5Mana&6. The dots above the skill icon indicate your mana level."
-		"&6Mana &6increases with your &2experience level&6, and skill damage scales similarly."
-		""
-		"&cNote: If you run out of mana, skills will consume experience points!"
-		"{@pagebreak}"
-		"&6Open your inventory and click the second icon in the top row, &aSkill Info&6."
-		"&6You'll see four columns of skills from left to right, explained below."
-		""
-		"&a1: &dHotbar&6 - The four active skills in the bottom-right corner of the UI; they can be swapped."
-		"&a2: &dActive Skills&6 - Drag these to the hotbar to replace skills; their level is tied to experience."
-		"&a3: &dPassive Skills&6 - Click the arrow on the right to upgrade them, consuming experience."
-		"&a4: &dPassive Traits&6 - Represent the innate characteristics of each dragon type."
-		""
-		"&cNote: Use the mouse wheel to scroll pages, and hold Shift to view skill details!"
-		"{image:kubejs:textures/task/dragon_skill.png width:100 height:80 align:center}"
-	]
-	quest.735C8B5A219C57AE.quest_subtitle: "Learn to use draconic skills"
-	quest.735C8B5A219C57AE.title: "Draconic Magic"
 	quest.7374FD45EAC02F8D.quest_desc: [
 		"&6Place on top of an &dAethersent Block&6"
 		""
@@ -3088,14 +2722,6 @@
 	quest.75F377E217613AEF.title: "Young Sea Dragon"
 	quest.762DDE9C0729E876.quest_subtitle: "Collect all rings"
 	quest.762DDE9C0729E876.title: "&aRings Completion"
-	quest.7669BD22EB40BE98.quest_desc: [
-		"&aObjective: Purchase the Guild Key from the Guild Master"
-		""
-		"&6Find a &eGuild Master&6 and keep &2trading &6with them until they offer the &eGuild Key&6."
-		"&6You can also craft a &eBlade-Gun Promotion Order &6and"
-		"&6right-click a &eBlade-Gunner &6to promote them to a &eGuild Master&6."
-	]
-	quest.7669BD22EB40BE98.quest_subtitle: "Trade with the Guild Master"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2Nature's Compass: &aCrimson Forest&r"
 		"&2Nature's Compass: &aSpiral Forest&r"
@@ -3137,7 +2763,6 @@
 	]
 	quest.77457906D3353B69.quest_subtitle: "Must Read"
 	quest.77457906D3353B69.title: "&dKeybind Tips"
-	quest.7768704F7110F259.title: "Blocktown Blueprint Assortment"
 	quest.77777B69F96AD646.quest_desc: [
 		"&6Right-click a Dining Table with the Ledger to bind it. Right-click again to unbind. Each table gets its own number. Once you start operating, bound tables may order dishes and drinks from the menu, displayed on the left of your inventory. Fulfill the order for the corresponding table number to earn coins!"
 		"How to serve: Right-click the Dining Table with the dish or drink to place it~&r"
@@ -3199,19 +2824,6 @@
 	quest.7BEEE28B8865648E.title: "&e&lSide Story: Ice and Fire"
 	quest.7C024F9AAFDA7F51.quest_subtitle: "Begin the Sea Dragon's path of growth"
 	quest.7C024F9AAFDA7F51.title: "Sea Dragon Hatchling"
-	quest.7C16FACA6A4DF20D.quest_desc: [
-		"&d&l【Dragon's Roar Pavilion】"
-		""
-		"&aBeLoong 1st Building Contest &eChampion Work"
-		""
-		"&6Author: &e_sapphhire_"
-		"&6Dimensions: &e48X30X48&c (Please leave space!)"
-		""
-		"&7&oRight-click on the ground to place, otherwise it might be consumed"
-		"&7&oYou'll be knocked back after placing, suggest enabling flight"
-	]
-	quest.7C16FACA6A4DF20D.quest_subtitle: "Author: _sapphhire_"
-	quest.7C16FACA6A4DF20D.title: "Prefab Building: Dragon's Roar Pavilion"
 	quest.7C41D5EB11A83677.title: "Necklace T2"
 	quest.7C95E70F3183D31E.quest_subtitle: "Remilia Scarlet"
 	quest.7C9E4FA0FDC61357.quest_subtitle: "Begin the Tundra Dragon's path of growth"
@@ -3259,18 +2871,6 @@
 	]
 	quest.7E8A3F928299D963.quest_subtitle: "★★"
 	quest.7E8A3F928299D963.title: "Twilight Forest: Yeti Leader"
-	quest.7EB346A1790BD94B.quest_desc: [
-		"&aObjective: Find the Guild Castle"
-		""
-		"&eGuild Castles &6are strongholds built by humans to defend against dragons."
-		"&6Find the &eGuild Master &6and purchase the &eGuild Key &6from them."
-		""
-		"&9Structure Compass: &b【Dragon Survival】Guild Castle&r"
-		""
-		"{image:kubejs:textures/task/hunters_castle.png width:100 height:125 align:center}"
-	]
-	quest.7EB346A1790BD94B.quest_subtitle: "Find the Guild Castle"
-	quest.7EB346A1790BD94B.title: "Guild Castle"
 	quest.7F59185C7CD743A1.quest_subtitle: "From whence does the wind come?"
 	quest.7F59185C7CD743A1.title: "Obtain: Peacock Feather Fan"
 	quest.7F7757E6C4E4B498.quest_desc: [
@@ -3284,29 +2884,16 @@
 	quest.7F9E7B3E2BADCD5F.title: "Ancient Forest Dragon"
 	quest.7FC498B5DDFD8500.title: "Ring T2"
 	reward.0A0F3DE349F4B9F1.title: "Thunderstorm"
-	reward.273C176B55FD48D2.title: "Toggle Weather"
 	reward.3476152E96B2633F.title: "Random Dragon Egg"
 	reward.454B2D28BF497396.title: "Spawn 【Coral Golem】"
 	reward.4605D18D17F1BB92.title: "Return to Mortal Form"
 	reward.4BCB923F946FBCF3.title: "Spawn 【Amethyst Crab】"
 	reward.4FA5DE6B8C446E46.title: "Rain/Snow"
-	reward.5A9476EF337264A3.title: "Spawn 【Coral Golem】"
 	reward.5DA01E41DB6D6A01.title: "Choose Your Dragon Egg"
 	reward.7D4E423C2BEB7F9C.title: "Clear Sky"
 	reward_table.0F48BCBAFA4E52F3.title: "Newbie Gift Pack"
-	reward_table.149FBD4E03B83B80.title: "Concrete"
 	reward_table.1FEB68824B7D178E.title: "Dragon Egg"
-	reward_table.2DCB6EECCE37DE3C.title: "Blocktown Blueprints"
-	reward_table.3E928BE988507C6D.title: "Cataclysm Boss Summoning Items"
 	reward_table.470A343B90F6B99A.title: "Twilight Sapling Blind Box"
-	reward_table.49C6A2B8867D43FC.title: "Toggle Weather"
-	reward_table.71DE6340A041212B.title: "Wool"
-	reward_table.733BB7770F2E41F0.title: "BWG Logs"
-	reward_table.745BF7D3B0F66888.title: "Terracotta"
-	reward_table.75074E564922BA19.title: "Building Materials"
-	reward_table.7941E6ADD29C5C5F.title: "Untamed Lands Logs"
-	task.033069BC0E4FF639.title: "Read Me"
-	task.0414DE1F40AD9B98.title: "&e&lBecome a Dragon!"
 	task.059941E75EB6F378.title: "Reach the Golem Forge"
 	task.061590EA8BFD252F.title: "Welcome to 『BeLoong』"
 	task.077EE272E2EA5238.title: "Defeat the Lunar Monstrosity"

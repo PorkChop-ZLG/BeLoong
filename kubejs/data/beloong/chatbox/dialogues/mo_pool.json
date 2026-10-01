@@ -1,0 +1,38 @@
+{
+  "_comment": "末带路去化龙池。三页台词后玩家点「你别跑那么快啊！」，该选项的 click 执行两条命令：①给末 30s 速度II（600 tick，hideParticles=true 隐藏药水粒子；NpcEntity 的 run 动画判据正是「移速属性 > 基础值」，故上效果会自动切 run）；②指派路线 beloong:mo_route_3。⚠️ 「停掉末的 sit 表情」不在这里 —— 末的 sit 来自 mo_route_2 的 end_emote，按用户裁定改由【帝】的 chatbox 对话结束时执行（见 dihuang_loong.json 两个分支的 click），因为玩家是在觐见龙王之后才去找末的。⚠️ 目标必须写 @n[type=beloong:mo]：本命令由 ComponentEvent.executeCommands 以玩家身份执行（ComponentEvent.java:142-153），@s 是玩家、会被 NpcCommand.npcsIn() 过滤掉；而 ChatBox 的 <target> 占位符解析出的是显示名（MVELUtil.java:170-173,225-230），不是选择器。next 用 \"-1\" 结束对话（index 落在 [0,size) 之外 → closeDialogBox()）。",
+  "theme": "beloong:minimal",
+  "isPause": false,
+  "isScreen": true,
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.mo_pool.name",
+          "text": "beloong.chatbox.mo_pool.p1"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.mo_pool.name",
+          "text": "beloong.chatbox.mo_pool.p2"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.mo_pool.name",
+          "text": "beloong.chatbox.mo_pool.p3"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.mo_pool.opt_hurry",
+            "next": "-1",
+            "click": {
+              "type": "command",
+              "value": "effect give @n[type=beloong:mo] minecraft:speed 30 1 true; beloong npc @n[type=beloong:mo] route beloong:mo_route_3"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

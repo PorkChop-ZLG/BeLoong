@@ -1,0 +1,34 @@
+{
+  "parent": "beloong:beloong/root",
+  "criteria": {
+    "from_loong_palace": {
+      "conditions": {
+        "from": "beloong:loong_palace",
+        "to": "minecraft:overworld"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/adventure_begins"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/adventure_begins.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:grass_block"
+    }
+  },
+  "requirements": [
+    [
+      "from_loong_palace"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

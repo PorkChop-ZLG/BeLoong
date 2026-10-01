@@ -1,0 +1,33 @@
+{
+  "parent": "beloong:npc/4_1",
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dragon_egg"
+    },
+    "title": {
+      "translate": "beloong.advancement.npc/5_1"
+    },
+    "description": {
+      "translate": "beloong.advancement.npc/5_1.desc"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "rewards": {
+    "experience": 0
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,98 @@
+{
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "beloong:loong_palace"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_on_fire": true
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "effects": {
+                          "minecraft:fire_resistance": {}
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "effects": {
+                          "tundradragon:supercooling": {}
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:modifier",
+    "modifiers": [
+      {
+        "base": {
+          "id": "dragonsurvival:tundra_fire_magic_weakness",
+          "duration": 200,
+          "should_remove_automatically": false,
+          "custom_icon": "dragonsurvival:textures/gui/sprites/penalties/tundra/melting_point.png",
+          "is_hidden": false
+        },
+        "modifiers": [
+          {
+            "attribute": "dragonsurvival:dragon_ability_damage",
+            "amount": -0.5,
+            "operation": "add_multiplied_total"
+          },
+          {
+            "attribute": "dragonsurvival:mana_regeneration",
+            "amount": -0.5,
+            "operation": "add_multiplied_total"
+          },
+          {
+            "attribute": "dragonsurvival:dragon_breath_range",
+            "amount": -0.5,
+            "operation": "add_multiplied_total"
+          }
+        ]
+      }
+    ]
+  },
+  "icon": "dragonsurvival:penalties/tundra/melting_point",
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:supply",
+    "reduction_rate": 1,
+    "regeneration_rate": 0.013,
+    "supply_type": "dragonsurvival:ice_supply",
+    "trigger_rate": 20
+  }
+}

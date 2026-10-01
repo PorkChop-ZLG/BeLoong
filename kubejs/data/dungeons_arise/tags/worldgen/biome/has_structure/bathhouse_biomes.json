@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "#beloong:disaster/is_taiga",
+    "#beloong:disaster/is_plains",
+    "#beloong:disaster/is_snowy"
+  ]
+}

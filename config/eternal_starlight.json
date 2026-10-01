@@ -5,13 +5,14 @@
   "enableScreenShake": true,
   "enableLootChest": true,
   "enableBossRespawn": true,
-  "bossRespawnCooldown": 36000,
+  "bossRespawnCooldown": 12000,
   "spawnInEternalStarlight": false,
   "respawnInEternalStarlight": false,
   "startWithGuidebook": false,
   "aethersentMeteorDropRate": 5.0E-4,
   "aethersentMeteorReplaceBlocks": false,
   "mobMaxTearyTicks": 200,
+  "mobSpawnPreventionRange": 6,
   "mobsConfig": {
     "boarwarf": {
       "maxHealth": 30.0,

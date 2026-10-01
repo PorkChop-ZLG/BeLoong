@@ -1,0 +1,36 @@
+{
+  "effect": {
+    "penalty_type": "dragonsurvival:modifier",
+    "modifiers": [
+      {
+        "base": {
+          "id": "dragonsurvival:tundra_armor_penalty",
+          "duration": 20,
+          "should_remove_automatically": false,
+          "is_hidden": true
+        },
+        "modifiers": [
+          {
+            "attribute": "minecraft:generic.armor",
+            "amount": -0.5,
+            "operation": "add_multiplied_total"
+          }
+        ]
+      }
+    ]
+  },
+  "icon": "dragonsurvival:penalties/tundra/impact_weakness",
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:instant",
+    "trigger_rate": 5
+  },
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "beloong:loong_palace"
+      }
+    }
+  }
+}

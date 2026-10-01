@@ -1,0 +1,53 @@
+{
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "beloong:loong_palace"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "tundradragon:supercooling": {}
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:fire_resistance": {}
+            }
+          }
+        }
+      ]
+    }
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:damage_modification",
+    "modification": {
+      "base": {
+        "id": "tundradragon:tundra_fire_vulnerability",
+        "duration": 20,
+        "should_remove_automatically": false,
+        "is_hidden": true
+      },
+      "damage_types": "#minecraft:is_fire",
+      "multiplier": 2
+    },
+    "duration": 20
+  },
+  "icon": "dragonsurvival:penalties/tundra/heat_weakness",
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:instant",
+    "trigger_rate": 5
+  }
+}

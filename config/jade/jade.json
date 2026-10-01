@@ -21,7 +21,7 @@
     "displayEntities": true
   },
   "overlay": {
-    "alpha": 0.7,
+    "alpha": 1.0,
     "iconMode": "TOP",
     "animation": true,
     "disappearingDelay": 0.0,
@@ -31,9 +31,9 @@
     "overlayScale": 1.0,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
-    "activeTheme": "jade:dark",
+    "activeTheme": "ofg:dark",
     "overlayPosX": 0.5,
-    "overlayPosY": 1.0
+    "overlayPosY": 0.99208313
   },
   "formatting": {
     "itemModNameStyle": {
@@ -43,6 +43,6 @@
   },
   "history": {
     "hintOverlayToggle": false,
-    "themesHash": -328442023
+    "themesHash": -1792789639
   }
 }

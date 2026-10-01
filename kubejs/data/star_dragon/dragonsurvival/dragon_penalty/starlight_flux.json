@@ -1,0 +1,64 @@
+{
+  "effect": {
+    "amount": 1,
+    "damage_type": "star_dragon:starlight_exhaustion",
+    "penalty_type": "dragonsurvival:take_damage"
+  },
+  "icon": "star_dragon:penalties/star/starlight_flux",
+  "trigger": {
+    "display_like_hunger_bar": true,
+    "penalty_trigger": "dragonsurvival:supply",
+    "recovery_items": [
+      {
+        "item_predicates": [
+          {
+            "items": [
+              "star_dragon:star_apple",
+              "star_dragon:star_melon_slice",
+              "star_dragon:star_sweetberries",
+              "star_dragon:star_carrot",
+              "star_dragon:star_potato",
+              "star_dragon:star_beetroot",
+              "star_dragon:star_beef",
+              "star_dragon:star_porkchop",
+              "star_dragon:star_mutton",
+              "star_dragon:star_chicken",
+              "star_dragon:star_rabbit",
+              "star_dragon:star_cod",
+              "star_dragon:star_salmon",
+              "star_dragon:star_tropical_fish"
+            ]
+          }
+        ],
+        "percent_restored": 0.5
+      },
+      {
+        "item_predicates": [
+          {
+            "items": [
+              "star_dragon:stardust",
+              "star_dragon:star_dragon_treat",
+              "star_dragon:star_meat_bowl",
+              "star_dragon:star_salad",
+              "star_dragon:star_milk"
+            ]
+          }
+        ],
+        "percent_restored": 1.0
+      }
+    ],
+    "reduction_rate": 0.0,
+    "regeneration_rate": 0.0,
+    "supply_type": "star_dragon:star_points",
+    "trigger_rate": 20
+  },
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "beloong:loong_palace"
+      }
+    }
+  }
+}

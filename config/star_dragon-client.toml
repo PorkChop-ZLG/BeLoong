@@ -1,5 +1,19 @@
 [performance]
-	#Reduce laser visual effects (spirals, pulse rings, shockwaves). Enable on low-end PCs.
-	laserReduced = false
-	#Enable black hole accretion disk visuals. Disable on low-end PCs.
-	blackHoleAccretionDisk = true
+	#Star Laser visual quality. HIGH = full effects, MEDIUM = no spirals/shockwaves/pulses, LOW = core beam only.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	laserQuality = "HIGH"
+	#Black Hole visual quality. HIGH = lensing + disk + sucked blocks, MEDIUM = no accretion disk, LOW = event horizon only.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	blackHoleQuality = "HIGH"
+	#Meteor Shower visual quality. Controls client-side meteor/target rendering density, not server meteor count.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	meteorQuality = "HIGH"
+	#Supernova visual quality. Reduces client-side particle rendering; server damage and particle count are unchanged.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	supernovaQuality = "HIGH"
+	#Star Cube sparkle quality. Controls the star sparkles rendered on star cube block entities.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	starCubeQuality = "HIGH"
+	#Entity particle quality (Cancer domain / Gemini phantom). Reduces client-side particle spawn rates.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	entityParticleQuality = "HIGH"

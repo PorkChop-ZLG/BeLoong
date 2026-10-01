@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#beloong:disaster/is_beach",
+    "#beloong:disaster/is_plains"
+  ]
+}

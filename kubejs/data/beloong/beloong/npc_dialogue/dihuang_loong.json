@@ -1,0 +1,22 @@
+{
+  "entity": "beloong:dihuang_loong",
+  "trigger": "any",
+  "name": "beloong.dialogue.dihuang_loong.name",
+  "pages": [
+    {
+      "text": "beloong.dialogue.dihuang_loong.p1"
+    },
+    {
+      "text": "beloong.dialogue.dihuang_loong.p2"
+    }
+  ],
+  "replies": [
+    {
+      "text": "beloong.dialogue.dihuang_loong.reply1",
+      "chatbox": "beloong:dihuang_loong",
+      "group": "start",
+      "start_advancement": "beloong:npc/3_0",
+      "end_advancement": "beloong:npc/3_1"
+    }
+  ]
+}

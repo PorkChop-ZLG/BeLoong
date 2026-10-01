@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/netherlands",
+  "criteria": {
+    "kill_hunter_knight": {
+      "conditions": {
+        "entity": {
+          "type": "dragonsurvival:hunter_knight"
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/hunter_knight"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/hunter_knight.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "dragonsurvival:knight_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "kill_hunter_knight"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

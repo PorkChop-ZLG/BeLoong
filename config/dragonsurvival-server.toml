@@ -22,7 +22,7 @@
 	#Cooldown in ticks (20 ticks = 1 second) before the entity can be pillaged again
 	# Default: 6000
 	# Range: > -2147483648
-	pillage_cooldown = 6000
+	pillage_cooldown = 600
 	#Max. distance the pillage icon will be rendered at (0 means it will be disabled)
 	# Default: 32
 	# Range: > -2147483648
@@ -36,19 +36,19 @@
 		#Base value for the armor toughness attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		leader_armor_toughness = 0.0
+		leader_armor_toughness = 20.0
 		#Base value for the armor attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		leader_armor = 10.0
+		leader_armor = 40.0
 		#Base value for the max health attribute
 		# Default: 24.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		leader_health = 50.0
+		leader_health = 1000.0
 		#Base value for the knockback resistance attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		leader_knockback_resistance = 0.0
+		leader_knockback_resistance = 1.0
 
 	[dragon_hunters.knight]
 		#Base value for the attack knockback attribute
@@ -58,45 +58,45 @@
 		#Base value for the movement speed attribute
 		# Default: 0.3
 		# Range: 0.0 ~ 1.7976931348623157E308
-		knight_movement_speed = 0.3
+		knight_movement_speed = 0.4
 		#Base value for the knockback resistance attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		knight_knockback_resistance = 0.0
+		knight_knockback_resistance = 1.0
 		#Determines the chance (in %) of knights having a shield
 		# Default: 0.1
 		# Range: 0.0 ~ 1.7976931348623157E308
-		knight_shield_chance = 0.4
+		knight_shield_chance = 1.0
 		#Base value for the attack damage attribute
 		# Default: 12
 		# Range: > 0
-		knight_damage = 12
+		knight_damage = 50
 		#Base value for the max health attribute
 		# Default: 40.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		knight_health = 100.0
+		knight_health = 400.0
 		#Base value for the armor toughness attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		knight_armor_toughness = 0.0
+		knight_armor_toughness = 10.0
 		#Base value for the armor attribute
 		# Default: 10.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		knight_armor = 10.0
+		knight_armor = 20.0
 
 	[dragon_hunters.griffin]
 		#Base value for the flying speed attribute
 		# Default: 0.2
 		# Range: 0.0 ~ 1.7976931348623157E308
-		griffin_flying_speed = 0.2
+		griffin_flying_speed = 0.3
 		#Base value for the max health attribute
 		# Default: 10.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		griffin_health = 10.0
+		griffin_health = 50.0
 		#Base value for the attack damage attribute
 		# Default: 2
 		# Range: > 0
-		griffin_damage = 2
+		griffin_damage = 20
 		#Base value for the knockback resistance attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -108,7 +108,7 @@
 		#Determines the attack radius of the griffin
 		# Default: 0.9
 		# Range: 0.0 ~ 256.0
-		griffin_range = 0.9
+		griffin_range = 1.2
 		#Base value for the armor attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -126,11 +126,11 @@
 		#Additional vertical reach for the spearman
 		# Default: 3.0
 		# Range: 0.0 ~ 256.0
-		spearman_bonus_vertical_reach = 3.0
+		spearman_bonus_vertical_reach = 5.0
 		#Base value for the armor attribute
 		# Default: 2.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		spearman_armor = 2.0
+		spearman_armor = 10.0
 		#Base value for the armor toughness attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -146,15 +146,15 @@
 		#Additional horizontal reach for the spearman
 		# Default: 2.0
 		# Range: 0.0 ~ 256.0
-		spearman_bonus_horizontal_reach = 2.0
+		spearman_bonus_horizontal_reach = 4.0
 		#Base value for the max health attribute
 		# Default: 24.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		spearman_health = 24.0
+		spearman_health = 100.0
 		#Base value for the attack damage attribute
 		# Default: 6
 		# Range: > 0
-		spearman_damage = 6
+		spearman_damage = 30
 		#Base value for the movement speed attribute
 		# Default: 0.35
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -176,19 +176,19 @@
 		#Determines how many spearman reinforce the ambusher when he is attacked
 		# Default: 4
 		# Range: 0 ~ 256
-		spearman_reinforcement_count = 4
+		spearman_reinforcement_count = 8
 		#Base value for the armor attribute
 		# Default: 10.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		ambusher_armor = 10.0
+		ambusher_armor = 15.0
 		#Base value for the armor toughness attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		ambusher_armor_toughness = 0.0
+		ambusher_armor_toughness = 6.0
 		#Base value for the knockback resistance attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		ambusher_knockback_resistance = 0.0
+		ambusher_knockback_resistance = 0.5
 		#Determines the crossbow attack rate (in ticks) (20 ticks = 1 second) of the ambusher
 		# Default: 65
 		# Range: > 65
@@ -196,7 +196,7 @@
 		#Determines how many hounds reinforce the ambusher when he is attacked
 		# Default: 2
 		# Range: 0 ~ 256
-		hound_reinforcement_count = 2
+		hound_reinforcement_count = 4
 		#Determines the chance (in %) of an ambusher spawning
 		#The spawn frequency will reset even if no actual spawn occurs due to this chance not being met
 		# Default: 0.2
@@ -205,11 +205,11 @@
 		#Base value for the attack damage attribute
 		# Default: 12
 		# Range: > 0
-		ambusher_damage = 12
+		ambusher_damage = 40
 		#Base value for the max health attribute
 		# Default: 40.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		ambusher_health = 40.0
+		ambusher_health = 200.0
 
 	[dragon_hunters.hound]
 		#Base value for the armor toughness attribute
@@ -219,11 +219,11 @@
 		#Base value for the attack damage attribute
 		# Default: 2
 		# Range: > 0
-		hound_damage = 2
+		hound_damage = 5
 		#Base value for the max health attribute
 		# Default: 10.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		hound_health = 10.0
+		hound_health = 30.0
 		#Base value for the armor attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308

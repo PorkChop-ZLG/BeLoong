@@ -1,0 +1,44 @@
+{
+  "_comment": "变龙之后在化龙池边与末的收尾对话。四页末的台词，最后一页挂玩家选项 opt_wait「§e等一下，你别走啊」，next:-1 结束对话，click 执行两条命令：①发放结束进度 beloong:npc/5_1；②把末传送回龙宫维度 (0,64,-8)。⚠️ 传送目标必须写 @n[type=beloong:mo]：本命令由 ComponentEvent.executeCommands 以玩家身份执行（ComponentEvent.java:142-153），@s 是玩家；ChatBox 的 <target> 占位符解析出的是显示名（MVELUtil.java:170-173,225-230），不是选择器。用 in+positioned 指定绝对维度和坐标（不写 ~ 相对量），这样与以谁为执行者无关。",
+  "theme": "beloong:minimal",
+  "isPause": false,
+  "isScreen": true,
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dragon_talk.name",
+          "text": "beloong.chatbox.dragon_talk.p1"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dragon_talk.name",
+          "text": "beloong.chatbox.dragon_talk.p2"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dragon_talk.name",
+          "text": "beloong.chatbox.dragon_talk.p3"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dragon_talk.name",
+          "text": "beloong.chatbox.dragon_talk.p4"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.dragon_talk.opt_wait",
+            "next": "-1",
+            "click": {
+              "type": "command",
+              "value": "execute as @s run advancement grant @s only beloong:npc/5_1; execute in beloong:loong_palace positioned 0 64 -8 run tp @n[type=beloong:mo] 0 64 -8"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

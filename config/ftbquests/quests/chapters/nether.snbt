@@ -214,8 +214,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: -2.0d
+			x: -1.0d
+			y: -34.0d
 		}
 		{
 			click_action: "none:"
@@ -225,8 +225,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: -2.0d
+			x: 0.0d
+			y: -34.0d
 		}
 		{
 			click_action: "none:"
@@ -236,8 +236,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: -2.0d
+			x: 1.0d
+			y: -34.0d
 		}
 		{
 			click_action: "none:"
@@ -247,8 +247,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: 2.0d
+			x: -1.0d
+			y: -30.0d
 		}
 		{
 			click_action: "none:"
@@ -258,8 +258,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: 2.0d
+			x: 0.0d
+			y: -30.0d
 		}
 		{
 			click_action: "none:"
@@ -269,8 +269,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: 2.0d
+			x: 1.0d
+			y: -30.0d
 		}
 		{
 			click_action: "none:"
@@ -280,8 +280,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 34.0d
-			y: -1.0d
+			x: 2.0d
+			y: -33.0d
 		}
 		{
 			click_action: "none:"
@@ -291,8 +291,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 34.0d
-			y: 0.0d
+			x: 2.0d
+			y: -32.0d
 		}
 		{
 			click_action: "none:"
@@ -302,8 +302,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 34.0d
-			y: 1.0d
+			x: 2.0d
+			y: -31.0d
 		}
 		{
 			click_action: "none:"
@@ -313,8 +313,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 30.0d
-			y: -1.0d
+			x: -2.0d
+			y: -33.0d
 		}
 		{
 			click_action: "none:"
@@ -324,8 +324,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 30.0d
-			y: 0.0d
+			x: -2.0d
+			y: -32.0d
 		}
 		{
 			click_action: "none:"
@@ -335,8 +335,8 @@
 			order: 100
 			rotation: 90.0d
 			width: 1.2d
-			x: 30.0d
-			y: 1.0d
+			x: -2.0d
+			y: -31.0d
 		}
 		{
 			click_action: "none:"
@@ -346,8 +346,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: 29.0d
+			x: 1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -357,8 +357,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: 29.0d
+			x: 0.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -368,8 +368,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 33.0d
-			y: 35.0d
+			x: 1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -379,8 +379,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 32.0d
-			y: 35.0d
+			x: 0.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -390,8 +390,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 34.0d
-			y: 34.0d
+			x: 2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -401,8 +401,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: 29.0d
+			x: -1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -412,8 +412,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 30.0d
-			y: 30.0d
+			x: -2.0d
+			y: -66.0d
 		}
 		{
 			click_action: "none:"
@@ -423,8 +423,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 29.0d
-			y: 31.0d
+			x: -3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -434,8 +434,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 31.0d
-			y: 35.0d
+			x: -1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -445,8 +445,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 30.0d
-			y: 34.0d
+			x: -2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -456,8 +456,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 29.0d
-			y: 33.0d
+			x: -3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -467,8 +467,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 29.0d
-			y: 32.0d
+			x: -3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -478,8 +478,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 35.0d
-			y: 33.0d
+			x: 3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -489,8 +489,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 35.0d
-			y: 32.0d
+			x: 3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -500,8 +500,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 34.0d
-			y: 30.0d
+			x: 2.0d
+			y: -66.0d
 		}
 		{
 			click_action: "none:"
@@ -511,8 +511,8 @@
 			order: 100
 			rotation: 0.0d
 			width: 1.2d
-			x: 35.0d
-			y: 31.0d
+			x: 3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -521,8 +521,8 @@
 			image: "minecraft:textures/misc/underwater.png"
 			rotation: 0.0d
 			width: 5.8d
-			x: 32.0d
-			y: 32.0d
+			x: 0.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -532,8 +532,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 31.0d
-			y: 29.0d
+			x: -1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -543,8 +543,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
-			y: 29.0d
+			x: 1.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -554,8 +554,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
-			y: 29.0d
+			x: 0.0d
+			y: -67.0d
 		}
 		{
 			click_action: "none:"
@@ -565,8 +565,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 35.0d
-			y: 33.0d
+			x: 3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -576,8 +576,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 34.0d
-			y: 34.0d
+			x: 2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -587,8 +587,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
-			y: 30.0d
+			x: -2.0d
+			y: -66.0d
 		}
 		{
 			click_action: "none:"
@@ -598,8 +598,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 29.0d
-			y: 31.0d
+			x: -3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -609,8 +609,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 29.0d
-			y: 32.0d
+			x: -3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -620,8 +620,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 29.0d
-			y: 33.0d
+			x: -3.0d
+			y: -63.0d
 		}
 		{
 			click_action: "none:"
@@ -631,8 +631,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
-			y: 34.0d
+			x: -2.0d
+			y: -62.0d
 		}
 		{
 			click_action: "none:"
@@ -642,8 +642,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 31.0d
-			y: 35.0d
+			x: -1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -653,8 +653,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
-			y: 35.0d
+			x: 0.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -664,8 +664,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
-			y: 35.0d
+			x: 1.0d
+			y: -61.0d
 		}
 		{
 			click_action: "none:"
@@ -675,8 +675,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 35.0d
-			y: 32.0d
+			x: 3.0d
+			y: -64.0d
 		}
 		{
 			click_action: "none:"
@@ -686,8 +686,8 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 35.0d
-			y: 31.0d
+			x: 3.0d
+			y: -65.0d
 		}
 		{
 			click_action: "none:"
@@ -697,33 +697,44 @@
 			order: 200
 			rotation: 0.0d
 			width: 1.0d
-			x: 34.0d
-			y: 30.0d
+			x: 2.0d
+			y: -66.0d
 		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			icon_scale: 1.45d
 			id: "76A7A167E97880D8"
-			rewards: [{
-				id: "73C825FF467DE00D"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			size: 2.3d
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: {
-					components: {
-						"ftbquests:icon": "minecraft:block/nether_portal"
-					}
-					id: "ftbquests:custom_icon"
+			rewards: [
+				{
+					id: "05D8B6A5C50F5803"
+					type: "xp"
+					xp: 200
 				}
-				id: "31A8B2FD0F3394BF"
-				type: "dimension"
+				{
+					id: "5171B3744081BA9E"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.35d
+			tasks: [{
+				advancement: "minecraft:nether/root"
+				criterion: ""
+				id: "7A4EE1D09A86E3F5"
+				type: "advancement"
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -746,6 +757,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "791AD6A2BC80444C"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/find_bastion"
@@ -753,8 +773,8 @@
 				id: "2D918FDF74D87F25"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["37912F243389D665"]
@@ -776,6 +796,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "7F847F9161A59AFB"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/loot_bastion"
@@ -783,8 +812,8 @@
 				id: "3AB04E1F97B53087"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["54D1810722DCCC0C"]
@@ -796,11 +825,20 @@
 					xp: 200
 				}
 				{
-					count: 6
-					id: "09955E6727CF28F0"
+					count: 8
+					id: "400B1B7646C5855C"
 					item: {
 						count: 1
-						id: "minecraft:blaze_rod"
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "23EC3403249E75B4"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -811,8 +849,8 @@
 				id: "034FA97196F17AB9"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5EB5DB20B9FBF372"]
@@ -832,6 +870,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "243A485A56A363CB"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/get_wither_skull"
@@ -839,11 +886,15 @@
 				id: "2481CBA150EC7016"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["622A55D89E3ED919"]
+			dependencies: [
+				"622A55D89E3ED919"
+				"76A7A167E97880D8"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:item/wither_spawn_egg"
@@ -853,11 +904,6 @@
 			id: "7332CD16CC158C56"
 			rewards: [
 				{
-					id: "31044BA1926AB763"
-					type: "xp"
-					xp: 200
-				}
-				{
 					id: "7611D47D3E2C0C73"
 					item: {
 						count: 1
@@ -865,8 +911,23 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0BA90B399E899678"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "37789CFA567568A0"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [
 				{
 					advancement: "minecraft:nether/summon_wither"
@@ -881,17 +942,36 @@
 					value: 1L
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7332CD16CC158C56"]
 			id: "18A1C9F5BE82FFD4"
-			rewards: [{
-				id: "17C5616CB1535F20"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "17C5616CB1535F20"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7BC977CAD12F34C0"
+					item: {
+						count: 1
+						id: "block_factorys_bosses:ancient_trial_key"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "270A413513472BF3"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "block_factorys_bosses:underworld_arena_door"
@@ -900,8 +980,8 @@
 				structure: "block_factorys_bosses:underworld_arena"
 				type: "structure"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 0.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["18A1C9F5BE82FFD4"]
@@ -924,10 +1004,11 @@
 					type: "item"
 				}
 				{
-					id: "004A42F9C40CB209"
+					count: 6
+					id: "0EDFAB4CADCBAEEC"
 					item: {
 						count: 1
-						id: "block_factorys_bosses:ancient_trial_key"
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
@@ -946,11 +1027,15 @@
 					value: 5L
 				}
 			]
-			x: 16.0d
-			y: 0.0d
+			x: 0.0d
+			y: -16.0d
 		}
 		{
-			dependencies: ["7D0C169A64527891"]
+			dependencies: [
+				"7D0C169A64527891"
+				"7332CD16CC158C56"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "block_factorys_bosses:item/knight"
@@ -960,11 +1045,6 @@
 			id: "2D1C583D847AA0B2"
 			rewards: [
 				{
-					id: "24AA050770E5B970"
-					type: "xp"
-					xp: 200
-				}
-				{
 					count: 3
 					id: "4938ECC1EE08249D"
 					item: {
@@ -973,16 +1053,31 @@
 					}
 					type: "item"
 				}
+				{
+					id: "50FE079ED7BF751F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "44AB32F25B4CD3B4"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "block_factorys_bosses:kill_underworld_knight"
 				criterion: ""
 				id: "7E56883A5A0845CC"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 0.0d
+			x: 0.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2D1C583D847AA0B2"]
@@ -1001,6 +1096,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "749C5E5DC6382CB7"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -1010,8 +1114,8 @@
 				structure: "irons_spellbooks:citadel"
 				type: "structure"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 0.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["7018DCB23059AC0D"]
@@ -1030,24 +1134,32 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "7A36547E556DEF07"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5495F955126B8D97"
 				item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 0.0d
+			x: 0.0d
+			y: -22.0d
 		}
 		{
-			dependencies: ["405DCDA5AF25ABC6"]
+			dependencies: [
+				"405DCDA5AF25ABC6"
+				"2D1C583D847AA0B2"
+			]
+			dependency_requirement: "one_completed"
 			id: "1538C9C2C9C5BC1B"
 			rewards: [
-				{
-					id: "2D33D9F7508143B3"
-					type: "xp"
-					xp: 200
-				}
 				{
 					count: 5
 					id: "68916D9A9A8B72D7"
@@ -1057,8 +1169,23 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3F61DA7D3D2F596D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "44F881430DA82B8E"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				entity: "irons_spellbooks:fire_boss"
 				icon: {
@@ -1068,11 +1195,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 24.0d
-			y: 0.0d
+			x: 0.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["1538C9C2C9C5BC1B"]
+			icon: {
+				id: "minecraft:grass_block"
+			}
 			id: "7AF9D81C915F4747"
 			rewards: [
 				{
@@ -1081,45 +1211,88 @@
 					xp: 200
 				}
 				{
-					count: 12
-					id: "449E37D5D74A5661"
+					count: 3
+					id: "5BA82C4F80A03D9D"
 					item: {
 						count: 1
-						id: "minecraft:ender_pearl"
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "131A63D0C3B89C0D"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
 					}
 					type: "item"
 				}
 			]
-			tasks: [{
-				dimension: "minecraft:overworld"
-				icon: {
-					id: "minecraft:grass_block"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: {
+						id: "minecraft:grass_block"
+					}
+					id: "5F7E5C4CBDE8FFFB"
+					optional_task: true
+					type: "dimension"
 				}
-				id: "5F7E5C4CBDE8FFFB"
-				type: "dimension"
-			}]
-			x: 26.0d
-			y: 0.0d
+				{
+					advancement: "minecraft:nether/fast_travel"
+					criterion: ""
+					id: "65FD60D1131FBF54"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["7AF9D81C915F4747"]
 			id: "15C8B8AA60276011"
-			rewards: [{
-				id: "72BF55B495023B9A"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "72BF55B495023B9A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 6
+					id: "4DC870F904A0BCE7"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2B8629D9999BF4E2"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "minecraft:story/follow_ender_eye"
 				criterion: ""
 				id: "7D69778F0E26C798"
 				type: "advancement"
 			}]
-			x: 28.0d
-			y: 0.0d
+			x: 0.0d
+			y: -28.0d
 		}
 		{
-			dependencies: ["15C8B8AA60276011"]
+			dependencies: [
+				"15C8B8AA60276011"
+				"1538C9C2C9C5BC1B"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
@@ -1128,11 +1301,22 @@
 			}
 			icon_scale: 1.45d
 			id: "0F2271A7D264E7F3"
-			rewards: [{
-				id: "7D39CF23E2D59D7B"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "7D39CF23E2D59D7B"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					count: 5
+					id: "3700E838021D3C92"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 3.5d
 			tasks: [{
@@ -1141,8 +1325,8 @@
 				id: "53397A9F1FBA8B2F"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 0.0d
+			x: 0.0d
+			y: -32.0d
 		}
 		{
 			dependencies: ["0F2271A7D264E7F3"]
@@ -1164,6 +1348,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "18E57D3E3E86A70C"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -1176,8 +1369,8 @@
 				to_observe: "dragonsurvival:primordial_anchor"
 				type: "observation"
 			}]
-			x: 32.0d
-			y: 4.0d
+			x: 0.0d
+			y: -36.0d
 		}
 		{
 			dependencies: ["2294D847D63E0ADE"]
@@ -1196,6 +1389,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "547ED1A07D38E27A"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -1205,11 +1407,15 @@
 				structure: "bosses_of_mass_destruction:gauntlet_arena"
 				type: "structure"
 			}]
-			x: 32.0d
-			y: 6.0d
+			x: 0.0d
+			y: -38.0d
 		}
 		{
-			dependencies: ["50A8397A7FF4CF05"]
+			dependencies: [
+				"50A8397A7FF4CF05"
+				"0F2271A7D264E7F3"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:blazing_eye"
 			}
@@ -1228,16 +1434,26 @@
 					}
 					type: "item"
 				}
+				{
+					count: 6
+					id: "1D9EDD02CB8EABF1"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
 				criterion: ""
 				id: "7A510CC0C43BF4A5"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 8.0d
+			x: 0.0d
+			y: -40.0d
 		}
 		{
 			dependencies: ["4BEF109F5DC9F775"]
@@ -1256,6 +1472,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "25154A4DEDE8E565"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -1265,11 +1490,15 @@
 				structure: "bosses_of_mass_destruction:obsidilith_arena"
 				type: "structure"
 			}]
-			x: 32.0d
-			y: 10.0d
+			x: 0.0d
+			y: -42.0d
 		}
 		{
-			dependencies: ["15219EFBF31EEBB2"]
+			dependencies: [
+				"15219EFBF31EEBB2"
+				"4BEF109F5DC9F775"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:obsidian_heart"
 			}
@@ -1288,16 +1517,26 @@
 					}
 					type: "item"
 				}
+				{
+					count: 7
+					id: "1426FF6AA0C10AB6"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
 				criterion: ""
 				id: "48285E4FD2EB55A8"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 12.0d
+			x: 0.0d
+			y: -44.0d
 		}
 		{
 			dependencies: ["1C637B2176DD1B81"]
@@ -1316,6 +1555,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "4FD56DC7F3C07527"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: {
@@ -1325,11 +1573,15 @@
 				structure: "bosses_of_mass_destruction:lich_tower"
 				type: "structure"
 			}]
-			x: 32.0d
-			y: 14.0d
+			x: 0.0d
+			y: -46.0d
 		}
 		{
-			dependencies: ["2F65D8FD77A5EE2B"]
+			dependencies: [
+				"2F65D8FD77A5EE2B"
+				"1C637B2176DD1B81"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:ancient_anima"
 			}
@@ -1348,16 +1600,26 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "1870E90644375E75"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
 				criterion: ""
 				id: "637B7469A152D8C7"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 16.0d
+			x: 0.0d
+			y: -48.0d
 		}
 		{
 			dependencies: ["7DFFA6C409B39CC1"]
@@ -1379,6 +1641,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8
+					id: "6E17713DDCE3D605"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "dungeons_arise:find_aviary"
@@ -1386,21 +1657,20 @@
 				id: "6510E87D2A160537"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 18.0d
+			x: 0.0d
+			y: -50.0d
 		}
 		{
-			dependencies: ["3351A1696C0D3A69"]
+			dependencies: [
+				"3351A1696C0D3A69"
+				"7DFFA6C409B39CC1"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "bosses_of_mass_destruction:crystal_fruit"
 			}
 			id: "5CFC7A1D79C8C423"
 			rewards: [
-				{
-					id: "3C5DB3B545C3B45D"
-					type: "xp"
-					xp: 200
-				}
 				{
 					count: 2
 					id: "672599EEFC696AEA"
@@ -1410,41 +1680,78 @@
 					}
 					type: "item"
 				}
+				{
+					id: "418F4AC208AEA3C0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 9
+					id: "4183D699720656EF"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
 				criterion: ""
 				id: "3916D8C114FC4D2A"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 20.0d
+			x: 0.0d
+			y: -52.0d
 		}
 		{
 			dependencies: ["5CFC7A1D79C8C423"]
 			id: "71CF19C22829724C"
-			rewards: [{
-				id: "603BEC321330D1DB"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "603BEC321330D1DB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "72B87AB1FCC2B274"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "41C1735851EC9139"
 				item: { count: 1, id: "bosses_of_mass_destruction:levitation_block" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: 22.0d
+			x: 0.0d
+			y: -54.0d
 		}
 		{
 			dependencies: ["71CF19C22829724C"]
 			id: "722C45B9E7707F91"
-			rewards: [{
-				id: "3D486F6947B76BAB"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "3D486F6947B76BAB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "5FD562A8B4DCCB32"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "minecraft:end_crystal"
@@ -1456,11 +1763,15 @@
 				to_observe: "minecraft:ender_dragon"
 				type: "observation"
 			}]
-			x: 32.0d
-			y: 24.0d
+			x: 0.0d
+			y: -56.0d
 		}
 		{
-			dependencies: ["722C45B9E7707F91"]
+			dependencies: [
+				"722C45B9E7707F91"
+				"5CFC7A1D79C8C423"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:item/ender_dragon_spawn_egg"
@@ -1468,20 +1779,32 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "72885815B807121A"
-			rewards: [{
-				id: "1FD0042B023DB405"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.5d
+			rewards: [
+				{
+					id: "547A4B30E446F541"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "2E865EC517E09567"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 				id: "0A954D9F8BC69764"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 26.0d
+			x: 0.0d
+			y: -58.0d
 		}
 		{
 			id: "4320E0D168D7BD65"
@@ -1491,43 +1814,68 @@
 				id: "46E117DC022231E9"
 				type: "checkmark"
 			}]
-			x: -32.0d
-			y: -36.0d
+			x: 0.0d
+			y: 62.0d
 		}
 		{
 			dependencies: ["72885815B807121A"]
 			id: "0D4A1D70C73B98D3"
-			rewards: [{
-				id: "29EEC95DE54F619D"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "29EEC95DE54F619D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "475E8434ED26EC6D"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "minecraft:end/dragon_egg"
 				criterion: ""
 				id: "0EF8A6D573428CA7"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 28.0d
+			x: 0.0d
+			y: -60.0d
 		}
 		{
-			dependencies: ["0D4A1D70C73B98D3"]
+			dependencies: [
+				"0D4A1D70C73B98D3"
+				"72885815B807121A"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
-				id: "xfws_swords:meowmere"
+				id: "xfws_swords:sculk_katana"
 			}
+			icon_scale: 1.5d
 			id: "4C9801CCF49684B3"
 			rewards: [
-				{
-					id: "11FFF387B2553145"
-					type: "xp"
-					xp: 200
-				}
 				{
 					id: "43CA5BEB5E361310"
 					item: {
 						count: 1
-						id: "xfws_swords:meowmere"
+						id: "xfws_swords:sculk_katana"
+					}
+					type: "item"
+				}
+				{
+					id: "1D38B9BFB98C6FDC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "314BE140EBBF5E95"
+					item: {
+						count: 1
+						id: "dragonsurvival:weak_dragon_heart"
 					}
 					type: "item"
 				}
@@ -1540,8 +1888,8 @@
 				id: "7B510EBE7E4E081E"
 				type: "advancement"
 			}]
-			x: 32.0d
-			y: 32.0d
+			x: 0.0d
+			y: -64.0d
 		}
 		{
 			can_repeat: true
@@ -1570,8 +1918,324 @@
 				id: "511C8EE7CB039000"
 				type: "checkmark"
 			}]
-			x: 32.0d
+			x: -8.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["0F2271A7D264E7F3"]
+			icon: {
+				id: "darkdoppelganger:shadow_altar"
+			}
+			id: "3C5BB748322BAC9F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "29B87350E69B6B3F"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "30D925239EF5927E"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cooldown_upgrade_orb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "65D91C7F8221030F"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["3C5BB748322BAC9F"]
+			hide_until_deps_complete: true
+			id: "6E7C29B7BD87C467"
+			optional: true
+			rewards: [
+				{
+					id: "7C18F304BAD169F0"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "60CA9FF91603C8AD"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:counterspell"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:spellbreaker"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62C4D376AD690992"
+				item: { count: 1, id: "darkdoppelganger:shadow_orb" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["6E7C29B7BD87C467"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "darkdoppelganger:doppel_portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "darkdoppelganger:doppelganger_ring"
+			}
+			id: "21690FB87B5D206E"
+			optional: true
+			rewards: [
+				{
+					id: "43470707EFE27A0A"
+					type: "xp"
+					xp: 20000
+				}
+				{
+					id: "55A601674021FE8F"
+					item: {
+						count: 1
+						id: "darkdoppelganger:summon_scroll"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "165642EB82F793EE"
+					item: {
+						count: 1
+						id: "kubejs:progenitor_dragon_heart"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "darkdoppelganger:kill"
+				criterion: ""
+				id: "51ABA4D83BA6DE9C"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["37912F243389D665"]
+			id: "59B5BB4EF52AD685"
+			rewards: [
+				{
+					id: "507FCDF7A4E9100C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3BD3015571322A12"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4E9F15D6808D6A30"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "16A0C031CA6EE657"
+				type: "advancement"
+			}]
+			x: -1.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["54D1810722DCCC0C"]
+			id: "2E45C77DBA83582F"
+			rewards: [
+				{
+					id: "0327982B9FB57D60"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "11C36C78BF4C5377"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "432F04F023555F2A"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "2D2A7FCF725CFC85"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EB5DB20B9FBF372"]
+			icon: {
+				id: "minecraft:blaze_spawn_egg"
+			}
+			id: "26C96833C1F6A28B"
+			rewards: [
+				{
+					id: "7F6A520CBF045450"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "21B25E8C62F93D0A"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "52534B749000C678"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "4C6FABBAAD621FD0"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["622A55D89E3ED919"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "654403DF5078429A"
+			rewards: [
+				{
+					id: "0681D776E4AE84EE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6732DB9A2A5CB9DB"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "741737265C9776D6"
+					item: {
+						count: 1
+						id: "dragonsurvival:heart_element"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "7B91D35C9D2E8FFF"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4C9801CCF49684B3"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "xfws_swords:sculk_katana"
+			}
+			id: "13427D639FF8D906"
+			optional: true
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "53F43ABD963D793A"
+				item: {
+					count: 1
+					id: "xfws_swords:sculk_katana"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5DAECFA9FD7125B5"
+				item: { count: 1, id: "kubejs:progenitor_dragon_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -69.0d
 		}
 	]
 }

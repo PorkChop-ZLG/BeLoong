@@ -1,0 +1,48 @@
+{
+  "icon": "dragonsurvival:penalties/astral/gravity_well",
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "beloong:loong_palace"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -32
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:mob_effect",
+    "potion": {
+      "effects": "minecraft:slowness",
+      "amplifier": 0,
+      "duration": 20,
+      "probability": 0.2,
+      "effect_particles": false,
+      "show_icon": false
+    }
+  },
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:instant",
+    "trigger_rate": 100
+  }
+}

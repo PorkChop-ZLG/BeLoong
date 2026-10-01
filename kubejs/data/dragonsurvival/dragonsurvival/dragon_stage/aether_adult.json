@@ -1,15 +1,23 @@
 {
   "growth_items": [
     {
+      "growth_in_ticks": 1200,
+      "items": "dragonsurvival:elder_dragon_bone"
+    },
+    {
+      "growth_in_ticks": 6000,
+      "items": "dragonsurvival:heart_element"
+    },
+    {
       "growth_in_ticks": 72000,
       "items": "dragonsurvival:weak_dragon_heart"
     },
     {
-      "growth_in_ticks": 144000,
+      "growth_in_ticks": 108000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
-      "growth_in_ticks": -144000,
+      "growth_in_ticks": -108000,
       "items": "dragonsurvival:star_bone"
     },
     {
@@ -18,8 +26,8 @@
     }
   ],
   "growth_range": {
-    "max": 150.0,
-    "min": 100.0
+    "min": 100.0,
+    "max": 150.0
   },
   "is_default": false,
   "is_natural_growth_stopped": {
@@ -30,74 +38,84 @@
   },
   "modifiers": [
     {
-      "amount": {
-        "precise_amount": 0.009,
-        "precise_base": -0.1
-      },
       "attribute": "minecraft:generic.scale",
-      "operation": "add_value"
+      "operation": "add_value",
+      "amount": {
+        "precise_base": -0.1,
+        "precise_amount": 0.009
+      }
     },
     {
-      "amount": {
-        "type": "minecraft:linear",
-        "base": 82.0,
-        "per_level_above_first": 2.0
-      },
       "attribute": "minecraft:generic.max_health",
-      "operation": "add_value"
+      "operation": "add_value",
+      "amount": {
+        "precise_base": 80.0,
+        "precise_amount": 2.0
+      }
     },
     {
-      "amount": {
-        "type": "minecraft:linear",
-        "base": 4.1,
-        "per_level_above_first": 0.1
-      },
       "attribute": "minecraft:generic.attack_damage",
-      "operation": "add_value"
-    },
-    {
-      "amount": 3.0,
-      "attribute": "minecraft:generic.armor_toughness",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.03,
-      "attribute": "minecraft:generic.movement_speed",
-      "operation": "add_value"
-    },
-    {
-      "amount": 0.3,
-      "attribute": "minecraft:generic.jump_strength",
-      "operation": "add_value"
-    },
-    {
-      "amount": 1.4,
-      "attribute": "minecraft:generic.step_height",
-      "operation": "add_value"
-    },
-    {
-      "amount": 27.0,
-      "attribute": "minecraft:generic.safe_fall_distance",
-      "operation": "add_value"
-    },
-    {
-      "amount": 4.0,
-      "attribute": "minecraft:player.block_interaction_range",
-      "operation": "add_value"
-    },
-    {
-      "amount": 4.0,
-      "attribute": "minecraft:player.entity_interaction_range",
-      "operation": "add_value"
-    },
-    {
+      "operation": "add_value",
       "amount": {
-        "type": "minecraft:linear",
-        "base": 5.04,
-        "per_level_above_first": 0.04
-      },
+        "precise_base": 9.0,
+        "precise_amount": 0.2
+      }
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": "add_value",
+      "amount": 3.0
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_value",
+      "amount": 0.03
+    },
+    {
+      "attribute": "minecraft:generic.jump_strength",
+      "operation": "add_value",
+      "amount": 0.3
+    },
+    {
+      "attribute": "minecraft:generic.step_height",
+      "operation": "add_value",
+      "amount": 1.4
+    },
+    {
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "operation": "add_value",
+      "amount": 27.0
+    },
+    {
+      "attribute": "minecraft:player.block_interaction_range",
+      "operation": "add_value",
+      "amount": 4.0
+    },
+    {
+      "attribute": "minecraft:player.entity_interaction_range",
+      "operation": "add_value",
+      "amount": 4.0
+    },
+    {
       "attribute": "dragonsurvival:dragon_breath_range",
-      "operation": "add_value"
+      "operation": "add_value",
+      "amount": {
+        "precise_base": 5.0,
+        "precise_amount": 0.04
+      }
+    },
+    {
+      "attribute": "dragonsurvival:mana",
+      "operation": "add_value",
+      "amount": {
+        "precise_base": 4.0,
+        "precise_amount": 0.1
+      }
+    },
+    {
+      "attribute": "dragonsurvival:mana_regeneration",
+      "operation": "add_value",
+      "amount": 0.004
     }
   ],
   "ticks_until_grown": 5184000

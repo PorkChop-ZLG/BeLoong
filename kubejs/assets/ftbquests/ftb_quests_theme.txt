@@ -83,6 +83,10 @@ pinned_quest_size:                  0.75
 checkmark_task_active:   ftblibrary:icons/accept
 checkmark_task_inactive: ftblibrary:icons/accept_gray
 
+# [Loong Palace] Background
+[7C914FF1A42F8A5B]
+background:                         ftbquests:textures/gui/bg_0.png
+
 # [About BeLoong Modpack] Background
 [70F8D93CCB47276E]
 background:                         ftbquests:textures/gui/bg_shanshui.png

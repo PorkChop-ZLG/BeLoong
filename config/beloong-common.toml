@@ -6,10 +6,14 @@ bd_ftbchunks_compat = true
 fixTreasureDuplication = true
 #修复灾变结构无视数据包start_height配置，在固定Y轴生成的问题
 fixCataclysmStructureHeight = true
-#修复龙之生存弹射物崩溃
-fixDragonsurvivalProjectileCrash = true
 #修复Fsweep打开部分容器崩溃
 fixFsweepContainerCrash = true
+#Enable Ferrous Wroughtnaut damage by vanilla mace
+#允许使用原版重锤对已激活的钢铁守护者造成伤害
+enableMowzieMaceDamage = true
+#Remove Sculptor anti-cheat
+#移除通臂大师跑酷试炼中的飞行、水中和持续上升反作弊；保留距离、低于石柱和传送检测
+removeSculptorAntiCheat = true
 
 [template_update]
 	#Enable old-save template dimension migration
@@ -19,4 +23,4 @@ fixFsweepContainerCrash = true
 	#模板版本号；更新地图模板后手动 +1 可触发旧存档覆盖更新
 	# Default: 1
 	# Range: > 1
-	templateVersion = 1
+	templateVersion = 2

@@ -6,6 +6,7 @@
 .probe/
 .vscode/
 BeLoong-natives/
+cache/
 crash-reports/
 CustomSkinLoader/
 data/
@@ -15,6 +16,7 @@ defaultconfigs/
 downloads/
 dragon-survival/
 dynamic-resource-pack-cache/
+docs/tools/
 fancymenu_data/
 local/
 logs/
@@ -48,6 +50,9 @@ kubejs/spyglass.json
 # ---- 仅追踪部分 config ----
 # 以下配置文件会实时更新，所以忽略
 config/asyncparticles/asyncparticles-mixin.properties
+config/explorerscompass/groups.json
+config/explorerscompass/history.json
+config/explorerscompass/waypoints.json
 config/fabric/indigo-renderer.properties
 config/worldedit/worldedit.properties
 
@@ -60,3 +65,6 @@ config/packetfixer.properties
 # ---- 忽略的文件扩展名 ----
 .probe
 .log
+
+# ---- 本地令牌文件（含真实 PAT，禁止入库）----
+config/GeneralFeedback/example.json

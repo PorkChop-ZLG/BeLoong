@@ -1,5 +1,5 @@
 {
-  "parent": "beloong:beloong/root",
+  "parent": "beloong:beloong/finish_beginner_tutorial",
   "criteria": {
     "skip_beginner_tutorial": {
       "trigger": "minecraft:impossible"

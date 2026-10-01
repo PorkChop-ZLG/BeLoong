@@ -1,0 +1,74 @@
+{
+  "_comment": "龙王「帝」的觐见对话。⚠️ 分叉的关键：ChatOption 的 next 若为数字，是**当前组内的绝对页序号**（ComponentEvent.java:93-95 → skipDialogues(rl, group, index)，边界是该组自身页数），无法跨组；若要跳到另一段对话，next 必须写**组名字符串**（ComponentEvent.java:96-97 → skipDialogues(rl, next)，从该组第 0 页开始）。因此两个分支各占一个组：opt_awaken → awaken 组，opt_save → save 组。next 为 \"-1\" 时 index 落在 [0,size) 之外，由 ChatBoxUtil.skipDialogues 的 else 分支 closeDialogBox() 结束对话。主题沿用 beloong:minimal（它已含 dialogBox 的 @Options 显示事件与三个 functionalButton）。",
+  "theme": "beloong:minimal",
+  "isPause": false,
+  "isScreen": true,
+  "dialogues": {
+    "start": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.p1"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.p2"
+        }
+      },
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.p3"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.dihuang_loong.opt_awaken",
+            "next": "awaken"
+          },
+          {
+            "text": "beloong.chatbox.dihuang_loong.opt_save",
+            "next": "save"
+          }
+        ]
+      }
+    ],
+    "awaken": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.aw1"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.dihuang_loong.option_ok",
+            "next": "-1",
+            "click": {
+              "type": "command",
+              "value": "execute as @s run advancement grant @s only beloong:npc/3_1; beloong npc @n[type=beloong:mo] play stop"
+            }
+          }
+        ]
+      }
+    ],
+    "save": [
+      {
+        "dialogBox": {
+          "name": "beloong.chatbox.dihuang_loong.name",
+          "text": "beloong.chatbox.dihuang_loong.sv1"
+        },
+        "options": [
+          {
+            "text": "beloong.chatbox.dihuang_loong.option_ok",
+            "next": "-1",
+            "click": {
+              "type": "command",
+              "value": "execute as @s run advancement grant @s only beloong:npc/3_1; beloong npc @n[type=beloong:mo] play stop"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

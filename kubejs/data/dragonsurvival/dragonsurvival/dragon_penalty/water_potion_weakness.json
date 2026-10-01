@@ -1,0 +1,29 @@
+{
+  "effect": {
+    "amount": 2.0,
+    "damage_type": "dragonsurvival:water_burn",
+    "penalty_type": "dragonsurvival:take_damage"
+  },
+  "trigger": {
+    "item_predicates": [
+      {
+        "predicates": {
+          "minecraft:potion_contents": "minecraft:water"
+        }
+      },
+      {
+        "items": "minecraft:milk_bucket"
+      }
+    ],
+    "penalty_trigger": "dragonsurvival:item_used"
+  },
+  "condition": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "beloong:loong_palace"
+      }
+    }
+  }
+}

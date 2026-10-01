@@ -27,54 +27,32 @@
 	# Default: 20
 	# Range: 1 ~ 1200
 	checkIntervalTicks = 20
-	#传送后冷却时间（ticks），防止循环传送
-	# Default: 100
-	# Range: 0 ~ 72000
-	cooldownTicks = 100
 
 	[dimension_transport.overworldToLoongPalace]
-		#是否启用 主世界 → 龙宫 的传送
-		enabled = true
-		#触发传送的 Y 轴高度（玩家 Y > 此值时传送）
-		# Default: 8848
-		# Range: -4064 ~ 100000
-		triggerY = 10000
-		#目标维度 ID
-		targetDimension = "beloong:loong_palace"
-		#目标固定 X 坐标
+		#龙宫侧落点的固定 X 坐标
+		#本节的三个值只描述「其他世界 → 龙宫」的落点；触发方式由技能或传送门方块决定。
 		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetX = 0.5
-		#目标固定 Z 坐标
+		#龙宫侧落点的固定 Z 坐标
 		# Default: 0.5
 		# Range: -3.0E7 ~ 3.0E7
 		targetZ = 0.5
-		#高度图查找失败时的回退 Y 坐标
-		# Default: 64.5
+		#高度图取不到落点时的兜底 Y 坐标（龙宫是纯虚空维度，该列没有方块，
+		#因此高度图必然取不到——实际落点恒为该值）。
+		# Default: 65.0
 		# Range: -2032.0 ~ 2032.0
-		fallbackY = 64.5
-
-	[dimension_transport.loongPalaceToOverworld]
-		#是否启用 龙宫 → 主世界 的传送
-		enabled = true
-		#触发传送的 Y 轴高度（玩家 Y < 此值时传送）
-		# Default: 0
-		# Range: -2032 ~ 2032
-		triggerY = 0
+		fallbackY = 65.0
 
 [disaster_portal]
 	#激活传送门所需的 12 种眼球物品 ID（顺序可任意）
 	eyeItems = ["minecraft:ender_eye", "cataclysm:mech_eye", "cataclysm:flame_eye", "cataclysm:void_eye", "cataclysm:monstrous_eye", "cataclysm:abyss_eye", "cataclysm:desert_eye", "cataclysm:cursed_eye", "cataclysm:storm_eye", "fdbosses:eye_of_chesed", "fdbosses:eye_of_malkuth", "fdbosses:eye_of_geburah"]
-	#传送冷却时间（ticks），防止循环传送
-	# Default: 100
-	# Range: 0 ~ 72000
-	teleportCooldownTicks = 100
 
 [structure_effects]
 	#需要监听过期/移除事件的药水效果ID列表
 	#当这些效果过期、被牛奶清除或被指令移除时，触发结构重检
 	#具体效果与结构的映射请在 data/beloong/beloong/structure_effects/ 中配置
-	watchedEffects = ["beloong:flight_ban"]
+	watchedEffects = ["beloong:flight_ban", "minecraft:mining_fatigue", "minecraft:darkness"]
 
 [beloong_water]
 	#化龙池水冷却（ticks）
@@ -147,3 +125,23 @@
 	# Default: -6
 	# Range: -1000 ~ 1000
 	offsetZ = -6
+
+[dread_king_ritual]
+	#Enable the Dark Vault dread-king ritual
+	#启用黯影宝库死王仪式
+	enabled = true
+	#Structure id that gates the ritual (single id, no tags)
+	#触发仪式的限定结构 ID（单个，不支持标签）
+	structure = "dragonsurvival:netherlands"
+	#Ritual music volume; ALSO determines the audible radius (16 * max(volume, 1) blocks)
+	#仪式音乐音量；同时决定可闻半径（16 × max(volume, 1) 格）
+	#Vanilla jukebox uses 4.0F (64-block radius). 0.5 is 1/8 of that, i.e. a 16-block radius.
+	#原版唱片机是 4.0F（64 格）。0.5 等于其 1/8，半径随之降为 16 格。
+	# Default: 0.5
+	# Range: 0.0 ~ 16.0
+	musicVolume = 1.0
+
+[npc_dialogue]
+	#Enable the simple NPC dialogue screen
+	#启用简易 NPC 对话界面
+	enabled = true

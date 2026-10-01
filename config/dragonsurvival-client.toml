@@ -208,4 +208,4 @@
 	# Range: 0.0 ~ 0.5
 	spin_camera_entry_zoom_strength = 0.07999999821186066
 	#If enabled, Do a Barrel Roll replaces Dragon Survival's normal gliding controls and camera orientation
-	barrel_roll_compatibility = true
+	barrel_roll_compatibility = false

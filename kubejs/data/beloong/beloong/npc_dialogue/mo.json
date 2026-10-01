@@ -1,0 +1,47 @@
+{
+  "entity": "beloong:mo",
+  "trigger": "any",
+  "name": "beloong.dialogue.mo.name",
+  "pages": [
+    {
+      "text": "beloong.dialogue.mo.p1"
+    }
+  ],
+  "replies": [
+    {
+      "text": "beloong.dialogue.mo.reply1",
+      "chatbox": "beloong:mo",
+      "group": "start",
+      "start_advancement": "beloong:npc/root",
+      "end_advancement": "beloong:npc/1_1"
+    },
+    {
+      "text": "beloong.dialogue.mo.reply2",
+      "chatbox": "beloong:mo",
+      "group": "waystone",
+      "start_advancement": "beloong:npc/2_0",
+      "end_advancement": "beloong:npc/2_1"
+    },
+    {
+      "text": "beloong.dialogue.mo.lead.reply1",
+      "chatbox": "beloong:mo_pool",
+      "group": "start",
+      "start_advancement": "beloong:npc/3_1",
+      "end_advancement": "beloong:npc/4_1"
+    },
+    {
+      "text": "beloong.dialogue.mo.pool.reply1",
+      "chatbox": "beloong:pool_talk",
+      "group": "start",
+      "start_advancement": "beloong:npc/4_1",
+      "end_advancement": "beloong:beloong/root"
+    },
+    {
+      "text": "beloong.dialogue.mo.dragon.reply1",
+      "chatbox": "beloong:dragon_talk",
+      "group": "start",
+      "start_advancement": "beloong:beloong/root",
+      "end_advancement": "beloong:npc/5_1"
+    }
+  ]
+}
