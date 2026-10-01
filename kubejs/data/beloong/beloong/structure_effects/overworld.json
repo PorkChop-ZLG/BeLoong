@@ -15,7 +15,8 @@
     {
       "effect": "minecraft:mining_fatigue",
       "amplifier": 2,
-      "duration": 200
+      "duration": 200,
+      "advancement": "beloong:beloong/true_dead_king"
     },
     {
       "effect": "minecraft:darkness",

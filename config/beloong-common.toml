@@ -23,4 +23,4 @@ removeSculptorAntiCheat = true
 	#模板版本号；更新地图模板后手动 +1 可触发旧存档覆盖更新
 	# Default: 1
 	# Range: > 1
-	templateVersion = 1
+	templateVersion = 2
