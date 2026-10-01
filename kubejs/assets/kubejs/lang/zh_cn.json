@@ -309,5 +309,7 @@
   "ui.fancymenu.server2": "星叶云联",
   "ui.fancymenu.server2.desc": "联机推荐 - 星叶云联",
   "ui.fancymenu.afdian1": "【赞助作者】",
-  "ui.fancymenu.afdian2": "点击图片前往爱发电"
+  "ui.fancymenu.afdian2": "点击图片前往爱发电",
+  "ui.fancymenu.to_vanilla": "切换原版界面",
+  "ui.fancymenu.to_beloong": "切换化龙界面"
 }
