@@ -4,12 +4,12 @@ layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1790849047809
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:78d268d4-a7aa-4540-9487-2e22fe0aec0c-1790849047824] = [groups:][instances:a4408109-2a98-4091-befe-a45854196e0b-1790847181281;]
+  [loading_requirement_container_meta:785356c8-95ce-482e-b975-38cc5e243e85-1790849469756] = [groups:][instances:a4408109-2a98-4091-befe-a45854196e0b-1790847181281;]
   [loading_requirement:fancymenu_visibility_requirement_is_layout_enabled][requirement_mode:if_not][req_id:a4408109-2a98-4091-befe-a45854196e0b-1790847181281] = beloong_vanilla
 }
 
