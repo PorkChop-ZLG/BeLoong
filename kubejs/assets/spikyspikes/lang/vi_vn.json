@@ -1,0 +1,21 @@
+{
+  "block.spikyspikes.diamond_spike": "Cạm Kim Cương",
+  "block.spikyspikes.diamond_spike.description": "Gây sát thương lớn, sinh vật sẽ rơi toàn bộ chiến lợi phẩm như khi bị người chơi giết. Có thể gắn hầu hết bùa phép kiếm qua đe.",
+  "block.spikyspikes.golden_spike": "Cạm Vàng",
+  "block.spikyspikes.golden_spike.description": "Gây sát thương và giết sinh vật, chỉ rơi kinh nghiệm mà không có chiến lợi phẩm.",
+  "block.spikyspikes.iron_spike": "Cạm Sắt",
+  "block.spikyspikes.iron_spike.description": "Gây sát thương và giết sinh vật, không rơi kinh nghiệm, chỉ rơi chiến lợi phẩm.",
+  "block.spikyspikes.netherite_spike": "Cạm Hắc Kim Thạch",
+  "block.spikyspikes.netherite_spike.description": "Gây sát thương lớn, sinh vật sẽ rơi toàn bộ chiến lợi phẩm như khi bị người chơi giết. Có thể gắn hầu hết bùa phép kiếm qua đe. Chịu nổ, không bị Wither phá. Không gây sát thương cho người chơi.",
+  "block.spikyspikes.stone_spike": "Cạm Đá",
+  "block.spikyspikes.stone_spike.description": "Gây sát thương và giết sinh vật, nhưng không rơi chiến lợi phẩm hay kinh nghiệm.",
+  "block.spikyspikes.wooden_spike": "Cạm Gỗ",
+  "block.spikyspikes.wooden_spike.description": "Gây sát thương chậm cho sinh vật, nhưng không giết được sinh vật.",
+  "death.attack.spike": "%1$s giờ đã tái sinh sang một thế giới không còn sắc nhọn",
+  "death.attack.spike.player": "%1$s khi cố thoát khỏi %2$s đã có cuộc gặp gỡ thân mật với cạm gai",
+  "item.spikyspikes.spike.tooltip.damage": "Sát thương: %s",
+  "item.spikyspikes.spike.tooltip.hearts": "%s tim",
+  "item.spikyspikes.spike.tooltip.more": "Giữ %s để xem thêm",
+  "item.spikyspikes.spike.tooltip.shift": "Shift",
+  "itemGroup.spikyspikes.main": "Cạm Gai"
+}

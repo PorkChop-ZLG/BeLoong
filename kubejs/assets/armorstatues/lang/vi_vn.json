@@ -1,0 +1,23 @@
+{
+  "armorstatues.dataSync.failure": "Không thể sửa dữ liệu giá giáp: %s",
+  "armorstatues.dataSync.failure.noArmorStand": "Không tìm thấy giá giáp hợp lệ",
+  "armorstatues.dataSync.failure.noPermission": "Không đủ quyền hạn",
+  "armorstatues.dataSync.failure.notFinished": "Hàng đợi chưa được làm trống",
+  "armorstatues.dataSync.failure.outOfRange": "Ngoài phạm vi",
+  "armorstatues.dataSync.finished": "Đã gửi dữ liệu giá giáp trong hàng đợi",
+  "armorstatues.screen.vanillaTweaks.checkTarget": "Dò mục tiêu giá giáp",
+  "armorstatues.screen.vanillaTweaks.checkTarget.description": "Tô sáng giá giáp gần nhất trong phạm vi ba ô của người chơi. Do cơ chế gói dữ liệu, giá giáp đang thao tác chưa chắc là giá giáp được mở menu.",
+  "armorstatues.screen.vanillaTweaks.lock": "Khóa",
+  "armorstatues.screen.vanillaTweaks.lock.description": "Khóa giá giáp sẽ cấm sửa thuộc tính qua menu và tắt tương tác với các ô trang bị.",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndHead": "Đổi chính thủ với mũ",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndHead.description": "Hoán đổi vật phẩm trong ô chính thủ và ô mũ.",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndOffhand": "Đổi chính thủ với phụ thủ",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndOffhand.description": "Hoán đổi vật phẩm trong ô chính thủ và ô phụ thủ.",
+  "armorstatues.screen.vanillaTweaks.toolRack": "Chế độ treo công cụ",
+  "armorstatues.screen.vanillaTweaks.toolRack.description": "Căn giá giáp với móc dây trên tường phía trên, khiến công cụ trên tay chính thủ trông như đang treo. Thao tác này tự khóa giá giáp và tắt mọi ô trang bị trừ chính thủ.",
+  "armorstatues.screen.vanillaTweaks.triggerSent": "Đã gửi lệnh!",
+  "armorstatues.screen.vanillaTweaks.unlock": "Mở khóa",
+  "armorstatues.screen.vanillaTweaks.unlock.description": "Mở khóa giá giáp sẽ khôi phục mọi thuộc tính đã bị sửa khi khóa.",
+  "statuemenus.screen.type.alignments": "Cài đặt căn chỉnh",
+  "statuemenus.screen.type.vanillaTweaks": "Tinh chỉnh vanilla"
+}

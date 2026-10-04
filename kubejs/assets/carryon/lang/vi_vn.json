@@ -1,0 +1,14 @@
+{
+  "carryon.category.settings": "Cài đặt",
+  "carryon.category.blacklist": "Danh sách đen",
+  "carryon.category.modeloverrides": "Ghi đè mô hình (nâng cao)",
+  "carryon.category.custompickupconditions": "Điều kiện nhặt tùy chỉnh (nâng cao)",
+  "carryon.category.whitelist": "Danh sách trắng",
+  "carryon.general.modeloverrides.modeloverrides": "Cấu hình ghi đè mô hình",
+  "carryon.general.blacklist.forbiddenentities": "Thực thể người chơi không thể nhặt",
+  "carryon.general.blacklist.forbiddentiles": "Khối người chơi không thể nhặt",
+  "carryon.category.custompickupconditions.custompickupconditionsblocks": "Điều kiện nhặt khối tùy chỉnh",
+  "carryon.category.custompickupconditions.custompickupconditionsentities": "Điều kiện nhặt thực thể tùy chỉnh",
+  "key.carry.desc": "Mang vác",
+  "key.carry.category": "Mang vác"
+}

@@ -1,0 +1,9 @@
+{
+  "item.ds_night_striker_addon.striker_plasma_item": "Vật phẩm Plasma Striker",
+  "item.ds_night_striker_addon.striker_plasma_item_ly": "Vật phẩm Plasma Striker, Hiệu suất thấp",
+  "effect.ds_night_striker_addon.i_am_striker": "Ta Là Striker",
+  "gamerule.strikerPlasmaPower.description": "Vụ nổ của Night Striker mạnh đến đâu? Giá trị càng cao, bán kính nổ càng lớn và đẩy lùi càng mạnh.",
+  "gamerule.strikerPlasmaPower": "Sức mạnh Plasma Striker",
+  "gamerule.strikerPlasmaPush": "Đẩy lùi Plasma Striker",
+  "gamerule.strikerPlasmaPush.description": "Sinh vật bị hất tung lên cao bao nhiêu sau vụ nổ?"
+}

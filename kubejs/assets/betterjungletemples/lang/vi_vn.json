@@ -1,0 +1,13 @@
+{
+  "Use /locate structure betterjungletemples:jungle_temple instead!": "Hãy dùng /locate structure betterjungletemples:jungle_temple để định vị!",
+  "text.autoconfig.betterjungletemples-fabric-1_21.title": "YUNG: Tối Ưu Đền Rừng Nhiệt Đới",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples": "YUNG: Tối Ưu Đền Rừng Nhiệt Đới",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general": "Chung",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.@Tooltip": "Cài đặt chung",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat": "Tương thích mod",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.@Tooltip": "Cài đặt tương thích mod",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples": "Tắt đền rừng nhiệt đới vanilla",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples.@Tooltip": "Có tắt sinh thành đền rừng nhiệt đới vanilla hay không",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled": "Bật tương thích Pick Your Poison",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled.@Tooltip": "Có sinh Phi tiêu độc PYP trong đền rừng cải tiến hay không"
+}

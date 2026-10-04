@@ -1,0 +1,13 @@
+{
+  "akashictome.sudo_name": "Vĩnh Lạc Đại Điển (%s)",
+  "akashictome.click_morph": "Shift+Nhấn chuột phải để thay đổi",
+  "item.akashictome.tome": "Vĩnh Lạc Đại Điển",
+  "akashictome.misc.shift_for_info": "§7Giữ §bSHIFT§7 để xem thêm thông tin",
+  "akashictome.configuration.Allow all items to be added": "Cho phép thêm mọi vật phẩm",
+  "akashictome.configuration.Whitelisted Items": "Vật phẩm danh sách trắng",
+  "akashictome.configuration.Blacklisted Mods": "Mod danh sách đen",
+  "akashictome.configuration.Mod Aliases": "Bí danh mod",
+  "akashictome.configuration.Hide Book Render": "Ẩn hiển thị sách",
+  "akashictome.configuration.Whitelisted Names": "Tên danh sách trắng",
+  "akashictome.configuration.Blacklisted Items": "Vật phẩm danh sách đen"
+}

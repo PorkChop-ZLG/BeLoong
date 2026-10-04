@@ -1,0 +1,8 @@
+{
+  "sodiumleafculling.options.leaf_culling.name": "Chế độ tỉa lá",
+  "sodiumleafculling.options.leaf_culling.tooltip": "Bật để tỉa những chiếc lá bị che khuất bởi lá khác nhằm tăng hiệu năng. Chế độ Rỗng sẽ tỉa mạnh tay hơn, chế độ Đặc sẽ bật kết xuất khối thực thể nhanh cho lá bị che.",
+  "options.leaf_culling.none": "Tắt",
+  "options.leaf_culling.hollow": "Chế độ Rỗng",
+  "options.leaf_culling.solid": "Chế độ Đặc",
+  "options.leaf_culling.solid_aggressive": "Chế độ Đặc Quyết liệt"
+}

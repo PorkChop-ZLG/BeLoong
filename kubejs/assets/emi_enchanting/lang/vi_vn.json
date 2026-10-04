@@ -1,0 +1,16 @@
+{
+  "emi.category.emi_enchanting.enchantments": "Thông tin phù chú",
+  "emi_enchanting.yes_good": "§0Có",
+  "emi_enchanting.no_good": "§4Không",
+  "emi_enchanting.yes_bad": "§4Có",
+  "emi_enchanting.no_bad": "§0Không",
+  "emi_enchanting.treasure": "Kho báu: %s",
+  "emi_enchanting.curse": "Nguyền rủa: %s",
+  "emi_enchanting.tradeable": "Giao dịch dân làng: %s",
+  "emi_enchanting.random": "Ngẫu nhiên: %s",
+  "emi_enchanting.maxLvl": "Cấp tối đa: %s",
+  "emi_enchanting.valid_items": "Vật phẩm hợp lệ",
+  "emi_enchanting.description": "Mô tả phù chú",
+  "emi_enchanting.exclusions": "Phù chú xung khắc",
+  "enchantment.emi_enchanting.unknown.desc": "Phù chú chưa biết"
+}

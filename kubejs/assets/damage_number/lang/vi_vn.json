@@ -1,0 +1,15 @@
+{
+  "damage_number:title.content": "Sát thương",
+  "damage_number:combo.content": "%sX Liên kích",
+  "damage_number:damage_list.content": " +%s",
+  "damage_number:number.content": "%s",
+  "damage_number:config.title": "Giao diện cấu hình",
+  "key.damage_number.show_config": "Hiển thị cấu hình số sát thương",
+  "damage_number:config.setting": "Cấu hình",
+  "damage_number:config.x": "X",
+  "damage_number:config.y": "Y",
+  "damage_number:config.scale": "Tỉ lệ",
+  "damage_number:config.opacity": "Độ trong suốt",
+  "damage_number:config.select_key": "Phần cần chỉnh",
+  "damage_number:config.max_size": "Số lượng tối đa"
+}
