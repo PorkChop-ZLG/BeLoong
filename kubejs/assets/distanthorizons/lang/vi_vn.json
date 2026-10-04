@@ -1,0 +1,1083 @@
+{
+  "distanthorizons.title":
+	"Viễn Cảnh",
+
+
+  "distanthorizons.general.true":
+    "Bật",
+  "distanthorizons.general.false":
+    "Tắt",
+  "distanthorizons.general.yes":
+    "Có",
+  "distanthorizons.general.no":
+    "Không",
+  "distanthorizons.general.back":
+    "Quay lại",
+  "distanthorizons.general.next":
+    "Tiếp theo",
+  "distanthorizons.general.done":
+    "Xong",
+  "distanthorizons.general.cancel":
+    "Hủy",
+  "distanthorizons.general.reset":
+    "Đặt lại",
+  "distanthorizons.general.spacer":
+    "",
+  "distanthorizons.general.apiOverride":
+    "API LOCK",
+  "distanthorizons.general.disabledByApi.@tooltip":
+    "Tùy chọn này do mod khác kiểm soát qua API của DH \nnên không thể thay đổi qua giao diện hay tệp cấu hình.",
+
+
+
+
+  "distanthorizons.updater.title":
+    "Trình cập nhật Viễn Cảnh",
+  "distanthorizons.updater.text1":
+    "§lĐã có bản cập nhật!",
+  "distanthorizons.updater.text2":
+    "§fCó cập nhật từ%s§f lên%s§f không?",
+  "distanthorizons.updater.later":
+    "Để sau",
+  "distanthorizons.updater.never":
+    "Không hiện lại",
+  "distanthorizons.updater.update":
+    "Cập nhật",
+  "distanthorizons.updater.update.@tooltip":
+    "Cập nhật mod này \n(khi trò chơi đã đóng)",
+  "distanthorizons.updater.silent":
+    "Luôn cập nhật im lặng",
+  "distanthorizons.updater.silent.@tooltip":
+    "Mỗi khi có bản cập nhật đều tự cập nhật\n(§6Cảnh báo§r: nó sẽ không báo trước khi cập nhật, nhưng giúp mod luôn mới nhất)",
+  "distanthorizons.updater.waitingForClose":
+    "Viễn Cảnh sẽ hoàn tất cập nhật sau khi trò chơi khởi động lại",
+
+
+
+
+  "distanthorizons.config.title":
+    "Cấu hình Viễn Cảnh",
+  "distanthorizons.config.client":
+    "Máy khách",
+
+  "distanthorizons.config.client.quickEnableRendering":
+    "Bật kết xuất",
+  "distanthorizons.config.client.quickEnableRendering.@tooltip":
+    "Quyết định có kết xuất LOD hay không",
+
+  "distanthorizons.config.client.quickShowWorldGenProgress":
+    "Hiện tiến trình tạo/nhập LOD",
+  "distanthorizons.config.client.quickShowWorldGenProgress.@tooltip":
+    "Nếu là True, tiến trình tạo/nhập thế giới sẽ hiện trên màn hình khi chơi",
+
+  "distanthorizons.config.client.qualityPresetSetting":
+    "Preset chất lượng",
+  "distanthorizons.config.client.qualityPresetSetting.@tooltip":
+    "Sửa các thiết lập đồ họa để đổi nhanh chất lượng kết xuất của Viễn Cảnh. \n\nNếu GPU của ngươi đang ở 100%% hoặc gặp vấn đề tốc độ khung hình, hãy hạ preset này xuống.",
+  "distanthorizons.config.client.threadPresetSetting":
+    "Tải CPU",
+  "distanthorizons.config.client.threadPresetSetting.@tooltip":
+    "Thay đổi số luồng được dùng.\nTăng thiết lập này sẽ nâng tốc độ bộ tạo viễn cảnh và tốc độ nạp LOD,\nnhưng đồng thời làm tăng mức dùng CPU/bộ nhớ và có thể gây khựng khung.\nLưu ý: đây là thiết lập tương đối so với CPU. Trên CPU 2 lõi và CPU 64 lõi, áp lực tải tạo ra tương đương nhau.",
+
+  "distanthorizons.config.client.optionsButton":
+    "Hiện nút “Tùy chọn”",
+  "distanthorizons.config.client.optionsButton.@tooltip":
+    "Hiện nút cấu hình bên trái thiết lập Tầm nhìn",
+
+
+
+  "distanthorizons.config.client.advanced":
+    "Tùy chọn nâng cao",
+
+  "distanthorizons.config.client.advanced.graphics":
+    "Đồ họa",
+  "distanthorizons.config.client.advanced.worldGenerator":
+    "Bộ tạo thế giới",
+  "distanthorizons.config.client.advanced.server":
+    "Máy chủ",
+  "distanthorizons.config.client.advanced.lodBuilding":
+    "Dựng LOD",
+  "distanthorizons.config.client.advanced.multiThreading":
+    "Đa luồng",
+  "distanthorizons.config.client.advanced.logging":
+    "Nhật ký",
+
+
+
+  "distanthorizons.config.client.advanced.graphics.quality":
+    "Chất lượng kết xuất",
+
+  "distanthorizons.config.client.advanced.graphics.quality.lodChunkRenderDistanceRadius":
+    "Bán kính khoảng cách kết xuất LOD",
+  "distanthorizons.config.client.advanced.graphics.quality.lodChunkRenderDistanceRadius.@tooltip":
+    "Khoảng cách kết xuất của Viễn Cảnh, tính bằng lô. \n\nLưu ý: đây là con số gần đúng nhất có thể. \nKhoảng cách kết xuất có thể cao hơn hoặc thấp hơn con số này \ntuỳ vào các thiết lập đồ họa khác của ngươi.",
+  "distanthorizons.config.client.advanced.graphics.quality.horizontalQuality":
+    "Suy giảm chất lượng LOD",
+  "distanthorizons.config.client.advanced.graphics.quality.horizontalQuality.@tooltip":
+    "Mức độ suy giảm chất lượng LOD.\n\nThiết lập cao hơn sẽ kéo dài khoảng cách của phần suy giảm chất lượng, nhưng làm tăng mức dùng bộ nhớ và GPU.",
+  "distanthorizons.config.client.advanced.graphics.quality.maxHorizontalResolution":
+    "Độ phân giải ngang tối đa",
+  "distanthorizons.config.client.advanced.graphics.quality.maxHorizontalResolution.@tooltip":
+    "Quyết định chất lượng tối đa của LOD theo chiều ngang\n\n§6Nhanh nhất: §rlô\n§6Tinh tế nhất: §fKhối vuông",
+  "distanthorizons.config.client.advanced.graphics.quality.verticalQuality":
+    "Chất lượng kết xuất dọc",
+  "distanthorizons.config.client.advanced.graphics.quality.verticalQuality.@tooltip":
+    "Độ chính xác khi kết xuất LOD cho vách đá, hang động, mép hố, v.v.\n\nTùy chọn cao hơn sẽ làm tăng mức dùng bộ nhớ và GPU.",
+  "distanthorizons.config.client.advanced.graphics.quality.horizontalScale":
+    "Thang ngang",
+  "distanthorizons.config.client.advanced.graphics.quality.horizontalScale.@tooltip":
+    "Tốc độ suy giảm chất lượng LOD.\n\nSố càng lớn, địa hình xa càng đẹp\nnhưng sẽ tăng mức dùng bộ nhớ và CPU.",
+  "distanthorizons.config.client.advanced.graphics.quality.transparency":
+    "Độ trong suốt",
+  "distanthorizons.config.client.advanced.graphics.quality.blocksToIgnore":
+    "Khối có thể bỏ qua",
+  "distanthorizons.config.client.advanced.graphics.quality.blocksToIgnore.@tooltip":
+    "Quy định những loại khối sẽ bị bỏ qua khi tạo LOD.",
+  "distanthorizons.config.client.advanced.graphics.quality.tintWithAvoidedBlocks":
+    "Dùng khối kết xuất trong suốt để tô màu",
+  "distanthorizons.config.client.advanced.graphics.quality.tintWithAvoidedBlocks.@tooltip":
+    "§4Lưu ý: điều này khiến tuyết, thảm và cửa xuống trông rất thô§r\nKhối nằm dưới một khối kết xuất trong suốt có nên nhận màu của khối trong suốt đó không?\n§6Bật: §rHoa đỏ trên thảm cỏ sẽ nhuộm khối cỏ bên dưới thành màu đỏ\n§6Tắt: §rKhối kết xuất trong suốt sẽ không làm đổi màu bề mặt bên dưới",
+  "distanthorizons.config.client.advanced.graphics.quality.lodBias":
+    "Lệch LOD§6(ảnh hưởng địa hình gốc)§r",
+  "distanthorizons.config.client.advanced.graphics.quality.lodBias.@tooltip":
+    "Đặt giá trị lệch LOD của bản gốc\nHãy nhấn F3+T để tải lại gói tài nguyên sau khi thay đổi giá trị này.",
+  "distanthorizons.config.client.advanced.graphics.quality.lodShading":
+    "Tô bóng kết xuất LOD",
+  "distanthorizons.config.client.advanced.graphics.quality.lodShading.@tooltip":
+    "Quy định cách LOD được kết xuất.\nCó thể dùng để tăng khả năng tương thích với shader ánh sáng.",
+  "distanthorizons.config.client.advanced.graphics.quality.grassSideRendering":
+    "Kết xuất cỏ",
+  "distanthorizons.config.client.advanced.graphics.quality.grassSideRendering.@tooltip":
+    "Phía bên và đáy của khối cỏ nên kết xuất LOD thế nào?",
+  "distanthorizons.config.client.advanced.graphics.quality.ditherDhFade":
+    "Tùy chọn làm mờ LOD ở gần",
+  "distanthorizons.config.client.advanced.graphics.quality.ditherDhFade.@tooltip":
+    "Nếu bật. LOD sẽ dần mờ đi khi ngươi tiến lại gần chúng.\nNếu tắt, LOD sẽ bị cắt ở khoảng cách đã đặt so với ống kính. Thiết lập này chịu ảnh hưởng của cấu hình chống vẽ đè của bản gốc.",
+  "distanthorizons.config.client.advanced.graphics.quality.vanillaFadeMode":
+    "Chế độ làm mờ bản gốc",
+  "distanthorizons.config.client.advanced.graphics.quality.vanillaFadeMode.@tooltip":
+    "Trò chơi gốc nên làm mờ LOD của Viễn Cảnh ra sao?\n\nNONE: Nhanh nhất, sẽ có ranh giới rõ rệt giữa DH và MC.\nSINGLE_PASS: Làm mờ sau khi bản gốc MC kết xuất, các khối không trong suốt dưới nước sẽ không mờ.\nDOUBLE_PASS: Chậm nhất, mờ sau cả bước kết xuất khối đục và khối trong của MC, cho chuyển tiếp mượt mà nhất.",
+  "distanthorizons.config.client.advanced.graphics.quality.brightnessMultiplier":
+    "Hệ số độ sáng",
+  "distanthorizons.config.client.advanced.graphics.quality.dhFadeFarClipPlane":
+    "Làm mờ trước mặt cắt xa",
+  "distanthorizons.config.client.advanced.graphics.quality.dhFadeFarClipPlane.@tooltip":
+    "Có để DH dần mờ đi trước khi tới mặt cắt xa không?\nĐiều này giúp tránh tầng mây của DH bị cắt đột ngột ở phía xa.",
+  "distanthorizons.config.client.advanced.graphics.quality.brightnessMultiplier.@tooltip":
+    "Độ sáng màu của LOD.\n\n0=Đen\n1=Bình thường\n2=Gần trắng",
+  "distanthorizons.config.client.advanced.graphics.quality.saturationMultiplier":
+    "Hệ số bão hoà",
+  "distanthorizons.config.client.advanced.graphics.quality.saturationMultiplier.@tooltip":
+    "Độ bão hoà màu của LOD.\n\n0=Đen trắng\n1=Bình thường\n2=Rực rỡ",
+  "distanthorizons.config.client.advanced.graphics.quality.lodBiomeBlending":
+    "Pha sinh quần",
+  "distanthorizons.config.client.advanced.graphics.quality.lodBiomeBlending.@tooltip":
+    "Tương tự thiết lập pha sinh quần gốc cho vùng LOD.\n\nXin lưu ý, mọi giá trị khác '0' sẽ ảnh hưởng lớn tới thời gian dựng LOD\nvà làm tăng số tam giác. Nếu đặt quá cao,\nchi phí tốc độ sinh lô cũng sẽ khá lớn.\n\n'0' tương đương pha sinh quần gốc '1x1',\n'1' tương đương pha sinh quần gốc '3x3',\n'2' tương đương pha sinh quần gốc '5x5'...\n",
+
+
+  "distanthorizons.config.client.advanced.graphics.ssao":
+    "Che khuất ánh sáng môi trường",
+
+  "distanthorizons.config.client.advanced.graphics.ssao.enableSsao":
+    "Bật che khuất ánh sáng môi trường",
+  "distanthorizons.config.client.advanced.graphics.ssao.enableSsao.@tooltip":
+    "Che khuất ánh sáng môi trường làm tăng chiều sâu của ánh sáng khối.",
+  "distanthorizons.config.client.advanced.graphics.ssao.sampleCount":
+    "Số mẫu",
+  "distanthorizons.config.client.advanced.graphics.ssao.sampleCount.@tooltip":
+    "Quy định số điểm lấy mẫu trong không gian kiểm tra che khuất. \nSố càng cao, chất lượng càng cao, vệt sọc dọc càng ít, nhưng sẽ tăng tải GPU.",
+  "distanthorizons.config.client.advanced.graphics.ssao.radius":
+    "Bán kính",
+  "distanthorizons.config.client.advanced.graphics.ssao.radius.@tooltip":
+    "Quy định bán kính tính che khuất ánh sáng môi trường theo không gian màn hình, tính bằng khối.",
+  "distanthorizons.config.client.advanced.graphics.ssao.strength":
+    "Cường độ",
+  "distanthorizons.config.client.advanced.graphics.ssao.strength.@tooltip":
+    "Quy định độ tối của hiệu ứng “che khuất ánh sáng môi trường theo không gian màn hình”.",
+  "distanthorizons.config.client.advanced.graphics.ssao.bias":
+    "Lệch",
+  "distanthorizons.config.client.advanced.graphics.ssao.bias.@tooltip":
+    "Tăng giá trị này có thể giảm vệt sọc dọc, đổi lại hiệu ứng sẽ nhạt hơn.",
+  "distanthorizons.config.client.advanced.graphics.ssao.minLight":
+    "Độ sáng tối thiểu",
+  "distanthorizons.config.client.advanced.graphics.ssao.minLight.@tooltip":
+    "Quy định độ tối tối thiểu của bóng che. \n0 = Góc tối đen \n1 = Không bóng",
+  "distanthorizons.config.client.advanced.graphics.ssao.blurRadius":
+    "Bán kính làm mờ",
+  "distanthorizons.config.client.advanced.graphics.ssao.blurRadius.@tooltip":
+    "Bán kính làm mờ khi tính SSAO (tính bằng pixel). \nSố càng cao, vệt sọc dọc càng ít nhưng tốn hiệu năng GPU.",
+
+
+  "distanthorizons.config.client.advanced.graphics.genericRendering":
+    "Kết xuất đối tượng chung",
+
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableGenericRendering":
+    "Bật kết xuất",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableGenericRendering.@tooltip":
+    "Nếu bật, các đối tượng không phải địa hình sẽ được kết xuất trong địa hình DH.\nĐiều này bao gồm cột sáng hải đăng và mây.",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableBeaconRendering":
+    "Bật kết xuất hải đăng",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.beaconRenderHeight":
+    "Chiều cao kết xuất hải đăng",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.beaconRenderHeight.@tooltip":
+    "Đặt chiều cao tối đa cho kết xuất hải đăng.\nĐiều này chỉ ảnh hưởng tới các hải đăng mới đi vào khoảng cách kết xuất LOD.\nCác hải đăng đang hiện trong LOD sẽ không bị ảnh hưởng.",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableBeaconRendering.@tooltip":
+    "Nếu bật, cột sáng hải đăng sẽ được kết xuất.",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableCloudRendering":
+    "Bật kết xuất mây",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableCloudRendering.@tooltip":
+    "Nếu bật, mây sẽ được kết xuất.",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableUnexploredFogRendering":
+    "Bật kết xuất sương mù vùng chưa khám phá",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableUnexploredFogRendering.@tooltip":
+    "Nếu bật, LOD chưa khám phá/chưa sinh sẽ được kết xuất dưới dạng khối xám đậm cỡ lớn.",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableInstancedRendering":
+    "Bật kết xuất instanced",
+  "distanthorizons.config.client.advanced.graphics.genericRendering.enableInstancedRendering.@tooltip":
+    "Có thể tắt để dùng cách kết xuất trực tiếp chậm hơn nhiều nhưng tương thích tốt hơn.\nTắt tính năng này có thể khắc phục một số lỗi sập trên macOS.",
+
+
+  "distanthorizons.config.client.advanced.graphics.fog":
+    "Sương mù",
+
+  "distanthorizons.config.client.advanced.graphics.fog.enableDhFog":
+    "Bật sương mù (Viễn Cảnh)",
+  "distanthorizons.config.client.advanced.graphics.fog.enableDhFog.@tooltip":
+    "Quy định có vẽ sương mù trên LOD của DH hay không.",
+  "distanthorizons.config.client.advanced.graphics.fog.colorMode":
+    "Chế độ màu sương mù",
+  "distanthorizons.config.client.advanced.graphics.fog.colorMode.@tooltip":
+    "Màu sương mù trên LOD.",
+  "distanthorizons.config.client.advanced.graphics.fog.enableVanillaFog":
+    "Bật sương mù gốc",
+  "distanthorizons.config.client.advanced.graphics.fog.enableVanillaFog.@tooltip":
+    "§6Bật: kết xuất sương mù y như bản gốc§r tắt sương mù của trò chơi trên các lô gốc.\n§6Tắt: §r trò chơi kết xuất sương mù như bình thường.\n\nCó thể xung đột với các mod khác có sửa đổi sương mù.\nNếu các lô gốc bị sương mù phủ kín hoàn toàn, hãy tắt.",
+  "distanthorizons.config.client.advanced.graphics.fog.advancedFog":
+    "Tùy chọn sương mù nâng cao",
+
+  "distanthorizons.config.client.advanced.graphics.fog.farFogStart":
+    "Điểm khởi đầu sương mù xa",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogStart.@tooltip":
+    "Sương mù xa nên bắt đầu từ đâu? \n\n  '0.0': Sương mù bắt đầu kết xuất từ vị trí người chơi.\n  '1.0': Vòng tròn bắt đầu sương mù vừa khớp với hình vuông khoảng cách kết xuất LOD.\n'1.414': Hình vuông khoảng cách kết xuất LOD vừa nằm trong vòng tròn bắt đầu sương mù.\n",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogEnd":
+    "Điểm kết thúc sương mù xa",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogEnd.@tooltip":
+    "Sương mù xa nên kết thúc ở đâu? \n\n  '0.0': Sương mù kết thúc tại vị trí người chơi.\n  '1.0': Vòng tròn cuối sương mù vừa khớp với hình vuông khoảng cách kết xuất LOD.\n'1.414': Hình vuông khoảng cách kết xuất LOD vừa nằm trong vòng tròn cuối sương mù.\n",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogMin":
+    "Sương mù xa tối thiểu",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogMin.@tooltip":
+    "Độ dày sương mù tối thiểu là bao nhiêu? \n\n  '0.0': Hoàn toàn không có sương mù.\n  '1.0': Màu sương mù đặc.\n",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogMax":
+    "Sương mù xa tối đa",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogMax.@tooltip":
+    "Độ dày sương mù tối đa là bao nhiêu? \n\n  '0.0': Hoàn toàn không có sương mù.\n  '1.0': Màu sương mù đặc.\n",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogFalloff":
+    "Suy giảm sương mù xa",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogFalloff.@tooltip":
+    "Tính độ dày sương mù như thế nào? \n\nTuyến tính: Tuyến tính theo khoảng cách (sẽ bỏ qua “mật độ”)\nLũy thừa: 1/(e^(khoảng cách*mật độ))\nLũy thừa bình phương: 1/(e^((khoảng cách*mật độ)^2)\n",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogDensity":
+    "Mật độ sương mù xa",
+  "distanthorizons.config.client.advanced.graphics.fog.farFogDensity.@tooltip":
+    "Mật độ sương mù là bao nhiêu?",
+
+
+
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog":
+    "Tùy chọn sương mù theo độ cao",
+
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogMixMode":
+    "Chế độ pha sương mù theo độ cao",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogMixMode.@tooltip":
+    "Độ cao nên ảnh hưởng tới độ dày sương mù ra sao? \n\nCơ sở: Không có hiệu ứng sương mù theo độ cao đặc biệt. Sương mù được tính theo khoảng cách ống kính \nBỏ qua chiều cao: Hoàn toàn bỏ qua chiều cao. Sương mù được tính theo khoảng cách ngang \nCộng: Sương mù theo độ cao + sương mù xa \nLấy lớn nhất: max(sương mù theo độ cao, sương mù xa) \nNhân: Sương mù theo độ cao * sương mù xa \nNhân nghịch đảo: 1 - (1-sương mù theo độ cao) * (1-sương mù xa) \nCộng có giới hạn: Sương mù xa + max(sương mù xa, sương mù theo độ cao) \nNhân rồi cộng: Sương mù xa + sương mù xa * sương mù theo độ cao \nNhân nghịch rồi cộng: Sương mù xa + 1 - (1-sương mù theo độ cao) * (1-sương mù xa) \nTrung bình: Sương mù xa*0.5 + sương mù theo độ cao*0.5 \n\nXin lưu ý, với chế độ “Cơ sở” và “Bỏ qua chiều cao”, thiết lập sương mù theo độ cao sẽ không có tác dụng.\n",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogDirection":
+    "Hướng sương mù theo độ cao",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogDirection.@tooltip":
+    "Sương mù theo độ cao nằm ở đâu? \n\nTrên ống kính: Sương mù theo độ cao từ ống kính tới bầu trời \nDưới ống kính: Sương mù theo độ cao từ ống kính tới hư không \nTrên và dưới ống kính: Sương mù theo độ cao từ ống kính tới cả bầu trời lẫn hư không \nTrên độ cao đặt: Sương mù theo độ cao từ độ cao đặt tới bầu trời \nDưới độ cao đặt: Sương mù theo độ cao từ độ cao đặt tới hư không \nTrên và dưới độ cao đặt: Sương mù theo độ cao từ độ cao đặt tới cả bầu trời lẫn hư không \n",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogBaseHeight":
+    "Độ cao nền của sương mù theo độ cao",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogBaseHeight.@tooltip":
+    "Nếu sương mù theo độ cao được tính quanh độ cao đặt, vị trí độ cao đó là? ",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogStart":
+    "Điểm khởi đầu sương mù theo độ cao",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogStart.@tooltip":
+    "Điểm khởi đầu sương mù theo độ cao nên lệch bao xa? \n\n  '0.0': Điểm bắt đầu sương mù không lệch.\n  '1.0': Sương mù bắt đầu tại độ lệch bằng toàn bộ chiều cao thế giới. (bao gồm độ sâu)\n",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogEnd":
+    "Kết thúc sương mù theo độ cao",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogEnd.@tooltip":
+    "Điểm kết thúc sương mù theo độ cao nên lệch bao xa? \n\n  '0.0': Điểm kết thúc sương mù không lệch.\n  '1.0': Sương mù kết thúc tại độ lệch bằng toàn bộ chiều cao thế giới. (bao gồm độ sâu)\n",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogMin":
+    "Sương mù theo độ cao mỏng nhất",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogMin.@tooltip":
+    "Độ dày sương mù tối thiểu là bao nhiêu? \n\n  '0.0': Hoàn toàn không có sương mù.\n  '1.0': Màu sương mù đặc.\n",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogMax":
+    "Sương mù theo độ cao tối đa",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogMax.@tooltip":
+    "Độ dày sương mù tối đa là bao nhiêu? \n\n  '0.0': Hoàn toàn không có sương mù.\n  '1.0': Màu sương mù đặc.\n",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogFalloff":
+    "Suy giảm sương mù theo độ cao",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogFalloff.@tooltip":
+    "Tính độ dày sương mù theo độ cao như thế nào? \n\nTuyến tính: Tuyến tính theo độ cao (sẽ bỏ qua “mật độ”)\nLũy thừa: 1/(e^(độ cao*mật độ))\nLũy thừa bình phương: 1/(e^((độ cao*mật độ)^2)\n",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogDensity":
+    "Mật độ sương mù theo độ cao",
+  "distanthorizons.config.client.advanced.graphics.fog.heightFog.heightFogDensity.@tooltip":
+    "Mật độ sương mù theo độ cao là bao nhiêu? ",
+
+
+
+
+  "distanthorizons.config.client.advanced.graphics.noiseTexture":
+    "Vân nhiễu",
+
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.enableNoiseTexture":
+    "Bật vân nhiễu",
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.enableNoiseTexture.@tooltip":
+    "Nếu bật, vân nhiễu sẽ được áp dụng cho LOD để mô phỏng kết cấu.",
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.noiseSteps":
+    "Số bước nhiễu",
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.noiseSteps.@tooltip":
+    "Quy định số bước nhiễu nên áp dụng cho LOD",
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.noiseIntensity":
+    "Cường độ nhiễu",
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.noiseIntensity.@tooltip":
+    "Quy định cường độ của vân nhiễu.",
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.noiseDropoff":
+    "Suy giảm nhiễu",
+  "distanthorizons.config.client.advanced.graphics.noiseTexture.noiseDropoff.@tooltip":
+    "Quy định khoảng cách mà vân nhiễu nên được kết xuất trước khi mờ đi. (tính bằng khối). \nĐặt thành 0 để vân nhiễu không biến mất.",
+
+
+  "distanthorizons.config.client.advanced.graphics.culling":
+    "Loại bỏ",
+
+  "distanthorizons.config.client.advanced.graphics.culling.overdrawPrevention":
+    "Ngăn vẽ đè",
+  "distanthorizons.config.client.advanced.graphics.culling.overdrawPrevention.@tooltip":
+    "Quy định Viễn Cảnh sẽ bắt đầu kết xuất từ xa ống kính bao nhiêu. \nĐo bằng phần trăm khoảng cách kết xuất gốc.\n\nGiá trị cao hơn sẽ ngăn LOD kết xuất ở khoảng cách xa hơn phía sau các lô gốc,\nnhưng có thể tạo lỗ hổng trong LOD. \nLỗ hổng dễ xuất hiện nhất khi bay qua vùng đất trống. \n\nTăng khoảng cách kết xuất gốc sẽ làm thiết lập này hiệu quả hơn.",
+  "distanthorizons.config.client.advanced.graphics.culling.enableCaveCulling":
+    "Loại bỏ hang động",
+  "distanthorizons.config.client.advanced.graphics.culling.enableCaveCulling.@tooltip":
+    "Nếu bật, các hang động sẽ bị loại bỏ \n\nThông tin bổ sung: hiện tại trong các chiều không có giới hạn chiều cao,\ntùy chọn này sẽ xóa mọi mặt có giá trị ánh sáng trời bằng 0\nnằm dưới chiều cao loại bỏ hang động.\n",
+  "distanthorizons.config.client.advanced.graphics.culling.caveCullingHeight":
+    "Chiều cao loại bỏ hang động",
+  "distanthorizons.config.client.advanced.graphics.culling.caveCullingHeight.@tooltip":
+    "Chiều cao loại bỏ hang động nên bắt đầu ở giá trị Y nào?",
+  "distanthorizons.config.client.advanced.graphics.culling.disableBeaconDistanceCulling":
+    "Bật loại bỏ theo khoảng cách hải đăng",
+  "distanthorizons.config.client.advanced.graphics.culling.disableBeaconDistanceCulling.@tooltip":
+    "Nếu bật, sẽ không kết xuất mọi hải đăng ở gần ống kính, nhằm ngăn vẽ đè của bản gốc. Nếu tắt, mọi cột sáng hải đăng sẽ được hiển thị.",
+  "distanthorizons.config.client.advanced.graphics.culling.disableFrustumCulling":
+    "Tắt loại bỏ hình chóp tầm nhìn",
+  "distanthorizons.config.client.advanced.graphics.culling.disableFrustumCulling.@tooltip":
+    "Nếu thấy LOD bị vẽ sai ngoài ống kính của người chơi \nhãy tăng hiệu năng GPU. \n\nNếu bật, mọi LOD đều được kết xuất, kể cả LOD phía sau \nống kính người chơi, nhưng hiệu năng GPU sẽ giảm. \n\nNếu ngươi thấy LOD trong tầm nhìn biến mất ở các góc, hãy tắt tính năng này.",
+  "distanthorizons.config.client.advanced.graphics.culling.disableShadowPassFrustumCulling":
+    "Tắt loại bỏ hình chóp tầm nhìn cho lượt kết xuất bóng",
+  "distanthorizons.config.client.advanced.graphics.culling.disableShadowPassFrustumCulling.@tooltip":
+    "Giống các tùy chọn loại bỏ hình chóp tầm nhìn khác, chỉ khác là nó \nchỉ dùng khi có mod liên quan tới shader sử dụng API DH \nvà đang kết xuất lượt bóng. \n\nHãy tắt tính năng này nếu bóng bị kết xuất sai.",
+  "distanthorizons.config.client.advanced.graphics.culling.ignoredRenderBlockCsv":
+    "Danh sách CSV khối bị bỏ qua",
+  "distanthorizons.config.client.advanced.graphics.culling.ignoredRenderBlockCsv.@tooltip":
+    "Danh sách vị trí tài nguyên khối mà DH sẽ không kết xuất, phân tách bằng dấu phẩy. Lưu ý: không khí luôn nằm trong danh sách này.",
+  "distanthorizons.config.client.advanced.graphics.culling.ignoredRenderCaveBlockCsv":
+    "Danh sách CSV khối hang động bị bỏ qua",
+  "distanthorizons.config.client.advanced.graphics.culling.ignoredRenderCaveBlockCsv.@tooltip":
+    "Danh sách vị trí tài nguyên khối, phân tách bằng dấu phẩy, không nên kết xuất nếu chúng nằm trong khu vực dưới lòng đất có ánh sáng bằng 0. Lưu ý: không khí luôn nằm trong danh sách này.",
+  "distanthorizons.config.client.advanced.graphics.overrideVanillaGraphicsSettings":
+    "Ghi đè thiết lập đồ họa gốc",
+  "distanthorizons.config.client.advanced.graphics.overrideVanillaGraphicsSettings.@tooltip":
+    "Khi bật, một số thiết lập đồ họa gốc sẽ tự động bị sửa trong quá trình thiết lập DH, để mang lại trải nghiệm tốt hơn.\n\nVí dụ: tắt tầng mây gốc (vốn kết xuất phía trên LOD của DH), cùng hiệu ứng lô mờ dần (DH tự xử lý việc làm mờ các lô gốc của MC).",
+
+
+  "distanthorizons.config.client.advanced.graphics.experimental":
+    "Thử nghiệm",
+
+  "distanthorizons.config.client.advanced.graphics.experimental.earthCurveRatio":
+    "Độ cong Trái Đất §6(thử nghiệm)§r",
+  "distanthorizons.config.client.advanced.graphics.experimental.earthCurveRatio.@tooltip":
+    "Giá trị 1 tương đương độ cong Trái Đất ngoài đời. \nGiá trị nhỏ nhất được chấp nhận là 50, lớn nhất là 5000. \nMọi giá trị từ 1 đến 49 đều bị làm tròn thành 50.",
+
+
+  "distanthorizons.config.client.advanced.graphics.experimental.onlyLoadCenterLods":
+    "Chỉ nạp LOD trung tâm",
+  "distanthorizons.config.client.advanced.graphics.experimental.onlyLoadCenterLods.@tooltip":
+    "Bỏ qua việc nạp các LOD lân cận, có thể rút ngắn đáng kể thời gian nạp (khoảng 5 lần).\nNhưng sẽ khiến ánh sáng ở biên LOD đạt độ sáng tối đa,\ncùng các lỗi đồ họa khác.",
+
+
+  "distanthorizons.config.client.advanced.autoUpdater":
+    "Tự cập nhật",
+
+  "distanthorizons.config.client.advanced.autoUpdater.enableAutoUpdater":
+    "Bật tự cập nhật",
+  "distanthorizons.config.client.advanced.autoUpdater.enableSilentUpdates":
+    "Bật cập nhật im lặng",
+  "distanthorizons.config.client.advanced.autoUpdater.enableSilentUpdates.@tooltip":
+    "Tự động cập nhật mod khi có bản cập nhật",
+  "distanthorizons.config.client.advanced.autoUpdater.updateBranch":
+    "Nhánh cập nhật",
+  "distanthorizons.config.client.advanced.autoUpdater.updateBranch.@tooltip":
+    "Tải bản cập nhật mới nhất từ đâu.\n\nỔn định: bản dựng ổn định từ Modrinth\nDựng hằng đêm thử nghiệm: dựng từ kho GitLab",
+
+
+
+  "distanthorizons.config.client.advanced.multiplayer":
+    "Chơi nhiều người",
+
+
+  "distanthorizons.config.client.advanced.multiplayer.serverFolderNameMode":
+    "Chế độ tên thư mục máy chủ",
+  "distanthorizons.config.client.advanced.multiplayer.serverFolderNameMode.@tooltip":
+    "Quy định định dạng thư mục cho dữ liệu chơi nhiều người cục bộ.\n\n§6Chỉ dùng để tham khảo:§r\nDùng tên trong trình duyệt máy chủ. Ví dụ: \"Máy chủ Minecraft\"\n§6Tên IP:§r\n\"Máy chủ Minecraft, IP:192.168.1.40\"\n§6Tên, IP, cổng:§r\n\"Máy chủ Minecraft, IP 192.168.1.40:25565\"\n§6Tên, IP, cổng, phiên bản MC:§r\n\"Máy chủ Minecraft, IP 192.168.1.40:25565, phiên bản game 1.18.1\"\n\n§c§lCẩn thận:§r thay đổi khi đang kết nối tới máy chủ chơi nhiều người có thể gây ra sự cố.",
+
+
+
+  "distanthorizons.config.client.advanced.debugging":
+    "Gỡ lỗi",
+
+  "distanthorizons.config.client.advanced.debugging.rendererMode":
+    "Chế độ kết xuất",
+  "distanthorizons.config.client.advanced.debugging.debugRendering":
+    "Kết xuất gỡ lỗi",
+  "distanthorizons.config.client.advanced.debugging.lodOnlyMode":
+    "Chỉ kết xuất LOD",
+  "distanthorizons.config.client.advanced.debugging.lodOnlyMode.@tooltip":
+    "Nếu bật, tính này sẽ tắt (hầu hết) kết xuất của Minecraft gốc.\n\nLưu ý: đừng báo bất kỳ vấn đề nào khi đang bật chế độ này!\nThiết lập này chỉ dùng để giải trí và gỡ lỗi.\nKhông bảo đảm tương thích với mod.",
+  "distanthorizons.config.client.advanced.debugging.renderWireframe":
+    "Kết xuất khung dây",
+  "distanthorizons.config.client.advanced.debugging.renderWireframe.@tooltip":
+    "Nếu bật, LOD sẽ được kết xuất dưới dạng khung dây.",
+  "distanthorizons.config.client.advanced.debugging.enableDebugKeybindings":
+    "Bật phím tắt gỡ lỗi",
+  "distanthorizons.config.client.advanced.debugging.enableDebugKeybindings.@tooltip":
+    "§6Bật:§r phím tắt gỡ lỗi dùng để đổi chế độ gỡ lỗi trong trò chơi.",
+  "distanthorizons.config.client.advanced.debugging.enableWhiteWorld":
+    "Bật thế giới trắng",
+  "distanthorizons.config.client.advanced.debugging.enableWhiteWorld.@tooltip":
+    "Nếu bật, màu đỉnh sẽ không được truyền.\nRất hữu ích khi gỡ lỗi shader ánh sáng.",
+  "distanthorizons.config.client.advanced.debugging.showOverlappingQuadErrors":
+    "Hiện lỗi tứ giác chồng lấn",
+  "distanthorizons.config.client.advanced.debugging.showOverlappingQuadErrors.@tooltip":
+    "Nếu bật, các tứ giác chồng lấn sẽ hiện màu đỏ tươi cho dễ nhận biết.\nNếu tắt, các tứ giác sẽ hiện như bình thường.",
+  "distanthorizons.config.client.advanced.debugging.logBufferGarbageCollection":
+    "Ghi nhật ký thu hồi bộ đệm rác",
+  "distanthorizons.config.client.advanced.debugging.logBufferGarbageCollection.@tooltip":
+    "Nếu bật, sẽ ghi nhận ký việc thu hồi bộ đệm OpenGL\nkèm số lượng bộ đệm tức thời.",
+  "distanthorizons.config.client.advanced.debugging.allowUnsafeValues":
+    "Cho phép giá trị giao diện không an toàn",
+  "distanthorizons.config.client.advanced.debugging.allowUnsafeValues.@tooltip":
+    "Nếu bật, việc kiểm tra đầu vào cấu hình sẽ rất hạn chế. \n\nCảnh báo: bật tính năng này có thể gây mất ổn định hoặc sập, tự chịu trách nhiệm với rủi ro. \nLưu ý: tùy chọn này sẽ không được lưu giữa các phiên.",
+
+
+
+
+  "distanthorizons.config.client.advanced.debugging.debugWireframe":
+    "Khung gỡ lỗi",
+
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.enableRendering":
+    "Bật kết xuất khung gỡ lỗi",
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.enableRendering.@tooltip":
+    "Nếu bật, sẽ kết xuất các sơ đồ khung dây khác nhau dùng để gỡ lỗi các hàm nội bộ.",
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.showWorldGenQueue":
+    "Hiện hàng đợi tạo thế giới",
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.showNetworkSyncOnLoadQueue":
+    "Hiện hàng đợi đồng bộ mạng lúc nạp",
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.showRenderSectionStatus":
+    "Hiện trạng thái khu vực kết xuất",
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.showRenderSectionToggling":
+    "Hiện việc chuyển khu vực kết xuất",
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.showQuadTreeRenderStatus":
+    "Hiện trạng thái kết xuất cây tứ phân",
+  "distanthorizons.config.client.advanced.debugging.debugWireframe.showFullDataUpdateStatus":
+    "Hiện trạng thái cập nhật dữ liệu đầy đủ",
+
+
+  "distanthorizons.config.client.advanced.debugging.openGl":
+    "Liên quan tới OpenGL",
+
+  "distanthorizons.config.client.advanced.debugging.openGl.overrideVanillaGLLogger":
+    "Ghi đè bộ ghi nhật ký GL gốc",
+  "distanthorizons.config.client.advanced.debugging.openGl.overrideVanillaGLLogger.@tooltip":
+    "Quy định cách xử lý lỗi OpenGL. \n Cần khởi động lại trò chơi để áp dụng. \nCó thể ghi nhận nhầm lỗi OpenGL phát sinh từ mod khác.",
+  "distanthorizons.config.client.advanced.debugging.openGl.onlyLogGlErrorsOnce":
+    "Chỉ ghi nhật ký lỗi GL một lần",
+  "distanthorizons.config.client.advanced.debugging.openGl.onlyLogGlErrorsOnce.@tooltip":
+    "Nếu bật, mỗi lỗi OpenGL sẽ chỉ được ghi nhận ký một lần.\nBật tùy chọn này có thể khiến một số lỗi không xuất hiện trong nhật ký.\nThiết lập này không có tác dụng khi ghi đè bộ ghi nhật ký GL gốc đang tắt.\n\nThường nên để bật để tránh nhật ký bị ngập,\nnhưng hãy đặt thành tắt nếu nhà phát triển cần gỡ lỗi vấn đề GL.",
+  "distanthorizons.config.client.advanced.debugging.openGl.glErrorHandlingMode":
+    "Chế độ xử lý lỗi OpenGL",
+  "distanthorizons.config.client.advanced.debugging.openGl.glErrorHandlingMode.@tooltip":
+    "Quy định cách xử lý lỗi OpenGL. \n Cần khởi động lại trò chơi để áp dụng. \nCó thể ghi nhận nhầm lỗi OpenGL phát sinh từ mod khác.",
+  "distanthorizons.config.client.advanced.debugging.openGl.validateBufferIdsBeforeRendering":
+    "Kiểm tra ID bộ đệm trước khi kết xuất",
+  "distanthorizons.config.client.advanced.debugging.openGl.validateBufferIdsBeforeRendering.@tooltip":
+    "Điều này sẽ giảm FPS mạnh.\nChỉ nên dùng khi ngươi đang cố gỡ lỗi lỗi sập bí ẩn EXCEPION_ACCESS_VIOLATION trong mã kết xuất của DH.",
+
+
+  "distanthorizons.config.client.advanced.debugging.openGl.glUploadMode":
+    "Chế độ tải lên",
+  "distanthorizons.config.client.advanced.debugging.openGl.glUploadMode.@tooltip":
+    "Chỉ dùng để gỡ lỗi",
+
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging":
+    "Hàng đợi kết xuất",
+
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging.columnBuilderDebugEnable":
+    "Bật giới hạn bộ tạo cột",
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging.columnBuilderDebugDetailLevel":
+    "Giới hạn bộ tạo cột - Mức chi tiết",
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging.columnBuilderDebugXPos":
+    "Giới hạn bộ tạo cột - Vị trí X",
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging.columnBuilderDebugZPos":
+    "Giới hạn bộ tạo cột - Vị trí Z",
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging.columnBuilderDebugXRow":
+    "Giới hạn bộ tạo cột - Hàng X",
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging.columnBuilderDebugZRow":
+    "Giới hạn bộ tạo cột - Hàng Z",
+  "distanthorizons.config.client.advanced.debugging.columnBuilderDebugging.columnBuilderDebugColumnIndex":
+    "Giới hạn bộ tạo cột - Chỉ số cột",
+
+
+
+
+  "distanthorizons.config.client.advanced.debugging.f3Screen":
+    "Giao diện F3",
+
+  "distanthorizons.config.client.advanced.debugging.f3Screen.showPlayerPos":
+    "Hiện vị trí người chơi",
+  "distanthorizons.config.client.advanced.debugging.f3Screen.playerPosSectionDetailLevel":
+    "Chi tiết vị trí khu vực người chơi",
+  "distanthorizons.config.client.advanced.debugging.f3Screen.showThreadPools":
+    "Hiện nhóm luồng",
+  "distanthorizons.config.client.advanced.debugging.f3Screen.showCombinedObjectPools":
+    "Hiện nhóm đối tượng gộp",
+  "distanthorizons.config.client.advanced.debugging.f3Screen.showSeparatedObjectPools":
+    "Hiện nhóm đối tượng tách biệt",
+  "distanthorizons.config.client.advanced.debugging.f3Screen.showQueuedChunkUpdateCount":
+    "Hiện số cập nhật lô trong hàng đợi",
+  "distanthorizons.config.client.advanced.debugging.f3Screen.showLevelStatus":
+    "Hiện trạng thái thế giới",
+
+
+
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen":
+    "Giao diện cấu hình gỡ lỗi",
+
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.debugConfigScreenNote":
+    "Giao diện này dùng để gỡ lỗi tính năng của giao diện cấu hình",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.boolTest":
+    "Kiểm tra boolean",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.byteTest":
+    "Kiểm tra byte",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.intTest":
+    "Kiểm tra số nguyên",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.doubleTest":
+    "Kiểm tra số thực kép",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.shortTest":
+    "Kiểm tra số nguyên ngắn",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.longTest":
+    "Kiểm tra số nguyên dài",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.floatTest":
+    "Kiểm tra số thực",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.stringTest":
+    "Kiểm tra chuỗi",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.uiButtonTest":
+    "Kiểm tra nút giao diện",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.listTest":
+    "Kiểm tra danh sách (mảng danh sách)",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.mapTest":
+    "Kiểm tra ánh xạ (bảng băm)",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.categoryTest":
+    "Kiểm tra phân mục",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.linkableTest":
+    "Kiểm tra liên kết được",
+  "distanthorizons.config.client.advanced.debugging.exampleConfigScreen.linkableTest.@tooltip":
+    "Giá trị này nên giống giá trị trong kiểm tra phân mục",
+
+
+
+
+  "distanthorizons.config.common":
+    "Chung",
+
+
+  "distanthorizons.config.common.worldGenerator":
+    "Bộ tạo thế giới",
+
+  "distanthorizons.config.common.worldGenerator.enableDistantGeneration":
+    "Bật sinh viễn cảnh",
+  "distanthorizons.config.common.worldGenerator.enableDistantGeneration.@tooltip":
+    "§6Bật:§r trong chơi đơn, LOD sẽ được sinh ngoài khoảng cách kết xuất gốc.\nLưu ý: điều này có thể chiếm nhiều hiệu năng CPU.\n\n§6Tắt:§r LOD chỉ được sinh trong khoảng cách kết xuất gốc.",
+  "distanthorizons.config.common.worldGenerator.distantGeneratorMode":
+    "Chế độ bộ sinh viễn cảnh",
+  "distanthorizons.config.common.worldGenerator.distantGeneratorMode.@tooltip":
+    "Mức độ phức tạp khi sinh LOD ngoài khoảng cách kết xuất gốc.",
+  "distanthorizons.config.common.worldGenerator.showGenerationProgress":
+    "Hiện tiến trình sinh",
+  "distanthorizons.config.common.worldGenerator.showGenerationProgress.@tooltip":
+    "Quy định cách hiển thị tiến trình của bộ sinh viễn cảnh",
+  "distanthorizons.config.common.worldGenerator.generationProgressDisplayIntervalInSeconds":
+    "Khoảng cách hiển thị tiến trình (giây)",
+  "distanthorizons.config.common.worldGenerator.generationProgressDisplayIntervalInSeconds.@tooltip":
+    "Quy định khoảng thời gian giữa hai lần cập nhật hiển thị tiến trình.",
+  "distanthorizons.config.common.worldGenerator.generationProgressDisableMessageDisplayTimeInSeconds":
+    "Số giây hiển thị thông báo ẩn tiến trình",
+  "distanthorizons.config.common.worldGenerator.generationProgressDisableMessageDisplayTimeInSeconds.@tooltip":
+    "Số giây hiển thị thông báo tắt tiến trình sinh viễn cảnh\nĐặt thành 0 sẽ ẩn tiến trình tạo thế giới, để hiện ngay lập tức khi bắt đầu.",
+  "distanthorizons.config.common.worldGenerator.generationProgressIncludeChunksPerSecond":
+    "Hiện tốc độ sinh lô mỗi giây",
+  "distanthorizons.config.common.worldGenerator.generationProgressIncludeChunksPerSecond.@tooltip":
+    "Khi ghi lại tiến trình sinh, đồng thời ghi kèm tốc độ sinh lô.\nĐiều này có thể rất hữu ích khi săn lỗi hiệu năng.",
+
+
+  "distanthorizons.config.common.lodBuilding":
+    "Dựng LOD",
+
+  "distanthorizons.config.common.lodBuilding.disableUnchangedChunkCheck":
+    "Tắt kiểm tra lô không thay đổi",
+  "distanthorizons.config.common.lodBuilding.disableUnchangedChunkCheck.@tooltip":
+    "Tắt kiểm tra này có thể khắc phục vấn đề\nLOD không cập nhật sau khi lô thay đổi.\n",
+  "distanthorizons.config.common.lodBuilding.pullLightingForPregeneratedChunks":
+    "Lấy ánh sáng cho lô đã sinh trước",
+  "distanthorizons.config.common.lodBuilding.pullLightingForPregeneratedChunks.@tooltip":
+    "Nếu bật, khi tạo LOD cho các lô có sẵn, sẽ thử lấy dữ liệu ánh sáng lưu trong tệp vùng lưu trữ của Minecraft\n.Nếu tắt, DH sẽ nạp các lô không có ánh sáng và chiếu lại ánh sáng cho chúng.\n\nĐặt thành có sẽ khiến LOD sinh nhanh hơn\nvới các vùng đã sinh, nhưng phần lớn mod ánh sáng sẽ phá vỡ điều này.\n\nNếu LOD bị đen, hãy đặt thành không",
+  "distanthorizons.config.common.lodBuilding.assumePreExistingChunksAreFinished":
+    "Giả định các lô có sẵn đã tải xong",
+  "distanthorizons.config.common.lodBuilding.assumePreExistingChunksAreFinished.@tooltip":
+    "Bật thiết lập này có thể khắc phục một số vấn đề khi dùng DH với thế giới đã sinh trước.",
+  "distanthorizons.config.common.lodBuilding.dataCompression":
+    "Nén dữ liệu",
+  "distanthorizons.config.common.lodBuilding.dataCompression.@tooltip":
+    "Dùng thuật toán nén nào cho dữ liệu LOD mới thêm?\nThiết lập này chỉ ảnh hưởng tới dữ liệu LOD mới thêm hoặc cập nhật,\ndữ liệu đã có sẽ không bị ảnh hưởng cho tới khi cần ghi lại vào cơ sở dữ liệu.\n\nNhanh nhất: LZ4\nNén tốt nhất: LZMA2",
+  "distanthorizons.config.common.lodBuilding.worldCompression":
+    "Nén thế giới có tổn thất",
+  "distanthorizons.config.common.lodBuilding.worldCompression.@tooltip":
+    "Nén dữ liệu khối ra sao khi tạo dữ liệu LOD?\nThiết lập này chỉ ảnh hưởng tới dữ liệu LOD mới thêm hoặc cập nhật,\ndữ liệu đã có sẽ không bị ảnh hưởng cho tới khi bị sửa hoặc nạp lại.\n\nChính xác nhất: gộp các khối giống nhau\nNén tốt nhất: tương đương thị giác",
+  "distanthorizons.config.common.lodBuilding.recalculateChunkHeightmaps":
+    "Tính lại bản đồ chiều cao lô",
+  "distanthorizons.config.common.lodBuilding.recalculateChunkHeightmaps.@tooltip":
+    "Bật: tính lại bản đồ chiều cao trước khi DH dùng lô, có thể khắc phục vấn đề với các thế giới do công cụ bên ngoài tạo ra.\nTắt: giả định các bản đồ chiều cao do Minecraft xử lý đều đúng.\n\nNhanh nhất: tắt\nTương thích cao nhất: bật",
+  "distanthorizons.config.common.lodBuilding.showMigrationChatWarning":
+    "Ghi cảnh báo di chuyển vào chat",
+
+
+  "distanthorizons.config.common.lodBuilding.experimental":
+    "Thử nghiệm",
+
+  "distanthorizons.config.common.lodBuilding.experimental.upsampleLowerDetailLodsToFillHoles":
+    "Nâng mẫu LOD chi tiết thấp để lấp lỗ hổng",
+  "distanthorizons.config.common.lodBuilding.experimental.upsampleLowerDetailLodsToFillHoles.@tooltip":
+    "Khi DH cố lấp các dữ liệu LOD bị mất bằng mọi dữ liệu có sẵn trong cây, tính này ngăn lỗ hổng xuất hiện khi di chuyển trong lúc bộ sinh (hoặc máy chủ) N-Sized đang chạy. \n\n§6Tính năng thử nghiệm§r sẽ làm tăng mức dùng ổ cứng và có thể gây ra vấn đề kết xuất.\nXem tệp cấu hình để biết thêm chi tiết.",
+
+  "distanthorizons.config.common.multiThreading":
+    "Đa luồng",
+
+  "distanthorizons.config.common.multiThreading.numberOfThreads":
+    "Số luồng",
+  "distanthorizons.config.common.multiThreading.numberOfThreads.@tooltip":
+    "Số luồng mà DH sử dụng",
+  "distanthorizons.config.common.multiThreading.threadRunTimeRatio":
+    "Tỷ lệ thời gian chạy của luồng",
+   "distanthorizons.config.common.multiThreading.threadPriority":
+    "Độ ưu tiên luồng",
+  "distanthorizons.config.common.multiThreading.threadPriority.@tooltip":
+    "Nhóm luồng chính của DH nên chạy với ưu tiên luồng Java nào?\n\nThường không cần đổi mục này, trừ khi ngươi đang chạy mod C2ME\nvà gặp vấn đề thiếu luồng trong C2ME hoặc DH.",
+
+
+  "distanthorizons.config.common.logging":
+    "Nhật ký",
+  "distanthorizons.config.common.logging.@tooltip":
+    "Kiểm soát cách viết nhật ký.",
+
+  "distanthorizons.config.common.logging.globalFileMaxLevel":
+  "Cấp độ nhật ký tệp toàn cục",
+  "distanthorizons.config.common.logging.globalChatMaxLevel":
+  "Cấp độ nhật ký chat toàn cục",
+
+  "distanthorizons.config.common.logging.logWorldGenEventToFile":
+  "Sự kiện tạo thế giới - Tệp",
+  "distanthorizons.config.common.logging.logWorldGenPerformanceToFile":
+  "Hiệu năng tạo thế giới - Tệp",
+  "distanthorizons.config.common.logging.logWorldGenChunkLoadEventToFile":
+  "Sự kiện nạp lô - Tệp",
+  "distanthorizons.config.common.logging.logRendererEventToFile":
+  "Sự kiện kết xuất - Tệp",
+  "distanthorizons.config.common.logging.logRendererGLEventToFile":
+  "Sự kiện OpenGL - Tệp",
+  "distanthorizons.config.common.logging.logRendererGLEventToChat":
+  "Sự kiện OpenGL - Chat",
+  "distanthorizons.config.common.logging.logNetworkEventToFile":
+  "Sự kiện mạng - Tệp",
+
+
+  "distanthorizons.config.common.logging.warning":
+    "Cảnh báo",
+  "distanthorizons.config.common.logging.warning.showLowMemoryWarningOnStartup":
+    "Hiện cảnh báo thiếu bộ nhớ",
+  "distanthorizons.config.common.logging.warning.showPoolInsufficientMemoryWarning":
+    "Hiện cảnh báo nhóm thiếu bộ nhớ",
+  "distanthorizons.config.common.logging.warning.showPoolInsufficientMemoryWarning.@tooltip":
+    "Nếu DH phát hiện đối tượng trong nhóm đang bị GC thu hồi, một cảnh báo sẽ được gửi vào chat",
+  "distanthorizons.config.common.logging.warning.showHighVanillaRenderDistanceWarning":
+    "Hiện cảnh báo khoảng cách kết xuất gốc quá cao",
+  "distanthorizons.config.common.logging.warning.showReplayWarningOnStartup":
+    "Hiện cảnh báo mod Replay",
+  "distanthorizons.config.common.logging.warning.showUpdateQueueOverloadedChatWarning":
+    "Hiện cảnh báo hàng đợi cập nhật quá tải",
+  "distanthorizons.config.common.logging.warning.showSlowWorldGenSettingWarnings":
+    "Hiện cảnh báo thiết lập tạo thế giới quá chậm",
+  "distanthorizons.config.common.logging.warning.showModCompatibilityWarningsOnStartup":
+    "Hiện cảnh báo tương thích mod",
+  "distanthorizons.config.common.logging.warning.logGarbageCollectorWarning":
+    "Ghi nhật ký cảnh báo thu hồi rác",
+
+
+
+
+
+
+  "distanthorizons.config.server":
+    "Máy chủ",
+
+
+  "distanthorizons.config.server.sendLevelKeys":
+    "Gửi khóa thế giới",
+  "distanthorizons.config.server.sendLevelKeys.@tooltip":
+    "Cho phép máy chủ gửi khóa thế giới cho từng thế giới.\nHãy tắt tùy chọn này nếu khóa thế giới được gửi bằng cách khác.",
+
+  "distanthorizons.config.server.levelKeyPrefix":
+    "Tiền tố khóa thế giới",
+  "distanthorizons.config.server.levelKeyPrefix.@tooltip":
+    "Tiền tố của khóa thế giới gửi tới máy khách.\nNếu mod chạy sau một proxy, mỗi phần sau nên dùng một giá trị duy nhất.\nNếu giá trị này trống, khóa thế giới sẽ dựa trên giá trị băm hạt giống của máy chủ.",
+
+  "distanthorizons.config.server.generationRequestRateLimit":
+    "Giới hạn tốc độ yêu cầu sinh",
+  "distanthorizons.config.server.generationRequestRateLimit.@tooltip":
+    "Máy khách nên gửi bao nhiêu yêu cầu sinh LOD mỗi giây?\nCũng giới hạn số yêu cầu của người chơi được phép giữ trong hàng đợi của máy chủ.",
+
+  "distanthorizons.config.server.maxGenerationRequestDistance":
+    "Khoảng cách yêu cầu sinh tối đa",
+  "distanthorizons.config.server.maxGenerationRequestDistance.@tooltip":
+    "Quy định khoảng cách xung quanh người chơi được phép sinh.",
+
+  "distanthorizons.config.server.enableRealTimeUpdates":
+    "Bật cập nhật thời gian thực",
+  "distanthorizons.config.server.enableRealTimeUpdates.@tooltip":
+    "Nếu bật, máy khách sẽ nhận cập nhật LOD thời gian thực cho các lô nằm ngoài khoảng cách kết xuất của máy khách",
+
+  "distanthorizons.config.server.realTimeUpdateDistanceRadiusInChunks":
+    "Bán kính cập nhật lô thời gian thực",
+  "distanthorizons.config.server.realTimeUpdateDistanceRadiusInChunks.@tooltip":
+    "Quy định bán kính mà người chơi nhận cập nhật.",
+
+  "distanthorizons.config.server.synchronizeOnLoad":
+    "Đồng bộ LOD lúc nạp",
+  "distanthorizons.config.server.synchronizeOnLoad.@tooltip":
+    "Nếu bật, máy khách sẽ nhận LOD đã cập nhật khi vào nếu có bất kỳ thay đổi nào từ lần vào gần nhất.",
+
+  "distanthorizons.config.server.syncOnLoadRateLimit":
+    "Giới hạn tốc độ đồng bộ lúc nạp",
+  "distanthorizons.config.server.syncOnLoadRateLimit.@tooltip":
+    "Máy khách nên gửi bao nhiêu yêu cầu sinh LOD mỗi giây?\nCũng giới hạn số yêu cầu của người chơi được phép giữ trong hàng đợi của máy chủ",
+
+  "distanthorizons.config.server.maxSyncOnLoadRequestDistance":
+    "Khoảng cách đồng bộ yêu cầu lúc nạp tối đa",
+  "distanthorizons.config.server.maxSyncOnLoadRequestDistance.@tooltip":
+    "Quy định khoảng cách xung quanh người chơi được phép đồng bộ.\nTrong hầu hết trường hợp, nên lớn hơn hoặc bằng “Khoảng cách yêu cầu sinh tối đa”.",
+
+  "distanthorizons.config.server.playerBandwidthLimit":
+    "Giới hạn băng thông mỗi người chơi, KB/s",
+  "distanthorizons.config.server.playerBandwidthLimit.@tooltip":
+    "Tốc độ tối đa của một người chơi khi tải LOD lên máy khách (đơn vị: KB/s).\nGiá trị 0 nghĩa là không giới hạn.",
+  "distanthorizons.config.server.globalBandwidthLimit":
+    "Giới hạn băng thông toàn cục, KB/s",
+  "distanthorizons.config.server.globalBandwidthLimit.@tooltip":
+    "Tốc độ tối đa toàn cục khi tải LOD lên máy khách (đơn vị: KB/s).\nGiá trị 0 nghĩa là không giới hạn.",
+  "distanthorizons.config.server.enableAdaptiveTransferSpeed":
+    "Bật tốc độ truyền thích ứng",
+  "distanthorizons.config.server.enableAdaptiveTransferSpeed.@tooltip":
+    "Bật tốc độ truyền thích ứng dựa trên hiệu năng máy khách.\nNếu bật, DH sẽ tự động điều chỉnh tốc độ truyền để giảm độ trễ kết nối tới mức tối đa.\nNếu tắt, tốc độ truyền sẽ giữ ở giá trị cố định.",
+
+
+  "distanthorizons.config.server.experimental":
+    "Thử nghiệm",
+
+  "distanthorizons.config.server.experimental.enableNSizedGeneration":
+    "Bật sinh N-sized",
+  "distanthorizons.config.server.experimental.enableNSizedGeneration.@tooltip":
+    "Sau khi được bật ở máy khách, tính này sẽ nạp chất lượng LOD thấp hơn khi cần để tăng tốc quá trình sinh địa hình.\nĐiều này cũng phải được bật ở máy chủ, nếu không sẽ không có tác dụng.\nNên bật để có hiệu năng tốt hơn khi chuyển đổi chất lượng LOD",
+
+
+
+
+  "distanthorizons.config.enum.EDhApiQualityPreset.CUSTOM":
+    "Tùy chỉnh",
+  "distanthorizons.config.enum.EDhApiQualityPreset.MINIMUM":
+    "1. Tối thiểu",
+  "distanthorizons.config.enum.EDhApiQualityPreset.LOW":
+    "2. Thấp",
+  "distanthorizons.config.enum.EDhApiQualityPreset.MEDIUM":
+    "3. Trung bình",
+  "distanthorizons.config.enum.EDhApiQualityPreset.HIGH":
+    "4. Cao",
+  "distanthorizons.config.enum.EDhApiQualityPreset.EXTREME":
+    "5. Cực hạn",
+
+  "distanthorizons.config.enum.EDhApiThreadPreset.CUSTOM":
+    "Tùy chỉnh",
+  "distanthorizons.config.enum.EDhApiThreadPreset.MINIMAL_IMPACT":
+    "1. Tối thiểu",
+  "distanthorizons.config.enum.EDhApiThreadPreset.LOW_IMPACT":
+    "2. Thấp",
+  "distanthorizons.config.enum.EDhApiThreadPreset.BALANCED":
+    "3. Cân bằng",
+  "distanthorizons.config.enum.EDhApiThreadPreset.AGGRESSIVE":
+    "4. Hiệu năng",
+  "distanthorizons.config.enum.EDhApiThreadPreset.I_PAID_FOR_THE_WHOLE_CPU":
+    "5. Dùng trọn CPU",
+
+  "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.BLOCK":
+    "1 khối",
+  "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.TWO_BLOCKS":
+    "2 khối",
+  "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.FOUR_BLOCKS":
+    "4 khối",
+  "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.HALF_CHUNK":
+    "1/2 lô",
+  "distanthorizons.config.enum.EDhApiMaxHorizontalResolution.CHUNK":
+    "1 lô",
+
+  "distanthorizons.config.enum.EDhApiMcRenderingFadeMode.NONE":
+    "Không",
+  "distanthorizons.config.enum.EDhApiMcRenderingFadeMode.SINGLE_PASS":
+    "Một lượt",
+  "distanthorizons.config.enum.EDhApiMcRenderingFadeMode.DOUBLE_PASS":
+    "Hai lượt",
+
+  "distanthorizons.config.enum.EDhApiVerticalQuality.HEIGHT_MAP":
+    "1. Bản đồ chiều cao",
+  "distanthorizons.config.enum.EDhApiVerticalQuality.LOW":
+    "2. Thấp",
+  "distanthorizons.config.enum.EDhApiVerticalQuality.MEDIUM":
+    "3. Trung bình",
+  "distanthorizons.config.enum.EDhApiVerticalQuality.HIGH":
+    "4. Cao",
+  "distanthorizons.config.enum.EDhApiVerticalQuality.VERY_HIGH":
+    "5. Rất cao",
+  "distanthorizons.config.enum.EDhApiVerticalQuality.EXTREME":
+    "6. Cực hạn",
+  "distanthorizons.config.enum.EDhApiVerticalQuality.PIXEL_ART":
+    "7. Nghệ thuật pixel",
+
+  "distanthorizons.config.enum.EDhApiHorizontalQuality.LOWEST":
+    "Thấp nhất",
+  "distanthorizons.config.enum.EDhApiHorizontalQuality.LOW":
+    "Thấp",
+  "distanthorizons.config.enum.EDhApiHorizontalQuality.MEDIUM":
+    "Trung bình",
+  "distanthorizons.config.enum.EDhApiHorizontalQuality.HIGH":
+    "Cao",
+  "distanthorizons.config.enum.EDhApiHorizontalQuality.EXTREME":
+    "Cực hạn",
+
+
+  "distanthorizons.config.enum.EDhApiTransparency.DISABLED":
+    "Tắt",
+  "distanthorizons.config.enum.EDhApiTransparency.FAKE":
+    "Giả trong suốt",
+  "distanthorizons.config.enum.EDhApiTransparency.COMPLETE":
+    "Toàn bộ",
+
+  "distanthorizons.config.enum.EDhApiFogDrawMode.USE_OPTIFINE_SETTING":
+    "Dùng thiết lập của mod",
+  "distanthorizons.config.enum.EDhApiFogDrawMode.FOG_ENABLED":
+    "Bật",
+  "distanthorizons.config.enum.EDhApiFogDrawMode.FOG_DISABLED":
+    "Tắt",
+
+  "distanthorizons.config.enum.EDhApiFogColorMode.USE_WORLD_FOG_COLOR":
+    "Dùng màu sương mù của thế giới",
+  "distanthorizons.config.enum.EDhApiFogColorMode.USE_SKY_COLOR":
+    "Dùng màu bầu trời",
+
+  "distanthorizons.config.enum.EDhApiFogFalloff.LINEAR":
+    "Tuyến tính",
+  "distanthorizons.config.enum.EDhApiFogFalloff.EXPONENTIAL":
+    "Lũy thừa",
+  "distanthorizons.config.enum.EDhApiFogFalloff.EXPONENTIAL_SQUARED":
+    "Lũy thừa bình phương",
+
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.SPHERICAL":
+    "Hình cầu",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.CYLINDRICAL":
+    "Hình trụ",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.ADDITION":
+    "Cộng",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.MAX":
+    "Lấy giá trị lớn nhất",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.MULTIPLY":
+    "Nhân",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.INVERSE_MULTIPLY":
+    "Nhân nghịch đảo",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.LIMITED_ADDITION":
+    "Cộng có giới hạn",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.MULTIPLY_ADDITION":
+    "Nhân rồi cộng",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.INVERSE_MULTIPLY_ADDITION":
+    "Nhân nghịch rồi cộng",
+  "distanthorizons.config.enum.EDhApiHeightFogMixMode.AVERAGE":
+    "Lấy giá trị trung bình",
+
+  "distanthorizons.config.enum.EDhApiHeightFogDirection.ABOVE_CAMERA":
+    "Trên ống kính",
+  "distanthorizons.config.enum.EDhApiHeightFogDirection.BELOW_CAMERA":
+    "Dưới ống kính",
+  "distanthorizons.config.enum.EDhApiHeightFogDirection.ABOVE_AND_BELOW_CAMERA":
+    "Trên và dưới ống kính",
+  "distanthorizons.config.enum.EDhApiHeightFogDirection.ABOVE_SET_HEIGHT":
+    "Trên độ cao đặt",
+  "distanthorizons.config.enum.EDhApiHeightFogDirection.BELOW_SET_HEIGHT":
+    "Dưới độ cao đặt",
+  "distanthorizons.config.enum.EDhApiHeightFogDirection.ABOVE_AND_BELOW_SET_HEIGHT":
+    "Trên và dưới độ cao đặt",
+
+  "distanthorizons.config.enum.EDhApiVanillaOverdraw.NEVER":
+    "Không bao giờ",
+  "distanthorizons.config.enum.EDhApiVanillaOverdraw.DYNAMIC":
+    "Động",
+  "distanthorizons.config.enum.EDhApiVanillaOverdraw.ALWAYS":
+    "Luôn luôn",
+
+  "distanthorizons.config.enum.EDhApiDistantGeneratorMode.NONE":
+    "1. Chỉ địa hình hiện có",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorMode.PRE_EXISTING_ONLY":
+    "2. Chỉ lô đã sinh trước",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorMode.BIOME_ONLY":
+    "3. Chỉ sinh quần",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorMode.BIOME_ONLY_SIMULATE_HEIGHT":
+    "4. Chỉ sinh quần (mô phỏng chiều cao)",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorMode.SURFACE":
+    "5. Địa hình mặt đất",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorMode.FEATURES":
+    "6. Sinh đặc điểm",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorMode.INTERNAL_SERVER":
+    "7. Sinh đầy đủ (giữ lô thật)",
+
+  "distanthorizons.config.enum.EDhApiDistantGeneratorProgressDisplayLocation.OVERLAY":
+    "Cửa sổ hiển thị",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorProgressDisplayLocation.CHAT":
+    "Chat",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorProgressDisplayLocation.LOG":
+    "Nhật ký",
+  "distanthorizons.config.enum.EDhApiDistantGeneratorProgressDisplayLocation.DISABLED":
+    "Tắt",
+
+  "distanthorizons.config.enum.EDhApiDataCompressionMode.UNCOMPRESSED":
+    "Không nén (dữ liệu thô)",
+  "distanthorizons.config.enum.EDhApiDataCompressionMode.LZ4":
+    "Nhanh/lớn - LZ4",
+  "distanthorizons.config.enum.EDhApiDataCompressionMode.Z_STD_BLOCK":
+    "Nhanh/nhỏ - Z_STD - khối",
+  "distanthorizons.config.enum.EDhApiDataCompressionMode.Z_STD_STREAM":
+    "Nhanh/nhỏ - Z_STD - luồng",
+  "distanthorizons.config.enum.EDhApiDataCompressionMode.LZMA2":
+    "Chậm/nhỏ nhất - LZMA2",
+
+
+  "distanthorizons.config.enum.EDhApiWorldCompressionMode.MERGE_SAME_BLOCKS":
+    "1. Gộp các khối giống nhau",
+  "distanthorizons.config.enum.EDhApiWorldCompressionMode.VISUALLY_EQUAL":
+    "2. Tương đương thị giác",
+
+  "distanthorizons.config.enum.EDhApiBlocksToAvoid.NONE":
+    "Không",
+  "distanthorizons.config.enum.EDhApiBlocksToAvoid.NON_COLLIDING":
+    "Không có hộp va chạm",
+
+  "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_ONLY":
+    "Chỉ tên",
+  "distanthorizons.config.enum.EDhApiServerFolderNameMode.IP_ONLY":
+    "Chỉ IP",
+  "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_IP":
+    "Tên và IP",
+  "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_IP_PORT":
+    "Tên, IP, cổng",
+  "distanthorizons.config.enum.EDhApiServerFolderNameMode.NAME_IP_PORT_MC_VERSION":
+    "Tên, IP, cổng, phiên bản game",
+
+  "distanthorizons.config.enum.EDhApiRendererMode.DEFAULT":
+    "Mặc định",
+  "distanthorizons.config.enum.EDhApiRendererMode.DEBUG":
+    "Gỡ lỗi",
+  "distanthorizons.config.enum.EDhApiRendererMode.DISABLED":
+    "Tắt",
+
+  "distanthorizons.config.enum.EDhApiDebugRendering.OFF":
+    "Tắt",
+  "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_DETAIL":
+    "Hiện chi tiết",
+  "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_GENMODE":
+    "Hiện chế độ sinh",
+  "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_BLOCK_MATERIAL":
+    "Hiện vật liệu khối",
+  "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_OVERLAPPING_QUADS":
+    "Hiện tứ giác chồng lấn",
+  "distanthorizons.config.enum.EDhApiDebugRendering.SHOW_RENDER_SOURCE_FLAG":
+    "Hiện cờ nguồn kết xuất",
+
+  "distanthorizons.config.enum.EDhApiGLErrorHandlingMode.IGNORE":
+    "Bỏ qua",
+  "distanthorizons.config.enum.EDhApiGLErrorHandlingMode.LOG":
+    "Ghi nhật ký",
+  "distanthorizons.config.enum.EDhApiGLErrorHandlingMode.LOG_THROW":
+    "Ghi nhật ký rồi ném",
+
+  "distanthorizons.config.enum.EDhApiGlProfileMode.CORE":
+    "Lõi",
+  "distanthorizons.config.enum.EDhApiGlProfileMode.COMPAT":
+    "Tương thích",
+  "distanthorizons.config.enum.EDhApiGlProfileMode.ANY":
+    "Bất kỳ",
+
+  "distanthorizons.config.enum.EDhApiLoggerLevel.ALL":
+  "1. Tất cả",
+  "distanthorizons.config.enum.EDhApiLoggerLevel.DEBUG":
+  "2. Gỡ lỗi",
+  "distanthorizons.config.enum.EDhApiLoggerLevel.INFO":
+  "3. Thông tin",
+  "distanthorizons.config.enum.EDhApiLoggerLevel.WARN":
+  "4. Cảnh báo",
+  "distanthorizons.config.enum.EDhApiLoggerLevel.ERROR":
+  "5. Lỗi",
+  "distanthorizons.config.enum.EDhApiLoggerLevel.DISABLED":
+  "6. Tắt",
+
+  "distanthorizons.config.enum.EDhApiGpuUploadMethod.AUTO":
+    "Tự động",
+  "distanthorizons.config.enum.EDhApiGpuUploadMethod.BUFFER_STORAGE":
+    "Lưu trữ bộ đệm",
+  "distanthorizons.config.enum.EDhApiGpuUploadMethod.SUB_DATA":
+    "Dữ liệu con",
+  "distanthorizons.config.enum.EDhApiGpuUploadMethod.BUFFER_MAPPING":
+    "Ánh xạ bộ đệm",
+  "distanthorizons.config.enum.EDhApiGpuUploadMethod.DATA":
+    "Dữ liệu",
+
+  "distanthorizons.config.enum.EDhApiLodShading.AUTO":
+    "Tự động",
+  "distanthorizons.config.enum.EDhApiLodShading.ENABLED":
+    "Bật",
+  "distanthorizons.config.enum.EDhApiLodShading.DISABLED":
+    "Tắt",
+
+  "distanthorizons.config.enum.EDhApiUpdateBranch.STABLE":
+    "Ổn định",
+  "distanthorizons.config.enum.EDhApiUpdateBranch.NIGHTLY":
+    "Dựng hằng đêm thử nghiệm",
+  "distanthorizons.config.enum.EDhApiUpdateBranch.AUTO":
+    "Tự động",
+
+  "distanthorizons.config.enum.EDhApiGrassSideRendering.AS_GRASS":
+    "Như cỏ",
+  "distanthorizons.config.enum.EDhApiGrassSideRendering.FADE_TO_DIRT":
+    "Mờ dần về đất",
+  "distanthorizons.config.enum.EDhApiGrassSideRendering.AS_DIRT":
+    "Như đất"
+
+}

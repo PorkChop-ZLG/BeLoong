@@ -1,0 +1,31 @@
+{
+  "key.categories.gtbcs_spell_lib": "Thư Viện Pháp Của GTBC/API",
+  "key.gtbcs_spell_lib.lore_item_previous": "Trang trước Sư Thư Pháp",
+  "key.gtbcs_spell_lib.lore_item_next": "Trang sau Sư Thư Pháp",
+
+  "attribute.gtbcs_spell_lib.spell_damage": "Sát thương phép thuật",
+  "attribute.gtbcs_spell_lib.magic_projectile_damage": "Sát thương đạn huyễn",
+  "attribute.gtbcs_spell_lib.spell_crit_chance": "Tỉ lệ bạo kích pháp",
+  "attribute.gtbcs_spell_lib.spell_crit_damage": "Sát thương bạo kích pháp",
+
+  "lore_item.gtbcs_spell_lib.preview.author": "Tác giả",
+  "lore_item.gtbcs_spell_lib.preview.continue.start": "Nhấn [",
+  "lore_item.gtbcs_spell_lib.preview.continue.end": "] hoặc [Nhấn] để tiếp tục",
+  "lore_item.gtbcs_spell_lib.credits.title": "Ghi công",
+  "lore_item.gtbcs_spell_lib.credits.document": "Tên:",
+  "lore_item.gtbcs_spell_lib.credits.lore_author": "Người viết lore:",
+  "lore_item.gtbcs_spell_lib.credits.original_author": "Tác giả gốc:",
+  "lore_item.gtbcs_spell_lib.credits.credits": "Ghi công:",
+  "lore_item.gtbcs_spell_lib.credits.volume": "Quyển:",
+  "lore_item.gtbcs_spell_lib.credits.written_date": "Năm viết:",
+  "lore_item.gtbcs_spell_lib.credits.last_updated": "Năm cập nhật mới:",
+  "lore_item.gtbcs_spell_lib.tooltip.open_prompt": "Chuột phải khi cầm trên tay để mở",
+
+  "item.gtbcs_spell_lib.gsl_example_lore_item": "Sư Thư Pháp Mẫu",
+  "item.gtbcs_spell_lib.gsl_example_crit_staff": "Pháp Trượng Bạo Kích Mẫu",
+
+  "item.gtbcs_spell_lib.spell_imbuing_curio.already_assigned.message": "Không thể truyền vang âm đã có pháp khác!",
+  "item.gtbcs_spell_lib.spell_imbuing_curio.not_enough_xp.message": "Không đủ điểm kinh nghiệm!",
+  "item.gtbcs_spell_lib.spell_imbuing_curio.success": "Truyền Pháp Thành Công!",
+  "item.gtbcs_spell_lib.random_imbue_curio.ex_required.tooltip": "Cần điểm kinh nghiệm!"
+}

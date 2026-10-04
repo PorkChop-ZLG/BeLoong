@@ -1,0 +1,17 @@
+{
+  "text.structurecredits.message": "§aChào mừng đến với %1$s §7- §eĐược tạo bởi %2$s",
+  "text.structurecredits.message_dimensional_dungeon": "§aChào mừng đến với %1$s §7- §eĐược tạo bởi %2$s",
+
+  "text.structurecredits.message_no_creator": "§aChào mừng đến với %1$s",
+  "text.structurecredits.message_no_creator_dimensional_dungeon": "§aChào mừng đến với %1$s",
+
+  "category.structurecredits.keys": "Danh đề Kết cấu",
+  "key.structurecredits.deactivate_key": "Tắt thông tin kết cấu",
+  "text.structurecredits.deactivated": "§7Thông tin kết cấu đã tắt.",
+  "text.structurecredits.activated": "§7Thông tin kết cấu đã bật.",
+
+  "key.structurecredits.show_again_key": "Hiện lại thông tin kết cấu",
+  "key.structurecredits.dont_show_key": "Không hiện kết cấu này nữa",
+  "text.structurecredits.dont_show": "§7Kết cấu này sẽ không hiện thông tin.",
+  "text.structurecredits.already_dont_show": "§7Kết cấu này đã được thiết lập không hiện thông tin."
+}
