@@ -1,7 +1,7 @@
 [general]
 	#Block destruction mode for skills (ON, PARTIAL_PROTECTION, FTB_FORBID, OFF). ON destroys everything without checks. PARTIAL_PROTECTION (partial protection) respects BreakEvent-based protections (fdbosses/WorldGuard etc.) and does not require FTB. FTB_FORBID also runs the BreakEvent protection check, then forbids destruction in any claimed chunk (requires FTB Chunks).
 	#Allowed Values: ON, PARTIAL_PROTECTION, FTB_FORBID, OFF
-	blockDestructionMode = "PARTIAL_PROTECTION"
+	blockDestructionMode = "OFF"
 	#Time manipulation ability mode: OFF (disabled), TICK (tick rate control), TIME (daytime sun control)
 	#Allowed Values: OFF, TICK, TIME
 	timeAbilityMode = "TIME"
