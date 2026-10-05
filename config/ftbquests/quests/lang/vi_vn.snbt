@@ -1102,8 +1102,6 @@
 	quest.196D64F5AFD45762.quest_subtitle: "Nghìn dặm đóng băng, vạn dặm tuyết bay"
 	quest.196D64F5AFD45762.title: "Băng Vực"
 	quest.19878C818E548C2D.title: "Quan Sát: Rễ Cây"
-	quest.19ABCC0C33AD9672.quest_desc: ["&6Nhiệm vụ: nhận được Thánh Quang Chìa Khóa"]
-	quest.19ABCC0C33AD9672.title: "Thánh Quang Chìa Khóa"
 	quest.19DA784FDC312506.quest_desc: [
 		"&6Nhiệm vụ: trưởng thành tới giai đoạn Long Tổ Tiên, đánh bại Song Sinh Hắc Ám"
 		""
@@ -1864,8 +1862,6 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "Học cách dùng sách phép"
 	quest.346F1B08A0E6345D.title: "Kiến Tập Ma Sư"
-	quest.3478FDACA97D4803.quest_desc: ["&6Nhiệm vụ: đánh bại Lĩnh Đạo Luyện Nhân"]
-	quest.3478FDACA97D4803.title: "Lĩnh Đạo Luyện Nhân"
 	quest.347C54BAEC42A4AA.quest_desc: [
 		"&6Nhiệm vụ: đánh bại Diệt Vong Cấu Thể"
 		""
@@ -3316,8 +3312,6 @@
 	quest.5B17EE2B443E6FAB.title: "Cổng Dịch Thiên Tai"
 	quest.5B754E8171325667.quest_subtitle: "&5&l「Mạt」&r&dĐây là cảm giác bay ư?"
 	quest.5B754E8171325667.title: "Hồi 2: Hóa Long"
-	quest.5B7869303C02FFD4.quest_desc: ["&6Nhiệm vụ: đánh bại Luyện Nhân Kỵ Sĩ"]
-	quest.5B7869303C02FFD4.title: "Luyện Nhân Kỵ Sĩ"
 	quest.5B9E398C385E0CA1.quest_subtitle: "Bông hoa trắng trên đồng cỏ"
 	quest.5BAF5C77F3373696.title: "Quan Sát: Dưa Chua Biển"
 	quest.5BB4A81605A76537.quest_desc: [
@@ -4354,8 +4348,6 @@
 	quest.760C3E4759FA6815.title: "Tinh Chú Long"
 	quest.762DDE9C0729E876.quest_subtitle: "Thu thập đủ mọi nhẫn"
 	quest.762DDE9C0729E876.title: "&aNhẫn Tốt Nghiệp"
-	quest.766B986DF990680C.quest_desc: ["&6Nhiệm vụ: nhận được Chìa Khóa Ám Ảnh"]
-	quest.766B986DF990680C.title: "Chìa Khóa Ám Ảnh"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2La Bàn Tự Nhiên：&aRừng Huyết Sắc&r"
 		"&2La Bàn Tự Nhiên：&aRừng Tảo Xoắn&r"

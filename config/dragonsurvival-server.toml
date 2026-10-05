@@ -70,7 +70,7 @@
 		#Base value for the attack damage attribute
 		# Default: 12
 		# Range: > 0
-		knight_damage = 50
+		knight_damage = 40
 		#Base value for the max health attribute
 		# Default: 40.0
 		# Range: 1.0 ~ 1.7976931348623157E308
@@ -78,7 +78,7 @@
 		#Base value for the armor toughness attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		knight_armor_toughness = 10.0
+		knight_armor_toughness = 6.0
 		#Base value for the armor attribute
 		# Default: 10.0
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -154,7 +154,7 @@
 		#Base value for the attack damage attribute
 		# Default: 6
 		# Range: > 0
-		spearman_damage = 30
+		spearman_damage = 20
 		#Base value for the movement speed attribute
 		# Default: 0.35
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -184,7 +184,7 @@
 		#Base value for the armor toughness attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		ambusher_armor_toughness = 6.0
+		ambusher_armor_toughness = 4.0
 		#Base value for the knockback resistance attribute
 		# Default: 0.0
 		# Range: 0.0 ~ 1.7976931348623157E308
@@ -205,7 +205,7 @@
 		#Base value for the attack damage attribute
 		# Default: 12
 		# Range: > 0
-		ambusher_damage = 40
+		ambusher_damage = 30
 		#Base value for the max health attribute
 		# Default: 40.0
 		# Range: 1.0 ~ 1.7976931348623157E308

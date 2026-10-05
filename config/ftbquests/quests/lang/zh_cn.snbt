@@ -1106,8 +1106,6 @@
 	quest.196D64F5AFD45762.quest_subtitle: "千里冰封，万里雪飘"
 	quest.196D64F5AFD45762.title: "冰域"
 	quest.19878C818E548C2D.title: "观察：根须"
-	quest.19ABCC0C33AD9672.quest_desc: ["&6任务：获得圣辉钥匙"]
-	quest.19ABCC0C33AD9672.title: "圣辉钥匙"
 	quest.19DA784FDC312506.quest_desc: [
 		"&6任务：成长到始祖龙阶段，击败黑暗二重身"
 		""
@@ -1380,6 +1378,9 @@
 		"&6护甲：&70"
 		""
 		"&l&d生成"
+		"镇守于&a主世界地底&r的&e锻造室&r中。"
+		"可以对&dBoss重生笼&r使用&z捕获的岩壳居蟹&r复活。"
+		""
 		"&9结构罗盘：&b【Mowzie的生物】锻造室&r"
 		"{@pagebreak}"
 		"&l&d攻略"
@@ -1720,6 +1721,8 @@
 		""
 		"&e猎人首领&r是尼德兰名义上的统治者，但是所有人都知道，这个首领是个&2傻子&r。"
 		""
+		"你也可以直接击杀&e猎人首领&r，获得&e猎人之钥&r。但是一旦这么做，会暴露行踪，获得&c悬赏追猎&r效果，遭受猎龙者们无休止的追杀！"
+		""
 		"当你没有&c悬赏追猎&r效果时，&e猎龙者&r不会主动向你发动攻击。你可以与&e猎人首领&r交易，换取&e猎人之钥&r，开启尼德兰的宝库。"
 	]
 	quest.2FEF82AA8E226D4A.quest_subtitle: "这是傻子吗？"
@@ -1868,8 +1871,6 @@
 	]
 	quest.346F1B08A0E6345D.quest_subtitle: "学会使用魔法书"
 	quest.346F1B08A0E6345D.title: "见习法师"
-	quest.3478FDACA97D4803.quest_desc: ["&6任务：击败猎人首领"]
-	quest.3478FDACA97D4803.title: "猎人首领"
 	quest.347C54BAEC42A4AA.quest_desc: [
 		"&6任务：击败湮灭构造体"
 		""
@@ -2751,6 +2752,17 @@
 	]
 	quest.4B9C19DD3E2679C1.quest_subtitle: "疑似末影傀儡的亲戚"
 	quest.4B9C19DD3E2679C1.title: "霜冻傀儡"
+	quest.4BB0569B14DAA54C.quest_desc: [
+		"&6任务：击杀猎人骑士，从而解除魔法封禁"
+		""
+		"&e猎人骑士&r是尼德兰最精锐的战士，配备着最精良的装备，骑着宫廷御马。"
+		""
+		"当&e猎人骑士&r在场时，能&c封禁周围龙族&r的&d龙语魔法&r。因此，如果你想使用技能，必须杀光他们！"
+		""
+		"但是以你当前的实力，我不推荐和他们硬碰硬。此外，一旦与&e猎人骑士&r为敌，会获得&c悬赏追猎&r的效果，遭受猎龙者无休止的追杀！"
+	]
+	quest.4BB0569B14DAA54C.quest_subtitle: "无神论的坚定信徒"
+	quest.4BB0569B14DAA54C.title: "猎人骑士"
 	quest.4BCF83DBB5612B54.quest_subtitle: "每条龙保底一次"
 	quest.4BCF83DBB5612B54.title: "二重身之戒保底"
 	quest.4BE17AD8808CFFEF.quest_desc: [
@@ -2834,11 +2846,15 @@
 	quest.4DBFC5ADAA53C35F.quest_desc: [
 		"&6任务：找到人类王国——尼德兰"
 		""
-		"&e尼德兰&r，是一个人类小国，曾因屠龙勇士而声名远扬。如今，尼德兰吸引了大量&e猎龙者&r，他们以猎杀龙族为荣。因此，龙族与尼德兰王国水火不容。"
+		"&e尼德兰&r，是一个人类小国的国都，曾因屠龙勇士而声名远扬。如今，尼德兰吸引了大量&e猎龙者&r，他们以猎杀龙族为荣。因此，龙族与尼德兰王国水火不容。"
 		""
 		"&e尼德兰&r本意是低洼之地，而种种迹象表明，这个名字还与&c地狱&r有关。因此，你需要进入尼德兰进行调查，顺便解决那些该死的猎龙者。"
 		""
 		"&e尼德兰&r戒备森严，强者如云，并且布置有更强的&b禁空法阵&r和&b防御法阵&r，你不仅&c难以飞行&r，而且&c无法破坏&r建筑。"
+		""
+		"因此，我强烈建议你避其锋芒，不要与他们正面硬刚。潜入尼德兰，&b&n搜刮宝藏，打败强敌，百万撤离&r。"
+		""
+		"{ \"text\": \"如果你拥有悬赏追猎的效果，点我跳转清除 \", \"underlined\": true, \"color\": green, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B7325524A346099\" } }"
 		""
 		"&9结构罗盘：&b尼德兰"
 	]
@@ -3324,8 +3340,6 @@
 	quest.5B17EE2B443E6FAB.title: "天灾传送门"
 	quest.5B754E8171325667.quest_subtitle: "&5&l「末」&r&d这就是飞行的感觉吗？"
 	quest.5B754E8171325667.title: "第二幕：化龙"
-	quest.5B7869303C02FFD4.quest_desc: ["&6任务：击败猎人骑士"]
-	quest.5B7869303C02FFD4.title: "猎人骑士"
 	quest.5B9E398C385E0CA1.quest_subtitle: "平原上的白色小花"
 	quest.5BAF5C77F3373696.title: "观察：海泡菜"
 	quest.5BB4A81605A76537.quest_desc: [
@@ -3901,6 +3915,9 @@
 		"&6护甲：&70"
 		""
 		"&l&d生成"
+		"住在&a主世界雪原&r的&e霜冻巨兽巢穴&r中。"
+		"可以对&dBoss重生笼&r使用&z荧光胶冻&r复活。"
+		""
 		"&9结构罗盘：&b【Mowzie的生物】霜冻巨兽巢穴&r"
 	]
 	quest.6A1268143ED70C45.quest_subtitle: "★"
@@ -4057,6 +4074,9 @@
 		"&6护甲：&70"
 		""
 		"&l&d生成"
+		"位于&a主世界山地&r的&e修道院&r中，属于&9中立生物&r，会考验玩家的&6跑酷能力&r。"
+		"可以对&dBoss重生笼&r使用&z泥峭棒&r复活。"
+		""
 		"&9结构罗盘：&b【Mowzie的生物】修道院&r"
 	]
 	quest.6D88CFA0D4618ECB.quest_subtitle: "★"
@@ -4322,6 +4342,9 @@
 		"&6护甲：&70"
 		""
 		"&l&d生成"
+		"位于&a主世界热带草原&r的&e乌姆塔纳村落&r中，坐在中央的王座上，接受乌姆塔纳族人的供奉。"
+		"可以对&dBoss重生笼&r使用&z飞蛇毒牙&r复活。"
+		""
 		"&9结构罗盘：&b【Mowzie的生物】乌姆塔纳村落&r"
 	]
 	quest.7552748C8250227C.quest_subtitle: "★"
@@ -4362,8 +4385,6 @@
 	quest.760C3E4759FA6815.title: "晶咒龙"
 	quest.762DDE9C0729E876.quest_subtitle: "集齐所有戒指"
 	quest.762DDE9C0729E876.title: "&a戒指毕业"
-	quest.766B986DF990680C.quest_desc: ["&6任务：获得黯影钥匙"]
-	quest.766B986DF990680C.title: "黯影钥匙"
 	quest.7683B63A191EC24D.quest_desc: [
 		"&2自然罗盘：&a猩红森林&r"
 		"&2自然罗盘：&a螺旋藻森林&r"
@@ -4654,6 +4675,7 @@
 	reward.0A0F3DE349F4B9F1.title: "雷暴"
 	reward.1437281433DFB699.title: "前往龙宫"
 	reward.1A637C1E53731C27.title: "猎杀预谋"
+	reward.1B61E0C949E3B1BF.title: "&a清除&c[悬赏追猎]"
 	reward.1EB7C8ED22A19F53.title: "关闭死亡不掉落"
 	reward.2C535B2FAAC6B904.title: "龙威浩荡"
 	reward.3476152E96B2633F.title: "随机龙蛋"

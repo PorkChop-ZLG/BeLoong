@@ -524,6 +524,12 @@
 				{
 					command: "/effect clear @s dragonsurvival:hunter_omen"
 					exclude_from_claim_all: true
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/mob_effect/hunter_omen.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
 					id: "1B61E0C949E3B1BF"
 					permission_level: 2
 					silent: true
@@ -537,6 +543,7 @@
 						count: 1
 						id: "minecraft:bucket"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2233,6 +2240,7 @@
 				"052D4B32D026CB7C"
 				"639FD9A4833A9854"
 			]
+			dependency_requirement: "one_completed"
 			id: "4DBFC5ADAA53C35F"
 			rewards: [
 				{
@@ -2267,33 +2275,6 @@
 			}]
 			x: 54.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["7A2316A054FED7E5"]
-			id: "5B7869303C02FFD4"
-			rewards: [
-				{
-					id: "005642AD6DFB5E4C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "04D0F03635E0F8EB"
-					item: {
-						count: 1
-						id: "dragonsurvival:elder_dragon_dust"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "beloong:beloong/hunter_knight"
-				criterion: ""
-				id: "1F2268A37BE57A3F"
-				type: "advancement"
-			}]
-			x: 55.5d
-			y: 5.0d
 		}
 		{
 			dependencies: ["4DBFC5ADAA53C35F"]
@@ -2364,6 +2345,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4DBFC5ADAA53C35F"]
 			icon: {
 				id: "dragonsurvival:spearman_promotion"
 			}
@@ -2399,10 +2381,14 @@
 				type: "advancement"
 			}]
 			x: 56.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["2FEF82AA8E226D4A"]
+			dependencies: [
+				"2FEF82AA8E226D4A"
+				"4BB0569B14DAA54C"
+			]
+			dependency_requirement: "one_completed"
 			id: "5280E22998AA42DC"
 			rewards: [
 				{
@@ -2762,57 +2748,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3CFB972DCF434B18"]
-			id: "3478FDACA97D4803"
-			rewards: [{
-				id: "7182F62497AB5B51"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "beloong:beloong/hunter_leader"
-				criterion: ""
-				id: "076F4530373D8CA8"
-				type: "advancement"
-			}]
-			x: 55.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5B7869303C02FFD4"]
-			id: "766B986DF990680C"
-			rewards: [{
-				id: "0F577DB3F22040AC"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "dragonsurvival:dark/collect_key"
-				criterion: ""
-				id: "2C17A1194E1F743C"
-				type: "advancement"
-			}]
-			x: 57.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["3478FDACA97D4803"]
-			id: "19ABCC0C33AD9672"
-			rewards: [{
-				id: "6863B1C31AF36221"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "dragonsurvival:light/collect_key"
-				criterion: ""
-				id: "103A50E652145C55"
-				type: "advancement"
-			}]
-			x: 57.5d
-			y: -5.0d
-		}
-		{
 			dependencies: ["394AD1DCB885B429"]
 			icon: {
 				id: "beyonddimensions:net_creater"
@@ -2843,6 +2778,45 @@
 			}]
 			x: 0.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4DBFC5ADAA53C35F"]
+			icon: {
+				id: "dragonsurvival:golden_knight_helmet"
+			}
+			id: "4BB0569B14DAA54C"
+			rewards: [
+				{
+					id: "388980A3CB0EA6C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "455C1E370A84DFFA"
+					item: {
+						count: 1
+						id: "dragonsurvival:elder_dragon_bone"
+					}
+					type: "item"
+				}
+				{
+					id: "2563EF9446D2B889"
+					item: {
+						count: 1
+						id: "dragonsurvival:golden_knight_helmet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "beloong:beloong/hunter_knight"
+				criterion: ""
+				id: "481F184C6595DD8B"
+				type: "advancement"
+			}]
+			x: 56.0d
+			y: 1.0d
 		}
 	]
 }
