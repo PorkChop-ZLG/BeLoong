@@ -1,0 +1,9 @@
+{
+  "category.inspectability": "Inspectability",
+  "key.inspectability.openiteminspector": "Mở Trình Kiểm Tra Vật Phẩm",
+
+  "tooltip.inspectability.move": "Nhấn và kéo để di chuyển.",
+  "tooltip.inspectability.reposition": "Chuột phải để đổi vị trí.",
+  "tooltip.inspectability.rotate": "Chuột trái để xoay.",
+  "tooltip.inspectability.zoom": "Lăn con lăn chuột để thu phóng."
+}

@@ -1,0 +1,13 @@
+{
+  "betterstrongholds.commands.locate.stronghold": "Hãy dùng /locate structure betterstrongholds:stronghold để định vị!",
+  "Use /locate structure betterstrongholds:stronghold instead!": "Hãy dùng /locate structure betterstrongholds:stronghold để định vị!",
+  "text.autoconfig.betterstrongholds-fabric-1_21.title": "YUNG: Tối Ưu Thành Trì",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds": "YUNG: Tối Ưu Thành Trì",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general": "Cài đặt chung",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.@Tooltip": "Các mục cấu hình chung",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin": "Bật phá hủy cấu trúc",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin.@Tooltip[0]": "Cho phép thành trì bị các hang uốn lượn nhỏ phá hỏng một phần",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin.@Tooltip[1]": "Lưu ý: hang lớn không làm hỏng cấu trúc thành trì",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.filledPortalFrameChance": "Tỉ lệ ô khung cổng đã gắn",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.filledPortalFrameChance.@Tooltip": "Xác suất mỗi khung cổng End được gắn Mắt Ender khi sinh thành"
+}

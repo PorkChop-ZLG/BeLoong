@@ -1,0 +1,21 @@
+{
+  "item.raidsenhanced.player_blimp": "Khí cầu",
+  "item.raidsenhanced.zapper_staff": "Trượng Tia Lôi",
+  "item.raidsenhanced.blimp_parts": "Linh kiện khí cầu",
+  "item.raidsenhanced.handcannon": "Đại bác tay",
+  "itemGroup.raidsenhanced": "Raids: Enhanced",
+  "raidsenhanced.mount": "Tương tác lại với khí cầu để xuống.",
+  "entity.raidsenhanced.zapper": "Tia Lôi",
+  "entity.raidsenhanced.golem_of_last_resort": "Golem Hy Vọng Cuối Cùng",
+  "entity.raidsenhanced.raid_blimp": "Khí cầu cướp lùng",
+  "entity.raidsenhanced.player_blimp": "Khí cầu",
+  "entity.raidsenhanced.raid_drill": "Khoan cướp lùng",
+  "item.raidsenhanced.zapper_spawn_egg": "Trứng triệu hồi Tia Lôi",
+  "item.raidsenhanced.golem_of_last_resort_spawn_egg": "Trứng triệu hồi Golem Hy Vọng Cuối Cùng",
+  "item.raidsenhanced.raid_blimp_spawn_egg": "Trứng triệu hồi Khí cầu cướp lùng",
+  "item.raidsenhanced.raid_drill_spawn_egg": "Trứng triệu hồi Khoan cướp lùng",
+  "raidsenhanced.item_description.player_blimp": "Đặt xuống đất để triệu hồi khí cầu của bạn",
+  "raidsenhanced.item_description.handcannon": "Dùng để bắn một quả bom uy lực",
+  "raidsenhanced.item_description.zapper_staff": "Dùng để giải phóng cầu lôi. Nếu dùng khi nhìn xuống đất sẽ thả lôi điện xung quanh người dùng.",
+  "raidsenhanced.item_description.blimp_parts": "Chế với bất kỳ chiếc thuyền nào để biến nó thành khí cầu"
+}

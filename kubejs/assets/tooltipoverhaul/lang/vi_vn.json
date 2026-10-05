@@ -1,0 +1,15 @@
+{
+  "tooltipoverhaul.common_rarity": "Phàm",
+  "tooltipoverhaul.uncommon_rarity": "Hiếm",
+  "tooltipoverhaul.rare_rarity": "Tinh",
+  "tooltipoverhaul.epic_rarity": "Thần",
+
+  "tooltipoverhaul.binds.category": "Tooltip Overhaul",
+  "tooltipoverhaul.binds.compare_bind": "Bật so sánh trang bị",
+
+  "tooltipoverhaul.equipped_badge_text": "Đã trang bị",
+
+  "tooltipoverhaul.reload_resources.success": "§a[TooltipOverhaul] Đã tải lại tệp custom_frames.json thành công!",
+  "tooltipoverhaul.reload_resources.fail": "§c[TooltipOverhaul] Tải lại tài nguyên thất bại!"
+
+}

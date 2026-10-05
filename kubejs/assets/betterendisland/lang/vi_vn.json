@@ -1,0 +1,15 @@
+{
+  "text.autoconfig.betterendisland-fabric-1_21.title": "YUNG: Tối Ưu Đảo Thiên Mạng",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg": "Rồng hồi sinh rơi trứng",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg.@Tooltip": "Rồng Ender có rơi trứng mỗi lần bị đánh bại hay không",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform": "Sinh nền obsidian vanilla",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform.@Tooltip": "Có dùng nền obsidian vanilla trong End thay vì nền được cải tiến hay không",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways": "Sinh cổng End vanilla",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways.@Tooltip": "Có dùng cổng End vanilla thay vì cổng được cải tiến hay không",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound": "Phát âm thanh chuông",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound.@Tooltip": "Có phát âm chuông trước khi triệu hồi Rồng Ender lần đầu và khi hồi sinh hay không",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially": "Sinh tháp trung tâm ngay từ đầu",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially.@Tooltip": "Tháp trung tâm có sinh ra trong End ngay khi thế giới hình thành hay không",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon": "Tái sinh tháp trung tâm khi hồi sinh rồng",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon.@Tooltip": "Tháp trung tâm có mọc lại trong End khi Rồng Ender được hồi sinh hay không"
+}

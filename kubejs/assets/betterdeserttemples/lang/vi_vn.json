@@ -1,0 +1,15 @@
+{
+  "betterdeserttemples.advancements.root.title": "YUNG: Tối Ưu Thần Điện Sa Mạc",
+  "betterdeserttemples.advancements.root.description": "Trong lòng sa mạc ẩn giấu bí mật viễn cổ…",
+  "betterdeserttemples.advancements.temple_clear.title": "Giấc Ngủ Vĩnh Hằng",
+  "betterdeserttemples.advancements.temple_clear.description": "Đánh bại Pha-ra-ôn, giải trừ lời nguyền của thần điện",
+  "betterdeserttemples.advancements.temple_entry.title": "Lăng Mộ Viễn Cổ",
+  "betterdeserttemples.advancements.temple_entry.description": "Khám phá một thần điện sa mạc đã được cải tiến",
+  "Use /locate structure betterdeserttemples:desert_temple instead!": "Hãy dùng /locate structure betterdeserttemples:desert_temple để định vị!",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.title": "YUNG: Tối Ưu Thần Điện Sa Mạc",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.disableVanillaPyramids": "Tắt kim tự tháp sa mạc vanilla",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.disableVanillaPyramids.@Tooltip": "Có tắt sinh thành kim tự tháp sa mạc vanilla hay không",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue": "Bật hiệu ứng kiệt sức đào",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue.@Tooltip[0]": "Có áp dụng hiệu ứng kiệt sức đào cho người ở trong thần điện hay không",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue.@Tooltip[1]": "(Chỉ có hiệu lực khi thần điện chưa được dọn sạch)"
+}
