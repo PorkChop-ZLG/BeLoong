@@ -101,39 +101,6 @@
     },
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "dragonsurvival:hunter_partisan_diamond",
-          "weight": 80
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "dragonsurvival:hunter_partisan_netherite",
-          "weight": 20
-        }
-      ]
-    },
-    {
-      "rolls": 5,
       "entries": [
         {
           "type": "minecraft:item",
@@ -145,16 +112,6 @@
             }
           ],
           "name": "minecraft:book"
-        }
-      ]
-    },
-    {
-      "rolls": 5,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "dragonsurvival:chests/dragon_chest_loot"
         }
       ]
     },

@@ -100,27 +100,6 @@
       ]
     },
     {
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "dragonsurvival:hunter_partisan"
-        }
-      ]
-    },
-    {
       "rolls": 2,
       "bonus_rolls": 0,
       "entries": [
@@ -144,7 +123,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot"
             }
           ],
