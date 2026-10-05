@@ -17,3 +17,10 @@
 	#Entity particle quality (Cancer domain / Gemini phantom). Reduces client-side particle spawn rates.
 	#Allowed Values: HIGH, MEDIUM, LOW
 	entityParticleQuality = "HIGH"
+	#Casting starfield screen overlay for star dragons: blue edge gradient + twinkling drifting stars + constellation lines while channeling an ability.
+	castingStarfieldOverlay = true
+	#Stellar Breath (dragon breath) particle quality. Reduces client-side particle size and lifetime; the server-side particle count is unchanged.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	stellarBreathQuality = "HIGH"
+	#Stellar Breath constellation links: connect nearby core stars inside the breath with faint glowing lines.
+	stellarBreathLink = true

@@ -1326,6 +1326,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7D4837B5039B6A4D"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "17AA318BC9DA8109"
