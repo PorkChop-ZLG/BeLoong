@@ -1,3 +1,7 @@
 [client]
 	#Allowed Values: GRAY_CAT_WORKSHOP, GLASS_DARK
 	shopUiTheme = "GLASS_DARK"
+	#商店内容缩放；减小可容纳更多内容。独立于原版 GUI 缩放，重新打开商店后生效。
+	# Default: 1.0
+	# Range: 0.5 ~ 1.5
+	shopContentScale = 1.0

@@ -1,5 +1,15 @@
 [
   {
+    "mob": "mowziesmobs:elokosa_follower_howler",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "mowziesmobs:elokosa_howler",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
     "mob": "minecraft:ender_dragon",
     "when": "onjoin",
     "result": "allow",

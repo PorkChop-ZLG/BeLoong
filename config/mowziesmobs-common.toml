@@ -866,7 +866,7 @@
 			#Smaller number causes less spawning, 0 to disable spawning
 			# Default: 5
 			# Range: > 0
-			spawn_rate = 5
+			spawn_rate = 0
 			#Minimum number of mobs that appear in a spawn group
 			# Default: 1
 			# Range: > 1

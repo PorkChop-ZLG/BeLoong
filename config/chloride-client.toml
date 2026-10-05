@@ -18,7 +18,7 @@ modpackMode = false
 [fpsDisplay]
   # FPS and system details overlay
   # Accepted values are: [OFF, SIMPLE, ADVANCED]
-  mode = "ADVANCED"
+  mode = "SIMPLE"
 
   # Accepted values are: [LEFT, CENTER, RIGHT]
   align = "LEFT"
@@ -27,7 +27,7 @@ modpackMode = false
   verticalAlign = "TOP"
 
   # Accepted values are: [OFF, ALL, GPU_ONLY, RAM_ONLY]
-  systemDetails = "ALL"
+  systemDetails = "OFF"
 
   # Value must be greater than 0
   margin = 12
