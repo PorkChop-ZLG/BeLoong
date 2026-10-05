@@ -3,40 +3,38 @@
     {
       "effect": "beloong:flight_ban",
       "amplifier": 0,
-      "duration": 100
-    }
-  ],
-  "dragonsurvival:netherlands": [
-    {
-      "effect": "beloong:flight_ban",
-      "amplifier": 1,
-      "duration": 200
-    },
-    {
-      "effect": "minecraft:mining_fatigue",
-      "amplifier": 2,
-      "duration": 200,
-      "advancement": "beloong:beloong/true_dead_king"
-    },
-    {
-      "effect": "minecraft:darkness",
-      "amplifier": 0,
-      "duration": 200,
-      "advancement": "beloong:beloong/dead_king"
+      "duration": 100,
+      "advancement": "dragonsurvival:dark/collect_key"
     }
   ],
   "mowziesmobs:monastery": [
     {
       "effect": "beloong:flight_ban",
       "amplifier": 0,
-      "duration": 100
+      "duration": 100,
+      "advancement": "mowziesmobs:sculptor_challenge"
     }
   ],
   "irons_spellbooks:catacombs": [
     {
       "effect": "beloong:flight_ban",
       "amplifier": 0,
-      "duration": 100
+      "duration": 100,
+      "advancement": "beloong:beloong/dead_king"
+    }
+  ],
+  "dragonsurvival:netherlands": [
+    {
+      "effect": "beloong:flight_ban",
+      "amplifier": 1,
+      "duration": 200,
+      "advancement": "beloong:beloong/true_dead_king"
+    },
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 2,
+      "duration": 200,
+      "advancement": "beloong:beloong/true_dead_king"
     }
   ]
 }
