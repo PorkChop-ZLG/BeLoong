@@ -16,6 +16,11 @@
   "is_default": false,
   "modifiers": [
     {
+      "amount": 1.0,
+      "attribute": "dragonsurvival:flight_level",
+      "operation": "add_value"
+    },
+    {
       "amount": 0.15,
       "attribute": "dragonsurvival:flight_speed",
       "operation": "add_multiplied_total"
