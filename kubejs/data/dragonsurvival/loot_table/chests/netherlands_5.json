@@ -100,6 +100,28 @@
       ]
     },
     {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:dragonarmor_silver_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:dragonarmor_silver_neck"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:dragonarmor_silver_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:dragonarmor_silver_tail"
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
