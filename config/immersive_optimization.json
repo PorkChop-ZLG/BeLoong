@@ -16,12 +16,14 @@
   "stressedThreshold": 45,
   "minDecreaseFactor": 0.25,
   "dimensions": {
+    "beloong:loong_palace": false,
     "minecraft:overworld": true,
     "minecraft:the_nether": true,
     "minecraft:the_end": true,
     "twilightforest:twilight_forest": true,
     "eternal_starlight:starlight": true,
-    "undergarden:undergarden": true
+    "iceandfire_dreadland:dreadland": true,
+    "beloong:disaster" : true
   },
   "entities": {
     "minecraft:tnt": false,
@@ -38,6 +40,7 @@
     "fdbosses": false,
     "dragonsurvival": false,
     "darkdoppelganger": false,
+    "legendary_monsters": false,
     "minecraft:ender_dragon": false,
     "minecraft:shulker": false,
     "minecraft:shulker_bullet": false,
@@ -47,7 +50,8 @@
     "iceandfire:ice_dragon": false,
     "iceandfire:ice_dragon_charge": false,
     "iceandfire:lightning_dragon": false,
-    "iceandfire:lightning_dragon_charge": false
+    "iceandfire:lightning_dragon_charge": false,
+    "beloong": false
   },
   "cullProjectiles": false,
   "version": 2,

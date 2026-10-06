@@ -4,3 +4,6 @@ effectRange = 6
 # Default: 24
 # Range: 0 ~ 128
 auroraRange = 24
+# Default: 5
+# Range: 0 ~ 32
+richSoilTrials = 5
