@@ -23,7 +23,7 @@
     "twilightforest:twilight_forest": true,
     "eternal_starlight:starlight": true,
     "iceandfire_dreadland:dreadland": true,
-    "beloong:disaster" : true
+    "beloong:disaster": true
   },
   "entities": {
     "minecraft:tnt": false,
