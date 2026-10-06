@@ -8,10 +8,10 @@ ItemEvents.modification(event => {
   event.modify('xfws_swords:meowmere', item => {
     item.attackDamage = 29.0
   })
-  event.modify('xfws_swords:ark_of_the_cosmos', item => {
+  event.modify('xfws_swords:star_wrath', item => {
     item.attackDamage = 39.0
   })
-  event.modify('xfws_swords:star_wrath', item => {
+  event.modify('xfws_swords:ark_of_the_cosmos', item => {
     item.attackDamage = 49.0
   })
   // 暮色森林
