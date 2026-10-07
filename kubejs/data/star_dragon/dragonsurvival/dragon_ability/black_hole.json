@@ -1,0 +1,171 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "targeting_mode": "all",
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:entity_check_predicate",
+                "check_for": "living_entity"
+              }
+            }
+          },
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:black_hole_launch",
+              "speed": 1.5,
+              "pull_radius": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 20.0,
+                  "per_level_above_first": 25.0
+                },
+                "values": [
+                  20,
+                  26,
+                  33,
+                  45
+                ]
+              },
+              "center_force": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 0.2,
+                  "per_level_above_first": 0.25
+                },
+                "values": [
+                  0.2,
+                  0.28,
+                  0.36,
+                  0.45
+                ]
+              },
+              "outer_force": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 0.025,
+                  "per_level_above_first": 0.025
+                },
+                "values": [
+                  0.025,
+                  0.032,
+                  0.04,
+                  0.05
+                ]
+              },
+              "damage": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 8.0,
+                  "per_level_above_first": 145.846
+                },
+                "values": [
+                  8,
+                  12,
+                  30.769,
+                  153.846
+                ]
+              },
+              "damage_radius": 1.5,
+              "explosion_power": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 6.0,
+                  "per_level_above_first": 9.0
+                },
+                "values": [
+                  6,
+                  8,
+                  11,
+                  15
+                ]
+              },
+              "lifespan": 130.0,
+              "max_distance": 32.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "cast_time": 30,
+    "cooldown": 300,
+    "initial_mana_cost": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 10.0,
+        "per_level_above_first": 8.0
+      },
+      "values": [
+        10,
+        12,
+        15,
+        18
+      ]
+    },
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "spell_charge",
+        "layer": "BREATH",
+        "transition_length": 5,
+        "locks_neck": false,
+        "locks_tail": false
+      }
+    }
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "star_dragon:abilities/star/black_hole/black_hole_0"
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/black_hole/black_hole_1",
+        "from_level": 1
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/black_hole/black_hole_2",
+        "from_level": 2
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/black_hole/black_hole_3",
+        "from_level": 3
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/black_hole/black_hole_4",
+        "from_level": 4
+      }
+    ]
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 4,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 250.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        10.0,
+        50.0,
+        100.0,
+        250.0
+      ]
+    }
+  }
+}

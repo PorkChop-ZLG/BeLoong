@@ -1,0 +1,48 @@
+{
+  "parent": "star_dragon:star/be_dragon",
+  "criteria": {
+    "young": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "star_dragon:star_dragon",
+                "stage_specific": {
+                  "dragon_stage": "star_dragon:nebula",
+                  "growth_percentage": {
+                    "min": 0.01
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "dragonsurvival:be_dragon"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "star_dragon.advancement.star/be_young.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "star_dragon:star_icon"
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/be_young"
+    }
+  },
+  "requirements": [
+    [
+      "young"
+    ]
+  ],
+  "rewards": {
+    "experience": 120
+  }
+}

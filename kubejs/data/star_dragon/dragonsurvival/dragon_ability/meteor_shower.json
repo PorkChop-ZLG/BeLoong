@@ -1,0 +1,163 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "cooldown": 2400,
+    "initial_mana_cost": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 20.0,
+        "per_level_above_first": 35.0
+      },
+      "values": [
+        20,
+        25,
+        30,
+        40,
+        55
+      ]
+    },
+    "cast_time": 30,
+    "can_move_while_casting": true
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 5,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 250.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        10.0,
+        50.0,
+        100.0,
+        150.0,
+        250.0
+      ]
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:looking_at",
+        "applied_effects": {
+          "block_effect": [
+            {
+              "effect_type": "star_dragon:meteor_shower",
+              "harm": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 25.0,
+                  "per_level_above_first": 86.111
+                },
+                "values": [
+                  25,
+                  30,
+                  35,
+                  40,
+                  111.111
+                ]
+              },
+              "radius": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 50.0,
+                  "per_level_above_first": 10.0
+                },
+                "values": [
+                  50,
+                  52,
+                  54,
+                  56,
+                  60
+                ]
+              },
+              "count": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 400.0,
+                  "per_level_above_first": 1600.0
+                },
+                "values": [
+                  400,
+                  700,
+                  1100,
+                  1500,
+                  2000
+                ]
+              },
+              "duration": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 240.0,
+                  "per_level_above_first": 100.0
+                },
+                "values": [
+                  240,
+                  260,
+                  280,
+                  300,
+                  340
+                ]
+              },
+              "blast_radius": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 10.0,
+                  "per_level_above_first": 10.0
+                },
+                "values": [
+                  10,
+                  12,
+                  14,
+                  17,
+                  20
+                ]
+              },
+              "damage_type": "star_dragon:meteor_magic",
+              "use_claw": false
+            }
+          ]
+        },
+        "range": 1000
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "star_dragon:abilities/star/meteor_shower/meteor_shower_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/meteor_shower/meteor_shower_1",
+        "from_level": 1
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/meteor_shower/meteor_shower_2",
+        "from_level": 2
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/meteor_shower/meteor_shower_3",
+        "from_level": 3
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/meteor_shower/meteor_shower_4",
+        "from_level": 4
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/meteor_shower/meteor_shower_5",
+        "from_level": 5
+      }
+    ]
+  }
+}

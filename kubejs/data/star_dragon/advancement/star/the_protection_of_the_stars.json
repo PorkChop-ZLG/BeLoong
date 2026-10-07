@@ -1,0 +1,45 @@
+{
+  "parent": "dragonsurvival:place_altar",
+  "criteria": {
+    "the_protection_of_the_stars": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "star_dragon:starlight_replenish": {}
+              },
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "star_dragon:star_dragon"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "star_dragon.advancement.star/the_protection_of_the_stars.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/the_protection_of_the_stars"
+    }
+  },
+  "requirements": [
+    [
+      "the_protection_of_the_stars"
+    ]
+  ],
+  "rewards": {
+    "experience": 40
+  }
+}

@@ -1,6 +1,6 @@
 {
   "destruction_data": {
-    "block_destruction_growth": 150.0,
+    "block_destruction_growth": 250.0,
     "block_predicate": {
       "type": "minecraft:matching_block_tag",
       "tag": "dragonsurvival:large_dragon_destructible"
@@ -24,8 +24,8 @@
     }
   ],
   "growth_range": {
-    "max": 200.0,
-    "min": 150.0
+    "max": 300.0,
+    "min": 250.0
   },
   "is_default": false,
   "is_natural_growth_stopped": {
@@ -37,71 +37,71 @@
   "modifiers": [
     {
       "amount": {
-        "precise_base": 1.7,
-        "precise_amount": 0.018
+        "precise_base": -0.1,
+        "precise_amount": 0.0
       },
       "attribute": "minecraft:generic.scale",
       "operation": "add_value"
     },
     {
       "amount": {
-        "precise_base": 180.0,
-        "precise_amount": 6.0
+        "precise_base": 980.0,
+        "precise_amount": 0.0
       },
       "attribute": "minecraft:generic.max_health",
       "operation": "add_value"
     },
     {
       "amount": {
-        "precise_base": 19.0,
-        "precise_amount": 0.6
+        "precise_base": 99.0,
+        "precise_amount": 0.0
       },
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value"
     },
     {
-      "amount": 4.0,
+      "amount": 6.0,
       "attribute": "minecraft:generic.armor_toughness",
       "operation": "add_value"
     },
     {
-      "amount": 0.4,
+      "amount": 0.6,
       "attribute": "minecraft:generic.jump_strength",
       "operation": "add_value"
     },
     {
-      "amount": 0.04,
+      "amount": 0.06,
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_value"
     },
     {
-      "amount": 2.4,
+      "amount": 4.4,
       "attribute": "minecraft:generic.step_height",
       "operation": "add_value"
     },
     {
-      "amount": 37.0,
+      "amount": 57.0,
       "attribute": "minecraft:generic.safe_fall_distance",
       "operation": "add_value"
     },
     {
-      "amount": 6.0,
+      "amount": 10.0,
       "attribute": "minecraft:player.block_interaction_range",
       "operation": "add_value"
     },
     {
-      "amount": 6.0,
+      "amount": 10.0,
       "attribute": "minecraft:player.entity_interaction_range",
       "operation": "add_value"
     },
     {
       "amount": {
-        "precise_base": 7.0,
-        "precise_amount": 0.04
+        "precise_base": 13.0,
+        "precise_amount": 0.0
       },
       "attribute": "dragonsurvival:dragon_breath_range",
       "operation": "add_value"
     }
   ],
-  "ticks_until_grown": 51840000
+  "ticks_until_grown": 622080000
 }

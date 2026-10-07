@@ -2,5 +2,20 @@
   "dragon_species.star_dragon.star_dragon": "Star Dragon",
   "dragon_species.star_dragon.star_dragon.locked": "§7■§6 Star Dragon§7 are born from§e Stardust§7. Their scales shimmer with§e starlight§7, their blood flows with the magic of a§e star core§7.\n\n§2■ Features:§7 Spatial magic, permanent night vision, twelve zodiac passives, and gorgeous skill effects.\n§4■ Curses:§7 Losing starlight drains health. Open sky, night, and clear weather amplify it, while underground, daytime, and storms dim it.\n\n§3■ Unlock Condition:§7\n1. Complete the §6Beginner Tutorial§7.§r",
   "dragon_species.star_dragon.star_dragon.altar.desc": "§7■§6 Star Dragons§7 are born from§e Stardust§7. Their scales shimmer with§e starlight§7, their blood flows with the magic of a§e star core§7.\n\n§2■ Features:§7 Spatial magic, permanent night vision, twelve zodiac passives, and gorgeous skill effects.\n§4■ Curses:§7 Losing starlight drains health. Open sky, night, and clear weather amplify it, while underground, daytime, and storms dim it.\n§6■ Diet:§r%s",
-  "dragon_species.star_dragon.star_dragon.banner.desc": "§7■§6 Star Dragons§7 are born from §fStardust§7, a perfect fusion of cosmic energy and ancient dragon lineage. Their scales shimmer with §fstarlight§7, their blood flows with the magic of a §fstar core§7, and they call the §fnight sky§7 their home.\n\n§7■To sustain your stellar energy, you must absorb §fstarlight§7 or consume §fStardust§7-infused foods. §cHarsh environments§7 will gradually drain your strength.§r"
+  "dragon_species.star_dragon.star_dragon.banner.desc": "§7■§6 Star Dragons§7 are born from §fStardust§7, a perfect fusion of cosmic energy and ancient dragon lineage. Their scales shimmer with §fstarlight§7, their blood flows with the magic of a §fstar core§7, and they call the §fnight sky§7 their home.\n\n§7■To sustain your stellar energy, you must absorb §fstarlight§7 or consume §fStardust§7-infused foods. §cHarsh environments§7 will gradually drain your strength.§r",
+  "dragon_stage.star_dragon.stardust": "Stardust Drake",
+  "dragon_stage.star_dragon.nebula": "Nebula Dragon",
+  "dragon_stage.star_dragon.nova": "Nova Dragon",
+  "dragon_stage.star_dragon.stellar": "Stellar Wyrm",
+  "dragon_stage.star_dragon.void": "Star Abyss Wyrm",
+  "dragon_stage.star_dragon.progenitor": "Cosmic Progenitor Wyrm",
+  "star_dragon.advancement.star/be_young": "First Nebula",
+  "star_dragon.advancement.star/be_young.desc": "Reach growth level 50 as a Star Dragon and become a Nebula Dragon.",
+  "star_dragon.advancement.star/be_old_dragon.desc": "Reach growth level 100 as a Star Dragon. Your starlight condenses into an undying ward.",
+  "star_dragon.advancement.star/be_stellar": "The Ancient Star Endures",
+  "star_dragon.advancement.star/be_stellar.desc": "Reach growth level 150 as a Star Dragon and become a Stellar Wyrm.",
+  "star_dragon.advancement.star/be_archean": "Shadow of the Star Abyss",
+  "star_dragon.advancement.star/be_archean.desc": "Reach growth level 200 as a Star Dragon and become a Star Abyss Wyrm.",
+  "star_dragon.advancement.star/be_progenitor": "Cosmos Unfolding",
+  "star_dragon.advancement.star/be_progenitor.desc": "Reach growth level 250 as a Star Dragon and become a Cosmic Progenitor Wyrm."
 }

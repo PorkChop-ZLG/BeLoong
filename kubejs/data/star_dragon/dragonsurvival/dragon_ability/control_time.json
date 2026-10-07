@@ -1,0 +1,102 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:channeled",
+    "initial_mana_cost": 50,
+    "continuous_mana_cost": {
+      "type": "ticking",
+      "amount": 0
+    },
+    "cast_time": 0,
+    "max_duration": 2147483647,
+    "cooldown": 200,
+    "can_move_while_casting": true
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 1,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 250.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        250.0
+      ]
+    }
+  },
+  "usage_blocked": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "star_dragon:time_ability_mutex",
+        "ability_type": "acceleration"
+      },
+      {
+        "condition": "star_dragon:time_ability_mutex",
+        "ability_type": "stop"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "target_conditions": {
+            "condition": "star_dragon:time_mode",
+            "mode": "TIME"
+          },
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:daytime",
+              "daytime_step_size": 100.0,
+              "backfire_damage": 1.0,
+              "time_mana_per_second": 10.0
+            }
+          ],
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_point": "default",
+      "trigger_rate": 0
+    },
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "target_conditions": {
+            "condition": "star_dragon:time_mode",
+            "mode": "TICK"
+          },
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:time",
+              "max_speed": 20.0,
+              "step_size": 0.2,
+              "backfire_damage": 2.0,
+              "mana_per_second_decel": 60.0,
+              "mana_per_second_accel": 30.0
+            }
+          ],
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_point": "default",
+      "trigger_rate": 0
+    }
+  ],
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "star_dragon:abilities/star/control_time/control_time_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/control_time/control_time_1",
+        "from_level": 1
+      }
+    ]
+  }
+}

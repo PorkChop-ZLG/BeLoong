@@ -1,0 +1,178 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "cooldown": 0,
+    "initial_mana_cost": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 8.0,
+        "per_level_above_first": 14.0
+      },
+      "values": [
+        8,
+        12,
+        22
+      ]
+    }
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 3,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 250.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        10.0,
+        50.0,
+        250.0
+      ]
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:starlight",
+              "count": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 1.0,
+                  "per_level_above_first": 3.0
+                },
+                "values": [
+                  1,
+                  2,
+                  4
+                ]
+              },
+              "max_count": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 3.0,
+                  "per_level_above_first": 13.0
+                },
+                "values": [
+                  3,
+                  6,
+                  16
+                ]
+              },
+              "target_range": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 16.0,
+                  "per_level_above_first": 24.0
+                },
+                "values": [
+                  16,
+                  24,
+                  40
+                ]
+              },
+              "homing_speed": 0.8,
+              "orbit_speed": 0.12,
+              "follow_speed": 0.1,
+              "base_orbit_radius": 1.0,
+              "summon_interval": 200,
+              "dot_damage": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 4.0,
+                  "per_level_above_first": 62.667
+                },
+                "values": [
+                  4,
+                  6.667,
+                  66.667
+                ]
+              },
+              "explosion_damage": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 2.0,
+                  "per_level_above_first": 38.0
+                },
+                "values": [
+                  2,
+                  6,
+                  40
+                ]
+              },
+              "mode": "summon"
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": false
+              }
+            }
+          },
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 0
+    },
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:starlight",
+              "count": 1,
+              "mode": "decrease"
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          },
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "can_be_manually_disabled": true,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "star_dragon:abilities/star/starlight/starlight_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/starlight/starlight_1",
+        "from_level": 1
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/starlight/starlight_2",
+        "from_level": 2
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/starlight/starlight_3",
+        "from_level": 3
+      }
+    ]
+  }
+}

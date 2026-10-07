@@ -1,0 +1,17 @@
+{
+  "species": "star_dragon:star_dragon",
+  "stage": "star_dragon:nebula",
+  "model": "dragonsurvival:dragon_model",
+  "parts": {
+    "base": "star_base_1",
+    "eyes": "star_eyes_1",
+    "horns": "star_horns_1",
+    "spikes": "star_spikes_1",
+    "claws": "star_claw_1",
+    "teeth": "teeth_1",
+    "magic": "star_magic_1",
+    "extra": "star_extra_horns_1",
+    "extra1": "star_tail_tip_1",
+    "extra2": "star_glowing_1"
+  }
+}

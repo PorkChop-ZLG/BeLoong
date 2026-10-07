@@ -1,19 +1,15 @@
 {
   "growth_items": [
     {
-      "growth_in_ticks": 1200,
-      "items": "dragonsurvival:elder_dragon_bone"
-    },
-    {
-      "growth_in_ticks": 12000,
-      "items": "dragonsurvival:heart_element"
+      "growth_in_ticks": 72000,
+      "items": "dragonsurvival:elder_dragon_heart"
     },
     {
       "growth_in_ticks": 36000,
       "items": "dragonsurvival:weak_dragon_heart"
     },
     {
-      "growth_in_ticks": -36000,
+      "growth_in_ticks": -72000,
       "items": "dragonsurvival:star_bone"
     },
     {
@@ -22,8 +18,8 @@
     }
   ],
   "growth_range": {
-    "min": 50.0,
-    "max": 100.0
+    "max": 100.0,
+    "min": 50.0
   },
   "is_default": false,
   "is_natural_growth_stopped": {
@@ -34,84 +30,71 @@
   },
   "modifiers": [
     {
-      "attribute": "minecraft:generic.scale",
-      "operation": "add_value",
       "amount": {
         "precise_base": 0.35,
         "precise_amount": 0.009
-      }
+      },
+      "attribute": "minecraft:generic.scale",
+      "operation": "add_value"
     },
     {
-      "attribute": "minecraft:generic.max_health",
-      "operation": "add_value",
       "amount": {
         "precise_base": 30.0,
         "precise_amount": 1.0
-      }
+      },
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value"
     },
     {
-      "attribute": "minecraft:generic.attack_damage",
-      "operation": "add_value",
       "amount": {
         "precise_base": 4.0,
         "precise_amount": 0.1
-      }
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value"
     },
     {
+      "amount": 2.0,
       "attribute": "minecraft:generic.armor_toughness",
-      "operation": "add_value",
-      "amount": 2.0
+      "operation": "add_value"
     },
     {
+      "amount": 0.02,
       "attribute": "minecraft:generic.movement_speed",
-      "operation": "add_value",
-      "amount": 0.02
+      "operation": "add_value"
     },
     {
+      "amount": 0.2,
       "attribute": "minecraft:generic.jump_strength",
-      "operation": "add_value",
-      "amount": 0.2
+      "operation": "add_value"
     },
     {
+      "amount": 0.9,
       "attribute": "minecraft:generic.step_height",
-      "operation": "add_value",
-      "amount": 0.9
+      "operation": "add_value"
     },
     {
+      "amount": 17.0,
       "attribute": "minecraft:generic.safe_fall_distance",
-      "operation": "add_value",
-      "amount": 17.0
+      "operation": "add_value"
     },
     {
+      "amount": 2.0,
       "attribute": "minecraft:player.block_interaction_range",
-      "operation": "add_value",
-      "amount": 2.0
+      "operation": "add_value"
     },
     {
+      "amount": 2.0,
       "attribute": "minecraft:player.entity_interaction_range",
-      "operation": "add_value",
-      "amount": 2.0
+      "operation": "add_value"
     },
     {
-      "attribute": "dragonsurvival:dragon_breath_range",
-      "operation": "add_value",
       "amount": {
         "precise_base": 3.0,
         "precise_amount": 0.04
-      }
-    },
-    {
-      "attribute": "dragonsurvival:mana",
-      "operation": "add_value",
-      "amount": {
-        "precise_base": 1.0,
-        "precise_amount": 0.06
-      }
-    },
-    {
-      "attribute": "dragonsurvival:mana_regeneration",
-      "operation": "add_value",
-      "amount": 0.002
+      },
+      "attribute": "dragonsurvival:dragon_breath_range",
+      "operation": "add_value"
     }
   ],
   "ticks_until_grown": 1728000
