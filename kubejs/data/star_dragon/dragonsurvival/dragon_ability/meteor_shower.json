@@ -52,14 +52,14 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 25.0,
-                  "per_level_above_first": 86.111
+                  "per_level_above_first": 90
                 },
                 "values": [
                   25,
                   30,
                   35,
                   40,
-                  111.111
+                  120
                 ]
               },
               "radius": {

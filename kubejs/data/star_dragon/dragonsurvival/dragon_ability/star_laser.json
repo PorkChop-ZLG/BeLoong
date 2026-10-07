@@ -50,13 +50,13 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 9.0,
-                  "per_level_above_first": 28.037
+                  "per_level_above_first": 30
                 },
                 "values": [
                   9,
                   12,
                   15,
-                  37.037
+                  40
                 ]
               },
               "radius": {
@@ -122,13 +122,13 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 9.0,
-                  "per_level_above_first": 28.037
+                  "per_level_above_first": 30
                 },
                 "values": [
                   9,
                   12,
                   15,
-                  37.037
+                  40
                 ]
               },
               "radius": {
