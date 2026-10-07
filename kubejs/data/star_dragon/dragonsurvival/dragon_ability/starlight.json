@@ -3,17 +3,9 @@
     "activation_type": "dragonsurvival:simple",
     "cooldown": 0,
     "initial_mana_cost": {
-      "type": "minecraft:lookup",
-      "fallback": {
-        "type": "minecraft:linear",
-        "base": 8.0,
-        "per_level_above_first": 14.0
-      },
-      "values": [
-        8,
-        12,
-        22
-      ]
+      "type": "minecraft:linear",
+      "base": 6,
+      "per_level_above_first": -1
     }
   },
   "upgrade": {
@@ -89,26 +81,26 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 4.0,
-                  "per_level_above_first": 62.667
+                  "base": 20.0,
+                  "per_level_above_first": 10.0
                 },
                 "values": [
-                  4,
-                  6.667,
-                  66.667
+                  20,
+                  30,
+                  40
                 ]
               },
               "explosion_damage": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 2.0,
-                  "per_level_above_first": 38.0
+                  "base": 40.0,
+                  "per_level_above_first": 80.0
                 },
                 "values": [
-                  2,
-                  6,
-                  40
+                  40,
+                  140,
+                  200
                 ]
               },
               "mode": "summon"

@@ -11,12 +11,12 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 1200.0,
-                  "per_level_above_first": 2000.0
+                  "per_level_above_first": 400.0
                 },
                 "values": [
                   1200,
-                  2400,
-                  3200
+                  1600,
+                  2000
                 ]
               },
               "damage_reduction": {
@@ -24,12 +24,12 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 0.4,
-                  "per_level_above_first": 0.9999999999999999
+                  "per_level_above_first": 0.2
                 },
                 "values": [
                   0.4,
-                  0.8,
-                  1.4
+                  0.6,
+                  0.8
                 ]
               },
               "absorption_health": {
@@ -37,12 +37,12 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 8.0,
-                  "per_level_above_first": 32.0
+                  "per_level_above_first": 4.0
                 },
                 "values": [
                   8,
-                  20,
-                  40
+                  12,
+                  16
                 ]
               },
               "bonus_health": {
@@ -50,25 +50,25 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 4.0,
-                  "per_level_above_first": 22.0
+                  "per_level_above_first": 2.0
                 },
                 "values": [
                   4,
-                  12,
-                  26
+                  6,
+                  8
                 ]
               },
               "regeneration_interval": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 40.0,
-                  "per_level_above_first": -28.0
+                  "base": 25.0,
+                  "per_level_above_first": -13.0
                 },
                 "values": [
-                  40,
                   25,
-                  12
+                  12,
+                  6
                 ]
               },
               "regeneration_amount": 1
@@ -155,8 +155,8 @@
     },
     "can_move_while_casting": false,
     "cast_time": 60,
-    "cooldown": 1000,
-    "initial_mana_cost": 4,
+    "cooldown": 300,
+    "initial_mana_cost": 2,
     "sound": {
       "end": "minecraft:block.beacon.deactivate"
     }
