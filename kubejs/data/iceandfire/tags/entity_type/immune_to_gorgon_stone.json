@@ -1,5 +1,7 @@
 {
   "values": [
+    "#c:capturing_not_supported",
+    "#c:teleporting_not_supported",
     {
       "id": "fdbosses:chesed",
       "required": false
