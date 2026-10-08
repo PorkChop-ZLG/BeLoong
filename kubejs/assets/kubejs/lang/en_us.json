@@ -311,5 +311,11 @@
   "ui.fancymenu.afdian1": "[Support the author]",
   "ui.fancymenu.afdian2": "Click on the image to visit the sponsorship website",
   "ui.fancymenu.to_vanilla": "Toggle Vanilla Menu",
-  "ui.fancymenu.to_beloong": "Toggle BeLoong Menu"
+  "ui.fancymenu.to_beloong": "Toggle BeLoong Menu",
+  "ui.fancymenu.feedback": "Feedback",
+  "ui.fancymenu.tooltip.discord": "Discord Community",
+  "ui.fancymenu.tooltip.github": "GitHub Repository",
+  "ui.fancymenu.tooltip.language": "Change Game Language",
+  "ui.fancymenu.tooltip.afdian": "Afdian - Support the Author",
+  "ui.fancymenu.tooltip.qq": "QQ Channel"
 }

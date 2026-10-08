@@ -301,8 +301,8 @@
 
   "ui.fancymenu.singleplayer": "一条龙的冒险",
   "ui.fancymenu.multiplayer": "一群龙的冒险",
-  "ui.fancymenu.mods": "模组设置",
-  "ui.fancymenu.options": "游戏选项",
+  "ui.fancymenu.mods": "模组",
+  "ui.fancymenu.options": "选项",
   "ui.fancymenu.quit": "退出游戏",
   "ui.fancymenu.server1": "星遥游戏",
   "ui.fancymenu.server1.desc": "联机推荐 - 星遥游戏",
@@ -311,5 +311,11 @@
   "ui.fancymenu.afdian1": "【赞助作者】",
   "ui.fancymenu.afdian2": "点击图片前往爱发电",
   "ui.fancymenu.to_vanilla": "切换原版界面",
-  "ui.fancymenu.to_beloong": "切换化龙界面"
+  "ui.fancymenu.to_beloong": "切换化龙界面",
+  "ui.fancymenu.feedback": "意见反馈",
+  "ui.fancymenu.tooltip.discord": "Discord 社区",
+  "ui.fancymenu.tooltip.github": "GitHub 仓库",
+  "ui.fancymenu.tooltip.language": "切换游戏语言",
+  "ui.fancymenu.tooltip.afdian": "爱发电 · 赞助作者",
+  "ui.fancymenu.tooltip.qq": "QQ 频道"
 }
