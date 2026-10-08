@@ -99,6 +99,19 @@
       },
       "attribute": "dragonsurvival:dragon_breath_range",
       "operation": "add_value"
+    },
+    {
+      "amount": {
+        "precise_base": -1.0,
+        "precise_amount": 0.05
+      },
+      "attribute": "dragonsurvival:mana",
+      "operation": "add_value"
+    },
+    {
+      "amount": 0.001,
+      "attribute": "dragonsurvival:mana_regeneration",
+      "operation": "add_value"
     }
   ],
   "ticks_until_grown": 432000
