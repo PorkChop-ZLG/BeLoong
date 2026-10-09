@@ -1,5 +1,5 @@
-// 该脚本用于 龙之生存玩家 自取冰火龙血/龙鳞（潜行 + 对空气右键 龙关怀的针筒/剪刀）
-// 数值参照 Dragon Care 的成长阶段配置；伤害改为最大生命值百分比（最低 1%），生命值不足时禁止使用
+// 该脚本用于 龙之生存玩家 自取冰火龙血/龙鳞（潜行 + 右键使用 龙关怀的针筒/剪刀）
+// 数值参照冰火传说龙尸体的采集产出（龙鳞/龙血）；伤害为最大生命值百分比（最低 1%），生命值不足时禁止使用
 
 const SelfHarvestDragonState = Java.loadClass('by.dragonsurvivalteam.dragonsurvival.common.capability.DragonStateProvider')
 const SelfHarvestLivingEntity = Java.loadClass('net.minecraft.world.entity.LivingEntity')
@@ -14,13 +14,15 @@ const SELF_HARVEST_SPECIES = {
   'dragonsurvival:wing_kirin': { blood: 'iceandfire:lightning_dragon_blood', scales: 'iceandfire:dragonscales_copper' }
 }
 
-// 按成长值分档（整合包各龙种阶段区间一致），对应 Dragon Care 冰火龙 2~5 阶段；成长值 < 50（幼龙）不可自取
-// shears: 鳞片数量 min~max，冷却 cd 秒，伤害 dmg%；syringe: 窗口 window 秒内最多 uses 次，之后冷却 cd 秒，伤害 dmg%
+// 按成长值分档（整合包各龙种阶段区间一致），对应冰火龙 25/50/75/100/125 天龄；成长值 < 50（幼龙）不可自取
+// shears: 每次剪下相当于冰火龙尸体一次采集（数量 天龄/25 起，上限取 4 倍），冷却 cd 秒，伤害 dmg%
+// syringe: 窗口 window 秒内最多 uses 次（= 同龄冰火龙尸体最多可取龙血数），之后冷却 cd 秒，伤害 dmg%
 const SELF_HARVEST_TIERS = [
-  { minGrowth: 200, shears: { min: 65, max: 85, cd: 60, dmg: 15 }, syringe: { uses: 24, window: 540, cd: 540, dmg: 1 } },
-  { minGrowth: 150, shears: { min: 46, max: 64, cd: 120, dmg: 20 }, syringe: { uses: 18, window: 720, cd: 720, dmg: 1 } },
-  { minGrowth: 100, shears: { min: 25, max: 45, cd: 210, dmg: 25 }, syringe: { uses: 12, window: 900, cd: 900, dmg: 1 } },
-  { minGrowth: 50, shears: { min: 5, max: 10, cd: 300, dmg: 30 }, syringe: { uses: 6, window: 1020, cd: 1020, dmg: 8 } }
+  { minGrowth: 250, shears: { min: 5, max: 20, cd: 240, dmg: 1 }, syringe: { uses: 12, window: 1200, cd: 1200, dmg: 6 } },
+  { minGrowth: 200, shears: { min: 4, max: 16, cd: 300, dmg: 1 }, syringe: { uses: 10, window: 1200, cd: 1200, dmg: 8 } },
+  { minGrowth: 150, shears: { min: 3, max: 12, cd: 360, dmg: 2 }, syringe: { uses: 7, window: 1200, cd: 1200, dmg: 10 } },
+  { minGrowth: 100, shears: { min: 2, max: 8, cd: 480, dmg: 3 }, syringe: { uses: 5, window: 1200, cd: 1200, dmg: 12 } },
+  { minGrowth: 50, shears: { min: 1, max: 4, cd: 600, dmg: 4 }, syringe: { uses: 2, window: 1200, cd: 1200, dmg: 15 } }
 ]
 
 // 冷却存于玩家持久数据（键名前缀），重进/重启/死亡后保留
@@ -51,7 +53,10 @@ function selfHarvestSyringe(event) {
   }
 
   const bottleSlot = selfHarvestFindBottle(player)
-  if (bottleSlot < 0) return
+  if (bottleSlot < 0) {
+    player.setStatusMessage(Text.translatable('message.kubejs.self_harvest.no_bottle').red())
+    return
+  }
   if (!selfHarvestCanPay(player, cfg.dmg)) return
 
   // 与 Dragon Care 一致：窗口过期或冷却结束后重新计数
@@ -95,10 +100,11 @@ function selfHarvestShears(event) {
   selfHarvestFinish(event)
 }
 
-// 返回 null 表示不处理（未潜行 / 指向方块或实体 / 不是龙 / 龙种不可自取）
+// 返回 null 表示不处理（未潜行 / 不是龙 / 龙种不可自取）
+// 对冰火龙右键时 Dragon Care 的实体交互先生效，不会触发物品使用，因此无需判断准星目标
 function selfHarvestContext(event) {
   const player = event.player
-  if (!player.isShiftKeyDown() || !selfHarvestTargetingAir(player)) return null
+  if (!player.isShiftKeyDown()) return null
   const state = SelfHarvestDragonState.getData(player)
   if (!state.isDragon()) return null
   const mapping = SELF_HARVEST_SPECIES[state.speciesKey().location().toString()]
@@ -112,14 +118,9 @@ function selfHarvestContext(event) {
     mapping: mapping,
     tier: SELF_HARVEST_TIERS.find(t => growth >= t.minGrowth),
     data: player.persistentData,
-    now: Number(player.level().getGameTime())
+    // KubeJS 将 Level#getGameTime 重映射为 getTime
+    now: Number(player.level.getTime())
   }
-}
-
-// 与准星判定一致：方块按方块交互距离（忽略流体），实体按实体交互距离
-function selfHarvestTargetingAir(player) {
-  if (String(player.pick(player.blockInteractionRange(), 0, false).getType()) != 'MISS') return false
-  return player.rayTrace(player.entityInteractionRange(), false).entity == null
 }
 
 function selfHarvestCost(player, percent) {
@@ -154,8 +155,7 @@ function selfHarvestFindBottle(player) {
   return -1
 }
 
+// 剩余冷却（整数秒，向上取整，避免冷却中显示 0）
 function selfHarvestTimer(ticks) {
-  const seconds = Math.floor(ticks / 20)
-  const rest = seconds % 60
-  return `${Math.floor(seconds / 60)}:${rest < 10 ? '0' : ''}${rest}`
+  return Math.ceil(ticks / 20)
 }
