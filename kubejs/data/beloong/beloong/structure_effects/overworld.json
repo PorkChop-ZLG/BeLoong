@@ -10,7 +10,7 @@
   "mowziesmobs:monastery": [
     {
       "effect": "beloong:flight_ban",
-      "amplifier": 0,
+      "amplifier": 2,
       "duration": 100,
       "advancement": "mowziesmobs:sculptor_challenge"
     }

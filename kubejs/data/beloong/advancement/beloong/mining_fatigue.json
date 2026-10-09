@@ -1,0 +1,35 @@
+{
+  "parent": "beloong:beloong/flight_ban",
+  "criteria": {
+    "get_mining_fatigue": {
+      "conditions": {
+        "effects": {
+          "minecraft:mining_fatigue": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "beloong.advancement.beloong/mining_fatigue"
+    },
+    "description": {
+      "translate": "beloong.advancement.beloong/mining_fatigue.desc"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_pickaxe"
+    }
+  },
+  "requirements": [
+    [
+      "get_mining_fatigue"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

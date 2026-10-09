@@ -14,7 +14,7 @@
               "modifiers": [
                 {
                   "base": {
-                    "id": "dragonsurvival:cave_wings_flight_level",
+                    "id": "dragonsurvival:annihilator_type_wings_flight_level",
                     "is_hidden": true
                   },
                   "modifiers": [
@@ -23,16 +23,16 @@
                       "amount": {
                         "type": "minecraft:lookup",
                         "values": [
-                          0.0,
                           1.0,
                           2.0,
                           3.0,
                           4.0,
-                          5.0
+                          5.0,
+                          6.0
                         ],
                         "fallback": {
                           "type": "minecraft:linear",
-                          "base": 0.0,
+                          "base": 1.0,
                           "per_level_above_first": 1.0
                         }
                       },
@@ -47,7 +47,7 @@
               "modifiers": [
                 {
                   "base": {
-                    "id": "dragonsurvival:cave_wings_flight_speed",
+                    "id": "dragonsurvival:annihilator_type_wings_flight_speed",
                     "is_hidden": true
                   },
                   "modifiers": [
@@ -69,7 +69,7 @@
               "modifiers": [
                 {
                   "base": {
-                    "id": "dragonsurvival:cave_wings_flight_stamina",
+                    "id": "dragonsurvival:annihilator_type_wings_flight_stamina",
                     "is_hidden": true
                   },
                   "modifiers": [
@@ -153,7 +153,7 @@
     "entity": "this",
     "predicate": {
       "effects": {
-         "annihilator_type_a:true_damage_conversion": {}
+        "annihilator_type_a:true_damage_conversion": {}
       }
     }
   }
