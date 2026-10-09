@@ -60,17 +60,9 @@
                 ]
               },
               "target_range": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 16.0,
-                  "per_level_above_first": 24.0
-                },
-                "values": [
-                  16,
-                  24,
-                  40
-                ]
+                "type": "minecraft:linear",
+                "base": 24,
+                "per_level_above_first": 8
               },
               "homing_speed": 0.8,
               "orbit_speed": 0.12,

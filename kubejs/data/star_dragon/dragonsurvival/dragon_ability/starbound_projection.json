@@ -11,17 +11,9 @@
                 "direction": "looking_at"
               },
               "range": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 24.0,
-                  "per_level_above_first": 24.0
-                },
-                "values": [
-                  24,
-                  32,
-                  48
-                ]
+                "type": "minecraft:linear",
+                "base": 40,
+                "per_level_above_first": 20
               },
               "damage": {
                 "type": "minecraft:lookup",
@@ -39,17 +31,9 @@
               "damage_type": "minecraft:magic",
               "use_claw": false,
               "glow_duration": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 60.0,
-                  "per_level_above_first": 70.0
-                },
-                "values": [
-                  60,
-                  80,
-                  130
-                ]
+                "type": "minecraft:linear",
+                "base": 100,
+                "per_level_above_first": 20
               },
               "glow_amplifier": 0,
               "hit_radius": 1.5,

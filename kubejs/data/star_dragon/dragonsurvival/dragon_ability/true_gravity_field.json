@@ -54,34 +54,14 @@
               "effect_type": "star_dragon:true_gravity_field",
               "type": "Attract",
               "radius": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 6.0,
-                  "per_level_above_first": 12.0
-                },
-                "values": [
-                  6,
-                  8,
-                  10,
-                  12,
-                  18
-                ]
+                "type": "minecraft:linear",
+                "base": 10,
+                "per_level_above_first": 5
               },
               "launch_power": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 3.0,
-                  "per_level_above_first": 6.0
-                },
-                "values": [
-                  3.0,
-                  4.0,
-                  5.0,
-                  6.5,
-                  9.0
-                ]
+                "type": "minecraft:linear",
+                "base": 4.0,
+                "per_level_above_first": 1
               }
             }
           ],
