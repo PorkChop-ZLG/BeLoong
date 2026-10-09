@@ -1,0 +1,336 @@
+#Obsidian-Diamond Shears settings (per dragon growth stage)
+[scale_shears]
+
+	[scale_shears.stage_2]
+		#Minimum scales per shearing
+		# Default: 5
+		# Range: 0 ~ 256
+		min_scales = 5
+		#Maximum scales per shearing
+		# Default: 10
+		# Range: 0 ~ 256
+		max_scales = 10
+		#Cooldown in seconds
+		# Default: 300
+		# Range: 0 ~ 7200
+		cooldown_seconds = 300
+
+	[scale_shears.stage_3]
+		#Minimum scales per shearing
+		# Default: 25
+		# Range: 0 ~ 256
+		min_scales = 25
+		#Maximum scales per shearing
+		# Default: 45
+		# Range: 0 ~ 256
+		max_scales = 45
+		#Cooldown in seconds
+		# Default: 210
+		# Range: 0 ~ 7200
+		cooldown_seconds = 210
+
+	[scale_shears.stage_4]
+		#Minimum scales per shearing
+		# Default: 46
+		# Range: 0 ~ 256
+		min_scales = 46
+		#Maximum scales per shearing
+		# Default: 64
+		# Range: 0 ~ 256
+		max_scales = 64
+		#Cooldown in seconds
+		# Default: 120
+		# Range: 0 ~ 7200
+		cooldown_seconds = 120
+
+	[scale_shears.stage_5]
+		#Minimum scales per shearing
+		# Default: 65
+		# Range: 0 ~ 256
+		min_scales = 65
+		#Maximum scales per shearing
+		# Default: 85
+		# Range: 0 ~ 256
+		max_scales = 85
+		#Cooldown in seconds
+		# Default: 60
+		# Range: 0 ~ 7200
+		cooldown_seconds = 60
+
+#Syringe settings: max collections in a window, then cooldown
+[syringe]
+
+	[syringe.stage_1]
+		#Max blood collections within the window before cooldown
+		# Default: 3
+		# Range: 1 ~ 1000
+		max_uses = 3
+		#Window in seconds
+		# Default: 1200
+		# Range: 1 ~ 7200
+		window_seconds = 1200
+		#Cooldown in seconds once max_uses is reached
+		# Default: 1200
+		# Range: 0 ~ 7200
+		cooldown_seconds = 1200
+		#Minimum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_min = 1
+		#Maximum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_max = 1
+
+	[syringe.stage_2]
+		#Max blood collections within the window before cooldown
+		# Default: 6
+		# Range: 1 ~ 1000
+		max_uses = 6
+		#Window in seconds
+		# Default: 1020
+		# Range: 1 ~ 7200
+		window_seconds = 1020
+		#Cooldown in seconds once max_uses is reached
+		# Default: 1020
+		# Range: 0 ~ 7200
+		cooldown_seconds = 1020
+		#Minimum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_min = 1
+		#Maximum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_max = 1
+
+	[syringe.stage_3]
+		#Max blood collections within the window before cooldown
+		# Default: 12
+		# Range: 1 ~ 1000
+		max_uses = 12
+		#Window in seconds
+		# Default: 900
+		# Range: 1 ~ 7200
+		window_seconds = 900
+		#Cooldown in seconds once max_uses is reached
+		# Default: 900
+		# Range: 0 ~ 7200
+		cooldown_seconds = 900
+		#Minimum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_min = 1
+		#Maximum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_max = 1
+
+	[syringe.stage_4]
+		#Max blood collections within the window before cooldown
+		# Default: 18
+		# Range: 1 ~ 1000
+		max_uses = 18
+		#Window in seconds
+		# Default: 720
+		# Range: 1 ~ 7200
+		window_seconds = 720
+		#Cooldown in seconds once max_uses is reached
+		# Default: 720
+		# Range: 0 ~ 7200
+		cooldown_seconds = 720
+		#Minimum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_min = 1
+		#Maximum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_max = 1
+
+	[syringe.stage_5]
+		#Max blood collections within the window before cooldown
+		# Default: 24
+		# Range: 1 ~ 1000
+		max_uses = 24
+		#Window in seconds
+		# Default: 540
+		# Range: 1 ~ 7200
+		window_seconds = 540
+		#Cooldown in seconds once max_uses is reached
+		# Default: 540
+		# Range: 0 ~ 7200
+		cooldown_seconds = 540
+		#Minimum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_min = 1
+		#Maximum blood items per collection
+		# Default: 1
+		# Range: 1 ~ 64
+		blood_max = 1
+
+#Dragon Painkiller settings
+[painkiller]
+	#Default cooldown after a single dose, in seconds
+	# Default: 120
+	# Range: 0 ~ 7200
+	cooldown_seconds = 120
+	#Durability (uses). Requires a game restart to take effect.
+	# Default: 60
+	# Range: 1 ~ 10000
+	durability = 60
+
+#Dragon attribute overrides
+[dragon]
+	#Max HP an adult (125+ days) dragon will have.
+	#This addon also lifts the vanilla 1024 cap on max health, so values above 1024 take effect.
+	#Set to 0 to disable this override and keep Ice and Fire CE's own dragon.maxHealth value (still uncapped).
+	# Default: 0
+	# Range: 0 ~ 10000000
+	max_health = 0
+	#If true, wild dragons will age naturally over time (like tamed ones).
+	#If false, Ice and Fire CE's default behavior applies (wild dragons' aging is disabled).
+	wild_dragons_age = false
+	#If true, tamed and neutral (befriended) dragons will age passively over time.
+	#CE disables aging for tamed dragons by default. This option restores it.
+	#Note: the Sickly Dragon Meal item that forces growth is not affected by this setting.
+	tamed_dragons_age = false
+	#If true, baby and juvenile dragons (Stages 1 & 2) of different elements will never fight each other,
+	#and older dragons (Stage 3+) of different elements will not attack baby and juvenile dragons of another element.
+	#Default is true.
+	prevent_dragon_fight_babies = true
+	#If true, ALL dragons of different elements will never attack or damage each other, regardless of their growth stage.
+	#If this option is enabled, the baby-only prevention setting becomes inactive and automatically turns off to avoid logical conflicts.
+	#Default is false.
+	prevent_dragon_fight_all = false
+
+	#Settings for new baby dragon AI and wild spawning mechanics
+	[dragon.ai_spawning]
+		#If true, wild baby dragons will not flee from players in survival mode.
+		#Note: They will still not attack players (based on hunting targets), they just won't run away.
+		#Default is false (fleeing is enabled).
+		disable_baby_panic = false
+		#If true, completely disables all new AI mechanics for baby dragons (fleeing, following adults, etc.).
+		#Reverts baby dragons to their vanilla Ice and Fire behavior.
+		#Default is false (new AI is enabled).
+		disable_new_baby_ai = false
+		#If true, disables the natural generation of wild baby dragons in roosts, caves, and biomes.
+		#Default is false (wild babies will spawn).
+		disable_wild_baby_spawns = true
+		#If true, baby dragons will prioritize following their mother over players holding food.
+		#If false, they will stop following the mother when tempted with Exceptional Dragon Meal.
+		#Default is false.
+		mother_priority_over_food = false
+		#How frequently baby dragons spawn in surface roosts.
+		#A value of N means 1 baby spawns every N roosts.
+		#Min 1 (100% chance), Max 10 (10% chance). Default is 6.
+		# Default: 6
+		# Range: 1 ~ 10
+		roost_spawn_rate = 6
+
+	#Dragon Taming settings
+	[dragon.taming]
+		#How long the taming process takes (in seconds).
+		#Default is 180 seconds (3 minutes).
+		# Default: 180
+		# Range: 40 ~ 3600
+		duration_seconds = 180
+		#Multiplier applied to the remaining taming time if the player attacks the dragon and breaks trust.
+		#Default is 2.0 (time doubles).
+		# Default: 2.0
+		# Range: 1.5 ~ 10.0
+		penalty_multiplier = 2.0
+
+	#Dragon dirtiness settings
+	[dragon.dirt]
+		#If true, tamed dragons will gradually get dirty over time.
+		enabled_tamed = false
+		#If true, wild/passive dragons will also get dirty.
+		#WARNING: Enabling this may cause performance drops as the server will
+		#have to process dirt accumulation for all wild dragons.
+		enabled_wild = false
+		#How many in-game days it takes for a dragon's dirtiness to increase by 1 level.
+		# Default: 1.0
+		# Range: 0.5 ~ 30.0
+		speed_days = 1.0
+		#If true, simplifies the QTE mini-game for dragon cleaning.
+		#By default false. When true, Stage 1 dirtiness bypasses the mini-game completely,
+		#and Stages 2-5 will have their target zones scaled up in size by 1.5x.
+		easy_minigame = false
+
+#Ash Poisoning settings
+[ash_poisoning]
+	#If true, players will get ash poisoning when near ash blocks.
+	#If false, the Ash Sensor is also fully disabled — it stops scanning
+	#and stops playing its idle/geiger sounds to avoid wasting cycles on a
+	#feature the player has turned off.
+	enabled = false
+	#If true, the Ash Sensor plays its idle hum and geiger tracks while held.
+	#Setting this to false silences the sensor while still letting it scan and
+	#show the level on its model. Has no effect if ash poisoning itself is disabled,
+	#in which case the sensor is fully disabled and silent regardless of this option.
+	sensor_sound_enabled = false
+	#Minimum ash blocks required for Stage 1 poisoning
+	# Default: 10
+	# Range: 1 ~ 9261
+	stage_1_min = 10
+	#Minimum ash blocks required for Stage 2 poisoning
+	# Default: 36
+	# Range: 1 ~ 9261
+	stage_2_min = 36
+	#Minimum ash blocks required for Stage 3 poisoning
+	# Default: 61
+	# Range: 1 ~ 9261
+	stage_3_min = 61
+	#Minimum ash blocks required for Stage 4 poisoning
+	# Default: 85
+	# Range: 1 ~ 9261
+	stage_4_min = 85
+
+#Dragon Fruit growth settings
+[dragon_fruit]
+	#Chance (%) that a stem growth tick will succeed.
+	#100 = same speed as vanilla melon/pumpkin, 50 = twice as slow.
+	#Lower values make the stem grow slower.
+	# Default: 50
+	# Range: 1 ~ 100
+	stem_growth_chance = 50
+	#Chance (%) that a mature stem will produce a fruit on each tick.
+	#100 = same speed as vanilla melon/pumpkin, 50 = twice as slow.
+	#Lower values make the fruit appear less frequently.
+	# Default: 50
+	# Range: 1 ~ 100
+	fruit_spawn_chance = 50
+
+#Settings for world generation structures
+[structures]
+	#If true, ALL structure generation from this addon is completely disabled.
+	disable_all_structures = true
+	#If true, disables the generation of the Dragon Hunter Guild structure.
+	disable_guild = false
+	#If true, disables the generation of the Dragon Hunter House/Camp structure.
+	disable_hunter_house = false
+	#If true, disables the generation of the Ruined Dragon Forge in villages.
+	disable_village_forge = false
+	#Spawn chance multiplier for the Dragon Hunter Guild.
+	#1.0 is default chance. Lower values = lower chance.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	guild_spawn_multiplier = 1.0
+	#Spawn chance multiplier for the Dragon Hunter House/Camp.
+	#1.0 is default chance. Lower values = lower chance.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	hunter_house_spawn_multiplier = 1.0
+	#Spawn chance multiplier for the Ruined Dragon Forge in villages.
+	#1.0 is default chance. Lower values = lower chance.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	village_forge_spawn_multiplier = 1.0
+
+#Crafting settings
+[crafting]
+	#If true, simplifies crafting recipes for various items (Ash Sensor, Tablets, Painkiller, etc.)
+	#When this setting is toggled in-game, recipes will automatically reload (may cause a brief lag spike).
+	simplify_crafts = false
