@@ -1,0 +1,103 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:channeled",
+    "initial_mana_cost": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 8.0,
+        "per_level_above_first": 14.0
+      },
+      "values": [
+        8,
+        10,
+        12,
+        14,
+        22
+      ]
+    },
+    "continuous_mana_cost": {
+      "type": "ticking",
+      "amount": 0.1
+    },
+    "cast_time": 10,
+    "cooldown": 200,
+    "can_move_while_casting": true,
+    "max_duration": 100
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 5,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 250.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        10.0,
+        50.0,
+        100.0,
+        150.0,
+        250.0
+      ]
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:true_gravity_field",
+              "type": "Attract",
+              "radius": {
+                "type": "minecraft:linear",
+                "base": 10,
+                "per_level_above_first": 5
+              },
+              "launch_power": {
+                "type": "minecraft:linear",
+                "base": 4.0,
+                "per_level_above_first": 1
+              }
+            }
+          ],
+          "targeting_mode": "non_allies"
+        }
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "can_be_manually_disabled": true,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "star_dragon:abilities/star/true_gravity_field/true_gravity_field_0",
+        "from_level": 0
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/true_gravity_field/true_gravity_field_1",
+        "from_level": 1
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/true_gravity_field/true_gravity_field_2",
+        "from_level": 2
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/true_gravity_field/true_gravity_field_3",
+        "from_level": 3
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/true_gravity_field/true_gravity_field_4",
+        "from_level": 4
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/true_gravity_field/true_gravity_field_5",
+        "from_level": 5
+      }
+    ]
+  }
+}

@@ -2,5 +2,20 @@
   "dragon_species.star_dragon.star_dragon": "Rồng Sao",
   "dragon_species.star_dragon.star_dragon.locked": "§7■§6 Rồng Sao§7 được sinh ra từ§e Bụi Sao§7. Vảy chúng lấp lánh§e ánh sao§7, máu chảy mang phép thuật của§e lõi sao§7.\n\n§2■ Đặc điểm:§7 Phép không gian, thị lực ban đêm vĩnh viễn, mười hai đạo huyền cơ, và hiệu ứng kỹ năng tuyệt đẹp.\n§4■ Nguyền rủa:§7 Mất ánh sao sẽ cạn sinh lực. Trời quang, ban đêm và thời tiết trong khuếch đại sức mạnh, còn dưới lòng đất, ban ngày và bão tố làm yếu đi.\n\n§3■ Điều kiện Mở khóa:§7\n1. Hoàn thành §6Tân Thủ Hướng dẫn§7.§r",
   "dragon_species.star_dragon.star_dragon.altar.desc": "§7■§6 Rồng Sao§7 được sinh ra từ§e Bụi Sao§7. Vảy chúng lấp lánh§e ánh sao§7, máu chảy mang phép thuật của§e lõi sao§7.\n\n§2■ Đặc điểm:§7 Phép không gian, thị lực ban đêm vĩnh viễn, mười hai đạo huyền cơ, và hiệu ứng kỹ năng tuyệt đẹp.\n§4■ Nguyền rủa:§7 Mất ánh sao sẽ cạn sinh lực. Trời quang, ban đêm và thời tiết trong khuếch đại sức mạnh, còn dưới lòng đất, ban ngày và bão tố làm yếu đi.\n§6■ Khẩu vị:§r%s",
-  "dragon_species.star_dragon.star_dragon.banner.desc": "§7■§6 Rồng Sao§7 được sinh ra từ §fBụi Sao§7, sự hòa quyện hoàn hảo giữa năng lượng vũ trụ và huyết mạch rồng cổ xưa. Vảy chúng lấp lánh §fánh sao§7, máu chảy mang phép thuật của §flõi sao§7, và chúng gọi bầu trời §fđêm§7 là nhà.\n\n§7■Để duy trì năng lượng sao, bạn phải hấp thụ §fánh sao§7 hoặc dùng thức ăn thấm §fBụi Sao§7. §cMôi trường khắc nghiệt§7 sẽ dần làm bạn suy kiệt.§r"
+  "dragon_species.star_dragon.star_dragon.banner.desc": "§7■§6 Rồng Sao§7 được sinh ra từ §fBụi Sao§7, sự hòa quyện hoàn hảo giữa năng lượng vũ trụ và huyết mạch rồng cổ xưa. Vảy chúng lấp lánh §fánh sao§7, máu chảy mang phép thuật của §flõi sao§7, và chúng gọi bầu trời §fđêm§7 là nhà.\n\n§7■Để duy trì năng lượng sao, bạn phải hấp thụ §fánh sao§7 hoặc dùng thức ăn thấm §fBụi Sao§7. §cMôi trường khắc nghiệt§7 sẽ dần làm bạn suy kiệt.§r",
+  "dragon_stage.star_dragon.stardust": "Ấu Long Bụi Sao",
+  "dragon_stage.star_dragon.nebula": "Rồng Tinh Vân",
+  "dragon_stage.star_dragon.nova": "Cự Long Tân Tinh",
+  "dragon_stage.star_dragon.stellar": "Cổ Long Tinh Tú",
+  "dragon_stage.star_dragon.void": "Cự Long Vực Sao",
+  "dragon_stage.star_dragon.progenitor": "Thủy Tổ Hoàn Vũ",
+  "star_dragon.advancement.star/be_young": "Tinh Vân Đầu Tiên",
+  "star_dragon.advancement.star/be_young.desc": "Đạt cấp sinh trưởng 50 với tư cách Rồng Sao và tiến hóa thành Rồng Tinh Vân.",
+  "star_dragon.advancement.star/be_old_dragon.desc": "Đạt cấp sinh trưởng 100 với tư cách Rồng Sao. Ánh sao của bạn ngưng tụ thành một kết giới bất diệt.",
+  "star_dragon.advancement.star/be_stellar": "Cổ Tinh Trường Minh",
+  "star_dragon.advancement.star/be_stellar.desc": "Đạt cấp sinh trưởng 150 với tư cách Rồng Sao và tiến hóa thành Cổ Long Tinh Tú.",
+  "star_dragon.advancement.star/be_archean": "Bóng Vực Sao",
+  "star_dragon.advancement.star/be_archean.desc": "Đạt cấp sinh trưởng 200 với tư cách Rồng Sao và tiến hóa thành Cự Long Vực Sao.",
+  "star_dragon.advancement.star/be_progenitor": "Hoàn Vũ Khai Sinh",
+  "star_dragon.advancement.star/be_progenitor.desc": "Đạt cấp sinh trưởng 250 với tư cách Rồng Sao và tiến hóa thành Thủy Tổ Hoàn Vũ."
 }

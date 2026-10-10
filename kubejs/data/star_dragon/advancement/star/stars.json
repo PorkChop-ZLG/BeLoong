@@ -1,0 +1,31 @@
+{
+  "parent": "star_dragon:star/invincible",
+  "criteria": {
+    "stars": {
+      "trigger": "star_dragon:block_broken",
+      "conditions": {
+        "block": "#star_dragon:star_ores"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "star_dragon.advancement.star/stars.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "star_dragon:stardust"
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/stars"
+    }
+  },
+  "requirements": [
+    [
+      "stars"
+    ]
+  ],
+  "rewards": {
+    "experience": 40
+  }
+}

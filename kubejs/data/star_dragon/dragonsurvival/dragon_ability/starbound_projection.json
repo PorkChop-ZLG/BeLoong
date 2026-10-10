@@ -1,0 +1,120 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:starbound_projection",
+              "target_direction": {
+                "direction": "looking_at"
+              },
+              "range": {
+                "type": "minecraft:linear",
+                "base": 40,
+                "per_level_above_first": 20
+              },
+              "damage": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 20.0,
+                  "per_level_above_first": 980.0
+                },
+                "values": [
+                  20,
+                  100,
+                  1000
+                ]
+              },
+              "damage_type": "minecraft:magic",
+              "use_claw": false,
+              "glow_duration": {
+                "type": "minecraft:linear",
+                "base": 100,
+                "per_level_above_first": 20
+              },
+              "glow_amplifier": 0,
+              "hit_radius": 1.5,
+              "step": 1.0,
+              "from_color": [
+                0.23,
+                0.0,
+                1.0
+              ],
+              "to_color": [
+                0.65,
+                0.17,
+                1.0
+              ],
+              "scale": 3.0,
+              "max_particles": 400
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        }
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "can_move_while_casting": true,
+    "cast_time": 10,
+    "cooldown": 20,
+    "initial_mana_cost": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 12.0,
+        "per_level_above_first": 14.0
+      },
+      "values": [
+        12,
+        16,
+        26
+      ]
+    },
+    "sound": {
+      "start": "minecraft:entity.enderman.teleport",
+      "end": "minecraft:block.amethyst_block.chime"
+    }
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "star_dragon:abilities/star/starbound_projection/starbound_projection_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "star_dragon:abilities/star/starbound_projection/starbound_projection_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "star_dragon:abilities/star/starbound_projection/starbound_projection_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "star_dragon:abilities/star/starbound_projection/starbound_projection_3"
+      }
+    ]
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 3,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 250.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        10.0,
+        50.0,
+        250.0
+      ]
+    }
+  }
+}

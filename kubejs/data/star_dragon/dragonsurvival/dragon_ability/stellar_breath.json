@@ -1,0 +1,493 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "amount": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 9.0,
+                  "per_level_above_first": 391.0
+                },
+                "values": [
+                  9,
+                  20,
+                  80,
+                  400
+                ]
+              },
+              "damage_type": "minecraft:magic",
+              "effect_type": "dragonsurvival:damage"
+            },
+            {
+              "effect_type": "dragonsurvival:potion",
+              "potion": {
+                "amplifier": 0,
+                "duration": 100,
+                "effects": "minecraft:glowing",
+                "probability": 0.3
+              }
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:entity_check_predicate",
+                "check_for": "living_entity"
+              }
+            }
+          },
+          "targeting_mode": "non_allies"
+        },
+        "range_multiplier": 1,
+        "target_type": "dragonsurvival:dragon_breath"
+      },
+      "trigger_rate": 10
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "block_effect": [
+            {
+              "duration": 30,
+              "effect_type": "dragonsurvival:area_cloud",
+              "particle": {
+                "type": "star_dragon:stellar_breath_dust",
+                "mid_color": [
+                  0.42,
+                  0.3,
+                  0.95
+                ],
+                "size": 0.14,
+                "lifetime": 45,
+                "alpha": 0.85
+              },
+              "potion": {
+                "amplifier": 0,
+                "duration": 40,
+                "effects": "minecraft:glowing"
+              },
+              "probability": 0.2
+            }
+          ]
+        },
+        "range_multiplier": 1,
+        "target_type": "dragonsurvival:dragon_breath"
+      },
+      "trigger_rate": 10
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:star_conversion",
+              "conversions": [
+                {
+                  "input": {
+                    "items": "minecraft:apple"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_apple",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:melon_slice"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_melon_slice",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:sweet_berries"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_sweetberries",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:carrot"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_carrot",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:potato"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_potato",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:baked_potato"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_potato",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:beetroot"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_beetroot",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:beef"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_beef",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cooked_beef"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_beef",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:porkchop"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_porkchop",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cooked_porkchop"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_porkchop",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:mutton"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_mutton",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cooked_mutton"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_mutton",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:chicken"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_chicken",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cooked_chicken"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_chicken",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:rabbit"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_rabbit",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cooked_rabbit"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_rabbit",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cod"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_cod",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cooked_cod"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_cod",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:salmon"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_salmon",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:cooked_salmon"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_salmon",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:tropical_fish"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_tropical_fish",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:glow_berries"
+                  },
+                  "output": {
+                    "id": "star_dragon:stardust",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:glowstone_dust"
+                  },
+                  "output": {
+                    "id": "star_dragon:stardust",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "minecraft:milk_bucket"
+                  },
+                  "output": {
+                    "id": "star_dragon:star_milk",
+                    "count": 1
+                  }
+                }
+              ],
+              "progress": {
+                "type": "minecraft:linear",
+                "base": 10.0,
+                "per_level_above_first": 5.0
+              }
+            }
+          ],
+          "targeting_mode": "items"
+        },
+        "range_multiplier": 1,
+        "target_type": "dragonsurvival:dragon_breath"
+      }
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:breath_particles",
+              "main_particle": {
+                "type": "star_dragon:stellar_breath_spark",
+                "hot_color": [
+                  0.62,
+                  0.52,
+                  1.0
+                ],
+                "mid_color": [
+                  0.32,
+                  0.22,
+                  0.85
+                ],
+                "size": 0.08,
+                "lifetime": 14
+              },
+              "secondary_particle": {
+                "type": "star_dragon:stellar_breath_core",
+                "cold_color": [
+                  0.14,
+                  0.1,
+                  0.52
+                ],
+                "mid_color": [
+                  0.32,
+                  0.22,
+                  0.85
+                ],
+                "hot_color": [
+                  0.52,
+                  0.42,
+                  1.0
+                ],
+                "size": 0.16,
+                "lifetime": 30,
+                "link_chance": 0.1
+              },
+              "speed_per_growth": 0.02,
+              "spread": 0.06
+            }
+          ],
+          "targeting_mode": "all"
+        },
+        "target_type": "dragonsurvival:self"
+      },
+      "trigger_rate": 1
+    },
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:breath_particles",
+              "main_particle": {
+                "type": "star_dragon:stellar_breath_dust",
+                "mid_color": [
+                  0.32,
+                  0.22,
+                  0.85
+                ],
+                "size": 0.0625,
+                "lifetime": 24,
+                "alpha": 0.7
+              },
+              "secondary_particle": {
+                "type": "star_dragon:stellar_breath_dust",
+                "mid_color": [
+                  0.32,
+                  0.22,
+                  0.85
+                ],
+                "size": 0.0625,
+                "lifetime": 24,
+                "alpha": 0.7
+              },
+              "speed_per_growth": 0.02,
+              "spread": 0.06
+            }
+          ],
+          "targeting_mode": "all"
+        },
+        "target_type": "dragonsurvival:self"
+      },
+      "trigger_rate": 2
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:channeled",
+    "animations": {
+      "looping": {
+        "animation_key": "breath",
+        "layer": "BREATH",
+        "locks_neck": false,
+        "locks_tail": false,
+        "transition_length": 5
+      },
+      "start_and_charging": {
+        "animation_key": "spell_charge",
+        "layer": "BREATH",
+        "locks_neck": false,
+        "locks_tail": false,
+        "transition_length": 5
+      }
+    },
+    "cast_time": 15,
+    "continuous_mana_cost": {
+      "type": "ticking",
+      "amount": 0.02
+    },
+    "cooldown": 30,
+    "sound": {
+      "end": "dragonsurvival:storm_breath_end",
+      "looping": "dragonsurvival:storm_breath_loop",
+      "start": "dragonsurvival:storm_breath_start"
+    }
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "star_dragon:abilities/star/stellar_breath/stellar_breath_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "star_dragon:abilities/star/stellar_breath/stellar_breath_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "star_dragon:abilities/star/stellar_breath/stellar_breath_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "star_dragon:abilities/star/stellar_breath/stellar_breath_3"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "star_dragon:abilities/star/stellar_breath/stellar_breath_4"
+      }
+    ]
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 4,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 250.0,
+        "per_level_above_first": 50.0
+      },
+      "values": [
+        10.0,
+        50.0,
+        100.0,
+        250.0
+      ]
+    }
+  }
+}

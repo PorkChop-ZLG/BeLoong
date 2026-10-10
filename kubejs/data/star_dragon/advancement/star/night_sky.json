@@ -1,0 +1,28 @@
+{
+  "parent": "star_dragon:star/stars",
+  "criteria": {
+    "night_sky": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "star_dragon.advancement.star/night_sky.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "star_dragon:starcubess"
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/night_sky"
+    }
+  },
+  "requirements": [
+    [
+      "night_sky"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}

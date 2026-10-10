@@ -9,7 +9,9 @@
     "star_dragon:stardust",
     "star_dragon:nebula",
     "star_dragon:nova",
-    "star_dragon:stellar"
+    "star_dragon:stellar",
+    "star_dragon:void",
+    "star_dragon:progenitor"
   ],
   "misc_resources": {
     "ability_bar": "star_dragon:textures/gui/custom/casting_bars/star/cast_bar.png",

@@ -1,0 +1,72 @@
+{
+  "parent": "star_dragon:star/night_sky",
+  "criteria": {
+    "master_star_athletics": {
+      "conditions": {
+        "ability": "star_dragon:star_athletics",
+        "level": 5
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_sun_protection": {
+      "conditions": {
+        "ability": "star_dragon:sun_protection",
+        "level": 7
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_star_magic": {
+      "conditions": {
+        "ability": "star_dragon:star_magic",
+        "level": 10
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_glowing": {
+      "conditions": {
+        "ability": "star_dragon:glowing",
+        "level": 4
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    },
+    "master_constellation_passive": {
+      "conditions": {
+        "ability": "star_dragon:constellation_passive",
+        "level": 5
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "star_dragon.advancement.star/master_all_passives.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "star_dragon:star_soul"
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/master_all_passives"
+    }
+  },
+  "requirements": [
+    [
+      "master_glowing"
+    ],
+    [
+      "master_star_athletics"
+    ],
+    [
+      "master_star_magic"
+    ],
+    [
+      "master_sun_protection"
+    ],
+    [
+      "master_constellation_passive"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  }
+}
