@@ -43,8 +43,12 @@
 	# Default: 6
 	# Range: 1 ~ 32
 	cubesRange = 6
-	#Star power bonus per nearby star cube block
-	# Default: 0.05
+	#Star power bonus per nearby star cube block.
+	#This is the one lever that works regardless of environment: the bonus is added AFTER
+	#the sky/weather multipliers, so it is the only way to keep starlight up at noon.
+	#Defaults are tuned so that 5 cubes stop the decay, 6 cubes start recovering,
+	#and 10 cubes reach full starlight even at noon.
+	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	cubesBonusPer = 0.05
 	#Maximum star power bonus from cubes. 1.0 means no effective cap (star power itself is still capped at 100%).

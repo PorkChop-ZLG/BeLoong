@@ -24,3 +24,9 @@
 	stellarBreathQuality = "HIGH"
 	#Stellar Breath constellation links: connect nearby core stars inside the breath with faint glowing lines.
 	stellarBreathLink = true
+	#Gravity Field domain ring quality. Controls sphere tessellation and the number of surface stars; the domain's radius, duration and gameplay are unchanged.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	gravityDomainQuality = "HIGH"
+	#Stardust Armor planet-ring quality. Controls how many segments each ring circle is drawn with; the ring's size, duration and gameplay are unchanged.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	stardustArmorQuality = "HIGH"
