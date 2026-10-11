@@ -91,7 +91,8 @@
                 ]
               },
               "lifespan": 130.0,
-              "max_distance": 32.0
+              "max_distance": 32.0,
+              "damage_type": "star_dragon:black_hole_accretion"
             }
           ]
         }
