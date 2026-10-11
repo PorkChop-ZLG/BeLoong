@@ -28,7 +28,7 @@
                   1000
                 ]
               },
-              "damage_type": "minecraft:magic",
+              "damage_type": "star_dragon:starbound_projection",
               "use_claw": false,
               "glow_duration": {
                 "type": "minecraft:linear",

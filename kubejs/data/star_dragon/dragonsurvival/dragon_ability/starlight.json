@@ -95,6 +95,8 @@
                   200
                 ]
               },
+              "dot_damage_type": "star_dragon:starlight",
+              "explosion_damage_type": "star_dragon:starlight_burst",
               "mode": "summon"
             }
           ],

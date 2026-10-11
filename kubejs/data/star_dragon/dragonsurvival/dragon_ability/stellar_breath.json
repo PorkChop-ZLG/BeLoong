@@ -19,7 +19,7 @@
                   400
                 ]
               },
-              "damage_type": "minecraft:magic",
+              "damage_type": "star_dragon:stellar_breath",
               "effect_type": "dragonsurvival:damage"
             },
             {
@@ -310,6 +310,15 @@
                   },
                   "output": {
                     "id": "star_dragon:star_milk",
+                    "count": 1
+                  }
+                },
+                {
+                  "input": {
+                    "items": "#star_dragon:music_discs"
+                  },
+                  "output": {
+                    "id": "star_dragon:music_disc_star_dragon",
                     "count": 1
                   }
                 }
