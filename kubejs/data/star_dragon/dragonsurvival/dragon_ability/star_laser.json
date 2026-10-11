@@ -45,6 +45,7 @@
           "entity_effect": [
             {
               "effect_type": "star_dragon:star_laser",
+              "damage_type": "star_dragon:star_laser",
               "harm": {
                 "type": "minecraft:lookup",
                 "fallback": {

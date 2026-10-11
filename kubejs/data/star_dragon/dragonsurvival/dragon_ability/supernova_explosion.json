@@ -58,7 +58,7 @@
                   2600
                 ]
               },
-              "damage_type": "minecraft:explosion",
+              "damage_type": "star_dragon:supernova",
               "radius": {
                 "type": "minecraft:lookup",
                 "fallback": {
