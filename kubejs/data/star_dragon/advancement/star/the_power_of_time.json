@@ -1,0 +1,32 @@
+{
+  "parent": "star_dragon:star/master_all_passives",
+  "criteria": {
+    "the_power_of_time": {
+      "conditions": {
+        "ability": "star_dragon:control_time",
+        "level": 1
+      },
+      "trigger": "dragonsurvival:upgrade_ability"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "star_dragon.advancement.star/the_power_of_time.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/the_power_of_time"
+    }
+  },
+  "requirements": [
+    [
+      "the_power_of_time"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

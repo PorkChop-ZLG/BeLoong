@@ -1,0 +1,116 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:on_attack",
+              "potion": {
+                "effects": "minecraft:glowing",
+                "amplifier": 0,
+                "duration": {
+                  "type": "minecraft:linear",
+                  "base": 200,
+                  "per_level_above_first": 50
+                },
+                "probability": {
+                  "type": "minecraft:linear",
+                  "base": 0.25,
+                  "per_level_above_first": 0.15
+                },
+                "effect_particles": true,
+                "show_icon": true
+              }
+            }
+          ],
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 0
+    },
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "target_conditions": {
+            "condition": "star_dragon:target_has_glowing"
+          },
+          "targeting_mode": "all",
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dragonsurvival:glowing_target_damage_bonus",
+                    "is_hidden": true,
+                    "should_remove_automatically": true
+                  },
+                  "modifiers": [
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 20
+                      },
+                      "attribute": "minecraft:generic.attack_damage",
+                      "operation": "add_value"
+                    },
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.2,
+                        "per_level_above_first": 0.2
+                      },
+                      "attribute": "dragonsurvival:dragon_ability_damage",
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "star_dragon:abilities/star/glowing/glowing_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "star_dragon:abilities/star/glowing/glowing_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "star_dragon:abilities/star/glowing/glowing_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "star_dragon:abilities/star/glowing/glowing_3"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "star_dragon:abilities/star/glowing/glowing_4"
+      }
+    ]
+  },
+  "upgrade": {
+    "experience_cost": {
+      "type": "minecraft:linear",
+      "base": 20,
+      "per_level_above_first": 20
+    },
+    "maximum_level": 4,
+    "upgrade_type": "dragonsurvival:experience_points"
+  }
+}

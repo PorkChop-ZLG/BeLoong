@@ -1,0 +1,220 @@
+{
+  "parent": "star_dragon:star/the_protection_of_the_stars",
+  "criteria": {
+    "starry_foodie1": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie2": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_melon_slice"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie3": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_sweetberries"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie4": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_carrot"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie5": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_potato"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie6": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_beetroot"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie7": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_beef"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie8": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_porkchop"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie9": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_mutton"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie10": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie11": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_rabbit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie12": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_cod"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie13": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_salmon"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie14": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_tropical_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie15": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_dragon_treat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie16": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_meat_bowl"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie17": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_salad"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "starry_foodie18": {
+      "conditions": {
+        "item": {
+          "items": "star_dragon:star_milk"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "star_dragon.advancement.star/starry_foodie.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "star_dragon:star_dragon_treat"
+    },
+    "title": {
+      "translate": "star_dragon.advancement.star/starry_foodie"
+    }
+  },
+  "requirements": [
+    [
+      "starry_foodie1"
+    ],
+    [
+      "starry_foodie2"
+    ],
+    [
+      "starry_foodie3"
+    ],
+    [
+      "starry_foodie4"
+    ],
+    [
+      "starry_foodie5"
+    ],
+    [
+      "starry_foodie6"
+    ],
+    [
+      "starry_foodie7"
+    ],
+    [
+      "starry_foodie8"
+    ],
+    [
+      "starry_foodie9"
+    ],
+    [
+      "starry_foodie10"
+    ],
+    [
+      "starry_foodie11"
+    ],
+    [
+      "starry_foodie12"
+    ],
+    [
+      "starry_foodie13"
+    ],
+    [
+      "starry_foodie14"
+    ],
+    [
+      "starry_foodie15"
+    ],
+    [
+      "starry_foodie16"
+    ],
+    [
+      "starry_foodie17"
+    ],
+    [
+      "starry_foodie18"
+    ]
+  ],
+  "rewards": {
+    "experience": 60
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "star_dragon:star/the_power_of_time",
+  "parent": "star_dragon:star/be_progenitor",
   "criteria": {
     "master_stardust_armor": {
       "trigger": "dragonsurvival:upgrade_ability",
