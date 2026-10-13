@@ -109,5 +109,7 @@
   "beloong.chatbox.dragon_talk.p2": "My task here is finished. I must take my leave.",
   "beloong.chatbox.dragon_talk.p3": "The §6Yongle Canon§r in your hands was compiled by your father — it is also called the §6Task Book§r. Open it, and it will teach you what to do next.",
   "beloong.chatbox.dragon_talk.p4": "I have other matters to attend to. I shall go on ahead.",
-  "beloong.chatbox.dragon_talk.opt_wait": "§eWait, don't go!"
+  "beloong.chatbox.dragon_talk.opt_wait": "§eWait, don't go!",
+  "beloong.generalfeedback.title": "§e『§6BeLoong§e』§dFeedback & Bug Reports",
+  "beloong.generalfeedback.placeholder": "Please describe your suggestion or bug. If you have none, just close this screen."
 }

@@ -109,5 +109,7 @@
   "beloong.chatbox.dragon_talk.p2": "我的任务已经结束了，只能失陪了",
   "beloong.chatbox.dragon_talk.p3": "你手中的§6永乐大典§r是你父亲编撰的，又称为§6任务书§r。翻开这本书，里面会教导你接下来要做什么",
   "beloong.chatbox.dragon_talk.p4": "我还有别的事情，先走一步了",
-  "beloong.chatbox.dragon_talk.opt_wait": "§e等一下，你别走啊"
+  "beloong.chatbox.dragon_talk.opt_wait": "§e等一下，你别走啊",
+  "beloong.generalfeedback.title": "§e『§6化龍§e』§d意见和BUG反馈",
+  "beloong.generalfeedback.placeholder": "请填写意见或BUG，没有则点击取消。"
 }
