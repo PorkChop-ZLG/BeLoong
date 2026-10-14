@@ -3740,6 +3740,230 @@
 			append = ""
 			format = ""
 
+	[type.supernova]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.supernova.icon]
+			tex = ""
+			item = ""
+
+		[type.supernova.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.scorpius]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.scorpius.icon]
+			tex = ""
+			item = ""
+
+		[type.scorpius.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.aries]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.aries.icon]
+			tex = ""
+			item = ""
+
+		[type.aries.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.taurus]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.taurus.icon]
+			tex = ""
+			item = ""
+
+		[type.taurus.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.starlight]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.starlight.icon]
+			tex = ""
+			item = ""
+
+		[type.starlight.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.black_hole_accretion]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.black_hole_accretion.icon]
+			tex = ""
+			item = ""
+
+		[type.black_hole_accretion.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.capricornus]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.capricornus.icon]
+			tex = ""
+			item = ""
+
+		[type.capricornus.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.starbound_projection]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.starbound_projection.icon]
+			tex = ""
+			item = ""
+
+		[type.starbound_projection.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.libra]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.libra.icon]
+			tex = ""
+			item = ""
+
+		[type.libra.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.starlight_burst]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.starlight_burst.icon]
+			tex = ""
+			item = ""
+
+		[type.starlight_burst.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.pisces]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.pisces.icon]
+			tex = ""
+			item = ""
+
+		[type.pisces.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.sagittarius]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.sagittarius.icon]
+			tex = ""
+			item = ""
+
+		[type.sagittarius.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.star_laser]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.star_laser.icon]
+			tex = ""
+			item = ""
+
+		[type.star_laser.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.gemini]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.gemini.icon]
+			tex = ""
+			item = ""
+
+		[type.gemini.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.stellar_breath]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.stellar_breath.icon]
+			tex = ""
+			item = ""
+
+		[type.stellar_breath.format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[type.virgo]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.virgo.icon]
+			tex = ""
+			item = ""
+
+		[type.virgo.format]
+			prepend = ""
+			append = ""
+			format = ""
+
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
