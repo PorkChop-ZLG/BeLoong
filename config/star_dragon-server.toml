@@ -25,6 +25,8 @@
 	#Stellar Laser block destruction override: GLOBAL (follow blockDestructionMode), ON (always enabled), PARTIAL_PROTECTION (partial protection: BreakEvent-based, no FTB needed), FTB_FORBID (FTB-only: run BreakEvent protection check, then forbid in claimed chunks), OFF (disabled)
 	#Allowed Values: GLOBAL, ON, PARTIAL_PROTECTION, FTB_FORBID, OFF
 	starLaserBlockDestruction = "GLOBAL"
+	# White Hole merge explosion block destruction override.
+	whiteHoleMergeBlockDestruction = "OFF"
 
 [starlight]
 	#Weather factor when raining
