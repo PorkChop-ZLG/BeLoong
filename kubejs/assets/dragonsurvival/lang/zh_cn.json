@@ -1,4 +1,5 @@
 {
+  "dragonsurvival.gui.help.passive_active_abilities": "§f■ §c使用鼠标滚轮滚动浏览能力栏。\n§f■ §6主动能力§r§f用于战斗或施加增益效果。\n§f- §9能力强度§r§8会随当前经验等级提升。\n§f- §9经验或魔力§r§8可用于施放法术。\n\n§f■ §a被动能力§r§f可通过消耗经验等级升级，或提供额外增益。\n§f- §9按住Ctrl并左键§r§8可禁用能力。\n§f- §9更多信息§r§8可在CurseForge页面或GithubWiki中查看。",
   "attribute.dragonsurvival.penalty_resistance_time": "诅咒抵抗时间",
   "attribute.dragonsurvival.penalty_resistance_time.desc": "增加诅咒生效前的抵抗时间",
 
