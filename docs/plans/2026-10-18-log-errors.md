@@ -185,7 +185,7 @@ Couldn't load advancements: [dungeons_arise:find_thornborn_towers, dungeons_aris
 
 **影响：** 这两个探索进度不会出现在进度界面，也不参与 `wda_root` 树的统计。
 
-**状态：✅ 已修复（2026-10-18）。** 在 `kubejs/data/dungeons_arise/advancement/` 下覆盖并重写这两份 JSON：保留原 `display` / `criteria` / `requirements`，仅把 `"parent"` 从 `dungeons_arise:find_small_prairie_house` 改为 **`dungeons_arise:wda_root`**（与其它一级进度一致），未改动任何触发条件。
+**状态：✅ 已修复并验证（2026-10-18 23:11 重启）。** 在 `kubejs/data/dungeons_arise/advancement/` 下覆盖并重写这两份 JSON：保留原 `display` / `criteria` / `requirements`，仅把 `"parent"` 从 `dungeons_arise:find_small_prairie_house` 改为 **`dungeons_arise:wda_root`**（与其它一级进度一致），未改动任何触发条件。重启后进度总数 9414 → **9416**。
 
 | 文件 | 改动 |
 |---|---|
@@ -344,7 +344,7 @@ tiles=0-46
 
 两者 `tiles=0-46` 指向同一个 `glass/<color>/` 目录里的 47 张图，唯一的区别就是前者缺 `matchBlocks`。删除后视觉零变化。
 
-**状态：✅ 已修复（2026-10-18）。** 从 zip 内删除这 16 个僵尸文件（966 → 950 条目），保留 35 条有效 CTM：
+**状态：✅ 已修复并验证（2026-10-18 23:11 重启）。** 从 zip 内删除这 16 个僵尸文件（966 → 950 条目），保留 35 条有效 CTM；重启后 `ContinuityClient` 相关由 48 条降至 **16 条**（32 条 ERROR 全部消失）：
 
 | 类别 | 数量 |
 |---|---:|
@@ -923,6 +923,8 @@ java.util.NoSuchElementException: No value present
 
 **影响面：** 只改 `parent`，`display` / `criteria` / `requirements` 原样保留；两个进度重新出现在 `wda_root` 树下，触发条件不变（`minecraft:location` 检测 `thornborn_towers` / `fishing_hut` 结构）。
 
+**状态：✅ 已修复并验证（2026-10-18 23:11 重启）。** 日志中 `Couldn't load advancements` 归零，进度总数 **9414 → 9416（+2）**——不只是报错消失，两个进度确实重新注册进了 `wda_root` 树。
+
 ### 7.2 P2-06：无缝玻璃包 16 份「僵尸 CTM」
 
 | 项 | 内容 |
@@ -936,23 +938,52 @@ java.util.NoSuchElementException: No value present
 
 **为什么删了不影响外观：** 被删的 16 份规则没有 `matchBlocks`/`matchTiles`，在 OptiFine 下本来就被静默丢弃；同目录的 `<color>_stained_glass.properties` 已经用**同一批** `0-46.png` 覆盖了同一个方块。
 
-### 7.3 预期总账
+**状态：✅ 已修复并验证（2026-10-18 23:11 重启）。** `ContinuityClient` 相关从 **48 条降到 16 条**（32 条 ERROR 全部消失，只剩 Yuushya 的 16 条已接受 WARN），日志中已搜不到任何 `glass/` 路径的 CTM 报错。
 
-| 项 | 修复前（22:50 实测） | 修复后（预期） |
-|---|---:|---:|
-| WARN | 488 | **488**（不变） |
-| ERROR | 112 | **79**（−32 CTM −1 进度） |
-| Continuity 相关 | 48（32 ERROR + 16 WARN） | **16 WARN**（只剩 Yuushya 已接受项） |
+### 7.3 实测结果（2026-10-18 23:11 重启）
 
-### 7.4 验证方式
+| 项 | 修复前（22:50） | 预期 | 实测 | 结果 |
+|---|---:|---:|---:|---|
+| WARN | 488 | 488 | **488** | ✅ 无变化 |
+| ERROR | 112 | ~79 | **79** | ✅ 精确命中（−33） |
+| Continuity 相关 | 48（32 ERROR + 16 WARN） | 16 | **16 WARN** | ✅ |
+| `Couldn't load advancements` | 1 | 0 | **0** | ✅ |
+| 进度总数 | 9414 | — | **9416** | ✅ +2 |
+| 玻璃包相关报错 | 32 | 0 | **0** | ✅ |
 
-完全重启后：
+**无回归验证：** 按 logger 对比两次会话的 WARN 分布，**没有任何一项发生变化**，说明删掉的 16 份 CTM 与新增的两个进度 JSON 未引入新问题。
+
+剩余 79 条 ERROR 的构成（与修复前完全一致，仅少了那两类）：
+
+| 来源 | 条数 |
+|---|---:|
+| `PathPackResources`（jar 内非法文件名，含 `gIass_hilight` 36 条） | 37 |
+| `GeckoLib` | 15 |
+| `Util`（中文/空格文件名） | 9 |
+| `RecipeManager`（frostfire 6 + justenoughbreeding 1） | 7 |
+| `LootDataType`（beyonddimensions） | 4 |
+| `EntityIconLoader` / `AnimationCodecs` | 2 / 2 |
+| `Curios` / `VanillaPackResources` / `ModFile`(pride) | 1 / 1 / 1 |
+
+### 7.4 验证命令（已执行，结果为实测值）
 
 ```powershell
-(Select-String -Path logs\latest.log -Pattern 'ContinuityClient').Count          # 预期 16
-(Select-String -Path logs\latest.log -Pattern "Couldn't load advancements").Count # 预期 0
-(Select-String -Path logs\latest.log -Pattern '/ERROR\]').Count                   # 预期 ~79
+(Select-String -Path logs\latest.log -Pattern 'ContinuityClient').Count           # 16
+(Select-String -Path logs\latest.log -Pattern "Couldn't load advancements").Count # 0
+(Select-String -Path logs\latest.log -Pattern '/ERROR\]').Count                   # 79
+(Select-String -Path logs\latest.log -Pattern 'Loaded \d+ advancements')          # 9416 / 484
 ```
+
+### 7.5 整体进展
+
+| 会话 | WARN | ERROR | 说明 |
+|---|---:|---:|---|
+| 20:03 初始 | 539 | 117 | 首次诊断基线 |
+| 22:21 方块小镇第二轮 | 648 | 114 | filter 误伤 +160，已回滚 |
+| 22:50 回滚后 | 488 | 112 | 方块小镇 44 条稳定，P1-01 验证通过 |
+| **23:11 本轮** | **488** | **79** | P2-01 / P2-06 修复完成 |
+
+累计：**ERROR −38（117→79）**，WARN −51（539→488）；方块小镇剩 44 条已接受噪音。
 
 ---
 
