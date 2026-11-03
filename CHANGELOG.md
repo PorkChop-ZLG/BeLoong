@@ -8,6 +8,18 @@
 
 ## [Unreleased]
 
+### 模组改动
+
+#### 新增模组
+- [DLC] [长NBT杀手] Long NBT Killer（可选模组，默认禁用，见任务“注意事项”）
+
+#### 更新模组
+- [原版移植] VanillaBackport 1.1.7.10 → 1.2.2
+- [前置] Platform 1.3.3 → 1.4.2（VanillaBackport 1.2 需要 Platform ≥ 1.4）
+
+### BUG 修复
+- 修复存档 level.dat 每次加载都会变大、最终因“Tried to read NBT tag with too high complexity, depth > 512”无法加载的问题：旧版 VanillaBackport 每次读取存档都会把硫磺洞穴的地表规则再套一层（上游 issue ItsBlackGear/VanillaBackport#390），1.2.2 起不再写入存档。已经很深的存档需要手动修复。
+
 ---
 
 ## [1.4] - 2026-10-01
