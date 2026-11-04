@@ -62,6 +62,9 @@
   "ftbquests": {
     "barrier": true
   },
+  "boss_respawner": {
+    "cage_contents": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
