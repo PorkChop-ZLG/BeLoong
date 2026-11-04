@@ -1,4 +1,5 @@
 {
+  "dragonsurvival.gui.help.passive_active_abilities": "§f■ §6Kỹ năng chủ động§r§f được dùng trong chiến đấu hoặc để áp dụng hiệu ứng có lợi.\n§f- §9Sức mạnh kỹ năng§r§8 tăng theo cấp độ kinh nghiệm hiện tại của bạn.\n§f- §9Kinh nghiệm hoặc năng lượng§r§8 được dùng để thi triển phép thuật.\n\n§f■ §aKỹ năng bị động§r§f được nâng cấp bằng cách tiêu hao cấp độ kinh nghiệm hoặc cung cấp lợi ích bổ sung.\n§f- §9Giữ Ctrl và nhấp chuột trái§r§8 để vô hiệu hóa kỹ năng.\n§f- §9Thông tin thêm§r§8 có trên trang mod CurseForge hoặc Wiki GitHub.",
   "attribute.dragonsurvival.penalty_resistance_time": "Thời Gian Kháng Lời Nguyền",
   "attribute.dragonsurvival.penalty_resistance_time.desc": "Tăng thời gian trước khi hiệu ứng lời nguyền được áp dụng",
 
