@@ -40,9 +40,9 @@
 	#enable modern dye textures
 	enable_modern_dye_textures = true
 	#enable End Flash sky effects
-	end_flash_sky_visuals = true
+	end_flash_sky_visuals = false
 	#enable End Flash terrain effects
-	end_flash_terrain_visuals = true
+	end_flash_terrain_visuals = false
 
 ["Mounts of Mayhem"]
 	#toggles the modern Zombie Horse texture

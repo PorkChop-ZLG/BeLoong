@@ -1,5 +1,5 @@
 [performance]
-	#Star Laser visual quality. HIGH = full effects, MEDIUM = no spirals/shockwaves/pulses, LOW = core beam only.
+	#Star Laser visual quality. HIGH = full effects, MEDIUM = reduced shells/ribbons/particles, LOW = core beam only.
 	#Allowed Values: HIGH, MEDIUM, LOW
 	laserQuality = "HIGH"
 	#Black Hole visual quality. HIGH = lensing + disk + sucked blocks, MEDIUM = no accretion disk, LOW = event horizon only.
@@ -30,3 +30,11 @@
 	#Stardust Armor planet-ring quality. Controls how many segments each ring circle is drawn with; the ring's size, duration and gameplay are unchanged.
 	#Allowed Values: HIGH, MEDIUM, LOW
 	stardustArmorQuality = "HIGH"
+	#Star Laser impact screen flash. Adds a brief white flash on impact (scales with distance). Disable if you dislike screen flashes.
+	laserImpactFlash = true
+	#White Hole visual quality. HIGH = core, outflow disk and full fusion blast; MEDIUM = fewer decorative effects; LOW = core, pairing cues and blast boundary.
+	#Allowed Values: HIGH, MEDIUM, LOW
+	whiteHoleQuality = "HIGH"
+	#Merge explosion screen flash. FULL = brief blast illumination, REDUCED = dimmed flash, OFF = no screen flash. World-space effects remain visible in every mode.
+	#Allowed Values: FULL, REDUCED, OFF
+	mergeFlash = "FULL"

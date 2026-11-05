@@ -14,6 +14,8 @@ enableMowzieMaceDamage = true
 #Remove Sculptor anti-cheat
 #移除通臂大师跑酷试炼中的飞行、水中和持续上升反作弊；保留距离、低于石柱和传送检测
 removeSculptorAntiCheat = true
+#修复霜噬导致假死：把死亡计时器还给自行接管 tickDeath() 的生物
+fixFrostbiteDeath = true
 
 [template_update]
 	#Enable old-save template dimension migration
