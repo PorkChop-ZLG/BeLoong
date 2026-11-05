@@ -17,3 +17,8 @@ disableMalkuthHellscapeSkybox = false
 	# Default: 1.5
 	# Range: 1.0 ~ 2.0
 	nameScale = 1.5
+
+[execute_line]
+	#在 Health Bars 的左上角血条上绘制斩杀线区段（需安装 Health Bars）
+	#Draw the execute threshold zone on the Health Bars GUI bar (requires Health Bars)
+	enabled = true

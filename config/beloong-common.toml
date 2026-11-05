@@ -24,3 +24,31 @@ removeSculptorAntiCheat = true
 	# Default: 1
 	# Range: > 1
 	templateVersion = 2
+
+[effect_entity_cap]
+	#Cap concurrent effect entities per dimension (evaluated on the server only)
+	#按维度限制特效实体的在存量上限（仅服务端生效）
+	enabled = true
+	#Entity type ids under the cap; append other mods' bare effect entities as needed
+	#纳入上限的实体类型 ID 列表；其它模组的同类裸特效实体可直接追加，无需改代码
+	types = ["legendary_monsters:camera_shake", "legendary_monsters:dynamic_camera_zoom"]
+	#Max concurrent entities per dimension per listed type; used by the join gate (spawn pre-filter + load from disk) and as the per-pass budget of the frozen-residue sweep
+	#每个维度、每种列出类型的在存量上限；入世界闸门（生成预筛 + 读盘）统一使用，同时作为"冻结残骸清扫"的每趟预算（正常 Boss 战同时在场的抖动只有几十个量级）
+	# Default: 200
+	# Range: 1 ~ 1024
+	maxPerDimension = 200
+	#How often the loaded-entity count is resampled, in ticks (only when a spawn or a disk load happens)
+	#重新统计已加载实体数的间隔（ticks）；只在有召唤或读盘行为时才会统计
+	# Default: 20
+	# Range: 1 ~ 1200
+	rescanTicks = 20
+	#Throttle for the cap log lines, in ticks (1200 = one line per minute)
+	#上限相关日志的节流间隔（ticks），默认 1200 = 每分钟一条
+	# Default: 1200
+	# Range: 20 ~ 72000
+	logIntervalTicks = 1200
+
+[solar_guard_break]
+	#Let Mowzie's sun damage (solar flare / solar beam / sun strike / supernova) pierce the Underworld Knight's shield, consuming one immune stack per hit; also gates the damage-type conversion itself
+	#允许 Mowzie 的太阳伤害（太阳耀斑 / 太阳射线 / 太阳打击 / 超新星燃烧）击穿《首领崛起》冥界骑士的护盾，每次命中扣 1 层免疫层数；同时控制伤害类型转换本身（关闭后连类型都不换）
+	enabled = true

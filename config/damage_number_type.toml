@@ -3460,6 +3460,20 @@
 				append = ""
 				format = ""
 
+		[type.beloong.execute]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.beloong.execute.icon]
+				tex = ""
+				item = ""
+
+			[type.beloong.execute.format]
+				prepend = ""
+				append = ""
+				format = ""
+
 		[type.legendary_monsters.laser]
 			#Color of the damage number. [NO-VALUE] to use default color.
 			color = "[NO-VALUE]"
@@ -3963,6 +3977,62 @@
 			prepend = ""
 			append = ""
 			format = ""
+
+		[type.mowziesmobs.sun_strike]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.mowziesmobs.sun_strike.icon]
+				tex = ""
+				item = ""
+
+			[type.mowziesmobs.sun_strike.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.mowziesmobs.supernova]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.mowziesmobs.supernova.icon]
+				tex = ""
+				item = ""
+
+			[type.mowziesmobs.supernova.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.mowziesmobs.solar_beam]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.mowziesmobs.solar_beam.icon]
+				tex = ""
+				item = ""
+
+			[type.mowziesmobs.solar_beam.format]
+				prepend = ""
+				append = ""
+				format = ""
+
+		[type.mowziesmobs.solar_flare]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.mowziesmobs.solar_flare.icon]
+				tex = ""
+				item = ""
+
+			[type.mowziesmobs.solar_flare.format]
+				prepend = ""
+				append = ""
+				format = ""
 
 	[tag."iss_magicfromtheeast:bypass_reversal_healing"]
 		#Color of the damage number. [NO-VALUE] to use default color.
@@ -5360,6 +5430,20 @@
 			item = ""
 
 		[tag."eternal_starlight:is_cold".format]
+			prepend = ""
+			append = ""
+			format = ""
+
+	[tag."beloong:underworld_knight_guard_break"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."beloong:underworld_knight_guard_break".icon]
+			tex = ""
+			item = ""
+
+		[tag."beloong:underworld_knight_guard_break".format]
 			prepend = ""
 			append = ""
 			format = ""
