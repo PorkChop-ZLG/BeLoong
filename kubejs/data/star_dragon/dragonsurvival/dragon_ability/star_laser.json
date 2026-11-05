@@ -7,12 +7,14 @@
       "fallback": {
         "type": "minecraft:linear",
         "base": 10.0,
-        "per_level_above_first": 14.0
+        "per_level_above_first": 2.8
       },
       "values": [
         10,
         12,
         16,
+        19,
+        21,
         24
       ]
     },
@@ -21,7 +23,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 4,
+    "maximum_level": 6,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -33,6 +35,8 @@
         10.0,
         50.0,
         100.0,
+        150.0,
+        200.0,
         250.0
       ]
     }
@@ -47,28 +51,41 @@
               "effect_type": "star_dragon:star_laser",
               "damage_type": "star_dragon:star_laser",
               "harm": {
+                "type": "minecraft:linear",
+                "base": 30,
+                "per_level_above_first": 10
+              },
+              "radius": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 9.0,
-                  "per_level_above_first": 30
+                  "base": 10.0,
+                  "per_level_above_first": 15.0
                 },
                 "values": [
-                  9,
-                  12,
+                  10,
                   15,
-                  40
+                  20,
+                  22,
+                  24,
+                  25
                 ]
               },
-              "radius": {
-                "type": "minecraft:linear",
-                "base": 10,
-                "per_level_above_first": 5
-              },
               "hexagram_size": {
-                "type": "minecraft:linear",
-                "base": 5.0,
-                "per_level_above_first": 2.0
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 5.0,
+                  "per_level_above_first": 6.0
+                },
+                "values": [
+                  5,
+                  7,
+                  9,
+                  10,
+                  10,
+                  11
+                ]
               },
               "duration": {
                 "type": "minecraft:lookup",
@@ -81,6 +98,8 @@
                   40,
                   60,
                   100,
+                  133,
+                  167,
                   200
                 ]
               },
@@ -101,28 +120,41 @@
             {
               "effect_type": "star_dragon:star_laser",
               "harm": {
+                "type": "minecraft:linear",
+                "base": 30,
+                "per_level_above_first": 10
+              },
+              "radius": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 9.0,
-                  "per_level_above_first": 30
+                  "base": 10.0,
+                  "per_level_above_first": 15.0
                 },
                 "values": [
-                  9,
-                  12,
+                  10,
                   15,
-                  40
+                  20,
+                  22,
+                  24,
+                  25
                 ]
               },
-              "radius": {
-                "type": "minecraft:linear",
-                "base": 10,
-                "per_level_above_first": 5
-              },
               "hexagram_size": {
-                "type": "minecraft:linear",
-                "base": 5.0,
-                "per_level_above_first": 2.0
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 5.0,
+                  "per_level_above_first": 6.0
+                },
+                "values": [
+                  5,
+                  7,
+                  9,
+                  10,
+                  10,
+                  11
+                ]
               },
               "duration": {
                 "type": "minecraft:lookup",
@@ -135,6 +167,8 @@
                   40,
                   60,
                   100,
+                  133,
+                  167,
                   200
                 ]
               },

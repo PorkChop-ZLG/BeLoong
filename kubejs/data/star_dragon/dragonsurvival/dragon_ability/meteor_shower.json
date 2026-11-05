@@ -7,14 +7,15 @@
       "fallback": {
         "type": "minecraft:linear",
         "base": 20.0,
-        "per_level_above_first": 35.0
+        "per_level_above_first": 11.0
       },
       "values": [
         20,
         25,
         30,
         40,
-        55
+        55,
+        75
       ]
     },
     "cast_time": 30,
@@ -22,7 +23,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 5,
+    "maximum_level": 6,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -35,6 +36,7 @@
         50.0,
         100.0,
         150.0,
+        200.0,
         250.0
       ]
     }
@@ -48,19 +50,9 @@
             {
               "effect_type": "star_dragon:meteor_shower",
               "harm": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 25.0,
-                  "per_level_above_first": 90
-                },
-                "values": [
-                  25,
-                  30,
-                  35,
-                  40,
-                  120
-                ]
+                "type": "minecraft:linear",
+                "base": 250,
+                "per_level_above_first": 50
               },
               "radius": {
                 "type": "minecraft:lookup",
@@ -74,6 +66,7 @@
                   52,
                   54,
                   56,
+                  58,
                   60
                 ]
               },
@@ -89,6 +82,7 @@
                   700,
                   1100,
                   1500,
+                  1750,
                   2000
                 ]
               },
@@ -104,6 +98,7 @@
                   260,
                   280,
                   300,
+                  320,
                   340
                 ]
               },
@@ -119,6 +114,7 @@
                   12,
                   14,
                   17,
+                  18,
                   20
                 ]
               },

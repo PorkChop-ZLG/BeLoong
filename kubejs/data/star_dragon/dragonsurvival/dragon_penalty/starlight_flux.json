@@ -50,7 +50,7 @@
     "reduction_rate": 0.0,
     "regeneration_rate": 0.0,
     "supply_type": "star_dragon:star_points",
-    "trigger_rate": 20
+    "trigger_rate": 40
   },
   "condition": {
     "condition": "minecraft:inverted",
