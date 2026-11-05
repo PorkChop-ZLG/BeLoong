@@ -1,4 +1,5 @@
 {
+  "dragonsurvival.gui.help.passive_active_abilities": "§f■ §6Active skills§r§f are used in combat or to apply buffs.\n§f- §9Skill power§r§8 scales off your current experience level.\n§f- §9Experience or mana§r§8 points are used to cast spells.\n\n§f■ §aPassive skills§r§f are upgraded by spending experience levels or just give bonuses.\n§f- §9Disable§r§8 the skill by ctrl+left click.\n§f- §9More information§r§8 can be found on Curseforge mod page or Github Wiki.",
   "attribute.dragonsurvival.penalty_resistance_time": "Curse Resistance Time",
   "attribute.dragonsurvival.penalty_resistance_time.desc": "Increases the time before the curse effect is applied",
   

@@ -11,9 +11,20 @@
                 "direction": "looking_at"
               },
               "range": {
-                "type": "minecraft:linear",
-                "base": 40,
-                "per_level_above_first": 20
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 40.0,
+                  "per_level_above_first": 40.0
+                },
+                "values": [
+                  40,
+                  60,
+                  65,
+                  70,
+                  75,
+                  80
+                ]
               },
               "damage": {
                 "type": "minecraft:lookup",
@@ -24,16 +35,30 @@
                 },
                 "values": [
                   20,
+                  50,
                   100,
+                  200,
+                  500,
                   1000
                 ]
               },
               "damage_type": "star_dragon:starbound_projection",
               "use_claw": false,
               "glow_duration": {
-                "type": "minecraft:linear",
-                "base": 100,
-                "per_level_above_first": 20
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 100.0,
+                  "per_level_above_first": 40.0
+                },
+                "values": [
+                  100,
+                  120,
+                  125,
+                  130,
+                  135,
+                  140
+                ]
               },
               "glow_amplifier": 0,
               "hit_radius": 1.5,
@@ -72,6 +97,9 @@
       "values": [
         12,
         16,
+        18,
+        21,
+        23,
         26
       ]
     },
@@ -102,7 +130,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 3,
+    "maximum_level": 6,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -113,6 +141,9 @@
       "values": [
         10.0,
         50.0,
+        100.0,
+        150.0,
+        200.0,
         250.0
       ]
     }

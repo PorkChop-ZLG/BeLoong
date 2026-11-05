@@ -1,0 +1,193 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "targeting_mode": "all",
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:entity_check_predicate",
+                "check_for": "living_entity"
+              }
+            }
+          },
+          "entity_effect": [
+            {
+              "effect_type": "star_dragon:white_hole_launch",
+              "speed": 1.5,
+              "repel_radius": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 10.0,
+                  "per_level_above_first": 6.0
+                },
+                "values": [
+                  10.0,
+                  11.2,
+                  12.4,
+                  13.6,
+                  14.8,
+                  16.0
+                ]
+              },
+              "damage": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 10.0,
+                  "per_level_above_first": 490.0
+                },
+                "values": [
+                  10,
+                  25,
+                  50,
+                  100,
+                  250,
+                  500
+                ]
+              },
+              "damage_interval": 20.0,
+              "merge_radius": 20.0,
+              "merge_power": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 10.0,
+                  "per_level_above_first": 6.0
+                },
+                "values": [
+                  10.0,
+                  11.2,
+                  12.4,
+                  13.6,
+                  14.8,
+                  16.0
+                ]
+              },
+              "merge_damage": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 100.0,
+                  "per_level_above_first": 4900.0
+                },
+                "values": [
+                  100,
+                  250,
+                  500,
+                  1000,
+                  2500,
+                  5000
+                ]
+              },
+              "merge_damage_radius": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 14.0,
+                  "per_level_above_first": 6.0
+                },
+                "values": [
+                  14.0,
+                  15.2,
+                  16.4,
+                  17.6,
+                  18.8,
+                  20.0
+                ]
+              },
+              "lifespan": 160.0,
+              "max_distance": 32.0,
+              "damage_type": "star_dragon:white_hole",
+              "lift_acceleration": 0.18,
+              "lift_cap": 0.35,
+              "containment": true,
+              "release_damage": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 20.0,
+                  "per_level_above_first": 980.0
+                },
+                "values": [
+                  20,
+                  50,
+                  100,
+                  200,
+                  500,
+                  1000
+                ]
+              },
+              "release_push": 0.8,
+              "player_containment": false
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "cast_time": 30,
+    "cooldown": 200,
+    "initial_mana_cost": 6,
+    "animations": {
+      "start_and_charging": {
+        "animation_key": "spell_charge",
+        "layer": "BREATH",
+        "transition_length": 5,
+        "locks_neck": false,
+        "locks_tail": false
+      }
+    }
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "star_dragon:abilities/star/white_hole/white_hole_0"
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/white_hole/white_hole_1",
+        "from_level": 1
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/white_hole/white_hole_2",
+        "from_level": 2
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/white_hole/white_hole_3",
+        "from_level": 3
+      },
+      {
+        "texture_resource": "star_dragon:abilities/star/white_hole/white_hole_4",
+        "from_level": 4
+      }
+    ]
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:dragon_growth",
+    "maximum_level": 6,
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 10.0,
+        "per_level_above_first": 240.0
+      },
+      "values": [
+        10,
+        50,
+        100,
+        150,
+        200,
+        250
+      ]
+    }
+  }
+}

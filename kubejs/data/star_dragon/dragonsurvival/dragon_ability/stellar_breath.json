@@ -9,13 +9,15 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 9.0,
-                  "per_level_above_first": 391.0
+                  "base": 8.0,
+                  "per_level_above_first": 392.0
                 },
                 "values": [
-                  9,
+                  8,
                   20,
+                  40,
                   80,
+                  200,
                   400
                 ]
               },
@@ -483,7 +485,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 4,
+    "maximum_level": 6,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -495,6 +497,8 @@
         10.0,
         50.0,
         100.0,
+        150.0,
+        200.0,
         250.0
       ]
     }
