@@ -1540,6 +1540,10 @@
 		}
 		{
 			dependencies: ["1C637B2176DD1B81"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "dragonsurvival:ice_dragon_altar"
+			}
 			id: "2F65D8FD77A5EE2B"
 			rewards: [
 				{
@@ -1565,14 +1569,29 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				icon: {
-					id: "dragonsurvival:ice_dragon_altar"
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_heavenly_rider"
+					criterion: ""
+					id: "39815FAB4213FF18"
+					optional_task: true
+					type: "advancement"
 				}
-				id: "7A4E1467D9DDAFCF"
-				structure: "bosses_of_mass_destruction:lich_tower"
-				type: "structure"
-			}]
+				{
+					advancement: "dungeons_arise:find_heavenly_conqueror"
+					criterion: ""
+					id: "687EAD305D0718D1"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "dungeons_arise:find_heavenly_challenger"
+					criterion: ""
+					id: "3AEA37CE19C15199"
+					optional_task: true
+					type: "advancement"
+				}
+			]
 			x: 0.0d
 			y: -46.0d
 		}
