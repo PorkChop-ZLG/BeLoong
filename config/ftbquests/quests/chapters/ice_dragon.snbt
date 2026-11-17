@@ -1011,10 +1011,10 @@
 					value: 1L
 				}
 				{
-					entity: "block_factorys_bosses:yeti"
-					id: "11E9926E77B4A0D1"
-					type: "kill"
-					value: 1L
+					advancement: "block_factorys_bosses:kill_yeti"
+					criterion: ""
+					id: "54AC39896678A30E"
+					type: "advancement"
 				}
 			]
 			x: 1.5d

@@ -394,7 +394,6 @@
 				"631EAD310B77371D"
 				"115598900952BB0D"
 				"341092EC0D9FF3B8"
-				"20D561FC8502C837"
 			]
 			dependency_requirement: "one_completed"
 			icon: {
@@ -777,35 +776,6 @@
 			}]
 			x: 1.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["0A6E69E220DAFB6F"]
-			id: "20D561FC8502C837"
-			optional: true
-			rewards: [
-				{
-					count: 4
-					id: "1392673E0017C4E6"
-					item: {
-						count: 1
-						id: "dragonsurvival:weak_dragon_heart"
-					}
-					type: "item"
-				}
-				{
-					id: "65FE2763C6297C6B"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				entity: "terra_entity:snatcher"
-				id: "5D2F9A0BB289CBF9"
-				type: "kill"
-				value: 10L
-			}]
-			x: 1.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["0068C01865EF22C7"]
