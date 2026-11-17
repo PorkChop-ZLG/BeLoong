@@ -274,7 +274,7 @@
 		#Enables Projectile Damage for Cloud Golem
 		"Allow Cloud Golem Projectile Damage" = false
 		#Enables Projectile Immunity cooldown for Cloud Golem
-		"Allow Projectile Immunity cooldown Damage" = true
+		"Allow Projectile Immunity cooldown Damage" = false
 		#Cloud Golem loses Consciousness after Laser Attack
 		"Allow Cloud Golem Loses Consciousness" = true
 		#Cloud Golem can Charge once more after missing when he is low on HP
@@ -356,7 +356,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Ambusher Health Multiplier" = 1.0
 		#Enables/Disables Projectile Damage For Ambusher
-		"Allow Ambusher Projectile Immunity" = true
+		"Allow Ambusher Projectile Immunity" = false
 
 	["Mob Settings"."Stratling Settings"]
 		#Multiplies damage dealt by Stratling
@@ -390,7 +390,7 @@
 		#Enables/Disables Stun Ability for Ancient Guardian. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Ancient Guardian Stun Ability" = true
 		#Enables/Disables Projectile Damage for Ancient Guardian
-		"Allow Ancient Guardian Projectile Immunity" = true
+		"Allow Ancient Guardian Projectile Immunity" = false
 
 	["Mob Settings"."Haunted Knight Settings"]
 		#Multiplies damage dealt by Haunted Knight
@@ -402,7 +402,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Haunted Knight Health Multiplier" = 1.0
 		#Enables/Disables Projectile Immunity For Haunted Knight
-		"Allow Haunted Knight Projectile Immunity" = true
+		"Allow Haunted Knight Projectile Immunity" = false
 
 	["Mob Settings"."Tamable Knight Settings"]
 		#Multiplies damage dealt by Tamable Knight
@@ -470,7 +470,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Haunted Guard Health Multiplier" = 1.0
 		#Enables/Disables Projectile Immunity For Haunted Guard
-		"Allow Haunted Guard Projectile Immunity" = true
+		"Allow Haunted Guard Projectile Immunity" = false
 
 	["Mob Settings"."Posessed Paladin Settings"]
 		#Multiplies damage dealt by Posessed Paladin
@@ -486,7 +486,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Damage Cap" = 1000.0
 		#Enables/Disables Projectile Immunity for Posessed Paladin
-		"Allow Posessed Paladin Projectile Immunity" = true
+		"Allow Posessed Paladin Projectile Immunity" = false
 		#Allow Possesed Paladin Invulnerability Time
 		"Allow Possesed Paladin Invulnerability Time" = true
 
@@ -522,7 +522,7 @@
 		#Enables/Disables Stun Ability for Overgrown Colosuss. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Overgrown Colosuss Stun Ability" = true
 		#Enables/Disables Projectile Immunity for Overgrown Colosuss
-		"Allow Overgrown Colosuss Projectile Immunity" = true
+		"Allow Overgrown Colosuss Projectile Immunity" = false
 
 	["Mob Settings"."Mossy Golem Settings"]
 		#Multiplies damage dealt by Mossy Golem
@@ -550,7 +550,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Frostbitten Golem Health Multiplier" = 11.0
 		#Enables/Disables Projectile Immunity for Frostbitten Golem
-		"Allow Frostbitten Golem Projectile Immunity" = true
+		"Allow Frostbitten Golem Projectile Immunity" = false
 
 	["Mob Settings"."Dune Sentinel Settings"]
 		#Multiplies damage dealt by Dune Sentinel
@@ -562,7 +562,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Dune Sentinel Health Multiplier" = 12.0
 		#Enables/Disables Projectile Immunity for Dune Sentinel
-		"Allow Dune Sentinel Projectile Immunity" = true
+		"Allow Dune Sentinel Projectile Immunity" = false
 		#Multiplies damage dealt by Bomber
 		# Default: 1.0
 		# Range: 0.0 ~ 1000.0
@@ -592,7 +592,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Lava Eater Health Multiplier" = 19.0
 		#Disables/Enables Projectile Immunity for Lava Eater
-		"Allow Lava Eater Projectile Immunity" = true
+		"Allow Lava Eater Projectile Immunity" = false
 
 	["Mob Settings"."Warped Fungussus Settings"]
 		#Multiplies damage dealt by Warped Fungussus
@@ -626,7 +626,7 @@
 		# Range: 0.0 ~ 1000.0
 		"Shulker Mimic Health Multiplier" = 22.5
 		#Enables/Disables Projectile immunity for Shulker Mimic
-		"Allow Shulker Mimic Projectile Immunity" = true
+		"Allow Shulker Mimic Projectile Immunity" = false
 
 	["Mob Settings"."Skeloraptor Settings"]
 		#Multiplies damage dealt by Skeloraptor
@@ -694,7 +694,7 @@
 		#ON/OFF Annihilation effect that The Obliterator Inflicts after hitting you, it's a stacking debuff that reduces your attack speed.
 		"The Obliterator Annihilation Debuff Effect" = false
 		#ON/OFF The Obliterator Projectile immunity in first Phase
-		"ON/OFF The Obliterator Projectile immunity in first Phase" = true
+		"ON/OFF The Obliterator Projectile immunity in first Phase" = false
 		#% Damage for Obliterator's clones(punching)
 		# Default: 7
 		# Range: 0 ~ 1000
