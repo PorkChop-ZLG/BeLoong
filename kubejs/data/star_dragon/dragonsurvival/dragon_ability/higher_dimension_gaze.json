@@ -1,0 +1,121 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "can_be_manually_disabled": true,
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "targeting_mode": "allies_and_self",
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "star_dragon:higher_dimension_gaze",
+                    "should_remove_automatically": true,
+                    "custom_icon": "star_dragon:textures/mob_effect/higher_dimension_gaze.png"
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "dragonsurvival:dragon_ability_damage",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 2,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "attribute": "dragonsurvival:mana",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 2,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "attribute": "dragonsurvival:mana_regeneration",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_value"
+                    },
+                    {
+                      "attribute": "dragonsurvival:flight_speed",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "attribute": "minecraft:generic.max_health",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 200,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_value"
+                    },
+                    {
+                      "attribute": "minecraft:generic.armor",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 16,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_value"
+                    },
+                    {
+                      "attribute": "minecraft:generic.armor_toughness",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 8,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_value"
+                    },
+                    {
+                      "attribute": "minecraft:generic.movement_speed",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "attribute": "minecraft:generic.attack_damage",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 1,
+                        "per_level_above_first": 0
+                      },
+                      "operation": "add_multiplied_total"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "star_dragon:abilities/star/higher_dimension_gaze"
+      }
+    ]
+  }
+}
