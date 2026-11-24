@@ -12,7 +12,7 @@
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:true_gravity_field",
-        "level": 5
+        "level": 6
       }
     },
     "master_sun_protection": {
@@ -33,7 +33,7 @@
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:star_laser",
-        "level": 4
+        "level": 6
       }
     },
     "master_glowing": {
@@ -54,42 +54,42 @@
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:stellar_breath",
-        "level": 4
+        "level": 6
       }
     },
     "master_stellar_cells": {
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:starlight",
-        "level": 3
+        "level": 6
       }
     },
     "master_black_hole": {
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:black_hole",
-        "level": 4
+        "level": 6
       }
     },
     "master_gravitational_field": {
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:gravitational_field",
-        "level": 3
+        "level": 4
       }
     },
     "master_starbound_projection": {
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:starbound_projection",
-        "level": 3
+        "level": 6
       }
     },
     "master_supernova_explosion": {
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:supernova_explosion",
-        "level": 3
+        "level": 6
       }
     },
     "master_control_time": {
@@ -145,7 +145,63 @@
       "trigger": "dragonsurvival:upgrade_ability",
       "conditions": {
         "ability": "star_dragon:meteor_shower",
-        "level": 5
+        "level": 6
+      }
+    },
+    "master_astral_view": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:astral_view",
+        "level": 1
+      }
+    },
+    "master_star_claws": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:star_claws",
+        "level": 1
+      }
+    },
+    "master_white_hole": {
+      "trigger": "dragonsurvival:upgrade_ability",
+      "conditions": {
+        "ability": "star_dragon:white_hole",
+        "level": 6
+      }
+    },
+    "reach_level_300": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "level": {
+              "min": 300
+            }
+          }
+        }
+      }
+    },
+    "reach_ancient_growth": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "star_dragon:star_dragon",
+                "stage_specific": {
+                  "growth": {
+                    "min": 250
+                  }
+                }
+              }
+            }
+          }
+        ]
       }
     }
   },
@@ -226,6 +282,21 @@
     ],
     [
       "master_meteor_shower"
+    ],
+    [
+      "reach_level_300"
+    ],
+    [
+      "master_astral_view"
+    ],
+    [
+      "master_star_claws"
+    ],
+    [
+      "master_white_hole"
+    ],
+    [
+      "reach_ancient_growth"
     ]
   ],
   "rewards": {
