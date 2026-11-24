@@ -6,24 +6,41 @@
 
 > 说明：版本日期依据 git 提交记录整理；原日志中的“见附录”指 `docs/` 下对应的设计文档或数值表，本文件不再重复展开。
 
+## [TODO]
+- 刃枪改猎人掉落
+- 卷轴商店价格调整
+- 重新调整传奇怪物、灾变Boss的数值并且更新图鉴
+- 重新平衡武器的数值，新增武器图鉴
+- 重新平衡护甲的数值，新增护甲图鉴
+- 星辰龙数值检查和重新调整
+- 【重点】新增星辰龙化形：末影龙娘！
+- 【重点】新手教程流程全覆盖CG和剧情
+- 【重点】全新的GalGame和化形玩法
+- 地黄龙技能和模型优化，上传cf
+- 部分模型动画优化
+
+> 这是计划更新的内容，当备忘录用，不代表最终会上线
+
 ## [Unreleased]
 
 ### 内容改动
-- 更新 NeoForge 加载器至 21.1.267 版本
-- 新增越南语支持，任务、界面与星辰龙相关内容均已翻译
+- 更新 NeoForge 加载器到 21.1.267 版本
 - 新增武器图鉴，并统一重做武器数值与手持属性
 - 新增卷轴商店，出售止心术、深渊庇护以外的全部卷轴
 - 商店更新：收购魔源与始祖龙心，新增石砖、平滑石砖出售
-- 尼德兰新增袭击者飞艇；第一章禁飞改为击败对应 Boss 后解除
+- 尼德兰难度大幅度降低，新增袭击者飞艇，战利品更加丰富
+- 禁飞改为击败对应 Boss 后解除
 - 新增沉重核心保底：首次开启不祥宝库必定获得
-- 战利品表整体优化（三版），猎人首领开始掉落猎人钥匙
-- 监守者章节新增按钮，避免流程卡关
-- 通用 Boss 重生笼正式版上线
-- 三艘天际战舰自然生成暗夜巫妖，并直接兼容传送锚点
+- 通用Boss重生笼正式版发布：现在会在Boss出生点生成重生笼，并且jade显示复活Boss和所需物品
+- 三艘天际战舰自然生成暗夜巫妖，暗夜巫妖死后掉落物会悬浮，死后可用Boss重生笼复活
+- 祸乱鬼魅的四个Boss脱战后不再回血
 - 传奇怪物不再免疫弹射物
-- 灾变 Boss 数值重新平衡，取消伤害上限与 DPS 限制（限伤 9999、射程 64 格）
+- 灾变Boss数值重新平衡
+- 移植Minecraft原版26.3的所有新内容，包括坐垫、硫方怪、长矛、鹦鹉螺、展示架、铜傀儡等
 - 优化主菜单与意见反馈入口
-- 替换联机模组以提升稳定性；移除 ATi 结构以优化性能
+- 替换联机模组以提升联机稳定性
+- 移除ATi结构以优化性能
+- 新增越南语支持
 
 ### 龙族改动
 
@@ -46,40 +63,63 @@
 ### 模组改动
 
 #### 新增模组
-- [动态光源] lambdynamiclights
-- [局域网服务器属性] lanserverproperties
 - [结构罗盘] ExplorersCompass
 - [自然罗盘] NaturesCompass
+- [自定义局域网联机] lanserverproperties
 
 #### 移除模组
 - [结构罗盘强化版] Explorer's Compass Enhance
-- [ATi 结构] ATi Structures Vanilla
-- [联机模组] mcwifipnp
-- [ProbeJS] ProbeJS
+- 【结构】ATi Structures Vanilla
+- [更高级联机设置] mcwifipnp
 - [物理音效] sound-physics-remastered
+- [ProbeJS] ProbeJS
 
 #### 更新模组
-- [灾变] Cataclysm
-- [传奇怪物] legendary_monsters
-- [生物群系] Oh-The-Biomes-Weve-Gone
-- [星辰龙] star_dragon
-- [原版移植] VanillaBackport
 - [冰火传说社区版] IceAndFireCE
+- [传奇怪物] legendary_monsters
+- [龙之生存：星辰龙] star_dragon
+- [龙之生存：机械龙] annihilator_type_a
+- [方块小镇] yuushya
+- [我们走过的生物群系] Oh-The-Biomes-Weve-Gone
+- [原版移植] VanillaBackport
 - [通用Boss重生笼] boss_respawner
-- [通用意见反馈] generalfeedback、[聊天框] chatbox、[现代化修复] modernfix、[花哨菜单] fancymenu、[越肩视角] ShoulderSurfing 等
+- [通用意见反馈] generalfeedback
+- [商店] ViScriptShop
+- [花哨菜单] fancymenu
+- [对话框] chatbox
+- [越肩视角重置版] ShoulderSurfing
+- [拾光定影] exposure
+- [输入法冲突修复] IMBlocker
+- [万用皮肤补丁] CustomSkinLoader
+- [现代化修复] modernfix
+- [救救我的答辩网络] smsn
+- [血条显示] HealthBars
+- [JEI药水效果] jeed
+- [JEI生物繁殖] justenoughbreeding
+- [暮色风味乐事] twilightdelight
+- [无题鸭] untitledduckmod
+- [铁魔法：言出法随] voicecastaddon
+- beloong
+- 【前置】Platform
+- 【前置】PuzzlesLib
+- 【前置】collective
+- 【前置】Corgilib
+- 【前置】Oh-The-Trees-Youll-Grow
+- 【优化】rhenium
 
 ### BUG 修复
-- 修复结构罗盘搜索不到结构、搜索暮色卡死的问题（换回旧版结构罗盘与自然罗盘）
-- 修复终极傀儡破坏试炼刷怪笼与战利品箱的问题
-- 修复鸿蒙方舟与狂星之怒伤害颠倒的问题
-- 修复星辰龙 species 覆盖丢失配置、人形态 mana 异常
-- 修复祸乱鬼魅 Boss 脱战回血、霜噬导致的假死
-- 修复苔原龙雪怪任务无法完成、森林龙残留抓人草任务
-- 修复无缝玻璃与地牢浮现进度的报错
-- 修复方块小镇偶现无法挖掘方块及部分日志报错
-- 修复 Mowzie 生物（山魈、山魁）生成导致的严重性能问题
-- 修复意见反馈可提交空内容、chatbox 权限漏洞与 Discord 链接失效
-- 修复 VanillaBackport 导致的 level.dat 嵌套问题
+- 修复了结构罗盘搜索不到结构、搜索暮色卡死的问题（换回旧版结构罗盘与自然罗盘）
+- 修复了终极傀儡破坏试炼刷怪笼与战利品箱的问题
+- 修复了鸿蒙方舟与狂星之怒伤害颠倒的问题
+- 修复了星辰龙覆盖丢失配置
+- 修复了化形后法力值不同步、部分化形动画有误的问题
+- 修复了祸乱鬼魅Boss被铁魔法霜噬法术击败后导致假死的问题
+- 修复了苔原龙雪怪任务无法完成、森林龙残留抓人草任务
+- 修复了无缝玻璃与地牢浮现进度的报错
+- 修复了方块小镇导致的偶现的无法挖掘方块的问题
+- 修复了Mowzie的生物中山魈、山魁生成导致的严重性能问题
+- 修复了意见反馈可提交空内容、对话框的权限漏洞、原版移植导致的level.dat嵌套等模组自身问题
+- 修复了Discord链接失效的问题
 
 ---
 
