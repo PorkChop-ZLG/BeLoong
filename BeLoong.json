@@ -107,9 +107,9 @@
         ]
       },
       "--fml.neoForgeVersion",
-      "21.1.248",
+      "21.1.267",
       "--fml.fmlVersion",
-      "4.0.43",
+      "4.0.45",
       "--fml.mcVersion",
       "1.21.1",
       "--fml.neoFormVersion",
@@ -151,7 +151,11 @@
             }
           }
         ],
-        "value": "-Xss1M"
+        "value": [
+          "-Xss1M",
+          "-XX:+UnlockDiagnosticVMOptions",
+          "-XX:-UseBASE64Intrinsics"
+        ]
       },
       "-Djava.library.path=${natives_directory}",
       "-Djna.tmpdir=${natives_directory}",
@@ -180,10 +184,10 @@
   },
   "assetIndex": {
     "id": "17",
-    "sha1": "1f22f8f4b4575831ce8d1d74b5656eb1bc04732c",
-    "size": 449557,
-    "totalSize": 824474118,
-    "url": "https://piston-meta.mojang.com/v1/packages/1f22f8f4b4575831ce8d1d74b5656eb1bc04732c/17.json"
+    "sha1": "cad0b8152ca4f766217470e74695403d76592f92",
+    "size": 449757,
+    "totalSize": 829031276,
+    "url": "https://piston-meta.mojang.com/v1/packages/cad0b8152ca4f766217470e74695403d76592f92/17.json"
   },
   "assets": "17",
   "complianceLevel": 1,
@@ -1691,24 +1695,24 @@
       "name": "org.slf4j:slf4j-api:2.0.9"
     },
     {
-      "name": "net.neoforged.fancymodloader:earlydisplay:4.0.43",
+      "name": "net.neoforged.fancymodloader:earlydisplay:4.0.45",
       "downloads": {
         "artifact": {
-          "sha1": "3a941fcf258b5a7dde0445377a7206a55d11630d",
+          "sha1": "dc7a8b1370054dd0e2d70c1db4ddf4092793c115",
           "size": 261719,
-          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar",
-          "path": "net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar"
+          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.45/earlydisplay-4.0.45.jar",
+          "path": "net/neoforged/fancymodloader/earlydisplay/4.0.45/earlydisplay-4.0.45.jar"
         }
       }
     },
     {
-      "name": "net.neoforged.fancymodloader:loader:4.0.43",
+      "name": "net.neoforged.fancymodloader:loader:4.0.45",
       "downloads": {
         "artifact": {
-          "sha1": "fb10b7bf2f568a9676ad8b426b19c23badbbd98a",
-          "size": 505633,
-          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar",
-          "path": "net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar"
+          "sha1": "4a0968c2ec6234d58e0a9ed97acafc08cc8f33b5",
+          "size": 505696,
+          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.45/loader-4.0.45.jar",
+          "path": "net/neoforged/fancymodloader/loader/4.0.45/loader-4.0.45.jar"
         }
       }
     },
@@ -1856,13 +1860,13 @@
       }
     },
     {
-      "name": "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7",
+      "name": "net.fabricmc:sponge-mixin:0.16.4+mixin.0.8.7",
       "downloads": {
         "artifact": {
-          "sha1": "2af2f021d8e02a0220dc27a7a72b4666d66d44ca",
-          "size": 1494751,
-          "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar",
-          "path": "net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+          "sha1": "26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433",
+          "size": 1504204,
+          "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/sponge-mixin-0.16.4+mixin.0.8.7.jar",
+          "path": "net/fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/sponge-mixin-0.16.4+mixin.0.8.7.jar"
         }
       }
     },
@@ -1988,24 +1992,13 @@
       }
     },
     {
-      "name": "org.slf4j:slf4j-api:2.0.9",
+      "name": "commons-io:commons-io:2.15.1",
       "downloads": {
         "artifact": {
-          "sha1": "7cf2726fdcfbc8610f9a71fb3ed639871f315340",
-          "size": 64579,
-          "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
-          "path": "org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
-        }
-      }
-    },
-    {
-      "name": "org.antlr:antlr4-runtime:4.13.1",
-      "downloads": {
-        "artifact": {
-          "sha1": "17125bae1d965624e265ef49552f6465a2bfa307",
-          "size": 326305,
-          "url": "https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar",
-          "path": "org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
+          "sha1": "f11560da189ab563a5c8e351941415430e9304ea",
+          "size": 501218,
+          "url": "https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+          "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
         }
       }
     },
@@ -2054,35 +2047,46 @@
       }
     },
     {
-      "name": "org.jline:jline-reader:3.20.0",
+      "name": "com.google.guava:guava:32.1.2-jre",
       "downloads": {
         "artifact": {
-          "sha1": "8f15415b022a25b473e8e16c28ae913186ffb9c4",
-          "size": 171052,
-          "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
-          "path": "org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
+          "sha1": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318",
+          "size": 3041591,
+          "url": "https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar",
+          "path": "com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
         }
       }
     },
     {
-      "name": "org.jline:jline-terminal:3.20.0",
+      "name": "com.google.code.gson:gson:2.10.1",
       "downloads": {
         "artifact": {
-          "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
-          "size": 228481,
-          "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
-          "path": "org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
+          "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
+          "size": 283367,
+          "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+          "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
         }
       }
     },
     {
-      "name": "commons-io:commons-io:2.15.1",
+      "name": "org.slf4j:slf4j-api:2.0.9",
       "downloads": {
         "artifact": {
-          "sha1": "f11560da189ab563a5c8e351941415430e9304ea",
-          "size": 501218,
-          "url": "https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
-          "path": "commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
+          "sha1": "7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+          "size": 64579,
+          "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
+          "path": "org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
+        }
+      }
+    },
+    {
+      "name": "org.antlr:antlr4-runtime:4.13.1",
+      "downloads": {
+        "artifact": {
+          "sha1": "17125bae1d965624e265ef49552f6465a2bfa307",
+          "size": 326305,
+          "url": "https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar",
+          "path": "org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
         }
       }
     },
@@ -2098,13 +2102,35 @@
       }
     },
     {
-      "name": "com.google.guava:guava:32.1.2-jre",
+      "name": "org.codehaus.plexus:plexus-utils:3.3.0",
       "downloads": {
         "artifact": {
-          "sha1": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318",
-          "size": 3041591,
-          "url": "https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar",
-          "path": "com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+          "sha1": "cf43b5391de623b36fe066a21127baef82c64022",
+          "size": 263253,
+          "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar",
+          "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.jline:jline-reader:3.20.0",
+      "downloads": {
+        "artifact": {
+          "sha1": "8f15415b022a25b473e8e16c28ae913186ffb9c4",
+          "size": 171052,
+          "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
+          "path": "org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
+        }
+      }
+    },
+    {
+      "name": "com.machinezoo.noexception:noexception:1.7.1",
+      "downloads": {
+        "artifact": {
+          "sha1": "b65330c98e38a1f915fa54a6e5eca496505e3f0a",
+          "size": 250861,
+          "url": "https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar",
+          "path": "com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
         }
       }
     },
@@ -2175,35 +2201,13 @@
       }
     },
     {
-      "name": "com.google.code.gson:gson:2.10.1",
+      "name": "org.jline:jline-terminal:3.20.0",
       "downloads": {
         "artifact": {
-          "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
-          "size": 283367,
-          "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
-          "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
-        }
-      }
-    },
-    {
-      "name": "org.codehaus.plexus:plexus-utils:3.3.0",
-      "downloads": {
-        "artifact": {
-          "sha1": "cf43b5391de623b36fe066a21127baef82c64022",
-          "size": 263253,
-          "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar",
-          "path": "org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
-        }
-      }
-    },
-    {
-      "name": "com.machinezoo.noexception:noexception:1.7.1",
-      "downloads": {
-        "artifact": {
-          "sha1": "b65330c98e38a1f915fa54a6e5eca496505e3f0a",
-          "size": 250861,
-          "url": "https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar",
-          "path": "com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
+          "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff",
+          "size": 228481,
+          "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
+          "path": "org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
         }
       }
     }
