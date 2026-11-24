@@ -133,7 +133,7 @@
         // Advanced feature! Edit this with caution.
         "parameters": {
           "humidity": {
-            "max": 3.0
+            "max": 0.3
           },
           "temperature": {
             "max": 0.2,
@@ -440,7 +440,7 @@
         // Advanced feature! Edit this with caution.
         "parameters": {
           "humidity": {
-            "min": 3.0
+            "min": 0.3
           },
           "temperature": {
             "max": 0.2,
@@ -710,7 +710,7 @@
     "weight_multiplier": 1.0
   },
   // Don't touch this!
-  "config_version": 1,
+  "config_version": 2,
   "misc": {
     // "place_branches" = place RU's dedicated branch blocks, "place_logs" = place log blocks, "dont_place" = don't place any branches
     "branch_mode": "place_branches",

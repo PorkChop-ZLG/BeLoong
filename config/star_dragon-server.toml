@@ -58,3 +58,7 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0
 	cubesBonusMax = 0.5
+	#Damage multiplier when starlight is exhausted: 1.0 is normal, 0.5 halves damage, 0.0 disables it. Applies in all environments.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	exhaustionDamageFactor = 1.0
