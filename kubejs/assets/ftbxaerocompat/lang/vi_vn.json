@@ -1,0 +1,6 @@
+{
+  "gui.ftbxaerocompat_claimed": "Đã chiếm: %d / %d",
+  "gui.ftbxaerocompat_force_loaded": "Đã ép tải: %d / %d",
+  "gui.ftbxaerocompat_minimap_claims": "Khu vực chiếm của FTB trên bản đồ nhỏ",
+  "gui.ftbxaerocompat_box_minimap_claims": "Hiển thị khu vực chiếm của FTB Chunks trên bản đồ nhỏ."
+}

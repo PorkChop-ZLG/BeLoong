@@ -1,0 +1,6 @@
+{
+  "gui.ftbxaerocompat_claimed": "已认领：%d / %d",
+  "gui.ftbxaerocompat_force_loaded": "已强制加载：%d / %d",
+  "gui.ftbxaerocompat_minimap_claims": "小地图上的FTB认领区域",
+  "gui.ftbxaerocompat_box_minimap_claims": "在小地图上显示FTB区块的认领区域。"
+}
